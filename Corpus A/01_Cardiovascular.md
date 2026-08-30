@@ -715,13 +715,33 @@ Systemic IgE-mediated hypersensitivity — massive mast cell degranulation → i
 **Mx:**
 - **Immediate/acute:**
 
-> [!danger] **Adrenaline 1:1000 IM injection — ASCIA weight-and-age criteria** (corrected during the L3 seam audit; this box previously gave the superseded pure age-band split)
-> - **>50 kg and ≥12 years: 0.5 mL (500 mcg)** — the adult dose
-> - **>20 kg and ≥5 years: 0.3 mL (300 mcg)**
-> - **7.5–20 kg and ≤5 years: 0.15 mL (150 mcg)**
-> - **<7.5 kg / <6 months: 0.1–0.15 mL (100–150 mcg)** — unverified, see `PENDING_GUIDELINE_CHECKS.md` **B50**
+> [!danger] **IM adrenaline 1:1000 — ASCIA 2026 weight/age bands** `→MED:adrenaline`
+> **Owner: [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis.** This is a marked
+> mirror, not an independent copy — correct it there first, then here.
 >
-> Overall rule: **0.01 mg/kg up to a maximum of 0.5 mg**. See [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis for the full entry, and [[15_01b_Paeds_-_Anaphylaxis]] for the paediatric-specific observation criteria — the ASCIA correction from age bands to weight-and-age was made in that file and had not been carried across to here.
+> | Age (years) | Weight (kg) | Volume of 1:1,000 ampoule |
+> |---|---|---|
+> | **~<1** | **<7.5** | **0.1 mL** — **no injector device available; draw it up** |
+> | ~1–2 | 7.5 | 0.1 mL |
+> | ~2–3 | 15 | 0.15 mL |
+> | ~4–6 | 20 | 0.2 mL |
+> | ~7–10 | 30 | 0.3 mL |
+> | ~10–12 | 40 | 0.4 mL |
+> | **>12 and adults** | **>50** | **0.5 mL** |
+>
+> Overall rule: **0.01 mg/kg (= 0.01 mL/kg of 1:1000) up to a maximum of 0.5 mg (0.5 mL)**.
+> **7.5 kg is a DEVICE limit, not a dose limit.** Repeat every 5 minutes if no or inadequate
+> response. IM into the anterolateral thigh.
+
+> [!check] VERIFIED — ASCIA Guidelines: Acute Management of Anaphylaxis, content updated May 2026, p6 (accessed 2026-08-30)
+> **Checked:** every row of the mirrored table above against the source table, and the
+> 0.01 mg/kg ≡ 0.01 mL/kg-of-1:1000 rule with its 0.5 mg cap.
+> **NOT checked:** the intranasal route and neffy® devices (omitted pending a dedicated pass);
+> injector-device brand bands, which are held only in the owner entry; refractory infusion
+> protocols; fluid bolus; IV-bolus exceptions; observation periods; and everything else in this
+> file.
+>
+> See [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis for the full entry, and [[15_01b_Paeds_-_Anaphylaxis]] for the paediatric-specific observation criteria — the ASCIA correction from age bands to weight-and-age was made in that file and had not been carried across to here.
 > - Repeat every 5 min if necessary
 > - IM injection into anterolateral thigh (if using an Epipen — count "3 elephants")
 > - If refractory after 2 doses of IM adrenaline, consider IV adrenaline infusion (expert only)
