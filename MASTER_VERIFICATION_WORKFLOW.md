@@ -476,6 +476,7 @@ is weakest here. **Conditional.**
 - ⬜ `F0-3_Shock_Phenotypes_and_Sepsis_Syndromes`
 - ⬜ `F0-4_Resuscitation_Algorithms_and_Emergency_Procedures`
 - ⬜ `F0-5_Acute_Respiratory__Headache_and_Head_Injury`
+- ⬜ `A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy` — toxicology, pairs with `F0-1`
 
 #### BLOCK 4 — Geriatrics · **ONLY IF ROOM** · 2 files · 11 study topics
 - ⬜ `GER1_Comprehensive_Geriatric_Assessment`
@@ -486,25 +487,26 @@ is weakest here. **Conditional.**
 - ⬜ `A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury`
 - ⬜ `A8_Foreign_Bodies_by_Site`
 
-**`A5_Toxicology_II` moves to Block 3's condition** — it is toxicology, and pairs with `F0-1`.
+> [!warning] **Every B file must have a ⬜ row, not a prose mention.** `A5_Toxicology_II` was
+> initially moved to Block 3 in prose only, and the coverage check caught it with no row. This
+> project has twice found files that were "named nowhere in the queue" — N7, and the nine
+> files found on 2026-08-29. A prose mention is not a queue row. Re-run the coverage check
+> after editing this section: every file in `Corpus B/*.md` must appear exactly once.
 
-### **W2** Sep 7–13 · cardiology · ID/immunology · endocrine · sexual health — **7 files**
+### **W2** Sep 7–13 · cardiology · ID/immunology · endocrine · sexual health — **5 files**
 
 - ⬜ `B1_Chest_Pain_Framework_and_Cardiac_Biomarkers`
 - ⬜ `B2_Hypertension_Spectrum`
 - ⬜ `B3_Arrhythmia__Bradycardia_and_Cardiac_Devices`
 - ⬜ `B4_Syncope__Collapse_and_Hypotension`
 - ⬜ `B5_Murmurs__Endocarditis_and_Vascular_Disease`
-- ⬜ `F0-2_Acid-Base__DKA_and_Fluid_States`
-- ⬜ `F0-3_Shock_Phenotypes_and_Sepsis_Syndromes`
 
-### **W3** Sep 14–20 · MSK/ortho/rheum · respiratory · gynae/breast · anaesthetics — **3 files**
+### **W3** Sep 14–20 · MSK/ortho/rheum · respiratory · gynae/breast · anaesthetics — **2 files**
 
 - ⬜ `A3_Respiratory_Failure__Bronchospasm_and_Hypoxia`
 - ⬜ `A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule`
-- ⬜ `F0-5_Acute_Respiratory__Headache_and_Head_Injury`
 
-### **W4** Sep 21–27 · psychiatry · renal/urology · paediatrics · haematology — **0 files (MERGE FREEZE)**
+### **W4** Sep 21–27 · psychiatry · renal/urology · paediatrics · haematology — **0 files**
 
 Its one file, `A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies`, is **moved to
 after W5** and is listed there. Leaving it listed here would invite a session to merge it
@@ -515,12 +517,11 @@ during the freeze week.
 - ⬜ `A10_Ethics__Capacity__Consent_and_Certification`
 - ⬜ `B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations`
 
-### **After W5** · no matching study week, plus the file displaced by the freeze — **4 files**
+### **After W5** · no matching study week, plus the file displaced by the freeze — **3 files**
 
 - ⬜ `A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest`
 - ⬜ `A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies` — **displaced from W4 by the merge freeze**
 - ⬜ `A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies`
-- ⬜ `F0-4_Resuscitation_Algorithms_and_Emergency_Procedures`
 
 > [!danger] **WEEK 4 (Sep 21–27) IS A MERGE FREEZE. MCQ1 is Friday 27 September.**
 > No merge, no PR, no branch. The single W4 file (`A9_Transfusion…`) moves to **after W5**.
