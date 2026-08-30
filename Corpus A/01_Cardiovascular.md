@@ -719,15 +719,15 @@ Systemic IgE-mediated hypersensitivity — massive mast cell degranulation → i
 > **Owner: [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis.** This is a marked
 > mirror, not an independent copy — correct it there first, then here.
 >
-> | Age (years) | Weight (kg) | Volume of 1:1,000 ampoule |
-> |---|---|---|
-> | **~<1** | **<7.5** | **0.1 mL** — **no injector device available; draw it up** |
-> | ~1–2 | 7.5 | 0.1 mL |
-> | ~2–3 | 15 | 0.15 mL |
-> | ~4–6 | 20 | 0.2 mL |
-> | ~7–10 | 30 | 0.3 mL |
-> | ~10–12 | 40 | 0.4 mL |
-> | **>12 and adults** | **>50** | **0.5 mL** |
+> | Age (years) | Weight (kg) | Volume of 1:1,000 ampoule | Device |
+> |---|---|---|---|
+> | **~<1** | **<7.5** | **0.1 mL** | **no injector device available — draw it up** |
+> | ~1–2 | 7.5 | 0.1 mL | |
+> | ~2–3 | 15 | 0.15 mL | |
+> | ~4–6 | 20 | 0.2 mL | |
+> | ~7–10 | 30 | 0.3 mL | |
+> | ~10–12 | 40 | 0.4 mL | |
+> | **>12 and adults** | **>50** | **0.5 mL** | |
 >
 > Overall rule: **0.01 mg/kg (= 0.01 mL/kg of 1:1000) up to a maximum of 0.5 mg (0.5 mL)**.
 > **7.5 kg is a DEVICE limit, not a dose limit.** Repeat every 5 minutes if no or inadequate
