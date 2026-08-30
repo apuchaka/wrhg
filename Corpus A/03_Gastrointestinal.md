@@ -1418,6 +1418,17 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 
 ---
 
+### 0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis
+`SRC:C3_Jaundice_and_Liver_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+Two complications of portal hypertension that are respiratory rather than abdominal, and are missed because they are not looked for:
+
+- **Hepatopulmonary syndrome** — intrapulmonary vascular dilatation causing hypoxaemia. The characteristic sign is **platypnoea-orthodeoxia: breathlessness and desaturation that are *worse sitting or standing up* and improve on lying flat** — the opposite of orthopnoea, and the reason it is recognisable at the bedside. The dilated vessels are basal, so upright posture directs more blood through them.
+- **Portopulmonary hypertension** — pulmonary arterial hypertension arising in the setting of portal hypertension. It matters because it alters both prognosis and transplant candidacy.
+
+**Ix:** pulse oximetry **erect and supine** in any cirrhotic patient with unexplained breathlessness (*why:* it is the bedside test for platypnoea-orthodeoxia and costs nothing; *what:* a fall in saturation on sitting or standing). Echocardiography (*why:* estimates pulmonary artery pressure and, with agitated saline, demonstrates intrapulmonary shunting; *what:* raised pulmonary pressures, late-appearing bubbles). `UNVERIFIED — the desaturation threshold that defines orthodeoxia, and the pulmonary pressure thresholds for portopulmonary hypertension; specialist respiratory or hepatology guidance.`
+
+
 ## 0.39 Ileus
 
 > [!note] Gap-filled from CSV (Gastroenterology & Hepatology category, Medium yield, "unlikely covered") — not covered in the source notes, which cover mechanical SBO/LBO in detail but not the non-mechanical differential.
@@ -1663,6 +1674,30 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 > **The treatment is cessation**, which is definitive but slow; symptomatic management in the acute episode is supportive. Ask about cannabis use in any patient with unexplained recurrent vomiting.
 
 **Ix:** CT abdomen in adults where obstruction is suspected (*why:* identifies the obstruction, its transition point and its cause; *what:* transition point, mass, hernia). Gastroscopy for suspected gastric outlet obstruction (*why:* distinguishes benign scarring from malignancy and permits biopsy and dilatation; *what:* stricture, tumour).
+
+---
+
+### 0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification
+`SRC:C3_Jaundice_and_Liver_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** senescent red cells are broken down in the reticuloendothelial system → haem → biliverdin → **unconjugated bilirubin**, which is lipid-soluble, tightly albumin-bound and therefore **cannot be filtered by the glomerulus** → transported to the liver → taken up by hepatocytes → **conjugated with glucuronic acid by UGT1A1** → **conjugated bilirubin**, which is water-soluble → excreted in bile → converted by gut bacteria to urobilinogen and stercobilin, which colours the stool.
+
+> [!danger] The urine and stool answer the first question
+> **Unconjugated bilirubin is albumin-bound and cannot enter the urine.** So:
+> - **Jaundice with normal-coloured urine = unconjugated** (prehepatic, or a conjugation defect).
+> - **Jaundice with dark urine and pale stools = conjugated**, with impaired excretion — hepatocellular or obstructive.
+>
+> This pair of questions, asked in the history at no cost, splits the differential before any test returns. **Pruritus** additionally points strongly toward cholestasis.
+
+> [!tip] The three-way classification
+> **Prehepatic** — increased bilirubin load. Haemolysis, ineffective erythropoiesis, resorption of a large haematoma. **Unconjugated.**
+> **Hepatic** — impaired uptake, conjugation or excretion by the hepatocyte. Hepatitis (§0.9), cirrhosis (§0.38), drugs, Gilbert syndrome. **Mixed, or unconjugated where the defect is in conjugation.**
+> **Posthepatic** — obstruction to biliary flow. Stones, strictures, tumours (§0.3, §0.4, §0.5, §0.14). **Conjugated.**
+
+> [!note] What this section deliberately does not do
+> The **LFT pattern** (hepatocellular vs cholestatic, the AST:ALT ratio, and why the panel measures injury rather than function) is owned by [[NEW_Investigations_Gastroenterology]] §0.1 and is not restated here.
+> **Hepatic encephalopathy grading** is already at §0.6.3 above.
+> **`Dubin-Johnson` and `Rotor` syndromes are absent from this vault and were not supplied by the merged material either** — a real gap, recorded rather than filled from memory.
 
 ---
 
