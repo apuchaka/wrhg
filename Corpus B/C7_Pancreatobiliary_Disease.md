@@ -140,7 +140,7 @@ Fat-soluble vitamin replacement. Diabetes management with attention to hypoglyca
 Pain: multimodal, with **neuropathic agents and a deliberate effort to avoid opioid escalation**, since chronic opioid dependence is a major problem in this group. **Coeliac plexus block**, endoscopic duct decompression or stenting, and surgical drainage or resection in selected patients.
 
 ### 0.3.3 Mx – Chronic/long-term
-Dietitian involvement — **malnutrition is the rule rather than the exception**. Bone protection. Alcohol and drug support. Cancer vigilance. Cross-refer `TODO:link — P1 Preventive & occupational health (unbuilt)`.
+Dietitian involvement — **malnutrition is the rule rather than the exception**. Bone protection. Alcohol and drug support. Cancer vigilance. Cross-refer `TODO:link — GER3 Preventive & occupational health (unbuilt; was P1 in build queue v1)`.
 
 ---
 
@@ -255,4 +255,4 @@ Symptom-specific measures worth knowing: **coeliac plexus block or neurolysis fo
 ---
 
 > [!note] Cross-references
-> Epigastric pain and the acute abdomen → [[C1_Acute_Abdomen]] 0.4 and 0.9 · Obstructive jaundice and Courvoisier → [[C3_Jaundice_and_Liver_Disease]] 0.3 · Ascending cholangitis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.11 · Vomiting and gastric outlet obstruction → [[C2_Nausea_and_Vomiting]] 0.3 · Chronic diarrhoea and faecal elastase → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.4 · Third-spacing and fluid sequestration → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.10 · The deteriorating post-operative patient → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.5 · Hypertriglyceridaemia → `TODO:link — I5 Weight, lipids & fluid balance (unbuilt)` · Palliative care and symptom control → `TODO:link — J5 Oncology & palliative (unbuilt)` · Alcohol and smoking cessation support → `TODO:link — P1 Preventive & occupational health (unbuilt)`
+> Epigastric pain and the acute abdomen → [[C1_Acute_Abdomen]] 0.4 and 0.9 · Obstructive jaundice and Courvoisier → [[C3_Jaundice_and_Liver_Disease]] 0.3 · Ascending cholangitis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.11 · Vomiting and gastric outlet obstruction → [[C2_Nausea_and_Vomiting]] 0.3 · Chronic diarrhoea and faecal elastase → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.4 · Third-spacing and fluid sequestration → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.10 · The deteriorating post-operative patient → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.5 · Hypertriglyceridaemia → `TODO:link — I5 Weight, lipids & fluid balance (unbuilt)` · Palliative care and symptom control → `TODO:link — J5 Oncology & palliative (unbuilt)` · Alcohol and smoking cessation support → `TODO:link — GER3 Preventive & occupational health (unbuilt; was P1 in build queue v1)`

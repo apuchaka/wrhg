@@ -102,7 +102,7 @@ Decontamination with PPE. Airway management with aggressive suctioning — secre
 Pralidoxime reactivates cholinesterase and addresses the nicotinic features that atropine does not touch, but only before ageing. `UNVERIFIED — pralidoxime dosing and the time window before ageing require verification.` Benzodiazepines for seizures. Intubation and ventilation for the intermediate syndrome — delayed proximal and respiratory muscle weakness developing after the acute cholinergic phase resolves, which catches teams who have relaxed.
 
 ### 0.3.3 Mx – Chronic/long-term
-Prolonged ICU stay is common. Delayed peripheral neuropathy is described. Occupational exposure requires workplace notification — cross-refer `TODO:link — P1 Preventive & occupational health (unbuilt)` Occupational Exposure.
+Prolonged ICU stay is common. Delayed peripheral neuropathy is described. Occupational exposure requires workplace notification — cross-refer `TODO:link — GER3 Preventive & occupational health (unbuilt; was P1 in build queue v1)` Occupational Exposure.
 
 ---
 
@@ -238,7 +238,7 @@ A–E, IV access, continuous monitoring, early ICU and Poisons Information Centr
 Escalation to lipid emulsion, pacing, or extracorporeal support in refractory cases — ICU decisions. Whole bowel irrigation is considered for slow-release preparations. `UNVERIFIED — indications and technique require verification.`
 
 ### 0.7.3 Mx – Chronic/long-term
-Mental health assessment. Where paediatric and exploratory, medication storage counselling and safeguarding consideration — cross-refer `TODO:link — P3 Safeguarding & forensic (unbuilt)` Neglect Concern.
+Mental health assessment. Where paediatric and exploratory, medication storage counselling and safeguarding consideration — cross-refer `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)` Neglect Concern.
 
 ---
 

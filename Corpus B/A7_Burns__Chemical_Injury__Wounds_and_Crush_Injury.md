@@ -75,7 +75,7 @@ See 0.2.
 > Partial thickness burns are extremely painful, dressing changes more so. Use multimodal analgesia with opioid titration, and anticipate procedural analgesia needs. Under-treatment of burn pain is common and avoidable — cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9.
 
 > [!danger] Non-accidental injury
-> Patterns raising concern in a child: **sharply demarcated "glove and stocking" or "doughnut" scald distributions** suggesting forced immersion · symmetrical burns · burns with no splash marks · **cigarette burns** — discrete, round, uniform · burns to the buttocks or perineum · **delayed presentation** · a history inconsistent with the injury or with the child's developmental stage · a changing history. Any of these mandates escalation and a child protection discussion. Cross-refer `TODO:link — P3 Safeguarding & forensic (unbuilt)` Safeguarding.
+> Patterns raising concern in a child: **sharply demarcated "glove and stocking" or "doughnut" scald distributions** suggesting forced immersion · symmetrical burns · burns with no splash marks · **cigarette burns** — discrete, round, uniform · burns to the buttocks or perineum · **delayed presentation** · a history inconsistent with the injury or with the child's developmental stage · a changing history. Any of these mandates escalation and a child protection discussion. Cross-refer `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)` Safeguarding.
 
 **Ix:** As per 0.1, with serial UEC, urine output monitoring and weight (*why:* resuscitation is titrated to urine output and daily weight tracks fluid accumulation; *what:* hourly urine output, weight trend). Serial FBC and albumin (*why:* haemoconcentration then dilution, and protein loss from the burn surface; *what:* haematocrit, falling albumin). Wound swabs where infection is suspected — not routinely (*why:* burns are colonised, so routine swabs generate misleading results and drive unnecessary antibiotics; *what:* organism where clinical infection is present).
 
@@ -122,7 +122,7 @@ PPE. Remove clothing. Brush off dry agent. **Copious prolonged irrigation.** Ide
 Burns unit referral — **all chemical burns meet referral criteria.** Surgical debridement. Correction of electrolyte derangement.
 
 ### 0.3.3 Mx – Chronic/long-term
-Occupational assessment and **SafeWork SA notification** where work-related. Review of workplace handling procedures and PPE. Cross-refer `TODO:link — P1 Preventive & occupational health (unbuilt)` Occupational Exposure.
+Occupational assessment and **SafeWork SA notification** where work-related. Review of workplace handling procedures and PPE. Cross-refer `TODO:link — GER3 Preventive & occupational health (unbuilt; was P1 in build queue v1)` Occupational Exposure.
 
 ---
 
@@ -226,4 +226,4 @@ Renal follow-up, since most myoglobinuric acute kidney injury recovers but some 
 ---
 
 > [!note] Cross-references
-> Inhalation and airway burns → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.2 · Carbon monoxide poisoning → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.4 · Electrical injury → [[A6_Thermal_and_Environmental_Injury]] 0.8 · Hypofluoric acid systemic toxicity and the Poisons Information Centre → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.1 · Chemical eye injury in the ophthalmology context → `TODO:link — E1 Red & painful eye (unbuilt)` · Analgesia and regional blocks → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9–0.11 · Non-accidental injury → `TODO:link — P3 Safeguarding & forensic (unbuilt)` · Wound management basics in the existing corpus → [[Examination]] Wound Management
+> Inhalation and airway burns → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.2 · Carbon monoxide poisoning → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.4 · Electrical injury → [[A6_Thermal_and_Environmental_Injury]] 0.8 · Hypofluoric acid systemic toxicity and the Poisons Information Centre → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.1 · Chemical eye injury in the ophthalmology context → `TODO:link — E1 Red & painful eye (unbuilt)` · Analgesia and regional blocks → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9–0.11 · Non-accidental injury → `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)` · Wound management basics in the existing corpus → [[Examination]] Wound Management

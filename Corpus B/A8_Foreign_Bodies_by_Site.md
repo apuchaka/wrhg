@@ -32,7 +32,7 @@ conflicts_r1: 0
 > Button battery or multiple magnets at any site · a child who will not cooperate and cannot be safely immobilised · an object impacted medially in the ear canal beyond the isthmus · suspected penetrating ocular injury · signs of perforation at any site · an object you cannot see clearly · previous failed attempts elsewhere.
 
 > [!danger] Safeguarding
-> **A rectal or vaginal foreign body in a prepubertal child raises the possibility of sexual abuse and must be escalated**, not simply removed and discharged. Recurrent foreign body insertion in children also warrants consideration of neglect, developmental concerns or abuse. In adults, consider intellectual disability, psychiatric illness, deliberate self-harm and body packing. Cross-refer `TODO:link — P3 Safeguarding & forensic (unbuilt)` Safeguarding & Forensic.
+> **A rectal or vaginal foreign body in a prepubertal child raises the possibility of sexual abuse and must be escalated**, not simply removed and discharged. Recurrent foreign body insertion in children also warrants consideration of neglect, developmental concerns or abuse. In adults, consider intellectual disability, psychiatric illness, deliberate self-harm and body packing. Cross-refer `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)` Safeguarding & Forensic.
 
 > [!info] Foreign body sensation with nothing found
 > Persisting sensation after a foreign body has passed or been removed is common and usually reflects **mucosal abrasion**, which takes days to settle — particularly in the throat after a fish bone and on the cornea after an abrasion. However, sensation is not a reliable guide to absence: **a persistent, well-localised sensation in the throat, or persisting ocular symptoms, warrants specialist visualisation** rather than reassurance alone, because a retained object and an abrasion feel the same to the patient.
@@ -145,7 +145,7 @@ Acuity, then topical anaesthetic, then examination with fluorescein and lid ever
 Rust ring removal, topical antibiotic prophylaxis, and ophthalmology review. Surgical removal of intraocular foreign bodies.
 
 ### 0.4.3 Mx – Chronic/long-term
-**Review within 24–48 hours** for any corneal foreign body removal. Eye protection advice and, where the injury was occupational, workplace review and SafeWork SA notification. Cross-refer `TODO:link — E1 Red & painful eye (unbuilt)` and `TODO:link — P1 Preventive & occupational health (unbuilt)`.
+**Review within 24–48 hours** for any corneal foreign body removal. Eye protection advice and, where the injury was occupational, workplace review and SafeWork SA notification. Cross-refer `TODO:link — E1 Red & painful eye (unbuilt)` and `TODO:link — GER3 Preventive & occupational health (unbuilt; was P1 in build queue v1)`.
 
 ---
 
@@ -238,7 +238,7 @@ Assess for perforation. Analgesia. Imaging. Non-judgemental history. Surgical in
 Transanal removal with sedation or anaesthesia and sphincter relaxation, or operative management. Post-removal sigmoidoscopy.
 
 ### 0.7.3 Mx – Chronic/long-term
-Sensitive discussion of safer practice where relevant, and assessment for underlying psychiatric illness, intellectual disability or self-harm where the circumstances suggest it. **In a child, this is a safeguarding presentation and requires child protection escalation.** Cross-refer `TODO:link — P3 Safeguarding & forensic (unbuilt)`.
+Sensitive discussion of safer practice where relevant, and assessment for underlying psychiatric illness, intellectual disability or self-harm where the circumstances suggest it. **In a child, this is a safeguarding presentation and requires child protection escalation.** Cross-refer `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)`.
 
 ---
 
@@ -268,9 +268,9 @@ Removal in an adult, usually straightforward with a speculum and sponge forceps.
 Removal, treatment of associated infection, and repair of erosion or fistula where present.
 
 ### 0.8.3 Mx – Chronic/long-term
-Pessary care education and **a scheduled review interval for anyone with a pessary in situ**, since forgotten pessaries are a recurring source of this presentation. Tampon safety advice. **In a child, ongoing child protection involvement.** Cross-refer `TODO:link — O5 Pelvic & vulval (unbuilt)` Vulvovaginal Symptom and `TODO:link — P3 Safeguarding & forensic (unbuilt)`.
+Pessary care education and **a scheduled review interval for anyone with a pessary in situ**, since forgotten pessaries are a recurring source of this presentation. Tampon safety advice. **In a child, ongoing child protection involvement.** Cross-refer `TODO:link — O5 Pelvic & vulval (unbuilt)` Vulvovaginal Symptom and `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)`.
 
 ---
 
 > [!note] Cross-references
-> Inhaled foreign body and unilateral wheeze → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.4 · Chemical eye injury → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.4 · Wound foreign bodies and imaging choice → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5 · Deep neck space infection → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 · Ocular presentations → `TODO:link — E1 Red & painful eye (unbuilt)` · Safeguarding → `TODO:link — P3 Safeguarding & forensic (unbuilt)` · Poisons Information Centre 13 11 26 for battery ingestion advice
+> Inhaled foreign body and unilateral wheeze → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.4 · Chemical eye injury → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.4 · Wound foreign bodies and imaging choice → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5 · Deep neck space infection → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 · Ocular presentations → `TODO:link — E1 Red & painful eye (unbuilt)` · Safeguarding → `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)` · Poisons Information Centre 13 11 26 for battery ingestion advice

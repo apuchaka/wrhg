@@ -142,7 +142,7 @@ Effective ventilation and oxygenation are the priority. Compressions per the age
 Reversible causes, then transfer to a paediatric intensive care service. Australian paediatric retrieval services should be contacted early rather than after stabilisation fails.
 
 ### 0.4.3 Mx – Chronic/long-term
-Family support and debrief. Investigation of the underlying cause. Mandatory reporting and safeguarding consideration where the presentation is unexplained — cross-refer `TODO:link — P3 Safeguarding & forensic (unbuilt)` Safeguarding.
+Family support and debrief. Investigation of the underlying cause. Mandatory reporting and safeguarding consideration where the presentation is unexplained — cross-refer `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)` Safeguarding.
 
 ---
 
@@ -298,7 +298,7 @@ Titrated IV analgesia for severe acute pain with reassessment. Multimodal base. 
 Treat the underlying cause. Regional block where indicated. Acute pain service involvement for complex cases.
 
 ### 0.9.3 Mx – Chronic/long-term
-Explicit deprescribing plan and stop date for any opioid on discharge, communicated to the GP. Cross-refer `TODO:link — P1 Preventive & occupational health (unbuilt)` and [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing.
+Explicit deprescribing plan and stop date for any opioid on discharge, communicated to the GP. Cross-refer `TODO:link — GER3 Preventive & occupational health (unbuilt; was P1 in build queue v1)` and [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing.
 
 ---
 

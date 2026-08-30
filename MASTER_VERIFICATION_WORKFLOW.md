@@ -419,7 +419,9 @@ is exactly items 1–3 above, and the reason the pre-MCQ line sits where it does
 
 ## 1.1.9.2 Step 29 — Corpus B merge order, mapped to the study weeks
 
-> [!danger] **STEP 29 IS ONGOING, NOT FINITE. "All 37 merged" is not completion.**
+> [!danger] **STEP 29 HAS NO FIXED ENDPOINT. "All 37 merged" is not completion — and neither is any other number.**
+>
+> **v2 plans 194 parts across 89 clusters, against 37 files on disk**, and Corpus B is built *while* Step 29 merges it. The denominator moves, so any completion percentage is wrong when written.
 > Corpus B is roughly **one third built** — 37 files against 96 planned clusters, with **753
 > items still to build** — and **new B files arrive continuously** while the build queue runs.
 > The 37 below are a snapshot, not a scope.
@@ -428,6 +430,26 @@ is exactly items 1–3 above, and the reason the pre-MCQ line sits where it does
 > **re-derive this list from the filesystem at the start of every session** rather than
 > trusting the file names written here. A session that treats 37 as the total will report the
 > merge finished while files it never saw sit unmerged.
+
+> [!danger] **If C and D are re-split into per-part files, merged content must be RECONCILED, not re-merged.**
+> The hardest case in Step 29, and otherwise absent from it.
+>
+> `C1` has been merged into Corpus A. Later `C1a`/`C1b`/`C1c` appear carrying the same content
+> re-cut. A session treating them as unmerged B files merges the same material twice, into
+> destinations that already hold it — and `_meta/merges/C1_Acute_Abdomen.md` will not flag it,
+> because that record is keyed to the **old filename**.
+>
+> **A new B file whose content derives from an already-merged file is a RE-SPLIT, not new
+> material.** Before merging any `<code><letter>` file, check `_meta/merges/` for `<code>`:
+> 1. **Do not merge as new.** Diff the part file against the record's destination sections.
+> 2. **Only genuinely new prose is additive**, under `### Added from unverified layer` with its
+>    own `SRC:` token naming the part file.
+> 3. **Content already merged is skipped and RECORDED as skipped** in
+>    `_meta/merges/<partfile>.md`, pointing at the original record. Without the discard rows a
+>    re-split is indistinguishable from new material.
+> 4. **A clinical difference in the re-cut is a `CONFLICT`, not an update.** Never silently
+>    overwrite merged content.
+
 
 All **37** clinical B files assigned (the two `00_BUILD_QUEUE*` files are infrastructure).
 Assigned **by content and frontmatter `block:`**, not by filename prefix — see the prefix audit below.
@@ -442,6 +464,44 @@ return**, and blocks 3–5 are explicitly conditional.
 > against 7 files for 102.** A later session that finishes the week because the week says 21
 > has spent its effort in the wrong place. If time runs out mid-block, stop — an unmerged
 > block costs nothing.
+
+> [!tip] **v2's arithmetic independently agrees with the estimate reached here** — §2 puts
+> weeks 1–4 at **~146 parts, 37–61 hours** against roughly **3 hours a week** of study: the
+> same conclusion reached from file counts by a different route.
+>
+> **Its recommendation is adopted: build the (a) layer across each week first, then return for
+> (b) and (c) in October before the OSCE on 1 Nov.** Part (a) of every cluster is
+> self-sufficient for the MCQ, so an (a)-first sweep loses no OSCE content — it sequences it
+> after the exam that comes first. **Same logic as Block 1 vs Blocks 3–5: order by study
+> return, and let low-return work be genuinely conditional.**
+
+
+> [!check] **BLOCKER RESOLVED — answer (b). v2's built-count is stale; C and D are complete. Block 1 may proceed.**
+> Determined by reading the artefacts, not the index.
+>
+> **Every declared part of all 14 C and D clusters is covered by an existing section** in the
+> current single files — including the `c` parts, the decisive test, since a framework-only
+> file would have `a` and nothing else:
+>
+> | Cluster | part | Covered by |
+> |---|---|---|
+> | `C1` | a | §0.1 Framework · §0.2 Assessment & Peritonism · §0.9 Generalised & the Catastrophes |
+> | `C1` | **b** | §0.3 RUQ · §0.4 Epigastric · §0.5 LUQ · §0.6 RLQ · §0.7 LLQ · §0.8 Suprapubic — **all five regions** |
+> | `C1` | **c** | §0.10 Abdominal Trauma · §0.11 The Acute Abdomen in Special Groups |
+> | `C3` | c | §0.7 Hepatomegaly, Splenomegaly and Hepatic Pain |
+> | `D3` | c | §0.7 Subacute and Chronic Focal Deficit |
+>
+> **v2's own §9 contradicts its own body.** "Built so far: 15 files covering Phase A, F0 and
+> Phase B" — but A(10) + F0(5) + B(6) = **21**, not 15, and v2 separately marks `GER1` and
+> `GER2` **BUILT**. On disk: **37**. Stale in two directions at once, so **"Next to build:
+> C1a" is wrong** — that content is already `C1` §0.1, §0.2 and §0.9.
+>
+> **What differs is FILE GRANULARITY, not content.** Per-part files later would be a
+> **re-split of existing content** — re-cutting what exists, never re-deriving it.
+>
+> **Method note:** the first automated pass reported `C4` as covering neither part. Keyword
+> artefact — the file spells out "Upper/Lower **Gastrointestinal** Bleeding" where the pattern
+> looked for "upper GI". Verified by reading (rule 3). **14 of 14.**
 
 #### BLOCK 1 — Gastroenterology · **DO FIRST** · 7 files · **102 study topics**
 **New-file gate ON** (§1.1.9.1): halt to `_meta/merges/PENDING_NEW_FILES.md` before creating

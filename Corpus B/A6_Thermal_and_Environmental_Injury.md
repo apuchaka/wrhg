@@ -255,7 +255,7 @@ Rescue with attention to rescuer safety. **Ventilation first** — rescue breath
 Ventilatory support with PEEP for surfactant dysfunction and ARDS. ICU. Extracorporeal support in refractory cases, particularly with severe hypothermia. **Antibiotics are not routine** — reserve them for aspiration of grossly contaminated water or established infection.
 
 ### 0.7.3 Mx – Chronic/long-term
-Investigate the precipitant, including cardiac assessment where arrhythmia is suspected and family screening for long QT. **Prevention advice: pool fencing, which is legislated in South Australia, supervision of young children, swimming ability, life jackets, and alcohol avoidance around water.** Neurological rehabilitation for hypoxic injury. **Consider safeguarding assessment in any paediatric drowning** — cross-refer `TODO:link — P3 Safeguarding & forensic (unbuilt)`.
+Investigate the precipitant, including cardiac assessment where arrhythmia is suspected and family screening for long QT. **Prevention advice: pool fencing, which is legislated in South Australia, supervision of young children, swimming ability, life jackets, and alcohol avoidance around water.** Neurological rehabilitation for hypoxic injury. **Consider safeguarding assessment in any paediatric drowning** — cross-refer `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)`.
 
 ---
 
@@ -293,7 +293,7 @@ Investigate the precipitant, including cardiac assessment where arrhythmia is su
 Burns unit referral for significant injury. Fasciotomy for compartment syndrome. Debridement of necrotic muscle, often requiring repeated exploration. Renal replacement therapy where required.
 
 ### 0.8.3 Mx – Chronic/long-term
-Neurological and psychological sequelae are common and frequently under-recognised — chronic pain, neuropathy, cognitive complaints, anxiety and PTSD. Cataract screening after lightning injury. **Occupational injury requires SafeWork SA notification and workplace investigation.** Cross-refer `TODO:link — P1 Preventive & occupational health (unbuilt)` Occupational Exposure.
+Neurological and psychological sequelae are common and frequently under-recognised — chronic pain, neuropathy, cognitive complaints, anxiety and PTSD. Cataract screening after lightning injury. **Occupational injury requires SafeWork SA notification and workplace investigation.** Cross-refer `TODO:link — GER3 Preventive & occupational health (unbuilt; was P1 in build queue v1)` Occupational Exposure.
 
 ---
 
