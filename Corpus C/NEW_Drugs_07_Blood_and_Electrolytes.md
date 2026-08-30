@@ -24,6 +24,11 @@ conflicts_r1: 0
 
 > [!info] **What each product is for**
 > - **Packed red cells** — to treat **symptomatic anaemia and acute blood loss**, raising oxygen-carrying capacity. Sources describe a **haemoglobin below about 70 g/L** as the commonest trigger in a stable patient, with **higher thresholds in acute coronary syndrome and active bleeding** — but the decision is clinical, not a number alone.
+>   - **THIS IS AN ADULT TRANSFUSION TRIGGER. DO NOT APPLY IT TO A NEONATE OR INFANT.**
+>     Neonatal and paediatric transfusion thresholds are set by postnatal age, respiratory
+>     support and clinical state, and a neonatal threshold is not this number.
+>     `UNVERIFIED — paediatric and neonatal transfusion thresholds, per the NBA Patient
+>     Blood Management Guidelines (Module 6, Neonatal and Paediatrics).`
 > - **Platelets** — to prevent or treat bleeding in **thrombocytopenia or platelet dysfunction**. Prophylactic thresholds differ from therapeutic ones, and from those before a procedure.
 > - **FFP** — replaces **multiple coagulation factors**, for coagulopathy with bleeding, massive transfusion, and DIC. **It is a poor and slow way to reverse warfarin** — prothrombin complex concentrate is far better (see `NEW_Drugs_06_Cardiovascular.md` 0.2).
 > - **Cryoprecipitate** — the concentrated **fibrinogen** product (also factor VIII, von Willebrand factor and factor XIII), for **hypofibrinogenaemia**, most often in **massive haemorrhage or consumptive coagulopathy**.
@@ -204,6 +209,8 @@ conflicts_r1: 0
 
 > [!danger] **B₆ is the water-soluble vitamin that IS toxic, and the toxicity is a NEUROPATHY — the same symptom people often take it for.**
 > Sources describe a **sensory peripheral neuropathy with paraesthesia, ataxia and imbalance**, usually at **doses above 1000 mg/day**, but **reported below 500 mg/day with supplementation over several months**. It arises from **chronic supratherapeutic supplement use or excessive iatrogenic dosing** — including from **multivitamins and energy drinks that patients do not think of as medicines**. **There is no antidote: treatment is stopping the pyridoxine, and recovery may be incomplete.** **Ask about supplements in any unexplained sensory neuropathy.**
+> - **ADULT FIGURES.** Paediatric pyridoxine dosing is per kilogram, and the
+>   neurotoxicity thresholds above should not be read as a paediatric safe ceiling.
 
 - **Vitamin B₁₂ and folate** — see 0.2.4, including the **B₁₂-before-folate** rule.
 - **Niacin (B₃)** — deficiency causes **pellagra** (dermatitis, diarrhoea, dementia); see `NEW_Drugs_06_Cardiovascular.md` 0.9.5 for its abandoned lipid role and the flushing.

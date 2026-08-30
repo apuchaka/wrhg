@@ -96,6 +96,13 @@ conflicts_r1: 0
   - Neutropenia and thrombocytopenia with prolonged courses; **DRESS**.
 - **Monitoring — and the standard has changed:** sources describe the **2020 consensus shift from trough-based to AUC-guided monitoring**, targeting an **AUC/MIC of approximately 400–600 mg·h/L**, on the grounds that trough targets of 15–20 mg/L drove unnecessary exposure and **acute kidney injury**. **Know which method your hospital uses**, and monitor renal function throughout.
 
+> [!danger] **THE VANCOMYCIN TARGETS ABOVE ARE ADULT TARGETS. DO NOT APPLY THEM IN A
+> CHILD OR A NEONATE.** Paediatric and especially neonatal vancomycin dosing and
+> monitoring differ in interval, in target, and in how the exposure is calculated, and
+> neonatal regimens are set by postmenstrual age and weight, not by an adult AUC target.
+> `UNVERIFIED — paediatric and neonatal vancomycin targets; Therapeutic Guidelines
+> (login). Look up at point of use.`
+
 ### 0.2.8 Lipopeptide
 - **Daptomycin** — inserts into the Gram-positive cell membrane and depolarises it. Active against **MRSA and VRE**.
 - **THE defining limitation: daptomycin is INACTIVATED BY PULMONARY SURFACTANT and therefore does NOT work in pneumonia.** It is used for bacteraemia, right-sided endocarditis, and skin and soft tissue infection — never for a lung source.

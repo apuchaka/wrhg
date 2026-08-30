@@ -77,6 +77,10 @@ conflicts_r1: 0
 
 > [!info] **The FINGERTIP UNIT (FTU) — how to prescribe quantity, and the one figure given in this file.**
 > Sources define it as **the amount squeezed from the fingertip to the first crease ≈ 0.5 g, covering an area equal to two flat adult hands**. Adult body-area guides given: **face and neck 2.5 FTU · one arm 3 FTU · one leg 6 FTU · trunk front or back 7 FTU · one foot 2 FTU.** Use this to calculate a realistic tube size — and **prescribe enough**. (Paediatric FTU requirements are lower and are age-banded; use a paediatric chart rather than scaling an adult figure — **CLAUDE.md rule 5**.)
+> - **THE BODY-AREA FTU COUNTS ABOVE ARE ADULT COUNTS.** Paediatric FTU guides are given
+>   per age band, and a child's counts are not a scaled-down version of an adult's — the
+>   ratio of head to body surface area changes with age. Use a paediatric FTU chart.
+>   `UNVERIFIED — paediatric FTU counts by age band, per RCH.`
 
 - **Adverse effects (local, and the reason potency is matched to site):** **skin atrophy, striae** (permanent), telangiectasia, purpura, hypopigmentation, **perioral dermatitis and steroid rosacea** on the face, hypertrichosis, delayed wound healing, and **masking or worsening of infection**. Sources note **atrophy risk rises with higher potency, occlusion, thinner skin and older age**, and that the **face, backs of the hands and intertriginous areas** are most susceptible; and that **side effects are rare with low-to-high potency used for three months or less, except on the face and neck, in flexures, and under occlusion.**
 - **Systemic absorption and HPA suppression** are possible with very potent steroids over large areas, under occlusion, in infants (**high surface-area-to-weight ratio**) and in broken skin — a genuine paediatric consideration.

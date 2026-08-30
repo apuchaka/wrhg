@@ -52,6 +52,8 @@ conflicts_r1: 0
 - **Uricosurics — probenecid**
   - **Mechanism:** blocks renal tubular reabsorption of urate, **increasing urinary excretion**.
   - **Use:** an option in under-excretors intolerant of xanthine oxidase inhibitors; sources describe it as **minimally effective** and **not recommended when creatinine clearance is below about 30 mL/min**.
+  - **An adult threshold**, and probenecid is not a paediatric gout drug. Paediatric
+    renal function is assessed against age-specific normals, not this cut-off.
   - **Cautions:** requires **good hydration** — increasing urinary urate risks **urate stones**; contraindicated where there is a history of urolithiasis; interacts with many renally secreted drugs (it was historically used deliberately to prolong penicillin levels).
 - **Corticosteroids** (oral, intra-articular or intramuscular) — a first-line option for acute flares, particularly where NSAIDs and colchicine are contraindicated (renal impairment, anticoagulation, heart failure). **Aspirate the joint and exclude septic arthritis before injecting a steroid into it.**
 - **NSAIDs** — first-line for acute flares in patients without contraindications (see 0.4.2).
