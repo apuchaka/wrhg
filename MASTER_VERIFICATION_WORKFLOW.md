@@ -487,6 +487,19 @@ is weakest here. **Conditional.**
 - ⬜ `A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury`
 - ⬜ `A8_Foreign_Bodies_by_Site`
 
+> [!danger] **The reference that reads as established — three instances, one class.**
+> These look different and are the same failure: **a reference that carries no signal of being
+> unverified, because it looks exactly like every other reference around it.**
+>
+> | Instance | Why it read as established |
+> |---|---|
+> | The inherited `0.7` (§1.34) | In the corpus since the first commit, formatted like every other section pointer. Copied into a new cross-reference without checking. |
+> | `GER` vs `P2` | A prefix stated confidently in conversation. Believed until both queue files were actually compared — and it was backwards. |
+> | `A5` in prose, no queue row | Named in a sentence, so it *reads* as covered. The queue's own coverage check is the only thing that sees it is not. |
+>
+> **None of the three announces itself.** The defence is the same in each case: **verify the
+> reference against the artefact it points at, not against how settled it looks.**
+
 > [!warning] **Every B file must have a ⬜ row, not a prose mention.** `A5_Toxicology_II` was
 > initially moved to Block 3 in prose only, and the coverage check caught it with no row. This
 > project has twice found files that were "named nowhere in the queue" — N7, and the nine

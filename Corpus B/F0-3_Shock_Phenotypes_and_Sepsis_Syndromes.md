@@ -296,7 +296,7 @@ Immunisation status review, investigation for immunodeficiency after severe or r
 ICU management with vasopressor support, blood product support for DIC, and management of limb ischaemia from purpura fulminans, which may require surgical input.
 
 ### 0.9.3 Mx – Chronic/long-term
-Contact tracing and prophylaxis. Hearing assessment after meningitis. Limb and skin sequelae including amputation and grafting. **Investigate complement deficiency after invasive meningococcal disease**, particularly if recurrent or a non-vaccine serogroup. Immunisation review — cross-refer [[15_Paeds]] and the current Australian Immunisation Handbook schedule.
+Contact tracing and prophylaxis. Hearing assessment after meningitis. Limb and skin sequelae including amputation and grafting. **Investigate complement deficiency after invasive meningococcal disease**, particularly if recurrent or a non-vaccine serogroup. Immunisation review — cross-refer `TODO:link — 15_Paeds, the 15_* Paeds series (40 files); the specific file is not determinable from the reference` and the current Australian Immunisation Handbook schedule.
 
 ---
 

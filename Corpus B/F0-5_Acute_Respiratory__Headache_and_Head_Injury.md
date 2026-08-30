@@ -332,7 +332,7 @@ Analgesia and antipyretics — **adequate analgesia is the intervention that mos
 Drainage of quinsy. Admission for IV antibiotics and fluids where oral intake fails. Airway management in deep neck space infection.
 
 ### 0.10.3 Mx – Chronic/long-term
-Tonsillectomy assessment for recurrent tonsillitis or recurrent quinsy against defined frequency criteria. **In high-risk populations, follow-up to complete the antibiotic course and consideration of secondary prophylaxis where acute rheumatic fever has occurred.** Cross-refer [[13_ENT]] and `TODO:link — F4 Neck lumps & facial pain (unbuilt)` Neck Lumps.
+Tonsillectomy assessment for recurrent tonsillitis or recurrent quinsy against defined frequency criteria. **In high-risk populations, follow-up to complete the antibiotic course and consideration of secondary prophylaxis where acute rheumatic fever has occurred.** Cross-refer `TODO:link — 13_ENT, the 13_* ENT series (10 files); the specific file is not determinable from the reference` and `TODO:link — F4 Neck lumps & facial pain (unbuilt)` Neck Lumps.
 
 ---
 
