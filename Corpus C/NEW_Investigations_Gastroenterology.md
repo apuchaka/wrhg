@@ -43,6 +43,17 @@ conflicts_r1: 0
 
 **Alt:** Albumin and INR (function); ultrasound (first-line imaging); viral and autoimmune serology; iron studies, caeruloplasmin, α1-antitrypsin; FibroScan; biopsy.
 
+### 0.1.1 Added from unverified layer — a raised ALP with a normal GGT
+`SRC:C3_Jaundice_and_Liver_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+The GGT confirms that a raised ALP is hepatobiliary, as stated above. **When the ALP is raised and the GGT is normal, the source is not the liver** — and the differential is worth knowing rather than merely noting the negative:
+
+- **Bone** — **Paget disease**, **bone metastases**, **osteomalacia**, a **healing fracture**, hyperparathyroidism, and normal **growth in children and adolescents**.
+- **Placenta** — physiological in pregnancy.
+
+No reference interval is stated here; ALP intervals are laboratory-specific and age-specific, as this file already notes.
+
+
 ## 0.2 Liver Auto-antibodies (AMA, SMA, ANA, anti-LKM)
 
 **D:** Autoantibody panel for autoimmune liver disease.

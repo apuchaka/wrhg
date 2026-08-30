@@ -1418,6 +1418,17 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 
 ---
 
+### 0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis
+`SRC:C3_Jaundice_and_Liver_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+Two complications of portal hypertension that are respiratory rather than abdominal, and are missed because they are not looked for:
+
+- **Hepatopulmonary syndrome** — intrapulmonary vascular dilatation causing hypoxaemia. The characteristic sign is **platypnoea-orthodeoxia: breathlessness and desaturation that are *worse sitting or standing up* and improve on lying flat** — the opposite of orthopnoea, and the reason it is recognisable at the bedside. The dilated vessels are basal, so upright posture directs more blood through them.
+- **Portopulmonary hypertension** — pulmonary arterial hypertension arising in the setting of portal hypertension. It matters because it alters both prognosis and transplant candidacy.
+
+**Ix:** pulse oximetry **erect and supine** in any cirrhotic patient with unexplained breathlessness (*why:* it is the bedside test for platypnoea-orthodeoxia and costs nothing; *what:* a fall in saturation on sitting or standing). Echocardiography (*why:* estimates pulmonary artery pressure and, with agitated saline, demonstrates intrapulmonary shunting; *what:* raised pulmonary pressures, late-appearing bubbles). `UNVERIFIED — the desaturation threshold that defines orthodeoxia, and the pulmonary pressure thresholds for portopulmonary hypertension; specialist respiratory or hepatology guidance.`
+
+
 ## 0.39 Ileus
 
 > [!note] Gap-filled from CSV (Gastroenterology & Hepatology category, Medium yield, "unlikely covered") — not covered in the source notes, which cover mechanical SBO/LBO in detail but not the non-mechanical differential.
