@@ -71,10 +71,31 @@ The project now holds three corpora, not one:
 |---|---|---|---|
 | **A** | ~148 | `inherited` | The original notes. Plausible, in use, never systematically checked. |
 | **B** | 37 | `unverified` | Built from model knowledge. Every figure marked or omitted. |
-| **C** | 53 | `snippet` | AMH/guideline-derived via snippets. **States no doses or reference ranges.** |
+| **C** | 53 | `snippet` | AMH/guideline-derived via snippets. **Inconsistent on figures — see below.** |
 
 `verified` is reserved for content checked against a named Australian source, with its scope
 recorded (§1.9).
+
+> [!danger] **Corpus C is NOT reliably figure-free. Never assume it.**
+> This table previously read "States no doses or reference ranges", generalised from five
+> sample files. **It is wrong.** Checking all 22 Corpus C drug files, **8 state a dose or
+> a dose-adjacent quantity** — among them the full ASCIA adrenaline table in
+> `NEW_Drugs_01` (`0.01 mL/kg`, max `0.5 mg`, injector bands from **7.5 kg**),
+> `hydrocortisone 100 mg IV` in `NEW_Drugs_10`, loperamide maxima, anti-D `500 IU`,
+> pyridoxine thresholds, Hb transfusion triggers and vancomycin `AUC/MIC 400–600 mg·h/L`.
+>
+> **Most of C abstains; some of it does not.** `figures: none` is therefore a **per-file
+> finding, established by reading that file** — never a corpus-wide assumption, and never
+> inferred from C's provenance. Only 3 of the 22 drug files currently carry the key.
+>
+> **Where a C file states a dose, the fix is the `NEW_Drugs_10` pattern, not deletion:**
+> ```
+> > - **SURGERY:** hydrocortisone 100 mg IV at induction, then 200 mg per 24 hours…
+> >   - **THESE TWO FIGURES ARE ADULT DOSES. DO NOT USE THEM IN A CHILD.** Paediatric
+> >     cover is dosed by body weight or body surface area, not as a fixed adult quantity.
+> ```
+> That is rule 5 in its correct form, and it is the model for every dose already sitting
+> in C.
 
 **Corpus A is `inherited`, not `verified`.** Step 17's re-run found seven UK leftovers in
 files an earlier sweep had already flagged, and `co-amoxiclav` still sits in
@@ -216,9 +237,13 @@ an ASCIA adrenaline table that stopped at 7.5 kg, so a reader following the poin
 infant reached a table that did not cover them. A pointer to an incomplete owner is worse
 than a local figure, because nothing signals the failure.
 
-**Do not add doses or reference ranges to Corpus C, and do not backfill its 53 empty
-`Normal:`/`Abnormal:` fields.** The abstention is what makes C safe; the only available
-filling material is model knowledge.
+**Do not add NEW doses or reference ranges to Corpus C, and do not backfill its empty
+`Normal:`/`Abnormal:` fields.** The only available filling material is model knowledge.
+
+**But do not treat C as figure-free** (§1.6): 8 of its 22 drug files already state doses,
+so "C states no doses" must never be used as a premise — not to skip a check, not to grant
+`figures: none`, and not to assume a C dose came from somewhere else. Existing figures are
+**scoped in place using the `NEW_Drugs_10` pattern**, never deleted.
 
 Step 12 already covers same-fact-in-3+-files consistency. `→MED:` mirrors exist to make that
 check mechanical, not to replace it.

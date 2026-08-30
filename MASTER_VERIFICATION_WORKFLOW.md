@@ -999,7 +999,7 @@ the original design sketch.
 |---|---|---|---|
 | **A** | 148 | `inherited` | The original notes. Plausible, in use, never systematically checked. |
 | **B** | **39 files / 37 clinical** | `unverified` | Built from model knowledge. `00_BUILD_QUEUE.md` and `00_BUILD_QUEUE_v2.md` are B's own build queues — infrastructure. Label them so `lint` passes; exclude them by name from every content tally. |
-| **C** | 53 | `snippet` | AMH/guideline-derived via snippets. **States no doses or reference ranges.** |
+| **C** | 53 | `snippet` | AMH/guideline-derived via snippets. **Inconsistent on figures — 8 of its 22 drug files state a dose. See CLAUDE.md §1.6.** |
 | — | `Medications_Reference.md` | `snippet` | Vault root, in no corpus directory, so **no `init` run reaches it**. Set by hand. |
 
 ```bash
@@ -1146,6 +1146,36 @@ context.
 
 ## 1.34 Step 28 — Corpus C remediation and integration (53 files)
 
+> [!danger] **Required in this step: scope every figure Corpus C already states.**
+> C is **not** figure-free (CLAUDE.md §1.6, corrected 2026-08-30). **8 of its 22 drug
+> files state a dose or dose-adjacent quantity**, found by the Step 26 audit:
+>
+> | File | Figure |
+> |---|---|
+> | `NEW_Drugs_01_Allergy_and_Anaphylaxis` | the full ASCIA adrenaline table — `0.01 mL/kg`, max `0.5 mg`, injector bands from **7.5 kg**. **This is B50 duplicated — see `PENDING_GUIDELINE_CHECKS.md` B71** |
+> | `NEW_Drugs_10_Endocrine` | `hydrocortisone 100 mg IV` at induction + `200 mg/24 h`; HPA-suppression threshold `15–25 mg` hydrocortisone equivalent daily; eGFR `30 mL/min/1.73 m²` |
+> | `NEW_Drugs_07_Blood_and_Electrolytes` | Hb transfusion trigger `<70 g/L`; ESA targets `≤115 g/L`, `100–115 g/L`; pyridoxine neuropathy `>1000 mg/day`, reported `<500 mg/day`; SZC trial `5 g`/`10 g` |
+> | `NEW_Drugs_12_Gastrointestinal` | loperamide max `~8 mg/day`, cardiotoxicity `>100 mg/day` |
+> | `NEW_Drugs_16_Obstetric_and_Gynaecological` | anti-D `500 IU` at 28 and 34 weeks |
+> | `NEW_Drugs_05_Anti_infectives` | vancomycin `AUC/MIC 400–600 mg·h/L`, trough `15–20 mg/L` |
+> | `NEW_Drugs_03_Analgesics` | creatinine clearance `<30 mL/min` |
+> | `NEW_Drugs_08_Dermatological` | fingertip unit `≈0.5 g`; `15 g` tube |
+>
+> **`NEW_Drugs_10` is the model, and the pattern to apply — not deletion:**
+>
+> ```markdown
+> > - **SURGERY:** hydrocortisone 100 mg intravenously at induction followed by an
+> >   infusion of 200 mg per 24 hours…
+> >   - **THESE TWO FIGURES ARE ADULT DOSES. DO NOT USE THEM IN A CHILD.** Paediatric
+> >     perioperative and stress glucocorticoid cover is dosed **by body weight or body
+> >     surface area**, not as a fixed adult quantity.
+> ```
+>
+> That is CLAUDE.md rule 5 in its correct form. **Deleting the figure loses information;
+> scoping it makes the figure safe.** Apply it to every absolute quantity in the table
+> above that lacks a population scope. `figures: none` stays a **per-file finding** — only
+> 3 of the 22 drug files currently earn it.
+
 **One session per 10 files** — a 53-file diff is not reviewable.
 
 Per file: refile entries in the wrong system file (CSF studies, Coombs, G-CSF and
@@ -1157,9 +1187,13 @@ Then rename to the corpus scheme and convert the 65 backticked file references
 (`` `NEW_Drugs_03_Analgesics.md` 0.3.4 ``) into wikilinks, **verifying each target header
 first (rule 1)**. C's 42 existing wikilinks already resolve; leave them.
 
-**Do not add doses or reference ranges to Corpus C. Do not backfill its 53 empty
-`Normal:`/`Abnormal:` fields.** The abstention is deliberate and is what makes C safe — the
-only available filling material is model knowledge.
+**Do not add NEW doses or reference ranges to Corpus C, and do not backfill its empty
+`Normal:`/`Abnormal:` fields** — the only available filling material is model knowledge.
+**But C is not figure-free, and must never be assumed to be:** 8 of its 22 drug files
+already state a dose, including the ASCIA adrenaline table in `NEW_Drugs_01`. `figures:
+none` is a per-file finding established by reading the file. Existing figures are **scoped
+in place using the `NEW_Drugs_10` pattern — "THESE TWO FIGURES ARE ADULT DOSES. DO NOT USE
+THEM IN A CHILD" — never deleted.**
 
 Ownership: **`Medications_Reference.md` is not the dose owner.** Its own scope note forbids
 the role ("Nothing was moved here"), it holds two entries, and it states no doses. Record

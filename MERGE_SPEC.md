@@ -18,7 +18,7 @@ Four things found in your files change the starting assumptions.
 
 **B's cross-references are all broken.** 167 wikilinks to placeholder codes (`[[C4]]`, `[[F0.2]]`, `[[A9]]`, `[[O6]]`, `[[GER1]]`) with no counterpart in your vault. Both corpora also number sections `## 0.x` — A's GI file runs 0.1–0.42, C1 runs 0.1–0.10 — so any file-level merge collides immediately.
 
-**Corpus C is figure-free by design, and this is its most important property.** Zero doses across all five drug files, under an explicitly stated rule ("no doses are stated anywhere in this file") driven by AMH and eTG being subscription-gated. The investigation files extend the same abstention to reference intervals ("laboratory-specific and are deliberately not stated"). C therefore shares almost no numbers with A or B, and the numeric drift risk that §4 and §5 were designed around is much smaller than assumed. **Preserve this abstention rather than filling the gaps** — an absent figure that names its source is safer than a remembered one, and the vaccines file makes the argument better than I can: the numbers that change fastest are exactly the ones worth not writing down.
+> [!danger] **CORRECTED 2026-08-30 — this paragraph was wrong, and it is where the error started.** It read "Corpus C is figure-free by design… **Zero doses across all five drug files**". There are **22** Corpus C drug files, not five, and **8 of them state a dose or dose-adjacent quantity** — the full ASCIA adrenaline table in `NEW_Drugs_01` (including the 7.5 kg injector floor that is B50), `hydrocortisone 100 mg IV` in `NEW_Drugs_10`, loperamide maxima, anti-D `500 IU`, pyridoxine thresholds, Hb transfusion triggers, vancomycin `AUC/MIC 400–600 mg·h/L`. The claim was a generalisation from a five-file sample and it propagated into CLAUDE.md §1.6 and the Step 26/28 tables, all now corrected. **Most of C abstains; some of it does not. `figures: none` is a per-file finding, never a corpus-wide assumption.**
 
 **C is not purely reference material.** `NEW_ENT_and_Oral.md` is a clinical topic file (`block: NEW build — Presentations & Symptoms`, TIER 2). C is three things — drug classes by AMH section, investigations by system, and some clinical topics — and only the first two are what you described.
 
@@ -50,7 +50,7 @@ trust: inherited       # Corpus A default — plausible, in use, never systemati
 trust: unverified      # Corpus B default — model knowledge
 trust: snippet         # Corpus C default — AMH/guideline-derived via snippets, figures deliberately omitted
 population: adult      # adult | paed | mixed
-figures: none          # optional, Corpus C — this file states no doses or reference ranges
+figures: none          # optional — set ONLY after reading that file and finding no figure
 ```
 
 `snippet` sits between `inherited` and `unverified`: the prose derives from named Australian sources but was not read in full, and the file abstains from figures rather than guessing them. The `figures: none` flag is what tells the drift script it can skip the file entirely, and what tells future-you not to "helpfully" add a dose.
@@ -400,7 +400,7 @@ Ordered so that stopping at any point leaves you better off than when you starte
 - Do not renumber sections. Cosmetic, enormous diffs, zero study value.
 - Do not repair B's 167 links. Strip them and move on.
 - Do not restructure investigations or medicines before the MCQ. Per §4 and §5 the restructure is now much smaller than feared, but it is still lower-yield than the labelling and naming passes.
-- **Do not add doses or reference ranges to Corpus C.** Its abstention is a safety property, not an omission to fix. This is the rule most likely to be broken by a well-meaning future session.
+- **Do not add NEW doses or reference ranges to Corpus C**, and do not treat C as figure-free: 8 of its 22 drug files already state one. Existing figures are scoped in place with the `NEW_Drugs_10` pattern, never deleted. Adding what looks like a missing figure is still the rule most likely to be broken by a well-meaning future session.
 - Do not attempt to verify Corpus A's `inherited` content systematically. It is 150 files. Label it, sweep the R1 classes, and let the rest stay honestly labelled.
 - Do not merge non-GI systems until the appendicitis pilot has survived a week of actual use.
 - Do not delete anything from Corpus B until its content is either merged or explicitly rejected in a commit message.
@@ -427,7 +427,7 @@ Ordered so that stopping at any point leaves you better off than when you starte
 
 **Merged files get very large.** `03_Gastrointestinal` is already 158KB; C1 adds 43KB. Obsidian handles it, mobile search may get slow, and a 200KB file is unpleasant to navigate. Splitting by presentation vs disease may become necessary.
 
-**Corpus C's abstention gets eroded.** The files say "no doses stated" and mean it. A later session — yours or an AI's — fills in what looks like a gap, and the one corpus that could be trusted to contain no half-remembered numbers stops being that. The `figures: none` frontmatter flag is a weak defence; the real defence is the rule in §5 being written down where it will be read.
+**Corpus C's abstention gets eroded — and it was never as complete as this document claimed.** Most files say "no doses stated" and mean it; 8 of the 22 drug files do state doses. A later session fills in what looks like a gap, and the corpus that could be trusted to contain no half-remembered numbers stops being that. The `figures: none` flag is a weak
 
 **C's partial schema invites backfilling.** 53 of 64 entries lack `Normal:` and `Abnormal:`. The pull to complete a visibly incomplete table is strong, and the only available filling material is model knowledge.
 
