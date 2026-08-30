@@ -211,8 +211,28 @@ presentation-type sections inside disease files (`03_Gastrointestinal` §0.41 is
 Pain — Regional Anatomy and DDx"). A duplicate file is the one error nothing downstream
 detects. Rule 2 applies: zero grep hits is not proof of absence.
 
-**Corpus B's 167 wikilinks** point at placeholder codes (`[[C4]]`, `[[F0.2]]`, `[[A9]]`) that
-resolve to nothing. Strip to `` `TODO:link — topic` ``. Never guess a target.
+**Corpus B's wikilinks are FILENAME PREFIXES, not placeholder codes. Do not strip them —
+expand them.** This said "167 wikilinks point at placeholder codes that resolve to nothing".
+Measured across all 39 files: **798 wikilinks, 764 unresolved**, and the characterisation was
+wrong as well as the number. `[[C4]]` is `C4_Gastrointestinal_Bleeding`, `[[GER1]]` is
+`GER1_Comprehensive_Geriatric_Assessment`, `[[A9]]` is `A9_Transfusion__Coagulopathy…`.
+**They dangle only because the prefix is not the full filename.**
+
+**The mapping is not a pure prefix match** — `[[F0.2]]` uses a dot where the filename uses a
+hyphen (`F0-2_Acid-Base__DKA_and_Fluid_States`). Build it by measurement: normalise `.`→`-`,
+require the code to be followed by `_`, and require **exactly one** matching file. Report any
+prefix that does not resolve to exactly one.
+
+| | n | Rule |
+|---|---|---|
+| **Expandable** | **573** | Expand to the full filename. Verified: 87 distinct codes, **0 ambiguous**. This is not guessing — the mapping is deterministic against the filesystem. |
+| **Unbuilt targets** | **191** (50 codes) | `E1`, `H4`, `J4`, `L3`, `L4`, `M5`, `N6`, `O6`, `P1`, `P3` … B's scheme reserved codes for files **nobody ever built** — the existing prefixes are only `A1–A10`, `B1–B6`, `C1–C7`, `D1–D7`, `F0-1…F0-5`, `GER1–2`. Used identically in prose (`Acute angle-closure glaucoma → [[E1]]`, `Myeloma → [[J4]]`), so the adjacent text names the topic. **These become `` `TODO:link — topic` ``, and only these.** Never guess a target for them. |
+
+**This is the fourth sampled count, and they share one cause.** "Corpus C states no doses"
+(8 of 22 drug files do), "65 backticked references" (276), "42 wikilinks in C" (195), and
+"167 placeholder links in B" (798/764) were each generalised from the same five-file sample
+rather than counted. **Nobody ran the count.** Before quoting any corpus-wide figure in this
+project, measure it — the habit, not the individual numbers, is the defect.
 
 ---
 

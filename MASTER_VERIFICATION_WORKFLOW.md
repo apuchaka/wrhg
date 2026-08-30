@@ -378,7 +378,8 @@ Added 2026-08-30, rewritten 2026-08-30 after Step 26 was actually run.
 | — | ───── **pre-MCQ line, 27 Sept. Stop here if time is short.** ───── | |
 | 4 | **Step 28** — Corpus C, all 53 files, one block | ⬜ |
 | 5 | **Step 27** — verification-scope audit, chunked | ⬜ |
-| 6 | **Step 29** — Corpus B, ~12 files/week, **topic-ordered** | ⬜ |
+| 6 | **Step 31** — Corpus B wikilink expansion, 573 expand / 191 `TODO:link` (§1.36) | ⬜ |
+| 7 | **Step 29** — Corpus B, ~12 files/week, **topic-ordered** | ⬜ |
 | — | **Step 30** — adjudication | never queued; continuous during study |
 
 **Why the order is not numeric.**
@@ -1397,10 +1398,52 @@ report examined / converted / flagged per chunk.
    Supersession currently leaves no trace anywhere: a section judged `verified`-beats-
    `unverified` simply never appears, so **a wrong supersede is invisible** and there is
    nothing to audit it against. The discard rows are the point of the file.
-6. B's 167 wikilinks point at placeholder codes (`[[C4]]`, `[[F0.2]]`, `[[A9]]`) resolving to
-   nothing. Strip to `` `TODO:link — topic` ``. **Never guess a target.**
+6. **B's wikilinks are filename prefixes, NOT placeholders — never strip them.** See
+   **Step 31**, which expands them corpus-wide before Step 29 begins. During Step 29 the only
+   link work is **retargeting**: as each B file's content lands in Corpus A, rewrite inbound
+   `[[<bfile>]]` links to the destination recorded in `_meta/merges/<bfile>.md`.
 
 **Never adjudicate a conflict.** That is Step 30.
+
+---
+
+## 1.36 Step 31 — Corpus B wikilink EXPANSION (NOT started)
+
+**Split out of Step 29 on 2026-08-30.** The rule it rode inside was scoped for 167 links and
+said *strip*. Both were wrong: there are **764**, and **they are filename prefixes, not
+placeholder codes** — `[[C4]]` is `C4_Gastrointestinal_Bleeding`. **The rule is
+expand-and-retarget, never strip.**
+
+| Class | n | Action |
+|---|---|---|
+| **Expand** | **573** | To the full filename. **Not a pure prefix match:** normalise `.`→`-` (`[[F0.2]]` → `F0-2_Acid-Base__DKA_and_Fluid_States`), anchor the code to a following `_` so `[[A1]]` cannot match `A10_`, and require **exactly one** match. Verified 87 codes, **0 ambiguous**. |
+| **`TODO:link — topic`** | **191** (50 codes) | Targets that were never built. Take the topic from the adjacent prose, which always names it. **Never guess a file.** |
+
+**Report any prefix that does not resolve to exactly one file.** The map is rebuilt by
+measurement at run time, not hard-coded — B's file set can change as Step 29 retires files.
+
+### How expansion interacts with Step 29's merges
+
+Expansion is mechanical **only while the target is still a Corpus B file.** Once Step 29
+merges that file's content into Corpus A, an expanded link points at a file whose content has
+moved — so this is a two-stage problem, and the stages must not be collapsed.
+
+1. **Expand first, before Step 29 starts.** One corpus-wide pass, verifiable invariant, and it
+   makes B navigable during the weeks of merging — which is the entire point of merging in
+   study-topic order: a human is reading these files while the merge proceeds. A broken
+   pointer during that window is a real cost.
+2. **Retarget during Step 29, per file, from the merge record.** `_meta/merges/<bfile>.md`
+   already names every section's destination — **that file is the retarget map.** As each B
+   file merges, rewrite inbound `[[<bfile>]]` links to the Corpus A destination its content
+   landed in.
+3. **CLAUDE.md §1.14 keeps this safe:** a B file is never deleted until every section is
+   merged or explicitly rejected, so no link dangles mid-merge — it points at a file that
+   still exists and still holds the content until the retarget lands.
+4. **Final sweep when all 37 are retired.** Any surviving `[[<B-file>]]` link is a missed
+   retarget, and the count must reach zero.
+
+**Verification for stage 1:** dangling in Corpus B **764 → 191**, total `[[` count
+**unchanged at 798**, digit multiset per file **unchanged** — no clinical figure is touched.
 
 ---
 
