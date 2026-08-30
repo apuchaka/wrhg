@@ -306,3 +306,59 @@ earlier version matched by bare basename, which would have dropped a clinical fi
 one of those names from every scan with no error and nothing downstream detecting the loss.
 Verified after anchoring: walking from the vault root yields exactly one top-level file,
 `Medications_Reference.md`.
+
+---
+
+## Overnight run, 2026-08-30 → 31 — where this stopped
+
+**Stopped cleanly after C3.** Block 1 is C1–C7; **C1, C2 and C3 are merged** (PRs #30, #31,
+#32). **C4–C7, Block 2 (D1–D7), GER1–2 and A6/A7/A8 are NOT started.** Nothing is
+half-merged and no branch is left unmerged — every destination table that was written was
+followed through to its placements.
+
+Resume at **C4_Gastrointestinal_Bleeding**. The method that worked is in the three
+committed destination tables; follow those.
+
+### Corpus B files: 3 of 37 merged
+
+| | |
+|---|---|
+| merged | `C1_Acute_Abdomen`, `C2_Nausea_and_Vomiting`, `C3_Jaundice_and_Liver_Disease` |
+| next | `C4_Gastrointestinal_Bleeding` |
+| not started | C4–C7, D1–D7, GER1–2, A6/A7/A8, and everything mapped to a later week |
+
+**No Corpus B file has been deleted.** C1–C3 are fully merged or explicitly discarded
+section by section, so they are eligible for deletion under §1.14 — but other unmerged B
+files link to them, and deleting now would dangle those links. Deletion is a separate
+decision once Block 1 finishes.
+
+### Conflict state — the do-not-revise-from list is currently EMPTY
+
+Verified two ways: every corpus file's `conflicts_open` and `conflicts_r1` counter reads
+**0**, and the only `CONFLICT CF-` blocks in clinical content are the three **CF-001**
+blocks, all carrying a `RESOLVED 2026-08-30 NEITHER-WRONG` stamp.
+
+One thing would be on that list if it had an ID: the **appendicitis imaging
+disagreement** at `03_Gastrointestinal` §0.18.1, deliberately left without a `CF-` number.
+See `_meta/merges/C1_Acute_Abdomen.md`.
+
+> A search for `CONFLICT CF-` in clinical files now returns a **false positive** at
+> `03_Gastrointestinal` L836 — that line is prose explaining why there is no `CF-` number,
+> not a conflict block. Any future conflict-counting tool needs to exclude it.
+
+### Method lessons from this run
+
+1. **Check gaps against Corpus A *and* Corpus C.** C2 nearly produced a false gap
+   (aprepitant) because only A was searched. Corpus C is `snippet` and outranks Corpus B
+   on provenance, so a topic covered in C means the B section is superseded, not additive.
+2. **Rule 9 fired four times**, once inside a pattern written during this very run:
+   `FAST` matching the English word and the stroke mnemonic · `obturator` matching a
+   hernia, a nerve and lymph nodes · `hot shower` matching Uhthoff's phenomenon and
+   pruritus · `parotid enlargement` present in an HIV file, a different cause of the same
+   sign.
+3. **Rule 2 fired once and would have caused a wrong merge.** `West Haven` returned zero
+   hits; §0.6.3 already carries the full grading under a heading reading only "Grading".
+4. **Two wikilinks written from memory were wrong** and were caught only by checking every
+   link against the filesystem before commit. Do that check every time; do not trust a
+   filename that looks right.
+
