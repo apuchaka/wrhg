@@ -11,8 +11,8 @@ conflicts_r1: 0
 # NEW — Investigations: Haematology (Part 2 — completing the category)
 
 > [!danger] **Why this file exists, recorded per CLAUDE.md rules 7 and 8.**
-> `NEW_Investigations_Haematology.md` was built during the **timed batching test**, where the instruction was to build **ten related investigations** to measure a build rate. It did exactly that — but `data/BULK_BUILD_PLAN.md` then listed it as **"DONE"**, and the **remaining 17 of the category's 28 rows were never built**. Part A was subsequently declared complete on that basis, which was wrong.
-> The gap was found only by **re-deriving every row from `data/build_list_investigations.md` and checking it against the file** — the same technique that found the missing beta-blockers in `NEW_Drug_Classes_Cardiovascular_Antihypertensives.md`. **This file completes the category.** The correction to the Part A completeness claim is recorded in the build status table below and in `data/BULK_BUILD_PLAN.md`.
+> [[NEW_Investigations_Haematology]]was built during the **timed batching test**, where the instruction was to build **ten related investigations** to measure a build rate. It did exactly that — but `data/BULK_BUILD_PLAN.md` then listed it as **"DONE"**, and the **remaining 17 of the category's 28 rows were never built**. Part A was subsequently declared complete on that basis, which was wrong.
+> The gap was found only by **re-deriving every row from `data/build_list_investigations.md` and checking it against the file** — the same technique that found the missing beta-blockers in [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]]. **This file completes the category.** The correction to the Part A completeness claim is recorded in the build status table below and in `data/BULK_BUILD_PLAN.md`.
 
 > [!danger] **Sourcing limitation applying to this whole file.** Australian primary guideline domains are **egress-blocked** (verified 2026-08-30); AMH and Therapeutic Guidelines are subscription-gated. Entries are **snippet-sourced**. Numerics appear only on three-source agreement; assay-dependent values are **omitted with the omission stated in place**.
 
@@ -32,7 +32,7 @@ conflicts_r1: 0
 > - **Both prolonged** → liver disease, **DIC**, vitamin K deficiency, massive transfusion, common pathway factor deficiency.
 > - **Both normal in a patient who is clearly bleeding** → **platelet disorder, von Willebrand disease, factor XIII deficiency, or a vascular/connective tissue cause.** The coagulation screen is normal in all of them, and this is the trap.
 
-> [!warning] **The MIXING STUDY is the next step and it separates the two possibilities.** Mix the patient's plasma 1:1 with normal plasma: **if it CORRECTS, it is a factor DEFICIENCY** (the normal plasma supplies the missing factor); **if it does NOT correct, there is an INHIBITOR** — a lupus anticoagulant (thrombosis risk) or a factor inhibitor such as acquired haemophilia (bleeding risk). **The same prolonged APTT therefore means opposite things**, and the mixing study is what tells them apart. See `NEW_Investigations_Cardiology.md` 0.1.
+> [!warning] **The MIXING STUDY is the next step and it separates the two possibilities.** Mix the patient's plasma 1:1 with normal plasma: **if it CORRECTS, it is a factor DEFICIENCY** (the normal plasma supplies the missing factor); **if it does NOT correct, there is an INHIBITOR** — a lupus anticoagulant (thrombosis risk) or a factor inhibitor such as acquired haemophilia (bleeding risk). **The same prolonged APTT therefore means opposite things**, and the mixing study is what tells them apart. See [[NEW_Investigations_Cardiology]] 0.1.
 
 > [!danger] **Do not ignore**
 > - **Pre-analytical error is the commonest cause of a wrong result:** an underfilled citrate tube (wrong blood-to-anticoagulant ratio), a difficult or clotted collection, a sample taken from a **heparinised line** (a classic and very common false result — always flush and discard, or take from elsewhere), and delayed processing.
@@ -85,7 +85,7 @@ conflicts_r1: 0
 > - **VWF is an ACUTE-PHASE REACTANT and rises with inflammation, stress, exercise, pregnancy, oestrogen (including the combined oral contraceptive) and with blood group.** **Levels are physiologically LOWER in blood group O.** A single normal result does **not** exclude von Willebrand disease — **repeat testing on more than one occasion in a well state is standard**, and the history matters more than one number.
 > - **Type 2B is the exception that changes management: DESMOPRESSIN IS CONTRAINDICATED** because it releases abnormal VWF that binds platelets and causes **thrombocytopenia**. Subtyping therefore precedes treatment.
 > - **Menorrhagia in an adolescent that has been heavy since menarche warrants a bleeding disorder work-up**, not just an oral contraceptive.
-> - **Tranexamic acid is a genuinely useful and under-used treatment** in mild disease and in menorrhagia (see `NEW_Drugs_06_Cardiovascular.md` 0.5).
+> - **Tranexamic acid is a genuinely useful and under-used treatment** in mild disease and in menorrhagia (see [[NEW_Drugs_06_Cardiovascular]] 0.5).
 
 **Normal/abnormal:** Laboratory-specific reference ranges; sources describe a **VWF activity below about 55%, or an abnormally increased activity:antigen ratio**, as the trigger for reflex ristocetin cofactor testing in one laboratory's protocol. **Diagnostic cut-offs are laboratory- and assay-specific and are not stated here.**
 
@@ -119,7 +119,7 @@ conflicts_r1: 0
 
 **D:** An **enzyme immunoassay** detecting antibodies against **platelet factor 4 (PF4) complexed with heparin** — the immune basis of heparin-induced thrombocytopenia.
 
-**Ind:** Suspected **HIT**, in a patient with an **intermediate or high 4Ts score** (see `NEW_Drugs_06_Cardiovascular.md` 0.1.2). **It should not be sent in low-probability patients** — doing so generates false positives and unnecessary switching to more expensive, less familiar anticoagulants.
+**Ind:** Suspected **HIT**, in a patient with an **intermediate or high 4Ts score** (see [[NEW_Drugs_06_Cardiovascular]] 0.1.2). **It should not be sent in low-probability patients** — doing so generates false positives and unnecessary switching to more expensive, less familiar anticoagulants.
 
 **Role:** A **sensitive screening test with limited specificity** — it detects antibodies, many of which are **clinically irrelevant**, so a positive result must be interpreted with the 4Ts score and, where doubt remains, confirmed functionally (0.16).
 
@@ -158,7 +158,7 @@ conflicts_r1: 0
 
 **D:** Cells in suspension are labelled with **fluorochrome-conjugated antibodies** against surface and intracellular antigens and passed single-file through a laser, so each cell's **size, granularity and antigen expression** are measured individually. Sources list the usable specimens as **peripheral blood, bone marrow aspirate, fine needle aspirate, body fluids (including CSF) and cell suspensions from fresh tissue.**
 
-**Ind:** Suspected **acute leukaemia** (unexplained cytopenias, blasts on the film, leucocytosis); suspected **lymphoma or chronic lymphoproliferative disorder** (lymphocytosis, lymphadenopathy); **myeloma** (plasma cell phenotyping); **minimal residual disease** monitoring; **paroxysmal nocturnal haemoglobinuria** (loss of CD55/CD59 — the diagnostic test); **CD4 counts in HIV**; **primary immunodeficiency** lymphocyte subsets; fetomaternal haemorrhage quantification (see `NEW_Investigations_Obstetrics_and_Gynaecology.md` 0.9).
+**Ind:** Suspected **acute leukaemia** (unexplained cytopenias, blasts on the film, leucocytosis); suspected **lymphoma or chronic lymphoproliferative disorder** (lymphocytosis, lymphadenopathy); **myeloma** (plasma cell phenotyping); **minimal residual disease** monitoring; **paroxysmal nocturnal haemoglobinuria** (loss of CD55/CD59 — the diagnostic test); **CD4 counts in HIV**; **primary immunodeficiency** lymphocyte subsets; fetomaternal haemorrhage quantification (see [[NEW_Investigations_Obstetrics_and_Gynaecology]] 0.9).
 
 **Role:** **Classifies haematological malignancy by lineage and maturation** — sources describe it as essential for the diagnosis and immunologic classification of B-cell ALL, and as a **valuable complement to morphology** that resolves differential diagnostic problems morphology alone cannot.
 
@@ -169,12 +169,12 @@ conflicts_r1: 0
 
 > [!danger] **Do not ignore**
 > - **Suspected acute leukaemia is an emergency**: check for **tumour lysis** (potassium, phosphate, urate, calcium, renal function), **neutropenic sepsis**, **DIC** (especially in **acute promyelocytic leukaemia**, which is a haematological emergency requiring immediate ATRA and haematology involvement), **hyperleucocytosis and leucostasis**, and anaemia and thrombocytopenia. **Take the samples and call haematology the same day** — do not book an outpatient appointment.
-> - **Flow cytometry does not show tissue architecture**, so it does not replace a **lymph node excision biopsy** for lymphoma classification (see `NEW_Investigations_General_and_Preventive.md` 0.10).
+> - **Flow cytometry does not show tissue architecture**, so it does not replace a **lymph node excision biopsy** for lymphoma classification (see [[NEW_Investigations_General_and_Preventive]] 0.10).
 > - **Take samples before starting corticosteroids** wherever possible — steroids lyse lymphoblasts and can render the diagnosis unobtainable, which then compromises treatment stratification for the whole illness.
 
 **Normal/abnormal:** Reported as an interpreted **immunophenotype with a diagnosis or differential**, not as raw numbers. Read the conclusion.
 
-**Alt:** **Morphology on blood film and marrow aspirate**; **immunohistochemistry** on fixed tissue (which does show architecture — see `NEW_Investigations_General_and_Preventive.md` 0.11); **cytogenetics and FISH**; **molecular studies and next-generation sequencing**; lymph node or tissue biopsy. See [[10_01_Haemonc_-_Leukaemias_and_Myeloproliferative_Disorders]].
+**Alt:** **Morphology on blood film and marrow aspirate**; **immunohistochemistry** on fixed tissue (which does show architecture — see [[NEW_Investigations_General_and_Preventive]] 0.11); **cytogenetics and FISH**; **molecular studies and next-generation sequencing**; lymph node or tissue biopsy. See [[10_01_Haemonc_-_Leukaemias_and_Myeloproliferative_Disorders]].
 
 ## 0.18 Biopsy and Procedures (Bone Marrow Aspirate and Trephine, Lymph Node Biopsy)
 
@@ -207,7 +207,7 @@ conflicts_r1: 0
 **Role:** Detects, characterises and **quantifies** the monoclonal protein — and the sFLC ratio provides a sensitive measure of clonal burden that the electrophoresis alone cannot.
 
 > [!danger] **The myeloma screen is a SET of tests and ordering only the electrophoresis misses cases.**
-> **SPEP alone misses light-chain-only myeloma** — roughly a fifth of cases — because those patients produce no intact immunoglobulin and therefore no serum M-band. **The screen is: serum electrophoresis + immunofixation + SERUM FREE LIGHT CHAINS, plus urine for Bence-Jones protein.** Reporting "electrophoresis negative" as excluding myeloma is a recognised and serious error. (See also `NEW_Investigations_Orthopaedics_Neurology_and_Other.md` 0.8, which covers the same panel from the orthopaedic back-pain angle.)
+> **SPEP alone misses light-chain-only myeloma** — roughly a fifth of cases — because those patients produce no intact immunoglobulin and therefore no serum M-band. **The screen is: serum electrophoresis + immunofixation + SERUM FREE LIGHT CHAINS, plus urine for Bence-Jones protein.** Reporting "electrophoresis negative" as excluding myeloma is a recognised and serious error. (See also [[NEW_Investigations_Orthopaedics_Neurology_and_Other]] 0.8, which covers the same panel from the orthopaedic back-pain angle.)
 
 > [!warning] **The free light chain RATIO, not the absolute value, is the meaningful result — and the reference range differs in renal impairment.** Light chains are renally cleared, so both κ and λ rise together when the kidneys fail; **a renal reference range for the κ:λ ratio must be applied** or normal renal impairment will be read as a clone.
 
@@ -288,7 +288,7 @@ conflicts_r1: 0
 
 **Normal/abnormal:** Positive (HbS present, type undetermined) or negative.
 
-**Alt:** **Haemoglobin electrophoresis or HPLC — the definitive test** (built as 0.9 of `NEW_Investigations_Haematology.md`); **newborn bloodspot screening**; blood film (sickle cells, target cells, Howell-Jolly bodies indicating hyposplenism); FBC and reticulocytes; **genetic testing** for antenatal diagnosis and family screening.
+**Alt:** **Haemoglobin electrophoresis or HPLC — the definitive test** (built as 0.9 of [[NEW_Investigations_Haematology]]); **newborn bloodspot screening**; blood film (sickle cells, target cells, Howell-Jolly bodies indicating hyposplenism); FBC and reticulocytes; **genetic testing** for antenatal diagnosis and family screening.
 
 ## 0.23 Schilling Test
 
@@ -300,14 +300,14 @@ conflicts_r1: 0
 
 > [!info] **What replaced it, and how the question is actually answered now**
 > 1. **Serum B₁₂** — with the caveat that it is an unreliable test at the margins.
-> 2. **Metabolites where B₁₂ is borderline: METHYLMALONIC ACID and HOMOCYSTEINE**, both of which rise in true tissue deficiency (**MMA is the more specific for B₁₂**, since homocysteine also rises in folate deficiency). These are built as 0.3 and 0.4 of `NEW_Investigations_Haematology.md`.
-> 3. **Anti-intrinsic factor antibodies** — highly **specific but insensitive**, so a positive result confirms pernicious anaemia and a negative one does not exclude it; and **anti-parietal cell antibodies** — sensitive but non-specific. Both are built as 0.5 and 0.6 of `NEW_Investigations_Haematology.md`.
+> 2. **Metabolites where B₁₂ is borderline: METHYLMALONIC ACID and HOMOCYSTEINE**, both of which rise in true tissue deficiency (**MMA is the more specific for B₁₂**, since homocysteine also rises in folate deficiency). These are built as 0.3 and 0.4 of [[NEW_Investigations_Haematology]].
+> 3. **Anti-intrinsic factor antibodies** — highly **specific but insensitive**, so a positive result confirms pernicious anaemia and a negative one does not exclude it; and **anti-parietal cell antibodies** — sensitive but non-specific. Both are built as 0.5 and 0.6 of [[NEW_Investigations_Haematology]].
 > 4. **Gastroscopy with biopsy** where atrophic gastritis or malignancy is suspected, and **coeliac serology** where malabsorption is the question.
 
 > [!danger] **Do not ignore — the clinical points that outlast the test**
 > - **NEUROLOGICAL DAMAGE FROM B₁₂ DEFICIENCY CAN OCCUR WITH A NORMAL FULL BLOOD COUNT AND NO ANAEMIA OR MACROCYTOSIS.** **Subacute combined degeneration of the cord** — dorsal column and corticospinal involvement with paraesthesia, ataxia and weakness — is treatable early and **irreversible late**. Do not wait for a macrocytosis.
 > - **TREAT BEFORE FOLATE.** Giving folate to a B₁₂-deficient patient corrects the anaemia while **allowing the neurological disease to progress**. **Check and replace B₁₂ first.**
-> - **Look for the cause**, not just the number: pernicious anaemia, **metformin**, **proton pump inhibitors and H₂ antagonists**, gastrectomy or bariatric surgery, terminal ileal disease or resection (Crohn disease), coeliac disease, strict vegan diet, and **nitrous oxide exposure — including recreational use** (see `NEW_Drugs_02_Anaesthetics.md` 0.2.4).
+> - **Look for the cause**, not just the number: pernicious anaemia, **metformin**, **proton pump inhibitors and H₂ antagonists**, gastrectomy or bariatric surgery, terminal ileal disease or resection (Crohn disease), coeliac disease, strict vegan diet, and **nitrous oxide exposure — including recreational use** (see [[NEW_Drugs_02_Anaesthetics]] 0.2.4).
 > - **Pernicious anaemia carries an increased risk of gastric carcinoma and carcinoid**, and is associated with other autoimmune disease (thyroid, type 1 diabetes, vitiligo).
 > - See [[10_06a_Haemonc_-_Macrocytic_Anaemia]].
 
@@ -378,8 +378,8 @@ conflicts_r1: 0
 | 0.25 | Petechiae | **UNRESOLVED — needs review** | **Not an investigation** — a clinical sign miscategorised onto the investigations list. Recorded, with the clinical content given because the sign is high-stakes. |
 
 **Items in file: 15 entries covering 17 build-list rows.**
-**Category total: `NEW_Investigations_Haematology.md` (11 rows) + this file (17 rows) = 28 rows = every Haematology row in `data/build_list_investigations.md`. Category now complete.**
+**Category total: [[NEW_Investigations_Haematology]](11 rows) + this file (17 rows) = 28 rows = every Haematology row in `data/build_list_investigations.md`. Category now complete.**
 
 > [!danger] **Correction to an earlier claim, per CLAUDE.md rule 8.**
-> `NEW_Investigations_Orthopaedics_Neurology_and_Other.md` ends with a note stating **"Part A is now complete."** **That claim was wrong when it was written** — 17 Haematology rows and 2 Infectious Diseases rows were unbuilt at that moment. Both gaps have now been closed (the ID items as 0.22 and 0.23 of `NEW_Investigations_Infectious_Diseases.md`), and `data/BULK_BUILD_PLAN.md` has been corrected.
+> [[NEW_Investigations_Orthopaedics_Neurology_and_Other]]ends with a note stating **"Part A is now complete."** **That claim was wrong when it was written** — 17 Haematology rows and 2 Infectious Diseases rows were unbuilt at that moment. Both gaps have now been closed (the ID items as 0.22 and 0.23 of [[NEW_Investigations_Infectious_Diseases]]), and `data/BULK_BUILD_PLAN.md` has been corrected.
 > **The generalisable lesson: a file listed as "DONE" in a plan is not evidence that it covers its rows.** Completeness must be re-derived from the build list, row by row, against the file's actual content — and the numbering continues from 0.11 in this file specifically so that the two Haematology files read as one continuous category rather than concealing the split.

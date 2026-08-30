@@ -66,15 +66,15 @@ conflicts_r1: 0
 ### 0.1.6 Vitamin D
 - **Key agents:** **cholecalciferol (D₃)** and ergocalciferol (D₂) — need hepatic and renal hydroxylation; **calcitriol** and **alfacalcidol** — the activated forms, which bypass the failing kidney.
 - **Indications:** deficiency; with calcium in **osteoporosis** prevention and treatment; rickets and osteomalacia; malabsorption; **chronic kidney disease and hypoparathyroidism (activated forms)**.
-- **Cautions:** **the activated forms cause hypercalcaemia far more readily** than cholecalciferol and need closer monitoring; **check calcium in anyone on high-dose vitamin D**. See `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.4.1 for the toxicity picture.
+- **Cautions:** **the activated forms cause hypercalcaemia far more readily** than cholecalciferol and need closer monitoring; **check calcium in anyone on high-dose vitamin D**. See [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.4.1 for the toxicity picture.
 - **Practical:** **correct vitamin D and calcium BEFORE starting any antiresorptive** — this is the commonest cause of post-treatment hypocalcaemia and is preventable.
 
 ### 0.1.7 Other Drugs Affecting Bone
-- **Calcium supplements** — with vitamin D where dietary intake is inadequate (see `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.3.2).
+- **Calcium supplements** — with vitamin D where dietary intake is inadequate (see [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.3.2).
 - **Menopausal hormone therapy and raloxifene** (a SERM) — reduce fracture risk; raloxifene reduces vertebral fracture and breast cancer risk but **increases VTE and hot flushes**, and does not protect the hip.
 - **Strontium ranelate** — largely withdrawn from use over cardiovascular risk.
 - **Calcitonin** — now little used (malignancy signal with long-term use); occasional short-term role in acute vertebral fracture pain and hypercalcaemia.
-- **Non-drug management is not optional:** **falls prevention, resistance and weight-bearing exercise, adequate protein and calcium intake, smoking and alcohol reduction**, and **a review of drugs that harm bone** — glucocorticoids, aromatase inhibitors, androgen deprivation, some antiepileptics, long-term heparin and PPIs. **Anyone starting long-term glucocorticoids needs bone protection considered from the outset.** See [[11_08b_Ortho_-_Paget_s_Disease_and_Osteoporosis]] and `NEW_Investigations_Orthopaedics_Neurology_and_Other.md` 0.4.
+- **Non-drug management is not optional:** **falls prevention, resistance and weight-bearing exercise, adequate protein and calcium intake, smoking and alcohol reduction**, and **a review of drugs that harm bone** — glucocorticoids, aromatase inhibitors, androgen deprivation, some antiepileptics, long-term heparin and PPIs. **Anyone starting long-term glucocorticoids needs bone protection considered from the outset.** See [[11_08b_Ortho_-_Paget_s_Disease_and_Osteoporosis]] and [[NEW_Investigations_Orthopaedics_Neurology_and_Other]] 0.4.
 
 ## 0.2 Drugs for Diabetes
 
@@ -97,7 +97,7 @@ conflicts_r1: 0
 - **Adverse effects:** **HYPOGLYCAEMIA — the defining risk**, and it can be **prolonged and recurrent**, especially with renal impairment, the elderly, poor intake, alcohol, and long-acting agents; **weight gain**; rash and, rarely, haematological effects.
 
 > [!danger] **SULFONYLUREA HYPOGLYCAEMIA REQUIRES ADMISSION AND PROLONGED OBSERVATION — dextrose alone perpetuates it.**
-> Giving glucose stimulates further insulin release from the drug-bound beta cell, so the patient dips again hours later. **These patients are admitted, observed, and given a dextrose infusion; OCTREOTIDE is the specific measure** that suppresses the insulin release (see `NEW_Drugs_04_Antidotes_and_Antivenoms.md` 0.1.1). **Never discharge a patient home after correcting a sulfonylurea hypoglycaemia.**
+> Giving glucose stimulates further insulin release from the drug-bound beta cell, so the patient dips again hours later. **These patients are admitted, observed, and given a dextrose infusion; OCTREOTIDE is the specific measure** that suppresses the insulin release (see [[NEW_Drugs_04_Antidotes_and_Antivenoms]] 0.1.1). **Never discharge a patient home after correcting a sulfonylurea hypoglycaemia.**
 
 - **Practical:** hold during fasting, prolonged illness or reduced intake; **check driving advice and the patient's hypoglycaemia awareness.**
 
@@ -140,7 +140,7 @@ conflicts_r1: 0
 ### 0.2.8 SGLT2 Inhibitors
 - **Mechanism:** block the **sodium-glucose co-transporter 2** in the proximal tubule → **glycosuria**, with additional natriuresis, weight loss, blood pressure reduction and — the important part — **haemodynamic and metabolic effects on the kidney and heart that are largely independent of glucose lowering.**
 - **Key agents:** **dapagliflozin, empagliflozin, ertugliflozin**.
-- **Indications:** type 2 diabetes; and, increasingly, as **cardiorenal drugs in their own right — heart failure (both reduced and preserved ejection fraction) and chronic kidney disease, WITH OR WITHOUT diabetes** (see `NEW_Drugs_06_Cardiovascular.md` 0.10.4).
+- **Indications:** type 2 diabetes; and, increasingly, as **cardiorenal drugs in their own right — heart failure (both reduced and preserved ejection fraction) and chronic kidney disease, WITH OR WITHOUT diabetes** (see [[NEW_Drugs_06_Cardiovascular]] 0.10.4).
 - **Adverse effects:** **genital mycotic infection** (very common — warn about it, and about hygiene); urinary tract infection; **volume depletion and hypotension**, especially with diuretics and in the elderly; **an initial dip in eGFR that is expected and haemodynamic, not injury** — do not stop the drug for it; **Fournier gangrene** (rare but catastrophic — perineal pain, swelling and erythema is a surgical emergency); and **increased amputation and fracture signals** with some agents.
 
 > [!danger] **EUGLYCAEMIC DIABETIC KETOACIDOSIS — the reason an intern must know this class.**
@@ -169,7 +169,7 @@ conflicts_r1: 0
 
 ### 0.2.10 Other Drugs for Diabetes
 - **Amylin analogue — pramlintide** (limited availability); **bromocriptine** and **colesevelam** have minor glucose-lowering indications overseas.
-- **Drugs for diabetes complications:** ACE inhibitors and ARBs for **albuminuria** (renoprotective independent of blood pressure), **finerenone** in diabetic kidney disease, statins for cardiovascular risk, and agents for **neuropathic pain** (see `NEW_Drugs_15_Neurological.md` 0.6).
+- **Drugs for diabetes complications:** ACE inhibitors and ARBs for **albuminuria** (renoprotective independent of blood pressure), **finerenone** in diabetic kidney disease, statins for cardiovascular risk, and agents for **neuropathic pain** (see [[NEW_Drugs_15_Neurological]] 0.6).
 - **Non-drug management is the foundation:** structured education, dietetic input, physical activity, **glucose monitoring and continuous glucose monitoring** (subsidised in Australia for defined groups — check current NDSS eligibility), sick day plans, **driving advice**, foot care, and **annual screening for retinopathy, nephropathy and neuropathy**.
 - **Vaccination** — influenza, pneumococcal and COVID-19 are specifically recommended in diabetes.
 
@@ -178,7 +178,7 @@ conflicts_r1: 0
 ### 0.3.1 Glucagon Receptor Agonists
 - **Key agent:** **glucagon** — intramuscular, subcutaneous or intranasal; also given intravenously in specific settings.
 - **Mechanism:** stimulates hepatic **glycogenolysis and gluconeogenesis**, raising blood glucose. Also has **inotropic and chronotropic effects mediated independently of the β-receptor**.
-- **Indications:** **severe hypoglycaemia where the patient cannot take oral carbohydrate and intravenous access is not available** — which is exactly the community and pre-hospital situation it exists for; **beta-blocker and calcium channel blocker overdose** (see `NEW_Drugs_04_Antidotes_and_Antivenoms.md` 0.1.1); and as a smooth muscle relaxant for radiological and endoscopic procedures.
+- **Indications:** **severe hypoglycaemia where the patient cannot take oral carbohydrate and intravenous access is not available** — which is exactly the community and pre-hospital situation it exists for; **beta-blocker and calcium channel blocker overdose** (see [[NEW_Drugs_04_Antidotes_and_Antivenoms]] 0.1.1); and as a smooth muscle relaxant for radiological and endoscopic procedures.
 
 > [!danger] **GLUCAGON DOES NOT WORK IF THERE IS NO GLYCOGEN TO MOBILISE.**
 > It is **ineffective or unreliable in prolonged fasting or starvation, alcohol-related hypoglycaemia, liver failure, adrenal insufficiency and glycogen storage disease** — precisely some of the situations in which severe hypoglycaemia occurs. **In hospital, intravenous glucose is the treatment**; glucagon is for when access is not available.
@@ -194,7 +194,7 @@ conflicts_r1: 0
 ### 0.4.1 Thyroid Hormones
 *(covers build-list classes: Thyroid hormones; Synthetic Thyroid Hormones)*
 - **Key agents:** **levothyroxine (T4)** — the standard; **liothyronine (T3)** — rarely, in myxoedema coma and in specialist settings.
-- **Indications:** **hypothyroidism** (primary, central and post-ablative), **congenital hypothyroidism** (detected on newborn screening — see `NEW_Investigations_Orthopaedics_Neurology_and_Other.md` 0.17, and **treatment is urgent** because delay causes irreversible intellectual disability), TSH suppression after thyroid cancer, and **myxoedema coma**.
+- **Indications:** **hypothyroidism** (primary, central and post-ablative), **congenital hypothyroidism** (detected on newborn screening — see [[NEW_Investigations_Orthopaedics_Neurology_and_Other]] 0.17, and **treatment is urgent** because delay causes irreversible intellectual disability), TSH suppression after thyroid cancer, and **myxoedema coma**.
 
 > [!info] **Administration determines whether it works.** Sources describe levothyroxine as recommended **in a fasting state, 30–60 minutes before breakfast**, with **up to 80% absorbed when fasting**, and note that **food and several medications interfere with absorption**. Consistency matters more than the precise timing — bedtime dosing, at least 3 hours after food, is a validated alternative for people who cannot manage the morning routine.
 - **Interactions that cause apparent treatment failure:** **calcium, iron, magnesium, antacids, proton pump inhibitors, colestyramine, sucralfate, soy and coffee** reduce absorption — **separate by at least 4 hours**. **Enzyme inducers (rifampicin, phenytoin, carbamazepine) increase requirements**, as does **oestrogen** (raised thyroxine-binding globulin) and **pregnancy**.
@@ -253,7 +253,7 @@ conflicts_r1: 0
 ### 0.5.2 Mineralocorticoids
 - **Key agent:** **fludrocortisone**.
 - **Mechanism:** potent mineralocorticoid receptor agonist → sodium and water retention, potassium excretion.
-- **Indications:** **primary adrenal insufficiency (Addison disease) — replacement alongside a glucocorticoid**; congenital adrenal hyperplasia; **orthostatic hypotension and autonomic failure** (see `NEW_Drugs_06_Cardiovascular.md` 0.11.5).
+- **Indications:** **primary adrenal insufficiency (Addison disease) — replacement alongside a glucocorticoid**; congenital adrenal hyperplasia; **orthostatic hypotension and autonomic failure** (see [[NEW_Drugs_06_Cardiovascular]] 0.11.5).
 - **Not needed in SECONDARY adrenal insufficiency** — the renin-angiotensin-aldosterone axis is intact, and this distinction is frequently misunderstood.
 - **Adverse effects:** **hypertension, oedema, heart failure, hypokalaemia and metabolic alkalosis.**
 - **Monitoring:** blood pressure (lying and standing), **potassium, sodium, and plasma renin activity** as a guide to adequacy of replacement in Addison disease.
@@ -264,7 +264,7 @@ conflicts_r1: 0
 - **Indications:** **hyperprolactinaemia and prolactinoma** — sources describe cabergoline as **the preferred agent because of high efficacy and tolerability**, and **medical therapy shrinks even macroadenomas, so surgery is usually not first-line** (a genuinely distinctive fact among pituitary tumours); acromegaly (adjunct); Parkinson disease (largely superseded); and **lactation suppression** (used selectively).
 - **Adverse effects:** **nausea, postural hypotension and dizziness** (start low, take at night with food), headache, nasal congestion, constipation; **impulse control disorders — pathological gambling, hypersexuality, compulsive shopping and eating** — which are **under-recognised, devastating, and must be asked about directly at every review, including of the partner**; psychosis and hallucinations.
 - **CARDIAC VALVULOPATHY:** sources describe **cabergoline-associated valvulopathy** as the echocardiographic triad of **moderate-to-severe regurgitation, valvular thickening and restricted motion**, affecting the **mitral, tricuspid and aortic** valves — a class effect of ergot-derived agonists at the 5-HT₂B receptor. It is largely a concern at the **high doses used in Parkinson disease**, and prospective studies at prolactinoma doses have been reassuring, but **echocardiographic surveillance is advised for prolonged or higher-dose therapy** — check current local practice.
-- **Practical:** **before diagnosing a prolactinoma, exclude the common causes of a raised prolactin** — **antipsychotics and other dopamine antagonists (metoclopramide, domperidone)**, pregnancy, hypothyroidism, renal failure, chest wall stimulation, and **macroprolactin** (a laboratory artefact). See `NEW_Investigations_Obstetrics_and_Gynaecology.md` 0.4.
+- **Practical:** **before diagnosing a prolactinoma, exclude the common causes of a raised prolactin** — **antipsychotics and other dopamine antagonists (metoclopramide, domperidone)**, pregnancy, hypothyroidism, renal failure, chest wall stimulation, and **macroprolactin** (a laboratory artefact). See [[NEW_Investigations_Obstetrics_and_Gynaecology]] 0.4.
 
 ### 0.5.4 Somatostatin Analogues
 - **Key agents:** **octreotide** and **lanreotide** (long-acting depot formulations); pasireotide.
@@ -284,7 +284,7 @@ conflicts_r1: 0
 - **Key agent:** **tolvaptan** — an oral **V2 receptor antagonist** producing **aquaresis** (free water excretion without electrolyte loss); conivaptan is a parenteral V1a/V2 antagonist.
 - **Indications:** **hypervolaemic and euvolaemic hyponatraemia, including SIADH**, where fluid restriction has failed; and at higher doses to **slow progression in autosomal dominant polycystic kidney disease**.
 - **Adverse effects and the specific dangers:** **thirst and polyuria** (expected); **over-rapid correction of hyponatraemia with the risk of OSMOTIC DEMYELINATION** — so it is **started in hospital with frequent sodium monitoring, and fluid restriction is lifted at initiation**; and **HEPATOTOXICITY**, particularly at ADPKD doses, requiring a formal liver monitoring programme.
-- See `NEW_Drugs_06_Cardiovascular.md` 0.11.4 and `NEW_Investigations_Orthopaedics_Neurology_and_Other.md` 0.2 for the wider hyponatraemia context.
+- See [[NEW_Drugs_06_Cardiovascular]] 0.11.4 and [[NEW_Investigations_Orthopaedics_Neurology_and_Other]] 0.2 for the wider hyponatraemia context.
 
 ---
 

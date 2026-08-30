@@ -334,7 +334,7 @@ conflicts_r1: 0
 
 **Abnormal:** Acute infection in pregnancy → obstetric referral. In the immunocompromised → **parvovirus PCR**, since serology is unreliable.
 
-**Alt:** **Parvovirus B19 PCR** (blood, or amniotic fluid in fetal assessment); FBC and reticulocyte count where aplastic crisis is suspected — see 0.1 of `NEW_Investigations_Haematology.md`.
+**Alt:** **Parvovirus B19 PCR** (blood, or amniotic fluid in fetal assessment); FBC and reticulocyte count where aplastic crisis is suspected — see 0.1 of [[NEW_Investigations_Haematology]].
 
 ## 0.17 ASOT (Anti-Streptolysin O Titre) and Anti-DNase B
 
@@ -480,7 +480,7 @@ conflicts_r1: 0
 
 > [!danger] **CLOSTRIDIAL MYONECROSIS (GAS GANGRENE) IS A SURGICAL EMERGENCY AND THE ONLY TREATMENT THAT WORKS IS DEBRIDEMENT.**
 > - **Recognise it: PAIN OUT OF PROPORTION to the visible findings** is the earliest and most important sign, with rapid progression over hours, systemic toxicity out of keeping with local appearances, tense oedema, bronze or dusky discolouration, bullae, a thin "dishwater" discharge, and **crepitus or gas on imaging (which is a late sign — its absence excludes nothing)**.
-> - **Do not wait for imaging or laboratory confirmation.** Resuscitate, give **broad-spectrum antibiotics plus CLINDAMYCIN** (which switches off exotoxin production — see `NEW_Drugs_05_Anti_infectives.md` 0.2.12), and **call the surgical team immediately.** Every hour of delay costs tissue and life.
+> - **Do not wait for imaging or laboratory confirmation.** Resuscitate, give **broad-spectrum antibiotics plus CLINDAMYCIN** (which switches off exotoxin production — see [[NEW_Drugs_05_Anti_infectives]] 0.2.12), and **call the surgical team immediately.** Every hour of delay costs tissue and life.
 > - **Risk factors:** penetrating and contaminated trauma, crush injury, intravenous drug use, bowel and biliary surgery, malignancy (spontaneous *C. septicum* myonecrosis is associated with **occult colorectal cancer** — investigate the bowel afterwards), diabetes, and immunosuppression.
 > - **Necrotising fasciitis is the differential and the management is the same: urgent surgical exploration.** Scoring tools do not exclude it. See [[11_01_Ortho_-_Orthopaedic_Emergencies]].
 

@@ -28,7 +28,7 @@ conflicts_r1: 0
 > - **VACCINATE BEFORE STARTING IMMUNOSUPPRESSION WHEREVER POSSIBLE** — live vaccines need to be given a defined interval **before** starting, and cannot be given afterwards. This applies to **biologics, DMARDs, high-dose corticosteroids, transplant immunosuppression, chemotherapy and asplenia** — and it is one of the most consistently missed opportunities in medicine. **The moment a biologic or DMARD is being considered is the moment to check vaccination status.**
 > - **Also consider: household contacts** (they can usually be vaccinated, with specific precautions after rotavirus and oral polio), **timing around rituximab** (responses are poor for months), and **revaccination after stem cell transplant**, where the whole schedule is repeated.
 > - **Asplenia and hyposplenism** require **pneumococcal, meningococcal, Hib and influenza vaccination plus antibiotic prophylaxis and an emergency plan** — and it applies to functional asplenia in sickle cell disease and coeliac disease, not just surgical splenectomy.
-> - **Eculizumab and ravulizumab require meningococcal vaccination before starting** (see `NEW_Drugs_14_Immunomodulators_and_Antineoplastics.md` 0.5.4).
+> - **Eculizumab and ravulizumab require meningococcal vaccination before starting** (see [[NEW_Drugs_14_Immunomodulators_and_Antineoplastics]] 0.5.4).
 > - **Pregnancy: inactivated vaccines are recommended (pertussis and influenza in particular, protecting the newborn through transplacental antibody); LIVE vaccines are avoided.**
 
 > [!warning] **Contraindications and precautions — and what is NOT a contraindication.**
@@ -37,7 +37,7 @@ conflicts_r1: 0
 > **A previous anaphylaxis to a vaccine warrants specialist immunology assessment, not permanent blanket avoidance** — the culprit component can often be identified.
 
 > [!danger] **Every vaccination encounter requires preparation for ANAPHYLAXIS.**
-> **Adrenaline must be immediately available, staff must know the dose and route, and the patient is observed for at least 15 minutes afterwards.** See `NEW_Drugs_01_Allergy_and_Anaphylaxis.md` 0.5. **Distinguish anaphylaxis from a vasovagal episode** — the latter is common, especially in adolescents, and is managed by lying the patient down.
+> **Adrenaline must be immediately available, staff must know the dose and route, and the patient is observed for at least 15 minutes afterwards.** See [[NEW_Drugs_01_Allergy_and_Anaphylaxis]] 0.5. **Distinguish anaphylaxis from a vasovagal episode** — the latter is common, especially in adolescents, and is managed by lying the patient down.
 > **Also: report adverse events following immunisation** to the relevant state surveillance service and the TGA. **And correct the record — an unreported or misattributed reaction leads to a lifetime of unnecessary avoidance.**
 
 - **Other practical points:**
@@ -54,13 +54,13 @@ conflicts_r1: 0
 - **Two distinct uses, which must not be confused:**
   1. **Replacement** — in **primary and secondary immunodeficiency** (including hypogammaglobulinaemia after rituximab or in CLL and myeloma), given regularly and long-term.
   2. **Immunomodulation** — at much higher doses in **ITP, Guillain-Barré syndrome, CIDP, myasthenic crisis, Kawasaki disease** and selected other conditions.
-- **Specific (hyperimmune) immunoglobulins** — concentrated against a single organism, for **post-exposure prophylaxis**: **tetanus, hepatitis B, rabies, varicella-zoster, and Rh D (anti-D)** (see `NEW_Drugs_16_Obstetric_and_Gynaecological.md` 0.10.2).
+- **Specific (hyperimmune) immunoglobulins** — concentrated against a single organism, for **post-exposure prophylaxis**: **tetanus, hepatitis B, rabies, varicella-zoster, and Rh D (anti-D)** (see [[NEW_Drugs_16_Obstetric_and_Gynaecological]] 0.10.2).
 
 ### 0.2.1 Intravenous Immunoglobulin
 - **Route:** **intravenous (IVIg)** or **subcutaneous (SCIg)** — the latter allowing home self-administration with steadier levels and fewer systemic reactions, and now widely used for replacement therapy.
 - **Adverse effects:** **infusion-related** — headache, fever, chills, myalgia, flushing and back pain, largely **rate-related** and managed by slowing the infusion and premedication; **aseptic meningitis** (severe headache, photophobia and neck stiffness in the days after infusion — alarming, self-limiting, and frequently investigated as bacterial meningitis); **acute kidney injury** (particularly with sucrose-containing products, in renal impairment, diabetes and dehydration); **haemolysis** from anti-A/anti-B isohaemagglutinins; and **THROMBOSIS — arterial and venous, and a real risk in older patients and those with cardiovascular risk factors**, which is why infusion rates are controlled and hydration maintained.
 - **Practical points:**
-  - **It is a blood product** — consent, identification checks, batch recording and traceability all apply, as for any transfusion (see `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.1).
+  - **It is a blood product** — consent, identification checks, batch recording and traceability all apply, as for any transfusion (see [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.1).
   - **IgA deficiency** carries a risk of anaphylaxis to IgA-containing products in those with anti-IgA antibodies — check where relevant.
   - **IVIg interferes with serological testing** and can cause a **positive direct antiglobulin test**, and it **transfers passive antibody**, which confounds serology for weeks.
   - **IVIg BLUNTS THE RESPONSE TO LIVE VACCINES — MMR and varicella must be deferred for a defined interval after immunoglobulin**, and conversely immunoglobulin given shortly after a live vaccine may abolish its effect. **This interval is specified in the Australian Immunisation Handbook and must be looked up.**

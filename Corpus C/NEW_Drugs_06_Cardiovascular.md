@@ -15,7 +15,7 @@ conflicts_r1: 0
 > [!danger] **Sourcing limitation applying to this whole file.** The **Australian Medicines Handbook and Therapeutic Guidelines are subscription-gated and egress-blocked** in this environment. Entries are **snippet-sourced**, and **no doses are stated anywhere in this file.**
 
 > [!info] **Scope, and one gap found and fixed.**
-> The **Antihypertensives** subsection of AMH section 6 was built earlier in `NEW_Drug_Classes_Cardiovascular_Antihypertensives.md`; this file covers the section's **other ten subsections**.
+> The **Antihypertensives** subsection of AMH section 6 was built earlier in [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]]; this file covers the section's **other ten subsections**.
 > **However, that earlier file did not build the beta-blockers** — the build list's `Beta-blockers`, `Beta-Blockers (Cardioselective)` and `Beta-Blockers (Non-selective)` rows sit under Antihypertensives and were missed. **That gap is fixed here at 0.7**, and it is recorded in the build status table rather than left for someone to discover.
 
 ---
@@ -176,7 +176,7 @@ conflicts_r1: 0
 - **And the interventions that matter most:** statin, antiplatelet, blood pressure control, **smoking cessation**, diabetes management, cardiac rehabilitation, and revascularisation where indicated. **Antianginals treat symptoms; the prognostic drugs are elsewhere.** See [[01_Cardiovascular]].
 
 ## 0.7 Beta-Blockers
-*(build-list rows `Beta-blockers`, `Beta-Blockers (Cardioselective)` and `Beta-Blockers (Non-selective)` sit under the Antihypertensives subsection and were **not** built in `NEW_Drug_Classes_Cardiovascular_Antihypertensives.md`. **Built here as a gap fix.**)*
+*(build-list rows `Beta-blockers`, `Beta-Blockers (Cardioselective)` and `Beta-Blockers (Non-selective)` sit under the Antihypertensives subsection and were **not** built in [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]]. **Built here as a gap fix.**)*
 
 - **Mechanism:** competitive antagonism at **β-adrenoceptors**. **β₁** predominates in the heart (rate, contractility, conduction, and renin release from the juxtaglomerular apparatus); **β₂** in bronchial and vascular smooth muscle, liver and skeletal muscle.
 - **Indications:** **heart failure with reduced ejection fraction** (one of the four pillars — see 0.10.4); **post-myocardial infarction and stable angina** (prognostic and symptomatic); **rate control in atrial fibrillation and other tachyarrhythmias**; hypertension (no longer first-line in uncomplicated hypertension in Australian practice, but appropriate where there is a compelling comorbid indication); **thyrotoxicosis** (propranolol also blocks peripheral T4→T3 conversion); **essential tremor**, **migraine prophylaxis**, **portal hypertension and variceal bleeding prophylaxis** (non-selective), performance anxiety, and glaucoma (topical timolol).
@@ -198,7 +198,7 @@ conflicts_r1: 0
 
 > [!danger] **DO NOT STOP A BETA-BLOCKER ABRUPTLY.** Chronic blockade upregulates β-receptors, so sudden withdrawal causes **rebound tachycardia, hypertension, angina, myocardial infarction and arrhythmia** — most dangerous in ischaemic heart disease. **Withdraw gradually over weeks**, and if a patient is nil by mouth or missing doses in hospital, find a route rather than simply omitting them.
 
-> [!warning] **Beta-blocker overdose** causes bradycardia and refractory hypotension; **glucagon** is the specific measure, with high-dose insulin–euglycaemia therapy and vasopressors. See `NEW_Drugs_04_Antidotes_and_Antivenoms.md` 0.1.1.
+> [!warning] **Beta-blocker overdose** causes bradycardia and refractory hypotension; **glucagon** is the specific measure, with high-dose insulin–euglycaemia therapy and vasopressors. See [[NEW_Drugs_04_Antidotes_and_Antivenoms]] 0.1.1.
 
 ## 0.8 Drugs for Arrhythmias
 
@@ -212,7 +212,7 @@ conflicts_r1: 0
 
 > [!danger] **Every antiarrhythmic drug is also PROARRHYTHMIC.** This is the governing principle of the whole subsection. The clearest examples are **torsades de pointes from QT-prolonging class III agents** and the **increased mortality with class Ic agents in structural heart disease** demonstrated by the CAST trial — which is why **flecainide is contraindicated in ischaemic heart disease and structural heart disease**. Before starting any of them: **correct potassium and magnesium**, review the ECG and QT, review every other QT-prolonging drug, and know the patient's ventricular function.
 
-- **The essential practical hierarchy in an acute arrhythmia:** **is the patient stable?** Adverse features — shock, syncope, myocardial ischaemia, heart failure — mean **synchronised DC cardioversion**, not a drug (see `NEW_Exam_Manoeuvres_and_Procedures.md` 0.16). And **look for the cause**: ischaemia, electrolytes, sepsis, thyrotoxicosis, pulmonary embolism, alcohol, drugs.
+- **The essential practical hierarchy in an acute arrhythmia:** **is the patient stable?** Adverse features — shock, syncope, myocardial ischaemia, heart failure — mean **synchronised DC cardioversion**, not a drug (see [[NEW_Exam_Manoeuvres_and_Procedures]] 0.16). And **look for the cause**: ischaemia, electrolytes, sepsis, thyrotoxicosis, pulmonary embolism, alcohol, drugs.
 
 ### 0.8.2 Class Ia
 - **Key agents:** **quinidine, procainamide, disopyramide.**
@@ -224,7 +224,7 @@ conflicts_r1: 0
 - **Key agents:** **lidocaine (lignocaine)**, mexiletine, phenytoin.
 - **Effect:** shorten the action potential; act preferentially on **ischaemic and depolarised** tissue and on **ventricular** myocardium — they have **no useful atrial activity**.
 - **Role:** **ventricular arrhythmias**, particularly in the context of ischaemia; lidocaine is an alternative to amiodarone in refractory VF/pulseless VT.
-- **Adverse effects:** **CNS toxicity — perioral tingling, tinnitus, confusion, seizures** (the same spectrum as local anaesthetic systemic toxicity — see `NEW_Drugs_02_Anaesthetics.md` 0.1.5); accumulation in **hepatic impairment and low cardiac output states**.
+- **Adverse effects:** **CNS toxicity — perioral tingling, tinnitus, confusion, seizures** (the same spectrum as local anaesthetic systemic toxicity — see [[NEW_Drugs_02_Anaesthetics]] 0.1.5); accumulation in **hepatic impairment and low cardiac output states**.
 
 ### 0.8.4 Class Ic
 - **Key agents:** **flecainide**, propafenone.
@@ -327,16 +327,16 @@ conflicts_r1: 0
 - **Monitoring:** **potassium and creatinine before starting, after initiation, after every dose increase, and during any intercurrent illness.** This is a standing, checkable action and a common ward omission.
 
 ### 0.10.3 Other Diuretics
-- **Thiazide and thiazide-like diuretics** — built in `NEW_Drug_Classes_Cardiovascular_Antihypertensives.md`. In heart failure, their role is **sequential nephron blockade added to a loop diuretic** in resistant congestion — effective and dangerous, requiring close electrolyte monitoring.
+- **Thiazide and thiazide-like diuretics** — built in [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]]. In heart failure, their role is **sequential nephron blockade added to a loop diuretic** in resistant congestion — effective and dangerous, requiring close electrolyte monitoring.
 - **Potassium-sparing diuretics — amiloride, triamterene** — epithelial sodium channel blockers; used to offset potassium loss and in Liddle syndrome. **Hyperkalaemia** risk as above.
 - **Carbonic anhydrase inhibitors — acetazolamide** — weak diuretic; used in **glaucoma, altitude sickness, and metabolic alkalosis** from over-diuresis; causes metabolic acidosis, paraesthesia and renal stones. It also has an emerging role added to loop diuretics in decompensated heart failure.
-- **Osmotic diuretics — mannitol** — raised intracranial pressure and, historically, forced diuresis. **Causes an osmolar gap** (see `NEW_Investigations_Orthopaedics_Neurology_and_Other.md` 0.3); risks fluid overload, hypernatraemia and acute kidney injury.
+- **Osmotic diuretics — mannitol** — raised intracranial pressure and, historically, forced diuresis. **Causes an osmolar gap** (see [[NEW_Investigations_Orthopaedics_Neurology_and_Other]] 0.3); risks fluid overload, hypernatraemia and acute kidney injury.
 - **Vasopressin (V2) receptor antagonists — tolvaptan** — see 0.11.4.
 
 ### 0.10.4 Other Drugs for Heart Failure
 - **ARNI — sacubitril/valsartan.** **Sacubitril inhibits neprilysin**, so natriuretic peptides are not degraded (promoting natriuresis and vasodilation), combined with an ARB.
   - **THE CRITICAL PRESCRIBING RULE: a 36-hour washout is required when switching from an ACE inhibitor**, because combining neprilysin inhibition with ACE inhibition causes **angioedema**. **Never co-prescribe an ACE inhibitor with sacubitril/valsartan.** Contraindicated with any history of ACE-inhibitor angioedema.
-  - **Note it raises BNP (but not NT-proBNP)** — relevant when interpreting natriuretic peptides in a treated patient (see `NEW_Investigations_Cardiology.md` 0.2).
+  - **Note it raises BNP (but not NT-proBNP)** — relevant when interpreting natriuretic peptides in a treated patient (see [[NEW_Investigations_Cardiology]] 0.2).
 - **SGLT2 inhibitors — dapagliflozin, empagliflozin.** Now a **heart failure drug in their own right, with benefit in both reduced AND preserved ejection fraction, and irrespective of diabetes.** Watch for **genital mycotic infection, volume depletion, and euglycaemic diabetic ketoacidosis** (which must be actively considered in an unwell patient on one of these, because the glucose may be near-normal — and they are **withheld before surgery and during acute illness**). See [[06_Metabolic_Medicine_and_Endocrinology]].
 - **ACE inhibitors, ARBs and beta-blockers** — pillars 1 and 2 (see 0.7 and the antihypertensives file).
 - **Ivabradine** — added where the heart rate remains ≥70–75 in sinus rhythm despite a maximally tolerated beta-blocker.
@@ -344,7 +344,7 @@ conflicts_r1: 0
 - **Hydralazine with isosorbide dinitrate** — an alternative where ACE inhibitors and ARBs cannot be used, and with specific benefit demonstrated in patients of African ancestry.
 - **Vericiguat** — a soluble guanylate cyclase stimulator for worsening chronic HFrEF.
 - **Intravenous iron** — corrects iron deficiency in heart failure (**defined by ferritin and transferrin saturation criteria, not haemoglobin — patients need not be anaemic**), improving symptoms and reducing hospitalisation. Frequently missed: **check iron studies in every heart failure patient.**
-- **Non-drug measures:** fluid and salt advice, daily weights, immunisation, cardiac rehabilitation, device therapy (CRT and ICD — see `NEW_Exam_Manoeuvres_and_Procedures.md` 0.17), and management of the precipitant. See [[01_Cardiovascular]].
+- **Non-drug measures:** fluid and salt advice, daily weights, immunisation, cardiac rehabilitation, device therapy (CRT and ICD — see [[NEW_Exam_Manoeuvres_and_Procedures]] 0.17), and management of the precipitant. See [[01_Cardiovascular]].
 
 ## 0.11 Drugs for Other Cardiovascular Disorders
 
@@ -352,7 +352,7 @@ conflicts_r1: 0
 *(covers build-list classes: Sympathomimetics (cardiovascular); Alpha-1 Adrenergic Agonists; Beta-1 Adrenergic Agonists)*
 - **Choosing by receptor is the whole skill here:**
   - **Noradrenaline** — predominantly **α₁** with some β₁: **vasoconstriction**. **The first-line vasopressor in septic and most vasodilatory shock.**
-  - **Adrenaline** — α and β: inotropy, chronotropy and vasoconstriction. **Anaphylaxis** (see `NEW_Drugs_01_Allergy_and_Anaphylaxis.md` 0.5), **cardiac arrest**, and cardiogenic shock.
+  - **Adrenaline** — α and β: inotropy, chronotropy and vasoconstriction. **Anaphylaxis** (see [[NEW_Drugs_01_Allergy_and_Anaphylaxis]] 0.5), **cardiac arrest**, and cardiogenic shock.
   - **Dobutamine** — predominantly **β₁**: **inotropy** with some vasodilation. Used in **cardiogenic shock and low cardiac output states**, and for stress echocardiography. It can **drop the blood pressure**, which surprises people.
   - **Phenylephrine and metaraminol** — pure **α₁** vasoconstrictors; useful where tachycardia is undesirable, and the common perioperative and ward agents for anaesthetic-induced hypotension.
   - **Dopamine** — dose-dependent receptor effects; **"renal-dose dopamine" has been disproven and abandoned**, and dopamine causes more arrhythmia than noradrenaline in shock.

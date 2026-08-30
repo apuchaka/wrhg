@@ -12,7 +12,7 @@ conflicts_r1: 0
 
 > [!danger] **Sourcing limitation applying to this whole file.** Australian primary guideline domains are **egress-blocked** (verified 2026-08-30); AMH and Therapeutic Guidelines are subscription-gated. Entries are **snippet-sourced**. Numerics appear only on three-source agreement; assay- and laboratory-dependent reference intervals are **omitted with the omission stated in place**.
 
-> [!note] **Two build-list rows collapse into other entries.** `Albumin` and `Serum Albumin` are the same test and are built once (0.2). `Prenatal Screening` duplicates `Prenatal Screening Panel`, already built as 0.5 of `NEW_Investigations_Obstetrics_and_Gynaecology.md`, and is not rebuilt here. Both are recorded in the build status table.
+> [!note] **Two build-list rows collapse into other entries.** `Albumin` and `Serum Albumin` are the same test and are built once (0.2). `Prenatal Screening` duplicates `Prenatal Screening Panel`, already built as 0.5 of [[NEW_Investigations_Obstetrics_and_Gynaecology]], and is not rebuilt here. Both are recorded in the build status table.
 
 ---
 
@@ -306,7 +306,7 @@ conflicts_r1: 0
 
 > [!info] **The organised national programs an Australian intern must know**
 > - **Bowel:** **National Bowel Cancer Screening Program** — free **iFOBT** mailed to eligible people, **every 2 years, ages 45–74** (lowered from 50 to 45, with 45–49-year-olds eligible from **1 July 2024**).
-> - **Cervical:** **National Cervical Screening Program** — **5-yearly HPV test, ages 25–74**, self-collection available. See `NEW_Investigations_Obstetrics_and_Gynaecology.md` 0.1.
+> - **Cervical:** **National Cervical Screening Program** — **5-yearly HPV test, ages 25–74**, self-collection available. See [[NEW_Investigations_Obstetrics_and_Gynaecology]] 0.1.
 > - **Breast:** **BreastScreen Australia** — free biennial mammography, actively invited in the **50–74** age group, available on request from 40.
 > - **Lung:** **National Lung Cancer Screening Program** — commenced **July 2025**; see 0.13.
 > - **Newborn:** bloodspot screening and universal newborn hearing screening. See [[15_24b_Paeds_-_Screening__SIDS__Vaccination_Schedule]].

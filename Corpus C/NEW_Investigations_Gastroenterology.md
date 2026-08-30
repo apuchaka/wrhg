@@ -354,7 +354,7 @@ conflicts_r1: 0
 
 **Abnormal:** Graded (Marsh) — intraepithelial lymphocytosis, crypt hyperplasia, villous atrophy. **Villous atrophy is not specific to coeliac disease** — also giardiasis, small bowel bacterial overgrowth, common variable immunodeficiency, drugs (olmesartan), tropical sprue and lymphoma.
 
-**Alt:** Coeliac serology (see `NEW_Investigations_Infectious_Diseases.md` 0.18); HLA-DQ2/DQ8 for exclusion; capsule endoscopy.
+**Alt:** Coeliac serology (see [[NEW_Investigations_Infectious_Diseases]] 0.18); HLA-DQ2/DQ8 for exclusion; capsule endoscopy.
 
 ## 0.27 24-hour pH Monitoring (with or without Impedance) · 0.28 Oesophageal Manometry (High-Resolution Manometry)
 

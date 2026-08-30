@@ -32,7 +32,7 @@ conflicts_r1: 0
 > **Every long-term PPI needs a documented indication.** Many patients started one during an admission for stress ulcer prophylaxis and are still on it years later.
 
 - **Interactions:** **clopidogrel** — omeprazole and esomeprazole inhibit **CYP2C19**, reducing clopidogrel activation; **pantoprazole is generally preferred** when a PPI is needed with clopidogrel. Reduced absorption of **ketoconazole, itraconazole, atazanavir, rilpivirine, iron and calcium carbonate**; raised **methotrexate** levels.
-- ***H. pylori* eradication:** a PPI with **two or three antimicrobials** for a defined course; **check eradication after treatment** where indicated, and be aware that **clarithromycin resistance is rising**, which drives the move to quadruple and bismuth-based regimens. See `NEW_Investigations_Gastroenterology.md` and [[03_Gastrointestinal]].
+- ***H. pylori* eradication:** a PPI with **two or three antimicrobials** for a defined course; **check eradication after treatment** where indicated, and be aware that **clarithromycin resistance is rising**, which drives the move to quadruple and bismuth-based regimens. See [[NEW_Investigations_Gastroenterology]]and [[03_Gastrointestinal]].
 
 > [!danger] **Do not treat dyspepsia with acid suppression without considering the ALARM features:** **dysphagia, odynophagia, unintentional weight loss, vomiting, gastrointestinal bleeding or anaemia, a palpable mass, persistent symptoms in a patient over 50 with new onset, or a family history of upper GI cancer.** These require **endoscopy**, not a trial of a PPI — and **acid suppression can mask a gastric cancer** while it progresses.
 
@@ -50,7 +50,7 @@ conflicts_r1: 0
 
 ### 0.1.4 Other Drugs for Ulcers
 - **Sucralfate** — forms a protective barrier over ulcer bases; needs an acid environment (so do not give with a PPI at the same time), and **binds other drugs** — separate doses.
-- **Misoprostol** — a prostaglandin analogue for NSAID ulcer prophylaxis; largely displaced by PPIs because it causes **diarrhoea and abdominal cramps**. **It is an abortifacient and uterotonic and is absolutely contraindicated in pregnancy** — and is used deliberately for that purpose in obstetrics (see `NEW_Drugs_16_Obstetric_and_Gynaecological.md` 0.10.1).
+- **Misoprostol** — a prostaglandin analogue for NSAID ulcer prophylaxis; largely displaced by PPIs because it causes **diarrhoea and abdominal cramps**. **It is an abortifacient and uterotonic and is absolutely contraindicated in pregnancy** — and is used deliberately for that purpose in obstetrics (see [[NEW_Drugs_16_Obstetric_and_Gynaecological]] 0.10.1).
 - **Bismuth compounds** — mucosal protection and anti-*H. pylori* activity; blacken the tongue and stool (**do not confuse with melaena**).
 - **Potassium-competitive acid blockers (vonoprazan)** — a newer class with faster, more sustained acid suppression, used in *H. pylori* regimens where available.
 
@@ -74,7 +74,7 @@ conflicts_r1: 0
 > **Avoid dopamine antagonists in Parkinson disease** — they worsen it. **Domperidone does not cross the blood-brain barrier appreciably** and is therefore the prokinetic of choice in Parkinson disease, **but it prolongs the QT** and has its own cardiac restrictions.
 > **Metoclopramide is considered safe in pregnancy** and is used, but sources place it as **second-line because of the extrapyramidal and tardive dyskinesia risk**.
 
-- **Other adverse effects:** sedation, hyperprolactinaemia (galactorrhoea, gynaecomastia, amenorrhoea — see `NEW_Drugs_10_Endocrine.md` 0.5.3), postural hypotension, and neuroleptic malignant syndrome.
+- **Other adverse effects:** sedation, hyperprolactinaemia (galactorrhoea, gynaecomastia, amenorrhoea — see [[NEW_Drugs_10_Endocrine]] 0.5.3), postural hypotension, and neuroleptic malignant syndrome.
 - **Contraindication:** **do not give a prokinetic in suspected mechanical bowel obstruction or perforation.**
 
 ### 0.2.3 Substance P (NK₁) Antagonists
@@ -88,7 +88,7 @@ conflicts_r1: 0
 - **Corticosteroids — dexamethasone.** Effective in chemotherapy and postoperative nausea, and specifically for nausea from **raised intracranial pressure** and malignant bowel obstruction.
 - **Benzodiazepines** — for **anticipatory** nausea before chemotherapy.
 - **Cannabinoids (nabilone)** — refractory chemotherapy-induced nausea.
-- **Pyridoxine and doxylamine** — the evidence-based first-line for **nausea and vomiting of pregnancy** in many guidelines, with ginger and non-drug measures. **Hyperemesis gravidarum requires assessment for dehydration, ketosis, electrolyte disturbance and thiamine deficiency** — and **thiamine must be given before glucose-containing fluids** (see `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.4.2).
+- **Pyridoxine and doxylamine** — the evidence-based first-line for **nausea and vomiting of pregnancy** in many guidelines, with ginger and non-drug measures. **Hyperemesis gravidarum requires assessment for dehydration, ketosis, electrolyte disturbance and thiamine deficiency** — and **thiamine must be given before glucose-containing fluids** (see [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.4.2).
 - **Non-drug:** hydration, small frequent meals, treating pain and constipation, and removing the offending drug.
 
 ## 0.3 Drugs Affecting Gastrointestinal Motility
@@ -120,7 +120,7 @@ conflicts_r1: 0
 - **Diphenoxylate with atropine** — the atropine is included deliberately to deter misuse; **overdose in children causes opioid and anticholinergic toxicity and has been fatal.** Store safely.
 
 ### 0.4.2 Other Drugs for Diarrhoea
-- **Oral rehydration solution — the single most important treatment**, and consistently under-used (see `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.3.5).
+- **Oral rehydration solution — the single most important treatment**, and consistently under-used (see [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.3.5).
 - **Octreotide** — high-output stomas and fistulas, carcinoid and chemotherapy-related diarrhoea.
 - **Bile acid sequestrants (colestyramine, colesevelam)** — for **bile acid diarrhoea**, which is common, easily missed, and dramatically responsive: think of it after **cholecystectomy, terminal ileal resection or Crohn disease**, and in "IBS-D" that has never been properly explained. See 0.8.
 - **Racecadotril** (an enkephalinase inhibitor, antisecretory rather than antimotility) and **probiotics** (modest evidence in antibiotic-associated diarrhoea).
@@ -140,7 +140,7 @@ conflicts_r1: 0
 ### 0.5.2 Stimulant Laxatives
 - **Key agents:** **senna**, **bisacodyl**, **sodium picosulfate**, **docusate with senna** combinations, glycerol suppositories.
 - **Mechanism:** stimulate enteric nerves and colonic motility, and reduce water absorption.
-- **Role:** **essential in opioid-induced constipation**, where a softener alone is inadequate because the problem is reduced motility. **Co-prescribe with every regular opioid** — this is one of the commonest omissions in ward prescribing (see `NEW_Drugs_03_Analgesics.md` 0.4.4).
+- **Role:** **essential in opioid-induced constipation**, where a softener alone is inadequate because the problem is reduced motility. **Co-prescribe with every regular opioid** — this is one of the commonest omissions in ward prescribing (see [[NEW_Drugs_03_Analgesics]] 0.4.4).
 - **Adverse effects:** **cramping and colic** (dose-related), electrolyte disturbance with prolonged use, and melanosis coli with senna (benign and reversible). **The old teaching that stimulant laxatives cause a permanently "atonic colon" is not well supported** — under-treatment of constipation causes more harm than long-term stimulant use.
 - **Contraindication:** **suspected bowel obstruction.**
 
@@ -172,11 +172,11 @@ conflicts_r1: 0
 ### 0.6.2 Corticosteroids (Gastrointestinal)
 - **Key agents:** **prednisolone** (oral), **hydrocortisone/methylprednisolone** (intravenous, for acute severe colitis), **budesonide** (oral, with high first-pass metabolism so fewer systemic effects — used in ileocaecal Crohn disease and microscopic colitis), and **rectal preparations** (hydrocortisone and budesonide foams and enemas).
 - **Role:** **induce remission in a flare — they do NOT maintain it.** This is the central point: **steroids are a bridge to a maintenance agent**, and a patient who cannot come off them, or who flares each time they are weaned, is **steroid-dependent and needs escalation to an immunomodulator or biologic, not another course.**
-- **Adverse effects:** the full systemic corticosteroid profile (see `NEW_Drugs_10_Endocrine.md` 0.5.1), with **bone protection, glucose monitoring and adrenal considerations** on any prolonged or repeated course.
+- **Adverse effects:** the full systemic corticosteroid profile (see [[NEW_Drugs_10_Endocrine]] 0.5.1), with **bone protection, glucose monitoring and adrenal considerations** on any prolonged or repeated course.
 
 ### 0.6.3 Other Drugs for Inflammatory Bowel Disease
-- **Thiopurines — azathioprine, mercaptopurine.** Steroid-sparing maintenance. **Check TPMT and NUDT15 before starting** (see `NEW_Investigations_General_and_Preventive.md` 0.16), **monitor FBC and LFTs**, and remember the **azathioprine–allopurinol interaction**, which causes life-threatening myelosuppression. Long-term risks include **lymphoma and non-melanoma skin cancer** — **sun protection and skin surveillance are part of the prescription, and matter particularly in Australia.**
-- **Methotrexate** — for Crohn disease; **once weekly** (see `NEW_Drugs_08_Dermatological.md` 0.3.4 for the fatal-error warning).
+- **Thiopurines — azathioprine, mercaptopurine.** Steroid-sparing maintenance. **Check TPMT and NUDT15 before starting** (see [[NEW_Investigations_General_and_Preventive]] 0.16), **monitor FBC and LFTs**, and remember the **azathioprine–allopurinol interaction**, which causes life-threatening myelosuppression. Long-term risks include **lymphoma and non-melanoma skin cancer** — **sun protection and skin surveillance are part of the prescription, and matter particularly in Australia.**
+- **Methotrexate** — for Crohn disease; **once weekly** (see [[NEW_Drugs_08_Dermatological]] 0.3.4 for the fatal-error warning).
 - **Biologics** — anti-TNF (**infliximab, adalimumab**), anti-integrin (**vedolizumab**, gut-selective), anti-IL-12/23 (**ustekinumab**) and anti-IL-23 agents; and **oral small molecules** — **JAK inhibitors (tofacitinib, upadacitinib)** and **S1P modulators (ozanimod)**. **PBS criteria in Australia are specific and change.**
 - **Ciclosporin** — rescue therapy in acute severe ulcerative colitis.
 - **Antibiotics** — for perianal and fistulising Crohn disease and for septic complications, not as primary therapy.
@@ -184,7 +184,7 @@ conflicts_r1: 0
 > [!danger] **ACUTE SEVERE ULCERATIVE COLITIS IS A MEDICAL EMERGENCY WITH A REAL MORTALITY.**
 > Bloody diarrhoea with systemic upset requires **admission, intravenous corticosteroids, VTE prophylaxis (IBD is strongly prothrombotic — and bloody diarrhoea is NOT a contraindication to prophylactic anticoagulation), stool studies including *C. difficile*, exclusion of CMV, and early JOINT MEDICAL AND SURGICAL review.** **Avoid opioids, antimotility agents and NSAIDs** — all associated with toxic megacolon. **Daily assessment with stool frequency, CRP and abdominal examination determines whether rescue therapy or colectomy is needed** — deterioration must not be allowed to drift.
 
-> [!danger] **BEFORE ANY IMMUNOSUPPRESSANT OR BIOLOGIC: screen for latent TB, hepatitis B and C, and HIV; vaccinate (including live vaccines) BEFORE starting; and consider Strongyloides serology.** See `NEW_Drugs_05_Anti_infectives.md` 0.6.3.
+> [!danger] **BEFORE ANY IMMUNOSUPPRESSANT OR BIOLOGIC: screen for latent TB, hepatitis B and C, and HIV; vaccinate (including live vaccines) BEFORE starting; and consider Strongyloides serology.** See [[NEW_Drugs_05_Anti_infectives]] 0.6.3.
 
 ## 0.7 Drugs for Perianal Disorders
 
@@ -203,7 +203,7 @@ conflicts_r1: 0
 ### 0.8.1 Bile Acid Sequestrants
 - **Key agents:** **colestyramine, colestipol, colesevelam**.
 - **Mechanism:** **anion-exchange resins** that bind bile acids in the gut lumen, preventing their reabsorption in the terminal ileum and forcing hepatic conversion of cholesterol into new bile acids.
-- **Indications:** **bile acid diarrhoea** (post-cholecystectomy, terminal ileal resection or disease, idiopathic — see 0.4.2); **cholestatic pruritus**; **dyslipidaemia** (see `NEW_Drugs_06_Cardiovascular.md` 0.9.6); and **binding toxins** in some poisonings.
+- **Indications:** **bile acid diarrhoea** (post-cholecystectomy, terminal ileal resection or disease, idiopathic — see 0.4.2); **cholestatic pruritus**; **dyslipidaemia** (see [[NEW_Drugs_06_Cardiovascular]] 0.9.6); and **binding toxins** in some poisonings.
 - **Adverse effects:** **very poor palatability, bloating, constipation and nausea** — the main reason they are abandoned; **raised triglycerides**; and **impaired absorption of FAT-SOLUBLE VITAMINS (A, D, E, K)** with long-term use.
 - **Interactions — the practical point:** they **bind other drugs indiscriminately**. **Take all other medicines at least 1 hour before or 4–6 hours after** the resin — particularly **warfarin, thyroxine, digoxin, thiazides and fat-soluble vitamins**.
 
@@ -211,8 +211,8 @@ conflicts_r1: 0
 - **Ursodeoxycholic acid** — **primary biliary cholangitis** (first-line, improves survival), intrahepatic cholestasis of pregnancy, and gallstone dissolution in selected cases.
 - **Pancreatic enzyme replacement (creon)** — for **exocrine pancreatic insufficiency** in chronic pancreatitis, cystic fibrosis, pancreatic cancer and after pancreatic surgery. **Take with every meal and snack; a PPI improves efficacy** by preventing acid inactivation. **Under-dosing is very common** and causes ongoing steatorrhoea, weight loss and fat-soluble vitamin deficiency.
 - **Rifaximin** — a non-absorbed antibiotic for **hepatic encephalopathy** (with lactulose) and travellers' diarrhoea.
-- **Terlipressin and octreotide** — variceal bleeding; **non-selective beta-blockers** for variceal prophylaxis (see `NEW_Drugs_06_Cardiovascular.md` 0.7.2).
-- **Drugs for hepatic disease** — spironolactone and furosemide for ascites, albumin with large-volume paracentesis, and antivirals for hepatitis B and C (see `NEW_Drugs_05_Anti_infectives.md` 0.6.3).
+- **Terlipressin and octreotide** — variceal bleeding; **non-selective beta-blockers** for variceal prophylaxis (see [[NEW_Drugs_06_Cardiovascular]] 0.7.2).
+- **Drugs for hepatic disease** — spironolactone and furosemide for ascites, albumin with large-volume paracentesis, and antivirals for hepatitis B and C (see [[NEW_Drugs_05_Anti_infectives]] 0.6.3).
 - **Antifibrotics and MASLD agents** — an evolving area; **GLP-1 agonists and pioglitazone** have the best current evidence for steatohepatitis.
 - **Faecal microbiota transplantation** — recurrent *C. difficile* infection.
 
@@ -228,7 +228,7 @@ conflicts_r1: 0
 > - It is **contraindicated in a patient with a reduced conscious state or unprotected airway** — **aspiration of charcoal causes a severe and sometimes fatal pneumonitis.** The decision is a balance of the risk of the poison against the risk of the charcoal; **when in doubt, do not give it.**
 > - **Whole bowel irrigation** has narrow indications — **sustained-release preparations, iron, and body packers**.
 > - **Never induce vomiting**, and never give anything orally in **corrosive or hydrocarbon** ingestion.
-> - **CALL THE POISONS INFORMATION CENTRE — 13 11 26 in Australia** — before decontaminating anyone. See `NEW_Drugs_04_Antidotes_and_Antivenoms.md` 0.1.
+> - **CALL THE POISONS INFORMATION CENTRE — 13 11 26 in Australia** — before decontaminating anyone. See [[NEW_Drugs_04_Antidotes_and_Antivenoms]] 0.1.
 
 ---
 

@@ -25,11 +25,11 @@ conflicts_r1: 0
 **Role:** **The cheapest, fastest and highest-yield test in nephrology and urology**, and the one most often under-used. In suspected glomerular disease it is effectively the bedside biopsy — **an active sediment changes the whole pathway**.
 
 > [!danger] **Do not ignore**
-> **Red cell casts or dysmorphic red cells** — glomerulonephritis. With acute kidney injury this is a **nephrological emergency**; see the vasculitis serology entry in `NEW_Investigations_Infectious_Diseases.md` 0.21 and [[12_04_Rheum_-_Vasculitis]].
+> **Red cell casts or dysmorphic red cells** — glomerulonephritis. With acute kidney injury this is a **nephrological emergency**; see the vasculitis serology entry in [[NEW_Investigations_Infectious_Diseases]] 0.21 and [[12_04_Rheum_-_Vasculitis]].
 > **Visible (macroscopic) haematuria in an adult** — urological malignancy until excluded, regardless of anticoagulation or a concurrent UTI.
 > **Glycosuria with ketonuria** — check a capillary glucose and ketones; consider DKA, including **euglycaemic DKA on an SGLT2 inhibitor**, where the glucose may be near-normal.
 
-> [!warning] **Asymptomatic bacteriuria is not a UTI.** It is common in older people, in the catheterised, and in residential care, and **treating it does not help and drives resistance and *C. difficile***. The exceptions where it *is* treated are **pregnancy** and **before urological procedures that breach the mucosa**. A positive dipstick in a delirious older person does not explain the delirium — see the Acute Confusion entry in `NEW_Neurology.md`.
+> [!warning] **Asymptomatic bacteriuria is not a UTI.** It is common in older people, in the catheterised, and in residential care, and **treating it does not help and drives resistance and *C. difficile***. The exceptions where it *is* treated are **pregnancy** and **before urological procedures that breach the mucosa**. A positive dipstick in a delirious older person does not explain the delirium — see the Acute Confusion entry in [[NEW_Neurology]].
 
 **Normal/interpretation:** Dipstick positives for protein, nitrite, leucocytes or blood should prompt **microscopy**. Nitrites are reasonably specific for Enterobacterales but insensitive (organisms that do not reduce nitrate, or short bladder dwell time give false negatives). Leucocyte esterase is more sensitive, less specific. **Sterile pyuria** — think prior antibiotics, urethritis/STI, **renal tract tuberculosis**, stones, tumour, interstitial nephritis. **Heavy proteinuria on dipstick (≥3+)** is described in sources as high-grade and warrants quantification (see 0.2).
 
@@ -85,7 +85,7 @@ conflicts_r1: 0
 
 **Interpretation — the differential is short and separable by dipstick:**
 - **Concentrated urine** (dehydration) — the commonest cause; dipstick negative for blood, high specific gravity.
-- **Bilirubinuria** — **conjugated** hyperbilirubinaemia; dark urine **with pale stools** signals cholestasis (see the Pale Stools entry in `NEW_Investigations_Gastroenterology.md` 0.31). Unconjugated bilirubin is not water-soluble and does **not** darken urine — so **dark urine in jaundice means the bilirubin is conjugated**, which is a genuinely useful bedside inference.
+- **Bilirubinuria** — **conjugated** hyperbilirubinaemia; dark urine **with pale stools** signals cholestasis (see the Pale Stools entry in [[NEW_Investigations_Gastroenterology]] 0.31). Unconjugated bilirubin is not water-soluble and does **not** darken urine — so **dark urine in jaundice means the bilirubin is conjugated**, which is a genuinely useful bedside inference.
 - **Haematuria** — dipstick positive for blood, **red cells present** on microscopy.
 - **Haemoglobinuria** (intravascular haemolysis) or **myoglobinuria** (rhabdomyolysis) — **dipstick positive for blood but microscopy shows no red cells**. This dissociation is the classic and high-yield finding.
 - **Drugs and foods** — rifampicin (orange), nitrofurantoin, metronidazole, methyldopa, levodopa, beetroot, senna; **porphyria** (urine darkens on standing in light).
@@ -189,7 +189,7 @@ conflicts_r1: 0
 
 > [!danger] **Collection conditions and interfering drugs are part of the test, and ignoring them is the commonest cause of a misleading result.** Sources note that **tricyclic antidepressants, SNRIs, labetalol, paracetamol, levodopa, sympathomimetics and caffeine** interfere. Plasma sampling conditions (supine rest before venepuncture, in many protocols) also matter. **Check the reporting laboratory's specific requirements before collecting** — a false positive here leads to unnecessary imaging and a false negative can be fatal at induction of anaesthesia.
 
-> [!warning] **Sequence matters: confirm biochemically, then image.** Adrenal nodules are common incidental findings; imaging first generates confusion. And in a confirmed phaeochromocytoma, **alpha blockade must precede beta blockade** — see the non-selective alpha-blocker entry in `NEW_Drug_Classes_Cardiovascular_Antihypertensives.md`.
+> [!warning] **Sequence matters: confirm biochemically, then image.** Adrenal nodules are common incidental findings; imaging first generates confusion. And in a confirmed phaeochromocytoma, **alpha blockade must precede beta blockade** — see the non-selective alpha-blocker entry in [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]].
 
 **Normal/abnormal:** **Numeric thresholds are omitted** (assay-dependent). Mildly raised results are common and often drug-related; markedly raised results are more specific. Repeat with interfering drugs withdrawn where safe.
 
@@ -237,7 +237,7 @@ conflicts_r1: 0
 
 > [!warning] **Mis-filed and mis-categorised** — this is a **symptom**, not an investigation. Recorded here for traceability; the presentation-level differential belongs with the presentations axis. **UNRESOLVED — needs review:** confirm whether the build list intended an investigation (most likely **anorectal manometry** and **endoanal ultrasound**, both already built) and remove this row from the investigations list if so.
 
-**Brief note — the investigations that answer it:** **anorectal manometry** (sphincter pressures, rectal sensation, RAIR — see `NEW_Investigations_Gastroenterology.md` 0.29); **endoanal/endorectal ultrasound** (structural sphincter defects, particularly obstetric injury — see 0.22–0.23 of the same file); **defecating proctography**; and **flexible sigmoidoscopy** to exclude a rectal lesion or inflammation. Also examine for **faecal impaction with overflow**, which is common, reversible, and the first thing to exclude — and in a patient with **new faecal incontinence plus saddle anaesthesia, leg weakness or urinary retention, consider cauda equina syndrome** and image the spine urgently.
+**Brief note — the investigations that answer it:** **anorectal manometry** (sphincter pressures, rectal sensation, RAIR — see [[NEW_Investigations_Gastroenterology]] 0.29); **endoanal/endorectal ultrasound** (structural sphincter defects, particularly obstetric injury — see 0.22–0.23 of the same file); **defecating proctography**; and **flexible sigmoidoscopy** to exclude a rectal lesion or inflammation. Also examine for **faecal impaction with overflow**, which is common, reversible, and the first thing to exclude — and in a patient with **new faecal incontinence plus saddle anaesthesia, leg weakness or urinary retention, consider cauda equina syndrome** and image the spine urgently.
 
 ---
 

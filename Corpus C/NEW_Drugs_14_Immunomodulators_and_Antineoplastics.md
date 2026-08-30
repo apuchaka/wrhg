@@ -30,9 +30,9 @@ conflicts_r1: 0
 ### 0.1.1 Antimetabolites
 - **Mechanism:** structural analogues of normal metabolites that are incorporated into or block **DNA and RNA synthesis** — hence they are **S-phase specific** and most active against rapidly dividing cells.
 - **Key agents and their signature toxicities:**
-  - **Methotrexate** (folate antagonist) — **mucositis, myelosuppression, hepatotoxicity, pneumonitis, nephrotoxicity at high dose.** **Rescued with FOLINIC acid (leucovorin), not folic acid.** **Dosed ONCE WEEKLY in non-oncology use** — see the fatal-error warning in `NEW_Drugs_08_Dermatological.md` 0.3.4. **Interactions: NSAIDs, co-trimoxazole/trimethoprim, penicillins and PPIs raise levels** — the co-trimoxazole combination has caused fatal pancytopenia.
-  - **Fluoropyrimidines — 5-fluorouracil, capecitabine** — mucositis, diarrhoea, myelosuppression, **palmar-plantar erythrodysaesthesia (hand-foot syndrome)**, and **coronary vasospasm/chest pain**. **DPYD genotyping before treatment** identifies patients at risk of severe or fatal toxicity (see `NEW_Investigations_General_and_Preventive.md` 0.16).
-  - **Thiopurines — mercaptopurine, thioguanine** — myelosuppression; **TPMT and NUDT15 testing before starting**, and the **azathioprine/mercaptopurine–allopurinol interaction** (see `NEW_Drugs_03_Analgesics.md` 0.1.1).
+  - **Methotrexate** (folate antagonist) — **mucositis, myelosuppression, hepatotoxicity, pneumonitis, nephrotoxicity at high dose.** **Rescued with FOLINIC acid (leucovorin), not folic acid.** **Dosed ONCE WEEKLY in non-oncology use** — see the fatal-error warning in [[NEW_Drugs_08_Dermatological]] 0.3.4. **Interactions: NSAIDs, co-trimoxazole/trimethoprim, penicillins and PPIs raise levels** — the co-trimoxazole combination has caused fatal pancytopenia.
+  - **Fluoropyrimidines — 5-fluorouracil, capecitabine** — mucositis, diarrhoea, myelosuppression, **palmar-plantar erythrodysaesthesia (hand-foot syndrome)**, and **coronary vasospasm/chest pain**. **DPYD genotyping before treatment** identifies patients at risk of severe or fatal toxicity (see [[NEW_Investigations_General_and_Preventive]] 0.16).
+  - **Thiopurines — mercaptopurine, thioguanine** — myelosuppression; **TPMT and NUDT15 testing before starting**, and the **azathioprine/mercaptopurine–allopurinol interaction** (see [[NEW_Drugs_03_Analgesics]] 0.1.1).
   - **Cytarabine** — myelosuppression, cerebellar toxicity at high dose, conjunctivitis (prophylactic steroid eye drops).
   - **Gemcitabine** — myelosuppression, flu-like symptoms, **haemolytic uraemic syndrome** (rare).
   - **Pemetrexed** — requires **folic acid and vitamin B₁₂ supplementation** to reduce toxicity.
@@ -65,13 +65,13 @@ conflicts_r1: 0
 
 ## 0.2 Drugs Used with Antineoplastics
 
-- **Antiemetics** — the single most valued supportive treatment by patients. **Highly emetogenic regimens need a 5-HT₃ antagonist + dexamethasone + an NK₁ antagonist**, with olanzapine increasingly added; see `NEW_Drugs_12_Gastrointestinal.md` 0.2.
-- **Colony stimulating factors (G-CSF)** — primary and secondary prophylaxis of febrile neutropenia; **not a substitute for antibiotics in established neutropenic sepsis** (see `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.2.3).
+- **Antiemetics** — the single most valued supportive treatment by patients. **Highly emetogenic regimens need a 5-HT₃ antagonist + dexamethasone + an NK₁ antagonist**, with olanzapine increasingly added; see [[NEW_Drugs_12_Gastrointestinal]] 0.2.
+- **Colony stimulating factors (G-CSF)** — primary and secondary prophylaxis of febrile neutropenia; **not a substitute for antibiotics in established neutropenic sepsis** (see [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.2.3).
 - **Tumour lysis prophylaxis — allopurinol, rasburicase** and hydration.
 - **Uroprotection — MESNA** with cyclophosphamide and ifosfamide.
 - **Cardioprotection — dexrazoxane** with anthracyclines.
 - **Rescue agents — folinic acid** with methotrexate and as a fluorouracil modulator; **glucarpidase** for methotrexate toxicity with renal failure.
-- **Bone-targeted agents — bisphosphonates and denosumab** for skeletal-related events in bone metastases and myeloma, and for hypercalcaemia of malignancy (see `NEW_Drugs_10_Endocrine.md` 0.1).
+- **Bone-targeted agents — bisphosphonates and denosumab** for skeletal-related events in bone metastases and myeloma, and for hypercalcaemia of malignancy (see [[NEW_Drugs_10_Endocrine]] 0.1).
 - **Mucositis care, antimicrobial prophylaxis (PJP, antifungal, antiviral), vaccination before treatment, and fertility preservation** — all part of the supportive package.
 - **Analgesia and palliative care** — see [[10_11c_Oncology_-_Palliative_Care_Prescribing]]. **Early palliative care involvement improves quality of life and, in some settings, survival** — it is not a late-stage referral.
 
@@ -109,7 +109,7 @@ conflicts_r1: 0
 - **Fulvestrant** — a selective oestrogen receptor degrader, given intramuscularly.
 - **Progestogens (megestrol, medroxyprogesterone)** — endometrial cancer and appetite stimulation.
 - **Corticosteroids** — integral to lymphoma and myeloma regimens, and used for cerebral oedema, cord compression, hypercalcaemia, nausea and appetite.
-- **Somatostatin analogues** — neuroendocrine tumours (see `NEW_Drugs_10_Endocrine.md` 0.5.4).
+- **Somatostatin analogues** — neuroendocrine tumours (see [[NEW_Drugs_10_Endocrine]] 0.5.4).
 
 ## 0.4 Non-Cytotoxic Antineoplastics
 
@@ -156,14 +156,14 @@ conflicts_r1: 0
 - **Indications:** **rheumatoid arthritis, ankylosing spondylitis and axial spondyloarthritis, psoriatic arthritis, psoriasis, inflammatory bowel disease**, uveitis, hidradenitis suppurativa. **PBS authority criteria in Australia are specific, require documented failure of prior therapy, and change.**
 
 > [!danger] **TNF INHIBITORS AND TUBERCULOSIS: SCREEN BEFORE STARTING, EVERY TIME.**
-> TNF is essential for granuloma maintenance, so **TNF inhibition reactivates latent tuberculosis**, often with **atypical, extrapulmonary or disseminated** presentations. **Screen with a TST or IGRA plus a chest X-ray and history before starting** (see `NEW_Investigations_Respiratory.md` 0.7), and **treat latent TB before or alongside** the biologic. Also screen for **hepatitis B and C and HIV**, consider **Strongyloides** serology, and **vaccinate — including live vaccines — BEFORE starting, as live vaccines are contraindicated afterwards.**
+> TNF is essential for granuloma maintenance, so **TNF inhibition reactivates latent tuberculosis**, often with **atypical, extrapulmonary or disseminated** presentations. **Screen with a TST or IGRA plus a chest X-ray and history before starting** (see [[NEW_Investigations_Respiratory]] 0.7), and **treat latent TB before or alongside** the biologic. Also screen for **hepatitis B and C and HIV**, consider **Strongyloides** serology, and **vaccinate — including live vaccines — BEFORE starting, as live vaccines are contraindicated afterwards.**
 > **Other class risks:** serious bacterial, fungal and opportunistic infection; **demyelinating disease** (avoid in multiple sclerosis); **worsening of heart failure** (avoid in moderate-to-severe heart failure); drug-induced lupus; injection and infusion reactions; and a debated malignancy signal, with **skin cancer surveillance particularly relevant in Australia**.
 > **Withhold during serious infection**, and plan around surgery.
 
 ### 0.5.4 Immunosuppressants and Other Immunosuppressants
 *(covers build-list classes: Immunosuppressants; Other immunosuppressants)*
 - **Antiproliferative agents — azathioprine and mycophenolate.** **Azathioprine: check TPMT/NUDT15, monitor FBC and LFTs, and never co-prescribe with allopurinol without drastic dose reduction.** **Mycophenolate is TERATOGENIC (first-trimester pregnancy loss and major malformations) and requires a pregnancy prevention programme** — this applies to **both female and male patients** under current advice, and is frequently missed. Both increase infection and malignancy risk.
-- **Corticosteroids** — the backbone of most immunosuppressive regimens; see `NEW_Drugs_10_Endocrine.md` 0.5.1 for the adverse effect profile, sick day rules and never-stop-abruptly warning.
+- **Corticosteroids** — the backbone of most immunosuppressive regimens; see [[NEW_Drugs_10_Endocrine]] 0.5.1 for the adverse effect profile, sick day rules and never-stop-abruptly warning.
 - **Cyclophosphamide** — for severe vasculitis, lupus nephritis and other organ-threatening autoimmune disease; **haemorrhagic cystitis (MESNA), infertility (offer preservation), and secondary malignancy**.
 - **Antithymocyte globulin, basiliximab, alemtuzumab** — induction and rejection therapy in transplantation.
 - **Other biologics and small molecules:** **rituximab** (see 0.4.1); **tocilizumab** (IL-6, and the treatment for cytokine release syndrome); **abatacept**; **IL-17, IL-23 and IL-12/23 inhibitors**; **JAK inhibitors (tofacitinib, baricitinib, upadacitinib)** — effective and oral, but carrying class warnings for **serious infection including herpes zoster, VTE, major adverse cardiovascular events and malignancy**, with screening and monitoring requirements; **belimumab and anifrolumab** in lupus; **eculizumab and ravulizumab** (**meningococcal vaccination is MANDATORY before starting**).
@@ -173,14 +173,14 @@ conflicts_r1: 0
 
 ### 0.5.5 Other Immunomodulating Drugs
 - **Immunoglobulin (IVIg and subcutaneous)** — replacement in immunodeficiency and immunomodulation in **ITP, Guillain-Barré syndrome, CIDP, myasthenic crisis and Kawasaki disease**. Adverse effects: headache and aseptic meningitis, renal impairment, **thrombosis**, haemolysis, and infusion reactions. **Supply is restricted by national criteria in Australia.**
-- **Vaccines** — see `NEW_Drugs_20_Vaccines.md` 0.1.
-- **Immunostimulants** — BCG (see `NEW_Drugs_13_Genitourinary.md` 0.6), imiquimod, and the CAR-T and bispecific platforms above.
-- **Hydroxychloroquine, sulfasalazine, leflunomide, methotrexate** — conventional synthetic DMARDs; see `NEW_Drugs_19_Rheumatological.md` 0.1.2.
+- **Vaccines** — see [[NEW_Drugs_20_Vaccines]] 0.1.
+- **Immunostimulants** — BCG (see [[NEW_Drugs_13_Genitourinary]] 0.6), imiquimod, and the CAR-T and bispecific platforms above.
+- **Hydroxychloroquine, sulfasalazine, leflunomide, methotrexate** — conventional synthetic DMARDs; see [[NEW_Drugs_19_Rheumatological]] 0.1.2.
 
 ## 0.6 Interferons
 - **Key agents:** **peginterferon alfa** (2a and 2b), interferon beta (multiple sclerosis), interferon gamma (chronic granulomatous disease).
 - **Mechanism:** recombinant cytokines activating host antiviral, antiproliferative and immunomodulatory pathways.
-- **Indications — now substantially narrowed.** **Hepatitis C use has been abandoned entirely** since the direct-acting antivirals (see `NEW_Drugs_05_Anti_infectives.md` 0.6.3). Remaining roles: **hepatitis B and D**, **myeloproliferative neoplasms** (where peginterferon has a genuine and expanding role in polycythaemia vera and essential thrombocythaemia, including in pregnancy), **melanoma** (largely displaced by checkpoint inhibitors), some renal cell carcinoma, and **interferon beta in relapsing-remitting multiple sclerosis** (see `NEW_Drugs_15_Neurological.md` 0.4).
+- **Indications — now substantially narrowed.** **Hepatitis C use has been abandoned entirely** since the direct-acting antivirals (see [[NEW_Drugs_05_Anti_infectives]] 0.6.3). Remaining roles: **hepatitis B and D**, **myeloproliferative neoplasms** (where peginterferon has a genuine and expanding role in polycythaemia vera and essential thrombocythaemia, including in pregnancy), **melanoma** (largely displaced by checkpoint inhibitors), some renal cell carcinoma, and **interferon beta in relapsing-remitting multiple sclerosis** (see [[NEW_Drugs_15_Neurological]] 0.4).
 - **Adverse effects — the reason they were abandoned as soon as alternatives existed:** a severe **flu-like syndrome** with every dose; **DEPRESSION AND SUICIDALITY** (screen before and during — this is not a minor caveat); **bone marrow suppression**; **thyroid dysfunction** (both hypo- and hyperthyroidism); autoimmune phenomena; fatigue, anorexia and weight loss; alopecia; and injection site reactions.
 - **Contraindications:** **decompensated cirrhosis, uncontrolled psychiatric illness, and autoimmune disease.**
 

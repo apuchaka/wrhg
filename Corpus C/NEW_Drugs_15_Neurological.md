@@ -23,7 +23,7 @@ conflicts_r1: 0
 > [!info] **Principles.** Choose by **seizure type and syndrome**, by **sex and reproductive potential**, and by **comorbidity**. **Start low and titrate slowly**; aim for **monotherapy at the maximum tolerated dose** before adding a second agent. **Most antiepileptic levels are of limited value** — sources note therapeutic drug monitoring is most justified for **phenytoin** (non-linear kinetics) and for a few others, and that levels are otherwise used to check adherence, investigate toxicity, or in pregnancy and renal/hepatic impairment. **Treat the patient, not the level.**
 
 ### 0.1.1 The Major Agents and Their Defining Features
-- **Sodium valproate** — broad spectrum, effective in generalised epilepsy including absence and myoclonic seizures. **Adverse effects: weight gain, tremor, hair loss, thrombocytopenia, hepatotoxicity, pancreatitis, hyperammonaemic encephalopathy (which can occur with normal LFTs and a therapeutic level — see `NEW_Investigations_General_and_Preventive.md` 0.6), and PCOS.**
+- **Sodium valproate** — broad spectrum, effective in generalised epilepsy including absence and myoclonic seizures. **Adverse effects: weight gain, tremor, hair loss, thrombocytopenia, hepatotoxicity, pancreatitis, hyperammonaemic encephalopathy (which can occur with normal LFTs and a therapeutic level — see [[NEW_Investigations_General_and_Preventive]] 0.6), and PCOS.**
 - **Carbamazepine** — focal seizures, trigeminal neuralgia. **A potent enzyme INDUCER**, causing extensive interactions (contraceptives, warfarin, DOACs, statins, antiretrovirals, immunosuppressants). Causes **hyponatraemia (SIADH)**, rash, leucopenia, and **auto-induction of its own metabolism**.
 - **Lamotrigine** — broad spectrum, well tolerated cognitively, and comparatively favourable in pregnancy. **The rash is the issue** (see below).
 - **Levetiracetam** — broad spectrum, few interactions, no hepatic metabolism (renally cleared, so dose-adjust in renal impairment), rapid titration possible — which is why it is the common intravenous choice in hospital. **The problem is behavioural** (see below).
@@ -40,7 +40,7 @@ conflicts_r1: 0
 > **The critical interaction: VALPROATE INHIBITS LAMOTRIGINE METABOLISM AND ROUGHLY DOUBLES ITS LEVEL** — sources include a case of SJS arising from exactly this combination. **The lamotrigine starting dose and titration must be halved when valproate is co-prescribed**, and increased when an enzyme inducer is. Getting this wrong causes SJS.
 > **Tell every patient: "If you develop a rash, stop the tablet and contact us the same day."** And if lamotrigine has been stopped for more than a few days, **it must be re-titrated from the beginning** — restarting at the previous dose is a recognised cause of severe rash.
 
-> [!danger] **CARBAMAZEPINE AND HLA-B\*15:02.** Sources confirm that **HLA-B\*15:02 predicts carbamazepine-induced SJS/TEN in patients of Asian ancestry**, and that **testing should be performed before initiating carbamazepine in patients with ancestry in populations where the allele may be present** (Han Chinese, Thai, Malaysian, Indian and other South-East Asian groups). See `NEW_Investigations_General_and_Preventive.md` 0.16.
+> [!danger] **CARBAMAZEPINE AND HLA-B\*15:02.** Sources confirm that **HLA-B\*15:02 predicts carbamazepine-induced SJS/TEN in patients of Asian ancestry**, and that **testing should be performed before initiating carbamazepine in patients with ancestry in populations where the allele may be present** (Han Chinese, Thai, Malaysian, Indian and other South-East Asian groups). See [[NEW_Investigations_General_and_Preventive]] 0.16.
 
 > [!warning] **LEVETIRACETAM AND BEHAVIOUR.** Sources report **irritability, aggression, hostility, nervousness and agitation as common**, with **psychosis and suicidality as uncommon but serious**, and note the risk in **children** particularly. **Ask the patient AND the family about mood and behaviour at every review** — patients often do not connect the change to the drug, and it is a frequent and easily reversible cause of distress. **Pyridoxine is sometimes used to mitigate it, and brivaracetam is an alternative.**
 
@@ -60,7 +60,7 @@ conflicts_r1: 0
 
 > [!danger] **STATUS EPILEPTICUS: give the benzodiazepine EARLY and ADEQUATELY, then move on.**
 > The commonest errors are **under-dosing the benzodiazepine and giving repeated doses instead of escalating.** **Two adequate doses, then move to a second-line agent (levetiracetam, valproate, phenytoin/fosphenytoin or lacosamide).** Simultaneously: **airway, oxygen, glucose (and THIAMINE before glucose in the at-risk patient), electrolytes including calcium and magnesium, temperature, and a search for the cause** — including eclampsia (which is treated with **magnesium**, not a benzodiazepine), meningitis, haemorrhage, toxins and drug withdrawal. **Prolonged status causes permanent neuronal injury, so time matters.**
-- **Adverse effects:** **respiratory depression** — profoundly potentiated by opioids; **have airway support and flumazenil available but recognise that flumazenil is rarely appropriate** (see `NEW_Drugs_02_Anaesthetics.md` 0.2.1); sedation, hypotension, tolerance and dependence.
+- **Adverse effects:** **respiratory depression** — profoundly potentiated by opioids; **have airway support and flumazenil available but recognise that flumazenil is rarely appropriate** (see [[NEW_Drugs_02_Anaesthetics]] 0.2.1); sedation, hypotension, tolerance and dependence.
 - **Clobazam and clonazepam** as maintenance antiepileptics lose efficacy through **tolerance**, and cause sedation and, in children, drooling and behavioural change.
 
 ### 0.1.3 Other Antiepileptics
@@ -93,7 +93,7 @@ Covered in 0.1.1 alongside the major agents, because separating "other" antiepil
 > **DOPAMINE AGONIST WITHDRAWAL SYNDROME** — anxiety, panic, depression, sweating, pain and drug craving — occurs on tapering and is another reason not to stop abruptly.
 
 - **Other adverse effects:** **sudden onset of sleep ("sleep attacks") — with implications for driving that must be discussed**; hallucinations and psychosis (more than levodopa); postural hypotension; nausea; peripheral oedema; and, for **apomorphine**, severe nausea requiring domperidone pretreatment and injection site nodules.
-- **Ergot-derived agonists (bromocriptine, cabergoline, pergolide)** are largely abandoned in Parkinson disease because of **cardiac valvulopathy and fibrotic reactions** (see `NEW_Drugs_10_Endocrine.md` 0.5.3).
+- **Ergot-derived agonists (bromocriptine, cabergoline, pergolide)** are largely abandoned in Parkinson disease because of **cardiac valvulopathy and fibrotic reactions** (see [[NEW_Drugs_10_Endocrine]] 0.5.3).
 
 ### 0.2.3 MAO-B Inhibitors
 - **Key agents:** **selegiline, rasagiline, safinamide**.
@@ -174,14 +174,14 @@ Covered in 0.1.1 alongside the major agents, because separating "other" antiepil
   - **Topical lidocaine and capsaicin** — for localised neuropathic pain, and useful where systemic drugs are poorly tolerated.
   - **Opioids work poorly for neuropathic pain** and should not be escalated in its place.
 - **Spasticity:** **baclofen** (a GABA-B agonist — **NEVER stop intrathecal or high-dose oral baclofen abruptly: withdrawal causes fever, severe rebound spasticity, rhabdomyolysis, seizures and death**), **tizanidine, dantrolene, benzodiazepines, botulinum toxin**, and intrathecal baclofen pumps.
-- **Migraine and cluster headache** — see `NEW_Drugs_03_Analgesics.md` 0.2.
+- **Migraine and cluster headache** — see [[NEW_Drugs_03_Analgesics]] 0.2.
 - **Restless legs syndrome** — **check and replace IRON first (ferritin and transferrin saturation, with a higher ferritin target than usual)**; then **gabapentinoids are now generally preferred to dopamine agonists**, because agonists cause **augmentation** (symptoms becoming earlier, more intense and more widespread) and impulse control disorders.
 - **Essential tremor** — **propranolol** and **primidone**.
 - **Motor neurone disease** — **riluzole** (modest survival benefit); multidisciplinary care, non-invasive ventilation and symptom control matter far more.
 - **Huntington disease** — tetrabenazine and deutetrabenazine for chorea (**depression and suicidality are significant risks**).
 - **Narcolepsy** — modafinil, armodafinil, sodium oxybate, pitolisant.
 - **Raised intracranial pressure and cerebral oedema** — **dexamethasone** for tumour-associated vasogenic oedema (**not for traumatic brain injury or stroke, where it does not help and may harm**); **mannitol and hypertonic saline** for acute rises.
-- **Stroke** — thrombolysis and thrombectomy, antiplatelets and anticoagulation, and secondary prevention; see `NEW_Drugs_06_Cardiovascular.md` 0.3 and 0.4.
+- **Stroke** — thrombolysis and thrombectomy, antiplatelets and anticoagulation, and secondary prevention; see [[NEW_Drugs_06_Cardiovascular]] 0.3 and 0.4.
 - **Nimodipine** — specifically to reduce delayed cerebral ischaemia after **aneurysmal subarachnoid haemorrhage**, and it is given orally.
 
 ## 0.7 Drugs for Vestibular Disorders

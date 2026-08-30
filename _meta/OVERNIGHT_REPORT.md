@@ -281,3 +281,59 @@ delete.**
 The **217 backticked file references** still need converting to wikilinks with each target
 header verified (rule 1). Note the spec says **65**; the actual count is 217. That is a
 separate PR and has not been started.
+## Step 28c — backticked references → wikilinks · branch `phase/28c-wikilinks`
+
+### Counts, measured not sampled
+
+The spec said **65** backticked references and **42** existing wikilinks. Measured across
+all 53 files: **276** references and **195** wikilinks. Both were sampling errors from the
+same five-file sample that produced the figure-free claim — see the §1.34 correction.
+
+### Classified before converting anything
+
+| Class | n | Action |
+|---|---|---|
+| `sectioned-OK` | 172 | **converted** — section number verified to exist as a heading in the target file |
+| `prose-bare` | 32 | **converted** — target file verified to exist |
+| `table-metadata` | 72 | **left backticked** — build-status and skipped-topic tables, records of a build check rather than cross-references for a reader to follow |
+| `sectioned-BAD` | 1 → 0 | see below |
+| `DANGLING-FILE` | 0 | — |
+
+**Per chunk (9 files each):**
+
+| Chunk | examined | converted | left | flagged |
+|---|---|---|---|---|
+| 1 | 16 | 4 | 12 | 0 |
+| 2 | 78 | 75 | 3 | 0 |
+| 3 | 80 | 76 | 4 | 0 |
+| 4 | 37 | 12 | 25 | 0 |
+| 5 | 48 | 37 | 11 | 0 |
+| 6 | 17 | 0 | 17 | 0 |
+| **total** | **276** | **204** | **72** | **0** |
+
+**Post-conversion verification: Corpus C now holds 399 wikilinks, 0 dangling.** 195 pre-
+existing + 204 converted. Re-running the classifier finds only the 72 table-metadata refs
+remaining, and no unresolved section number anywhere.
+
+Nothing needed flagging in the end, because the one bad reference was found and fixed
+*before* the conversion ran — which is the whole reason for classifying first.
+
+> [!danger] **The one bad section number was inherited, and I propagated it before I caught
+> it. Correcting my own earlier account.**
+> I reported this as a section number *this session invented*. **That was wrong.**
+>
+> `` `NEW_Investigations_Haematology.md` 0.7 (Immunohaematology) `` has sat in
+> `NEW_Investigations_Gastroenterology` 0.33 **since commit `39be13e`, the original Corpus C
+> upload**. Writing the Step 28b pointer I copied it out of that line without checking it.
+>
+> It is wrong twice: that file **has no section 0.7** — the section is unnumbered — and its
+> header spells it *Immuno**he**matology*, without the second `a`.
+>
+> **The instructive part is that it was inherited.** A wrong reference already in the corpus
+> reads as established fact: it has been there since the first commit, it looks like every
+> other reference, and copying it feels like *using a source* rather than *making a claim*.
+> That distinction is invisible at the point of writing, which is exactly why rule 1 has to
+> apply to references you did not author. **An unverified reference is a new claim no matter
+> where you got it from** — and the session doing the auditing is the one that propagated it.
+>
+> Corpus line corrected in place, with a note recording what it used to say.
