@@ -48,46 +48,76 @@ Nothing has corrected it yet.
 **No `conflicts_open` / `conflicts_r1` counters have been written** — `scan` has not been
 run.
 
-### Why population stalled — the method limitation (CLAUDE.md rule 7)
+### The detector: withdrawn, rebuilt, validated (CLAUDE.md rules 2, 4, 7)
 
-41 files return **zero** hits from `RE_PAED_SIGNAL`. Rule 2 forbids reading that as proof
-of absence, so a wider cross-check detector was written. It reported paediatric content in
-28 of the 41.
+**First attempt, withdrawn.** 41 files returned zero hits from the shipped
+`RE_PAED_SIGNAL`. Rule 2 forbids reading that as absence, so a wider cross-check was
+written. It reported paediatric content in 28 of the 41 — and was withdrawn on
+inspection: **37 of ~65 sampled hits fired on `\bALL\b` matched case-insensitively**,
+i.e. the English word "all", in lines like "covers all the reversible causes". That is
+the `Child-Pugh` defect reproduced. A guard comment now sits in `merge_tools.py` so
+nobody adds a bare `\bALL\b` for acute lymphoblastic leukaemia again.
 
-**That result was withdrawn, not acted on.** Attributing each hit to the alternative that
-fired it showed **37 of ~65 sampled hit lines fired on `\bALL\b` matched case-insensitively
-— the English word "all"**, in lines like "covers all the reversible causes". The
-cross-check reproduced exactly the `Child-Pugh` defect `RE_PAED_EXCLUDE` already exists to
-catch.
+**Rebuild.** The residue was folded into `RE_PAED_SIGNAL` itself rather than kept as a
+second detector. Added: prematurity/preterm/premature birth·baby·infant·neonate, growth
+centile compounds, birth weight, Apgar, fontanelle, teething, nappy, weaning, puberty,
+juvenile, trisomy, Down syndrome, perinatal, rubella, BCG vaccination, mumps, measles,
+varicella, pertussis, whooping cough, Hib, MMR, immunisation/vaccination schedule,
+milestone, SIDS, PICU, non-accidental, NAI, Gillick.
 
-The residue after removing that artifact is small but non-empty: `congenital` (10),
-`breastfeed` (5), `prematur` (4), `centile` (2), and single hits on `birth`, `rubella`,
-`BCG`. **`RE_PAED_SIGNAL` has no case for any of those terms**, so a false-negative problem
-in the shipped detector probably exists. Its size is unknown. The attribution above is over
-the *displayed* hits only — the report caps at 40 lines per file — so it is a sample, not a
-census.
+**Four terms tried and rejected**, each by reading every line it flagged — `congenital`
+(aetiology class in adult files, 5 files flagged, 0 true positives), `breast-?feed`
+(maternal scope, 4 flagged, 0 true), `centile` (matches inside "99th percentile", caught
+troponin assay statistics), `\bBCG\b` (3 of 17 corpus lines are intravesical BCG for
+bladder cancer). **22 of the 24 lines the first widening flagged were false positives** —
+that ratio is the evidence the pass was careful, per rule 3. The rejections are recorded
+in `merge_tools.py` so they are not re-added.
+
+**Validation, run before any use of the detector:**
+
+| Check | Requirement | Result |
+|---|---|---|
+| `Corpus A/15_*_Paeds_*`, 40 files | must score high | min 2 · median 9.5 · max 32 · **none scoring 0** |
+| `11_10_Ortho_-_Paediatric_Orthopaedics` | must score high | 28 |
+| `14_05d_Psych_-_Electroconvulsive_Therapy` | must score 0 | 0 |
+| `13_06c_ENT_-_Bell_s_Palsy` | must score 0 | 0 |
+| `14_05b_Psych_-_Insomnia` | must score 0 | 0 |
+
+**Known weakness the calibration exposed:** two genuinely paediatric files score only 2 —
+`15_18b_Genetic_Disorders_Inheritance_Summary` and `15_20b_Imprinting_Disorders`. The
+detector is weak on genetics content. It must not be used as a *threshold* classifier;
+those two are labelled `paed` on what the file is, not on a count.
+
+**Net effect of the rebuild:** raw signal lines 1570 → 1872, confirmed 1557 → 1859,
+dismissed 13 → 13, zero-signal files **41 → 39**. Only two files left the adult-candidate
+set: `13_02_ENT_Hearing_Loss` (rubella in the TORCH list under *congenital* causes of
+hearing loss — a true positive) and `C7_Pancreatobiliary` (mumps in GET SMASHED —
+marginal). **So the false-negative problem the withdrawn cross-check predicted was almost
+entirely the `\bALL\b` artifact.** The shipped detector was closer to right than the
+cross-check suggested.
 
 ### What session 2 must do
 
-1. **Rebuild the paediatric cross-check detector.** Fix the `\bALL\b` case (it must not
-   match under `re.I`). Then **validate it against files whose answer is already known**
-   before using it on anything: the 40 `Corpus A/15_*_Paeds_*` files must score high;
-   `14_05d_Psych_-_Electroconvulsive_Therapy.md` and `13_06c_ENT_-_Bell_s_Palsy.md` must
-   score zero. A detector that fails that calibration is not evidence.
-2. **Decide the classification policy explicitly and record it here.** The asymmetry that
-   matters: labelling a file `adult` when it carries paediatric content is the dangerous
-   error, because a reader then trusts an absolute figure as adult-scoped. `mixed` is the
-   safe direction. `adult` should require a clean widened scan **and** a read of the file's
-   headings, not a clean scan alone.
-3. **`paed` candidates** (not yet verified): the 40 `Corpus A/15_*_Paeds_*` files and
-   `11_10_Ortho_-_Paediatric_Orthopaedics.md`. Note that `merge_tools.py paed` skips any
-   path containing "paed", so its sweep never examines these — they need a separate check.
-4. `figures: none` — needs an operational definition first. CLAUDE.md says "where the file
-   states no numbers", which is broader than `RE_DOSE` (doses only) and broader than what
-   `lint` enforces. Do not set the key from `RE_DOSE` alone; a file carrying a threshold or
-   a reference range but no dose would pass and be wrongly flagged figure-free, and §1.14
-   then forbids ever adding a figure to it.
-5. Run `scan` to write the counters and the `_meta/` artefacts.
+1. **The 39 zero-signal files are the adult candidates, and they are the only files where
+   manual verification is owed.** A missed paediatric figure in a file labelled `adult` is
+   the dangerous error; a `mixed` or `paed` file already warns its reader. Read each of
+   the 39 — headings and any absolute quantity — before granting the label.
+   Flagged as suspicious on their names alone: `13_07c_ENT_Dental_and_Teeth_Problems`
+   (dental eruption is paediatric, yet it scores 0 even with `teething` in the pattern),
+   `14a-2_Psych_Overdose_and_Poisoning_Management` (paediatric ingestion), and
+   `08_04_Infectious_Disease_Antibiogram` (antibiotic choice carries paediatric dosing).
+2. **`paed` candidates:** the 40 `Corpus A/15_*_Paeds_*` files and
+   `11_10_Ortho_-_Paediatric_Orthopaedics`. Note `merge_tools.py paed` skips any path
+   containing "paed", so its sweep never examines these — they need a separate check.
+3. **Everything not in (1) or (2) is `mixed`**, which is where the placeholder already
+   sits — so the write is only to the adult and paed sets.
+4. `figures: none` beyond `Medications_Reference.md` — needs an operational definition
+   first. CLAUDE.md says "where the file states no numbers", which is broader than
+   `RE_DOSE` (doses only) and broader than what `lint` enforces. Do not set the key from
+   `RE_DOSE` alone: a file carrying a threshold or reference range but no dose would pass,
+   be wrongly flagged figure-free, and §1.14 then forbids ever adding a figure to it.
+5. Run `scan` to write the `conflicts_open` / `conflicts_r1` counters and the `_meta/`
+   artefacts.
 
 ### Paediatric-signal audit, session 1 (recorded by what was examined, per Step 17)
 
@@ -112,8 +142,9 @@ document the marker conventions and therefore contain worked examples of every p
 scans match; walked as content they injected **9 phantom `UNVERIFIED` items and 4 phantom
 `CONFLICT` blocks** into the generated queues.
 
-**Known weakness in that fix:** it matches **by basename anywhere in the tree**, not
-anchored to the vault root. A clinical file named `START_HERE.md` inside a corpus directory
-would disappear from every scan with no error. Verified this session that no such file
-exists — all five matching files are at vault root, none inside a corpus. A path-anchored
-skip would be strictly safer and was not implemented.
+**Anchored to the vault root**, defined as the nearest ancestor directory holding
+CLAUDE.md, so it resolves identically whether `--dir` is the vault or one corpus. An
+earlier version matched by bare basename, which would have dropped a clinical file sharing
+one of those names from every scan with no error and nothing downstream detecting the loss.
+Verified after anchoring: walking from the vault root yields exactly one top-level file,
+`Medications_Reference.md`.
