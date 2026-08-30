@@ -126,7 +126,22 @@ Topical ocular antihistamines are covered with the other drugs for allergic eye 
 > **`15_01b_Paeds_-_Anaphylaxis` (`inherited`):** asserts ASCIA verification and "1:1000 … weight-based", and **states no figure at all**.
 > **Why it matters:** **`0.01 mg/kg` and `0.01 mL/kg` are not the same quantity.** They coincide only at **1:1000**, where 1 mL = 1 mg, and diverge at any other concentration — at 1:10,000 (the arrest presentation) `0.01 mL/kg` delivers **one tenth** of `0.01 mg/kg`. The mg form is concentration-independent; the mL form is correct only because "1:1000" happens to sit beside it. **One of the two is wrong as written.** A reader who carries the mL form to a differently-concentrated ampoule under-doses a child in anaphylaxis.
 > **Resolve against:** **ASCIA** Acute Management of Anaphylaxis (open, no login) and the Australian **Acute Anaphylaxis Clinical Care Standard**. Tracked as `PENDING_GUIDELINE_CHECKS.md` **B72**; see also **B50** (the 7.5 kg floor) and **B71** (duplicate owners).
-> **NOT RESOLVED — do not adjudicate this from a session.**
+> **RESOLVED 2026-08-30 NEITHER-WRONG — ASCIA Guidelines: Acute Management of Anaphylaxis, 2026 v2.**
+> **Both unit forms are ASCIA's own, and both are correctly qualified.** The initial-management
+> flowchart (p4) footnotes *"Adrenaline injector OR 1:1000 IM adrenaline - 0.01mL/kg up to
+> 0.5 mL/dose"*; the pregnancy section (p8) states *"1:1,000 IM adrenaline 0.01mg per kg up to
+> 0.5mg per dose"*. They are equivalent **because both state 1:1000**.
+> **The defect is any mL figure WITHOUT the concentration — and a corpus-wide sweep found none:**
+> every adrenaline mL value in all 240 files carries `1:1000` on its line or in its block.
+> No number changed and no concentration needed adding.
+
+> [!check] VERIFIED — ASCIA Guidelines: Acute Management of Anaphylaxis, 2026 v2 (accessed 2026-08-30)
+> **Checked:** that both `0.01 mg/kg` and `0.01 mL/kg` are ASCIA's own wordings; that each is
+> stated with the `1:1000` concentration; and that this entry states the concentration.
+> **NOT checked:** the weight-band volumes below against ASCIA 2026's seven-row table — **they
+> differ, see `_meta/PROPOSED_CHANGES.md`**; the intranasal route and neffy devices, new in 2026
+> and absent here; the refractory-anaphylaxis infusion protocols; fluid-bolus volume; observation
+> periods; and every non-adrenaline drug in this entry.
 
 > [!info] **Dose — the one dose stated in this file, in the correct per-kg-with-a-cap form**
 > Sources agree on the **ASCIA** dosing, which is consistent with the Australian **Acute Anaphylaxis Clinical Care Standard**, the **Australian Immunisation Handbook** and the World Allergy Organisation:

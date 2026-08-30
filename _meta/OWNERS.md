@@ -10,13 +10,26 @@ the dose pattern, grouped by drug. **Range is recorded, not just location** — 
 where two files pointed at an ASCIA table that stopped at 7.5 kg, so a reader following the
 pointer for an infant reached a table that did not cover them.
 
-> [!danger] **Adrenaline for anaphylaxis has THREE locations, not two.**
-> `PENDING_GUIDELINE_CHECKS.md` **B71** records two owners. Measured, there are three:
-> `09_01_Dermatology` (`0.01 mg/kg`, max `0.5 mg`), `NEW_Drugs_01` (`0.01 mL/kg`, max
-> `0.5 mL`, injector bands **from 7.5 kg**) and `15_01b_Paeds_-_Anaphylaxis` (an ASCIA
-> verified box). **The two that state a figure express the same dose in different units** —
-> mg in one, mL in the other — which is exactly how two owners drift without either looking
-> wrong. B71 should be updated to three.
+> [!check] **Adrenaline for anaphylaxis — FOUR locations, and B50 is now closed.**
+> **Range each owner covers, verified against ASCIA 2026 v2 on 2026-08-30:**
+>
+> | File | States | Range covered |
+> |---|---|---|
+> | `09_01_Dermatology` | `0.01 mg/kg` max `0.5 mg` + a 4-row band table | `<7.5 kg` to adult — **but the bands are coarser than ASCIA 2026's 7 rows** |
+> | `01_Cardiovascular` | the same 4-row band table in mL/mcg | same, **same coarseness** |
+> | `NEW_Drugs_01` | `0.01 mL/kg` max `0.5 mL` + injector bands | ampoule **all ages**; injector devices **7.5 kg and up only** |
+> | `15_01b_Paeds` | no figure — asserts ASCIA verification only | **no range: a reader seeking a dose here gets none** |
+>
+> **B50 RESOLVED:** ASCIA 2026 p6 does cover below 7.5 kg — `~<1 year, <7.5 kg → 0.1 mL` of
+> 1:1,000, with injector devices "Not available" in that band. The 7.5 kg floor applies to
+> **devices**, not to the dose.
+>
+> **CF-001 RESOLVED — neither figure was wrong.** Both `0.01 mg/kg` and `0.01 mL/kg` are ASCIA's
+> own wordings and both carry `1:1000`. A corpus-wide sweep found **no adrenaline mL figure
+> lacking its concentration**.
+>
+> **Still open:** the four band tables **differ from ASCIA 2026** — see
+> `_meta/PROPOSED_CHANGES.md` §1. Not applied.
 
 > [!warning] **Cardiac-arrest adrenaline is a SEPARATE fact and is correctly separate.**
 > `01_Cardiovascular` `1 mg` (adult) and `15_01a_Paeds` `10 mcg/kg` (paediatric) are a
