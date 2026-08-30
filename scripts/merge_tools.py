@@ -74,13 +74,49 @@ RE_R2_SIGNAL = re.compile(
 RE_PAED_SIGNAL = re.compile(
     r"(mg/kg|mcg/kg|\d\s*/\s*kg\b|neonat|infant|newborn|toddler|child|children|"
     r"adolescen|paediatr|pediatr|months old|years old|\bRCH\b|\bAPLS\b|Broselow|"
-    r"croup|bronchiolitis|Kawasaki|febrile convulsion|gestation)",
+    r"croup|bronchiolitis|Kawasaki|febrile convulsion|gestation"
+    # Added 2026-08-30. The list above has no case for developmental, neonatal-history
+    # or childhood-immunisation content, so files carrying only that scored zero and read
+    # as adult-only. Every term below was observed in the corpus.
+    #
+    # Four candidate terms were TRIED AND REJECTED — do not re-add them bare. Each was
+    # validated by reading every line it flagged, and every one was a false positive for
+    # paediatric *scope*:
+    #   `congenital`  — in adult files it names an aetiology class, not a population:
+    #                   congenital methaemoglobinaemia, congenital atresia in an ENT DDx,
+    #                   congenital absence of the vas deferens, congenital lymphoedema,
+    #                   congenital long QT. Flagged 5 adult files, 0 true positives.
+    #   `breast-?feed`— in adult files it is maternal scope, not the infant's: a protective
+    #                   factor for ovarian cancer, a cause of dyspareunia, drug safety in
+    #                   lactation. Flagged 4 files, 0 true positives.
+    #   `centile`     — matches inside "99th percentile", so it caught assay statistics for
+    #                   troponin cut-offs. Kept only in growth-chart compounds below.
+    #   `\bBCG\b`      — 3 of its 17 corpus lines are intravesical BCG for bladder cancer,
+    #                   an adult therapy. Kept only as `BCG vaccin`.
+    r"|prematurity|preterm|premature (?:birth|bab|infant|neonate)"
+    r"|(?:growth|weight|height|head circumference) centile|centile chart"
+    r"|birth ?weight|\bApgar\b|fontanelle|teething|nappy|weaning"
+    r"|pubert|juvenile|trisomy|Down syndrome|perinatal"
+    r"|\brubella\b|BCG vaccin|\bmumps\b|\bmeasles\b|varicella|pertussis|whooping cough"
+    r"|\bHib\b|\bMMR\b|immunisation schedule|vaccination schedule|milestone"
+    r"|\bSIDS\b|\bPICU\b|non-accidental|\bNAI\b|Gillick)",
     re.I,
 )
 
+# NOTE for anyone extending the pattern above: do NOT add a bare `\bALL\b` for acute
+# lymphoblastic leukaemia. Under re.I it matches the English word "all" and swamps every
+# result — 37 of 65 sampled hits in the 2026-08-30 cross-check. That is the Child-Pugh
+# defect in a new place. Match `acute lymphoblastic` instead if the disease is wanted.
+
 # Terms that contain a paediatric substring but are not paediatric content.
 # "Child-Pugh" is the reason this list exists. Extend it as false positives appear.
-RE_PAED_EXCLUDE = re.compile(r"(Child-Pugh|Childs-Pugh|childhood cancer survivor)", re.I)
+RE_PAED_EXCLUDE = re.compile(
+    r"(Child-Pugh|Childs-Pugh|childhood cancer survivor"
+    # Adult uses of terms added 2026-08-30, each confirmed present in the corpus:
+    # BCG is intravesical immunotherapy for bladder cancer in 3 of its 17 corpus lines.
+    r"|premature (?:ovarian|menopause|cardiovascular|ejaculation|ventricular|atrial))",
+    re.I,
+)
 
 # UK / US naming -> AU naming. Extend as you find more.
 DRUG_NAMING = {
@@ -141,7 +177,12 @@ SKIP_DIRS = {".git", ".obsidian", "_meta", "node_modules", ".trash"}
 # four example `UNVERIFIED` markers and an example CONFLICT block. Walked as content
 # they inject 9 phantom verification items and 4 phantom conflicts into the generated
 # queues, which is CLAUDE.md rule 3 (every scan produces false positives) arriving via
-# the scanner's own documentation. Skipped by basename.
+# the scanner's own documentation.
+#
+# Matched at the VAULT ROOT ONLY, never by bare basename. An unanchored skip would drop a
+# clinical file that happened to share one of these names from every scan, with no error
+# and nothing downstream detecting the loss. The vault root is the nearest ancestor
+# directory holding CLAUDE.md, so this works whether --dir is the vault or one corpus.
 SKIP_FILES = {
     "CLAUDE.md",
     "MASTER_VERIFICATION_WORKFLOW.md",
@@ -157,12 +198,29 @@ SKIP_FILES = {
 # ---------------------------------------------------------------- helpers
 
 
+def vault_root(start):
+    """Nearest ancestor of `start` containing CLAUDE.md, else abspath(start)."""
+    d = os.path.abspath(start)
+    while True:
+        if os.path.isfile(os.path.join(d, "CLAUDE.md")):
+            return d
+        parent = os.path.dirname(d)
+        if parent == d:
+            return os.path.abspath(start)
+        d = parent
+
+
 def md_files(root):
+    vault = vault_root(root)
     for dirpath, dirnames, filenames in os.walk(root):
         dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS]
+        at_vault_root = os.path.abspath(dirpath) == vault
         for fn in sorted(filenames):
-            if fn.endswith(".md") and fn not in SKIP_FILES:
-                yield os.path.join(dirpath, fn)
+            if not fn.endswith(".md"):
+                continue
+            if at_vault_root and fn in SKIP_FILES:
+                continue
+            yield os.path.join(dirpath, fn)
 
 
 def normalise(line):

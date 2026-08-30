@@ -21,15 +21,20 @@ judgement:
 | C (`Corpus C/`) | 53 | `snippet` |
 | `Medications_Reference.md` (vault root) | 1 | `snippet` |
 
-**B is 39, not the 37 the spec states.** The extra two are `00_BUILD_QUEUE.md` and
-`00_BUILD_QUEUE_v2.md` — B's own build queues, not clinical content. They are labelled
-so `lint` passes, but **do not count them toward B's 37** in any downstream tally.
+**B is 39 files / 37 clinical.** `Corpus B/00_BUILD_QUEUE.md` and
+`Corpus B/00_BUILD_QUEUE_v2.md` are B's own build queues — infrastructure, not clinical
+content. They are labelled so `lint` passes. **Every downstream tally should expect 39
+files and 37 clinical entries**, and should exclude those two by name rather than
+treating the 39 as a discrepancy to investigate again.
 
 **`Medications_Reference.md` sits at vault root, in no corpus directory**, so no `init`
 run reaches it. Labelled `snippet` by hand: its own header records that it was built from
 cross-verified search snippets on three-source agreement, which is C's provenance
 definition, not A's. It states **zero dose figures** (checked with the tool's own
-`RE_DOSE`: no hits), consistent with CLAUDE.md §1.11.
+`RE_DOSE`: no hits), consistent with CLAUDE.md §1.11, and carries `figures: none`. That
+key was set after reading all 16 of its lines containing a digit: every one is a receptor
+subscript (β1, β2, α1), a cross-reference file number, or the phrase "roughly a quarter of
+β2 receptors". No dose, no reference range, no threshold.
 
 ### What is NOT done — read this before trusting any `population:` value
 
