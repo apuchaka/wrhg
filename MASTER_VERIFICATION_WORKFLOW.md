@@ -1264,34 +1264,26 @@ use the verbatim header text**. Where you cannot resolve it, **leave the backtic
 flag it** — an unconverted reference is harmless, a wrong wikilink is not. Chunk the work and
 report examined / converted / flagged per chunk.
 
-> [!danger] **Rule 1, demonstrated by the session that was auditing it.**
-> Writing the Step 28b pointer to the relocated Coombs entry, this session wrote
-> `` `NEW_Investigations_Haematology.md` 0.7 `` — a section number that does not exist.
-> **That section is unnumbered**; its header is *Immunohematology (Blood Group & Rh, Type &
-> Screen, Direct Antiglobulin Test)*. It was caught only by verifying the target before
-> committing, as rule 1 requires.
+> [!danger] **Rule 1: the corpus itself carries a wrong section number, and this session
+> propagated it without checking.**
+> `NEW_Investigations_Gastroenterology` 0.33 has read, since the original upload,
+> "the fuller treatment is in `` `NEW_Investigations_Haematology.md` 0.7
+> (Immunohaematology)``". **There is no 0.7 in that file. That section is unnumbered**, and
+> its header is *Immunohematology (Blood Group & Rh, Type & Screen, Direct Antiglobulin
+> Test)* — spelled *Immuno**he**matology*, without the second `a`.
 >
-> This is the strongest available argument for rule 1: the invented number was written **by
-> the same session that had spent the night auditing other people's unverified claims**, in
-> the same hour it corrected a rename map and a corpus-wide figure claim. Knowing the rule,
-> and having just applied it to someone else, did not prevent writing a plausible-sounding
-> section number. **Only the check caught it.**
-
-**Do not add NEW doses or reference ranges to Corpus C, and do not backfill its empty
-`Normal:`/`Abnormal:` fields** — the only available filling material is model knowledge.
-**But C is not figure-free, and must never be assumed to be:** 8 of its 22 drug files
-already state a dose, including the ASCIA adrenaline table in `NEW_Drugs_01`. `figures:
-none` is a per-file finding established by reading the file. Existing figures are **scoped
-in place using the `NEW_Drugs_10` pattern — "THESE TWO FIGURES ARE ADULT DOSES. DO NOT USE
-THEM IN A CHILD" — never deleted.**
-
-Ownership: **`Medications_Reference.md` is not the dose owner.** Its own scope note forbids
-the role ("Nothing was moved here"), it holds two entries, and it states no doses. Record
-ownership where figures already live, in `_meta/OWNERS.md`, **including the range each owner
-table covers** — B50 is the case where two files pointed at an ASCIA table that stopped at
-7.5 kg, so a reader following the pointer for an infant reached a table that did not cover
-them. Step 12 already governs the same-fact-in-3+-files consistency pass; `→MED:` mirrors
-exist to make it mechanical, not to replace it.
+> Writing the Step 28b pointer, this session **copied `0.7` straight out of that line** into
+> a new cross-reference. It was caught only by verifying the target before committing.
+>
+> **The instructive part is that it was inherited, not invented.** A wrong reference already
+> in the corpus reads as established fact — it has been there since the first commit, it
+> looks like every other reference, and nothing about it invites suspicion. Copying it felt
+> like *using* a source rather than *making a claim*. Rule 1 exists precisely because that
+> distinction is invisible at the point of writing: **an unverified reference is a new claim
+> no matter where you got it from.** The session doing the auditing was the one that
+> propagated it.
+>
+> Both the corpus line and the new pointer now carry the verbatim header text.
 
 ---
 

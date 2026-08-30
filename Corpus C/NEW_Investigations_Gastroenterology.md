@@ -440,7 +440,7 @@ conflicts_r1: 0
 
 ## 0.33 Coombs / Direct Testing (Direct and Indirect Antiglobulin Test)
 
-> [!warning] **Mis-filed in the source list** — a haematology/transfusion test, listed under Gastroenterology. Built briefly here; the fuller treatment is in `NEW_Investigations_Haematology.md` 0.7 (Immunohaematology).
+> [!warning] **Mis-filed in the source list** — a haematology/transfusion test, listed under Gastroenterology. Built briefly here; the fuller treatment is in `NEW_Investigations_Haematology.md` § *Immunohematology (Blood Group & Rh, Type & Screen, Direct Antiglobulin Test)* — `CORRECTED 2026-08-30: this reference read "0.7 (Immunohaematology)" since the original upload. That file has no section 0.7; the section is unnumbered, and is spelled Immunohematology.`
 
 **D:** **Direct antiglobulin test (DAT)** detects antibody or complement **bound to the patient's red cells**. **Indirect antiglobulin test (IAT)** detects antibody **free in the plasma** — the basis of the antibody screen and crossmatch.
 
