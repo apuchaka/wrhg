@@ -43,16 +43,19 @@ conflicts_r1: 0
 
 **Alt:** Albumin and INR (function); ultrasound (first-line imaging); viral and autoimmune serology; iron studies, caeruloplasmin, α1-antitrypsin; FibroScan; biopsy.
 
-### 0.1.1 Added from unverified layer — a raised ALP with a normal GGT
-`SRC:C3_Jaundice_and_Liver_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+### 0.1.1 A raised ALP with a normal GGT — owned elsewhere
+`UNVERIFIED — nothing to verify here; this is a pointer.`
 
-The GGT confirms that a raised ALP is hepatobiliary, as stated above. **When the ALP is raised and the GGT is normal, the source is not the liver** — and the differential is worth knowing rather than merely noting the negative:
+The bone/liver differential for a raised ALP with a **normal** GGT is owned by
+[[NEW_Investigations_General_and_Preventive]] §0.1, which states it as *"A raised ALP has
+one essential next question: liver or bone? GGT answers it"* and lists Paget disease,
+osteomalacia, healing fracture, bone metastases, hyperparathyroidism and growing children.
 
-- **Bone** — **Paget disease**, **bone metastases**, **osteomalacia**, a **healing fracture**, hyperparathyroidism, and normal **growth in children and adolescents**.
-- **Placenta** — physiological in pregnancy.
-
-No reference interval is stated here; ALP intervals are laboratory-specific and age-specific, as this file already notes.
-
+> [!note] This section previously duplicated that list
+> It was merged from `C3_Jaundice_and_Liver_Disease §0.1` on 2026-08-31 as a gap, because
+> the gap check searched for the phrase `raised ALP … normal GGT` and missed the owner's
+> wording. **The owner is `snippet` and this copy was `unverified`**, so the duplicate was
+> also the weaker of the two. Replaced with this pointer.
 
 ## 0.2 Liver Auto-antibodies (AMA, SMA, ANA, anti-LKM)
 

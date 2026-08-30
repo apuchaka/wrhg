@@ -1535,8 +1535,8 @@ Two complications of portal hypertension that are respiratory rather than abdomi
 > `UNVERIFIED — the caecal diameter at which perforation risk becomes the deciding factor, and the indications for neostigmine or colonoscopic decompression; gastroenterology or surgical guidance.`
 
 > [!info] The transition point is the radiological question that decides the operation
-> **Mechanical obstruction has a transition point on CT** — dilated bowel proximally, collapsed bowel distally, and an identifiable cause at the junction. **Ileus and pseudo-obstruction do not.**
-> This matters more than any other imaging finding here, because **operating on a pseudo-obstruction is harmful.** §0.19 and §0.20 describe the mechanical entities; this is how they are told apart from §0.39 and from Ogilvie syndrome.
+> **Mechanical obstruction has a transition point on CT; ileus and pseudo-obstruction do not.** The finding itself, and what it looks like, are owned by [[Investigation-Interpretation]] — *"identify the transition point if possible (dilated bowel proximal, collapsed distal)"* — and are not restated here.
+> **What that section does not say is why it matters this much: operating on a pseudo-obstruction is harmful.** §0.19 and §0.20 describe the mechanical entities; §0.39 and the block above describe the non-mechanical ones; the transition point is how they are told apart, and the consequence of getting it wrong is asymmetric.
 
 
 ## 0.40 Malabsorption
@@ -1727,7 +1727,7 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 > **Have a low threshold for CT in an older patient with unexplained abdominal pain**, and be sceptical of a diagnosis of gastroenteritis or constipation. Delayed diagnosis is the main driver of the excess mortality.
 
 > [!danger] Pregnancy
-> **Anatomy and physiology both mislead.** The appendix is displaced upward and laterally. A **physiological leucocytosis** is normal, so a raised white cell count means little. The gravid uterus lifts the abdominal wall away from inflamed viscera, so **guarding and rebound are often absent even with peritonitis.**
+> **Anatomy and physiology both mislead.** That the appendix is **displaced upward as gestation advances** is owned by [[NEW_Obstetrics]] and is not restated here. What that entry does not add: a **physiological leucocytosis** is normal in pregnancy, so a raised white cell count means little, and the gravid uterus lifts the abdominal wall away from inflamed viscera, so **guarding and rebound are often absent even with peritonitis.**
 > The obstetric differential must be considered alongside the surgical one: **ectopic pregnancy** ([[17_04_Ectopic_Pregnancy_and_GTD]]), **miscarriage** ([[17_03_Termination_of_Pregnancy_and_Miscarriage]]), **placental abruption and uterine rupture** ([[16_14-15_Obstetric_Emergencies]]), **HELLP syndrome and pre-eclampsia with liver capsule distension** ([[16_08-09_Antenatal_and_Perinatal_Problems]]), and **fibroid degeneration** ([[17_05_PID__Endometriosis__Fibroids]]).
 > **Do not withhold necessary imaging out of radiation fear.** Ultrasound first, MRI second, and **CT where it is genuinely needed** — the risk of a missed perforation to both mother and fetus exceeds the radiation risk. Involve obstetrics early.
 

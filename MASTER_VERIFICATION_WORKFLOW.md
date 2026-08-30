@@ -1672,6 +1672,26 @@ report examined / converted / flagged per chunk.
 > This one is worse than the others when missed: the duplicate would have landed in a
 > **different file** from the original, where nothing puts the two renderings side by side.
 
+> [!danger] **REQUIRED CHECK — the gap search must include the DESTINATION FILE.**
+> A search that excludes its own destination cannot detect the duplicate it is about to
+> create. This is not the eponym trap and not the Unicode trap: **the pattern is correct
+> and the scope is wrong**, so the search returns a clean, confident, useless answer and
+> nothing downstream contradicts it.
+>
+> **Worked example — Russell's sign, Block 1 / C2.** The check ran
+> `grep … "Corpus A" | grep -v "14_05a"` before merging dental erosion, Russell's sign and
+> parotid enlargement into `14_05a`. **Two of the three were already in that file, 36 lines
+> above the insertion point.** The exclusion looked reasonable — the question being asked
+> was "does this exist *elsewhere*" — but the question that mattered was "does this exist
+> **at all**". Only parotid enlargement was genuinely absent.
+>
+> **And it must run against every corpus.** C1's check searched Corpus A alone and produced
+> three further duplicates whose originals were in Corpus C.
+>
+> **Auditing a merge has the same trap one level up.** An audit run against the *current*
+> tree finds the merge's own additions and reports everything present. The first run of the
+> C-block re-audit did exactly that. **Audit against the tree the merge started from.**
+
 > [!warning] **REQUIRED CHECK — word order. Search the rarer word alone, never the phrase.**
 > A regex requiring two terms in a fixed order fails whenever the corpus chose the other
 > order, and the failure is silent. The corpus writes **prophylactic antibiotics**, not

@@ -16,6 +16,20 @@ C1 is 5 863 words in 11 sections. Corpus A's gastrointestinal material is
 of it is additive rather than duplicative — A answers "what is diverticulitis", C1
 answers "this patient has left iliac fossa pain, what am I reasoning through".
 
+> [!danger] **This table is weaker evidence than the other six. Its gap check searched
+> Corpus A ALONE.**
+> C1 was merged before the A-and-C rule was adopted — that rule came in one file later, at
+> C2, after `aprepitant` showed that checking Corpus A alone manufactures false gaps.
+>
+> Confirmed by the pre-merge re-audit of 2026-08-31: **three of this table's "absent"
+> verdicts were wrong**, and all three had their originals in Corpus C —
+> **visceral versus parietal pain** (`NEW_Gastroenterology_and_Hepatology`),
+> **psoas abscess** (`NEW_Exam_Manoeuvres_and_Procedures` L285) and
+> **appendicitis in pregnancy** (`NEW_Obstetrics` L31). The affected blocks have been
+> corrected to pointers.
+>
+> Treat every remaining "absent from A" verdict below as **unconfirmed against Corpus C**.
+
 ## Vault-wide searches run before placement
 
 Every placement below was preceded by a whole-vault grep with markdown emphasis

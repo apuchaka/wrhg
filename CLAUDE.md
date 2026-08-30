@@ -52,6 +52,24 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
      noticed — `ASCIA` inside `fascia` on 33 lines, mis-routing verification items into
      the actionable queue, and `epinephrine` inside `norepinephrine`.
 
+10. **A search that excludes its own destination cannot detect the duplicate it is about
+   to create.** Distinct from rules 2 and 9: there the *pattern* was wrong — a spelling
+   missed, a substring over-matched. Here **the pattern is correct and the scope is
+   wrong**, so the search returns a clean, confident, useless answer.
+   - Found 2026-08-31. A gap check ran `grep … "Corpus A" | grep -v "14_05a"` before
+     merging three signs of self-induced vomiting into `14_05a`. **Two of the three were
+     already in that file, 36 lines above the insertion point** — *"recurrent vomiting may
+     lead to erosion of teeth and calluses on the knuckles (Russell's sign)"*. The
+     exclusion was deliberate and reasonable-seeming: the question being asked was "does
+     this exist *elsewhere*". The question that mattered was "does this exist **at all**".
+   - **The gap search must always include the destination file**, and must run against
+     **every corpus**, not the one the destination happens to live in. Four further
+     duplicates that day came from a check that searched Corpus A alone while the content
+     sat in Corpus C.
+   - **The same rule applies to auditing a merge.** An audit run against the *current*
+     tree finds the merge's own additions and reports everything present. **Audit against
+     the tree the merge started from.**
+
 ## 1.4 Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.
 
