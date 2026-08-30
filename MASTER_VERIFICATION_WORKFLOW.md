@@ -1632,6 +1632,51 @@ report examined / converted / flagged per chunk.
 
 ## 1.35 Step 29 — Corpus B merge (37 files)
 
+> [!danger] **REQUIRED CHECK — the eponym trap. Run it before concluding any named score,
+> sign or classification is absent.**
+> **Search for the instrument's COMPONENTS, not its name.** A named instrument may sit in
+> the corpus under a different name, under half of a compound name, or under no name at
+> all — and a search for the name returns a clean ABSENT in every one of those cases.
+>
+> **Why this outranks an ordinary gap check:** a missing instrument is a gap. **Two names
+> for one instrument sitting side by side is worse than a gap**, because it reads as a
+> choice between two tools, in a section that is telling the reader to use one. Nothing
+> downstream detects it — both entries are individually correct.
+>
+> **Worked example 1 — `Glasgow-Imrie`, Block 1 / C7.** Returned **ABSENT**.
+> `03_Gastrointestinal` §0.11 carried the **Glasgow score** all along, with its
+> **PANCREAS** mnemonic and a `CRP >200` necrosis marker. Glasgow-Imrie *is* the Glasgow
+> score. Searching the components — `PANCREAS`, or *pancreatitis* + *score* — finds it
+> immediately. Acting on the ABSENT would have placed a second severity score in the same
+> section as the first, under a different name, with nothing marking them as one
+> instrument.
+>
+> **Worked example 2 — `West Haven`, Block 1 / C3.** Returned **ABSENT**. §0.6.3 carried
+> the **complete four-grade scale** under a heading reading only `> [!info] Grading`. The
+> scale was present; only the eponym was missing. Searching the components — *grade 1*,
+> *euphoria or anxiety*, *incoherent and restless* — finds it. The merge was correctly
+> reduced to nothing, and renaming an existing clinical block was left alone as not being
+> an additive merge.
+>
+> **The check, concretely:** for a score, search its mnemonic and two of its items. For a
+> sign, search what the patient does, not who described it. For a classification, search a
+> category label. Then read the hit.
+
+> [!warning] **REQUIRED CHECK — word order. Search the rarer word alone, never the phrase.**
+> A regex requiring two terms in a fixed order fails whenever the corpus chose the other
+> order, and the failure is silent. The corpus writes **prophylactic antibiotics**, not
+> *antibiotic prophylaxis*; **strangulated hernia**, not *hernia … obstruction*.
+>
+> **Six false negatives in C4 and C5 from this single cause. Zero in C6, C7 after the rule
+> was adopted.** Search the rarer of the two words on its own and read the hits.
+
+> [!note] **Both traps intensify in Block 2.** Neurology is eponym-dense — Romberg,
+> Hoffmann, Lhermitte, Uhthoff, Brown-Séquard, NIHSS, Hunt and Hess, ABCD2, Glasgow Coma
+> Scale, Cushing's reflex, Charcot's triad. Expect the eponym check to fire more often in
+> D1–D7 than it did in C1–C7, and expect at least one instrument to be present under a
+> description rather than a name.
+
+
 > [!important] **A gap is only a gap if it is absent from Corpus A *and* Corpus C.**
 > Established 2026-08-31 while merging C2. Searching Corpus A alone manufactures false
 > gaps: `aprepitant` is absent from all 148 Corpus A files and looks like a clear
