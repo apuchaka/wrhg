@@ -25,7 +25,7 @@ conflicts_r1: 0
 
 ### Information sharing
 
-- Contact social services to check if the patient/family is known. Contact GP, health visitor, school.
+- Contact social services to check if the patient/family is known. Contact GP, child and family health nurse (the service name varies by state — Child and Family Health, Maternal and Child Health, Child Health Nurse), school.
 
 > [!note] DDx: osteogenesis imperfecta, ITP, leukaemia, HSP, coagulation disorder, scurvy, blue spots (Mongolian spots), osteoporosis.
 
