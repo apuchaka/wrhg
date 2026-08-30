@@ -322,7 +322,20 @@ def read(path):
         return fh.read()
 
 
+# Set by main() from --dry-run. A dry run must not touch the working tree AT ALL —
+# not the corpus, not _meta/, not the run logs. The previous behaviour gated only the
+# frontmatter-counter writes, so `scan --dry-run` still rewrote VERIFICATION_QUEUE.md,
+# CONFLICTS.md, DOSE_MIRRORS.md and PENDING_ROWS_DRAFT.md on every invocation, and
+# lint/drugs/paed still wrote a timestamped log. Running a scan merely to LOOK at the
+# corpus therefore dirtied the tree, which is how generated output kept being swept into
+# commits by `git add -A`. A flag that says dry and mutates the tree is a defect.
+DRY_RUN = False
+
+
 def write(path, text):
+    if DRY_RUN:
+        print(f"    [dry-run] would write {path}")
+        return
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(text)
 
@@ -378,6 +391,8 @@ def rel(root, path):
 
 def log_run(root, name, lines):
     d = os.path.join(root, "_meta", "runs")
+    if DRY_RUN:
+        return f"(dry-run: no log written to {d})"
     os.makedirs(d, exist_ok=True)
     stamp = _dt.datetime.now().strftime("%Y-%m-%dT%H%M%S")
     p = os.path.join(d, f"{stamp}_{name}.log")
@@ -504,7 +519,8 @@ def cmd_scan(args):
     root = args.dir
     unverified, conflicts, mirrors, per_file = collect(root)
     meta = os.path.join(root, "_meta")
-    os.makedirs(meta, exist_ok=True)
+    if not args.dry_run:
+        os.makedirs(meta, exist_ok=True)
     today = _dt.date.today().isoformat()
     order = {"R1": 0, "R2": 1, "R3": 2}
 
@@ -929,6 +945,8 @@ def main():
     p = sub.add_parser("paed"); common(p); p.set_defaults(fn=cmd_paed)
 
     args = ap.parse_args()
+    global DRY_RUN
+    DRY_RUN = bool(getattr(args, "dry_run", False))
     if not os.path.isdir(args.dir):
         sys.exit(f"not a directory: {args.dir}")
     sys.exit(args.fn(args) or 0)
