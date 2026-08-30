@@ -309,9 +309,43 @@ Verified after anchoring: walking from the vault root yields exactly one top-lev
 
 ---
 
-## Overnight run, 2026-08-30 → 31 — where this stopped
+## BLOCK 1 (C1–C7) IS COMPLETE — 2026-08-31
 
-**Stopped cleanly after C3.** Block 1 is C1–C7; **C1, C2 and C3 are merged** (PRs #30, #31,
+All seven gastroenterology files merged: PRs #30, #31, #32, #35, #36, #37, #38.
+**Resume at Block 2, `D1_Headache_and_Meningism`.**
+
+**14 additive placements, 30 discards** across the block. The discard-heavy ratio is the
+finding: `03_Gastrointestinal` is 20 000 words and among the most worked files in Corpus A,
+so Corpus B's gastroenterology layer was mostly duplicative. Where it added, it added
+**reasoning the corpus set up and never drew** — the visceral-to-parietal transition, the
+dentate line implying painless internal haemorrhoids, the CT transition point deciding
+whether to operate.
+
+### Search rules established during Block 1 — read before the next file
+
+Nine searches returned the wrong answer across the block. Three causes, all now known:
+
+1. **Fixed word order.** A regex needing two terms in a set order kept failing, because the
+   corpus writes *prophylactic antibiotics* not *antibiotic prophylaxis*, and *strangulated
+   hernia* not *hernia … obstruction*. **Search the rarer word alone and read the hits.**
+   Adopted before C6, which then produced **no false negatives**.
+2. **The eponym trap.** `Glasgow-Imrie` returned ABSENT while §0.11 carried the **Glasgow
+   score** all along; `West Haven` returned ABSENT while §0.6.3 carried the full grading
+   under a heading reading only "Grading". **A score with a compound name may appear under
+   either half, or neither. Search the disease plus the word *score*, then read.**
+   This was the most dangerous of the run: acting on it would have placed a second,
+   differently-named copy of one score beside the first.
+3. **Corpus A alone is not the vault.** `aprepitant`, the aortoenteric *herald bleed* and
+   the over-transfusion/portal-pressure point are all in **Corpus C**. Now Step 29 policy.
+
+And rule 9 fired four times on the other side — `FAST`, `obturator`, `hot shower`,
+`second-look` all matched a different concept sharing a word.
+
+---
+
+## Overnight run, 2026-08-30 → 31 — the first half
+
+**Stopped after C3 that night; C4–C7 completed 2026-08-31.** Block 1 is C1–C7; **C1, C2 and C3 are merged** (PRs #30, #31,
 #32). **C4–C7, Block 2 (D1–D7), GER1–2 and A6/A7/A8 are NOT started.** Nothing is
 half-merged and no branch is left unmerged — every destination table that was written was
 followed through to its placements.
@@ -372,6 +406,7 @@ because the only available filling material is model knowledge.
 |---|---|---|---|
 | **Dubin-Johnson syndrome** | whole vault; C3 does not cover it | Conjugated hyperbilirubinaemia with an otherwise normal liver — the benign cause that must not be worked up as obstruction | RACGP, or a hepatology reference |
 | **Rotor syndrome** | whole vault; C3 does not cover it | The same, and it is the standard exam pairing with Dubin-Johnson | as above |
+| **Schatzki ring** | whole vault; C6 does not cover it | A specific lower-oesophageal ring causing intermittent solid dysphagia; `13_06b` §0.2 covers benign stricture generally but not this entity | RACGP, or a gastroenterology reference |
 
 Both are hereditary conjugated hyperbilirubinaemias. The vault has Gilbert and
 Crigler-Najjar (the **unconjugated** pair) but neither conjugated one, so the
