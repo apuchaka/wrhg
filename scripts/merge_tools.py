@@ -136,6 +136,23 @@ CORPUS_DEFAULTS = {
 
 SKIP_DIRS = {".git", ".obsidian", "_meta", "node_modules", ".trash"}
 
+# Vault-root infrastructure documents. These are *about* the conventions, so they
+# contain worked examples of every marker the scans look for — CLAUDE.md alone holds
+# four example `UNVERIFIED` markers and an example CONFLICT block. Walked as content
+# they inject 9 phantom verification items and 4 phantom conflicts into the generated
+# queues, which is CLAUDE.md rule 3 (every scan produces false positives) arriving via
+# the scanner's own documentation. Skipped by basename.
+SKIP_FILES = {
+    "CLAUDE.md",
+    "MASTER_VERIFICATION_WORKFLOW.md",
+    "MERGE_SPEC.md",
+    "MERGE_STEPS.md",
+    "PENDING_GUIDELINE_CHECKS.md",
+    "START_HERE.md",
+    "WORKED_EXAMPLE_appendicitis.md",
+    "RUN_STATE.md",
+}
+
 
 # ---------------------------------------------------------------- helpers
 
@@ -144,7 +161,7 @@ def md_files(root):
     for dirpath, dirnames, filenames in os.walk(root):
         dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS]
         for fn in sorted(filenames):
-            if fn.endswith(".md"):
+            if fn.endswith(".md") and fn not in SKIP_FILES:
                 yield os.path.join(dirpath, fn)
 
 
