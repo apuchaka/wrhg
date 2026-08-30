@@ -1483,6 +1483,19 @@ Two complications of portal hypertension that are respiratory rather than abdomi
 
 ---
 
+### 0.39.1 Added from unverified layer — acute colonic pseudo-obstruction, and the CT transition point
+`SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Acute colonic pseudo-obstruction (Ogilvie syndrome)
+> **Massive colonic dilatation without any mechanical obstruction**, typically in an unwell, elderly, immobile or post-operative patient. It is distinct from the paralytic ileus described above, which is predominantly small bowel and post-operative.
+> **It carries a genuine risk of caecal perforation.** Management is supportive and medical — correct electrolytes, stop contributing drugs (opioids, anticholinergics), decompress — not operative.
+> `UNVERIFIED — the caecal diameter at which perforation risk becomes the deciding factor, and the indications for neostigmine or colonoscopic decompression; gastroenterology or surgical guidance.`
+
+> [!info] The transition point is the radiological question that decides the operation
+> **Mechanical obstruction has a transition point on CT** — dilated bowel proximally, collapsed bowel distally, and an identifiable cause at the junction. **Ileus and pseudo-obstruction do not.**
+> This matters more than any other imaging finding here, because **operating on a pseudo-obstruction is harmful.** §0.19 and §0.20 describe the mechanical entities; this is how they are told apart from §0.39 and from Ogilvie syndrome.
+
+
 ## 0.40 Malabsorption
 
 > [!note] Gap-filled from CSV (Gastroenterology & Hepatology category, High yield, "unlikely covered") — not covered as a unifying topic in the source notes, though several individual causes (coeliac disease, chronic pancreatitis, SBBOS) are already built above and are cross-referenced here rather than repeated.
@@ -1731,6 +1744,21 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 > The **LFT pattern** (hepatocellular vs cholestatic, the AST:ALT ratio, and why the panel measures injury rather than function) is owned by [[NEW_Investigations_Gastroenterology]] §0.1 and is not restated here.
 > **Hepatic encephalopathy grading** is already at §0.6.3 above.
 > **`Dubin-Johnson` and `Rotor` syndromes are absent from this vault and were not supplied by the merged material either** — a real gap, recorded rather than filled from memory.
+
+---
+
+### 0.41.9 Added from unverified layer — the distended abdomen
+`SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] The six Fs
+> **Fat · Fluid · Flatus · Faeces · Fetus · "Filthy great mass."**
+> Crude, but it covers the differential for a distended abdomen, and the sequence prompts the two that get forgotten — **do a pregnancy test, and do a rectal examination.**
+
+> [!danger] Bloating and early satiety in a woman is ovarian cancer until excluded
+> **Persistent bloating, early satiety, abdominal or pelvic pain, and urinary urgency** are the recognised symptom cluster of ovarian cancer, and they are repeatedly attributed to irritable bowel syndrome.
+> **New "IBS" in a woman over 50 warrants exclusion of ovarian cancer before the label is accepted** — IBS is a diagnosis that usually begins in earlier adult life, so a first presentation in this age group is the red flag. See [[17_10_Ovarian_Cancer__Cysts_and_Torsion]], and §0.35 for the IBS entry itself.
+
+Distinguishing the rest: **ascites** — shifting dullness, fluid thrill, flank dullness, with the SAAG determining the cause (§0.6.2). **Obstruction and ileus** — tympanic (§0.19, §0.20, §0.39). **Functional bloating** — worse through the day, better on waking, no weight loss, normal examination; common and genuinely distressing. **Coeliac disease, lactose intolerance, small intestinal bacterial overgrowth** — bloating with flatulence, often postprandial (§0.17, §0.13). **Mass** — ovarian, uterine, hepatic, splenic, renal. **Obesity** — but do not assume it without excluding the others.
 
 ---
 

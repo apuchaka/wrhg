@@ -5,7 +5,7 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-30
 
-384 open items. Close one by editing its marker in the file, then rerunning `scan`.
+387 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
 # Actionable — openly accessible Australian sources (48)
 
@@ -91,14 +91,14 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 
 - **Corpus B/C1_Acute_Abdomen.md** L189 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (267)
+# Triage — source not named in the marker (270)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
 ## R1 — could kill someone this rotation (52)
 
 - **Corpus A/03_Gastrointestinal.md** L275 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — the maximum inflation time and the balloon pressures; gastroenterology or intensive care unit protocol.
-- **Corpus A/03_Gastrointestinal.md** L1630 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.
+- **Corpus A/03_Gastrointestinal.md** L1643 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L199 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L185 · _0.5 Professional Practice Concern_ · `unverified` — the precise wording of the notifiable conduct categories, the exemptions (which differ for practitioners providing health care to another practitioner, and which vary between states — Western Australia and Queensland have historically differed), and the reporting process must be verified against current Ahpra guidance.
 - **Corpus B/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L62 · _0.2 Acute Upper Airway Obstruction_ · `unverified` — the role and availability of specific bradykinin-pathway agents (icatibant, C1 esterase inhibitor) in Australian practice requires verification; cross-refer [[10_09b_Haemonc_-_Miscellaneous_Haematology]] Hereditary angioedema.
@@ -271,18 +271,21 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L251 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — reportable death criteria under the Coroners Act 2003 (SA).
 - **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L97 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (97)
+## R3 — everything else (100)
 
 - **Corpus A/03_Gastrointestinal.md** L271 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L813 · _0.18.1 Added from unverified layer — presentation sequence, atypical positions, and the RIF differential_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L1306 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L1455 · _0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/03_Gastrointestinal.md** L1546 · _0.41.3 Added from unverified layer — visceral versus parietal pain, and the must-not-miss list_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/03_Gastrointestinal.md** L1589 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/03_Gastrointestinal.md** L1636 · _0.41.5 Added from unverified layer — generalised pain and the catastrophes_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/03_Gastrointestinal.md** L1666 · _0.41.6 Added from unverified layer — the acute abdomen in special groups_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/03_Gastrointestinal.md** L1694 · _0.41.7 Added from unverified layer — bilious versus non-bilious vomiting, and the vomiting patterns_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/03_Gastrointestinal.md** L1714 · _0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03_Gastrointestinal.md** L1487 · _0.39.1 Added from unverified layer — acute colonic pseudo-obstruction, and the CT transition point_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03_Gastrointestinal.md** L1492 · _0.39.1 Added from unverified layer — acute colonic pseudo-obstruction, and the CT transition point_ · `inherited` — the caecal diameter at which perforation risk becomes the deciding factor, and the indications for neostigmine or colonoscopic decompression; gastroenterology or surgical guidance.
+- **Corpus A/03_Gastrointestinal.md** L1559 · _0.41.3 Added from unverified layer — visceral versus parietal pain, and the must-not-miss list_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03_Gastrointestinal.md** L1602 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03_Gastrointestinal.md** L1649 · _0.41.5 Added from unverified layer — generalised pain and the catastrophes_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03_Gastrointestinal.md** L1679 · _0.41.6 Added from unverified layer — the acute abdomen in special groups_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03_Gastrointestinal.md** L1707 · _0.41.7 Added from unverified layer — bilious versus non-bilious vomiting, and the vomiting patterns_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03_Gastrointestinal.md** L1727 · _0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03_Gastrointestinal.md** L1751 · _0.41.9 Added from unverified layer — the distended abdomen_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L181 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/14_05a_Psych_-_Eating_Disorders.md** L76 · _Added from unverified layer — physical signs of self-induced vomiting_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_.md** L63 · _Added from unverified layer — three points not stated above_ · `inherited` — model knowledge, not source-checked.
@@ -378,7 +381,7 @@ The marker does not say what to check against. Read the entry and either name an
 ## R1 — could kill someone this rotation (32)
 
 - **Corpus A/03_Gastrointestinal.md** L804 · _0.18 Appendicitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
-- **Corpus A/03_Gastrointestinal.md** L1659 · _0.41.5 Added from unverified layer — generalised pain and the catastrophes_ · `inherited` — empirical antibiotic choice for suspected perforation or ischaemia; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus A/03_Gastrointestinal.md** L1672 · _0.41.5 Added from unverified layer — generalised pain and the catastrophes_ · `inherited` — empirical antibiotic choice for suspected perforation or ischaemia; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L17 · _Animal & human bites_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L37 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L40 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
