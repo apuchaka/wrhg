@@ -79,23 +79,32 @@ RE_PAED_SIGNAL = re.compile(
     # or childhood-immunisation content, so files carrying only that scored zero and read
     # as adult-only. Every term below was observed in the corpus.
     #
-    # Four candidate terms were TRIED AND REJECTED — do not re-add them bare. Each was
-    # validated by reading every line it flagged, and every one was a false positive for
-    # paediatric *scope*:
-    #   `congenital`  — in adult files it names an aetiology class, not a population:
-    #                   congenital methaemoglobinaemia, congenital atresia in an ENT DDx,
-    #                   congenital absence of the vas deferens, congenital lymphoedema,
-    #                   congenital long QT. Flagged 5 adult files, 0 true positives.
+    # `congenital` was REJECTED, then RESTORED on 2026-08-30 after the rejection was found
+    # to be wrong. The rejection judged it by reading the *flagged lines*, where it looks
+    # like an aetiology label in adult files (congenital long QT, congenital absence of the
+    # vas deferens, congenital lymphoedema). Reading the *disease entries those lines sit
+    # in* shows it also catches two genuinely paediatric-scope files — `10_06b` (congenital
+    # methaemoglobinaemia, presents in infancy) and `11_08c` (osteogenesis imperfecta, type
+    # II lethal in the neonatal period). Corrected score: 6 flagged, 2 true positives.
+    #
+    # Kept because the costs are asymmetric: a false positive costs a `mixed` label, which
+    # merely tells the reader to check; a false negative costs a wrong `adult` label over
+    # paediatric content, which is the B65 failure. JUDGE A TERM BY THE DISEASE ENTRIES ITS
+    # HITS SIT IN, NOT BY THE FLAGGED LINES ALONE.
+    #
+    # Three candidate terms were tried and REJECTED — do not re-add them bare:
     #   `breast-?feed`— in adult files it is maternal scope, not the infant's: a protective
     #                   factor for ovarian cancer, a cause of dyspareunia, drug safety in
     #                   lactation. Flagged 4 files, 0 true positives.
+    #   `weaning`     — two senses; 2 of its 5 corpus hits are ventilator and NIV weaning
+    #                   in adult ICU (`F0-4`, `F0-5`), not infant feeding.
     #   `centile`     — matches inside "99th percentile", so it caught assay statistics for
     #                   troponin cut-offs. Kept only in growth-chart compounds below.
     #   `\bBCG\b`      — 3 of its 17 corpus lines are intravesical BCG for bladder cancer,
     #                   an adult therapy. Kept only as `BCG vaccin`.
     r"|prematurity|preterm|premature (?:birth|bab|infant|neonate)"
     r"|(?:growth|weight|height|head circumference) centile|centile chart"
-    r"|birth ?weight|\bApgar\b|fontanelle|teething|nappy|weaning"
+    r"|congenital|birth ?weight|\bApgar\b|fontanelle|teething|nappy"
     r"|pubert|juvenile|trisomy|Down syndrome|perinatal"
     r"|\brubella\b|BCG vaccin|\bmumps\b|\bmeasles\b|varicella|pertussis|whooping cough"
     r"|\bHib\b|\bMMR\b|immunisation schedule|vaccination schedule|milestone"
@@ -110,6 +119,9 @@ RE_PAED_SIGNAL = re.compile(
 
 # Terms that contain a paediatric substring but are not paediatric content.
 # "Child-Pugh" is the reason this list exists. Extend it as false positives appear.
+# Paediatric FILES, by anchored path pattern — never by substring (rule 9).
+RE_PAED_PATH = re.compile(r"(^|/)15_\d\d[ab]?_Paeds_|Paediatric", re.I)
+
 RE_PAED_EXCLUDE = re.compile(
     r"(Child-Pugh|Childs-Pugh|childhood cancer survivor"
     # Adult uses of terms added 2026-08-30, each confirmed present in the corpus:
@@ -119,6 +131,12 @@ RE_PAED_EXCLUDE = re.compile(
 )
 
 # UK / US naming -> AU naming. Extend as you find more.
+#
+# Matched on WORD BOUNDARIES, not as substrings (rule 9). As bare substrings,
+# "epinephrine" is contained in "norepinephrine" — so every norepinephrine line drew a
+# second, wrong suggestion telling the reader to write "adrenaline" where the correct
+# Australian term is noradrenaline. Confirmed on 2 corpus lines (01_Cardiovascular L973,
+# 14a-1 L62) before the fix.
 DRUG_NAMING = {
     "co-amoxiclav": "amoxicillin+clavulanate (check TG for the AU regimen)",
     "furosemide": "frusemide (AU convention; confirm local usage)",
@@ -137,19 +155,26 @@ DRUG_NAMING = {
     "hydroxychloroquine sulfate": "hydroxychloroquine sulfate (check AU spelling)",
 }
 
+DRUG_PATTERNS = {k: re.compile(r"\b" + re.escape(k) + r"\b", re.I) for k in DRUG_NAMING}
+
 # Sources requiring an institutional login. Items naming only these can never be
 # closed under the current working constraints, and should be labelled as permanently
 # noted rather than sitting in a queue that will never empty.
 RE_LOGIN_SOURCE = re.compile(
     r"(therapeutic guidelines|\beTG\b|\bAMH\b|australian medicines handbook|"
-    r"australian injectable drugs handbook|\bAIDH\b|eviQ)", re.I
+    r"australian injectable drugs handbook|\bAIDH\b|\beviQ\b)", re.I
 )
 
 # Openly accessible Australian sources — items naming these are actionable without a login.
 RE_OPEN_SOURCE = re.compile(
-    r"(ANZCOR|ASCIA|\bRCH\b|royal children|immunisation handbook|\bNIP\b|\bPBS\b|"
-    r"\bTGA\b|queensland (children|health)|NSW ACI|SA Health|RACGP|RANZCOG|"
-    r"kidney health|APEG|CDNA|\bNBA\b|cancer council|AIHW)", re.I
+    # Every acronym is word-anchored (rule 9). Unanchored, `ASCIA` matched inside
+    # "f-ascia" and "f-ascial" on 33 corpus lines and `APEG` inside "sc-apeg-oating" on 1,
+    # so any line mentioning fascial planes was scored OPEN — i.e. routed into the
+    # actionable verification queue as though ASCIA could settle it.
+    r"(\bANZCOR\b|\bASCIA\b|\bRCH\b|royal children|immunisation handbook|\bNIP\b|"
+    r"\bPBS\b|\bTGA\b|queensland (children|health)|\bNSW ACI\b|\bSA Health\b|"
+    r"\bRACGP\b|\bRANZCOG\b|kidney health|\bAPEG\b|\bCDNA\b|\bNBA\b|"
+    r"cancer council|\bAIHW\b)", re.I
 )
 
 
@@ -669,7 +694,8 @@ def cmd_drugs(args):
             low = line.lower()
             low_n = normalise(line).lower()
             for bad, good in DRUG_NAMING.items():
-                if bad in low or bad in low_n:
+                pat = DRUG_PATTERNS[bad]
+                if pat.search(low) or pat.search(low_n):
                     hits.append(f"{r} L{i}: `{bad}` -> {good}\n      {line.strip()[:120]}")
     print(f"drugs: {len(hits)} non-AU naming hits")
     for h in hits[: args.limit]:
@@ -689,7 +715,12 @@ def cmd_paed(args):
         r = rel(args.dir, path)
         text = read(path)
         fm, _ = split_frontmatter(text)
-        if fm_get(fm, "population") == "paed" or "Paeds" in r or "paed" in r.lower():
+        # CLAUDE.md rule 9. The previous test was `"paed" in r.lower()`, and the word
+        # ortho-PAED-ics contains "paed", so this sweep silently skipped 5 orthopaedic
+        # files (11_01, 11_06, 11_09a, NEW_Investigations_Orthopaedics..., 
+        # NEW_Orthopaedics_and_Trauma) for a reason unrelated to their content, and
+        # reported no error. Skip on the frontmatter label or an anchored path pattern.
+        if fm_get(fm, "population") == "paed" or RE_PAED_PATH.search(r):
             continue
         lines = text.split("\n")
         hits = []
