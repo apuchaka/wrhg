@@ -364,24 +364,52 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 
 </details>
 
-### 1.1.9 Phase 5 — Corpus merge (Steps 26–30; B: 37 files, C: 53 files)
+### 1.1.9 Phase 5 — Corpus merge (B: 39 files / 37 clinical, C: 53 files)
 
-Added 2026-08-30. Steps 26–30 handle two corpora that Steps 0–25 do not contemplate.
+Added 2026-08-30, rewritten 2026-08-30 after Step 26 was actually run.
 
-- ⬜ **Step 26** — Provenance and population labelling, all ~240 files (1–2 runs)
-- ⬜ **Step 27** — Verification-scope audit: retrofit `NOT checked:` to every verification box (2–3 runs)
-- ⬜ **Step 28a–f** — Corpus C remediation and integration, 6 × ~10 files (6–8 runs)
-- ⬜ **Step 29 × 37** — Corpus B merge, one file per run:
-  ⬜ C1_Acute_Abdomen · ⬜ C2_Nausea_and_Vomiting · ⬜ C3_Jaundice_and_Liver_Disease ·
-  ⬜ C4_Gastrointestinal_Bleeding · ⬜ C5_Bowel_Habit · ⬜ C6_Dyspepsia · ⬜ C7_Pancreatobiliary ·
-  ⬜ (remaining 30)
-- **Step 30** runs continuously during study, not from this queue.
+**Run order — this is NOT numeric order. `next` reads this list, not any conversation.**
 
-**Priority against the existing queue.** Step 26 is cheap (1–2 runs) and is a prerequisite for
-everything else here, so it ranks above Phase 3/4 re-verification. Steps 28–29 are ~45 runs and
-rank *below* Phase 2 new content on the same reasoning given there: an unbuilt high-yield
-category is a bigger exam-risk gap than consolidating material that already exists in two
-places. **Before MCQ 27 Sept, run Step 26 plus Steps 11 and 17 only.**
+| # | Step | Status |
+|---|---|---|
+| 1 | **Step 26** — provenance and population labelling | 🔶 in progress |
+| 2 | **Step 11** — AU drug dosing and product names (§1.17) | ⬜ |
+| 3 | **Step 17** — UK-localisation sweep (§1.23) | ⬜ |
+| 4 | **Step 28** — Corpus C, all 53 files, one block | ⬜ |
+| 5 | **Step 27** — verification-scope audit, chunked | ⬜ |
+| 6 | **Step 29** — Corpus B, ~12 files/week, **topic-ordered** | ⬜ |
+| — | **Step 30** — adjudication | never queued; continuous during study |
+
+**Why the order is not numeric.**
+
+**Steps 11 and 17 come second and third** because they are cheap, corpus-wide, and fix the
+highest-risk error class available: UK drug names sitting in a corpus that will be examined
+against Australian practice. They are **existing steps pulled forward, not new ones** — see
+§1.17 and §1.23 for what they do; nothing about them is restated here.
+
+**Step 28 precedes Step 27** because Corpus C is a reference layer with no topic coupling —
+it can be remediated as one block, in any order, without waiting on anything. Step 27's
+scope audit is chunked and open-ended, and B content merged later can point into C, so C
+wants to be settled first.
+
+**Step 29 is ordered BY STUDY TOPIC, not by filename.** Merge next week's topic this week,
+so conflicts arrive when adjudication is cheapest — while the clinical context is already
+loaded. At ~12 files/week that is **24–48 R1 conflicts a week**, and only topic alignment
+makes that survivable.
+
+> [!warning] The Step 29 list is deliberately reordered every week to track the study
+> schedule. **A future session must not treat it as a fixed sequence** and must not
+> "restore" it to filename order. Read the current week's topic first, then pick the B
+> files that serve it.
+
+**Step 30 never enters the queue.** It is human adjudication during study.
+
+**Priority against the existing queue.** Step 26 is cheap and is a prerequisite for
+everything else here, so it ranks above Phase 3/4 re-verification. Steps 28–29 are ~45 runs
+and rank *below* Phase 2 new content, on the same reasoning given there: an unbuilt
+high-yield category is a bigger exam-risk gap than consolidating material that already
+exists in two places. **Before MCQ 27 Sept, run Step 26 plus Steps 11 and 17 only** — which
+is exactly items 1–3 above.
 
 ---
 
@@ -919,37 +947,125 @@ Every edit must be individually verified (`grep -c "^## "` before/after, checkpo
 
 ## 1.32 Step 26 — Provenance and population labelling
 
-**New in the corpus-merge extension.** The project now holds three corpora, not one.
+**Rewritten 2026-08-30 after the step was run.** What follows is what actually worked, not
+the original design sketch.
 
 | Corpus | Files | `trust:` | What it is |
 |---|---|---|---|
-| **A** | ~148 | `inherited` | The original notes. Plausible, in use, never systematically checked. |
-| **B** | 37 | `unverified` | Built from model knowledge. Every figure marked or omitted. |
+| **A** | 148 | `inherited` | The original notes. Plausible, in use, never systematically checked. |
+| **B** | **39 files / 37 clinical** | `unverified` | Built from model knowledge. `00_BUILD_QUEUE.md` and `00_BUILD_QUEUE_v2.md` are B's own build queues — infrastructure. Label them so `lint` passes; exclude them by name from every content tally. |
 | **C** | 53 | `snippet` | AMH/guideline-derived via snippets. **States no doses or reference ranges.** |
+| — | `Medications_Reference.md` | `snippet` | Vault root, in no corpus directory, so **no `init` run reaches it**. Set by hand. |
 
 ```bash
-python3 scripts/merge_tools.py init --dir . --corpus a --dry-run
-python3 scripts/merge_tools.py init --dir . --corpus a     # trust: inherited
-python3 scripts/merge_tools.py init --dir . --corpus b     # trust: unverified
-python3 scripts/merge_tools.py init --dir . --corpus c     # trust: snippet
-python3 scripts/merge_tools.py paed --dir . --limit 300    # evidence for population:
+python3 scripts/merge_tools.py init --dir "Corpus A" --corpus a --dry-run
+python3 scripts/merge_tools.py init --dir "Corpus A" --corpus a     # trust: inherited
+python3 scripts/merge_tools.py init --dir "Corpus B" --corpus b     # trust: unverified
+python3 scripts/merge_tools.py init --dir "Corpus C" --corpus c     # trust: snippet
 ```
 
-**Corpus A is labelled `inherited`, not `verified`, and this is the point of the step.**
-Step 17's re-run found seven genuine UK leftovers in files an earlier sweep had already
-flagged, and `co-amoxiclav` still sits in `03_Gastrointestinal` appendicectomy prophylaxis.
-Labelling A as verified would make unchecked content indistinguishable from checked content.
-`verified` is reserved for §1.33's scoped check against a named Australian source.
+Run `init` **per corpus directory**, never `--dir .` — a single root run would label all
+three corpora identically and would write frontmatter into the project's own documents.
 
-Also set per file: `population: adult | paed | mixed` (rule 5 — paediatric content is mixed
-into adult files; 34 signals in `03_Gastrointestinal` alone, so no file is adult-only by its
-name), `figures: none` where a file states no numbers, and the script-maintained
-`conflicts_open` / `conflicts_r1` counters.
+`trust:` is a per-corpus constant, so it is a mechanical write. **`population:` is not**,
+and the rest of this step is about that.
 
-Deterministic — no clinical claim is altered, so batching here does not violate rule 6.
-Verify every `paed` hit individually (rule 3): `Child-Pugh` matching the `child` signal was
-one false positive. **Record the sweep by what was examined, not by what was changed**
-(Step 17's method lesson).
+---
+
+### The procedure that worked
+
+**1. Count paediatric signals per file** with `RE_PAED_SIGNAL`, over every file.
+
+**2. Calibrate the detector against files whose answer you already know, before using it
+for anything.** This is not optional and it is what caught the `\bALL\b` disaster:
+
+| Check | Requirement | Result 2026-08-30 |
+|---|---|---|
+| the 40 `15_*_Paeds_*` files | must score high | min 2 · median 10 · max 32 · none zero |
+| `11_10_Ortho_-_Paediatric_Orthopaedics` | must score high | 28 |
+| `14_05d_Psych_-_ECT` | must score zero | 0 |
+| `13_06c_ENT_-_Bell_s_Palsy` | must score zero | 0 |
+| `14_05b_Psych_-_Insomnia` | must score zero | 0 |
+
+**3. Read every zero-signal file in full.** Those are the only files where a label can do
+harm, and the only place manual verification is owed. Do not read the thousands of
+surviving signal lines — a `mixed` or `paed` file already warns its reader.
+
+**4. Label.** `paed` = the `15_*_Paeds_*` set plus `11_10`. `adult` = a zero-signal file
+that reading confirms is adult by nature. `mixed` = everything else.
+
+---
+
+> [!danger] **THE DETECTOR IS NOT A THRESHOLD CLASSIFIER.** It chooses which files to
+> read. It never decides a label.
+>
+> `15_18b_Paeds_-_Genetic_Disorders_Inheritance_Summary` and
+> `15_20b_Paeds_-_Imprinting_Disorders` score **2**. They are unambiguously paediatric.
+> The detector is simply weak on genetics content, and no threshold exists that admits
+> them without admitting half the adult corpus.
+>
+> **Label on what the file IS.** A low score on an obviously paediatric file is a detector
+> limitation, not evidence. This is the constraint most likely to be forgotten, because
+> a ranked list of counts looks exactly like a classifier.
+
+**`mixed` is the default; `adult` is the assertive label and must be earned by reading the
+file.** A false `mixed` costs the reader a check they did not need. A false `adult` puts an
+absolute adult figure under a label saying it is scoped — the B65 failure. Two of the
+files labelled `mixed` in this run hold **no figures at all** (`08_04` antibiogram, `14a-2`
+overdose antidote table): age-agnostic content, where `adult` would have been a false
+assertion rather than a cautious one.
+
+**Judge a candidate signal term by the disease entries its hits sit in, not by the flagged
+lines alone.** This run rejected `congenital` on the flagged lines — where it reads as an
+aetiology label in adult files — and had to restore it: the entries two of those lines sat
+in were **congenital methaemoglobinaemia** and **osteogenesis imperfecta**, both genuinely
+paediatric. Corrected score 6 flagged / 2 true. Terms genuinely rejected on the same test:
+`breast-?feed` (maternal scope), bare `centile` (matches "99th percentile"), bare `BCG`
+(intravesical BCG for bladder cancer), `weaning` (ventilator weaning).
+
+### Outcome, 2026-08-30
+
+**`adult` 32 · `paed` 41 · `mixed` 167** across the 240 corpus files, plus
+`Medications_Reference.md` (`mixed`, `figures: none`).
+
+All 39 zero-signal files were read. **Seven earned `mixed` despite scoring zero** —
+`08_04` and `14a-2` (dose-free, age-agnostic tables), `10_06a` (Fanconi anaemia), `10_06b`
+(congenital methaemoglobinaemia), `11_08c` (osteogenesis imperfecta, osteopetrosis),
+`13_06c` (a pointer stub with no clinical content), `NEW_Drugs_19` (baclofen for cerebral
+palsy). **Three files suspected paediatric on their names proved adult on reading** —
+`13_07c` dental covers tooth pain, trismus and dental abscess with no eruption content at
+all, so `adult` is exactly what correctly scopes its `amoxicillin 500mg/8h`.
+
+> [!warning] **The substring-matching defect class — found 2026-08-30, three instances in
+> one week, and the reason CLAUDE.md rule 9 exists.**
+> `Child-Pugh` matched the `child` signal. `\bALL\b`, added for acute lymphoblastic
+> leukaemia, matched the English word "all" under `re.I` and produced **37 of 65 sampled
+> hits** in one cross-check — a detector that had to be withdrawn wholesale. `"paed" in
+> path`, used as skip logic, matched **ortho·paed·ics** and silently excluded five
+> orthopaedic files from `cmd_paed` with no error at all.
+>
+> **These are one defect, not three coincidences**, so the file was audited as a class
+> rather than patched three times. Auditing every containment test and unanchored
+> alternative against all 240 files then found two more that nobody had noticed:
+> **`ASCIA` matches inside `fascia` and `fascial` on 33 corpus lines**, so every line
+> about fascial planes scored `OPEN` and was routed into the actionable verification
+> queue as though ASCIA could settle it; and **`epinephrine` is a substring of
+> `norepinephrine`**, so every noradrenaline line drew a second, wrong suggestion.
+>
+> **The two directions are not equally visible.** A false hit appears in a report and gets
+> dismissed. A false *skip* produces nothing — and a file missing from a scan looks
+> exactly like a file that came back clean. That asymmetry is why skip logic must never
+> use a substring.
+>
+> **Not every unanchored match is a defect.** `child`, `infant`, `gestation`, `pubert` and
+> `milestone` fire inside *children*, *infants*, *gestational*, *puberty* and *milestones*
+> — 846 in-word hits between them, every one the same concept. Anchoring those would
+> break them. The test is whether the longer word is a **different concept**, not whether
+> the match is unanchored.
+
+Deterministic labelling alters no clinical claim, so batching here does not violate rule 6.
+**Record the sweep by what was examined, not by what was changed** (Step 17's method
+lesson).
 
 ---
 
@@ -1219,6 +1335,9 @@ These are fundamentally different from every row above: there's no existing file
 - Medium/small: 39 groups, 141 runs (3×15 + 4×24)
 
 **Total estimated runs to apply the full current 26-step workflow (Steps 0–25) across all 146 existing files: ~214.** Down slightly from ~215 — the first time this number has moved down rather than up, specifically because Examination.md received genuine substantial work this round (the Newborn Examination build) rather than staying purely reactive, earning a real reclassification rather than just more testing revealing more to do. This is worth contrasting with every previous change to this number: three rises came from testing revealing more outstanding work (Step 17's real hit, Steps 18–20 adding untested checks, Step 24's MSK finding); this is the first that came from actual progress closing a gap, not from discovering a new one.
+
+**Steps 26–30 run in the order given in §1.1.9 — 26, 11, 17, 28, 27, 29 — not in numeric
+order.** The estimates below are per step and must not be read as a sequence.
 
 **Plus the corpus-merge extension (Steps 26–30), added 2026-08-30:** ~1–2 runs for Step 26,
 2–3 for Step 27, 6–8 for Step 28, and 37 for Step 29 — **~46–50 runs**, again additional to the

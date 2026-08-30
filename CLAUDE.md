@@ -15,6 +15,10 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
 2. **Zero grep hits is not proof of absence.** Check case-sensitivity, Unicode characters (α, β, ₂ subscripts), hyphenation variants, **markdown emphasis inside a word**, and alternate medical terminology before concluding content is missing. Historically most "missing" results have been search artifacts.
    - **The markdown case specifically:** this corpus bolds acronym expansions letter by letter — `**H**aemolysis, **E**levated **L**iver enzymes, **L**ow **P**latelets`. A search for `Haemolysis` finds nothing, because the literal text is `**H**aemolysis`. **Whenever a search for an acronym expansion returns zero hits, search again for a distinctive letter-run from the middle of the word** (`aemolysis`) before concluding the expansion is absent. The construction most likely to be searched for is the one least likely to be found.
    - Also never conclude absence from **truncated** output: a hit that was returned and cut off by a `cut`/`head` limit looks identical to no hit at all. View the full line.
+   - **Rule 9 is this rule's inverse** — it covers the search that finds the *wrong* thing
+     rather than nothing, and the file silently skipped before any search ran. A zero
+     result can mean the term was absent, the spelling differed (this rule), or the file
+     was never examined (rule 9).
 
 3. **Every automated scan produces false positives.** Verify each hit manually against actual file content before treating it as a gap. Report dismissed artifacts alongside confirmed gaps — the ratio is the main signal of whether the run was careful.
 
@@ -27,6 +31,26 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
 7. **Stop and report if you discover a limitation in your own method mid-run.** Do not continue applying a scan you've realised is flawed. This is more important than completing the phase.
 
 8. **Report honestly.** "Clean against everything currently known to check for" — never "verified complete." This project's history is that every completeness claim was later disproven by a new technique.
+
+9. **Substring matches create both false hits and silent false skips.** `child` matches
+   `Child-Pugh`; `ALL` matches the English word "all" under a case-insensitive search;
+   `paed` matches ortho**paed**ics; `ASCIA` matches f**ascia**; `epinephrine` matches
+   nor**epinephrine**. **Rule 2 covers searches that find nothing; this covers searches
+   that find the wrong thing** — and skip logic that excludes files with no error at all.
+   Anchor on word boundaries or full paths.
+   - **The two failure directions are not equally visible.** A false hit lands in a report
+     and gets dismissed. A false skip produces nothing, and **a file missing from a scan
+     looks identical to a file that came back clean.** Never write skip logic on a
+     substring.
+   - **Not every unanchored match is a defect.** `child`, `infant`, `gestation` and
+     `pubert` fire inside *children*, *infants*, *gestational* and *puberty* — the same
+     concept, and anchoring them would break them. The test is whether the longer word is
+     a **different** concept.
+   - Found three times in one week (2026-08-30). Treat it as a class: when one turns up,
+     audit every containment test and unanchored alternative in the same tool, against the
+     real corpus rather than by eye. That audit found two further instances nobody had
+     noticed — `ASCIA` inside `fascia` on 33 lines, mis-routing verification items into
+     the actionable queue, and `epinephrine` inside `norepinephrine`.
 
 ## 1.4 Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.
