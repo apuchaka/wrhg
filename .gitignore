@@ -1,0 +1,10 @@
+# Python bytecode from running scripts/merge_tools.py
+__pycache__/
+*.py[cod]
+
+# Tool run logs. merge_tools.py writes a new timestamped log on every lint/drugs/paed
+# run, so these accumulate without bound and dirty the working tree on every branch —
+# which is how 11 of them and a .pyc were swept into commits by `git add -A`.
+# The durable record of a run is _meta/OVERNIGHT_REPORT.md and _meta/RUN_STATE.md,
+# not these files.
+_meta/runs/
