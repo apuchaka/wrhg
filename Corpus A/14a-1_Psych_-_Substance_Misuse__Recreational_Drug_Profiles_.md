@@ -61,7 +61,7 @@ conflicts_r1: 0
 
 ## MDMA / Ecstasy
 
-- **MOA:** stimulates the release of dopamine, norepinephrine, serotonin.
+- **MOA:** stimulates the release of dopamine, noradrenaline, serotonin.
 - **CNS:** ataxia. Psych: acute reactions ("bad trips"), impaired judgment (→ injury), euphoria or dysphoria, agitation, psychosis.
 - **Cardiovascular:** ↑HR, ↑BP.
 - **Renal:** hyponatraemia (secondary to SIADH or ↑water intake).
