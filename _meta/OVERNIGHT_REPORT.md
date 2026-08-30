@@ -104,7 +104,7 @@ about itself.
 
 ---
 
-## Step 11 — AU drug naming · branch `phase/11-au-drug-naming` · 🛑 **HALTED**
+## Step 11 — AU drug naming · branch `phase/11-au-drug-naming` · 🛑 halted, then ✅ **CLEARED**
 
 ### What was examined
 
@@ -157,7 +157,58 @@ constraint is that nothing may be resolved without one.
 only inside the `13_01` box recording that they were wrong and naming Kenacomb/Otocomb
 Otic; `Debendox` only in the `16_01-05` box recording its 1983 Australian withdrawal.
 
+---
+
+## Step 11 — RE-RUN, halt cleared 2026-08-30
+
+The halt was resolved by the user against the **TGA "Updating medicine ingredient names —
+list of affected ingredients"** (Ingredient Harmonisation programme), an open Australian
+source. **The map was wrong in the direction the halt suspected**: harmonisation moved
+Australian Approved Names *toward* the INN, so `frusemide` → `furosemide`, not the reverse.
+
+### The map now carries a source per entry, and an entry without one is not applied
+
+| Action | Entries | Source |
+|---|---|---|
+| **Reversed** | `frusemide`→`furosemide` | TGA IHIN |
+| **Added** | `amoxycillin`→`amoxicillin` | TGA IHIN |
+| **Kept** | `lignocaine`→`lidocaine`, `rifampin`→`rifampicin`, `cyclosporine`→`ciclosporin` | TGA IHIN |
+| **Kept, explicitly not reversed** | `epinephrine`→`adrenaline`, `norepinephrine`→`noradrenaline` | TGA IHIN **retains** adrenaline/noradrenaline as the AU approved names; the *-ephrine* forms are not adopted |
+| **Kept** | `acetaminophen`→`paracetamol`, `glyburide`→`glibenclamide`, `albuterol`→`salbutamol` | already INN in AU, never changed |
+| **Removed** | `co-trimoxazole` | its own value was a hedge, and a hedge is not a rename |
+| **Removed** | `salbutamol sulfate`, `hydroxychloroquine sulfate` (mapped to themselves), `lignocaine hydrochloride` (redundant) | — |
+| **Removed** | `amphetamine sulfate`→`dexamfetamine` | **a drug-identity error, not a naming one** — they are not the same substance. Found while auditing the map for sources |
+
+### Two skip rules, both derived from hits read this run
+
+- **Non-AU blocks.** A block flagged "UK figures (unverified for AU use)", "UK schedule,
+  retained for reference only" and similar is skipped. **The foreign drug name is often
+  the only thing marking that content as foreign** — renaming it makes UK figures read as
+  Australian. 1 hit skipped (`02_Respiratory` L356).
+- **Dual naming.** `furosemide (frusemide)`, `adrenaline (epinephrine)`,
+  `lidocaine (lignocaine)` are correct as written with the AU name leading; Corpus C's
+  drug files do this deliberately. **7 hits, no action.**
+
+### Applied: 18 renames across 14 files · 0 actionable hits remaining
+
+| Rename | Count | Marker |
+|---|---|---|
+| `co-amoxiclav` → `amoxicillin+clavulanate` | 6 | each carries `UNVERIFIED — AU regimen; Therapeutic Guidelines (login). Look up at point of use.` |
+| `lignocaine` → `lidocaine` | 8 | none — pure TGA nomenclature |
+| `frusemide` → `furosemide` | 4 | none — pure TGA nomenclature |
+
+**Why no marker on the last two groups:** both name an open source in the commit, and two
+of the `lignocaine` lines sit **inside existing WA Health verification boxes**, where an
+`UNVERIFIED` marker would contradict a box that has been verified.
+
+**Digit-invariance verified per file before committing.** The multiset of digits is
+identical before and after in all 14 files. No dose figure moved.
+
+**Note on `furosemide`:** the corpus's 14 pre-existing `furosemide` instances were already
+correct. Under the old map they would all have been renamed to `frusemide`. The halt
+prevented 14 regressions.
+
 ### Next step
 
-Step 28 is next in the queue and was explicitly deferred pending review of these two
-reports. **Stopping here.**
+Step 28 is next in the queue and was explicitly deferred pending review of these reports.
+**Stopping here.**
