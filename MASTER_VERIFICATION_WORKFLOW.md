@@ -419,15 +419,34 @@ is exactly items 1–3 above, and the reason the pre-MCQ line sits where it does
 
 ## 1.1.9.2 Step 29 — Corpus B merge order, mapped to the study weeks
 
+> [!danger] **STEP 29 IS ONGOING, NOT FINITE. "All 37 merged" is not completion.**
+> Corpus B is roughly **one third built** — 37 files against 96 planned clusters, with **753
+> items still to build** — and **new B files arrive continuously** while the build queue runs.
+> The 37 below are a snapshot, not a scope.
+>
+> Practically: never mark Step 29 ✅, never write a completion percentage against 37, and
+> **re-derive this list from the filesystem at the start of every session** rather than
+> trusting the file names written here. A session that treats 37 as the total will report the
+> merge finished while files it never saw sit unmerged.
+
 All **37** clinical B files assigned (the two `00_BUILD_QUEUE*` files are infrastructure).
 Assigned **by content and frontmatter `block:`**, not by filename prefix — see the prefix audit below.
 
-### **W1** Aug 31–Sep 6 · GI · neurology · geriatrics · injury/poisoning — **21 files**
+### **W1** Aug 31–Sep 6 — restructured into CONDITIONAL BLOCKS, not a committed 21
 
-- ⬜ `A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy`
-- ⬜ `A6_Thermal_and_Environmental_Injury`
-- ⬜ `A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury`
-- ⬜ `A8_Foreign_Bodies_by_Site`
+The week is **not** a list of 21 files to get through. It is five blocks ordered by **study
+return**, and blocks 3–5 are explicitly conditional.
+
+> [!danger] **Do not "helpfully" complete the week.** Blocks 3–5 are **not committed work**
+> and must never be merged to keep a schedule. **5 files for 21 study topics is poor return
+> against 7 files for 102.** A later session that finishes the week because the week says 21
+> has spent its effort in the wrong place. If time runs out mid-block, stop — an unmerged
+> block costs nothing.
+
+#### BLOCK 1 — Gastroenterology · **DO FIRST** · 7 files · **102 study topics**
+**New-file gate ON** (§1.1.9.1): halt to `_meta/merges/PENDING_NEW_FILES.md` before creating
+any file. **Block 1 requires approval on the first destination table before it runs.**
+
 - ⬜ `C1_Acute_Abdomen`
 - ⬜ `C2_Nausea_and_Vomiting`
 - ⬜ `C3_Jaundice_and_Liver_Disease`
@@ -435,6 +454,11 @@ Assigned **by content and frontmatter `block:`**, not by filename prefix — see
 - ⬜ `C5_Bowel_Habit__Obstruction_and_Distension`
 - ⬜ `C6_Dyspepsia__Oesophageal_and_Anorectal_Disease`
 - ⬜ `C7_Pancreatobiliary_Disease`
+
+#### BLOCK 2 — Neurology · midweek · 7 files · **63 study topics**
+**Gate may be dropped** if the first two or three Block 1 destination tables come back right.
+That is a judgement made on Block 1's output, not a default.
+
 - ⬜ `D1_Headache_and_Meningism`
 - ⬜ `D2_Altered_Consciousness_and_Cognition`
 - ⬜ `D3_Stroke_and_Focal_Neurological_Deficit`
@@ -442,27 +466,47 @@ Assigned **by content and frontmatter `block:`**, not by filename prefix — see
 - ⬜ `D5_Dizziness__Vertigo_and_Gait`
 - ⬜ `D6_Seizures_and_Movement_Disorders`
 - ⬜ `D7_Cranial_Nerves_and_Special_Senses`
+
+#### BLOCK 3 — Resuscitation / acid–base · **DEFER** · 5 files · cross-cutting
+Cross-cutting rather than tied to one study topic, so the adjudication-while-loaded argument
+is weakest here. **Conditional.**
+
 - ⬜ `F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation`
+- ⬜ `F0-2_Acid-Base__DKA_and_Fluid_States`
+- ⬜ `F0-3_Shock_Phenotypes_and_Sepsis_Syndromes`
+- ⬜ `F0-4_Resuscitation_Algorithms_and_Emergency_Procedures`
+- ⬜ `F0-5_Acute_Respiratory__Headache_and_Head_Injury`
+- ⬜ `A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy` — toxicology, pairs with `F0-1`
+
+#### BLOCK 4 — Geriatrics · **ONLY IF ROOM** · 2 files · 11 study topics
 - ⬜ `GER1_Comprehensive_Geriatric_Assessment`
 - ⬜ `GER2_Geriatric_Syndromes_and_End_of_Life_Care`
 
-### **W2** Sep 7–13 · cardiology · ID/immunology · endocrine · sexual health — **7 files**
+#### BLOCK 5 — Injury · **ONLY IF ROOM** · 3 files · 10 study topics
+- ⬜ `A6_Thermal_and_Environmental_Injury`
+- ⬜ `A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury`
+- ⬜ `A8_Foreign_Bodies_by_Site`
+
+> [!warning] **Every B file must have a ⬜ row, not a prose mention.** `A5_Toxicology_II` was
+> initially moved to Block 3 in prose only, and the coverage check caught it with no row. This
+> project has twice found files that were "named nowhere in the queue" — N7, and the nine
+> files found on 2026-08-29. A prose mention is not a queue row. Re-run the coverage check
+> after editing this section: every file in `Corpus B/*.md` must appear exactly once.
+
+### **W2** Sep 7–13 · cardiology · ID/immunology · endocrine · sexual health — **5 files**
 
 - ⬜ `B1_Chest_Pain_Framework_and_Cardiac_Biomarkers`
 - ⬜ `B2_Hypertension_Spectrum`
 - ⬜ `B3_Arrhythmia__Bradycardia_and_Cardiac_Devices`
 - ⬜ `B4_Syncope__Collapse_and_Hypotension`
 - ⬜ `B5_Murmurs__Endocarditis_and_Vascular_Disease`
-- ⬜ `F0-2_Acid-Base__DKA_and_Fluid_States`
-- ⬜ `F0-3_Shock_Phenotypes_and_Sepsis_Syndromes`
 
-### **W3** Sep 14–20 · MSK/ortho/rheum · respiratory · gynae/breast · anaesthetics — **3 files**
+### **W3** Sep 14–20 · MSK/ortho/rheum · respiratory · gynae/breast · anaesthetics — **2 files**
 
 - ⬜ `A3_Respiratory_Failure__Bronchospasm_and_Hypoxia`
 - ⬜ `A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule`
-- ⬜ `F0-5_Acute_Respiratory__Headache_and_Head_Injury`
 
-### **W4** Sep 21–27 · psychiatry · renal/urology · paediatrics · haematology — **0 files (MERGE FREEZE)**
+### **W4** Sep 21–27 · psychiatry · renal/urology · paediatrics · haematology — **0 files**
 
 Its one file, `A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies`, is **moved to
 after W5** and is listed there. Leaving it listed here would invite a session to merge it
@@ -473,12 +517,11 @@ during the freeze week.
 - ⬜ `A10_Ethics__Capacity__Consent_and_Certification`
 - ⬜ `B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations`
 
-### **After W5** · no matching study week, plus the file displaced by the freeze — **4 files**
+### **After W5** · no matching study week, plus the file displaced by the freeze — **3 files**
 
 - ⬜ `A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest`
 - ⬜ `A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies` — **displaced from W4 by the merge freeze**
 - ⬜ `A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies`
-- ⬜ `F0-4_Resuscitation_Algorithms_and_Emergency_Procedures`
 
 > [!danger] **WEEK 4 (Sep 21–27) IS A MERGE FREEZE. MCQ1 is Friday 27 September.**
 > No merge, no PR, no branch. The single W4 file (`A9_Transfusion…`) moves to **after W5**.
