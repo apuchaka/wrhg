@@ -267,6 +267,19 @@ Acute episodes of inflammation.
 
 ---
 
+### 0.6.7 Added from unverified layer — four points on variceal bleeding not made above
+`SRC:C4_Gastrointestinal_Bleeding §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Balloon tamponade is a time-limited bridge, not a treatment
+> §0.6.4 and §0.33.3 both list the Sengstaken-Blakemore tube for uncontrolled bleeding without qualifying it. It is a **temporary bridge to definitive therapy only**, placed in an **intubated** patient, with a **defined time limit** — it carries a real risk of **oesophageal necrosis and rupture** the longer it stays inflated.
+> `UNVERIFIED — the maximum inflation time and the balloon pressures; gastroenterology or intensive care unit protocol.`
+
+> [!warning] Do not assume the bleed is variceal just because the patient is cirrhotic
+> **A substantial proportion of upper GI bleeds in cirrhotic patients are from ulcers**, not varices. Urgent endoscopy is diagnostic as well as therapeutic for exactly this reason, and the pre-endoscopy management (terlipressin plus prophylactic antibiotics, §0.33.3) is given because it is correct *if* the bleed is variceal — not because the diagnosis has been made.
+
+- **A variceal bleed commonly precipitates hepatic encephalopathy**, and the mechanism is worth knowing because it changes the management: the **protein load of blood sitting in the gut** is digested and absorbed as nitrogen, on top of hypoperfusion and infection. §0.6.3 already lists GI bleed among the precipitants; **lactulose is given to clear the blood from the gut**, not only for the encephalopathy itself.
+- **Portal hypertensive gastropathy** — a diffuse mosaic mucosal pattern causing **chronic slow blood loss rather than acute haemorrhage**. It is treated with **beta-blockade, not banding**, because there is no discrete lesion to band. **Carvedilol** is an alternative to propranolol as the non-selective beta-blocker (§0.6.4 names propranolol only).
+
 ## 0.7 Wilson's Disease
 
 **D:** autosomal recessive disorder of excessive copper deposition.
