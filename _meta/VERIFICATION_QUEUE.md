@@ -5,9 +5,9 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-30
 
-397 open items. Close one by editing its marker in the file, then rerunning `scan`.
+402 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
-# Actionable — openly accessible Australian sources (50)
+# Actionable — openly accessible Australian sources (51)
 
 These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No login needed. **This is the working queue.**
 
@@ -36,12 +36,13 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus B/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L258 · _0.8 Procedural Sedation_ · `unverified` — all agent doses, titration increments, combinations, fasting guidance and reversal agent dosing are omitted; obtain from ACEM guidance and local policy.
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L285 · _0.6 Advance Care Planning in Practice_ · `unverified` — the SA Health goals-of-care and resuscitation planning forms and their current names and structure.
 
-## R2 — changes disposition (18)
+## R2 — changes disposition (19)
 
 - **Corpus A/03_Gastrointestinal.md** L564 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — the Atlanta definitions and the organ-failure criteria they use (the modified Marshall score); RACGP or a gastroenterology reference. Ranson, BISAP and APACHE II are further prognostic scores in use — their components and thresholds are deliberately not stated here, and neither is the 48-hour CRP cut-off.
 - **Corpus A/03_Gastrointestinal.md** L868 · _0.18.1 Added from unverified layer — presentation sequence, atypical positions, and the RIF differential_ · `inherited` — selection criteria for antibiotic-first management; RACGP or your health network's surgical guidelines.
 - **Corpus A/03_Gastrointestinal.md** L1072 · _0.25.1 Added from unverified layer — anorectal pain, and what the dentate line implies_ · `inherited` — the time window within which excision is preferred; RACGP or a colorectal surgical reference.
 - **Corpus A/03_Gastrointestinal.md** L1354 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — the grade labels (Ia/Ib/IIa/IIb/IIc/III) and their associated rebleeding percentages; RACGP or a gastroenterology reference.
+- **Corpus A/04_Neurology.md** L787 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — the diagnostic criteria, the recurrence rate, and what imaging is warranted before accepting the diagnosis; RACGP or a neurology reference.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L111 · _0.3 Substitute Decision-Making and Advance Care Directives_ · `unverified` — eligibility criteria, the process, the practitioner training requirements, and the rules about initiating a discussion all require verification against the current Act and SA Health guidance. This is an area where the law is recent, detailed, and where getting the procedure wrong has serious consequences.
 - **Corpus B/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L41 · _0.1 Burns — Assessment_ · `unverified` — the TBSA percentage thresholds for referral, which differ for adults and children, are omitted. Obtain from ANZBA and your state burns service referral criteria.
 - **Corpus B/A8_Foreign_Bodies_by_Site.md** L190 · _0.6 Swallowed Foreign Body_ · `unverified` — the specific time windows for removal in each category, the object size and length thresholds beyond which passage is unlikely, and the recommended observation intervals require verification against RCH and current gastroenterology guidance.
@@ -93,7 +94,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 
 - **Corpus B/C1_Acute_Abdomen.md** L189 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (278)
+# Triage — source not named in the marker (282)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
@@ -152,13 +153,15 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L234 · _0.5 Falls_ · `unverified` — dosing and who should receive it.
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L276 · _0.6 Osteoporosis and Fracture Prevention_ · `unverified` — dosing interval and the recommended transition regimen.
 
-## R2 — changes disposition (121)
+## R2 — changes disposition (123)
 
 - **Corpus A/03_Gastrointestinal.md** L569 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — the timing at which intervention is preferred, and the criteria for calling necrosis infected; gastroenterology or upper GI surgical guidance.
 - **Corpus A/03_Gastrointestinal.md** L596 · _0.12.1 Added from unverified layer — two complications of chronic pancreatitis_ · `inherited` — the diagnostic criteria distinguishing type 3c from type 2, and the preferred glucose-lowering agents; see [[06_Metabolic_Medicine_and_Endocrinology]] and specialist endocrine guidance.
 - **Corpus A/03_Gastrointestinal.md** L1362 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — its components and thresholds, and how it compares with Glasgow-Blatchford in Australian practice.
 - **Corpus A/03_Gastrointestinal.md** L1505 · _0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis_ · `inherited` — the desaturation threshold that defines orthodeoxia, and the pulmonary pressure thresholds for portopulmonary hypertension; specialist respiratory or hepatology guidance.
+- **Corpus A/04_Neurology.md** L792 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — diagnostic criteria and the yield of EEG in this setting; neurology guidance.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L54 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — the surveillance intervals, and the criteria for who requires surveillance at all. These differ between guidelines, so take them from the gastroenterology service running the programme rather than from a general reference.
+- **Corpus A/Investigation-Interpretation.md** L541 · _1.22 Cognitive Screening Tools (MMSE, MoCA, AMTS)_ · `inherited` — the RUDAS and 4AT cutoffs and their validation populations. The derivation-population principle above applies to these two exactly as it does to the rest, so the cutoffs are deliberately not stated here.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L40 · _0.1 Capacity Assessment_ · `unverified` — the specific age thresholds, and the circumstances in which a second practitioner's opinion is required, must be verified against the Consent to Medical Treatment and Palliative Care Act 1995 (SA). Do not assume the position in another state applies.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L140 · _0.4 Neurologically Determined Death_ · `unverified` — the required observation period, the CO₂ threshold and technique for the apnoea test, the qualifications and independence requirements of the two examining practitioners, and the accepted imaging modalities are ALL omitted from this file. The authoritative Australian source is the ANZICS Statement on Death and Organ Donation; obtain the current edition.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L156 · _0.4.2 Mx – Definitive_ · `unverified` — reportable death criteria under the Coroners Act 2003 (SA).
@@ -276,7 +279,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L251 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — reportable death criteria under the Coroners Act 2003 (SA).
 - **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L97 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (105)
+## R3 — everything else (107)
 
 - **Corpus A/03_Gastrointestinal.md** L271 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L553 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — model knowledge, not source-checked.
@@ -295,10 +298,12 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/03_Gastrointestinal.md** L1770 · _0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L1794 · _0.41.9 Added from unverified layer — the distended abdomen_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/04_Neurology.md** L627 · _Added from unverified layer — neck stiffness: the differential_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/04_Neurology.md** L776 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L181 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L48 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/14_05a_Psych_-_Eating_Disorders.md** L76 · _Added from unverified layer — physical signs of self-induced vomiting_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_.md** L63 · _Added from unverified layer — three points not stated above_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/Investigation-Interpretation.md** L537 · _1.22 Cognitive Screening Tools (MMSE, MoCA, AMTS)_ · `inherited` — model knowledge, not source-checked.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L52 · _0.1.3 Mx – Chronic/long-term_ · `unverified` — process and jurisdiction.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L64 · _0.2 Consent and Treatment Refusal_ · `unverified` — confirm the current statutory and common law position, including any civil liability legislation modifying it.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L72 · _0.2 Consent and Treatment Refusal_ · `unverified` — the statutory basis and its limits in South Australia require verification against the Consent to Medical Treatment and Palliative Care Act 1995.

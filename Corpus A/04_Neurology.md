@@ -772,6 +772,29 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 
 ---
 
+### Added from unverified layer — structural versus metabolic, and two transient amnesias
+`SRC:D2_Altered_Consciousness_and_Cognition §0.1` `SRC:D2_Altered_Consciousness_and_Cognition §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Structural versus metabolic — the pattern that separates them
+> The GCS above records **how impaired** consciousness is. This is the question of **why**, and it splits before any investigation returns.
+> **Structural** — **focal** and **asymmetrical**. A lateralising motor deficit, asymmetric pupils, gaze deviation, or a progressive deterioration following an anatomical sequence. Imaging is urgent.
+> **Metabolic and toxic** — **symmetrical**, with **pupils preserved and reactive** (the striking exception being opioids, which constrict them), often with tremor, myoclonus or asterixis, and a level of consciousness that **fluctuates** rather than marching downward.
+> **Preserved, symmetrical, reactive pupils in a deeply unconscious patient point away from a structural cause** — which is the single most useful bedside observation in this assessment.
+
+> [!warning] Transient global amnesia
+> **Abrupt, isolated anterograde amnesia lasting hours and resolving completely**, in a patient who is otherwise alert, oriented to self, and neurologically normal. The characteristic feature is **repetitive questioning** — asking the same question every few minutes, with no recollection of the answer.
+> There is **no focal deficit and no alteration of consciousness**; if either is present this is not the diagnosis. Recovery is complete, and recurrence is uncommon.
+> `UNVERIFIED — the diagnostic criteria, the recurrence rate, and what imaging is warranted before accepting the diagnosis; RACGP or a neurology reference.`
+
+> [!warning] Transient epileptic amnesia
+> **Brief, recurrent amnestic episodes**, often on waking, in an older patient — and, unlike transient global amnesia, **they repeat**. It is a temporal lobe epilepsy presenting as memory loss rather than as a recognisable seizure, and it is **treatable**, which is why the distinction matters.
+> **Recurrent amnestic episodes should prompt an EEG rather than reassurance.** See §Seizures and Epilepsy below and §Focal Seizures.
+> `UNVERIFIED — diagnostic criteria and the yield of EEG in this setting; neurology guidance.`
+
+> [!note] Not repeated here
+> **Wernicke-Korsakoff** is the other major cause of an amnestic presentation and is covered in §Serotonin Syndrome and NMS above, in `03_Gastrointestinal` §0.6.1, and in `14a-1_Psych_-_Substance_Misuse`. **`TGA` in this vault usually means transposition of the great arteries, and sometimes the Therapeutic Goods Administration** — the abbreviation is deliberately not used above.
+
+
 ## Seizures and Epilepsy
 
 **Seizure:** a transient occurrence of signs/symptoms due to abnormal excessive or synchronous neuronal activity in the brain.
