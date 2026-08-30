@@ -1576,6 +1576,34 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 
 ---
 
+### 0.41.6 Added from unverified layer — the acute abdomen in special groups
+`SRC:C1_Acute_Abdomen §0.11` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] The elderly
+> **Presentation is blunted and mortality is far higher.** Older patients with a surgical abdomen frequently have **less pain, no fever, a normal white cell count and an unimpressive examination** — and yet have perforation, ischaemia or obstruction.
+> The conditions that predominate change too: **mesenteric ischaemia, ruptured aortic aneurysm, obstruction from malignancy, perforated diverticular disease, biliary sepsis** and incarcerated hernia.
+> **Have a low threshold for CT in an older patient with unexplained abdominal pain**, and be sceptical of a diagnosis of gastroenteritis or constipation. Delayed diagnosis is the main driver of the excess mortality.
+
+> [!danger] Pregnancy
+> **Anatomy and physiology both mislead.** The appendix is displaced upward and laterally. A **physiological leucocytosis** is normal, so a raised white cell count means little. The gravid uterus lifts the abdominal wall away from inflamed viscera, so **guarding and rebound are often absent even with peritonitis.**
+> The obstetric differential must be considered alongside the surgical one: **ectopic pregnancy** ([[17_04_Ectopic_Pregnancy_and_GTD]]), **miscarriage** ([[17_03_Termination_of_Pregnancy_and_Miscarriage]]), **placental abruption and uterine rupture** ([[16_14-15_Obstetric_Emergencies]]), **HELLP syndrome and pre-eclampsia with liver capsule distension** ([[16_08-09_Antenatal_and_Perinatal_Problems]]), and **fibroid degeneration** ([[17_05_PID__Endometriosis__Fibroids]]).
+> **Do not withhold necessary imaging out of radiation fear.** Ultrasound first, MRI second, and **CT where it is genuinely needed** — the risk of a missed perforation to both mother and fetus exceeds the radiation risk. Involve obstetrics early.
+
+> [!warning] The immunosuppressed and neutropenic patient
+> Corticosteroids, chemotherapy and immunosuppressants **blunt the inflammatory response**, so pain, fever, guarding and leucocytosis may all be minimal or absent in the presence of established perforation.
+> **Neutropenic enterocolitis (typhlitis)** — right iliac fossa pain and fever in a neutropenic patient, managed medically in most cases rather than surgically, and easily mistaken for appendicitis.
+> **CMV colitis, atypical infections, and graft-versus-host disease** in transplant recipients.
+> **Have a lower threshold for imaging and a higher index of suspicion** in this group than the clinical findings would suggest.
+
+> [!note] Children
+> The paediatric acute abdomen is owned by [[15_07_Paeds_-_Abdominal_Pain__Neuroblastoma__Coeliac_Disease__Malnutrition__Diarrhoea_and_Vomiting]] and [[15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_]], and is not repeated here.
+
+**Ix:** group-specific, with the general principle that in **all four groups the threshold for imaging should be lower than the clinical findings suggest**, because the findings are unreliable.
+
+**Mx — immediate:** standard resuscitation, with early senior and specialty involvement. In pregnancy, involve obstetrics from the outset and position the patient in left lateral tilt after the mid-second trimester to avoid aortocaval compression.
+
+---
+
 ## 0.42 Faecal Incontinence (Adult)
 
 > [!note] Gap-filled from CSV ("Faecal incontinence," found under Renal & Urology in the source spreadsheet, but genuinely a GI/colorectal topic) — the paediatric equivalent (encopresis, driven overwhelmingly by functional constipation/stool-withholding) is already built in [[15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis]] Encopresis (faecal incontinence), not repeated here — but adult faecal incontinence is a genuinely different condition with different dominant causes, and had no coverage anywhere. Verified against RACGP's Silver Book aged care guide and current Australian primary care research, Aug 2026.
