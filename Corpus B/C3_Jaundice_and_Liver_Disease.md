@@ -212,7 +212,7 @@ Treat the cause — **alcohol cessation, antiviral therapy for hepatitis B and C
 
 > [!tip] Ascites and the SAAG
 > The **serum-ascites albumin gradient** distinguishes the cause. **A high gradient indicates portal hypertension** — cirrhosis, heart failure, Budd-Chiari. **A low gradient indicates a non-portal cause** — peritoneal malignancy, tuberculous peritonitis, pancreatic ascites, nephrotic syndrome. `UNVERIFIED — the gradient value separating high from low.`
-> Management: **sodium restriction, spironolactone with frusemide**, and **large-volume paracentesis with albumin replacement** for tense ascites. Fluid restriction is only needed for significant hyponatraemia.
+> Management: **sodium restriction, spironolactone with furosemide**, and **large-volume paracentesis with albumin replacement** for tense ascites. Fluid restriction is only needed for significant hyponatraemia.
 
 > [!danger] Spontaneous bacterial peritonitis
 > **Every cirrhotic patient with ascites who is admitted should have a diagnostic ascitic tap**, regardless of symptoms. SBP frequently presents with **no abdominal pain and no fever** — sometimes only with worsening encephalopathy, renal impairment or unexplained deterioration.

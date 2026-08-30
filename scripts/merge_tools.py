@@ -132,30 +132,62 @@ RE_PAED_EXCLUDE = re.compile(
     re.I,
 )
 
-# UK / US naming -> AU naming. Extend as you find more.
+# Non-AU naming -> AU naming.
 #
-# Matched on WORD BOUNDARIES, not as substrings (rule 9). As bare substrings,
-# "epinephrine" is contained in "norepinephrine" — so every norepinephrine line drew a
-# second, wrong suggestion telling the reader to write "adrenaline" where the correct
-# Australian term is noradrenaline. Confirmed on 2 corpus lines (01_Cardiovascular L973,
-# 14a-1 L62) before the fix.
+# EVERY ENTRY CARRIES A SOURCE. An entry without one is not applied — that rule exists
+# because the previous version of this map was a hand-written list of hedges, and one
+# entry was BACKWARDS: it renamed `furosemide` to `frusemide`, when the TGA's Ingredient
+# Harmonisation programme moved Australian Approved Names TOWARD the INN, i.e. frusemide
+# to furosemide. Applying it would have regressed 14 correct names in the corpus.
+#
+# Hedged entries were REMOVED rather than kept, because a hedge is not a rename:
+#   `co-trimoxazole`          — its own value read "AU naming varies; confirm".
+#   `salbutamol sulfate`      — mapped to itself.
+#   `hydroxychloroquine sulfate` — mapped to itself.
+#   `lignocaine hydrochloride` — redundant with the `lignocaine` entry.
+#   `amphetamine sulfate` -> `dexamfetamine` — REMOVED as a drug-identity error, not a
+#                             naming one: amphetamine sulfate and dexamfetamine are not
+#                             the same substance.
+#
+# Matched on WORD BOUNDARIES, not as substrings (rule 9): `epinephrine` is contained in
+# `norepinephrine`, so a bare substring match told the reader to write "adrenaline" on
+# every noradrenaline line.
+
+TGA_IHIN = ("TGA, Updating medicine ingredient names — list of affected ingredients "
+            "(Ingredient Harmonisation programme). Open AU source, no login.")
+TGA_KEEP = ("TGA IHIN — adrenaline/noradrenaline explicitly RETAINED as the Australian "
+            "approved names; the -ephrine forms are not adopted.")
+INN_AU   = "Already the INN and the Australian approved name; never changed."
+
 DRUG_NAMING = {
-    "co-amoxiclav": "amoxicillin+clavulanate (check TG for the AU regimen)",
-    "furosemide": "frusemide (AU convention; confirm local usage)",
-    "acetaminophen": "paracetamol",
-    "epinephrine": "adrenaline",
-    "norepinephrine": "noradrenaline",
-    "albuterol": "salbutamol",
-    "meperidine": "pethidine",
-    "glyburide": "glibenclamide",
-    "lignocaine hydrochloride": "lidocaine (check current AU nomenclature)",
-    "rifampin": "rifampicin",
-    "cyclosporine": "ciclosporin",
-    "amphetamine sulfate": "dexamfetamine (check AU spelling)",
-    "co-trimoxazole": "trimethoprim+sulfamethoxazole (AU naming varies; confirm)",
-    "salbutamol sulfate": "salbutamol sulfate (check AU spelling: sulfate/sulphate)",
-    "hydroxychloroquine sulfate": "hydroxychloroquine sulfate (check AU spelling)",
+    # (replacement, source)
+    "frusemide":      ("furosemide", TGA_IHIN),
+    "amoxycillin":    ("amoxicillin", TGA_IHIN),
+    "lignocaine":     ("lidocaine", TGA_IHIN),
+    "rifampin":       ("rifampicin", TGA_IHIN),
+    "cyclosporine":   ("ciclosporin", TGA_IHIN),
+    "epinephrine":    ("adrenaline", TGA_KEEP),
+    "norepinephrine": ("noradrenaline", TGA_KEEP),
+    "acetaminophen":  ("paracetamol", INN_AU),
+    "glyburide":      ("glibenclamide", INN_AU),
+    "albuterol":      ("salbutamol", INN_AU),
+    "meperidine":     ("pethidine", INN_AU),
+    "co-amoxiclav":   ("amoxicillin+clavulanate",
+                       "Not an ingredient name at all — a UK combination shorthand. The "
+                       "TGA IHIN ingredient names are amoxicillin and clavulanic acid; "
+                       "the corpus already renders the pair as amoxicillin+clavulanate "
+                       "in 4 of its 5 existing occurrences. Renaming the NAME does not "
+                       "confirm the REGIMEN, which needs Therapeutic Guidelines (login)."),
 }
+
+# Blocks that deliberately quote non-Australian material — a UK schedule kept for
+# reference, a "UK figures (unverified for AU use)" comparison. RENAMING INSIDE ONE MAKES
+# FOREIGN FIGURES READ AS AUSTRALIAN, which is worse than leaving the foreign name in
+# place: the name is the only thing marking the content as foreign.
+RE_NON_AU_BLOCK = re.compile(
+    r"(unverified for AU use|UK figures|UK schedule|retained for reference only|"
+    r"not confirmed as Australian|not verified against an Australian source|"
+    r"UK-specific|the UK's|UK guidance|was UK-specific guidance)", re.I)
 
 DRUG_PATTERNS = {k: re.compile(r"\b" + re.escape(k) + r"\b", re.I) for k in DRUG_NAMING}
 
@@ -688,23 +720,64 @@ def cmd_lint(args):
 
 
 def cmd_drugs(args):
-    hits = []
+    """Report non-AU drug names, and mark hits inside deliberately non-Australian blocks.
+
+    A block flagged as UK/non-AU is skipped for renaming: the foreign drug name is often
+    the only thing marking that content as foreign, so renaming it makes UK figures read
+    as Australian. Found in 02_Respiratory, where "UK figures (unverified for AU use):
+    co-amoxiclav 500/125mg tds" sits directly under an Australian regimen.
+    """
+    hits, skipped, dual = [], [], []
     for path in md_files(args.dir):
         text = read(path)
         r = rel(args.dir, path)
-        for i, line in enumerate(text.split("\n"), 1):
-            low = line.lower()
-            low_n = normalise(line).lower()
-            for bad, good in DRUG_NAMING.items():
+        lines = text.split("\n")
+        for i, line in enumerate(lines, 1):
+            # a non-AU flag on this line, or on the callout block it belongs to
+            block_flag = matches(RE_NON_AU_BLOCK, line)
+            if not block_flag and line.lstrip().startswith(">"):
+                for j in range(i - 2, max(-1, i - 12), -1):
+                    if not lines[j].lstrip().startswith(">"):
+                        break
+                    if matches(RE_NON_AU_BLOCK, lines[j]):
+                        block_flag = True
+                        break
+            for bad, (good, src) in DRUG_NAMING.items():
                 pat = DRUG_PATTERNS[bad]
-                if pat.search(low) or pat.search(low_n):
-                    hits.append(f"{r} L{i}: `{bad}` -> {good}\n      {line.strip()[:120]}")
-    print(f"drugs: {len(hits)} non-AU naming hits")
+                if not (pat.search(line) or pat.search(normalise(line))):
+                    continue
+                # Dual naming: "furosemide (frusemide)", "adrenaline (epinephrine)",
+                # "lidocaine (lignocaine)". The AU name is already present and leading,
+                # so this is correct as written, not a leftover. Corpus C's drug files
+                # do this deliberately.
+                if re.search(r"\b" + re.escape(good.split("+")[0]) + r"\b",
+                             normalise(line), re.I):
+                    dual.append(f"{r} L{i}: `{bad}` alongside `{good}` — dual naming, "
+                                f"correct as written")
+                    continue
+                entry = (f"{r} L{i}: `{bad}` -> {good}\n      {line.strip()[:120]}"
+                         f"\n      source: {src}")
+                (skipped if block_flag else hits).append(entry)
+
+    print(f"drugs: {len(hits)} actionable non-AU naming hits "
+          f"· {len(skipped)} skipped inside a flagged non-AU block "
+          f"· {len(dual)} dual-naming, correct as written")
     for h in hits[: args.limit]:
         print(f"  {h}")
     if len(hits) > args.limit:
         print(f"  ... and {len(hits) - args.limit} more")
-    p = log_run(args.dir, "drugs", hits)
+    if skipped:
+        print("\n  SKIPPED — inside a block flagged as non-Australian; renaming here would "
+              "make foreign figures read as Australian:")
+        for h in skipped:
+            print(f"    {h.splitlines()[0]}")
+    if dual:
+        print("\n  DUAL NAMING — AU name already present and leading; correct as written:")
+        for h in dual:
+            print(f"    {h}")
+    p = log_run(args.dir, "drugs",
+                hits + ["", "SKIPPED (non-AU blocks):"] + skipped
+                     + ["", "DUAL NAMING (no action):"] + dual)
     print(f"  log: {p}")
 
 

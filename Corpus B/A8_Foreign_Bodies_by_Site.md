@@ -63,7 +63,7 @@ Prevention advice, safeguarding consideration, and follow-up for complications.
 > **Suction** for light objects.
 
 > [!tip] Insects
-> An insect in the ear canal is intensely distressing because of the noise and movement against the tympanic membrane. **Kill it first** — instilling lignocaine, mineral oil or olive oil immobilises it — then remove. Attempting removal of a moving insect is unpleasant for everyone and usually unsuccessful. `UNVERIFIED — agent choice and whether to instil anything if perforation is suspected requires verification.`
+> An insect in the ear canal is intensely distressing because of the noise and movement against the tympanic membrane. **Kill it first** — instilling lidocaine, mineral oil or olive oil immobilises it — then remove. Attempting removal of a moving insect is unpleasant for everyone and usually unsuccessful. `UNVERIFIED — agent choice and whether to instil anything if perforation is suspected requires verification.`
 
 > [!danger] Button battery in the ear
 > Causes canal and tympanic membrane necrosis. **Urgent ENT removal, and do not irrigate.**

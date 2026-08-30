@@ -1,0 +1,14 @@
+
+SKIPPED (non-AU blocks):
+Corpus A/02_Respiratory.md L356: `co-amoxiclav` -> amoxicillin+clavulanate
+      > UK figures (unverified for AU use): **Non-severe:** co-amoxiclav 500/125mg tds x 5 days (or doxycycline, cefalexin, co
+      source: Not an ingredient name at all — a UK combination shorthand. The TGA IHIN ingredient names are amoxicillin and clavulanic acid; the corpus already renders the pair as amoxicillin+clavulanate in 4 of its 5 existing occurrences. Renaming the NAME does not confirm the REGIMEN, which needs Therapeutic Guidelines (login).
+
+DUAL NAMING (no action):
+Corpus A/02_Respiratory.md L342: `co-amoxiclav` alongside `amoxicillin+clavulanate` — dual naming, correct as written
+Corpus A/15_04a_Paeds_-_URTI_and_LRTI.md L84: `co-amoxiclav` alongside `amoxicillin+clavulanate` — dual naming, correct as written
+Corpus A/15_04a_Paeds_-_URTI_and_LRTI.md L86: `co-amoxiclav` alongside `amoxicillin+clavulanate` — dual naming, correct as written
+Corpus C/NEW_Drugs_01_Allergy_and_Anaphylaxis.md L117: `epinephrine` alongside `adrenaline` — dual naming, correct as written
+Corpus C/NEW_Drugs_02_Anaesthetics.md L35: `lignocaine` alongside `lidocaine` — dual naming, correct as written
+Corpus C/NEW_Drugs_06_Cardiovascular.md L224: `lignocaine` alongside `lidocaine` — dual naming, correct as written
+Corpus C/NEW_Drugs_06_Cardiovascular.md L313: `frusemide` alongside `furosemide` — dual naming, correct as written

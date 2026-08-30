@@ -48,7 +48,7 @@ The classification is by **effect on the cardiac action potential**.
 | Class | Target | Effect | Examples |
 |---|---|---|---|
 | **Ia** | Fast Na⁺ channels — moderate block | ↑ QRS, ↑ QT | quinidine, procainamide, disopyramide |
-| **Ib** | Fast Na⁺ channels — weak block | little QRS change | lignocaine, mexiletine, phenytoin |
+| **Ib** | Fast Na⁺ channels — weak block | little QRS change | lidocaine, mexiletine, phenytoin |
 | **Ic** | Fast Na⁺ channels — strong block | marked ↑ QRS | **flecainide**, propafenone |
 | **II** | β-adrenoceptors | ↓ AV conduction, ↓ rate | metoprolol, atenolol, propranolol, esmolol |
 | **III** | K⁺ efflux | ↑ action potential duration, ↑ QT | **amiodarone**, **sotalol**, ibutilide, dofetilide |

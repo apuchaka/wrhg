@@ -60,8 +60,8 @@ conflicts_r1: 0
 
 **Ix**: swabs (NAAT and culture).
 
-> [!info] Verified against the WA Health "Quick guide to STI and BBV management" (2026 edition), Aug 2026 — **a genuine, clinically meaningful correction**: Australian first-line for uncomplicated (including anorectal) gonorrhoea is **ceftriaxone 500mg IM** (with 1% lignocaine) **plus azithromycin 1g PO, given together as a single treatment** — not the file's "1g ceftriaxone" (double the correct dose) or the cefixime-based alternative, which is not standard Australian first-line. For pharyngeal gonorrhoea specifically, the azithromycin dose increases to 2g (ceftriaxone dose unchanged at 500mg). Dual therapy (ceftriaxone + azithromycin together) is the key structural point — not a choice between single agents.
-> **Mx**: ceftriaxone 500mg IM (in 1% lignocaine) **plus** azithromycin 1g PO, given together as a single treatment (uncomplicated genital or anorectal infection). For pharyngeal infection: same ceftriaxone dose, azithromycin increased to 2g.
+> [!info] Verified against the WA Health "Quick guide to STI and BBV management" (2026 edition), Aug 2026 — **a genuine, clinically meaningful correction**: Australian first-line for uncomplicated (including anorectal) gonorrhoea is **ceftriaxone 500mg IM** (with 1% lidocaine) **plus azithromycin 1g PO, given together as a single treatment** — not the file's "1g ceftriaxone" (double the correct dose) or the cefixime-based alternative, which is not standard Australian first-line. For pharyngeal gonorrhoea specifically, the azithromycin dose increases to 2g (ceftriaxone dose unchanged at 500mg). Dual therapy (ceftriaxone + azithromycin together) is the key structural point — not a choice between single agents.
+> **Mx**: ceftriaxone 500mg IM (in 1% lidocaine) **plus** azithromycin 1g PO, given together as a single treatment (uncomplicated genital or anorectal infection). For pharyngeal infection: same ceftriaxone dose, azithromycin increased to 2g.
 
 **Complications**: disseminated gonococcal infection — tenosynovitis, migratory polyarthritis, dermatitis (maculopapular or vesicular).
 
