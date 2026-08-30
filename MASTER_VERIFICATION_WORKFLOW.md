@@ -649,7 +649,7 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
   error that survives review because the figure still looks plausible. A step that
   legitimately alters a figure states so and records the before/after explicitly; silence
   plus a changed multiset is a bug.
-- **Write the step's report to `_meta/runs/overnight/<step>.md`, one file per step — NOT
+- **Write the step's report to `_meta/overnight/<date>.md`, one file per step — NOT
   to a single shared `OVERNIGHT_REPORT.md`.** Every step branch appending to one file makes
   **every pair of step branches conflict**, as an add/add on the whole file: it happened on
   three of four branches on 2026-08-30 (Step 11, 28b and 28c each conflicted with Step 17's
