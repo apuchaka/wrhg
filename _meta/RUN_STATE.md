@@ -455,3 +455,68 @@ sex-split threshold obsolete. Queued as **R1** in the verification queue against
 Foundation and Stroke Foundation, both open. **Not adjudicated** — Corpus C names the newer
 instrument without stating a threshold, so there is no competing claim to conflict with.
 
+---
+
+# STATE AS AT 2026-08-31 — READ THIS FIRST
+
+## Resume point
+
+**Block 1 (C1–C7) merged. Block 2: D1, D2, D3 merged. RESUME AT D4.**
+
+`D4_Weakness__Neuropathy_and_Radiculopathy` — **nothing committed, no table written.** Its
+three candidate gaps are listed below and **must be re-verified against the pre-merge tree
+before landing** (see the finding below for why).
+
+Remaining after D4: D5, D6, D7 · GER1–2 · A6, A7, A8 · F0-1…F0-5 · B1–B6 · A1–A5, A9, A10.
+
+**Corpus B deletion remains deferred** until every B file is merged AND intra-B links are
+retargeted — not per block. See CLAUDE.md §1.14.
+
+## THE FINDING — five merged blocks duplicated content already in the vault
+
+Discovered 2026-08-31 by re-running the C-block absence conclusions against the
+**pre-merge tree `245c1e5`**. **42 of 45 absences hold. Five were wrong**, and the merges
+built on them created duplicates.
+
+> The first attempt at this audit searched the **current** corpus and reported everything
+> present — because it was finding my own additions. **An audit of a merge must run against
+> the tree the merge started from.** Recorded because the mistake took a second run to see.
+
+| Merged block | Duplicates | Status |
+|---|---|---|
+| ALP raised + GGT normal → bone, in `NEW_Investigations_Gastroenterology` §0.1.1 | `NEW_Investigations_General_and_Preventive` **L77–79** — near-verbatim, and `snippet` rather than `unverified` | corrected |
+| Russell's sign + dental erosion, in `14_05a` | `14_05a` **L42** — **the same file, 36 lines above** | corrected; parotid enlargement kept, that absence was real |
+| CT transition point, in `03_Gastrointestinal` §0.39.1 | `Investigation-Interpretation` **L159** | corrected to a pointer |
+| Appendicitis in pregnancy, in `03_Gastrointestinal` §0.41.6 | `NEW_Obstetrics` **L31** | corrected to a pointer |
+| Psoas abscess (one-line differential mentions) | `NEW_Exam_Manoeuvres_and_Procedures` **L285** | left as pointers — they were never a second copy |
+
+**Barrett surveillance holds as absent.** Its apparent hits were *cardiac* radiofrequency
+ablation and HCC ablation — a rule 9 artifact.
+
+### Two causes. Neither was digit folding.
+
+1. **C1 predates the A-and-C rule by one file.** Its gap check searched Corpus A alone;
+   visceral/parietal, psoas abscess and appendicitis-in-pregnancy all live in Corpus C.
+2. **A search that excludes its own destination cannot detect the duplicate it is about to
+   create.** The Russell's sign check ran `grep … "Corpus A" | grep -v "14_05a"`, answering
+   *"does this exist elsewhere"* when the question was *"does this exist at all"*. The
+   search was correct; its **scope** was wrong. Now a required check in Step 29 and
+   CLAUDE.md rule 10.
+
+## D4 candidate gaps — NOT YET VERIFIED against the pre-merge tree
+
+1. **Steroid myopathy has a normal CK.** Checked only against the current corpus.
+2. **Do not over-image or over-interpret imaging in radiculopathy.** Same.
+3. **Foot drop — peroneal palsy vs L5, discriminated by ankle inversion.** Same. Note
+   `11_07a` already carries the raw anatomy (tibial nerve does inversion), so the risk here
+   is duplicating a discriminator that is implicit in an existing table.
+
+Re-verify all three against `245c1e5`, **including the destination files**, and against
+Corpus A **and** C, before writing D4's destination table.
+
+## Lint sweep — clean
+
+443 backticked marker tokens corpus-wide, **zero malformed**. The 37 non-parsing instances
+are all the bare `` `UNVERIFIED` `` prose reference in Corpus B line 11 and one Corpus C
+file. **No marker was silently voided in Block 1.**
+
