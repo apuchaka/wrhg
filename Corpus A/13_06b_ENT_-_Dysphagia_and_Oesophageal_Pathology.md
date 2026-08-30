@@ -44,6 +44,16 @@ conflicts_r1: 0
 
 - **Mx:** high-dose PPI (evidence uncertain). If metaplasia confirmed — endoscopic surveillance with biopsies every 3–5 years. If dysplasia — offer endoscopic interventions, including radiofrequency ablation and endoscopic mucosal resection.
 
+### 0.3.1 Added from unverified layer — Barrett's management
+`SRC:C6_Dyspepsia__Oesophageal_and_Anorectal_Disease §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+§0.3 above gives the definition, risk factors and diagnosis and stops there. What happens next:
+
+- **Non-dysplastic Barrett's is managed with a PPI and endoscopic surveillance**, with the interval determined by **segment length and dysplasia grade**.
+- **Dysplastic Barrett's is treated endoscopically rather than watched** — **radiofrequency ablation** and **endoscopic mucosal resection**. This is the point that changes management: finding dysplasia moves the patient from a surveillance programme into active treatment.
+- `UNVERIFIED — the surveillance intervals, and the criteria for who requires surveillance at all. These differ between guidelines, so take them from the gastroenterology service running the programme rather than from a general reference.`
+
+
 ## 0.4 Oesophageal carcinoma
 
 - **D:** neoplastic mucosal lesions, divided into SCC or adenocarcinoma (rarely other kinds).
