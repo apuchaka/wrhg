@@ -444,6 +444,46 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
 
 **Overnight protocol.**
 
+> [!danger] **FIRST ACTION OF EVERY SESSION — restore the baseline tag.**
+> ```bash
+> git tag -f base-A 0db4034753b00573f379f273778eba01691d1c49
+> git rev-parse base-A          # must resolve before any content-touching step
+> ```
+> **Local only, idempotent, no push.** `base-A` cannot be pushed from a web session — the
+> proxy refuses tag pushes (403) and GitHub has no UI for tagging an arbitrary commit — so
+> the tag must be re-created in every clone rather than fetched.
+>
+> **If that SHA is not present in history, STOP.** It means the clone is wrong — a fork, a
+> truncated clone, a different repository — not that the tag is missing. Do not pick a
+> substitute commit.
+>
+> **Why this is a first-class step and not housekeeping:** `base-A` **did not exist for the
+> first six steps of this project's work.** START_HERE specifies `git tag base-A`, the repo
+> was assembled from "Add files via upload" commits, and nobody ran it. Steps 26, 17, 11,
+> 28a, 28b and 28c were all completed against a baseline that was not there — and every
+> "revert cleanly" and "diff against the baseline" guarantee in this design silently assumed
+> it was. The first diff against it was run *after* those six steps, not before any of them.
+>
+> `0db4034` is verified as the correct baseline: last commit before any session work; corpus
+> at 148 / 39 / 53; corpus trees byte-identical to `39be13e`, the final content upload; no
+> corpus file ever *modified* during the upload sequence; and no `trust:`, `figures:`,
+> `conflicts_*`, `CF-###` or `SRC:` key anywhere in it.
+
+> [!danger] **Run the conflict-marker guard before EVERY commit.**
+> ```bash
+> python3 scripts/merge_tools.py precommit --dir .
+> ```
+> **`git add -A` will happily stage a file containing conflict markers, and `git commit`
+> will happily commit it.** Nothing in git refuses this. That is exactly how a corrupted
+> `NEW_Investigations_Gastroenterology.md` — carrying `<<<<<<< HEAD`, `=======` and
+> `>>>>>>>` in clinical content, with two deleted duplicate sections resurrected — was
+> committed during the 2026-08-30 integration check. The resolver had fixed one conflicted
+> file, assumed it was the only one, and never re-read `git status`.
+>
+> A markdown file with conflict markers **still renders**, still opens in Obsidian, and
+> still looks like content. In a clinical vault the corrupted region reads as two competing
+> versions of the same guidance with no indication which is current.
+
 - **Rebase onto the PR's DECLARED BASE, never onto `main` by default — and verify that
   base actually contains the prior steps before rebasing.** On 2026-08-30 `main` was six
   commits behind the integration branch: it held Step 26 but **not Step 17**, which had

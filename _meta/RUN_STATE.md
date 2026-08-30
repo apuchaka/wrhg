@@ -5,6 +5,24 @@ description: Cross-session memory for the corpus merge. Session context does not
 
 # RUN_STATE
 
+> [!danger] **BASELINE — run this first, every session, before any content-touching step.**
+> ```bash
+> git tag -f base-A 0db4034753b00573f379f273778eba01691d1c49
+> git rev-parse base-A
+> ```
+> Local only, idempotent, no push. The tag **cannot** be pushed from a web session (proxy
+> refuses tag pushes, 403) and GitHub has no UI for tagging an arbitrary commit, so it must
+> be re-created in each clone.
+>
+> **If that SHA is absent from history, STOP — the clone is wrong, not the tag.**
+>
+> `base-A` **did not exist for the first six steps of this work** (26, 17, 11, 28a, 28b,
+> 28c). Every "revert cleanly" and "diff against baseline" guarantee in the design assumed
+> it did. Verified correct: last commit before session work · corpus 148 / 39 / 53 · corpus
+> trees byte-identical to `39be13e`, the final content upload · no corpus file ever
+> *modified* during the upload sequence · no `trust:` / `figures:` / `conflicts_*` /
+> `CF-###` / `SRC:` anywhere in it.
+
 ## Night of 2026-08-30 — where things stand
 
 | Branch | Step | Outcome |

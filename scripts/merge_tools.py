@@ -10,6 +10,7 @@ Commands
   init    add trust/population frontmatter to files that lack it
   scan    extract markers -> verification queue, conflict index, frontmatter counters
   lint    report violations of the conventions
+  precommit  refuse to commit staged conflict markers
   drugs   flag UK/US drug naming
   paed    sweep non-paediatric files for paediatric signals
 
@@ -24,6 +25,7 @@ Always run with --dry-run first. Always run on a branch.
 
 import argparse
 import datetime as _dt
+import subprocess
 import os
 import re
 import sys
@@ -749,6 +751,67 @@ def cmd_paed(args):
     print(f"  full report: {p}")
 
 
+# ---------------------------------------------------------------- precommit
+
+
+# Anchored to line start. A conflict marker only ever appears at column 0; matching it
+# unanchored would fire on prose about conflict markers — including this file and the
+# workflow document that documents the guard (rule 9).
+RE_CONFLICT_MARKER = re.compile(r"^(<{7}|={7}|>{7})(\s|$)")
+
+
+def cmd_precommit(args):
+    """Refuse to let a conflict marker reach a commit.
+
+    `git add -A` stages a file containing conflict markers without complaint, and
+    `git commit` commits it. Nothing in git refuses this. A markdown file with markers in
+    it still renders and still opens in Obsidian, so in a clinical vault the corrupted
+    region reads as two competing versions of the same guidance with nothing saying which
+    is current. This is the guard that git does not provide.
+
+    Checks STAGED content, not the working tree — that is what is about to be committed.
+    """
+    staged = subprocess.run(["git", "diff", "--cached", "--name-only", "-z"],
+                            cwd=args.dir, capture_output=True, text=True)
+    if staged.returncode != 0:
+        print("precommit: not a git repository, or git unavailable")
+        return 1
+    names = [n for n in staged.stdout.split("\0") if n]
+    if not names:
+        print("precommit: nothing staged")
+        return 0
+
+    bad = []
+    for name in names:
+        blob = subprocess.run(["git", "show", f":{name}"],
+                              cwd=args.dir, capture_output=True, text=True)
+        if blob.returncode != 0:          # deleted, or not a regular blob
+            continue
+        for i, line in enumerate(blob.stdout.split("\n"), 1):
+            if RE_CONFLICT_MARKER.match(line):
+                bad.append((name, i, line[:70]))
+
+    # An unresolved merge/rebase is itself a refusal condition, even with nothing marked:
+    # it means files are still in a conflicted state and `git add -A` would sweep them in.
+    unmerged = subprocess.run(["git", "diff", "--name-only", "--diff-filter=U"],
+                              cwd=args.dir, capture_output=True, text=True).stdout.split()
+
+    if bad or unmerged:
+        print(f"precommit: REFUSED — {len(bad)} conflict marker(s) staged"
+              + (f", {len(unmerged)} file(s) still unmerged" if unmerged else ""))
+        for name, i, line in bad[: args.limit]:
+            print(f"    {name} L{i}: {line}")
+        if len(bad) > args.limit:
+            print(f"    ... and {len(bad) - args.limit} more")
+        for u in unmerged:
+            print(f"    STILL UNMERGED: {u}")
+        print("\n  Resolve every conflicted file, re-check `git status`, then re-run.")
+        return 1
+
+    print(f"precommit: OK — {len(names)} staged file(s), no conflict markers")
+    return 0
+
+
 # ---------------------------------------------------------------- cli
 
 
@@ -769,6 +832,7 @@ def main():
     p.set_defaults(fn=cmd_init)
 
     p = sub.add_parser("scan"); common(p); p.set_defaults(fn=cmd_scan)
+    p = sub.add_parser("precommit"); common(p); p.set_defaults(fn=cmd_precommit)
     p = sub.add_parser("lint"); common(p); p.set_defaults(fn=cmd_lint)
     p = sub.add_parser("drugs"); common(p); p.set_defaults(fn=cmd_drugs)
     p = sub.add_parser("paed"); common(p); p.set_defaults(fn=cmd_paed)
