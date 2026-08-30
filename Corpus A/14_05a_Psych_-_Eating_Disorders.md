@@ -71,3 +71,12 @@ conflicts_r1: 0
   - Pharmacological options exist (e.g. certain SSRIs, and lisdexamfetamine which has specific evidence and licensing for binge-eating disorder in several jurisdictions) — specialist-initiated given the need to weigh benefit against side effect profile and the coexisting mental health/weight context.
   - Address coexisting depression/anxiety actively, given how commonly these co-occur and can perpetuate the binge-eating cycle.
   - **Avoid framing treatment primarily around weight loss** — the evidence-based focus is on normalising eating patterns and addressing the psychological drivers of bingeing; weight-loss-focused approaches specifically have not been shown to resolve binge-eating disorder and can worsen the underlying relationship with food and body image.
+
+## Added from unverified layer — physical signs of self-induced vomiting
+`SRC:C2_Nausea_and_Vomiting §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+- **Dental erosion** — loss of enamel on the **palatal (inner) surfaces of the upper incisors**, where regurgitated gastric acid pools. Often noticed by a dentist before anyone else, and it is permanent.
+- **Parotid enlargement** — painless bilateral swelling giving a squared jawline, associated with repeated vomiting.
+- **Russell's sign** — callus or scarring over the knuckles from repeatedly inducing the gag reflex.
+
+These are worth actively looking for, because they are objective, they persist between episodes, and a patient who minimises the history may still carry them.
