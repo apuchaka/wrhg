@@ -231,9 +231,21 @@ RE_OPEN_SOURCE = re.compile(
 
 
 def actionability(text):
-    """OPEN (checkable without a login), LOGIN (needs TG/AMH), or UNKNOWN."""
+    """OPEN, MIXED, LOGIN or UNKNOWN.
+
+    MIXED exists because a marker can name BOTH kinds of source, and the previous
+    single-label version checked OPEN first and returned it — so
+    "all doses from eTG and the Australian Asthma Handbook" was reported as "actionable
+    without login". That overstates it: the open source may settle part of the item, but
+    the login source settles the rest, and an item filed as fully actionable never gets
+    the standing "look it up at the point of use" treatment §1.8 requires.
+
+    Four markers in the corpus have this shape (A3, B2, F0-4, F0-5 at 2026-08-30).
+    """
     open_hit = bool(RE_OPEN_SOURCE.search(text))
     login_hit = bool(RE_LOGIN_SOURCE.search(text))
+    if open_hit and login_hit:
+        return "MIXED"
     if open_hit:
         return "OPEN"
     if login_hit:
@@ -561,6 +573,13 @@ def cmd_scan(args):
         "No login needed. **This is the working queue.**",
     )
     out += block(
+        [r for r in unverified if r["act"] == "MIXED"],
+        "Partly actionable — an open source settles part, a login source settles the rest",
+        "**These name BOTH kinds of source.** Work the open-source part now; the remainder "
+        "stays a standing instruction to look up at the point of use, exactly as a "
+        "login-only item does. Do not file these as done when the open part is closed.",
+    )
+    out += block(
         [r for r in unverified if r["act"] == "UNKNOWN"],
         "Triage — source not named in the marker",
         "The marker does not say what to check against. Read the entry and either name an "
@@ -587,7 +606,7 @@ def cmd_scan(args):
             "| # | File | Line | What to re-check | Status |",
             "|---|---|---|---|---|"]
     for r in unverified:
-        if r["tier"] != "R1" or r["act"] == "LOGIN":
+        if r["tier"] != "R1" or r["act"] in ("LOGIN", "MIXED"):
             continue
         scope = r["scope"].replace("|", "\\|")
         rows.append(f"| _ | `{r['file']}` | {r['line']} | **{r['section']}** — {scope} "
@@ -660,6 +679,7 @@ def cmd_scan(args):
     for r in unverified:
         acts[r["act"]] = acts.get(r["act"], 0) + 1
     print(f"  actionable without login: {acts.get('OPEN', 0)} · "
+          f"partly actionable (open + login): {acts.get('MIXED', 0)} · "
           f"needs triage: {acts.get('UNKNOWN', 0)} · "
           f"login-required (permanently noted): {acts.get('LOGIN', 0)}")
     print(f"scan: {len(unverified)} unverified · {len(op)} open conflicts "

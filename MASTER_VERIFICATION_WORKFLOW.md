@@ -462,18 +462,21 @@ Assigned **by content and frontmatter `block:`**, not by filename prefix — see
 - ⬜ `A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule`
 - ⬜ `F0-5_Acute_Respiratory__Headache_and_Head_Injury`
 
-### **W4** Sep 21–27 · psychiatry · renal/urology · paediatrics · haematology — **1 files**
+### **W4** Sep 21–27 · psychiatry · renal/urology · paediatrics · haematology — **0 files (MERGE FREEZE)**
 
-- ⬜ `A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies`
+Its one file, `A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies`, is **moved to
+after W5** and is listed there. Leaving it listed here would invite a session to merge it
+during the freeze week.
 
 ### **W5** Sep 28–Oct 4 · derm · ENT · ophthalmology · GP/ethics · obstetrics — **2 files**
 
 - ⬜ `A10_Ethics__Capacity__Consent_and_Certification`
 - ⬜ `B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations`
 
-### **After W5** · no matching study week — **3 files**
+### **After W5** · no matching study week, plus the file displaced by the freeze — **4 files**
 
 - ⬜ `A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest`
+- ⬜ `A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies` — **displaced from W4 by the merge freeze**
 - ⬜ `A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies`
 - ⬜ `F0-4_Resuscitation_Algorithms_and_Emergency_Procedures`
 
@@ -506,13 +509,17 @@ Assigned **by content and frontmatter `block:`**, not by filename prefix — see
 The prefix scheme is a good guide and **five files disagree with it.** Assignment used the
 `block:` frontmatter and the content, not the prefix:
 
-| File | Prefix suggests | Actually |
-|---|---|---|
-| `A4_Dyspnoea__Cough…` | emergency | **Respiratory** — went to W3, not W1 |
-| `A9_Transfusion__Coagulopathy…` | emergency | **Haematology** — W4, hence moved past the freeze |
-| `A10_Ethics__Capacity…` | emergency | **Ethics, Law & Professional Practice** — W5 |
-| `B6_Oedema__Fatigue__Weakness…` | cardiology | **General & Cross-cutting** — W5 |
-| `F0-1_Toxidromes…` | resus/acid-base | **Toxicology & Envenomation** — W1 with injury/poisoning |
+**Confirmed 2026-08-30 by re-check:** all five were assigned from the file's `block:`
+frontmatter and its content, and in every case the assigned week matches the content rather
+than the prefix.
+
+| File | Prefix suggests | `block:` says | Assigned |
+|---|---|---|---|
+| `A4_Dyspnoea__Cough…` | emergency | Respiratory | **W3** |
+| `A9_Transfusion…` | emergency | Haematology | **after W5** (W4 frozen) |
+| `A10_Ethics__Capacity…` | emergency | Ethics, Law & Professional Practice | **W5** |
+| `B6_Oedema__Fatigue…` | cardiology | General & Cross-cutting | **W5** |
+| `F0-1_Toxidromes…` | resus/acid-base | Toxicology & Envenomation | **W1** |
 
 `C1–C7` (all GI), `D1–D7` (all neurology) and `GER1–2` (both geriatrics) match their prefix
 exactly. `A1`, `A2` and `F0-4` are pure resuscitation/airway with no matching study week and
