@@ -120,6 +120,14 @@ Topical ocular antihistamines are covered with the other drugs for allergic eye 
 > [!danger] **Adrenaline is the first and only first-line treatment for anaphylaxis. There is no dose of antihistamine or corticosteroid that substitutes for it, and delay in giving it is the factor most consistently associated with fatal outcome.**
 > **Give it intramuscularly into the mid-anterolateral thigh** — not subcutaneously, not into the deltoid, and not orally. Lay the patient **flat** (or in the recovery position if vomiting, or sitting only if breathing is severely compromised) and **do not stand them up or walk them to a trolley** — sudden postural change in anaphylaxis has been associated with cardiac arrest.
 
+> [!fail] CONFLICT CF-001 — ASCIA IM adrenaline: same dose stated in two different units, across three owners **R1**
+> **`09_01_Dermatology_-_Dermatological_Emergencies` (`inherited`):** "IM adrenaline dose (ASCIA) — 1:1000, outer mid-thigh, **0.01 mg/kg** up to a maximum of **0.5 mg**", with a weight-and-age band table.
+> **`NEW_Drugs_01_Allergy_and_Anaphylaxis` (`snippet`):** "Ampoule (adrenaline 1:1000), all ages: **0.01 mL/kg**, to a maximum of **0.5 mL (0.5 mg)** per dose, intramuscular", plus injector bands from 7.5 kg.
+> **`15_01b_Paeds_-_Anaphylaxis` (`inherited`):** asserts ASCIA verification and "1:1000 … weight-based", and **states no figure at all**.
+> **Why it matters:** **`0.01 mg/kg` and `0.01 mL/kg` are not the same quantity.** They coincide only at **1:1000**, where 1 mL = 1 mg, and diverge at any other concentration — at 1:10,000 (the arrest presentation) `0.01 mL/kg` delivers **one tenth** of `0.01 mg/kg`. The mg form is concentration-independent; the mL form is correct only because "1:1000" happens to sit beside it. **One of the two is wrong as written.** A reader who carries the mL form to a differently-concentrated ampoule under-doses a child in anaphylaxis.
+> **Resolve against:** **ASCIA** Acute Management of Anaphylaxis (open, no login) and the Australian **Acute Anaphylaxis Clinical Care Standard**. Tracked as `PENDING_GUIDELINE_CHECKS.md` **B72**; see also **B50** (the 7.5 kg floor) and **B71** (duplicate owners).
+> **NOT RESOLVED — do not adjudicate this from a session.**
+
 > [!info] **Dose — the one dose stated in this file, in the correct per-kg-with-a-cap form**
 > Sources agree on the **ASCIA** dosing, which is consistent with the Australian **Acute Anaphylaxis Clinical Care Standard**, the **Australian Immunisation Handbook** and the World Allergy Organisation:
 > - **Ampoule (adrenaline 1:1000), all ages: 0.01 mL/kg, to a maximum of 0.5 mL (0.5 mg) per dose, intramuscular.**
