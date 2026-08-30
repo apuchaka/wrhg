@@ -372,9 +372,10 @@ Added 2026-08-30, rewritten 2026-08-30 after Step 26 was actually run.
 
 | # | Step | Status |
 |---|---|---|
-| 1 | **Step 26** — provenance and population labelling | ✅ 2026-08-30 — 32 adult / 41 paed / 167 mixed; counters written; 5 substring defects fixed as a class |
-| 2 | **Step 11** — AU drug dosing and product names (§1.17) | ⬜ **← NEXT.** `lint` already lists 178 unmarked dose figures |
-| 3 | **Step 17** — UK-localisation sweep (§1.23) | ⬜ |
+| 1 | **Step 26** — provenance and population labelling | ✅ 2026-08-30 — 32 adult / 41 paed / 167 mixed; counters written; the substring defect class fixed |
+| 2 | **Step 17** — UK-localisation sweep (§1.23) | ⬜ **← NEXT** |
+| 3 | **Step 11** — AU drug dosing and product names (§1.17) | ⬜ |
+| — | ───── **pre-MCQ line, 27 Sept. Stop here if time is short.** ───── | |
 | 4 | **Step 28** — Corpus C, all 53 files, one block | ⬜ |
 | 5 | **Step 27** — verification-scope audit, chunked | ⬜ |
 | 6 | **Step 29** — Corpus B, ~12 files/week, **topic-ordered** | ⬜ |
@@ -382,10 +383,12 @@ Added 2026-08-30, rewritten 2026-08-30 after Step 26 was actually run.
 
 **Why the order is not numeric.**
 
-**Steps 11 and 17 come second and third** because they are cheap, corpus-wide, and fix the
-highest-risk error class available: UK drug names sitting in a corpus that will be examined
-against Australian practice. They are **existing steps pulled forward, not new ones** — see
-§1.17 and §1.23 for what they do; nothing about them is restated here.
+**Steps 17 and 11 come second and third** because they are cheap, corpus-wide, and fix the
+highest-risk error class available: UK drug names and UK-isms sitting in a corpus that will
+be examined against Australian practice. **17 runs before 11** — 17's term sweep is what
+surfaces the candidates 11 then acts on; running 11 first means running it twice. They are
+**existing steps pulled forward, not new ones** — see §1.23 and §1.17 for what they do;
+nothing about them is restated here.
 
 **Step 28 precedes Step 27** because Corpus C is a reference layer with no topic coupling —
 it can be remediated as one block, in any order, without waiting on anything. Step 27's
@@ -408,8 +411,50 @@ makes that survivable.
 everything else here, so it ranks above Phase 3/4 re-verification. Steps 28–29 are ~45 runs
 and rank *below* Phase 2 new content, on the same reasoning given there: an unbuilt
 high-yield category is a bigger exam-risk gap than consolidating material that already
-exists in two places. **Before MCQ 27 Sept, run Step 26 plus Steps 11 and 17 only** — which
-is exactly items 1–3 above.
+exists in two places. **Before MCQ 27 Sept, run Step 26 plus Steps 17 and 11 only** — which
+is exactly items 1–3 above, and the reason the pre-MCQ line sits where it does.
+
+---
+
+### 1.1.9.1 Unattended overnight operation
+
+**Default from 2026-08-30: these steps run unattended overnight and are reviewed in the
+morning.** Nobody is awake. A step that stalls waiting for an answer wastes the night.
+
+| Step | Autonomy |
+|---|---|
+| **26 · 17 · 11 · 28 · all scans** | **Unattended.** No approval needed at any point. |
+| **27** | **Proposals only.** Identify every box lacking a `NOT checked:` line and draft the lines into `_meta/PROPOSED_SCOPE_LINES.md`. **Do not write them into the files.** A wrong scope line is worse than a missing one — it converts an unknown into a false assurance. |
+| **29** | **Unattended with one gate.** Merge into **existing** files freely: B content is bounded by `### Added from unverified layer` plus its `SRC:` token, so it is reversible. **STOP only when the vault grep returns nothing and you would CREATE A NEW FILE** — record the proposal in `_meta/merges/PENDING_NEW_FILES.md` with the searches you ran and what each returned, then carry on with the rest of that B file. A duplicate file is the one error no marker makes recoverable: nothing downstream detects it, and it surfaces months later once the two copies have drifted. |
+| **30** | **Never automated.** So is any resolution of a `CONFLICT` block, any edit to a resolution stamp, marking anything `verified`, and any write to `PENDING_GUIDELINE_CHECKS.md`. All of those need a named Australian source. |
+
+> [!danger] **Step 11 under automation — name changes only.**
+> **Renaming a drug is not confirming its regimen.** Every rename carries a marker saying
+> so: `amoxicillin+clavulanate` `` `UNVERIFIED — AU regimen; Therapeutic Guidelines
+> (login). Look up at point of use.` ``
+>
+> **Do not alter, confirm or resolve any dose or regimen.** Those need a login source and
+> are permanently noted, not actionable (§1.8).
+>
+> Check **brand products** too, not just generic names — **EarCalm** and **Otosporin** were
+> UK-market products found sitting in files already localised for Australia.
+>
+> **NO DIGIT IN ANY DOSE FIGURE MAY CHANGE DURING STEP 11.** If one does, something was
+> resolved without a source. Diff the digits before committing.
+
+**Overnight protocol.**
+
+- **One step per branch, one PR each.** Never one combined PR — morning review has to be
+  able to reject one step without unpicking the others.
+- **If a HALT fires:** stop that step, leave its branch unmerged, record what happened in
+  `_meta/OVERNIGHT_REPORT.md`, and **move to the next step in the list**. Do not try to
+  resolve it and do not stall waiting for an answer.
+- **Write `_meta/OVERNIGHT_REPORT.md` as you go** — per step: what was examined, raw hits,
+  confirmed, dismissed with reasons, anything halted on. **Record by what was examined, not
+  by what was changed** (Step 17's own method lesson).
+- **Update `_meta/RUN_STATE.md` after every step.**
+- **Rule 7 still applies.** If you find a limitation in your own method, stop *that* step
+  and record it. Do not fix it and carry on.
 
 ---
 
@@ -1147,7 +1192,24 @@ exist to make it mechanical, not to replace it.
    agree perfectly.
 5. B's unique material enters under a marked `### Added from unverified layer` subheading,
    never woven into existing prose — woven text produces unreviewable diffs and blurs
-   provenance at every sentence boundary.
+   provenance at every sentence boundary. **Every additive block names its origin file and
+   section with a `SRC:` token**, so a wrongly-placed block can be traced back and B's
+   contribution reconstructed:
+
+   ```markdown
+   ### Added from unverified layer — atypical presentations
+   `SRC:C1_Acute_Abdomen §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+   ```
+
+   The test: **`grep -rn "SRC:C1_" .` must reconstruct everything that B file contributed
+   and where each piece went.** Without it, an additive merge is only reversible by reading
+   the whole diff.
+
+7. **Commit the destination table to `_meta/merges/<bfile>.md`** — every section of the B
+   file, its destination, and its disposition, **including the discarded ones**.
+   Supersession currently leaves no trace anywhere: a section judged `verified`-beats-
+   `unverified` simply never appears, so **a wrong supersede is invisible** and there is
+   nothing to audit it against. The discard rows are the point of the file.
 6. B's 167 wikilinks point at placeholder codes (`[[C4]]`, `[[F0.2]]`, `[[A9]]`) resolving to
    nothing. Strip to `` `TODO:link — topic` ``. **Never guess a target.**
 

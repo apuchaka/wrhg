@@ -98,6 +98,7 @@ Backtick-delimited so they survive editing, work inside table cells, and grep cl
 `[paed]` `[adult]`        population scope
 `→MED:adrenaline`         mirrors a figure owned elsewhere
 `TODO:link — topic`       stripped placeholder link
+`SRC:C1_Acute_Abdomen §0.6`  origin of an additive-merge block (§1.10)
 ```
 
 Write a marker only where the claim differs from the file's frontmatter default.
@@ -169,12 +170,19 @@ appendicectomy prophylaxis would likely reproduce A's `co-amoxiclav + metronidaz
 agree perfectly. Concordance never closes an item.
 
 **Additive merge format** — under a marked subheading, never woven into existing prose,
-which produces unreviewable diffs and blurs provenance at every sentence boundary:
+which produces unreviewable diffs and blurs provenance at every sentence boundary. **Every
+block carries a `SRC:` token naming the origin file and section**, so `grep -rn "SRC:C1_" .`
+reconstructs everything that B file contributed and where each piece landed:
 
 ```markdown
 ### Added from unverified layer — <topic>
-`UNVERIFIED — model knowledge, not source-checked.`
+`SRC:C1_Acute_Abdomen §0.6` `UNVERIFIED — model knowledge, not source-checked.`
 ```
+
+**The destination table for each B file is committed to `_meta/merges/<bfile>.md`** — every
+section, its destination, and its disposition **including discarded ones**. Supersession
+otherwise leaves no trace at all: a superseded section simply never appears, so a wrong
+supersede is invisible and nothing can audit it. The discard rows are the point.
 
 **Before creating any file, grep the whole vault.** Corpus A is not purely
 disease-organised — it holds investigation, history and examination files, and
