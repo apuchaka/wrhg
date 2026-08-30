@@ -356,7 +356,7 @@ Rigors are a useful discriminating symptom — they suggest bacteraemia and poin
 Sepsis pathway — cultures, IV antibiotics with Gram-negative and anaerobic cover, fluid resuscitation, lactate. Nil by mouth. Analgesia. Correct coagulopathy with vitamin K. **Urgent gastroenterology and surgical referral for biliary drainage.** `UNVERIFIED — antibiotic regimens from eTG Antibiotic.`
 
 ### 0.11.2 Mx – Definitive
-**ERCP with sphincterotomy and stone extraction or stent insertion** is the usual drainage route, with percutaneous transhepatic cholangiography as the alternative where ERCP is not possible — cross-refer `TODO:link — P6 Procedure addendum (unbuilt)` Procedure addendum. Cholecystectomy is deferred to after resolution in most cases.
+**ERCP with sphincterotomy and stone extraction or stent insertion** is the usual drainage route, with percutaneous transhepatic cholangiography as the alternative where ERCP is not possible — cross-refer `TODO:link — GER8 Procedure addendum (unbuilt; was P6 in build queue v1)` Procedure addendum. Cholecystectomy is deferred to after resolution in most cases.
 
 ### 0.11.3 Mx – Chronic/long-term
 Definitive management of the underlying obstruction. Interval cholecystectomy for gallstone disease. Surveillance and stent exchange for malignant strictures. Cross-refer [[C3_Jaundice_and_Liver_Disease]] Obstructive Jaundice.

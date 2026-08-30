@@ -7,23 +7,38 @@ description: Corpus B's code scheme — which prefixes exist on disk, which are 
 
 Measured 2026-08-30 against `00_BUILD_QUEUE.md` (v1), `00_BUILD_QUEUE_v2.md` (v2) and the files on disk.
 
-## The rename went P2 → GER, not GER → P2
+## Two DISTINCT relationships — do not conflate them
 
-> [!danger] **Recorded in the direction MEASURED, not the direction instructed.** The
-> instruction given to this session was *"GER is the OLD geriatrics prefix, superseded by P2"*.
-> **That instruction was wrong**, and is recorded here as wrong so a later session reading the
-> conversation does not re-invert it. The measurement below is what the two queue files say.
+Build queue v2 (2026-08-30) creates Phase `GER` through **two different mechanisms**. They
+look alike in a code list and are not the same thing.
+
+### 1. RENAME — six clusters moved from Phase P / COM into Phase GER
+
+Same content, new code. **A marker naming the old code must be updated to the new one.**
+
+| v1 code | v2 code | Cluster |
+|---|---|---|
+| `P1` | **`GER3`** | Preventive & occupational health |
+| `P3` | **`GER4`** | Safeguarding & forensic |
+| `COM1` | **`GER5`** | Communication & consultation skills |
+| `P4` | **`GER6`** | Drug-class addendum |
+| `P5` | **`GER7`** | Investigation & lab addendum |
+| `P6` | **`GER8`** | Procedure addendum |
+
+### 2. EXPANSION — `GER1` and `GER2` are NEW, not renamed from anything
+
+v2 marks §3.3 **"(EXPANDED — beyond `bl.md`)"** and both clusters **BUILT**. Geriatrics went
+from *2 items in `bl.md`* to a proper block. **`GER1`/`GER2` have no v1 predecessor.**
+
+> [!danger] **`P2` is not the predecessor of `GER1`/`GER2`.** `P2. Geriatric assessment &
+> frailty` existed in v1 and is simply **gone** in v2 — absorbed into the expansion, not
+> renamed into it. An earlier instruction to this project asserted "GER is the old prefix,
+> superseded by P2", which is **backwards on both counts**: `GER` is current, and `P2` was
+> never its successor. Recorded as measured so a later session does not re-invert it.
 >
-> The working assumption was that `GER` is the *old* geriatrics
-> prefix superseded by `P2`. **It is the other way round.**
->
-> - `P2. Geriatric assessment & frailty` appears **only in v1** (`00_BUILD_QUEUE.md` line 127).
-> - `GER1. Comprehensive geriatric assessment` and `GER2. Geriatric syndromes` appear **only in v2**, and both have files on disk.
-> - **`P2` appears nowhere in v2, and in no wikilink anywhere in the corpus.**
->
-> So **`GER` is current and `P2` is superseded.** The hazard the rename creates is real but
-> points the other way: a session reading **v1** would look for `P2`, find no file, and rebuild
-> geriatrics content that already exists as `GER1`/`GER2`. **v2 is the authoritative queue.**
+> **Why conflating the two matters:** a rename means *update the reference*; an expansion
+> means *there was no earlier reference to update*. Treating `GER1` as a renamed `P2` would
+> send a session looking for v1 content that was never there.
 
 ## Three authorities, and what each is authoritative for
 
