@@ -1,6 +1,8 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.02 Haematological cancers - Lymphomas, Multiple myeloma
+trust: inherited
+population: mixed
 ---
 
 > [!note] Lymphoma = a discrete tumour mass arising from lymph nodes.

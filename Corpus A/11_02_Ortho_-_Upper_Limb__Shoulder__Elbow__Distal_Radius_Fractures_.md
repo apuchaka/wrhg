@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.02 Upper limb orthopaedic issues - Shoulder, Elbow, Distal radius fractures
+trust: inherited
+population: mixed
 ---
 
 ## Shoulder

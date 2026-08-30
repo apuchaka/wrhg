@@ -1,6 +1,8 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.11 Genetic conditions predisposing to cancer
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Li-Fraumeni syndrome

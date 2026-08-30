@@ -2,6 +2,8 @@
 block: NEW build — Investigations (Haematology, part 2)
 source: data/BULK_BUILD_PLAN.md Part A; items from data/build_list_investigations.md
 status: standalone — not yet cross-referenced into the corpus
+trust: snippet
+population: mixed
 ---
 
 # NEW — Investigations: Haematology (Part 2 — completing the category)

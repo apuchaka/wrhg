@@ -1,6 +1,8 @@
 ---
 block: Dermatology
 source: quackquackmed 09.08 Miscellaneous - Pemphigus, Bullous pemphigoid, Insect bites, Skin lesion morphology
+trust: inherited
+population: mixed
 ---
 
 ## Pemphigus

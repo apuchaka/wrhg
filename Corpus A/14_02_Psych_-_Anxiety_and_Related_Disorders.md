@@ -1,6 +1,8 @@
 ---
 block: Psychiatry
 source: quackquackmed 14.02 Anxiety and related disorders - GAD, Panic disorder, OCD, PTSD, Acute stress disorder
+trust: inherited
+population: mixed
 ---
 
 ## Generalised anxiety disorder (GAD)

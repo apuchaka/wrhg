@@ -1,6 +1,8 @@
 ---
 block: Infectious Disease
 source: quackquackmed 08.08 Genitourinary infections / STIs
+trust: inherited
+population: mixed
 ---
 
 ## The STI Check — Sexual History, What to Test, and When

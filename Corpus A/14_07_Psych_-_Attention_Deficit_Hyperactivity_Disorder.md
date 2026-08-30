@@ -1,6 +1,8 @@
 ---
 block: Psychiatry
 source: Gap-filled — not covered in the original source material
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Attention deficit hyperactivity disorder (ADHD)

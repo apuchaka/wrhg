@@ -2,6 +2,8 @@
 block: NEW build — Drug Classes
 source: data/BULK_BUILD_PLAN.md Part C; AMH section 16 Obstetric and gynaecological drugs
 status: standalone — not yet cross-referenced into the corpus
+trust: snippet
+population: mixed
 ---
 
 # NEW — Drug Classes: Obstetric and Gynaecological (AMH section 16)

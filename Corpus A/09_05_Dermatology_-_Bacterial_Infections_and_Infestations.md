@@ -1,6 +1,8 @@
 ---
 block: Dermatology
 source: quackquackmed 09.05 Dermatological infections - Impetigo, Folliculitis, Cellulitis & erysipelas, Head lice, Scabies
+trust: inherited
+population: mixed
 ---
 
 ## Impetigo

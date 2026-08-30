@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.23 Minor neonatal problems - birthmarks, rashes, and common findings
+trust: inherited
+population: mixed
 ---
 
 ## Infantile haemangioma (strawberry naevus)

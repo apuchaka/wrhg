@@ -1,6 +1,8 @@
 ---
 block: Dermatology
 source: quackquackmed 09.02 Melanocytic lesions and mimickers
+trust: inherited
+population: mixed
 ---
 
 ## Melanoma

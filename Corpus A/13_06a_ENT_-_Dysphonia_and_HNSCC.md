@@ -1,6 +1,8 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.06 Dysphonia, Head and neck squamous cell carcinoma (HNSCC)
+trust: inherited
+population: mixed
 ---
 
 ## Dysphonia (hoarseness)

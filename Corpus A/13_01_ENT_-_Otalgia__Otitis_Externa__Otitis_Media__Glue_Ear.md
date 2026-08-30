@@ -1,6 +1,8 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.01 Ear - Otalgia, Discharging ear, Otitis externa, Otitis media, Glue ear
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Otitis externa

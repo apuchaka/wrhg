@@ -2,6 +2,8 @@
 block: NEW build — Investigations (Renal and Urology)
 source: data/BULK_BUILD_PLAN.md Part A; items from data/no_header_build_queue.md
 status: standalone — not yet cross-referenced into the corpus
+trust: snippet
+population: mixed
 ---
 
 # NEW — Investigations: Renal and Urology

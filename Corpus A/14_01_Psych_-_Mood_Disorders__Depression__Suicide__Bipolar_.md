@@ -1,6 +1,8 @@
 ---
 block: Psychiatry
 source: quackquackmed 14.01 Mood disorders - Depression, Suicide, Bipolar disorder
+trust: inherited
+population: mixed
 ---
 
 ## Depression (Major depressive disorder)

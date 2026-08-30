@@ -1,6 +1,8 @@
 ---
 block: Respiratory
 source: quackquackmed 02 Respiratory
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Asthma

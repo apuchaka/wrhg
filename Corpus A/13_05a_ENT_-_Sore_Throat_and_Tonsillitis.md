@@ -1,6 +1,8 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.05 Sore throat, Tonsillitis, Tonsillectomy
+trust: inherited
+population: mixed
 ---
 
 ## Sore throat (pharyngitis, tonsillitis, laryngitis)

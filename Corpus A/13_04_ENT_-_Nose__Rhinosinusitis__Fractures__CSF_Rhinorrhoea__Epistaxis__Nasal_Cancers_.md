@@ -1,6 +1,8 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.04 Nose - Rhinosinusitis, Nasal fractures, CSF rhinorrhoea, Epistaxis, Nasal cancers
+trust: inherited
+population: mixed
 ---
 
 ## Rhinosinusitis

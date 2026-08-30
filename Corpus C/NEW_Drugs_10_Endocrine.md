@@ -2,6 +2,8 @@
 block: NEW build — Drug Classes
 source: data/BULK_BUILD_PLAN.md Part C; AMH section 10 Endocrine drugs
 status: standalone — not yet cross-referenced into the corpus
+trust: snippet
+population: mixed
 ---
 
 # NEW — Drug Classes: Endocrine (AMH section 10)

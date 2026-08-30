@@ -1,6 +1,8 @@
 ---
 block: Psychiatry
 source: quackquackmed 14.05 Unexplained symptoms - Somatic symptom disorder, Illness anxiety disorder, Conversion disorder, Dissociative disorders, Factitious disorder, Malingering
+trust: inherited
+population: mixed
 ---
 
 ## Somatic symptom disorder (somatisation disorder)

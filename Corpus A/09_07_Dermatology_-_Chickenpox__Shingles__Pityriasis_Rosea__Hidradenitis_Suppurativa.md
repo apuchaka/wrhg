@@ -1,6 +1,8 @@
 ---
 block: Dermatology
 source: quackquackmed 09.07 Chickenpox, Shingles, Pityriasis rosea, Hidradenitis suppurativa
+trust: inherited
+population: mixed
 ---
 
 ## Varicella zoster virus (VZV) / chickenpox

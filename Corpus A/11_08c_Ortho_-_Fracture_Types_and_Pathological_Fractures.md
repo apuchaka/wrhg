@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.08 Fracture types, Pathological fractures (osteogenesis imperfecta, osteopetrosis)
+trust: inherited
+population: mixed
 ---
 
 ## Fracture types (by pattern)

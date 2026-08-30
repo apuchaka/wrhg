@@ -1,6 +1,8 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.03 Ear - Childhood deafness, Deafness in adults, Otosclerosis, Vestibular schwannoma, BPPV, Meniere's disease, Vestibular neuronitis, Labyrinthitis
+trust: inherited
+population: mixed
 ---
 
 ## Childhood deafness

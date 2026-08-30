@@ -2,6 +2,8 @@
 block: NEW build — Drug Classes
 source: data/BULK_BUILD_PLAN.md Part C; AMH section 11 Eye drugs
 status: standalone — not yet cross-referenced into the corpus
+trust: snippet
+population: mixed
 ---
 
 # NEW — Drug Classes: Eye (AMH section 11)

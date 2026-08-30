@@ -1,6 +1,8 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.12 Breast - Breast cancer, Fibroadenoma, Fibrocystic changes, and other breast lumps
+trust: inherited
+population: mixed
 ---
 
 ## Breast cancer

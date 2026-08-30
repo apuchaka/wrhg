@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.09 GI disorders - Congenital diaphragmatic hernia, Inguinal hernia, Imperforate anus, Mid-gut malrotation, Gastroschisis and omphalocele, Meckel's diverticulum
+trust: inherited
+population: mixed
 ---
 
 ## Congenital diaphragmatic hernia

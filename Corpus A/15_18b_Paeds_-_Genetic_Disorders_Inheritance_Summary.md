@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.18 Genetic disorders - inheritance patterns summary
+trust: inherited
+population: mixed
 ---
 
 ## Genetic disorders — quick reference by inheritance pattern

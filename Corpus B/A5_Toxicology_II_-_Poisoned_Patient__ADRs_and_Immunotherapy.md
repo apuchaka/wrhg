@@ -1,6 +1,8 @@
 ---
 block: Toxicology & Envenomation
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
 ---
 
 > [!warning] Sourcing

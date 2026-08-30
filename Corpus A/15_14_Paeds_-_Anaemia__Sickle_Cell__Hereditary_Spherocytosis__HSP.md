@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.14 Haem-onc disorders - Anaemia, Iron deficiency, Sickle cell disease, Hereditary spherocytosis, Henoch-Schonlein purpura
+trust: inherited
+population: mixed
 ---
 
 ## Anaemia in children — approach

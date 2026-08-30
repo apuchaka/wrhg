@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.05 Knee and ankle conditions
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Knee — ligament and meniscal injuries

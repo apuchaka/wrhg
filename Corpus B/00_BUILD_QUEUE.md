@@ -1,6 +1,8 @@
 ---
 block: Build Queue
 source: derived from bl.md coverage report, ordered for MCQ 27 Sept / OSCE 1 Nov
+trust: unverified
+population: mixed
 ---
 
 > [!warning] This is a queue, not clinical content

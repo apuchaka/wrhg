@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.09 Infant feeding problems - Cow's milk protein intolerance, GORD, Infantile colic
+trust: inherited
+population: mixed
 ---
 
 ## Cow's milk protein intolerance

@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.18 Precocious puberty, Delayed puberty, Congenital adrenal hyperplasia
+trust: inherited
+population: mixed
 ---
 
 ## Precocious puberty

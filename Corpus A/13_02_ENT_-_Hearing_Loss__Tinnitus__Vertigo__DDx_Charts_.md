@@ -1,6 +1,8 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.02 Ear - Hearing loss, Tinnitus, Vertigo (differential diagnosis charts)
+trust: inherited
+population: mixed
 ---
 
 ## Hearing loss — differential diagnosis

@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.09 Trauma - Thoracic, Genitourinary, Splenic, Liver, Head, Ocular
+trust: inherited
+population: mixed
 ---
 
 ## Major Trauma — Primary Survey

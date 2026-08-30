@@ -1,6 +1,8 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.07 Platelet disorders, Clotting factor disorders (haemophilia, vWD), Neutropaenia
+trust: inherited
+population: mixed
 ---
 
 > [!info] Definitions

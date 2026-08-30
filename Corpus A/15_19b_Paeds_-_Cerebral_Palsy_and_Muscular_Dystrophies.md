@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.19 Cerebral palsy, Muscular dystrophies
+trust: inherited
+population: mixed
 ---
 
 ## Cerebral palsy

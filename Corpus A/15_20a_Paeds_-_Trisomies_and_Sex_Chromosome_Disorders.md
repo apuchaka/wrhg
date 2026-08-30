@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.20 Trisomies (Down, Patau, Edwards), Sex chromosome disorders (Turner, Klinefelter, Triple X)
+trust: inherited
+population: mixed
 ---
 
 ## Down syndrome (Trisomy 21)

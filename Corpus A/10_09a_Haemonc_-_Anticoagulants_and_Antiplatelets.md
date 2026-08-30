@@ -1,6 +1,8 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.09 Anticoagulants, Antiplatelets, Tranexamic acid
+trust: inherited
+population: mixed
 ---
 
 ## Anticoagulants

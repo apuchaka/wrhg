@@ -1,6 +1,8 @@
 ---
 block: Neurology
 source: quackquackmed 04 Neurology
+trust: inherited
+population: mixed
 ---
 
 ## Migraine

@@ -1,6 +1,8 @@
 ---
 block: Gynaecology
 source: quackquackmed 17.06 Subfertility, Ovarian Hyperstimulation Syndrome
+trust: inherited
+population: mixed
 ---
 
 > [!info] Localised for Australia — IVF funding/eligibility rebuilt to reflect the Medicare rebate system, verified against Services Australia, Aug 2026. See the IVF entry below for detail.

@@ -1,6 +1,8 @@
 ---
 block: Shared — History Taking (OSCE)
 source: built from Grind Time CSV presentation-led rows, routed here per project workflow (not per-system files)
+trust: inherited
+population: mixed
 ---
 
 # 1 History-Taking (Template A — presentation-led)

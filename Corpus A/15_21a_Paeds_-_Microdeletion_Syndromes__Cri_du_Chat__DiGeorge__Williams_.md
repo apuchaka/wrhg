@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.21 Microdeletion syndromes - Cri du chat, DiGeorge, Williams
+trust: inherited
+population: mixed
 ---
 
 ## Cri du chat syndrome

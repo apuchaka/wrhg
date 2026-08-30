@@ -1,6 +1,8 @@
 ---
 block: Gynaecology
 source: quackquackmed 17.01 FGM, Amenorrhoea, PCOS
+trust: inherited
+population: mixed
 ---
 
 > [!info] Localised for Australia — FGM legal framework rebuilt around South Australian legislation (Criminal Law Consolidation Act 1935 (SA)) specifically, with the broader national picture (all states/territories criminalise FGM independently) as context, verified Aug 2026. See the FGM entry below for full detail.

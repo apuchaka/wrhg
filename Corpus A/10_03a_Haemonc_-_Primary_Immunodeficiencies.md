@@ -1,6 +1,8 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.03 Primary immunodeficiencies
+trust: inherited
+population: mixed
 ---
 
 > [!tip] Highlighted conditions in this file come up more frequently in exams: Chronic granulomatous disease, DiGeorge syndrome, SCID, Wiskott-Aldrich syndrome, X-linked agammaglobulinaemia.

@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.04 Hip conditions, including neck of femur fractures
+trust: inherited
+population: mixed
 ---
 
 ## Hip / neck of femur (NOF) fractures

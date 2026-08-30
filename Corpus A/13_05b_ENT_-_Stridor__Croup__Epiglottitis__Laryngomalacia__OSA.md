@@ -1,6 +1,8 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.05 Stridor, Croup, Acute epiglottitis, Laryngomalacia, Obstructive sleep apnoea
+trust: inherited
+population: mixed
 ---
 
 ## Stridor — overview

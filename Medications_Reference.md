@@ -1,6 +1,8 @@
 ---
 block: Pharmacology
 source: Built in Phase 5 Part C from the AMH therapeutic classification (SA Medicines Formulary Framework, Appendix 1) and the Diagnoses spreadsheet class list. Not derived from quackquackmed.
+trust: snippet
+population: mixed
 ---
 
 # Medications Reference

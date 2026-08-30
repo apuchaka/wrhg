@@ -1,6 +1,8 @@
 ---
 block: Endocrinology
 source: quackquackmed 06 Metabolic Medicine & Endocrinology
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Hypothyroidism

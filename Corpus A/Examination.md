@@ -1,6 +1,8 @@
 ---
 block: Shared — Physical Examination (OSCE)
 source: built from Grind Time CSV examination-type rows, routed here per project workflow (not per-system files)
+trust: inherited
+population: mixed
 ---
 
 # Physical Examination (Template B — system-led)

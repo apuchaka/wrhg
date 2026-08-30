@@ -1,6 +1,8 @@
 ---
 block: Psychiatry
 source: quackquackmed 14.05 Eating disorders - Anorexia nervosa, Bulimia nervosa
+trust: inherited
+population: mixed
 ---
 
 ## Anorexia nervosa

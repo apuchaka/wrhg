@@ -1,6 +1,8 @@
 ---
 block: Infectious Disease
 source: quackquackmed 08.05-08.06 Viral infections
+trust: inherited
+population: mixed
 ---
 
 ## Cytomegalovirus (CMV)

@@ -1,6 +1,8 @@
 ---
 block: Dermatology
 source: quackquackmed 09.04 Eczema, Psoriasis, Rosacea
+trust: inherited
+population: mixed
 ---
 
 ## Contact Dermatitis (Irritant and Allergic)

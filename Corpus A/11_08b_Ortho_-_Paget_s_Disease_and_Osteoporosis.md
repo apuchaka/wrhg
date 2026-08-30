@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.08 Paget's disease of the bone, Osteoporosis, Bisphosphonates
+trust: inherited
+population: mixed
 ---
 
 ## Paget's disease of the bone

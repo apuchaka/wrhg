@@ -1,6 +1,8 @@
 ---
 block: Gynaecology
 source: quackquackmed 17.10 Ovarian Cancer, Ovarian Cysts, Ovarian Torsion
+trust: inherited
+population: mixed
 ---
 
 ## Ovarian cancer

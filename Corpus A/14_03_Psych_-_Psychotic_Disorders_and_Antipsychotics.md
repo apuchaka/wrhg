@@ -1,6 +1,8 @@
 ---
 block: Psychiatry
 source: quackquackmed 14.03 Psychotic disorders, Schizophrenia, Antipsychotics
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Features that define psychotic disorders (DSM-5)

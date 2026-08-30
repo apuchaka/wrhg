@@ -1,6 +1,8 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.09 Hereditary angioedema, Hyposplenism, Splenomegaly, Thymoma, Lymphadenopathy
+trust: inherited
+population: mixed
 ---
 
 ## Hereditary angioedema

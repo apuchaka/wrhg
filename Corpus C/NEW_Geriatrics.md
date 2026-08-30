@@ -2,6 +2,8 @@
 block: NEW build — Presentations & Symptoms
 source: Build list 2026-08-30 (data/new_build_topics_tiered.md)
 status: skip record — nothing built in this category
+trust: snippet
+population: mixed
 ---
 
 # NEW — Geriatrics

@@ -1,6 +1,8 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.06 Bell's palsy
+trust: inherited
+population: mixed
 ---
 
 ## Bell's palsy

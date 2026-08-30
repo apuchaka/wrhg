@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.06 Cardiovascular disorders - Tetralogy of Fallot, TGA, Ebstein's anomaly, Kawasaki disease, Murmurs in children
+trust: inherited
+population: mixed
 ---
 
 ## Tetralogy of Fallot (ToF)

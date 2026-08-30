@@ -1,6 +1,8 @@
 ---
 block: Dermatology
 source: quackquackmed 09.01 Dermatological emergencies
+trust: inherited
+population: mixed
 ---
 
 ## Anaphylaxis

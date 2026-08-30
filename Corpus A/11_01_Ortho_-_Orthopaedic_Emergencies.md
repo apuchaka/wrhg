@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.01 Orthopaedic emergencies
+trust: inherited
+population: mixed
 ---
 
 ## Septic arthritis

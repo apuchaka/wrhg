@@ -1,6 +1,8 @@
 ---
 block: Psychiatry
 source: quackquackmed 14.06 Mental Health Act and Sectioning
+trust: inherited
+population: mixed
 ---
 
 > [!info] Localised for South Australia — the original source material described the UK Mental Health Act (sections 2, 3, 4, 5(2), 5(4), 17, 135, 136, and the AMHP process). This file has been rebuilt against the **Mental Health Act 2009 (SA)**, verified via the SA Law Handbook, SACAT, and the Office of the Public Advocate, Aug 2026 — the correct, current legislation for a Flinders/Adelaide context. Australian involuntary treatment law is state/territory-based (e.g. different Acts apply in Victoria, NSW, Queensland, etc, with different terminology, criteria, timeframes, and roles) — if practising outside SA, check the relevant state/territory Act rather than assuming this transfers directly.

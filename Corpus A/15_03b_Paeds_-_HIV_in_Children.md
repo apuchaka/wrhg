@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.03 HIV in children
+trust: inherited
+population: mixed
 ---
 
 ## HIV in children

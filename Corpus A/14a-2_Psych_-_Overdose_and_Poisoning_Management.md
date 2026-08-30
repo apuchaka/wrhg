@@ -1,6 +1,8 @@
 ---
 block: Psychiatry
 source: quackquackmed 14a Overdose / Poisoning management reference
+trust: inherited
+population: mixed
 ---
 
 > [!warning] This is a quick-reference antidote table only — always confirm doses and current protocols against Australian poisons information (Poisons Information Centre 13 11 26) and eTG before treating any overdose.

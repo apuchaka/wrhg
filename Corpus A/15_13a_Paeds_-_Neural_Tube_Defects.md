@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.13 Neural tube defects
+trust: inherited
+population: mixed
 ---
 
 ## Neural tube defects — overview

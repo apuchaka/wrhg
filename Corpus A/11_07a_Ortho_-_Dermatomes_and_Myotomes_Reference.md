@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.07 Dermatomes, Myotomes, and reflexes reference
+trust: inherited
+population: mixed
 ---
 
 ## Dermatomes — quick reference

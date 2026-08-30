@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.07 Osteomyelitis, Osteochondritis dissecans, Fat embolism, Charcot joint, Osteomalacia
+trust: inherited
+population: mixed
 ---
 
 ## Osteomyelitis

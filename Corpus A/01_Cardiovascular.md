@@ -1,6 +1,8 @@
 ---
 block: Cardiovascular
 source: quackquackmed 01 Cardiovascular
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Acute Coronary Syndrome (ACS)

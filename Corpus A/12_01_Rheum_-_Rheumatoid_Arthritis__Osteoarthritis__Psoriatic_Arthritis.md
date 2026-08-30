@@ -1,6 +1,8 @@
 ---
 block: Rheumatology
 source: quackquackmed 12.01 Rheumatoid arthritis, Osteoarthritis, Psoriatic arthritis
+trust: inherited
+population: mixed
 ---
 
 ## Rheumatoid arthritis (RA)

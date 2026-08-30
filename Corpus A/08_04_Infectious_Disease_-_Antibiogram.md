@@ -1,6 +1,8 @@
 ---
 block: Infectious Disease
 source: quackquackmed 08.04 Antibiogram
+trust: inherited
+population: mixed
 ---
 
 ## Antibiogram — empirical antibiotic cover by organism

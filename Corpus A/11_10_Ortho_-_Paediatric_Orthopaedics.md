@@ -1,6 +1,8 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.10 Paediatric orthopaedic conditions
+trust: inherited
+population: mixed
 ---
 
 ## Juvenile idiopathic arthritis (JIA)

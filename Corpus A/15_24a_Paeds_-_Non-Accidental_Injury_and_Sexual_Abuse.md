@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.24 Non-accidental injury, Sexual abuse
+trust: inherited
+population: mixed
 ---
 
 ## Non-accidental injury (NAI)

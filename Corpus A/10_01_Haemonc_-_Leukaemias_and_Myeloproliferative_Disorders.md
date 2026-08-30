@@ -1,6 +1,8 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.01 Haematological cancers - Leukaemias, Myeloproliferative disorders
+trust: inherited
+population: mixed
 ---
 
 > [!note] Leukaemia = cancer of the WBCs in the bone marrow → marrow failure → ↓RBC (anaemia) and ↓mature WBC and ↓platelets (haemorrhage).

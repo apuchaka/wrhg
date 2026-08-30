@@ -1,6 +1,8 @@
 ---
 block: Infectious Disease
 source: quackquackmed 08.09 Miscellaneous infections
+trust: inherited
+population: mixed
 ---
 
 ## Animal & human bites

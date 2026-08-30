@@ -1,6 +1,8 @@
 ---
 block: Gynaecology
 source: quackquackmed 17.08 Vaginal Discharge, Urinary Incontinence, Pelvic Organ Prolapse
+trust: inherited
+population: mixed
 ---
 
 > [!info] Localised for Australia — all antibiotic/antifungal regimens in this file verified against the WA Health "Quick guide to STI and BBV management" (2026 edition), Aug 2026. Two genuine dosing corrections were needed (chlamydia's azithromycin course, and gonorrhoea's ceftriaxone dose and dual-therapy structure) — see the individual entries below for detail.

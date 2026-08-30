@@ -1,6 +1,8 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.06 Dysphagia - DDx, Oesophageal carcinoma, Barrett's oesophagus, Pharyngeal pouch, Globus pharyngeus
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Dysphagia — approach

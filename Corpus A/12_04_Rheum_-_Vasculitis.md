@@ -1,6 +1,8 @@
 ---
 block: Rheumatology
 source: quackquackmed 12.04 Vasculitis - GPA, EGPA, GCA, Takayasu, Microscopic polyangiitis, PAN, HSP, Behcet's
+trust: inherited
+population: mixed
 ---
 
 ## Vasculitis — overview

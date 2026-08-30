@@ -1,6 +1,8 @@
 ---
 block: Rheumatology
 source: quackquackmed 12.02 Rheumatic conditions with muscular problems - Ankylosing spondylitis, Gout, Pseudogout, Reactive arthritis, Fibromyalgia, Polymyalgia rheumatica, Chronic fatigue syndrome
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Ankylosing spondylitis

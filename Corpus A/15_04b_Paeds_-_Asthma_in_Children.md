@@ -1,6 +1,8 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.04 Asthma in children
+trust: inherited
+population: mixed
 ---
 
 ## Asthma in children

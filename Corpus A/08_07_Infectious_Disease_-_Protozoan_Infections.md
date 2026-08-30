@@ -1,6 +1,8 @@
 ---
 block: Infectious Disease
 source: quackquackmed 08.07 Protozoan infections
+trust: inherited
+population: mixed
 ---
 
 ## 0.1 Amoebiasis
