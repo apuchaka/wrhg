@@ -96,6 +96,17 @@ conflicts_r1: 0
 - **Ix:** clinical diagnosis ± XR (to calculate Cobb angle, which quantifies spinal curvature/severity).
 - **Mx:** minor scoliosis — watch and wait. Cobb angle 21–45° — bracing. >45° — consider surgical spinal arthrodesis (spinal fusion).
 
+## Added from unverified layer — do not over-image, and do not over-interpret the images
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+**Most radiculopathy resolves with conservative management over weeks.** Imaging is indicated for **red flags, a progressive neurological deficit, or persistent symptoms where intervention is actually being considered** — not for routine radicular pain.
+
+> [!danger] A disc bulge on MRI is not a diagnosis
+> **Degenerative disc changes, bulges and even herniations are extremely common on MRI in completely asymptomatic people, and their prevalence rises steeply with age.** Finding one does not establish that it is causing the symptoms.
+> **The imaging must match the clinical level.** An L4/5 disc in a patient whose symptoms and signs are S1 is an incidental finding, not an explanation — and treating it as one leads to intervention aimed at the wrong level.
+> `UNVERIFIED — the prevalence of asymptomatic disc findings by age band, and the Australian imaging referral criteria for radicular pain; RACGP.`
+
+
 ## Discitis
 
 - **D:** infection of the intervertebral disc space.

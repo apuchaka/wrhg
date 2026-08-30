@@ -1338,6 +1338,23 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 - Toxins (e.g. chemotherapy, isoniazid) — generally length-dependent
 - Paraproteinaemic (e.g. secondary to haematologic malignancy)
 
+### Added from unverified layer — two discriminators in a weak patient
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.4` `SRC:D4 §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Foot drop — test ankle inversion
+> Common peroneal palsy and L5 radiculopathy both cause weak dorsiflexion. **One manoeuvre separates them**, and it works because tibialis posterior is supplied by the **tibial** nerve but is an **L5** muscle — the anatomy is already tabulated in [[11_07a_Ortho_-_Dermatomes_and_Myotomes_Reference]] and is not repeated here.
+> - **Common peroneal palsy** — **inversion is PRESERVED**, no back pain, no hip abduction weakness.
+> - **L5 radiculopathy** — **inversion is WEAK**, hip abduction is weak, usually with back pain radiating down the leg.
+> - **The ankle jerk (S1) is preserved in both**, so it does not discriminate.
+>
+> **Test inversion.** It separates a peripheral compression from a spinal problem at the bedside, and it decides whether the patient needs a spine referral or a nerve-conduction study.
+
+> [!warning] Steroid myopathy has a normal CK
+> **Corticosteroid-induced myopathy causes proximal weakness with a normal creatine kinase**, because it is a metabolic atrophy rather than a necrotising process.
+> **So a normal CK does not exclude a myopathy.** In a patient on long-term steroids with proximal weakness and entirely normal tests, the steroid is the likely cause. It improves with dose reduction and exercise.
+> `UNVERIFIED — the time course of onset and of recovery, and whether any test distinguishes it from disuse atrophy; specialist neurology or rheumatology guidance.`
+
+
 ### Diabetic Neuropathy
 
 > [!note] Gap-filled — genuinely conspicuous by its absence given diabetic retinopathy (see [[05_Ophthalmology]] Diabetic Retinopathy) and diabetic nephropathy (see [[07_Renal_Medicine_and_Urology]] Diabetic Nephropathy) both have dedicated entries as the other two classic diabetic microvascular complications, while neuropathy — the third — was previously only a passing mention here (diabetic amyotrophy specifically) and within [[06_Metabolic_Medicine_and_Endocrinology]] Diabetic Foot. Verified against the American Diabetes Association's position statement on diabetic neuropathy and current international expert consensus, Aug 2026.
