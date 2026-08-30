@@ -143,17 +143,43 @@ Topical ocular antihistamines are covered with the other drugs for allergic eye 
 > and absent here; the refractory-anaphylaxis infusion protocols; fluid-bolus volume; observation
 > periods; and every non-adrenaline drug in this entry.
 
-> [!info] **Dose — the one dose stated in this file, in the correct per-kg-with-a-cap form**
-> Sources agree on the **ASCIA** dosing, which is consistent with the Australian **Acute Anaphylaxis Clinical Care Standard**, the **Australian Immunisation Handbook** and the World Allergy Organisation:
-> - **Ampoule (adrenaline 1:1000), all ages: 0.01 mL/kg, to a maximum of 0.5 mL (0.5 mg) per dose, intramuscular.**
-> - **Injector devices, by weight band:** **150 microgram** for those from **7.5 kg to 20 kg**; **300 microgram** for those **20 kg or more**; from around **12 years of age and over 50 kg**, either the **300 microgram or 500 microgram** device.
->   - **THE INJECTOR BANDS START AT 7.5 kg AND NOTHING HERE COVERS AN INFANT BELOW IT.**
->     The **ampoule** dose above is per-kg and does cover them; the **devices** do not.
->     Below 7.5 kg, draw up the ampoule — do not round a child up into the 150 microgram
->     band because it is the smallest device available.
->     `UNVERIFIED — the under-7.5 kg band, per ASCIA.` Tracked as `PENDING_GUIDELINE_CHECKS.md`
->     **B71** (this table also exists in `09_01`, which is **B50** — same figure, two owners).
-> - **Repeat every 5 minutes as needed** if there is no improvement.
+> [!danger] **Adrenaline dose — ASCIA 2026 weight/age bands** `→MED:adrenaline`
+> **Owner: [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis.** Marked mirror, not
+> an independent copy — correct it there first, then here.
+>
+> **Overall rule: 0.01 mg/kg, equivalently 0.01 mL/kg of the 1:1000 ampoule, to a maximum of
+> 0.5 mg (0.5 mL) per dose, intramuscular into the outer mid-thigh.**
+>
+> | Age (years) | Weight (kg) | Volume of 1:1,000 ampoule | Injector device |
+> |---|---|---|---|
+> | **~<1** | **<7.5** | **0.1 mL** | **Not available — draw up the ampoule** |
+> | ~1–2 | 7.5 | 0.1 mL | 7.5–20 kg: **150 microgram** |
+> | ~2–3 | 15 | 0.15 mL | as above |
+> | ~4–6 | 20 | 0.2 mL | 20 kg and over: **300 microgram** |
+> | ~7–10 | 30 | 0.3 mL | as above |
+> | ~10–12 | 40 | 0.4 mL | as above |
+> | **>12 and adults** | **>50** | **0.5 mL** | 50 kg and over: 300 or **500 microgram** |
+>
+> **7.5 kg is a DEVICE limit, not a dose limit.** Below it the ampoule dose is 0.1 mL and no
+> injector is available — draw it up, and **do not round a child up into the 150 microgram band
+> because it is the smallest device available.** A 150 microgram device *may* be prescribed at
+> **7.5–10 kg** on considered assessment, and at ≥7.5 kg poses less risk than an ampoule and
+> syringe when used without medical training.
+>
+> **Repeat every 5 minutes** if there is no or inadequate response.
+>
+> **B50 and the under-7.5 kg gap are closed by ASCIA 2026 p6**, which does cover that band. The
+> earlier `UNVERIFIED` marker here is resolved and removed.
+
+> [!check] VERIFIED — ASCIA Guidelines: Acute Management of Anaphylaxis, content updated May 2026, p6 and p8 (accessed 2026-08-30)
+> **Checked:** every row of the mirrored table; the injector bands; the 7.5 kg device threshold
+> and the 7.5–10 kg considered-assessment statement; and the 0.01 mg/kg ≡ 0.01 mL/kg-of-1:1000
+> rule with its 0.5 mg cap.
+> **NOT checked:** the **intranasal route and neffy® 1 mg / 2 mg devices**, which ASCIA 2026 adds
+> and this entry omits pending a dedicated pass; the refractory-anaphylaxis IV infusion protocols;
+> fluid-bolus volume; IV-bolus exceptions; observation periods; ASCIA's infant guidance on pallor,
+> the effects of more than two doses, and positioning; and every other drug in this file.
+
 > **This is the correct paediatric form** — per-kg with an absolute cap, plus weight bands for the fixed-dose devices — and it is why the dose is safe to state. **Do not convert it into a single absolute figure**, which is exactly the error that makes an adult dose lethal in a child.
 
 - **Adverse effects:** anxiety, tremor, palpitations, headache, pallor — **all expected, all transient, and none a reason to withhold it**. Hypertension and tachyarrhythmia; myocardial ischaemia in those with coronary disease. **The risks of giving adrenaline in anaphylaxis are trivial compared with the risk of not giving it.**

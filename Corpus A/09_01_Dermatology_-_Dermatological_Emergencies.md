@@ -42,15 +42,36 @@ conflicts_r1: 0
 > and absent here; the refractory-anaphylaxis infusion protocols; fluid-bolus volume; observation
 > periods; and every non-adrenaline drug in this entry.
 
-> [!danger] **IM adrenaline dose (ASCIA) — 1:1000, outer mid-thigh, 0.01 mg/kg up to a maximum of 0.5 mg.**
+> [!danger] **IM adrenaline dose — ASCIA 2026, 1:1000 ampoule, outer mid-thigh. Overall rule: 0.01 mg/kg (= 0.01 mL/kg of 1:1000) up to a maximum of 0.5 mg (0.5 mL).**
 >
-> | Dose | Applies to |
-> |---|---|
-> | **0.1–0.15 mg** (0.1–0.15 mL) | **<7.5 kg / <6 months** |
-> | **0.15 mg** (0.15 mL) | 7.5–20 kg **and** ≤5 years |
-> | **0.3 mg** (0.3 mL) | >20 kg **and** ≥5 years |
-> | **0.5 mg** (0.5 mL) | >50 kg **and** ≥12 years — **the adult dose** |
+> | Age (years) | Weight (kg) | Volume of 1:1,000 ampoule | Injector device |
+> |---|---|---|---|
+> | **~<1** | **<7.5** | **0.1 mL** | **Not available** |
+> | ~1–2 | 7.5 | 0.1 mL | 7.5–20 kg: EpiPen® Jr / Jext® Jr **150 microgram** |
+> | ~2–3 | 15 | 0.15 mL | as above |
+> | ~4–6 | 20 | 0.2 mL | 20 kg and over: EpiPen® / Jext® **300 microgram** |
+> | ~7–10 | 30 | 0.3 mL | as above |
+> | ~10–12 | 40 | 0.4 mL | as above |
+> | **>12 and adults** | **>50** | **0.5 mL** | 50 kg and over: EpiPen® / Jext® 300 microgram, Anapen® 500 **500 microgram** |
 >
+> **7.5 kg is a DEVICE limit, not a dose limit.** Below 7.5 kg the ampoule dose is 0.1 mL and
+> **no injector device is available** — draw it up. A 150 microgram device *may* be prescribed
+> for an infant of **7.5–10 kg** by a health professional making a considered assessment, and at
+> ≥7.5 kg a device poses **less risk than an ampoule and syringe** when used without medical
+> training (ASCIA 2026 p8).
+>
+> **Repeat every 5 minutes if there is no or inadequate response.**
+
+> [!check] VERIFIED — ASCIA Guidelines: Acute Management of Anaphylaxis, content updated May 2026, p6 (accessed 2026-08-30)
+> **Checked:** every row of the weight/age/volume table above, transcribed from the source table
+> headed "Volume (mL) of adrenaline 1:1,000 ampoules"; the injector-device bands; the 7.5 kg
+> device threshold and the 7.5–10 kg considered-assessment statement (p8); and the overall
+> 0.01 mg/kg ≡ 0.01 mL/kg-of-1:1000 rule with its 0.5 mg cap (p4 flowchart, p8 pregnancy section).
+> **NOT checked:** the **intranasal route and neffy® devices**, which ASCIA 2026 adds and this
+> entry deliberately omits pending a dedicated pass; the refractory-anaphylaxis IV infusion
+> protocols; the fluid-bolus volume; the IV-bolus exceptions; observation periods; infant-specific
+> guidance (pallor, effects of >2 doses, positioning); and every non-adrenaline drug in this entry.
+
 > **Note these are weight *and* age criteria together, not age bands.** Older teaching used a simple three-tier age split (6 months–6 years / 6–12 years / >12 years); current ASCIA guidance is weight-led with an age qualifier, and a small 13-year-old or a large 4-year-old is dosed on the combination rather than on birthday alone.
 >
 > **The <7.5 kg row was added during the dose-table unit-and-progression sweep (2026-08-29): the table stopped at 7.5 kg, so a reader following the pointer here for an infant reached a table that did not cover them.** The figure is the one the corpus already held in [[01_Cardiovascular]] Shock (the **Anaphylactic shock** sub-entry); note it sits above what this box's own **0.01 mg/kg** rule would give for a <7.5 kg infant (<75 mcg), because a minimum practical volume is drawn rather than a strictly weight-calculated one — **the exact Australian figure for this band is unverified against ASCIA** (see `PENDING_GUIDELINE_CHECKS.md` **B50**).
