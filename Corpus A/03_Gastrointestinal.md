@@ -796,6 +796,48 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 ---
 
+### 0.18.1 Added from unverified layer — presentation sequence, atypical positions, and the RIF differential
+`SRC:C1_Acute_Abdomen §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] The classical sequence
+> **Periumbilical visceral pain → anorexia and nausea → migration to the right iliac fossa → vomiting (which follows the pain; vomiting preceding pain suggests another diagnosis) → low-grade fever → localised peritonism at McBurney's point.**
+> **Anorexia is a genuinely useful negative** — a patient who is hungry is less likely to have appendicitis, though this is a probability shift rather than a rule.
+> The mechanism of the migration is in §0.41.3 — it is the visceral-to-parietal transition, not a quirk of this disease.
+
+> [!warning] Atypical appendix positions change the presentation
+> **Retrocaecal** — less anterior tenderness, positive psoas sign, sometimes flank pain.
+> **Pelvic** — suprapubic pain, urinary frequency, diarrhoea, tenderness on rectal or vaginal examination, positive obturator sign.
+> **In pregnancy** — the appendix is displaced upward and laterally by the gravid uterus, so pain may be in the right upper quadrant in the third trimester. See §0.41.6.
+
+> [!danger] The differential in a young woman is the difficult one
+> **Ectopic pregnancy · ovarian torsion · ruptured ovarian cyst · pelvic inflammatory disease** all present as right iliac fossa pain and all are managed differently.
+> **Ovarian torsion** — sudden severe unilateral pain with vomiting, often with a known cyst, and the ovary is salvageable only if detorsion happens early. Ultrasound with Doppler, **though the presence of flow does not exclude torsion** because the ovary has dual blood supply. See [[17_10_Ovarian_Cancer__Cysts_and_Torsion]].
+> **Pregnancy test first, then pelvic ultrasound.** A negative test excludes ectopic; a positive one changes the entire pathway. See [[17_04_Ectopic_Pregnancy_and_GTD]] and [[17_05_PID__Endometriosis__Fibroids]].
+
+> [!tip] The rest of the differential
+> **Mesenteric adenitis** — children and adolescents, often after a viral illness, with tender mobile nodes and a less impressive abdomen. A retrospective diagnosis.
+> **Meckel's diverticulum** — the rule of 2s. Can mimic appendicitis exactly.
+> **Crohn's disease** — terminal ileitis, with a longer history, diarrhoea, weight loss (§0.16.1).
+> **Caecal pathology** — carcinoma, diverticulitis, and in the neutropenic patient **typhlitis (neutropenic enterocolitis)** — see §0.41.6.
+> **Ureteric colic** — loin to groin, writhing, haematuria.
+> **Psoas abscess** — fever, hip flexion deformity, positive psoas sign.
+> **Testicular torsion referring to the abdomen.**
+
+**Additional Ix points:** urinalysis excludes urinary tract infection and identifies the haematuria of ureteric colic — noting **pyuria occurs in appendicitis** when the inflamed appendix lies against the ureter or bladder, so an abnormal urine does not exclude it. FBC and CRP support inflammation, though **normal values do not exclude appendicitis**, particularly early.
+
+**Additional Mx points:** **antibiotic-first management of uncomplicated appendicitis is an established alternative** in selected patients, with a meaningful recurrence rate — consistent with the recurrence figure already stated above. `UNVERIFIED — selection criteria for antibiotic-first management; RACGP or your health network's surgical guidelines.` Drainage of an appendiceal abscess with **interval appendicectomy** is used in some pathways.
+
+**Chronic/long-term:** histology review — **an appendiceal neuroendocrine tumour or mucinous neoplasm is an occasional incidental finding requiring further management**, so the result must be checked and acted on rather than assumed benign.
+
+> [!warning] Unmarked disagreement — appendicitis imaging. **Not adjudicated, and deliberately not given a `CF-` number.**
+> **A (`inherited`, §0.18 above):** imaging "generally not indicated unless diagnostic uncertainty"; CT reserved for Alvarado 4–6; **"US not useful for visualising the appendix"** but useful for gynaecological mimics.
+> **B (`unverified`, `SRC:C1_Acute_Abdomen §0.6`):** **CT abdomen and pelvis is the most accurate test in adults**; **ultrasound first in children, young women and pregnancy**, looking for a **non-compressible appendix** — i.e. ultrasound *can* visualise it, and a non-visualised appendix does not exclude appendicitis. MRI in pregnancy where ultrasound is non-diagnostic.
+> **Why it matters:** the two statements cannot both be right about whether ultrasound images the appendix, and the choice determines first-line imaging in exactly the groups where radiation matters most.
+> **Why there is no `CF-` number here:** this merge was instructed to reference an existing `CONFLICT CF-012` in this section rather than duplicate it. **No such block exists in this file, and none ever did** — `CF-012` appears only in `MERGE_SPEC.md`, `CLAUDE.md` and `MASTER_VERIFICATION_WORKFLOW.md`, in all three as the worked *example* of conflict-block formatting. Writing "see CF-012" would have been a cross-reference to nothing. Recorded in `_meta/merges/C1_Acute_Abdomen.md` for a human decision on whether to open a real conflict ID.
+> **Resolve against:** RACGP, or your health network's surgical and radiology guidelines. Both are open sources.
+
+---
+
 ## 0.19 Small Bowel Obstruction (SBO)
 
 **D:** mechanical disruption in the patency of the small intestines.
