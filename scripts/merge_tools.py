@@ -205,10 +205,28 @@ RE_OPEN_SOURCE = re.compile(
     # "f-ascia" and "f-ascial" on 33 corpus lines and `APEG` inside "sc-apeg-oating" on 1,
     # so any line mentioning fascial planes was scored OPEN — i.e. routed into the
     # actionable verification queue as though ASCIA could settle it.
+    #
+    # Extended 2026-08-30. Candidates were checked two ways before being added: an
+    # in-word collision test against all 240 corpus files (all clean), and a reading of
+    # how the corpus actually uses the token.
+    #
+    # REJECTED — `ADA`. Ambiguous between the Australian Dental Association and the
+    # AMERICAN Diabetes Association, and the corpus's only use is the American one:
+    # "current international consensus (including the ADA's own position statement)".
+    # Adding it would route American guidance into the actionable-Australian queue.
+    # `eviQ` is login-gated and stays in RE_LOGIN_SOURCE.
     r"(\bANZCOR\b|\bASCIA\b|\bRCH\b|royal children|immunisation handbook|\bNIP\b|"
     r"\bPBS\b|\bTGA\b|queensland (children|health)|\bNSW ACI\b|\bSA Health\b|"
     r"\bRACGP\b|\bRANZCOG\b|kidney health|\bAPEG\b|\bCDNA\b|\bNBA\b|"
-    r"cancer council|\bAIHW\b)", re.I
+    r"cancer council|\bAIHW\b"
+    # colleges and societies whose guidance is publicly readable
+    r"|\bGESA\b|\bRACP\b|\bANZCA\b|\bACEM\b|\bRANZCR\b|\bASID\b|\bANZBA\b"
+    r"|\bSOMANZ\b|\bADS\b|\bADEA\b|\bRANZCO\b|\bRACS\b|\bASHM\b"
+    # foundations, agencies and named open Australian references
+    r"|heart foundation|lung foundation|stroke foundation|diabetes australia"
+    r"|cancer australia|\bNHMRC\b|Austroads|australian asthma handbook"
+    r"|national asthma council|NPS MedicineWise|australian prescriber"
+    r"|national cervical screening|pregnancy care guidelines)", re.I
 )
 
 
