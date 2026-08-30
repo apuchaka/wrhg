@@ -85,6 +85,9 @@ conflicts_r1: 0
 - **Role:** **first-line oral agent** in type 2 diabetes; also used in **PCOS** and in prediabetes. Weight-neutral to weight-reducing, cheap, long safety record.
 - **Adverse effects:** **gastrointestinal — nausea, diarrhoea, abdominal discomfort, metallic taste** (dose-related; mitigate by starting low, titrating slowly, taking with food, and using the **extended-release** formulation); **vitamin B₁₂ deficiency with long-term use — check B₁₂ periodically**, particularly in anyone with neuropathy, which is otherwise attributed to the diabetes.
 - **Lactic acidosis:** sources note metformin is **contraindicated below an eGFR of about 30 mL/min/1.73 m²** because of lactic acidosis risk, though **it is rare in contemporary practice**. Risk rises with **acute kidney injury, hypoxia, sepsis, liver failure, alcohol excess and contrast**.
+  - **An adult threshold.** Paediatric renal impairment is staged against age-specific
+    normal ranges, and metformin decisions in children are made on those, not on this
+    adult cut-off.
 
 > [!danger] **METFORMIN "SICK DAY RULES": withhold during acute dehydrating illness** — vomiting, diarrhoea, sepsis, or anything causing volume depletion — **and around iodinated contrast and surgery per local protocol**, restarting when the patient is eating, drinking and renal function is confirmed stable. Sources note candidly that **trial evidence for this practice is lacking** while the rationale is sound and it is standard care. **Sick day advice must be given at the time of prescribing, not discovered during an admission with acute kidney injury.**
 
@@ -236,6 +239,8 @@ conflicts_r1: 0
 
 > [!danger] **NEVER STOP LONG-TERM GLUCOCORTICOIDS ABRUPTLY, AND ALWAYS INCREASE THEM WHEN THE PATIENT IS ILL.**
 > Sources describe the risk of HPA suppression as arising with **more than about 3–4 weeks of therapy at doses above roughly 15–25 mg hydrocortisone equivalent daily**, and note that **recovery of adrenal function varies greatly between individuals** and can take months.
+> - **AN ADULT DAILY-EQUIVALENT FIGURE.** Paediatric glucocorticoid exposure is judged
+>   per body surface area, and this threshold does not transfer to a child.
 > - **SICK DAY RULES:** sources describe **doubling the oral dose for fever above 38 °C and tripling above 39 °C**, while noting honestly that **evidence for the optimal dose and duration is lacking**. **The patient must be taught this and given it in writing.**
 > - **If vomiting or unable to take oral medication, they need PARENTERAL hydrocortisone** — and should have an emergency injection kit and know how to use it.
 > - **SURGERY:** sources describe **hydrocortisone 100 mg intravenously at induction followed by an infusion of 200 mg per 24 hours** until the patient can take double their usual oral dose — but **follow your local protocol**, and tell the anaesthetist.

@@ -113,6 +113,10 @@ conflicts_r1: 0
 
 > [!danger] **LOPERAMIDE CARDIAC TOXICITY IN OVERDOSE — a genuinely modern problem.**
 > Sources describe an **FDA statement (2016) on heart effects and death with high doses**, note the usual recommended maximum is around **8 mg/day**, and report cardiac toxicity especially with chronic ingestion of **more than 100 mg/day**. The mechanism is **blockade of cardiac hERG (Kv11.1) potassium channels causing QT prolongation, and Nav1.5 sodium channels causing QRS widening**, producing **torsades de pointes, ventricular dysrhythmias, cardiac arrest and death.** **It is misused at very high doses to self-treat opioid withdrawal or to obtain euphoria** — so **ask about loperamide in any unexplained wide-complex or long-QT arrhythmia in a young person**, and recognise that it is cheap and available without prescription.
+> - **THESE ARE ADULT FIGURES. DO NOT USE THEM IN A CHILD.** Paediatric antimotility
+>   dosing is by body weight, and loperamide is **avoided altogether in young children**,
+>   in whom it causes ileus and CNS depression — so the adult daily maximum is not a
+>   ceiling to dose up to, it is a figure that does not apply.
 - **Diphenoxylate with atropine** — the atropine is included deliberately to deter misuse; **overdose in children causes opioid and anticholinergic toxicity and has been fatal.** Store safely.
 
 ### 0.4.2 Other Drugs for Diarrhoea

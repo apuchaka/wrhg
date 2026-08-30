@@ -124,6 +124,12 @@ Topical ocular antihistamines are covered with the other drugs for allergic eye 
 > Sources agree on the **ASCIA** dosing, which is consistent with the Australian **Acute Anaphylaxis Clinical Care Standard**, the **Australian Immunisation Handbook** and the World Allergy Organisation:
 > - **Ampoule (adrenaline 1:1000), all ages: 0.01 mL/kg, to a maximum of 0.5 mL (0.5 mg) per dose, intramuscular.**
 > - **Injector devices, by weight band:** **150 microgram** for those from **7.5 kg to 20 kg**; **300 microgram** for those **20 kg or more**; from around **12 years of age and over 50 kg**, either the **300 microgram or 500 microgram** device.
+>   - **THE INJECTOR BANDS START AT 7.5 kg AND NOTHING HERE COVERS AN INFANT BELOW IT.**
+>     The **ampoule** dose above is per-kg and does cover them; the **devices** do not.
+>     Below 7.5 kg, draw up the ampoule — do not round a child up into the 150 microgram
+>     band because it is the smallest device available.
+>     `UNVERIFIED — the under-7.5 kg band, per ASCIA.` Tracked as `PENDING_GUIDELINE_CHECKS.md`
+>     **B71** (this table also exists in `09_01`, which is **B50** — same figure, two owners).
 > - **Repeat every 5 minutes as needed** if there is no improvement.
 > **This is the correct paediatric form** — per-kg with an absolute cap, plus weight bands for the fixed-dose devices — and it is why the dose is safe to state. **Do not convert it into a single absolute figure**, which is exactly the error that makes an adult dose lethal in a child.
 
