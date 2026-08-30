@@ -1031,6 +1031,22 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 ---
 
+### 0.25.1 Added from unverified layer — anorectal pain, and what the dentate line implies
+`SRC:C6_Dyspepsia__Oesophageal_and_Anorectal_Disease §0.4` `SRC:C6 §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Internal haemorrhoids are not painful — so anal pain means something else
+> §0.25 above states that internal haemorrhoids lie **proximal to the dentate line**. The consequence is the useful part: **above the dentate line the mucosa has visceral innervation, so internal haemorrhoids bleed and prolapse but do not hurt.**
+> **Pain points to a different diagnosis** — a **thrombosed external haemorrhoid**, an **anal fissure** (§0.23), a **perianal abscess** (§0.24), or a **strangulated prolapsed pile**. Attributing anal pain to internal haemorrhoids is how each of those gets missed.
+
+> [!info] Why anal fissures sit in the posterior midline
+> **Usually posterior midline** — or **anterior midline in women post-partum** — because that mucosa is **relatively poorly perfused**. Sphincter spasm reduces the blood flow further and prevents healing, **which is why treatment targets the spasm** rather than the fissure itself. §0.23 gives the ischaemic mechanism; this is where it happens and why.
+> A fissure **off the midline** should prompt thought about an alternative cause — Crohn disease (§0.16.1), malignancy, or infection.
+
+- **Thrombosed external haemorrhoid** — sudden severe pain with a **tense, tender, blue-purple perianal lump**. **Excision in the first few days relieves it dramatically; after that, manage conservatively**, since it is already resolving. `UNVERIFIED — the time window within which excision is preferred; RACGP or a colorectal surgical reference.`
+- **Proctalgia fugax** — **brief, severe, fleeting rectal pain, often at night, lasting seconds to minutes and resolving completely.** Benign and functional; the management is examination to exclude the treatable causes above, then explanation and reassurance.
+- **Skin tags** are often the residue of a previous thrombosed pile, or associated with a chronic fissure or Crohn disease — so a tag is a clue to what has happened before, not a diagnosis on its own.
+
+
 ## 0.26 Colorectal Cancer
 
 **D:** cancers of the colon — majority are adenocarcinomas. 66% arise in the colon, 30% rectum; others include carcinoid tumours, GI stromal cell tumours (GISTs), lymphomas.
