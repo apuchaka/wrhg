@@ -379,7 +379,7 @@ Added 2026-08-30, rewritten 2026-08-30 after Step 26 was actually run.
 | 4 | **Step 28** — Corpus C, all 53 files, one block | ⬜ |
 | 5 | **Step 27** — verification-scope audit, chunked | ⬜ |
 | 6 | **Step 31** — Corpus B wikilink expansion, 573 expand / 191 `TODO:link` (§1.36) | ⬜ |
-| 7 | **Step 29** — Corpus B, ~12 files/week, **topic-ordered** | ⬜ |
+| 7 | **Step 29** — Corpus B, **topic-ordered by study week (§1.1.9.2)**; W1 is 21 files, not 12 | ⬜ |
 | — | **Step 30** — adjudication | never queued; continuous during study |
 
 **Why the order is not numeric.**
@@ -414,6 +414,112 @@ and rank *below* Phase 2 new content, on the same reasoning given there: an unbu
 high-yield category is a bigger exam-risk gap than consolidating material that already
 exists in two places. **Before MCQ 27 Sept, run Step 26 plus Steps 17 and 11 only** — which
 is exactly items 1–3 above, and the reason the pre-MCQ line sits where it does.
+
+---
+
+## 1.1.9.2 Step 29 — Corpus B merge order, mapped to the study weeks
+
+All **37** clinical B files assigned (the two `00_BUILD_QUEUE*` files are infrastructure).
+Assigned **by content and frontmatter `block:`**, not by filename prefix — see the prefix audit below.
+
+### **W1** Aug 31–Sep 6 · GI · neurology · geriatrics · injury/poisoning — **21 files**
+
+- ⬜ `A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy`
+- ⬜ `A6_Thermal_and_Environmental_Injury`
+- ⬜ `A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury`
+- ⬜ `A8_Foreign_Bodies_by_Site`
+- ⬜ `C1_Acute_Abdomen`
+- ⬜ `C2_Nausea_and_Vomiting`
+- ⬜ `C3_Jaundice_and_Liver_Disease`
+- ⬜ `C4_Gastrointestinal_Bleeding`
+- ⬜ `C5_Bowel_Habit__Obstruction_and_Distension`
+- ⬜ `C6_Dyspepsia__Oesophageal_and_Anorectal_Disease`
+- ⬜ `C7_Pancreatobiliary_Disease`
+- ⬜ `D1_Headache_and_Meningism`
+- ⬜ `D2_Altered_Consciousness_and_Cognition`
+- ⬜ `D3_Stroke_and_Focal_Neurological_Deficit`
+- ⬜ `D4_Weakness__Neuropathy_and_Radiculopathy`
+- ⬜ `D5_Dizziness__Vertigo_and_Gait`
+- ⬜ `D6_Seizures_and_Movement_Disorders`
+- ⬜ `D7_Cranial_Nerves_and_Special_Senses`
+- ⬜ `F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation`
+- ⬜ `GER1_Comprehensive_Geriatric_Assessment`
+- ⬜ `GER2_Geriatric_Syndromes_and_End_of_Life_Care`
+
+### **W2** Sep 7–13 · cardiology · ID/immunology · endocrine · sexual health — **7 files**
+
+- ⬜ `B1_Chest_Pain_Framework_and_Cardiac_Biomarkers`
+- ⬜ `B2_Hypertension_Spectrum`
+- ⬜ `B3_Arrhythmia__Bradycardia_and_Cardiac_Devices`
+- ⬜ `B4_Syncope__Collapse_and_Hypotension`
+- ⬜ `B5_Murmurs__Endocarditis_and_Vascular_Disease`
+- ⬜ `F0-2_Acid-Base__DKA_and_Fluid_States`
+- ⬜ `F0-3_Shock_Phenotypes_and_Sepsis_Syndromes`
+
+### **W3** Sep 14–20 · MSK/ortho/rheum · respiratory · gynae/breast · anaesthetics — **3 files**
+
+- ⬜ `A3_Respiratory_Failure__Bronchospasm_and_Hypoxia`
+- ⬜ `A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule`
+- ⬜ `F0-5_Acute_Respiratory__Headache_and_Head_Injury`
+
+### **W4** Sep 21–27 · psychiatry · renal/urology · paediatrics · haematology — **1 files**
+
+- ⬜ `A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies`
+
+### **W5** Sep 28–Oct 4 · derm · ENT · ophthalmology · GP/ethics · obstetrics — **2 files**
+
+- ⬜ `A10_Ethics__Capacity__Consent_and_Certification`
+- ⬜ `B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations`
+
+### **After W5** · no matching study week — **3 files**
+
+- ⬜ `A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest`
+- ⬜ `A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies`
+- ⬜ `F0-4_Resuscitation_Algorithms_and_Emergency_Procedures`
+
+> [!danger] **WEEK 4 (Sep 21–27) IS A MERGE FREEZE. MCQ1 is Friday 27 September.**
+> No merge, no PR, no branch. The single W4 file (`A9_Transfusion…`) moves to **after W5**.
+> The corpus must not change in the week you sit the exam.
+
+> [!warning] **The weeks do not balance, and the imbalance is structural — 21 / 7 / 3 / 1 / 2.**
+> Week 1 carries **21 of the 37 files**, because Corpus B's coverage is concentrated exactly
+> where week 1's topics are: GI has 7 files and neurology 7, which is **14 of B's 37 on their
+> own**, before geriatrics (2) and injury/poisoning (5) are added. Week 4 has **one** file, and
+> is a freeze anyway — B has essentially no psychiatry, renal or paediatric content.
+>
+> **At the design's own estimate — ~1 hour concentrated per B file, plus 5–15 conflicts of
+> which 2–4 are R1 — week 1 is ~21 hours of merging and 40–80 R1 conflicts.** That is not
+> compatible with a study week, and pretending otherwise is how the merge quietly stops
+> happening.
+>
+> **What to do instead.** Do not compress week 1; **start it now and let it run through
+> week 2**, which only carries 7. Merges then trail their study week by a few days rather
+> than being crushed into it — and the point of topic alignment survives, because
+> adjudication still happens while the topic is loaded, just slightly after rather than
+> exactly during. Weeks 3 and 5 are light enough to absorb any further spill.
+>
+> **Do not rebalance by moving files out of their topic week.** The alignment is the whole
+> reason for this ordering; the schedule is what should bend.
+
+### Prefix → topic mapping, checked against content
+
+The prefix scheme is a good guide and **five files disagree with it.** Assignment used the
+`block:` frontmatter and the content, not the prefix:
+
+| File | Prefix suggests | Actually |
+|---|---|---|
+| `A4_Dyspnoea__Cough…` | emergency | **Respiratory** — went to W3, not W1 |
+| `A9_Transfusion__Coagulopathy…` | emergency | **Haematology** — W4, hence moved past the freeze |
+| `A10_Ethics__Capacity…` | emergency | **Ethics, Law & Professional Practice** — W5 |
+| `B6_Oedema__Fatigue__Weakness…` | cardiology | **General & Cross-cutting** — W5 |
+| `F0-1_Toxidromes…` | resus/acid-base | **Toxicology & Envenomation** — W1 with injury/poisoning |
+
+`C1–C7` (all GI), `D1–D7` (all neurology) and `GER1–2` (both geriatrics) match their prefix
+exactly. `A1`, `A2` and `F0-4` are pure resuscitation/airway with no matching study week and
+sit after W5.
+
+> [!warning] **This list is reordered every week to track the study schedule (§1.1.9).**
+> A future session must not restore it to filename order.
 
 ---
 
