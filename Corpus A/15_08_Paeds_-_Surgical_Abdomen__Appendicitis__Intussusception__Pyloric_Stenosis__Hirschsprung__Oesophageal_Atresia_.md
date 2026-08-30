@@ -59,6 +59,17 @@ conflicts_r1: 0
   - Ramstedt pyloromyotomy — division of pyloric muscle fibres without opening the bowel lumen.
   - Start feeding within 4–6h post-op, increasing to full volume by 24h.
 
+### Added from unverified layer — three points not stated above
+`SRC:C2_Nausea_and_Vomiting §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Correct the alkalosis **before** theatre
+> **Pyloric stenosis is a medical emergency and a surgical semi-elective procedure.** The metabolic derangement must be corrected before anaesthesia, because **alkalosis causes post-operative apnoea**.
+> Operating on an unresuscitated, alkalotic infant is the error, and "resuscitate first, operate later" is the point most often examined. The fluid and electrolyte regimen that achieves it is stated above and is not repeated here.
+
+- **Visible gastric peristalsis** — waves crossing the upper abdomen left to right during or after a feed, seen on inspection before any palpation.
+- **The baby is hungry again immediately after vomiting** — a genuinely useful discriminator, and the opposite of the anorexia that accompanies most other causes of infant vomiting. A hungry vomiter suggests obstruction; an anorexic one suggests sepsis or a medical cause.
+
+
 ## Hirschsprung disease
 
 - **D:** congenital condition characterised by partial or complete colonic functional obstruction associated with the absence of ganglion cells. 1 in 5000 births. M>F 3×. Associated with Down syndrome.
