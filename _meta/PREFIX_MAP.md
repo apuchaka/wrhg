@@ -41,7 +41,14 @@ Measured 2026-08-30 against `00_BUILD_QUEUE.md` (v1), `00_BUILD_QUEUE_v2.md` (v2
 | `B` | 6 | referenced as **BUILT** (`[[B1]]`…`[[B6]]`) |
 | `C` | 7 | cluster definitions `C1.`–`C7.` (parts still to build) |
 | `D` | 7 | cluster definitions `D1.`–`D7.` |
-| `F0` | 5 | referenced as BUILT — **except `F0.4`, which appears in no v2 reference** |
+| `F0` | 5 | referenced as BUILT — **except `F0.4`, which appears in no v2 reference at all** |
+
+> [!warning] **`F0.4` is a missing-from-the-index defect, same class as `A5`'s missing queue
+> row.** `F0-4_Resuscitation_Algorithms_and_Emergency_Procedures` exists on disk and every
+> other `F0` file is referenced in v2. The queue reads as complete because nothing is missing
+> *from view* — only enumerating the filesystem and subtracting the index reveals it.
+> Recorded in §1.1.9.2's failure-class table. **Not fixed:** the build queues are Corpus B
+> content and are edited by the author, not by a session.
 | `GER` | 2 | cluster definitions `GER1.`, `GER2.` |
 
 **No prefix on disk is missing from v2**, once BUILT-references are counted as well as cluster

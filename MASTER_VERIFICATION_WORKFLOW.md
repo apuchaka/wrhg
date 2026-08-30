@@ -377,7 +377,7 @@ Added 2026-08-30, rewritten 2026-08-30 after Step 26 was actually run.
 | 3 | **Step 11** — AU drug dosing and product names (§1.17) | ⬜ |
 | — | ───── **pre-MCQ line, 27 Sept. Stop here if time is short.** ───── | |
 | 4 | **Step 28** — Corpus C, all 53 files, one block | ⬜ |
-| 5 | **Step 27** — verification-scope audit, chunked | ⬜ |
+| 5 | **Step 27** — verification-scope audit — **corpus-wide standing programme, not a spot fix: 290 boxes, 0 have a `NOT checked:` line.** Proposals-only, approved in batches over weeks | 🔶 proposals drafted |
 | 6 | **Step 31** — Corpus B wikilink expansion, 573 expand / 191 `TODO:link` (§1.36) | ⬜ |
 | 7 | **Step 29** — Corpus B, **topic-ordered by study week (§1.1.9.2)**; W1 is 21 files, not 12 | ⬜ |
 | — | **Step 30** — adjudication | never queued; continuous during study |
@@ -496,9 +496,13 @@ is weakest here. **Conditional.**
 > | The inherited `0.7` (§1.34) | In the corpus since the first commit, formatted like every other section pointer. Copied into a new cross-reference without checking. |
 > | `GER` vs `P2` | A prefix stated confidently in conversation. Believed until both queue files were actually compared — and it was backwards. |
 > | `A5` in prose, no queue row | Named in a sentence, so it *reads* as covered. The queue's own coverage check is the only thing that sees it is not. |
+> | `F0.4` in no v2 queue reference | `F0-4_Resuscitation_Algorithms` **exists on disk**, and every other `F0` file is referenced in the queue. Its absence is invisible: the queue reads as complete because nothing is missing *from view*. |
 >
-> **None of the three announces itself.** The defence is the same in each case: **verify the
-> reference against the artefact it points at, not against how settled it looks.**
+> **None of the four announces itself.** The defence is the same in each case: **verify the
+> reference against the artefact it points at, not against how settled it looks** — and, for
+> the last two, **enumerate from the artefact and subtract**, rather than reading the index
+> and trusting it. That is the check that found the nine unqueued files on 2026-08-29, and
+> it is the only one that sees an absence.
 
 > [!warning] **Every B file must have a ⬜ row, not a prose mention.** `A5_Toxicology_II` was
 > initially moved to Block 3 in prose only, and the coverage check caught it with no row. This
