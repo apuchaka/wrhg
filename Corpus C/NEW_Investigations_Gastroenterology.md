@@ -25,6 +25,7 @@ conflicts_r1: 0
 **Role:** First-line. Its main value is **pattern recognition**, not the individual numbers.
 
 > [!info] **The R ratio — the single most useful derived value** (ACG definition)
+> `UNVERIFIED — the R-ratio cut-offs are attributed to the American College of Gastroenterology, not an Australian source. Resolve against GESA (Gastroenterological Society of Australia).`
 > **R = (ALT ÷ ALT upper limit of normal) ÷ (ALP ÷ ALP upper limit of normal)**
 > - **R > 5 → hepatocellular** injury
 > - **R < 2 → cholestatic**
@@ -423,57 +424,37 @@ conflicts_r1: 0
 
 ## 0.32 CSF Studies (CSF Analysis, β-transferrin)
 
-> [!warning] **Mis-filed in the source list** — this is a neurology/ENT investigation, listed under Gastroenterology. Built here as listed.
-
-**D:** Analysis of cerebrospinal fluid — opening pressure, cell count and differential, protein, glucose (**with a paired serum glucose**), Gram stain, culture, PCR, cytology, oligoclonal bands, xanthochromia. **β-transferrin (β2-transferrin)** is a protein essentially unique to CSF (and perilymph/vitreous), used to prove that a clear nasal or ear discharge is CSF.
-
-**Ind:** Suspected meningitis or encephalitis; subarachnoid haemorrhage with a non-diagnostic CT; suspected multiple sclerosis or Guillain–Barré syndrome; suspected malignant meningitis; measurement and therapeutic drainage in idiopathic intracranial hypertension. **β-transferrin** — clear rhinorrhoea or otorrhoea after head trauma or skull base surgery.
-
-**Role:** Definitive for CNS infection and for CSF leak.
-
-> [!danger] **Do not ignore**
-> **Do not delay antibiotics for a lumbar puncture in suspected bacterial meningitis.** **Consider CT before LP** where there are focal signs, reduced consciousness, seizures, papilloedema or immunosuppression, because of the risk of herniation; and check coagulation and platelets. **Xanthochromia** requires the sample to be taken at an appropriate interval after headache onset and protected from light — see the thunderclap headache entry in `NEW_Neurology.md`.
-
-**Normal/abnormal:** Bacterial meningitis classically shows **high neutrophils, high protein, low CSF:serum glucose ratio**; viral shows lymphocytes with normal glucose; TB and fungal show lymphocytes with very high protein and low glucose. **Specific numeric cell-count and glucose-ratio thresholds are deliberately omitted here** — they did not meet the three-source bar in this build and are age-dependent (neonatal values differ substantially).
-
-**Alt:** Blood cultures and meningococcal PCR; CT/MRI; high-resolution CT of the skull base for a leak.
+> [!note] **Refiled — a neurology investigation, moved out of this file by Step 28
+> (2026-08-30).** Full entry is now `NEW_Investigations_Orthopaedics_Neurology_and_Other.md`
+> 0.21. Section number retained here so existing references still resolve.
 
 ## 0.33 Coombs / Direct Testing (Direct and Indirect Antiglobulin Test)
 
-> [!warning] **Mis-filed in the source list** — a haematology/transfusion test, listed under Gastroenterology. Built briefly here; the fuller treatment is in `NEW_Investigations_Haematology.md` § *Immunohematology (Blood Group & Rh, Type & Screen, Direct Antiglobulin Test)* — `CORRECTED 2026-08-30: this reference read "0.7 (Immunohaematology)" since the original upload. That file has no section 0.7; the section is unnumbered, and is spelled Immunohematology.`
-
-**D:** **Direct antiglobulin test (DAT)** detects antibody or complement **bound to the patient's red cells**. **Indirect antiglobulin test (IAT)** detects antibody **free in the plasma** — the basis of the antibody screen and crossmatch.
-
-**Ind:** Suspected immune haemolysis; haemolytic transfusion reaction; haemolytic disease of the newborn; drug-induced haemolysis; and — relevantly to this file — **haemolysis complicating liver disease or autoimmune hepatitis**.
-
-**Role:** The test that separates **immune** from **non-immune** haemolysis, which is the branch point in the haemolysis work-up.
-
-**Normal/abnormal:** **Positive DAT** → autoimmune haemolytic anaemia (warm or cold), transfusion reaction, HDN, drug-induced (**including methyldopa**, which produces a positive DAT commonly and overt haemolysis rarely). **Negative DAT does not exclude haemolysis** — it points to non-immune causes: microangiopathy, mechanical, membrane and enzyme defects, infection.
-
-**Alt:** Full haemolysis screen — reticulocytes, LDH, haptoglobin, bilirubin, blood film.
+> [!note] **Duplicate removed, not moved (Step 28, 2026-08-30).** The direct and
+> indirect antiglobulin tests were **already built** in
+> `NEW_Investigations_Haematology.md` § *Immunohematology (Blood Group & Rh, Type &
+> Screen, Direct Antiglobulin Test)*, which is the fuller treatment — this file's own note
+> said so. Grepping before moving is what found it: refiling this section would have
+> created a second owner for the same test.
+>
+> `CORRECTED 2026-08-30: the mis-filed warning this stub replaces cited that entry as
+> "`NEW_Investigations_Haematology.md` 0.7 (Immunohaematology)" — a reference present
+> since the original Corpus C upload. That file has no section 0.7; the section is
+> unnumbered, and is spelled Immunohematology. The verbatim header is used above.`
 
 ## 0.34 G-CSF (Granulocyte Colony-Stimulating Factor)
 
-> [!warning] **Mis-filed, and mis-categorised as an investigation** — G-CSF is a **drug**, not a test. Recorded here for traceability; the drug-class treatment belongs in the drug files (`Colony stimulating factors`, AMH section 7, `NEW_Drugs_07_Blood_and_Electrolytes.md`).
-
-**Brief note:** granulocyte colony-stimulating factor (filgrastim and analogues) stimulates neutrophil production and is used for chemotherapy-induced neutropenia prophylaxis and treatment, and for stem cell mobilisation. **Common adverse effect: bone pain.** A **serum G-CSF *level*** is not a routine clinical test. **UNRESOLVED — needs review:** confirm whether the build list intended a G-CSF assay or the drug class, and delete from the investigations axis if the latter.
+> [!note] **Duplicate removed, not moved (Step 28, 2026-08-30).** G-CSF is a drug,
+> not an investigation, and is **already covered** in
+> `NEW_Drugs_14_Immunomodulators_and_Antineoplastics.md` 0.2 under colony
+> stimulating factors. **See there.**
 
 ## 0.35 Rubella / Varicella Serology (Rubella IgG, Varicella IgG)
 
-> [!warning] **Mis-filed in the source list** — an infectious diseases/antenatal screening test, listed under Gastroenterology.
-
-**D:** IgG serology establishing **immunity** (not acute infection) to rubella and varicella-zoster virus.
-
-**Ind:** **Antenatal booking screening**; pre-conception counselling; healthcare worker immunity screening; before immunosuppression or transplant; after significant exposure in a pregnant or immunocompromised person.
-
-**Role:** These are **immunity checks**. Acute infection is diagnosed by **IgM, PCR or clinical picture**, not by IgG.
-
-> [!danger] **Do not ignore**
-> **A non-immune pregnant woman exposed to varicella** — VZV immunoglobulin is time-critical and maternal varicella pneumonitis is dangerous; **the exposure-to-prophylaxis window is not stated here** (Australian guidance egress-blocked). **Rubella infection in the first trimester** causes congenital rubella syndrome. **Rubella and varicella vaccines are live and are contraindicated in pregnancy** — a non-immune woman is vaccinated **postpartum**, and this is the routine action that gets forgotten.
-
-**Normal/abnormal:** IgG positive → immune. IgG negative → susceptible; vaccinate at the appropriate time and counsel about exposure.
-
-**Alt:** PCR and IgM for acute infection; documented vaccination history (though serology is used where records are unavailable).
+> [!note] **Refiled — an infectious diseases / antenatal screening test, moved out
+> of this file by Step 28 (2026-08-30).** Full entry is now
+> `NEW_Investigations_Infectious_Diseases.md` 0.24. Section number retained here so
+> existing references still resolve.
 
 ## 0.36 Gastrografin (Water-Soluble Contrast Study) — **OUT OF SCOPE, built in error**
 

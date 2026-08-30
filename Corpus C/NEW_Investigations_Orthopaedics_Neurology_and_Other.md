@@ -559,6 +559,24 @@ conflicts_r1: 0
 
 ---
 
+## 0.21 CSF Studies (CSF Analysis, β-transferrin)
+
+> [!note] **Refiled here from `NEW_Investigations_Gastroenterology.md` §0.32 (Step 28, 2026-08-30)**, where the source build list had placed it. Content unchanged.
+
+**D:** Analysis of cerebrospinal fluid — opening pressure, cell count and differential, protein, glucose (**with a paired serum glucose**), Gram stain, culture, PCR, cytology, oligoclonal bands, xanthochromia. **β-transferrin (β2-transferrin)** is a protein essentially unique to CSF (and perilymph/vitreous), used to prove that a clear nasal or ear discharge is CSF.
+
+**Ind:** Suspected meningitis or encephalitis; subarachnoid haemorrhage with a non-diagnostic CT; suspected multiple sclerosis or Guillain–Barré syndrome; suspected malignant meningitis; measurement and therapeutic drainage in idiopathic intracranial hypertension. **β-transferrin** — clear rhinorrhoea or otorrhoea after head trauma or skull base surgery.
+
+**Role:** Definitive for CNS infection and for CSF leak.
+
+> [!danger] **Do not ignore**
+> **Do not delay antibiotics for a lumbar puncture in suspected bacterial meningitis.** **Consider CT before LP** where there are focal signs, reduced consciousness, seizures, papilloedema or immunosuppression, because of the risk of herniation; and check coagulation and platelets. **Xanthochromia** requires the sample to be taken at an appropriate interval after headache onset and protected from light — see the thunderclap headache entry in `NEW_Neurology.md`.
+
+**Normal/abnormal:** Bacterial meningitis classically shows **high neutrophils, high protein, low CSF:serum glucose ratio**; viral shows lymphocytes with normal glucose; TB and fungal show lymphocytes with very high protein and low glucose. **Specific numeric cell-count and glucose-ratio thresholds are deliberately omitted here** — they did not meet the three-source bar in this build and are age-dependent (neonatal values differ substantially).
+
+**Alt:** Blood cultures and meningococcal PCR; CT/MRI; high-resolution CT of the skull base for a leak.
+
+
 ## Build status
 
 | # | Item | Built | Notes |
