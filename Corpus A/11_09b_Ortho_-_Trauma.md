@@ -175,6 +175,32 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 - **Ix:** ↑ALT/AST, CT.
 - **Mx:** maintain haemodynamic stability; 80% can be treated non-surgically.
 
+## Abdominal trauma
+
+### Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed
+`SRC:C1_Acute_Abdomen §0.10` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** **Blunt** trauma injures solid organs by deceleration and direct compression — the **spleen and liver** are the most commonly injured — and injures hollow viscera by crush against the spine or by shearing at points of fixation. **Penetrating** trauma injures whatever lies along the tract, with the **small bowel and liver** commonest in stab wounds.
+
+> [!danger] The haemodynamically unstable patient does not go to CT
+> An unstable patient with a positive FAST scan and a suspected abdominal source goes to **theatre**. The scanner is where unstable trauma patients die. Stable patients get CT, which is far more sensitive and defines the injury for non-operative management.
+
+> [!warning] Injuries that are missed
+> **Hollow viscus injury** — bowel and mesenteric injuries are frequently **not apparent on the initial CT**, declaring themselves over the following hours as peritonism develops. **Serial examination is essential**, and a patient with a seat belt sign or a suspicious mechanism should not be discharged on a single normal scan.
+> **Pancreatic and duodenal injury** — retroperitoneal, subtle on early imaging, classically from a **handlebar injury in a child** or a seat belt. Amylase and lipase may be normal early.
+> **Diaphragmatic rupture** — may present late with herniated bowel in the chest.
+> **The seat belt sign** — a transverse band of bruising across the abdomen — is associated with hollow viscus, mesenteric and lumbar spine injury and warrants a low threshold for imaging and admission.
+
+> [!tip] Non-operative management of solid organ injury
+> Many splenic and hepatic injuries in haemodynamically stable patients are managed non-operatively, with observation, serial haemoglobin and sometimes angioembolisation. This requires an environment able to detect and respond to deterioration. **Splenic preservation matters** because of the lifelong infection risk after splenectomy — see Splenic trauma above, and [[08_09_Infectious_Disease_-_Miscellaneous]] for post-splenectomy sepsis and its prophylaxis.
+
+**Ix:** **FAST (Focused Assessment with Sonography in Trauma)** (*why:* detects free intraperitoneal fluid at the bedside in seconds and directs the unstable patient to theatre — noting it does **not** exclude solid organ or retroperitoneal injury and a negative FAST in a stable patient does not end the assessment; *what:* free fluid in the hepatorenal, splenorenal, pelvic and pericardial windows). **CT abdomen and pelvis with contrast in the stable patient** (*why:* the definitive assessment, grading solid organ injury and identifying contrast blush indicating active bleeding; *what:* organ laceration, active extravasation, free gas, retroperitoneal haematoma). FBC with **serial** haemoglobin (*why:* the initial value is unreliable in acute bleeding; *what:* trend). Group and crossmatch (*why:* transfusion likely; *what:* units). VBG with lactate and base deficit (*why:* markers of occult hypoperfusion and of the adequacy of resuscitation; *what:* lactate, base deficit). Amylase and lipase, with the caveat above (*why:* pancreatic injury; *what:* elevation, possibly delayed). Urinalysis (*why:* renal tract injury; *what:* haematuria). Pregnancy test (*why:* alters management and mandates fetal assessment; *what:* positive). **Serial abdominal examination** (*why:* the investigation that detects the hollow viscus injury CT missed; *what:* developing peritonism).
+
+**Mx — immediate:** primary survey with catastrophic haemorrhage control, airway, breathing and circulation, as set out in Major Trauma — Primary Survey above. Two large-bore cannulae, blood products rather than crystalloid in significant haemorrhage, tranexamic acid early, and keep the patient warm — the lethal triad is described in the primary survey section above. **Unstable with a positive FAST → theatre.** `UNVERIFIED — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.`
+
+**Mx — definitive:** laparotomy, angioembolisation, or observation with serial assessment.
+
+
 ## Head injuries
 
 *(See [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure)*
