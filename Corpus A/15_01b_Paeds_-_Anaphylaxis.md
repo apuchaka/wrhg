@@ -12,6 +12,14 @@ conflicts_r1: 0
 > [!note] See [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis for the full adult-context entry (definition, pathophysiology, atypical infant presentation signs, and the point that persistent tachycardia is the first sign of cardiovascular compromise in children specifically), not repeated here — this entry covers the paediatric-specific practical details.
 
 - **Dx:** sudden onset, life-threatening problem involving airway, breathing, or circulation, and in ~80% skin changes.
+> [!fail] CONFLICT CF-001 — ASCIA IM adrenaline: same dose stated in two different units, across three owners **R1**
+> **`09_01_Dermatology_-_Dermatological_Emergencies` (`inherited`):** "IM adrenaline dose (ASCIA) — 1:1000, outer mid-thigh, **0.01 mg/kg** up to a maximum of **0.5 mg**", with a weight-and-age band table.
+> **`NEW_Drugs_01_Allergy_and_Anaphylaxis` (`snippet`):** "Ampoule (adrenaline 1:1000), all ages: **0.01 mL/kg**, to a maximum of **0.5 mL (0.5 mg)** per dose, intramuscular", plus injector bands from 7.5 kg.
+> **`15_01b_Paeds_-_Anaphylaxis` (`inherited`):** asserts ASCIA verification and "1:1000 … weight-based", and **states no figure at all**.
+> **Why it matters:** **`0.01 mg/kg` and `0.01 mL/kg` are not the same quantity.** They coincide only at **1:1000**, where 1 mL = 1 mg, and diverge at any other concentration — at 1:10,000 (the arrest presentation) `0.01 mL/kg` delivers **one tenth** of `0.01 mg/kg`. The mg form is concentration-independent; the mL form is correct only because "1:1000" happens to sit beside it. **One of the two is wrong as written.** A reader who carries the mL form to a differently-concentrated ampoule under-doses a child in anaphylaxis.
+> **Resolve against:** **ASCIA** Acute Management of Anaphylaxis (open, no login) and the Australian **Acute Anaphylaxis Clinical Care Standard**. Tracked as `PENDING_GUIDELINE_CHECKS.md` **B72**; see also **B50** (the 7.5 kg floor) and **B71** (duplicate owners).
+> **NOT RESOLVED — do not adjudicate this from a session.**
+
 - Once suspected, the chief priority is IM adrenaline — strength 1:1000. Best site is the anterolateral aspect of the middle third of the thigh.
 
 > [!info] Verified against current ASCIA (Australasian Society of Clinical Immunology and Allergy) Acute Management of Anaphylaxis guidelines, Aug 2026 — **IM adrenaline dosing is weight-based in current Australian guidance, not the simple 3-tier age-band split previously in this note**: 150mcg for approximately 7.5–20kg, 300mcg for ≥20kg, stepping up to 300mcg or 500mcg from around 12 years old/>50kg — the full ASCIA dose table (weight **and** age criteria, 0.01 mg/kg to a maximum of 0.5 mg) is set out in [[09_01_Dermatology_-_Dermatological_Emergencies]] Anaphylaxis. Repeat every 5 minutes if inadequate response, consistent with the original note.
