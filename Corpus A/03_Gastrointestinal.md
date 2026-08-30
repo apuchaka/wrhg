@@ -549,6 +549,26 @@ Azathioprine, mesalazine, bendroflumethiazide, furosemide, steroids, sodium valp
 
 ---
 
+### 0.11.2 Added from unverified layer — grading severity, and managing necrosis
+`SRC:C7_Pancreatobiliary_Disease §0.1` `SRC:C7_Pancreatobiliary_Disease §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Severity is judged by organ failure and trajectory — not by the lipase
+> **The height of the lipase does not grade the disease.** A patient with a lipase of several thousand and no organ dysfunction has mild pancreatitis; a patient with a modest lipase and persistent hypoxia has severe pancreatitis. §0.11 above uses the lipase to make the **diagnosis**, which is what it is for.
+
+> [!info] The revised Atlanta classification
+> - **Mild** — no organ failure and no local complications.
+> - **Moderately severe** — **transient** organ failure resolving **within 48 hours**, or local complications.
+> - **Severe** — **persistent** organ failure beyond **48 hours**.
+>
+> **Persistence of organ failure is the determinant**, which is why the grade cannot be assigned on admission and must be revisited. The Glasgow score at §0.11 above is used for **early prognostication**; Atlanta describes what actually happened.
+> `UNVERIFIED — the Atlanta definitions and the organ-failure criteria they use (the modified Marshall score); RACGP or a gastroenterology reference. Ranson, BISAP and APACHE II are further prognostic scores in use — their components and thresholds are deliberately not stated here, and neither is the 48-hour CRP cut-off.`
+
+> [!tip] Infected necrosis is managed by a step-up approach, not by early surgery
+> §0.11 above names infected pancreatic necrosis as a complication without saying what is done about it. The modern approach **escalates**: **percutaneous or endoscopic drainage first**, proceeding to **minimally invasive necrosectomy only if drainage fails.** Early open necrosectomy carries high mortality and has largely been abandoned.
+> **Walled-off necrosis is not a pseudocyst.** A pseudocyst contains fluid; walled-off necrosis contains solid necrotic debris, which is why it drains poorly through a narrow catheter and why the distinction changes the procedure chosen.
+> `UNVERIFIED — the timing at which intervention is preferred, and the criteria for calling necrosis infected; gastroenterology or upper GI surgical guidance.`
+
+
 ## 0.12 Chronic Pancreatitis
 
 **D:** recurrent or persistent pancreatic inflammation, resulting in scarring and loss of function. Divided into 4 types: recurrent acute, idiopathic, chronic relapsing, or established chronic.
@@ -569,6 +589,13 @@ Azathioprine, mesalazine, bendroflumethiazide, furosemide, steroids, sodium valp
 **P:** 20–30% lower survival than the general population. Cardiovascular disease is the most common cause of death in alcoholic pancreatitis.
 
 ---
+
+### 0.12.1 Added from unverified layer — two complications of chronic pancreatitis
+`SRC:C7_Pancreatobiliary_Disease §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+- **Type 3c (pancreatogenic) diabetes** — diabetes caused by loss of pancreatic islet tissue, not by insulin resistance or autoimmunity. It differs from type 1 and type 2 in a way that matters clinically: **glucagon-producing alpha cells are lost alongside the beta cells**, so the counter-regulatory response to hypoglycaemia is impaired and these patients are **unusually prone to hypoglycaemia** on treatment. It coexists with the exocrine insufficiency already described above, so a patient on pancreatic enzyme replacement who develops diabetes probably has this rather than new type 2. `UNVERIFIED — the diagnostic criteria distinguishing type 3c from type 2, and the preferred glucose-lowering agents; see [[06_Metabolic_Medicine_and_Endocrinology]] and specialist endocrine guidance.`
+- **Splenic vein thrombosis** — the splenic vein runs along the posterior pancreas, so chronic inflammation can thrombose it. The consequence is **left-sided (sinistral) portal hypertension with isolated gastric varices** and a normal liver. It is the one cause of gastric varices in a patient with no liver disease, and **splenectomy is curative** because it removes the collateral circulation's inflow. See §0.6.7 for variceal bleeding generally.
+
 
 ## 0.13 Small Bowel Bacterial Overgrowth Syndrome
 
