@@ -508,6 +508,28 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
   UK-localisation work removed. Nothing downstream detects a change that is simply absent.
   Check with `git log --oneline main..<base>` before every rebase; if it is non-empty, the
   base is ahead and `main` is the wrong target.
+> [!danger] **Merging, learned 2026-08-30 doing it for real.**
+> **1. `gh` is not available in a web session.** No `gh`, no `hub`, no direct API. The route
+> is the **GitHub MCP tools** (`merge_pull_request`, `update_pull_request`,
+> `pull_request_read`). They merge server-side, so no push restriction applies and nothing
+> is merged locally or force-pushed to `main`.
+>
+> **2. PRs stacked on an integration branch must be RETARGETED to `main` before merging.**
+> This is invisible in the PR list: #3–#6 all showed as open and mergeable, but their base
+> was `claude/next-6gvrdi`. Merging them as-is would have landed every one **in the
+> integration branch, leaving `main` behind** — and each PR would have reported success.
+> Change the base to `main` first, then merge.
+>
+> **3. A PR can go dirty after an earlier one lands.** #5 was `clean` before #4 merged and
+> `dirty` immediately after. **Re-read `mergeable_state` after every single merge**, and
+> when one goes dirty, **stop and rebase the branch** — never merge through a conflict from
+> the GitHub UI, where the resolution is typed into a web textarea with no `precommit` guard
+> and no `git status` to re-read.
+>
+> **4. `mergeable_state` is often `unknown` right after a push** — GitHub is still computing.
+> Check locally with `git merge-tree --write-tree <base> <head>` rather than merging on an
+> `unknown`.
+
 - **One step per branch, one PR each.** Never one combined PR — morning review has to be
   able to reject one step without unpicking the others.
 - **If a HALT fires:** stop that step, leave its branch unmerged, record what happened in
