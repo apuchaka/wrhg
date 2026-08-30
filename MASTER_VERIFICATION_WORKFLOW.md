@@ -465,6 +465,17 @@ return**, and blocks 3–5 are explicitly conditional.
 > has spent its effort in the wrong place. If time runs out mid-block, stop — an unmerged
 > block costs nothing.
 
+> [!tip] **v2's arithmetic independently agrees with the estimate reached here** — §2 puts
+> weeks 1–4 at **~146 parts, 37–61 hours** against roughly **3 hours a week** of study: the
+> same conclusion reached from file counts by a different route.
+>
+> **Its recommendation is adopted: build the (a) layer across each week first, then return for
+> (b) and (c) in October before the OSCE on 1 Nov.** Part (a) of every cluster is
+> self-sufficient for the MCQ, so an (a)-first sweep loses no OSCE content — it sequences it
+> after the exam that comes first. **Same logic as Block 1 vs Blocks 3–5: order by study
+> return, and let low-return work be genuinely conditional.**
+
+
 > [!check] **BLOCKER RESOLVED — answer (b). v2's built-count is stale; C and D are complete. Block 1 may proceed.**
 > Determined by reading the artefacts, not the index.
 >
