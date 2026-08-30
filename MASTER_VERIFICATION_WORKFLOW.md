@@ -1661,6 +1661,16 @@ report examined / converted / flagged per chunk.
 > **The check, concretely:** for a score, search its mnemonic and two of its items. For a
 > sign, search what the patient does, not who described it. For a classification, search a
 > category label. Then read the hit.
+>
+> **Worked example 3 — `ABCD2` and `CHA2DS2-VASc`, Block 2 / D3. Unicode digits.** Both
+> returned **ABSENT**. `04_Neurology` L1104 carries **`ABCD²`** with a superscript, with
+> every component and an Australian caution; `01_Cardiovascular` L290 carries
+> **`CHA₂DS₂-VASc`** with subscripts, alongside ORBIT. **Fold sub- and superscript digits
+> to ASCII before searching** — `normalise()` in `scripts/merge_tools.py` now does this,
+> so any tool using it is covered, but an ad-hoc `grep` is not.
+>
+> This one is worse than the others when missed: the duplicate would have landed in a
+> **different file** from the original, where nothing puts the two renderings side by side.
 
 > [!warning] **REQUIRED CHECK — word order. Search the rarer word alone, never the phrase.**
 > A regex requiring two terms in a fixed order fails whenever the corpus chose the other

@@ -341,7 +341,17 @@ def normalise(line):
     false negative here looks exactly like a clean file. Always match against the
     normalised form as well as the raw line.
     """
-    return line.replace("**", "").replace("__", "").replace("*", "").replace("`", "")
+    line = line.replace("**", "").replace("__", "").replace("*", "").replace("`", "")
+    return line.translate(UNICODE_DIGITS)
+
+
+# Sub- and superscript digits fold to ASCII. Found 2026-08-31 while merging D3: a search
+# for `ABCD2` returned ABSENT while `04_Neurology` carried `ABCD²` with a superscript, and
+# `CHA2DS2-VASc` returned ABSENT while `01_Cardiovascular` carried `CHA₂DS₂-VASc` with
+# subscripts. Both scores were about to be merged as gaps, which would have put one
+# instrument in the corpus twice under two renderings — in a different file from the
+# original, so harder to notice than an ordinary duplicate.
+UNICODE_DIGITS = str.maketrans("₀₁₂₃₄₅₆₇₈₉⁰¹²³⁴⁵⁶⁷⁸⁹", "01234567890123456789")
 
 
 def matches(pattern, line):
