@@ -1302,6 +1302,26 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 
 ---
 
+### 0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision
+`SRC:C4_Gastrointestinal_Bleeding §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] The Forrest classification — why the endoscopy report matters to the ward team
+> Grades ulcer appearance from **active spurting → oozing → visible vessel → adherent clot → flat pigmented spot → clean base**, with **rebleeding risk falling steeply along that sequence**.
+> **High-risk stigmata are treated endoscopically. A clean-based ulcer needs no endoscopic therapy and permits early discharge and early feeding** — which is the practical reason to read the grade rather than just "ulcer seen".
+> `UNVERIFIED — the grade labels (Ia/Ib/IIa/IIb/IIc/III) and their associated rebleeding percentages; RACGP or a gastroenterology reference.`
+
+> [!warning] Restarting aspirin after an ulcer bleed — the decision nobody makes
+> For a patient taking aspirin for **secondary** cardiovascular prevention, **stopping it after an ulcer bleed increases cardiovascular events and overall mortality.** It should generally be **restarted early once haemostasis is achieved, under PPI cover**, rather than stopped indefinitely.
+> For **primary** prevention the balance usually favours stopping it.
+> **The common failure is not a wrong decision but no decision** — nobody documents one and the patient simply never restarts. Make it explicitly and write it down.
+> `UNVERIFIED — the recommended timing of restarting; RACGP or your health network's gastroenterology guidance.`
+
+- **AIMS65** is a further pre-endoscopy risk score alongside the Glasgow-Blatchford and Rockall scores already at §0.33.2. `UNVERIFIED — its components and thresholds, and how it compares with Glasgow-Blatchford in Australian practice.`
+- **NG aspirate** is sometimes used to support a suspected upper source, but **a clear aspirate does not exclude an upper GI bleed** — a post-pyloric duodenal bleed can produce one. It does not replace endoscopy.
+- **Endoscopic haemostasis is dual-modality** — adrenaline injection alone is inferior, and is combined with a second method (clipping or thermal therapy), which §0.33.3 lists without saying they are used together rather than as alternatives.
+- **Rebleeding is managed by repeat endoscopy first**, then angiographic embolisation, with surgery reserved for failure of both — the sequence, which §0.33.3 implies but does not order.
+
+
 ## 0.34 Lower GI Bleed (LGIB)
 
 **D:** GI blood loss whose origin is distal to the ligament of Treitz at the duodenojejunal junction.
