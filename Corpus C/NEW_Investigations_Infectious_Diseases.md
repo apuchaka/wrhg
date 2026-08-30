@@ -489,6 +489,24 @@ conflicts_r1: 0
 **Alt:** Multiplex stool PCR panel (0.9) for the diarrhoeal syndrome; **surgical exploration — the definitive diagnostic and therapeutic step** in suspected myonecrosis; blood cultures; CT or plain radiographs for soft tissue gas; CK, lactate and a full septic screen.
 
 
+## 0.24 Rubella / Varicella Serology (Rubella IgG, Varicella IgG)
+
+> [!note] **Refiled here from `NEW_Investigations_Gastroenterology.md` §0.35 (Step 28, 2026-08-30)**, where the source build list had placed it. Content unchanged.
+
+**D:** IgG serology establishing **immunity** (not acute infection) to rubella and varicella-zoster virus.
+
+**Ind:** **Antenatal booking screening**; pre-conception counselling; healthcare worker immunity screening; before immunosuppression or transplant; after significant exposure in a pregnant or immunocompromised person.
+
+**Role:** These are **immunity checks**. Acute infection is diagnosed by **IgM, PCR or clinical picture**, not by IgG.
+
+> [!danger] **Do not ignore**
+> **A non-immune pregnant woman exposed to varicella** — VZV immunoglobulin is time-critical and maternal varicella pneumonitis is dangerous; **the exposure-to-prophylaxis window is not stated here** (Australian guidance egress-blocked). **Rubella infection in the first trimester** causes congenital rubella syndrome. **Rubella and varicella vaccines are live and are contraindicated in pregnancy** — a non-immune woman is vaccinated **postpartum**, and this is the routine action that gets forgotten.
+
+**Normal/abnormal:** IgG positive → immune. IgG negative → susceptible; vaccinate at the appropriate time and counsel about exposure.
+
+**Alt:** PCR and IgM for acute infection; documented vaccination history (though serology is used where records are unavailable).
+
+
 ## Build status of this file
 
 | Measure | Value |

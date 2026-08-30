@@ -212,3 +212,72 @@ prevented 14 regressions.
 
 Step 28 is next in the queue and was explicitly deferred pending review of these reports.
 **Stopping here.**
+## Step 28 — Corpus C remediation · ✅ 28a and 28b, one PR each
+
+### 28a — scope every figure C already states · branch `phase/28a-corpus-c-doses`
+
+**7 files, 9 scoping blocks, purely additive** — `git diff` shows **0 removed content
+lines**, a stronger guarantee than digit-multiset invariance here, since the scoping text
+itself contains digits.
+
+`NEW_Drugs_01` was **not** given an "adult doses" warning: the ASCIA table is already
+exemplary — per-kg with a cap, weight bands, and its own note saying so. What it needed was
+the other defect, **the 7.5 kg floor**: the ampoule dose covers an infant below it, the
+injector devices do not, and the added note says specifically not to round a child up into
+the 150 microgram band because it is the smallest device available. Cross-referenced to
+B71 and B50.
+
+Scoped elsewhere: vancomycin AUC targets (neonatal regimens run on postmenstrual age, not
+an adult AUC), the Hb <70 g/L trigger, pyridoxine neurotoxicity thresholds, the
+hydrocortisone-equivalent HPA threshold, the metformin eGFR cut-off, probenecid CrCl, FTU
+body-area counts. **Loperamide** got the sharpest wording, because it is **avoided
+altogether in young children** — the adult daily maximum is not a ceiling to dose up to,
+it is a figure that does not apply.
+
+**Examined and not scoped:** `NEW_Drugs_16` anti-D `500 IU`. The population is inherently
+adult — anti-D is given to the mother, the infant is not dosed.
+
+### 28b — refile, deduplicate, flag · branch `phase/28b-corpus-c-refile`
+
+| Entry | Action |
+|---|---|
+| 0.32 CSF Studies | **refiled** → `NEW_Investigations_Orthopaedics_Neurology_and_Other.md` 0.21 |
+| 0.35 Rubella / Varicella Serology | **refiled** → `NEW_Investigations_Infectious_Diseases.md` 0.24 |
+| 0.33 Coombs / DAT | **NOT refiled — already exists** at the destination |
+| 0.34 G-CSF | **NOT refiled — already exists**, and it is a drug, not a test |
+
+**Two of the four "misfiled" entries were duplicates, not orphans.** Grepping the
+destination before moving is what found it; refiling either would have created a second
+owner for the same test. Both replaced with pointer stubs, section numbers retained in
+place because CLAUDE.md forbids renumbering.
+
+> [!warning] **Rule 1 caught my own cross-reference.** I first wrote the Coombs pointer as
+> `NEW_Investigations_Haematology.md` **0.7**. Verifying the target before committing
+> showed **that section is unnumbered** — its header is *Immunohematology (Blood Group &
+> Rh, Type & Screen, Direct Antiglobulin Test)*. The `0.7` was a plausible-sounding
+> invention of exactly the kind rule 1 exists to stop, written by the same session that
+> had just spent the night auditing other people's unverified claims.
+
+**Flagged, not rewritten:** the R-ratio `(ACG definition)` → resolve against GESA; CKD
+staging `(KDIGO)` → Australia follows KDIGO via Kidney Health Australia, so the marker
+names KHA.
+
+### 🛑 One instruction not carried out
+
+**Step 28 says to delete sections self-labelled "OUT OF SCOPE, built in error". The
+Gastrografin section was not deleted.** The step's premise is that such sections are build
+debris; this one's own body says "**flagged rather than deleted**", a considered decision,
+and the content is clinically sound and held nowhere else — the aspiration hazard, the
+safe-alternative-to-barium role, the hyperosmolar caution in neonates and the frail.
+
+The scope error is real but it is a **build-list categorisation** error. Deleting correct
+clinical content to satisfy a list boundary loses information irreversibly and nothing
+downstream detects the loss. Noted in place, raised for decision, not actioned. **The Step
+28 wording should be narrowed before another session reads it as blanket permission to
+delete.**
+
+### Not yet done in Step 28
+
+The **217 backticked file references** still need converting to wikilinks with each target
+header verified (rule 1). Note the spec says **65**; the actual count is 217. That is a
+separate PR and has not been started.

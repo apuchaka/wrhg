@@ -46,6 +46,7 @@ conflicts_r1: 0
 **Role:** **The standard quantitative measure of albuminuria**, and it has replaced 24-hour collections for most purposes. Albuminuria is an **independent predictor of both renal and cardiovascular outcome**, not just a marker of kidney damage — which is why it belongs in cardiovascular risk assessment as well as renal.
 
 > [!info] **CKD is staged on two axes together — eGFR *and* albuminuria (KDIGO)**
+> `UNVERIFIED — KDIGO is an international body, not an Australian one. Australia follows KDIGO staging via Kidney Health Australia's CKD management handbook — confirm the staging and the referral thresholds against Kidney Health Australia.`
 > **Albuminuria categories:** **A1** normal to mildly increased · **A2** moderately increased · **A3** severely increased. **Persistence for ≥3 months** is required for a CKD diagnosis.
 > **eGFR categories:** **G1** ≥90 · **G2** 60–<90 · **G3a** 45–<60 · **G3b** 30–<45 · **G4** 15–<30 · **G5** <15 mL/min/1.73 m².
 
