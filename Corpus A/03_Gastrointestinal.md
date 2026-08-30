@@ -1666,6 +1666,30 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 
 ---
 
+### 0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification
+`SRC:C3_Jaundice_and_Liver_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** senescent red cells are broken down in the reticuloendothelial system → haem → biliverdin → **unconjugated bilirubin**, which is lipid-soluble, tightly albumin-bound and therefore **cannot be filtered by the glomerulus** → transported to the liver → taken up by hepatocytes → **conjugated with glucuronic acid by UGT1A1** → **conjugated bilirubin**, which is water-soluble → excreted in bile → converted by gut bacteria to urobilinogen and stercobilin, which colours the stool.
+
+> [!danger] The urine and stool answer the first question
+> **Unconjugated bilirubin is albumin-bound and cannot enter the urine.** So:
+> - **Jaundice with normal-coloured urine = unconjugated** (prehepatic, or a conjugation defect).
+> - **Jaundice with dark urine and pale stools = conjugated**, with impaired excretion — hepatocellular or obstructive.
+>
+> This pair of questions, asked in the history at no cost, splits the differential before any test returns. **Pruritus** additionally points strongly toward cholestasis.
+
+> [!tip] The three-way classification
+> **Prehepatic** — increased bilirubin load. Haemolysis, ineffective erythropoiesis, resorption of a large haematoma. **Unconjugated.**
+> **Hepatic** — impaired uptake, conjugation or excretion by the hepatocyte. Hepatitis (§0.9), cirrhosis (§0.38), drugs, Gilbert syndrome. **Mixed, or unconjugated where the defect is in conjugation.**
+> **Posthepatic** — obstruction to biliary flow. Stones, strictures, tumours (§0.3, §0.4, §0.5, §0.14). **Conjugated.**
+
+> [!note] What this section deliberately does not do
+> The **LFT pattern** (hepatocellular vs cholestatic, the AST:ALT ratio, and why the panel measures injury rather than function) is owned by [[NEW_Investigations_Gastroenterology]] §0.1 and is not restated here.
+> **Hepatic encephalopathy grading** is already at §0.6.3 above.
+> **`Dubin-Johnson` and `Rotor` syndromes are absent from this vault and were not supplied by the merged material either** — a real gap, recorded rather than filled from memory.
+
+---
+
 ## 0.42 Faecal Incontinence (Adult)
 
 > [!note] Gap-filled from CSV ("Faecal incontinence," found under Renal & Urology in the source spreadsheet, but genuinely a GI/colorectal topic) — the paediatric equivalent (encopresis, driven overwhelmingly by functional constipation/stool-withholding) is already built in [[15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis]] Encopresis (faecal incontinence), not repeated here — but adult faecal incontinence is a genuinely different condition with different dominant causes, and had no coverage anywhere. Verified against RACGP's Silver Book aged care guide and current Australian primary care research, Aug 2026.
