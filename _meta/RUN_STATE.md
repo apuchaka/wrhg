@@ -11,13 +11,18 @@ description: Cross-session memory for the corpus merge. Session context does not
 |---|---|---|
 | `claude/next-6gvrdi` | Parts 1–3: code fixes, queue reorder, Step 26/29 rewrites, CLAUDE.md rule 9 | ✅ merge first — the step branches are based on it |
 | `phase/17-uk-localisation` | **Step 17** | ✅ 240 files · 33 terms · 71 hits · 3 genuine + 1 consistency fix |
-| `phase/11-au-drug-naming` | **Step 11** | 🛑 **HALTED** — 2 of 44 applied, branch left unmerged. `DRUG_NAMING` is not an AU naming authority; `furosemide`→`frusemide` is plausibly backwards. **Needs the TGA ingredient-name list — a human with a browser.** |
+| `phase/11-au-drug-naming` | **Step 11** | ✅ **halt cleared** — map rewritten with a source per entry against the TGA IHIN list; `frusemide`→`furosemide` reversed. **18 renames, 0 actionable hits remaining**, digit-invariance verified per file. The halt prevented 14 regressions. |
 
 Full detail per step in `_meta/OVERNIGHT_REPORT.md`. **Step 28 not started** — deferred by
 instruction pending review of these two reports.
 
-**Queue order is 26, 17, 11, 28, 27, 29** (§1.1.9) — not numeric. Step 11 must be cleared
-or consciously skipped before the pre-MCQ line is crossed.
+**Queue order is 26, 17, 11, 28, 27, 29** (§1.1.9) — not numeric. **Items 1–3 (the whole
+pre-MCQ block) are now done.** Step 28 is next and was deferred by instruction.
+
+**Open, not resolved:** `PENDING_GUIDELINE_CHECKS.md` **B71** — the ASCIA adrenaline table
+now has two owners and the 7.5 kg floor is duplicated. Resolve against ASCIA.
+**Required in Step 28:** scope the 8 Corpus C files that state figures, using the
+`NEW_Drugs_10` pattern (§1.34), never deletion.
 
 ## Step 26 — Provenance and population labelling · ✅ COMPLETE 2026-08-30
 
