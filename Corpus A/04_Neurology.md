@@ -623,6 +623,28 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 
 ---
 
+### Added from unverified layer — neck stiffness: the differential
+`SRC:D1_Headache_and_Meningism §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!note] This section assembles material that already exists elsewhere in the vault
+> Every entity below is covered in its own file. What was missing is the **presentation**: a patient arrives with a stiff neck, not with a diagnosis, and nothing answered that in one place. Each line points at the owner rather than restating it.
+
+> [!tip] Not all neck stiffness is meningitis
+> **Meningeal** — meningitis (§CNS Infections above), **subarachnoid haemorrhage** developing over hours (§Strokes below), meningeal malignancy.
+> **Raised intracranial pressure with tonsillar herniation** — neck stiffness with reduced conscious state and abnormal posturing. **Lumbar puncture here is dangerous**, per the CT-before-LP rule in §CNS Infections.
+> **Cervical spine** — trauma with fracture or ligamentous injury; **atlantoaxial instability**, which matters in **rheumatoid arthritis and Down syndrome** (see [[15_20a_Paeds_-_Trisomies_and_Sex_Chromosome_Disorders]]); discitis or vertebral osteomyelitis; spondylosis; malignancy.
+> **Deep neck space infection** — **retropharyngeal abscess** (a child who will not move the neck, drooling, unwell) and **Lemierre syndrome** (see [[13_05a_ENT_-_Sore_Throat_and_Tonsillitis]] and [[08_09_Infectious_Disease_-_Miscellaneous]]).
+> **Muscular** — torticollis, myositis, cervical muscle spasm.
+> **Acute dystonic reaction** — from **metoclopramide, prochlorperazine or antipsychotics**, with torticollis, oculogyric crisis and trismus. **Responds within minutes to an anticholinergic**, and is frequently misread as a psychiatric or neurological event. See [[NEW_Drugs_12_Gastrointestinal]] §0.2.2.
+> **Tetanus** — trismus, risus sardonicus, opisthotonos, with a wound and incomplete immunisation.
+> **Systemic** — tonsillitis and cervical lymphadenitis in children, and severe pneumonia (particularly upper lobe) causing **meningism without meningitis**.
+
+> [!danger] In a child with neck stiffness, two must be excluded urgently
+> **Meningitis** and **retropharyngeal abscess.** A child who holds the neck rigidly, refuses to move it, drools, or has a muffled voice needs urgent assessment of the **airway and deep neck spaces**, not simply a lumbar puncture. See [[15_02_Paeds_-_Ill_and_Feverish_Child__Meningitis__Encephalitis]].
+
+**Ix:** directed by the differential — **LP where meningitis is suspected and it is safe**, **CT brain where raised pressure or subarachnoid haemorrhage is possible**, and **cervical spine imaging where there is trauma or focal spinal tenderness**. The order matters more than the list: imaging precedes the LP whenever raised intracranial pressure is a possibility.
+
+
 ## CNS Infections Associated with Immunosuppression
 
 ### Toxoplasmosis
