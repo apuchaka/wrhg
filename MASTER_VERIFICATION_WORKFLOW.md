@@ -378,7 +378,8 @@ Added 2026-08-30, rewritten 2026-08-30 after Step 26 was actually run.
 | — | ───── **pre-MCQ line, 27 Sept. Stop here if time is short.** ───── | |
 | 4 | **Step 28** — Corpus C, all 53 files, one block | ⬜ |
 | 5 | **Step 27** — verification-scope audit, chunked | ⬜ |
-| 6 | **Step 29** — Corpus B, ~12 files/week, **topic-ordered** | ⬜ |
+| 6 | **Step 31** — Corpus B wikilink resolution, 573 resolve / 191 strip (§1.36) | ⬜ |
+| 7 | **Step 29** — Corpus B, ~12 files/week, **topic-ordered** | ⬜ |
 | — | **Step 30** — adjudication | never queued; continuous during study |
 
 **Why the order is not numeric.**
@@ -1397,10 +1398,37 @@ report examined / converted / flagged per chunk.
    Supersession currently leaves no trace anywhere: a section judged `verified`-beats-
    `unverified` simply never appears, so **a wrong supersede is invisible** and there is
    nothing to audit it against. The discard rows are the point of the file.
-6. B's 167 wikilinks point at placeholder codes (`[[C4]]`, `[[F0.2]]`, `[[A9]]`) resolving to
-   nothing. Strip to `` `TODO:link — topic` ``. **Never guess a target.**
+6. **B's wikilinks are NOT a Step 29 side task — see Step 31.** The rule here was written
+   for "167 placeholder links". The real figure is **798 wikilinks, 764 unresolved**, and
+   **573 of those resolve deterministically to real Corpus B files**. Do not strip or
+   resolve links while merging a B file: 764 link edits spread across 39 clinical diffs is
+   invisible churn, and the 573/191 split cannot be judged one file at a time. **Leave every
+   wikilink exactly as it is during Step 29.**
 
 **Never adjudicate a conflict.** That is Step 30.
+
+---
+
+## 1.36 Step 31 — Corpus B wikilink resolution (NOT started)
+
+**Split out of Step 29 on 2026-08-30, because the rule it was riding inside was scoped for
+167 links and the real number is 764.**
+
+| Class | n | Action |
+|---|---|---|
+| Resolvable | **573** | Convert to a real wikilink. The mapping is **deterministic**: normalise `.`→`-`, anchor the code to a following `_`, and require **exactly one** matching Corpus B filename. Verified: 87 distinct codes, **0 ambiguous**. `[[C2]]`→`C2_Nausea_and_Vomiting`, `[[F0.5]]`→`F0-5_Acute_Respiratory…` |
+| Genuine placeholders | **191** (50 codes) | `` `TODO:link — topic` ``. `P1`, `P3`, `O6`, `N6`, `L4`, `E1`, `M5`, `H4`, the `J` series — B's code scheme anticipated files that were never built. **Never guess these.** |
+
+**Why its own step.** 764 link edits across all 39 B files is a corpus-wide mechanical pass
+with a verifiable invariant (dangling count → 191, and no clinical text touched). Riding
+inside Step 29 it would be 39 separate diffs mixing link churn with clinical merge decisions
+— unreviewable, and the exact shape that hides a real change.
+
+**Run it before Step 29, not after.** Resolving the links first means every B file arrives at
+its merge with working cross-references, so a reviewer following a pointer lands somewhere.
+
+**Verification:** dangling wikilinks in Corpus B must go 764 → 191, `[[` count unchanged at
+798, and the digit multiset per file unchanged (no clinical figure is touched).
 
 ---
 

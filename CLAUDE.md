@@ -211,8 +211,24 @@ presentation-type sections inside disease files (`03_Gastrointestinal` §0.41 is
 Pain — Regional Anatomy and DDx"). A duplicate file is the one error nothing downstream
 detects. Rule 2 applies: zero grep hits is not proof of absence.
 
-**Corpus B's 167 wikilinks** point at placeholder codes (`[[C4]]`, `[[F0.2]]`, `[[A9]]`) that
-resolve to nothing. Strip to `` `TODO:link — topic` ``. Never guess a target.
+**Corpus B's wikilinks — the count and the characterisation were both wrong.** This said
+"167 wikilinks point at placeholder codes that resolve to nothing". Measured across all 39
+files: **798 wikilinks, of which 764 are unresolved** — and **573 of those 764 are not dead
+at all.**
+
+| | |
+|---|---|
+| **573 (75%)** | resolve to **exactly one existing Corpus B file**, with **zero ambiguity**, once `.`→`-` is normalised and the code is anchored to a following `_` (so `[[A1]]` cannot match `A10_`). `[[C2]]` → `C2_Nausea_and_Vomiting`, `[[F0.5]]` → `F0-5_Acute_Respiratory…`. These are **B's internal cross-references**, not placeholders. |
+| **191 (50 codes)** | have **no candidate file** — `P1`, `P3`, `O6`, `N6`, `L4`, `E1`, `M5`, `H4`, the `J` series. B's code scheme anticipated files that were never built. **These are the genuine placeholders**, and only these get `` `TODO:link — topic` ``. |
+
+**Never guess a target** still stands, and the 573 are not guesses: the mapping is
+deterministic and verified 1:1 against the filesystem. Do not resolve any of the 191.
+
+**This is the fourth sampled count, and they share one cause.** "Corpus C states no doses"
+(8 of 22 drug files do), "65 backticked references" (276), "42 wikilinks in C" (195), and
+"167 placeholder links in B" (798/764) were each generalised from the same five-file sample
+rather than counted. **Nobody ran the count.** Before quoting any corpus-wide figure in this
+project, measure it — the habit, not the individual numbers, is the defect.
 
 ---
 
