@@ -449,6 +449,14 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
 - **If a HALT fires:** stop that step, leave its branch unmerged, record what happened in
   `_meta/OVERNIGHT_REPORT.md`, and **move to the next step in the list**. Do not try to
   resolve it and do not stall waiting for an answer.
+- **Digit-multiset invariance, per file, on every content-touching step** — not just
+  Step 11. Take `re.findall(r'\d', text)` before and after and require the **lists to be
+  identical**, not merely the same length and not merely "no digit changed". The multiset
+  form catches **transposition** — `250mg`→`520mg`, `0.01`→`0.10` — which a
+  changed/unchanged check and an eyeball diff both miss, and which is exactly the class of
+  error that survives review because the figure still looks plausible. A step that
+  legitimately alters a figure states so and records the before/after explicitly; silence
+  plus a changed multiset is a bug.
 - **Write `_meta/OVERNIGHT_REPORT.md` as you go** — per step: what was examined, raw hits,
   confirmed, dismissed with reasons, anything halted on. **Record by what was examined, not
   by what was changed** (Step 17's own method lesson).
@@ -731,6 +739,40 @@ Australian intern-level practice requires genuine, specific awareness of health 
 ---
 
 ## 1.17 Step 11 — AU-specific drug dosing and product-name verification
+
+> [!danger] **A rename map is a list of substance identities. An unsourced entry can
+> silently substitute one drug for another.**
+> `DRUG_NAMING` contained `amphetamine sulfate → dexamfetamine`. **Those are not the same
+> substance.** It sat in the map as though it were a spelling variant, and any automated
+> run would have rewritten one drug's name to another drug's name, in a corpus used to
+> revise prescribing.
+>
+> **The digit tripwire does not catch this.** No digit changes when a substance name is
+> replaced — the dose, route and frequency all survive intact, attached to the wrong drug.
+> Digit-invariance proves a *figure* did not move; it proves nothing about *what the figure
+> is a dose of*.
+>
+> **Only the source-per-entry audit found it.** Asking "which Australian source says this
+> rename is correct?" is what exposed an entry that no source could ever support, because
+> the claim was not a naming claim at all. **Every entry must name a source, and an entry
+> without one is not applied** — not as bureaucracy, but because writing the source down is
+> the step that forces you to check the identity.
+>
+> Two more entries failed the same audit as hedges (`co-trimoxazole`, whose own value read
+> "AU naming varies; confirm") or as self-maps (`salbutamol sulfate` → itself). The map had
+> **15 entries and 5 were unsafe.**
+
+> [!warning] **Dual naming is correct as written. Never rewrite it.**
+> `furosemide (frusemide)` · `adrenaline (epinephrine)` · `lidocaine (lignocaine)`
+>
+> The Australian name **leads** and the superseded or international name follows in
+> brackets. **Corpus C's drug files do this deliberately** — it is how a reader who learnt
+> the old name finds the entry. A rename scan sees the second name and reports a hit; acting
+> on it produces `furosemide (furosemide)`.
+>
+> **The test:** if the AU replacement term already appears on the line, the line is already
+> correct. `merge_tools.py drugs` implements this and reports such hits separately as
+> `DUAL NAMING (no action)` — 7 in the corpus at 2026-08-30.
 
 Check named drugs, doses, and brand products against **current Australian** guidance specifically — don't assume a UK- or US-sourced figure transfers.
 

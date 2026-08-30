@@ -228,6 +228,18 @@ resolve to nothing. Strip to `` `TODO:link — topic` ``. Never guess a target.
 | What a test is and how to read it | `NEW_Investigations_*.md` |
 | Reference intervals | nobody — deliberately absent |
 
+**Dual naming is correct and must never be rewritten.** `furosemide (frusemide)`,
+`adrenaline (epinephrine)`, `lidocaine (lignocaine)` — Australian name leading, superseded
+or international name in brackets. Corpus C does this deliberately, so a reader who learnt
+the old name can find the entry. If the AU term already appears on the line, the line is
+already correct; rewriting it produces `furosemide (furosemide)`.
+
+**A rename map is a list of substance identities, not spellings.** `DRUG_NAMING` carried
+`amphetamine sulfate → dexamfetamine` — **two different substances** — until the
+source-per-entry audit of 2026-08-30 removed it. **The digit check cannot catch this**: no
+digit moves when a substance name is swapped, so the dose survives intact attached to the
+wrong drug. Every entry names a source; an entry without one is not applied.
+
 **`Medications_Reference.md` is not the dose owner.** Its own scope note forbids the role
 ("Nothing was moved here"), it holds two entries, and it states no doses. Do not relocate
 dosing into it — that would break cross-references it was designed to preserve.
