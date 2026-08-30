@@ -1499,6 +1499,53 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 
 ---
 
+### 0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel
+`SRC:C1_Acute_Abdomen §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Watch the patient before you touch them
+> **The patient with peritonitis lies completely still**, often with knees drawn up, and objects to the trolley being moved or bumped. Movement of the inflamed parietal peritoneum hurts, so they avoid it.
+> **The patient with colic writhes, cannot get comfortable, and moves constantly** — biliary colic, renal colic, and early bowel obstruction.
+> **This single observation from the end of the bed is one of the most discriminating findings in abdominal assessment**, and it is available before any examination.
+
+> [!info] Examination sequence
+> **Inspection** — distension, scars (which tell you about adhesions), visible peristalsis, hernias, bruising (Grey Turner and Cullen signs, both late and uncommon), respiratory movement of the abdomen.
+> **Palpation** — start away from the pain. **Guarding** (voluntary or involuntary muscle contraction), **rigidity** (board-like, involuntary — peritonitis), and localised tenderness.
+> **Percussion tenderness rather than rebound.** Gentle percussion elicits the same information as releasing deep palpation, is far kinder, and is more reproducible. **Rebound testing is unpleasant, poorly reproducible and should largely be abandoned.**
+> **Auscultation** — absent bowel sounds in ileus or peritonitis; high-pitched tinkling in obstruction. Bowel sounds are **less informative than commonly taught** and should not override the rest of the examination.
+> **Percussion for shifting dullness** where ascites is suspected.
+
+> [!danger] Three examinations that are skipped and cost diagnoses
+> **1. The hernial orifices.** Palpate both groins in every patient with abdominal pain or obstruction. An incarcerated femoral hernia in an elderly woman is a classic missed cause of obstruction, and it is found by putting your hand on it. See §0.21 Hernias.
+> **2. The testes in any male with abdominal pain, especially a boy.** **Testicular torsion frequently presents as abdominal pain with no testicular complaint at all**, and the window to save the testis is a few hours. Examine the scrotum.
+> **3. A pregnancy test in every woman of reproductive age.** Not "she says she can't be pregnant." Do the test.
+
+> [!tip] Specific signs and what they mean
+> **Murphy's sign** — inspiratory arrest on palpating the right upper quadrant: acute cholecystitis (§0.3).
+> **Rovsing's sign** — right iliac fossa pain on palpating the left: appendicitis (§0.18).
+> **Psoas sign** — pain on hip extension: retrocaecal appendix or psoas abscess.
+> **Obturator sign** — pain on internal rotation of the flexed hip: pelvic appendix or pelvic collection.
+> **Carnett's sign** — tenderness that **persists or worsens** when the patient tenses the abdominal wall (raising head or legs) suggests **abdominal wall** pain rather than intraperitoneal pathology. Genuinely useful and rarely used; it can spare a patient a CT.
+
+> [!warning] Analgesia does not obscure the diagnosis
+> The traditional teaching that opioids mask an acute abdomen and delay surgical assessment **has not held up** — appropriate analgesia does not reduce diagnostic accuracy and improves the examination by allowing the patient to cooperate. **Withholding analgesia pending surgical review is unkind and unjustified.**
+
+**Ix — the core panel for every acute abdomen:**
+- **Pregnancy test (β-hCG) in every woman of reproductive age** (*why:* ectopic pregnancy is the diagnosis that kills young women presenting with abdominal pain, and it also determines imaging choice; *what:* positive test)
+- FBC (*why:* leucocytosis supports inflammation and a falling haemoglobin suggests bleeding, with the caveat that **a normal white cell count does not exclude a surgical abdomen**, particularly in the elderly; *what:* white cell count, haemoglobin)
+- UEC (*why:* renal function, hydration, and electrolyte derangement from vomiting; *what:* urea, creatinine, potassium)
+- **Lipase or amylase** (*why:* diagnoses pancreatitis, which is managed medically and would otherwise proceed to unnecessary laparotomy — lipase is more specific and remains elevated longer; *what:* marked elevation)
+- LFT (*why:* separates hepatic from biliary from non-hepatobiliary causes, and an obstructive pattern points to stones or malignancy; *what:* raised ALP and GGT versus transaminases, bilirubin)
+- **VBG with lactate** (*why:* a raised lactate in an abdomen with unimpressive signs is the single most important pointer to **mesenteric ischaemia** or established sepsis; *what:* metabolic acidosis, raised lactate)
+- CRP (*why:* supports inflammation and tracks response, though it lags by hours and a normal value early does not exclude; *what:* elevation)
+- Group and hold or crossmatch (*why:* many of these patients go to theatre or bleed; *what:* units available)
+- **ECG** (*why:* inferior myocardial infarction presents as epigastric pain, and it costs nothing; *what:* ischaemic change)
+- Urinalysis (*why:* infection, haematuria in renal colic — with the caveat that **haematuria also occurs in a leaking aortic aneurysm** and does not confirm a stone; *what:* blood, leucocytes, nitrites)
+- **Erect chest radiograph** (*why:* free gas under the diaphragm indicates perforation, and it also identifies the lower lobe pneumonia that mimics an acute abdomen; *what:* free subdiaphragmatic gas, consolidation)
+- **CT abdomen and pelvis with contrast** (*why:* the investigation that resolves most acute abdomens, identifies the cause and stages the complication; *what:* free gas, collection, obstruction, ischaemia, inflammation) — `UNVERIFIED — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.`
+- Ultrasound as first-line in **suspected biliary disease, in pregnancy, in children, and in suspected gynaecological pathology** (*why:* avoids radiation, is highly sensitive for gallstones and for free fluid, and is the appropriate first test in those groups; *what:* stones, wall thickening, free fluid, adnexal mass)
+
+---
+
 ## 0.42 Faecal Incontinence (Adult)
 
 > [!note] Gap-filled from CSV ("Faecal incontinence," found under Renal & Urology in the source spreadsheet, but genuinely a GI/colorectal topic) — the paediatric equivalent (encopresis, driven overwhelmingly by functional constipation/stool-withholding) is already built in [[15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis]] Encopresis (faecal incontinence), not repeated here — but adult faecal incontinence is a genuinely different condition with different dominant causes, and had no coverage anywhere. Verified against RACGP's Silver Book aged care guide and current Australian primary care research, Aug 2026.
