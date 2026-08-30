@@ -39,7 +39,7 @@ conflicts_r1: 0
 > [!info] Verified — trimethoprim, cephalexin/other cephalosporins, and amoxicillin all remain genuine current options for paediatric UTI in Australia too (not UK-specific choices), with gentamicin commonly used for upper UTI/pyelonephritis in Australian paediatric antibiotic guidelines specifically (a detail worth adding, given it's less prominent in the original note) — trimethoprim resistance rates should be considered locally given genuine, non-trivial resistance exists in community isolates, but this is a general antimicrobial stewardship consideration rather than an AU-specific correction. Check current eTG or local paediatric antibiogram for the precise current first-line choice and duration given antibiotic guidelines are reviewed regularly and resistance patterns are genuinely local/time-variable.
 
 - Infants <3 months old — immediate referral to paediatrician.
-- Upper UTI: consider admission. PO antibiotics (cephalosporin or co-amoxiclav) for 7–10 days.
+- Upper UTI: consider admission. PO antibiotics (cephalosporin or amoxicillin+clavulanate) for 7–10 days. `UNVERIFIED — AU regimen; Therapeutic Guidelines (login). Look up at point of use.`
 - Lower UTI: trimethoprim, nitrofurantoin, cephalosporin, or amoxicillin for 3 days — come back if still unwell in 24–48h.
 - Consider prophylaxis if recurrent.
 

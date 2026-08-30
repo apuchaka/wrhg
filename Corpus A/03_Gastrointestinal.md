@@ -568,7 +568,7 @@ Azathioprine, mesalazine, bendroflumethiazide, furosemide, steroids, sodium valp
 **Ix:** hydrogen breath test (*why:* the standard non-invasive diagnostic test; *what:* early rise in breath hydrogen after a glucose/lactulose load indicates bacterial fermentation in the small bowel rather than the colon).
 
 **Mx:**
-- **Definitive:** correction of the underlying disorder driving stasis/dysmotility where identifiable (e.g. surgical correction of an anatomical abnormality); antibiotics (rifaximin — preferred given minimal systemic absorption and lower resistance-driving potential; co-amoxiclav or metronidazole as alternatives).
+- **Definitive:** correction of the underlying disorder driving stasis/dysmotility where identifiable (e.g. surgical correction of an anatomical abnormality); antibiotics (rifaximin — preferred given minimal systemic absorption and lower resistance-driving potential; amoxicillin+clavulanate or metronidazole as alternatives). `UNVERIFIED — AU regimen; Therapeutic Guidelines (login). Look up at point of use.`
 - **Chronic/long-term:** recurrence is common if the underlying predisposing condition isn't corrected — may need repeated/cyclical antibiotic courses; nutritional support/vitamin supplementation (B12 deficiency in particular, from bacterial consumption) if malabsorption is significant.
 
 ---
@@ -788,7 +788,7 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 - Imaging generally not indicated unless diagnostic uncertainty — ↑CRP + clinical picture usually sufficient (especially in children, where minimising radiation exposure matters). US not useful for visualising the appendix but can assess for gynaecological pathology mimics.
 
 **Mx:**
-- **Immediate/acute:** refer to surgeons + NBM; prophylactic IV antibiotics (e.g. co-amoxiclav + metronidazole) — reduces post-operative infective complications regardless of whether surgery proceeds.
+- **Immediate/acute:** refer to surgeons + NBM; prophylactic IV antibiotics (e.g. amoxicillin+clavulanate + metronidazole) — reduces post-operative infective complications regardless of whether surgery proceeds. `UNVERIFIED — AU regimen; Therapeutic Guidelines (login). Look up at point of use.`
 - **Definitive:** appendicectomy (usually laparoscopic) — remains the definitive treatment for most cases.
 - **Alternative (if unfit for surgery, or as an emerging option in selected uncomplicated cases):** IV antibiotics may be sufficient as sole treatment (recurrence risk 12–24%, so this is a genuine trade-off to discuss with the patient, not simply an inferior fallback).
 

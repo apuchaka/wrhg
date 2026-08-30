@@ -972,7 +972,7 @@ Obstruction of blood flow → hypoperfusion of tissues distal to obstruction.
 > **O**xygen — target 94–98% sats; CPAP if respiratory failure
 > **D**iuretics, e.g. IV furosemide
 
-- In hypotension or cardiogenic shock: inotropic agents (e.g. dobutamine), vasopressors (e.g. norepinephrine), mechanical circulatory assistance (e.g. ventricular assist devices)
+- In hypotension or cardiogenic shock: inotropic agents (e.g. dobutamine), vasopressors (e.g. noradrenaline), mechanical circulatory assistance (e.g. ventricular assist devices)
 - Vasodilators — consider in concomitant myocardial ischaemia, severe hypertension, aortic regurgitation, or mitral regurgitation
 - Opiates — not routinely offered
 - Continue regular HF medications; stop β-blockers only if HR <50, 2nd/3rd degree AV block, or shock

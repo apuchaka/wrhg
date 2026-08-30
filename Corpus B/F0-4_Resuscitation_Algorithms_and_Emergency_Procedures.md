@@ -100,7 +100,7 @@ Team debrief. Bystander CPR follow-up and support where relevant.
 Reversible causes — the **4 Hs and 4 Ts** — are set out in [[A1]] 0.4 and are not repeated here.
 
 > [!danger] Omitted figures
-> `Defibrillation energy levels, adrenaline dose and interval, amiodarone or lignocaine dosing, the duration of each CPR cycle, and the rhythm-check interval are all omitted. Obtain from ANZCOR Guideline 11.2, 11.4, 11.5 and 11.6.`
+> `Defibrillation energy levels, adrenaline dose and interval, amiodarone or lidocaine dosing, the duration of each CPR cycle, and the rhythm-check interval are all omitted. Obtain from ANZCOR Guideline 11.2, 11.4, 11.5 and 11.6.`
 
 > [!warning] PEA is the commonest in-hospital rhythm
 > It is also the one where defibrillation has nothing to offer and where the search for a cause is the treatment. Bedside echocardiography during the rhythm-check pause distinguishes true PEA from pseudo-PEA — a heart that is contracting without a palpable pulse, which carries a very different prognosis and points toward profound hypovolaemia or obstruction.

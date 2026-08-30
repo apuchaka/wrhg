@@ -142,11 +142,11 @@ A **window period** is the interval between exposure and the point at which a te
 - **Ix:** swabs (NAAT and culture).
 > [!danger] **Correction — the same un-propagated correction as for chlamydia above, and this one was a double dose.** [[17_08_Vaginal_Discharge__Urinary_Incontinence__Pelvic_Organ_Prolapse]] Gonorrhoea already carried this correction; this file did not. Re-verified against **STI Guidelines Australia** and the ASHM/CDNA gonococcal treatment recommendations, Aug 2026.
 > - **The structural point first: Australian first-line is dual therapy given together, not a choice between single agents.** The previous "IM ceftriaxone 1g, **or** PO cefixime + azithromycin" got both the dose and the structure wrong.
-> - **Ceftriaxone 500mg IM** (suspended in 2mL of 1% lignocaine — the injection is painful without it) **plus azithromycin 1g PO**, as one treatment, for uncomplicated anogenital infection. The former "1g" was **double** the Australian dose.
+> - **Ceftriaxone 500mg IM** (suspended in 2mL of 1% lidocaine — the injection is painful without it) **plus azithromycin 1g PO**, as one treatment, for uncomplicated anogenital infection. The former "1g" was **double** the Australian dose.
 > - **Pharyngeal infection: the azithromycin dose increases to 2g**, ceftriaxone unchanged at 500mg. *Mechanism:* drug penetration to pharyngeal mucosa is poorer, which makes the pharynx the most likely site of treatment failure and the most likely place resistance emerges.
 > - **Cefixime is not Australian first-line** and cefixime-resistant *N. gonorrhoeae* is documented in Australia. The reason dual therapy exists at all is to raise a pharmacological barrier to resistance, so substituting a single agent defeats its purpose.
 
-- **Mx:** **ceftriaxone 500mg IM (in 1% lignocaine) plus azithromycin 1g PO, given together** — uncomplicated genital or anorectal infection. **Pharyngeal:** same ceftriaxone dose, azithromycin increased to **2g**.
+- **Mx:** **ceftriaxone 500mg IM (in 1% lidocaine) plus azithromycin 1g PO, given together** — uncomplicated genital or anorectal infection. **Pharyngeal:** same ceftriaxone dose, azithromycin increased to **2g**.
 - **Complications:** urethral strictures, epididymitis, salpingitis → infertility. Disseminated gonococcal infection — tenosynovitis, migratory polyarthritis, dermatitis (maculopapular/vesicular).
 
 *(see also [[08_05-06_Infectious_Disease_-_Viral_Infections]] Herpes simplex virus (HSV))*

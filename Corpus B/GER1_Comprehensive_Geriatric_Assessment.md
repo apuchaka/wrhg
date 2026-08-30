@@ -152,7 +152,7 @@ Review as needs change. **Support the carer explicitly — ask how they are, and
 > [!danger] The prescribing cascade
 > **A drug side effect is mistaken for a new medical condition, and a second drug is prescribed to treat it.**
 > **Recognisable examples:**
-> **· Calcium channel blocker → ankle oedema → frusemide** (and then hyponatraemia and falls). Cross-refer [[B6]] 0.2.
+> **· Calcium channel blocker → ankle oedema → furosemide** (and then hyponatraemia and falls). Cross-refer [[B6]] 0.2.
 > **· Metoclopramide or prochlorperazine → drug-induced parkinsonism → levodopa.** Cross-refer [[D6]] 0.5.
 > **· Anticholinergic → dry mouth, constipation, urinary retention → laxatives and further drugs.**
 > **· NSAID → hypertension → antihypertensive.**

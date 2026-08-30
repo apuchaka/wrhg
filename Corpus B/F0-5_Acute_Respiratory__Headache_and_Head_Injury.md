@@ -91,7 +91,7 @@ Smoking cessation — the only intervention that alters the natural history. Pul
 > The hypertensive, distressed, acutely flash-pulmonary-oedema patient is a distinct and common presentation. It is driven by **afterload and redistribution rather than volume overload** — these patients are frequently euvolaemic or even dry. The treatment is **aggressive nitrate-mediated afterload reduction plus NIV**, not large-dose diuresis. Recognising it changes the first fifteen minutes substantially.
 
 > [!warning] Diuretics are not the first move
-> Sit the patient up, give oxygen, start NIV, and give nitrates. Diuretics have a role in the genuinely fluid-overloaded patient but reaching for frusemide first and nitrates late is the commonest management error in this presentation. `UNVERIFIED — GTN dosing and titration, and frusemide dosing, are omitted; obtain from eTG Cardiovascular and local protocol.`
+> Sit the patient up, give oxygen, start NIV, and give nitrates. Diuretics have a role in the genuinely fluid-overloaded patient but reaching for furosemide first and nitrates late is the commonest management error in this presentation. `UNVERIFIED — GTN dosing and titration, and furosemide dosing, are omitted; obtain from eTG Cardiovascular and local protocol.`
 
 Cardiogenic shock — the **hypotensive**, hypoperfused subset — is a different entity with different management and is covered in [[F0.3]] 0.3. The distinction is the blood pressure.
 
