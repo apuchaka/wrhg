@@ -267,6 +267,19 @@ Acute episodes of inflammation.
 
 ---
 
+### 0.6.7 Added from unverified layer — four points on variceal bleeding not made above
+`SRC:C4_Gastrointestinal_Bleeding §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Balloon tamponade is a time-limited bridge, not a treatment
+> §0.6.4 and §0.33.3 both list the Sengstaken-Blakemore tube for uncontrolled bleeding without qualifying it. It is a **temporary bridge to definitive therapy only**, placed in an **intubated** patient, with a **defined time limit** — it carries a real risk of **oesophageal necrosis and rupture** the longer it stays inflated.
+> `UNVERIFIED — the maximum inflation time and the balloon pressures; gastroenterology or intensive care unit protocol.`
+
+> [!warning] Do not assume the bleed is variceal just because the patient is cirrhotic
+> **A substantial proportion of upper GI bleeds in cirrhotic patients are from ulcers**, not varices. Urgent endoscopy is diagnostic as well as therapeutic for exactly this reason, and the pre-endoscopy management (terlipressin plus prophylactic antibiotics, §0.33.3) is given because it is correct *if* the bleed is variceal — not because the diagnosis has been made.
+
+- **A variceal bleed commonly precipitates hepatic encephalopathy**, and the mechanism is worth knowing because it changes the management: the **protein load of blood sitting in the gut** is digested and absorbed as nitrogen, on top of hypoperfusion and infection. §0.6.3 already lists GI bleed among the precipitants; **lactulose is given to clear the blood from the gut**, not only for the encephalopathy itself.
+- **Portal hypertensive gastropathy** — a diffuse mosaic mucosal pattern causing **chronic slow blood loss rather than acute haemorrhage**. It is treated with **beta-blockade, not banding**, because there is no discrete lesion to band. **Carvedilol** is an alternative to propranolol as the non-selective beta-blocker (§0.6.4 names propranolol only).
+
 ## 0.7 Wilson's Disease
 
 **D:** autosomal recessive disorder of excessive copper deposition.
@@ -1288,6 +1301,26 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 - **Chronic/long-term (prophylaxis of variceal bleeds):** propranolol, endoscopic variceal band ligation programme.
 
 ---
+
+### 0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision
+`SRC:C4_Gastrointestinal_Bleeding §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] The Forrest classification — why the endoscopy report matters to the ward team
+> Grades ulcer appearance from **active spurting → oozing → visible vessel → adherent clot → flat pigmented spot → clean base**, with **rebleeding risk falling steeply along that sequence**.
+> **High-risk stigmata are treated endoscopically. A clean-based ulcer needs no endoscopic therapy and permits early discharge and early feeding** — which is the practical reason to read the grade rather than just "ulcer seen".
+> `UNVERIFIED — the grade labels (Ia/Ib/IIa/IIb/IIc/III) and their associated rebleeding percentages; RACGP or a gastroenterology reference.`
+
+> [!warning] Restarting aspirin after an ulcer bleed — the decision nobody makes
+> For a patient taking aspirin for **secondary** cardiovascular prevention, **stopping it after an ulcer bleed increases cardiovascular events and overall mortality.** It should generally be **restarted early once haemostasis is achieved, under PPI cover**, rather than stopped indefinitely.
+> For **primary** prevention the balance usually favours stopping it.
+> **The common failure is not a wrong decision but no decision** — nobody documents one and the patient simply never restarts. Make it explicitly and write it down.
+> `UNVERIFIED — the recommended timing of restarting; RACGP or your health network's gastroenterology guidance.`
+
+- **AIMS65** is a further pre-endoscopy risk score alongside the Glasgow-Blatchford and Rockall scores already at §0.33.2. `UNVERIFIED — its components and thresholds, and how it compares with Glasgow-Blatchford in Australian practice.`
+- **NG aspirate** is sometimes used to support a suspected upper source, but **a clear aspirate does not exclude an upper GI bleed** — a post-pyloric duodenal bleed can produce one. It does not replace endoscopy.
+- **Endoscopic haemostasis is dual-modality** — adrenaline injection alone is inferior, and is combined with a second method (clipping or thermal therapy), which §0.33.3 lists without saying they are used together rather than as alternatives.
+- **Rebleeding is managed by repeat endoscopy first**, then angiographic embolisation, with surgery reserved for failure of both — the sequence, which §0.33.3 implies but does not order.
+
 
 ## 0.34 Lower GI Bleed (LGIB)
 
