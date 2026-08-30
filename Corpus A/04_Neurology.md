@@ -1186,6 +1186,22 @@ Specifically referring to intracerebral haemorrhage (ICH).
 
 ---
 
+### Added from unverified layer — stroke chameleons, and two things to examine for
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.5` `SRC:D3 §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Chameleons — strokes that do not look like strokes
+> Stroke **mimics** are covered above and in §Weakness — Differential Diagnosis. The opposite error is less discussed and more costly, because the patient goes home.
+> - **Isolated vertigo.** A posterior circulation stroke presenting as "dizziness" is the most consequential missed stroke, because these patients are discharged with a vestibular label. The **HINTS examination** (§Vertigo below, and [[Examination]]) distinguishes central from peripheral and is **more sensitive than early MRI** — early diffusion-weighted imaging misses a meaningful proportion of posterior circulation infarcts.
+> - **Acute confusion or delirium**, particularly with **non-dominant hemisphere or thalamic** strokes. §Delirium above lists stroke among the precipitants; the point here is that the stroke may produce *no other sign at all*.
+> - **Isolated dysarthria, or isolated monoparesis** — a single deficit is still a deficit.
+
+> [!warning] Locked-in syndrome
+> **Ventral pontine infarction.** The patient is **fully conscious and aware**, with **only vertical eye movement and blinking preserved**, and is **repeatedly assumed to be unconscious**.
+> This is the reason to test **vertical gaze and blinking to command** in any apparently unresponsive patient before concluding that consciousness is absent — the GCS at §Glasgow Coma Scale scores what the patient can *demonstrate*, which in this syndrome is almost nothing.
+
+- **Pronator drift** — with the arms outstretched, palms up, eyes closed, a subtly weak arm **pronates and drifts downward**. It detects a pyramidal weakness too mild to show on formal power testing, and costs seconds. See [[Examination]] for the neurological examination sequence it belongs to.
+
+
 ## Brain Bleeds
 
 > [!info] Monro-Kellie doctrine: brain composition — parenchyma 80%, CSF 10%, blood 10%.
