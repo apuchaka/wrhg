@@ -796,6 +796,48 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 ---
 
+### 0.18.1 Added from unverified layer — presentation sequence, atypical positions, and the RIF differential
+`SRC:C1_Acute_Abdomen §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] The classical sequence
+> **Periumbilical visceral pain → anorexia and nausea → migration to the right iliac fossa → vomiting (which follows the pain; vomiting preceding pain suggests another diagnosis) → low-grade fever → localised peritonism at McBurney's point.**
+> **Anorexia is a genuinely useful negative** — a patient who is hungry is less likely to have appendicitis, though this is a probability shift rather than a rule.
+> The mechanism of the migration is in §0.41.3 — it is the visceral-to-parietal transition, not a quirk of this disease.
+
+> [!warning] Atypical appendix positions change the presentation
+> **Retrocaecal** — less anterior tenderness, positive psoas sign, sometimes flank pain.
+> **Pelvic** — suprapubic pain, urinary frequency, diarrhoea, tenderness on rectal or vaginal examination, positive obturator sign.
+> **In pregnancy** — the appendix is displaced upward and laterally by the gravid uterus, so pain may be in the right upper quadrant in the third trimester. See §0.41.6.
+
+> [!danger] The differential in a young woman is the difficult one
+> **Ectopic pregnancy · ovarian torsion · ruptured ovarian cyst · pelvic inflammatory disease** all present as right iliac fossa pain and all are managed differently.
+> **Ovarian torsion** — sudden severe unilateral pain with vomiting, often with a known cyst, and the ovary is salvageable only if detorsion happens early. Ultrasound with Doppler, **though the presence of flow does not exclude torsion** because the ovary has dual blood supply. See [[17_10_Ovarian_Cancer__Cysts_and_Torsion]].
+> **Pregnancy test first, then pelvic ultrasound.** A negative test excludes ectopic; a positive one changes the entire pathway. See [[17_04_Ectopic_Pregnancy_and_GTD]] and [[17_05_PID__Endometriosis__Fibroids]].
+
+> [!tip] The rest of the differential
+> **Mesenteric adenitis** — children and adolescents, often after a viral illness, with tender mobile nodes and a less impressive abdomen. A retrospective diagnosis.
+> **Meckel's diverticulum** — the rule of 2s. Can mimic appendicitis exactly.
+> **Crohn's disease** — terminal ileitis, with a longer history, diarrhoea, weight loss (§0.16.1).
+> **Caecal pathology** — carcinoma, diverticulitis, and in the neutropenic patient **typhlitis (neutropenic enterocolitis)** — see §0.41.6.
+> **Ureteric colic** — loin to groin, writhing, haematuria.
+> **Psoas abscess** — fever, hip flexion deformity, positive psoas sign.
+> **Testicular torsion referring to the abdomen.**
+
+**Additional Ix points:** urinalysis excludes urinary tract infection and identifies the haematuria of ureteric colic — noting **pyuria occurs in appendicitis** when the inflamed appendix lies against the ureter or bladder, so an abnormal urine does not exclude it. FBC and CRP support inflammation, though **normal values do not exclude appendicitis**, particularly early.
+
+**Additional Mx points:** **antibiotic-first management of uncomplicated appendicitis is an established alternative** in selected patients, with a meaningful recurrence rate — consistent with the recurrence figure already stated above. `UNVERIFIED — selection criteria for antibiotic-first management; RACGP or your health network's surgical guidelines.` Drainage of an appendiceal abscess with **interval appendicectomy** is used in some pathways.
+
+**Chronic/long-term:** histology review — **an appendiceal neuroendocrine tumour or mucinous neoplasm is an occasional incidental finding requiring further management**, so the result must be checked and acted on rather than assumed benign.
+
+> [!warning] Unmarked disagreement — appendicitis imaging. **Not adjudicated, and deliberately not given a `CF-` number.**
+> **A (`inherited`, §0.18 above):** imaging "generally not indicated unless diagnostic uncertainty"; CT reserved for Alvarado 4–6; **"US not useful for visualising the appendix"** but useful for gynaecological mimics.
+> **B (`unverified`, `SRC:C1_Acute_Abdomen §0.6`):** **CT abdomen and pelvis is the most accurate test in adults**; **ultrasound first in children, young women and pregnancy**, looking for a **non-compressible appendix** — i.e. ultrasound *can* visualise it, and a non-visualised appendix does not exclude appendicitis. MRI in pregnancy where ultrasound is non-diagnostic.
+> **Why it matters:** the two statements cannot both be right about whether ultrasound images the appendix, and the choice determines first-line imaging in exactly the groups where radiation matters most.
+> **Why there is no `CF-` number here:** this merge was instructed to reference an existing `CONFLICT CF-012` in this section rather than duplicate it. **No such block exists in this file, and none ever did** — `CF-012` appears only in `MERGE_SPEC.md`, `CLAUDE.md` and `MASTER_VERIFICATION_WORKFLOW.md`, in all three as the worked *example* of conflict-block formatting. Writing "see CF-012" would have been a cross-reference to nothing. Recorded in `_meta/merges/C1_Acute_Abdomen.md` for a human decision on whether to open a real conflict ID.
+> **Resolve against:** RACGP, or your health network's surgical and radiology guidelines. Both are open sources.
+
+---
+
 ## 0.19 Small Bowel Obstruction (SBO)
 
 **D:** mechanical disruption in the patency of the small intestines.
@@ -1453,6 +1495,154 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 - **Retroperitoneal:** haemorrhage (e.g. anticoagulants)
 - **Referred pain:** myocardial infarction, pericarditis, testicular torsion, pleurisy, herpes zoster, lobar pneumonia, thoracic spine disease (e.g. disc, tumour)
 - **'Medical' causes:** hypercalcaemia, uraemia, diabetic ketoacidosis, sickle cell disease, Addison's disease, acute intermittent porphyria, Henoch-Schönlein purpura, tabes dorsalis
+
+---
+
+### 0.41.3 Added from unverified layer — visceral versus parietal pain, and the must-not-miss list
+`SRC:C1_Acute_Abdomen §0.1` `SRC:C1_Acute_Abdomen §0.4 (extra-abdominal causes only)` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** acute abdominal pain of less than a few days' duration requiring urgent assessment to identify or exclude a condition needing surgery or immediate intervention.
+
+Abdominal pain is transmitted by two distinct pathways, and the transition between them explains almost every classical pain history.
+
+**Visceral pain** arises from stretch, distension or ischaemia of hollow organs and capsules. Its afferents are unmyelinated, bilateral and sparse, so the pain is **dull, poorly localised, midline, and referred to the segment of embryological origin**:
+- **Foregut** (stomach to second part of duodenum, liver, biliary tree, pancreas, spleen) → **epigastrium**
+- **Midgut** (distal duodenum to proximal two-thirds of transverse colon, including appendix) → **periumbilical**
+- **Hindgut** (distal transverse colon to rectum, and pelvic organs) → **suprapubic**
+
+**Parietal (somatic) pain** arises when inflammation reaches the parietal peritoneum, which is richly innervated by segmental somatic nerves. It is **sharp, severe, and precisely localised** over the site of pathology, and is worsened by movement, coughing and palpation.
+
+> [!tip] This is why appendicitis migrates
+> The inflamed appendix is a midgut structure, so pain begins as **periumbilical visceral ache.** When inflammation reaches the overlying parietal peritoneum, the pain **shifts to sharp, localised right iliac fossa pain.** The migration is not a quirk of appendicitis — it is the visceral-to-parietal transition, and the same sequence occurs whenever an inflamed organ contacts the parietal peritoneum.
+> **A history of migrating pain is one of the most useful features in the whole presentation.**
+
+> [!danger] The must-not-miss list
+> - **Ruptured abdominal aortic aneurysm** — the great mimic of renal colic
+> - **Mesenteric ischaemia** — pain grossly out of proportion to signs (§0.37)
+> - **Perforated viscus**
+> - **Ruptured ectopic pregnancy** — in any woman of reproductive age
+> - **Bowel obstruction with strangulation** (§0.19, §0.20)
+> - **Ascending cholangitis** (§0.4)
+> - **Severe acute pancreatitis** (§0.11)
+> - **Testicular or ovarian torsion**
+> - **Myocardial infarction and diabetic ketoacidosis** presenting as abdominal pain
+>
+> Every one of these has been missed by anchoring on gastroenteritis, constipation or "non-specific abdominal pain."
+
+> [!warning] Extra-abdominal causes of abdominal pain
+> **Cardiac** — inferior myocardial infarction presenting as epigastric pain with nausea, particularly in diabetics, women and the elderly. **Get an ECG before settling on a gastrointestinal diagnosis for epigastric pain.**
+> **Respiratory** — lower lobe pneumonia, pulmonary embolism, pleurisy, all irritating the diaphragm.
+> **Metabolic** — **diabetic ketoacidosis**, adrenal crisis, hypercalcaemia, uraemia, acute intermittent porphyria, lead poisoning.
+> **Haematological** — sickle cell crisis, and haemolysis.
+> **Neurological** — herpes zoster before the rash appears (dermatomal, unilateral, exquisitely tender skin), radiculopathy, spinal pathology.
+> **Other** — familial Mediterranean fever, hereditary angioedema causing abdominal attacks, testicular torsion referring to the abdomen.
+
+**Chronic/long-term:** follow-up of any patient discharged with "non-specific abdominal pain" — a defined review, because a proportion have a diagnosis that declares itself over the following days.
+
+---
+
+### 0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel
+`SRC:C1_Acute_Abdomen §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Watch the patient before you touch them
+> **The patient with peritonitis lies completely still**, often with knees drawn up, and objects to the trolley being moved or bumped. Movement of the inflamed parietal peritoneum hurts, so they avoid it.
+> **The patient with colic writhes, cannot get comfortable, and moves constantly** — biliary colic, renal colic, and early bowel obstruction.
+> **This single observation from the end of the bed is one of the most discriminating findings in abdominal assessment**, and it is available before any examination.
+
+> [!info] Examination sequence
+> **Inspection** — distension, scars (which tell you about adhesions), visible peristalsis, hernias, bruising (Grey Turner and Cullen signs, both late and uncommon), respiratory movement of the abdomen.
+> **Palpation** — start away from the pain. **Guarding** (voluntary or involuntary muscle contraction), **rigidity** (board-like, involuntary — peritonitis), and localised tenderness.
+> **Percussion tenderness rather than rebound.** Gentle percussion elicits the same information as releasing deep palpation, is far kinder, and is more reproducible. **Rebound testing is unpleasant, poorly reproducible and should largely be abandoned.**
+> **Auscultation** — absent bowel sounds in ileus or peritonitis; high-pitched tinkling in obstruction. Bowel sounds are **less informative than commonly taught** and should not override the rest of the examination.
+> **Percussion for shifting dullness** where ascites is suspected.
+
+> [!danger] Three examinations that are skipped and cost diagnoses
+> **1. The hernial orifices.** Palpate both groins in every patient with abdominal pain or obstruction. An incarcerated femoral hernia in an elderly woman is a classic missed cause of obstruction, and it is found by putting your hand on it. See §0.21 Hernias.
+> **2. The testes in any male with abdominal pain, especially a boy.** **Testicular torsion frequently presents as abdominal pain with no testicular complaint at all**, and the window to save the testis is a few hours. Examine the scrotum.
+> **3. A pregnancy test in every woman of reproductive age.** Not "she says she can't be pregnant." Do the test.
+
+> [!tip] Specific signs and what they mean
+> **Murphy's sign** — inspiratory arrest on palpating the right upper quadrant: acute cholecystitis (§0.3).
+> **Rovsing's sign** — right iliac fossa pain on palpating the left: appendicitis (§0.18).
+> **Psoas sign** — pain on hip extension: retrocaecal appendix or psoas abscess.
+> **Obturator sign** — pain on internal rotation of the flexed hip: pelvic appendix or pelvic collection.
+> **Carnett's sign** — tenderness that **persists or worsens** when the patient tenses the abdominal wall (raising head or legs) suggests **abdominal wall** pain rather than intraperitoneal pathology. Genuinely useful and rarely used; it can spare a patient a CT.
+
+> [!warning] Analgesia does not obscure the diagnosis
+> The traditional teaching that opioids mask an acute abdomen and delay surgical assessment **has not held up** — appropriate analgesia does not reduce diagnostic accuracy and improves the examination by allowing the patient to cooperate. **Withholding analgesia pending surgical review is unkind and unjustified.**
+
+**Ix — the core panel for every acute abdomen:**
+- **Pregnancy test (β-hCG) in every woman of reproductive age** (*why:* ectopic pregnancy is the diagnosis that kills young women presenting with abdominal pain, and it also determines imaging choice; *what:* positive test)
+- FBC (*why:* leucocytosis supports inflammation and a falling haemoglobin suggests bleeding, with the caveat that **a normal white cell count does not exclude a surgical abdomen**, particularly in the elderly; *what:* white cell count, haemoglobin)
+- UEC (*why:* renal function, hydration, and electrolyte derangement from vomiting; *what:* urea, creatinine, potassium)
+- **Lipase or amylase** (*why:* diagnoses pancreatitis, which is managed medically and would otherwise proceed to unnecessary laparotomy — lipase is more specific and remains elevated longer; *what:* marked elevation)
+- LFT (*why:* separates hepatic from biliary from non-hepatobiliary causes, and an obstructive pattern points to stones or malignancy; *what:* raised ALP and GGT versus transaminases, bilirubin)
+- **VBG with lactate** (*why:* a raised lactate in an abdomen with unimpressive signs is the single most important pointer to **mesenteric ischaemia** or established sepsis; *what:* metabolic acidosis, raised lactate)
+- CRP (*why:* supports inflammation and tracks response, though it lags by hours and a normal value early does not exclude; *what:* elevation)
+- Group and hold or crossmatch (*why:* many of these patients go to theatre or bleed; *what:* units available)
+- **ECG** (*why:* inferior myocardial infarction presents as epigastric pain, and it costs nothing; *what:* ischaemic change)
+- Urinalysis (*why:* infection, haematuria in renal colic — with the caveat that **haematuria also occurs in a leaking aortic aneurysm** and does not confirm a stone; *what:* blood, leucocytes, nitrites)
+- **Erect chest radiograph** (*why:* free gas under the diaphragm indicates perforation, and it also identifies the lower lobe pneumonia that mimics an acute abdomen; *what:* free subdiaphragmatic gas, consolidation)
+- **CT abdomen and pelvis with contrast** (*why:* the investigation that resolves most acute abdomens, identifies the cause and stages the complication; *what:* free gas, collection, obstruction, ischaemia, inflammation) — `UNVERIFIED — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.`
+- Ultrasound as first-line in **suspected biliary disease, in pregnancy, in children, and in suspected gynaecological pathology** (*why:* avoids radiation, is highly sensitive for gallstones and for free fluid, and is the appropriate first test in those groups; *what:* stones, wall thickening, free fluid, adnexal mass)
+
+---
+
+### 0.41.5 Added from unverified layer — generalised pain and the catastrophes
+`SRC:C1_Acute_Abdomen §0.9` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Ruptured abdominal aortic aneurysm — the mimic of renal colic
+> **Sudden abdominal, back or flank pain, with hypotension and a pulsatile expansile abdominal mass.** Haematuria may be present, which is precisely why it is misdiagnosed as ureteric colic.
+> **In any patient over 50 with a first episode of "renal colic", particularly with vascular risk factors, exclude an aneurysm before accepting the diagnosis.** A bedside ultrasound looking at the aorta takes under a minute and is a skill worth having.
+> An unstable patient with a known or suspected ruptured aneurysm goes to theatre or to endovascular repair — **not to the CT scanner.**
+
+> [!danger] Acute mesenteric ischaemia — pain out of proportion to signs
+> **Severe, poorly localised, unremitting abdominal pain with a soft, minimally tender abdomen** — the discordance between the patient's distress and the examination findings is the diagnosis. Signs of peritonism appear late, once the bowel is infarcted and the mortality is high.
+> Risk factors: **atrial fibrillation** and other embolic sources, atherosclerosis, hypovolaemia, low cardiac output, vasopressors, hypercoagulable states.
+> **A markedly raised lactate in a patient whose abdomen feels unremarkable should be taken very seriously.** The investigation is **CT mesenteric angiography**, and the treatment is urgent revascularisation and resection.
+> See §0.37 Ischaemic Bowel Disease for the disease entry.
+
+> [!tip] The other generalised causes
+> **Perforated viscus** — sudden onset, rigid abdomen, free gas.
+> **Bowel obstruction** — colicky pain, distension, vomiting, absolute constipation. **The critical distinction is simple versus strangulated obstruction**: continuous rather than colicky pain, tachycardia, fever, peritonism and a raised lactate suggest strangulation and mandate urgent surgery. See §0.19 SBO and §0.20 LBO.
+> **Peritonitis** of any cause.
+> **Spontaneous bacterial peritonitis** in a patient with ascites — may present with only fever, abdominal discomfort or encephalopathy, and **requires a diagnostic ascitic tap**, which is under-performed. The diagnostic neutrophil count is owned by **§0.6.6**, where it is stated as an `inherited` figure — not restated here.
+> **Diabetic ketoacidosis** — abdominal pain is common and can be severe enough to mimic a surgical abdomen. See [[06_Metabolic_Medicine_and_Endocrinology]].
+> **Gastroenteritis** — common, but **a diagnosis of exclusion in the elderly**, where mesenteric ischaemia and obstruction present with vomiting and diarrhoea.
+
+**Ix:** **Serial lactate** (*why:* the most useful single marker in a generalised abdomen with equivocal signs; *what:* elevation, and failure to clear). **CT angiography** where mesenteric ischaemia is suspected (*why:* the diagnostic test, and delay costs bowel and life; *what:* arterial occlusion, bowel wall changes, pneumatosis, portal venous gas). **Bedside aortic ultrasound** (*why:* fast, and can identify an aneurysm before the patient is moved; *what:* aortic diameter, free fluid). Erect CXR and CT (*why:* free gas; *what:* perforation). **Diagnostic ascitic tap** in any patient with ascites and abdominal pain or fever (*why:* SBP is diagnosed by neutrophil count on the ascitic fluid and is otherwise missed; *what:* ascitic neutrophil count and culture — threshold owned by §0.6.6). ECG and troponin, glucose and ketones (*why:* the extra-abdominal causes; *what:* infarction, DKA).
+
+**Mx — immediate:** resuscitate aggressively. Nil by mouth, nasogastric tube for obstruction, IV fluids, broad-spectrum antibiotics where perforation or ischaemia is suspected, analgesia. **Immediate surgical and, where relevant, vascular involvement.** Do not delay theatre for imaging in an unstable patient with a suspected ruptured aneurysm. `UNVERIFIED — empirical antibiotic choice for suspected perforation or ischaemia; Therapeutic Guidelines (login). Look up at point of use.`
+
+**Mx — chronic/long-term:** anticoagulation and rhythm management where an embolic source is found. Cardiovascular secondary prevention. Nutritional support and stoma care after extensive resection.
+
+---
+
+### 0.41.6 Added from unverified layer — the acute abdomen in special groups
+`SRC:C1_Acute_Abdomen §0.11` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] The elderly
+> **Presentation is blunted and mortality is far higher.** Older patients with a surgical abdomen frequently have **less pain, no fever, a normal white cell count and an unimpressive examination** — and yet have perforation, ischaemia or obstruction.
+> The conditions that predominate change too: **mesenteric ischaemia, ruptured aortic aneurysm, obstruction from malignancy, perforated diverticular disease, biliary sepsis** and incarcerated hernia.
+> **Have a low threshold for CT in an older patient with unexplained abdominal pain**, and be sceptical of a diagnosis of gastroenteritis or constipation. Delayed diagnosis is the main driver of the excess mortality.
+
+> [!danger] Pregnancy
+> **Anatomy and physiology both mislead.** The appendix is displaced upward and laterally. A **physiological leucocytosis** is normal, so a raised white cell count means little. The gravid uterus lifts the abdominal wall away from inflamed viscera, so **guarding and rebound are often absent even with peritonitis.**
+> The obstetric differential must be considered alongside the surgical one: **ectopic pregnancy** ([[17_04_Ectopic_Pregnancy_and_GTD]]), **miscarriage** ([[17_03_Termination_of_Pregnancy_and_Miscarriage]]), **placental abruption and uterine rupture** ([[16_14-15_Obstetric_Emergencies]]), **HELLP syndrome and pre-eclampsia with liver capsule distension** ([[16_08-09_Antenatal_and_Perinatal_Problems]]), and **fibroid degeneration** ([[17_05_PID__Endometriosis__Fibroids]]).
+> **Do not withhold necessary imaging out of radiation fear.** Ultrasound first, MRI second, and **CT where it is genuinely needed** — the risk of a missed perforation to both mother and fetus exceeds the radiation risk. Involve obstetrics early.
+
+> [!warning] The immunosuppressed and neutropenic patient
+> Corticosteroids, chemotherapy and immunosuppressants **blunt the inflammatory response**, so pain, fever, guarding and leucocytosis may all be minimal or absent in the presence of established perforation.
+> **Neutropenic enterocolitis (typhlitis)** — right iliac fossa pain and fever in a neutropenic patient, managed medically in most cases rather than surgically, and easily mistaken for appendicitis.
+> **CMV colitis, atypical infections, and graft-versus-host disease** in transplant recipients.
+> **Have a lower threshold for imaging and a higher index of suspicion** in this group than the clinical findings would suggest.
+
+> [!note] Children
+> The paediatric acute abdomen is owned by [[15_07_Paeds_-_Abdominal_Pain__Neuroblastoma__Coeliac_Disease__Malnutrition__Diarrhoea_and_Vomiting]] and [[15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_]], and is not repeated here.
+
+**Ix:** group-specific, with the general principle that in **all four groups the threshold for imaging should be lower than the clinical findings suggest**, because the findings are unreliable.
+
+**Mx — immediate:** standard resuscitation, with early senior and specialty involvement. In pregnancy, involve obstetrics from the outset and position the patient in left lateral tilt after the mid-second trimester to avoid aortocaval compression.
 
 ---
 
