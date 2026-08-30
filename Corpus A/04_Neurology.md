@@ -1155,7 +1155,7 @@ Specifically referring to intracerebral haemorrhage (ICH).
 **Mx:**
 - Stabilise patient (ABCDE) — consider endotracheal intubation
 - Refer immediately to neuro and neurosurgery
-- Rapid control of SBP if >150–220: aim for SBP ≤140, ensuring drop does not exceed 60mmHg within 1h
+- Rapid control of SBP if >150–220: aim for SBP ≤140, ensuring drop does not exceed 60mmHg within 1h `UNVERIFIED — **R1** all four figures here (the 150–220 trigger band, the ≤140 target, the 60mmHg maximum fall and the 1h window) against the Stroke Foundation Living Guidelines for Stroke Management, which is open and free. This is an inherited figure that has never been source-checked, and every part of it changes management.`
 - Urgent reversal of anticoagulation
 - Supportive care as necessary
 - Definitive Mx if undertaken: coiling or craniotomy and clipping

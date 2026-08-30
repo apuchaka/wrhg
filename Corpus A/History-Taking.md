@@ -770,3 +770,39 @@ Ask the four questions in order. The fourth is the one most often skipped and th
 > [!danger] Red flags mandating immediate same-visit urological referral: sudden severe onset (especially in a young patient), high-riding or horizontally-lying testis, absent cremasteric reflex, any diagnostic uncertainty about torsion — do not wait for imaging to refer if clinical suspicion is high. See [[07_Renal_Medicine_and_Urology]] Testicular Torsion for the full "time is testicle" urgency principle.
 
 **Closing:** summarise back, check understanding, explain next steps (examination, urgent same-visit surgical/urological referral if torsion cannot be confidently excluded; otherwise targeted investigation per the likely cause — STI screen, urinalysis, or ultrasound as guided by the history), safety-net explicitly for worsening pain or new systemic symptoms.
+
+---
+
+## 1.31 Headache
+
+> [!note] Assembled, not newly written
+> This entry was built on 2026-08-31 because the file had **no headache entry** — 30 presentation entries including *Confusion and Altered Conscious State* (§1.17) and *Fever and Suspected Infection* (§1.22), but nothing for the commonest neurological presentation. **Every clinical statement below is sourced from material already in the vault**, and each points at its owner rather than restating detail. Nothing here is new content, and anything that could not be sourced is flagged in place.
+
+**Opening:** Wash hands, introduce, confirm identity, explain purpose, consent. Where consciousness is altered or the history is confused, seek collateral as in §1.17 — a patient mid-migraine or post-ictal may be a poor historian.
+
+**Presenting complaint structure:**
+- **Time to peak intensity, asked explicitly and in seconds.** "How long from the first twinge to the worst it got?" This is the single highest-yield question, and it is the one most often replaced by "how long have you had it" — which answers something else entirely. *(Source: [[NEW_Neurology]] focused history.)*
+- **Thunderclap onset — peak within about a minute — is subarachnoid haemorrhage until excluded.** Occipital location, "worst headache of my life", sometimes with a less severe sentinel headache in the preceding weeks. *(Source: [[04_Neurology]] §Subarachnoid Haemorrhage and §Other Headache Causes.)*
+- **Pattern:** first-ever versus recurrent-and-familiar; episodic with complete resolution versus daily and unremitting; progressive over days-to-weeks.
+- **Positional change:** worse lying flat or on waking suggests raised intracranial pressure; worse upright and relieved by lying down suggests **spontaneous intracranial hypotension**. *(Source: [[NEW_Neurology]].)*
+- **Associated features:** aura, photophobia, nausea and vomiting, autonomic features (lacrimation, ptosis, rhinorrhoea — cluster), jaw claudication and scalp tenderness (giant cell arteritis), visual disturbance, fever, neck stiffness, focal deficit, seizure.
+
+**ICE:** patients with recurrent headache frequently fear a brain tumour, and patients with genuine red flags frequently do not. Ask directly. Where the picture is a primary headache disorder, saying so explicitly — and why — is a substantial part of the consultation.
+
+> [!danger] Red flags — SNOOP4
+> **S**ystemic symptoms including fever · **N**eoplasm in past or family history · **N**eurologic deficit or change · **O**nset sudden or abrupt · **O**lder age >50 · **P**attern change or recent onset · **P**ositional · and the remaining P items.
+> *This mnemonic is stated in full at [[04_Neurology]] §Other Headache Causes and is not re-expanded here.*
+
+**Associated/systemic symptoms to screen for:** fever and infective symptoms (meningitis, encephalitis, sinusitis, tropical illness including malaria); visual symptoms (acute closed-angle glaucoma — severe pain with a hard red eye and a semi-dilated non-reacting pupil; papilloedema and enlarged blind spot in idiopathic intracranial hypertension); jaw claudication, scalp tenderness and visual loss in giant cell arteritis; neck stiffness (see the differential at [[04_Neurology]] §Added from unverified layer — neck stiffness, which lists the non-meningitic causes); weight loss and night sweats. *(Sources: [[04_Neurology]] §Other Headache Causes, §Temporal Arteritis, §CNS Infections.)*
+
+**Relevant Hx prompts:**
+- **PMHx:** malignancy, HIV or immunosuppression, recent head injury, recent lumbar puncture or epidural, known primary headache disorder and whether this episode is typical of it, pregnancy or postpartum status.
+- **DHx:** **analgesic frequency — medication overuse headache requires the drug history to diagnose it** ([[04_Neurology]] §Medication Overuse Headache); combined oral contraceptive, steroids, tetracyclines, retinoids and lithium as risk factors for idiopathic intracranial hypertension; anticoagulants.
+- **FHx:** migraine, subarachnoid haemorrhage, polycystic kidney disease.
+- **SHx:** occupational and domestic **carbon monoxide** exposure — a headache affecting several people in one household, or improving away from home; alcohol; caffeine and its withdrawal.
+
+> [!warning] What this entry deliberately does not contain
+> **No thresholds, doses or time windows.** The 6-hour CT rule and the ≥12-hour lumbar puncture timing for xanthochromia live at [[04_Neurology]] §Subarachnoid Haemorrhage; triptan and prophylaxis dosing lives in [[NEW_Drugs_15_Neurological]] and [[04_Neurology]] §Migraine. A history-taking entry that restated them would create a second copy of figures nobody has yet verified.
+>
+> **One item could not be sourced from existing vault material and is therefore NOT included:** a validated red-flag rule with performance characteristics — SNOOP4 is a memory aid, not a decision rule, and the corpus contains no validated instrument for headache triage. `UNVERIFIED — whether an validated clinical decision rule for headache red flags is recommended in Australian practice, per RACGP.`
+

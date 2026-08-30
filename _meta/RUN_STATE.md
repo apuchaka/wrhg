@@ -413,3 +413,45 @@ Crigler-Najjar (the **unconjugated** pair) but neither conjugated one, so the
 classification at `03_Gastrointestinal` §0.41.8 is currently half-populated — which is
 stated in that section rather than quietly filled.
 
+## Scores and terms written with NON-ASCII DIGITS — search differently in Obsidian
+
+Measured 2026-08-31 across all 240 corpus files: **382 contexts** contain sub- or
+superscript digits. **An Obsidian search for the ASCII form finds none of them.**
+
+### Named instruments — the ones that matter when revising
+
+| Written as | An ASCII search that FAILS | Where | n |
+|---|---|---|---|
+| **`CHA₂DS₂-VASc`** | `CHA2DS2-VASc` | `01_Cardiovascular`, `B3_Arrhythmia` | 8 |
+| **`ABCD²`** | `ABCD2` | `04_Neurology` | 5 |
+| **`FEV₁`** | `FEV1` | `NEW_Investigations_Respiratory` | 8 |
+| **`HbA₂`** | `HbA2` | `NEW_Investigations_Haematology` | 5 |
+| `5-HT₁B`, `5-HT₁D`, `5-HT₂A`, `5-HT₂B`, `5-HT₂C` | `5-HT1B` etc. | the `NEW_Drugs` files | 6 |
+| `PGE₁`, `PGE₂`, `PGF₂` | `PGE1` etc. | `NEW_Drugs_16` | 3 |
+
+### High-frequency terms — the same problem, and `B₁₂` is the one to remember
+
+| Written as | Fails as | n |
+|---|---|---|
+| **`B₁₂`** | `B12` | **23** |
+| `CO₂` | `CO2` | 76 |
+| `PaO₂`, `PaCO₂`, `SpO₂`, `FiO₂`, `SaO₂`, `pCO₂`, `ETCO₂` | ASCII forms | ~73 |
+| `×10⁹/L` | `x10^9`, `x109` | throughout the haematology thresholds |
+| `m²`, `cm²`, `cm³`, `mm³` | ASCII forms | 13 |
+
+**Practical rule for revising in Obsidian:** search the **letters only** — `CHA`, `ABCD`,
+`FEV`, `HT`, and `B` followed by a space in the case of B₁₂ — or paste the subscript
+character itself. Searching the number will not work.
+
+`scripts/merge_tools.py normalise()` now folds these to ASCII, so the project's own tools
+are unaffected. **Obsidian's search is not.**
+
+### A clinical finding that came out of this audit
+
+`01_Cardiovascular` uses **`CHA₂DS₂-VASc`** and states the threshold as **"≥1 (male) or ≥2
+(female)"**. `Corpus C/NEW_Exam_Manoeuvres_and_Procedures` writes **`CHA₂DS₂-VA/VASc`**,
+naming both instruments. **`CHA₂DS₂-VA` removes sex as a criterion**, which would make the
+sex-split threshold obsolete. Queued as **R1** in the verification queue against the Heart
+Foundation and Stroke Foundation, both open. **Not adjudicated** — Corpus C names the newer
+instrument without stating a threshold, so there is no competing claim to conflict with.
+
