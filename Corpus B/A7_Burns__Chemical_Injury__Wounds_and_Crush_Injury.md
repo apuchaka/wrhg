@@ -45,9 +45,9 @@ conflicts_r1: 0
 > **Do not use ice or iced water** — it causes vasoconstriction, deepens the burn and risks hypothermia.
 > **Watch for hypothermia** during cooling, particularly in children and large burns. Cool the burn, warm the patient.
 
-**S/Smx:** Pain (or its absence in full thickness), erythema, blistering, eschar, oedema. Assess for inhalation injury: facial burns, singed nasal hair, carbonaceous sputum, hoarseness, stridor — cross-refer [[A2]] 0.2.
+**S/Smx:** Pain (or its absence in full thickness), erythema, blistering, eschar, oedema. Assess for inhalation injury: facial burns, singed nasal hair, carbonaceous sputum, hoarseness, stridor — cross-refer [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.2.
 
-**Ix:** Serial depth and TBSA assessment (*why:* depth evolves over the first 48 hours and the initial assessment underestimates in a meaningful proportion, so a single early assessment should not drive definitive decisions; *what:* depth conversion, refined TBSA). Weight (*why:* fluid resuscitation is weight-based and an estimate propagates into every subsequent calculation; *what:* weight in kilograms). Carboxyhaemoglobin by co-oximetry in enclosed-space fires (*why:* standard oximetry reads falsely normal and CO poisoning coexists; *what:* elevated COHb — cross-refer [[A5]] 0.4). VBG with lactate (*why:* a markedly raised lactate out of proportion to the burn suggests concurrent cyanide poisoning from combustion of synthetic materials; *what:* acidosis, high lactate). FBC, UEC, coagulation, group and hold (*why:* baseline before large-volume resuscitation and possible surgery; *what:* baseline values). CK and urinalysis in electrical or deep burns (*why:* rhabdomyolysis; *what:* raised CK, dipstick-positive blood without RBCs). Bronchoscopy where inhalation injury is suspected (*why:* directly assesses airway involvement and grades it; *what:* soot, mucosal oedema, ulceration). Photographic documentation (*why:* enables serial comparison, remote burns unit consultation, and — where non-accidental injury is a concern — a contemporaneous record; *what:* pattern, distribution, demarcation).
+**Ix:** Serial depth and TBSA assessment (*why:* depth evolves over the first 48 hours and the initial assessment underestimates in a meaningful proportion, so a single early assessment should not drive definitive decisions; *what:* depth conversion, refined TBSA). Weight (*why:* fluid resuscitation is weight-based and an estimate propagates into every subsequent calculation; *what:* weight in kilograms). Carboxyhaemoglobin by co-oximetry in enclosed-space fires (*why:* standard oximetry reads falsely normal and CO poisoning coexists; *what:* elevated COHb — cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.4). VBG with lactate (*why:* a markedly raised lactate out of proportion to the burn suggests concurrent cyanide poisoning from combustion of synthetic materials; *what:* acidosis, high lactate). FBC, UEC, coagulation, group and hold (*why:* baseline before large-volume resuscitation and possible surgery; *what:* baseline values). CK and urinalysis in electrical or deep burns (*why:* rhabdomyolysis; *what:* raised CK, dipstick-positive blood without RBCs). Bronchoscopy where inhalation injury is suspected (*why:* directly assesses airway involvement and grades it; *what:* soot, mucosal oedema, ulceration). Photographic documentation (*why:* enables serial comparison, remote burns unit consultation, and — where non-accidental injury is a concern — a contemporaneous record; *what:* pattern, distribution, demarcation).
 
 ### 0.1.1 Mx – Immediate
 See 0.2.
@@ -72,10 +72,10 @@ See 0.2.
 > A circumferential full-thickness burn forms an inelastic constricting eschar. As oedema develops beneath it: around a **limb** → progressive vascular compromise and compartment syndrome; around the **chest** → restriction of chest wall expansion and ventilatory failure that no amount of oxygen will fix. **Escharotomy is the treatment and it is time-critical.** Monitor distal perfusion and ventilatory pressures actively in any circumferential burn.
 
 > [!warning] Analgesia is systematically inadequate in burns
-> Partial thickness burns are extremely painful, dressing changes more so. Use multimodal analgesia with opioid titration, and anticipate procedural analgesia needs. Under-treatment of burn pain is common and avoidable — cross-refer [[F0.4]] 0.9.
+> Partial thickness burns are extremely painful, dressing changes more so. Use multimodal analgesia with opioid titration, and anticipate procedural analgesia needs. Under-treatment of burn pain is common and avoidable — cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9.
 
 > [!danger] Non-accidental injury
-> Patterns raising concern in a child: **sharply demarcated "glove and stocking" or "doughnut" scald distributions** suggesting forced immersion · symmetrical burns · burns with no splash marks · **cigarette burns** — discrete, round, uniform · burns to the buttocks or perineum · **delayed presentation** · a history inconsistent with the injury or with the child's developmental stage · a changing history. Any of these mandates escalation and a child protection discussion. Cross-refer [[P3]] Safeguarding.
+> Patterns raising concern in a child: **sharply demarcated "glove and stocking" or "doughnut" scald distributions** suggesting forced immersion · symmetrical burns · burns with no splash marks · **cigarette burns** — discrete, round, uniform · burns to the buttocks or perineum · **delayed presentation** · a history inconsistent with the injury or with the child's developmental stage · a changing history. Any of these mandates escalation and a child protection discussion. Cross-refer `TODO:link — P3 Safeguarding & forensic (unbuilt)` Safeguarding.
 
 **Ix:** As per 0.1, with serial UEC, urine output monitoring and weight (*why:* resuscitation is titrated to urine output and daily weight tracks fluid accumulation; *what:* hourly urine output, weight trend). Serial FBC and albumin (*why:* haemoconcentration then dilution, and protein loss from the burn surface; *what:* haematocrit, falling albumin). Wound swabs where infection is suspected — not routinely (*why:* burns are colonised, so routine swabs generate misleading results and drive unnecessary antibiotics; *what:* organism where clinical infection is present).
 
@@ -122,7 +122,7 @@ PPE. Remove clothing. Brush off dry agent. **Copious prolonged irrigation.** Ide
 Burns unit referral — **all chemical burns meet referral criteria.** Surgical debridement. Correction of electrolyte derangement.
 
 ### 0.3.3 Mx – Chronic/long-term
-Occupational assessment and **SafeWork SA notification** where work-related. Review of workplace handling procedures and PPE. Cross-refer [[P1]] Occupational Exposure.
+Occupational assessment and **SafeWork SA notification** where work-related. Review of workplace handling procedures and PPE. Cross-refer `TODO:link — P1 Preventive & occupational health (unbuilt)` Occupational Exposure.
 
 ---
 
@@ -152,7 +152,7 @@ Occupational assessment and **SafeWork SA notification** where work-related. Rev
 Ophthalmology management — topical steroids, cycloplegics, ascorbate and citrate in some protocols, pressure control, and surgical intervention including limbal stem cell transplantation for severe injury.
 
 ### 0.4.3 Mx – Chronic/long-term
-Long-term follow-up for glaucoma, corneal scarring, symblepharon and dry eye. Eye protection education and occupational review. Cross-refer [[E1]] Red & Painful Eye.
+Long-term follow-up for glaucoma, corneal scarring, symblepharon and dry eye. Eye protection education and occupational review. Cross-refer `TODO:link — E1 Red & painful eye (unbuilt)` Red & Painful Eye.
 
 ---
 
@@ -208,7 +208,7 @@ Wound review at a defined interval, suture or staple removal at a site-appropria
 > **Fasciotomy is time-critical.** Where clinical suspicion is high, it should not wait for pressure measurement, and it certainly should not wait for pulses to disappear. Compartment pressures are measured when the patient cannot report symptoms — obtunded, intubated, or under regional block. `UNVERIFIED — compartment pressure and delta pressure thresholds require verification.`
 
 > [!warning] Regional anaesthesia and compartment syndrome
-> A dense nerve block abolishes the pain that is the diagnostic sign. This is a real consideration in limb trauma and is why the decision to block a limb at risk of compartment syndrome should involve a senior clinician — cross-refer [[F0.4]] 0.11.
+> A dense nerve block abolishes the pain that is the diagnostic sign. This is a real consideration in limb trauma and is why the decision to block a limb at risk of compartment syndrome should involve a senior clinician — cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.11.
 
 **S/Smx:** Swollen tense painful limb, pain on passive stretch, sensory disturbance, weakness, dark tea-coloured urine, and systemic features of hyperkalaemia and hypovolaemia.
 
@@ -226,4 +226,4 @@ Renal follow-up, since most myoglobinuric acute kidney injury recovers but some 
 ---
 
 > [!note] Cross-references
-> Inhalation and airway burns → [[A2]] 0.2 · Carbon monoxide poisoning → [[A5]] 0.4 · Electrical injury → [[A6]] 0.8 · Hypofluoric acid systemic toxicity and the Poisons Information Centre → [[A5]] 0.1 · Chemical eye injury in the ophthalmology context → [[E1]] · Analgesia and regional blocks → [[F0.4]] 0.9–0.11 · Non-accidental injury → [[P3]] · Wound management basics in the existing corpus → [[Examination]] Wound Management
+> Inhalation and airway burns → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.2 · Carbon monoxide poisoning → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.4 · Electrical injury → [[A6_Thermal_and_Environmental_Injury]] 0.8 · Hypofluoric acid systemic toxicity and the Poisons Information Centre → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.1 · Chemical eye injury in the ophthalmology context → `TODO:link — E1 Red & painful eye (unbuilt)` · Analgesia and regional blocks → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9–0.11 · Non-accidental injury → `TODO:link — P3 Safeguarding & forensic (unbuilt)` · Wound management basics in the existing corpus → [[Examination]] Wound Management

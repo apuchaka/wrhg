@@ -40,7 +40,7 @@ conflicts_r1: 0
 > **Respiratory acidosis:** anything reducing minute ventilation — sedation, neuromuscular weakness, severe airflow obstruction, chest wall disease.
 > **Respiratory alkalosis:** pain, anxiety, hypoxia, sepsis, PE, salicylate, pregnancy, hepatic failure.
 
-**Ix:** VBG or ABG with electrolytes (*why:* gives pH, pCO₂, bicarbonate, potassium and lactate in minutes and is the substrate for the whole sequence above; *what:* the primary disorder and its compensation). Full UEC including chloride (*why:* the anion gap cannot be calculated without chloride, and chloride is frequently omitted from the ordered panel — this is the commonest practical reason an acid-base assessment cannot be completed; *what:* sodium, chloride, bicarbonate for the gap). Albumin (*why:* corrects the anion gap, without which unmeasured anions are missed in the sick and malnourished; *what:* hypoalbuminaemia requiring correction). Lactate (*why:* separates the largest single HAGMA category and tracks resuscitation response; *what:* elevation, and clearance on repeat). Serum ketones, preferably beta-hydroxybutyrate (*why:* urine ketone dipsticks detect acetoacetate and can read falsely low early in DKA and falsely high during recovery, so they mislead in both directions; *what:* elevated beta-hydroxybutyrate). Serum osmolality with calculated gap where a toxic alcohol is possible (*why:* detects the parent alcohol before the acid metabolite forms; *what:* raised osmolar gap — cross-refer [[F0.1]] 0.8). Salicylate and paracetamol levels where the pattern is mixed or unexplained (*why:* salicylate produces a distinctive mixed picture and is easily missed; *what:* level).
+**Ix:** VBG or ABG with electrolytes (*why:* gives pH, pCO₂, bicarbonate, potassium and lactate in minutes and is the substrate for the whole sequence above; *what:* the primary disorder and its compensation). Full UEC including chloride (*why:* the anion gap cannot be calculated without chloride, and chloride is frequently omitted from the ordered panel — this is the commonest practical reason an acid-base assessment cannot be completed; *what:* sodium, chloride, bicarbonate for the gap). Albumin (*why:* corrects the anion gap, without which unmeasured anions are missed in the sick and malnourished; *what:* hypoalbuminaemia requiring correction). Lactate (*why:* separates the largest single HAGMA category and tracks resuscitation response; *what:* elevation, and clearance on repeat). Serum ketones, preferably beta-hydroxybutyrate (*why:* urine ketone dipsticks detect acetoacetate and can read falsely low early in DKA and falsely high during recovery, so they mislead in both directions; *what:* elevated beta-hydroxybutyrate). Serum osmolality with calculated gap where a toxic alcohol is possible (*why:* detects the parent alcohol before the acid metabolite forms; *what:* raised osmolar gap — cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.8). Salicylate and paracetamol levels where the pattern is mixed or unexplained (*why:* salicylate produces a distinctive mixed picture and is easily missed; *what:* level).
 
 ### 0.1.1 Mx – Immediate
 Treat the patient, not the number. The pH itself is rarely the therapeutic target; the underlying process is. Restore perfusion and ventilation.
@@ -131,7 +131,7 @@ Senior paediatric involvement from the outset — this is not a junior-managed c
 Continued protocolised correction with transition to subcutaneous insulin. Paediatric endocrinology involvement for a new diagnosis, with structured family education.
 
 ### 0.4.3 Mx – Chronic/long-term
-Diabetes education for child and family, school management plan, and psychosocial support. In adolescents, recurrent DKA warrants exploration of insulin omission and disordered eating — cross-refer [[M7]] Adolescent & behavioural.
+Diabetes education for child and family, school management plan, and psychosocial support. In adolescents, recurrent DKA warrants exploration of insulin omission and disordered eating — cross-refer `TODO:link — M7 Adolescent & behavioural (unbuilt)` Adolescent & behavioural.
 
 ---
 
@@ -153,13 +153,13 @@ Diabetes education for child and family, school management plan, and psychosocia
 **Ix:** Serial lactate (*why:* clearance over hours is the prognostic and therapeutic marker, far more informative than a single value; *what:* trend). VBG with anion gap (*why:* confirms the lactate accounts for the gap, and a delta ratio suggesting otherwise means a second process; *what:* gap, delta ratio). UEC and eGFR (*why:* renal impairment both causes type B metformin accumulation and results from hypoperfusion; *what:* creatinine, eGFR). LFT (*why:* hepatic impairment reduces lactate clearance; *what:* synthetic function). Blood cultures and septic screen (*why:* sepsis is the commonest cause; *what:* source). CT mesenteric angiography where mesenteric ischaemia is plausible (*why:* the diagnosis is time-critical, missed on plain films, and the lactate may be the only abnormality; *what:* arterial occlusion, bowel wall changes, portal venous gas). Thiamine level or empirical replacement in the malnourished or alcohol-dependent (*why:* thiamine-deficient lactic acidosis responds dramatically and the level takes days; *what:* treat empirically rather than wait).
 
 ### 0.5.1 Mx – Immediate
-Restore perfusion — this is the treatment for type A. Oxygen, fluid resuscitation, source control, vasopressors as indicated. Cross-refer [[F0.3]] Shock phenotypes.
+Restore perfusion — this is the treatment for type A. Oxygen, fluid resuscitation, source control, vasopressors as indicated. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] Shock phenotypes.
 
 ### 0.5.2 Mx – Definitive
 Cease the offending agent in type B. Metformin-associated lactic acidosis may require haemodialysis, which removes both metformin and lactate. `UNVERIFIED — dialysis indications require verification with the Poisons Information Centre and nephrology.` Empirical thiamine where deficiency is plausible.
 
 ### 0.5.3 Mx – Chronic/long-term
-Metformin dose review against renal function, with sick-day rules that include withholding it during acute illness and before contrast — cross-refer [[H3]] Contrast-Induced Nephropathy.
+Metformin dose review against renal function, with sick-day rules that include withholding it during acute illness and before contrast — cross-refer `TODO:link — H3 Urine output & renal injury (unbuilt)` Contrast-Induced Nephropathy.
 
 ---
 
@@ -177,7 +177,7 @@ Metformin dose review against renal function, with sick-day rules that include w
 
 **S/Smx:** Dehydration, hypotension, weakness from hypokalaemia, Kussmaul respiration in severe cases. History of high-volume diarrhoea, ileostomy output, or laxative use.
 
-**Ix:** UEC with chloride (*why:* hyperchloraemia with a normal gap is the diagnosis, and chloride is often not on the default panel; *what:* raised chloride, normal gap, low potassium and bicarbonate). VBG (*why:* severity and confirmation; *what:* metabolic acidosis with normal gap). Urinary anion gap or urinary pH (*why:* separates GI from renal cause, which changes management entirely; *what:* negative gap in GI loss). Stool studies including culture, PCR and *C. difficile* toxin where relevant (*why:* identifies a treatable infective cause; *what:* pathogen — cross-refer [[K3]] C. difficile). Magnesium (*why:* co-depleted with potassium and its correction is required before potassium will replete; *what:* hypomagnesaemia). Stool output charting (*why:* quantifies ongoing losses so replacement can match them; *what:* volume per 24 hours).
+**Ix:** UEC with chloride (*why:* hyperchloraemia with a normal gap is the diagnosis, and chloride is often not on the default panel; *what:* raised chloride, normal gap, low potassium and bicarbonate). VBG (*why:* severity and confirmation; *what:* metabolic acidosis with normal gap). Urinary anion gap or urinary pH (*why:* separates GI from renal cause, which changes management entirely; *what:* negative gap in GI loss). Stool studies including culture, PCR and *C. difficile* toxin where relevant (*why:* identifies a treatable infective cause; *what:* pathogen — cross-refer `TODO:link — K3 Exposure & immunodeficiency (unbuilt)` C. difficile). Magnesium (*why:* co-depleted with potassium and its correction is required before potassium will replete; *what:* hypomagnesaemia). Stool output charting (*why:* quantifies ongoing losses so replacement can match them; *what:* volume per 24 hours).
 
 ### 0.6.1 Mx – Immediate
 Fluid and electrolyte replacement matched to measured ongoing losses, with potassium and magnesium replacement. Balanced crystalloid rather than large-volume saline where the acidosis is already hyperchloraemic. `UNVERIFIED — replacement rates and potassium infusion limits come from local policy and are not stated here.`
@@ -205,7 +205,7 @@ High-output stoma management with stoma nursing input, and monitoring for chroni
 > `UNVERIFIED — urinary chloride cut-off values require verification.`
 
 > [!warning] Look for it in the surgical patient
-> Prolonged nasogastric drainage, gastric outlet obstruction and pyloric stenosis all produce this picture. In an infant, hypochloraemic hypokalaemic metabolic alkalosis with projectile non-bilious vomiting is **infantile hypertrophic pyloric stenosis** until proven otherwise — and the metabolic derangement must be corrected before theatre, because it is an anaesthetic risk, not a surgical emergency. Cross-refer [[M3]] Non-bilious vomiting.
+> Prolonged nasogastric drainage, gastric outlet obstruction and pyloric stenosis all produce this picture. In an infant, hypochloraemic hypokalaemic metabolic alkalosis with projectile non-bilious vomiting is **infantile hypertrophic pyloric stenosis** until proven otherwise — and the metabolic derangement must be corrected before theatre, because it is an anaesthetic risk, not a surgical emergency. Cross-refer `TODO:link — M3 Neonatal problems (unbuilt)` Non-bilious vomiting.
 
 **S/Smx:** Often asymptomatic. Weakness, cramps, paraesthesia and arrhythmia from hypokalaemia. Tetany from reduced ionised calcium. Compensatory hypoventilation. Volume depletion signs.
 
@@ -310,4 +310,4 @@ Deliberate de-resuscitation once stable, nutritional support, and monitoring for
 ---
 
 > [!note] Cross-references
-> Toxic alcohols and salicylate as poisonings → [[F0.1]] · Shock, sepsis and the distributive phenotypes → [[F0.3]] · Deteriorating patient recognition → [[A1]] 0.1 · Electrolyte-specific entries (hypercalcaemia, phosphate, magnesium) → [[I3]] · Contrast nephropathy and metformin → [[H3]]
+> Toxic alcohols and salicylate as poisonings → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] · Shock, sepsis and the distributive phenotypes → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] · Deteriorating patient recognition → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.1 · Electrolyte-specific entries (hypercalcaemia, phosphate, magnesium) → `TODO:link — I3 Calcium, bone & parathyroid (unbuilt)` · Contrast nephropathy and metformin → `TODO:link — H3 Urine output & renal injury (unbuilt)`

@@ -11,7 +11,7 @@ conflicts_r1: 0
 > Written from model knowledge, not retrieved from guidelines. Principles, mechanism and clinical reasoning are reliable at intern level. **Every dose, staging definition, screening threshold and form name carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **All anticipatory prescribing doses in 0.5 are omitted** — obtain them from eTG Palliative Care and your health network's end-of-life care pathway. **Pressure injury staging, IDDSI descriptors, and South Australian goals-of-care and advance care directive forms** must be verified against current SA Health and national standards documents.
 >
-> **Delirium is built in [[D2]] 0.2** and is cross-referenced rather than repeated.
+> **Delirium is built in [[D2_Altered_Consciousness_and_Cognition]] 0.2** and is cross-referenced rather than repeated.
 
 ---
 
@@ -31,7 +31,7 @@ conflicts_r1: 0
 > [!warning] Antimuscarinics for overactive bladder add to anticholinergic burden
 > **Oxybutynin in particular crosses the blood-brain barrier readily and causes cognitive impairment, delirium and falls in older people** — it is a poor choice in this population.
 > **Mirabegron, a beta-3 agonist, avoids the anticholinergic burden** and is often preferable, with blood pressure the main consideration.
-> **Weigh the benefit of slightly better continence against the cost of worsened cognition and increased falls** — that trade-off is frequently not made explicitly. Cross-refer [[GER1]] 0.4. `UNVERIFIED — agents, doses and PBS criteria.`
+> **Weigh the benefit of slightly better continence against the cost of worsened cognition and increased falls** — that trade-off is frequently not made explicitly. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.4. `UNVERIFIED — agents, doses and PBS criteria.`
 
 > [!tip] Transient and reversible causes — DIAPPERS
 > **D**elirium · **I**nfection (symptomatic UTI) · **A**trophic vaginitis · **P**harmaceuticals · **P**sychological (depression) · **E**xcess urine output (diuretics, hyperglycaemia, hypercalcaemia, heart failure) · **R**estricted mobility · **S**tool impaction
@@ -43,9 +43,9 @@ conflicts_r1: 0
 > **If a catheter is inserted, document the indication and a planned removal date.** Catheters that nobody planned to remove are a recurring source of avoidable harm.
 
 > [!tip] Faecal incontinence
-> **Overflow from impaction is the commonest cause in frail and immobile patients — do a rectal examination** before diagnosing anything else. Cross-refer [[C5]] 0.2.
+> **Overflow from impaction is the commonest cause in frail and immobile patients — do a rectal examination** before diagnosing anything else. Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.2.
 > Other causes: **obstetric sphincter injury** (which may present decades later), neurological disease, rectal prolapse, diarrhoea, and reduced rectal sensation.
-> **Pelvic floor physiotherapy is effective and under-used.** Cross-refer [[C5]] 0.6.
+> **Pelvic floor physiotherapy is effective and under-used.** Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.6.
 
 **Ix:** **Bladder scan for post-void residual** (*why:* distinguishes overflow from urge incontinence, which have opposite treatments, and takes seconds; *what:* retained volume). **Rectal examination** (*why:* identifies impaction, prostate enlargement and sphincter tone; *what:* loading, mass, tone). Urinalysis and culture, **interpreted cautiously** (*why:* excludes symptomatic infection, while recognising that **asymptomatic bacteriuria is very common and treating it does not improve continence**; *what:* infection in context). **Bladder diary over several days** (*why:* the single most informative investigation — it establishes the pattern, volumes, frequency, nocturia and the relationship to fluid intake, and it directs treatment; *what:* frequency-volume pattern). UEC, calcium and glucose (*why:* polyuria from hypercalcaemia, hyperglycaemia and renal disease; *what:* derangement). **Medication review** (*why:* diuretics, anticholinergics, opioids, sedatives and alpha-blockers all contribute and are modifiable; *what:* culprit agents). Pelvic and vaginal examination in women (*why:* prolapse and atrophic changes are common and treatable; *what:* prolapse, atrophy). Urodynamics and specialist referral where the picture is unclear or conservative management fails (*why:* characterises bladder function before invasive treatment; *what:* detrusor and sphincter function).
 
@@ -96,7 +96,7 @@ Type-specific — **pelvic floor training, bladder training, treatment of prosta
 
 **S/Smx:** Non-blanching erythema, pain over a pressure point, blistering, skin loss, slough, eschar, exudate, odour, and surrounding cellulitis. **Pain over a bony prominence in an immobile patient warrants inspection**, and patients with sensory impairment may report nothing at all.
 
-**Ix:** **Regular full skin inspection including under devices** (*why:* the diagnosis is entirely visual, and injuries are missed by not looking; *what:* stage, site, extent). Wound swab **only where clinical infection is suspected** (*why:* all chronic wounds are colonised, so routine swabbing produces misleading results and drives unnecessary antibiotics; *what:* organism in the context of clinical infection). FBC, CRP, albumin (*why:* systemic infection and the nutritional status that determines healing; *what:* infection markers, hypoalbuminaemia). **Probe-to-bone assessment and imaging where osteomyelitis is suspected** (*why:* underlying osteomyelitis changes the treatment duration and may require surgery, and it is common in deep sacral and heel wounds; *what:* bone involvement on MRI). Nutritional assessment (*why:* healing requires protein and energy, and malnourished wounds do not close; *what:* intake, weight, albumin). Vascular assessment for heel and lower limb wounds (*why:* an ischaemic limb will not heal, and compression is contraindicated; *what:* pulses, ABI — cross-refer [[B5]] 0.5).
+**Ix:** **Regular full skin inspection including under devices** (*why:* the diagnosis is entirely visual, and injuries are missed by not looking; *what:* stage, site, extent). Wound swab **only where clinical infection is suspected** (*why:* all chronic wounds are colonised, so routine swabbing produces misleading results and drives unnecessary antibiotics; *what:* organism in the context of clinical infection). FBC, CRP, albumin (*why:* systemic infection and the nutritional status that determines healing; *what:* infection markers, hypoalbuminaemia). **Probe-to-bone assessment and imaging where osteomyelitis is suspected** (*why:* underlying osteomyelitis changes the treatment duration and may require surgery, and it is common in deep sacral and heel wounds; *what:* bone involvement on MRI). Nutritional assessment (*why:* healing requires protein and energy, and malnourished wounds do not close; *what:* intake, weight, albumin). Vascular assessment for heel and lower limb wounds (*why:* an ischaemic limb will not heal, and compression is contraindicated; *what:* pulses, ABI — cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.5).
 
 ### 0.2.1 Mx – Immediate
 **Offload the area completely.** Analgesia — pressure injuries are painful and this is under-treated.
@@ -118,8 +118,8 @@ Ongoing pressure redistribution, equipment provision for home or residential car
 
 > [!tip] Why older people eat less — and most of it is fixable
 > **· Poor dentition, ill-fitting dentures, and dentures left at home during admission.**
-> **· Dysphagia** — cross-refer [[D7]] 0.4.
-> **· Reduced smell and taste** — cross-refer [[D7]] 0.5.
+> **· Dysphagia** — cross-refer [[D7_Cranial_Nerves_and_Special_Senses]] 0.4.
+> **· Reduced smell and taste** — cross-refer [[D7_Cranial_Nerves_and_Special_Senses]] 0.5.
 > **· Medications** — nausea, dry mouth, altered taste, anorexia, and polypharmacy generally.
 > **· Depression** — a leading and treatable cause of weight loss in older people.
 > **· Dementia** — apraxia of feeding, distraction, forgetting to eat, refusal.
@@ -137,12 +137,12 @@ Ongoing pressure redistribution, equipment provision for home or residential car
 
 > [!warning] Refeeding syndrome
 > In a patient who has had prolonged inadequate intake, **reintroduction of nutrition drives insulin release and a rapid intracellular shift of phosphate, potassium and magnesium**, with potentially fatal cardiac, respiratory and neurological consequences.
-> **Identify at-risk patients before starting feeding, replace electrolytes, give thiamine, and reintroduce calories slowly with monitoring.** Cross-refer [[C2]] 0.7. `UNVERIFIED — risk criteria, electrolyte thresholds and the rate of caloric reintroduction.`
+> **Identify at-risk patients before starting feeding, replace electrolytes, give thiamine, and reintroduce calories slowly with monitoring.** Cross-refer [[C2_Nausea_and_Vomiting]] 0.7. `UNVERIFIED — risk criteria, electrolyte thresholds and the rate of caloric reintroduction.`
 
 > [!danger] PEG feeding in advanced dementia does not achieve what people expect
 > **The evidence indicates that gastrostomy feeding in advanced dementia does not prolong survival, does not prevent aspiration pneumonia, does not heal or prevent pressure injuries, and does not improve function or quality of life.**
 > **Careful hand feeding, with attention to positioning, texture, food preferences, unhurried assistance and mouth care, is the recommended alternative** and is what families are frequently not offered as an option.
-> This conversation is difficult because families experience "not feeding" as abandonment. **The framing that helps is that the goal is comfort and pleasure in eating rather than a nutritional target**, and that hand feeding continues rather than stopping. Cross-refer 0.5 and [[A10]] 0.3.
+> This conversation is difficult because families experience "not feeding" as abandonment. **The framing that helps is that the goal is comfort and pleasure in eating rather than a nutritional target**, and that hand feeding continues rather than stopping. Cross-refer 0.5 and [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3.
 
 > [!tip] Practical nutrition management
 > **Food first** — fortified meals, high-energy high-protein options, frequent small meals, nourishing fluids. Then oral nutrition supplements. Then enteral feeding where appropriate to the goals of care.
@@ -180,7 +180,7 @@ Meals services, shopping and cooking support, social eating, and **carer educati
 > **· Get the patient dressed in their own clothes and sitting out of bed for meals.**
 > **· Sensory aids in place** — glasses and hearing aids, without which orientation, engagement and safety all deteriorate.
 > **· Avoid unnecessary bed rest orders**, which are often written reflexively and never rescinded.
-> **· Delirium prevention**, which is inseparable from mobility. Cross-refer [[D2]] 0.2.
+> **· Delirium prevention**, which is inseparable from mobility. Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2.
 > **· Early involvement of allied health and early discharge planning.**
 
 **Ix:** **Baseline functional status from collateral history** (*why:* you cannot detect decline without knowing the starting point, and "independent at home" needs unpacking; *what:* pre-admission mobility and ADL function). Physiotherapy and occupational therapy assessment (*why:* objective measurement and a rehabilitation plan; *what:* mobility, transfers, equipment needs). Daily review of attachments and mobility status (*why:* mobility deteriorates silently unless it is actively tracked; *what:* what the patient did today).
@@ -218,7 +218,7 @@ Ongoing exercise, equipment, home supports, and **realistic goal-setting with th
 > **· Pain** — opioids, converted to a subcutaneous route when swallowing fails.
 > **· Breathlessness** — **opioids are the primary treatment**, with a benzodiazepine for associated anxiety. Oxygen only helps if the patient is hypoxaemic and finds it comfortable; **a fan directed at the face is genuinely effective and is under-used.**
 > **· Noisy respiratory secretions ("death rattle")** — caused by pooled secretions the patient can no longer clear. **It distresses the family far more than the patient, who is usually unconscious.** **Repositioning, reducing or stopping artificial hydration, and explanation to the family are the primary measures**; antimuscarinics reduce further secretion but do not clear what is already there, so they work best given early.
-> **· Nausea** — mechanism-matched antiemetic. Cross-refer [[C2]] 0.5.
+> **· Nausea** — mechanism-matched antiemetic. Cross-refer [[C2_Nausea_and_Vomiting]] 0.5.
 > **· Terminal agitation and restlessness** — **first exclude the reversible: urinary retention (bladder scan), constipation and faecal loading, pain, opioid toxicity, and hypoxia.** Only then sedate. Reaching for midazolam without checking the bladder is a common error.
 > **· Mouth care** — frequent, and one of the most valued interventions by families, who can be shown how to do it and given a role.
 > `UNVERIFIED — all agents, doses, routes and conversion ratios are omitted. Obtain from eTG Palliative Care and your health network's end-of-life medication guidelines.`
@@ -236,7 +236,7 @@ Ongoing exercise, equipment, home supports, and **realistic goal-setting with th
 > [!danger] Language matters, and "there's nothing more we can do" is both false and harmful
 > There is a great deal that can be done — it is the goal that has changed, not the effort.
 > **Better framings: "We're going to change what we're focusing on"; "our aim now is to make sure she's comfortable"; "what matters most to you in the time you have?"**
-> Ask **what the patient understands** before telling them anything, ask **what they want to know**, warn before delivering bad news, allow silence, and check understanding afterwards. Cross-refer [[COM1]].
+> Ask **what the patient understands** before telling them anything, ask **what they want to know**, warn before delivering bad news, allow silence, and check understanding afterwards. Cross-refer `TODO:link — COM1 Communication & consultation skills (unbuilt)`.
 > **Palliative care is not only for the last days.** Early involvement in advanced illness improves symptom control and quality of life, and in some settings survival — and referring early is not "giving up".
 
 **Ix:** **Investigation should stop when it will not change management** — this is itself a clinical decision requiring explicit thought and documentation, not drift. Continue only what informs comfort. **Bladder scan and rectal examination in terminal agitation** (*why:* retention and faecal loading are common, reversible and distressing, and are missed if the agitation is assumed to be terminal; *what:* retention, loading).
@@ -248,9 +248,9 @@ Recognise dying and say so. Anticipatory prescribing. Stop non-essential interve
 Comfort-focused care in the preferred place where achievable — **the majority of people express a preference to die at home or in their usual residence, and the majority die in hospital.** Community palliative care, equipment and after-hours support can make the difference.
 
 ### 0.5.3 Mx – Chronic/long-term
-**Death certification, and identification of deaths that must be reported to the coroner** — cross-refer [[A10]] 0.4. `UNVERIFIED — reportable death criteria under the Coroners Act 2003 (SA).`
-**Bereavement support for the family**, and **debrief for the team.** Cultural and spiritual practices around death should be asked about rather than assumed, and this matters particularly in Aboriginal and Torres Strait Islander families and in culturally diverse communities — cross-refer [[AU1]].
-**Voluntary assisted dying is lawful in South Australia** under specific criteria and process — cross-refer [[A10]] 0.3.
+**Death certification, and identification of deaths that must be reported to the coroner** — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.4. `UNVERIFIED — reportable death criteria under the Coroners Act 2003 (SA).`
+**Bereavement support for the family**, and **debrief for the team.** Cultural and spiritual practices around death should be asked about rather than assumed, and this matters particularly in Aboriginal and Torres Strait Islander families and in culturally diverse communities — cross-refer `TODO:link — AU1 Australian health context (unbuilt)`.
+**Voluntary assisted dying is lawful in South Australia** under specific criteria and process — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3.
 
 ---
 
@@ -261,12 +261,12 @@ Comfort-focused care in the preferred place where achievable — **the majority 
 > [!tip] The legal instruments in South Australia
 > **· Advance Care Directive** — the SA document in which a person can record their values and wishes, refuse specified treatments, and **appoint a Substitute Decision-Maker.** A refusal of treatment in a valid ACD is binding.
 > **· Enduring Power of Attorney** — financial and property decisions, and **does NOT cover medical decisions** in South Australia. This is a common misunderstanding among patients and families.
-> The legal framework is set out in [[A10]] 0.3. **This section is about the conversation, which is the part that actually determines whether any of it works.** `UNVERIFIED — SA document names, forms and their legal effect.`
+> The legal framework is set out in [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3. **This section is about the conversation, which is the part that actually determines whether any of it works.** `UNVERIFIED — SA document names, forms and their legal effect.`
 
 > [!danger] The commonest failure is having the conversation too late
 > **Advance care planning done during an acute deterioration, at 2 am, with a family who have never discussed it, is not advance care planning** — it is crisis decision-making.
 > **The right moments are: at diagnosis of a progressive or life-limiting illness · at the mild cognitive impairment or early dementia stage, while capacity is unequivocal · after any significant hospitalisation · when the surprise question is answered "no" · and at routine review in advanced age.**
-> **In dementia particularly, the window closes**, and a conversation deferred is frequently a conversation never had. Cross-refer [[D2]] 0.3 and 0.6.
+> **In dementia particularly, the window closes**, and a conversation deferred is frequently a conversation never had. Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.3 and 0.6.
 
 > [!tip] How to open it
 > Not: "Do you want us to do everything?" — which is meaningless and frightening, and to which the only possible answer is yes.
@@ -291,7 +291,7 @@ Comfort-focused care in the preferred place where achievable — **the majority 
 
 > [!warning] When family disagree with the directive
 > **A valid, applicable advance care directive refusing a treatment is binding, and family cannot override it.** But conflict is common and usually reflects grief, guilt, unrealistic expectations or poor communication rather than genuine dispute.
-> **Escalate to senior clinicians, involve palliative care, offer a second opinion, hold a formal family meeting, and use dispute resolution or the tribunal where genuine conflict persists.** Cross-refer [[A10]] 0.3.
+> **Escalate to senior clinicians, involve palliative care, offer a second opinion, hold a formal family meeting, and use dispute resolution or the tribunal where genuine conflict persists.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3.
 > **The framing that helps most: "what would your mother have said if she were sitting here?"** — substituted judgement, rather than asking the family to choose.
 
 **Ix:** Not applicable. **The process is the intervention.** The practical steps are: **assess capacity, hold the conversation, document it, communicate it, and review it.**
@@ -308,4 +308,4 @@ Support completion of an advance care directive and appointment of a substitute 
 ---
 
 > [!note] Cross-references
-> Delirium in full → [[D2]] 0.2 · Dementia and its trajectory → [[D2]] 0.3 · Comprehensive geriatric assessment, frailty, falls and deprescribing → [[GER1]] · Constipation, faecal impaction and overflow → [[C5]] 0.2 · Faecal incontinence and pelvic floor → [[C5]] 0.6 · Dysphagia and swallow assessment → [[D7]] 0.4 · Refeeding syndrome → [[C2]] 0.7 · Antiemetic selection by mechanism → [[C2]] 0.5 · Capacity, consent, substitute decision-making and death certification → [[A10]] 0.1–0.4 · Elder abuse → [[P3]] · Oncological and palliative symptom control → [[J5]] · Communication skills → [[COM1]] · Cultural safety at end of life → [[AU1]] · Peripheral arterial disease and wound healing → [[B5]] 0.5
+> Delirium in full → [[D2_Altered_Consciousness_and_Cognition]] 0.2 · Dementia and its trajectory → [[D2_Altered_Consciousness_and_Cognition]] 0.3 · Comprehensive geriatric assessment, frailty, falls and deprescribing → [[GER1_Comprehensive_Geriatric_Assessment]] · Constipation, faecal impaction and overflow → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.2 · Faecal incontinence and pelvic floor → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.6 · Dysphagia and swallow assessment → [[D7_Cranial_Nerves_and_Special_Senses]] 0.4 · Refeeding syndrome → [[C2_Nausea_and_Vomiting]] 0.7 · Antiemetic selection by mechanism → [[C2_Nausea_and_Vomiting]] 0.5 · Capacity, consent, substitute decision-making and death certification → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.4 · Elder abuse → `TODO:link — P3 Safeguarding & forensic (unbuilt)` · Oncological and palliative symptom control → `TODO:link — J5 Oncology & palliative (unbuilt)` · Communication skills → `TODO:link — COM1 Communication & consultation skills (unbuilt)` · Cultural safety at end of life → `TODO:link — AU1 Australian health context (unbuilt)` · Peripheral arterial disease and wound healing → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.5

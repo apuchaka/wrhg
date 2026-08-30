@@ -245,9 +245,9 @@ Advise the patient clearly of any restriction that applies now. Document it.
 Assess against the standard, obtain the objective testing required, certify accurately, and comply with any applicable reporting obligation.
 
 ### 0.6.3 Mx – Chronic/long-term
-Review at the interval the standard specifies. For permanent cessation, address the consequences actively — transport alternatives, social isolation, and the depression that not uncommonly follows loss of a licence in an older person. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]] and [[P1]] Fitness Certification.
+Review at the interval the standard specifies. For permanent cessation, address the consequences actively — transport alternatives, social isolation, and the depression that not uncommonly follows loss of a licence in an older person. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]] and `TODO:link — P1 Preventive & occupational health (unbuilt)` Fitness Certification.
 
 ---
 
 > [!note] Cross-references
-> Delirium and reversible causes of incapacity → [[D2]] Altered Consciousness & Cognition · Goals of care in chronic respiratory failure → [[A3]] 0.3 · End-of-life and palliative care → [[J5]] · Safeguarding and mandatory reporting of child abuse → [[P3]] · Occupational health certification → [[P1]] · The deteriorating patient and escalation → [[A1]] 0.1
+> Delirium and reversible causes of incapacity → [[D2_Altered_Consciousness_and_Cognition]] Altered Consciousness & Cognition · Goals of care in chronic respiratory failure → [[A3_Respiratory_Failure__Bronchospasm_and_Hypoxia]] 0.3 · End-of-life and palliative care → `TODO:link — J5 Oncology & palliative (unbuilt)` · Safeguarding and mandatory reporting of child abuse → `TODO:link — P3 Safeguarding & forensic (unbuilt)` · Occupational health certification → `TODO:link — P1 Preventive & occupational health (unbuilt)` · The deteriorating patient and escalation → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.1

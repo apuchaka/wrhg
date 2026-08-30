@@ -31,10 +31,10 @@ conflicts_r1: 0
 **Ix:** Full set of vital signs including respiratory rate counted for a full minute and conscious state (*why:* the escalation decision is made on observations, not on tests, and an estimated respiratory rate is the commonest source of a missed deterioration; *what:* rising RR, widening trend across the chart rather than a single reading). Bedside glucose (*why:* hypoglycaemia is instantly reversible and mimics almost every neurological deterioration; *what:* low value demanding immediate treatment). VBG or ABG with lactate (*why:* separates a compensating patient from one already in anaerobic metabolism, and gives CO₂ which pulse oximetry cannot; *what:* rising lactate, or a rising CO₂ signalling ventilatory failure in a patient who looks merely drowsy). FBC, UEC, CRP (*why:* baseline organ function and infective marker to direct the search for a cause; *what:* new renal impairment, leucocytosis or leucopenia). Blood cultures before antibiotics if infection is plausible (*why:* yield falls sharply once antibiotics are given; *what:* organism and sensitivities). ECG (*why:* arrhythmia and ischaemia are silent causes of deterioration in the elderly and diabetic; *what:* new arrhythmia, ischaemic change). Erect CXR (*why:* pneumonia, pulmonary oedema and pneumothorax are the highest-frequency ward causes of a new oxygen requirement; *what:* consolidation, effusion, upper-lobe diversion, absent lung markings).
 
 ### 0.1.1 Mx – Immediate
-A–E assessment at the bedside before any investigation. Airway patency, oxygen titrated to target saturation, IV access, fluids or vasopressor decision per [[A1]] 0.2 if sepsis is suspected, bedside glucose, and escalation according to local criteria. Escalate *while* assessing, not after — the call is not a failure of your own assessment. Document the trigger, the time, who was called, and the response.
+A–E assessment at the bedside before any investigation. Airway patency, oxygen titrated to target saturation, IV access, fluids or vasopressor decision per [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2 if sepsis is suspected, bedside glucose, and escalation according to local criteria. Escalate *while* assessing, not after — the call is not a failure of your own assessment. Document the trigger, the time, who was called, and the response.
 
 ### 0.1.2 Mx – Definitive
-Directed at the identified cause. The parallel task is a resuscitation-status and goals-of-care conversation if none is documented: deterioration is the point at which an undocumented ceiling of care causes harm in both directions. See [[A10]] Capacity Concern and Treatment Refusal.
+Directed at the identified cause. The parallel task is a resuscitation-status and goals-of-care conversation if none is documented: deterioration is the point at which an undocumented ceiling of care causes harm in both directions. See [[A10_Ethics__Capacity__Consent_and_Certification]] Capacity Concern and Treatment Refusal.
 
 ### 0.1.3 Mx – Chronic/long-term
 Post-event review, incident documentation, and where relevant an ICU outreach follow-up. Structured handover using ISBAR at every transition of care.
@@ -67,7 +67,7 @@ Resuscitation and empirical antibiotics run in parallel, not in sequence. The co
 Fluid resuscitation is given in boluses with reassessment after each. In cardiogenic pulmonary oedema, end-stage renal failure and severe malnutrition, the volume that helps a young septic patient will drown a frail one — reassess after every bolus rather than prescribing a total.
 
 ### 0.2.2 Mx – Definitive
-**Source control is the definitive treatment.** Drain the collection, remove the infected line, relieve the obstructed ureter, debride the necrotic tissue. Antibiotics without source control fail. Escalate to ICU for vasopressor support if hypotension persists after fluid resuscitation — see [[A1]] 0.3 for phenotype-specific management and cross-refer [[Shock_Phenotypes]].
+**Source control is the definitive treatment.** Drain the collection, remove the infected line, relieve the obstructed ureter, debride the necrotic tissue. Antibiotics without source control fail. Escalate to ICU for vasopressor support if hypotension persists after fluid resuscitation — see [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.3 for phenotype-specific management and cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]].
 
 ### 0.2.3 Mx – Chronic/long-term
 De-escalate antibiotics on culture results and reassess duration daily. Post-sepsis syndrome — persistent fatigue, cognitive impairment, functional decline — is common and under-recognised; flag it for the GP in the discharge summary.
@@ -100,7 +100,7 @@ De-escalate antibiotics on culture results and reassess duration daily. Post-sep
 **Ix:** Source-directed cultures before antibiotics (*why:* the empirical regimen differs by source and de-escalation depends on isolate; *what:* organism and sensitivities). Urinalysis and urine culture (*why:* commonest occult source in the elderly; *what:* pyuria, nitrites, growth — noting that asymptomatic bacteriuria is common in the catheterised elderly and does not by itself establish the source). LFT and biliary ultrasound where RUQ pain or jaundice (*why:* cholangitis requires drainage, not just antibiotics; *what:* duct dilatation, stone, thickened gallbladder wall). CT abdomen/pelvis with contrast where an intra-abdominal source is suspected (*why:* identifies the collection that must be drained; *what:* abscess, free gas, ischaemic bowel). Skin marking of the erythema border with time noted (*why:* rate of spread distinguishes cellulitis from a necrotising process and is free; *what:* advancing margin over minutes to hours).
 
 ### 0.3.1 Mx – Immediate
-As per 0.2.1, plus early surgical or interventional radiology referral where the phenotype implies drainage. Cross-refer [[A1]] 0.2 and the existing framework entries for Adult Sepsis, Paediatric Sepsis, Meningococcal Sepsis, Urosepsis and Biliary Sepsis rather than restating them.
+As per 0.2.1, plus early surgical or interventional radiology referral where the phenotype implies drainage. Cross-refer [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2 and the existing framework entries for Adult Sepsis, Paediatric Sepsis, Meningococcal Sepsis, Urosepsis and Biliary Sepsis rather than restating them.
 
 ### 0.3.2 Mx – Definitive
 Source control as per the table. Where the source is genuinely unclear and the patient is deteriorating, this is an argument for earlier cross-sectional imaging, not for waiting.
@@ -161,7 +161,7 @@ Neurological prognostication is deferred and is not an intern task. Family commu
 A–E, oxygen, IV access, fluid resuscitation, and **call the surgical team that performed the procedure.** They know the specific complications of that operation and whether return to theatre is indicated. Do not work the patient up in isolation before informing them.
 
 ### 0.5.2 Mx – Definitive
-Return to theatre for bleeding or leak, drainage of collection, or medical management of the identified cause. Cross-refer [[A1]] 0.2 where the picture is septic.
+Return to theatre for bleeding or leak, drainage of collection, or medical management of the identified cause. Cross-refer [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2 where the picture is septic.
 
 ### 0.5.3 Mx – Chronic/long-term
 VTE prophylaxis review, early mobilisation, and clear documentation of the complication for the discharge summary and the operating surgeon.
@@ -190,7 +190,7 @@ VTE prophylaxis review, early mobilisation, and clear documentation of the compl
 A–E with attention to airway patency and ventilation. Oxygen, positioning, and consider airway adjunct or bag-mask support if ventilation is inadequate. Bedside glucose in every case. Consider reversal only where the agent is known and the clinical picture fits — with the caveats above. Escalate to the anaesthetic or ICU team.
 
 ### 0.6.2 Mx – Definitive
-Treat the identified cause. Where hypercapnia is the driver, ventilatory support rather than reversal is the answer. Where imaging shows an intracranial event, this becomes a stroke or neurosurgical pathway — see [[04_Neurology]] and [[A1]] 0.1.
+Treat the identified cause. Where hypercapnia is the driver, ventilatory support rather than reversal is the answer. Where imaging shows an intracranial event, this becomes a stroke or neurosurgical pathway — see [[04_Neurology]] and [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.1.
 
 ### 0.6.3 Mx – Chronic/long-term
 Document the event and the agents involved. Flag reduced sedative requirement for future procedures, particularly in the elderly and the renally impaired, and update the anaesthetic alert on the record.

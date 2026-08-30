@@ -36,16 +36,16 @@ conflicts_r1: 0
 > [!danger] Get an ECG in every first seizure
 > **Cardiac syncope — particularly from long QT syndrome, Brugada syndrome, or a tachyarrhythmia — causes cerebral hypoperfusion that can produce convulsive movements**, and is regularly misdiagnosed as epilepsy.
 > The consequence is serious in both directions: the patient is started on an antiseizure medication that does nothing, and the arrhythmia that will kill them goes untreated.
-> **A 12-lead ECG in every first seizure is cheap, quick, and occasionally life-saving.** Ask specifically about a family history of sudden death, drowning, or unexplained single-vehicle accidents. Cross-refer [[B4]] 0.1–0.2.
+> **A 12-lead ECG in every first seizure is cheap, quick, and occasionally life-saving.** Ask specifically about a family history of sudden death, drowning, or unexplained single-vehicle accidents. Cross-refer [[B4_Syncope__Collapse_and_Hypotension]] 0.1–0.2.
 
 > [!tip] Seizure versus syncope — the discriminators worth knowing
-> The full comparison is in [[B4]] 0.1. The two features that genuinely separate them are **a lateral tongue bite** and **prolonged postictal confusion.**
+> The full comparison is in [[B4_Syncope__Collapse_and_Hypotension]] 0.1. The two features that genuinely separate them are **a lateral tongue bite** and **prolonged postictal confusion.**
 > **Brief myoclonic jerking occurs in ordinary syncope (convulsive syncope) and does not make it a seizure**, and **incontinence occurs in both and discriminates poorly.**
-> **Todd paresis** — transient focal weakness after a seizure, resolving over minutes to hours — is a stroke mimic and a clue that a seizure occurred. Cross-refer [[D3]] 0.5.
+> **Todd paresis** — transient focal weakness after a seizure, resolving over minutes to hours — is a stroke mimic and a clue that a seizure occurred. Cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.5.
 
 > [!danger] The safety and driving conversation is part of the first-seizure consultation
 > **This is examinable and it is a genuine duty.**
-> **Driving** — the patient must not drive, must notify the licensing authority, and there is a defined non-driving period which **differs for provoked and unprovoked seizures and for private versus commercial licences.** **Advise them, document that you advised them, and note that South Australia has particular medical reporting provisions.** Cross-refer [[A10]] 0.6. `UNVERIFIED — all non-driving periods, from Austroads Assessing Fitness to Drive.`
+> **Driving** — the patient must not drive, must notify the licensing authority, and there is a defined non-driving period which **differs for provoked and unprovoked seizures and for private versus commercial licences.** **Advise them, document that you advised them, and note that South Australia has particular medical reporting provisions.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6. `UNVERIFIED — all non-driving periods, from Austroads Assessing Fitness to Drive.`
 > **Other safety advice, which is routinely omitted:**
 > **· Showers rather than baths** — drowning in a bath is a leading cause of seizure-related death.
 > **· Do not swim alone.**
@@ -57,7 +57,7 @@ conflicts_r1: 0
 
 **S/Smx:** A careful account of the event from the patient **and a witness** — prodrome, aura, onset, motor features, duration, colour, tongue biting, incontinence, injury, and the nature and duration of recovery. Then a search for provoking factors and for focal features suggesting a structural lesion.
 
-**Ix:** **Bedside glucose** (*why:* hypoglycaemia both causes seizures and is instantly reversible; *what:* low glucose). **UEC with sodium, calcium and magnesium** (*why:* electrolyte-provoked seizures require correction rather than antiseizure medication; *what:* hyponatraemia, hypocalcaemia, hypomagnesaemia). **ECG** (*why:* the cardiac mimic, per the danger box; *what:* long QT, Brugada pattern, arrhythmia). FBC, LFT, CRP (*why:* infection, hepatic and alcohol-related causes; *what:* derangement). Toxicology and alcohol history (*why:* withdrawal and drug-provoked seizures; *what:* substances, timing of last drink). **CT brain acutely** (*why:* excludes haemorrhage, large mass and trauma in the emergency setting; *what:* bleed, mass, midline shift). **MRI brain — the definitive structural investigation** (*why:* far more sensitive than CT for the epileptogenic lesions that matter — **mesial temporal sclerosis, focal cortical dysplasia, cavernoma, low-grade tumour** — which CT reliably misses; *what:* structural epileptogenic lesion). **EEG** (*why:* supports the diagnosis, classifies the seizure type, and identifies a high recurrence risk that may justify treatment after a single seizure; *what:* epileptiform discharges — noting **a normal EEG does not exclude epilepsy** and an abnormal one does not by itself diagnose it, and **yield is higher if performed within the first day or two, and with sleep deprivation**). Lumbar puncture where infection is suspected (*why:* meningitis and encephalitis; *what:* CSF profile — cross-refer [[D1]] 0.5). Pregnancy test (*why:* eclampsia is treated with magnesium rather than a benzodiazepine, and it changes the whole pathway; *what:* positive).
+**Ix:** **Bedside glucose** (*why:* hypoglycaemia both causes seizures and is instantly reversible; *what:* low glucose). **UEC with sodium, calcium and magnesium** (*why:* electrolyte-provoked seizures require correction rather than antiseizure medication; *what:* hyponatraemia, hypocalcaemia, hypomagnesaemia). **ECG** (*why:* the cardiac mimic, per the danger box; *what:* long QT, Brugada pattern, arrhythmia). FBC, LFT, CRP (*why:* infection, hepatic and alcohol-related causes; *what:* derangement). Toxicology and alcohol history (*why:* withdrawal and drug-provoked seizures; *what:* substances, timing of last drink). **CT brain acutely** (*why:* excludes haemorrhage, large mass and trauma in the emergency setting; *what:* bleed, mass, midline shift). **MRI brain — the definitive structural investigation** (*why:* far more sensitive than CT for the epileptogenic lesions that matter — **mesial temporal sclerosis, focal cortical dysplasia, cavernoma, low-grade tumour** — which CT reliably misses; *what:* structural epileptogenic lesion). **EEG** (*why:* supports the diagnosis, classifies the seizure type, and identifies a high recurrence risk that may justify treatment after a single seizure; *what:* epileptiform discharges — noting **a normal EEG does not exclude epilepsy** and an abnormal one does not by itself diagnose it, and **yield is higher if performed within the first day or two, and with sleep deprivation**). Lumbar puncture where infection is suspected (*why:* meningitis and encephalitis; *what:* CSF profile — cross-refer [[D1_Headache_and_Meningism]] 0.5). Pregnancy test (*why:* eclampsia is treated with magnesium rather than a benzodiazepine, and it changes the whole pathway; *what:* positive).
 
 ### 0.1.1 Mx – Immediate
 Protect from injury, recovery position, oxygen, glucose. Treat the provoking cause. Terminate a prolonged seizure per 0.2.
@@ -89,8 +89,8 @@ The safety and driving conversation, documented. Neurology follow-up. Epilepsy n
 > **Call for help early.** This is not a condition to work through alone.
 
 > [!warning] The specific antidotes and situations
-> **· Hypoglycaemia** — glucose, with **thiamine first or concurrently** in the alcohol-dependent or malnourished. Cross-refer [[C2]] 0.7.
-> **· Eclampsia — magnesium sulfate is the treatment, not a benzodiazepine.** Cross-refer [[O2]].
+> **· Hypoglycaemia** — glucose, with **thiamine first or concurrently** in the alcohol-dependent or malnourished. Cross-refer [[C2_Nausea_and_Vomiting]] 0.7.
+> **· Eclampsia — magnesium sulfate is the treatment, not a benzodiazepine.** Cross-refer `TODO:link — O2 Later pregnancy & fetal (unbuilt)`.
 > **· Isoniazid overdose — pyridoxine.**
 > **· Neonatal seizures — pyridoxine-dependent epilepsy** is a rare but important consideration.
 > **· Alcohol withdrawal — benzodiazepines**, and treat the withdrawal syndrome rather than just the seizure.
@@ -98,7 +98,7 @@ The safety and driving conversation, documented. Neurology follow-up. Epilepsy n
 
 > [!danger] Non-convulsive status epilepticus
 > **Consider it in any patient who does not return to baseline consciousness after a convulsive seizure**, and in unexplained persistent altered mental state.
-> **The diagnosis requires an EEG**, and it is missed because nobody orders one. Cross-refer [[D2]] 0.1.
+> **The diagnosis requires an EEG**, and it is missed because nobody orders one. Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.1.
 
 **Ix:** **Bedside glucose immediately** (*why:* reversible and takes seconds; *what:* hypoglycaemia). UEC, calcium, magnesium, VBG (*why:* metabolic provocation and the lactic acidosis of prolonged seizure, which resolves rapidly and should not be over-treated; *what:* derangement). **Antiseizure medication levels in a known epileptic** (*why:* non-adherence or sub-therapeutic levels is the commonest precipitant of status in established epilepsy; *what:* subtherapeutic level). Toxicology (*why:* drug-provoked seizures; *what:* substances). CT brain (*why:* new structural cause; *what:* haemorrhage, mass). **Continuous EEG in refractory or non-convulsive status** (*why:* the only way to confirm seizure termination in a paralysed and anaesthetised patient; *what:* ongoing electrographic seizures). CK (*why:* rhabdomyolysis after prolonged convulsion; *what:* elevation). Pregnancy test (*why:* eclampsia; *what:* positive).
 
@@ -126,11 +126,11 @@ Review adherence and the medication regimen. Address the precipitant. Provide a 
 
 > [!tip] The adverse effects and interactions that matter clinically
 > **Levetiracetam** — **behavioural and mood effects: irritability, aggression, depression.** Ask about it specifically at follow-up, because patients and families often do not connect it to the drug.
-> **Lamotrigine** — **serious rash including Stevens-Johnson syndrome, which is why titration must be slow.** Cross-refer [[A5]] 0.6. **Oestrogen-containing contraception lowers lamotrigine levels substantially**, so starting or stopping the pill can cause breakthrough seizures or toxicity.
+> **Lamotrigine** — **serious rash including Stevens-Johnson syndrome, which is why titration must be slow.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6. **Oestrogen-containing contraception lowers lamotrigine levels substantially**, so starting or stopping the pill can cause breakthrough seizures or toxicity.
 > **Carbamazepine** — enzyme inducer, **hyponatraemia**, and the **HLA-B\*1502 association with severe cutaneous reactions in some Asian populations**, where pre-emptive testing is recommended.
 > **Phenytoin** — **zero-order kinetics**, so small dose increases produce large level increases; gum hypertrophy, ataxia, nystagmus, and it is an enzyme inducer.
 > **Topiramate** — cognitive slowing, weight loss, renal stones, and **teratogenicity.**
-> **Enzyme-inducing antiseizure medications (carbamazepine, phenytoin, phenobarbitone, topiramate at higher doses) reduce the efficacy of hormonal contraception** — **this counselling point is repeatedly missed and results in unplanned pregnancies on teratogenic drugs.** Cross-refer [[O6]].
+> **Enzyme-inducing antiseizure medications (carbamazepine, phenytoin, phenobarbitone, topiramate at higher doses) reduce the efficacy of hormonal contraception** — **this counselling point is repeatedly missed and results in unplanned pregnancies on teratogenic drugs.** Cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`.
 
 > [!warning] Pregnancy and preconception
 > **Plan ahead.** Preconception counselling, **high-dose folate**, review of the regimen toward the least teratogenic effective option, and **monotherapy at the lowest effective dose.**
@@ -181,11 +181,11 @@ Annual review including adherence, side effects, contraception, preconception pl
 > **Autosomal recessive copper accumulation, treatable, and devastating if missed.**
 > Presents with tremor (classically a proximal **"wing-beating"** tremor), dystonia, parkinsonism, ataxia, **psychiatric or behavioural change**, and **liver disease.**
 > **Kayser-Fleischer rings** on slit lamp examination, **low serum caeruloplasmin**, raised urinary copper.
-> **Screen for it in any young person with an unexplained movement disorder, unexplained liver disease, or new psychiatric illness with neurological signs.** Cross-refer [[C3]] 0.4.
+> **Screen for it in any young person with an unexplained movement disorder, unexplained liver disease, or new psychiatric illness with neurological signs.** Cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.4.
 
 > [!tip] Functional tremor
 > **Variable frequency and amplitude, distractibility (it diminishes or stops when attention is diverted to a complex task in another limb), and entrainment (the tremor frequency shifts to match a rhythm the patient is asked to tap with the other hand).**
-> These are **positive signs**, and functional tremor is a positive diagnosis, not a diagnosis of exclusion. Cross-refer [[N6]].
+> These are **positive signs**, and functional tremor is a positive diagnosis, not a diagnosis of exclusion. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
 
 **Ix:** **Medication review and TFTs** (*why:* enhanced physiological tremor is the commonest and most reversible cause; *what:* culprit drug, thyrotoxicosis). Glucose, UEC, LFT (*why:* metabolic causes; *what:* derangement). **Caeruloplasmin, urinary copper and slit lamp examination in anyone under 40** (*why:* Wilson disease is treatable and missing it is catastrophic; *what:* low caeruloplasmin, KF rings). MRI brain where there are cerebellar signs, asymmetry, or an atypical presentation (*why:* structural cerebellar or basal ganglia pathology; *what:* lesion). **DaTscan (dopamine transporter imaging)** where the distinction between essential tremor and parkinsonism is genuinely unclear (*why:* it distinguishes a presynaptic dopaminergic deficit from essential and drug-induced tremor; *what:* reduced striatal uptake — `UNVERIFIED — availability and funding in Australia`).
 
@@ -213,7 +213,7 @@ Occupational therapy and adaptive equipment — weighted cutlery, adapted utensi
 > **· Symmetric onset · early falls (within the first year) · poor or absent levodopa response · rapid progression**
 > **· Early autonomic failure — postural hypotension, urinary dysfunction, erectile dysfunction → multiple system atrophy**
 > **· Vertical gaze palsy, particularly downgaze, with early falls (often backwards) → progressive supranuclear palsy**
-> **· Early dementia, fluctuating cognition and visual hallucinations → dementia with Lewy bodies** — cross-refer [[D2]] 0.3
+> **· Early dementia, fluctuating cognition and visual hallucinations → dementia with Lewy bodies** — cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.3
 > **· Alien limb phenomenon, marked asymmetry, apraxia → corticobasal degeneration**
 > **· Cerebellar signs → MSA-C**
 > These carry a worse prognosis and respond poorly to levodopa, so the distinction changes both counselling and expectations.
@@ -221,7 +221,7 @@ Occupational therapy and adaptive equipment — weighted cutlery, adapted utensi
 > [!danger] Drug-induced parkinsonism — common, reversible, and repeatedly missed
 > **Dopamine antagonists cause parkinsonism**: antipsychotics (typical more than atypical), and — the ones most often overlooked — **metoclopramide and prochlorperazine**, which are prescribed liberally as antiemetics, often long-term, in exactly the older population who then present with "Parkinson disease".
 > **It is characteristically symmetric and there is usually a rest tremor.** **It may take many months to resolve after the drug is stopped**, so a lack of immediate improvement does not exclude it.
-> **Always review the drug chart before diagnosing Parkinson disease.** Cross-refer [[C2]] 0.5.
+> **Always review the drug chart before diagnosing Parkinson disease.** Cross-refer [[C2_Nausea_and_Vomiting]] 0.5.
 
 > [!danger] Never abruptly stop dopaminergic medication, and give it ON TIME
 > **Abrupt withdrawal of levodopa or a dopamine agonist can precipitate an akinetic crisis or a neuroleptic malignant-like syndrome**, with rigidity, hyperthermia, autonomic instability and rhabdomyolysis.
@@ -258,7 +258,7 @@ Occupational therapy and adaptive equipment — weighted cutlery, adapted utensi
 > **Brief, irregular, unpredictable, flowing movements that appear to move randomly from one body part to another**, often incorporated into semi-purposeful movements by the patient.
 > **Causes:**
 > **· Huntington disease** — autosomal dominant CAG trinucleotide repeat expansion with **anticipation**; chorea with **prominent psychiatric and cognitive features**, which often precede the movement disorder. **Genetic counselling before testing is essential** and predictive testing has major implications for the family.
-> **· Sydenham chorea** — **post-streptococcal, a major criterion of acute rheumatic fever**, and therefore of particular relevance in Aboriginal and Torres Strait Islander populations in Australia. Often with emotional lability and obsessive features. Cross-refer [[F0.5]] 0.10.
+> **· Sydenham chorea** — **post-streptococcal, a major criterion of acute rheumatic fever**, and therefore of particular relevance in Aboriginal and Torres Strait Islander populations in Australia. Often with emotional lability and obsessive features. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10.
 > **· Drug-induced** — levodopa-induced dyskinesia, and **tardive dyskinesia** from dopamine blockade.
 > **· Systemic** — **SLE and antiphospholipid syndrome**, thyrotoxicosis, polycythaemia, hypoglycaemia, hyperglycaemia (hemichorea-hemiballismus in non-ketotic hyperglycaemia), and **chorea gravidarum** in pregnancy.
 > **· Vascular** — a subthalamic nucleus lesion causing **hemiballismus**, which is violent proximal flinging chorea.
@@ -267,7 +267,7 @@ Occupational therapy and adaptive equipment — weighted cutlery, adapted utensi
 > **Sustained or intermittent muscle contractions causing abnormal, often twisting postures and repetitive movements.**
 > **Focal dystonias** are the commonest: **cervical dystonia (spasmodic torticollis)**, blepharospasm, writer's cramp, and laryngeal dystonia.
 > **The "sensory trick" (geste antagoniste)** — a light touch to the chin or cheek that dramatically relieves cervical dystonia — is characteristic and diagnostically useful, and its presence supports dystonia over a functional or musculoskeletal cause.
-> **Acute dystonic reaction** — from **metoclopramide, prochlorperazine or antipsychotics**, with oculogyric crisis, torticollis and trismus, typically in young patients. **Responds within minutes to an anticholinergic (benztropine)** and is frequently misdiagnosed as a seizure, a psychiatric episode or tetanus. Cross-refer [[C2]] 0.5.
+> **Acute dystonic reaction** — from **metoclopramide, prochlorperazine or antipsychotics**, with oculogyric crisis, torticollis and trismus, typically in young patients. **Responds within minutes to an anticholinergic (benztropine)** and is frequently misdiagnosed as a seizure, a psychiatric episode or tetanus. Cross-refer [[C2_Nausea_and_Vomiting]] 0.5.
 > **Botulinum toxin is the treatment of choice for focal dystonia.**
 
 > [!tip] Tics
@@ -310,10 +310,10 @@ Genetic counselling and family support in Huntington disease. **Secondary antibi
 > **· Serotonin toxicity** — **rigidity greater in the LOWER limbs, with HYPERREFLEXIA and CLONUS**, developing over **hours** after a serotonergic combination.
 > **· Malignant hyperthermia** — during anaesthesia, with masseter spasm and a **rising end-tidal CO₂ as the earliest sign.**
 > **· Tetanus** — trismus, risus sardonicus, opisthotonos, with a wound and incomplete immunisation.
-> The full comparison table is in [[A6]] 0.3.
+> The full comparison table is in [[A6_Thermal_and_Environmental_Injury]] 0.3.
 
 > [!tip] The other causes of rigidity
-> **Catatonia** — with waxy flexibility, mutism, negativism, posturing and echophenomena. **Responds to benzodiazepines**, and may be missed and mistaken for a neurological or metabolic cause. Cross-refer [[N3]].
+> **Catatonia** — with waxy flexibility, mutism, negativism, posturing and echophenomena. **Responds to benzodiazepines**, and may be missed and mistaken for a neurological or metabolic cause. Cross-refer `TODO:link — N3 Psychosis (unbuilt)`.
 > **Stiff person syndrome** — progressive axial and limb rigidity with painful spasms, associated with anti-GAD antibodies and other autoimmune disease.
 > **Drug-induced parkinsonism** — see 0.5.
 > **Severe hypocalcaemia and tetany** — with carpopedal spasm, Chvostek and Trousseau signs.
@@ -321,7 +321,7 @@ Genetic counselling and family support in Huntington disease. **Secondary antibi
 **Ix:** **CK** (*why:* markedly raised in NMS and in rhabdomyolysis from sustained rigidity; *what:* elevation). Core temperature (*why:* the hyperthermic syndromes; *what:* raised). **Full medication and anaesthetic timeline** (*why:* the interval since drug exposure discriminates between the syndromes — days for NMS, hours for serotonin toxicity, minutes for malignant hyperthermia; *what:* agent and timing). **Neurological examination for clonus and reflexes** (*why:* hyperreflexia with clonus points to serotonin toxicity rather than NMS; *what:* the pattern). UEC, calcium, magnesium (*why:* metabolic causes and the consequences of rhabdomyolysis; *what:* derangement). Tetanus immunisation history and wound examination (*why:* tetanus; *what:* portal of entry).
 
 ### 0.7.1 Mx – Immediate
-Cease the causative agent. Cooling, benzodiazepines, fluid resuscitation. **Dantrolene for malignant hyperthermia. Reinstate dopaminergic therapy where NMS follows its withdrawal.** Cross-refer [[A6]] 0.3.
+Cease the causative agent. Cooling, benzodiazepines, fluid resuscitation. **Dantrolene for malignant hyperthermia. Reinstate dopaminergic therapy where NMS follows its withdrawal.** Cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.3.
 
 ### 0.7.2 Mx – Definitive
 Syndrome-specific, with ICU support.
@@ -332,4 +332,4 @@ Syndrome-specific, with ICU support.
 ---
 
 > [!note] Cross-references
-> Syncope versus seizure → [[B4]] 0.1 · Long QT and arrhythmic causes → [[B3]] 0.3 · Todd paresis and stroke mimics → [[D3]] 0.5 · Non-convulsive status and reduced consciousness → [[D2]] 0.1 · Lewy body dementia and neuroleptic sensitivity → [[D2]] 0.3 · Gait in parkinsonism → [[D5]] 0.5 · Drug-induced hyperthermic syndromes → [[A6]] 0.3 · Acute dystonic reactions from antiemetics → [[C2]] 0.5 · Wilson disease and liver involvement → [[C3]] 0.4 · Acute rheumatic fever and Sydenham chorea → [[F0.5]] 0.10 · Eclampsia and magnesium → [[O2]] · Contraception and enzyme-inducing drugs → [[O6]] · Driving after seizure → [[A10]] 0.6 · Catatonia → [[N3]]
+> Syncope versus seizure → [[B4_Syncope__Collapse_and_Hypotension]] 0.1 · Long QT and arrhythmic causes → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3 · Todd paresis and stroke mimics → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.5 · Non-convulsive status and reduced consciousness → [[D2_Altered_Consciousness_and_Cognition]] 0.1 · Lewy body dementia and neuroleptic sensitivity → [[D2_Altered_Consciousness_and_Cognition]] 0.3 · Gait in parkinsonism → [[D5_Dizziness__Vertigo_and_Gait]] 0.5 · Drug-induced hyperthermic syndromes → [[A6_Thermal_and_Environmental_Injury]] 0.3 · Acute dystonic reactions from antiemetics → [[C2_Nausea_and_Vomiting]] 0.5 · Wilson disease and liver involvement → [[C3_Jaundice_and_Liver_Disease]] 0.4 · Acute rheumatic fever and Sydenham chorea → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 · Eclampsia and magnesium → `TODO:link — O2 Later pregnancy & fetal (unbuilt)` · Contraception and enzyme-inducing drugs → `TODO:link — O6 Sexual & reproductive health (unbuilt)` · Driving after seizure → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 · Catatonia → `TODO:link — N3 Psychosis (unbuilt)`
