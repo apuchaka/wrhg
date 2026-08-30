@@ -444,6 +444,15 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
 
 **Overnight protocol.**
 
+- **Rebase onto the PR's DECLARED BASE, never onto `main` by default — and verify that
+  base actually contains the prior steps before rebasing.** On 2026-08-30 `main` was six
+  commits behind the integration branch: it held Step 26 but **not Step 17**, which had
+  merged into `claude/next-6gvrdi` only. Rebasing the four open step branches onto `main`,
+  as instructed, would have **silently dropped Step 17's four fixes out from under them** —
+  the branches would have rebased cleanly, reviewed cleanly, and merged a corpus with the
+  UK-localisation work removed. Nothing downstream detects a change that is simply absent.
+  Check with `git log --oneline main..<base>` before every rebase; if it is non-empty, the
+  base is ahead and `main` is the wrong target.
 - **One step per branch, one PR each.** Never one combined PR — morning review has to be
   able to reject one step without unpicking the others.
 - **If a HALT fires:** stop that step, leave its branch unmerged, record what happened in
