@@ -37,6 +37,10 @@ RE_HEADING = re.compile(r"^(#{2,3})\s+(.*)$")
 
 RE_UNVERIFIED = re.compile(r"`UNVERIFIED\s*[—\-–:]\s*(.+?)`")
 RE_VERIFIED_TOK = re.compile(r"`VERIFIED\s+(.+?)`")
+# A backticked token opening with a marker word. Used by lint to find markers that were
+# written but do not parse — see cmd_lint. Deliberately permissive: it matches the
+# ATTEMPT, so lint can compare it against what actually parses.
+RE_MARKER_SPAN = re.compile(r"`(UNVERIFIED|VERIFIED)\b([^`]*)`")
 RE_CONFLICT_HEAD = re.compile(
     r"^>\s*\[!fail\]-?\s*CONFLICT\s+(CF-\d+)\s*(?:[—\-–]\s*(.*?))?\s*$"
 )
@@ -791,6 +795,31 @@ def cmd_lint(args):
                     problems.append(
                         f"{r} L{i+1}: [!check] callout missing mandatory "
                         f"`NOT checked:` line"
+                    )
+
+            # Malformed inline markers. A marker that is WRITTEN but does not PARSE is
+            # the worst failure shape in this design: the file looks annotated, the
+            # verification queue never hears about it, and nothing raises an error.
+            # Found 2026-08-31 — two markers written as `UNVERIFIED **R1** — ...`, where
+            # RE_UNVERIFIED requires the separator to follow the word immediately. Both
+            # silently contributed nothing.
+            #
+            # The bare token `UNVERIFIED` is EXEMPT: 36 Corpus B files and one Corpus C
+            # file use it in prose to refer to the convention itself ("carries an
+            # `UNVERIFIED` marker naming what to check"), which is not an attempted
+            # marker. The failure shape is content present but unparseable.
+            for m in RE_MARKER_SPAN.finditer(line):
+                word, rest = m.group(1), m.group(2)
+                if not rest.strip():
+                    continue                      # bare prose reference, not a marker
+                span = m.group(0)
+                ok = (RE_UNVERIFIED.search(span) if word == "UNVERIFIED"
+                      else RE_VERIFIED_TOK.search(span))
+                if not ok:
+                    problems.append(
+                        f"{r} L{i+1}: MALFORMED {word} marker — written but does not "
+                        f"parse, so it contributes nothing to the verification queue: "
+                        f"{span[:80]}"
                     )
 
         # unmarked doses in non-verified files
