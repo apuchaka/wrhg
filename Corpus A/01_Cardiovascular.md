@@ -294,7 +294,7 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 > **What the bleeding score is actually for: identifying what you can modify.** Uncontrolled hypertension, concurrent antiplatelets without a current indication, NSAIDs, hazardous alcohol use, and a correctable anaemia are the actionable items. Score it, fix what is fixable, then anticoagulate anyway unless there is an absolute contraindication — and record that reasoning, because the decision looks wrong to anyone reading the numbers alone.
 
 **Anticoagulation:** all patients — use CHA₂DS₂-VASc for stroke risk and ORBIT for bleeding risk.
-- **CHA₂DS₂-VASc** ≥1 (male) or ≥2 (female): DOAC indefinitely. *(This threshold is the stroke score, not the bleeding score above it.)*
+- **CHA₂DS₂-VASc** ≥1 (male) or ≥2 (female): DOAC indefinitely. `UNVERIFIED — **R1** whether current Australian practice uses CHA₂DS₂-VASc or the newer CHA₂DS₂-VA, which REMOVES SEX as a criterion and would make this sex-split threshold obsolete. Corpus C (NEW_Exam_Manoeuvres_and_Procedures) writes "CHA₂DS₂-VA/VASc", naming both. Check against the Heart Foundation and Stroke Foundation, both open.` *(This threshold is the stroke score, not the bleeding score above it.)*
 - Warfarin only if mechanical heart valves or severe mitral stenosis
 - DOAC/warfarin also indicated for stroke/TIA + AF
 
