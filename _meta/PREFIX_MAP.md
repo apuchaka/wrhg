@@ -9,7 +9,12 @@ Measured 2026-08-30 against `00_BUILD_QUEUE.md` (v1), `00_BUILD_QUEUE_v2.md` (v2
 
 ## The rename went P2 → GER, not GER → P2
 
-> [!danger] **Corrected finding.** The working assumption was that `GER` is the *old* geriatrics
+> [!danger] **Recorded in the direction MEASURED, not the direction instructed.** The
+> instruction given to this session was *"GER is the OLD geriatrics prefix, superseded by P2"*.
+> **That instruction was wrong**, and is recorded here as wrong so a later session reading the
+> conversation does not re-invert it. The measurement below is what the two queue files say.
+>
+> The working assumption was that `GER` is the *old* geriatrics
 > prefix superseded by `P2`. **It is the other way round.**
 >
 > - `P2. Geriatric assessment & frailty` appears **only in v1** (`00_BUILD_QUEUE.md` line 127).
