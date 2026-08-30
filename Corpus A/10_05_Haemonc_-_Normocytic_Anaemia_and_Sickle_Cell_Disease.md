@@ -1,6 +1,10 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.05 Normocytic anaemia (non-haemolytic and haemolytic), Sickle cell disease
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Sickle cell disease

@@ -1,6 +1,10 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.03 Childhood viral exanthems - Measles, Mumps, Rubella, Erythema infectiosum, HFMD, Roseola infantum, Chickenpox
+trust: inherited
+population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!note] Fuller detail on measles, mumps, rubella, chickenpox, and hand, foot and mouth disease is also filed under Infectious Disease — see [[08_05-06_Infectious_Disease_-_Viral_Infections]] and [[09_07_Dermatology_-_Chickenpox__Shingles__Pityriasis_Rosea__Hidradenitis_Suppurativa]]; this file captures the paediatric-specific presentation notes from the source.

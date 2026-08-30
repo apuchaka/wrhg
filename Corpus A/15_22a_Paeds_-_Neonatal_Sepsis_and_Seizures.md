@@ -1,6 +1,10 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.22 Neonates - Neonatal sepsis, Neonatal seizures
+trust: inherited
+population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!note] A neonate refers to an infant in the first 28 days of life.

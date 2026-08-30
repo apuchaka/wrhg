@@ -1,6 +1,10 @@
 ---
 block: Build Queue v2
 source: bl.md coverage report, re-ordered against the study schedule
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!warning] This is a queue, not clinical content

@@ -1,6 +1,10 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.04 Anaemia - DDx overview, iron studies, microcytic anaemia
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!info] Definition: anaemia = Hb <120 g/L in non-pregnant females; Hb <130 g/L in males.

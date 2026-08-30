@@ -1,6 +1,10 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.04 Asthma in children
+trust: inherited
+population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Asthma in children

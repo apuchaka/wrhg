@@ -1,6 +1,10 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.12 Neurological disorders - Epilepsy syndromes, Status epilepticus
+trust: inherited
+population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Epilepsy — overview

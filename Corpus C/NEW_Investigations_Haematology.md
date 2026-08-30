@@ -2,6 +2,10 @@
 block: NEW build — Investigations & Bedside Tests
 source: Build list 2026-08-30 (data/no_header_build_queue.md)
 status: standalone — not yet cross-referenced into the corpus; BATCHING TEST BATCH 1
+trust: snippet
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # NEW — Investigations: Haematology (anaemia and haemolysis work-up cluster)

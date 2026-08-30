@@ -1,6 +1,10 @@
 ---
 block: Ear Nose and Throat
 source: quackquackmed 13.07 Salivary gland problems, Xerostomia
+trust: inherited
+population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## 0.1 Sialadenitis

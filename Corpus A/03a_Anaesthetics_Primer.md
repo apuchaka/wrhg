@@ -1,6 +1,10 @@
 ---
 block: Anaesthetics / Perioperative Care
 source: quackquackmed 03a Primer on Anaesthetics
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!info] Localisation status (Aug 2026): this primer has been through a full ANZCA-focused localisation pass — see the specific "Verified" notes below for what was checked and changed. The frontmatter `block:` field was also corrected here (was incorrectly tagged "Gastrointestinal" in the source file — this is its own Anaesthetics/Perioperative Care category per the CSV).

@@ -1,6 +1,10 @@
 ---
 block: Gynaecology
 source: quackquackmed 17.07 Vulval Problems, Genital Warts and Herpes, Vulval Carcinoma
+trust: inherited
+population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Pruritus vulvae (vaginal itch)

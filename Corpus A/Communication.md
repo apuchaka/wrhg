@@ -1,6 +1,10 @@
 ---
 block: Shared — Communication / Counselling / Procedural (OSCE)
 source: built from Grind Time CSV task-led rows, routed here per project workflow (not per-system files)
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # 1 Communication / Counselling / Procedural Stations (Template C — task-led)

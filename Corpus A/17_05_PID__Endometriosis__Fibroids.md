@@ -1,6 +1,10 @@
 ---
 block: Gynaecology
 source: quackquackmed 17.05 PID, Endometriosis, Fibroids, Male Subfertility
+trust: inherited
+population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Male subfertility

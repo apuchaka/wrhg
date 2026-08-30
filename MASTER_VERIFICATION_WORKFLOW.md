@@ -364,24 +364,105 @@ L1–L10 ✅. **G1–G9 ✅ 2026-08-29.** **G40–G43 ✅ 2026-08-29** — taken
 
 </details>
 
-### 1.1.9 Phase 5 — Corpus merge (Steps 26–30; B: 37 files, C: 53 files)
+### 1.1.9 Phase 5 — Corpus merge (B: 39 files / 37 clinical, C: 53 files)
 
-Added 2026-08-30. Steps 26–30 handle two corpora that Steps 0–25 do not contemplate.
+Added 2026-08-30, rewritten 2026-08-30 after Step 26 was actually run.
 
-- ⬜ **Step 26** — Provenance and population labelling, all ~240 files (1–2 runs)
-- ⬜ **Step 27** — Verification-scope audit: retrofit `NOT checked:` to every verification box (2–3 runs)
-- ⬜ **Step 28a–f** — Corpus C remediation and integration, 6 × ~10 files (6–8 runs)
-- ⬜ **Step 29 × 37** — Corpus B merge, one file per run:
-  ⬜ C1_Acute_Abdomen · ⬜ C2_Nausea_and_Vomiting · ⬜ C3_Jaundice_and_Liver_Disease ·
-  ⬜ C4_Gastrointestinal_Bleeding · ⬜ C5_Bowel_Habit · ⬜ C6_Dyspepsia · ⬜ C7_Pancreatobiliary ·
-  ⬜ (remaining 30)
-- **Step 30** runs continuously during study, not from this queue.
+**Run order — this is NOT numeric order. `next` reads this list, not any conversation.**
 
-**Priority against the existing queue.** Step 26 is cheap (1–2 runs) and is a prerequisite for
-everything else here, so it ranks above Phase 3/4 re-verification. Steps 28–29 are ~45 runs and
-rank *below* Phase 2 new content on the same reasoning given there: an unbuilt high-yield
-category is a bigger exam-risk gap than consolidating material that already exists in two
-places. **Before MCQ 27 Sept, run Step 26 plus Steps 11 and 17 only.**
+| # | Step | Status |
+|---|---|---|
+| 1 | **Step 26** — provenance and population labelling | ✅ 2026-08-30 — 32 adult / 41 paed / 167 mixed; counters written; the substring defect class fixed |
+| 2 | **Step 17** — UK-localisation sweep (§1.23) | ⬜ **← NEXT** |
+| 3 | **Step 11** — AU drug dosing and product names (§1.17) | ⬜ |
+| — | ───── **pre-MCQ line, 27 Sept. Stop here if time is short.** ───── | |
+| 4 | **Step 28** — Corpus C, all 53 files, one block | ⬜ |
+| 5 | **Step 27** — verification-scope audit, chunked | ⬜ |
+| 6 | **Step 29** — Corpus B, ~12 files/week, **topic-ordered** | ⬜ |
+| — | **Step 30** — adjudication | never queued; continuous during study |
+
+**Why the order is not numeric.**
+
+**Steps 17 and 11 come second and third** because they are cheap, corpus-wide, and fix the
+highest-risk error class available: UK drug names and UK-isms sitting in a corpus that will
+be examined against Australian practice. **17 runs before 11** — 17's term sweep is what
+surfaces the candidates 11 then acts on; running 11 first means running it twice. They are
+**existing steps pulled forward, not new ones** — see §1.23 and §1.17 for what they do;
+nothing about them is restated here.
+
+**Step 28 precedes Step 27** because Corpus C is a reference layer with no topic coupling —
+it can be remediated as one block, in any order, without waiting on anything. Step 27's
+scope audit is chunked and open-ended, and B content merged later can point into C, so C
+wants to be settled first.
+
+**Step 29 is ordered BY STUDY TOPIC, not by filename.** Merge next week's topic this week,
+so conflicts arrive when adjudication is cheapest — while the clinical context is already
+loaded. At ~12 files/week that is **24–48 R1 conflicts a week**, and only topic alignment
+makes that survivable.
+
+> [!warning] The Step 29 list is deliberately reordered every week to track the study
+> schedule. **A future session must not treat it as a fixed sequence** and must not
+> "restore" it to filename order. Read the current week's topic first, then pick the B
+> files that serve it.
+
+**Step 30 never enters the queue.** It is human adjudication during study.
+
+**Priority against the existing queue.** Step 26 is cheap and is a prerequisite for
+everything else here, so it ranks above Phase 3/4 re-verification. Steps 28–29 are ~45 runs
+and rank *below* Phase 2 new content, on the same reasoning given there: an unbuilt
+high-yield category is a bigger exam-risk gap than consolidating material that already
+exists in two places. **Before MCQ 27 Sept, run Step 26 plus Steps 17 and 11 only** — which
+is exactly items 1–3 above, and the reason the pre-MCQ line sits where it does.
+
+---
+
+### 1.1.9.1 Unattended overnight operation
+
+**Default from 2026-08-30: these steps run unattended overnight and are reviewed in the
+morning.** Nobody is awake. A step that stalls waiting for an answer wastes the night.
+
+| Step | Autonomy |
+|---|---|
+| **26 · 17 · 11 · 28 · all scans** | **Unattended.** No approval needed at any point. |
+| **27** | **Proposals only.** Identify every box lacking a `NOT checked:` line and draft the lines into `_meta/PROPOSED_SCOPE_LINES.md`. **Do not write them into the files.** A wrong scope line is worse than a missing one — it converts an unknown into a false assurance. |
+| **29** | **Unattended with one gate.** Merge into **existing** files freely: B content is bounded by `### Added from unverified layer` plus its `SRC:` token, so it is reversible. **STOP only when the vault grep returns nothing and you would CREATE A NEW FILE** — record the proposal in `_meta/merges/PENDING_NEW_FILES.md` with the searches you ran and what each returned, then carry on with the rest of that B file. A duplicate file is the one error no marker makes recoverable: nothing downstream detects it, and it surfaces months later once the two copies have drifted. |
+| **30** | **Never automated.** So is any resolution of a `CONFLICT` block, any edit to a resolution stamp, marking anything `verified`, and any write to `PENDING_GUIDELINE_CHECKS.md`. All of those need a named Australian source. |
+
+> [!danger] **Step 11 under automation — name changes only.**
+> **Renaming a drug is not confirming its regimen.** Every rename carries a marker saying
+> so: `amoxicillin+clavulanate` `` `UNVERIFIED — AU regimen; Therapeutic Guidelines
+> (login). Look up at point of use.` ``
+>
+> **Do not alter, confirm or resolve any dose or regimen.** Those need a login source and
+> are permanently noted, not actionable (§1.8).
+>
+> Check **brand products** too, not just generic names — **EarCalm** and **Otosporin** were
+> UK-market products found sitting in files already localised for Australia.
+>
+> **NO DIGIT IN ANY DOSE FIGURE MAY CHANGE DURING STEP 11.** If one does, something was
+> resolved without a source. Diff the digits before committing.
+
+**Overnight protocol.**
+
+- **One step per branch, one PR each.** Never one combined PR — morning review has to be
+  able to reject one step without unpicking the others.
+- **If a HALT fires:** stop that step, leave its branch unmerged, record what happened in
+  `_meta/OVERNIGHT_REPORT.md`, and **move to the next step in the list**. Do not try to
+  resolve it and do not stall waiting for an answer.
+- **Digit-multiset invariance, per file, on every content-touching step** — not just
+  Step 11. Take `re.findall(r'\d', text)` before and after and require the **lists to be
+  identical**, not merely the same length and not merely "no digit changed". The multiset
+  form catches **transposition** — `250mg`→`520mg`, `0.01`→`0.10` — which a
+  changed/unchanged check and an eyeball diff both miss, and which is exactly the class of
+  error that survives review because the figure still looks plausible. A step that
+  legitimately alters a figure states so and records the before/after explicitly; silence
+  plus a changed multiset is a bug.
+- **Write `_meta/OVERNIGHT_REPORT.md` as you go** — per step: what was examined, raw hits,
+  confirmed, dismissed with reasons, anything halted on. **Record by what was examined, not
+  by what was changed** (Step 17's own method lesson).
+- **Update `_meta/RUN_STATE.md` after every step.**
+- **Rule 7 still applies.** If you find a limitation in your own method, stop *that* step
+  and record it. Do not fix it and carry on.
 
 ---
 
@@ -659,6 +740,40 @@ Australian intern-level practice requires genuine, specific awareness of health 
 
 ## 1.17 Step 11 — AU-specific drug dosing and product-name verification
 
+> [!danger] **A rename map is a list of substance identities. An unsourced entry can
+> silently substitute one drug for another.**
+> `DRUG_NAMING` contained `amphetamine sulfate → dexamfetamine`. **Those are not the same
+> substance.** It sat in the map as though it were a spelling variant, and any automated
+> run would have rewritten one drug's name to another drug's name, in a corpus used to
+> revise prescribing.
+>
+> **The digit tripwire does not catch this.** No digit changes when a substance name is
+> replaced — the dose, route and frequency all survive intact, attached to the wrong drug.
+> Digit-invariance proves a *figure* did not move; it proves nothing about *what the figure
+> is a dose of*.
+>
+> **Only the source-per-entry audit found it.** Asking "which Australian source says this
+> rename is correct?" is what exposed an entry that no source could ever support, because
+> the claim was not a naming claim at all. **Every entry must name a source, and an entry
+> without one is not applied** — not as bureaucracy, but because writing the source down is
+> the step that forces you to check the identity.
+>
+> Two more entries failed the same audit as hedges (`co-trimoxazole`, whose own value read
+> "AU naming varies; confirm") or as self-maps (`salbutamol sulfate` → itself). The map had
+> **15 entries and 5 were unsafe.**
+
+> [!warning] **Dual naming is correct as written. Never rewrite it.**
+> `furosemide (frusemide)` · `adrenaline (epinephrine)` · `lidocaine (lignocaine)`
+>
+> The Australian name **leads** and the superseded or international name follows in
+> brackets. **Corpus C's drug files do this deliberately** — it is how a reader who learnt
+> the old name finds the entry. A rename scan sees the second name and reports a hit; acting
+> on it produces `furosemide (furosemide)`.
+>
+> **The test:** if the AU replacement term already appears on the line, the line is already
+> correct. `merge_tools.py drugs` implements this and reports such hits separately as
+> `DUAL NAMING (no action)` — 7 in the corpus at 2026-08-30.
+
 Check named drugs, doses, and brand products against **current Australian** guidance specifically — don't assume a UK- or US-sourced figure transfers.
 
 - **Doses that look like a round, commonly-cited international figure are worth double-checking** — Australian licensed doses can genuinely differ (AOM amoxicillin: AU 60mg/kg/day vs the commonly-cited US "high-dose" 80–90mg/kg/day).
@@ -919,37 +1034,125 @@ Every edit must be individually verified (`grep -c "^## "` before/after, checkpo
 
 ## 1.32 Step 26 — Provenance and population labelling
 
-**New in the corpus-merge extension.** The project now holds three corpora, not one.
+**Rewritten 2026-08-30 after the step was run.** What follows is what actually worked, not
+the original design sketch.
 
 | Corpus | Files | `trust:` | What it is |
 |---|---|---|---|
-| **A** | ~148 | `inherited` | The original notes. Plausible, in use, never systematically checked. |
-| **B** | 37 | `unverified` | Built from model knowledge. Every figure marked or omitted. |
-| **C** | 53 | `snippet` | AMH/guideline-derived via snippets. **States no doses or reference ranges.** |
+| **A** | 148 | `inherited` | The original notes. Plausible, in use, never systematically checked. |
+| **B** | **39 files / 37 clinical** | `unverified` | Built from model knowledge. `00_BUILD_QUEUE.md` and `00_BUILD_QUEUE_v2.md` are B's own build queues — infrastructure. Label them so `lint` passes; exclude them by name from every content tally. |
+| **C** | 53 | `snippet` | AMH/guideline-derived via snippets. **Inconsistent on figures — 8 of its 22 drug files state a dose. See CLAUDE.md §1.6.** |
+| — | `Medications_Reference.md` | `snippet` | Vault root, in no corpus directory, so **no `init` run reaches it**. Set by hand. |
 
 ```bash
-python3 scripts/merge_tools.py init --dir . --corpus a --dry-run
-python3 scripts/merge_tools.py init --dir . --corpus a     # trust: inherited
-python3 scripts/merge_tools.py init --dir . --corpus b     # trust: unverified
-python3 scripts/merge_tools.py init --dir . --corpus c     # trust: snippet
-python3 scripts/merge_tools.py paed --dir . --limit 300    # evidence for population:
+python3 scripts/merge_tools.py init --dir "Corpus A" --corpus a --dry-run
+python3 scripts/merge_tools.py init --dir "Corpus A" --corpus a     # trust: inherited
+python3 scripts/merge_tools.py init --dir "Corpus B" --corpus b     # trust: unverified
+python3 scripts/merge_tools.py init --dir "Corpus C" --corpus c     # trust: snippet
 ```
 
-**Corpus A is labelled `inherited`, not `verified`, and this is the point of the step.**
-Step 17's re-run found seven genuine UK leftovers in files an earlier sweep had already
-flagged, and `co-amoxiclav` still sits in `03_Gastrointestinal` appendicectomy prophylaxis.
-Labelling A as verified would make unchecked content indistinguishable from checked content.
-`verified` is reserved for §1.33's scoped check against a named Australian source.
+Run `init` **per corpus directory**, never `--dir .` — a single root run would label all
+three corpora identically and would write frontmatter into the project's own documents.
 
-Also set per file: `population: adult | paed | mixed` (rule 5 — paediatric content is mixed
-into adult files; 34 signals in `03_Gastrointestinal` alone, so no file is adult-only by its
-name), `figures: none` where a file states no numbers, and the script-maintained
-`conflicts_open` / `conflicts_r1` counters.
+`trust:` is a per-corpus constant, so it is a mechanical write. **`population:` is not**,
+and the rest of this step is about that.
 
-Deterministic — no clinical claim is altered, so batching here does not violate rule 6.
-Verify every `paed` hit individually (rule 3): `Child-Pugh` matching the `child` signal was
-one false positive. **Record the sweep by what was examined, not by what was changed**
-(Step 17's method lesson).
+---
+
+### The procedure that worked
+
+**1. Count paediatric signals per file** with `RE_PAED_SIGNAL`, over every file.
+
+**2. Calibrate the detector against files whose answer you already know, before using it
+for anything.** This is not optional and it is what caught the `\bALL\b` disaster:
+
+| Check | Requirement | Result 2026-08-30 |
+|---|---|---|
+| the 40 `15_*_Paeds_*` files | must score high | min 2 · median 10 · max 32 · none zero |
+| `11_10_Ortho_-_Paediatric_Orthopaedics` | must score high | 28 |
+| `14_05d_Psych_-_ECT` | must score zero | 0 |
+| `13_06c_ENT_-_Bell_s_Palsy` | must score zero | 0 |
+| `14_05b_Psych_-_Insomnia` | must score zero | 0 |
+
+**3. Read every zero-signal file in full.** Those are the only files where a label can do
+harm, and the only place manual verification is owed. Do not read the thousands of
+surviving signal lines — a `mixed` or `paed` file already warns its reader.
+
+**4. Label.** `paed` = the `15_*_Paeds_*` set plus `11_10`. `adult` = a zero-signal file
+that reading confirms is adult by nature. `mixed` = everything else.
+
+---
+
+> [!danger] **THE DETECTOR IS NOT A THRESHOLD CLASSIFIER.** It chooses which files to
+> read. It never decides a label.
+>
+> `15_18b_Paeds_-_Genetic_Disorders_Inheritance_Summary` and
+> `15_20b_Paeds_-_Imprinting_Disorders` score **2**. They are unambiguously paediatric.
+> The detector is simply weak on genetics content, and no threshold exists that admits
+> them without admitting half the adult corpus.
+>
+> **Label on what the file IS.** A low score on an obviously paediatric file is a detector
+> limitation, not evidence. This is the constraint most likely to be forgotten, because
+> a ranked list of counts looks exactly like a classifier.
+
+**`mixed` is the default; `adult` is the assertive label and must be earned by reading the
+file.** A false `mixed` costs the reader a check they did not need. A false `adult` puts an
+absolute adult figure under a label saying it is scoped — the B65 failure. Two of the
+files labelled `mixed` in this run hold **no figures at all** (`08_04` antibiogram, `14a-2`
+overdose antidote table): age-agnostic content, where `adult` would have been a false
+assertion rather than a cautious one.
+
+**Judge a candidate signal term by the disease entries its hits sit in, not by the flagged
+lines alone.** This run rejected `congenital` on the flagged lines — where it reads as an
+aetiology label in adult files — and had to restore it: the entries two of those lines sat
+in were **congenital methaemoglobinaemia** and **osteogenesis imperfecta**, both genuinely
+paediatric. Corrected score 6 flagged / 2 true. Terms genuinely rejected on the same test:
+`breast-?feed` (maternal scope), bare `centile` (matches "99th percentile"), bare `BCG`
+(intravesical BCG for bladder cancer), `weaning` (ventilator weaning).
+
+### Outcome, 2026-08-30
+
+**`adult` 32 · `paed` 41 · `mixed` 167** across the 240 corpus files, plus
+`Medications_Reference.md` (`mixed`, `figures: none`).
+
+All 39 zero-signal files were read. **Seven earned `mixed` despite scoring zero** —
+`08_04` and `14a-2` (dose-free, age-agnostic tables), `10_06a` (Fanconi anaemia), `10_06b`
+(congenital methaemoglobinaemia), `11_08c` (osteogenesis imperfecta, osteopetrosis),
+`13_06c` (a pointer stub with no clinical content), `NEW_Drugs_19` (baclofen for cerebral
+palsy). **Three files suspected paediatric on their names proved adult on reading** —
+`13_07c` dental covers tooth pain, trismus and dental abscess with no eruption content at
+all, so `adult` is exactly what correctly scopes its `amoxicillin 500mg/8h`.
+
+> [!warning] **The substring-matching defect class — found 2026-08-30, three instances in
+> one week, and the reason CLAUDE.md rule 9 exists.**
+> `Child-Pugh` matched the `child` signal. `\bALL\b`, added for acute lymphoblastic
+> leukaemia, matched the English word "all" under `re.I` and produced **37 of 65 sampled
+> hits** in one cross-check — a detector that had to be withdrawn wholesale. `"paed" in
+> path`, used as skip logic, matched **ortho·paed·ics** and silently excluded five
+> orthopaedic files from `cmd_paed` with no error at all.
+>
+> **These are one defect, not three coincidences**, so the file was audited as a class
+> rather than patched three times. Auditing every containment test and unanchored
+> alternative against all 240 files then found two more that nobody had noticed:
+> **`ASCIA` matches inside `fascia` and `fascial` on 33 corpus lines**, so every line
+> about fascial planes scored `OPEN` and was routed into the actionable verification
+> queue as though ASCIA could settle it; and **`epinephrine` is a substring of
+> `norepinephrine`**, so every noradrenaline line drew a second, wrong suggestion.
+>
+> **The two directions are not equally visible.** A false hit appears in a report and gets
+> dismissed. A false *skip* produces nothing — and a file missing from a scan looks
+> exactly like a file that came back clean. That asymmetry is why skip logic must never
+> use a substring.
+>
+> **Not every unanchored match is a defect.** `child`, `infant`, `gestation`, `pubert` and
+> `milestone` fire inside *children*, *infants*, *gestational*, *puberty* and *milestones*
+> — 846 in-word hits between them, every one the same concept. Anchoring those would
+> break them. The test is whether the longer word is a **different concept**, not whether
+> the match is unanchored.
+
+Deterministic labelling alters no clinical claim, so batching here does not violate rule 6.
+**Record the sweep by what was examined, not by what was changed** (Step 17's method
+lesson).
 
 ---
 
@@ -985,28 +1188,102 @@ context.
 
 ## 1.34 Step 28 — Corpus C remediation and integration (53 files)
 
+> [!danger] **Required in this step: scope every figure Corpus C already states.**
+> C is **not** figure-free (CLAUDE.md §1.6, corrected 2026-08-30). **8 of its 22 drug
+> files state a dose or dose-adjacent quantity**, found by the Step 26 audit:
+>
+> | File | Figure |
+> |---|---|
+> | `NEW_Drugs_01_Allergy_and_Anaphylaxis` | the full ASCIA adrenaline table — `0.01 mL/kg`, max `0.5 mg`, injector bands from **7.5 kg**. **This is B50 duplicated — see `PENDING_GUIDELINE_CHECKS.md` B71** |
+> | `NEW_Drugs_10_Endocrine` | `hydrocortisone 100 mg IV` at induction + `200 mg/24 h`; HPA-suppression threshold `15–25 mg` hydrocortisone equivalent daily; eGFR `30 mL/min/1.73 m²` |
+> | `NEW_Drugs_07_Blood_and_Electrolytes` | Hb transfusion trigger `<70 g/L`; ESA targets `≤115 g/L`, `100–115 g/L`; pyridoxine neuropathy `>1000 mg/day`, reported `<500 mg/day`; SZC trial `5 g`/`10 g` |
+> | `NEW_Drugs_12_Gastrointestinal` | loperamide max `~8 mg/day`, cardiotoxicity `>100 mg/day` |
+> | `NEW_Drugs_16_Obstetric_and_Gynaecological` | anti-D `500 IU` at 28 and 34 weeks |
+> | `NEW_Drugs_05_Anti_infectives` | vancomycin `AUC/MIC 400–600 mg·h/L`, trough `15–20 mg/L` |
+> | `NEW_Drugs_03_Analgesics` | creatinine clearance `<30 mL/min` |
+> | `NEW_Drugs_08_Dermatological` | fingertip unit `≈0.5 g`; `15 g` tube |
+>
+> **`NEW_Drugs_10` is the model, and the pattern to apply — not deletion:**
+>
+> ```markdown
+> > - **SURGERY:** hydrocortisone 100 mg intravenously at induction followed by an
+> >   infusion of 200 mg per 24 hours…
+> >   - **THESE TWO FIGURES ARE ADULT DOSES. DO NOT USE THEM IN A CHILD.** Paediatric
+> >     perioperative and stress glucocorticoid cover is dosed **by body weight or body
+> >     surface area**, not as a fixed adult quantity.
+> ```
+>
+> That is CLAUDE.md rule 5 in its correct form. **Deleting the figure loses information;
+> scoping it makes the figure safe.** Apply it to every absolute quantity in the table
+> above that lacks a population scope. `figures: none` stays a **per-file finding** — only
+> 3 of the 22 drug files currently earn it.
+
 **One session per 10 files** — a 53-file diff is not reviewable.
 
 Per file: refile entries in the wrong system file (CSF studies, Coombs, G-CSF and
-rubella/varicella serology currently sit in `NEW_Investigations_Gastroenterology.md`); delete
-sections self-labelled "OUT OF SCOPE, built in error"; flag non-Australian attributions — the
-R-ratio "(ACG definition)" is one — with a marker naming an open AU source to check against.
+rubella/varicella serology currently sit in `NEW_Investigations_Gastroenterology.md` —
+**but grep the destination first: 2 of those 4 turned out to already exist there**); flag
+non-Australian attributions — the R-ratio "(ACG definition)" is one — with a marker naming
+an open AU source to check against.
 
-Then rename to the corpus scheme and convert the 65 backticked file references
+> [!danger] **"OUT OF SCOPE" alone is NOT grounds for deletion.**
+> This step previously said to *delete* sections self-labelled "OUT OF SCOPE, built in
+> error". **Narrowed 2026-08-30.** Delete only where the section is **empty, a stub, or
+> duplicated elsewhere**. Where the content is **sound and held nowhere else, keep it** and
+> record why the scope label is there.
+>
+> The case: `NEW_Investigations_Gastroenterology` 0.36 Gastrografin carries that label, but
+> its own body reads "flagged rather than deleted" — a considered decision — and it holds
+> the aspiration hazard, the safe-alternative-to-barium role and the hyperosmolar caution
+> in neonates, none of it anywhere else in the corpus. Its scope error is a **build-list
+> categorisation**: Gastrografin sits on the Conditions list, not the Investigations list.
+>
+> **Deleting correct clinical content to satisfy a build-list boundary is irreversible and
+> undetectable.** Nothing downstream notices an absence.
+
+Then rename to the corpus scheme and convert the backticked file references
 (`` `NEW_Drugs_03_Analgesics.md` 0.3.4 ``) into wikilinks, **verifying each target header
-first (rule 1)**. C's 42 existing wikilinks already resolve; leave them.
+first (rule 1)**.
 
-**Do not add doses or reference ranges to Corpus C. Do not backfill its 53 empty
-`Normal:`/`Abnormal:` fields.** The abstention is deliberate and is what makes C safe — the
-only available filling material is model knowledge.
+> [!warning] **The counts in this step were wrong, from the same five-file sample that
+> produced the figure-free error. Corrected 2026-08-30 by measurement.**
+>
+> | Claimed | Actual |
+> |---|---|
+> | 65 backticked file references | **276** — 217 pointing at other Corpus C files, 59 at Corpus A. Across 45 files. 275 name a file that exists; **1 is dangling** |
+> | 42 existing wikilinks | **195**, and all 195 resolve |
+>
+> **All three Corpus C figures in this spec were sampling errors, not measurement errors** —
+> "states no doses", "65 references" and "42 wikilinks" were each generalised from the same
+> five files rather than counted across 53. The lesson is not that the numbers were stale;
+> it is that **nobody ran the count.** Measure before quoting a corpus-wide figure.
 
-Ownership: **`Medications_Reference.md` is not the dose owner.** Its own scope note forbids
-the role ("Nothing was moved here"), it holds two entries, and it states no doses. Record
-ownership where figures already live, in `_meta/OWNERS.md`, **including the range each owner
-table covers** — B50 is the case where two files pointed at an ASCIA table that stopped at
-7.5 kg, so a reader following the pointer for an infant reached a table that did not cover
-them. Step 12 already governs the same-fact-in-3+-files consistency pass; `→MED:` mirrors
-exist to make it mechanical, not to replace it.
+**This conversion is not mechanical and must not be run as one pass.** Verify every target
+header before writing any link. Where the target section does not exist or is **unnumbered,
+use the verbatim header text**. Where you cannot resolve it, **leave the backticked form and
+flag it** — an unconverted reference is harmless, a wrong wikilink is not. Chunk the work and
+report examined / converted / flagged per chunk.
+
+> [!danger] **Rule 1: the corpus itself carries a wrong section number, and this session
+> propagated it without checking.**
+> `NEW_Investigations_Gastroenterology` 0.33 has read, since the original upload,
+> "the fuller treatment is in `` `NEW_Investigations_Haematology.md` 0.7
+> (Immunohaematology)``". **There is no 0.7 in that file. That section is unnumbered**, and
+> its header is *Immunohematology (Blood Group & Rh, Type & Screen, Direct Antiglobulin
+> Test)* — spelled *Immuno**he**matology*, without the second `a`.
+>
+> Writing the Step 28b pointer, this session **copied `0.7` straight out of that line** into
+> a new cross-reference. It was caught only by verifying the target before committing.
+>
+> **The instructive part is that it was inherited, not invented.** A wrong reference already
+> in the corpus reads as established fact — it has been there since the first commit, it
+> looks like every other reference, and nothing about it invites suspicion. Copying it felt
+> like *using* a source rather than *making a claim*. Rule 1 exists precisely because that
+> distinction is invisible at the point of writing: **an unverified reference is a new claim
+> no matter where you got it from.** The session doing the auditing was the one that
+> propagated it.
+>
+> Both the corpus line and the new pointer now carry the verbatim header text.
 
 ---
 
@@ -1031,7 +1308,24 @@ exist to make it mechanical, not to replace it.
    agree perfectly.
 5. B's unique material enters under a marked `### Added from unverified layer` subheading,
    never woven into existing prose — woven text produces unreviewable diffs and blurs
-   provenance at every sentence boundary.
+   provenance at every sentence boundary. **Every additive block names its origin file and
+   section with a `SRC:` token**, so a wrongly-placed block can be traced back and B's
+   contribution reconstructed:
+
+   ```markdown
+   ### Added from unverified layer — atypical presentations
+   `SRC:C1_Acute_Abdomen §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+   ```
+
+   The test: **`grep -rn "SRC:C1_" .` must reconstruct everything that B file contributed
+   and where each piece went.** Without it, an additive merge is only reversible by reading
+   the whole diff.
+
+7. **Commit the destination table to `_meta/merges/<bfile>.md`** — every section of the B
+   file, its destination, and its disposition, **including the discarded ones**.
+   Supersession currently leaves no trace anywhere: a section judged `verified`-beats-
+   `unverified` simply never appears, so **a wrong supersede is invisible** and there is
+   nothing to audit it against. The discard rows are the point of the file.
 6. B's 167 wikilinks point at placeholder codes (`[[C4]]`, `[[F0.2]]`, `[[A9]]`) resolving to
    nothing. Strip to `` `TODO:link — topic` ``. **Never guess a target.**
 
@@ -1219,6 +1513,9 @@ These are fundamentally different from every row above: there's no existing file
 - Medium/small: 39 groups, 141 runs (3×15 + 4×24)
 
 **Total estimated runs to apply the full current 26-step workflow (Steps 0–25) across all 146 existing files: ~214.** Down slightly from ~215 — the first time this number has moved down rather than up, specifically because Examination.md received genuine substantial work this round (the Newborn Examination build) rather than staying purely reactive, earning a real reclassification rather than just more testing revealing more to do. This is worth contrasting with every previous change to this number: three rises came from testing revealing more outstanding work (Step 17's real hit, Steps 18–20 adding untested checks, Step 24's MSK finding); this is the first that came from actual progress closing a gap, not from discovering a new one.
+
+**Steps 26–30 run in the order given in §1.1.9 — 26, 11, 17, 28, 27, 29 — not in numeric
+order.** The estimates below are per step and must not be read as a sequence.
 
 **Plus the corpus-merge extension (Steps 26–30), added 2026-08-30:** ~1–2 runs for Step 26,
 2–3 for Step 27, 6–8 for Step 28, and 37 for Step 29 — **~46–50 runs**, again additional to the

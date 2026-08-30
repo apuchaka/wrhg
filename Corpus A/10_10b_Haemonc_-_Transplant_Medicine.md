@@ -1,6 +1,10 @@
 ---
 block: Haematology and Oncology
 source: quackquackmed 10.10 Graft versus host disease, Organ transplant and rejection
+trust: inherited
+population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## 0.1 Graft versus host disease (GVHD)

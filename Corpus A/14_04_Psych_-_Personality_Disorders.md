@@ -1,6 +1,10 @@
 ---
 block: Psychiatry
 source: quackquackmed 14.04 Personality disorders (Clusters A, B, C)
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!note] Personality disorders refer to enduring patterns of thinking and feeling about oneself and others that significantly and adversely affect how an individual functions across life domains. This pattern is stable and of long duration, with onset traceable to at least adolescence or early adulthood. Thought to affect 1 in 20 people.

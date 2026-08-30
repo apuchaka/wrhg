@@ -1,6 +1,10 @@
 ---
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.10 Paediatric orthopaedic conditions
+trust: inherited
+population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Juvenile idiopathic arthritis (JIA)

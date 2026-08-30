@@ -1,6 +1,10 @@
 ---
 block: Obstetrics
 source: quackquackmed 16.08-09 Antenatal problems / Perinatal baby problems
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!info] Localised for Australia — pre-eclampsia diagnostic thresholds confirmed internationally standard (including in SOMANZ guidance); aspirin prophylaxis dose corrected to the SOMANZ-specific 150mg nightly figure, Aug 2026. See the Pre-eclampsia entry below for detail.

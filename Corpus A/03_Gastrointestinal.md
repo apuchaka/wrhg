@@ -1,6 +1,10 @@
 ---
 block: Gastrointestinal
 source: quackquackmed 03 Gastrointestinal Medicine & General Surgery
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## 0.1 Primary Sclerosing Cholangitis (PSC)

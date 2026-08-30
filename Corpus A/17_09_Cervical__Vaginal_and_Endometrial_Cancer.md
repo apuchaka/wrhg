@@ -1,6 +1,10 @@
 ---
 block: Gynaecology
 source: quackquackmed 17.09 Cervical Cancer, Vaginal Cancer, Endometrial Cancer
+trust: inherited
+population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!info] Localised for Australia — verified against the Australian Government's National Cervical Screening Program (NCSP), Aug 2026. Australia's programme genuinely differs from the UK's in age range, interval structure, and terminology (Cervical Screening Test, not "smear") — not just in specific numbers.

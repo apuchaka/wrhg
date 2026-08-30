@@ -1,6 +1,10 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.18 Genetic disorders - inheritance patterns summary
+trust: inherited
+population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Genetic disorders — quick reference by inheritance pattern

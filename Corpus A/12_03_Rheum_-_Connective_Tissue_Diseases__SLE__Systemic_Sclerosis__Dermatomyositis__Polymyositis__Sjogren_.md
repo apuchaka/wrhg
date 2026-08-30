@@ -1,6 +1,10 @@
 ---
 block: Rheumatology
 source: quackquackmed 12.03 Rheumatic conditions with skin problems - SLE, Lupus nephritis, Systemic sclerosis, Dermatomyositis, Polymyositis, Sjogren syndrome
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Systemic lupus erythematosus (SLE)

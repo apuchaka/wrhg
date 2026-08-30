@@ -15,6 +15,10 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
 2. **Zero grep hits is not proof of absence.** Check case-sensitivity, Unicode characters (α, β, ₂ subscripts), hyphenation variants, **markdown emphasis inside a word**, and alternate medical terminology before concluding content is missing. Historically most "missing" results have been search artifacts.
    - **The markdown case specifically:** this corpus bolds acronym expansions letter by letter — `**H**aemolysis, **E**levated **L**iver enzymes, **L**ow **P**latelets`. A search for `Haemolysis` finds nothing, because the literal text is `**H**aemolysis`. **Whenever a search for an acronym expansion returns zero hits, search again for a distinctive letter-run from the middle of the word** (`aemolysis`) before concluding the expansion is absent. The construction most likely to be searched for is the one least likely to be found.
    - Also never conclude absence from **truncated** output: a hit that was returned and cut off by a `cut`/`head` limit looks identical to no hit at all. View the full line.
+   - **Rule 9 is this rule's inverse** — it covers the search that finds the *wrong* thing
+     rather than nothing, and the file silently skipped before any search ran. A zero
+     result can mean the term was absent, the spelling differed (this rule), or the file
+     was never examined (rule 9).
 
 3. **Every automated scan produces false positives.** Verify each hit manually against actual file content before treating it as a gap. Report dismissed artifacts alongside confirmed gaps — the ratio is the main signal of whether the run was careful.
 
@@ -27,6 +31,26 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
 7. **Stop and report if you discover a limitation in your own method mid-run.** Do not continue applying a scan you've realised is flawed. This is more important than completing the phase.
 
 8. **Report honestly.** "Clean against everything currently known to check for" — never "verified complete." This project's history is that every completeness claim was later disproven by a new technique.
+
+9. **Substring matches create both false hits and silent false skips.** `child` matches
+   `Child-Pugh`; `ALL` matches the English word "all" under a case-insensitive search;
+   `paed` matches ortho**paed**ics; `ASCIA` matches f**ascia**; `epinephrine` matches
+   nor**epinephrine**. **Rule 2 covers searches that find nothing; this covers searches
+   that find the wrong thing** — and skip logic that excludes files with no error at all.
+   Anchor on word boundaries or full paths.
+   - **The two failure directions are not equally visible.** A false hit lands in a report
+     and gets dismissed. A false skip produces nothing, and **a file missing from a scan
+     looks identical to a file that came back clean.** Never write skip logic on a
+     substring.
+   - **Not every unanchored match is a defect.** `child`, `infant`, `gestation` and
+     `pubert` fire inside *children*, *infants*, *gestational* and *puberty* — the same
+     concept, and anchoring them would break them. The test is whether the longer word is
+     a **different** concept.
+   - Found three times in one week (2026-08-30). Treat it as a class: when one turns up,
+     audit every containment test and unanchored alternative in the same tool, against the
+     real corpus rather than by eye. That audit found two further instances nobody had
+     noticed — `ASCIA` inside `fascia` on 33 lines, mis-routing verification items into
+     the actionable queue, and `epinephrine` inside `norepinephrine`.
 
 ## 1.4 Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.
@@ -47,10 +71,31 @@ The project now holds three corpora, not one:
 |---|---|---|---|
 | **A** | ~148 | `inherited` | The original notes. Plausible, in use, never systematically checked. |
 | **B** | 37 | `unverified` | Built from model knowledge. Every figure marked or omitted. |
-| **C** | 53 | `snippet` | AMH/guideline-derived via snippets. **States no doses or reference ranges.** |
+| **C** | 53 | `snippet` | AMH/guideline-derived via snippets. **Inconsistent on figures — see below.** |
 
 `verified` is reserved for content checked against a named Australian source, with its scope
 recorded (§1.9).
+
+> [!danger] **Corpus C is NOT reliably figure-free. Never assume it.**
+> This table previously read "States no doses or reference ranges", generalised from five
+> sample files. **It is wrong.** Checking all 22 Corpus C drug files, **8 state a dose or
+> a dose-adjacent quantity** — among them the full ASCIA adrenaline table in
+> `NEW_Drugs_01` (`0.01 mL/kg`, max `0.5 mg`, injector bands from **7.5 kg**),
+> `hydrocortisone 100 mg IV` in `NEW_Drugs_10`, loperamide maxima, anti-D `500 IU`,
+> pyridoxine thresholds, Hb transfusion triggers and vancomycin `AUC/MIC 400–600 mg·h/L`.
+>
+> **Most of C abstains; some of it does not.** `figures: none` is therefore a **per-file
+> finding, established by reading that file** — never a corpus-wide assumption, and never
+> inferred from C's provenance. Only 3 of the 22 drug files currently carry the key.
+>
+> **Where a C file states a dose, the fix is the `NEW_Drugs_10` pattern, not deletion:**
+> ```
+> > - **SURGERY:** hydrocortisone 100 mg IV at induction, then 200 mg per 24 hours…
+> >   - **THESE TWO FIGURES ARE ADULT DOSES. DO NOT USE THEM IN A CHILD.** Paediatric
+> >     cover is dosed by body weight or body surface area, not as a fixed adult quantity.
+> ```
+> That is rule 5 in its correct form, and it is the model for every dose already sitting
+> in C.
 
 **Corpus A is `inherited`, not `verified`.** Step 17's re-run found seven UK leftovers in
 files an earlier sweep had already flagged, and `co-amoxiclav` still sits in
@@ -74,6 +119,7 @@ Backtick-delimited so they survive editing, work inside table cells, and grep cl
 `[paed]` `[adult]`        population scope
 `→MED:adrenaline`         mirrors a figure owned elsewhere
 `TODO:link — topic`       stripped placeholder link
+`SRC:C1_Acute_Abdomen §0.6`  origin of an additive-merge block (§1.10)
 ```
 
 Write a marker only where the claim differs from the file's frontmatter default.
@@ -145,12 +191,19 @@ appendicectomy prophylaxis would likely reproduce A's `co-amoxiclav + metronidaz
 agree perfectly. Concordance never closes an item.
 
 **Additive merge format** — under a marked subheading, never woven into existing prose,
-which produces unreviewable diffs and blurs provenance at every sentence boundary:
+which produces unreviewable diffs and blurs provenance at every sentence boundary. **Every
+block carries a `SRC:` token naming the origin file and section**, so `grep -rn "SRC:C1_" .`
+reconstructs everything that B file contributed and where each piece landed:
 
 ```markdown
 ### Added from unverified layer — <topic>
-`UNVERIFIED — model knowledge, not source-checked.`
+`SRC:C1_Acute_Abdomen §0.6` `UNVERIFIED — model knowledge, not source-checked.`
 ```
+
+**The destination table for each B file is committed to `_meta/merges/<bfile>.md`** — every
+section, its destination, and its disposition **including discarded ones**. Supersession
+otherwise leaves no trace at all: a superseded section simply never appears, so a wrong
+supersede is invisible and nothing can audit it. The discard rows are the point.
 
 **Before creating any file, grep the whole vault.** Corpus A is not purely
 disease-organised — it holds investigation, history and examination files, and
@@ -175,6 +228,18 @@ resolve to nothing. Strip to `` `TODO:link — topic` ``. Never guess a target.
 | What a test is and how to read it | `NEW_Investigations_*.md` |
 | Reference intervals | nobody — deliberately absent |
 
+**Dual naming is correct and must never be rewritten.** `furosemide (frusemide)`,
+`adrenaline (epinephrine)`, `lidocaine (lignocaine)` — Australian name leading, superseded
+or international name in brackets. Corpus C does this deliberately, so a reader who learnt
+the old name can find the entry. If the AU term already appears on the line, the line is
+already correct; rewriting it produces `furosemide (furosemide)`.
+
+**A rename map is a list of substance identities, not spellings.** `DRUG_NAMING` carried
+`amphetamine sulfate → dexamfetamine` — **two different substances** — until the
+source-per-entry audit of 2026-08-30 removed it. **The digit check cannot catch this**: no
+digit moves when a substance name is swapped, so the dose survives intact attached to the
+wrong drug. Every entry names a source; an entry without one is not applied.
+
 **`Medications_Reference.md` is not the dose owner.** Its own scope note forbids the role
 ("Nothing was moved here"), it holds two entries, and it states no doses. Do not relocate
 dosing into it — that would break cross-references it was designed to preserve.
@@ -184,9 +249,13 @@ an ASCIA adrenaline table that stopped at 7.5 kg, so a reader following the poin
 infant reached a table that did not cover them. A pointer to an incomplete owner is worse
 than a local figure, because nothing signals the failure.
 
-**Do not add doses or reference ranges to Corpus C, and do not backfill its 53 empty
-`Normal:`/`Abnormal:` fields.** The abstention is what makes C safe; the only available
-filling material is model knowledge.
+**Do not add NEW doses or reference ranges to Corpus C, and do not backfill its empty
+`Normal:`/`Abnormal:` fields.** The only available filling material is model knowledge.
+
+**But do not treat C as figure-free** (§1.6): 8 of its 22 drug files already state doses,
+so "C states no doses" must never be used as a premise — not to skip a check, not to grant
+`figures: none`, and not to assume a C dose came from somewhere else. Existing figures are
+**scoped in place using the `NEW_Drugs_10` pattern**, never deleted.
 
 Step 12 already covers same-fact-in-3+-files consistency. `→MED:` mirrors exist to make that
 check mechanical, not to replace it.

@@ -1,6 +1,10 @@
 ---
 block: Infectious Disease
 source: quackquackmed 08.10 Diarrhoea DDx, Gastroenteritis, cross-references
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Diarrhoea — differential diagnosis

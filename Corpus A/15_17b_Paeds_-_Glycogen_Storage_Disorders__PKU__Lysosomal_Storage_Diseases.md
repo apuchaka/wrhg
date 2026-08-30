@@ -1,6 +1,10 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.17 Glycogen storage disorders, Phenylketonuria, Lysosomal storage diseases
+trust: inherited
+population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Glycogen storage disorders

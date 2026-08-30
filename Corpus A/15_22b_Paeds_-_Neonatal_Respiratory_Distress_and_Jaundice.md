@@ -1,6 +1,10 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.22 Neonatal respiratory distress, Neonatal jaundice
+trust: inherited
+population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Neonatal respiratory distress

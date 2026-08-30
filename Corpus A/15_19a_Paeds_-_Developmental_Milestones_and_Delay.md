@@ -1,6 +1,10 @@
 ---
 block: Paediatrics
 source: quackquackmed 15.19 Developmental milestones, Speech delay, Global developmental delay
+trust: inherited
+population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Developmental milestones and red flags

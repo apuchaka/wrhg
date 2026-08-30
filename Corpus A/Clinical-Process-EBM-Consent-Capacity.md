@@ -1,6 +1,10 @@
 ---
 block: Shared — Clinical Process / EBM / Consent & Capacity
 source: built to fill a long-standing forward-reference from [[03a_Anaesthetics_Primer]] and [[Communication]] ("once built"), and the dedicated "Clinical Process / EBM / Consent & Capacity" CSV category
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # Consent and Capacity to Consent / Refuse Treatment

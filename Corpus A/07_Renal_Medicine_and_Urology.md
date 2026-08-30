@@ -1,6 +1,10 @@
 ---
 block: Renal and Urology
 source: quackquackmed 07 Renal Medicine & Urology
+trust: inherited
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## 0.1 Acute Kidney Injury (AKI)

@@ -2,6 +2,10 @@
 block: NEW build — Exam Manoeuvres and Procedures
 source: data/BULK_BUILD_PLAN.md Part B; items from data/no_header_build_queue.md
 status: standalone — not yet cross-referenced into the corpus
+trust: snippet
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # NEW — Exam Manoeuvres and Procedures
