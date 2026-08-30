@@ -2,7 +2,7 @@
 block: Neurology
 source: built in chat, model knowledge, NOT source-verified
 trust: unverified
-population: mixed
+population: adult
 ---
 
 > [!warning] Sourcing

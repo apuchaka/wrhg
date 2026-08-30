@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.08 GI disorders - Appendicitis, Intussusception, Pyloric stenosis, Hirschsprung disease, Oesophageal atresia
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## Appendicitis

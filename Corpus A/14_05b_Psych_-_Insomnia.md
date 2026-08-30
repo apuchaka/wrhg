@@ -2,7 +2,7 @@
 block: Psychiatry
 source: quackquackmed 14.05 Insomnia
 trust: inherited
-population: mixed
+population: adult
 ---
 
 ## Insomnia

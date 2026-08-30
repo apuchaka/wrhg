@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.16 Diabetes mellitus, MODY, Diabetic ketoacidosis in children
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## Type 1 diabetes mellitus

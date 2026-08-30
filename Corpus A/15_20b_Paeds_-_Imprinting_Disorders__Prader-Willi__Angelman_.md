@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.20 Imprinting disorders - Prader-Willi syndrome, Angelman syndrome
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## Prader-Willi syndrome (PWS)

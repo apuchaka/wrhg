@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.01 Anaphylaxis in children
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## Anaphylaxis

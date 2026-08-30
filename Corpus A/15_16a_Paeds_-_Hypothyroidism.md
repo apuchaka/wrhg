@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.16 Hypothyroidism in children (congenital and acquired)
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## Hypothyroidism in children

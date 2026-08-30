@@ -2,7 +2,7 @@
 block: Psychiatry
 source: quackquackmed 14a Substance misuse - recreational drug profiles
 trust: inherited
-population: mixed
+population: adult
 ---
 
 ## Alcohol use disorder

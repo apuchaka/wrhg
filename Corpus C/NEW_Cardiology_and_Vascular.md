@@ -3,7 +3,7 @@ block: NEW build — Presentations & Symptoms
 source: Build list 2026-08-30 (data/new_build_topics.md)
 status: standalone — not yet cross-referenced into the corpus
 trust: snippet
-population: mixed
+population: adult
 ---
 
 # NEW — Cardiology & Vascular

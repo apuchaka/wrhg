@@ -3,7 +3,7 @@ block: NEW build — Drug Classes
 source: Build list 2026-08-30 (data/no_header_build_queue.md), AMH section 6 Cardiovascular drugs
 status: standalone — not yet cross-referenced into the corpus; BATCHING TEST BATCH 2
 trust: snippet
-population: mixed
+population: adult
 ---
 
 # NEW — Drug Classes: Antihypertensives

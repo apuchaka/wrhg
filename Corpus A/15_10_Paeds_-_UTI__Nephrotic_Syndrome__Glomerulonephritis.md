@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.10 Renal and urological disorders - UTI, Nephrotic syndrome, Acute glomerulonephritis
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## Urinary tract infection (UTI)

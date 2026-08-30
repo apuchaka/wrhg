@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.15 Immune thrombocytopenia, Acute lymphoblastic leukaemia in children
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## Immune thrombocytopenia (ITP)

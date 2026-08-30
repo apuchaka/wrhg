@@ -2,7 +2,7 @@
 block: Gynaecology
 source: quackquackmed 17.02 Menorrhagia, PMS, Menopause, HRT
 trust: inherited
-population: mixed
+population: adult
 ---
 
 > [!info] Localisation status — the menopause age and HRT/MHT risk profile have been verified against the Australasian Menopause Society (AMS), Aug 2026 — see the [!info] notes under each section below. Menorrhagia and PMS management (Mirena IUS, COCP, tranexamic/mefenamic acid, SSRIs) reflect internationally standard drug choices not requiring AU-specific correction.

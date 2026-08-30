@@ -2,7 +2,7 @@
 block: Psychiatry
 source: quackquackmed 14.05 Electroconvulsive therapy
 trust: inherited
-population: mixed
+population: adult
 ---
 
 ## Electroconvulsive therapy (ECT)

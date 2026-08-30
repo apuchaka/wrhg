@@ -5,9 +5,9 @@ description: Cross-session memory for the corpus merge. Session context does not
 
 # RUN_STATE
 
-## Step 26 — Provenance and population labelling · 🔶 PART 1 OF 2
+## Step 26 — Provenance and population labelling · ✅ LABELLING DONE, two findings open
 
-**Session 1: 2026-08-30, branch `claude/next-6gvrdi`.**
+**Sessions 1–2: 2026-08-30, branch `claude/next-6gvrdi`.**
 
 ### What is DONE and trustworthy
 
@@ -36,17 +36,47 @@ key was set after reading all 16 of its lines containing a digit: every one is a
 subscript (β1, β2, α1), a cross-reference file number, or the phrase "roughly a quarter of
 β2 receptors". No dose, no reference range, no threshold.
 
-### What is NOT done — read this before trusting any `population:` value
+### `population:` — now classified, not placeholder
 
-**Every `population:` value in the vault is the script's placeholder `mixed`. None of them
-is a classification.** `merge_tools.py init` writes `mixed` unconditionally and prints
-"Population is set to a placeholder. Correct it per file — do not trust the default."
-Nothing has corrected it yet.
+| Label | Files | Basis |
+|---|---|---|
+| `adult` | 32 | each file **read in full**; content is adult by nature and carries no paediatric entry |
+| `paed` | 41 | the 40 `Corpus A/15_*_Paeds_*` files + `11_10_Ortho_-_Paediatric_Orthopaedics` |
+| `mixed` | 167 | everything else, plus 7 files that scored zero but earned `mixed` on reading |
 
-**No `figures:` key has been set on any file.**
+`Medications_Reference.md` (vault root, outside the 240) is `mixed`: drug-class
+pharmacology, age-agnostic.
+
+**The detector informed, it never decided.** Labels are on what each file *is*. The count
+was used only to choose which 39 files to read.
+
+**Seven files were labelled `mixed` against a zero detector score** — see the table below.
+
+**`figures: none` is set on `Medications_Reference.md` only.** Not attempted elsewhere.
 
 **No `conflicts_open` / `conflicts_r1` counters have been written** — `scan` has not been
 run.
+
+### The 39 zero-signal files: 32 `adult`, 7 `mixed`
+
+All 39 were read. The seven that earned `mixed` despite scoring zero:
+
+| File | Why `mixed` |
+|---|---|
+| `08_04_Infectious_Disease_-_Antibiogram` | organism→drug table, **0 doses, 0 age references**. Age-agnostic — `adult` would be a false assertion |
+| `14a-2_Psych_-_Overdose_and_Poisoning_Management` | antidote table, **0 doses, 0 age references**. Same shape |
+| `10_06a_Haemonc_-_Macrocytic_Anaemia` | **Fanconi anaemia** — autosomal recessive marrow failure with short stature, thumb/radius anomalies, café-au-lait spots. A childhood-presenting disease with its own entry |
+| `10_06b_Haemonc_-_Thrombophilia__APS...` | **congenital methaemoglobinaemia** (HbM, NADH met-Hb reductase deficiency) — presents in infancy |
+| `11_08c_Ortho_-_Fracture_Types_and_Pathological_Fractures` | **osteogenesis imperfecta** (four types, II lethal in the neonatal period) and **osteopetrosis** |
+| `13_06c_ENT_-_Bell_s_Palsy` | an 11-line pointer stub with no clinical content and no figures. `adult` would assert something about content that is not there |
+| `NEW_Drugs_19_Rheumatological` | baclofen indications name **cerebral palsy**, and intrathecal pumps are largely paediatric practice |
+
+**Three files were suspected paediatric on their names and turned out adult on reading:**
+`13_07c_ENT_-_Dental_and_Teeth_Problems` covers tooth pain, trismus, dental abscess and
+Vincent's angina — no eruption or primary dentition content, so its zero score was
+correct, and `adult` is what correctly scopes its `amoxicillin 500mg/8h + metronidazole
+400mg/8h`. `14a-2` and `08_04` proved to be dose-free tables (above), so the suspected
+paediatric-dosing risk did not exist.
 
 ### The detector: withdrawn, rebuilt, validated (CLAUDE.md rules 2, 4, 7)
 
@@ -96,27 +126,43 @@ marginal). **So the false-negative problem the withdrawn cross-check predicted w
 entirely the `\bALL\b` artifact.** The shipped detector was closer to right than the
 cross-check suggested.
 
-### What session 2 must do
+### TWO OPEN FINDINGS — not fixed, per rule 7
 
-1. **The 39 zero-signal files are the adult candidates, and they are the only files where
-   manual verification is owed.** A missed paediatric figure in a file labelled `adult` is
-   the dangerous error; a `mixed` or `paed` file already warns its reader. Read each of
-   the 39 — headings and any absolute quantity — before granting the label.
-   Flagged as suspicious on their names alone: `13_07c_ENT_Dental_and_Teeth_Problems`
-   (dental eruption is paediatric, yet it scores 0 even with `teething` in the pattern),
-   `14a-2_Psych_Overdose_and_Poisoning_Management` (paediatric ingestion), and
-   `08_04_Infectious_Disease_Antibiogram` (antibiotic choice carries paediatric dosing).
-2. **`paed` candidates:** the 40 `Corpus A/15_*_Paeds_*` files and
-   `11_10_Ortho_-_Paediatric_Orthopaedics`. Note `merge_tools.py paed` skips any path
-   containing "paed", so its sweep never examines these — they need a separate check.
-3. **Everything not in (1) or (2) is `mixed`**, which is where the placeholder already
-   sits — so the write is only to the adult and paed sets.
-4. `figures: none` beyond `Medications_Reference.md` — needs an operational definition
+**Finding 1 — `merge_tools.py paed` silently skips every orthopaedics file.**
+`cmd_paed` skips any path where `"paed" in r.lower()`. The word **ortho·paed·ics contains
+"paed"**, so the shipped sweep never examines:
+`11_01_Ortho_-_Orthopaedic_Emergencies`, `11_06_Ortho_-_Spinal_Orthopaedics`,
+`11_09a_Ortho_-_Orthopaedic_and_Bone_Malignancies`,
+`NEW_Investigations_Orthopaedics_Neurology_and_Other`, `NEW_Orthopaedics_and_Trauma`
+(and `11_10_Ortho_-_Paediatric_Orthopaedics`, which it should skip). Five files are
+excluded for a reason that has nothing to do with their content, and the sweep reports
+no error. **This session's labelling did not use `cmd_paed`** — it used a direct
+`RE_PAED_SIGNAL` count over every file — so the labels above are unaffected. The fix is
+to match the paediatric filename marker, not a bare substring.
+
+**Finding 2 — a correction to this session's own earlier claim about `congenital`.**
+Session 1 rejected `congenital` from `RE_PAED_SIGNAL` and recorded "5 files flagged,
+**0 true positives**". **That claim was wrong.** It was made by reading the *flagged
+lines*; reading the *disease entries* those lines sit in shows `congenital` caught two
+genuine paediatric-scope files — `10_06b` (congenital methaemoglobinaemia) and `11_08c`
+(osteogenesis imperfecta) — both of which are now labelled `mixed` on exactly that
+content. Corrected score: **6 files flagged, 2 true positives.**
+
+The asymmetry argues for restoring it: a false positive costs a `mixed` label (safe, tells
+the reader to check), a false negative costs a wrong `adult` label (the B65 failure).
+`congenital` was **not** restored this session — the labelling was done by hand and does
+not depend on it — but the rejection note in `merge_tools.py` overstates the case and
+should be corrected before the pattern is used to decide anything.
+
+### What the next session must do
+
+1. Fix Finding 1, and correct or reverse the `congenital` rejection per Finding 2.
+2. `figures: none` beyond `Medications_Reference.md` — needs an operational definition
    first. CLAUDE.md says "where the file states no numbers", which is broader than
    `RE_DOSE` (doses only) and broader than what `lint` enforces. Do not set the key from
    `RE_DOSE` alone: a file carrying a threshold or reference range but no dose would pass,
    be wrongly flagged figure-free, and §1.14 then forbids ever adding a figure to it.
-5. Run `scan` to write the `conflicts_open` / `conflicts_r1` counters and the `_meta/`
+3. Run `scan` to write the `conflicts_open` / `conflicts_r1` counters and the `_meta/`
    artefacts.
 
 ### Paediatric-signal audit, session 1 (recorded by what was examined, per Step 17)

@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.11 Renal and urological disorders - Phimosis, Cryptorchidism, Hypospadias, Horseshoe kidney, Wilms' tumour, Haemolytic uraemic syndrome
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## Phimosis

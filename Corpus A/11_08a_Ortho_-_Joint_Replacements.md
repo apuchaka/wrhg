@@ -2,7 +2,7 @@
 block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.08 Joint replacements (arthroplasty)
 trust: inherited
-population: mixed
+population: adult
 ---
 
 ## Joint replacements (arthroplasty)

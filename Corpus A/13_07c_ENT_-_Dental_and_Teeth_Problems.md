@@ -2,7 +2,7 @@
 block: Ear Nose and Throat
 source: quackquackmed 13.07 Dentistry for doctors - Teeth problems
 trust: inherited
-population: mixed
+population: adult
 ---
 
 ## Dentistry for doctors

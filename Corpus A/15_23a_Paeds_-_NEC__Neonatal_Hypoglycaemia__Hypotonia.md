@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.23 Necrotising enterocolitis, Neonatal hypoglycaemia, Neonatal hypotonia
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## Necrotising enterocolitis (NEC)

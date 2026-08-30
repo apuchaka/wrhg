@@ -2,7 +2,7 @@
 block: Dermatology
 source: quackquackmed 09.03 Non-melanoma skin cancer and pre-malignancy
 trust: inherited
-population: mixed
+population: adult
 ---
 
 ## Basal cell carcinoma (BCC)

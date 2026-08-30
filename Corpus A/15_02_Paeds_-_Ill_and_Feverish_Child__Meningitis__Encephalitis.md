@@ -2,7 +2,7 @@
 block: Paediatrics
 source: quackquackmed 15.02 The ill and feverish child, Meningitis, Encephalitis
 trust: inherited
-population: mixed
+population: paed
 ---
 
 ## The ill and feverish child — traffic light assessment
