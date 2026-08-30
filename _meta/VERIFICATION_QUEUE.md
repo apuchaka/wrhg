@@ -5,7 +5,7 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-30
 
-369 open items. Close one by editing its marker in the file, then rerunning `scan`.
+374 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
 # Actionable — openly accessible Australian sources (46)
 
@@ -89,7 +89,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 
 - **Corpus B/C1_Acute_Abdomen.md** L189 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (254)
+# Triage — source not named in the marker (259)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
@@ -147,7 +147,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L234 · _0.5 Falls_ · `unverified` — dosing and who should receive it.
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L276 · _0.6 Osteoporosis and Fracture Prevention_ · `unverified` — dosing interval and the recommended transition regimen.
 
-## R2 — changes disposition (115)
+## R2 — changes disposition (116)
 
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L40 · _0.1 Capacity Assessment_ · `unverified` — the specific age thresholds, and the circumstances in which a second practitioner's opinion is required, must be verified against the Consent to Medical Treatment and Palliative Care Act 1995 (SA). Do not assume the position in another state applies.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L140 · _0.4 Neurologically Determined Death_ · `unverified` — the required observation period, the CO₂ threshold and technique for the apnoea test, the qualifications and independence requirements of the two examining practitioners, and the accepted imaging modalities are ALL omitted from this file. The authoritative Australian source is the ANZICS Statement on Death and Organ Donation; obtain the current edition.
@@ -264,15 +264,19 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L117 · _0.3 Malnutrition and Nutrition_ · `unverified` — the tools, thresholds and scoring.
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L140 · _0.3 Malnutrition and Nutrition_ · `unverified` — risk criteria, electrolyte thresholds and the rate of caloric reintroduction.
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L251 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — reportable death criteria under the Coroners Act 2003 (SA).
+- **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L97 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (88)
+## R3 — everything else (92)
 
 - **Corpus A/03_Gastrointestinal.md** L800 · _0.18.1 Added from unverified layer — presentation sequence, atypical positions, and the RIF differential_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L1502 · _0.41.3 Added from unverified layer — visceral versus parietal pain, and the must-not-miss list_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L1545 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L1592 · _0.41.5 Added from unverified layer — generalised pain and the catastrophes_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L1622 · _0.41.6 Added from unverified layer — the acute abdomen in special groups_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03_Gastrointestinal.md** L1650 · _0.41.7 Added from unverified layer — bilious versus non-bilious vomiting, and the vomiting patterns_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L181 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/14_05a_Psych_-_Eating_Disorders.md** L76 · _Added from unverified layer — physical signs of self-induced vomiting_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_.md** L63 · _Added from unverified layer — three points not stated above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L52 · _0.1.3 Mx – Chronic/long-term_ · `unverified` — process and jurisdiction.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L64 · _0.2 Consent and Treatment Refusal_ · `unverified` — confirm the current statutory and common law position, including any civil liability legislation modifying it.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L72 · _0.2 Consent and Treatment Refusal_ · `unverified` — the statutory basis and its limits in South Australia require verification against the Consent to Medical Treatment and Palliative Care Act 1995.
@@ -355,6 +359,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L82 · _0.2 Pressure Injury_ · `unverified` — the full staging definitions and terminology.
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L149 · _0.3 Malnutrition and Nutrition_ · `unverified` — the IDDSI levels and descriptors.
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L264 · _0.6 Advance Care Planning in Practice_ · `unverified` — SA document names, forms and their legal effect.
+- **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L95 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — model knowledge, not source-checked.
 
 # Permanently noted — requires Therapeutic Guidelines or AMH (59)
 
