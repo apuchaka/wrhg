@@ -211,18 +211,22 @@ presentation-type sections inside disease files (`03_Gastrointestinal` §0.41 is
 Pain — Regional Anatomy and DDx"). A duplicate file is the one error nothing downstream
 detects. Rule 2 applies: zero grep hits is not proof of absence.
 
-**Corpus B's wikilinks — the count and the characterisation were both wrong.** This said
-"167 wikilinks point at placeholder codes that resolve to nothing". Measured across all 39
-files: **798 wikilinks, of which 764 are unresolved** — and **573 of those 764 are not dead
-at all.**
+**Corpus B's wikilinks are FILENAME PREFIXES, not placeholder codes. Do not strip them —
+expand them.** This said "167 wikilinks point at placeholder codes that resolve to nothing".
+Measured across all 39 files: **798 wikilinks, 764 unresolved**, and the characterisation was
+wrong as well as the number. `[[C4]]` is `C4_Gastrointestinal_Bleeding`, `[[GER1]]` is
+`GER1_Comprehensive_Geriatric_Assessment`, `[[A9]]` is `A9_Transfusion__Coagulopathy…`.
+**They dangle only because the prefix is not the full filename.**
 
-| | |
-|---|---|
-| **573 (75%)** | resolve to **exactly one existing Corpus B file**, with **zero ambiguity**, once `.`→`-` is normalised and the code is anchored to a following `_` (so `[[A1]]` cannot match `A10_`). `[[C2]]` → `C2_Nausea_and_Vomiting`, `[[F0.5]]` → `F0-5_Acute_Respiratory…`. These are **B's internal cross-references**, not placeholders. |
-| **191 (50 codes)** | have **no candidate file** — `P1`, `P3`, `O6`, `N6`, `L4`, `E1`, `M5`, `H4`, the `J` series. B's code scheme anticipated files that were never built. **These are the genuine placeholders**, and only these get `` `TODO:link — topic` ``. |
+**The mapping is not a pure prefix match** — `[[F0.2]]` uses a dot where the filename uses a
+hyphen (`F0-2_Acid-Base__DKA_and_Fluid_States`). Build it by measurement: normalise `.`→`-`,
+require the code to be followed by `_`, and require **exactly one** matching file. Report any
+prefix that does not resolve to exactly one.
 
-**Never guess a target** still stands, and the 573 are not guesses: the mapping is
-deterministic and verified 1:1 against the filesystem. Do not resolve any of the 191.
+| | n | Rule |
+|---|---|---|
+| **Expandable** | **573** | Expand to the full filename. Verified: 87 distinct codes, **0 ambiguous**. This is not guessing — the mapping is deterministic against the filesystem. |
+| **Unbuilt targets** | **191** (50 codes) | `E1`, `H4`, `J4`, `L3`, `L4`, `M5`, `N6`, `O6`, `P1`, `P3` … B's scheme reserved codes for files **nobody ever built** — the existing prefixes are only `A1–A10`, `B1–B6`, `C1–C7`, `D1–D7`, `F0-1…F0-5`, `GER1–2`. Used identically in prose (`Acute angle-closure glaucoma → [[E1]]`, `Myeloma → [[J4]]`), so the adjacent text names the topic. **These become `` `TODO:link — topic` ``, and only these.** Never guess a target for them. |
 
 **This is the fourth sampled count, and they share one cause.** "Corpus C states no doses"
 (8 of 22 drug files do), "65 backticked references" (276), "42 wikilinks in C" (195), and
