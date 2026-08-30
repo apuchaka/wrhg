@@ -63,14 +63,14 @@ conflicts_r1: 0
 
 > [!warning] **The pendulum swung too far after the WHI, and a generation of women were under-treated.** Current understanding: for **symptomatic women under 60 or within 10 years of menopause**, the benefits generally outweigh the risks. **Transdermal oestrogen does not carry the VTE risk that oral oestrogen does** — which makes it the preferred route in women with VTE risk factors, obesity, migraine or gallbladder disease. **Micronised progesterone appears to carry a lower breast cancer signal** than older synthetic progestogens.
 - **Absolute contraindications:** **current or past breast cancer**, oestrogen-dependent cancer, **undiagnosed vaginal bleeding**, untreated endometrial hyperplasia, **current VTE or arterial thromboembolic disease**, active liver disease, and pregnancy.
-- **Non-hormonal alternatives** for vasomotor symptoms: **SSRIs/SNRIs (venlafaxine, escitalopram — but AVOID paroxetine and fluoxetine in women on TAMOXIFEN**, see `NEW_Drugs_14_Immunomodulators_and_Antineoplastics.md` 0.3.4), **gabapentin**, clonidine, and **fezolinetant** (an NK3 antagonist).
+- **Non-hormonal alternatives** for vasomotor symptoms: **SSRIs/SNRIs (venlafaxine, escitalopram — but AVOID paroxetine and fluoxetine in women on TAMOXIFEN**, see [[NEW_Drugs_14_Immunomodulators_and_Antineoplastics]] 0.3.4), **gabapentin**, clonidine, and **fezolinetant** (an NK3 antagonist).
 - **Vaginal oestrogen** — for genitourinary symptoms; minimal systemic absorption, does not require a progestogen, and is **usable in most women in whom systemic MHT is contraindicated** (including many breast cancer survivors, after discussion with their oncologist). **Substantially under-used.**
 
 > [!danger] **ANY postmenopausal bleeding — on or off hormone therapy — requires investigation for endometrial carcinoma.** Unscheduled bleeding on MHT beyond the first few months is not "just the hormones".
 
 ### 0.2.2 Selective Oestrogen Receptor Modulators
 *(covers build-list classes: SERMs; Selective oestrogen receptor modulators)*
-- **Key agents:** **raloxifene** (agonist in bone, antagonist in breast and endometrium), **tamoxifen** (antagonist in breast, **agonist in endometrium** — see 0.2 danger note and `NEW_Drugs_14_Immunomodulators_and_Antineoplastics.md` 0.3.4), **ospemifene** (for dyspareunia), **bazedoxifene** (combined with oestrogen).
+- **Key agents:** **raloxifene** (agonist in bone, antagonist in breast and endometrium), **tamoxifen** (antagonist in breast, **agonist in endometrium** — see 0.2 danger note and [[NEW_Drugs_14_Immunomodulators_and_Antineoplastics]] 0.3.4), **ospemifene** (for dyspareunia), **bazedoxifene** (combined with oestrogen).
 - **Raloxifene:** reduces **vertebral fracture** and **invasive breast cancer** risk; **does not protect the hip**, **does not treat vasomotor symptoms and often worsens hot flushes**, and **increases VTE risk** and fatal stroke in those at risk.
 
 ## 0.3 Drugs for Heavy Menstrual Bleeding
@@ -78,7 +78,7 @@ conflicts_r1: 0
 - **First-line and most effective: the LEVONORGESTREL INTRAUTERINE SYSTEM** — it reduces blood loss dramatically, is contraceptive, and avoids surgery in most women.
 - **Non-hormonal, taken only during the period:** **tranexamic acid** (an antifibrinolytic — effective, and under-used) and **NSAIDs (mefenamic acid, naproxen)**, which reduce both bleeding and pain.
 - **Hormonal:** combined oral contraceptives, cyclical or continuous progestogens, depot medroxyprogesterone; **GnRH agonists with add-back** for short-term control before surgery.
-- **Investigate the cause, do not just treat the symptom:** **full blood count and ferritin — and TREAT THE IRON DEFICIENCY, which is the actual morbidity** (see `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.2.1); **thyroid function**; **a bleeding disorder — von Willebrand disease is present in a meaningful minority of women with heavy periods since menarche and is routinely missed** (see `NEW_Investigations_Haematology_Part2.md` 0.13); and structural causes (fibroids, polyps, adenomyosis).
+- **Investigate the cause, do not just treat the symptom:** **full blood count and ferritin — and TREAT THE IRON DEFICIENCY, which is the actual morbidity** (see [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.2.1); **thyroid function**; **a bleeding disorder — von Willebrand disease is present in a meaningful minority of women with heavy periods since menarche and is routinely missed** (see [[NEW_Investigations_Haematology_Part2]] 0.13); and structural causes (fibroids, polyps, adenomyosis).
 
 > [!danger] **Heavy bleeding with intermenstrual or postcoital bleeding, or in a woman over 45, requires assessment for ENDOMETRIAL PATHOLOGY** — pelvic ultrasound and endometrial sampling. **Do not start hormonal treatment for abnormal bleeding without excluding malignancy in an at-risk woman.**
 
@@ -104,7 +104,7 @@ conflicts_r1: 0
 
 - **Ovulation induction:** **letrozole** (an aromatase inhibitor — now generally **first-line in PCOS**, with better live birth rates than clomifene), **clomifene citrate**, **metformin** (in PCOS, particularly with insulin resistance), and **gonadotrophins (FSH, hMG)** in specialist settings.
 - **Assisted reproduction:** gonadotrophins for controlled ovarian stimulation, **GnRH agonists and antagonists** to prevent premature LH surge, **hCG or GnRH agonist trigger**, and **luteal progesterone support**.
-- **Other:** **cabergoline** for hyperprolactinaemia-related anovulation (see `NEW_Drugs_10_Endocrine.md` 0.5.3); **levothyroxine** optimisation; and treatment of the male factor.
+- **Other:** **cabergoline** for hyperprolactinaemia-related anovulation (see [[NEW_Drugs_10_Endocrine]] 0.5.3); **levothyroxine** optimisation; and treatment of the male factor.
 
 > [!danger] **OVARIAN HYPERSTIMULATION SYNDROME (OHSS) is the complication an intern will meet, often in an emergency department, and it can be life-threatening.**
 > **Abdominal distension and pain, nausea and vomiting, ascites, oliguria, haemoconcentration, hypovolaemia despite third-space fluid, electrolyte disturbance, and a high risk of VTE (including unusual sites such as the internal jugular vein).**
@@ -121,7 +121,7 @@ conflicts_r1: 0
 
 > [!danger] **POSTPARTUM HAEMORRHAGE — the drugs are only part of it, and the order matters.**
 > **Call for help, resuscitate, and address the FOUR Ts: TONE (uterine atony — the commonest cause), TISSUE (retained placenta), TRAUMA (tears, uterine rupture), THROMBIN (coagulopathy).**
-> **Rub up the fundus, empty the bladder, and give uterotonics — oxytocin first, then ergometrine (unless hypertensive), carboprost, and misoprostol** — alongside **TRANEXAMIC ACID, which reduces mortality and should be given EARLY** (see `NEW_Drugs_06_Cardiovascular.md` 0.5). Then **bimanual compression, balloon tamponade, and surgical measures**. **Blood loss is consistently underestimated visually, and a young fit woman compensates until she suddenly does not.**
+> **Rub up the fundus, empty the bladder, and give uterotonics — oxytocin first, then ergometrine (unless hypertensive), carboprost, and misoprostol** — alongside **TRANEXAMIC ACID, which reduces mortality and should be given EARLY** (see [[NEW_Drugs_06_Cardiovascular]] 0.5). Then **bimanual compression, balloon tamponade, and surgical measures**. **Blood loss is consistently underestimated visually, and a young fit woman compensates until she suddenly does not.**
 
 ### 0.7.2 Other Drugs in Labour
 - **Analgesia:** **nitrous oxide (Entonox)**, parenteral opioids (with the caveat of **neonatal respiratory depression** — have naloxone available), and **epidural analgesia** (the most effective; adverse effects include hypotension, motor block, urinary retention, post-dural puncture headache, and fever).
@@ -138,7 +138,7 @@ conflicts_r1: 0
 
 > [!danger] **MAGNESIUM SULFATE IS THE TREATMENT AND PREVENTION OF ECLAMPTIC SEIZURES — NOT A BENZODIAZEPINE, NOT PHENYTOIN.**
 > It is given for **eclampsia** and for **severe pre-eclampsia to prevent seizures**, and separately for **fetal neuroprotection** in anticipated very preterm birth.
-> **Monitoring for magnesium toxicity is a bedside nursing and medical task: DEEP TENDON REFLEXES (lost first), RESPIRATORY RATE, and URINE OUTPUT** — magnesium is renally cleared, so **oliguria causes accumulation and requires dose reduction.** **CALCIUM GLUCONATE is the antidote.** See `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.3.4.
+> **Monitoring for magnesium toxicity is a bedside nursing and medical task: DEEP TENDON REFLEXES (lost first), RESPIRATORY RATE, and URINE OUTPUT** — magnesium is renally cleared, so **oliguria causes accumulation and requires dose reduction.** **CALCIUM GLUCONATE is the antidote.** See [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.3.4.
 
 - **Aspirin** — **low-dose aspirin from early pregnancy substantially reduces the risk of pre-eclampsia in women with risk factors** and is one of the few genuinely preventive obstetric interventions. **Identify at-risk women at the first antenatal visit.**
 - **Corticosteroids** — for fetal lung maturation where preterm delivery is anticipated; and in HELLP syndrome (contested benefit).
@@ -164,16 +164,16 @@ conflicts_r1: 0
 ### 0.10.2 Anti-D (Rh D) Immunoglobulin
 - **Purpose:** prevents **RhD alloimmunisation** in an RhD-negative woman carrying an RhD-positive fetus, and therefore prevents **haemolytic disease of the fetus and newborn** in subsequent pregnancies. It is one of the great preventive successes in obstetrics.
 - **Schedule (the one dose-related figure in this file, and it is a national program schedule):** sources describing the Australian guidance state that **anti-D 500 IU is given at 28 and 34 weeks to all RhD-negative women who have not formed their own anti-D**, in addition to **postpartum administration where the baby is RhD positive**, and **after any potentially sensitising event** — antepartum haemorrhage, abdominal trauma, miscarriage, termination, ectopic pregnancy, external cephalic version, and invasive procedures (CVS, amniocentesis, cordocentesis).
-- **Timing:** **give within 72 hours of the sensitising event**, and **do not wait for the Kleihauer result** — give the standard dose and top up according to the quantified fetomaternal haemorrhage (see `NEW_Investigations_Obstetrics_and_Gynaecology.md` 0.9).
+- **Timing:** **give within 72 hours of the sensitising event**, and **do not wait for the Kleihauer result** — give the standard dose and top up according to the quantified fetomaternal haemorrhage (see [[NEW_Investigations_Obstetrics_and_Gynaecology]] 0.9).
 - **Practical:** take the maternal sample for the Kleihauer/flow cytometry **before** giving anti-D; **it is a blood product, requiring consent and the same identification checks**; and **a negative Kleihauer does not remove the indication after a sensitising event.**
 
 ### 0.10.3 Other Agents in Obstetrics
-- **Antenatal corticosteroids** (0.7.2, 0.9); **magnesium sulfate** (0.8); **iron and intravenous iron** (see `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.2.1); **folic acid and iodine** supplementation — **folate before conception and in the first trimester to prevent neural tube defects, at a higher dose in higher-risk women**; **low molecular weight heparin** for VTE prophylaxis and treatment (**the anticoagulant of choice in pregnancy — it does not cross the placenta**; warfarin and DOACs are avoided); **thyroxine**, with **requirements rising early in pregnancy** (see `NEW_Drugs_10_Endocrine.md` 0.4.1); and **antiemetics for nausea and vomiting of pregnancy and hyperemesis** (see `NEW_Drugs_12_Gastrointestinal.md` 0.2.4).
+- **Antenatal corticosteroids** (0.7.2, 0.9); **magnesium sulfate** (0.8); **iron and intravenous iron** (see [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.2.1); **folic acid and iodine** supplementation — **folate before conception and in the first trimester to prevent neural tube defects, at a higher dose in higher-risk women**; **low molecular weight heparin** for VTE prophylaxis and treatment (**the anticoagulant of choice in pregnancy — it does not cross the placenta**; warfarin and DOACs are avoided); **thyroxine**, with **requirements rising early in pregnancy** (see [[NEW_Drugs_10_Endocrine]] 0.4.1); and **antiemetics for nausea and vomiting of pregnancy and hyperemesis** (see [[NEW_Drugs_12_Gastrointestinal]] 0.2.4).
 
 ## 0.11 Drugs Affecting Lactation
 
 - **Suppressing lactation:** **cabergoline** (a dopamine agonist — effective; used after stillbirth, neonatal death, or where a woman chooses not to breastfeed); non-drug measures (firm support, avoiding expression, analgesia). **Oestrogens are no longer used** (VTE risk).
-- **Promoting lactation (galactogogues):** **domperidone** is used, though the evidence is modest and **it prolongs the QT** (avoid where there is cardiac risk or interacting drugs); metoclopramide is an alternative but carries the extrapyramidal and duration limits described in `NEW_Drugs_12_Gastrointestinal.md` 0.2.2. **Lactation consultant support, feeding frequency and attachment do more than any drug** — a galactogogue without skilled feeding support rarely helps.
+- **Promoting lactation (galactogogues):** **domperidone** is used, though the evidence is modest and **it prolongs the QT** (avoid where there is cardiac risk or interacting drugs); metoclopramide is an alternative but carries the extrapyramidal and duration limits described in [[NEW_Drugs_12_Gastrointestinal]] 0.2.2. **Lactation consultant support, feeding frequency and attachment do more than any drug** — a galactogogue without skilled feeding support rarely helps.
 - **Mastitis:** **continued feeding or expressing**, analgesia, and **antibiotics covering *S. aureus*** where there is systemic illness or no improvement; **a breast abscess needs drainage**; and **inflammatory breast cancer can masquerade as mastitis — non-resolving "mastitis" requires imaging and review.**
 
 > [!danger] **DRUGS AND BREASTFEEDING: the default should be to find a compatible drug, not to stop breastfeeding.**
@@ -184,10 +184,10 @@ conflicts_r1: 0
 ## 0.12 Drugs for Vaginal Infections
 
 - **Vulvovaginal candidiasis:** **topical azoles (clotrimazole, miconazole)** or **oral fluconazole** (**avoided in pregnancy — topical treatment is used**). **Recurrent candidiasis warrants a check for diabetes and immunosuppression**, and a longer induction-and-maintenance regimen.
-- **Bacterial vaginosis:** **oral or vaginal metronidazole**, or **vaginal clindamycin**. **Not an STI**, but associated with **preterm birth** in pregnancy. **Warn about the disulfiram-like reaction with alcohol** on metronidazole (see `NEW_Drugs_05_Anti_infectives.md` 0.2.15).
+- **Bacterial vaginosis:** **oral or vaginal metronidazole**, or **vaginal clindamycin**. **Not an STI**, but associated with **preterm birth** in pregnancy. **Warn about the disulfiram-like reaction with alcohol** on metronidazole (see [[NEW_Drugs_05_Anti_infectives]] 0.2.15).
 - **Trichomoniasis:** **oral metronidazole or tinidazole** — and **this one IS a sexually transmitted infection: treat the partner, screen for other STIs, and notify as required.**
 - **Atrophic vaginitis:** **topical vaginal oestrogen** and non-hormonal moisturisers (0.2.1).
-- **Pelvic inflammatory disease:** **empirical antibiotic therapy started on clinical suspicion — do not wait for swab results**, because delay costs fertility. See `NEW_Investigations_Obstetrics_and_Gynaecology.md` 0.3 and [[17_05_PID__Endometriosis__Fibroids]].
+- **Pelvic inflammatory disease:** **empirical antibiotic therapy started on clinical suspicion — do not wait for swab results**, because delay costs fertility. See [[NEW_Investigations_Obstetrics_and_Gynaecology]] 0.3 and [[17_05_PID__Endometriosis__Fibroids]].
 
 > [!danger] **Always do a pregnancy test in a woman of reproductive age with pelvic pain — ectopic pregnancy presents as PID.** And **abnormal discharge with postcoital or intermenstrual bleeding, or a suspicious cervix, requires examination and specialist referral, not a prescription.**
 
@@ -202,7 +202,7 @@ conflicts_r1: 0
 > [!danger] **Testosterone is widely misused — for "low T", fatigue, ageing, and in bodybuilding.** **Anabolic steroid misuse causes cardiomyopathy, polycythaemia, hepatic injury, infertility, aggression, and profound hypogonadism on withdrawal.** Ask about it non-judgementally, and do not prescribe testosterone for non-specific symptoms without properly confirmed biochemical hypogonadism.
 
 ### 0.13.2 Anti-androgens
-- **Key agents:** **spironolactone** (used widely for acne, hirsutism and in gender-affirming care), **cyproterone acetate**, **bicalutamide and other prostate cancer agents** (see `NEW_Drugs_14_Immunomodulators_and_Antineoplastics.md` 0.3.1), **finasteride and dutasteride** (see `NEW_Drugs_13_Genitourinary.md` 0.1.2), and **GnRH analogues**.
+- **Key agents:** **spironolactone** (used widely for acne, hirsutism and in gender-affirming care), **cyproterone acetate**, **bicalutamide and other prostate cancer agents** (see [[NEW_Drugs_14_Immunomodulators_and_Antineoplastics]] 0.3.1), **finasteride and dutasteride** (see [[NEW_Drugs_13_Genitourinary]] 0.1.2), and **GnRH analogues**.
 - **Indications:** **hirsutism and PCOS-related androgenic symptoms**, acne, androgenetic alopecia, prostate cancer, and **gender-affirming hormone therapy**.
 - **Adverse effects:** **spironolactone — hyperkalaemia (check potassium and renal function), menstrual irregularity, breast tenderness and gynaecomastia**; **cyproterone — hepatotoxicity, depression, VTE, and a dose-related risk of MENINGIOMA that has led to regulatory restriction and prompted a move to lower doses and alternatives.**
 - **All anti-androgens are teratogenic to a male fetus — effective contraception is required.**

@@ -198,7 +198,7 @@ conflicts_r1: 0
   - **Hepatotoxicity is a shared risk of rifampicin, isoniazid and pyrazinamide** — check baseline LFTs and monitor; a patient on TB treatment with nausea, vomiting, jaundice or abdominal pain needs urgent LFTs.
   - **Never treat active TB with a single agent** — resistance is the inevitable result.
   - **Directly observed therapy and public health involvement are standard**; TB is **notifiable** in every Australian jurisdiction and is managed by state TB services.
-  - **Exclude active TB before treating latent infection.** See `NEW_Investigations_Respiratory.md` 0.7.
+  - **Exclude active TB before treating latent infection.** See [[NEW_Investigations_Respiratory]] 0.7.
   - **Non-tuberculous mycobacteria** (*M. avium* complex, *M. abscessus*) require different, prolonged, multi-drug regimens; **leprosy** is treated with rifampicin, dapsone and clofazimine.
   - **Second-line and MDR-TB agents** — fluoroquinolones, bedaquiline, linezolid, aminoglycosides — are specialist-only, and bedaquiline plus azoles both prolong the QT.
 
@@ -302,7 +302,7 @@ conflicts_r1: 0
 - **Key agents:** **tenofovir disoproxil fumarate (TDF)** and **tenofovir alafenamide (TAF)**, **emtricitabine (FTC)**, **lamivudine (3TC)**, **abacavir (ABC)**, zidovudine (largely historical).
 - **The "backbone" of most regimens**, typically **TAF or TDF with emtricitabine**, or **abacavir with lamivudine**.
 - **Agent-specific points:**
-  - **ABACAVIR REQUIRES HLA-B\*57:01 TESTING BEFORE USE** — the allele predicts a potentially fatal hypersensitivity syndrome, and sources report the test has a **negative predictive value of approximately 100%**. **A patient who has had abacavir hypersensitivity must never be rechallenged.** See `NEW_Investigations_General_and_Preventive.md` 0.16.
+  - **ABACAVIR REQUIRES HLA-B\*57:01 TESTING BEFORE USE** — the allele predicts a potentially fatal hypersensitivity syndrome, and sources report the test has a **negative predictive value of approximately 100%**. **A patient who has had abacavir hypersensitivity must never be rechallenged.** See [[NEW_Investigations_General_and_Preventive]] 0.16.
   - **Tenofovir disoproxil (TDF)** — **renal tubular toxicity (including Fanconi syndrome) and reduced bone mineral density**. **Tenofovir alafenamide (TAF)** achieves the same intracellular levels at far lower plasma exposure and has **less renal and bone toxicity**, but is associated with more **weight gain and dyslipidaemia**. Sources describe TAF as showing equivalent antiviral efficacy to TDF.
   - **Lamivudine, emtricitabine and tenofovir are also active against hepatitis B** — see 0.6.3 and the danger note there.
   - **Older NRTIs (stavudine, didanosine, zidovudine)** caused **mitochondrial toxicity — lactic acidosis, hepatic steatosis, lipoatrophy, peripheral neuropathy, pancreatitis** — and are essentially no longer used; zidovudine also causes **anaemia and macrocytosis**.

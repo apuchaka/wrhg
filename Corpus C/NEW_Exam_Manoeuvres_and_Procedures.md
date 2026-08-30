@@ -263,7 +263,7 @@ conflicts_r1: 0
 
 > [!warning] **False positives are common.** Hamstring tightness, hip pathology, sacroiliac pain and simple back pain all limit the raise. **Sensitising manoeuvres** — **ankle dorsiflexion** or **neck flexion** at the point of pain — increase neural tension without changing muscle length, and worsening pain on those manoeuvres supports a genuinely neural origin. Reproducing back pain alone is not a positive test.
 
-> [!danger] **Do not ignore the other red flags for back pain**: age over 50 with new pain, a history of cancer, unexplained weight loss, fever or intravenous drug use, night pain, trauma, prolonged corticosteroids, or any progressive neurological deficit. These change the pathway from conservative management to urgent imaging. See also `NEW_Investigations_Orthopaedics_Neurology_and_Other.md` 0.8.
+> [!danger] **Do not ignore the other red flags for back pain**: age over 50 with new pain, a history of cancer, unexplained weight loss, fever or intravenous drug use, night pain, trauma, prolonged corticosteroids, or any progressive neurological deficit. These change the pathway from conservative management to urgent imaging. See also [[NEW_Investigations_Orthopaedics_Neurology_and_Other]] 0.8.
 
 **Alt:** **Slump test** (reported as more sensitive, less specific); crossed SLR; **femoral stretch test** (0.12) for upper lumbar roots; neurological examination by myotome, dermatome and reflex (see [[11_07a_Ortho_-_Dermatomes_and_Myotomes_Reference]]); **MRI lumbar spine** — urgently where red flags or cauda equina features are present.
 

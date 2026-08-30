@@ -45,7 +45,7 @@ conflicts_r1: 0
 ### 0.1.3 Other Drugs for BPH and Prostatitis
 - **PDE5 inhibitors — tadalafil** at a daily dose is licensed for BPH symptoms and is especially useful where **erectile dysfunction coexists** (see 0.5.1). **Do not combine with an alpha-blocker without care** — additive hypotension.
 - **Antimuscarinics and mirabegron** — added where **storage symptoms (urgency, frequency, nocturia)** predominate; safe with careful monitoring for retention, and no longer regarded as contraindicated in BPH provided the post-void residual is checked.
-- **Prostatitis:** **acute bacterial prostatitis** needs prolonged antibiotics with good prostatic penetration (**trimethoprim, co-trimoxazole or a fluoroquinolone**, guided by culture and local resistance — see `NEW_Drugs_05_Anti_infectives.md` 0.2.14 for fluoroquinolone cautions), and can cause sepsis and abscess. **Chronic prostatitis / chronic pelvic pain syndrome** is usually **not infective** and responds poorly to repeated antibiotics — it needs a multimodal approach including alpha-blockers, pain management, physiotherapy and psychological support.
+- **Prostatitis:** **acute bacterial prostatitis** needs prolonged antibiotics with good prostatic penetration (**trimethoprim, co-trimoxazole or a fluoroquinolone**, guided by culture and local resistance — see [[NEW_Drugs_05_Anti_infectives]] 0.2.14 for fluoroquinolone cautions), and can cause sepsis and abscess. **Chronic prostatitis / chronic pelvic pain syndrome** is usually **not infective** and responds poorly to repeated antibiotics — it needs a multimodal approach including alpha-blockers, pain management, physiotherapy and psychological support.
 - **Non-drug:** fluid and caffeine advice, bladder retraining, and **review of drugs that worsen symptoms** — anticholinergics, sympathomimetics (including decongestants), opioids and diuretics.
 
 > [!danger] **ACUTE URINARY RETENTION with a palpable bladder is an emergency requiring catheterisation.** Look for the precipitant — constipation, urinary infection, a new anticholinergic or decongestant, alcohol, postoperative state. **Beware POST-OBSTRUCTIVE DIURESIS after relieving chronic retention** — monitor urine output, electrolytes and blood pressure, and replace fluid; these patients can become profoundly volume- and electrolyte-depleted. **And always exclude CAUDA EQUINA SYNDROME** in retention with back pain or neurological features.
@@ -67,7 +67,7 @@ conflicts_r1: 0
 ### 0.2.2 Other Drugs for Urinary Incontinence
 - **Mirabegron** — a **β₃-adrenoceptor agonist** relaxing the detrusor during filling. **The main advantage is the absence of anticholinergic effects**, which makes it valuable in older patients and those already carrying anticholinergic burden. **Adverse effects: hypertension** (check the blood pressure before and during treatment — it is contraindicated in severe uncontrolled hypertension), tachycardia, urinary tract infection, headache. Inhibits **CYP2D6** (relevant for metoprolol, some antidepressants).
 - **Duloxetine** — an SNRI with a role in **stress urinary incontinence** (increasing urethral sphincter tone); nausea limits its use, and pelvic floor training remains first-line.
-- **Desmopressin** — for **nocturnal polyuria and nocturnal enuresis**. **HYPONATRAEMIA is the serious risk — restrict fluid, monitor sodium, and use with great caution in the elderly**, in whom it can cause severe symptomatic hyponatraemia (see `NEW_Drugs_06_Cardiovascular.md` 0.11.4).
+- **Desmopressin** — for **nocturnal polyuria and nocturnal enuresis**. **HYPONATRAEMIA is the serious risk — restrict fluid, monitor sodium, and use with great caution in the elderly**, in whom it can cause severe symptomatic hyponatraemia (see [[NEW_Drugs_06_Cardiovascular]] 0.11.4).
 - **Topical vaginal oestrogen** — genuinely effective for **genitourinary syndrome of menopause**, and for **recurrent urinary tract infection in postmenopausal women**, with minimal systemic absorption. **Substantially under-used.**
 - **Botulinum toxin** (intradetrusor injection) for refractory overactive bladder — effective, but the patient **must be willing and able to self-catheterise** if retention occurs; and **sacral neuromodulation** and surgery for refractory cases.
 - **Non-drug first-line:** **pelvic floor muscle training** (supervised, for stress and mixed incontinence — the single most effective intervention), **bladder retraining**, weight loss, fluid and caffeine modification, treating constipation, and **continence nurse or physiotherapy referral**.
@@ -79,7 +79,7 @@ conflicts_r1: 0
 ### 0.3.1 Phosphodiesterase 5 Inhibitors
 - **Mechanism:** inhibit **PDE5**, so **cGMP persists** in corpus cavernosum smooth muscle following nitric-oxide release → vasodilation and erection. **They require sexual stimulation to work** — they do not cause spontaneous erections, and telling patients this prevents a "failed" trial.
 - **Key agents:** **sildenafil, tadalafil** (long half-life — up to 36 hours, and available as a daily low dose), **vardenafil, avanafil**.
-- **Indications:** **erectile dysfunction**; **BPH symptoms** (tadalafil daily); **pulmonary arterial hypertension** (see `NEW_Drugs_06_Cardiovascular.md` 0.11.3); Raynaud phenomenon.
+- **Indications:** **erectile dysfunction**; **BPH symptoms** (tadalafil daily); **pulmonary arterial hypertension** (see [[NEW_Drugs_06_Cardiovascular]] 0.11.3); Raynaud phenomenon.
 - **Adverse effects:** headache, flushing, dyspepsia, nasal congestion, back and limb pain (tadalafil), **visual disturbance including a blue tinge** (sildenafil, via PDE6); and rarely **non-arteritic anterior ischaemic optic neuropathy** and **sudden sensorineural hearing loss** — both requiring immediate cessation and assessment. **Priapism** is rare but is a urological emergency.
 
 > [!danger] **PDE5 INHIBITORS ARE ABSOLUTELY CONTRAINDICATED WITH NITRATES IN ANY FORM — the combination causes profound, potentially fatal hypotension.**
@@ -133,7 +133,7 @@ conflicts_r1: 0
 
 ## 0.7 Drugs for Adrenal Insufficiency
 
-> [!note] **This subsection duplicates content built in AMH section 10.** Adrenal replacement is written in full at `NEW_Drugs_10_Endocrine.md` **0.5.1 (systemic glucocorticoids)** and **0.5.2 (mineralocorticoids)**. It is summarised here rather than rewritten, because splitting a single clinical topic across two files would risk the two drifting apart.
+> [!note] **This subsection duplicates content built in AMH section 10.** Adrenal replacement is written in full at [[NEW_Drugs_10_Endocrine]]**0.5.1 (systemic glucocorticoids)** and **0.5.2 (mineralocorticoids)**. It is summarised here rather than rewritten, because splitting a single clinical topic across two files would risk the two drifting apart.
 
 - **Replacement therapy:** **hydrocortisone** (usually in divided doses mimicking the diurnal rhythm; modified-release preparations exist) or prednisolone as the glucocorticoid; **fludrocortisone** as the mineralocorticoid — **needed in PRIMARY adrenal insufficiency (Addison disease) but NOT in secondary**, where the renin-angiotensin-aldosterone axis is intact. **DHEA** is occasionally added in women.
 - **Monitoring:** clinical assessment of weight, energy, postural blood pressure and pigmentation; **sodium, potassium and plasma renin activity** guide fludrocortisone adequacy. **There is no reliable biochemical marker of adequate glucocorticoid replacement — over-replacement is common and causes weight gain, osteoporosis and metabolic harm.**
@@ -144,7 +144,7 @@ conflicts_r1: 0
 > 3. **A STEROID ALERT CARD OR BRACELET**, and the diagnosis flagged prominently in the record.
 >
 > **ADRENAL CRISIS: hypotension unresponsive to fluids, vomiting, abdominal pain, hyponatraemia, hyperkalaemia, hypoglycaemia, fever, confusion. GIVE HYDROCORTISONE IMMEDIATELY ON SUSPICION — take the cortisol sample, then treat. Do not wait for the result.** Deaths from adrenal crisis are usually deaths from delay.
-> **Never omit or delay steroid replacement in an admitted patient**, and **never start thyroxine before treating adrenal insufficiency** — it precipitates crisis (see `NEW_Drugs_10_Endocrine.md` 0.4.1).
+> **Never omit or delay steroid replacement in an admitted patient**, and **never start thyroxine before treating adrenal insufficiency** — it precipitates crisis (see [[NEW_Drugs_10_Endocrine]] 0.4.1).
 
 ---
 

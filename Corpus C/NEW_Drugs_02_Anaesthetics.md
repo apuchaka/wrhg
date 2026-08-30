@@ -193,7 +193,7 @@ conflicts_r1: 0
 - **Reversal:** **naloxone** — a competitive µ-antagonist. **Titrate in small increments** to restore adequate respiration rather than full consciousness: a large bolus in a patient with pain or opioid dependence causes **acute severe pain, agitation, hypertension, arrhythmia and pulmonary oedema**. **Naloxone's duration of action is shorter than that of most opioids**, so the patient **must be observed and often needs an infusion** — re-sedation after a single dose is a classic and dangerous error.
 
 > [!danger] **The opioid–sedative combination is the commonest preventable cause of serious harm on a surgical ward.**
-> Opioids plus benzodiazepines, gabapentinoids, antipsychotics or sedating antihistamines produce additive respiratory depression. Watch **sedation score, not just respiratory rate** — **increasing sedation precedes respiratory depression** and is the earlier warning. Risk is higher in the elderly, the obese, those with **obstructive sleep apnoea** (see `NEW_Investigations_Respiratory.md` 0.4), and in renal impairment. See [[10_11c_Oncology_-_Palliative_Care_Prescribing]] for the different context of opioid use in palliative care.
+> Opioids plus benzodiazepines, gabapentinoids, antipsychotics or sedating antihistamines produce additive respiratory depression. Watch **sedation score, not just respiratory rate** — **increasing sedation precedes respiratory depression** and is the earlier warning. Risk is higher in the elderly, the obese, those with **obstructive sleep apnoea** (see [[NEW_Investigations_Respiratory]] 0.4), and in renal impairment. See [[10_11c_Oncology_-_Palliative_Care_Prescribing]] for the different context of opioid use in palliative care.
 
 ---
 

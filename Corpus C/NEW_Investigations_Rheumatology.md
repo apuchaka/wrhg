@@ -12,7 +12,7 @@ conflicts_r1: 0
 
 > [!danger] **Sourcing limitation applying to this whole file.** Australian primary guideline domains are **egress-blocked** (verified 2026-08-30); AMH and Therapeutic Guidelines are subscription-gated. Entries are **snippet-sourced**. Numerics appear only on three-source agreement; assay-dependent values are **omitted with the omission stated in place**.
 
-> [!note] **Overlap with the infectious diseases file is deliberate.** The build list carries `Autoimmune / Rheum Serology`, `Positive Autoimmune Serology` and `Vasculitis Serology` under Infectious Diseases and `Autoimmune / ANA Panel`, `ANCA Profile`, `Anti-Centromere Antibodies` and `Myositis Profile` under Rheumatology. The general interpretive approach is in `NEW_Investigations_Infectious_Diseases.md` 0.19–0.21 and is **not restated here**; these entries cover what is specific to each test.
+> [!note] **Overlap with the infectious diseases file is deliberate.** The build list carries `Autoimmune / Rheum Serology`, `Positive Autoimmune Serology` and `Vasculitis Serology` under Infectious Diseases and `Autoimmune / ANA Panel`, `ANCA Profile`, `Anti-Centromere Antibodies` and `Myositis Profile` under Rheumatology. The general interpretive approach is in [[NEW_Investigations_Infectious_Diseases]] 0.19–0.21 and is **not restated here**; these entries cover what is specific to each test.
 
 ---
 
@@ -22,7 +22,7 @@ conflicts_r1: 0
 
 **Ind:** A clinical syndrome suggesting connective tissue disease — inflammatory arthritis, photosensitive rash, serositis, Raynaud phenomenon, sicca, unexplained cytopenias, unexplained renal or interstitial lung disease.
 
-**Role:** **Supportive, never diagnostic alone.** The general caution — that ANA is a poor test in an unselected patient and that low-titre positives are common in healthy people — is set out in `NEW_Investigations_Infectious_Diseases.md` 0.19 and 0.20 and is not repeated.
+**Role:** **Supportive, never diagnostic alone.** The general caution — that ANA is a poor test in an unselected patient and that low-titre positives are common in healthy people — is set out in [[NEW_Investigations_Infectious_Diseases]] 0.19 and 0.20 and is not repeated.
 
 > [!info] **What each specificity adds once ANA is positive**
 > - **Anti-dsDNA** — relatively specific for **SLE**; **titre tracks disease activity, particularly lupus nephritis**, so it is a monitoring test as well as a diagnostic one.
@@ -45,7 +45,7 @@ conflicts_r1: 0
 
 **Role:** Sensitive and specific for ANCA-associated vasculitis; sources note international consensus supports **primary use of the PR3/MPO immunoassays without categorically requiring immunofluorescence**.
 
-> [!danger] **This is an urgent request, not a routine one.** Pulmonary–renal syndrome needs same-day nephrology or rheumatology involvement, and **the referral is made on clinical grounds, not after the serology returns.** The fuller danger box is in `NEW_Investigations_Infectious_Diseases.md` 0.21, including the dual ANCA/anti-GBM phenotype.
+> [!danger] **This is an urgent request, not a routine one.** Pulmonary–renal syndrome needs same-day nephrology or rheumatology involvement, and **the referral is made on clinical grounds, not after the serology returns.** The fuller danger box is in [[NEW_Investigations_Infectious_Diseases]] 0.21, including the dual ANCA/anti-GBM phenotype.
 
 > [!warning] **A p-ANCA pattern on immunofluorescence is not specific to vasculitis** — it also occurs in inflammatory bowel disease, autoimmune hepatitis, primary sclerosing cholangitis and some infections, usually **without** MPO specificity. **Sources also note that ANA interferes with the pANCA pattern on immunofluorescence**, which is precisely why antigen-specific assays are preferred. **Also consider drug-induced ANCA vasculitis** — hydralazine, propylthiouracil, cocaine/levamisole.
 
@@ -136,7 +136,7 @@ conflicts_r1: 0
 
 **Normal/abnormal:** Reference intervals are laboratory-, sex- and ancestry-dependent and are **not stated here**. Interpret the **trend** in rhabdomyolysis — a falling CK with improving renal function is the reassuring pattern.
 
-**Alt:** Urine dipstick (**blood-positive, red-cell-negative** in myoglobinuria — see `NEW_Investigations_Renal_and_Urology.md` 0.4); UEC, potassium, calcium, phosphate; LDH and aldolase; TFTs; myositis serology; MRI muscle; biopsy.
+**Alt:** Urine dipstick (**blood-positive, red-cell-negative** in myoglobinuria — see [[NEW_Investigations_Renal_and_Urology]] 0.4); UEC, potassium, calcium, phosphate; LDH and aldolase; TFTs; myositis serology; MRI muscle; biopsy.
 
 ## 0.7 HLA-B27 Test
 
@@ -207,7 +207,7 @@ conflicts_r1: 0
 
 **Normal/abnormal:** Positive confirms the diagnosis and supports prolonged corticosteroid therapy. **Negative in a convincing clinical picture does not overturn a clinical diagnosis** — GCA remains a clinical diagnosis and treatment continues.
 
-**Alt:** **Temporal artery ultrasound** looking for the **halo sign** — sources describe the halo as **circumferential, visible in at least two planes and more than about 0.3 mm thick**, and note that **the halo resolves in essentially all patients after two to four weeks of corticosteroid treatment**, so ultrasound must also be done early. Also **large-vessel imaging** (CT/MR angiography, PET-CT) for extracranial large-vessel GCA, plus ESR, CRP and FBC. See the Acute Visual Loss entry in `NEW_Ophthalmology.md`.
+**Alt:** **Temporal artery ultrasound** looking for the **halo sign** — sources describe the halo as **circumferential, visible in at least two planes and more than about 0.3 mm thick**, and note that **the halo resolves in essentially all patients after two to four weeks of corticosteroid treatment**, so ultrasound must also be done early. Also **large-vessel imaging** (CT/MR angiography, PET-CT) for extracranial large-vessel GCA, plus ESR, CRP and FBC. See the Acute Visual Loss entry in [[NEW_Ophthalmology]].
 
 ## 0.11 Allergy Skin Testing (Skin Prick Test — SPT)
 
@@ -248,4 +248,4 @@ conflicts_r1: 0
 
 **Omissions under the sourcing standard, each stated in place:** CK reference intervals and the numeric thresholds for diagnosing rhabdomyolysis or stopping a statin · all autoantibody titre cut-offs · corticosteroid doses in GCA.
 
-**Deliberate non-duplication:** the general approach to ANA and to an unexpected positive autoantibody is in `NEW_Investigations_Infectious_Diseases.md` 0.19–0.21 and is referenced rather than restated, since the build list carries those rows under Infectious Diseases.
+**Deliberate non-duplication:** the general approach to ANA and to an unexpected positive autoantibody is in [[NEW_Investigations_Infectious_Diseases]] 0.19–0.21 and is referenced rather than restated, since the build list carries those rows under Infectious Diseases.

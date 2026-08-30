@@ -30,7 +30,7 @@ conflicts_r1: 0
 >     `UNVERIFIED — paediatric and neonatal transfusion thresholds, per the NBA Patient
 >     Blood Management Guidelines (Module 6, Neonatal and Paediatrics).`
 > - **Platelets** — to prevent or treat bleeding in **thrombocytopenia or platelet dysfunction**. Prophylactic thresholds differ from therapeutic ones, and from those before a procedure.
-> - **FFP** — replaces **multiple coagulation factors**, for coagulopathy with bleeding, massive transfusion, and DIC. **It is a poor and slow way to reverse warfarin** — prothrombin complex concentrate is far better (see `NEW_Drugs_06_Cardiovascular.md` 0.2).
+> - **FFP** — replaces **multiple coagulation factors**, for coagulopathy with bleeding, massive transfusion, and DIC. **It is a poor and slow way to reverse warfarin** — prothrombin complex concentrate is far better (see [[NEW_Drugs_06_Cardiovascular]] 0.2).
 > - **Cryoprecipitate** — the concentrated **fibrinogen** product (also factor VIII, von Willebrand factor and factor XIII), for **hypofibrinogenaemia**, most often in **massive haemorrhage or consumptive coagulopathy**.
 > - **Albumin** — large-volume paracentesis, spontaneous bacterial peritonitis, hepatorenal syndrome, and plasma exchange. **Not a general resuscitation fluid** and not a treatment for a low albumin number.
 > - **Immunoglobulin** — replacement in primary and secondary immunodeficiency, and immunomodulation in ITP, Guillain-Barré, CIDP and Kawasaki disease. Supply is restricted by national criteria.
@@ -51,7 +51,7 @@ conflicts_r1: 0
 > - **TACO — transfusion-associated circulatory overload** — pulmonary oedema from volume, with **hypertension** and a raised JVP, in a patient with cardiac or renal impairment or a large or fast transfusion. Treat as pulmonary oedema (sit up, oxygen, diuretic).
 > - **TRALI — transfusion-related acute lung injury** — non-cardiogenic pulmonary oedema within 6 hours, with **hypotension** and a normal JVP. Supportive and often needs ventilation. **Sources note TACO and TRALI overlap symptomatically and are both historically under-recognised** — the blood pressure and volume state are the main discriminators.
 > - **Febrile non-haemolytic reaction** — common and benign, but a diagnosis of exclusion; never assume it before excluding haemolysis and sepsis.
-> - **Anaphylaxis** — treat with adrenaline (see `NEW_Drugs_01_Allergy_and_Anaphylaxis.md` 0.5); consider **IgA deficiency** in a severe reaction.
+> - **Anaphylaxis** — treat with adrenaline (see [[NEW_Drugs_01_Allergy_and_Anaphylaxis]] 0.5); consider **IgA deficiency** in a severe reaction.
 > - **Bacterial contamination / transfusion-transmitted sepsis** — rigors and rapid deterioration, particularly with platelets (stored at room temperature).
 > - **All reactions are reportable to the transfusion service and through the haemovigilance system.**
 > See [[10_08_Haemonc_-_Blood_Products_and_Transfusion]].
@@ -61,7 +61,7 @@ conflicts_r1: 0
 ### 0.2.1 Iron Supplements
 - **Mechanism:** replaces the substrate for haem synthesis. **Absorption is duodenal, is enhanced by an acidic environment and vitamin C, and is regulated by hepcidin.**
 - **Key agents:** **oral** — ferrous sulfate, ferrous fumarate, ferrous gluconate, iron polymaltose (elemental iron content differs between salts, which is what matters); **intravenous** — **ferric carboxymaltose** (the common Australian product, given as a single rapid infusion), iron polymaltose, iron sucrose.
-- **Indications:** **iron deficiency, with or without anaemia** — and the deficiency is diagnosed on **ferritin and transferrin saturation**, not haemoglobin (see `NEW_Investigations_Haematology.md`). Also iron deficiency in **heart failure** (where intravenous iron improves symptoms and reduces hospitalisation irrespective of anaemia — see `NEW_Drugs_06_Cardiovascular.md` 0.10.4), chronic kidney disease, pregnancy, and before ESA therapy (0.2.2).
+- **Indications:** **iron deficiency, with or without anaemia** — and the deficiency is diagnosed on **ferritin and transferrin saturation**, not haemoglobin (see [[NEW_Investigations_Haematology]]). Also iron deficiency in **heart failure** (where intravenous iron improves symptoms and reduces hospitalisation irrespective of anaemia — see [[NEW_Drugs_06_Cardiovascular]] 0.10.4), chronic kidney disease, pregnancy, and before ESA therapy (0.2.2).
 
 > [!danger] **IRON DEFICIENCY IS A SYMPTOM, NOT A DIAGNOSIS. Find the cause.**
 > **In a man of any age, or a postmenopausal woman, iron deficiency anaemia is gastrointestinal blood loss until proven otherwise and requires endoscopic investigation** — upper and lower. In premenopausal women, menorrhagia is the commonest cause but does not excuse missing coeliac disease or a malignancy. **Always check coeliac serology.** Prescribing iron and not investigating is one of the ways bowel cancer is missed.
@@ -69,7 +69,7 @@ conflicts_r1: 0
 > [!info] **Oral iron: less is more, and alternate-day dosing is the change worth knowing.**
 > Sources show that an oral iron dose **raises hepcidin for many hours, which BLOCKS absorption of the next dose** — so twice-daily and daily regimens are self-defeating. Absorption was **higher with alternate-day dosing (about 21.8%) than consecutive-day dosing (16.3%)**, and sources advise **lower single daily doses and avoiding twice-daily dosing to maximise fractional absorption**. Sources also note that **haemoglobin rose from baseline on both regimens with generally non-significant differences between them**, so this is about tolerability and efficiency rather than a dramatic outcome difference — but **alternate-day, single, lower dosing is better tolerated and absorbs better**, which matters when the commonest reason oral iron fails is that the patient stopped taking it.
 - **Oral adverse effects:** **nausea, epigastric pain, constipation (sometimes diarrhoea), and black stools** (expected, and not melaena — but it will obscure a genuine melaena and can cause false-positive occult blood testing on older guaiac tests). **Take with vitamin C or orange juice; avoid taking with tea, coffee, dairy, calcium and antacids.**
-- **Oral interactions:** iron **binds** and reduces absorption of **thyroxine, tetracyclines, quinolones, bisphosphonates, levodopa, methyldopa, penicillamine and integrase inhibitors** — **separate the doses by at least 2–4 hours** (see `NEW_Drugs_05_Anti_infectives.md` 0.5.4). Proton pump inhibitors reduce iron absorption.
+- **Oral interactions:** iron **binds** and reduces absorption of **thyroxine, tetracyclines, quinolones, bisphosphonates, levodopa, methyldopa, penicillamine and integrase inhibitors** — **separate the doses by at least 2–4 hours** (see [[NEW_Drugs_05_Anti_infectives]] 0.5.4). Proton pump inhibitors reduce iron absorption.
 - **Intravenous iron — indications:** oral intolerance or failure, malabsorption, ongoing losses exceeding oral replacement, chronic kidney disease and dialysis, inflammatory bowel disease, heart failure, late pregnancy, and where rapid repletion is needed.
 
 > [!danger] **Two intravenous iron hazards to know**
@@ -77,7 +77,7 @@ conflicts_r1: 0
 > - **Infusion reactions.** Modern preparations are well tolerated (sources report no serious hypersensitivity or anaphylactic reactions in the studies retrieved), but reactions occur: give **where resuscitation facilities are available**, observe during and after, and recognise the self-limiting **Fishbane reaction** (transient flushing, chest or back tightness without hypotension or wheeze) which is **not anaphylaxis** and is managed by pausing rather than stopping permanently. **Extravasation causes permanent brown skin staining** — check the cannula before and during.
 > - **Avoid intravenous iron during active infection**, and note iron infusion invalidates iron studies for weeks.
 
-> [!danger] **Iron overdose is a leading cause of paediatric poisoning death, and the danger is an adult quantity in a small child.** Counsel every family prescribed iron about **child-resistant storage**. All paediatric iron dosing is **per kilogram**. See `NEW_Drugs_04_Antidotes_and_Antivenoms.md` 0.3 for the deceptive clinical course and desferrioxamine.
+> [!danger] **Iron overdose is a leading cause of paediatric poisoning death, and the danger is an adult quantity in a small child.** Counsel every family prescribed iron about **child-resistant storage**. All paediatric iron dosing is **per kilogram**. See [[NEW_Drugs_04_Antidotes_and_Antivenoms]] 0.3 for the deceptive clinical course and desferrioxamine.
 
 ### 0.2.2 Erythropoiesis-Stimulating Agents (Erythropoietin Agonists)
 *(covers build-list classes: Erythropoiesis-Stimulating Agents; Erythropoietin agonists)*
@@ -114,7 +114,7 @@ conflicts_r1: 0
 - **Folic acid** — deficiency, haemolytic states with high turnover, methotrexate cover, and **preconception and first-trimester supplementation to prevent neural tube defects** — a standing public health recommendation, with a **higher dose in higher-risk pregnancies** (previous affected pregnancy, diabetes, obesity, some antiepileptics).
 
 > [!danger] **NEVER give folate to a B₁₂-deficient patient without replacing B₁₂ first.**
-> Folate corrects the **anaemia** while **allowing the neurological disease — subacute combined degeneration of the cord — to progress**, and that damage is **irreversible once established**. **Check B₁₂ before treating a macrocytic anaemia**, and remember that **neurological damage occurs with a normal FBC and no macrocytosis.** See [[10_06a_Haemonc_-_Macrocytic_Anaemia]] and `NEW_Investigations_Haematology_Part2.md` 0.23.
+> Folate corrects the **anaemia** while **allowing the neurological disease — subacute combined degeneration of the cord — to progress**, and that damage is **irreversible once established**. **Check B₁₂ before treating a macrocytic anaemia**, and remember that **neurological damage occurs with a normal FBC and no macrocytosis.** See [[10_06a_Haemonc_-_Macrocytic_Anaemia]] and [[NEW_Investigations_Haematology_Part2]] 0.23.
 
 - **Hydroxyurea (hydroxycarbamide)** — raises **fetal haemoglobin** in **sickle cell disease**, reducing crises, acute chest syndrome and transfusion need. Myelosuppressive; teratogenic; requires FBC monitoring.
 - **Pyridoxine** — sideroblastic anaemia, including isoniazid-related.
@@ -147,7 +147,7 @@ conflicts_r1: 0
 - **Adverse effects:** constipation, bloating; **hypercalcaemia and nephrolithiasis** with excess; **milk-alkali syndrome**; interference with the absorption of **thyroxine, bisphosphonates, iron, tetracyclines, quinolones and integrase inhibitors** — separate the doses.
 - **Practical points:**
   - **Calcium chloride contains about three times the elemental calcium of the same volume of calcium gluconate**, and is **more irritant and vesicant** — it is generally reserved for central administration and cardiac arrest. **The two are not interchangeable volume-for-volume**, and this is a real prescribing trap.
-  - **Correct calcium for albumin, or measure ionised calcium** (see `NEW_Investigations_General_and_Preventive.md` 0.2).
+  - **Correct calcium for albumin, or measure ionised calcium** (see [[NEW_Investigations_General_and_Preventive]] 0.2).
   - **Symptomatic or severe hypocalcaemia is an emergency** — perioral paraesthesia, carpopedal spasm, Chvostek and Trousseau signs, prolonged QT, seizures, laryngospasm. **Post-thyroidectomy and post-parathyroidectomy hypocalcaemia is expected, time-critical and must be actively looked for.**
   - **Check and correct magnesium** — hypomagnesaemia causes hypocalcaemia that will not correct until magnesium is replaced.
 
@@ -171,7 +171,7 @@ conflicts_r1: 0
 - **Phosphate** — replacement in hypophosphataemia: **refeeding syndrome, diabetic ketoacidosis treatment, alcohol dependence, and after intravenous iron (0.2.1)**. Severe hypophosphataemia causes **respiratory muscle weakness, rhabdomyolysis, haemolysis, cardiac dysfunction and confusion**. Intravenous replacement risks **hypocalcaemia and metastatic calcification** — give slowly with monitoring.
 
 ### 0.3.5 Other Drugs for Electrolyte Imbalance
-- **Sodium — hyponatraemia:** **fluid restriction** first in SIADH; **hypertonic saline** for severe symptomatic hyponatraemia (seizures, coma) under close supervision; **tolvaptan** (a V2 antagonist, see `NEW_Drugs_06_Cardiovascular.md` 0.11.4); **demeclocycline** (now little used); and **treating the cause** — which is usually a drug (thiazides, SSRIs, carbamazepine, PPIs), hypovolaemia, or an underlying condition.
+- **Sodium — hyponatraemia:** **fluid restriction** first in SIADH; **hypertonic saline** for severe symptomatic hyponatraemia (seizures, coma) under close supervision; **tolvaptan** (a V2 antagonist, see [[NEW_Drugs_06_Cardiovascular]] 0.11.4); **demeclocycline** (now little used); and **treating the cause** — which is usually a drug (thiazides, SSRIs, carbamazepine, PPIs), hypovolaemia, or an underlying condition.
 
 > [!danger] **Over-rapid correction of chronic hyponatraemia causes OSMOTIC DEMYELINATION SYNDROME, which is devastating and irreversible.** Correction rate limits apply, and they are tighter in high-risk patients (malnutrition, alcohol dependence, liver disease, hypokalaemia, very low starting sodium). **Specific mmol/L/24 h limits are not stated here** — they differ between guidelines; use your hospital's protocol, **measure sodium frequently during correction**, and involve seniors early. **Over-correction can be actively reversed** with desmopressin and free water — so it must be recognised, not just avoided.
 - **Hypernatraemia** — almost always a **water deficit**; correct the cause and replace water, again with attention to rate (rapid correction risks cerebral oedema).
@@ -195,7 +195,7 @@ conflicts_r1: 0
   - **TOXICITY:** sources describe vitamin D toxicity as **rare but capable of severe hypercalcaemia**, with **acute renal failure, nephrocalcinosis, cardiac calcification and myocardial injury**, arising from **increased intestinal calcium absorption and enhanced bone resorption**. **It is a real consequence of high-dose self-supplementation and of prescribing error** — check calcium in anyone on high-dose vitamin D.
   - **The activated forms (calcitriol, alfacalcidol) cause hypercalcaemia far more readily** than cholecalciferol and need closer monitoring.
 - **Vitamin E** — deficiency is rare outside severe fat malabsorption and abetalipoproteinaemia, causing **haemolysis, ataxia and peripheral neuropathy**. High-dose supplementation has **no proven benefit and is associated with harm**, including bleeding (it potentiates warfarin).
-- **Vitamin K** — see `NEW_Drugs_06_Cardiovascular.md` 0.5. **Newborn vitamin K prophylaxis to prevent haemorrhagic disease of the newborn is standard Australian practice and must be offered and documented.** Deficiency also occurs in cholestasis, malabsorption and prolonged broad-spectrum antibiotic use.
+- **Vitamin K** — see [[NEW_Drugs_06_Cardiovascular]] 0.5. **Newborn vitamin K prophylaxis to prevent haemorrhagic disease of the newborn is standard Australian practice and must be offered and documented.** Deficiency also occurs in cholestasis, malabsorption and prolonged broad-spectrum antibiotic use.
 
 ### 0.4.2 Water-Soluble Vitamins (B group and C)
 - **The class principle: mostly excreted rather than stored, so toxicity is uncommon — with important exceptions (B₆).** Deficiencies are commonest in **alcohol dependence, malnutrition, malabsorption, hyperemesis, bariatric surgery, dialysis and prolonged parenteral nutrition**, and rarely occur singly.
@@ -213,13 +213,13 @@ conflicts_r1: 0
 >   neurotoxicity thresholds above should not be read as a paediatric safe ceiling.
 
 - **Vitamin B₁₂ and folate** — see 0.2.4, including the **B₁₂-before-folate** rule.
-- **Niacin (B₃)** — deficiency causes **pellagra** (dermatitis, diarrhoea, dementia); see `NEW_Drugs_06_Cardiovascular.md` 0.9.5 for its abandoned lipid role and the flushing.
+- **Niacin (B₃)** — deficiency causes **pellagra** (dermatitis, diarrhoea, dementia); see [[NEW_Drugs_06_Cardiovascular]] 0.9.5 for its abandoned lipid role and the flushing.
 - **Riboflavin (B₂)** — deficiency causes angular stomatitis and glossitis; used in migraine prophylaxis.
 - **Vitamin C (ascorbic acid)** — deficiency causes **scurvy**: perifollicular haemorrhage, corkscrew hairs, bleeding gums, poor wound healing, and in children bone pain and pseudoparalysis. **It still occurs in Australia** — in isolated older people, those with severe dietary restriction, alcohol dependence, eating disorders and some psychiatric illness — and is easily missed and dramatically reversible. Aids iron absorption. High doses cause **oxalate stones** and interfere with some glucose meters.
 
 ### 0.4.3 Essential Fatty Acids
 - **Scope:** **omega-3 (EPA and DHA)** from fish and algal oils, **omega-6 (linoleic acid)**, and the parenteral lipid emulsions used in nutrition.
-- **Indications with reasonable evidence:** **severe hypertriglyceridaemia** (high-dose omega-3, particularly icosapent ethyl — see `NEW_Drugs_06_Cardiovascular.md` 0.9.6); **prevention of essential fatty acid deficiency in long-term parenteral nutrition** (deficiency causes a scaly dermatitis, alopecia, poor wound healing and, in infants, growth failure); and **DHA in pregnancy and infant nutrition** for fetal neurodevelopment.
+- **Indications with reasonable evidence:** **severe hypertriglyceridaemia** (high-dose omega-3, particularly icosapent ethyl — see [[NEW_Drugs_06_Cardiovascular]] 0.9.6); **prevention of essential fatty acid deficiency in long-term parenteral nutrition** (deficiency causes a scaly dermatitis, alopecia, poor wound healing and, in infants, growth failure); and **DHA in pregnancy and infant nutrition** for fetal neurodevelopment.
 - **The honest position on general supplementation:** despite very wide use, **routine omega-3 supplements have not delivered the cardiovascular benefit once expected**, and outcome evidence is agent- and dose-specific. **Advising oily fish in the diet is better supported than advising a capsule.**
 - **Adverse effects:** fishy aftertaste and eructation, gastrointestinal upset; **bleeding risk at high doses** (particularly with antiplatelets or anticoagulants); **an increase in atrial fibrillation has been observed with high-dose omega-3** in trials — a genuine and under-appreciated signal; and possible LDL rise with some preparations.
 - **Practical:** **supplements are not risk-free and are not regulated as medicines** — ask about them explicitly, because patients frequently do not report them as drugs, and they interact.

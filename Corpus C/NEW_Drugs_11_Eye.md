@@ -34,14 +34,14 @@ conflicts_r1: 0
 
 > [!danger] **Do not ignore**
 > - **Severe dry eye is not trivial** — it causes corneal ulceration, scarring and visual loss, and is a common cause of chronic ocular pain and reduced quality of life.
-> - **Dry eyes plus a dry mouth is Sjögren syndrome until proven otherwise** — check autoantibodies and consider the systemic associations, including lymphoma risk (see `NEW_Investigations_Rheumatology.md`).
+> - **Dry eyes plus a dry mouth is Sjögren syndrome until proven otherwise** — check autoantibodies and consider the systemic associations, including lymphoma risk (see [[NEW_Investigations_Rheumatology]]).
 > - **A red, painful eye with reduced vision is not dry eye** — that is keratitis, uveitis or worse.
 > - **Exposure keratopathy in the unconscious, sedated or facial-palsy patient** is a preventable cause of corneal damage: **eye care with lubricants and lid taping is a nursing and medical responsibility in ICU and in any patient who cannot close their eyes.**
 
 ## 0.2 Drugs for Eye Examinations and Procedures
 
 - **Mydriatics and cycloplegics:** **tropicamide** (short-acting mydriatic, the standard for fundoscopy), **cyclopentolate** (longer, cycloplegic — used for refraction in children and in uveitis to relieve ciliary spasm), **atropine** (very long-acting — used therapeutically in uveitis and amblyopia, not for examination), **phenylephrine** (a sympathomimetic mydriatic without cycloplegia, often combined with tropicamide).
-- **Topical anaesthetics:** **oxybuprocaine, proxymetacaine, tetracaine** — for tonometry, foreign body removal, and to allow examination of a photophobic eye (see `NEW_Drugs_02_Anaesthetics.md` 0.1.4).
+- **Topical anaesthetics:** **oxybuprocaine, proxymetacaine, tetracaine** — for tonometry, foreign body removal, and to allow examination of a photophobic eye (see [[NEW_Drugs_02_Anaesthetics]] 0.1.4).
 - **Diagnostic dyes:** **fluorescein** — the essential bedside dye, revealing epithelial defects, abrasions, ulcers and the **dendritic ulcer of herpes simplex keratitis** under blue light, and used in **Seidel's test** for aqueous leak after penetrating injury; **lissamine green** and **rose bengal** for ocular surface staining. **Intravenous fluorescein angiography** is a separate retinal investigation, and **anaphylaxis is a recognised risk** requiring resuscitation facilities.
 - **Miotics:** **pilocarpine** — used to reverse mydriasis and in acute angle-closure glaucoma.
 - **Intraoperative and periprocedural agents:** viscoelastics, intracameral antibiotics and mydriatics, and **anti-VEGF agents** (see 0.5).
@@ -64,7 +64,7 @@ conflicts_r1: 0
 
 > [!danger] **THE CONTACT LENS WEARER WITH A RED PAINFUL EYE IS A MICROBIAL KERATITIS UNTIL PROVEN OTHERWISE — refer the same day, do not treat as conjunctivitis, and tell them to stop wearing lenses and bring them in.** *Pseudomonas* keratitis in a lens wearer can perforate a cornea in 24–48 hours.
 
-> [!danger] **NEVER prescribe a topical corticosteroid — or a steroid-antibiotic combination — for a red eye without slit-lamp examination.** A steroid applied to a **dendritic herpetic ulcer** converts it into a **geographic ulcer** with risk of perforation and permanent visual loss, and it worsens bacterial, fungal and amoebic keratitis. **Steroid eye drops are an ophthalmologist's prescription.** See `NEW_Drugs_01_Allergy_and_Anaphylaxis.md` 0.2.2 and [[05_Ophthalmology]].
+> [!danger] **NEVER prescribe a topical corticosteroid — or a steroid-antibiotic combination — for a red eye without slit-lamp examination.** A steroid applied to a **dendritic herpetic ulcer** converts it into a **geographic ulcer** with risk of perforation and permanent visual loss, and it worsens bacterial, fungal and amoebic keratitis. **Steroid eye drops are an ophthalmologist's prescription.** See [[NEW_Drugs_01_Allergy_and_Anaphylaxis]] 0.2.2 and [[05_Ophthalmology]].
 
 > [!warning] **Distinguish the red eye that needs referral.** **Pain, photophobia, reduced visual acuity, a fixed or irregular pupil, ciliary flush, corneal opacity, or a unilateral red eye** point away from conjunctivitis and towards **keratitis, uveitis, scleritis, endophthalmitis or acute angle-closure glaucoma.** **Itch with bilateral watery discharge and normal vision** is allergic. **Always check and document visual acuity** — it is the single most useful triage measure and is routinely omitted.
 

@@ -28,7 +28,7 @@ conflicts_r1: 0
 - **Mechanism:** local anti-inflammatory action on the airway — **the drug that treats the disease process in asthma**, as opposed to the bronchodilators that treat its symptom.
 - **Indications:** **asthma at every step, from the as-needed AIR regimen upwards**; and **COPD**, where the role is narrower — **added for frequent exacerbations, and particularly where the blood eosinophil count is raised**, but with a **higher pneumonia risk** than in asthma.
 - **Adverse effects:** **oral candidiasis and dysphonia** (**rinse and spit after every dose, and use a spacer** — this prevents most of it); **pneumonia in COPD**; and, at higher doses or with repeated oral courses, **adrenal suppression, reduced growth velocity in children, bone loss, cataract, glaucoma, and skin thinning and bruising**.
-- **Interaction to know:** **ritonavir/cobicistat and strong azoles markedly raise inhaled fluticasone exposure and have caused iatrogenic Cushing syndrome and adrenal crisis** (see `NEW_Drugs_05_Anti_infectives.md` 0.5.3).
+- **Interaction to know:** **ritonavir/cobicistat and strong azoles markedly raise inhaled fluticasone exposure and have caused iatrogenic Cushing syndrome and adrenal crisis** (see [[NEW_Drugs_05_Anti_infectives]] 0.5.3).
 
 ### 0.1.2 Beta-2 Agonists
 *(covers build-list classes: Beta2 agonists; Short-Acting Beta-2 Agonists)*
@@ -53,7 +53,7 @@ conflicts_r1: 0
 - **Mechanism:** non-selective phosphodiesterase inhibition and adenosine antagonism → bronchodilation, with some anti-inflammatory effect at low dose.
 - **Role: largely superseded**, and retained only as later-line therapy — because of a **narrow therapeutic index and extensive interactions**.
 - **Toxicity:** **nausea and vomiting, tremor, agitation, tachyarrhythmias, hypokalaemia and SEIZURES** — and seizures can occur without preceding gastrointestinal warning in chronic toxicity. **Levels are monitored.**
-- **Interactions — the reason it is dangerous in a general hospital:** levels **RISE** with **ciprofloxacin, erythromycin and clarithromycin, cimetidine, allopurinol, fluvoxamine**, and in **heart failure, liver disease and viral illness**; levels **FALL** with **rifampicin, phenytoin, carbamazepine, and SMOKING** — so **a theophylline level can climb dangerously when a patient stops smoking on admission** (see `NEW_Drugs_17_Psychotropic.md` 0.7).
+- **Interactions — the reason it is dangerous in a general hospital:** levels **RISE** with **ciprofloxacin, erythromycin and clarithromycin, cimetidine, allopurinol, fluvoxamine**, and in **heart failure, liver disease and viral illness**; levels **FALL** with **rifampicin, phenytoin, carbamazepine, and SMOKING** — so **a theophylline level can climb dangerously when a patient stops smoking on admission** (see [[NEW_Drugs_17_Psychotropic]] 0.7).
 
 ### 0.1.5 Other Drugs for Asthma and COPD
 - **Leukotriene receptor antagonists — montelukast.** Oral, useful with allergic rhinitis and in exercise-induced asthma, and in children. **The neuropsychiatric warning is mandatory to discuss — sleep disturbance, nightmares, agitation, depression and suicidal ideation — and must be asked about at review.**
@@ -73,20 +73,20 @@ conflicts_r1: 0
 - **Role:** **very limited.** Genuinely useful for **distressing dry cough in palliative care and in lung cancer**; otherwise the evidence in acute cough is poor, and the risks are real.
 
 > [!danger] **PHOLCODINE WAS WITHDRAWN IN AUSTRALIA (2023) because of an association with ANAPHYLAXIS TO NEUROMUSCULAR BLOCKING AGENTS during subsequent general anaesthesia.** This is a distinctive and recent Australian regulatory action worth knowing, and patients may still ask about it.
-> **Codeine-containing cough preparations became prescription-only in Australia in February 2018** (see `NEW_Drugs_03_Analgesics.md` 0.4.4). **Codeine is a CYP2D6 prodrug — ultra-rapid metabolisers, including children and breastfed infants of ultra-rapid metaboliser mothers, have died. Opioid cough suppressants are contraindicated in children.**
+> **Codeine-containing cough preparations became prescription-only in Australia in February 2018** (see [[NEW_Drugs_03_Analgesics]] 0.4.4). **Codeine is a CYP2D6 prodrug — ultra-rapid metabolisers, including children and breastfed infants of ultra-rapid metaboliser mothers, have died. Opioid cough suppressants are contraindicated in children.**
 > **And the general point: do not suppress a productive cough** — it is a protective mechanism, and suppressing it in bronchiectasis, cystic fibrosis or pneumonia is harmful.
 
 ### 0.2.2 Mucolytics
 - **Key agents:** **N-acetylcysteine** (oral and nebulised), **dornase alfa** (recombinant DNase, in cystic fibrosis), **hypertonic saline** (nebulised), carbocisteine, bromhexine, mannitol powder.
 - **Mechanism:** reduce sputum viscosity — by breaking disulfide bonds (acetylcysteine), digesting extracellular DNA from degraded neutrophils (dornase alfa), or osmotically rehydrating the airway surface (hypertonic saline, mannitol).
-- **Indications:** **cystic fibrosis and bronchiectasis** — where **dornase alfa and hypertonic saline have genuine evidence**; **COPD** (modest exacerbation reduction with oral mucolytics); and **acetylcysteine's much more important other use — as the antidote in paracetamol poisoning** (see `NEW_Drugs_04_Antidotes_and_Antivenoms.md` 0.1.1).
+- **Indications:** **cystic fibrosis and bronchiectasis** — where **dornase alfa and hypertonic saline have genuine evidence**; **COPD** (modest exacerbation reduction with oral mucolytics); and **acetylcysteine's much more important other use — as the antidote in paracetamol poisoning** (see [[NEW_Drugs_04_Antidotes_and_Antivenoms]] 0.1.1).
 - **Practical:** **airway clearance physiotherapy is what actually clears sputum** — mucolytics are an adjunct to it, and are usually given immediately before a physiotherapy session. **Nebulised agents can provoke bronchospasm** — a bronchodilator is often given first.
 
 ### 0.2.3 Other Cough Considerations
 - **There is no good evidence for over-the-counter cough mixtures**, and in **children under 6 they are not recommended and have caused harm.**
 - **Find the cause instead:** **ACE inhibitor cough** (up to a large minority of users, resolves on switching to an ARB), **asthma and cough-variant asthma**, **gastro-oesophageal reflux**, **upper airway cough syndrome/postnasal drip**, **smoking**, **bronchiectasis**, **heart failure**, and **medication**.
 
-> [!danger] **Red flags in cough that mean investigation, not a suppressant:** **haemoptysis, weight loss, a cough lasting more than about 3 weeks in a smoker or ex-smoker, night sweats and fever (tuberculosis), hoarseness, dysphagia, a focal chest sign, clubbing, or a new cough in an older patient.** **Chest X-ray, and consider CT and referral.** Australia's **National Lung Cancer Screening Program** applies to the asymptomatic — a symptomatic patient needs diagnostic investigation (see `NEW_Investigations_General_and_Preventive.md` 0.13).
+> [!danger] **Red flags in cough that mean investigation, not a suppressant:** **haemoptysis, weight loss, a cough lasting more than about 3 weeks in a smoker or ex-smoker, night sweats and fever (tuberculosis), hoarseness, dysphagia, a focal chest sign, clubbing, or a new cough in an older patient.** **Chest X-ray, and consider CT and referral.** Australia's **National Lung Cancer Screening Program** applies to the asymptomatic — a symptomatic patient needs diagnostic investigation (see [[NEW_Investigations_General_and_Preventive]] 0.13).
 
 ## 0.3 Drugs for Pulmonary Hypertension
 
@@ -109,7 +109,7 @@ conflicts_r1: 0
 > The half-life is measured in minutes. **A blocked line, a failed pump, a dislodged catheter or an omitted dose is an emergency.** **Never stop or interrupt these infusions**, and if a patient on one is admitted, **contact the pulmonary hypertension service immediately** and ensure the infusion is protected.
 
 ### 0.3.3 Other Drugs for Pulmonary Hypertension
-- **PDE5 inhibitors — sildenafil, tadalafil** — see `NEW_Drugs_06_Cardiovascular.md` 0.11.3. **Absolutely contraindicated with nitrates and with riociguat.**
+- **PDE5 inhibitors — sildenafil, tadalafil** — see [[NEW_Drugs_06_Cardiovascular]] 0.11.3. **Absolutely contraindicated with nitrates and with riociguat.**
 - **Riociguat** — a soluble guanylate cyclase stimulator, used in PAH and in **chronic thromboembolic pulmonary hypertension**; **teratogenic**, and **must not be combined with a PDE5 inhibitor or nitrates**.
 - **Calcium channel blockers** — only in the small minority of patients with a **positive acute vasodilator response** at catheterisation; **giving them to a vasodilator non-responder can cause haemodynamic collapse.**
 - **Supportive:** **anticoagulation** in selected patients, **diuretics** for right heart failure, **oxygen**, **iron replacement**, and treatment of the underlying cause. **Pregnancy carries very high maternal mortality in PAH and is strongly advised against — contraception counselling is essential.**
@@ -119,7 +119,7 @@ conflicts_r1: 0
 - **CFTR MODULATORS — the transformative development.** **Ivacaftor** (a potentiator) and the correctors **lumacaftor, tezacaftor and elexacaftor**, combined as **elexacaftor/tezacaftor/ivacaftor**, which is effective for the great majority of people with CF and has produced substantial improvements in lung function, exacerbations, weight and quality of life. **Eligibility is mutation-specific and PBS-criteria-driven in Australia.** Adverse effects include **transaminitis (LFT monitoring), cataract in children (ophthalmological review), headache and rash**, and **extensive CYP3A4 interactions** — check every co-prescription.
 - **Airway clearance:** **dornase alfa**, **hypertonic saline**, **mannitol dry powder**, and — most importantly — **physiotherapy**.
 - **Anti-infectives:** **inhaled tobramycin, colistin and aztreonam** for chronic *Pseudomonas* suppression; **prolonged high-dose intravenous antibiotics** for exacerbations (**people with CF have altered pharmacokinetics and often need higher doses**); **azithromycin** for its anti-inflammatory effect; and **antifungals** for allergic bronchopulmonary aspergillosis.
-- **Nutrition and gastrointestinal:** **pancreatic enzyme replacement with every meal and snack** (**under-dosing is common** — see `NEW_Drugs_12_Gastrointestinal.md` 0.8.2), **fat-soluble vitamin supplementation (A, D, E, K)**, high-energy diet, and **salt replacement in hot weather** — genuinely important in the Australian climate.
+- **Nutrition and gastrointestinal:** **pancreatic enzyme replacement with every meal and snack** (**under-dosing is common** — see [[NEW_Drugs_12_Gastrointestinal]] 0.8.2), **fat-soluble vitamin supplementation (A, D, E, K)**, high-energy diet, and **salt replacement in hot weather** — genuinely important in the Australian climate.
 - **Complications to anticipate:** **CF-related diabetes** (screened for annually), liver disease, **distal intestinal obstruction syndrome**, osteoporosis, and **infertility (congenital bilateral absence of the vas deferens in men)**.
 - **Infection control:** **cross-infection prevention between people with CF is a strict requirement** — segregation, and no gathering of patients — and this shapes how clinics and admissions are run.
 
@@ -129,14 +129,14 @@ conflicts_r1: 0
 - **Indications:** **neonatal respiratory distress syndrome** in preterm infants — treatment, and prophylaxis in the most immature; and selected other neonatal conditions (meconium aspiration, pulmonary haemorrhage).
 - **Administration:** given by a trained neonatal team, either after intubation or by **less-invasive surfactant administration (LISA/MIST)** in a spontaneously breathing infant on CPAP — an approach with which Australian units have considerable experience.
 - **Adverse effects:** transient **bradycardia, hypoxia and airway obstruction during administration**; pulmonary haemorrhage; and — importantly — a **rapid improvement in compliance that requires prompt reduction in ventilator pressures to avoid pneumothorax.**
-- **Context:** **antenatal corticosteroids given to the mother remain the single most effective intervention** for neonatal RDS (see `NEW_Drugs_16_Obstetric_and_Gynaecological.md` 0.9); surfactant is complementary to it, not a substitute. See [[15_22b_Paeds_-_Neonatal_Respiratory_Distress_and_Jaundice]].
+- **Context:** **antenatal corticosteroids given to the mother remain the single most effective intervention** for neonatal RDS (see [[NEW_Drugs_16_Obstetric_and_Gynaecological]] 0.9); surfactant is complementary to it, not a substitute. See [[15_22b_Paeds_-_Neonatal_Respiratory_Distress_and_Jaundice]].
 
 ## 0.6 Other Respiratory Drugs
 - **Antifibrotics for idiopathic pulmonary fibrosis — pirfenidone and nintedanib.** They **slow the decline in lung function but do not reverse fibrosis or relieve symptoms**, which must be explained honestly. **Pirfenidone causes photosensitivity (significant in Australia — strict sun protection), nausea and rash**; **nintedanib causes diarrhoea (very common), hepatotoxicity and bleeding risk.** Both require LFT monitoring.
 - **Alpha-1 antitrypsin replacement** — for severe deficiency-related emphysema, in specialist settings.
 - **Respiratory stimulants — doxapram** — very limited modern use; **caffeine citrate**, by contrast, is standard and effective for **apnoea of prematurity** and improves neurodevelopmental outcomes.
-- **Oxygen** — **a drug that must be prescribed, with a target saturation range**, and one where **too much is harmful in patients at risk of hypercapnic respiratory failure**. See `NEW_Investigations_Respiratory.md` 0.3.
-- **Nicotine replacement and cessation pharmacotherapy** — arguably the most important respiratory drugs of all; see `NEW_Drugs_17_Psychotropic.md` 0.7.
+- **Oxygen** — **a drug that must be prescribed, with a target saturation range**, and one where **too much is harmful in patients at risk of hypercapnic respiratory failure**. See [[NEW_Investigations_Respiratory]] 0.3.
+- **Nicotine replacement and cessation pharmacotherapy** — arguably the most important respiratory drugs of all; see [[NEW_Drugs_17_Psychotropic]] 0.7.
 - **Antivirals and vaccines** — influenza antivirals, COVID-19 antivirals, and the **vaccination schedule**, which is core respiratory preventive care.
 
 ---

@@ -112,7 +112,7 @@ conflicts_r1: 0
 
 **Ind:** Galactorrhoea; amenorrhoea, oligomenorrhoea or infertility; erectile dysfunction and reduced libido in men; suspected pituitary lesion; visual field defect; before and during antipsychotic therapy where clinically indicated.
 
-**Role:** Screening and monitoring test for hyperprolactinaemia. **See also the Galactorrhoea entry in `NEW_Breast.md`, which covers the clinical differential and is not repeated here.**
+**Role:** Screening and monitoring test for hyperprolactinaemia. **See also the Galactorrhoea entry in [[NEW_Breast]], which covers the clinical differential and is not repeated here.**
 
 > [!danger] **Macroprolactin is the interference that changes management, and it is common.** Sources are consistent: **macroprolactin — a biologically inactive prolactin–IgG complex — reacts in all prolactin immunoassays**, and **5–25% of results reported as hyperprolactinaemia are falsely elevated by it**. It has little or no biological activity in vivo, so it is **clinically irrelevant** — but if unrecognised it leads to unnecessary pituitary MRI, dopamine agonist treatment and misdiagnosis.
 > **Best practice per sources: all sera with a raised total prolactin should be sub-fractionated (polyethylene glycol precipitation) to report the bioactive monomeric prolactin.** If your laboratory does not do this reflexively, **ask for it explicitly before acting on a raised result.**
@@ -161,7 +161,7 @@ conflicts_r1: 0
 
 **Normal/abnormal:** **Numeric activity thresholds are not stated** — assay-dependent. Interpret with the reticulocyte count and the timing of the episode. A deficient result means **lifelong avoidance advice** — oxidant drugs, **fava beans**, naphthalene (mothballs) — and family testing.
 
-**Alt:** Blood film (**bite cells, blister cells, Heinz bodies** on supravital stain); haemolysis screen (see `NEW_Investigations_Haematology.md`); genetic testing.
+**Alt:** Blood film (**bite cells, blister cells, Heinz bodies** on supravital stain); haemolysis screen (see [[NEW_Investigations_Haematology]]); genetic testing.
 
 ## 0.8 Carnitine Levels (Free and Total Carnitine)
 

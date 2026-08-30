@@ -28,7 +28,7 @@ conflicts_r1: 0
 ### 0.1.1 SSRIs
 *(covers build-list classes: SSRIs; Selective serotonin reuptake inhibitors)*
 - **Key agents:** **sertraline, escitalopram, citalopram, fluoxetine, paroxetine, fluvoxamine**.
-- **Indications:** **depression, generalised anxiety, panic disorder, social anxiety, OCD, PTSD, premenstrual dysphoric disorder, bulimia**; and **vasomotor symptoms of menopause** (see `NEW_Drugs_16_Obstetric_and_Gynaecological.md` 0.2.1).
+- **Indications:** **depression, generalised anxiety, panic disorder, social anxiety, OCD, PTSD, premenstrual dysphoric disorder, bulimia**; and **vasomotor symptoms of menopause** (see [[NEW_Drugs_16_Obstetric_and_Gynaecological]] 0.2.1).
 - **Role:** **first-line** for most depressive and anxiety disorders — because of tolerability and safety in overdose relative to tricyclics, not because of superior efficacy.
 - **Adverse effects:** **nausea and GI upset** (usually settles), **anxiety or agitation in the first days** (start low, warn), **SEXUAL DYSFUNCTION — very common, frequently the reason patients stop, and routinely not asked about**; insomnia or somnolence; weight change; **bruising and gastrointestinal bleeding** (antiplatelet effect — the risk is **additive with NSAIDs and anticoagulants, and a PPI should be considered**); and **bone loss with long-term use in older adults**.
 
@@ -81,7 +81,7 @@ conflicts_r1: 0
 
 - **Mechanism:** **D₂ receptor antagonism** (or partial agonism) is common to all; **"atypical" (second-generation)** agents additionally have **5-HT₂A** antagonism and a lower rate of extrapyramidal effects, at the cost of greater metabolic burden.
 - **Key agents:** **first-generation — haloperidol, chlorpromazine, zuclopenthixol, flupentixol**; **second-generation — olanzapine, quetiapine, risperidone, paliperidone, amisulpride, aripiprazole and brexpiprazole (partial agonists), ziprasidone, lurasidone, asenapine, clozapine**; and **long-acting injectable ("depot")** formulations of several, which substantially improve adherence and reduce relapse.
-- **Indications:** **schizophrenia and related psychoses; bipolar mania and maintenance; psychotic depression; adjunct in treatment-resistant depression; delirium (short-term, at low dose, where non-drug measures have failed); severe agitation; Tourette syndrome; and nausea (see `NEW_Drugs_12_Gastrointestinal.md` 0.2.2).**
+- **Indications:** **schizophrenia and related psychoses; bipolar mania and maintenance; psychotic depression; adjunct in treatment-resistant depression; delirium (short-term, at low dose, where non-drug measures have failed); severe agitation; Tourette syndrome; and nausea (see [[NEW_Drugs_12_Gastrointestinal]] 0.2.2).**
 
 > [!danger] **THE ADVERSE EFFECTS THAT MATTER, GROUPED BY MECHANISM**
 > **Extrapyramidal (D₂ blockade in the nigrostriatal pathway):**
@@ -96,9 +96,9 @@ conflicts_r1: 0
 > **Lowered seizure threshold**, and **temperature dysregulation**.
 
 > [!danger] **NEUROLEPTIC MALIGNANT SYNDROME — recognise it and stop the drug.**
-> **Fever, "lead-pipe" rigidity, altered conscious state, autonomic instability, raised CK and leucocytosis**, evolving over days. **Stop the antipsychotic, cool, resuscitate, and treat with supportive care ± dantrolene or bromocriptine.** It also occurs on **abrupt withdrawal of dopaminergic drugs in Parkinson disease** (see `NEW_Drugs_15_Neurological.md` 0.2). **Distinguish from serotonin syndrome** (faster onset, clonus and hyperreflexia rather than rigidity).
+> **Fever, "lead-pipe" rigidity, altered conscious state, autonomic instability, raised CK and leucocytosis**, evolving over days. **Stop the antipsychotic, cool, resuscitate, and treat with supportive care ± dantrolene or bromocriptine.** It also occurs on **abrupt withdrawal of dopaminergic drugs in Parkinson disease** (see [[NEW_Drugs_15_Neurological]] 0.2). **Distinguish from serotonin syndrome** (faster onset, clonus and hyperreflexia rather than rigidity).
 
-> [!danger] **ANTIPSYCHOTICS IN OLDER PEOPLE WITH DEMENTIA INCREASE MORTALITY AND STROKE**, and are **contraindicated in Lewy body dementia and Parkinson disease dementia** because of severe neuroleptic sensitivity. See `NEW_Drugs_15_Neurological.md` 0.3.3.
+> [!danger] **ANTIPSYCHOTICS IN OLDER PEOPLE WITH DEMENTIA INCREASE MORTALITY AND STROKE**, and are **contraindicated in Lewy body dementia and Parkinson disease dementia** because of severe neuroleptic sensitivity. See [[NEW_Drugs_15_Neurological]] 0.3.3.
 
 ### 0.2.1 Clozapine — a separate safety case
 - **Role:** **the only agent with proven superiority in TREATMENT-RESISTANT schizophrenia**, and it also reduces suicidality. **It is under-used**, often because of monitoring burden.
@@ -117,7 +117,7 @@ conflicts_r1: 0
 ### 0.3.1 Benzodiazepines
 - **Key agents:** **diazepam, oxazepam, temazepam, lorazepam, alprazolam, clonazepam, nitrazepam**.
 - **Mechanism:** positive allosteric modulation at **GABA-A**.
-- **Legitimate indications:** **short-term severe anxiety or insomnia**, **alcohol withdrawal** (0.6), **status epilepticus** (see `NEW_Drugs_15_Neurological.md` 0.1.2), **acute agitation**, **procedural sedation**, muscle spasm, and **palliative care**.
+- **Legitimate indications:** **short-term severe anxiety or insomnia**, **alcohol withdrawal** (0.6), **status epilepticus** (see [[NEW_Drugs_15_Neurological]] 0.1.2), **acute agitation**, **procedural sedation**, muscle spasm, and **palliative care**.
 - **Adverse effects:** sedation, impaired concentration and memory, **falls and fractures in older people**, **respiratory depression — profoundly potentiated by opioids**, **tolerance, dependence and withdrawal**, paradoxical disinhibition, and driving impairment.
 
 > [!danger] **THE RULE: SHORT COURSES, SMALL QUANTITIES, AND AN EXIT PLAN AT THE TIME OF PRESCRIBING.**
@@ -127,7 +127,7 @@ conflicts_r1: 0
 > **In older people, prefer the shorter-acting agents without active metabolites (oxazepam, temazepam)** and, better, avoid them; **benzodiazepines are on every deprescribing list.**
 
 ### 0.3.2 Barbiturates
-- **Key agents:** **phenobarbital**, primidone, thiopentone (see `NEW_Drugs_02_Anaesthetics.md` 0.2.1).
+- **Key agents:** **phenobarbital**, primidone, thiopentone (see [[NEW_Drugs_02_Anaesthetics]] 0.2.1).
 - **Mechanism:** GABA-A modulation, but — unlike benzodiazepines — they **directly open the chloride channel at higher doses**, which is why they have **no ceiling effect and are lethal in overdose.**
 - **Role:** **obsolete for anxiety and insomnia.** Retained for **epilepsy** (especially neonatal seizures and in resource-limited settings), **status epilepticus** as a later-line agent, and in palliative sedation.
 - **Adverse effects:** profound sedation and respiratory depression, **potent enzyme induction** (extensive interactions), **dependence with a dangerous withdrawal syndrome**, and precipitation of **porphyria**.
@@ -155,8 +155,8 @@ conflicts_r1: 0
 > **Pregnancy:** lithium is associated with **cardiac malformations (Ebstein anomaly)** in the first trimester; the decision is a specialist balance, since relapse in pregnancy and postpartum is also dangerous. **Levels change markedly through pregnancy and immediately postpartum** and need close monitoring.
 
 ### 0.4.2 Other Mood Stabilisers
-- **Sodium valproate** — effective in acute mania and maintenance. **But see the teratogenicity warning in `NEW_Drugs_15_Neurological.md` 0.1.1 — this applies with even greater force in bipolar disorder, where alternatives exist. Do not use valproate in anyone who could become pregnant unless there is genuinely no alternative.**
-- **Lamotrigine** — particularly effective for **bipolar DEPRESSION and its prevention**; **slow titration is mandatory** because of the rash, and **the dose must be halved if valproate is co-prescribed** (see `NEW_Drugs_15_Neurological.md` 0.1.1).
+- **Sodium valproate** — effective in acute mania and maintenance. **But see the teratogenicity warning in [[NEW_Drugs_15_Neurological]] 0.1.1 — this applies with even greater force in bipolar disorder, where alternatives exist. Do not use valproate in anyone who could become pregnant unless there is genuinely no alternative.**
+- **Lamotrigine** — particularly effective for **bipolar DEPRESSION and its prevention**; **slow titration is mandatory** because of the rash, and **the dose must be halved if valproate is co-prescribed** (see [[NEW_Drugs_15_Neurological]] 0.1.1).
 - **Carbamazepine** — second-line; extensive enzyme induction.
 - **Atypical antipsychotics** — **quetiapine, olanzapine, aripiprazole, risperidone, lurasidone and cariprazine** are all used, in acute mania, bipolar depression and maintenance, alone or with lithium or valproate.
 - **Antidepressants in bipolar disorder** — used cautiously and generally **only with a mood stabiliser**, because of the risk of **switching into mania and of rapid cycling.** **Always screen for a history of mania before prescribing an antidepressant for depression** — this is a routinely missed step that causes harm.
@@ -188,7 +188,7 @@ conflicts_r1: 0
 - **Withdrawal management:** **benzodiazepines are the mainstay** — usually **diazepam**, symptom-triggered against a validated withdrawal scale, or **oxazepam** where there is significant liver impairment (no active metabolites).
 
 > [!danger] **THIAMINE BEFORE GLUCOSE, AND PARENTERAL THIAMINE FOR ANYONE AT RISK.**
-> **Give high-dose parenteral thiamine before or with any glucose-containing fluid** — a carbohydrate load in a thiamine-deficient patient can precipitate **Wernicke encephalopathy**, which becomes irreversible Korsakoff syndrome. **Oral thiamine is inadequate for treatment.** **Do not delay glucose in a hypoglycaemic patient** — give both. See `NEW_Drugs_07_Blood_and_Electrolytes.md` 0.4.2.
+> **Give high-dose parenteral thiamine before or with any glucose-containing fluid** — a carbohydrate load in a thiamine-deficient patient can precipitate **Wernicke encephalopathy**, which becomes irreversible Korsakoff syndrome. **Oral thiamine is inadequate for treatment.** **Do not delay glucose in a hypoglycaemic patient** — give both. See [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.4.2.
 > **Also: severe withdrawal can cause seizures and delirium tremens, which has a real mortality** — assess severity, monitor, and treat adequately rather than cautiously. **Check and replace magnesium, potassium and phosphate**, and watch for refeeding syndrome.
 
 - **Relapse prevention — three agents, and they are under-prescribed:**
@@ -210,9 +210,9 @@ conflicts_r1: 0
 
 ## 0.8 Other Psychotropic Drugs
 
-- **Drugs for opioid dependence** — methadone, buprenorphine (including long-acting injectable) and naltrexone; see `NEW_Drugs_03_Analgesics.md` 0.3, including the standing rules about never omitting a patient's opioid agonist dose and providing analgesia in addition to it.
+- **Drugs for opioid dependence** — methadone, buprenorphine (including long-acting injectable) and naltrexone; see [[NEW_Drugs_03_Analgesics]] 0.3, including the standing rules about never omitting a patient's opioid agonist dose and providing analgesia in addition to it.
 - **Drugs for methamphetamine and stimulant use disorder** — no approved pharmacotherapy; management is psychosocial, with symptomatic treatment of agitation (**benzodiazepines first-line, not antipsychotics**) and of complications.
-- **Cognitive enhancers and drugs for dementia** — see `NEW_Drugs_15_Neurological.md` 0.3.
+- **Cognitive enhancers and drugs for dementia** — see [[NEW_Drugs_15_Neurological]] 0.3.
 - **Melatonin, and drugs for circadian rhythm disorders** — 0.3.3.
 - **Drugs used in eating disorders** — **fluoxetine** in bulimia nervosa; **there is no effective pharmacotherapy for the core features of anorexia nervosa**, where **refeeding with careful monitoring for refeeding syndrome** and psychological therapy are the treatment. **Beware QT prolongation and electrolyte disturbance** in this group. See [[14_05a_Psych_-_Eating_Disorders]].
 - **Rapid tranquillisation for acute severe agitation** — **de-escalation and environmental measures first**; then oral medication offered before parenteral; typically a **benzodiazepine and/or an antipsychotic** to local protocol, with **monitoring of consciousness, airway, oxygen saturation, blood pressure and temperature afterwards.** **This is a high-risk intervention** — deaths have occurred — and it must be documented, justified, debriefed with the patient afterwards, and conducted within the relevant **mental health legislation**. See [[14_06b_Psych_-_Mental_Health_Act_and_Sectioning]].

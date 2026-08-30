@@ -39,7 +39,7 @@ conflicts_r1: 0
 > - **A "normal" or rising PaCO₂ in an exhausted asthmatic is peri-arrest.** A tiring patient stops hyperventilating; the number normalises as the patient deteriorates. This is the most dangerous normal result in acute medicine. See [[02_Respiratory]].
 > - **A venous gas is adequate for pH, bicarbonate, lactate, potassium and CO₂ trend, but it does NOT assess oxygenation.** Do not use a VBG to decide whether a patient is hypoxaemic.
 > - **Record the FiO₂ with every gas.** A PaO₂ that looks acceptable on 15 L/min is severe respiratory failure.
-> - **Co-oximetry** is needed for **carboxyhaemoglobin and methaemoglobin**; a routine gas and the pulse oximeter will both miss them. See `NEW_Investigations_Respiratory.md` 0.3.
+> - **Co-oximetry** is needed for **carboxyhaemoglobin and methaemoglobin**; a routine gas and the pulse oximeter will both miss them. See [[NEW_Investigations_Respiratory]] 0.3.
 > - **Delay and air bubbles alter the result**; analyse immediately, and a heparinised syringe that has sat around is not a valid sample.
 > - **Lactate is a resuscitation target and a prognostic marker**, but a raised lactate is not always hypoperfusion — think salbutamol, adrenaline, metformin, seizures, liver failure, thiamine deficiency.
 
@@ -64,7 +64,7 @@ conflicts_r1: 0
 > [!danger] **Do not ignore**
 > - **Pseudohyperkalaemia.** A haemolysed sample, a tight tourniquet with fist clenching, delayed processing, or marked thrombocytosis or leucocytosis all raise the measured potassium. **A high potassium in a well patient with no ECG change should be repeated** — but **never** ignore a high potassium in a sick one while waiting.
 > - **A potassium ≥6.5 mmol/L, or any hyperkalaemia with ECG changes, is an emergency.** Get an ECG immediately: peaked T waves, PR prolongation, broad QRS, sine wave. Treat before the repeat comes back.
-> - **Correct calcium for albumin** (see `NEW_Investigations_General_and_Preventive.md` 0.2), or measure ionised calcium.
+> - **Correct calcium for albumin** (see [[NEW_Investigations_General_and_Preventive]] 0.2), or measure ionised calcium.
 > - **Hypocalcaemia after thyroid or parathyroid surgery** is expected, dangerous and time-critical — look for perioral paraesthesia, Chvostek and Trousseau signs, and a prolonged QT.
 > - **Refeeding syndrome:** in a malnourished patient (prolonged poor intake, alcohol dependence, anorexia nervosa, post-bariatric), check **phosphate, magnesium and potassium before and daily after** starting feeding, and give thiamine first.
 > - **Urea and creatinine move differently.** A urea rise out of proportion to creatinine suggests **upper gastrointestinal bleeding, dehydration or a catabolic state**; creatinine also depends on muscle mass, so a "normal" creatinine in a frail elderly patient can conceal significant renal impairment — read the **eGFR**, and remember eGFR is unreliable in acute kidney injury and at extremes of body size.
@@ -234,7 +234,7 @@ conflicts_r1: 0
 
 **Normal/abnormal:** Electrophoresis reported as the presence, type and **quantity** of any monoclonal band; immunoglobulins against laboratory ranges; free light chains as absolute values **and the kappa:lambda ratio**, which is the more sensitive parameter. **Numeric diagnostic thresholds are not stated here** — the diagnostic criteria are specialist, assay-dependent and revised periodically.
 
-**Alt:** FBC and film (rouleaux), calcium, renal function, albumin, LDH, β₂-microglobulin; **whole-body low-dose CT / MRI / PET-CT**; **bone marrow aspirate and trephine with cytogenetics** — the diagnostic test; tissue biopsy with **Congo red** for amyloidosis (see `NEW_Investigations_General_and_Preventive.md` 0.11).
+**Alt:** FBC and film (rouleaux), calcium, renal function, albumin, LDH, β₂-microglobulin; **whole-body low-dose CT / MRI / PET-CT**; **bone marrow aspirate and trephine with cytogenetics** — the diagnostic test; tissue biopsy with **Congo red** for amyloidosis (see [[NEW_Investigations_General_and_Preventive]] 0.11).
 
 ## 0.9 EMG and Nerve Conduction Studies (NCS)
 
@@ -318,7 +318,7 @@ conflicts_r1: 0
 
 **Normal/abnormal:** Assay- and laboratory-specific reference intervals. **No numeric thresholds are stated here** — they differ by assay, and the clinically meaningful quantity is nearly always the change over time in a named individual, not the crossing of a cut-off. See [[10_11a_Oncology_-_Common_Cancers__Carcinogens__Tumour_Markers]].
 
-**Alt:** **Tissue diagnosis — histology remains the standard**; imaging (CT, MRI, PET/CT); endoscopy; the relevant organised **screening programs** (see `NEW_Investigations_General_and_Preventive.md` 0.12), which are validated where markers are not.
+**Alt:** **Tissue diagnosis — histology remains the standard**; imaging (CT, MRI, PET/CT); endoscopy; the relevant organised **screening programs** (see [[NEW_Investigations_General_and_Preventive]] 0.12), which are validated where markers are not.
 
 ## 0.12 FAMCARE-P16
 
@@ -421,7 +421,7 @@ conflicts_r1: 0
 
 **Normal/abnormal:** Descriptive — presence of clue cells, trichomonads, yeast, lactobacilli and leucocytes, read with pH and the whiff test.
 
-**Alt:** **NAAT** for *Trichomonas*, chlamydia and gonorrhoea — the sensitive tests; **high vaginal swab** for culture; vaginal pH; the composite clinical criteria for bacterial vaginosis; full STI screen (0.18). See `NEW_Investigations_Obstetrics_and_Gynaecology.md` 0.3.
+**Alt:** **NAAT** for *Trichomonas*, chlamydia and gonorrhoea — the sensitive tests; **high vaginal swab** for culture; vaginal pH; the composite clinical criteria for bacterial vaginosis; full STI screen (0.18). See [[NEW_Investigations_Obstetrics_and_Gynaecology]] 0.3.
 
 ## 0.16 Slit Skin Smear
 
@@ -608,7 +608,7 @@ conflicts_r1: 0
 
 > [!danger] **CORRECTION (2026-08-30) — the claim originally made here was wrong, and is left visible rather than rewritten.**
 > This file originally ended: *"Part A is now complete. All eleven investigation files exist, and every investigation row has been built, collapsed into another entry as a duplicate, or explicitly deferred."* **All eleven files did exist, but two of them did not cover their rows:**
-> - `NEW_Investigations_Haematology.md` covered **11 of 28** Haematology rows (it was a batching-test output listed as "DONE" in the plan). **Fixed by `NEW_Investigations_Haematology_Part2.md`.**
-> - `NEW_Investigations_Infectious_Diseases.md` had missed **Campylobacter** and **Clostridium perfringens**. **Fixed in place as 0.22 and 0.23 of that file.**
+> - [[NEW_Investigations_Haematology]]covered **11 of 28** Haematology rows (it was a batching-test output listed as "DONE" in the plan). **Fixed by [[NEW_Investigations_Haematology_Part2]].**
+> - [[NEW_Investigations_Infectious_Diseases]]had missed **Campylobacter** and **Clostridium perfringens**. **Fixed in place as 0.22 and 0.23 of that file.**
 >
 > **The error was in the evidence, not the arithmetic: "the file exists and the plan says DONE" was treated as "the file covers its rows."** With both gaps closed, **Part A is now complete against `data/build_list_investigations.md`, checked row by row** — but that statement should be re-verified by anyone relying on it, not taken from this note.
