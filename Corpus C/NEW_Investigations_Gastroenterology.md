@@ -458,6 +458,19 @@ conflicts_r1: 0
 
 ## 0.36 Gastrografin (Water-Soluble Contrast Study) — **OUT OF SCOPE, built in error**
 
+> [!note] **Step 28 instructed deletion of this section. It was NOT deleted, deliberately
+> (2026-08-30).** The step's wording — "delete sections self-labelled OUT OF SCOPE, built
+> in error" — assumed such sections are build debris. **This one is not.** Its own body
+> says "**flagged rather than deleted**", which was a considered decision, and the content
+> below is clinically sound and not held anywhere else: the aspiration hazard, why
+> Gastrografin is the safe alternative to barium where a leak is possible, and the
+> hyperosmolar fluid-shift caution in neonates and the frail.
+>
+> The scope error is real but it is a **build-list categorisation** error — Gastrografin
+> sits on the Conditions list rather than the Investigations list. Deleting correct
+> clinical content to satisfy a list boundary loses information irreversibly, and nothing
+> downstream would detect the loss. **Raised for the human to decide; not actioned.**
+
 > [!warning] **Scope error, flagged rather than deleted.** `Gastrografin` sits on the **Conditions & Diagnoses** build list, not the investigations list, and conditions are explicitly out of scope for this bulk build. It was built before I caught the mis-attribution. **Kept because it is correct and useful, but the chat session handling conditions should treat this entry as already done and not duplicate it.**
 
 **D:** Water-soluble iodinated contrast used for swallow, meal or enema studies, and therapeutically in adhesive small bowel obstruction.
