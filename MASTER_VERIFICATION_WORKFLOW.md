@@ -1221,13 +1221,61 @@ context.
 **One session per 10 files** — a 53-file diff is not reviewable.
 
 Per file: refile entries in the wrong system file (CSF studies, Coombs, G-CSF and
-rubella/varicella serology currently sit in `NEW_Investigations_Gastroenterology.md`); delete
-sections self-labelled "OUT OF SCOPE, built in error"; flag non-Australian attributions — the
-R-ratio "(ACG definition)" is one — with a marker naming an open AU source to check against.
+rubella/varicella serology currently sit in `NEW_Investigations_Gastroenterology.md` —
+**but grep the destination first: 2 of those 4 turned out to already exist there**); flag
+non-Australian attributions — the R-ratio "(ACG definition)" is one — with a marker naming
+an open AU source to check against.
 
-Then rename to the corpus scheme and convert the 65 backticked file references
+> [!danger] **"OUT OF SCOPE" alone is NOT grounds for deletion.**
+> This step previously said to *delete* sections self-labelled "OUT OF SCOPE, built in
+> error". **Narrowed 2026-08-30.** Delete only where the section is **empty, a stub, or
+> duplicated elsewhere**. Where the content is **sound and held nowhere else, keep it** and
+> record why the scope label is there.
+>
+> The case: `NEW_Investigations_Gastroenterology` 0.36 Gastrografin carries that label, but
+> its own body reads "flagged rather than deleted" — a considered decision — and it holds
+> the aspiration hazard, the safe-alternative-to-barium role and the hyperosmolar caution
+> in neonates, none of it anywhere else in the corpus. Its scope error is a **build-list
+> categorisation**: Gastrografin sits on the Conditions list, not the Investigations list.
+>
+> **Deleting correct clinical content to satisfy a build-list boundary is irreversible and
+> undetectable.** Nothing downstream notices an absence.
+
+Then rename to the corpus scheme and convert the backticked file references
 (`` `NEW_Drugs_03_Analgesics.md` 0.3.4 ``) into wikilinks, **verifying each target header
-first (rule 1)**. C's 42 existing wikilinks already resolve; leave them.
+first (rule 1)**.
+
+> [!warning] **The counts in this step were wrong, from the same five-file sample that
+> produced the figure-free error. Corrected 2026-08-30 by measurement.**
+>
+> | Claimed | Actual |
+> |---|---|
+> | 65 backticked file references | **276** — 217 pointing at other Corpus C files, 59 at Corpus A. Across 45 files. 275 name a file that exists; **1 is dangling** |
+> | 42 existing wikilinks | **195**, and all 195 resolve |
+>
+> **All three Corpus C figures in this spec were sampling errors, not measurement errors** —
+> "states no doses", "65 references" and "42 wikilinks" were each generalised from the same
+> five files rather than counted across 53. The lesson is not that the numbers were stale;
+> it is that **nobody ran the count.** Measure before quoting a corpus-wide figure.
+
+**This conversion is not mechanical and must not be run as one pass.** Verify every target
+header before writing any link. Where the target section does not exist or is **unnumbered,
+use the verbatim header text**. Where you cannot resolve it, **leave the backticked form and
+flag it** — an unconverted reference is harmless, a wrong wikilink is not. Chunk the work and
+report examined / converted / flagged per chunk.
+
+> [!danger] **Rule 1, demonstrated by the session that was auditing it.**
+> Writing the Step 28b pointer to the relocated Coombs entry, this session wrote
+> `` `NEW_Investigations_Haematology.md` 0.7 `` — a section number that does not exist.
+> **That section is unnumbered**; its header is *Immunohematology (Blood Group & Rh, Type &
+> Screen, Direct Antiglobulin Test)*. It was caught only by verifying the target before
+> committing, as rule 1 requires.
+>
+> This is the strongest available argument for rule 1: the invented number was written **by
+> the same session that had spent the night auditing other people's unverified claims**, in
+> the same hour it corrected a rename map and a corpus-wide figure claim. Knowing the rule,
+> and having just applied it to someone else, did not prevent writing a plausible-sounding
+> section number. **Only the check caught it.**
 
 **Do not add NEW doses or reference ranges to Corpus C, and do not backfill its empty
 `Normal:`/`Abnormal:` fields** — the only available filling material is model knowledge.

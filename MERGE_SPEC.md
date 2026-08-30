@@ -24,7 +24,7 @@ Four things found in your files change the starting assumptions.
 
 **C's structure has three defects to handle at merge.** The entry schema (`D / Ind / Role / Normal / Abnormal / Alt`) is inconsistently applied: `D`, `Ind`, `Role` and `Alt` appear 64–65 times each, but `Normal` and `Abnormal` only 11 times. Content is misfiled across files — CSF studies, Coombs testing, G-CSF and rubella/varicella serology all sit in the *Gastroenterology* investigations file, and §0.36 is self-labelled "OUT OF SCOPE, built in error". And at least one threshold set carries a US source attribution — the R-ratio "(ACG definition)" — unflagged in an AU corpus.
 
-**A third linking convention.** A uses wikilinks to filenames. B uses wikilinks to placeholder codes. C uses both: 42 wikilinks that correctly resolve to real A filenames, plus 65 backticked file references (`` `NEW_Drugs_03_Analgesics.md` 0.3.4 ``) that Obsidian will not link. C integrates far more cleanly than B on this axis.
+**A third linking convention.** `[CORRECTED 2026-08-30 — the counts below were generalised from a five-file sample; measured across all 53, C holds **195** wikilinks (all resolving) and **276** backticked file references, not 42 and 65. Same sampling error as the figure-free claim at line 21.]` A uses wikilinks to filenames. B uses wikilinks to placeholder codes. C uses both: 42 wikilinks that correctly resolve to real A filenames, plus 65 backticked file references (`` `NEW_Drugs_03_Analgesics.md` 0.3.4 ``) that Obsidian will not link. C integrates far more cleanly than B on this axis.
 
 ---
 
