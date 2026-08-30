@@ -475,7 +475,17 @@ def collect(root):
                     "tier": tier_for(line, (RE_TIER_TAG.search(line) or [None, None])[1]
                                      if RE_TIER_TAG.search(line) else None),
                     "trust": trust,
-                    "act": actionability(m.group(1) + " " + line),
+                    # SCOPE ONLY — never the surrounding line. A marker's source is what
+                    # the MARKER names. Passing the line let an unrelated source name leak
+                    # in: 08_09 L17 is a verification box mentioning RCH that happens to
+                    # contain a marker scoped "AU regimen; Therapeutic Guidelines (login)",
+                    # and the box's RCH made it read as partly actionable. A box mentioning
+                    # RCH does not make an eTG marker RCH-settleable.
+                    #
+                    # Deliberately UNDER-claims: a marker wrongly in triage costs a read; one
+                    # wrongly in actionable costs a wasted lookup and a false sense that the
+                    # queue is shorter than it is.
+                    "act": actionability(m.group(1)),
                 })
 
             for m in RE_MED_MIRROR.finditer(line):

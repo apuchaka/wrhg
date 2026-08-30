@@ -668,6 +668,22 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
 > still looks like content. In a clinical vault the corrupted region reads as two competing
 > versions of the same guidance with no indication which is current.
 
+> [!warning] **A marker is classified on ITS OWN SCOPE, never on the surrounding line.**
+> `actionability()` previously ran over the marker scope *plus the whole line*, so an
+> unrelated source name leaked into the label. `08_09` L17 is a verification box mentioning
+> **RCH** that happens to contain a marker scoped *"AU regimen; Therapeutic Guidelines
+> (login)"* — and the box's RCH made an eTG-only marker read as partly actionable.
+> **A box mentioning RCH does not make an eTG marker RCH-settleable.**
+>
+> **The rule deliberately under-claims.** A marker wrongly in triage costs a read; a marker
+> wrongly in `actionable` costs a wasted lookup **and a false sense that the queue is shorter
+> than it is**. Under-claiming is the safe direction for a queue whose whole purpose is to
+> say what can actually be closed.
+>
+> This is also why §1.7 requires every `UNVERIFIED` marker to name its own source: under
+> scope-only classification, a marker that does not name one correctly falls to triage
+> instead of borrowing credibility from its neighbours.
+
 - **Rebase onto the PR's DECLARED BASE, never onto `main` by default — and verify that
   base actually contains the prior steps before rebasing.** On 2026-08-30 `main` was six
   commits behind the integration branch: it held Step 26 but **not Step 17**, which had
