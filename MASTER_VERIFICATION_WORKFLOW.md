@@ -457,7 +457,15 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
   error that survives review because the figure still looks plausible. A step that
   legitimately alters a figure states so and records the before/after explicitly; silence
   plus a changed multiset is a bug.
-- **Write `_meta/OVERNIGHT_REPORT.md` as you go** — per step: what was examined, raw hits,
+- **Write the step's report to `_meta/runs/overnight/<step>.md`, one file per step — NOT
+  to a single shared `OVERNIGHT_REPORT.md`.** Every step branch appending to one file makes
+  **every pair of step branches conflict**, as an add/add on the whole file: it happened on
+  three of four branches on 2026-08-30 (Step 11, 28b and 28c each conflicted with Step 17's
+  section), and each resolution was the same mechanical "keep both" with no judgement in it.
+  Conflicts that carry no information are pure risk — they are resolved by hand in a
+  clinical repo, and a careless one silently drops a step's record. One file per step, and
+  a short index that links them, removes the class entirely.
+- **Write the report as you go** — per step: what was examined, raw hits,
   confirmed, dismissed with reasons, anything halted on. **Record by what was examined, not
   by what was changed** (Step 17's own method lesson).
 - **Update `_meta/RUN_STATE.md` after every step.**
