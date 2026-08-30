@@ -102,6 +102,7 @@ conflicts_r1: 0
 **A/P**: vasoactive products (especially VEGF), oestrogens, and progesterone present in higher concentrations due to ovulation induction → ↑membrane permeability and loss of intravascular fluid → ↑blood concentration and hypercoagulability. Fluid accumulates in peritoneal and pleural spaces.
 
 > [!info] RCOG severity classification
+> `UNVERIFIED — this grading is attributed to the RCOG, a UK college, and is not confirmed as Australian practice. Resolve against RANZCOG.`
 > | Grade | Features |
 > |---|---|
 > | Mild | Abdominal pain, abdominal bloating |

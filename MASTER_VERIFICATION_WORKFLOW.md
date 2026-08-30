@@ -444,6 +444,63 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
 
 **Overnight protocol.**
 
+> [!danger] **FIRST ACTION OF EVERY SESSION — restore the baseline tag.**
+> ```bash
+> git tag -f base-A 0db4034753b00573f379f273778eba01691d1c49
+> git rev-parse base-A          # must resolve before any content-touching step
+> ```
+> **Local only, idempotent, no push.** `base-A` cannot be pushed from a web session — the
+> proxy refuses tag pushes (403) and GitHub has no UI for tagging an arbitrary commit — so
+> the tag must be re-created in every clone rather than fetched.
+>
+> **If that SHA is not present in history, STOP.** It means the clone is wrong — a fork, a
+> truncated clone, a different repository — not that the tag is missing. Do not pick a
+> substitute commit.
+>
+> **Why this is a first-class step and not housekeeping:** `base-A` **did not exist for the
+> first six steps of this project's work.** START_HERE specifies `git tag base-A`, the repo
+> was assembled from "Add files via upload" commits, and nobody ran it. Steps 26, 17, 11,
+> 28a, 28b and 28c were all completed against a baseline that was not there — and every
+> "revert cleanly" and "diff against the baseline" guarantee in this design silently assumed
+> it was. The first diff against it was run *after* those six steps, not before any of them.
+>
+> `0db4034` is verified as the correct baseline: last commit before any session work; corpus
+> at 148 / 39 / 53; corpus trees byte-identical to `39be13e`, the final content upload; no
+> corpus file ever *modified* during the upload sequence; and no `trust:`, `figures:`,
+> `conflicts_*`, `CF-###` or `SRC:` key anywhere in it.
+
+> [!warning] **`scan --dry-run` is not dry.** It gates only the frontmatter-counter writes;
+> it still rewrites `_meta/VERIFICATION_QUEUE.md`, `CONFLICTS.md`, `DOSE_MIRRORS.md` and
+> `PENDING_ROWS_DRAFT.md` every time. Running it to *inspect* the corpus therefore dirties
+> the working tree, and on a verification branch that is how generated output gets swept
+> into a commit. `lint`, `drugs` and `paed` likewise write a timestamped log per run.
+> `_meta/runs/` and `__pycache__/` are now gitignored; the durable record of a run is
+> `OVERNIGHT_REPORT.md`, not the logs.
+
+> [!danger] **Run the conflict-marker guard before EVERY commit.**
+> ```bash
+> python3 scripts/merge_tools.py precommit --dir .
+> ```
+> **`git add -A` will happily stage a file containing conflict markers, and `git commit`
+> will happily commit it.** Nothing in git refuses this. That is exactly how a corrupted
+> `NEW_Investigations_Gastroenterology.md` — carrying `<<<<<<< HEAD`, `=======` and
+> `>>>>>>>` in clinical content, with two deleted duplicate sections resurrected — was
+> committed during the 2026-08-30 integration check. The resolver had fixed one conflicted
+> file, assumed it was the only one, and never re-read `git status`.
+>
+> A markdown file with conflict markers **still renders**, still opens in Obsidian, and
+> still looks like content. In a clinical vault the corrupted region reads as two competing
+> versions of the same guidance with no indication which is current.
+
+- **Rebase onto the PR's DECLARED BASE, never onto `main` by default — and verify that
+  base actually contains the prior steps before rebasing.** On 2026-08-30 `main` was six
+  commits behind the integration branch: it held Step 26 but **not Step 17**, which had
+  merged into `claude/next-6gvrdi` only. Rebasing the four open step branches onto `main`,
+  as instructed, would have **silently dropped Step 17's four fixes out from under them** —
+  the branches would have rebased cleanly, reviewed cleanly, and merged a corpus with the
+  UK-localisation work removed. Nothing downstream detects a change that is simply absent.
+  Check with `git log --oneline main..<base>` before every rebase; if it is non-empty, the
+  base is ahead and `main` is the wrong target.
 - **One step per branch, one PR each.** Never one combined PR — morning review has to be
   able to reject one step without unpicking the others.
 - **If a HALT fires:** stop that step, leave its branch unmerged, record what happened in
@@ -457,7 +514,15 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
   error that survives review because the figure still looks plausible. A step that
   legitimately alters a figure states so and records the before/after explicitly; silence
   plus a changed multiset is a bug.
-- **Write `_meta/OVERNIGHT_REPORT.md` as you go** — per step: what was examined, raw hits,
+- **Write the step's report to `_meta/runs/overnight/<step>.md`, one file per step — NOT
+  to a single shared `OVERNIGHT_REPORT.md`.** Every step branch appending to one file makes
+  **every pair of step branches conflict**, as an add/add on the whole file: it happened on
+  three of four branches on 2026-08-30 (Step 11, 28b and 28c each conflicted with Step 17's
+  section), and each resolution was the same mechanical "keep both" with no judgement in it.
+  Conflicts that carry no information are pure risk — they are resolved by hand in a
+  clinical repo, and a careless one silently drops a step's record. One file per step, and
+  a short index that links them, removes the class entirely.
+- **Write the report as you go** — per step: what was examined, raw hits,
   confirmed, dismissed with reasons, anything halted on. **Record by what was examined, not
   by what was changed** (Step 17's own method lesson).
 - **Update `_meta/RUN_STATE.md` after every step.**

@@ -631,7 +631,7 @@ Ask the four questions in order. The fourth is the one most often skipped and th
 **Opening:** wash hands, introduce, confirm identity, explain purpose sensitively (growth/weight concerns can be a source of parental guilt or anxiety, so framing matters), consent.
 
 **Presenting complaint structure — establishing the actual growth pattern is the essential first step, ideally from the child's own growth chart/personal health record rather than from parental recall alone, given recall of past weights is often inaccurate:**
-- When was the growth concern first noticed, and by whom (parent, health visitor/nurse, incidental finding at a routine check)?
+- When was the growth concern first noticed, and by whom (parent, child and family health nurse, incidental finding at a routine check)?
 - Has growth crossed percentile lines, or been consistently low/high along one line — see [[Investigation-Interpretation]] Growth Charts and Percentile Interpretation for why this distinction matters, not repeated here.
 - Is weight, height, or both affected, and in what pattern — weight preferentially affected suggests a different differential from proportionate height-and-weight involvement (see the same cross-reference above for the disproportionate-vs-proportionate reasoning, not repeated here).
 
