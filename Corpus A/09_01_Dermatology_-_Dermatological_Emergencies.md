@@ -3,6 +3,8 @@ block: Dermatology
 source: quackquackmed 09.01 Dermatological emergencies
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Anaphylaxis

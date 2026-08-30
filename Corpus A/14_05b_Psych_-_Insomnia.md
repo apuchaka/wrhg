@@ -3,6 +3,8 @@ block: Psychiatry
 source: quackquackmed 14.05 Insomnia
 trust: inherited
 population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Insomnia

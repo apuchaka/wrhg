@@ -3,6 +3,8 @@ block: Obstetrics
 source: quackquackmed 16.16-17 Contraception
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!info] Verified — **UKMEC is directly adopted by RANZCOG for Australian contraceptive practice**, not a UK-specific system requiring translation: the RANZCOG/FSRH joint "Contraception Clinical Guideline" explicitly incorporates UKMEC categories, and SA Health's own Community Pharmacy OCP protocol references UKMEC directly. The UKMEC categories and thresholds below are genuinely current Australian practice, not something needing an "Australian equivalent" swap. One minor, genuine product-availability difference worth knowing: drospirenone-containing POP is available in Australia specifically (not the UK), while desogestrel and levonorgestrel POPs are only available in New Zealand within this region — a detail relevant to which specific POP formulation is prescribable locally, though the underlying UKMEC eligibility framework applies the same way regardless of which formulation is used.

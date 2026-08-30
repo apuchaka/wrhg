@@ -3,6 +3,8 @@ block: Gynaecology
 source: quackquackmed 17.03 Termination of Pregnancy, Miscarriage
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!info] Localised for Australia — verified against the Termination of Pregnancy Act 2021 (SA) directly (via SA Legislation and the SA Law Handbook), and cross-checked against other states' legislation, Aug 2026. **Every Australian state and territory has decriminalised abortion**, but — genuinely unlike the UK's single national framework — there is **no single Australian abortion law**; each state/territory has its own act with its own gestational limit and process, so the specific threshold below is jurisdiction-dependent and must be checked against the relevant state/territory for any patient outside SA.

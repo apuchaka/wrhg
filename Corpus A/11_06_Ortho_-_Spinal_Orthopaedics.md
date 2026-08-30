@@ -3,6 +3,8 @@ block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.06 Spinal orthopaedics, Rib fractures, Autonomic dysreflexia
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Autonomic dysreflexia

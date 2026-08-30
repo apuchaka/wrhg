@@ -3,6 +3,8 @@ block: Ear Nose and Throat
 source: quackquackmed 13.07 Neck lumps - anatomical differential diagnosis
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## 0.1 Lumps in the neck — approach

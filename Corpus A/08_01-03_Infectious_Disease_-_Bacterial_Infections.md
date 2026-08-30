@@ -3,6 +3,8 @@ block: Infectious Disease
 source: quackquackmed 08.01-08.03 Bacterial infections
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Anthrax

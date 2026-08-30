@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.21 Fragile X syndrome, Achondroplasia, Noonan syndrome, Marfan syndrome
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Fragile X syndrome

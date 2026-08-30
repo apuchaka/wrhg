@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.15 Primary immunodeficiencies, Severe combined immunodeficiency in children
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Primary immunodeficiencies

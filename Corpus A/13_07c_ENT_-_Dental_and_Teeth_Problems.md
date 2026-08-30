@@ -3,6 +3,8 @@ block: Ear Nose and Throat
 source: quackquackmed 13.07 Dentistry for doctors - Teeth problems
 trust: inherited
 population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Dentistry for doctors

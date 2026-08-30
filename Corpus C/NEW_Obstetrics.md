@@ -4,6 +4,8 @@ source: Build list 2026-08-30 (data/new_build_topics_tiered.md)
 status: standalone — not yet cross-referenced into the corpus; TIER 1 ONLY
 trust: snippet
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # NEW — Obstetrics

@@ -3,6 +3,8 @@ block: Gynaecology
 source: quackquackmed 17.04 Ectopic Pregnancy, Gestational Trophoblastic Disease
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Ectopic pregnancy

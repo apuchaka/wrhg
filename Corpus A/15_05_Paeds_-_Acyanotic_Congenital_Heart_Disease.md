@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.05 Cardiovascular disorders - Acyanotic congenital heart disease
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!note] Congenital heart disease occurs in 0.8% of live births.

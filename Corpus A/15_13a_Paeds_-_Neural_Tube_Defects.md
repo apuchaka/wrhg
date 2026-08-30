@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.13 Neural tube defects
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Neural tube defects — overview

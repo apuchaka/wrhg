@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.07 GI disorders - Abdominal pain DDx, Neuroblastoma, Coeliac disease, Malnutrition, Diarrhoea and vomiting
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Abdominal pain — differential diagnosis

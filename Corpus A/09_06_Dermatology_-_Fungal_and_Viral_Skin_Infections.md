@@ -3,6 +3,8 @@ block: Dermatology
 source: quackquackmed 09.06 Dermatological infections - Tinea, Candida, Viral warts, Molluscum contagiosum
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Tinea / Dermatophyte infections

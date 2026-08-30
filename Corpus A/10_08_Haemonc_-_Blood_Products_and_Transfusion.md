@@ -3,6 +3,8 @@ block: Haematology and Oncology
 source: quackquackmed 10.08 Blood products, Warfarin reversal, Transfusion complications
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Warfarin — management of high INR

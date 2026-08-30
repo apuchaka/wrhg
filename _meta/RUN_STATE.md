@@ -5,7 +5,10 @@ description: Cross-session memory for the corpus merge. Session context does not
 
 # RUN_STATE
 
-## Step 26 — Provenance and population labelling · ✅ LABELLING DONE, two findings open
+## Step 26 — Provenance and population labelling · ✅ COMPLETE 2026-08-30
+
+**→ NEXT: Step 11** (AU drug dosing and product names), then Step 17. See queue §1.1.9 —
+the run order is 26, 11, 17, 28, 27, 29, **not** numeric order.
 
 **Sessions 1–2: 2026-08-30, branch `claude/next-6gvrdi`.**
 
@@ -126,9 +129,57 @@ marginal). **So the false-negative problem the withdrawn cross-check predicted w
 entirely the `\bALL\b` artifact.** The shipped detector was closer to right than the
 cross-check suggested.
 
-### TWO OPEN FINDINGS — not fixed, per rule 7
+### `figures:` and the conflict counters
 
-**Finding 1 — `merge_tools.py paed` silently skips every orthopaedics file.**
+`scan` was run at the vault root: **conflict counters written to all 241 files**, all
+`conflicts_open: 0` / `conflicts_r1: 0`, which is correct — no `CONFLICT` block exists yet,
+they are created by Step 29. `_meta/VERIFICATION_QUEUE.md`, `CONFLICTS.md`,
+`DOSE_MIRRORS.md` and `PENDING_ROWS_DRAFT.md` generated.
+
+**347 `UNVERIFIED` markers: 39 actionable against an open AU source · 254 needing triage ·
+54 login-required (permanently noted).** The 254 name no source, which CLAUDE.md §1.7
+forbids — that is the triage backlog, and it is large.
+
+`lint` reports **178 problems, all one category**: a dose figure in an `inherited` or
+`unverified` file with no marker or `→MED` mirror. That is Step 11/17 territory, not this
+step. **Zero** missing-frontmatter problems and **zero** `figures: none` violations.
+
+> [!danger] **Corpus C states doses. The corpus-level claim that it does not is false.**
+> CLAUDE.md §1.6 and §1.11, and MERGE_SPEC, describe Corpus C as "**States no doses or
+> reference ranges**". Checking all 22 Corpus C drug files against `RE_DOSE` and a
+> threshold/reference-range pattern, then reading every hit:
+>
+> **8 of 22 state a dose or a dose-adjacent quantity**, among them:
+> - `NEW_Drugs_01_Allergy_and_Anaphylaxis` — the full ASCIA adrenaline table: `0.01 mL/kg`
+>   to a maximum of `0.5 mg`, and injector weight bands `150 microgram` **from 7.5 kg**,
+>   `300 microgram` from 20 kg. **That 7.5 kg floor is B50** — the exact defect §1.11 cites,
+>   reproduced here in a corpus documented as dose-free.
+> - `NEW_Drugs_10_Endocrine` — `hydrocortisone 100 mg IV at induction` + `200 mg per 24 h`.
+>   **This one is exemplary**: the next line reads "THESE TWO FIGURES ARE ADULT DOSES. DO
+>   NOT USE THEM IN A CHILD", which is rule 5 in its correct form.
+> - `NEW_Drugs_12` loperamide max ~`8 mg/day`, toxicity >`100 mg/day`; `NEW_Drugs_16`
+>   anti-D `500 IU` at 28 and 34 weeks; `NEW_Drugs_07` pyridoxine neuropathy >`1000 mg/day`,
+>   plus Hb targets `≤115 g/L` and a transfusion trigger `<70 g/L`; `NEW_Drugs_05`
+>   vancomycin `AUC/MIC 400–600 mg·h/L`; `NEW_Drugs_03` and `NEW_Drugs_10` renal cut-offs.
+>
+> **This is a description that is wrong, not an instruction to change.** §1.11's rule — do
+> not ADD doses or reference ranges to Corpus C, do not backfill its empty
+> `Normal:`/`Abnormal:` fields — still stands and was followed. But the provenance table
+> in §1.6 is load-bearing for the merge rules, and it currently overstates C's abstention.
+> **Left for the user to decide** rather than edited from a session.
+
+**`figures: none` set on 3 files only**, not the 22: `NEW_Drugs_11_Eye`,
+`NEW_Drugs_19_Rheumatological`, `NEW_Drugs_21_Miscellaneous`. Two more passed the
+automated test and were rejected on reading (rule 2 — a clean scan is not proof):
+`NEW_Drugs_20_Vaccines` states "observed for at least **15 minutes**" and a cold chain of
+"**2–8 °C**"; `NEW_Drugs_14` defines neutropenic sepsis by "chemotherapy in the last
+**6 weeks**". Noted for the record: `NEW_Drugs_11` says "one drop is enough" and
+`NEW_Drugs_19` says "ONCE WEEKLY dosing" — quantities in words, no numeral, so the key
+stands.
+
+### FINDINGS FROM THIS STEP — all now fixed
+
+**Finding 1 — FIXED. `merge_tools.py paed` silently skipped every orthopaedics file.**
 `cmd_paed` skips any path where `"paed" in r.lower()`. The word **ortho·paed·ics contains
 "paed"**, so the shipped sweep never examines:
 `11_01_Ortho_-_Orthopaedic_Emergencies`, `11_06_Ortho_-_Spinal_Orthopaedics`,
@@ -140,7 +191,7 @@ no error. **This session's labelling did not use `cmd_paed`** — it used a dire
 `RE_PAED_SIGNAL` count over every file — so the labels above are unaffected. The fix is
 to match the paediatric filename marker, not a bare substring.
 
-**Finding 2 — a correction to this session's own earlier claim about `congenital`.**
+**Finding 2 — FIXED. A correction to this session's own earlier claim about `congenital`.**
 Session 1 rejected `congenital` from `RE_PAED_SIGNAL` and recorded "5 files flagged,
 **0 true positives**". **That claim was wrong.** It was made by reading the *flagged
 lines*; reading the *disease entries* those lines sit in shows `congenital` caught two
@@ -150,13 +201,28 @@ content. Corrected score: **6 files flagged, 2 true positives.**
 
 The asymmetry argues for restoring it: a false positive costs a `mixed` label (safe, tells
 the reader to check), a false negative costs a wrong `adult` label (the B65 failure).
-`congenital` was **not** restored this session — the labelling was done by hand and does
-not depend on it — but the rejection note in `merge_tools.py` overstates the case and
-should be corrected before the pattern is used to decide anything.
+`congenital` has been restored and the source note corrected to 6 flagged / 2 true. The
+three `adult`-labelled files it now flags were rechecked: congenital absence of the vas
+deferens, congenital long QT and congenital lymphoedema are each one item in an adult
+differential, not a paediatric disease entry. **Those labels stand.**
+
+**Finding 3 — the substring defect class.** Two further instances were found by auditing
+every containment test and unanchored alternative in `merge_tools.py` against all 240
+files, rather than by eye: **`ASCIA` matches inside `fascia`/`fascial` on 33 corpus lines**
+— so any line about fascial planes scored `OPEN` and was routed into the actionable
+verification queue as though ASCIA could settle it — and **`epinephrine` is a substring of
+`norepinephrine`**, so every noradrenaline line drew a second, wrong suggestion. Both
+fixed; all acronyms word-anchored; `DRUG_NAMING` now matched on word boundaries. This is
+now **CLAUDE.md rule 9**.
 
 ### What the next session must do
 
-1. Fix Finding 1, and correct or reverse the `congenital` rejection per Finding 2.
+**Run Step 11, then Step 17.** Both are existing steps (§1.17, §1.23) pulled to the front
+of Phase 5 because they are cheap, corpus-wide, and fix the highest-risk error class before
+the MCQ. `lint`'s 178 unmarked-dose hits are the raw material for Step 11.
+
+Deferred from this step:
+1. The Corpus C provenance description (see the danger box above) — **user's call.**
 2. `figures: none` beyond `Medications_Reference.md` — needs an operational definition
    first. CLAUDE.md says "where the file states no numbers", which is broader than
    `RE_DOSE` (doses only) and broader than what `lint` enforces. Do not set the key from

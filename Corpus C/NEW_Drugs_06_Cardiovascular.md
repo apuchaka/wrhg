@@ -4,6 +4,8 @@ source: data/BULK_BUILD_PLAN.md Part C; AMH section 6 Cardiovascular drugs
 status: standalone — not yet cross-referenced into the corpus
 trust: snippet
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # NEW — Drug Classes: Cardiovascular (AMH section 6, excluding antihypertensives)

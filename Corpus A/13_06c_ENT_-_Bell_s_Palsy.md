@@ -3,6 +3,8 @@ block: Ear Nose and Throat
 source: quackquackmed 13.06 Bell's palsy
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Bell's palsy

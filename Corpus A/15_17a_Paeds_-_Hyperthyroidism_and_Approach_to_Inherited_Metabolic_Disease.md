@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.17 Hyperthyroidism in children, Approach to inherited metabolic disease
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Hyperthyroidism in children

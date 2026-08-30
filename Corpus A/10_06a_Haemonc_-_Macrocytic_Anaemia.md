@@ -3,6 +3,8 @@ block: Haematology and Oncology
 source: quackquackmed 10.06 Macrocytic anaemias
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!note] Megaloblastic anaemias affect DNA synthesis and inhibit nuclear division → causes the large size of RBCs (megaloblasts).

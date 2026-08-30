@@ -4,6 +4,8 @@ source: data/BULK_BUILD_PLAN.md Part C; AMH section 13 Genitourinary drugs
 status: standalone — not yet cross-referenced into the corpus
 trust: snippet
 population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # NEW — Drug Classes: Genitourinary (AMH section 13)

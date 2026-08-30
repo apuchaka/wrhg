@@ -3,6 +3,8 @@ block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.09 Orthopaedic malignancies - Osteosarcoma, Chondrosarcoma, Ewing's sarcoma, Giant cell tumour, Bone metastases
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!tip] Diagnostic approach to a suspected bone tumour: S/Smx are typically non-mechanical pain, swelling ± pathological fracture. Key diagnostic leads: (1) age distribution, (2) past medical history, (3) location of pain, (4) imaging.

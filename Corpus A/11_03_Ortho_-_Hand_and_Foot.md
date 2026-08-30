@@ -3,6 +3,8 @@ block: Musculoskeletal and Orthopaedics
 source: quackquackmed 11.03 Hand and foot conditions
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## 0.1 Hand

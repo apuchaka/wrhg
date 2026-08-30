@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.01 Paediatric life support, Newborn life support, Intraosseous infusion
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!info] Verified against current ANZCOR (Australian and New Zealand Committee on Resuscitation) Guideline 12.2 — Paediatric Advanced Life Support, Aug 2026 — **the core drug doses and defibrillation energy below already exactly match current ANZCOR recommendations**: adrenaline 10mcg/kg (max 1mg) IV/IO, amiodarone 5mg/kg (max 300mg) IV/IO, and 4J/kg initial defibrillation energy for VF/pulseless VT are all genuinely internationally standardised (ILCOR-based) figures shared between UK Resus Council and ANZCOR, not UK-specific numbers needing replacement. The adrenaline-after-3rd-shock-then-alternate-cycles timing and the 4Hs/4Ts reversible causes framework are likewise consistent with current ANZCOR guidance. This is a case where checking confirmed the content was already correct — no numeric changes needed, though for the most current version always check ANZCOR directly (anzcor.org) given resuscitation guidelines are periodically revised following international evidence reviews.

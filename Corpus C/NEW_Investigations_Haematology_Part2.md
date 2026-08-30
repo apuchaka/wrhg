@@ -4,6 +4,8 @@ source: data/BULK_BUILD_PLAN.md Part A; items from data/build_list_investigation
 status: standalone — not yet cross-referenced into the corpus
 trust: snippet
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # NEW — Investigations: Haematology (Part 2 — completing the category)

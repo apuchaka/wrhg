@@ -4,6 +4,9 @@ source: data/BULK_BUILD_PLAN.md Part C; AMH section 21 Miscellaneous
 status: standalone — not yet cross-referenced into the corpus
 trust: snippet
 population: mixed
+figures: none
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # NEW — Drug Classes: Miscellaneous (AMH section 21)

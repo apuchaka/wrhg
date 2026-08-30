@@ -3,6 +3,8 @@ block: Dermatology
 source: quackquackmed 09.03 Acne vulgaris
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Acne vulgaris

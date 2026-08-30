@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.04 Respiratory disorders - URTI and LRTI in children
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Upper respiratory tract infections (URTI)

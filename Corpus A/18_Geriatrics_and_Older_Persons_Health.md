@@ -3,6 +3,8 @@ block: Older Persons Health / Geriatrics
 source: built from scratch — CSV category "Older Persons Health / Geriatrics (NEW)"; no equivalent existed in the source notes, which is why this whole category was absent until now
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!note] Why this file exists. The CSV category "Older Persons Health / Geriatrics (NEW)" had **no corresponding file at all** — the single largest gap found in this project (Step 21). An audit of its 11 rows before building found that three were already adequately covered elsewhere and are deliberately **not** duplicated here: capacity assessment (see [[Clinical-Process-EBM-Consent-Capacity]] Capacity assessment — the general framework), the cognitive screening tools themselves (see [[Investigation-Interpretation]] Cognitive Screening Tools (MMSE, MoCA, AMTS)), and osteoporosis management (see [[11_08b_Ortho_-_Paget_s_Disease_and_Osteoporosis]] Osteoporosis, which is verified against the 2024 RACGP/Healthy Bones Australia guideline). Two further rows were built into [[04_Neurology]] rather than here, because their structural anchors already live there.

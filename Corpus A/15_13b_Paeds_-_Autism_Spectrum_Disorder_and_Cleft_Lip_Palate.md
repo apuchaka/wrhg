@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.13 Autism spectrum disorder, Cleft lip and palate
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Autism spectrum disorder (ASD)

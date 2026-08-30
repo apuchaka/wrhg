@@ -4,6 +4,8 @@ source: Built in Phase 5 Part C from the AMH therapeutic classification (SA Medi
 trust: snippet
 population: mixed
 figures: none
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # Medications Reference

@@ -3,6 +3,8 @@ block: Obstetrics
 source: quackquackmed 16.10-13 Labour and problems
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!info] Localised for Australia — the LMWH/regional anaesthesia timing and caesarean urgency classification verified against Queensland Clinical Guidelines and Safer Care Victoria, Aug 2026; blood product preparation confirmed as genuinely risk-stratified in Australian practice rather than following a single fixed figure. See individual entries below for detail.

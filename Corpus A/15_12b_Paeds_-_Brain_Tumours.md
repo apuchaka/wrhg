@@ -3,6 +3,8 @@ block: Paediatrics
 source: quackquackmed 15.12 Brain tumours in children
 trust: inherited
 population: paed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Brain tumours

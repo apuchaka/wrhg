@@ -3,6 +3,8 @@ block: Shared — Investigation Interpretation (OSCE + MCQ)
 source: built from Grind Time CSV test-led rows, routed here per project workflow (not per-system files)
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # 1 Investigation Interpretation (Template G — test-led, not disease-led)

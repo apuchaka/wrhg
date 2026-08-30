@@ -4,6 +4,8 @@ source: data/BULK_BUILD_PLAN.md Part C; AMH section 1 Allergy and anaphylaxis
 status: standalone — not yet cross-referenced into the corpus
 trust: snippet
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 # NEW — Drug Classes: Allergy and Anaphylaxis (AMH section 1)

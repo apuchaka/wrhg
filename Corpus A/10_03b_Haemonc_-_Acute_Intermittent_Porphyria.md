@@ -3,6 +3,8 @@ block: Haematology and Oncology
 source: quackquackmed 10.03 Acute intermittent porphyria
 trust: inherited
 population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Acute intermittent porphyria

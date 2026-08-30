@@ -3,6 +3,8 @@ block: Gynaecology
 source: quackquackmed 17.10 Ovarian Cancer, Ovarian Cysts, Ovarian Torsion
 trust: inherited
 population: adult
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Ovarian cancer

@@ -3,6 +3,8 @@ block: Ophthalmology
 source: quackquackmed 05 Ophthalmology
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Eye Anatomy Reference

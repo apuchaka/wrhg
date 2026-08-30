@@ -3,6 +3,8 @@ block: Haematology and Oncology
 source: quackquackmed 10.06 Methaemoglobinaemia, Antiphospholipid syndrome, Thrombocytosis, Thrombophilia
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 ## Methaemoglobinaemia

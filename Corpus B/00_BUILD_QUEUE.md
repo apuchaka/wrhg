@@ -3,6 +3,8 @@ block: Build Queue
 source: derived from bl.md coverage report, ordered for MCQ 27 Sept / OSCE 1 Nov
 trust: unverified
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!warning] This is a queue, not clinical content

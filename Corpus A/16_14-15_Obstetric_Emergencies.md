@@ -3,6 +3,8 @@ block: Obstetrics
 source: quackquackmed 16.14-15 Obstetric emergencies
 trust: inherited
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!info] Localised for Australia — eclampsia magnesium sulfate infusion timing, labetalol dosing, GBS-adjacent content, and PPH/placental abruption management all individually verified against Queensland Clinical Guidelines and Safer Care Victoria, Aug 2026. See individual entries below for detail.

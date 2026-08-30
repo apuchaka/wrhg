@@ -3,6 +3,8 @@ block: Ethics, Law & Professional Practice
 source: built in chat, model knowledge, NOT source-verified
 trust: unverified
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!danger] Sourcing — read this before using anything in this file

@@ -3,6 +3,8 @@ block: Environmental & Physical Injury
 source: built in chat, model knowledge, NOT source-verified
 trust: unverified
 population: mixed
+conflicts_open: 0
+conflicts_r1: 0
 ---
 
 > [!warning] Sourcing

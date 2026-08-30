@@ -372,8 +372,8 @@ Added 2026-08-30, rewritten 2026-08-30 after Step 26 was actually run.
 
 | # | Step | Status |
 |---|---|---|
-| 1 | **Step 26** — provenance and population labelling | 🔶 in progress |
-| 2 | **Step 11** — AU drug dosing and product names (§1.17) | ⬜ |
+| 1 | **Step 26** — provenance and population labelling | ✅ 2026-08-30 — 32 adult / 41 paed / 167 mixed; counters written; 5 substring defects fixed as a class |
+| 2 | **Step 11** — AU drug dosing and product names (§1.17) | ⬜ **← NEXT.** `lint` already lists 178 unmarked dose figures |
 | 3 | **Step 17** — UK-localisation sweep (§1.23) | ⬜ |
 | 4 | **Step 28** — Corpus C, all 53 files, one block | ⬜ |
 | 5 | **Step 27** — verification-scope audit, chunked | ⬜ |
