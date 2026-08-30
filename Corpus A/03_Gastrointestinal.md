@@ -1646,6 +1646,26 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 
 ---
 
+### 0.41.7 Added from unverified layer — bilious versus non-bilious vomiting, and the vomiting patterns
+`SRC:C2_Nausea_and_Vomiting §0.3` `SRC:C2_Nausea_and_Vomiting §0.4 (cannabinoid hyperemesis only)` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** bile enters the duodenum at the **ampulla of Vater**, in the second part of the duodenum. **Bilious (green) vomiting therefore indicates obstruction distal to the ampulla**, whereas non-bilious vomiting indicates obstruction proximal to it, or a non-obstructive cause. This single landmark is what makes the bilious/non-bilious distinction diagnostically useful rather than merely descriptive.
+
+> [!tip] The adult vomiting patterns
+> **Bilious vomiting** — small bowel obstruction distal to the ampulla, or post-gastrectomy bile reflux. See §0.19.
+> **Faeculent vomiting** — established distal small bowel or colonic obstruction, and a late and ominous finding. See §0.20.
+> **Large volume non-bilious vomiting of undigested food hours after eating** — gastric outlet obstruction, from peptic ulcer scarring (§0.27) or gastric malignancy.
+> **Undigested food with no nausea, immediately after eating** — think oesophageal (achalasia, pharyngeal pouch) rather than gastric. See [[13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology]].
+
+> [!info] Cannabinoid hyperemesis syndrome
+> **Recurrent severe vomiting in a long-term, frequent cannabis user, characteristically relieved by hot bathing or showering** — patients often describe compulsive hot showers, and that history is the diagnostic clue because nothing else produces it.
+> It is easily missed, because cannabis is usually thought of as an antiemetic, and because the presentation looks like cyclical vomiting.
+> **The treatment is cessation**, which is definitive but slow; symptomatic management in the acute episode is supportive. Ask about cannabis use in any patient with unexplained recurrent vomiting.
+
+**Ix:** CT abdomen in adults where obstruction is suspected (*why:* identifies the obstruction, its transition point and its cause; *what:* transition point, mass, hernia). Gastroscopy for suspected gastric outlet obstruction (*why:* distinguishes benign scarring from malignancy and permits biopsy and dilatation; *what:* stricture, tumour).
+
+---
+
 ## 0.42 Faecal Incontinence (Adult)
 
 > [!note] Gap-filled from CSV ("Faecal incontinence," found under Renal & Urology in the source spreadsheet, but genuinely a GI/colorectal topic) — the paediatric equivalent (encopresis, driven overwhelmingly by functional constipation/stool-withholding) is already built in [[15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis]] Encopresis (faecal incontinence), not repeated here — but adult faecal incontinence is a genuinely different condition with different dominant causes, and had no coverage anywhere. Verified against RACGP's Silver Book aged care guide and current Australian primary care research, Aug 2026.
