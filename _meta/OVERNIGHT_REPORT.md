@@ -101,3 +101,63 @@ Australian brief, and C from Australian-guideline snippets.
 **Honest status: clean against this 33-term list.** Not "clean of UK-isms" — the term
 list is still a guess at which UK-isms exist, which is exactly what §1.23 already says
 about itself.
+
+---
+
+## Step 11 — AU drug naming · branch `phase/11-au-drug-naming` · 🛑 **HALTED**
+
+### What was examined
+
+All 240 corpus files against `merge_tools.py`'s `DRUG_NAMING` map (15 entries), plus a
+brand-product check. **44 hits across 5 terms**, 30 in Corpus A and 14 in Corpus C.
+
+### Done: 2 of 44
+
+`norepinephrine` → `noradrenaline`, in `01_Cardiovascular` L975 and `14a-1` L64 (`8a631e9`).
+Unambiguous — Australia uses noradrenaline universally, including for the neurotransmitter
+in a mechanism description, and the rest of the corpus already does.
+
+**Digit-invariance verified before committing**, per the Step 11 automation constraint: the
+multiset of digits in both files is identical before and after. No dose figure moved.
+
+### 🛑 HALT — the rename map is not an Australian naming authority, and 4 of its 5 triggered entries are unsafe to apply
+
+Branch left **unmerged**. Nothing else was changed.
+
+| Term | Hits | Why it was not applied |
+|---|---|---|
+| **`furosemide` → `frusemide`** | 14 | **The map is plausibly backwards.** The TGA's ingredient-name harmonisation moved Australian Approved Names toward the INN — the same programme that gave `lignocaine`→`lidocaine`, which this map itself encodes in that direction. If `frusemide`→`furosemide` went the same way, applying this entry would **regress 14 correct names**. Settling it needs the TGA ingredient-name list, which is an open AU source but cannot be fetched from a session (§1.8). |
+| **`co-trimoxazole` → `trimethoprim+sulfamethoxazole`** | 15 | **The map's own value says "AU naming varies; confirm."** It is not a UK-only term. Renaming 15 instances on an entry that flags its own uncertainty is exactly the resolve-without-a-source failure the automation constraint forbids. |
+| **`co-amoxiclav` → `amoxicillin+clavulanate`** | 12 | **A blanket rename would destroy provenance.** `02_Respiratory` L356 reads "**UK figures (unverified for AU use):** co-amoxiclav 500/125mg tds x 5 days" — a deliberately labelled UK reference block, the same convention as the NICE visit schedule. Renaming inside it would make UK figures read as Australian. Other hits are already-corrected records (`08_09` L37 already says "Amoxicillin+clavulanate is specifically reserved…"). These need per-hit judgement, not a map. |
+| **`epinephrine` → `adrenaline`** | 1 | **False positive.** `NEW_Drugs_01` L117 reads "**adrenaline (epinephrine)**" — the correct dual-naming form, adrenaline primary. Nothing to fix. |
+
+### Why this is a rule 7 halt rather than a judgement call
+
+The instruction was that renaming is safe because a name change is not a regimen change.
+That premise holds. **What does not hold is that `DRUG_NAMING` is a reliable source for
+which name Australia uses.** It is a hand-written map with hedges inside its own values
+("AU convention; confirm local usage", "AU naming varies; confirm"), and the one entry
+checkable from internal evidence — `furosemide` — points the opposite way to the
+`lignocaine`→`lidocaine` entry sitting four lines below it in the same map.
+
+Applying it would have made **41 name changes on no source**, in the step whose entire
+constraint is that nothing may be resolved without one.
+
+### What would clear the halt
+
+1. The **TGA ingredient-name list** settles `furosemide`/`frusemide` and `co-trimoxazole`
+   in one lookup. It is an open Australian source — it needs a human with a browser, not a
+   session.
+2. `co-amoxiclav` needs the 12 hits judged individually against the labelled-UK-block
+   convention. That is an hour of reading, not automation.
+3. `DRUG_NAMING` should then be rewritten to carry a **source per entry**, so a future
+   automated run has an authority behind each rename instead of a hedge.
+
+**Brand products:** no new UK-market brand names found. `EarCalm` and `Otosporin` appear
+only inside the `13_01` box recording that they were wrong and naming Kenacomb/Otocomb
+Otic; `Debendox` only in the `16_01-05` box recording its 1983 Australian withdrawal.
+
+### Next step
+
+Step 28 is next in the queue and was explicitly deferred pending review of these two
+reports. **Stopping here.**
