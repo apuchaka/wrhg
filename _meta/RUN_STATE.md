@@ -23,24 +23,33 @@ description: Cross-session memory for the corpus merge. Session context does not
 > *modified* during the upload sequence · no `trust:` / `figures:` / `conflicts_*` /
 > `CF-###` / `SRC:` anywhere in it.
 
-## Night of 2026-08-30 — where things stand
+## Night of 2026-08-30 — COMPLETE. All items done, 12 PRs merged to `main`.
 
-| Branch | Step | Outcome |
+| Item | PR | Outcome |
 |---|---|---|
-| `claude/next-6gvrdi` | Parts 1–3: code fixes, queue reorder, Step 26/29 rewrites, CLAUDE.md rule 9 | ✅ merge first — the step branches are based on it |
-| `phase/17-uk-localisation` | **Step 17** | ✅ 240 files · 33 terms · 71 hits · 3 genuine + 1 consistency fix |
-| `phase/11-au-drug-naming` | **Step 11** | ✅ **halt cleared** — map rewritten with a source per entry against the TGA IHIN list; `frusemide`→`furosemide` reversed. **18 renames, 0 actionable hits remaining**, digit-invariance verified per file. The halt prevented 14 regressions. |
+| `RE_OPEN_SOURCE` extension | #8 | 18 added, `ADA` rejected (American Diabetes Association) |
+| `--dry-run` genuinely dry | #9 | 4 dry runs leave the tree clean |
+| Corpus B link count + Step 31 split | #10 | expand, never strip |
+| Merge lessons | #11 | recorded in §1.1.9.1 |
+| Step 29 week mapping + W4 freeze | #12 | 37 files mapped |
+| **28d** `_meta/OWNERS.md` | #13 | 43 drugs, 31 multi-file, 24 `RANGE NOT STATED` |
+| `actionability()` MIXED | #14 | bug was 11 markers, not 4 |
+| Prefix map + 191 clusters + coverage | #15 | **P2 → GER**, not GER → P2 |
+| **Step 31** expansion | #16 | 573 expanded, 188 marked, 1 repaired |
+| Step 29 conditional blocks | #17 | W1 restructured by study return |
+| **Step 27** proposals | #18 | 290 boxes, 97 P1, **no box edited** |
+| Follow-ups | #19 | Corpus B now **0 dangling** |
 
-Full detail per step in `_meta/OVERNIGHT_REPORT.md`. **Step 28 not started** — deferred by
-instruction pending review of these two reports.
+### `main` verified after the last merge
 
-**Queue order is 26, 17, 11, 28, 27, 29** (§1.1.9) — not numeric. **Items 1–3 (the whole
-pre-MCQ block) are now done.** Step 28 is next and was deferred by instruction.
+Corpus A 148 · B 39 · C 53 · **0 conflict markers**
+Wikilinks: A **1257 / 0 dangling** · B **608 / 0** · C **396 / 0**
+scan 360 (47 open · 11 mixed · 245 triage · 57 login) · lint 178 · drugs 0 actionable
 
-**Open, not resolved:** `PENDING_GUIDELINE_CHECKS.md` **B71** — the ASCIA adrenaline table
-now has two owners and the 7.5 kg floor is duplicated. Resolve against ASCIA.
-**Required in Step 28:** scope the 8 Corpus C files that state figures, using the
-`NEW_Drugs_10` pattern (§1.34), never deletion.
+### Not started, by instruction
+
+**Step 29 Block 1** — needs approval on the first destination table.
+
 
 ## Step 26 — Provenance and population labelling · ✅ COMPLETE 2026-08-30
 
