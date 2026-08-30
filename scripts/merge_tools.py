@@ -283,6 +283,22 @@ SKIP_FILES = {
     "RUN_STATE.md",
 }
 
+# Infrastructure files that live INSIDE a corpus directory. SKIP_FILES is matched
+# by basename and only at vault root, so it cannot reach these; matching them by
+# basename anywhere would be skip logic keyed on an unanchored name, which is what
+# CLAUDE.md rule 9 forbids ("never write skip logic on a substring"). These are
+# full vault-relative paths, each resolving to exactly one file, and every entry is
+# a file whose own text declares it is not clinical content.
+#
+# Why it matters: without this the scan writes provenance frontmatter and conflict
+# counters into build queues, i.e. it asserts a trust level about clinical claims
+# the file does not contain. Found twice — Step 26 stamped 00_BUILD_QUEUE.md, and
+# the 2026-08-30 scan stamped 00_BUILD_QUEUE_v2.md.
+SKIP_PATHS = {
+    "Corpus B/00_BUILD_QUEUE.md",
+    "Corpus B/00_BUILD_QUEUE_v2.md",
+}
+
 
 # ---------------------------------------------------------------- helpers
 
@@ -309,7 +325,11 @@ def md_files(root):
                 continue
             if at_vault_root and fn in SKIP_FILES:
                 continue
-            yield os.path.join(dirpath, fn)
+            full = os.path.join(dirpath, fn)
+            if os.path.relpath(os.path.abspath(full), vault).replace(os.sep, "/") \
+                    in SKIP_PATHS:
+                continue
+            yield full
 
 
 def normalise(line):
@@ -343,13 +363,38 @@ def read(path):
 # commits by `git add -A`. A flag that says dry and mutates the tree is a defect.
 DRY_RUN = False
 
+# Every path passed to write() this run, named in the output by report_writes().
+WRITES = []
+
 
 def write(path, text):
+    """Write a file, recording the path in WRITES.
+
+    Every command reports WRITES before exiting. A bare count ("counters updated
+    in 3 files") makes a misdirected write indistinguishable from a correct run —
+    the only way to notice one was `git status`. Naming the paths makes it visible
+    in the run output itself.
+    """
+    WRITES.append(path)
     if DRY_RUN:
         print(f"    [dry-run] would write {path}")
         return
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(text)
+
+
+def report_writes(root, name):
+    """Print every path written this run and mirror it to a run log."""
+    if not WRITES:
+        print(f"  files written: none{' (dry run)' if DRY_RUN else ''}")
+        return
+    print(f"  files written ({len(WRITES)}){' (dry run)' if DRY_RUN else ''}:")
+    for w in WRITES:
+        print(f"    {rel(root, w)}")
+    # the log itself is a write; snapshot first so it does not list itself
+    lines = [f"# {name} — files written {_dt.datetime.now().isoformat(timespec='seconds')}",
+             ""] + [rel(root, w) for w in WRITES]
+    log_run(root, f"{name}-writes", lines)
 
 
 def split_frontmatter(text):
@@ -670,7 +715,7 @@ def cmd_scan(args):
     write(os.path.join(meta, "DOSE_MIRRORS.md"), "\n".join(out))
 
     # --- frontmatter counters
-    touched = 0
+    stamped = []
     for path, (open_ct, r1_ct) in per_file.items():
         text = read(path)
         fm, body = split_frontmatter(text)
@@ -683,7 +728,7 @@ def cmd_scan(args):
         fm = fm_set(fm, "conflicts_r1", r1_ct)
         if not args.dry_run:
             write(path, rebuild(fm, body))
-        touched += 1
+        stamped.append((rel(root, path), open_ct, r1_ct))
 
     acts = {}
     for r in unverified:
@@ -695,9 +740,11 @@ def cmd_scan(args):
     print(f"scan: {len(unverified)} unverified · {len(op)} open conflicts "
           f"({len([c for c in op if c['tier'] == 'R1'])} R1) · "
           f"{len(mirrors)} dose mirrors")
-    print(f"  frontmatter counters updated in {touched} files"
+    print(f"  frontmatter counters updated in {len(stamped)} files"
           + (" (dry run)" if args.dry_run else ""))
-    print(f"  wrote {meta}/VERIFICATION_QUEUE.md, CONFLICTS.md, DOSE_MIRRORS.md")
+    for r, o, r1 in stamped:
+        print(f"    {r} — conflicts_open={o} conflicts_r1={r1}")
+    report_writes(root, "scan")
 
 
 # ---------------------------------------------------------------- lint
