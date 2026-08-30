@@ -115,7 +115,7 @@ Backtick-delimited so they survive editing, work inside table cells, and grep cl
 ```
 `UNVERIFIED — what needs checking, and the source that would settle it.`
 `VERIFIED <source> <YYYY-MM> — what was checked.`
-`CF-012`                  conflict reference
+`CF-032`                  conflict reference (a real one — `CF-012` is only ever an example)
 `[paed]` `[adult]`        population scope
 `→MED:adrenaline`         mirrors a figure owned elsewhere
 `TODO:link — topic`       stripped placeholder link
@@ -290,7 +290,7 @@ claim. **R2** — thresholds and scores driving disposition — collapsed `> [!f
 **R3** — inline `` `CF-###` `` only.
 
 ```markdown
-> [!fail]- CONFLICT CF-012 — imaging pathway **R2**
+> [!fail]- CONFLICT CF-012 — imaging pathway **R2**   ← EXAMPLE ID. No file has ever contained a `CF-012`; the real appendicitis-imaging conflict is `CF-032`.
 > **A (`inherited`):** <claim>
 > **B (`unverified`):** <claim>
 > **Why it matters:** <clinical consequence>
@@ -337,7 +337,10 @@ markers are the only memory.
   append-never-delete history.
 - Create a file without grepping the whole vault first.
 - Delete a Corpus B file before every section is merged or explicitly rejected in a commit
-  message.
+  message — **and, even then, not until its block is complete and the intra-B links have
+  been retargeted.** "Fully merged" is not sufficient on its own: other, still-unmerged B
+  files link to it, and deleting on the merged test alone dangles every one of those
+  links. C1, C2 and C3 passed the merged test on 2026-08-31 and were deliberately kept.
 - Renumber §1.3's rules, or renumber file sections, or repair Corpus B's placeholder links.
 - Claim a phase is "complete" in the sense of verified. Rule 8: "clean against everything
   currently known to check for."

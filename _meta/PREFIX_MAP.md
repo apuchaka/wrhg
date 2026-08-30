@@ -58,6 +58,9 @@ from *2 items in `bl.md`* to a proper block. **`GER1`/`GER2` have no v1 predeces
 | `D` | 7 | cluster definitions `D1.`–`D7.` |
 | `F0` | 5 | referenced as BUILT — **except `F0.4`, which appears in no v2 reference at all** |
 
+> [!note] The full class — `A5`, `F0.4`, the inherited `0.7`, the `GER` rename and
+> `CF-012` — is consolidated in `_meta/FALSE_ESTABLISHED_REFERENCES.md`.
+
 > [!warning] **`F0.4` is a missing-from-the-index defect, same class as `A5`'s missing queue
 > row.** `F0-4_Resuscitation_Algorithms_and_Emergency_Procedures` exists on disk and every
 > other `F0` file is referenced in v2. The queue reads as complete because nothing is missing

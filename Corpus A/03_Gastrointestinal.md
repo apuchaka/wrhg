@@ -3,7 +3,7 @@ block: Gastrointestinal
 source: quackquackmed 03 Gastrointestinal Medicine & General Surgery
 trust: inherited
 population: mixed
-conflicts_open: 0
+conflicts_open: 1
 conflicts_r1: 0
 ---
 
@@ -829,12 +829,12 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 **Chronic/long-term:** histology review — **an appendiceal neuroendocrine tumour or mucinous neoplasm is an occasional incidental finding requiring further management**, so the result must be checked and acted on rather than assumed benign.
 
-> [!warning] Unmarked disagreement — appendicitis imaging. **Not adjudicated, and deliberately not given a `CF-` number.**
-> **A (`inherited`, §0.18 above):** imaging "generally not indicated unless diagnostic uncertainty"; CT reserved for Alvarado 4–6; **"US not useful for visualising the appendix"** but useful for gynaecological mimics.
-> **B (`unverified`, `SRC:C1_Acute_Abdomen §0.6`):** **CT abdomen and pelvis is the most accurate test in adults**; **ultrasound first in children, young women and pregnancy**, looking for a **non-compressible appendix** — i.e. ultrasound *can* visualise it, and a non-visualised appendix does not exclude appendicitis. MRI in pregnancy where ultrasound is non-diagnostic.
-> **Why it matters:** the two statements cannot both be right about whether ultrasound images the appendix, and the choice determines first-line imaging in exactly the groups where radiation matters most.
-> **Why there is no `CF-` number here:** this merge was instructed to reference an existing `CONFLICT CF-012` in this section rather than duplicate it. **No such block exists in this file, and none ever did** — `CF-012` appears only in `MERGE_SPEC.md`, `CLAUDE.md` and `MASTER_VERIFICATION_WORKFLOW.md`, in all three as the worked *example* of conflict-block formatting. Writing "see CF-012" would have been a cross-reference to nothing. Recorded in `_meta/merges/C1_Acute_Abdomen.md` for a human decision on whether to open a real conflict ID.
-> **Resolve against:** RACGP, or your health network's surgical and radiology guidelines. Both are open sources.
+> [!fail]- CONFLICT CF-032 — appendicitis imaging: does ultrasound visualise the appendix **R2**
+> **A (`inherited`, §0.18 above):** imaging "generally not indicated unless diagnostic uncertainty"; CT reserved for Alvarado 4–6; **"US not useful for visualising the appendix"**, useful only for gynaecological mimics.
+> **B (`unverified`, `SRC:C1_Acute_Abdomen §0.6`):** **CT abdomen and pelvis is the most accurate test in adults**; **ultrasound first in children, young women and pregnancy**, looking for a **non-compressible appendix** — i.e. ultrasound *can* visualise it, though a non-visualised appendix does not exclude appendicitis. MRI in pregnancy where ultrasound is non-diagnostic.
+> **Why it matters:** the two cannot both be right about whether ultrasound images the appendix, and the answer decides **first-line imaging in exactly the groups where radiation matters most** — children, young women, and pregnancy. Following A in a pregnant patient sends her to CT; following B sends her to ultrasound first.
+> **Resolve against:** **RACGP**, and your health network's surgical and radiology guidelines. Both are open Australian sources — no login — so this is actionable now.
+> **Note on the ID:** this was recorded on 2026-08-30 as a deliberately unnumbered disagreement, because the merge instruction referred to an existing `CF-012` here. `CF-012` was never a real conflict — it is the worked example in `MERGE_SPEC.md`, `CLAUDE.md` and `MASTER_VERIFICATION_WORKFLOW.md`. `CF-032` is this disagreement's first and only ID.
 
 ---
 

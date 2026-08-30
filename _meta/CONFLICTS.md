@@ -5,10 +5,11 @@ description: Generated. Do not hand-edit — stamp the block in the file and res
 
 # Conflict index — generated 2026-08-30
 
-Open 0 · deferred 0 · resolved 3
+Open 1 · deferred 0 · resolved 3
 
 ## Open
 
+- **CF-032** [R2] Corpus A/03_Gastrointestinal.md L832 · _0.18.1 Added from unverified layer — presentation sequence, atypical positions, and the RIF differential_ — appendicitis imaging: does ultrasound visualise the appendix **R2**
 
 ## Deferred
 

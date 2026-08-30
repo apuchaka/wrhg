@@ -1632,6 +1632,24 @@ report examined / converted / flagged per chunk.
 
 ## 1.35 Step 29 — Corpus B merge (37 files)
 
+> [!important] **A gap is only a gap if it is absent from Corpus A *and* Corpus C.**
+> Established 2026-08-31 while merging C2. Searching Corpus A alone manufactures false
+> gaps: `aprepitant` is absent from all 148 Corpus A files and looks like a clear
+> omission, but it is in `NEW_Drugs_12_Gastrointestinal` §0.2.3, with the CYP3A4 and
+> hormonal-contraceptive interactions Corpus B does not mention. Merging it would have
+> produced a second, worse copy of content the vault already had.
+>
+> **And where Corpus C covers a topic, the Corpus B section is superseded on provenance,
+> not judged on content.** C is `snippet` — AMH- and guideline-derived. B is `unverified`
+> — model knowledge carrying no source. §1.10 decides it, and the decision never requires
+> reading the two claims and preferring one.
+>
+> This settled most of two files without adjudicating anything: C2 §0.5's entire
+> antiemetic selection table (against `NEW_Drugs_12` §0.2, which additionally has the
+> 5-day and 12-week metoclopramide limits) and C3 §0.1's entire LFT-interpretation block
+> (against `NEW_Investigations_Gastroenterology` §0.1, which already states that "liver
+> function tests" is a misnomer). Both discarded on provenance alone.
+
 **One B file per session. One commit per destination section (rule 6).**
 
 1. **Destination table before writing anything.** Per section: grep the whole vault, name the
@@ -1730,7 +1748,7 @@ figures, anything legal or notifiable) — expanded `> [!fail]` block above the 
 **R3** — inline `` `CF-###` `` token only.
 
 ```markdown
-> [!fail]- CONFLICT CF-012 — imaging pathway **R2**
+> [!fail]- CONFLICT CF-012 — imaging pathway **R2**   ← EXAMPLE ID. No file has ever contained a `CF-012`; the real appendicitis-imaging conflict is `CF-032`.
 > **A (`inherited`):** <claim>
 > **B (`unverified`):** <claim>
 > **Why it matters:** <clinical consequence>

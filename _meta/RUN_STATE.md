@@ -362,3 +362,19 @@ See `_meta/merges/C1_Acute_Abdomen.md`.
    link against the filesystem before commit. Do that check every time; do not trust a
    filename that looks right.
 
+## Study-list additions — real absences no merge can close
+
+Gaps confirmed absent from **all 240 corpus files** and **not supplied by the Corpus B
+material that covered the surrounding topic**. They are recorded rather than written,
+because the only available filling material is model knowledge.
+
+| Topic | Absent from | Why it matters | Would be settled by |
+|---|---|---|---|
+| **Dubin-Johnson syndrome** | whole vault; C3 does not cover it | Conjugated hyperbilirubinaemia with an otherwise normal liver — the benign cause that must not be worked up as obstruction | RACGP, or a hepatology reference |
+| **Rotor syndrome** | whole vault; C3 does not cover it | The same, and it is the standard exam pairing with Dubin-Johnson | as above |
+
+Both are hereditary conjugated hyperbilirubinaemias. The vault has Gilbert and
+Crigler-Najjar (the **unconjugated** pair) but neither conjugated one, so the
+classification at `03_Gastrointestinal` §0.41.8 is currently half-populated — which is
+stated in that section rather than quietly filled.
+
