@@ -114,8 +114,13 @@ Conflicts appear at the point of disagreement, but not all at the same visual co
 
 **R2 — collapsed, above the claim.** One line until you open it. The `-` suffix is Obsidian's default-collapsed syntax.
 
+> [!warning] `CF-012` below is an ILLUSTRATION, not a conflict in the corpus.
+> It uses real appendicitis wording, which is why it was mistaken for a live block for
+> several days. The real disagreement is **`CF-032`** in `03_Gastrointestinal` §0.18.1.
+> No file has ever contained a `CF-012`.
+
 ```markdown
-> [!fail]- CONFLICT CF-012 — imaging pathway **R2**
+> [!fail]- CONFLICT CF-012 — imaging pathway **R2**   ← EXAMPLE ID, not a real conflict
 > **A (`inherited`):** ultrasound not useful for visualising the appendix...
 > **B (`unverified`):** ultrasound first-line in children, young women, pregnancy...
 > **Resolve against:** TG Acute appendicitis; RCH imaging guidance.
@@ -521,7 +526,7 @@ These are separate operations and should not be coupled.
 **Steering new B files — and why overlap should not be suppressed wholesale.** Where B files are still to be generated, give the session the relevant **headings manifest** slice (~40 lines). But the instruction should steer toward gaps, not forbid overlap, because overlap and disagreement are not the same thing and only one of them is expensive.
 
 - **Suppress overlap on explanatory prose** — mechanism, pathophysiology, the reasoning behind a sign. A second rendering costs adjudication time and yields little, since divergence here is hard to adjudicate and rarely clinically consequential.
-- **Welcome overlap on figures** — doses, thresholds, scores, timings, observation periods. A second rendering is cheap to compare (the numbers match or they don't) and a mismatch is free signal that something needs checking. With no automated access to Therapeutic Guidelines or AMH, an independent second rendering disagreeing with A is one of the few error-detection mechanisms available. The appendicitis imaging conflict (CF-012) exists only because B covered a topic A already had, and it surfaced a probable error in the `inherited` layer.
+- **Welcome overlap on figures** — doses, thresholds, scores, timings, observation periods. A second rendering is cheap to compare (the numbers match or they don't) and a mismatch is free signal that something needs checking. With no automated access to Therapeutic Guidelines or AMH, an independent second rendering disagreeing with A is one of the few error-detection mechanisms available. The appendicitis imaging conflict is the worked case: it exists only because B covered a topic A already had, and it surfaced a probable error in the `inherited` layer. **It is `CF-032`, written into `03_Gastrointestinal` §0.18.1 on 2026-08-31. It is NOT `CF-012`** — that number belongs to the formatting example below and to nothing in the corpus. See `_meta/FALSE_ESTABLISHED_REFERENCES.md`.
 
 **Critical caveat: agreement between A and B is not corroboration.** B is model knowledge; A's UK-derived layer came from broadly similar material. They share ancestry, so concordance tells you about the ancestry rather than about the fact. A model asked about appendicectomy prophylaxis would very likely reproduce A's `co-amoxiclav + metronidazole` and agree perfectly, and that agreement would feel like verification while being worth nothing. **Concordance never closes a verification item. Only disagreement is informative, and only against a named AU source does anything become `verified`.**
 
