@@ -533,4 +533,11 @@ Right hemidiaphragm normally sits slightly higher than left. Look for free air u
 >
 > *The general rule, which applies to every screening cutoff in this file:* **a screening threshold carries its derivation population with it.** Before acting on a score, ask whether the patient resembles the group the instrument was normed in — the same question the [[Clinical-Process-EBM-Consent-Capacity]] Study Design and Bias — Reading the Evidence Behind a Recommendation raises about risk scores and trial results.
 
+> [!info] Added from unverified layer — two instruments not listed above
+> `SRC:D2_Altered_Consciousness_and_Cognition §0.2` `SRC:D2 §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+>
+> **RUDAS — the Rowland Universal Dementia Assessment Scale.** Developed **in Australia**, specifically to be **less influenced by education level and cultural and linguistic background.** This is the instrument the danger box above argues for and does not name: it identifies KICA for Aboriginal and Torres Strait Islander patients, but RUDAS is the answer to the broader case of a patient tested in a second language in Australia's multicultural population.
+> **4AT and CAM (Confusion Assessment Method)** — **delirium-specific** instruments, which the tools above are not. AMTS, MMSE and MoCA measure cognition; these are built to detect the acute, fluctuating, inattentive picture of delirium, and are the appropriate tool when the question is "is this delirium" rather than "how impaired is this patient".
+> `UNVERIFIED — the RUDAS and 4AT cutoffs and their validation populations. The derivation-population principle above applies to these two exactly as it does to the rest, so the cutoffs are deliberately not stated here.`
+
 **Practical principle tying all three together:** the choice of tool should match the clinical question — AMTS for a rapid bedside screen (e.g. as part of an acute confusion/delirium work-up, see [[04_Neurology]] Delirium, not repeated here), MMSE as the most widely used and validated general screening tool, MoCA where mild impairment or an executive-predominant pattern is specifically suspected. None of the three substitutes for a full clinical assessment and collateral history where dementia or a specific cognitive syndrome is genuinely suspected.
