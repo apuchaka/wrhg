@@ -469,13 +469,19 @@ morning.** Nobody is awake. A step that stalls waiting for an answer wastes the 
 > corpus file ever *modified* during the upload sequence; and no `trust:`, `figures:`,
 > `conflicts_*`, `CF-###` or `SRC:` key anywhere in it.
 
-> [!warning] **`scan --dry-run` is not dry.** It gates only the frontmatter-counter writes;
-> it still rewrites `_meta/VERIFICATION_QUEUE.md`, `CONFLICTS.md`, `DOSE_MIRRORS.md` and
-> `PENDING_ROWS_DRAFT.md` every time. Running it to *inspect* the corpus therefore dirties
-> the working tree, and on a verification branch that is how generated output gets swept
-> into a commit. `lint`, `drugs` and `paed` likewise write a timestamped log per run.
-> `_meta/runs/` and `__pycache__/` are now gitignored; the durable record of a run is
-> `OVERNIGHT_REPORT.md`, not the logs.
+> [!warning] **`--dry-run` is now genuinely dry — fixed 2026-08-30.**
+> It previously gated only the frontmatter-counter writes, so `scan --dry-run` still
+> rewrote `VERIFICATION_QUEUE.md`, `CONFLICTS.md`, `DOSE_MIRRORS.md` and
+> `PENDING_ROWS_DRAFT.md` on every invocation, and `lint` / `drugs` / `paed` still wrote a
+> timestamped log. **Running a scan merely to look at the corpus dirtied the working
+> tree**, which is how generated output kept being swept into commits by `git add -A`.
+>
+> A flag that says dry and mutates the tree is a defect, not a convenience. All writes now
+> pass through one gate; under `--dry-run` nothing is written, no directory is created, and
+> the intended writes are printed instead. Verified: four dry runs in a row leave `git
+> status` completely clean.
+>
+> **Use `--dry-run` freely to inspect.** The real run is the one that produces artefacts.
 
 > [!danger] **Run the conflict-marker guard before EVERY commit.**
 > ```bash
