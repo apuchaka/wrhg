@@ -41,7 +41,7 @@ conflicts_r1: 0
 Oxygen titrated to target. **Inhaled short-acting beta-agonist, with a spacer being at least as effective as a nebuliser in most patients** and avoiding aerosol generation. Add ipratropium in moderate to severe. **Systemic corticosteroid early** — the benefit is time-dependent and delaying it is a common error. Escalate to intravenous magnesium and consider aminophylline in severe or refractory cases. Call for senior help early in life-threatening asthma. `UNVERIFIED — all doses, nebuliser versus spacer regimens, magnesium dosing and oxygen targets are omitted; obtain from the Australian Asthma Handbook and eTG.`
 
 ### 0.1.2 Mx – Definitive
-Continued bronchodilation and steroids with reassessment. Intubation is a last resort and is high-risk — cross-refer [[F0.4]] 0.7 for auto-PEEP and breath stacking, which is the mechanism that arrests intubated asthmatics.
+Continued bronchodilation and steroids with reassessment. Intubation is a last resort and is high-risk — cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.7 for auto-PEEP and breath stacking, which is the mechanism that arrests intubated asthmatics.
 
 ### 0.1.3 Mx – Chronic/long-term
 **Every acute presentation is a preventer failure until proven otherwise.** Check inhaler technique in person, review preventer adherence, issue or update a written asthma action plan, arrange GP follow-up within days, and address trigger exposure and smoking. Cross-refer [[15_04b_Paeds_-_Asthma_in_Children]] for children.
@@ -64,11 +64,11 @@ Continued bronchodilation and steroids with reassessment. Intubation is a last r
 > Increased dyspnoea, increased sputum **volume**, and increased sputum **purulence** — the Anthonisen criteria. Purulence is the most useful of the three. Not every exacerbation is bacterial and not every exacerbation needs an antibiotic. `UNVERIFIED — the number of criteria required and the recommended agents come from eTG Antibiotic.`
 
 > [!warning] NIV in hypercapnic acidosis
-> BiPAP has a strong evidence base in acute hypercapnic exacerbations with respiratory acidosis, reducing intubation and mortality. Start it early rather than as a last measure, and set explicit review criteria — cross-refer [[F0.4]] 0.7. Document a **ceiling of care and resuscitation status** early, because a patient with severe COPD deteriorating on NIV forces that conversation and it is better held before the crisis.
+> BiPAP has a strong evidence base in acute hypercapnic exacerbations with respiratory acidosis, reducing intubation and mortality. Start it early rather than as a last measure, and set explicit review criteria — cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.7. Document a **ceiling of care and resuscitation status** early, because a patient with severe COPD deteriorating on NIV forces that conversation and it is better held before the crisis.
 
 **S/Smx:** Increased dyspnoea, cough, sputum change, wheeze, accessory muscle use, pursed-lip breathing, tachypnoea. In hypercapnia: drowsiness, confusion, headache, flap, bounding pulse. Peripheral oedema suggests cor pulmonale.
 
-**Ix:** ABG (*why:* the essential test — separates hypoxic from hypercapnic failure and distinguishes acute from chronic retention using the bicarbonate, which determines whether NIV is needed; *what:* pH, pCO₂, bicarbonate). CXR (*why:* excludes the pneumonia, pneumothorax and pulmonary oedema that mimic and complicate exacerbation, and unlike asthma it is routinely indicated here; *what:* consolidation, pneumothorax, hyperinflation, oedema). ECG (*why:* arrhythmia and ischaemia both precipitate and complicate; *what:* atrial fibrillation, right heart strain, ischaemia). FBC, UEC, CRP (*why:* baseline, infection marker and electrolyte derangement from beta-agonists and steroids; *what:* leucocytosis, low potassium). Sputum culture in treatment failure or known resistant organisms (*why:* directs therapy where empirical treatment fails; *what:* organism). D-dimer or CTPA where PE is plausible (*why:* PE is a well-recognised and frequently missed cause of apparent COPD exacerbation; *what:* filling defect). BNP where heart failure is a differential (*why:* the two coexist and present identically; *what:* elevation — cross-refer [[F0.3]] 0.3).
+**Ix:** ABG (*why:* the essential test — separates hypoxic from hypercapnic failure and distinguishes acute from chronic retention using the bicarbonate, which determines whether NIV is needed; *what:* pH, pCO₂, bicarbonate). CXR (*why:* excludes the pneumonia, pneumothorax and pulmonary oedema that mimic and complicate exacerbation, and unlike asthma it is routinely indicated here; *what:* consolidation, pneumothorax, hyperinflation, oedema). ECG (*why:* arrhythmia and ischaemia both precipitate and complicate; *what:* atrial fibrillation, right heart strain, ischaemia). FBC, UEC, CRP (*why:* baseline, infection marker and electrolyte derangement from beta-agonists and steroids; *what:* leucocytosis, low potassium). Sputum culture in treatment failure or known resistant organisms (*why:* directs therapy where empirical treatment fails; *what:* organism). D-dimer or CTPA where PE is plausible (*why:* PE is a well-recognised and frequently missed cause of apparent COPD exacerbation; *what:* filling defect). BNP where heart failure is a differential (*why:* the two coexist and present identically; *what:* elevation — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3).
 
 ### 0.2.1 Mx – Immediate
 Controlled oxygen to target with a repeat gas after any change. Inhaled bronchodilators. Systemic corticosteroid. Antibiotics where the criteria are met. **NIV early for hypercapnic acidosis.** Treat the precipitant.
@@ -93,7 +93,7 @@ Smoking cessation — the only intervention that alters the natural history. Pul
 > [!warning] Diuretics are not the first move
 > Sit the patient up, give oxygen, start NIV, and give nitrates. Diuretics have a role in the genuinely fluid-overloaded patient but reaching for furosemide first and nitrates late is the commonest management error in this presentation. `UNVERIFIED — GTN dosing and titration, and furosemide dosing, are omitted; obtain from eTG Cardiovascular and local protocol.`
 
-Cardiogenic shock — the **hypotensive**, hypoperfused subset — is a different entity with different management and is covered in [[F0.3]] 0.3. The distinction is the blood pressure.
+Cardiogenic shock — the **hypotensive**, hypoperfused subset — is a different entity with different management and is covered in [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3. The distinction is the blood pressure.
 
 **S/Smx:** Acute severe dyspnoea, orthopnoea, paroxysmal nocturnal dyspnoea, distress, sweating, widespread inspiratory crackles, wheeze, pink frothy sputum in florid cases, raised JVP, third heart sound.
 
@@ -123,14 +123,14 @@ Guideline-directed heart failure therapy, cardiac rehabilitation, fluid and salt
 > Consider *Legionella* (particularly with hyponatraemia, diarrhoea and confusion), *Mycoplasma*, and in northern Australia and the tropics **melioidosis** (*Burkholderia pseudomallei*), which is a genuine and frequently missed cause of severe CAP with a distinct antibiotic requirement. Travel, occupational and exposure history matters. Influenza and COVID-19 remain relevant. `UNVERIFIED — regionally specific empirical regimens from eTG Antibiotic.`
 
 > [!info] ARDS definition and management principles
-> Defined by timing after an insult, bilateral opacities, absence of a purely cardiac explanation, and severity graded by oxygenation. `UNVERIFIED — the Berlin definition timing window and PaO₂/FiO₂ severity thresholds require verification.` Management is supportive: **lung-protective low tidal volume ventilation**, appropriate PEEP, conservative fluid strategy, prone positioning for severe hypoxaemia, and treatment of the underlying cause. Cross-refer [[F0.4]] 0.7.
+> Defined by timing after an insult, bilateral opacities, absence of a purely cardiac explanation, and severity graded by oxygenation. `UNVERIFIED — the Berlin definition timing window and PaO₂/FiO₂ severity thresholds require verification.` Management is supportive: **lung-protective low tidal volume ventilation**, appropriate PEEP, conservative fluid strategy, prone positioning for severe hypoxaemia, and treatment of the underlying cause. Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.7.
 
 **S/Smx:** Fever, cough, purulent sputum, pleuritic chest pain, dyspnoea, tachypnoea, hypoxia, focal crackles and bronchial breathing. In severe disease, confusion, hypotension and multi-organ dysfunction. ARDS presents as refractory hypoxia with diffuse infiltrates and rapidly rising oxygen requirement.
 
 **Ix:** CXR (*why:* confirms consolidation and identifies the bilateral infiltrates defining ARDS, effusion and abscess; *what:* consolidation, bilateral opacities, effusion). ABG with PaO₂/FiO₂ ratio (*why:* grades ARDS severity and identifies ventilatory failure; *what:* refractory hypoxia, the ratio). Blood cultures before antibiotics (*why:* bacteraemic pneumonia carries worse prognosis and the isolate directs therapy; *what:* organism). Sputum culture and respiratory viral and atypical PCR (*why:* identifies influenza, COVID-19, *Legionella*, *Mycoplasma* and melioidosis, several of which need specific agents; *what:* pathogen). Urinary antigen for *Legionella* and pneumococcus (*why:* rapid, remains positive after antibiotics, and *Legionella* has public health implications requiring notification; *what:* antigen). FBC, UEC, LFT, CRP, lactate (*why:* populate the severity scores and identify organ dysfunction; *what:* urea for CURB-65, sodium for *Legionella*, lactate). Bedside echocardiography (*why:* excludes the cardiac cause that would make bilateral infiltrates pulmonary oedema rather than ARDS; *what:* preserved LV function and filling). CT chest where complications are suspected (*why:* empyema, abscess and cavitation change management to include drainage; *what:* loculated collection, cavity).
 
 ### 0.4.1 Mx – Immediate
-Oxygen, sepsis pathway with cultures and time-critical antibiotics, fluid resuscitation with reassessment, and early ICU involvement in severe disease. Cross-refer [[F0.3]] 0.7.
+Oxygen, sepsis pathway with cultures and time-critical antibiotics, fluid resuscitation with reassessment, and early ICU involvement in severe disease. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.7.
 
 ### 0.4.2 Mx – Definitive
 Targeted antibiotics on culture. Drainage of empyema. Lung-protective ventilation and prone positioning for ARDS. Conservative fluid strategy once resuscitated.
@@ -144,7 +144,7 @@ Repeat imaging to confirm resolution, particularly in smokers over 50, where non
 
 **D:** Ventilatory failure caused by weakness of the respiratory muscles rather than by lung disease.
 
-**R/Causes:** Guillain–Barré syndrome, myasthenic crisis, motor neurone disease, botulism, high cervical spinal cord injury, critical illness neuromyopathy, organophosphate poisoning's intermediate syndrome — cross-refer [[F0.1]] 0.3, tick paralysis, and periodic paralyses.
+**R/Causes:** Guillain–Barré syndrome, myasthenic crisis, motor neurone disease, botulism, high cervical spinal cord injury, critical illness neuromyopathy, organophosphate poisoning's intermediate syndrome — cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.3, tick paralysis, and periodic paralyses.
 
 **A/P:** Respiratory muscle weakness → reduced tidal volume, compensated initially by increased rate → progressive atelectasis and reduced cough → secretion retention and aspiration → **the lungs are normal, so gas exchange remains adequate until ventilation fails**, at which point CO₂ rises abruptly and the patient decompensates over a short period rather than gradually.
 
@@ -187,17 +187,17 @@ Neurorehabilitation, respiratory physiotherapy, home NIV assessment in progressi
 > **S**ystemic features (fever, weight loss, malignancy, immunosuppression, pregnancy) · **N**eurological signs or reduced consciousness · **O**nset sudden or thunderclap · **O**lder age at first onset · **P**attern change, **P**ositional, **P**apilloedema, **P**recipitated by Valsalva or exertion.
 
 > [!warning] Causes that are missed because the imaging is normal
-> **Giant cell arteritis** in the over-50s — jaw claudication, scalp tenderness, visual symptoms, raised inflammatory markers; treat with steroids immediately on suspicion to prevent blindness, before biopsy. **Cerebral venous sinus thrombosis** — often needs venography rather than plain CT, and think of it in pregnancy, postpartum, dehydration, thrombophilia and combined oral contraceptive use. **Carbon monoxide poisoning** — headache with nausea in multiple household members, particularly in winter. **Acute angle closure glaucoma** — headache with a red painful eye, halos and a fixed mid-dilated pupil; cross-refer [[E1]].
+> **Giant cell arteritis** in the over-50s — jaw claudication, scalp tenderness, visual symptoms, raised inflammatory markers; treat with steroids immediately on suspicion to prevent blindness, before biopsy. **Cerebral venous sinus thrombosis** — often needs venography rather than plain CT, and think of it in pregnancy, postpartum, dehydration, thrombophilia and combined oral contraceptive use. **Carbon monoxide poisoning** — headache with nausea in multiple household members, particularly in winter. **Acute angle closure glaucoma** — headache with a red painful eye, halos and a fixed mid-dilated pupil; cross-refer `TODO:link — E1 Red & painful eye (unbuilt)`.
 
 **S/Smx:** Character, onset speed, time to peak, positional and exertional features, associated neurological symptoms, fever, neck stiffness, visual symptoms and systemic features. A prior identical headache pattern is reassuring; a first or worst is not.
 
 **Ix:** Non-contrast CT brain (*why:* first-line for haemorrhage and mass effect, and its sensitivity for SAH is time-dependent, so the interval since onset changes the interpretation; *what:* subarachnoid blood, haemorrhage, mass, hydrocephalus). Lumbar peuncture with xanthochromia where CT is negative and SAH remains a concern (*why:* detects the blood breakdown products that CT misses at later intervals, and gives the CSF findings for meningitis; *what:* xanthochromia, red cells that do not clear across tubes, pleocytosis). CT or MR venography where venous sinus thrombosis is suspected (*why:* plain CT frequently misses it and the treatment is anticoagulation; *what:* filling defect in a sinus). CT or MR angiography for suspected dissection or aneurysm (*why:* defines the vascular lesion and directs neurosurgical or interventional management; *what:* dissection flap, aneurysm). ESR and CRP in the over-50s (*why:* giant cell arteritis is a treatable cause of irreversible blindness and the markers are usually markedly raised; *what:* elevated inflammatory markers). Blood pressure and fundoscopy (*why:* malignant hypertension and papilloedema change the pathway entirely; *what:* severe hypertension, disc swelling). Carboxyhaemoglobin where the history fits (*why:* not detected by standard oximetry and easily missed; *what:* elevated level).
 
 ### 0.6.1 Mx – Immediate
-Analgesia and antiemetic. Urgent imaging where red flags are present. Immediate steroids for suspected giant cell arteritis. Antibiotics and antivirals immediately for suspected meningitis or encephalitis — before imaging or LP. Cross-refer [[F0.3]] 0.9.
+Analgesia and antiemetic. Urgent imaging where red flags are present. Immediate steroids for suspected giant cell arteritis. Antibiotics and antivirals immediately for suspected meningitis or encephalitis — before imaging or LP. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9.
 
 ### 0.6.2 Mx – Definitive
-Cause-specific. Neurosurgical referral for aneurysmal SAH. Anticoagulation for venous sinus thrombosis. Cross-refer [[D1]] Headache & Meningism and [[04_Neurology]].
+Cause-specific. Neurosurgical referral for aneurysmal SAH. Anticoagulation for venous sinus thrombosis. Cross-refer [[D1_Headache_and_Meningism]] Headache & Meningism and [[04_Neurology]].
 
 ### 0.6.3 Mx – Chronic/long-term
 Primary headache management and preventer therapy where appropriate. **Medication overuse headache** should be considered in anyone with frequent headache taking regular analgesia.
@@ -278,7 +278,7 @@ Post-concussive symptoms — headache, poor concentration, irritability, sleep d
 **A/P:** Stone lodges at a point of narrowing — pelviureteric junction, pelvic brim where the ureter crosses the iliac vessels, or vesicoureteric junction → obstruction → increased intraluminal and renal pelvic pressure with ureteric smooth muscle spasm → visceral pain referred to the dermatomes sharing the spinal segment, producing the characteristic loin-to-groin radiation. Local prostaglandin release contributes to the pressure and the pain, which is why NSAIDs work well.
 
 > [!danger] Two things must be excluded before accepting renal colic
-> **Obstruction with infection is a urological emergency** requiring decompression, not just antibiotics — fever, rigors or systemic upset with an obstructing stone. Cross-refer [[F0.3]] 0.10.
+> **Obstruction with infection is a urological emergency** requiring decompression, not just antibiotics — fever, rigors or systemic upset with an obstructing stone. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.10.
 > **A ruptured or leaking abdominal aortic aneurysm presents as renal colic.** In any patient over 50, particularly with a first ever episode, no prior stone history, or vascular risk factors, exclude it before settling on the diagnosis. This is a well-documented and lethal misdiagnosis.
 
 > [!tip] Analgesia
@@ -298,7 +298,7 @@ NSAID-based analgesia with an opioid added as needed, antiemetic, fluids. Imagin
 Conservative management with analgesia and follow-up for small stones likely to pass. Medical expulsive therapy is used in some settings, with mixed evidence. Ureteroscopy, lithotripsy or stent for stones that will not pass, and emergency decompression for infection.
 
 ### 0.9.3 Mx – Chronic/long-term
-Fluid intake advice, dietary modification based on stone composition, treatment of underlying metabolic causes, and follow-up imaging. Cross-refer [[H4]] Renal Colic.
+Fluid intake advice, dietary modification based on stone composition, treatment of underlying metabolic causes, and follow-up imaging. Cross-refer `TODO:link — H4 Scrotum, groin & loin (unbuilt)` Renal Colic.
 
 ---
 
@@ -332,9 +332,9 @@ Analgesia and antipyretics — **adequate analgesia is the intervention that mos
 Drainage of quinsy. Admission for IV antibiotics and fluids where oral intake fails. Airway management in deep neck space infection.
 
 ### 0.10.3 Mx – Chronic/long-term
-Tonsillectomy assessment for recurrent tonsillitis or recurrent quinsy against defined frequency criteria. **In high-risk populations, follow-up to complete the antibiotic course and consideration of secondary prophylaxis where acute rheumatic fever has occurred.** Cross-refer [[13_ENT]] and [[F4]] Neck Lumps.
+Tonsillectomy assessment for recurrent tonsillitis or recurrent quinsy against defined frequency criteria. **In high-risk populations, follow-up to complete the antibiotic course and consideration of secondary prophylaxis where acute rheumatic fever has occurred.** Cross-refer [[13_ENT]] and `TODO:link — F4 Neck lumps & facial pain (unbuilt)` Neck Lumps.
 
 ---
 
 > [!note] Cross-references
-> Cardiogenic shock, tamponade and massive PE → [[F0.3]] · Mechanical ventilation, auto-PEEP and NIV detail → [[F0.4]] 0.7 · Resuscitation algorithms → [[F0.4]] · Meningococcal sepsis → [[F0.3]] 0.9 · Headache differentials in full → [[D1]] · Renal colic in the urology context → [[H4]]
+> Cardiogenic shock, tamponade and massive PE → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] · Mechanical ventilation, auto-PEEP and NIV detail → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.7 · Resuscitation algorithms → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] · Meningococcal sepsis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9 · Headache differentials in full → [[D1_Headache_and_Meningism]] · Renal colic in the urology context → `TODO:link — H4 Scrotum, groin & loin (unbuilt)`

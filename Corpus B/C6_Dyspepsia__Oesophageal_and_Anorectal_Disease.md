@@ -20,7 +20,7 @@ conflicts_r1: 0
 
 > [!danger] Exclude cardiac causes before settling on reflux
 > **Inferior myocardial infarction presents as epigastric burning with nausea**, and "indigestion" that turns out to be infarction is a recurring and lethal misattribution — particularly in diabetics, women, older patients, and Aboriginal and Torres Strait Islander patients who develop ischaemic heart disease younger.
-> **Relief with antacid or GTN does not distinguish them** — GTN relieves oesophageal spasm and antacids relieve nothing reliably. **Get an ECG.** Cross-refer [[B1]] 0.1 and 0.4.
+> **Relief with antacid or GTN does not distinguish them** — GTN relieves oesophageal spasm and antacids relieve nothing reliably. **Get an ECG.** Cross-refer [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.1 and 0.4.
 
 > [!warning] Red flags mandating endoscopy rather than a PPI trial
 > **· Dysphagia or odynophagia · unintentional weight loss · iron deficiency anaemia · persistent vomiting · haematemesis or melaena · a palpable epigastric mass or lymphadenopathy · new onset above a threshold age · a family history of upper gastrointestinal cancer · previous gastric surgery or gastric ulcer.**
@@ -31,11 +31,11 @@ conflicts_r1: 0
 > **Reviewing the drug chart is the cheapest intervention here and is frequently skipped.**
 
 > [!info] Extra-oesophageal manifestations
-> Chronic cough, hoarseness, globus, laryngitis, dental erosion, and worsening of asthma. **Reflux is a common cause of chronic cough** — cross-refer [[A4]] 0.5 — and it may be entirely "silent", with no heartburn at all, which is why it is missed.
+> Chronic cough, hoarseness, globus, laryngitis, dental erosion, and worsening of asthma. **Reflux is a common cause of chronic cough** — cross-refer [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.5 — and it may be entirely "silent", with no heartburn at all, which is why it is missed.
 
 > [!warning] Long-term PPI use is not risk-free
 > Associations include **hypomagnesaemia, vitamin B12 deficiency, *C. difficile* and other enteric infections, community-acquired pneumonia, fractures, interstitial nephritis, and micronutrient malabsorption.** Causality is debated for several, but the practical point stands: **PPIs are prescribed indefinitely without review far too often.**
-> **Rebound acid hypersecretion on cessation** makes patients believe they still need it, so **step down gradually rather than stopping abruptly**, and reassess whether continued therapy is justified. Deprescribing is an active intervention. Cross-refer [[GER1]].
+> **Rebound acid hypersecretion on cessation** makes patients believe they still need it, so **step down gradually rather than stopping abruptly**, and reassess whether continued therapy is justified. Deprescribing is an active intervention. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]].
 
 > [!tip] Functional dyspepsia
 > Dyspeptic symptoms with a normal endoscopy and no identifiable structural cause. **A positive diagnosis made on symptom criteria, not a residual label.** It overlaps substantially with irritable bowel syndrome and with anxiety, and explaining the gut-brain mechanism is therapeutic. `UNVERIFIED — Rome criteria.`
@@ -53,7 +53,7 @@ Rarely required. Exclude cardiac and complicated ulcer disease.
 **Antireflux surgery (fundoplication)** for well-selected patients with proven reflux who are intolerant of or unwilling to continue long-term medical therapy. `UNVERIFIED — PPI doses, duration and step-down regimens.`
 
 ### 0.1.3 Mx – Chronic/long-term
-**Review the need for ongoing PPI at every opportunity**, with a step-down plan. Weight management. Cross-refer [[I5]].
+**Review the need for ongoing PPI at every opportunity**, with a step-down plan. Weight management. Cross-refer `TODO:link — I5 Weight, lipids & fluid balance (unbuilt)`.
 
 ---
 
@@ -87,10 +87,10 @@ Rarely required. Exclude cardiac and complicated ulcer disease.
 
 **S/Smx:** Epigastric pain, classically burning or gnawing. **Duodenal ulcer pain is traditionally relieved by food and worse at night; gastric ulcer pain is worse with eating** — but this distinction is unreliable in practice and should not be used to decide who needs endoscopy. Nausea, early satiety, bloating. **Many ulcers, particularly NSAID-related, are asymptomatic until they bleed or perforate** — which is why the first presentation is often a complication.
 
-**Ix:** ***H. pylori* testing with appropriate drug withholding** (*why:* eradication cures the disease and prevents recurrence, and the test is invalid if the withholding is not observed; *what:* urea breath test, stool antigen, or biopsy urease and histology). **Gastroscopy with biopsy** (*why:* diagnoses the ulcer, biopsies for *H. pylori* and for malignancy, and permits therapy if bleeding; *what:* ulcer site and appearance, histology). FBC and iron studies (*why:* chronic blood loss; *what:* iron deficiency anaemia). **Fasting gastrin** where Zollinger-Ellison is suspected, **off PPI** (*why:* PPIs themselves raise gastrin substantially and make the test uninterpretable; *what:* markedly raised gastrin). Erect CXR where perforation is suspected (*why:* free gas; *what:* subdiaphragmatic air — cross-refer [[C1]] 0.4).
+**Ix:** ***H. pylori* testing with appropriate drug withholding** (*why:* eradication cures the disease and prevents recurrence, and the test is invalid if the withholding is not observed; *what:* urea breath test, stool antigen, or biopsy urease and histology). **Gastroscopy with biopsy** (*why:* diagnoses the ulcer, biopsies for *H. pylori* and for malignancy, and permits therapy if bleeding; *what:* ulcer site and appearance, histology). FBC and iron studies (*why:* chronic blood loss; *what:* iron deficiency anaemia). **Fasting gastrin** where Zollinger-Ellison is suspected, **off PPI** (*why:* PPIs themselves raise gastrin substantially and make the test uninterpretable; *what:* markedly raised gastrin). Erect CXR where perforation is suspected (*why:* free gas; *what:* subdiaphragmatic air — cross-refer [[C1_Acute_Abdomen]] 0.4).
 
 ### 0.2.1 Mx – Immediate
-For complications — bleeding per [[C4]] 0.2, perforation per [[C1]] 0.4, gastric outlet obstruction per [[C2]] 0.3.
+For complications — bleeding per [[C4_Gastrointestinal_Bleeding]] 0.2, perforation per [[C1_Acute_Abdomen]] 0.4, gastric outlet obstruction per [[C2_Nausea_and_Vomiting]] 0.3.
 
 ### 0.2.2 Mx – Definitive
 **Eradicate *H. pylori*. Stop the NSAID.** Proton pump inhibitor for healing. Endoscopic or surgical management of complications.
@@ -129,8 +129,8 @@ For complications — bleeding per [[C4]] 0.2, perforation per [[C1]] 0.4, gastr
 > **Oesophageal spasm and hypercontractile oesophagus** — chest pain and intermittent dysphagia, and a genuine mimic of cardiac pain.
 > **Pill oesophagitis** — doxycycline, bisphosphonates, potassium chloride, NSAIDs taken with insufficient water or lying down. Sudden severe odynophagia.
 > **Infective oesophagitis** — candida (thrush, immunosuppression, inhaled steroids), herpes simplex, CMV. Consider immunodeficiency including HIV.
-> **Oesophageal varices** — cross-refer [[C4]] 0.3.
-> Cross-refer [[F3]] for oropharyngeal dysphagia, which is a different problem with a neurological differential.
+> **Oesophageal varices** — cross-refer [[C4_Gastrointestinal_Bleeding]] 0.3.
+> Cross-refer `TODO:link — F3 Throat, voice & oral (unbuilt)` for oropharyngeal dysphagia, which is a different problem with a neurological differential.
 
 **Ix:** **Gastroscopy with biopsies** (*why:* the primary investigation for dysphagia and for reflux with red flags, and it permits biopsy for Barrett, eosinophilic oesophagitis and malignancy in one procedure; *what:* stricture, tumour, rings and furrows, metaplasia). **Multiple oesophageal biopsies at several levels even when the oesophagus looks normal** where eosinophilic oesophagitis is possible (*why:* patchy disease and a frequently normal-appearing mucosa; *what:* eosinophil count). Barium swallow (*why:* defines strictures, pouches and motility patterns, and is useful where endoscopy is difficult or where a proximal lesion is suspected; *what:* bird's beak, stricture, pouch). **High-resolution manometry** (*why:* diagnoses achalasia and other motility disorders, which endoscopy cannot; *what:* absent peristalsis, failure of LOS relaxation). CT chest and abdomen and PET where malignancy is confirmed (*why:* staging; *what:* local extent, nodes, metastases). Endoscopic ultrasound (*why:* local T and N staging of oesophageal cancer; *what:* depth of invasion, nodes).
 
@@ -150,7 +150,7 @@ Barrett surveillance where indicated. Nutritional support and dietitian involvem
 > [!danger] Perianal abscess needs drainage — antibiotics alone will not do
 > **Constant, throbbing, severe perianal pain, worse on sitting, with fever and a tender fluctuant swelling.** Deeper (intersphincteric, supralevator) abscesses may have **little to see externally** and present with severe pain and systemic upset — so **an absence of visible swelling does not exclude it.**
 > **Treatment is surgical drainage.** Antibiotics are an adjunct, not a substitute, and delaying drainage while a course of antibiotics is tried is a recognised error.
-> **Have a much lower threshold in diabetics and the immunosuppressed**, where necrotising perineal infection (Fournier gangrene) is a life-threatening progression that begins with pain out of proportion to visible findings. Cross-refer [[K2]].
+> **Have a much lower threshold in diabetics and the immunosuppressed**, where necrotising perineal infection (Fournier gangrene) is a life-threatening progression that begins with pain out of proportion to visible findings. Cross-refer `TODO:link — K2 Skin & soft tissue infection (unbuilt)`.
 > A proportion of abscesses are followed by a **fistula-in-ano**, which then requires definitive management.
 
 > [!tip] Anal fissure
@@ -173,7 +173,7 @@ Barrett surveillance where indicated. Nutritional support and dietitian involvem
 
 **S/Smx:** Character and timing of pain relative to defecation, bleeding, discharge, swelling, fever, bowel habit, and systemic symptoms. **Examine** — inspection, gentle digital examination if tolerated, and proctoscopy where possible. **If the pain prevents examination, that is itself significant and warrants examination under anaesthesia rather than abandoning it.**
 
-**Ix:** **Examination, including under anaesthesia where pain prevents adequate assessment** (*why:* the diagnosis is almost always made by looking, and inadequate examination is the main reason abscesses and cancers are missed; *what:* fissure, abscess, fistula, mass). **MRI pelvis** for complex or recurrent fistula and perianal Crohn disease (*why:* maps the tract in relation to the sphincter complex, which determines surgical approach and the risk to continence; *what:* tract anatomy, abscess, sphincter involvement). **Biopsy of any atypical ulcer or lump** (*why:* anal carcinoma; *what:* histology). Colonoscopy where inflammatory bowel disease is suspected (*why:* perianal disease may be the first sign of Crohn disease; *what:* intestinal inflammation). FBC, glucose and HbA1c (*why:* diabetes predisposes to abscess and to necrotising infection; *what:* hyperglycaemia). **HIV and STI testing where indicated** (*why:* atypical anorectal disease, and anal cancer risk; *what:* positive serology or NAAT — cross-refer [[O6]]).
+**Ix:** **Examination, including under anaesthesia where pain prevents adequate assessment** (*why:* the diagnosis is almost always made by looking, and inadequate examination is the main reason abscesses and cancers are missed; *what:* fissure, abscess, fistula, mass). **MRI pelvis** for complex or recurrent fistula and perianal Crohn disease (*why:* maps the tract in relation to the sphincter complex, which determines surgical approach and the risk to continence; *what:* tract anatomy, abscess, sphincter involvement). **Biopsy of any atypical ulcer or lump** (*why:* anal carcinoma; *what:* histology). Colonoscopy where inflammatory bowel disease is suspected (*why:* perianal disease may be the first sign of Crohn disease; *what:* intestinal inflammation). FBC, glucose and HbA1c (*why:* diabetes predisposes to abscess and to necrotising infection; *what:* hyperglycaemia). **HIV and STI testing where indicated** (*why:* atypical anorectal disease, and anal cancer risk; *what:* positive serology or NAAT — cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`).
 
 ### 0.4.1 Mx – Immediate
 **Drain the abscess.** Analgesia. Stool softeners. Sitz baths for symptomatic relief.
@@ -195,12 +195,12 @@ Surgical management of abscess, fistula and chronic fissure. Oncological managem
 > Management: fibre and fluid, avoid straining and prolonged sitting on the toilet; rubber band ligation for grades I–III; surgery for grade IV or failed conservative management.
 
 > [!danger] Do not diagnose haemorrhoids without excluding cancer
-> **Rectal bleeding attributed to haemorrhoids in an adult over 40, or with any change in bowel habit, weight loss, iron deficiency or family history, requires colonic investigation.** Haemorrhoids are so common that they coexist with cancer frequently. Cross-refer [[C4]] 0.4.
+> **Rectal bleeding attributed to haemorrhoids in an adult over 40, or with any change in bowel habit, weight loss, iron deficiency or family history, requires colonic investigation.** Haemorrhoids are so common that they coexist with cancer frequently. Cross-refer [[C4_Gastrointestinal_Bleeding]] 0.4.
 
 > [!tip] The differential for a lump
 > **Skin tags** — often the residue of a previous thrombosed pile or associated with a chronic fissure or Crohn disease.
 > **Thrombosed external haemorrhoid** — acute, painful, blue.
-> **Anal warts (condylomata acuminata)** — HPV. **Screen for other STIs and consider HIV**, and address partner notification. Cross-refer [[O6]].
+> **Anal warts (condylomata acuminata)** — HPV. **Screen for other STIs and consider HIV**, and address partner notification. Cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`.
 > **Perianal abscess.**
 > **Rectal prolapse** — full-thickness, with concentric mucosal rings, as opposed to the radial folds of prolapsed haemorrhoids. Associated with chronic straining, and in children with constipation and cystic fibrosis.
 > **Anal carcinoma** — see 0.4. **Any indurated, ulcerated, irregular or non-healing lump requires biopsy.**
@@ -257,4 +257,4 @@ Skin care education, which is the core of management and takes an explicit conve
 ---
 
 > [!note] Cross-references
-> Epigastric pain and perforated ulcer → [[C1]] 0.4 · Vomiting, gastric outlet obstruction and Boerhaave → [[C2]] 0.3, 0.7 · Varices and portal hypertension → [[C3]] 0.6 and [[C4]] 0.3 · Upper GI bleeding and *H. pylori* after a bleed → [[C4]] 0.2 · Constipation and its management → [[C5]] 0.2 · Tenesmus and rectal red flags → [[C5]] 0.6 · Oropharyngeal dysphagia and the neurological causes → [[F3]] · Chest pain and cardiac exclusion → [[B1]] · Anal warts, HPV and STI screening → [[O6]] · Necrotising perineal infection → [[K2]] · Deprescribing PPIs → [[GER1]]
+> Epigastric pain and perforated ulcer → [[C1_Acute_Abdomen]] 0.4 · Vomiting, gastric outlet obstruction and Boerhaave → [[C2_Nausea_and_Vomiting]] 0.3, 0.7 · Varices and portal hypertension → [[C3_Jaundice_and_Liver_Disease]] 0.6 and [[C4_Gastrointestinal_Bleeding]] 0.3 · Upper GI bleeding and *H. pylori* after a bleed → [[C4_Gastrointestinal_Bleeding]] 0.2 · Constipation and its management → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.2 · Tenesmus and rectal red flags → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.6 · Oropharyngeal dysphagia and the neurological causes → `TODO:link — F3 Throat, voice & oral (unbuilt)` · Chest pain and cardiac exclusion → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] · Anal warts, HPV and STI screening → `TODO:link — O6 Sexual & reproductive health (unbuilt)` · Necrotising perineal infection → `TODO:link — K2 Skin & soft tissue infection (unbuilt)` · Deprescribing PPIs → [[GER1_Comprehensive_Geriatric_Assessment]]

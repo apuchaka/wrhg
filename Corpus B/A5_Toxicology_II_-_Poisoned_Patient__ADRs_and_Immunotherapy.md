@@ -10,7 +10,7 @@ conflicts_r1: 0
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Mechanism, risk-assessment structure and discriminators are reliable at intern level. **Every dose, threshold, reference range and timing figure carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** All antidote dosing, charcoal timing, QRS thresholds and dialysis criteria must come from the **Poisons Information Centre (13 11 26)** and eTG Toxicology.
 >
-> Toxidromes, paracetamol, opioids, beta-blocker/CCB, toxic alcohols, anaphylaxis and envenomation are built in [[F0.1]] and are cross-referenced rather than repeated. Salicylate is in [[F0.2]] 0.8.
+> Toxidromes, paracetamol, opioids, beta-blocker/CCB, toxic alcohols, anaphylaxis and envenomation are built in [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] and are cross-referenced rather than repeated. Salicylate is in [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.8.
 
 ---
 
@@ -42,16 +42,16 @@ conflicts_r1: 0
 > [!info] Decontamination and elimination — the principles, not the numbers
 > **Activated charcoal** adsorbs many but not all toxins — it does not bind alcohols, metals including iron and lithium, or corrosives. It carries aspiration risk and requires an intact or protected airway. `UNVERIFIED — the time window in which charcoal retains benefit, dosing, and contraindications require verification against eTG Toxicology.`
 > **Whole bowel irrigation** is considered for slow-release preparations, body packers and agents charcoal does not bind.
-> **Urinary alkalinisation** enhances elimination of weak acids, notably salicylate — cross-refer [[F0.2]] 0.8.
+> **Urinary alkalinisation** enhances elimination of weak acids, notably salicylate — cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.8.
 > **Haemodialysis** is effective for small, water-soluble, minimally protein-bound toxins with a low volume of distribution — toxic alcohols, salicylate, lithium, metformin. `UNVERIFIED — indications and thresholds require verification and are agent-specific.`
 > **Intravenous lipid emulsion** has a role in local anaesthetic systemic toxicity and is used in some refractory lipophilic drug toxicities. `UNVERIFIED — indications and regimen.`
 
 > [!warning] Occupational and chemical exposure
-> **Decontaminate before or while treating, with appropriate PPE** — secondary contamination of the treating team is a real and preventable event. Obtain the **Safety Data Sheet** for the substance, which is legally required to be available in Australian workplaces and gives composition and first aid guidance. Consider notification to SafeWork SA and, for some agents, the public health unit. Cross-refer [[P1]] Occupational Exposure and [[F0.1]] 0.3 for organophosphates.
+> **Decontaminate before or while treating, with appropriate PPE** — secondary contamination of the treating team is a real and preventable event. Obtain the **Safety Data Sheet** for the substance, which is legally required to be available in Australian workplaces and gives composition and first aid guidance. Consider notification to SafeWork SA and, for some agents, the public health unit. Cross-refer `TODO:link — P1 Preventive & occupational health (unbuilt)` Occupational Exposure and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.3 for organophosphates.
 
-**S/Smx:** Determined by agent. Approach it by toxidrome — cross-refer [[F0.1]] 0.1 for the comparison table.
+**S/Smx:** Determined by agent. Approach it by toxidrome — cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.1 for the comparison table.
 
-**Ix:** Paracetamol level, ECG and bedside glucose in every deliberate ingestion, as above (*why:* the history is unreliable and these three detect the treatable and lethal misses; *what:* level against time, QRS and QT, glucose). VBG with electrolytes, anion gap and lactate (*why:* identifies the metabolic acidosis and osmolar-gap pattern that points to specific agents; *what:* HAGMA, lactate, potassium). UEC, LFT, coagulation profile (*why:* baseline organ function, and hepatic and renal impairment alter both toxicity and elimination; *what:* derangement). Serum osmolality where toxic alcohol is plausible (*why:* the gap is raised before the anion gap rises; *what:* osmolar gap — cross-refer [[F0.1]] 0.8). Specific drug levels where they change management — paracetamol, salicylate, lithium, digoxin, iron, carbamazepine, phenytoin, theophylline (*why:* these are the agents where a level alters the decision, whereas a broad "drug screen" rarely does; *what:* level). Urine drug screen only in specific circumstances (*why:* it detects classes rather than quantities, has long detection windows for some agents and misses many, and **rarely changes acute management** — it is over-ordered; *what:* qualitative result, interpreted cautiously). Pregnancy test in women of reproductive age (*why:* alters both fetal risk assessment and some antidote decisions; *what:* positive test).
+**Ix:** Paracetamol level, ECG and bedside glucose in every deliberate ingestion, as above (*why:* the history is unreliable and these three detect the treatable and lethal misses; *what:* level against time, QRS and QT, glucose). VBG with electrolytes, anion gap and lactate (*why:* identifies the metabolic acidosis and osmolar-gap pattern that points to specific agents; *what:* HAGMA, lactate, potassium). UEC, LFT, coagulation profile (*why:* baseline organ function, and hepatic and renal impairment alter both toxicity and elimination; *what:* derangement). Serum osmolality where toxic alcohol is plausible (*why:* the gap is raised before the anion gap rises; *what:* osmolar gap — cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.8). Specific drug levels where they change management — paracetamol, salicylate, lithium, digoxin, iron, carbamazepine, phenytoin, theophylline (*why:* these are the agents where a level alters the decision, whereas a broad "drug screen" rarely does; *what:* level). Urine drug screen only in specific circumstances (*why:* it detects classes rather than quantities, has long detection windows for some agents and misses many, and **rarely changes acute management** — it is over-ordered; *what:* qualitative result, interpreted cautiously). Pregnancy test in women of reproductive age (*why:* alters both fetal risk assessment and some antidote decisions; *what:* positive test).
 
 ### 0.1.1 Mx – Immediate
 A–E, glucose, monitoring, IV access. Call 13 11 26. Screening bloods and ECG. Decontamination where indicated.
@@ -60,7 +60,7 @@ A–E, glucose, monitoring, IV access. Call 13 11 26. Screening bloods and ECG. 
 Agent-specific antidote, enhanced elimination, and supportive care. Observation period determined by agent and formulation — **slow-release preparations require far longer observation than the patient's current appearance suggests.**
 
 ### 0.1.3 Mx – Chronic/long-term
-**Mental health assessment before discharge in every deliberate self-poisoning, regardless of how medically trivial the ingestion proved to be.** Means restriction discussion with the patient and family where appropriate, drug and alcohol referral, GP follow-up, and medication supply review. Cross-refer [[N1]] Risk Assessment & Suicidality.
+**Mental health assessment before discharge in every deliberate self-poisoning, regardless of how medically trivial the ingestion proved to be.** Means restriction discussion with the patient and family where appropriate, drug and alcohol referral, GP follow-up, and medication supply review. Cross-refer `TODO:link — N1 Risk assessment & suicidality (unbuilt)` Risk Assessment & Suicidality.
 
 ---
 
@@ -72,7 +72,7 @@ Agent-specific antidote, enhanced elimination, and supportive care. Observation 
 
 **A/P:** Three simultaneous mechanisms.
 **Fast sodium channel blockade** in the myocardium → slowed phase 0 depolarisation → **QRS widening, right axis shift, arrhythmia** and reduced contractility. Acidosis worsens this, since more drug is in the ionised active form.
-**Anticholinergic** — the toxidrome in [[F0.1]] 0.2: dry hot skin, mydriasis, ileus, retention, delirium.
+**Anticholinergic** — the toxidrome in [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.2: dry hot skin, mydriasis, ileus, retention, delirium.
 **Alpha-1 blockade** → vasodilatation → hypotension, which compounds the myocardial depression.
 Additionally, GABA-A antagonism → **seizures**, which cause acidosis, which worsens the sodium channel blockade — a self-reinforcing loop.
 
@@ -128,7 +128,7 @@ Airway positioning and monitoring, oxygen, supportive care. Ventilatory support 
 Supportive care. Flumazenil only in the narrow circumstances above.
 
 ### 0.3.3 Mx – Chronic/long-term
-Mental health assessment. Structured, slow tapering plan for dependence, in partnership with the GP — abrupt cessation is unsafe. Check ScriptCheckSA when prescribing. Cross-refer [[F0.4]] 0.9.
+Mental health assessment. Structured, slow tapering plan for dependence, in partnership with the GP — abrupt cessation is unsafe. Check ScriptCheckSA when prescribing. Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9.
 
 ---
 
@@ -141,7 +141,7 @@ Mental health assessment. Structured, slow tapering plan for dependence, in part
 **A/P:** Carbon monoxide binds haemoglobin with an affinity far exceeding oxygen → carboxyhaemoglobin cannot carry oxygen → **and it shifts the oxyhaemoglobin dissociation curve to the left**, so the remaining oxygen is released to tissues less readily. Both effects reduce delivery. Carbon monoxide additionally binds myoglobin and mitochondrial cytochrome oxidase → direct cellular respiratory impairment and cardiac depression → which is why the tissue injury exceeds what the carboxyhaemoglobin level alone would predict.
 
 > [!danger] Standard pulse oximetry reads normal or high
-> Carboxyhaemoglobin absorbs light similarly to oxyhaemoglobin, so **the oximeter cannot distinguish them.** A saturation of 99% in a carbon-monoxide-poisoned patient is meaningless. Diagnosis requires **co-oximetry or a specific carboxyhaemoglobin measurement**, on a venous or arterial sample. Cross-refer [[A3]] 0.6.
+> Carboxyhaemoglobin absorbs light similarly to oxyhaemoglobin, so **the oximeter cannot distinguish them.** A saturation of 99% in a carbon-monoxide-poisoned patient is meaningless. Diagnosis requires **co-oximetry or a specific carboxyhaemoglobin measurement**, on a venous or arterial sample. Cross-refer [[A3_Respiratory_Failure__Bronchospasm_and_Hypoxia]] 0.6.
 
 > [!warning] The symptoms are entirely non-specific — the history makes the diagnosis
 > Headache, nausea, dizziness, fatigue, confusion. Commonly misdiagnosed as viral illness, migraine or gastroenteritis. **The discriminating features are contextual:**
@@ -267,7 +267,7 @@ Supportive care is the mainstay in TEN. Systemic corticosteroids are used in DRE
 > **Hepatitis** — usually asymptomatic transaminitis found on bloods.
 > **Pneumonitis** — dry cough, dyspnoea, ground-glass change on CT; potentially fatal.
 > **Thyroiditis** — thyrotoxic phase followed by hypothyroidism, often permanent.
-> **Hypophysitis and adrenal insufficiency** — fatigue, headache, hypotension, hyponatraemia. **May present as adrenal crisis** — cross-refer [[F0.3]] 0.6.
+> **Hypophysitis and adrenal insufficiency** — fatigue, headache, hypotension, hyponatraemia. **May present as adrenal crisis** — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.6.
 > **Myocarditis** — rare but with **high mortality**; chest pain, dyspnoea, arrhythmia, raised troponin. Any cardiac symptom in a patient on immunotherapy warrants troponin and ECG.
 > **Dermatological** — rash and pruritus commonly, but SCARs occur — see 0.6.
 > **Neurological** — myasthenia-like syndrome, Guillain–Barré-like presentations, encephalitis.
@@ -288,4 +288,4 @@ Corticosteroids with a slow taper — **rapid tapering causes relapse** and cour
 ---
 
 > [!note] Cross-references
-> Toxidrome comparison table, paracetamol, opioids, beta-blocker/CCB, toxic alcohols, anaphylaxis, envenomation → [[F0.1]] · Salicylate and the mixed acid-base picture → [[F0.2]] 0.8 · Anticholinergic toxidrome detail → [[F0.1]] 0.2 · Adrenal crisis → [[F0.3]] 0.6 · Dermatological emergencies → [[09_01_Dermatology_-_Dermatological_Emergencies]] · Risk assessment after deliberate self-poisoning → [[N1]] · Occupational exposure → [[P1]]
+> Toxidrome comparison table, paracetamol, opioids, beta-blocker/CCB, toxic alcohols, anaphylaxis, envenomation → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] · Salicylate and the mixed acid-base picture → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.8 · Anticholinergic toxidrome detail → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.2 · Adrenal crisis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.6 · Dermatological emergencies → [[09_01_Dermatology_-_Dermatological_Emergencies]] · Risk assessment after deliberate self-poisoning → `TODO:link — N1 Risk assessment & suicidality (unbuilt)` · Occupational exposure → `TODO:link — P1 Preventive & occupational health (unbuilt)`

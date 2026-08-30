@@ -36,7 +36,7 @@ conflicts_r1: 0
 > **· Sepsis with confusion and hypothermia rather than fever.**
 > **· Hyperthyroidism as apathy, weight loss and atrial fibrillation** ("apathetic thyrotoxicosis") rather than agitation.
 > **· Depression as physical complaints and cognitive impairment.**
-> **· Abdominal catastrophe with minimal pain and a soft abdomen** — cross-refer [[C1]] 0.11.
+> **· Abdominal catastrophe with minimal pain and a soft abdomen** — cross-refer [[C1_Acute_Abdomen]] 0.11.
 > **The corollary: a non-specific presentation in an older person — a fall, confusion, reduced mobility, "off legs" — is a symptom requiring a diagnosis, not a diagnosis in itself.**
 
 > [!tip] The "geriatric giants"
@@ -49,7 +49,7 @@ conflicts_r1: 0
 
 **S/Smx:** As above, elicited systematically across the five domains.
 
-**Ix:** **Baseline bloods — FBC, UEC, LFT, calcium, TFTs, glucose, B12 and folate, vitamin D, CRP** (*why:* covers the correctable metabolic, endocrine and nutritional contributors to almost every geriatric presentation; *what:* anaemia, renal impairment, hypercalcaemia, thyroid disease, deficiency). Urinalysis interpreted cautiously (*why:* **asymptomatic bacteriuria is extremely common in older people and a positive urine does not diagnose the cause of a fall or delirium** — treating it while missing the real cause is a recurring error; *what:* infection in clinical context). ECG (*why:* silent ischaemia and arrhythmia; *what:* the trace). **Cognitive screening with a tool appropriate to language and education** (*why:* baseline and detection — cross-refer [[D2]] 0.3; *what:* impairment). **Functional assessment** (*why:* determines care needs and prognosis more than any diagnosis; *what:* ADL and IADL dependence). **Medication reconciliation** (*why:* see 0.4; *what:* the true list, including over-the-counter and complementary products). Postural blood pressure, vision, hearing, weight and nutritional screening (*why:* all are common, contributory and correctable; *what:* deficits).
+**Ix:** **Baseline bloods — FBC, UEC, LFT, calcium, TFTs, glucose, B12 and folate, vitamin D, CRP** (*why:* covers the correctable metabolic, endocrine and nutritional contributors to almost every geriatric presentation; *what:* anaemia, renal impairment, hypercalcaemia, thyroid disease, deficiency). Urinalysis interpreted cautiously (*why:* **asymptomatic bacteriuria is extremely common in older people and a positive urine does not diagnose the cause of a fall or delirium** — treating it while missing the real cause is a recurring error; *what:* infection in clinical context). ECG (*why:* silent ischaemia and arrhythmia; *what:* the trace). **Cognitive screening with a tool appropriate to language and education** (*why:* baseline and detection — cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.3; *what:* impairment). **Functional assessment** (*why:* determines care needs and prognosis more than any diagnosis; *what:* ADL and IADL dependence). **Medication reconciliation** (*why:* see 0.4; *what:* the true list, including over-the-counter and complementary products). Postural blood pressure, vision, hearing, weight and nutritional screening (*why:* all are common, contributory and correctable; *what:* deficits).
 
 ### 0.1.1 Mx – Immediate
 Treat the acute problem, and simultaneously begin the functional and social assessment — **discharge planning starts on admission, not on the day of discharge.**
@@ -58,7 +58,7 @@ Treat the acute problem, and simultaneously begin the functional and social asse
 Interdisciplinary team management — medical, nursing, physiotherapy, occupational therapy, speech pathology, dietitian, pharmacist, social work.
 
 ### 0.1.3 Mx – Chronic/long-term
-Coordinated follow-up with the GP, community supports, and a documented plan. **Advance care planning** — cross-refer [[A10]] 0.3.
+Coordinated follow-up with the GP, community supports, and a documented plan. **Advance care planning** — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3.
 
 ---
 
@@ -95,7 +95,7 @@ Recognise it, and adjust the acute plan — lower thresholds for delirium preven
 Multicomponent intervention: exercise, nutrition, deprescribing, sensory correction, treatment of contributing conditions.
 
 ### 0.2.3 Mx – Chronic/long-term
-Ongoing exercise programs, community supports, and **use of the frailty assessment to inform advance care planning and to guide goals-of-care conversations** — cross-refer [[GER2]].
+Ongoing exercise programs, community supports, and **use of the frailty assessment to inform advance care planning and to guide goals-of-care conversations** — cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]].
 
 ---
 
@@ -130,7 +130,7 @@ Ongoing exercise programs, community supports, and **use of the frailty assessme
 > [!warning] Elder abuse — ask about it
 > Physical, psychological, financial, sexual, and neglect. **Financial abuse is the commonest and the least recognised** — misuse of a power of attorney, pressure to transfer assets or sign documents, "inheritance impatience".
 > **Warning signs: unexplained injuries, a carer who answers all questions and will not leave the room, unexplained financial difficulty, missed appointments, poor adherence, malnutrition, poor hygiene, fear or deference toward a family member.**
-> **Speak to the person alone.** Cross-refer [[P3]]. `UNVERIFIED — reporting obligations for elder abuse in South Australia, and the relevant services and hotlines.`
+> **Speak to the person alone.** Cross-refer `TODO:link — P3 Safeguarding & forensic (unbuilt)`. `UNVERIFIED — reporting obligations for elder abuse in South Australia, and the relevant services and hotlines.`
 
 **Ix:** **Structured ADL and IADL assessment** (*why:* determines care needs and is the basis of any aged care referral; *what:* dependence in each domain). **Occupational therapy home assessment** (*why:* function in a clinic bears limited relationship to function at home, and the home visit identifies hazards and equipment needs that no other assessment will; *what:* hazards, equipment, actual performance). Physiotherapy mobility assessment (*why:* determines aids, transfers and falls risk; *what:* gait, transfers, aid requirement). Cognitive assessment (*why:* determines capacity for self-care and for decision-making; *what:* impairment). **Social work assessment** (*why:* identifies carer strain, financial issues, housing and abuse; *what:* social supports and risks). Nutritional assessment (*why:* malnutrition is common and predicts poor outcome; *what:* weight loss, intake).
 
@@ -152,8 +152,8 @@ Review as needs change. **Support the carer explicitly — ask how they are, and
 > [!danger] The prescribing cascade
 > **A drug side effect is mistaken for a new medical condition, and a second drug is prescribed to treat it.**
 > **Recognisable examples:**
-> **· Calcium channel blocker → ankle oedema → furosemide** (and then hyponatraemia and falls). Cross-refer [[B6]] 0.2.
-> **· Metoclopramide or prochlorperazine → drug-induced parkinsonism → levodopa.** Cross-refer [[D6]] 0.5.
+> **· Calcium channel blocker → ankle oedema → furosemide** (and then hyponatraemia and falls). Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.2.
+> **· Metoclopramide or prochlorperazine → drug-induced parkinsonism → levodopa.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.5.
 > **· Anticholinergic → dry mouth, constipation, urinary retention → laxatives and further drugs.**
 > **· NSAID → hypertension → antihypertensive.**
 > **· Cholinesterase inhibitor → urinary urgency → oxybutynin** (which then opposes the cholinesterase inhibitor and worsens cognition).
@@ -162,12 +162,12 @@ Review as needs change. **Support the carer explicitly — ask how they are, and
 > [!warning] The high-risk classes in older people
 > **· Benzodiazepines and Z-drugs** — falls, fractures, delirium, cognitive impairment, dependence. **Among the highest-yield deprescribing targets.**
 > **· Anticholinergics** — see the box below.
-> **· Antipsychotics** — increased stroke and mortality in dementia. Cross-refer [[D2]] 0.2–0.3.
+> **· Antipsychotics** — increased stroke and mortality in dementia. Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2–0.3.
 > **· Opioids** — falls, constipation, delirium, respiratory depression.
 > **· NSAIDs** — acute kidney injury, GI bleeding, heart failure, hypertension. **Rarely appropriate long-term in an older person.**
 > **· Sulfonylureas** — hypoglycaemia, which in an older person causes falls, confusion and death.
 > **· Digoxin** — narrow therapeutic index with reduced renal clearance.
-> **· Proton pump inhibitors** — frequently continued indefinitely without indication. Cross-refer [[C6]] 0.1.
+> **· Proton pump inhibitors** — frequently continued indefinitely without indication. Cross-refer [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] 0.1.
 > **· Tricyclics and first-generation antihistamines** — anticholinergic and sedating.
 
 > [!danger] Anticholinergic burden is cumulative and is measured across the whole list
@@ -222,9 +222,9 @@ Structured deprescribing as above, with a Home Medicines Review where appropriat
 > **"Fall-risk-increasing drugs" (FRIDs)** — psychotropics in particular: **benzodiazepines, Z-drugs, antipsychotics, antidepressants, opioids, anticholinergics, antihypertensives and diuretics.** **Withdrawal of psychotropic medication is one of the few single interventions with good evidence for reducing falls.**
 
 > [!danger] Assess WHY they fell — "mechanical fall" is a diagnosis of exclusion
-> **Was it a fall or was it syncope?** If unwitnessed, or if the patient does not clearly recall hitting the ground, **assume syncope and investigate accordingly** — cross-refer [[B4]] 0.4.
-> **Ask how long they were on the floor.** A long lie causes **rhabdomyolysis, acute kidney injury, hypothermia, dehydration, pressure injury and pneumonia** — cross-refer [[A6]] 0.5 and [[A7]] 0.6. It is also a marker of social vulnerability that should trigger a conversation about alarms and living arrangements.
-> **Post-fall injury assessment: low threshold for CT head in anyone anticoagulated, even after apparently trivial trauma** — cross-refer [[F0.5]] 0.8. And **an impacted or undisplaced neck of femur fracture may still allow weight-bearing and may be missed on plain films**, so persistent hip or groin pain warrants further imaging.
+> **Was it a fall or was it syncope?** If unwitnessed, or if the patient does not clearly recall hitting the ground, **assume syncope and investigate accordingly** — cross-refer [[B4_Syncope__Collapse_and_Hypotension]] 0.4.
+> **Ask how long they were on the floor.** A long lie causes **rhabdomyolysis, acute kidney injury, hypothermia, dehydration, pressure injury and pneumonia** — cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.5 and [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6. It is also a marker of social vulnerability that should trigger a conversation about alarms and living arrangements.
+> **Post-fall injury assessment: low threshold for CT head in anyone anticoagulated, even after apparently trivial trauma** — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.8. And **an impacted or undisplaced neck of femur fracture may still allow weight-bearing and may be missed on plain films**, so persistent hip or groin pain warrants further imaging.
 
 > [!tip] Interventions with evidence
 > **· Exercise — the single most effective intervention.** It must include a **balance challenge**, be of **sufficient dose and duration**, and be **ongoing** — benefit is lost when it stops. Programs such as Otago and tai chi have good evidence. A generic "keep active" instruction does not work.
@@ -242,7 +242,7 @@ Structured deprescribing as above, with a Home Medicines Review where appropriat
 
 **S/Smx:** Circumstances, prodrome, whether consciousness was lost, time on the floor, injuries, and the fear and activity restriction that follow.
 
-**Ix:** **Postural blood pressure** (*why:* orthostatic hypotension is common, frequently drug-induced, and easily missed because nobody stands the patient up; *what:* postural drop measured at intervals). **Timed Up and Go and gait observation** (*why:* objective, repeatable, and identifies the gait pattern; *what:* prolonged time, gait abnormality — cross-refer [[D5]] 0.5). ECG (*why:* arrhythmia as a cause of syncope presenting as a fall; *what:* rhythm, conduction disease). FBC, UEC, calcium, glucose, vitamin D, B12, TFTs (*why:* anaemia, electrolyte disturbance, hypoglycaemia and deficiency all contribute; *what:* derangement). **CK and renal function after a long lie** (*why:* rhabdomyolysis; *what:* raised CK, rising creatinine). Cognitive assessment (*why:* cognitive impairment is a major independent risk factor; *what:* impairment). **Visual acuity and review of glasses** (*why:* correctable, and multifocals are a specific hazard; *what:* uncorrected refractive error, cataract, multifocal use). **Medication review** (*why:* the most modifiable single factor; *what:* FRIDs). **Bone density assessment** (*why:* the fall and the fracture are separate problems and both need addressing — see 0.6; *what:* osteoporosis).
+**Ix:** **Postural blood pressure** (*why:* orthostatic hypotension is common, frequently drug-induced, and easily missed because nobody stands the patient up; *what:* postural drop measured at intervals). **Timed Up and Go and gait observation** (*why:* objective, repeatable, and identifies the gait pattern; *what:* prolonged time, gait abnormality — cross-refer [[D5_Dizziness__Vertigo_and_Gait]] 0.5). ECG (*why:* arrhythmia as a cause of syncope presenting as a fall; *what:* rhythm, conduction disease). FBC, UEC, calcium, glucose, vitamin D, B12, TFTs (*why:* anaemia, electrolyte disturbance, hypoglycaemia and deficiency all contribute; *what:* derangement). **CK and renal function after a long lie** (*why:* rhabdomyolysis; *what:* raised CK, rising creatinine). Cognitive assessment (*why:* cognitive impairment is a major independent risk factor; *what:* impairment). **Visual acuity and review of glasses** (*why:* correctable, and multifocals are a specific hazard; *what:* uncorrected refractive error, cataract, multifocal use). **Medication review** (*why:* the most modifiable single factor; *what:* FRIDs). **Bone density assessment** (*why:* the fall and the fracture are separate problems and both need addressing — see 0.6; *what:* osteoporosis).
 
 ### 0.5.1 Mx – Immediate
 Injury assessment, analgesia, treatment of the consequences of a long lie, and identification of the precipitant.
@@ -290,7 +290,7 @@ Ongoing exercise, review of the home, and **address fear of falling directly**, 
 
 **S/Smx:** Usually asymptomatic until fracture. **Vertebral fractures are frequently silent** and present as height loss, kyphosis, or as an incidental finding on imaging done for another reason — **and an incidental vertebral fracture on a chest radiograph or CT is a diagnosis of osteoporosis that is routinely not acted upon.**
 
-**Ix:** **DXA bone mineral density** (*why:* diagnoses osteoporosis, quantifies risk and provides a baseline for monitoring; *what:* T-score at hip and spine). **Absolute fracture risk calculation** (*why:* combines density with clinical risk factors and guides treatment decisions — **the Garvan calculator is Australian and includes falls history**, alongside FRAX; *what:* 5- and 10-year fracture probability). **Calcium, phosphate, ALP, UEC, vitamin D, and TFTs** (*why:* excludes osteomalacia, hyperparathyroidism and thyroid disease before attributing low density to primary osteoporosis; *what:* the metabolic pattern). **Serum protein electrophoresis** (*why:* myeloma presents with fractures, bone pain, anaemia, renal impairment and hypercalcaemia and is missed if not sought; *what:* paraprotein — cross-refer [[J4]]). **Coeliac serology, testosterone in men, and cortisol assessment where indicated** (*why:* secondary causes, particularly in men and younger women; *what:* the underlying condition). **Lateral spine imaging** (*why:* detects the silent vertebral fractures that change risk category and treatment decisions; *what:* vertebral height loss).
+**Ix:** **DXA bone mineral density** (*why:* diagnoses osteoporosis, quantifies risk and provides a baseline for monitoring; *what:* T-score at hip and spine). **Absolute fracture risk calculation** (*why:* combines density with clinical risk factors and guides treatment decisions — **the Garvan calculator is Australian and includes falls history**, alongside FRAX; *what:* 5- and 10-year fracture probability). **Calcium, phosphate, ALP, UEC, vitamin D, and TFTs** (*why:* excludes osteomalacia, hyperparathyroidism and thyroid disease before attributing low density to primary osteoporosis; *what:* the metabolic pattern). **Serum protein electrophoresis** (*why:* myeloma presents with fractures, bone pain, anaemia, renal impairment and hypercalcaemia and is missed if not sought; *what:* paraprotein — cross-refer `TODO:link — J4 Paraproteins & lymphoproliferative (unbuilt)`). **Coeliac serology, testosterone in men, and cortisol assessment where indicated** (*why:* secondary causes, particularly in men and younger women; *what:* the underlying condition). **Lateral spine imaging** (*why:* detects the silent vertebral fractures that change risk category and treatment decisions; *what:* vertebral height loss).
 
 ### 0.6.1 Mx – Immediate
 Fracture management. **Analgesia adequate to allow mobilisation** — under-treated pain after a fragility fracture causes immobility, delirium and further decline.
@@ -304,4 +304,4 @@ Investigation for secondary causes, and commencement of appropriate pharmacother
 ---
 
 > [!note] Cross-references
-> Delirium, dementia and cognitive assessment → [[D2]] · Gait disorders and disequilibrium → [[D5]] 0.4–0.5 · Syncope and the unwitnessed fall → [[B4]] 0.4 · Long lie, hypothermia and rhabdomyolysis → [[A6]] 0.5 and [[A7]] 0.6 · Head injury on anticoagulants → [[F0.5]] 0.8 · Atypical presentation of abdominal disease → [[C1]] 0.11 · Drug-induced parkinsonism → [[D6]] 0.5 · Deprescribing PPIs → [[C6]] 0.1 · Anticholinergic burden → [[18_Geriatrics_and_Older_Persons_Health]] · Capacity, advance care directives and substitute decision-making → [[A10]] 0.1–0.3 · Elder abuse and safeguarding → [[P3]] · Myeloma → [[J4]] · Geriatric syndromes and end-of-life care → [[GER2]]
+> Delirium, dementia and cognitive assessment → [[D2_Altered_Consciousness_and_Cognition]] · Gait disorders and disequilibrium → [[D5_Dizziness__Vertigo_and_Gait]] 0.4–0.5 · Syncope and the unwitnessed fall → [[B4_Syncope__Collapse_and_Hypotension]] 0.4 · Long lie, hypothermia and rhabdomyolysis → [[A6_Thermal_and_Environmental_Injury]] 0.5 and [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Head injury on anticoagulants → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.8 · Atypical presentation of abdominal disease → [[C1_Acute_Abdomen]] 0.11 · Drug-induced parkinsonism → [[D6_Seizures_and_Movement_Disorders]] 0.5 · Deprescribing PPIs → [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] 0.1 · Anticholinergic burden → [[18_Geriatrics_and_Older_Persons_Health]] · Capacity, advance care directives and substitute decision-making → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.3 · Elder abuse and safeguarding → `TODO:link — P3 Safeguarding & forensic (unbuilt)` · Myeloma → `TODO:link — J4 Paraproteins & lymphoproliferative (unbuilt)` · Geriatric syndromes and end-of-life care → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]]

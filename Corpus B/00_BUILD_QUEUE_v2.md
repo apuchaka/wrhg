@@ -59,7 +59,7 @@ If you'd rather build strictly in order — a, b, c on each cluster before movin
 - **GER2. Geriatric syndromes** — a: delirium, continence, pressure injury, malnutrition · b: end-of-life care in the elderly & advance care planning
 
 ### 3.4 Injury, Poisoning, Envenomation & Environmental — **BUILT**
-[[F0.1]] toxidromes & envenomation · [[A5]] toxicology II · [[A6]] thermal & environmental · [[A7]] burns & wounds · [[A8]] foreign bodies
+[[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] toxidromes & envenomation · [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] toxicology II · [[A6_Thermal_and_Environmental_Injury]] thermal & environmental · [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] burns & wounds · [[A8_Foreign_Bodies_by_Site]] foreign bodies
 
 ---
 
@@ -68,7 +68,7 @@ If you'd rather build strictly in order — a, b, c on each cluster before movin
 **Cardiology (89) · Immunology, Allergy & Infectious Disease (39) · Endocrine & Metabolic (42) · Sexual Health / STIs (12)**
 
 ### 4.1 Cardiology — **BUILT**
-[[B1]] chest pain & biomarkers · [[B2]] hypertension · [[B3]] arrhythmia & devices · [[B4]] syncope & hypotension · [[B5]] murmurs, endocarditis & vascular · [[B6]] oedema · [[F0.3]] shock & sepsis · [[F0.5]] 0.3 acute pulmonary oedema
+[[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] chest pain & biomarkers · [[B2_Hypertension_Spectrum]] hypertension · [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] arrhythmia & devices · [[B4_Syncope__Collapse_and_Hypotension]] syncope & hypotension · [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] murmurs, endocarditis & vascular · [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] oedema · [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] shock & sepsis · [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3 acute pulmonary oedema
 - *Gap identified:* **CV-X. Chronic heart failure** — a: HFrEF and HFpEF as chronic conditions (the corpus currently covers heart failure only acutely)
 
 ### 4.2 Immunology, Allergy & Infectious Disease — 4 clusters, 9 parts
@@ -82,7 +82,7 @@ If you'd rather build strictly in order — a, b, c on each cluster before movin
 - **I2. Glucose** — a: diabetes diagnosis & management · b: hypoglycaemia & diabetic complications
 - **I3. Calcium, bone & parathyroid** — a: calcium disorders & parathyroid · b: metabolic bone disease, phosphate, magnesium
 - **I4. Pituitary, adrenal & sex hormone** — a: adrenal & pituitary disease · b: androgen excess, virilisation, incidentalomas
-- **I5. Weight, lipids & fluid balance** — a: obesity, weight loss, lipids · b: dehydration & electrolyte states (links [[F0.2]])
+- **I5. Weight, lipids & fluid balance** — a: obesity, weight loss, lipids · b: dehydration & electrolyte states (links [[F0-2_Acid-Base__DKA_and_Fluid_States]])
 
 ### 4.4 Sexual Health & STIs — 1 cluster, 3 parts
 - **O6. Sexual & reproductive health** — a: STI assessment, testing & management · b: contraception & family planning · c: psychosexual concerns, gender diversity, pubertal concerns
@@ -104,7 +104,7 @@ If you'd rather build strictly in order — a, b, c on each cluster before movin
 - **L8. Facial, head & torso trauma** — a: facial & orbital fractures · b: chest & extremity trauma, bites
 
 ### 5.2 Respiratory — **MOSTLY BUILT**, 1 cluster, 2 parts
-[[A2]] airway · [[A3]] respiratory failure · [[A4]] dyspnoea & cough · [[F0.5]] asthma, COPD, pneumonia & ARDS
+[[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] airway · [[A3_Respiratory_Failure__Bronchospasm_and_Hypoxia]] respiratory failure · [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] dyspnoea & cough · [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] asthma, COPD, pneumonia & ARDS
 - **RESP-X. Occupational & chronic lung disease** — a: occupational lung disease, asbestos, tuberculosis · b: bronchiectasis, interstitial lung disease, sleep-disordered breathing
 
 ### 5.3 Gynaecology & Breast — 3 clusters, 7 parts
@@ -113,7 +113,7 @@ If you'd rather build strictly in order — a, b, c on each cluster before movin
 - **O7. Breast** — a: breast lump & triple assessment · b: breast pain, nipple discharge, galactorrhoea
 
 ### 5.4 Anaesthetics & Perioperative Care — 1 cluster, 2 parts **(NEW — beyond bl.md)**
-- **AN1. Perioperative care** — a: preoperative assessment, risk stratification, fasting, medication management · b: postoperative complications, PONV, pain, the deteriorating post-op patient (links [[A1]] 0.5)
+- **AN1. Perioperative care** — a: preoperative assessment, risk stratification, fasting, medication management · b: postoperative complications, PONV, pain, the deteriorating post-op patient (links [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.5)
 
 ### 5.5 Australian Context & Aboriginal and Torres Strait Islander Health — 1 cluster, 2 parts **(NEW — beyond bl.md)**
 - **AU1. Australian health context** — a: ATSI health, cultural safety, Closing the Gap, ARF/RHD, otitis media, chronic disease burden · b: Medicare, PBS, rural and remote health, retrieval services, the Australian health system
@@ -152,7 +152,7 @@ If you'd rather build strictly in order — a, b, c on each cluster before movin
 ### 6.4 Haematology — 5 clusters, 11 parts
 - **J1. Cytopenias & marrow failure** — a: anaemia classification & investigation · b: white cell & platelet disorders, febrile neutropenia
 - **J2. Haemoglobinopathy & haemolysis** — a: haemolytic anaemias · b: sickle cell disease & thalassaemia
-- **J3. Bleeding & thrombosis** — a: bleeding disorders (links [[A9]] 0.3) · b: VTE, thrombophilia, anticoagulation
+- **J3. Bleeding & thrombosis** — a: bleeding disorders (links [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3) · b: VTE, thrombophilia, anticoagulation
 - **J4. Paraproteins & lymphoproliferative** — a: myeloma & paraprotein · b: lymphoma & leukaemia overview
 - **J5. Oncology & palliative** — a: oncological emergencies · b: palliative care, symptom control, end-of-life prescribing
 
@@ -185,7 +185,7 @@ If you'd rather build strictly in order — a, b, c on each cluster before movin
 - **E3. Orbit, lids & pupil** — a: lid & orbital disease · b: pupillary abnormalities & neuro-ophthalmology
 
 ### 7.4 EBM & Clinical Process — 1 cluster, 2 parts **(NEW — beyond bl.md)**
-- **EBM1. Evidence & clinical process** — a: critical appraisal, levels of evidence, guideline use · b: clinical reasoning, documentation, handover, error and open disclosure (consent & capacity already built in [[A10]])
+- **EBM1. Evidence & clinical process** — a: critical appraisal, levels of evidence, guideline use · b: clinical reasoning, documentation, handover, error and open disclosure (consent & capacity already built in [[A10_Ethics__Capacity__Consent_and_Certification]])
 
 ### 7.5 GP, Preventive Medicine, Ethics & Communication — 3 clusters, 6 parts
 - **P1. Preventive & occupational health** — a: screening, immunisation, RACGP Red Book · b: lifestyle risk, occupational health, certification

@@ -10,7 +10,7 @@ conflicts_r1: 0
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Diagnostic reasoning, discriminators and mechanism are reliable at intern level. **Every dose, threshold, time window, diagnostic criterion and CSF value carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify all antimicrobial regimens against **eTG Antibiotic**, headache diagnostic criteria against the International Classification of Headache Disorders, and steroid and prophylaxis dosing against eTG.
 >
-> Acute severe headache is introduced in [[F0.5]] 0.6; this file is the fuller neurological treatment and goes further on primary headache disorders.
+> Acute severe headache is introduced in [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.6; this file is the fuller neurological treatment and goes further on primary headache disorders.
 
 ---
 
@@ -124,7 +124,7 @@ Screening of first-degree relatives is considered where there is a strong family
 
 > [!danger] Migraine with aura and the combined oral contraceptive
 > **Migraine with aura is associated with an increased risk of ischaemic stroke, and combined hormonal contraception increases that risk further. Combined oral contraceptives are contraindicated in women with migraine with aura.**
-> Progestogen-only methods, the implant, the hormonal IUD and non-hormonal methods are options. **This is a common exam question and a real prescribing error.** Cross-refer [[O6]]. `UNVERIFIED — confirm the current contraindication wording and the position for migraine without aura.`
+> Progestogen-only methods, the implant, the hormonal IUD and non-hormonal methods are options. **This is a common exam question and a real prescribing error.** Cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`. `UNVERIFIED — confirm the current contraindication wording and the position for migraine without aura.`
 
 > [!warning] Triptan contraindications
 > Triptans are 5-HT1B/1D agonists and cause vasoconstriction. **Contraindicated in ischaemic heart disease, previous myocardial infarction, uncontrolled hypertension, peripheral vascular disease, previous stroke or TIA, and in hemiplegic and brainstem-aura migraine.**
@@ -175,7 +175,7 @@ Headache diary, lifestyle measures, review of contraception in migraine with aur
 ## 0.4 Secondary Headaches Worth Knowing
 
 > [!danger] Giant cell arteritis — treat before you biopsy
-> **Age over 50, new headache, scalp tenderness (a comb or pillow hurts), jaw claudication (pain on chewing that eases with rest), visual symptoms, and constitutional features.** Overlaps substantially with **polymyalgia rheumatica** — cross-refer [[B6]] 0.7 and [[L3]].
+> **Age over 50, new headache, scalp tenderness (a comb or pillow hurts), jaw claudication (pain on chewing that eases with rest), visual symptoms, and constitutional features.** Overlaps substantially with **polymyalgia rheumatica** — cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.7 and `TODO:link — L3 Muscle symptoms & widespread pain (unbuilt)`.
 > **Jaw claudication and visual symptoms are the most specific features.**
 > **Vision loss is sudden, painless and irreversible, and may be the first manifestation. Start high-dose corticosteroids immediately on clinical suspicion — do not wait for ESR, and do not wait for temporal artery biopsy.**
 > **Biopsy should be performed within a couple of weeks of starting steroids** — the arteritis has **skip lesions**, so an adequate length of artery is needed and a negative biopsy does not exclude the diagnosis. Temporal artery ultrasound (the "halo sign") is increasingly used.
@@ -206,11 +206,11 @@ Headache diary, lifestyle measures, review of contraception in migraine with aur
 
 > [!tip] Raised intracranial pressure and space-occupying lesions
 > **Headache worse on waking or on lying flat, worse with coughing, sneezing or straining, with vomiting (often without preceding nausea), papilloedema, focal deficits, seizures, or personality and cognitive change.**
-> Causes: tumour, abscess, **chronic subdural haematoma** (particularly in older patients on anticoagulants after apparently trivial trauma — cross-refer [[F0.5]] 0.8), hydrocephalus.
+> Causes: tumour, abscess, **chronic subdural haematoma** (particularly in older patients on anticoagulants after apparently trivial trauma — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.8), hydrocephalus.
 
 > [!tip] The extracranial and systemic causes that are easily missed
-> **Acute angle-closure glaucoma** — headache with a red painful eye, halos, blurred vision, a fixed mid-dilated pupil, nausea and vomiting. **Sight-threatening.** Cross-refer [[E1]].
-> **Carbon monoxide poisoning** — headache with nausea, particularly with **multiple household members affected and symptoms improving away from home.** Cross-refer [[A5]] 0.4.
+> **Acute angle-closure glaucoma** — headache with a red painful eye, halos, blurred vision, a fixed mid-dilated pupil, nausea and vomiting. **Sight-threatening.** Cross-refer `TODO:link — E1 Red & painful eye (unbuilt)`.
+> **Carbon monoxide poisoning** — headache with nausea, particularly with **multiple household members affected and symptoms improving away from home.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.4.
 > **Hypertensive emergency and pre-eclampsia** — check the blood pressure and, in pregnancy, the urine.
 > **Sinusitis, dental disease, temporomandibular joint dysfunction, cervicogenic headache**, and **post-traumatic headache.**
 
@@ -242,7 +242,7 @@ Cause-specific.
 
 > [!info] The classic triad is unreliable
 > **Fever, neck stiffness and altered mental state are all three present in only a minority of adults with bacterial meningitis.** **Kernig and Brudzinski signs are specific but very insensitive** — their absence does not exclude meningitis, and relying on them is a known failure mode.
-> **In infants**: fever or hypothermia, poor feeding, irritability, lethargy, a bulging fontanelle, and **frequently no neck stiffness at all.** Cross-refer [[M2]].
+> **In infants**: fever or hypothermia, poor feeding, irritability, lethargy, a bulging fontanelle, and **frequently no neck stiffness at all.** Cross-refer `TODO:link — M2 Fever in children (unbuilt)`.
 > **In the elderly**: confusion may be the only feature.
 
 > [!tip] Organisms, and who gets which
@@ -269,12 +269,12 @@ Cause-specific.
 > **Start intravenous aciclovir empirically in any suspected encephalitis — do not wait for the CSF PCR result.** Untreated HSV encephalitis has very high mortality and severe morbidity in survivors, and the treatment is safe. **This is the single most important management point in encephalitis.** `UNVERIFIED — dose, renal adjustment and duration.`
 > **Autoimmune encephalitis** — notably **anti-NMDA receptor encephalitis**, characteristically in a young woman with a **psychiatric prodrome, then seizures, movement disorder and autonomic instability**, and associated with an **ovarian teratoma.** Frequently misdiagnosed initially as a primary psychiatric illness, so it is worth knowing.
 
-**S/Smx:** Fever, headache, neck stiffness, photophobia, vomiting, altered conscious state, seizures, focal signs, and **a non-blanching rash in meningococcal disease** — cross-refer [[F0.3]] 0.9, noting the rash is a **late** sign and may be absent.
+**S/Smx:** Fever, headache, neck stiffness, photophobia, vomiting, altered conscious state, seizures, focal signs, and **a non-blanching rash in meningococcal disease** — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9, noting the rash is a **late** sign and may be absent.
 
 **Ix:** **Blood cultures before antibiotics if no delay** (*why:* frequently the only positive microbiology, particularly once antibiotics are given; *what:* organism). **Lumbar puncture with opening pressure, cell count and differential, protein, glucose with a PAIRED serum glucose, Gram stain, culture, and PCR** (*why:* establishes the diagnosis, distinguishes bacterial from viral, and PCR detects organisms after antibiotics have sterilised cultures; *what:* the CSF profile above). **Meningococcal and pneumococcal PCR on blood** (*why:* remains positive after antibiotics, which is the usual situation given antibiotics are correctly given early; *what:* organism DNA). FBC, CRP, UEC, glucose, coagulation profile (*why:* baseline, DIC, and the serum glucose for the CSF ratio; *what:* derangement). **CT brain before LP where indicated** (*why:* identifies mass effect; *what:* lesion, hydrocephalus, effacement). **MRI brain in suspected encephalitis** (*why:* **temporal lobe changes support HSV encephalitis** and MRI is far more sensitive than CT; *what:* temporal lobe signal change). **EEG** (*why:* supports encephalitis and detects non-convulsive status; *what:* focal temporal slowing, epileptiform discharges). HIV testing (*why:* alters the differential toward opportunistic infection and is a treatable diagnosis in its own right; *what:* positive serology). Autoimmune encephalitis antibodies including anti-NMDA receptor (*why:* treatable with immunotherapy and tumour removal; *what:* positive antibodies).
 
 ### 0.5.1 Mx – Immediate
-**Antibiotics immediately — with Listeria cover in the at-risk groups. Dexamethasone with or before the first dose. Aciclovir if encephalitis is possible.** Resuscitate. Blood cultures. LP when safe. **Notify public health** for meningococcal disease and arrange contact prophylaxis — cross-refer [[F0.3]] 0.9.
+**Antibiotics immediately — with Listeria cover in the at-risk groups. Dexamethasone with or before the first dose. Aciclovir if encephalitis is possible.** Resuscitate. Blood cultures. LP when safe. **Notify public health** for meningococcal disease and arrange contact prophylaxis — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9.
 
 ### 0.5.2 Mx – Definitive
 Targeted antimicrobials on culture and sensitivity. ICU for reduced conscious state or seizures. Immunotherapy and tumour search for autoimmune encephalitis.
@@ -290,9 +290,9 @@ Targeted antimicrobials on culture and sensitivity. ICU for reduced conscious st
 > **Meningeal** — meningitis, **subarachnoid haemorrhage** (developing over hours), meningeal malignancy.
 > **Raised intracranial pressure with tonsillar herniation** — neck stiffness with reduced conscious state and abnormal posturing. **Lumbar puncture here is dangerous.**
 > **Cervical spine** — trauma with fracture or ligamentous injury, **atlantoaxial instability (rheumatoid arthritis, Down syndrome)**, discitis or osteomyelitis, spondylosis, malignancy.
-> **Deep neck space infection** — **retropharyngeal abscess** (a child who will not move their neck, drooling, unwell — cross-refer [[F0.5]] 0.10), Lemierre syndrome.
+> **Deep neck space infection** — **retropharyngeal abscess** (a child who will not move their neck, drooling, unwell — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10), Lemierre syndrome.
 > **Muscular** — torticollis, myositis, cervical muscle spasm.
-> **Acute dystonic reaction** — from metoclopramide, prochlorperazine or antipsychotics, with torticollis, oculogyric crisis and trismus. **Responds within minutes to an anticholinergic** and is frequently misdiagnosed. Cross-refer [[C2]] 0.5.
+> **Acute dystonic reaction** — from metoclopramide, prochlorperazine or antipsychotics, with torticollis, oculogyric crisis and trismus. **Responds within minutes to an anticholinergic** and is frequently misdiagnosed. Cross-refer [[C2_Nausea_and_Vomiting]] 0.5.
 > **Tetanus** — trismus, risus sardonicus, opisthotonos, with a wound and incomplete immunisation.
 > **Systemic** — tonsillitis and cervical lymphadenitis in children, and severe pneumonia (particularly upper lobe) causing meningism without meningitis.
 
@@ -313,4 +313,4 @@ Documentation of the causative drug in dystonic reaction. Immunisation catch-up.
 ---
 
 > [!note] Cross-references
-> Acute severe headache in the emergency context → [[F0.5]] 0.6 · Meningococcal sepsis and contact prophylaxis → [[F0.3]] 0.9 · Head injury and chronic subdural → [[F0.5]] 0.7–0.8 · Altered consciousness and delirium → [[D2]] · Stroke and TIA → [[D3]] · Seizures → [[D6]] · Vertigo → [[D5]] · Giant cell arteritis and PMR → [[L3]] and [[B6]] 0.7 · Acute angle-closure glaucoma → [[E1]] · Carbon monoxide → [[A5]] 0.4 · Contraception in migraine with aura → [[O6]] · Dystonic reactions from antiemetics → [[C2]] 0.5 · Retropharyngeal abscess → [[F0.5]] 0.10 · Paediatric meningitis → [[M2]]
+> Acute severe headache in the emergency context → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.6 · Meningococcal sepsis and contact prophylaxis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9 · Head injury and chronic subdural → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7–0.8 · Altered consciousness and delirium → [[D2_Altered_Consciousness_and_Cognition]] · Stroke and TIA → [[D3_Stroke_and_Focal_Neurological_Deficit]] · Seizures → [[D6_Seizures_and_Movement_Disorders]] · Vertigo → [[D5_Dizziness__Vertigo_and_Gait]] · Giant cell arteritis and PMR → `TODO:link — L3 Muscle symptoms & widespread pain (unbuilt)` and [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.7 · Acute angle-closure glaucoma → `TODO:link — E1 Red & painful eye (unbuilt)` · Carbon monoxide → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.4 · Contraception in migraine with aura → `TODO:link — O6 Sexual & reproductive health (unbuilt)` · Dystonic reactions from antiemetics → [[C2_Nausea_and_Vomiting]] 0.5 · Retropharyngeal abscess → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 · Paediatric meningitis → `TODO:link — M2 Fever in children (unbuilt)`

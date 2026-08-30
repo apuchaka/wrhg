@@ -76,7 +76,7 @@ Prevention advice — hydration, avoiding exertion in peak heat, acclimatisation
 **Start cooling immediately.** A–E, airway protection if conscious state is reduced, oxygen, IV access, fluid resuscitation with careful reassessment. Benzodiazepines for seizures and shivering. Bedside glucose. Continuous core temperature monitoring. ICU involvement.
 
 ### 0.2.2 Mx – Definitive
-ICU management of organ failure. Renal replacement therapy for severe rhabdomyolysis-associated acute kidney injury. Blood product support for DIC. Ventilation for ARDS. Cross-refer [[F0.3]] for the shock physiology.
+ICU management of organ failure. Renal replacement therapy for severe rhabdomyolysis-associated acute kidney injury. Blood product support for DIC. Ventilation for ARDS. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] for the shock physiology.
 
 ### 0.2.3 Mx – Chronic/long-term
 Some patients have persistent neurological deficit and heat intolerance. Return-to-work and return-to-sport advice with acclimatisation. Consider malignant hyperthermia susceptibility testing where the presentation was exertional and unusual.
@@ -101,7 +101,7 @@ Some patients have persistent neurological deficit and heat intolerance. Return-
 > | **Anticholinergic** | Antimuscarinics | Hours | Normal | Normal | Supportive, cooling |
 > | **Sympathomimetic** | Stimulants | Minutes–hours | Normal | Normal | Benzodiazepines, cooling |
 > | **Thyroid storm** | Thyrotoxicosis + precipitant | Hours–days | Normal | Brisk | Antithyroid therapy, beta-blockade |
-> Serotonin toxicity and sympathomimetic toxidrome are covered in full in [[F0.1]] 0.4.
+> Serotonin toxicity and sympathomimetic toxidrome are covered in full in [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.4.
 
 > [!danger] Malignant hyperthermia — the earliest sign is not the temperature
 > **A rising end-tidal CO₂ that does not respond to increased minute ventilation is the earliest and most sensitive sign**, appearing before temperature rises. Masseter spasm on induction after suxamethonium is a classic early clue. It is an autosomal dominant susceptibility, usually involving the ryanodine receptor, so **family history matters and relatives require counselling and testing.** Dantrolene must be immediately available wherever triggering agents are used. `UNVERIFIED — dantrolene dosing and reconstitution requirements from the ANZCA crisis manual and local protocol.`
@@ -137,11 +137,11 @@ Syndrome-specific as per the table. ICU for severe cases.
 > Transient worsening of MS symptoms with a rise in body temperature — hot shower, exercise, fever — that **resolves on cooling.** It represents conduction block in already demyelinated axons rather than new demyelination, so it is **not a relapse** and does not warrant steroids. Misinterpreting it as a relapse leads to unnecessary treatment.
 
 > [!warning] Heat intolerance with weight loss
-> Thyrotoxicosis until proven otherwise — with palpitations, tremor, anxiety, diarrhoea and proximal weakness. Cross-refer [[I1]] Thyroid.
+> Thyrotoxicosis until proven otherwise — with palpitations, tremor, anxiety, diarrhoea and proximal weakness. Cross-refer `TODO:link — I1 Thyroid (unbuilt)` Thyroid.
 
 **S/Smx:** Discomfort, sweating, flushing, fatigue or symptom exacerbation in warm conditions. Associated features direct the differential — weight loss and palpitations toward thyroid, episodic headache and hypertension toward phaeochromocytoma, neurological worsening toward MS.
 
-**Ix:** TFTs (*why:* thyrotoxicosis is the commonest treatable endocrine cause and the test is simple; *what:* suppressed TSH, raised free T4 and T3). FBC and iron studies (*why:* anaemia reduces heat tolerance and is easily missed; *what:* haemoglobin, ferritin). Medication review (*why:* anticholinergic and antipsychotic burden is a common and reversible cause, particularly in the elderly; *what:* offending agents). Neurological examination and MRI where MS is suspected (*why:* Uhthoff phenomenon may be the presenting complaint of undiagnosed MS; *what:* demyelinating lesions). Plasma or urinary metanephrines where episodic symptoms with hypertension (*why:* phaeochromocytoma is rare, dangerous and diagnosable; *what:* raised metanephrines). Autonomic function testing in selected patients (*why:* characterises autonomic neuropathy; *what:* abnormal responses). Menopausal history and FSH where age-appropriate (*why:* vasomotor symptoms are extremely common and treatable; *what:* clinical picture — cross-refer [[O4]] Menopausal Symptom).
+**Ix:** TFTs (*why:* thyrotoxicosis is the commonest treatable endocrine cause and the test is simple; *what:* suppressed TSH, raised free T4 and T3). FBC and iron studies (*why:* anaemia reduces heat tolerance and is easily missed; *what:* haemoglobin, ferritin). Medication review (*why:* anticholinergic and antipsychotic burden is a common and reversible cause, particularly in the elderly; *what:* offending agents). Neurological examination and MRI where MS is suspected (*why:* Uhthoff phenomenon may be the presenting complaint of undiagnosed MS; *what:* demyelinating lesions). Plasma or urinary metanephrines where episodic symptoms with hypertension (*why:* phaeochromocytoma is rare, dangerous and diagnosable; *what:* raised metanephrines). Autonomic function testing in selected patients (*why:* characterises autonomic neuropathy; *what:* abnormal responses). Menopausal history and FSH where age-appropriate (*why:* vasomotor symptoms are extremely common and treatable; *what:* clinical picture — cross-refer `TODO:link — O4 Abnormal & menstrual bleeding (unbuilt)` Menopausal Symptom).
 
 ### 0.4.1 Mx – Immediate
 Not usually required.
@@ -255,7 +255,7 @@ Rescue with attention to rescuer safety. **Ventilation first** — rescue breath
 Ventilatory support with PEEP for surfactant dysfunction and ARDS. ICU. Extracorporeal support in refractory cases, particularly with severe hypothermia. **Antibiotics are not routine** — reserve them for aspiration of grossly contaminated water or established infection.
 
 ### 0.7.3 Mx – Chronic/long-term
-Investigate the precipitant, including cardiac assessment where arrhythmia is suspected and family screening for long QT. **Prevention advice: pool fencing, which is legislated in South Australia, supervision of young children, swimming ability, life jackets, and alcohol avoidance around water.** Neurological rehabilitation for hypoxic injury. **Consider safeguarding assessment in any paediatric drowning** — cross-refer [[P3]].
+Investigate the precipitant, including cardiac assessment where arrhythmia is suspected and family screening for long QT. **Prevention advice: pool fencing, which is legislated in South Australia, supervision of young children, swimming ability, life jackets, and alcohol avoidance around water.** Neurological rehabilitation for hypoxic injury. **Consider safeguarding assessment in any paediatric drowning** — cross-refer `TODO:link — P3 Safeguarding & forensic (unbuilt)`.
 
 ---
 
@@ -270,7 +270,7 @@ Investigate the precipitant, including cardiac assessment where arrhythmia is su
 > **DC (lightning, batteries, defibrillators):** a single large throw, typically hurling the victim clear — shorter contact, but often with associated blunt trauma. Characteristically causes asystole.
 
 > [!danger] Deep injury vastly exceeds surface appearance
-> **Rhabdomyolysis, compartment syndrome and acute kidney injury are the major early threats** in significant electrical injury, and the limb can be devastated beneath essentially normal-looking skin. Monitor compartments actively, check CK and renal function serially, and maintain urine output. Cross-refer [[L6]] and [[A7]] Crush Injury.
+> **Rhabdomyolysis, compartment syndrome and acute kidney injury are the major early threats** in significant electrical injury, and the limb can be devastated beneath essentially normal-looking skin. Monitor compartments actively, check CK and renal function serially, and maintain urine output. Cross-refer `TODO:link — L6 Soft tissue injury & mobility (unbuilt)` and [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] Crush Injury.
 
 > [!warning] Who needs cardiac monitoring
 > Any patient with loss of consciousness, an abnormal ECG, arrhythmia at any point, high-voltage exposure, a transthoracic current path (hand to hand, or hand to opposite foot), or cardiac symptoms. A well patient after a brief low-voltage domestic shock with a normal ECG and no loss of consciousness generally does not require prolonged monitoring. `UNVERIFIED — the voltage threshold separating low from high voltage, and the monitoring duration criteria, require verification.`
@@ -293,9 +293,9 @@ Investigate the precipitant, including cardiac assessment where arrhythmia is su
 Burns unit referral for significant injury. Fasciotomy for compartment syndrome. Debridement of necrotic muscle, often requiring repeated exploration. Renal replacement therapy where required.
 
 ### 0.8.3 Mx – Chronic/long-term
-Neurological and psychological sequelae are common and frequently under-recognised — chronic pain, neuropathy, cognitive complaints, anxiety and PTSD. Cataract screening after lightning injury. **Occupational injury requires SafeWork SA notification and workplace investigation.** Cross-refer [[P1]] Occupational Exposure.
+Neurological and psychological sequelae are common and frequently under-recognised — chronic pain, neuropathy, cognitive complaints, anxiety and PTSD. Cataract screening after lightning injury. **Occupational injury requires SafeWork SA notification and workplace investigation.** Cross-refer `TODO:link — P1 Preventive & occupational health (unbuilt)` Occupational Exposure.
 
 ---
 
 > [!note] Cross-references
-> Serotonin toxicity and sympathomimetic toxidrome in full → [[F0.1]] 0.4 · Anticholinergic toxidrome → [[F0.1]] 0.2 · Shock physiology → [[F0.3]] · Cardiac arrest algorithms → [[A1]] 0.4 and [[F0.4]] · Burns and chemical injury → [[A7]] · Rhabdomyolysis and compartment syndrome → [[L6]] · Thyroid storm → [[I1]] · Falls and the elderly long lie → [[18_Geriatrics_and_Older_Persons_Health]]
+> Serotonin toxicity and sympathomimetic toxidrome in full → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.4 · Anticholinergic toxidrome → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.2 · Shock physiology → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] · Cardiac arrest algorithms → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.4 and [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] · Burns and chemical injury → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] · Rhabdomyolysis and compartment syndrome → `TODO:link — L6 Soft tissue injury & mobility (unbuilt)` · Thyroid storm → `TODO:link — I1 Thyroid (unbuilt)` · Falls and the elderly long lie → [[18_Geriatrics_and_Older_Persons_Health]]

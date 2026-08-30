@@ -33,12 +33,12 @@ Highest MCQ yield. Continues directly from the toxidromes / acid-base / shock-ph
 
 - **A1. Deteriorating patient, sepsis & cardiac arrest** (7) — Acute Deterioration · Sepsis Phenotypes · SIRS · Cardiac Arrest · Post-Procedural Deterioration · Failure to Wake Post-Sedation · Emergency Medicine Core Algorithms (index only)
 - **A2. Airway compromise & stridor** (8) — BUILT — localisation framework · acute & chronic upper airway obstruction · lower airway obstruction · acute & chronic stridor · noisy breathing · tracheostomy/laryngectomy emergency
-- **A3. Respiratory failure & bronchospasm** (8) — BUILT — Type 1 vs Type 2 framework · acute & chronic respiratory failure · respiratory arrest · acute bronchospasm · hypoxia · tachypnoea · bradypnoea (neuromuscular failure cross-ref [[F0.5]] 0.5)
+- **A3. Respiratory failure & bronchospasm** (8) — BUILT — Type 1 vs Type 2 framework · acute & chronic respiratory failure · respiratory arrest · acute bronchospasm · hypoxia · tachypnoea · bradypnoea (neuromuscular failure cross-ref [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5)
 - **A4. Dyspnoea & cough** (9) — BUILT — acute dyspnoea · chronic & chronic progressive dyspnoea · orthopnoea/PND · acute cough · chronic cough · productive cough & sputum character · solitary pulmonary nodule
 - **A5. Toxicology II** (8) — BUILT — poisoned patient risk assessment · TCA overdose · benzodiazepine overdose · carbon monoxide · adverse drug reaction · severe cutaneous adverse reactions · immunotherapy toxicity
 - **A6. Thermal & environmental injury** (9) — BUILT — heat illness spectrum · heat stroke/severe hyperthermia · hyperthermia vs fever & drug-induced hyperthermias · heat intolerance · hypothermia · frostbite & NFCI · drowning · electrical injury
 - **A7. Burns & wounds** (5) — BUILT — burns assessment (depth/TBSA/referral) · burns resuscitation · chemical burns · chemical eye injury · minor traumatic wound · crush injury & rhabdomyolysis
-- **A8. Foreign bodies** (8) — BUILT — general principles & button battery rule · aural · nasal · corneal/ocular · oropharyngeal · swallowed · rectal · vaginal (inhaled FB cross-ref [[A2]] 0.4)
+- **A8. Foreign bodies** (8) — BUILT — general principles & button battery rule · aural · nasal · corneal/ocular · oropharyngeal · swallowed · rectal · vaginal (inhaled FB cross-ref [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.4)
 - **A9. Transfusion & anticoagulation emergencies** (4) — BUILT — acute anaemia & major haemorrhage · acute transfusion reactions (incl. TACO vs TRALI) · coagulopathy framework · anticoagulant-associated bleeding & reversal
 - **A10. Ethics at the acute bedside** (5) — BUILT — capacity assessment · consent & treatment refusal · substitute decision-making & ACDs · neurologically determined death · professional practice concern · fitness certification
 

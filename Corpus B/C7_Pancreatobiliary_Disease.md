@@ -78,7 +78,7 @@ See 0.2.
 > The traditional concern that morphine causes sphincter of Oddi spasm and worsens pancreatitis **has never been shown to affect clinical outcomes**, and is not a reason to leave a patient in severe pain. Use adequate multimodal analgesia including opioids.
 
 > [!tip] When ERCP is needed, and when cholecystectomy is
-> **Urgent ERCP is indicated for gallstone pancreatitis with cholangitis, or with persistent biliary obstruction** — cross-refer [[F0.3]] 0.11. **It is NOT indicated routinely in gallstone pancreatitis without those features**, where it adds risk without benefit.
+> **Urgent ERCP is indicated for gallstone pancreatitis with cholangitis, or with persistent biliary obstruction** — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.11. **It is NOT indicated routinely in gallstone pancreatitis without those features**, where it adds risk without benefit.
 > **Cholecystectomy during the index admission for mild gallstone pancreatitis** substantially reduces recurrence and further biliary events. **Discharging a patient with untreated gallstones to wait months for an outpatient cholecystectomy is a recognised cause of readmission with recurrent pancreatitis or cholangitis** — and it happens often. For severe or necrotising disease, surgery is deferred until the inflammation settles.
 
 > [!warning] Local complications and the step-up approach
@@ -140,7 +140,7 @@ Fat-soluble vitamin replacement. Diabetes management with attention to hypoglyca
 Pain: multimodal, with **neuropathic agents and a deliberate effort to avoid opioid escalation**, since chronic opioid dependence is a major problem in this group. **Coeliac plexus block**, endoscopic duct decompression or stenting, and surgical drainage or resection in selected patients.
 
 ### 0.3.3 Mx – Chronic/long-term
-Dietitian involvement — **malnutrition is the rule rather than the exception**. Bone protection. Alcohol and drug support. Cancer vigilance. Cross-refer [[P1]].
+Dietitian involvement — **malnutrition is the rule rather than the exception**. Bone protection. Alcohol and drug support. Cancer vigilance. Cross-refer `TODO:link — P1 Preventive & occupational health (unbuilt)`.
 
 ---
 
@@ -189,7 +189,7 @@ Surveillance imaging for cystic neoplasms managed conservatively. Management of 
 
 > [!danger] The post-operative patient who is not progressing
 > **A patient who is not getting better around days five to seven after abdominal surgery — persistent fever, ileus that will not settle, unexplained tachycardia, rising inflammatory markers, or simply "not right" — has a collection or a leak until proven otherwise.**
-> This is one of the most useful clinical patterns in surgical medicine, and it is the presentation that gets attributed to "slow recovery", atelectasis or a urinary infection while a collection matures. **New atrial fibrillation post-operatively is a recognised early flag for an anastomotic leak.** Cross-refer [[A1]] 0.5.
+> This is one of the most useful clinical patterns in surgical medicine, and it is the presentation that gets attributed to "slow recovery", atelectasis or a urinary infection while a collection matures. **New atrial fibrillation post-operatively is a recognised early flag for an anastomotic leak.** Cross-refer [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.5.
 
 > [!tip] Site-specific features
 > **Subphrenic** — **shoulder tip pain from diaphragmatic irritation, hiccups**, a raised hemidiaphragm and a sympathetic pleural effusion. **A patient with a persistent post-operative fever and a "chest problem" may have an abdominal collection.**
@@ -222,7 +222,7 @@ Nutritional support, which is frequently poor in these patients and delays heali
 **D:** Most commonly ductal adenocarcinoma, arising in the head in the majority.
 
 > [!danger] Painless progressive obstructive jaundice with weight loss
-> **The classic presentation of a carcinoma of the head of the pancreas**, and the absence of pain is characteristic rather than reassuring. **Courvoisier's law** — a palpable non-tender gallbladder with jaundice suggests malignant rather than calculous obstruction. Cross-refer [[C3]] 0.3.
+> **The classic presentation of a carcinoma of the head of the pancreas**, and the absence of pain is characteristic rather than reassuring. **Courvoisier's law** — a palpable non-tender gallbladder with jaundice suggests malignant rather than calculous obstruction. Cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.3.
 > **Body and tail tumours present far later**, with vague epigastric and back pain, weight loss and anorexia, because there is no duct to obstruct early — which is why they are usually unresectable at diagnosis.
 
 > [!tip] Presentations that are easy to miss
@@ -255,4 +255,4 @@ Symptom-specific measures worth knowing: **coeliac plexus block or neurolysis fo
 ---
 
 > [!note] Cross-references
-> Epigastric pain and the acute abdomen → [[C1]] 0.4 and 0.9 · Obstructive jaundice and Courvoisier → [[C3]] 0.3 · Ascending cholangitis → [[F0.3]] 0.11 · Vomiting and gastric outlet obstruction → [[C2]] 0.3 · Chronic diarrhoea and faecal elastase → [[C5]] 0.4 · Third-spacing and fluid sequestration → [[F0.2]] 0.10 · The deteriorating post-operative patient → [[A1]] 0.5 · Hypertriglyceridaemia → [[I5]] · Palliative care and symptom control → [[J5]] · Alcohol and smoking cessation support → [[P1]]
+> Epigastric pain and the acute abdomen → [[C1_Acute_Abdomen]] 0.4 and 0.9 · Obstructive jaundice and Courvoisier → [[C3_Jaundice_and_Liver_Disease]] 0.3 · Ascending cholangitis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.11 · Vomiting and gastric outlet obstruction → [[C2_Nausea_and_Vomiting]] 0.3 · Chronic diarrhoea and faecal elastase → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.4 · Third-spacing and fluid sequestration → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.10 · The deteriorating post-operative patient → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.5 · Hypertriglyceridaemia → `TODO:link — I5 Weight, lipids & fluid balance (unbuilt)` · Palliative care and symptom control → `TODO:link — J5 Oncology & palliative (unbuilt)` · Alcohol and smoking cessation support → `TODO:link — P1 Preventive & occupational health (unbuilt)`
