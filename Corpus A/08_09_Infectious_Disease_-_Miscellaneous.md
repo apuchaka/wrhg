@@ -170,6 +170,23 @@ no_baseline: 0
 
 **Mx:** **stable patients do not automatically need empirical antibiotics** — a genuinely important principle, given the temptation to treat empirically can obscure the underlying diagnosis (e.g. partially treating an infection without curing it, making subsequent cultures falsely negative) without addressing the actual cause; the highest-yield action is targeted, risk-guided investigation with repeated reassessment over time, not reflexive treatment. Treat the underlying cause once identified. Neutropenic FUO is the clear exception, requiring urgent empirical treatment as above, not repeated here.
 
+### Added from unverified layer — FUO: three things the approach above does not name
+`SRC:K1_Fever_Workup §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] **PET-CT has become genuinely useful in FUO**
+> It identifies occult infection, inflammation and malignancy in one study and **directs biopsy**, which is the step that actually makes the diagnosis. It is one of the few broad investigations that earns its place in a workup the entry above deliberately keeps targeted.
+> `UNVERIFIED — availability, funding and indications for PET-CT in FUO in Australia; Medicare Benefits Schedule and local nuclear medicine policy would settle it.`
+> **Biopsy anything accessible and abnormal** — lymph node, skin lesion, temporal artery, bone marrow, liver lesion. **Histology diagnoses FUO more often than serology does.**
+
+> [!info] **Adult-onset Still disease — the features, not just the name** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Named in the causes list above. What identifies it: **a quotidian (once-daily spiking) fever · an evanescent salmon-pink rash that comes and goes with the fever spikes · arthralgia · and a very high ferritin.**
+> The rash is the same one described in **systemic-onset juvenile idiopathic arthritis** at [[11_10_Ortho_-_Paediatric_Orthopaedics]] Juvenile idiopathic arthritis (JIA) — the paediatric counterpart of this disease, and the only place the corpus previously carried it.
+
+> [!danger] **Haemophagocytic lymphohistiocytosis (HLH)** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> A hyperinflammatory syndrome of persistent fever, cytopenias, splenomegaly and **a strikingly high ferritin**, triggered by infection, malignancy or rheumatological disease. It is rapidly fatal untreated and is missed because it looks like sepsis that is not responding.
+> **Consider it when a very high ferritin accompanies persistent fever and falling counts.** `UNVERIFIED — the diagnostic criteria, the ferritin threshold, and treatment; a haematology source would settle it.`
+> **Note the acronym collision before searching for this:** every `HLH` in the corpus outside this block is **hypoplastic left heart** in [[15_05_Paeds_-_Acyanotic_Congenital_Heart_Disease]].
+
 ## Approach to Fever in the Returned Traveller
 
 > [!note] Gap-filled from CSV ("Return traveller fever," Medium yield) — the individual travel-related diseases (Malaria, Dengue fever, Yellow fever, Enteric fever/typhoid, Leptospirosis, Schistosomiasis, Trypanosomiasis) are all built across this project's Infectious Disease files, and the history-taking approach is already established in [[History-Taking]] Fever and Suspected Infection (the travel-history block within itected Infection entry) — this entry adds the organising framework that ties the differential together, given incubation period is genuinely one of the most useful ways to narrow it. Not repeated here: the individual disease-level Ix/Mx detail, or the history-taking questions themselves.
