@@ -350,6 +350,26 @@ Main problem is ↑PTH that persists despite correction of Ca levels. Parathyroi
 > **A negative localisation scan does not exclude the diagnosis and is not a reason to withhold surgery** — it changes the operation, usually to bilateral neck exploration by an experienced surgeon.
 > The inverse error matters too: **an incidental parathyroid-looking lesion on a scan is not a diagnosis** without the biochemistry.
 
+### Added from unverified layer — the adrenal incidentaloma
+`SRC:I4_Pituitary__Adrenal_and_Sex_Hormone §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] **Two questions, and both must be answered**
+> An adrenal mass found on imaging done for something else is common and increasingly so, because cross-sectional imaging is common. **Every one of them raises exactly two questions:**
+> **1. Is it FUNCTIONING — is it making a hormone?**
+> **2. Is it MALIGNANT?**
+> **The functional workup is required in ALL adrenal incidentalomas, including those that are asymptomatic and look benign**, because subclinical hormone excess is common and is the part a "reassuring" scan report does not address. It comprises **screening for phaeochromocytoma (plasma free or 24-hour urinary metanephrines — see [[NEW_Investigations_Renal_and_Urology]] 0.10), for cortisol excess, and — in anyone hypertensive or hypokalaemic — for primary aldosteronism** with the aldosterone-renin ratio in 0.9 above.
+
+> [!danger] **NEVER biopsy an adrenal mass before excluding phaeochromocytoma**
+> **Needling an unsuspected phaeochromocytoma can precipitate a hypertensive crisis.** This is the single most dangerous error available in the workup of an adrenal mass, and it is made by a radiologist or a clinician who is thinking about malignancy and has not thought about function.
+> **Biopsy is rarely the right answer anyway** — it does not distinguish adrenal adenoma from adrenocortical carcinoma, and its main legitimate use is confirming a suspected metastasis from a known extra-adrenal primary, **after** biochemical exclusion of phaeochromocytoma.
+> The **alpha-blockade-before-beta-blockade** rule that follows from the same physiology is at [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]].
+
+> [!tip] **The imaging phenotype predicts benignity**
+> **A small, homogeneous, lipid-rich lesion with low unenhanced attenuation and rapid contrast washout is characteristic of a benign adenoma**; **large size, heterogeneity, irregular margins, high unenhanced attenuation and slow washout raise concern** for adrenocortical carcinoma or metastasis. Interval growth on repeat imaging is the other concerning feature.
+> `UNVERIFIED — the unenhanced Hounsfield-unit threshold, the absolute and relative washout percentages, the size cut-off for surgical referral, and the follow-up imaging interval. All are numbers, all vary between guidelines, and none is stated here (CLAUDE.md rule 5 applies to adult figures too). An endocrine or radiology source would settle them.`
+
+> [!note] **A recorded known absence, partly addressed.** `_meta/KNOWN_ABSENCES.md` entry 7 records that **phaeochromocytoma has no entity section anywhere in this vault** — it appears only inside MEN2A/MEN2B lists here at 0.9, with its presentation, its screening test and its alpha-before-beta rule scattered across three Corpus C files. **This block does not consolidate it**, because that file states the consolidation question is open and for a later round. It does add the two safety rules that were in none of the three.
+
 ## 0.11 Hypoparathyroidism
 
 **D:** decreased PTH → decreased Ca, increased PO4.
