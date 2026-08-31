@@ -303,6 +303,38 @@ Autosomal dominant disorder affecting various endocrine organs.
 
 ---
 
+## Phaeochromocytoma and Paraganglioma — consolidated owner
+`SRC:I4_Pituitary__Adrenal_and_Sex_Hormone §0.4` `UNVERIFIED — model knowledge, not source-checked; the three pre-existing components it consolidates are Corpus C snippet-derived.`
+
+> [!note] **Why this section exists.** `_meta/KNOWN_ABSENCES.md` entry 7 recorded that phaeochromocytoma had **no entity section anywhere in this vault** — only the MEN2A/2B lists in 0.9 above — while its **presentation**, its **screening test** and its **alpha-before-beta safety rule** sat in three different Corpus C files. The entry left open whether that mattered. **It does: the alpha-before-beta rule was findable only by someone who already knew to look for it**, inside an alpha-blocker pharmacology entry. This section is the single owner; the three components stay where they are and now point here. **No content was moved out of Corpus C and no figure was added anywhere.**
+
+**D:** A catecholamine-secreting tumour of chromaffin cells. **Adrenal medullary → phaeochromocytoma. Extra-adrenal, along the sympathetic chain → paraganglioma** (head and neck paragangliomas are more often non-secretory).
+
+**A/P:** Autonomous secretion of noradrenaline, adrenaline or dopamine, **episodic rather than continuous**, which is why blood pressure and symptoms come in paroxysms and why a measurement taken between episodes can be normal.
+
+> [!warning] **A substantial proportion are part of an inherited syndrome, and the proportion is higher than the older teaching allowed**
+> **MEN2A and MEN2B** — see 0.9 above, where phaeochromocytoma is already listed in both. Also **von Hippel-Lindau**, **neurofibromatosis type 1**, and the **succinate dehydrogenase (SDH) mutations**, which carry a higher risk of extra-adrenal, multifocal and malignant disease.
+> **So a diagnosis of phaeochromocytoma is an indication for genetic assessment and for family screening**, not just for an operation. `UNVERIFIED — current Australian genetic testing and cascade screening recommendations; an endocrine genetics service would settle it.`
+
+**S/Smx:** **The triad — episodic headache, sweating and palpitations — with hypertension.** Also pallor (not flushing), tremor, anxiety, nausea and weight loss. **The hypertension may be paroxysmal, sustained, or sustained with paroxysms on top.**
+**Triggers worth asking about: posture, exertion, micturition (a bladder paraganglioma), abdominal palpation, certain foods and certain drug doses.**
+**The full differential of paroxysmal hypertension is owned by [[NEW_Cardiology_and_Vascular]] Paroxysmal Hypertension**, not repeated here — including drugs and withdrawal states, **autonomic dysreflexia in spinal cord injury**, and **"pseudophaeochromocytoma"**, which is commoner than phaeochromocytoma itself.
+
+**Ix:** **Plasma free metanephrines, or 24-hour urinary fractionated metanephrines** (*why:* the metabolites are produced continuously inside the tumour, so unlike catecholamines themselves they are not missed between paroxysms; *what:* markedly raised is specific, mildly raised is often drug-related). **What the test is, how to read it, the interfering drugs and the collection conditions are owned by [[NEW_Investigations_Renal_and_Urology]] 0.10 Metanephrines (Plasma Free or 24-hour Urinary Fractionated)** — which carries its own note that it is mis-filed under Renal and Urology, and is an endocrine investigation.
+
+> [!danger] **CONFIRM BIOCHEMICALLY, THEN IMAGE — and never the other way round**
+> Adrenal nodules are common incidental findings. **Imaging first produces a lesion in search of a diagnosis**, and the workup then chases it.
+> **And never biopsy an adrenal mass before excluding phaeochromocytoma** — needling one can precipitate a hypertensive crisis. See the adrenal incidentaloma block in 0.10 below.
+
+> [!danger] **ALPHA BLOCKADE MUST BE ESTABLISHED BEFORE ANY BETA-BLOCKER**
+> **This is the rule this section exists to make findable.** It previously sat only inside an alpha-blocker pharmacology entry, where nobody looking up phaeochromocytoma would reach it.
+> **Giving a beta-blocker first removes β₂-mediated vasodilatation while leaving α-mediated vasoconstriction unopposed — producing a hypertensive crisis.** It applies to any beta-blocker given for any reason, including one started for the tachycardia the tumour is causing, and including labetalol despite its alpha activity.
+> The class pharmacology, the shift away from phenoxybenzamine toward selective alpha-blockers and calcium channel blockers, and the monitoring are owned by [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]] Alpha-Blockers (Non-selective). **No dose is stated in this vault for any of it, deliberately.**
+
+**Mx – Immediate:** Treat a hypertensive crisis with the specialist agents named in the alpha-blocker entry above; **do not reach for a beta-blocker.** Discuss with endocrinology early.
+**Mx – Definitive:** **Pre-operative alpha blockade and volume repletion, then surgical resection** — the blockade period exists because the tumour has maintained chronic vasoconstriction and volume contraction, and removing it without preparation causes profound hypotension. `UNVERIFIED — the duration of pre-operative blockade and the perioperative protocol, per an Australian endocrine surgical source.`
+**Mx – Chronic/long-term:** **Lifelong biochemical surveillance** — recurrence and metachronous tumours occur, particularly in the syndromic and SDH-associated cases. **Genetic assessment and family screening** as above.
+
 ## 0.10 Hyperparathyroidism
 
 **D:** increased PTH, divided into primary, secondary, and tertiary.

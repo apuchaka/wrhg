@@ -91,7 +91,8 @@ python3 scripts/gapcheck.py '<pattern>' --dirs "Corpus A" "Corpus C"
 | **How it was found** | B2 merge (hypertension). `grep "^#+.*haeochromocytoma"` → **0**; it appears only inside the MEN2A/MEN2B lists at `06_Metabolic` §0.9 |
 | **Verified absent** | 0 headings |
 | **Why it is recorded but NOT treated as a gap** | **All three parts a reader needs exist, scattered:** the presentation at `NEW_Cardiology_and_Vascular` §Paroxysmal Hypertension · the screening test at `NEW_Investigations_Renal_and_Urology` §0.10 (plasma free / 24-hour urinary metanephrines) · the **alpha-before-beta** safety rule at `NEW_Drug_Classes_Cardiovascular_Antihypertensives:86` |
-| **Open question for a later round** | whether that scattering is acceptable, or whether the entity needs consolidating. Recorded so the question is asked once rather than rediscovered each time |
+| **Open question for a later round** | ~~whether that scattering is acceptable, or whether the entity needs consolidating. Recorded so the question is asked once rather than rediscovered each time~~ |
+| **ANSWERED AND CLOSED 2026-08-31** | **The scattering was not acceptable, and the reason is specific: the alpha-before-beta rule was findable only from inside an alpha-blocker pharmacology entry**, i.e. only by a reader who already knew to look for it. Consolidated into `06_Metabolic_Medicine_and_Endocrinology.md` §*Phaeochromocytoma and Paraganglioma — consolidated owner*, per §1.11's one-owner-plus-pointers pattern. **No content was moved out of Corpus C and no figure was added anywhere** — the three components stay where they are, each keeps what it owns (the paroxysmal-hypertension differential, the test itself, the class pharmacology), and each now carries a pointer to the owner. This entry stays in the file: the absence was real, and the record of how it was closed is the point |
 
 ---
 

@@ -188,6 +188,8 @@ no_baseline: 0
 
 **Role:** **The screening test of choice**, having replaced urinary catecholamines and VMA.
 
+> [!note] **Phaeochromocytoma and paraganglioma are now owned as an entity** by [[06_Metabolic_Medicine_and_Endocrinology]] Phaeochromocytoma and Paraganglioma — consolidated owner, which holds the presentation, the diagnostic sequence, the genetic associations and the **alpha-before-beta** rule in one place. This entry keeps the test itself — what it measures, the interfering drugs, the collection conditions and how to read the result and is unchanged.
+
 > [!danger] **Collection conditions and interfering drugs are part of the test, and ignoring them is the commonest cause of a misleading result.** Sources note that **tricyclic antidepressants, SNRIs, labetalol, paracetamol, levodopa, sympathomimetics and caffeine** interfere. Plasma sampling conditions (supine rest before venepuncture, in many protocols) also matter. **Check the reporting laboratory's specific requirements before collecting** — a false positive here leads to unnecessary imaging and a false negative can be fatal at induction of anaesthesia.
 
 > [!warning] **Sequence matters: confirm biochemically, then image.** Adrenal nodules are common incidental findings; imaging first generates confusion. And in a confirmed phaeochromocytoma, **alpha blockade must precede beta blockade** — see the non-selective alpha-blocker entry in [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]].
