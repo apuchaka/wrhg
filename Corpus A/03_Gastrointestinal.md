@@ -1957,6 +1957,34 @@ Nil by mouth, IV fluids, analgesia, antiemetic. Antibiotics per local protocol. 
 ### 0.6.3 Mx – Chronic/long-term
 Histology review — **an appendiceal neuroendocrine tumour or mucinous neoplasm is an occasional incidental finding requiring further management**, so the result must be checked and acted on rather than assumed benign.
 
+### 0.41.14 Left Lower Quadrant (Left Iliac Fossa) Pain — from unverified layer
+`SRC:C1_Acute_Abdomen §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Diverticulitis — the commonest cause in an older adult
+> Left iliac fossa pain, fever, altered bowel habit, and localised tenderness. Complications are graded by the **Hinchey classification** — from phlegmon through localised abscess to purulent and then faeculent peritonitis. `UNVERIFIED — Hinchey stages and their management implications.`
+> **Uncomplicated diverticulitis is increasingly managed without antibiotics** in selected well patients, which reverses older teaching. `UNVERIFIED — selection criteria from current colorectal guidance.`
+> **Colonoscopy is deferred until after the acute episode resolves** — typically six to eight weeks — both because acute inflammation increases perforation risk and because **the episode may be the presentation of a colorectal cancer**, which must be excluded afterwards. `UNVERIFIED — the interval and the indications for follow-up colonoscopy.`
+
+> [!warning] The rest of the differential
+> **Colitis** — infective, inflammatory bowel disease, or **ischaemic colitis**, which classically affects the watershed splenic flexure and descending colon and presents with pain followed by bloody diarrhoea in an older vasculopath.
+> **Gynaecological** — ectopic pregnancy, ovarian torsion or cyst, pelvic inflammatory disease. The same considerations as 0.6.
+> **Constipation and faecal loading** — common, but a diagnosis of exclusion in an acutely painful abdomen.
+> **Colorectal carcinoma**, presenting with obstruction or perforation.
+> **Ureteric colic.**
+> **Left inguinal or femoral hernia.**
+
+**Ix:** As per the core panel. **CT abdomen and pelvis with contrast** (*why:* confirms diverticulitis, grades complications, identifies an abscess amenable to drainage, and detects the perforation or malignancy that changes management; *what:* wall thickening, fat stranding, abscess, free gas). Pregnancy test and pelvic ultrasound in women of reproductive age (*why:* the gynaecological differential; *what:* ectopic, adnexal pathology). Stool culture and *C. difficile* toxin where diarrhoea is prominent (*why:* infective colitis; *what:* pathogen). Faecal calprotectin and inflammatory markers where inflammatory bowel disease is suspected (*why:* distinguishes inflammatory from functional bowel disease; *what:* raised calprotectin).
+
+### 0.7.1 Mx – Immediate
+Analgesia, fluids, bowel rest where symptoms are significant, antibiotics for complicated disease. Surgical referral where there is peritonism, abscess or failure to improve.
+
+### 0.7.2 Mx – Definitive
+Radiological drainage of an abscess. Surgery — resection with or without stoma — for perforation, failure of medical management, or recurrent disease. Cross-refer §0.19 / §0.20 Bowel Obstruction.
+
+### 0.7.3 Mx – Chronic/long-term
+**Interval colonoscopy after an episode of diverticulitis.** Dietary fibre advice. Discussion of elective resection in recurrent disease.
+
+
 
 
 
