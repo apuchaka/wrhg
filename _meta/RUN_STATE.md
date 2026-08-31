@@ -738,8 +738,8 @@ file. **No marker was silently voided in Block 1.**
 
 ## Resume point
 
-**DONE:** K1 · K2 · K3 · K4.
-**NEXT:** I1 · I2 · I3 · I4 · I5 · O6 · CV-X.
+**DONE:** K1 · K2 · K3 · K4 · I1.
+**NEXT:** I2 · I3 · I4 · I5 · O6 · CV-X.
 Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1–E3).
 **Do NOT start Week 4** — the user decides that after seeing this run's yield.
 
@@ -773,8 +773,24 @@ suppresses a marker on the ground that the *source* mentions the subject.
 | K2 Skin and Soft Tissue Infection | 42 | 13 | 28 | 0 | none |
 | K3 Exposure, TB, HIV, Immunodeficiency | 48 | 7 | 40 | 0 | none |
 | K4 Allergy and Clinical Immunology | 38 | 10 | 25 | 0 | none |
+| I1 Thyroid Disease | 32 | 2 | 30 | 0 | none |
 
-**~30% additive against 08_09/09_05/10_10a/11_01**, versus the ~80% discard of Blocks 1
-and 2. Corpus A's infectious-disease layer is thinner than its GI and neurology layers.
+**The K block ran ~26% additive. I1 ran 6%.**
+
+> [!danger] **The endocrine yield indicator I gave the user was WRONG, and the error is
+> reusable.** I predicted endocrine would be week 2's richest seam because Corpus A has
+> **one** `06_` file against five new `I` files. **That indicator counted Corpus A
+> filenames only.** Thyroid content is spread over `06_Metabolic`, `05_Ophthalmology`
+> (thyroid eye disease, own section), `15_16a`, `15_17a`, `16_08-09`, `13_06a` — and
+> above all **`Corpus C/NEW_Investigations_Endocrine.md`**, which carries the TFT pattern
+> table, TIRADS, Bethesda and the uptake-scan logic. **A file count over one corpus is
+> not a coverage measure.** Expect I2–I5 to run low too, for the same reason: Corpus C
+> has a dedicated investigations file per specialty.
+
+**Six unanchored-substring traps so far this run**, none of which was on the user's
+known-collisions list: `felon`→`lifelong` (66/66) · `IGRA`→`migraine` (118/125) ·
+`PrEP`→`preparation` (~98/113) · `IRIS`→the eye (18/22) · `Gell`→`Shigella`/`flagellin`
+(9/9) · `TRAb`→`trabecular`/`strabismus` (28/32). **Treat any short unanchored pattern as
+suspect by default; a list of known-bad ones will always be behind.**
 
 ## Next free conflict ID: **CF-036.** (CF-035 is the atelectasis conflict written this run.)
