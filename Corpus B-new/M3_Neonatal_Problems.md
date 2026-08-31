@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from source. Patterns, timing rules and clinical reasoning are reliable at intern level. **Every bilirubin threshold, age cut-off, glucose value, weight-loss percentage and dose carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **Bilirubin treatment thresholds are plotted on age-in-HOURS nomograms and cannot be reproduced usefully in text** — use the chart. Obtain all protocols from the **Royal Children's Hospital Melbourne guidelines**, your local neonatal unit protocol, and **Safer Care Victoria / SA Health neonatal guidance**.
 >
-> **The collapsed neonate is introduced in [[M1]] 0.4** and **fever in the young infant in [[M2]] 0.2** — cross-referenced rather than repeated.
+> **The collapsed neonate is introduced in [[M1_The_Seriously_Unwell_Child]] 0.4** and **fever in the young infant in [[M2_Fever_in_Children]] 0.2** — cross-referenced rather than repeated.
 
 ---
 
@@ -106,7 +106,7 @@ population: mixed
 
 > [!tip] Normal weight loss, and when it stops being normal
 > **Newborns lose weight in the first days and regain birth weight within a defined period.** **Loss beyond a threshold percentage, or failure to regain by the expected day, triggers assessment — of feeding, of hydration, and of the baby.** `UNVERIFIED — the percentage and the day.`
-> **Assessment of feeding: OBSERVE A FEED — attachment, positioning, suck, swallow, and the mother's comfort.** **This cannot be done by history.** Cross-refer [[O7]] 0.6.
+> **Assessment of feeding: OBSERVE A FEED — attachment, positioning, suck, swallow, and the mother's comfort.** **This cannot be done by history.** Cross-refer [[O7_Breast_Disease]] 0.6.
 > **The objective markers of adequate intake are OUTPUT and WEIGHT: the number of wet nappies, the stool pattern and colour transition, and the weight trajectory** — not the mother's perception of supply, which is frequently and unnecessarily doubted.
 
 > [!danger] Hypernatraemic dehydration in the exclusively breastfed neonate
@@ -114,14 +114,14 @@ population: mixed
 > **Because free water is lost disproportionately, the sodium RISES, producing HYPERNATRAEMIC dehydration.**
 > **The presentation: excessive weight loss · lethargy · poor feeding (which worsens the cycle) · fever · jaundice · and, in severe cases, seizures and cerebral injury.**
 > **The signs of dehydration are DECEPTIVE in hypernatraemia — skin turgor and peripheral perfusion are relatively preserved because the intravascular volume is defended at the expense of the cells, so the baby looks better than they are.**
-> **Correction must be SLOW** — rapid correction of hypernatraemia causes cerebral oedema. Cross-refer [[I5]] 0.5.
+> **Correction must be SLOW** — rapid correction of hypernatraemia causes cerebral oedema. Cross-refer [[I5_Weight__Lipids_and_Fluid_Balance]] 0.5.
 > **Prevention is the point: weigh babies, review feeding early, and support breastfeeding properly rather than either ignoring the problem or reflexively stopping breastfeeding.**
 
 > [!warning] Neonatal hypoglycaemia — who is at risk and why it matters
 > **AT-RISK GROUPS requiring screening: INFANTS OF DIABETIC MOTHERS (hyperinsulinism from maternal hyperglycaemia) · SMALL FOR GESTATIONAL AGE and growth-restricted infants (low glycogen stores) · LARGE FOR GESTATIONAL AGE · PRETERM · perinatal asphyxia · hypothermia · sepsis · maternal beta-blockers · and inborn errors of metabolism.**
 > **Untreated or recurrent hypoglycaemia causes permanent neurological injury**, which is why screening protocols exist and why the response is prompt.
 > **Management: feed and recheck for mild asymptomatic hypoglycaemia; buccal dextrose gel is used in many protocols; INTRAVENOUS DEXTROSE for severe, symptomatic or refractory hypoglycaemia.**
-> **PERSISTENT or recurrent hypoglycaemia requires investigation for hyperinsulinism, hypopituitarism, adrenal insufficiency and metabolic disease — with the CRITICAL SAMPLE (insulin, cortisol, growth hormone, ketones, lactate, free fatty acids) taken DURING the hypoglycaemic episode, because afterwards it is uninterpretable.** Cross-refer [[I2]] 0.4.
+> **PERSISTENT or recurrent hypoglycaemia requires investigation for hyperinsulinism, hypopituitarism, adrenal insufficiency and metabolic disease — with the CRITICAL SAMPLE (insulin, cortisol, growth hormone, ketones, lactate, free fatty acids) taken DURING the hypoglycaemic episode, because afterwards it is uninterpretable.** Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.4.
 > `UNVERIFIED — glucose thresholds, screening schedules and dextrose regimens.`
 
 > [!danger] Vitamin K prophylaxis prevents vitamin K deficiency bleeding
@@ -156,7 +156,7 @@ population: mixed
 > **· COW'S MILK PROTEIN ALLERGY — vomiting, blood or mucus in stools, eczema, irritability, faltering growth.**
 > **· SEPSIS — vomiting is a common non-specific presentation.**
 > **· RAISED INTRACRANIAL PRESSURE — including from ABUSIVE HEAD TRAUMA, hydrocephalus and tumour. A bulging fontanelle, rapidly increasing head circumference, or a tense fontanelle matters.**
-> **· INBORN ERRORS OF METABOLISM** — cross-refer [[M1]] 0.4.
+> **· INBORN ERRORS OF METABOLISM** — cross-refer [[M1_The_Seriously_Unwell_Child]] 0.4.
 > **· OBSTRUCTION — duodenal atresia (a "DOUBLE BUBBLE" on radiograph, associated with Down syndrome), intestinal atresia, HIRSCHSPRUNG DISEASE, meconium ileus.**
 > **· NECROTISING ENTEROCOLITIS — predominantly preterm infants, with feeding intolerance, abdominal distension, bloody stools and systemic deterioration; PNEUMATOSIS INTESTINALIS on abdominal radiograph.**
 
@@ -165,7 +165,7 @@ population: mixed
 > **· HIRSCHSPRUNG DISEASE — aganglionosis, with delayed meconium, abdominal distension, and sometimes an explosive release of stool and gas on rectal examination. It can present later with severe constipation, and it can present acutely with ENTEROCOLITIS, which is life-threatening.**
 > **· MECONIUM ILEUS — strongly associated with CYSTIC FIBROSIS, and it may be the presenting feature.**
 > **· ANORECTAL MALFORMATION — check that the anus is patent and normally sited on the newborn examination.**
-> Cross-refer [[M5]].
+> Cross-refer [[M5_Paediatric_GI__GU_and_Limb]].
 
 ---
 
@@ -183,9 +183,9 @@ population: mixed
 > **Infants are then stratified into LOWER-RISK and HIGHER-RISK groups by age, prematurity, duration, whether CPR was required, and whether it was a first event.** **Lower-risk infants need brief observation, an ECG, education and safety-netting rather than extensive investigation. Higher-risk infants are admitted and investigated.** `UNVERIFIED — the risk criteria.`
 
 > [!danger] The three that must be actively considered in every BRUE
-> **1. NON-ACCIDENTAL INJURY, particularly ABUSIVE HEAD TRAUMA and suffocation.** **A recurrent BRUE, an event witnessed only by one carer, an inconsistent history, or other concerning features should raise it.** Cross-refer [[M6]].
-> **2. PERTUSSIS** — apnoea may be the only feature in a young infant, and the immunisation status of the infant and the household matters. Cross-refer [[M2]] 0.6.
-> **3. CARDIAC ARRHYTHMIA — long QT syndrome. An ECG is recommended in essentially all BRUE presentations**, because it is cheap and the diagnosis has implications for the whole family. Cross-refer [[B3]] 0.3.
+> **1. NON-ACCIDENTAL INJURY, particularly ABUSIVE HEAD TRAUMA and suffocation.** **A recurrent BRUE, an event witnessed only by one carer, an inconsistent history, or other concerning features should raise it.** Cross-refer [[M6_Paediatric_Respiratory_and_Neurology]].
+> **2. PERTUSSIS** — apnoea may be the only feature in a young infant, and the immunisation status of the infant and the household matters. Cross-refer [[M2_Fever_in_Children]] 0.6.
+> **3. CARDIAC ARRHYTHMIA — long QT syndrome. An ECG is recommended in essentially all BRUE presentations**, because it is cheap and the diagnosis has implications for the whole family. Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3.
 
 > [!warning] Safe sleeping and sudden unexpected death in infancy
 > **The evidence-based safe sleeping advice, which every parent should receive and which every clinician should be able to give:**
@@ -211,14 +211,14 @@ population: mixed
 
 > [!danger] Three neonatal presentations that are not minor
 > **1. OMPHALITIS — periumbilical ERYTHEMA, induration or discharge.** **In a neonate this is a serious infection that can progress rapidly to necrotising fasciitis, sepsis and portal vein thrombosis.** **It requires intravenous antibiotics, not topical treatment.** Umbilical granuloma (a small pink nodule with no surrounding erythema) is benign by contrast.
-> **2. OPHTHALMIA NEONATORUM — conjunctivitis in the first month.** **PURULENT discharge in the FIRST FEW DAYS suggests GONOCOCCAL infection, which is SIGHT-THREATENING — it can perforate the cornea within days and requires urgent systemic treatment and ophthalmology.** **Onset around days 5 to 14 suggests CHLAMYDIA, which also causes pneumonitis at 4 to 12 weeks.** **Both require systemic (not just topical) treatment, NOTIFICATION, and TREATMENT OF THE MOTHER AND HER PARTNER.** **A "sticky eye" from a blocked nasolacrimal duct is different — it is not purulent, the eye is white, and it resolves.** Cross-refer [[O6]] 0.2 and [[E1]].
-> **3. ABSENT RED REFLEX — check it on every newborn examination. An absent or abnormal red reflex means CONGENITAL CATARACT or RETINOBLASTOMA until proven otherwise, and requires URGENT ophthalmology referral.** **Both are sight-threatening and retinoblastoma is life-threatening; both have far better outcomes with early detection.** Cross-refer [[E1]].
+> **2. OPHTHALMIA NEONATORUM — conjunctivitis in the first month.** **PURULENT discharge in the FIRST FEW DAYS suggests GONOCOCCAL infection, which is SIGHT-THREATENING — it can perforate the cornea within days and requires urgent systemic treatment and ophthalmology.** **Onset around days 5 to 14 suggests CHLAMYDIA, which also causes pneumonitis at 4 to 12 weeks.** **Both require systemic (not just topical) treatment, NOTIFICATION, and TREATMENT OF THE MOTHER AND HER PARTNER.** **A "sticky eye" from a blocked nasolacrimal duct is different — it is not purulent, the eye is white, and it resolves.** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.2 and [[E1_Red_and_Painful_Eye]].
+> **3. ABSENT RED REFLEX — check it on every newborn examination. An absent or abnormal red reflex means CONGENITAL CATARACT or RETINOBLASTOMA until proven otherwise, and requires URGENT ophthalmology referral.** **Both are sight-threatening and retinoblastoma is life-threatening; both have far better outcomes with early detection.** Cross-refer [[E1_Red_and_Painful_Eye]].
 
 > [!tip] The newborn examination and screening — what it is actually looking for
 > **· RED REFLEX — cataract, retinoblastoma.**
 > **· FEMORAL PULSES — coarctation.**
-> **· HIPS (Barlow and Ortolani) — developmental dysplasia. RISK FACTORS warranting ultrasound screening: BREECH presentation, a FAMILY HISTORY, female sex, and firstborn.** Cross-refer [[M5]].
-> **· TESTES — undescended testis, requiring referral if not descended by the defined age (and note the increased malignancy and fertility implications).** Cross-refer [[H4]] 0.2.
+> **· HIPS (Barlow and Ortolani) — developmental dysplasia. RISK FACTORS warranting ultrasound screening: BREECH presentation, a FAMILY HISTORY, female sex, and firstborn.** Cross-refer [[M5_Paediatric_GI__GU_and_Limb]].
+> **· TESTES — undescended testis, requiring referral if not descended by the defined age (and note the increased malignancy and fertility implications).** Cross-refer [[H4_Scrotum__Groin_and_Loin]] 0.2.
 > **· PALATE — cleft palate is missed if the palate is not both looked at and felt.**
 > **· ANUS — patency and position.**
 > **· SPINE — sacral dimples, hairy patches or masses suggesting spinal dysraphism.**
@@ -232,4 +232,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> The seriously unwell child and the collapsed neonate → [[M1]] 0.4 · Fever in the young infant → [[M2]] 0.2 · Growth faltering and development → [[M4]] · Paediatric GI, hip dysplasia and constipation → [[M5]] · Child protection and abusive head trauma → [[M6]] and [[GER4]] · Bronchiolitis and paediatric respiratory → [[M6]] · Pertussis → [[M2]] 0.6 · Long QT syndrome → [[B3]] 0.3 · Neonatal hypoglycaemia and the critical sample → [[I2]] 0.4 · Congenital adrenal hyperplasia → [[I4]] 0.6 · Hypernatraemia and correction rates → [[I5]] 0.5 · Breastfeeding assessment and support → [[O7]] 0.6 · Ophthalmia neonatorum, cataract and retinoblastoma → [[E1]] and [[O6]] 0.2 · Undescended testis → [[H4]] 0.2 · Neonatal herpes → [[O3]] · Jaundice and liver disease in adults → [[C3]]
+> The seriously unwell child and the collapsed neonate → [[M1_The_Seriously_Unwell_Child]] 0.4 · Fever in the young infant → [[M2_Fever_in_Children]] 0.2 · Growth faltering and development → [[M4_Growth_and_Development]] · Paediatric GI, hip dysplasia and constipation → [[M5_Paediatric_GI__GU_and_Limb]] · Child protection and abusive head trauma → [[M6_Paediatric_Respiratory_and_Neurology]] and [[GER4_Safeguarding_and_Forensic]] · Bronchiolitis and paediatric respiratory → [[M6_Paediatric_Respiratory_and_Neurology]] · Pertussis → [[M2_Fever_in_Children]] 0.6 · Long QT syndrome → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3 · Neonatal hypoglycaemia and the critical sample → [[I2_Diabetes_and_Glucose_Disorders]] 0.4 · Congenital adrenal hyperplasia → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6 · Hypernatraemia and correction rates → [[I5_Weight__Lipids_and_Fluid_Balance]] 0.5 · Breastfeeding assessment and support → [[O7_Breast_Disease]] 0.6 · Ophthalmia neonatorum, cataract and retinoblastoma → [[E1_Red_and_Painful_Eye]] and [[O6_Sexual_and_Reproductive_Health]] 0.2 · Undescended testis → [[H4_Scrotum__Groin_and_Loin]] 0.2 · Neonatal herpes → [[O3_Labour__Delivery_and_Postpartum]] · Jaundice and liver disease in adults → [[C3_Jaundice_and_Liver_Disease]]

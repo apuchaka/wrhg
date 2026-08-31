@@ -9,7 +9,7 @@ population: adult
 > Written from model knowledge, not retrieved from guidelines. Pathophysiology, framework and clinical reasoning are reliable at intern level. **Every ejection fraction cut-off, natriuretic peptide threshold, dose, titration target and device criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **Heart failure pharmacotherapy has changed substantially in recent years** — the four-pillar approach, SGLT2 inhibitors in both HFrEF and HFpEF, and ARNI in place of ACE inhibitors are all relatively recent. Verify against the **National Heart Foundation / CSANZ Guidelines for the Prevention, Detection and Management of Heart Failure in Australia**, eTG Cardiovascular, and PBS authority criteria — which determine what can actually be prescribed here.
 >
-> Acute pulmonary oedema and cardiogenic shock are built in [[F0.5]] 0.3 and [[F0.3]] 0.3 and are cross-referenced rather than repeated.
+> Acute pulmonary oedema and cardiogenic shock are built in [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3 and [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3 and are cross-referenced rather than repeated.
 
 ---
 
@@ -39,15 +39,15 @@ population: adult
 > [!tip] Aetiology — always look for a cause, because several are reversible
 > **· Ischaemic heart disease — the commonest cause in Australia.**
 > **· Hypertension.**
-> **· Valvular disease** — cross-refer [[B5]] 0.1.
+> **· Valvular disease** — cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.1.
 > **· Arrhythmia** — **tachycardia-mediated cardiomyopathy from persistent uncontrolled AF or another tachyarrhythmia is REVERSIBLE with rate or rhythm control**, and is missed when the AF is assumed to be a consequence rather than the cause.
 > **· Alcohol** — dose-related, and **substantially reversible with abstinence.**
-> **· Cardiotoxic drugs** — anthracyclines, trastuzumab, **immune checkpoint inhibitors (myocarditis — cross-refer [[A5]] 0.7)**, and stimulants including methamphetamine, which is an increasingly recognised cause of cardiomyopathy in younger Australians.
+> **· Cardiotoxic drugs** — anthracyclines, trastuzumab, **immune checkpoint inhibitors (myocarditis — cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7)**, and stimulants including methamphetamine, which is an increasingly recognised cause of cardiomyopathy in younger Australians.
 > **· Myocarditis** — viral, autoimmune.
 > **· Infiltrative** — **cardiac amyloidosis (increasingly recognised, and ATTR amyloidosis is now treatable, which makes diagnosing it worthwhile)**, sarcoidosis, haemochromatosis.
-> **· Peripartum cardiomyopathy** — cross-refer [[B5]] 0.3.
+> **· Peripartum cardiomyopathy** — cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.3.
 > **· Familial dilated cardiomyopathy** — take a family history and consider screening relatives.
-> **· Rheumatic heart disease** — with disproportionate burden in Aboriginal and Torres Strait Islander communities. Cross-refer [[F0.5]] 0.10 and [[AU1]].
+> **· Rheumatic heart disease** — with disproportionate burden in Aboriginal and Torres Strait Islander communities. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 and [[AU1_Australian_Health_Context_and_ATSI_Health]].
 > **· High-output failure** — **severe anaemia, thyrotoxicosis, arteriovenous fistula, thiamine deficiency (beriberi), Paget disease.** Treat the cause, not the heart.
 
 **S/Smx:** Dyspnoea, orthopnoea, paroxysmal nocturnal dyspnoea, fatigue, reduced exercise tolerance, ankle swelling, abdominal distension, early satiety, nocturia, and weight gain. Signs: raised JVP, displaced apex, third heart sound, basal crackles, peripheral or sacral oedema, hepatomegaly, ascites, and a narrow pulse pressure with cool peripheries in low-output states.
@@ -68,7 +68,7 @@ See 0.7.
 ## 0.2 Diagnosis and Assessment
 
 > [!warning] Individual symptoms and signs perform poorly — the diagnosis needs objective evidence
-> **Orthopnoea, PND and a raised JVP are relatively specific but insensitive. Ankle oedema and basal crackles are neither.** Crackles in an older patient are frequently atelectasis or lung disease, and ankle oedema is more often venous, drug-induced or dependent — cross-refer [[B6]] 0.2.
+> **Orthopnoea, PND and a raised JVP are relatively specific but insensitive. Ankle oedema and basal crackles are neither.** Crackles in an older patient are frequently atelectasis or lung disease, and ankle oedema is more often venous, drug-induced or dependent — cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.2.
 > **The diagnosis of heart failure requires objective cardiac assessment**, and labelling a breathless oedematous patient with "heart failure" without an echocardiogram commits them to lifelong therapy that may be inappropriate.
 
 > [!tip] Natriuretic peptides — use them to rule OUT
@@ -128,13 +128,13 @@ Repeat echocardiography after a period of optimal therapy — **ventricular func
 > [!danger] Practical prescribing points that cause the most trouble
 > **· Expect the creatinine to rise and the potassium to increase when starting RAAS blockade or an MRA.** A modest, stable rise is **expected and acceptable** and reflects the drug working — it is **not** a reason to stop. Stopping reflexively at the first creatinine bump denies the patient the most beneficial drugs they will receive. **Recheck electrolytes and renal function after initiation and after each uptitration**, and know the thresholds at which action is genuinely required. `UNVERIFIED — the acceptable creatinine rise and the potassium thresholds for dose reduction or cessation.`
 > **· Start beta-blockers when the patient is euvolaemic, not while congested.** "Start low, go slow." **Warn the patient that symptoms may transiently worsen for a few weeks before improving** — otherwise they stop the drug and conclude it made them worse.
-> **· SGLT2 inhibitors cause euglycaemic ketoacidosis**, particularly with intercurrent illness, fasting or surgery — **sick day rules and perioperative withholding must be explained.** Cross-refer [[F0.2]] 0.3.
+> **· SGLT2 inhibitors cause euglycaemic ketoacidosis**, particularly with intercurrent illness, fasting or surgery — **sick day rules and perioperative withholding must be explained.** Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3.
 > **· ARNI must not be co-administered with an ACE inhibitor, and requires a washout period after stopping one**, because of angioedema risk. `UNVERIFIED — the washout interval.`
 > **· MRAs cause gynaecomastia (spironolactone more than eplerenone) and hyperkalaemia.**
 
 > [!danger] Drugs to avoid or use with great caution in HFrEF
 > **· NSAIDs** — sodium retention, renal impairment, and they antagonise diuretics and RAAS blockade. **A very common cause of decompensation, and frequently bought over the counter without being mentioned.**
-> **· Non-dihydropyridine calcium channel blockers (verapamil, diltiazem)** — negatively inotropic and contraindicated in HFrEF. **Dihydropyridines (amlodipine) are haemodynamically neutral and may be used** — this distinction matters and is examined. Cross-refer [[F0.1]] 0.7.
+> **· Non-dihydropyridine calcium channel blockers (verapamil, diltiazem)** — negatively inotropic and contraindicated in HFrEF. **Dihydropyridines (amlodipine) are haemodynamically neutral and may be used** — this distinction matters and is examined. Cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.7.
 > **· Thiazolidinediones (pioglitazone)** — fluid retention.
 > **· Class I antiarrhythmics such as flecainide** — pro-arrhythmic in structural heart disease.
 > **· High-dose corticosteroids** — fluid retention.
@@ -216,7 +216,7 @@ See 0.7.
 > | | **Warm (adequately perfused)** | **Cold (hypoperfused)** |
 > |---|---|---|
 > | **Dry (no congestion)** | Compensated — optimise oral therapy | Hypovolaemic or low output — cautious fluid, consider inotrope |
-> | **Wet (congested)** | **The commonest presentation — diurese** | **Cardiogenic shock — inotropes, ICU** — cross-refer [[F0.3]] 0.3 |
+> | **Wet (congested)** | **The commonest presentation — diurese** | **Cardiogenic shock — inotropes, ICU** — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3 |
 > **Congestion** is assessed by JVP, orthopnoea, oedema, hepatojugular reflux, weight gain and **bendopnoea** (breathlessness on bending forward to tie shoes, a useful and under-asked symptom of raised filling pressures).
 > **Perfusion** is assessed by peripheral temperature, pulse pressure, mental state, and urine output.
 
@@ -230,7 +230,7 @@ See 0.7.
 > **Early review — within about a week of discharge — reduces readmission**, and should be arranged before the patient leaves, not left to them to organise.
 > Ensure at discharge: **the precipitant has been identified and addressed · the medications are optimised and the changes explained · a follow-up appointment exists · weights and an action plan are in place · and the GP has an accurate discharge summary stating what changed and why.**
 
-Acute pulmonary oedema management is in [[F0.5]] 0.3 and is not repeated here — the key points being **sit up, oxygen, non-invasive ventilation and nitrates**, with diuretics playing a smaller role than commonly assumed in the hypertensive "SCAPE" presentation.
+Acute pulmonary oedema management is in [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3 and is not repeated here — the key points being **sit up, oxygen, non-invasive ventilation and nitrates**, with diuretics playing a smaller role than commonly assumed in the hypertensive "SCAPE" presentation.
 
 **Ix:** **Daily weight and strict fluid balance** (*why:* the most reliable measure of diuretic response, and more reliable than fluid charts, which are notoriously inaccurate; *what:* weight trend). UEC and potassium daily during active diuresis (*why:* acute kidney injury and electrolyte derangement; *what:* creatinine, potassium, sodium). **ECG and troponin** (*why:* ischaemia and arrhythmia as precipitants; *what:* ischaemic change, AF). FBC, iron studies, TFTs, CRP (*why:* anaemia, iron deficiency, thyroid dysfunction and infection as precipitants; *what:* the cause). CXR (*why:* congestion and infection; *what:* oedema, consolidation). **Medication history including over-the-counter NSAIDs** (*why:* a common and entirely reversible precipitant that patients do not report unless asked specifically; *what:* NSAID use).
 
@@ -248,7 +248,7 @@ Early follow-up, action plan, and heart failure service involvement.
 ## 0.6 Comorbidities, Devices and Advanced Heart Failure
 
 > [!tip] The comorbidities that change outcomes
-> **· Atrial fibrillation** — very common and mutually reinforcing. **Catheter ablation in selected patients with HFrEF and AF improves outcomes** and is worth considering rather than accepting permanent rate control. Cross-refer [[B3]] 0.4.
+> **· Atrial fibrillation** — very common and mutually reinforcing. **Catheter ablation in selected patients with HFrEF and AF improves outcomes** and is worth considering rather than accepting permanent rate control. Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.4.
 > **· Iron deficiency** — treat with **intravenous** iron; oral absorption is poor in heart failure.
 > **· Chronic kidney disease** — cardiorenal syndrome, where each worsens the other. The temptation to stop RAAS blockade to protect the kidneys usually harms both.
 > **· Sleep-disordered breathing** — common, and treating obstructive sleep apnoea helps.
@@ -259,14 +259,14 @@ Early follow-up, action plan, and heart failure service involvement.
 > **· Implantable cardioverter defibrillator (ICD)** — for **primary prevention of sudden cardiac death in HFrEF with a persistently low ejection fraction despite an adequate period of optimal medical therapy.** The key point is **"despite optimal therapy for an adequate period"** — EF frequently improves on the four pillars, and assessing eligibility too early leads to unnecessary implantation.
 > **· Cardiac resynchronisation therapy (CRT)** — biventricular pacing for patients with **left bundle branch block and a broad QRS**, which resynchronises a dyssynchronous ventricle. It improves symptoms, ejection fraction and survival in appropriately selected patients.
 > `UNVERIFIED — EF thresholds, QRS duration criteria, the required duration of optimal medical therapy, and NYHA class requirements for both devices.`
-> **· ICD deactivation must be discussed as part of end-of-life planning** — an unsuspended device will shock a dying patient repeatedly. Cross-refer [[B3]] 0.6 and [[GER2]] 0.5.
+> **· ICD deactivation must be discussed as part of end-of-life planning** — an unsuspended device will shock a dying patient repeatedly. Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.6 and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5.
 
 > [!warning] Recognising advanced heart failure and when to refer
 > Features suggesting advanced disease: **recurrent hospitalisations · persistent NYHA III–IV symptoms despite optimal therapy · inability to tolerate the disease-modifying drugs because of hypotension or renal impairment · escalating diuretic requirements · progressive renal dysfunction · hyponatraemia · weight loss and cardiac cachexia · frequent ICD shocks · and declining functional capacity.**
 > **These patients should be referred to a specialist heart failure service for consideration of advanced therapies — mechanical circulatory support, transplantation, or a palliative approach — and the referral is frequently made too late.**
 > Advanced therapies include **left ventricular assist devices** and **cardiac transplantation**, with strict eligibility criteria and limited availability. **Continuous inotrope infusion has a role as a palliative measure** for symptom control in patients not eligible for advanced therapies, with the explicit understanding that it does not prolong life.
 
-**Ix:** Repeat echocardiography after optimisation (*why:* determines device eligibility; *what:* EF). ECG for QRS duration and morphology (*why:* CRT eligibility; *what:* LBBB, QRS width). Right heart catheterisation in advanced disease (*why:* haemodynamic assessment for transplant and device candidacy; *what:* filling pressures, cardiac output, pulmonary vascular resistance). Cardiopulmonary exercise testing (*why:* objective functional assessment and transplant prognostication; *what:* peak VO₂). Frailty and cognitive assessment (*why:* determines suitability for burdensome therapies; *what:* frailty grade — cross-refer [[GER1]] 0.2).
+**Ix:** Repeat echocardiography after optimisation (*why:* determines device eligibility; *what:* EF). ECG for QRS duration and morphology (*why:* CRT eligibility; *what:* LBBB, QRS width). Right heart catheterisation in advanced disease (*why:* haemodynamic assessment for transplant and device candidacy; *what:* filling pressures, cardiac output, pulmonary vascular resistance). Cardiopulmonary exercise testing (*why:* objective functional assessment and transplant prognostication; *what:* peak VO₂). Frailty and cognitive assessment (*why:* determines suitability for burdensome therapies; *what:* frailty grade — cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.2).
 
 ### 0.6.1 Mx – Immediate
 Not applicable.
@@ -298,13 +298,13 @@ Device follow-up and deactivation planning.
 > [!danger] The prognosis is worse than many cancers, and patients are rarely told
 > **Mortality after a heart failure hospitalisation is substantial, and five-year survival in advanced heart failure compares unfavourably with several common cancers.**
 > **Patients and families consistently overestimate prognosis**, in part because the illness trajectory is one of exacerbation and partial recovery, which reads as "getting better again" each time.
-> **This is why advance care planning in heart failure is systematically neglected** — there is never an obviously terminal moment. Cross-refer [[GER2]] 0.5 for the organ-failure trajectory.
+> **This is why advance care planning in heart failure is systematically neglected** — there is never an obviously terminal moment. Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5 for the organ-failure trajectory.
 
 > [!tip] Palliative care in heart failure
 > **Early integration alongside active treatment**, not as a terminal handover.
 > Symptom priorities: **breathlessness (opioids are effective and under-used in refractory breathlessness in heart failure)**, fatigue, pain, depression and anxiety.
 > **Practical end-of-life issues specific to heart failure: ICD deactivation, rationalising the medication burden, deciding about further hospitalisation, and preferred place of care.**
-> **The conversations to have while the patient is well: what matters most to them, what trade-offs they would accept, who speaks for them, and what they would not want.** Cross-refer [[A10]] 0.3 and [[GER2]] 0.6.
+> **The conversations to have while the patient is well: what matters most to them, what trade-offs they would accept, who speaks for them, and what they would not want.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3 and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.6.
 
 **Ix:** Regular review of weight, symptoms, NYHA class, renal function, electrolytes and adherence (*why:* the ongoing measures that detect deterioration and permit titration; *what:* trends). **Depression screening** (*why:* common, under-treated, worsens outcomes; *what:* depressive symptoms). Frailty and functional assessment in older patients (*why:* informs the intensity of therapy and the goals of care; *what:* frailty and function).
 
@@ -320,4 +320,4 @@ Regular review, honest prognostic discussion, advance care planning, and palliat
 ---
 
 > [!note] Cross-references
-> Acute pulmonary oedema and SCAPE → [[F0.5]] 0.3 · Cardiogenic shock and mechanical complications → [[F0.3]] 0.3 · Chest pain and troponin interpretation → [[B1]] · Hypertension → [[B2]] · Atrial fibrillation, devices and ICD deactivation → [[B3]] 0.4, 0.6 · Syncope in heart failure → [[B4]] · Murmurs, valvular disease and peripartum cardiomyopathy → [[B5]] 0.1, 0.3 · Oedema and its differential → [[B6]] 0.1–0.2 · Calcium channel blocker classes → [[F0.1]] 0.7 · Euglycaemic DKA on SGLT2 inhibitors → [[F0.2]] 0.3 · Immune checkpoint inhibitor myocarditis → [[A5]] 0.7 · Anaemia and iron deficiency → [[J1]] · Frailty → [[GER1]] 0.2 · End-of-life trajectories and advance care planning → [[GER2]] 0.5–0.6 · Rheumatic heart disease → [[F0.5]] 0.10 and [[AU1]]
+> Acute pulmonary oedema and SCAPE → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3 · Cardiogenic shock and mechanical complications → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3 · Chest pain and troponin interpretation → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] · Hypertension → [[B2_Hypertension_Spectrum]] · Atrial fibrillation, devices and ICD deactivation → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.4, 0.6 · Syncope in heart failure → [[B4_Syncope__Collapse_and_Hypotension]] · Murmurs, valvular disease and peripartum cardiomyopathy → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.1, 0.3 · Oedema and its differential → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.1–0.2 · Calcium channel blocker classes → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.7 · Euglycaemic DKA on SGLT2 inhibitors → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3 · Immune checkpoint inhibitor myocarditis → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7 · Anaemia and iron deficiency → [[J1_Cytopenias_and_Marrow_Failure]] · Frailty → [[GER1_Comprehensive_Geriatric_Assessment]] 0.2 · End-of-life trajectories and advance care planning → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5–0.6 · Rheumatic heart disease → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 and [[AU1_Australian_Health_Context_and_ATSI_Health]]

@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Morphological vocabulary, recognition patterns and discriminators are reliable at intern level. **Every dose, body surface area threshold, timing window and regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG Dermatology** and **eTG Antibiotic**, and the Australasian College of Dermatologists resources.
 >
-> **Meningococcal sepsis is built in [[F0.3]] 0.9**, **necrotising fasciitis and scabies in [[K2]] 0.2 and 0.6**, **urticaria and anaphylaxis in [[K4]]**, and **paediatric exanthems in [[M2]] 0.5** — cross-referenced rather than repeated.
+> **Meningococcal sepsis is built in [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9**, **necrotising fasciitis and scabies in [[K2_Skin_and_Soft_Tissue_Infection]] 0.2 and 0.6**, **urticaria and anaphylaxis in [[K4_Allergy_and_Clinical_Immunology]]**, and **paediatric exanthems in [[M2_Fever_in_Children]] 0.5** — cross-referenced rather than repeated.
 
 ---
 
@@ -26,7 +26,7 @@ population: mixed
 > **DISTRIBUTION: flexural · extensor · PHOTODISTRIBUTED (face, V of neck, dorsal hands, sparing under the chin and behind the ears — the shadowed sites are the clue) · acral · truncal · symmetrical or asymmetrical.**
 
 > [!danger] Two things to do with every rash
-> **1. PRESS ON IT. BLANCHING VERSUS NON-BLANCHING is the single most important bedside test in dermatology**, and it separates a benign exanthem from purpura requiring urgent assessment. Use a glass. Cross-refer [[G3]].
+> **1. PRESS ON IT. BLANCHING VERSUS NON-BLANCHING is the single most important bedside test in dermatology**, and it separates a benign exanthem from purpura requiring urgent assessment. Use a glass. Cross-refer [[G3_Purpura_and_Vasculitis]].
 > **2. EXAMINE THE WHOLE SKIN, UNDRESSED — plus the MUCOSAE (mouth, eyes, genitals), the NAILS, the SCALP, and the PALMS AND SOLES.**
 > **Mucosal involvement changes the diagnosis completely** — it is what distinguishes a straightforward drug rash from Stevens-Johnson syndrome. **A rash examined through a gap in a gown is a rash half seen.**
 
@@ -53,14 +53,14 @@ population: mixed
 > **· Hypotension, tachycardia, confusion — in which case the rash is a clue to a systemic illness, not the problem itself.**
 
 > [!warning] The dermatological emergencies
-> **· MENINGOCOCCAL SEPSIS — a non-blanching rash in an unwell patient. Antibiotics immediately, before investigation.** Cross-refer [[F0.3]] 0.9.
-> **· NECROTISING FASCIITIS — PAIN OUT OF PROPORTION to the appearance, systemic toxicity, rapid progression, dusky or grey discolouration, bullae, crepitus, and — a late and ominous sign — ANAESTHESIA over the affected skin as cutaneous nerves are destroyed.** **It is a SURGICAL emergency and the diagnosis is clinical; imaging must not delay theatre.** Cross-refer [[K2]] 0.2.
+> **· MENINGOCOCCAL SEPSIS — a non-blanching rash in an unwell patient. Antibiotics immediately, before investigation.** Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9.
+> **· NECROTISING FASCIITIS — PAIN OUT OF PROPORTION to the appearance, systemic toxicity, rapid progression, dusky or grey discolouration, bullae, crepitus, and — a late and ominous sign — ANAESTHESIA over the affected skin as cutaneous nerves are destroyed.** **It is a SURGICAL emergency and the diagnosis is clinical; imaging must not delay theatre.** Cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.2.
 > **· STEVENS-JOHNSON SYNDROME and TOXIC EPIDERMAL NECROLYSIS** — see 0.3.
 > **· DRESS** — see 0.3.
 > **· STAPHYLOCOCCAL SCALDED SKIN SYNDROME — superficial blistering with a positive Nikolsky sign, typically in young children, from an exfoliative toxin. The mucosae are SPARED, which distinguishes it from TEN.**
 > **· TOXIC SHOCK SYNDROME — diffuse erythroderma, fever, hypotension and multi-organ involvement, with later desquamation of the palms and soles. Look for a retained tampon, packing, a wound or a burn.**
-> **· ERYTHRODERMA — cross-refer [[G2]].**
-> **· ANAPHYLAXIS with urticaria and angioedema — cross-refer [[K4]] 0.1.**
+> **· ERYTHRODERMA — cross-refer [[G2_Blisters_and_Skin_Failure]].**
+> **· ANAPHYLAXIS with urticaria and angioedema — cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.1.**
 > **· PURPURA FULMINANS and DIC.**
 
 > [!danger] Eczema herpeticum — the one that gets treated as infected eczema
@@ -81,7 +81,7 @@ population: mixed
 > **NIKOLSKY SIGN IS POSITIVE.**
 > **THE DRUGS: ALLOPURINOL · ANTICONVULSANTS (carbamazepine, lamotrigine, phenytoin, phenobarbitone) · SULFONAMIDES including co-trimoxazole · NSAIDs (oxicams) · nevirapine · and some antibiotics.**
 > **Typical onset is within the first weeks of starting the drug.**
-> **PHARMACOGENOMICS: HLA-B\*15:02 predicts carbamazepine-induced SJS/TEN in Han Chinese, Thai and some other Asian populations, and HLA-B\*58:01 predicts allopurinol reactions.** **Testing before prescribing is recommended in those populations — and it also means RELATIVES may carry the same risk allele, which should be mentioned.** Cross-refer [[L1]] 0.3.
+> **PHARMACOGENOMICS: HLA-B\*15:02 predicts carbamazepine-induced SJS/TEN in Han Chinese, Thai and some other Asian populations, and HLA-B\*58:01 predicts allopurinol reactions.** **Testing before prescribing is recommended in those populations — and it also means RELATIVES may carry the same risk allele, which should be mentioned.** Cross-refer [[L1_Hot_and_Swollen_Joint]] 0.3.
 
 > [!warning] Managing SJS/TEN — it is a burns problem
 > **· STOP THE CULPRIT DRUG IMMEDIATELY. Delay in stopping is associated with worse outcomes.** Stop all non-essential drugs started in the preceding weeks.
@@ -113,7 +113,7 @@ population: mixed
 ## 0.4 Drug Eruptions
 
 > [!tip] Timing is the most useful diagnostic tool
-> **· IMMEDIATE (minutes to about an hour) — IgE-mediated. Urticaria, angioedema, anaphylaxis, bronchospasm.** **This is true allergy and it is the pattern that carries a risk of anaphylaxis on re-exposure.** Cross-refer [[K4]] 0.1.
+> **· IMMEDIATE (minutes to about an hour) — IgE-mediated. Urticaria, angioedema, anaphylaxis, bronchospasm.** **This is true allergy and it is the pattern that carries a risk of anaphylaxis on re-exposure.** Cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.1.
 > **· DELAYED (days to weeks) — T-cell mediated. Morbilliform eruptions, fixed drug eruption, SJS/TEN, DRESS, AGEP.**
 > **Asking WHEN the reaction occurred relative to the dose separates these two mechanisms and determines the risk of re-exposure**, and it is the first question in any allergy assessment.
 
@@ -131,7 +131,7 @@ population: mixed
 > **DELABELLING — through a careful history, and where appropriate skin testing or supervised oral challenge — is a genuine and under-used intervention.**
 > **What to ask: WHAT happened · WHEN in relation to the dose · HOW LONG AGO · was there urticaria, angioedema, breathing difficulty or hypotension · were there mucosal or systemic features · and has the patient taken any beta-lactam since?**
 > **A history of gastrointestinal upset, a family history of allergy, or an unremembered childhood rash is NOT an allergy.**
-> **THE AMOXICILLIN-EBV RASH: a widespread morbilliform rash after amoxicillin in infectious mononucleosis is a well-described NON-ALLERGIC phenomenon and does NOT indicate penicillin allergy** — yet it is one of the commonest reasons for a lifelong label. Cross-refer [[K4]] 0.3.
+> **THE AMOXICILLIN-EBV RASH: a widespread morbilliform rash after amoxicillin in infectious mononucleosis is a well-described NON-ALLERGIC phenomenon and does NOT indicate penicillin allergy** — yet it is one of the commonest reasons for a lifelong label. Cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.3.
 
 ---
 
@@ -140,26 +140,26 @@ population: mixed
 > [!danger] Two infections that present as a rash and are missed
 > **1. ACUTE HIV SEROCONVERSION.** **Fever · a non-specific maculopapular rash on the trunk · PHARYNGITIS · generalised LYMPHADENOPATHY · MOUTH AND GENITAL ULCERS · myalgia · and headache — a "glandular fever-like" illness two to six weeks after exposure.**
 > **This is the single greatest missed opportunity in HIV care: the patient presents, is diagnosed with a viral illness, and leaves — at the point of PEAK INFECTIVITY.**
-> **TEST FOR HIV in any adult with a febrile illness with rash, pharyngitis and lymphadenopathy.** **Note that the antibody test may be negative in the window period — request a COMBINED ANTIGEN/ANTIBODY assay or HIV RNA.** Cross-refer [[K3]] 0.5 and [[O6]] 0.2.
+> **TEST FOR HIV in any adult with a febrile illness with rash, pharyngitis and lymphadenopathy.** **Note that the antibody test may be negative in the window period — request a COMBINED ANTIGEN/ANTIBODY assay or HIV RNA.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 and [[O6_Sexual_and_Reproductive_Health]] 0.2.
 > **2. SECONDARY SYPHILIS — "the great imitator".**
 > **A widespread, symmetrical, NON-ITCHY maculopapular rash that CHARACTERISTICALLY INVOLVES THE PALMS AND SOLES** — one of very few rashes that does — with malaise, fever, generalised lymphadenopathy, mucous patches, and CONDYLOMATA LATA in flexural areas.
 > **It occurs weeks to months after the primary chancre, which may not have been noticed.**
-> **Australia has a sustained INFECTIOUS SYPHILIS OUTBREAK, including congenital cases** — so the threshold to test should be low. **Serology is the test, and it is cheap.** Cross-refer [[O6]] 0.1.
+> **Australia has a sustained INFECTIOUS SYPHILIS OUTBREAK, including congenital cases** — so the threshold to test should be low. **Serology is the test, and it is cheap.** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.1.
 
 > [!warning] The viral exanthems in adults
-> **· MEASLES — RESURGING where vaccination coverage has fallen.** Prodrome with cough, coryza and conjunctivitis, KOPLIK SPOTS, then a descending maculopapular rash. **Highly infectious, NOTIFIABLE, and requires immediate isolation and notification ON SUSPICION.** Cross-refer [[M2]] 0.5 and [[PH1]] 0.6.
+> **· MEASLES — RESURGING where vaccination coverage has fallen.** Prodrome with cough, coryza and conjunctivitis, KOPLIK SPOTS, then a descending maculopapular rash. **Highly infectious, NOTIFIABLE, and requires immediate isolation and notification ON SUSPICION.** Cross-refer [[M2_Fever_in_Children]] 0.5 and [[PH1_Population_Health_and_Research_Literacy]] 0.6.
 > **· VARICELLA — significantly MORE SEVERE IN ADULTS than in children, with a substantial risk of VARICELLA PNEUMONIA, particularly in smokers and in pregnancy.** Lesions in CROPS AT DIFFERENT STAGES.
 > **· HERPES ZOSTER (shingles) — a painful DERMATOMAL vesicular eruption that does not cross the midline.**
-> **HUTCHINSON SIGN — vesicles on the tip, side or root of the NOSE indicate nasociliary nerve involvement and predict OCULAR involvement in herpes zoster ophthalmicus. Refer to ophthalmology.** Cross-refer [[E1]].
-> **RAMSAY HUNT SYNDROME — zoster of the geniculate ganglion: facial palsy with vesicles in the ear canal or on the palate, plus vertigo and hearing loss. It has a worse prognosis than Bell palsy and requires antivirals and steroids promptly.** Cross-refer [[D5]] and [[F1]].
-> **· PARVOVIRUS B19 in adults — often presenting with an ARTHROPATHY rather than the slapped-cheek rash, and it causes aplastic crisis and fetal hydrops.** Cross-refer [[J2]] 0.1.
+> **HUTCHINSON SIGN — vesicles on the tip, side or root of the NOSE indicate nasociliary nerve involvement and predict OCULAR involvement in herpes zoster ophthalmicus. Refer to ophthalmology.** Cross-refer [[E1_Red_and_Painful_Eye]].
+> **RAMSAY HUNT SYNDROME — zoster of the geniculate ganglion: facial palsy with vesicles in the ear canal or on the palate, plus vertigo and hearing loss. It has a worse prognosis than Bell palsy and requires antivirals and steroids promptly.** Cross-refer [[D5_Dizziness__Vertigo_and_Gait]] and [[F1_Ear]].
+> **· PARVOVIRUS B19 in adults — often presenting with an ARTHROPATHY rather than the slapped-cheek rash, and it causes aplastic crisis and fetal hydrops.** Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]] 0.1.
 > **· EBV, cytomegalovirus, hand-foot-and-mouth disease, and enteroviral exanthems.**
 
 > [!tip] The Australian and travel-related causes
-> **· RICKETTSIAL INFECTIONS — Queensland tick typhus, Flinders Island spotted fever, and SCRUB TYPHUS in northern Australia. LOOK FOR AN ESCHAR — a painless black necrotic crust at the bite site, frequently in a skin fold and missed unless specifically sought.** **Treat empirically with doxycycline; serology is retrospective.** Cross-refer [[K1]] 0.4.
+> **· RICKETTSIAL INFECTIONS — Queensland tick typhus, Flinders Island spotted fever, and SCRUB TYPHUS in northern Australia. LOOK FOR AN ESCHAR — a painless black necrotic crust at the bite site, frequently in a skin fold and missed unless specifically sought.** **Treat empirically with doxycycline; serology is retrospective.** Cross-refer [[K1_Fever_Workup]] 0.4.
 > **· ROSS RIVER and BARMAH FOREST VIRUS — fever, rash and prominent POLYARTHRALGIA, which may persist for months.**
 > **· DENGUE in returned travellers — fever, severe myalgia, retro-orbital pain, and a rash with characteristic "islands of white in a sea of red" during recovery, with thrombocytopenia.**
-> **· SCABIES — intense itch WORSE AT NIGHT, burrows in finger web spaces, wrists, axillae and genitalia, and OTHER HOUSEHOLD MEMBERS ITCHING. Treat all contacts simultaneously.** **CRUSTED (Norwegian) SCABIES in the immunosuppressed, elderly or neurologically impaired is hyperinfestational, extremely contagious, and a significant issue in some remote Australian communities.** Cross-refer [[K2]] 0.6 and [[AU1]] 0.4.
+> **· SCABIES — intense itch WORSE AT NIGHT, burrows in finger web spaces, wrists, axillae and genitalia, and OTHER HOUSEHOLD MEMBERS ITCHING. Treat all contacts simultaneously.** **CRUSTED (Norwegian) SCABIES in the immunosuppressed, elderly or neurologically impaired is hyperinfestational, extremely contagious, and a significant issue in some remote Australian communities.** Cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.6 and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4.
 
 ---
 
@@ -173,10 +173,10 @@ population: mixed
 > [!tip] The mimics, and how to tell them apart
 > **· VENOUS ECZEMA / STASIS DERMATITIS — BILATERAL, ITCHY rather than painful, with scaling, haemosiderin staining, varicose veins and oedema, and no fever. Treated with EMOLLIENTS, TOPICAL STEROID and COMPRESSION — not antibiotics.**
 > **· LIPODERMATOSCLEROSIS — chronic induration and fibrosis of the lower leg producing the "INVERTED CHAMPAGNE BOTTLE" appearance, often painful in the acute phase.**
-> **· DEEP VEIN THROMBOSIS — and it can coexist with cellulitis.** Cross-refer [[B6]] 0.4 and [[J3]] 0.4.
-> **· ACUTE GOUT — periarticular erythema that can look strikingly like cellulitis.** Cross-refer [[L1]] 0.3.
+> **· DEEP VEIN THROMBOSIS — and it can coexist with cellulitis.** Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.4 and [[J3_Bleeding_and_Thrombosis]] 0.4.
+> **· ACUTE GOUT — periarticular erythema that can look strikingly like cellulitis.** Cross-refer [[L1_Hot_and_Swollen_Joint]] 0.3.
 > **· CONTACT DERMATITIS — ITCHY not painful, with SHARP margins corresponding to the contactant and sometimes a geometric shape.**
-> **· Ruptured Baker cyst · superficial thrombophlebitis · panniculitis · ERYTHEMA NODOSUM (tender red nodules on the shins, with an important underlying differential including streptococcal infection, sarcoidosis, IBD, TB and drugs) · insect bite reactions · CALCIPHYLAXIS in dialysis patients · INFLAMMATORY BREAST CANCER when the "cellulitis" is on a breast (cross-refer [[O7]] 0.4) · and NECROTISING FASCIITIS.**
+> **· Ruptured Baker cyst · superficial thrombophlebitis · panniculitis · ERYTHEMA NODOSUM (tender red nodules on the shins, with an important underlying differential including streptococcal infection, sarcoidosis, IBD, TB and drugs) · insect bite reactions · CALCIPHYLAXIS in dialysis patients · INFLAMMATORY BREAST CANCER when the "cellulitis" is on a breast (cross-refer [[O7_Breast_Disease]] 0.4) · and NECROTISING FASCIITIS.**
 
 > [!warning] If it really is cellulitis — three things that get missed
 > **1. FIND AND TREAT THE PORTAL OF ENTRY.** **TINEA PEDIS with macerated interdigital skin is the commonest and most overlooked source of recurrent lower limb cellulitis.** **LOOK BETWEEN THE TOES.** Also: leg ulcers, eczema, trauma, and lymphoedema.
@@ -198,4 +198,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Blistering disease and erythroderma → [[G2]] · Purpura and vasculitis → [[G3]] · Eczema, psoriasis and chronic dermatoses → [[G4]] · Skin cancer and the suspicious lesion → [[G5]] · Meningococcal disease and sepsis → [[F0.3]] 0.9 · Necrotising fasciitis, scabies and skin infection → [[K2]] 0.2, 0.6 · Urticaria, angioedema and anaphylaxis → [[K4]] 0.1 · Drug allergy and delabelling → [[K4]] 0.3 · HIV, syphilis and STI testing → [[K3]] 0.5 and [[O6]] 0.1–0.2 · Rickettsial infection and the returned traveller → [[K1]] 0.4 · Paediatric exanthems and Kawasaki disease → [[M2]] 0.5 · Parvovirus and aplastic crisis → [[J2]] 0.1 · Herpes zoster ophthalmicus → [[E1]] · Ramsay Hunt and facial palsy → [[D5]] and [[F1]] · The swollen leg and DVT → [[B6]] 0.4 and [[J3]] 0.4 · Gout → [[L1]] 0.3 · Inflammatory breast cancer → [[O7]] 0.4 · HLA testing before allopurinol → [[L1]] 0.3 · Notifiable diseases → [[PH1]] 0.6
+> Blistering disease and erythroderma → [[G2_Blisters_and_Skin_Failure]] · Purpura and vasculitis → [[G3_Purpura_and_Vasculitis]] · Eczema, psoriasis and chronic dermatoses → [[G4_Chronic_Rash__Pruritus_and_Pigment]] · Skin cancer and the suspicious lesion → [[G5_Lumps__Ulcers_and_Nails]] · Meningococcal disease and sepsis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9 · Necrotising fasciitis, scabies and skin infection → [[K2_Skin_and_Soft_Tissue_Infection]] 0.2, 0.6 · Urticaria, angioedema and anaphylaxis → [[K4_Allergy_and_Clinical_Immunology]] 0.1 · Drug allergy and delabelling → [[K4_Allergy_and_Clinical_Immunology]] 0.3 · HIV, syphilis and STI testing → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 and [[O6_Sexual_and_Reproductive_Health]] 0.1–0.2 · Rickettsial infection and the returned traveller → [[K1_Fever_Workup]] 0.4 · Paediatric exanthems and Kawasaki disease → [[M2_Fever_in_Children]] 0.5 · Parvovirus and aplastic crisis → [[J2_Haemoglobinopathy_and_Haemolysis]] 0.1 · Herpes zoster ophthalmicus → [[E1_Red_and_Painful_Eye]] · Ramsay Hunt and facial palsy → [[D5_Dizziness__Vertigo_and_Gait]] and [[F1_Ear]] · The swollen leg and DVT → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.4 and [[J3_Bleeding_and_Thrombosis]] 0.4 · Gout → [[L1_Hot_and_Swollen_Joint]] 0.3 · Inflammatory breast cancer → [[O7_Breast_Disease]] 0.4 · HLA testing before allopurinol → [[L1_Hot_and_Swollen_Joint]] 0.3 · Notifiable diseases → [[PH1_Population_Health_and_Research_Literacy]] 0.6

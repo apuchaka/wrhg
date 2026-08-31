@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Anatomy, description systems, eponyms and complication patterns are reliable at intern level. **Every classification detail, time target, dose and antibiotic regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify open fracture antibiotic timing and regimens against **eTG Antibiotic** and your local orthopaedic protocol, and hip fracture care against the **Australian and New Zealand Hip Fracture Registry** and the relevant clinical care standard.
 >
-> **Compartment syndrome is built in [[A7]] 0.6**, **osteoporosis in [[GER1]] 0.6**, and **specific missed fractures in [[L5]]** — each is cross-referenced rather than repeated.
+> **Compartment syndrome is built in [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6**, **osteoporosis in [[GER1_Comprehensive_Geriatric_Assessment]] 0.6**, and **specific missed fractures in [[L5_Regional_Limb_Pain]]** — each is cross-referenced rather than repeated.
 
 ---
 
@@ -42,7 +42,7 @@ population: mixed
 
 > [!warning] Early complications
 > **· NEUROVASCULAR INJURY — assess and DOCUMENT before and after every reduction and every splint application.**
-> **· COMPARTMENT SYNDROME** — cross-refer [[A7]] 0.6. **Highest risk in tibial shaft and forearm fractures, and in crush injuries.** **Pain out of proportion and pain on passive stretch; pulses remain present until very late.**
+> **· COMPARTMENT SYNDROME** — cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6. **Highest risk in tibial shaft and forearm fractures, and in crush injuries.** **Pain out of proportion and pain on passive stretch; pulses remain present until very late.**
 > **· Haemorrhage** — femoral shaft and pelvic fractures can cause substantial blood loss into the thigh or retroperitoneum.
 > **· Open fracture and infection** — see 0.7.
 > **· FAT EMBOLISM SYNDROME** — typically **24 to 72 hours after a long bone or pelvic fracture**, with the triad of **respiratory distress and hypoxia, neurological change (confusion, agitation, reduced consciousness) and a PETECHIAL RASH** classically over the axillae, conjunctivae and upper chest. **The rash is the discriminating feature and is easily missed if the patient is not undressed.** Management is supportive; early fracture fixation reduces the risk.
@@ -55,7 +55,7 @@ population: mixed
 > **In each of these, the blood supply enters distally and runs back toward the fragment that gets separated** — which is the unifying principle and makes them memorable rather than a list.
 > **· Post-traumatic osteoarthritis** — especially after intra-articular fractures.
 > **· Growth arrest** in children — see 0.5.
-> **· Myositis ossificans** — cross-refer [[L6]] 0.4.
+> **· Myositis ossificans** — cross-refer [[L6_Soft_Tissue_Injury_and_Mobility]] 0.4.
 > **· Osteomyelitis.**
 
 > [!warning] Complex regional pain syndrome
@@ -92,10 +92,10 @@ population: mixed
 > **Document the specific nerve, not "NV intact"** — a generic entry is worthless when the deficit is discovered later.
 
 > [!tip] The rest of the upper limb
-> **· SCAPHOID** — cross-refer [[L5]] 0.6. **Radiographically occult in a significant proportion; immobilise and re-image or MRI. Proximal pole fractures risk AVN and non-union.**
+> **· SCAPHOID** — cross-refer [[L5_Regional_Limb_Pain]] 0.6. **Radiographically occult in a significant proportion; immobilise and re-image or MRI. Proximal pole fractures risk AVN and non-union.**
 > **· BENNETT — an intra-articular fracture-dislocation of the base of the FIRST metacarpal**, with the abductor pollicis longus pulling the shaft proximally. **ROLANDO** is the comminuted, Y- or T-shaped version. Both usually need fixation.
-> **· BOXER'S — fifth metacarpal neck.** Angulation is well tolerated at this site. **But any wound over the MCP joints is a FIGHT BITE until proven otherwise** — cross-refer [[A7]] 0.5.
-> **· RADIAL HEAD** — often subtle; **a posterior fat pad sign with elbow trauma means an occult fracture** — cross-refer [[L5]] 0.3.
+> **· BOXER'S — fifth metacarpal neck.** Angulation is well tolerated at this site. **But any wound over the MCP joints is a FIGHT BITE until proven otherwise** — cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5.
+> **· RADIAL HEAD** — often subtle; **a posterior fat pad sign with elbow trauma means an occult fracture** — cross-refer [[L5_Regional_Limb_Pain]] 0.3.
 > **· OLECRANON** — triceps insertion, so displaced fractures lose active extension and need fixation.
 > **· CLAVICLE** — middle third commonest; most are managed conservatively in a sling. **Check for skin tenting, neurovascular compromise, and pneumothorax with high-energy mechanisms.**
 > **· SCAPULA** — implies high energy; **look for associated chest injury.**
@@ -110,16 +110,16 @@ population: mixed
 > **· EXTRACAPSULAR (intertrochanteric, subtrochanteric) fractures spare the blood supply → the fracture is FIXED (dynamic hip screw or intramedullary nail).**
 > **This single anatomical fact explains the entire surgical decision**, and it is examinable.
 > **Clinical presentation: a SHORTENED, EXTERNALLY ROTATED leg** with inability to weight bear after a fall. **The Garden classification** grades displacement. `UNVERIFIED — the classification.`
-> **Undisplaced and impacted fractures may still allow weight bearing and may be radiographically occult** — cross-refer [[L5]] 0.4.
+> **Undisplaced and impacted fractures may still allow weight bearing and may be radiographically occult** — cross-refer [[L5_Regional_Limb_Pain]] 0.4.
 
 > [!warning] The hip fracture care bundle — where an intern makes the difference
 > **· ANALGESIA EARLY, and a regional block.** **A fascia iliaca or femoral nerve block provides excellent analgesia, reduces opioid requirement and reduces delirium** — and it is under-used. Do not manage a hip fracture with escalating opioids alone.
 > **· SURGERY WITHIN A DEFINED SHORT WINDOW** — delay increases mortality, delirium, pressure injury and pneumonia. **Do not delay for marginal "medical optimisation"** — most patients are best optimised by having the fracture fixed. `UNVERIFIED — the recommended time-to-surgery target.`
 > **· ORTHOGERIATRIC co-management** — improves mortality and function, and is the standard of care.
 > **· Delirium prevention · pressure area care · early mobilisation on day one post-operatively · nutrition · VTE prophylaxis · continence care.**
-> **· BONE PROTECTION and FALLS ASSESSMENT before discharge** — this is the fragility fracture that should trigger osteoporosis treatment, and it is the one most often missed. Cross-refer [[GER1]] 0.5–0.6.
+> **· BONE PROTECTION and FALLS ASSESSMENT before discharge** — this is the fragility fracture that should trigger osteoporosis treatment, and it is the one most often missed. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.5–0.6.
 > **· Discharge planning from admission.**
-> **Mortality in the year after hip fracture is high, and a proportion never return to their previous residence or function** — which makes an honest prognostic and goals-of-care conversation appropriate. Cross-refer [[GER2]] 0.5.
+> **Mortality in the year after hip fracture is high, and a proportion never return to their previous residence or function** — which makes an honest prognostic and goals-of-care conversation appropriate. Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5.
 
 > [!danger] Knee dislocation — check the vascular supply even if the pulses are normal
 > **Tibiofemoral dislocation carries a high risk of POPLITEAL ARTERY injury**, because the artery is tethered at the adductor hiatus and the soleal arch.
@@ -128,16 +128,16 @@ population: mixed
 > **Note also that a knee dislocation may have spontaneously reduced before arrival** — so a knee with gross multiligamentous laxity after high-energy trauma should be treated as a reduced dislocation.
 
 > [!tip] The lower limb eponyms and patterns
-> **· PELVIC FRACTURE** — high energy; **haemorrhage is the immediate threat.** **Apply a pelvic binder at the level of the GREATER TROCHANTERS, not the iliac crests.** Cross-refer [[F0.3]] 0.2 and [[L8]].
+> **· PELVIC FRACTURE** — high energy; **haemorrhage is the immediate threat.** **Apply a pelvic binder at the level of the GREATER TROCHANTERS, not the iliac crests.** Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.2 and [[L8_Facial__Head_and_Torso_Trauma]].
 > **· FEMORAL SHAFT** — significant blood loss, fat embolism risk, and it implies high energy in a young patient (or pathological fracture in an older one).
 > **· TIBIAL PLATEAU** — Schatzker classification; **high compartment syndrome risk**, and associated ligamentous and meniscal injury.
 > **· TIBIAL SHAFT — the highest risk site for both COMPARTMENT SYNDROME and OPEN fracture**, because the bone is subcutaneous along its anteromedial border.
-> **· ANKLE — WEBER classification by the level of the fibular fracture relative to the syndesmosis: A (below, usually stable), B (at the level, variable), C (above, syndesmosis disrupted, unstable).** **Bimalleolar and trimalleolar fractures are unstable.** **Always palpate the whole fibula for a MAISONNEUVE fracture** — cross-refer [[L5]] 0.7.
+> **· ANKLE — WEBER classification by the level of the fibular fracture relative to the syndesmosis: A (below, usually stable), B (at the level, variable), C (above, syndesmosis disrupted, unstable).** **Bimalleolar and trimalleolar fractures are unstable.** **Always palpate the whole fibula for a MAISONNEUVE fracture** — cross-refer [[L5_Regional_Limb_Pain]] 0.7.
 > **· TALAR NECK — high AVN risk**; the **Hawkins sign** (subchondral lucency at 6–8 weeks) indicates preserved vascularity.
 > **· CALCANEUS — axial load, classically a fall from height. ALWAYS IMAGE THE LUMBAR SPINE AND THE OTHER CALCANEUS** — the same axial force causes vertebral compression fractures and bilateral injury, and the spine fracture is missed because attention is on the painful heel. **Böhler angle** is reduced.
 > **· LISFRANC (tarsometatarsal) injury — subtle and frequently missed.** **Midfoot swelling with PLANTAR ECCHYMOSIS is highly suggestive.** **Non-weight-bearing films can look normal — weight-bearing or stress views, or CT, are needed**, and a missed Lisfranc injury causes midfoot collapse and disabling arthritis.
 > **· FIFTH METATARSAL — distinguish the AVULSION fracture of the tuberosity (from peroneus brevis, heals well, treated symptomatically) from the JONES fracture at the metaphyseal-diaphyseal junction, which has a POOR BLOOD SUPPLY, a high non-union rate, and often needs fixation, particularly in athletes.**
-> **· PATELLA — test the STRAIGHT LEG RAISE**; loss of active extension means the extensor mechanism is disrupted and needs fixation. Cross-refer [[L5]] 0.5.
+> **· PATELLA — test the STRAIGHT LEG RAISE**; loss of active extension means the extensor mechanism is disrupted and needs fixation. Cross-refer [[L5_Regional_Limb_Pain]] 0.5.
 
 ---
 
@@ -174,13 +174,13 @@ population: mixed
 > **· Specific high-specificity fractures: METAPHYSEAL CORNER or "bucket-handle" fractures · POSTERIOR RIB fractures · scapular, sternal and spinous process fractures · and classic sites of inflicted injury.**
 > **· Other injuries — bruising in unusual sites, burns, torn frenulum, retinal haemorrhage.**
 > **· Disclosure by the child, or a carer's demeanour that does not fit.**
-> **You do not need to be certain — you need to be concerned.** **Mandatory reporting obligations apply in South Australia, and reporting is a legal duty, not a discretionary judgement.** Cross-refer [[GER4]] and [[M6]]. `UNVERIFIED — the SA mandatory reporting requirements and pathway.`
+> **You do not need to be certain — you need to be concerned.** **Mandatory reporting obligations apply in South Australia, and reporting is a legal duty, not a discretionary judgement.** Cross-refer [[GER4_Safeguarding_and_Forensic]] and [[M6_Paediatric_Respiratory_and_Neurology]]. `UNVERIFIED — the SA mandatory reporting requirements and pathway.`
 > **Also consider the differential: osteogenesis imperfecta, rickets, and metabolic bone disease** — which is why a skeletal survey and metabolic workup form part of the assessment rather than an accusation.
 
 > [!tip] The paediatric-specific injuries
 > **· TODDLER'S FRACTURE** — an undisplaced spiral fracture of the tibia in a newly ambulant child, often with a trivial or unwitnessed mechanism, presenting as a refusal to weight bear. **May be radiographically subtle or invisible initially.**
 > **· BUCKLE (torus) fracture of the distal radius** — very common, stable, and **treated with a removable splint with minimal follow-up**, which is a change from historical casting.
-> **· PULLED ELBOW** — cross-refer [[L5]] 0.3.
+> **· PULLED ELBOW** — cross-refer [[L5_Regional_Limb_Pain]] 0.3.
 
 ---
 
@@ -189,18 +189,18 @@ population: mixed
 > [!danger] A minimal trauma fracture over 50 IS a diagnosis of osteoporosis
 > **A fracture from a fall from standing height or less identifies a person at high risk of the next fracture — with the risk highest in the period immediately following.**
 > **The treatment gap is one of the clearest quality failures in Australian practice: the majority of people who sustain a fragility fracture are never investigated or treated for osteoporosis.** The fracture is fixed and they are discharged.
-> **The concrete intern-level action: identify it as a fragility fracture, start calcium and vitamin D, arrange bone density assessment, and NAME the responsible clinician for osteoporosis management in the discharge summary.** Cross-refer [[GER1]] 0.6.
+> **The concrete intern-level action: identify it as a fragility fracture, start calcium and vitamin D, arrange bone density assessment, and NAME the responsible clinician for osteoporosis management in the discharge summary.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.6.
 > **Fracture liaison services exist to close this gap** — refer where available.
 
 > [!warning] Vertebral fragility fractures are frequently silent
 > **Many are found incidentally on a chest radiograph or CT done for another reason, or present only as height loss and progressive kyphosis.**
-> **An incidental vertebral fracture is a diagnosis of osteoporosis that is routinely not acted upon** — and it confers a high risk of further fracture. Cross-refer [[L4]] 0.6.
+> **An incidental vertebral fracture is a diagnosis of osteoporosis that is routinely not acted upon** — and it confers a high risk of further fracture. Cross-refer [[L4_Back_and_Neck_Pain]] 0.6.
 
 > [!tip] Practical considerations in the older fracture patient
-> **· Anticoagulation** — determines the timing of surgery and of any regional anaesthetic. Clarify the agent and the last dose. Cross-refer [[A9]] 0.4 and [[AN1]].
-> **· Delirium** — anticipate and prevent. Cross-refer [[D2]] 0.2.
-> **· Polypharmacy review** — the fall usually has a cause, and it is frequently in the drug chart. Cross-refer [[GER1]] 0.4.
-> **· Consider a PATHOLOGICAL fracture** — a fracture from minimal trauma in an unusual site, with pre-existing pain, or in a patient with a malignancy history. **Myeloma and metastatic disease present this way.** Cross-refer [[J4]] and [[B6]] 0.8.
+> **· Anticoagulation** — determines the timing of surgery and of any regional anaesthetic. Clarify the agent and the last dose. Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4 and [[AN1_Perioperative_Care]].
+> **· Delirium** — anticipate and prevent. Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2.
+> **· Polypharmacy review** — the fall usually has a cause, and it is frequently in the drug chart. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.4.
+> **· Consider a PATHOLOGICAL fracture** — a fracture from minimal trauma in an unusual site, with pre-existing pain, or in a patient with a malignancy history. **Myeloma and metastatic disease present this way.** Cross-refer [[J4_Paraproteins_and_Lymphoproliferative]] and [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8.
 
 ---
 
@@ -213,24 +213,24 @@ population: mixed
 > **4. Remove gross contamination only. Do NOT scrub or irrigate extensively in the emergency department** — definitive debridement happens in theatre.
 > **5. Cover with a saline-soaked sterile dressing, then an occlusive layer, and DO NOT KEEP TAKING IT OFF.** Repeated exposure increases infection risk, and each new clinician wanting a look adds to it.
 > **6. ANTIBIOTICS EARLY — time to antibiotics is a key determinant of infection risk.**
-> **7. TETANUS assessment and prophylaxis.** Cross-refer [[A7]] 0.5.
+> **7. TETANUS assessment and prophylaxis.** Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5.
 > **8. SPLINT and realign** — restoring gross alignment improves perfusion and reduces pain.
 > **9. URGENT orthopaedic referral, with plastic surgery involvement for significant soft tissue loss.**
 > **The Gustilo-Anderson classification** grades severity by wound size, contamination and soft tissue injury. `UNVERIFIED — the classification, the antibiotic regimen, and the time targets for antibiotics and debridement.`
 
 > [!danger] The orthopaedic emergencies — the list worth knowing cold
-> **· COMPARTMENT SYNDROME** — pain out of proportion, pain on passive stretch. **Pulses present until late.** Cross-refer [[A7]] 0.6.
+> **· COMPARTMENT SYNDROME** — pain out of proportion, pain on passive stretch. **Pulses present until late.** Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.
 > **· OPEN FRACTURE** — as above.
-> **· SEPTIC ARTHRITIS** — cross-refer [[L1]] 0.2.
-> **· CAUDA EQUINA SYNDROME** — cross-refer [[L4]] 0.2.
-> **· NECROTISING SOFT TISSUE INFECTION** — cross-refer [[K2]] 0.2.
+> **· SEPTIC ARTHRITIS** — cross-refer [[L1_Hot_and_Swollen_Joint]] 0.2.
+> **· CAUDA EQUINA SYNDROME** — cross-refer [[L4_Back_and_Neck_Pain]] 0.2.
+> **· NECROTISING SOFT TISSUE INFECTION** — cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.2.
 > **· ANY DISLOCATION OR FRACTURE WITH NEUROVASCULAR COMPROMISE** — reduce urgently; realignment often restores perfusion.
 > **· HIP DISLOCATION — native or prosthetic. AVN risk rises with time to reduction**, so this is a same-hour problem. **Posterior dislocation risks SCIATIC nerve injury — test ankle dorsiflexion and sensation.**
 > **· KNEE DISLOCATION — popliteal artery injury, with normal pulses not excluding it.**
 > **· SUPRACONDYLAR FRACTURE with a pulseless hand.**
-> **· UNSTABLE PELVIC FRACTURE with haemorrhage** — binder, and activate the massive transfusion protocol. Cross-refer [[F0.3]] 0.2 and [[A9]] 0.1.
-> **· SPINAL CORD INJURY, and any spinal injury in a FUSED spine.** Cross-refer [[L4]] 0.7.
-> **· METASTATIC SPINAL CORD COMPRESSION** — cross-refer [[L4]] 0.3.
+> **· UNSTABLE PELVIC FRACTURE with haemorrhage** — binder, and activate the massive transfusion protocol. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.2 and [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1.
+> **· SPINAL CORD INJURY, and any spinal injury in a FUSED spine.** Cross-refer [[L4_Back_and_Neck_Pain]] 0.7.
+> **· METASTATIC SPINAL CORD COMPRESSION** — cross-refer [[L4_Back_and_Neck_Pain]] 0.3.
 
 > [!warning] Document neurovascular status before and after everything
 > **Before and after: reduction, splinting, casting, and transfer.**
@@ -242,4 +242,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Compartment syndrome, crush injury and tetanus → [[A7]] 0.5–0.6 · Occult scaphoid and hip fractures, and the Maisonneuve → [[L5]] 0.4, 0.6, 0.7 · Haemarthrosis and lipohaemarthrosis → [[L1]] 0.4 · Immobilisation, rehabilitation and mobility aids → [[L6]] · Spinal fractures and the fused spine → [[L4]] 0.6–0.7 · Major trauma, pelvic binder and massive transfusion → [[L8]], [[F0.3]] 0.2 and [[A9]] 0.1 · Osteoporosis and the treatment gap → [[GER1]] 0.6 · Falls assessment → [[GER1]] 0.5 · Delirium prevention → [[D2]] 0.2 · Anticoagulation and surgical timing → [[A9]] 0.4 and [[AN1]] · Pathological fracture, myeloma and sarcoma → [[J4]] and [[B6]] 0.8 · Non-accidental injury and mandatory reporting → [[GER4]] and [[M6]] · Paediatric limp and elbow → [[M5]] · Goals of care after hip fracture → [[GER2]] 0.5
+> Compartment syndrome, crush injury and tetanus → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5–0.6 · Occult scaphoid and hip fractures, and the Maisonneuve → [[L5_Regional_Limb_Pain]] 0.4, 0.6, 0.7 · Haemarthrosis and lipohaemarthrosis → [[L1_Hot_and_Swollen_Joint]] 0.4 · Immobilisation, rehabilitation and mobility aids → [[L6_Soft_Tissue_Injury_and_Mobility]] · Spinal fractures and the fused spine → [[L4_Back_and_Neck_Pain]] 0.6–0.7 · Major trauma, pelvic binder and massive transfusion → [[L8_Facial__Head_and_Torso_Trauma]], [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.2 and [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1 · Osteoporosis and the treatment gap → [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 · Falls assessment → [[GER1_Comprehensive_Geriatric_Assessment]] 0.5 · Delirium prevention → [[D2_Altered_Consciousness_and_Cognition]] 0.2 · Anticoagulation and surgical timing → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4 and [[AN1_Perioperative_Care]] · Pathological fracture, myeloma and sarcoma → [[J4_Paraproteins_and_Lymphoproliferative]] and [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8 · Non-accidental injury and mandatory reporting → [[GER4_Safeguarding_and_Forensic]] and [[M6_Paediatric_Respiratory_and_Neurology]] · Paediatric limp and elbow → [[M5_Paediatric_GI__GU_and_Limb]] · Goals of care after hip fracture → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5

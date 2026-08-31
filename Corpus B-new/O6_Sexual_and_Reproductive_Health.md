@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from guidelines. Clinical reasoning, counselling structure and discriminators are reliable at intern level. **Every regimen, dose, timing window, eligibility criterion and legal provision carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **All antimicrobial regimens are omitted** — obtain them from the **Australian STI Management Guidelines (ASHM)** and **eTG Antibiotic**, because **gonorrhoea resistance patterns and recommended therapy change**. Contraceptive eligibility should be checked against the **UKMEC/WHO Medical Eligibility Criteria**. **Termination of pregnancy law is state-based** — in South Australia the relevant Act is the **Termination of Pregnancy Act 2021** — and must be verified.
 >
-> **HIV, PrEP and post-exposure prophylaxis are built in [[K3]] 0.2 and 0.4** and are cross-referenced rather than repeated.
+> **HIV, PrEP and post-exposure prophylaxis are built in [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.2 and 0.4** and are cross-referenced rather than repeated.
 
 ---
 
@@ -35,7 +35,7 @@ population: mixed
 > [!warning] Confidentiality — and being accurate about its limits
 > **Say what confidentiality means, including its limits**, rather than promising absolute secrecy you cannot deliver.
 > **Notifiable diseases are notified. Contact tracing occurs. Child protection obligations apply.**
-> **For adolescents, confidentiality is central to whether they attend at all** — and capacity to consent is assessed by maturity and understanding rather than age alone. **South Australia also has statutory provisions on the age of consent to medical treatment.** Cross-refer [[A10]] 0.1. **Be clear about what you would need to share and why**, and involve them in that decision where possible.
+> **For adolescents, confidentiality is central to whether they attend at all** — and capacity to consent is assessed by maturity and understanding rather than age alone. **South Australia also has statutory provisions on the age of consent to medical treatment.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1. **Be clear about what you would need to share and why**, and involve them in that decision where possible.
 
 > [!danger] Contact tracing and notification are a core competency, not someone else's job
 > **Chlamydia, gonorrhoea, syphilis, HIV and hepatitis are notifiable.**
@@ -45,9 +45,9 @@ population: mixed
 
 > [!warning] The Australian epidemiology that changes practice
 > **Rates of chlamydia, gonorrhoea and infectious syphilis are substantially higher in some remote Aboriginal and Torres Strait Islander communities**, and there has been a **sustained infectious syphilis outbreak across northern and central Australia, with cases of CONGENITAL SYPHILIS** — a condition that should not occur where antenatal screening and treatment are accessible.
-> **The practical consequences: a lower testing threshold, opportunistic screening, repeat syphilis screening in pregnancy in high-prevalence settings rather than a single test, and prompt treatment.** Cross-refer [[AU1]] and [[O2]]. `UNVERIFIED — the current outbreak status and the recommended antenatal retesting schedule.`
+> **The practical consequences: a lower testing threshold, opportunistic screening, repeat syphilis screening in pregnancy in high-prevalence settings rather than a single test, and prompt treatment.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] and [[O2_Later_Pregnancy_and_Fetal]]. `UNVERIFIED — the current outbreak status and the recommended antenatal retesting schedule.`
 
-**Ix:** **Chlamydia and gonorrhoea NAAT from all exposed sites** (*why:* extragenital infection is common and asymptomatic; *what:* positive NAAT). **Gonorrhoea CULTURE where positive or symptomatic, before treatment** (*why:* **NAAT does not give antimicrobial sensitivities, and gonorrhoea resistance is a growing and serious problem — culture is what allows resistance to be tracked and treatment adjusted**; *what:* organism and sensitivities). **Syphilis serology** (*why:* rising incidence, protean presentations, and it is easily treated; *what:* treponemal and non-treponemal results). **HIV testing** (*why:* offer broadly rather than selectively; *what:* fourth-generation assay — cross-refer [[K3]] 0.4). **Hepatitis B serology, and hepatitis C where risk factors** (*why:* vaccination status, chronic infection, and hepatitis C is now curable; *what:* serology). Pregnancy test where relevant (*why:* changes management and drug choice; *what:* positive). **Repeat testing after the window period** (*why:* early infection may not yet be detectable, and a negative test taken too soon gives false reassurance; *what:* seroconversion — `UNVERIFIED — window periods for each infection`).
+**Ix:** **Chlamydia and gonorrhoea NAAT from all exposed sites** (*why:* extragenital infection is common and asymptomatic; *what:* positive NAAT). **Gonorrhoea CULTURE where positive or symptomatic, before treatment** (*why:* **NAAT does not give antimicrobial sensitivities, and gonorrhoea resistance is a growing and serious problem — culture is what allows resistance to be tracked and treatment adjusted**; *what:* organism and sensitivities). **Syphilis serology** (*why:* rising incidence, protean presentations, and it is easily treated; *what:* treponemal and non-treponemal results). **HIV testing** (*why:* offer broadly rather than selectively; *what:* fourth-generation assay — cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.4). **Hepatitis B serology, and hepatitis C where risk factors** (*why:* vaccination status, chronic infection, and hepatitis C is now curable; *what:* serology). Pregnancy test where relevant (*why:* changes management and drug choice; *what:* positive). **Repeat testing after the window period** (*why:* early infection may not yet be detectable, and a negative test taken too soon gives false reassurance; *what:* seroconversion — `UNVERIFIED — window periods for each infection`).
 
 ### 0.1.1 Mx – Immediate
 Empirical treatment where the presentation is symptomatic and follow-up is uncertain — **treating presumptively is often correct in sexual health**, since the cost of overtreatment is low and loss to follow-up is common.
@@ -56,7 +56,7 @@ Empirical treatment where the presentation is symptomatic and follow-up is uncer
 Pathogen-specific treatment, partner notification, and notification.
 
 ### 0.1.3 Mx – Chronic/long-term
-**Retesting for reinfection**, which is common. Vaccination (HPV, hepatitis A and B). **Discuss PrEP where there is ongoing HIV risk** — cross-refer [[K3]] 0.2.
+**Retesting for reinfection**, which is common. Vaccination (HPV, hepatitis A and B). **Discuss PrEP where there is ongoing HIV risk** — cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.2.
 
 ---
 
@@ -64,13 +64,13 @@ Pathogen-specific treatment, partner notification, and notification.
 
 > [!tip] Chlamydia
 > **The commonest notifiable condition in Australia, and largely asymptomatic** — which is why screening rather than symptom-based testing is the strategy.
-> **Presentations: urethritis, cervicitis, pelvic inflammatory disease, epididymo-orchitis, proctitis, conjunctivitis, and reactive arthritis.** **Fitz-Hugh-Curtis syndrome** — perihepatitis causing right upper quadrant pain in a woman with PID — cross-refer [[C1]] 0.3.
+> **Presentations: urethritis, cervicitis, pelvic inflammatory disease, epididymo-orchitis, proctitis, conjunctivitis, and reactive arthritis.** **Fitz-Hugh-Curtis syndrome** — perihepatitis causing right upper quadrant pain in a woman with PID — cross-refer [[C1_Acute_Abdomen]] 0.3.
 > **Consequences of untreated infection in women: PID, tubal factor infertility, chronic pelvic pain and ectopic pregnancy.** That is the reason for the low treatment threshold.
 > **Retest for reinfection at around three months** — not test of cure, but because reinfection from an untreated partner is common. `UNVERIFIED — regimens and retesting interval; note that doxycycline has replaced azithromycin as first line in most situations, including rectal infection.`
 
 > [!danger] Gonorrhoea — and antimicrobial resistance
 > **Purulent urethral discharge and dysuria in men (usually symptomatic); cervicitis in women (frequently NOT symptomatic); and pharyngeal and rectal infection that is usually asymptomatic.**
-> **Disseminated gonococcal infection** — a migratory polyarthralgia, tenosynovitis and pustular skin lesions ("arthritis-dermatitis syndrome"), or a frank septic arthritis. **Consider gonorrhoea in a sexually active young person with a septic-looking joint.** Cross-refer [[L1]].
+> **Disseminated gonococcal infection** — a migratory polyarthralgia, tenosynovitis and pustular skin lesions ("arthritis-dermatitis syndrome"), or a frank septic arthritis. **Consider gonorrhoea in a sexually active young person with a septic-looking joint.** Cross-refer [[L1_Hot_and_Swollen_Joint]].
 > **Ophthalmia neonatorum** — hyperacute purulent conjunctivitis in a newborn, which threatens sight.
 > **Neisseria gonorrhoeae has developed resistance to successive antibiotic classes and remains a serious global concern.** **This is why culture matters, why the recommended regimen changes, and why the current guideline must be checked rather than recalled.** `UNVERIFIED — regimens, and the indications for test of cure, which are broader than for chlamydia.`
 
@@ -82,7 +82,7 @@ Pathogen-specific treatment, partner notification, and notification.
 > **NEUROSYPHILIS, OCULAR AND OTOSYPHILIS CAN OCCUR AT ANY STAGE, INCLUDING EARLY** — this is a common misconception. **Any patient with syphilis and visual symptoms, hearing loss or neurological features needs urgent assessment**, because ocular syphilis causes irreversible blindness and is treated as neurosyphilis.
 > **Serology: a treponemal test (which stays positive for life) and a non-treponemal test such as RPR (which reflects disease activity and is used to monitor treatment response).** Interpreting the pair together is what distinguishes active from treated past infection.
 > **Treatment is benzathine penicillin**, and **the Jarisch-Herxheimer reaction — fever, chills, myalgia and worsening rash within hours of the first dose — must be warned about**, or the patient believes they are allergic. **In pregnancy it can precipitate contractions and fetal distress**, so treatment in late pregnancy is given with monitoring.
-> **Penicillin allergy in a pregnant woman with syphilis is a specific problem — desensitisation is indicated, because no alternative reliably treats the fetus.** Cross-refer [[K4]] 0.3.
+> **Penicillin allergy in a pregnant woman with syphilis is a specific problem — desensitisation is indicated, because no alternative reliably treats the fetus.** Cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.3.
 
 > [!tip] Genital herpes — the counselling is the treatment
 > **HSV-1 now causes a large and increasing proportion of genital herpes**, transmitted by oral sex, which surprises patients.
@@ -90,7 +90,7 @@ Pathogen-specific treatment, partner notification, and notification.
 > **Diagnosis is by PCR of a swab from the base of a deroofed lesion.** Type-specific serology has limited use.
 > **The psychological impact substantially exceeds the medical significance**, and the counselling is the most important part of the consultation:
 > **· It is very common. · Most transmission occurs from ASYMPTOMATIC SHEDDING, not from visible lesions, which is why partners may have had it for years unknowingly. · Suppressive antiviral therapy reduces both recurrences and transmission. · It does not affect fertility. · Disclosure to partners is encouraged and can be rehearsed. · It is not a reflection of anything about them.**
-> **In pregnancy: the risk of neonatal herpes is highest with a FIRST (primary) infection acquired near term**, because there is no time for maternal antibody transfer. **Established recurrent herpes carries a much lower risk.** Cross-refer [[O3]].
+> **In pregnancy: the risk of neonatal herpes is highest with a FIRST (primary) infection acquired near term**, because there is no time for maternal antibody transfer. **Established recurrent herpes carries a much lower risk.** Cross-refer [[O3_Labour__Delivery_and_Postpartum]].
 
 > [!tip] HPV, warts and the Australian program
 > **Genital warts are caused by low-risk HPV types; oncogenic types cause cervical, anal, penile and oropharyngeal cancer.**
@@ -100,8 +100,8 @@ Pathogen-specific treatment, partner notification, and notification.
 > [!warning] The others worth knowing
 > **· *Mycoplasma genitalium*** — an increasingly recognised cause of non-gonococcal urethritis, cervicitis and PID, with **substantial macrolide resistance**, requiring resistance-guided therapy and **test of cure.** Do not treat empirically without checking current guidance.
 > **· *Trichomonas vaginalis*** — frothy malodorous discharge with vulvovaginal irritation, and a "strawberry cervix" classically. **Higher prevalence in remote Australian communities**, and it increases HIV transmission risk.
-> **· Pelvic inflammatory disease** — cross-refer [[O5]]. **Treat empirically on a low threshold**, because the diagnostic tests are imperfect and the consequences of missing it are infertility, chronic pain and ectopic pregnancy.
-> **· Epididymo-orchitis** — in younger men usually sexually transmitted; in older men usually enteric organisms. **Testicular torsion must be excluded first** — cross-refer [[H4]].
+> **· Pelvic inflammatory disease** — cross-refer [[O5_Pelvic_and_Vulval_Conditions]]. **Treat empirically on a low threshold**, because the diagnostic tests are imperfect and the consequences of missing it are infertility, chronic pain and ectopic pregnancy.
+> **· Epididymo-orchitis** — in younger men usually sexually transmitted; in older men usually enteric organisms. **Testicular torsion must be excluded first** — cross-refer [[H4_Scrotum__Groin_and_Loin]].
 > **· Hepatitis A and B** — vaccine-preventable, with **hepatitis A vaccination recommended for men who have sex with men.**
 > **· Lymphogranuloma venereum** — an invasive chlamydia serovar causing severe proctitis in men who have sex with men, requiring longer treatment.
 
@@ -131,7 +131,7 @@ Retesting, vaccination, PrEP discussion, and **serological follow-up after syphi
 
 > [!warning] Combined hormonal contraception — the contraindications that matter
 > **Absolute or strong contraindications include:**
-> **· MIGRAINE WITH AURA — at any age.** Increased ischaemic stroke risk. **This is the most examined and most clinically important one.** Cross-refer [[D1]] 0.3.
+> **· MIGRAINE WITH AURA — at any age.** Increased ischaemic stroke risk. **This is the most examined and most clinically important one.** Cross-refer [[D1_Headache_and_Meningism]] 0.3.
 > **· Previous venous thromboembolism, known thrombophilia, or major surgery with prolonged immobilisation.**
 > **· Smoking at age 35 or over.**
 > **· Uncontrolled hypertension, established ischaemic heart disease, or previous stroke.**
@@ -146,7 +146,7 @@ Retesting, vaccination, PrEP discussion, and **serological follow-up after syphi
 > **· Progestogen-only pill** — **safe in most situations where combined contraception is contraindicated**, including breastfeeding, migraine with aura, VTE history and smoking over 35. **Traditional formulations have a narrow missed-pill window; drospirenone and desogestrel-containing pills have a longer window** — a practically important distinction. Some are now available without prescription in Australia. `UNVERIFIED — the windows and current availability.`
 > **· Etonogestrel implant** — highly effective, and **the commonest reason for early removal is unpredictable bleeding.** **Counselling about the bleeding pattern BEFORE insertion substantially improves continuation** — patients who are told to expect it tolerate it; patients who are not, do not.
 > **· Depot medroxyprogesterone acetate** — effective and private, but **causes a reduction in bone mineral density (largely recoverable) and a DELAYED return to fertility of up to a year after the last injection**, which must be discussed with anyone who may want to conceive soon.
-> **· Levonorgestrel intrauterine system** — contraception plus **treatment of heavy menstrual bleeding, and endometrial protection** (useful in PCOS and with oestrogen therapy). Cross-refer [[O4]] and [[I4]] 0.6.
+> **· Levonorgestrel intrauterine system** — contraception plus **treatment of heavy menstrual bleeding, and endometrial protection** (useful in PCOS and with oestrogen therapy). Cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] and [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6.
 > **· Copper IUD** — **non-hormonal**, long-acting, and also the most effective emergency contraception. **It typically makes periods heavier and more painful**, which is the main reason for removal.
 
 > [!warning] IUD insertion — take the pain seriously
@@ -157,10 +157,10 @@ Retesting, vaccination, PrEP discussion, and **serological follow-up after syphi
 > [!danger] Enzyme inducers reduce contraceptive efficacy — with important exceptions
 > **Rifampicin and rifabutin, some antiepileptics (carbamazepine, phenytoin, phenobarbitone, topiramate at higher doses), some antiretrovirals, and St John's wort** induce hepatic enzymes and **reduce the efficacy of combined hormonal contraception, the progestogen-only pill and the implant.**
 > **The methods NOT affected: the copper IUD, the hormonal IUD, and depot medroxyprogesterone** — because they do not depend on hepatic first-pass metabolism.
-> **This matters most in epilepsy**, where the drugs are often teratogenic and an unplanned pregnancy is exactly what must be avoided. **The counselling is repeatedly missed.** Cross-refer [[D6]] 0.3.
+> **This matters most in epilepsy**, where the drugs are often teratogenic and an unplanned pregnancy is exactly what must be avoided. **The counselling is repeatedly missed.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.3.
 
 > [!tip] Specific situations
-> **· Adolescents** — capacity assessed by maturity; confidentiality; LARC is appropriate and should not be withheld on grounds of age or parity. Cross-refer [[A10]] 0.1 and [[M7]].
+> **· Adolescents** — capacity assessed by maturity; confidentiality; LARC is appropriate and should not be withheld on grounds of age or parity. Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1 and [[M7_Adolescent_and_Behavioural_Health]].
 > **· Postpartum** — timing depends on breastfeeding and VTE risk; **the implant and progestogen-only methods can be started immediately**, and an IUD can be inserted immediately post-placenta or after a delay.
 > **· Perimenopause** — contraception is still needed; the hormonal IUD is particularly useful, providing contraception, bleeding control and endometrial protection alongside oestrogen therapy.
 > **· Obesity** — affects the efficacy of some methods and the choice of emergency contraception.
@@ -223,34 +223,34 @@ Support the person's decision, refer promptly, and arrange ongoing contraception
 > [!danger] Erectile dysfunction is a cardiovascular marker
 > **The penile arteries are small, so endothelial dysfunction and atherosclerosis manifest there BEFORE they cause coronary symptoms — often by several years.**
 > **A man presenting with erectile dysfunction should have a cardiovascular risk assessment: blood pressure, lipids, glucose, smoking, weight, and a symptom enquiry.**
-> **It is a sentinel event and an opportunity for primary prevention**, and treating it as purely a sexual complaint wastes that. Cross-refer [[B2]] 0.1 and [[GER3]].
+> **It is a sentinel event and an opportunity for primary prevention**, and treating it as purely a sexual complaint wastes that. Cross-refer [[B2_Hypertension_Spectrum]] 0.1 and [[GER3_Preventive_and_Occupational_Health]].
 
 > [!tip] Organic versus psychogenic
 > **Preserved spontaneous nocturnal and early morning erections, sudden onset, situational variability, and a clear precipitant point to PSYCHOGENIC.**
 > **Gradual onset, loss of nocturnal erections, and consistent difficulty in all situations point to ORGANIC.**
 > **Most cases have elements of both** — an organic problem generates performance anxiety which compounds it.
-> **Causes: vascular (the commonest) · neurogenic (diabetes, spinal, post-prostatectomy) · endocrine (hypogonadism, hyperprolactinaemia — cross-refer [[I4]] 0.2) · DRUGS — antihypertensives (thiazides, beta-blockers), SSRIs, antipsychotics, finasteride, opioids, and alcohol · and psychological.**
+> **Causes: vascular (the commonest) · neurogenic (diabetes, spinal, post-prostatectomy) · endocrine (hypogonadism, hyperprolactinaemia — cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.2) · DRUGS — antihypertensives (thiazides, beta-blockers), SSRIs, antipsychotics, finasteride, opioids, and alcohol · and psychological.**
 > **Review the drug chart** — it is a common and correctable contributor, and men frequently stop antihypertensives silently because of it rather than raising it.
-> **PDE5 inhibitors are first-line — and are ABSOLUTELY CONTRAINDICATED WITH NITRATES**, in any form, because of profound hypotension. **Ask about them before giving GTN to a man with chest pain**, and vice versa. Cross-refer [[B1]] 0.1.
+> **PDE5 inhibitors are first-line — and are ABSOLUTELY CONTRAINDICATED WITH NITRATES**, in any form, because of profound hypotension. **Ask about them before giving GTN to a man with chest pain**, and vice versa. Cross-refer [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.1.
 
 > [!tip] Female sexual dysfunction
 > Categorised by **desire, arousal, orgasm and pain** — and they interact, so identifying which predominates guides management.
 > **Dyspareunia should be characterised as SUPERFICIAL or DEEP:**
 > **· Superficial (entry) — vulvovaginal: genitourinary syndrome of menopause and atrophy, vulvodynia, vaginismus, dermatoses (lichen sclerosus), infection, inadequate arousal or lubrication.**
 > **· Deep — pelvic: endometriosis, pelvic inflammatory disease, adhesions, ovarian pathology, irritable bowel, interstitial cystitis.**
-> **Genitourinary syndrome of menopause is very common, very treatable with topical vaginal oestrogen, and vastly under-treated** — largely because it is not asked about. Cross-refer [[O4]] and [[O5]].
+> **Genitourinary syndrome of menopause is very common, very treatable with topical vaginal oestrogen, and vastly under-treated** — largely because it is not asked about. Cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] and [[O5_Pelvic_and_Vulval_Conditions]].
 > **Vaginismus** — involuntary pelvic floor contraction, often with a cycle of anticipatory pain and avoidance. Responds to pelvic floor physiotherapy and psychological therapy.
 
 > [!danger] Always ask about coercion and sexual violence
 > **Sexual pain, dysfunction and avoidance are common presentations of past or current sexual violence, coercive control or intimate partner violence.**
-> **Ask, privately and directly, and always with the partner out of the room.** Cross-refer [[GER4]] and [[K3]] 0.2.
+> **Ask, privately and directly, and always with the partner out of the room.** Cross-refer [[GER4_Safeguarding_and_Forensic]] and [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.2.
 > **Never conduct an examination in this context without explicit, unhurried consent, and stop if asked.**
 
 > [!warning] Antidepressant-associated sexual dysfunction drives non-adherence
 > **SSRIs commonly cause reduced libido, delayed or absent orgasm, and erectile difficulty**, and **patients frequently stop the medication without telling anyone rather than raise it.**
-> **Ask about it proactively when prescribing and at review.** Options include dose adjustment, switching agent, or adjunctive strategies. Cross-refer [[N4]].
+> **Ask about it proactively when prescribing and at review.** Options include dose adjustment, switching agent, or adjunctive strategies. Cross-refer [[N4_Mood_Disorders]].
 
-**Ix:** **Cardiovascular risk assessment — blood pressure, lipids, HbA1c, smoking status** (*why:* erectile dysfunction is a marker of vascular disease and this is the main clinical value of the presentation; *what:* risk factors). **Morning total testosterone, with SHBG and LH/FSH if low** (*why:* hypogonadism, and **the sample must be a morning one and confirmed on repeat** — cross-refer [[I4]] 0.6; *what:* low testosterone). Prolactin and TFTs (*why:* hyperprolactinaemia and thyroid disease; *what:* abnormal results). **Medication review** (*why:* a common, reversible cause; *what:* culprit drug). Examination including genital examination (*why:* Peyronie disease, testicular atrophy, phimosis, and in women atrophy, dermatoses and pelvic floor tone; *what:* structural findings). Pelvic ultrasound where deep dyspareunia (*why:* endometriosis, adnexal pathology; *what:* structural cause).
+**Ix:** **Cardiovascular risk assessment — blood pressure, lipids, HbA1c, smoking status** (*why:* erectile dysfunction is a marker of vascular disease and this is the main clinical value of the presentation; *what:* risk factors). **Morning total testosterone, with SHBG and LH/FSH if low** (*why:* hypogonadism, and **the sample must be a morning one and confirmed on repeat** — cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6; *what:* low testosterone). Prolactin and TFTs (*why:* hyperprolactinaemia and thyroid disease; *what:* abnormal results). **Medication review** (*why:* a common, reversible cause; *what:* culprit drug). Examination including genital examination (*why:* Peyronie disease, testicular atrophy, phimosis, and in women atrophy, dermatoses and pelvic floor tone; *what:* structural findings). Pelvic ultrasound where deep dyspareunia (*why:* endometriosis, adnexal pathology; *what:* structural cause).
 
 ### 0.5.1 Mx – Immediate
 Not applicable.
@@ -296,11 +296,11 @@ Treat the reversible causes and the underlying condition; PDE5 inhibitors; topic
 > **DELAYED puberty** — absence of onset by the defined age.
 > **· Constitutional delay of growth and puberty is the commonest cause, is benign, and typically has a family history** — but it is a diagnosis of exclusion.
 > **· Exclude: chronic disease (coeliac disease, inflammatory bowel disease, chronic kidney disease), UNDERNUTRITION AND EATING DISORDERS, excessive exercise, hypothyroidism, hyperprolactinaemia, Turner syndrome in girls, Klinefelter syndrome in boys, and Kallmann syndrome (hypogonadotrophic hypogonadism WITH ANOSMIA — ask about the sense of smell, it is a free and specific clue).**
-> Cross-refer [[M4]] and [[M7]].
+> Cross-refer [[M4_Growth_and_Development]] and [[M7_Adolescent_and_Behavioural_Health]].
 
 > [!warning] Confidentiality and capacity in adolescents
 > **Adolescents may consent to treatment where they have sufficient maturity and understanding**, and **confidentiality is often the determining factor in whether they seek care at all.**
-> **Be explicit about what is confidential and what is not**, encourage involvement of a trusted adult without requiring it, and be alert to the safeguarding situations where confidentiality cannot be maintained. Cross-refer [[A10]] 0.1, [[M7]] and [[GER4]].
+> **Be explicit about what is confidential and what is not**, encourage involvement of a trusted adult without requiring it, and be alert to the safeguarding situations where confidentiality cannot be maintained. Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1, [[M7_Adolescent_and_Behavioural_Health]] and [[GER4_Safeguarding_and_Forensic]].
 
 **Ix:** **Organ-based rather than gender-based screening** (*why:* the whole point of the organ inventory; *what:* cervical screening, breast screening, prostate consideration as anatomically appropriate). For precocious or delayed puberty: **bone age radiograph** (*why:* compares skeletal to chronological age, distinguishing constitutional delay from pathology and assessing height potential; *what:* advanced or delayed bone age). **LH, FSH and sex steroids** (*why:* **distinguishes central from peripheral, and hypogonadotrophic from hypergonadotrophic hypogonadism — the key branch point**; *what:* the gonadotrophin pattern). **Karyotype** where indicated (*why:* Turner and Klinefelter syndromes; *what:* chromosomal abnormality). **MRI brain and pituitary** (*why:* central precocious puberty in boys, and hypogonadotrophic hypogonadism, may reflect an intracranial lesion; *what:* lesion). Coeliac serology, FBC, ESR, UEC, TFTs, prolactin (*why:* chronic disease as a cause of delay; *what:* underlying condition). **Growth chart plotting over time** (*why:* the trajectory is more informative than any single measurement; *what:* growth velocity, centile crossing).
 
@@ -316,4 +316,4 @@ Specialist paediatric endocrine referral for precocious or pathological delayed 
 ---
 
 > [!note] Cross-references
-> HIV, PrEP and post-exposure prophylaxis → [[K3]] 0.2, 0.4 · Sexual assault pathway → [[K3]] 0.2 and [[GER4]] · Pelvic inflammatory disease and vulval symptoms → [[O5]] · Menstrual disorders, menopause and endometrial protection → [[O4]] · Pregnancy, antenatal screening and congenital infection → [[O2]] · Postpartum and neonatal herpes → [[O3]] · Acute scrotum and epididymo-orchitis → [[H4]] · Migraine with aura and contraception → [[D1]] 0.3 · Enzyme-inducing antiepileptics → [[D6]] 0.3 · Erectile dysfunction, nitrates and cardiovascular risk → [[B1]] 0.1 and [[B2]] 0.1 · Hypogonadism, hyperprolactinaemia and PCOS → [[I4]] 0.2, 0.6 · Antidepressant sexual side effects → [[N4]] · Penicillin allergy and desensitisation → [[K4]] 0.3 · Septic arthritis → [[L1]] · Capacity and consent in minors → [[A10]] 0.1 · Adolescent health → [[M7]] · Puberty and growth → [[M4]] · Aboriginal and Torres Strait Islander health → [[AU1]] · Preventive health, screening and immunisation → [[GER3]]
+> HIV, PrEP and post-exposure prophylaxis → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.2, 0.4 · Sexual assault pathway → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.2 and [[GER4_Safeguarding_and_Forensic]] · Pelvic inflammatory disease and vulval symptoms → [[O5_Pelvic_and_Vulval_Conditions]] · Menstrual disorders, menopause and endometrial protection → [[O4_Abnormal_and_Menstrual_Bleeding]] · Pregnancy, antenatal screening and congenital infection → [[O2_Later_Pregnancy_and_Fetal]] · Postpartum and neonatal herpes → [[O3_Labour__Delivery_and_Postpartum]] · Acute scrotum and epididymo-orchitis → [[H4_Scrotum__Groin_and_Loin]] · Migraine with aura and contraception → [[D1_Headache_and_Meningism]] 0.3 · Enzyme-inducing antiepileptics → [[D6_Seizures_and_Movement_Disorders]] 0.3 · Erectile dysfunction, nitrates and cardiovascular risk → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.1 and [[B2_Hypertension_Spectrum]] 0.1 · Hypogonadism, hyperprolactinaemia and PCOS → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.2, 0.6 · Antidepressant sexual side effects → [[N4_Mood_Disorders]] · Penicillin allergy and desensitisation → [[K4_Allergy_and_Clinical_Immunology]] 0.3 · Septic arthritis → [[L1_Hot_and_Swollen_Joint]] · Capacity and consent in minors → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1 · Adolescent health → [[M7_Adolescent_and_Behavioural_Health]] · Puberty and growth → [[M4_Growth_and_Development]] · Aboriginal and Torres Strait Islander health → [[AU1_Australian_Health_Context_and_ATSI_Health]] · Preventive health, screening and immunisation → [[GER3_Preventive_and_Occupational_Health]]

@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from guidelines. Physiology, diagnostic reasoning and discriminators are reliable at intern level. **Every BMI category, lipid target, correction rate, dose and threshold carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **All sodium correction rate limits in 0.5 are omitted, not flagged** — over-rapid correction causes irreversible osmotic demyelination, and this is not a figure to reproduce from memory. Obtain it from eTG and your health network's protocol. Verify lipid management against the **Australian absolute cardiovascular risk calculator** and PBS criteria, and obesity pharmacotherapy against current PBS and TGA status, which is changing rapidly.
 >
-> **Acid-base, DKA, isotonic dehydration and third-spacing are built in [[F0.2]]** and are cross-referenced rather than repeated.
+> **Acid-base, DKA, isotonic dehydration and third-spacing are built in [[F0-2_Acid-Base__DKA_and_Fluid_States]]** and are cross-referenced rather than repeated.
 
 ---
 
@@ -35,7 +35,7 @@ population: mixed
 > **· Obstructive sleep apnoea and sleep deprivation**, which are both consequence and cause.
 > **· Reduced mobility and chronic pain.**
 > **· Social determinants** — food cost and availability, housing, shift work, and time.
-> **· Psychological** — depression, trauma, binge eating disorder. Cross-refer [[N8]].
+> **· Psychological** — depression, trauma, binge eating disorder. Cross-refer [[N8_Eating_Disorders]].
 
 > [!info] Management, and what the evidence supports
 > **· Lifestyle** — **adherence matters more than dietary composition**; any sustainable energy deficit works, and the best diet is the one the person can maintain. **Physical activity has health benefits independent of weight loss** and is essential for maintaining loss, though it is a weak tool for producing it.
@@ -45,13 +45,13 @@ population: mixed
 > **· Bariatric and metabolic surgery** — the most effective durable intervention, with **remission of type 2 diabetes in a substantial proportion.** `UNVERIFIED — BMI and comorbidity eligibility thresholds.`
 
 > [!danger] Post-bariatric surgery — two things every doctor should know
-> **1. LIFELONG nutritional supplementation and monitoring is required** — **vitamin B12, iron, folate, thiamine, calcium and vitamin D, and copper and zinc.** **Deficiencies present years later as anaemia, neuropathy, osteomalacia, and — in the case of thiamine — Wernicke encephalopathy, which occurs after bariatric surgery particularly with vomiting.** Cross-refer [[C2]] 0.7 and [[D2]] 0.5.
+> **1. LIFELONG nutritional supplementation and monitoring is required** — **vitamin B12, iron, folate, thiamine, calcium and vitamin D, and copper and zinc.** **Deficiencies present years later as anaemia, neuropathy, osteomalacia, and — in the case of thiamine — Wernicke encephalopathy, which occurs after bariatric surgery particularly with vomiting.** Cross-refer [[C2_Nausea_and_Vomiting]] 0.7 and [[D2_Altered_Consciousness_and_Cognition]] 0.5.
 > **2. ABDOMINAL PAIN AFTER GASTRIC BYPASS IS AN INTERNAL HERNIA UNTIL PROVEN OTHERWISE.** It can cause closed-loop obstruction and bowel infarction, **CT is frequently normal or equivocal**, and the correct response to significant unexplained abdominal pain in a bypass patient is **urgent surgical review by the bariatric team, not observation.** This is a genuine cause of preventable death and is missed by clinicians unfamiliar with the anatomy.
 > Also: **dumping syndrome, post-bariatric hypoglycaemia (late postprandial), increased alcohol sensitivity and risk of alcohol use disorder, and a recommendation to delay pregnancy for a period after surgery** because of the rapid weight loss and nutritional risk.
 
 **S/Smx:** Assess the weight history, previous attempts, eating pattern, physical activity, sleep, mood, medications, and the complications below.
 
-**Ix:** **HbA1c or fasting glucose, lipids, LFT, blood pressure** (*why:* the metabolic complications, several of which are asymptomatic; *what:* diabetes, dyslipidaemia, MASLD, hypertension). TFTs (*why:* hypothyroidism as a contributor, though it rarely explains substantial obesity; *what:* raised TSH). **Sleep study where symptoms suggest obstructive sleep apnoea** (*why:* very common, treatable, and it worsens metabolic control and cardiovascular risk; *what:* apnoea-hypopnoea index). Liver fibrosis assessment where MASLD is present (*why:* fibrosis stage determines prognosis; *what:* elastography or fibrosis score — cross-refer [[C3]] 0.5). Screening for Cushing syndrome **only where there are discriminating features** (*why:* untargeted testing generates false positives, and obesity itself is a pseudo-Cushing state; *what:* proximal myopathy, thin skin, bruising, wide purple striae — cross-refer [[I4]] 0.4).
+**Ix:** **HbA1c or fasting glucose, lipids, LFT, blood pressure** (*why:* the metabolic complications, several of which are asymptomatic; *what:* diabetes, dyslipidaemia, MASLD, hypertension). TFTs (*why:* hypothyroidism as a contributor, though it rarely explains substantial obesity; *what:* raised TSH). **Sleep study where symptoms suggest obstructive sleep apnoea** (*why:* very common, treatable, and it worsens metabolic control and cardiovascular risk; *what:* apnoea-hypopnoea index). Liver fibrosis assessment where MASLD is present (*why:* fibrosis stage determines prognosis; *what:* elastography or fibrosis score — cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.5). Screening for Cushing syndrome **only where there are discriminating features** (*why:* untargeted testing generates false positives, and obesity itself is a pseudo-Cushing state; *what:* proximal myopathy, thin skin, bruising, wide purple striae — cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.4).
 
 ### 0.1.1 Mx – Immediate
 Not applicable.
@@ -78,15 +78,15 @@ Multicomponent lifestyle intervention, review of obesogenic medications, pharmac
 > [!warning] The differential
 > **· Malignancy** — accounts for a substantial proportion, and may be occult.
 > **· Gastrointestinal** — coeliac disease, inflammatory bowel disease, chronic pancreatitis, peptic ulcer disease, dysphagia, chronic mesenteric ischaemia (**postprandial pain and food fear**).
-> **· Endocrine** — thyrotoxicosis (**including apathetic thyrotoxicosis in the elderly** — cross-refer [[I1]] 0.3), diabetes, adrenal insufficiency, phaeochromocytoma.
-> **· Infection** — tuberculosis, HIV, infective endocarditis, chronic abscess. Cross-refer [[K1]] 0.3.
+> **· Endocrine** — thyrotoxicosis (**including apathetic thyrotoxicosis in the elderly** — cross-refer [[I1_Thyroid_Disease]] 0.3), diabetes, adrenal insufficiency, phaeochromocytoma.
+> **· Infection** — tuberculosis, HIV, infective endocarditis, chronic abscess. Cross-refer [[K1_Fever_Workup]] 0.3.
 > **· Psychiatric — DEPRESSION is a leading and treatable cause, particularly in older people**, alongside eating disorders and substance use.
 > **· Chronic organ failure** — cardiac cachexia, COPD, chronic kidney disease, cirrhosis.
 > **· Neurological** — dementia, Parkinson disease, motor neurone disease, stroke — largely through **dysphagia and reduced intake.**
 > **· Medications** — a long list, and worth reviewing.
-> **· SOCIAL AND ORAL** — **poverty, isolation, bereavement, inability to shop or cook, and poor dentition or ill-fitting dentures.** **These are common, correctable and consistently under-considered**, particularly in older people. Cross-refer [[GER2]] 0.3.
+> **· SOCIAL AND ORAL** — **poverty, isolation, bereavement, inability to shop or cook, and poor dentition or ill-fitting dentures.** **These are common, correctable and consistently under-considered**, particularly in older people. Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.3.
 
-**Ix:** **Targeted history and full examination first, including the mouth and dentition, and a mood assessment** (*why:* a large proportion of causes are identified clinically, and untargeted imaging in a patient with an obvious social or psychiatric cause is unhelpful; *what:* the likely cause). **FBC, ESR and CRP, UEC, LFT, calcium, glucose or HbA1c, TFTs, and coeliac serology** (*why:* the baseline that covers the metabolic, inflammatory, endocrine and malabsorptive causes; *what:* the abnormality). **HIV testing** (*why:* under-offered, treatable, and a recognised cause; *what:* positive). CXR and urinalysis (*why:* malignancy, tuberculosis, infection; *what:* findings). **Age-appropriate cancer screening brought up to date, and faecal occult blood or direct colonic investigation where indicated** (*why:* occult gastrointestinal malignancy; *what:* neoplasia — cross-refer [[C4]] 0.5). **Directed imaging based on findings rather than a whole-body scan** (*why:* untargeted imaging has low yield and a high incidentaloma rate; *what:* the suspected lesion).
+**Ix:** **Targeted history and full examination first, including the mouth and dentition, and a mood assessment** (*why:* a large proportion of causes are identified clinically, and untargeted imaging in a patient with an obvious social or psychiatric cause is unhelpful; *what:* the likely cause). **FBC, ESR and CRP, UEC, LFT, calcium, glucose or HbA1c, TFTs, and coeliac serology** (*why:* the baseline that covers the metabolic, inflammatory, endocrine and malabsorptive causes; *what:* the abnormality). **HIV testing** (*why:* under-offered, treatable, and a recognised cause; *what:* positive). CXR and urinalysis (*why:* malignancy, tuberculosis, infection; *what:* findings). **Age-appropriate cancer screening brought up to date, and faecal occult blood or direct colonic investigation where indicated** (*why:* occult gastrointestinal malignancy; *what:* neoplasia — cross-refer [[C4_Gastrointestinal_Bleeding]] 0.5). **Directed imaging based on findings rather than a whole-body scan** (*why:* untargeted imaging has low yield and a high incidentaloma rate; *what:* the suspected lesion).
 
 > [!tip] When the workup is negative
 > **A meaningful proportion of unintentional weight loss never receives a diagnosis**, and a negative initial evaluation in a patient without red flags is reasonably reassuring.
@@ -99,7 +99,7 @@ Rarely required.
 Cause-specific.
 
 ### 0.2.3 Mx – Chronic/long-term
-**Nutritional support and dietitian involvement alongside investigating the cause** — the malnutrition itself worsens outcomes and should be treated in parallel, not after the diagnosis. Cross-refer [[GER2]] 0.3.
+**Nutritional support and dietitian involvement alongside investigating the cause** — the malnutrition itself worsens outcomes and should be treated in parallel, not after the diagnosis. Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.3.
 
 ---
 
@@ -124,11 +124,11 @@ Cause-specific.
 
 > [!danger] Very high triglycerides — the priority is preventing pancreatitis, not cardiovascular disease
 > Above a threshold, hypertriglyceridaemia causes **acute pancreatitis**, and that becomes the immediate concern.
-> **Management: alcohol abstinence, strict dietary fat restriction, glycaemic control, fibrates and omega-3 fatty acids, and cessation of contributing drugs.** Cross-refer [[C7]] 0.1.
+> **Management: alcohol abstinence, strict dietary fat restriction, glycaemic control, fibrates and omega-3 fatty acids, and cessation of contributing drugs.** Cross-refer [[C7_Pancreatobiliary_Disease]] 0.1.
 > **And remember the assay trap: in hypertriglyceridaemia-induced pancreatitis, the AMYLASE may be falsely NORMAL** because the lipaemic serum interferes — so measure lipase and triglycerides. `UNVERIFIED — the triglyceride threshold at which pancreatitis risk becomes significant.`
 
 > [!tip] Treatment — driven by absolute risk, not by the number alone
-> Australian practice uses **absolute cardiovascular risk assessment** rather than treating a lipid threshold in isolation — cross-refer [[B2]] 0.1 and [[GER3]].
+> Australian practice uses **absolute cardiovascular risk assessment** rather than treating a lipid threshold in isolation — cross-refer [[B2_Hypertension_Spectrum]] 0.1 and [[GER3_Preventive_and_Occupational_Health]].
 > **Exceptions treated regardless of calculated risk: established cardiovascular disease, familial hypercholesterolaemia, diabetes with certain features, chronic kidney disease, and very high individual risk factor levels.**
 > **· Statins — first-line**, with high-intensity therapy for established disease.
 > **· Ezetimibe** — added where statin alone is insufficient or not tolerated.
@@ -140,7 +140,7 @@ Cause-specific.
 > **Muscle symptoms are reported commonly, but blinded rechallenge studies show that the majority are NOT attributable to the drug — a substantial nocebo effect.**
 > **This matters because statin discontinuation after a myocardial infarction increases mortality**, and patients are frequently taken off them permanently on the basis of aches that were not caused by them.
 > **A reasonable approach: check CK and TSH, stop temporarily to see if symptoms resolve, then REchallenge — with the same statin, a lower dose, an alternate-day regimen, or a different statin.** Most patients tolerate something.
-> **Genuine myopathy with a markedly raised CK, and rhabdomyolysis, are rare but real** — and **statin-associated immune-mediated necrotising myopathy CONTINUES to progress after the drug is stopped and requires immunosuppression.** Cross-refer [[D4]] 0.6.
+> **Genuine myopathy with a markedly raised CK, and rhabdomyolysis, are rare but real** — and **statin-associated immune-mediated necrotising myopathy CONTINUES to progress after the drug is stopped and requires immunosuppression.** Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6.
 > **Check the TSH** — untreated hypothyroidism substantially increases statin myopathy risk.
 
 **Ix:** **Fasting or non-fasting lipid profile** (*why:* non-fasting is acceptable for screening in most circumstances, which improves uptake; *what:* total cholesterol, LDL, HDL, triglycerides, non-HDL). **TSH, glucose or HbA1c, UEC, LFT, and urine protein** (*why:* the secondary causes, all of which change management; *what:* hypothyroidism, diabetes, renal disease, cholestasis). **Absolute cardiovascular risk calculation** (*why:* it, not the cholesterol number, determines treatment in primary prevention; *what:* risk category). **Family history of premature cardiovascular disease, and examination for tendon xanthomata and corneal arcus** (*why:* identifies familial hypercholesterolaemia, which is otherwise missed; *what:* the clinical criteria). Lipoprotein(a) in selected patients (*why:* an independent genetically determined risk factor, measured once, that refines risk in those with premature or familial disease; *what:* elevation). CK where muscle symptoms (*why:* distinguishes true myopathy from myalgia; *what:* elevation).
@@ -164,9 +164,9 @@ Lifestyle plus lipid-lowering therapy determined by absolute risk, with treatmen
 > **Its clinical utility is as a prompt: finding one component should trigger assessment for the others**, and it identifies a phenotype that responds particularly well to weight loss and physical activity.
 
 > [!warning] Look for the associated conditions that are not in the definition
-> **· Metabolic dysfunction-associated steatotic liver disease (MASLD)** — extremely common in this group, and can progress to fibrosis and cirrhosis. Cross-refer [[C3]] 0.5.
+> **· Metabolic dysfunction-associated steatotic liver disease (MASLD)** — extremely common in this group, and can progress to fibrosis and cirrhosis. Cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.5.
 > **· Obstructive sleep apnoea** — common, bidirectional, and treatable.
-> **· Polycystic ovary syndrome** — cross-refer [[I4]] 0.6.
+> **· Polycystic ovary syndrome** — cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6.
 > **· Hyperuricaemia and gout.**
 > **· Chronic kidney disease.**
 
@@ -253,11 +253,11 @@ Review of diuretics and other contributing drugs, and — in recurrent hyponatra
 
 > [!danger] Hypokalaemia — and the reason it will not correct
 > **Causes: gastrointestinal loss (vomiting, diarrhoea, high-output stoma, laxative misuse) · renal loss (DIURETICS, hyperaldosteronism, Cushing syndrome, renal tubular acidosis, Bartter and Gitelman syndromes, amphotericin) · intracellular SHIFT (insulin, beta-agonists including salbutamol nebulisers, ALKALOSIS, refeeding, periodic paralysis) · and poor intake.**
-> **CHECK THE MAGNESIUM. Refractory hypokalaemia is hypomagnesaemia until proven otherwise** — magnesium depletion causes renal potassium wasting that cannot be overcome by potassium replacement alone. Cross-refer [[I3]] 0.6.
-> **ECG: flattened T waves, ST depression, prominent U waves, and a prolonged QT with the risk of TORSADES DE POINTES** — cross-refer [[B3]] 0.3. **Hypokalaemia also potentiates digoxin toxicity.**
+> **CHECK THE MAGNESIUM. Refractory hypokalaemia is hypomagnesaemia until proven otherwise** — magnesium depletion causes renal potassium wasting that cannot be overcome by potassium replacement alone. Cross-refer [[I3_Calcium__Parathyroid_and_Bone]] 0.6.
+> **ECG: flattened T waves, ST depression, prominent U waves, and a prolonged QT with the risk of TORSADES DE POINTES** — cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3. **Hypokalaemia also potentiates digoxin toxicity.**
 > **Replacement: oral where possible.** Intravenous potassium has **strict rate limits, requires cardiac monitoring above a certain concentration, and concentrated solutions must be given centrally** — **rapid intravenous potassium causes cardiac arrest, and it is a recognised cause of inpatient death.** `UNVERIFIED — all concentrations, rates and monitoring requirements.`
 
-**Ix:** **Repeat sample with proper technique in an unexplained abnormal result in a well patient** (*why:* pseudohyperkalaemia is common; *what:* true value). **ECG immediately in hyperkalaemia** (*why:* it determines urgency and is faster than the laboratory; *what:* peaked T waves, QRS widening). UEC and eGFR (*why:* renal impairment is the commonest cause and determines management; *what:* renal function). **MAGNESIUM** (*why:* refractory hypokalaemia; *what:* low magnesium). VBG (*why:* acid-base disturbance drives transcellular shift, and gives a rapid potassium; *what:* pH, potassium). CK (*why:* rhabdomyolysis; *what:* elevation). **Full medication review** (*why:* drugs are the commonest reversible cause in both directions; *what:* culprit). **Morning cortisol and aldosterone-renin ratio where unexplained** (*why:* adrenal insufficiency causes hyperkalaemia and primary aldosteronism causes hypokalaemia, and both are diagnosable and treatable; *what:* the endocrine cause — cross-refer [[I4]] 0.3, 0.5). **Urine potassium** where the cause is unclear (*why:* **distinguishes renal wasting from gastrointestinal loss or shift**, which have entirely different differentials; *what:* fractional excretion).
+**Ix:** **Repeat sample with proper technique in an unexplained abnormal result in a well patient** (*why:* pseudohyperkalaemia is common; *what:* true value). **ECG immediately in hyperkalaemia** (*why:* it determines urgency and is faster than the laboratory; *what:* peaked T waves, QRS widening). UEC and eGFR (*why:* renal impairment is the commonest cause and determines management; *what:* renal function). **MAGNESIUM** (*why:* refractory hypokalaemia; *what:* low magnesium). VBG (*why:* acid-base disturbance drives transcellular shift, and gives a rapid potassium; *what:* pH, potassium). CK (*why:* rhabdomyolysis; *what:* elevation). **Full medication review** (*why:* drugs are the commonest reversible cause in both directions; *what:* culprit). **Morning cortisol and aldosterone-renin ratio where unexplained** (*why:* adrenal insufficiency causes hyperkalaemia and primary aldosteronism causes hypokalaemia, and both are diagnosable and treatable; *what:* the endocrine cause — cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.3, 0.5). **Urine potassium** where the cause is unclear (*why:* **distinguishes renal wasting from gastrointestinal loss or shift**, which have entirely different differentials; *what:* fractional excretion).
 
 ### 0.6.1 Mx – Immediate
 **Hyperkalaemia with ECG changes: calcium, then insulin-dextrose and salbutamol, then removal.** Check glucose after insulin. **Hypokalaemia with arrhythmia: replace with cardiac monitoring, and correct magnesium.**
@@ -271,4 +271,4 @@ Treat the cause and remove the offending drugs.
 ---
 
 > [!note] Cross-references
-> Acid-base, DKA and dehydration → [[F0.2]] · Metabolic alkalosis of vomiting and hypokalaemia → [[F0.2]] 0.7 · Third-spacing → [[F0.2]] 0.10 · Acute kidney injury and chronic kidney disease → [[H3]] · Hypertension and absolute cardiovascular risk → [[B2]] 0.1 · Heart failure → [[CV-X]] · Thyroid disease → [[I1]] · Diabetes → [[I2]] · Magnesium and refractory electrolytes → [[I3]] 0.6 · Adrenal insufficiency, Cushing syndrome, primary aldosteronism and PCOS → [[I4]] · MASLD and cirrhosis → [[C3]] 0.5 · Hypertriglyceridaemic pancreatitis → [[C7]] 0.1 · Statin myopathy → [[D4]] 0.6 · Torsades and QT → [[B3]] 0.3 · Fatigue and weight loss as presentations → [[B6]] 0.5 · Malnutrition and refeeding → [[GER2]] 0.3 · Eating disorders → [[N8]] · Preventive health and screening → [[GER3]]
+> Acid-base, DKA and dehydration → [[F0-2_Acid-Base__DKA_and_Fluid_States]] · Metabolic alkalosis of vomiting and hypokalaemia → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.7 · Third-spacing → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.10 · Acute kidney injury and chronic kidney disease → [[H3_Acute_Kidney_Injury_and_CKD]] · Hypertension and absolute cardiovascular risk → [[B2_Hypertension_Spectrum]] 0.1 · Heart failure → [[CV-X_Chronic_Heart_Failure]] · Thyroid disease → [[I1_Thyroid_Disease]] · Diabetes → [[I2_Diabetes_and_Glucose_Disorders]] · Magnesium and refractory electrolytes → [[I3_Calcium__Parathyroid_and_Bone]] 0.6 · Adrenal insufficiency, Cushing syndrome, primary aldosteronism and PCOS → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] · MASLD and cirrhosis → [[C3_Jaundice_and_Liver_Disease]] 0.5 · Hypertriglyceridaemic pancreatitis → [[C7_Pancreatobiliary_Disease]] 0.1 · Statin myopathy → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6 · Torsades and QT → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3 · Fatigue and weight loss as presentations → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.5 · Malnutrition and refeeding → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.3 · Eating disorders → [[N8_Eating_Disorders]] · Preventive health and screening → [[GER3_Preventive_and_Occupational_Health]]

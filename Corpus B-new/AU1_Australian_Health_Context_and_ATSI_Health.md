@@ -36,15 +36,15 @@ population: mixed
 > **Out-of-pocket costs cause Australians to delay or avoid care, skip filling prescriptions, and take medicines less often than prescribed to make them last.**
 > **Patients rarely volunteer this.** They do not say "I can't afford it" — they say the tablets didn't suit them, or they simply do not return.
 > **Ask directly and without embarrassment: "Is the cost of these medicines manageable?"**
-> **What you can do: prescribe generics · consider PBS-listed alternatives · check concession card status and the SAFETY NET · use the CTG PBS Co-payment Programme for eligible Aboriginal and Torres Strait Islander patients (see 0.6) · consolidate the number of medicines · and consider whether every drug on the list is still needed.** Cross-refer [[GER1]] 0.4.
+> **What you can do: prescribe generics · consider PBS-listed alternatives · check concession card status and the SAFETY NET · use the CTG PBS Co-payment Programme for eligible Aboriginal and Torres Strait Islander patients (see 0.6) · consolidate the number of medicines · and consider whether every drug on the list is still needed.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.4.
 
 > [!tip] The other systems you will interact with
-> **· Aged care** — My Aged Care as the entry point, with the system currently in reform. Cross-refer [[GER1]] 0.3.
+> **· Aged care** — My Aged Care as the entry point, with the system currently in reform. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.3.
 > **· NDIS** — for people under 65 with permanent and significant disability.
 > **· DVA** — veterans, with separate and often better-resourced access. **Ask about veteran status.**
 > **· My Health Record, electronic prescribing and telehealth.**
 > **· Notifiable disease surveillance through state public health units.**
-> **· AHPRA and the Medical Board** — registration, CPD, and **mandatory notification obligations.** Cross-refer [[A10]].
+> **· AHPRA and the Medical Board** — registration, CPD, and **mandatory notification obligations.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]].
 > **· The National Safety and Quality Health Service (NSQHS) Standards** — including a specific standard addressing **Aboriginal and Torres Strait Islander health**, plus open disclosure, incident reporting and clinical governance. `UNVERIFIED — the standards and their current content.`
 
 ---
@@ -134,30 +134,30 @@ population: mixed
 > [!danger] Acute rheumatic fever and rheumatic heart disease
 > **Australia has among the highest reported rates of ARF and RHD in the world among Aboriginal and Torres Strait Islander people in remote communities** — a condition essentially eliminated in most high-income settings.
 > **The chain is: crowded housing and limited access to washing facilities → GROUP A STREPTOCOCCAL SKIN AND THROAT INFECTION → ARF → RHD → heart failure, stroke, endocarditis, pregnancy complications and premature death.**
-> **The skin route matters as much as the throat**, which is why scabies and impetigo control is cardiac prevention. Cross-refer [[K2]] 0.6.
+> **The skin route matters as much as the throat**, which is why scabies and impetigo control is cardiac prevention. Cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.6.
 > **The single most effective intervention is SECONDARY PROPHYLAXIS — regular long-acting benzathine penicillin injections for years — and adherence is the whole game.** **Every missed injection increases the risk of recurrence and further valve damage.**
 > **Register-based control programs and echocardiographic screening exist.**
-> **The intern-level point: know that ARF is notifiable, know that a patient on prophylaxis must not miss doses, and check whether an admitted patient with RHD is on a register and up to date with injections.** Cross-refer [[F0.5]] 0.10 and [[B5]] 0.1. `UNVERIFIED — diagnostic criteria (Jones, with Australian modifications), prophylaxis regimens and duration.`
+> **The intern-level point: know that ARF is notifiable, know that a patient on prophylaxis must not miss doses, and check whether an admitted patient with RHD is on a register and up to date with injections.** Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 and [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.1. `UNVERIFIED — diagnostic criteria (Jones, with Australian modifications), prophylaxis regimens and duration.`
 
 > [!warning] Chronic kidney disease and end-stage kidney disease
 > **Rates of end-stage kidney disease are dramatically higher**, driven by diabetes, hypertension, post-streptococcal glomerulonephritis, low birth weight (with reduced nephron endowment), and the social determinants above.
 > **The consequence that dominates people's lives: DIALYSIS OFTEN REQUIRES RELOCATION AWAY FROM COUNTRY, family and community, sometimes permanently and sometimes thousands of kilometres.**
 > **This is why some patients decline or discontinue dialysis, and it is a rational decision about a whole life rather than non-compliance.**
-> **Models supporting dialysis on or closer to Country exist and matter enormously.** Cross-refer [[H3]] and [[GER2]] 0.6.
+> **Models supporting dialysis on or closer to Country exist and matter enormously.** Cross-refer [[H3_Acute_Kidney_Injury_and_CKD]] and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.6.
 
 > [!warning] The other conditions with markedly higher burden
-> **· TYPE 2 DIABETES — higher prevalence, EARLIER ONSET (including in adolescence), more complications, and higher rates of gestational diabetes.** **Screening therefore begins at a younger age.** Cross-refer [[I2]] 0.1.
-> **· CARDIOVASCULAR DISEASE — earlier onset and higher mortality, so absolute risk assessment begins at a younger age.** Cross-refer [[B2]] 0.1 and [[GER3]].
-> **· OTITIS MEDIA — earlier onset, higher prevalence, more persistent and more often suppurative, with a chain of consequences that is under-appreciated: CONDUCTIVE HEARING LOSS → impaired language development → educational disadvantage → employment disadvantage → and demonstrated over-representation in the justice system.** **Detecting and treating middle ear disease in Aboriginal children is one of the highest-leverage interventions in Australian paediatrics.** Cross-refer [[F1]] and [[M2]].
-> **· SKIN INFECTIONS, SCABIES AND CRUSTED SCABIES** — cross-refer [[K2]] 0.6.
-> **· BRONCHIECTASIS AND CHRONIC SUPPURATIVE LUNG DISEASE — frequently beginning in childhood after severe or recurrent infection.** **A wet cough lasting more than four weeks in an Aboriginal child should not be dismissed.** Cross-refer [[RESP-X]] 0.4 and [[M2]].
-> **· TRACHOMA — Australia has been the only high-income country with endemic trachoma**, in remote central and northern communities, managed through the SAFE strategy (Surgery, Antibiotics, Facial cleanliness, Environmental improvement). Cross-refer [[E1]].
-> **· SEXUALLY TRANSMISSIBLE INFECTIONS, and the sustained INFECTIOUS SYPHILIS OUTBREAK across northern and central Australia with congenital syphilis cases.** Cross-refer [[O6]] 0.1.
-> **· GOUT — higher prevalence, earlier onset, and markedly under-treated with urate-lowering therapy.** Cross-refer [[L1]] 0.3.
+> **· TYPE 2 DIABETES — higher prevalence, EARLIER ONSET (including in adolescence), more complications, and higher rates of gestational diabetes.** **Screening therefore begins at a younger age.** Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.1.
+> **· CARDIOVASCULAR DISEASE — earlier onset and higher mortality, so absolute risk assessment begins at a younger age.** Cross-refer [[B2_Hypertension_Spectrum]] 0.1 and [[GER3_Preventive_and_Occupational_Health]].
+> **· OTITIS MEDIA — earlier onset, higher prevalence, more persistent and more often suppurative, with a chain of consequences that is under-appreciated: CONDUCTIVE HEARING LOSS → impaired language development → educational disadvantage → employment disadvantage → and demonstrated over-representation in the justice system.** **Detecting and treating middle ear disease in Aboriginal children is one of the highest-leverage interventions in Australian paediatrics.** Cross-refer [[F1_Ear]] and [[M2_Fever_in_Children]].
+> **· SKIN INFECTIONS, SCABIES AND CRUSTED SCABIES** — cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.6.
+> **· BRONCHIECTASIS AND CHRONIC SUPPURATIVE LUNG DISEASE — frequently beginning in childhood after severe or recurrent infection.** **A wet cough lasting more than four weeks in an Aboriginal child should not be dismissed.** Cross-refer [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.4 and [[M2_Fever_in_Children]].
+> **· TRACHOMA — Australia has been the only high-income country with endemic trachoma**, in remote central and northern communities, managed through the SAFE strategy (Surgery, Antibiotics, Facial cleanliness, Environmental improvement). Cross-refer [[E1_Red_and_Painful_Eye]].
+> **· SEXUALLY TRANSMISSIBLE INFECTIONS, and the sustained INFECTIOUS SYPHILIS OUTBREAK across northern and central Australia with congenital syphilis cases.** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.1.
+> **· GOUT — higher prevalence, earlier onset, and markedly under-treated with urate-lowering therapy.** Cross-refer [[L1_Hot_and_Swollen_Joint]] 0.3.
 > **· CANCER — later stage at diagnosis, lower screening participation, and poorer survival**, with access, cultural safety and competing priorities all contributing.
 > **· EYE HEALTH — diabetic retinopathy, cataract, and higher rates of avoidable blindness with lower rates of treatment.**
 > **· MATERNAL AND INFANT HEALTH — higher rates of preterm birth and low birth weight, with **Birthing on Country** and community-controlled maternity models showing meaningful improvements.**
-> **· Region-specific infections: MELIOIDOSIS, STRONGYLOIDES and HTLV-1** in northern and central Australia. Cross-refer [[K1]] 0.4 and [[K3]] 0.5.
+> **· Region-specific infections: MELIOIDOSIS, STRONGYLOIDES and HTLV-1** in northern and central Australia. Cross-refer [[K1_Fever_Workup]] 0.4 and [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5.
 
 > [!danger] Social and emotional wellbeing, and suicide
 > **Rates of psychological distress, self-harm and suicide are substantially higher, particularly among young people, and this is a source of profound grief in communities.**
@@ -167,7 +167,7 @@ population: mixed
 > **· CONNECTION TO CULTURE, COUNTRY, FAMILY AND COMMUNITY IS PROTECTIVE**, and supporting it is a legitimate part of a management plan.
 > **· Involve Aboriginal mental health workers and SEWB services, and culturally appropriate crisis supports, rather than defaulting to mainstream pathways alone.**
 > **· Be aware that a death in a community affects many people through kinship networks, and Sorry Business obligations follow.**
-> Cross-refer [[N1]] and [[N4]]. `UNVERIFIED — services, statistics and current strategies.`
+> Cross-refer [[N1_Mental_State_Examination_and_Risk]] and [[N4_Mood_Disorders]]. `UNVERIFIED — services, statistics and current strategies.`
 
 ---
 
@@ -192,9 +192,9 @@ population: mixed
 > [!warning] The other priority populations
 > **· PEOPLE EXPERIENCING HOMELESSNESS — very high burden of chronic disease, mental illness, substance use and injury; the barriers are practical (storage of medicines, refrigeration, appointment times, identification, phone contact) and the discharge plan has to account for them.**
 > **· PEOPLE IN PRISON AND RECENTLY RELEASED — high rates of chronic disease, blood-borne viruses, mental illness and substance use, with continuity of care disrupted at both entry and release. The period immediately after release carries a very high mortality risk, particularly from overdose.**
-> **· LGBTIQA+ PEOPLE — cross-refer [[O6]] 0.6.**
+> **· LGBTIQA+ PEOPLE — cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.6.**
 > **· PEOPLE WITH DISABILITY — DIAGNOSTIC OVERSHADOWING, where new symptoms are attributed to the person's existing disability rather than investigated, is a documented and serious cause of missed diagnosis and premature death, particularly in intellectual disability.** **Investigate the symptom on its merits, seek collateral about what is different from baseline, and use accessible communication.**
-> **· OLDER PEOPLE — cross-refer [[GER1]] and [[GER2]].**
+> **· OLDER PEOPLE — cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]].**
 > **· VETERANS — ask, because DVA access is separate and often better resourced.**
 
 > [!tip] Health literacy — use teach-back
@@ -249,4 +249,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Ethics, capacity, consent and mandatory reporting → [[A10]] · Preventive health, screening and immunisation → [[GER3]] · Communication skills, interpreters and breaking bad news → [[GER5]] · Safeguarding and family violence → [[GER4]] · Aged care system and My Aged Care → [[GER1]] 0.3 · End-of-life care and cultural practices around death → [[GER2]] 0.5 · Acute rheumatic fever and rheumatic heart disease → [[F0.5]] 0.10 and [[B5]] 0.1 · Scabies, impetigo and the ARF link → [[K2]] 0.6 · Bronchiectasis and chronic wet cough → [[RESP-X]] 0.4 and [[M2]] · Otitis media and hearing loss → [[F1]] and [[M2]] · Chronic kidney disease and dialysis → [[H3]] · Diabetes screening and complications → [[I2]] · Cardiovascular absolute risk → [[B2]] 0.1 · Gout → [[L1]] 0.3 · Syphilis, STIs and congenital syphilis → [[O6]] 0.1 · Melioidosis, strongyloides and HTLV-1 → [[K1]] 0.4 and [[K3]] 0.5 · Trachoma and eye health → [[E1]] · Social and emotional wellbeing, mental health and suicide prevention → [[N1]] and [[N4]] · Gender diversity and LGBTIQA+ health → [[O6]] 0.6
+> Ethics, capacity, consent and mandatory reporting → [[A10_Ethics__Capacity__Consent_and_Certification]] · Preventive health, screening and immunisation → [[GER3_Preventive_and_Occupational_Health]] · Communication skills, interpreters and breaking bad news → [[GER5_Communication_and_Consultation_Skills]] · Safeguarding and family violence → [[GER4_Safeguarding_and_Forensic]] · Aged care system and My Aged Care → [[GER1_Comprehensive_Geriatric_Assessment]] 0.3 · End-of-life care and cultural practices around death → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5 · Acute rheumatic fever and rheumatic heart disease → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 and [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.1 · Scabies, impetigo and the ARF link → [[K2_Skin_and_Soft_Tissue_Infection]] 0.6 · Bronchiectasis and chronic wet cough → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.4 and [[M2_Fever_in_Children]] · Otitis media and hearing loss → [[F1_Ear]] and [[M2_Fever_in_Children]] · Chronic kidney disease and dialysis → [[H3_Acute_Kidney_Injury_and_CKD]] · Diabetes screening and complications → [[I2_Diabetes_and_Glucose_Disorders]] · Cardiovascular absolute risk → [[B2_Hypertension_Spectrum]] 0.1 · Gout → [[L1_Hot_and_Swollen_Joint]] 0.3 · Syphilis, STIs and congenital syphilis → [[O6_Sexual_and_Reproductive_Health]] 0.1 · Melioidosis, strongyloides and HTLV-1 → [[K1_Fever_Workup]] 0.4 and [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · Trachoma and eye health → [[E1_Red_and_Painful_Eye]] · Social and emotional wellbeing, mental health and suicide prevention → [[N1_Mental_State_Examination_and_Risk]] and [[N4_Mood_Disorders]] · Gender diversity and LGBTIQA+ health → [[O6_Sexual_and_Reproductive_Health]] 0.6

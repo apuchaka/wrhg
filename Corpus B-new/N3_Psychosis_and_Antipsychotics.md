@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Clinical reasoning, discriminators and adverse effect patterns are reliable at intern level. **Every dose, monitoring interval, diagnostic criterion and threshold carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG Psychotropic**, the **Australian Medicines Handbook**, RANZCP clinical practice guidelines, and — for clozapine — the mandatory monitoring requirements of the relevant patient monitoring system, which are legally binding.
 >
-> **The mental state examination and risk assessment are built in [[N1]]**, **medical causes of psychosis in [[N1]] 0.6**, and **substance-induced psychosis in [[N2]] 0.3** — each is cross-referenced rather than repeated.
+> **The mental state examination and risk assessment are built in [[N1_Mental_State_Examination_and_Risk]]**, **medical causes of psychosis in [[N1_Mental_State_Examination_and_Risk]] 0.6**, and **substance-induced psychosis in [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.3** — each is cross-referenced rather than repeated.
 
 ---
 
@@ -32,9 +32,9 @@ population: mixed
 > **The signal is a sustained CHANGE from the person's own baseline, particularly a functional decline, reported by someone who knows them well.** **Collateral history is what makes this visible.**
 
 > [!tip] What the first assessment must achieve
-> **· A full mental state examination and risk assessment** — cross-refer [[N1]].
+> **· A full mental state examination and risk assessment** — cross-refer [[N1_Mental_State_Examination_and_Risk]].
 > **· COLLATERAL HISTORY — essential, and it is where the timeline and functional decline come from.**
-> **· A FULL MEDICAL WORKUP. First-episode psychosis mandates exclusion of organic causes** — cross-refer [[N1]] 0.6 and 0.3 below.
+> **· A FULL MEDICAL WORKUP. First-episode psychosis mandates exclusion of organic causes** — cross-refer [[N1_Mental_State_Examination_and_Risk]] 0.6 and 0.3 below.
 > **· A substance use history, including synthetic and novel substances.**
 > **· ENGAGEMENT.** **A young person's first experience of mental health services predicts their engagement for years afterwards.** A coercive, frightening or dismissive first contact has long consequences. **Take the time, explain what is happening, involve them in decisions where possible, and involve family with consent.**
 
@@ -52,7 +52,7 @@ population: mixed
 > **· SCHIZOPHRENIFORM DISORDER — the schizophrenia picture but of shorter duration; a proportion progress and a proportion do not.**
 > **· BRIEF PSYCHOTIC DISORDER — abrupt onset, short duration, full return to premorbid function, often with an identifiable stressor.**
 > **· DELUSIONAL DISORDER — a circumscribed, non-bizarre delusional system with OTHERWISE PRESERVED functioning and no prominent hallucinations or negative symptoms.** These patients can appear entirely normal outside the delusional domain, which is why the diagnosis is often made late and why they rarely present voluntarily.
-> **· POSTPARTUM PSYCHOSIS — a PSYCHIATRIC EMERGENCY.** Rapid onset, typically within days to weeks of delivery, with a fluctuating and confusional quality, and **substantial risk to both mother and infant.** **It requires urgent psychiatric assessment and almost always admission, ideally to a mother-and-baby unit.** Cross-refer [[O3]].
+> **· POSTPARTUM PSYCHOSIS — a PSYCHIATRIC EMERGENCY.** Rapid onset, typically within days to weeks of delivery, with a fluctuating and confusional quality, and **substantial risk to both mother and infant.** **It requires urgent psychiatric assessment and almost always admission, ideally to a mother-and-baby unit.** Cross-refer [[O3_Labour__Delivery_and_Postpartum]].
 
 > [!warning] The prognosis is heterogeneous — and saying so matters
 > **Outcomes range from full recovery to severe persistent disability, and the older nihilistic framing is inaccurate.**
@@ -71,26 +71,26 @@ population: mixed
 ## 0.3 The Differential Diagnosis of Psychosis
 
 > [!danger] Exclude organic causes in every first episode
-> The full list is in **[[N1]] 0.6.** The features that should prompt particular concern: **new onset over 40 · acute onset · fluctuating consciousness · disorientation · abnormal vital signs · focal neurology · VISUAL, olfactory or tactile hallucinations · and no prior psychiatric history.**
-> **ANTI-NMDA RECEPTOR ENCEPHALITIS deserves specific mention: a young person, often female, with a psychiatric prodrome followed by seizures, a movement disorder and autonomic instability, associated with an ovarian teratoma. It is treatable and it is repeatedly admitted to psychiatric units first.** Cross-refer [[D1]] 0.5.
+> The full list is in **[[N1_Mental_State_Examination_and_Risk]] 0.6.** The features that should prompt particular concern: **new onset over 40 · acute onset · fluctuating consciousness · disorientation · abnormal vital signs · focal neurology · VISUAL, olfactory or tactile hallucinations · and no prior psychiatric history.**
+> **ANTI-NMDA RECEPTOR ENCEPHALITIS deserves specific mention: a young person, often female, with a psychiatric prodrome followed by seizures, a movement disorder and autonomic instability, associated with an ovarian teratoma. It is treatable and it is repeatedly admitted to psychiatric units first.** Cross-refer [[D1_Headache_and_Meningism]] 0.5.
 
 > [!tip] Substance-induced psychosis
 > **Stimulants (methamphetamine in particular), cannabis and synthetic cannabinoids, hallucinogens, and corticosteroids** — plus **withdrawal states** and **anticholinergic and dopaminergic drugs.**
-> **Distinguishing it from a primary psychotic illness requires the temporal relationship and observation over time**, and it should not be settled confidently at first presentation. **Substance-induced psychosis usually resolves over days to weeks with abstinence — but it can persist, and repeated episodes are associated with subsequent primary psychotic illness.** Cross-refer [[N2]] 0.3.
+> **Distinguishing it from a primary psychotic illness requires the temporal relationship and observation over time**, and it should not be settled confidently at first presentation. **Substance-induced psychosis usually resolves over days to weeks with abstinence — but it can persist, and repeated episodes are associated with subsequent primary psychotic illness.** Cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.3.
 
 > [!warning] Mood disorder with psychotic features — and why the distinction changes treatment
 > **In psychotic depression: the delusions are typically MOOD-CONGRUENT — guilt, poverty, nihilism, deserved punishment, somatic decay (Cotard).** **The mood disturbance precedes and dominates.**
 > **In mania with psychosis: grandiose and often expansive delusions, with elevated or irritable mood, reduced need for sleep and increased activity.**
-> **This matters because the treatment differs: psychotic depression requires an antidepressant PLUS an antipsychotic (an antidepressant alone is inadequate), and electroconvulsive therapy is highly effective. Mania requires a mood stabiliser or antipsychotic, and an antidepressant alone can precipitate or worsen mania.** Cross-refer [[N4]].
+> **This matters because the treatment differs: psychotic depression requires an antidepressant PLUS an antipsychotic (an antidepressant alone is inadequate), and electroconvulsive therapy is highly effective. Mania requires a mood stabiliser or antipsychotic, and an antidepressant alone can precipitate or worsen mania.** Cross-refer [[N4_Mood_Disorders]].
 
 > [!tip] The other things that are mistaken for psychosis
-> **· DELIRIUM — fluctuating attention and consciousness, visual hallucinations, acute onset.** Cross-refer [[D2]] 0.2.
-> **· DEMENTIA — particularly LEWY BODY dementia (well-formed visual hallucinations, fluctuation, parkinsonism, REM sleep behaviour disorder) and frontotemporal dementia (behavioural change misread as psychiatric).** Cross-refer [[D2]] 0.3.
-> **· BORDERLINE PERSONALITY DISORDER — transient, stress-related quasi-psychotic experiences, usually brief and with retained reality testing.** Cross-refer [[N6]].
-> **· PTSD — flashbacks and dissociative re-experiencing can be described in ways that sound like hallucinations.** Cross-refer [[N5]].
+> **· DELIRIUM — fluctuating attention and consciousness, visual hallucinations, acute onset.** Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2.
+> **· DEMENTIA — particularly LEWY BODY dementia (well-formed visual hallucinations, fluctuation, parkinsonism, REM sleep behaviour disorder) and frontotemporal dementia (behavioural change misread as psychiatric).** Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.3.
+> **· BORDERLINE PERSONALITY DISORDER — transient, stress-related quasi-psychotic experiences, usually brief and with retained reality testing.** Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]].
+> **· PTSD — flashbacks and dissociative re-experiencing can be described in ways that sound like hallucinations.** Cross-refer [[N5_Anxiety__OCD_and_Trauma]].
 > **· CULTURALLY NORMATIVE EXPERIENCES.** **Beliefs and experiences that are sanctioned within a person's cultural or religious community — including communication with ancestors or spirits, and experiences of possession or healing — are NOT delusions or hallucinations.**
 > **Pathologising them is a serious error with real consequences, and it disproportionately affects Aboriginal and Torres Strait Islander people and people from culturally diverse backgrounds.**
-> **The test is whether the belief or experience is shared and accepted within their community, and whether it is causing distress or dysfunction by their community's standards — which requires asking someone who knows.** **Seek a cultural informant, an Aboriginal Health Worker, or a clinician from that community.** Cross-refer [[AU1]] 0.3.
+> **The test is whether the belief or experience is shared and accepted within their community, and whether it is causing distress or dysfunction by their community's standards — which requires asking someone who knows.** **Seek a cultural informant, an Aboriginal Health Worker, or a clinician from that community.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.3.
 
 ---
 
@@ -119,7 +119,7 @@ population: mixed
 > **Onset within hours to days of starting or increasing a dopamine antagonist**, more common in young men and with high-potency agents.
 > **Features: OCULOGYRIC CRISIS (forced sustained upward eye deviation), torticollis, trismus, opisthotonos, tongue protrusion, and — dangerously — LARYNGEAL DYSTONIA causing stridor and airway compromise.**
 > **It is frequently misdiagnosed as a seizure, a psychiatric manifestation, or tetanus** — particularly when it follows metoclopramide or prochlorperazine given for nausea rather than an antipsychotic.
-> **Treatment with an anticholinergic (benztropine) produces relief within minutes and is close to diagnostic.** Cross-refer [[C2]] 0.5 and [[D6]] 0.6.
+> **Treatment with an anticholinergic (benztropine) produces relief within minutes and is close to diagnostic.** Cross-refer [[C2_Nausea_and_Vomiting]] 0.5 and [[D6_Seizures_and_Movement_Disorders]] 0.6.
 
 > [!danger] Akathisia — and the trap of treating it with more antipsychotic
 > **A subjective sense of inner restlessness with a compulsion to move — pacing, rocking, inability to sit still, shifting the legs.**
@@ -129,9 +129,9 @@ population: mixed
 > **Management: reduce the dose, switch to a lower-risk agent, or add propranolol.** `UNVERIFIED — treatment options and doses.`
 
 > [!tip] The other movement disorders
-> **· DRUG-INDUCED PARKINSONISM — days to weeks; bradykinesia, rigidity and tremor, typically SYMMETRICAL.** **May take months to resolve after stopping the drug**, so lack of immediate improvement does not exclude it. Cross-refer [[D6]] 0.5.
-> **· TARDIVE DYSKINESIA — months to years of exposure; orofacial choreiform movements, tongue protrusion, lip smacking, and truncal or limb movements.** **It may be IRREVERSIBLE, and STOPPING the drug can transiently WORSEN it before improvement**, which discourages both patient and clinician. **Prevention through the lowest effective dose and regular review is the main strategy.** Cross-refer [[D6]] 0.6.
-> **· NEUROLEPTIC MALIGNANT SYNDROME — rigidity, hyperthermia, autonomic instability, altered consciousness, raised CK.** Cross-refer [[A6]] 0.3.
+> **· DRUG-INDUCED PARKINSONISM — days to weeks; bradykinesia, rigidity and tremor, typically SYMMETRICAL.** **May take months to resolve after stopping the drug**, so lack of immediate improvement does not exclude it. Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.5.
+> **· TARDIVE DYSKINESIA — months to years of exposure; orofacial choreiform movements, tongue protrusion, lip smacking, and truncal or limb movements.** **It may be IRREVERSIBLE, and STOPPING the drug can transiently WORSEN it before improvement**, which discourages both patient and clinician. **Prevention through the lowest effective dose and regular review is the main strategy.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.6.
+> **· NEUROLEPTIC MALIGNANT SYNDROME — rigidity, hyperthermia, autonomic instability, altered consciousness, raised CK.** Cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.3.
 
 > [!danger] Metabolic adverse effects — monitor from baseline, because they are what kills these patients
 > **Weight gain, dyslipidaemia, insulin resistance and type 2 diabetes — with substantial variation between agents.**
@@ -145,15 +145,15 @@ population: mixed
 > [!warning] Hyperprolactinaemia — ask, because they will not tell you
 > **Highest with RISPERIDONE, PALIPERIDONE, AMISULPRIDE and the first-generation agents; lowest with aripiprazole (which may even lower prolactin) and quetiapine.**
 > **Consequences: galactorrhoea · amenorrhoea and menstrual disturbance · sexual dysfunction and reduced libido · gynaecomastia · infertility · and long-term BONE LOSS.**
-> **Patients almost never raise sexual dysfunction or galactorrhoea spontaneously, and it is a significant and under-recognised cause of silent non-adherence.** **Ask directly and matter-of-factly.** Cross-refer [[I4]] 0.2.
+> **Patients almost never raise sexual dysfunction or galactorrhoea spontaneously, and it is a significant and under-recognised cause of silent non-adherence.** **Ask directly and matter-of-factly.** Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.2.
 
 > [!tip] The rest
-> **· QT PROLONGATION — baseline and follow-up ECG, and caution with combinations and with electrolyte disturbance.** Cross-refer [[B3]] 0.3.
+> **· QT PROLONGATION — baseline and follow-up ECG, and caution with combinations and with electrolyte disturbance.** Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3.
 > **· Sedation and cognitive dulling** — a major reason people stop.
 > **· ANTICHOLINERGIC effects — dry mouth, constipation, urinary retention, blurred vision, cognitive impairment** — and constipation in particular must be taken seriously (see clozapine below).
 > **· Orthostatic hypotension** — especially on initiation and with quetiapine and clozapine.
 > **· Lowered seizure threshold.**
-> **· IN OLDER PEOPLE WITH DEMENTIA — increased stroke and mortality**, and in **Lewy body disease, severe neuroleptic sensitivity.** **Ask about visual hallucinations, fluctuation and dream enactment before prescribing an antipsychotic to any older person.** Cross-refer [[D2]] 0.2–0.3.
+> **· IN OLDER PEOPLE WITH DEMENTIA — increased stroke and mortality**, and in **Lewy body disease, severe neuroleptic sensitivity.** **Ask about visual hallucinations, fluctuation and dream enactment before prescribing an antipsychotic to any older person.** Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2–0.3.
 
 ---
 
@@ -169,7 +169,7 @@ population: mixed
 > **Clozapine causes profound gastrointestinal hypomotility, and severe constipation can progress to paralytic ileus, bowel obstruction, ischaemia, perforation and death.**
 > **The mortality from clozapine-induced gastrointestinal hypomotility exceeds that from agranulocytosis** — yet the monitoring system is built entirely around the blood count.
 > **Practically: prescribe PROPHYLACTIC LAXATIVES from the outset · ASK ABOUT BOWELS AT EVERY REVIEW · and treat constipation aggressively rather than as a nuisance.**
-> **A clozapine patient with abdominal pain, distension or vomiting needs urgent assessment for obstruction — not reassurance.** Cross-refer [[C5]] 0.2 and 0.5.
+> **A clozapine patient with abdominal pain, distension or vomiting needs urgent assessment for obstruction — not reassurance.** Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.2 and 0.5.
 
 > [!danger] Myocarditis — in the first weeks, and it is missed
 > **Clozapine-induced myocarditis typically occurs within the FIRST FOUR TO SIX WEEKS of treatment and can be fatal.**
@@ -208,16 +208,16 @@ population: mixed
 > **· INDIVIDUAL PLACEMENT AND SUPPORT (supported employment) — good evidence for helping people into competitive employment**, and employment itself improves outcomes. **"Train then place" models do not work as well as "place then train".**
 > **· Assertive community treatment and case management for those with complex needs and frequent admissions.**
 > **· Relapse prevention planning with identified EARLY WARNING SIGNS** — most people have a recognisable individual prodrome, and identifying it with them and their family allows earlier intervention.
-> **· Treat comorbid substance use concurrently.** Cross-refer [[N2]].
+> **· Treat comorbid substance use concurrently.** Cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]].
 
 > [!tip] The framing that matters to patients
 > **Recovery in this context does not necessarily mean absence of symptoms — it means a meaningful life with self-determination, relationships, purpose and hope.**
 > **Stigma — including within healthcare — is a major determinant of outcome**, and the way psychiatric patients are spoken about and treated on medical wards is part of that.
 > **Carers need information, support and recognition**, and they are frequently excluded on privacy grounds when the patient would in fact consent if asked.
 
-**Ix:** **Baseline before starting an antipsychotic: weight, waist circumference, blood pressure, FBC, UEC, LFT, fasting glucose or HbA1c, fasting lipids, prolactin where relevant, and ECG** (*why:* establishes the baseline against which metabolic and cardiac effects are judged, and it is impossible to attribute a later abnormality without it; *what:* baseline values, QTc). **First-episode organic screen** (*why:* medical causes of psychosis; *what:* per [[N1]] 0.6). **Metabolic monitoring at defined intervals thereafter** (*why:* the effects are early and progressive, and this is where the mortality gap is generated; *what:* weight, glucose, lipids, blood pressure). **Clozapine: mandatory FBC per protocol, plus troponin, CRP and observations during titration, and periodic echocardiography** (*why:* agranulocytosis, myocarditis and cardiomyopathy; *what:* neutrophil count, troponin, CRP, ejection fraction). **Clozapine level** where toxicity, non-response or a change in smoking status (*why:* levels vary widely and smoking is a major determinant; *what:* level). Prolactin where symptomatic (*why:* hyperprolactinaemia is common, symptomatic and under-asked; *what:* elevation).
+**Ix:** **Baseline before starting an antipsychotic: weight, waist circumference, blood pressure, FBC, UEC, LFT, fasting glucose or HbA1c, fasting lipids, prolactin where relevant, and ECG** (*why:* establishes the baseline against which metabolic and cardiac effects are judged, and it is impossible to attribute a later abnormality without it; *what:* baseline values, QTc). **First-episode organic screen** (*why:* medical causes of psychosis; *what:* per [[N1_Mental_State_Examination_and_Risk]] 0.6). **Metabolic monitoring at defined intervals thereafter** (*why:* the effects are early and progressive, and this is where the mortality gap is generated; *what:* weight, glucose, lipids, blood pressure). **Clozapine: mandatory FBC per protocol, plus troponin, CRP and observations during titration, and periodic echocardiography** (*why:* agranulocytosis, myocarditis and cardiomyopathy; *what:* neutrophil count, troponin, CRP, ejection fraction). **Clozapine level** where toxicity, non-response or a change in smoking status (*why:* levels vary widely and smoking is a major determinant; *what:* level). Prolactin where symptomatic (*why:* hyperprolactinaemia is common, symptomatic and under-asked; *what:* elevation).
 
 ---
 
 > [!note] Cross-references
-> Mental state examination, risk and the Mental Health Act → [[N1]] · Medical causes of psychosis → [[N1]] 0.6 · Substance-induced psychosis and stimulants → [[N2]] 0.3 · Mood disorders and psychotic depression → [[N4]] · Personality disorder and quasi-psychotic phenomena → [[N6]] · PTSD and dissociation → [[N5]] · Delirium, dementia and Lewy body neuroleptic sensitivity → [[D2]] 0.2–0.3 · Acute dystonic reactions and tardive dyskinesia → [[D6]] 0.6 and [[C2]] 0.5 · Drug-induced parkinsonism → [[D6]] 0.5 · Neuroleptic malignant syndrome → [[A6]] 0.3 · QT prolongation → [[B3]] 0.3 · Hyperprolactinaemia → [[I4]] 0.2 · Metabolic syndrome and cardiovascular risk → [[I5]] 0.4 and [[B2]] 0.1 · Constipation and ileus → [[C5]] 0.2, 0.5 · Autoimmune encephalitis → [[D1]] 0.5 · Postpartum psychosis → [[O3]] · Cultural safety and not pathologising cultural experience → [[AU1]] 0.3
+> Mental state examination, risk and the Mental Health Act → [[N1_Mental_State_Examination_and_Risk]] · Medical causes of psychosis → [[N1_Mental_State_Examination_and_Risk]] 0.6 · Substance-induced psychosis and stimulants → [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.3 · Mood disorders and psychotic depression → [[N4_Mood_Disorders]] · Personality disorder and quasi-psychotic phenomena → [[N6_Functional__Dissociative_and_Personality_Disorders]] · PTSD and dissociation → [[N5_Anxiety__OCD_and_Trauma]] · Delirium, dementia and Lewy body neuroleptic sensitivity → [[D2_Altered_Consciousness_and_Cognition]] 0.2–0.3 · Acute dystonic reactions and tardive dyskinesia → [[D6_Seizures_and_Movement_Disorders]] 0.6 and [[C2_Nausea_and_Vomiting]] 0.5 · Drug-induced parkinsonism → [[D6_Seizures_and_Movement_Disorders]] 0.5 · Neuroleptic malignant syndrome → [[A6_Thermal_and_Environmental_Injury]] 0.3 · QT prolongation → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3 · Hyperprolactinaemia → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.2 · Metabolic syndrome and cardiovascular risk → [[I5_Weight__Lipids_and_Fluid_Balance]] 0.4 and [[B2_Hypertension_Spectrum]] 0.1 · Constipation and ileus → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.2, 0.5 · Autoimmune encephalitis → [[D1_Headache_and_Meningism]] 0.5 · Postpartum psychosis → [[O3_Labour__Delivery_and_Postpartum]] · Cultural safety and not pathologising cultural experience → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.3

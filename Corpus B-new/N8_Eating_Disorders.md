@@ -10,7 +10,7 @@ population: mixed
 > **Verify against the ANZAED and RANZCP eating disorder guidelines, your health network's eating disorder and refeeding protocols, and the InsideOut Institute resources.**
 > **This file deliberately does not include specific weights, body mass index values, calorie figures or details of compensatory behaviours.** Those details are clinically available in the guidelines and are not necessary for understanding the medicine.
 >
-> **Refeeding syndrome also appears in [[C2]] 0.7 and [[GER2]] 0.3**, and **electrolyte management in [[I3]] 0.6** — cross-referenced rather than repeated.
+> **Refeeding syndrome also appears in [[C2_Nausea_and_Vomiting]] 0.7 and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.3**, and **electrolyte management in [[I3_Calcium__Parathyroid_and_Bone]] 0.6** — cross-referenced rather than repeated.
 
 ---
 
@@ -110,17 +110,17 @@ population: mixed
 > [!warning] Medication does not treat anorexia nervosa
 > **There is NO medication that treats anorexia nervosa itself.** Olanzapine has limited evidence for weight and rumination, and is sometimes used.
 > **Comorbid depression and anxiety should be treated — but note that antidepressants are LESS EFFECTIVE in a malnourished state**, and mood frequently improves substantially with weight restoration alone. **Treating the malnutrition often treats the mood.**
-> **QT-prolonging medications require caution given the cardiac risks.** Cross-refer [[B3]] 0.3.
+> **QT-prolonging medications require caution given the cardiac risks.** Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3.
 
 > [!danger] The combined oral contraceptive pill does not protect bone in anorexia nervosa
 > **Low bone density develops early and is a major long-term consequence, occurring at the age when peak bone mass should be laid down.**
 > **Prescribing the pill to "protect the bones" or to restore menses is NOT effective for bone density in this context, and it is actively unhelpful because it MASKS the amenorrhoea — removing the single most useful clinical marker of nutritional recovery.**
-> **The treatment for the bone is WEIGHT RESTORATION and the return of spontaneous menses.** Cross-refer [[O4]] 0.4 and [[GER1]] 0.6.
+> **The treatment for the bone is WEIGHT RESTORATION and the return of spontaneous menses.** Cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] 0.4 and [[GER1_Comprehensive_Geriatric_Assessment]] 0.6.
 
 > [!warning] Capacity, involuntary treatment, and a genuinely difficult area
 > **Anorexia nervosa is one of the recognised situations in which a patient may appear entirely lucid, articulate and reasoning — while their capacity to weigh the specific decision about eating is impaired BY the illness itself.**
 > **Involuntary treatment, including compulsory feeding, is sometimes lawful and sometimes necessary, and it saves lives.**
-> **It is also ethically complex, potentially traumatising, and must be a senior, specialist, multidisciplinary decision made within the relevant legal framework — never an individual one.** Cross-refer [[N1]] 0.5 and [[A10]] 0.1.
+> **It is also ethically complex, potentially traumatising, and must be a senior, specialist, multidisciplinary decision made within the relevant legal framework — never an individual one.** Cross-refer [[N1_Mental_State_Examination_and_Risk]] 0.5 and [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1.
 > **The aim is always to preserve as much collaboration and autonomy as the situation allows.**
 
 > [!tip] How you speak and behave in the clinical encounter matters
@@ -128,7 +128,7 @@ population: mixed
 > **· Consider BLIND WEIGHING (the patient stands backwards on the scales and is not told the number) where clinically appropriate and agreed.**
 > **· Avoid discussing specific weights, numbers and calories unless clinically necessary.**
 > **· Do not praise weight loss in ANY patient**, since you do not know who has an eating disorder.
-> **· Be aware of your own weight-related language and assumptions** — weight stigma in healthcare both perpetuates disordered eating and drives avoidance of care. Cross-refer [[I5]] 0.1.
+> **· Be aware of your own weight-related language and assumptions** — weight stigma in healthcare both perpetuates disordered eating and drives avoidance of care. Cross-refer [[I5_Weight__Lipids_and_Fluid_Balance]] 0.1.
 
 ---
 
@@ -151,13 +151,13 @@ population: mixed
 > **Avoidant/restrictive food intake disorder is driven by SENSORY sensitivity (texture, smell, appearance), FEAR of an aversive consequence (choking, vomiting, allergic reaction — often after a real episode), or LOW INTEREST in eating — NOT by weight or shape concern.**
 > **It causes nutritional deficiency, weight loss or faltering growth, dependence on supplements, and marked psychosocial impairment.**
 > **It is common in AUTISTIC people and in children**, and it is frequently dismissed as "fussy eating".
-> **The treatment approach is different from that for anorexia nervosa — there is no body image pathology to address, and it focuses on graded exposure to foods, addressing the specific fear, sensory adaptation, and nutritional support.** Cross-refer [[M7]].
+> **The treatment approach is different from that for anorexia nervosa — there is no body image pathology to address, and it focuses on graded exposure to foods, addressing the specific fear, sensory adaptation, and nutritional support.** Cross-refer [[M7_Adolescent_and_Behavioural_Health]].
 
 > [!danger] Insulin omission in type 1 diabetes
 > **Deliberate omission or reduction of insulin to control weight — sometimes called "diabulimia" — occurs particularly in young women with type 1 diabetes.**
 > **It causes recurrent DKA, markedly accelerated microvascular complications, and substantially increased mortality.**
 > **The clue is RECURRENT DKA, unexplained poor glycaemic control with a discrepancy between reported adherence and HbA1c, and weight fluctuation.**
-> **Repeated protocol-driven DKA admissions without ever asking about insulin omission is the pattern that misses it** — and the conversation needs to be non-judgemental, because shame is what maintains the concealment. Cross-refer [[I2]] 0.3.
+> **Repeated protocol-driven DKA admissions without ever asking about insulin omission is the pattern that misses it** — and the conversation needs to be non-judgemental, because shame is what maintains the concealment. Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.3.
 
 ---
 
@@ -188,4 +188,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Risk assessment and suicidality → [[N1]] 0.2–0.3 · Involuntary treatment and the Mental Health Act → [[N1]] 0.5 · Capacity → [[A10]] 0.1 · Anxiety and OCD comorbidity → [[N5]] · Depression → [[N4]] · Refeeding syndrome → [[C2]] 0.7 and [[GER2]] 0.3 · Phosphate, potassium and magnesium → [[I3]] 0.6 · Osteoporosis and bone protection → [[GER1]] 0.6 · Amenorrhoea, RED-S and functional hypothalamic amenorrhoea → [[O4]] 0.4 · Stress fractures → [[L5]] 0.7 · Insulin omission and DKA → [[I2]] 0.3 and [[F0.2]] 0.3 · QT prolongation → [[B3]] 0.3 · Obesity, weight stigma and bariatric surgery → [[I5]] 0.1 · Malnutrition in hospital → [[GER2]] 0.3 · Autism, ARFID and adolescent health → [[M7]]
+> Risk assessment and suicidality → [[N1_Mental_State_Examination_and_Risk]] 0.2–0.3 · Involuntary treatment and the Mental Health Act → [[N1_Mental_State_Examination_and_Risk]] 0.5 · Capacity → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1 · Anxiety and OCD comorbidity → [[N5_Anxiety__OCD_and_Trauma]] · Depression → [[N4_Mood_Disorders]] · Refeeding syndrome → [[C2_Nausea_and_Vomiting]] 0.7 and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.3 · Phosphate, potassium and magnesium → [[I3_Calcium__Parathyroid_and_Bone]] 0.6 · Osteoporosis and bone protection → [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 · Amenorrhoea, RED-S and functional hypothalamic amenorrhoea → [[O4_Abnormal_and_Menstrual_Bleeding]] 0.4 · Stress fractures → [[L5_Regional_Limb_Pain]] 0.7 · Insulin omission and DKA → [[I2_Diabetes_and_Glucose_Disorders]] 0.3 and [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3 · QT prolongation → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3 · Obesity, weight stigma and bariatric surgery → [[I5_Weight__Lipids_and_Fluid_Balance]] 0.1 · Malnutrition in hospital → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.3 · Autism, ARFID and adolescent health → [[M7_Adolescent_and_Behavioural_Health]]

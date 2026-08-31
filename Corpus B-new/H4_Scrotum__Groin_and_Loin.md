@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Clinical reasoning, anatomy and discriminators are reliable at intern level. **Every time window, dose, size threshold and regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG**, USANZ guidance and the Australian STI Management Guidelines.
 >
-> **Pelvic and urethral trauma are also built in [[L8]] 0.5**, **catheter complications in [[H2]] 0.5**, and **necrotising infection in [[K2]] 0.2** — cross-referenced rather than repeated.
+> **Pelvic and urethral trauma are also built in [[L8_Facial__Head_and_Torso_Trauma]] 0.5**, **catheter complications in [[H2_LUTS__Retention_and_Incontinence]] 0.5**, and **necrotising infection in [[K2_Skin_and_Soft_Tissue_Infection]] 0.2** — cross-referenced rather than repeated.
 
 ---
 
@@ -35,17 +35,17 @@ population: mixed
 
 > [!tip] Epididymo-orchitis — and the age determines the organism
 > **Gradual onset over hours to days, fever, dysuria or urethral discharge, a tender swollen epididymis, PRESENT cremasteric reflex, and a POSITIVE PREHN sign (relief on elevation).**
-> **· UNDER about 35 — sexually transmitted: CHLAMYDIA and GONORRHOEA.** **Take a sexual history, test appropriately, treat for STI, and arrange PARTNER NOTIFICATION.** Cross-refer [[O6]] 0.2.
+> **· UNDER about 35 — sexually transmitted: CHLAMYDIA and GONORRHOEA.** **Take a sexual history, test appropriately, treat for STI, and arrange PARTNER NOTIFICATION.** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.2.
 > **· OVER about 35 — enteric organisms, associated with urinary tract infection, bladder outlet obstruction or instrumentation.**
 > **MUMPS ORCHITIS — usually after parotitis, often bilateral, and a reason to check immunisation status.**
 > **The rule that matters: NEVER diagnose epididymo-orchitis in an adolescent or young man without genuinely excluding torsion.** The presentations overlap, and torsion is the one that costs a testis.
 
 > [!danger] The other causes of an acute scrotum
 > **· STRANGULATED INGUINOSCROTAL HERNIA — cross-refer 0.5.**
-> **· FOURNIER GANGRENE — necrotising infection of the perineum and scrotum, with pain out of proportion, systemic toxicity, and crepitus. A surgical emergency, and higher risk in diabetics and the immunosuppressed.** Cross-refer [[K2]] 0.2.
+> **· FOURNIER GANGRENE — necrotising infection of the perineum and scrotum, with pain out of proportion, systemic toxicity, and crepitus. A surgical emergency, and higher risk in diabetics and the immunosuppressed.** Cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.2.
 > **· Testicular TUMOUR with haemorrhage or infarction.**
 > **· Trauma** — see 0.6.
-> **· IgA vasculitis (Henoch-Schönlein purpura) — scrotal involvement occurs in children and can mimic torsion.** Cross-refer [[L2]] 0.5.
+> **· IgA vasculitis (Henoch-Schönlein purpura) — scrotal involvement occurs in children and can mimic torsion.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5.
 > **· Idiopathic scrotal oedema in children** — striking erythema and swelling with surprisingly little tenderness, and a normal testis.
 
 **Ix:** **Urgent surgical assessment — the examination is the investigation** (*why:* torsion is a clinical diagnosis and salvage depends on time to theatre; *what:* lie, cremasteric reflex, Prehn sign). **Doppler ultrasound ONLY where the diagnosis is genuinely uncertain and it will not delay surgery** (*why:* it has meaningful false negatives and false reassurance is the mechanism of testicular loss; *what:* flow, echotexture). Urinalysis and urine culture (*why:* supports epididymo-orchitis; *what:* pyuria, organism). **Chlamydia and gonorrhoea NAAT (first-void urine) in younger men** (*why:* determines treatment and triggers partner notification; *what:* organism). FBC and CRP (*why:* systemic infection; *what:* inflammatory response).
@@ -87,23 +87,23 @@ population: mixed
 > [!danger] Paraphimosis — and it is usually iatrogenic
 > **The retracted foreskin becomes trapped behind the glans, causing venous congestion, progressive oedema, and eventually arterial compromise and necrosis.**
 > **The commonest cause is a healthcare worker retracting the foreskin to catheterise or clean, and NOT REPLACING IT.**
-> **ALWAYS REPLACE THE FORESKIN AFTER CATHETERISATION OR EXAMINATION, and check it afterwards.** Cross-refer [[H2]] 0.5.
+> **ALWAYS REPLACE THE FORESKIN AFTER CATHETERISATION OR EXAMINATION, and check it afterwards.** Cross-refer [[H2_LUTS__Retention_and_Incontinence]] 0.5.
 > **Treatment: analgesia, then sustained MANUAL COMPRESSION of the oedematous foreskin and glans to reduce the swelling, followed by reduction.** Adjuncts (osmotic agents, puncture techniques, dorsal slit) where that fails. **Urgent urology if it cannot be reduced.**
 
 > [!danger] Priapism — the distinction determines the urgency
 > **· ISCHAEMIC (low-flow) priapism — PAINFUL, rigid, with a soft glans. This is a COMPARTMENT SYNDROME of the corpora and a TRUE EMERGENCY.** **Beyond a few hours it causes progressive smooth muscle necrosis and fibrosis, with permanent erectile dysfunction.**
-> **Causes: SICKLE CELL DISEASE (an important cause, particularly in children and adolescents — cross-refer [[J2]]) · haematological malignancy · INTRACAVERNOSAL agents and PDE5 inhibitors · drugs including trazodone, antipsychotics, and COCAINE · and idiopathic.**
+> **Causes: SICKLE CELL DISEASE (an important cause, particularly in children and adolescents — cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]]) · haematological malignancy · INTRACAVERNOSAL agents and PDE5 inhibitors · drugs including trazodone, antipsychotics, and COCAINE · and idiopathic.**
 > **Management: urgent urology, ASPIRATION of the corpora with or without intracavernosal phenylephrine, and treatment of the underlying cause.** `UNVERIFIED — the time thresholds and the phenylephrine regimen.`
 > **· NON-ISCHAEMIC (high-flow) priapism — PAINLESS, not fully rigid, following perineal or penile TRAUMA with an arterial-cavernosal fistula.** **NOT an emergency, and often managed conservatively or with embolisation.**
 > **A painful rigid erection is the emergency; a painless one after trauma is not.**
 
 > [!tip] The foreskin and the rest
 > **· PHYSIOLOGICAL PHIMOSIS in young boys — the foreskin is normally non-retractile in infancy and separates over years.** **DO NOT FORCIBLY RETRACT — it causes pain, scarring and true phimosis.** Reassurance and hygiene advice.
-> **· PATHOLOGICAL PHIMOSIS — scarred, white, non-retractile, often from LICHEN SCLEROSUS (balanitis xerotica obliterans).** Topical steroid or circumcision. **Lichen sclerosus carries a risk of penile SCC and warrants follow-up.** Cross-refer [[O5]] 0.5.
+> **· PATHOLOGICAL PHIMOSIS — scarred, white, non-retractile, often from LICHEN SCLEROSUS (balanitis xerotica obliterans).** Topical steroid or circumcision. **Lichen sclerosus carries a risk of penile SCC and warrants follow-up.** Cross-refer [[O5_Pelvic_and_Vulval_Conditions]] 0.5.
 > **· BALANITIS — candidal, bacterial or irritant. RECURRENT balanitis should prompt a check for DIABETES.**
 > **· PENILE CANCER — uncommon; a non-healing ulcer, plaque or warty lesion. Associated with HPV, phimosis, lichen sclerosus and smoking.** **Any persistent penile lesion requires biopsy, not repeated antifungal creams.**
 > **· PEYRONIE DISEASE — a fibrous plaque causing curvature, pain and functional difficulty.**
-> **· Erectile dysfunction — cross-refer [[O6]] 0.5, including that it is a cardiovascular sentinel event.**
+> **· Erectile dysfunction — cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.5, including that it is a cardiovascular sentinel event.**
 
 ---
 
@@ -112,7 +112,7 @@ population: mixed
 > [!danger] Rule out an abdominal aortic aneurysm before diagnosing first-episode renal colic over 50
 > **A ruptured or symptomatic AAA presents with acute loin, flank or back pain radiating to the groin, sometimes with haematuria — and it is repeatedly misdiagnosed as renal colic.**
 > **This is a classic lethal diagnostic error.**
-> **In anyone over about 50 with a FIRST presentation of "renal colic", and particularly with cardiovascular risk factors, hypotension, or a pulsatile mass — think aorta, and image accordingly.** Cross-refer [[B5]] 0.4 and [[C1]] 0.7.
+> **In anyone over about 50 with a FIRST presentation of "renal colic", and particularly with cardiovascular risk factors, hypotension, or a pulsatile mass — think aorta, and image accordingly.** Cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.4 and [[C1_Acute_Abdomen]] 0.7.
 
 > [!tip] The presentation, and one useful discriminator
 > **Sudden, severe, COLICKY loin-to-groin pain, with nausea and vomiting, and haematuria (visible or non-visible).**
@@ -136,7 +136,7 @@ population: mixed
 > [!danger] Obstruction plus infection is a urological emergency
 > **An obstructed, infected kidney (pyonephrosis) causes rapidly progressive sepsis, and ANTIBIOTICS ALONE ARE NOT SUFFICIENT.**
 > **It requires URGENT DECOMPRESSION — a nephrostomy or a ureteric stent — the same day.**
-> **Fever with an obstructing stone is not "a stone plus a urinary tract infection to be treated with antibiotics overnight". It is a drainage problem.** Cross-refer [[F0.3]] 0.10 and [[H2]] 0.4.
+> **Fever with an obstructing stone is not "a stone plus a urinary tract infection to be treated with antibiotics overnight". It is a drainage problem.** Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.10 and [[H2_LUTS__Retention_and_Incontinence]] 0.4.
 > **Other indications for urgent intervention: acute kidney injury from obstruction · obstruction of a SINGLE functioning kidney · bilateral obstruction · intractable pain or vomiting · and a stone unlikely to pass.**
 
 > [!tip] Prevention — and the counterintuitive one about calcium
@@ -161,7 +161,7 @@ population: mixed
 > **They are more common in WOMEN, have a NARROW, RIGID neck bounded by the inguinal ligament and lacunar ligament, and carry a HIGH RISK OF STRANGULATION.**
 > **They frequently present for the first time WITH strangulation and bowel obstruction**, in an older woman whose small groin lump was never noticed or was assumed to be a node.
 > **A femoral hernia warrants PROMPT surgical repair rather than watchful waiting.**
-> **Any patient with bowel obstruction needs BOTH groins examined** — a small, tender, irreducible femoral hernia is easily missed under a pannus, and it is a classic cause of "obstruction of unknown cause". Cross-refer [[C5]] 0.5.
+> **Any patient with bowel obstruction needs BOTH groins examined** — a small, tender, irreducible femoral hernia is easily missed under a pannus, and it is a classic cause of "obstruction of unknown cause". Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5.
 
 > [!warning] Strangulation, and what not to do
 > **Features: an IRREDUCIBLE, TENDER hernia, with overlying erythema, systemic upset, and signs of bowel obstruction.** **This is a surgical emergency.**
@@ -169,10 +169,10 @@ population: mixed
 > Gentle reduction of a recently incarcerated but non-tender hernia is reasonable; force is not.
 
 > [!tip] Groin lymphadenopathy
-> **· Infective — lower limb infection or trauma, genital infection, and SEXUALLY TRANSMITTED causes including syphilis, herpes, chancroid and LYMPHOGRANULOMA VENEREUM (which causes prominent, sometimes suppurative inguinal nodes).** Cross-refer [[O6]] 0.2.
+> **· Infective — lower limb infection or trauma, genital infection, and SEXUALLY TRANSMITTED causes including syphilis, herpes, chancroid and LYMPHOGRANULOMA VENEREUM (which causes prominent, sometimes suppurative inguinal nodes).** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.2.
 > **· Malignant — MELANOMA and squamous cell carcinoma of the lower limb, and ANAL, VULVAL, PENILE and CERVICAL cancers, all of which drain to the inguinal nodes.** **A hard, fixed or persistent inguinal node warrants examination of the entire lower limb, perineum, genitalia and anus — including between the toes and the soles, where melanomas hide.**
 > **· Lymphoma.**
-> Cross-refer [[B6]] 0.8.
+> Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8.
 
 ---
 
@@ -182,7 +182,7 @@ population: mixed
 > **Signs of urethral injury: BLOOD AT THE URETHRAL MEATUS · a HIGH-RIDING or impalpable prostate · perineal or scrotal BRUISING (butterfly haematoma) · and inability to void with a palpable bladder.**
 > **DO NOT ATTEMPT URETHRAL CATHETERISATION** — it can convert a partial urethral tear into a complete disruption.
 > **Perform a RETROGRADE URETHROGRAM first, and use a SUPRAPUBIC catheter if drainage is needed.**
-> **Urethral injury is strongly associated with PELVIC FRACTURE.** Cross-refer [[L8]] 0.5.
+> **Urethral injury is strongly associated with PELVIC FRACTURE.** Cross-refer [[L8_Facial__Head_and_Torso_Trauma]] 0.5.
 
 > [!tip] The other injuries
 > **· RENAL TRAUMA — the DEGREE of haematuria correlates POORLY with the severity of injury; significant renal injury can occur with minimal or no haematuria, particularly with deceleration injuries and renal pedicle avulsion.** **CT with a DELAYED (excretory) phase is required to assess the collecting system** — a standard portal venous phase misses urinary extravasation. **Most renal injuries are managed conservatively in the haemodynamically stable patient.**
@@ -202,4 +202,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Haematuria investigation → [[H1]] 0.1 · LUTS, retention and catheter complications → [[H2]] · Acute kidney injury and obstructive uropathy → [[H3]] · Urosepsis and obstructed infected systems → [[F0.3]] 0.10 · Abdominal aortic aneurysm → [[B5]] 0.4 and [[C1]] 0.7 · Bowel obstruction and hernia → [[C5]] 0.5 · Fournier gangrene and necrotising infection → [[K2]] 0.2 · IgA vasculitis → [[L2]] 0.5 · Pelvic and urethral trauma → [[L8]] 0.5 · Sickle cell disease and priapism → [[J2]] · STI testing and partner notification → [[O6]] 0.1–0.2 · Erectile dysfunction as a cardiovascular marker → [[O6]] 0.5 · Lichen sclerosus → [[O5]] 0.5 · Lymphadenopathy and melanoma → [[B6]] 0.8 · Gout and urate → [[L1]] 0.3 · Hypercalcaemia and hyperparathyroidism → [[I3]] 0.2, 0.4
+> Haematuria investigation → [[H1_Haematuria_and_Proteinuria]] 0.1 · LUTS, retention and catheter complications → [[H2_LUTS__Retention_and_Incontinence]] · Acute kidney injury and obstructive uropathy → [[H3_Acute_Kidney_Injury_and_CKD]] · Urosepsis and obstructed infected systems → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.10 · Abdominal aortic aneurysm → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.4 and [[C1_Acute_Abdomen]] 0.7 · Bowel obstruction and hernia → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5 · Fournier gangrene and necrotising infection → [[K2_Skin_and_Soft_Tissue_Infection]] 0.2 · IgA vasculitis → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5 · Pelvic and urethral trauma → [[L8_Facial__Head_and_Torso_Trauma]] 0.5 · Sickle cell disease and priapism → [[J2_Haemoglobinopathy_and_Haemolysis]] · STI testing and partner notification → [[O6_Sexual_and_Reproductive_Health]] 0.1–0.2 · Erectile dysfunction as a cardiovascular marker → [[O6_Sexual_and_Reproductive_Health]] 0.5 · Lichen sclerosus → [[O5_Pelvic_and_Vulval_Conditions]] 0.5 · Lymphadenopathy and melanoma → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8 · Gout and urate → [[L1_Hot_and_Swollen_Joint]] 0.3 · Hypercalcaemia and hyperparathyroidism → [[I3_Calcium__Parathyroid_and_Bone]] 0.2, 0.4

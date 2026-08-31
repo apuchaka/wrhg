@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from guidelines. Mechanism, classification and clinical reasoning are reliable at intern level. **Every dose, timing, threshold and cross-reactivity figure carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **ASCIA (Australasian Society of Clinical Immunology and Allergy) is the authoritative Australian source** for anaphylaxis action plans, infant feeding and allergy prevention, drug allergy, and immunotherapy — verify everything here against current ASCIA guidance, and drug regimens against eTG.
 >
-> **Anaphylaxis management is built in [[F0.1]] 0.9**, and **immunodeficiency in [[K3]] 0.5** — both are cross-referenced rather than repeated.
+> **Anaphylaxis management is built in [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.9**, and **immunodeficiency in [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5** — both are cross-referenced rather than repeated.
 
 ---
 
@@ -19,7 +19,7 @@ population: mixed
 > **· Type I — IgE-mediated, IMMEDIATE.** Onset within **minutes to about two hours**. Preformed IgE on mast cells and basophils cross-links on allergen contact → degranulation → histamine and other mediators. **Anaphylaxis, urticaria, angioedema, allergic rhinitis, allergic asthma, IgE-mediated food allergy.**
 > **· Type II — cytotoxic, IgG or IgM against cell-surface antigens.** **Autoimmune haemolytic anaemia, heparin-induced thrombocytopenia, Goodpasture syndrome, some drug-induced cytopenias.**
 > **· Type III — immune complex.** **Serum sickness, vasculitis, post-streptococcal glomerulonephritis, some drug reactions.** Onset days to weeks.
-> **· Type IV — delayed, T-cell mediated.** Onset **48 hours to weeks.** **Contact dermatitis, tuberculin reaction, most delayed drug exanthems, and the severe cutaneous adverse reactions — SJS/TEN, DRESS, AGEP.** Cross-refer [[A5]] 0.6.
+> **· Type IV — delayed, T-cell mediated.** Onset **48 hours to weeks.** **Contact dermatitis, tuberculin reaction, most delayed drug exanthems, and the severe cutaneous adverse reactions — SJS/TEN, DRESS, AGEP.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6.
 
 > [!tip] The timing of the reaction tells you the mechanism, and the mechanism tells you the danger
 > **A reaction within an hour, with urticaria, angioedema, wheeze or hypotension, is IgE-mediated — and re-exposure risks anaphylaxis.**
@@ -92,7 +92,7 @@ population: mixed
 > **· Drug-induced haemolysis or cytopenia**
 > **· Serum sickness**
 > **· Documented anaphylaxis**
-> **These are not candidates for rechallenge under any circumstance, and the whole drug class is generally avoided.** Cross-refer [[A5]] 0.6.
+> **These are not candidates for rechallenge under any circumstance, and the whole drug class is generally avoided.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6.
 > **Everything else is potentially assessable**, and low-risk histories may be suitable for **direct oral rechallenge** in an appropriate setting, with higher-risk histories going through skin testing and graded challenge with immunology. `UNVERIFIED — risk stratification tools and rechallenge protocols.`
 
 > [!warning] Cross-reactivity is lower than traditionally taught
@@ -150,10 +150,10 @@ De-label where the history is clearly not allergic. Refer for formal assessment 
 > **Food intolerance is not immune-mediated** — **lactose intolerance (enzyme deficiency), FODMAP sensitivity, food chemical sensitivity, caffeine and alcohol effects.** It is dose-dependent, does not cause anaphylaxis, and does not require an autoinjector.
 > **Patients frequently use "allergy" for both**, and clarifying it changes both the assessment and the level of restriction required. **This is common OSCE material.**
 
-**Ix:** **History first, then targeted testing** (*why:* untargeted panels generate sensitisation without allergy and lead to unnecessary avoidance; *what:* specific IgE or skin prick to the suspected food only). **Component-resolved testing where the result is equivocal** (*why:* distinguishes true allergy from pollen cross-reactivity; *what:* component-specific IgE). **Supervised oral food challenge** (*why:* the definitive test, and the way most unnecessary avoidance is ended; *what:* tolerance or reaction). Growth and nutritional assessment in children on elimination diets (*why:* multiple exclusions cause faltering growth and deficiency; *what:* growth trajectory, intake). Coeliac serology where wheat is implicated (*why:* coeliac disease is a distinct, common and different problem; *what:* tissue transglutaminase IgA — cross-refer [[C5]] 0.4).
+**Ix:** **History first, then targeted testing** (*why:* untargeted panels generate sensitisation without allergy and lead to unnecessary avoidance; *what:* specific IgE or skin prick to the suspected food only). **Component-resolved testing where the result is equivocal** (*why:* distinguishes true allergy from pollen cross-reactivity; *what:* component-specific IgE). **Supervised oral food challenge** (*why:* the definitive test, and the way most unnecessary avoidance is ended; *what:* tolerance or reaction). Growth and nutritional assessment in children on elimination diets (*why:* multiple exclusions cause faltering growth and deficiency; *what:* growth trajectory, intake). Coeliac serology where wheat is implicated (*why:* coeliac disease is a distinct, common and different problem; *what:* tissue transglutaminase IgA — cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.4).
 
 ### 0.4.1 Mx – Immediate
-Anaphylaxis management per [[F0.1]] 0.9.
+Anaphylaxis management per [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.9.
 
 ### 0.4.2 Mx – Definitive
 **Targeted avoidance of the confirmed allergen only** — not blanket avoidance of everything that tested positive. Dietitian involvement, particularly in children and in multiple allergies.
@@ -171,7 +171,7 @@ Anaphylaxis management per [[F0.1]] 0.9.
 
 > [!warning] Allergic rhinitis is under-treated and it matters more than it appears
 > **It impairs sleep, daytime concentration, school performance and work productivity**, and children are frequently labelled as inattentive when they are chronically obstructed and sleeping badly.
-> **"United airways" — allergic rhinitis and asthma are the same inflammatory process in a continuous airway, and treating the rhinitis improves asthma control.** **Ask every asthmatic about nasal symptoms**, because it is a modifiable contributor that is routinely not addressed. Cross-refer [[F0.5]] 0.1.
+> **"United airways" — allergic rhinitis and asthma are the same inflammatory process in a continuous airway, and treating the rhinitis improves asthma control.** **Ask every asthmatic about nasal symptoms**, because it is a modifiable contributor that is routinely not addressed. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.1.
 
 > [!tip] Management, with the one thing that determines success
 > **· Allergen avoidance** — logical, but of limited efficacy for house dust mite in practice, and worth being honest about rather than prescribing elaborate and expensive measures with poor evidence.
@@ -210,7 +210,7 @@ Review technique and adherence, treat coexisting asthma, and consider immunother
 > **· Angioedema WITH urticaria → histaminergic → responds to adrenaline, antihistamines and corticosteroids.**
 > **· Angioedema WITHOUT urticaria → bradykinin-mediated → does NOT respond well to any of those.**
 > **Bradykinin-mediated causes:**
-> **· ACE inhibitor-induced angioedema** — may begin **years after starting the drug**, characteristically involves the lips, tongue and larynx, and **is an absolute lifelong contraindication to the whole class.** Cross-refer [[A2]] 0.2 and [[F0.1]] 0.9.
+> **· ACE inhibitor-induced angioedema** — may begin **years after starting the drug**, characteristically involves the lips, tongue and larynx, and **is an absolute lifelong contraindication to the whole class.** Cross-refer [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.2 and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.9.
 > **· Hereditary angioedema (C1 esterase inhibitor deficiency)** — **recurrent attacks from childhood or adolescence, a family history, NO urticaria and NO itch**, with attacks lasting days. **Abdominal attacks cause severe pain and vomiting and are repeatedly mistaken for a surgical abdomen, leading to unnecessary laparotomy.** **Laryngeal attacks are life-threatening.** Triggers include **trauma, DENTAL PROCEDURES, surgery, stress, infection and oestrogen (including the combined oral contraceptive).**
 > **Specific treatments exist — C1 inhibitor concentrate and icatibant — and they work where adrenaline does not.** These patients should carry their own supply and a management plan, and **short-term prophylaxis is given before dental and surgical procedures.**
 > **· Acquired C1 inhibitor deficiency** — later onset, associated with lymphoproliferative disease.
@@ -269,10 +269,10 @@ Regular up-titrated antihistamine for chronic urticaria. Cessation and permanent
 > **· Allergy or immunology referral** for confirmation of the trigger, since **an incorrectly identified allergen leaves the real one in the diet.**
 > **· Documentation in the record and to the GP.**
 > **· Checking the device has not expired** — expired autoinjectors are a common and entirely preventable failure.
-> Cross-refer [[F0.1]] 0.9.
+> Cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.9.
 
 > [!warning] Immunodeficiency
-> Primary and secondary immunodeficiency, the warning signs, and the screening required before immunosuppression are built in **[[K3]] 0.5** and are not repeated here. The link between the two fields matters clinically: **allergy and immunodeficiency both present to immunology services, and some primary immunodeficiencies — notably common variable immunodeficiency — present with autoimmune and allergic-appearing features rather than infection.**
+> Primary and secondary immunodeficiency, the warning signs, and the screening required before immunosuppression are built in **[[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5** and are not repeated here. The link between the two fields matters clinically: **allergy and immunodeficiency both present to immunology services, and some primary immunodeficiencies — notably common variable immunodeficiency — present with autoimmune and allergic-appearing features rather than infection.**
 
 **Ix:** Specific IgE or skin prick testing to identify the allergen for immunotherapy (*why:* immunotherapy targets a defined allergen and must match the clinical history; *what:* confirmed sensitisation matching the history). **Baseline tryptase before venom immunotherapy** (*why:* an elevated baseline indicates mast cell disorder, which increases the risk of severe sting reactions and affects the treatment plan; *what:* elevated level). Spirometry (*why:* uncontrolled asthma increases the risk of immunotherapy reactions and should be optimised first; *what:* airflow obstruction).
 
@@ -288,4 +288,4 @@ Immunotherapy or biologic therapy through a specialist service.
 ---
 
 > [!note] Cross-references
-> Anaphylaxis acute management → [[F0.1]] 0.9 · Angioedema and airway compromise → [[A2]] 0.2 · Severe cutaneous adverse reactions (SJS/TEN, DRESS) → [[A5]] 0.6 · Adverse drug reaction classification → [[A5]] 0.5 · Immunodeficiency and pre-immunosuppression screening → [[K3]] 0.5 · Asthma → [[F0.5]] 0.1 · Chronic cough and reflux → [[A4]] 0.5 · Coeliac disease and chronic diarrhoea → [[C5]] 0.4 · Eosinophilic oesophagitis → [[C6]] 0.3 · Eczema and chronic dermatoses → [[G4]] · Nasal polyps and rhinosinusitis → [[F2]] · Tick-induced mammalian meat allergy → [[K3]] 0.6 · Transfusion reactions → [[A9]] 0.2
+> Anaphylaxis acute management → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.9 · Angioedema and airway compromise → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.2 · Severe cutaneous adverse reactions (SJS/TEN, DRESS) → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6 · Adverse drug reaction classification → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.5 · Immunodeficiency and pre-immunosuppression screening → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · Asthma → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.1 · Chronic cough and reflux → [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.5 · Coeliac disease and chronic diarrhoea → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.4 · Eosinophilic oesophagitis → [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] 0.3 · Eczema and chronic dermatoses → [[G4_Chronic_Rash__Pruritus_and_Pigment]] · Nasal polyps and rhinosinusitis → [[F2_Nose_and_Sinus]] · Tick-induced mammalian meat allergy → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.6 · Transfusion reactions → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.2

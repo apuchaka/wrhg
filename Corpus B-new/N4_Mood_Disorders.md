@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Clinical reasoning, discriminators and prescribing principles are reliable at intern level. **Every dose, level, monitoring interval and diagnostic criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG Psychotropic**, the **Australian Medicines Handbook**, RANZCP mood disorder guidelines, and — for valproate — current TGA prescribing requirements, which are regulatory rather than advisory.
 >
-> **Risk assessment and suicidality are built in [[N1]] 0.2–0.3**, and **psychotic depression in [[N3]] 0.3** — both are cross-referenced rather than repeated.
+> **Risk assessment and suicidality are built in [[N1_Mental_State_Examination_and_Risk]] 0.2–0.3**, and **psychotic depression in [[N3_Psychosis_and_Antipsychotics]] 0.3** — both are cross-referenced rather than repeated.
 
 ---
 
@@ -20,7 +20,7 @@ population: mixed
 > **MELANCHOLIC features — anhedonia with NON-REACTIVE mood (nothing lifts it, even briefly), DIURNAL VARIATION with mood worst in the MORNING, EARLY MORNING WAKENING, marked psychomotor change, significant weight loss, and excessive guilt.**
 > **This matters because melancholic depression predicts a better response to BIOLOGICAL treatment — antidepressants and electroconvulsive therapy — and a poorer response to psychological therapy alone.**
 > **ATYPICAL features — mood REACTIVITY (temporarily lifts with positive events), HYPERSOMNIA, HYPERPHAGIA and weight gain, leaden heaviness in the limbs, and long-standing rejection sensitivity.**
-> **PSYCHOTIC features — cross-refer [[N3]] 0.3.** Requires an antipsychotic alongside the antidepressant, or ECT.
+> **PSYCHOTIC features — cross-refer [[N3_Psychosis_and_Antipsychotics]] 0.3.** Requires an antipsychotic alongside the antidepressant, or ECT.
 
 > [!danger] Screen for past hypomania BEFORE prescribing an antidepressant
 > **This is the single most important question in a depressed patient, and it is routinely not asked.**
@@ -33,14 +33,14 @@ population: mixed
 > **Red flags for bipolarity in someone presenting with depression: early age of onset · highly recurrent episodes · atypical or psychotic features · a family history of bipolar disorder · postpartum onset · and previous antidepressant-induced agitation, switching, or repeated non-response.**
 
 > [!warning] The organic and other differentials
-> **· ENDOCRINE — HYPOTHYROIDISM (check the TSH in every case), Cushing syndrome, adrenal insufficiency, hyperparathyroidism.** Cross-refer [[I1]] and [[I4]].
+> **· ENDOCRINE — HYPOTHYROIDISM (check the TSH in every case), Cushing syndrome, adrenal insufficiency, hyperparathyroidism.** Cross-refer [[I1_Thyroid_Disease]] and [[I4_Pituitary__Adrenal_and_Sex_Hormone]].
 > **· HAEMATOLOGICAL AND NUTRITIONAL — anaemia, iron deficiency, B12 and folate deficiency, vitamin D deficiency.**
 > **· NEUROLOGICAL — Parkinson disease (in which depression frequently PRECEDES the motor features), dementia, stroke, multiple sclerosis, traumatic brain injury.**
-> **· OBSTRUCTIVE SLEEP APNOEA — very commonly presents as fatigue, low mood and cognitive complaints, and is treatable.** Cross-refer [[RESP-X]] 0.5.
+> **· OBSTRUCTIVE SLEEP APNOEA — very commonly presents as fatigue, low mood and cognitive complaints, and is treatable.** Cross-refer [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.5.
 > **· MALIGNANCY — with pancreatic cancer having a particular and repeatedly noted association with depression preceding diagnosis.**
 > **· MEDICATIONS — corticosteroids, interferon, isotretinoin, some hormonal treatments; and alcohol, which is both a cause and a consequence.**
 > **· CHRONIC PAIN, which is bidirectionally related to depression.**
-> **· SUBSTANCE USE.** Cross-refer [[N2]].
+> **· SUBSTANCE USE.** Cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]].
 
 > [!tip] Grief, adjustment, and depression
 > **GRIEF comes in WAVES, triggered by reminders, with periods of normal or even positive emotion in between. Self-esteem is preserved. The person can still experience pleasure and connection. Thoughts of death are usually about joining the deceased rather than about being worthless.**
@@ -50,7 +50,7 @@ population: mixed
 
 > [!warning] Depression in older adults presents differently and is under-treated
 > **More somatic complaints, more anxiety and agitation, more cognitive impairment, and less reported sadness** — so it gets attributed to physical illness or to "getting old".
-> **"PSEUDODEMENTIA": the patient complains bitterly about their memory, says "I don't know" rather than attempting answers, and is MORE worried than their family — whereas in dementia the family is more worried than the patient.** Cross-refer [[D2]] 0.4.
+> **"PSEUDODEMENTIA": the patient complains bitterly about their memory, says "I don't know" rather than attempting answers, and is MORE worried than their family — whereas in dementia the family is more worried than the patient.** Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.4.
 > **Depression is a common, treatable and frequently missed cause of functional decline in older people.**
 
 **Ix:** **TSH, FBC, ferritin, B12, folate, vitamin D, UEC, LFT, calcium, glucose** (*why:* the treatable organic contributors, and a baseline before medication; *what:* the abnormality). **Screening tools — PHQ-9, K10, the EPDS in the perinatal period, the Geriatric Depression Scale in older adults** (*why:* quantifies severity and tracks response over time; *what:* score — **used to measure, not to diagnose**). Sleep study where indicated (*why:* obstructive sleep apnoea mimics depression closely; *what:* apnoea-hypopnoea index). **ECG** (*why:* baseline QT before certain antidepressants, particularly in older adults; *what:* QTc). **Collateral history** (*why:* the bipolar screen and the functional timeline depend on it; *what:* previous elevated periods, functional change).
@@ -107,14 +107,14 @@ population: mixed
 > **· Sexual side effects are common — say so, because they will not ask.**
 
 > [!danger] The four adverse effects that matter most in practice
-> **1. SEXUAL DYSFUNCTION — very common (reduced libido, delayed or absent orgasm, erectile difficulty), persistent, and a major cause of SILENT non-adherence.** **Patients almost never raise it.** **Ask directly and matter-of-factly, and manage it — dose reduction, switching agent, or adjunctive strategies — rather than leaving them to stop the drug without telling you.** Cross-refer [[O6]] 0.5.
-> **2. HYPONATRAEMIA — through SIADH, typically within the first weeks, and particularly in OLDER patients, women, low body weight, and those on diuretics.** **It presents as confusion, falls, lethargy or seizures and is easily attributed to the depression itself or to ageing.** **Check the sodium after starting an antidepressant in an older person.** Cross-refer [[I5]] 0.5.
-> **3. BLEEDING RISK — SSRIs impair platelet serotonin uptake and increase gastrointestinal bleeding risk, particularly in combination with NSAIDs, aspirin or anticoagulants.** Consider gastroprotection. Cross-refer [[C4]] 0.2.
-> **4. SEROTONIN TOXICITY — with combinations (including tramadol, triptans, linezolid, St John's wort, and MAOIs).** Cross-refer [[A6]] 0.3.
+> **1. SEXUAL DYSFUNCTION — very common (reduced libido, delayed or absent orgasm, erectile difficulty), persistent, and a major cause of SILENT non-adherence.** **Patients almost never raise it.** **Ask directly and matter-of-factly, and manage it — dose reduction, switching agent, or adjunctive strategies — rather than leaving them to stop the drug without telling you.** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.5.
+> **2. HYPONATRAEMIA — through SIADH, typically within the first weeks, and particularly in OLDER patients, women, low body weight, and those on diuretics.** **It presents as confusion, falls, lethargy or seizures and is easily attributed to the depression itself or to ageing.** **Check the sodium after starting an antidepressant in an older person.** Cross-refer [[I5_Weight__Lipids_and_Fluid_Balance]] 0.5.
+> **3. BLEEDING RISK — SSRIs impair platelet serotonin uptake and increase gastrointestinal bleeding risk, particularly in combination with NSAIDs, aspirin or anticoagulants.** Consider gastroprotection. Cross-refer [[C4_Gastrointestinal_Bleeding]] 0.2.
+> **4. SEROTONIN TOXICITY — with combinations (including tramadol, triptans, linezolid, St John's wort, and MAOIs).** Cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.3.
 > Also: QT prolongation (particularly citalopram and escitalopram), gastrointestinal upset, headache, sleep disturbance, and weight change.
 
 > [!danger] Tricyclic antidepressants are lethal in overdose
-> **TCA overdose causes anticholinergic toxicity, seizures, QRS widening, ventricular arrhythmia and cardiovascular collapse.** **Sodium bicarbonate is the specific treatment.** Cross-refer [[A5]] and [[F0.1]] 0.5.
+> **TCA overdose causes anticholinergic toxicity, seizures, QRS widening, ventricular arrhythmia and cardiovascular collapse.** **Sodium bicarbonate is the specific treatment.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.5.
 > **The practical implication for prescribing: think carefully before prescribing a TCA to a person at risk of overdose**, and consider quantity supplied and who holds the medication.
 > **The same consideration applies more broadly — the quantity of any antidepressant dispensed to a person with active suicidal ideation is a legitimate clinical decision.**
 
@@ -146,7 +146,7 @@ population: mixed
 > **A depressed patient who is agitated, sleepless and irritable rather than slowed should raise the possibility of a mixed state** — and giving them an antidepressant alone may worsen it.
 
 > [!tip] Managing acute mania
-> **· SAFETY FIRST — mania frequently involves risk to reputation, finances, relationships, sexual safety and physical safety, and insight is typically absent.** **Admission is often required, and involuntary treatment may be necessary.** Cross-refer [[N1]] 0.5.
+> **· SAFETY FIRST — mania frequently involves risk to reputation, finances, relationships, sexual safety and physical safety, and insight is typically absent.** **Admission is often required, and involuntary treatment may be necessary.** Cross-refer [[N1_Mental_State_Examination_and_Risk]] 0.5.
 > **· STOP ANTIDEPRESSANTS.**
 > **· Antipsychotic and/or lithium or valproate**, with a benzodiazepine for agitation and to restore sleep.
 > **· REDUCE STIMULATION — a quiet environment, limited visitors, and restoration of sleep, which is both a treatment and a marker of response.**
@@ -188,20 +188,20 @@ population: mixed
 > **· NEPHROGENIC DIABETES INSIPIDUS — polyuria and polydipsia.**
 > **· CHRONIC KIDNEY DISEASE with long-term use — monitor renal function.**
 > **· Weight gain, fine tremor, acne, psoriasis exacerbation.**
-> **· TERATOGENIC — associated with cardiac malformation including Ebstein anomaly. Requires specialist discussion in pregnancy planning — but note that abrupt cessation carries a high relapse risk, so it is a balance rather than an automatic stop.** Cross-refer [[O2]].
+> **· TERATOGENIC — associated with cardiac malformation including Ebstein anomaly. Requires specialist discussion in pregnancy planning — but note that abrupt cessation carries a high relapse risk, so it is a balance rather than an automatic stop.** Cross-refer [[O2_Later_Pregnancy_and_Fetal]].
 > **Monitoring: lithium level, renal function, thyroid function and calcium at defined intervals.** `UNVERIFIED — the schedule.`
 
 > [!danger] Sodium valproate and women of childbearing potential
 > **Valproate is highly teratogenic and causes neurodevelopmental impairment in a substantial proportion of exposed children.**
 > **It must NOT be used in women and girls of childbearing potential unless there is no effective alternative and strict regulatory conditions are met, including documented counselling and effective contraception.**
-> **This is a regulatory requirement, not a suggestion, and it applies in psychiatry exactly as it does in epilepsy.** Cross-refer [[D6]] 0.3. `UNVERIFIED — the current TGA requirements.`
+> **This is a regulatory requirement, not a suggestion, and it applies in psychiatry exactly as it does in epilepsy.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.3. `UNVERIFIED — the current TGA requirements.`
 > **Other valproate effects: hepatotoxicity, pancreatitis, thrombocytopenia, weight gain, hair loss, tremor, and HYPERAMMONAEMIA causing encephalopathy with a normal LFT panel** — worth knowing, because an encephalopathic patient on valproate needs an ammonia level.
 
 > [!warning] Lamotrigine and carbamazepine
 > **LAMOTRIGINE — particularly useful for preventing bipolar DEPRESSION.**
-> **· SLOW TITRATION IS MANDATORY because of the risk of SEVERE CUTANEOUS ADVERSE REACTIONS including Stevens-Johnson syndrome and toxic epidermal necrolysis.** **Any rash on lamotrigine should stop the drug pending assessment.** Cross-refer [[A5]] 0.6.
+> **· SLOW TITRATION IS MANDATORY because of the risk of SEVERE CUTANEOUS ADVERSE REACTIONS including Stevens-Johnson syndrome and toxic epidermal necrolysis.** **Any rash on lamotrigine should stop the drug pending assessment.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6.
 > **· VALPROATE INHIBITS lamotrigine metabolism and substantially RAISES its level — the dose must be halved or lower when combined.** **This is a classic and dangerous interaction.**
-> **· Oestrogen-containing contraception LOWERS lamotrigine levels**, so starting or stopping the pill changes the effective dose. Cross-refer [[O6]] 0.3.
+> **· Oestrogen-containing contraception LOWERS lamotrigine levels**, so starting or stopping the pill changes the effective dose. Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.3.
 > **CARBAMAZEPINE — a potent enzyme inducer (with contraceptive failure), causes HYPONATRAEMIA, and carries the HLA-B\*1502 association with severe cutaneous reactions in some Asian populations.**
 
 ---
@@ -211,14 +211,14 @@ population: mixed
 > [!danger] The perinatal period — the choice is treated illness versus untreated illness
 > **The framing that patients and clinicians get wrong: the decision is not "medication versus no medication". It is "treated illness versus UNTREATED ILLNESS", and untreated perinatal depression carries real risks to the mother, the pregnancy and the child** — including poor attachment, impaired child development, obstetric complications, and maternal suicide, **which is a leading cause of maternal death.**
 > **Practical points: screen with the EPDS · involve perinatal mental health services · sertraline is commonly used in pregnancy and breastfeeding · AVOID VALPROATE · lithium requires specialist discussion rather than automatic cessation · and most antidepressants are compatible with breastfeeding.**
-> **POSTPARTUM PSYCHOSIS is a psychiatric emergency** — rapid onset, fluctuating, with risk to mother and infant, requiring urgent assessment and usually admission. Cross-refer [[O3]] and [[N3]] 0.2.
+> **POSTPARTUM PSYCHOSIS is a psychiatric emergency** — rapid onset, fluctuating, with risk to mother and infant, requiring urgent assessment and usually admission. Cross-refer [[O3_Labour__Delivery_and_Postpartum]] and [[N3_Psychosis_and_Antipsychotics]] 0.2.
 > **Consult a specialist medicines-in-pregnancy service rather than a product information leaflet, which is written defensively and leads to unnecessary cessation.**
 
 > [!tip] Older adults
 > **Depression is under-diagnosed and under-treated in older people**, and it presents with somatic complaints, anxiety, agitation and cognitive impairment more than with reported sadness.
 > **Prescribing considerations: HYPONATRAEMIA risk with SSRIs · falls risk · anticholinergic burden (avoid TCAs) · drug interactions · and slower titration.**
 > **ECT is safe and highly effective in older adults**, including in the very old, and it is under-used through misplaced concern.
-> **Treating depression in an older person frequently improves apparent cognitive impairment**, which is why it should be treated before a dementia diagnosis is settled. Cross-refer [[D2]] 0.4.
+> **Treating depression in an older person frequently improves apparent cognitive impairment**, which is why it should be treated before a dementia diagnosis is settled. Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.4.
 
 > [!warning] Treatment-resistant depression — check these before escalating
 > **· ADHERENCE — the commonest reason, and it needs asking about without judgement.**
@@ -241,4 +241,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Risk assessment, suicidality and safety planning → [[N1]] 0.2–0.3 · Substance use and alcohol → [[N2]] · Psychotic depression and antipsychotics → [[N3]] · Anxiety, PTSD and adjustment → [[N5]] · Personality disorder and chronic suicidality → [[N6]] · Eating disorders → [[N8]] · Depression versus dementia → [[D2]] 0.4 · Serotonin toxicity and NMS → [[A6]] 0.3 · TCA overdose → [[A5]] and [[F0.1]] 0.5 · Hyponatraemia and SIADH → [[I5]] 0.5 · Thyroid and adrenal causes → [[I1]] and [[I4]] · Obstructive sleep apnoea → [[RESP-X]] 0.5 · SSRI bleeding risk → [[C4]] 0.2 · Lamotrigine and severe cutaneous reactions → [[A5]] 0.6 · Valproate and enzyme-inducing drug interactions with contraception → [[D6]] 0.3 and [[O6]] 0.3 · Perinatal mental health and postpartum psychosis → [[O3]] and [[O2]] · Sexual dysfunction → [[O6]] 0.5 · Adolescent mental health → [[M7]]
+> Risk assessment, suicidality and safety planning → [[N1_Mental_State_Examination_and_Risk]] 0.2–0.3 · Substance use and alcohol → [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] · Psychotic depression and antipsychotics → [[N3_Psychosis_and_Antipsychotics]] · Anxiety, PTSD and adjustment → [[N5_Anxiety__OCD_and_Trauma]] · Personality disorder and chronic suicidality → [[N6_Functional__Dissociative_and_Personality_Disorders]] · Eating disorders → [[N8_Eating_Disorders]] · Depression versus dementia → [[D2_Altered_Consciousness_and_Cognition]] 0.4 · Serotonin toxicity and NMS → [[A6_Thermal_and_Environmental_Injury]] 0.3 · TCA overdose → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.5 · Hyponatraemia and SIADH → [[I5_Weight__Lipids_and_Fluid_Balance]] 0.5 · Thyroid and adrenal causes → [[I1_Thyroid_Disease]] and [[I4_Pituitary__Adrenal_and_Sex_Hormone]] · Obstructive sleep apnoea → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.5 · SSRI bleeding risk → [[C4_Gastrointestinal_Bleeding]] 0.2 · Lamotrigine and severe cutaneous reactions → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6 · Valproate and enzyme-inducing drug interactions with contraception → [[D6_Seizures_and_Movement_Disorders]] 0.3 and [[O6_Sexual_and_Reproductive_Health]] 0.3 · Perinatal mental health and postpartum psychosis → [[O3_Labour__Delivery_and_Postpartum]] and [[O2_Later_Pregnancy_and_Fetal]] · Sexual dysfunction → [[O6_Sexual_and_Reproductive_Health]] 0.5 · Adolescent mental health → [[M7_Adolescent_and_Behavioural_Health]]

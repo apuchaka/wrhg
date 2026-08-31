@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from source. Mechanism, diagnostic reasoning and discriminators are reliable at intern level. **Every staging criterion, eGFR threshold, dose and referral criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **KDIGO**, **Kidney Health Australia (CKD management handbook and CARI guidelines)**, eTG and the Australian Medicines Handbook.
 > **Note that the position on contrast-associated AKI has changed substantially** — see 0.5.
 >
-> **Hyponatraemia, hypernatraemia and potassium disorders are built in [[I5]] 0.5–0.6**, **CKD-MBD in [[I3]] 0.5**, and **glomerular disease in [[H1]]** — cross-referenced rather than repeated.
+> **Hyponatraemia, hypernatraemia and potassium disorders are built in [[I5_Weight__Lipids_and_Fluid_Balance]] 0.5–0.6**, **CKD-MBD in [[I3_Calcium__Parathyroid_and_Bone]] 0.5**, and **glomerular disease in [[H1_Haematuria_and_Proteinuria]]** — cross-referenced rather than repeated.
 
 ---
 
@@ -36,21 +36,21 @@ population: mixed
 ## 0.2 The Causes
 
 > [!info] Pre-renal — the commonest, and the drug combination that causes it
-> **· TRUE hypovolaemia — haemorrhage, gastrointestinal losses, burns, over-diuresis, third-spacing (pancreatitis, obstruction, sepsis).** Cross-refer [[F0.2]] 0.10.
+> **· TRUE hypovolaemia — haemorrhage, gastrointestinal losses, burns, over-diuresis, third-spacing (pancreatitis, obstruction, sepsis).** Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.10.
 > **· REDUCED EFFECTIVE circulating volume despite total body fluid overload — heart failure, cirrhosis, nephrotic syndrome, and the vasodilatation of sepsis.** **These patients are oedematous AND under-perfused, which is why the fluid decision is hard.**
 > **· Renovascular — renal artery stenosis, where an ACE inhibitor or ARB removes the efferent arteriolar constriction the kidney is relying on.**
 > **· DRUGS THAT IMPAIR GLOMERULAR AUTOREGULATION — and this is the mechanism worth understanding properly:**
 > **NSAIDs block prostaglandin-mediated dilatation of the AFFERENT arteriole (reducing inflow). ACE inhibitors and ARBs block angiotensin-mediated constriction of the EFFERENT arteriole (reducing outflow resistance). Either alone reduces filtration pressure; TOGETHER, plus a DIURETIC reducing volume, they remove both compensatory mechanisms at once.**
 > **This is the "TRIPLE WHAMMY" — ACE inhibitor or ARB + diuretic + NSAID — and it is one of the commonest causes of drug-induced AKI in the community, particularly when a patient becomes dehydrated with a diarrhoeal illness.**
-> **HEPATORENAL SYNDROME** — cross-refer [[C3]] 0.6.
+> **HEPATORENAL SYNDROME** — cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.6.
 
 > [!warning] Intrinsic renal
 > **· ACUTE TUBULAR NECROSIS — the commonest intrinsic cause.** Either **ISCHAEMIC** (prolonged pre-renal insult that has tipped over) or **TOXIC** (aminoglycosides, contrast, MYOGLOBIN, haemoglobin, light chains, cisplatin). **Muddy brown granular casts on urine microscopy.** Recovery takes days to weeks and may pass through a polyuric phase.
 > **· ACUTE INTERSTITIAL NEPHRITIS — see the box below.**
-> **· GLOMERULAR disease** — cross-refer [[H1]] 0.3.
-> **· VASCULAR — vasculitis · thrombotic microangiopathy (TTP, HUS) · SCLERODERMA RENAL CRISIS (cross-refer [[L2]] 0.4) · malignant hypertension · and ATHEROEMBOLIC disease.**
+> **· GLOMERULAR disease** — cross-refer [[H1_Haematuria_and_Proteinuria]] 0.3.
+> **· VASCULAR — vasculitis · thrombotic microangiopathy (TTP, HUS) · SCLERODERMA RENAL CRISIS (cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4) · malignant hypertension · and ATHEROEMBOLIC disease.**
 > **ATHEROEMBOLIC (cholesterol embolisation) — occurs DAYS TO WEEKS AFTER an arterial procedure (angiography, cardiac catheterisation, aortic surgery) or after starting anticoagulation, with a subacute stepwise rise in creatinine, LIVEDO RETICULARIS, blue toes with preserved pulses, EOSINOPHILIA and LOW COMPLEMENT.** **It is frequently misattributed to contrast nephropathy — but contrast injury occurs within days and recovers, whereas atheroembolic disease appears later and progresses.** The timing distinguishes them.
-> **· TUMOUR LYSIS SYNDROME, RHABDOMYOLYSIS, and MYELOMA CAST NEPHROPATHY.** Cross-refer [[A7]] 0.6 and [[J4]].
+> **· TUMOUR LYSIS SYNDROME, RHABDOMYOLYSIS, and MYELOMA CAST NEPHROPATHY.** Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 and [[J4_Paraproteins_and_Lymphoproliferative]].
 
 > [!danger] Acute interstitial nephritis — and proton pump inhibitors are now a leading cause
 > **A hypersensitivity reaction within the renal interstitium, most often DRUG-induced.**
@@ -64,7 +64,7 @@ population: mixed
 > [!danger] Always exclude post-renal — it is the most reversible cause
 > **Obstruction requires BOTH kidneys, a single functioning kidney, or the bladder outlet.**
 > **A bladder scan takes two minutes and a renal ultrasound takes minutes more.** **Missing obstruction means losing nephrons that a catheter or a nephrostomy would have saved.**
-> **And note: hydronephrosis can be ABSENT in early obstruction and in retroperitoneal fibrosis or encasing malignancy, where the collecting system cannot dilate** — so a normal ultrasound does not fully exclude it if the clinical suspicion is high. Cross-refer [[H2]] 0.4.
+> **And note: hydronephrosis can be ABSENT in early obstruction and in retroperitoneal fibrosis or encasing malignancy, where the collecting system cannot dilate** — so a normal ultrasound does not fully exclude it if the clinical suspicion is high. Cross-refer [[H2_LUTS__Retention_and_Incontinence]] 0.4.
 
 > [!warning] Distinguishing pre-renal from ATN — and why the classical tests disappoint
 > **Classically: pre-renal shows LOW urine sodium, LOW fractional excretion of sodium, and HIGH urine osmolality (the kidney is working hard to retain salt and water); ATN shows the opposite (the tubules cannot).**
@@ -84,13 +84,13 @@ population: mixed
 > [!danger] Stop the nephrotoxins — the sick day medication list
 > **Withhold in AKI and during acute dehydrating illness:**
 > **· ACE INHIBITORS and ARBs · DIURETICS · NSAIDs · METFORMIN (risk of lactic acidosis if the injury progresses) · SGLT2 INHIBITORS · and review aminoglycosides, vancomycin, contrast and other nephrotoxins.**
-> **Every patient on these drugs should have SICK DAY RULES explained — that they are held during vomiting, diarrhoea or fever, and restarted when eating and drinking normally.** **This is a genuinely preventive intervention delivered in general practice, and it is rarely given.** Cross-refer [[I2]] 0.7.
+> **Every patient on these drugs should have SICK DAY RULES explained — that they are held during vomiting, diarrhoea or fever, and restarted when eating and drinking normally.** **This is a genuinely preventive intervention delivered in general practice, and it is rarely given.** Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.7.
 > **TRIMETHOPRIM raises creatinine by blocking tubular SECRETION of creatinine WITHOUT reducing GFR** — a "pseudo-AKI". **It also causes hyperkalaemia.** **Know it, so you neither panic nor dismiss a genuine injury.**
 
 > [!warning] Volume — both under- and over-filling cause harm
 > **Assess volume status properly: history of losses and intake, weight change, blood pressure and POSTURAL change, JVP, mucous membranes, capillary refill, and chest examination.**
 > **Give a fluid challenge and REASSESS**, rather than prescribing a fixed regimen and reviewing tomorrow.
-> **Use BALANCED CRYSTALLOID rather than large volumes of 0.9% saline, which causes hyperchloraemic acidosis.** Cross-refer [[F0.2]] 0.6.
+> **Use BALANCED CRYSTALLOID rather than large volumes of 0.9% saline, which causes hyperchloraemic acidosis.** Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.6.
 > **In the oedematous but under-perfused patient (heart failure, cirrhosis), the decision is genuinely difficult and warrants senior input rather than a reflex bolus or a reflex diuretic.**
 > **Monitor: daily weight (the most reliable measure), fluid balance, urine output, and daily UEC.** **Catheterise only if accurate output measurement genuinely changes management.**
 
@@ -122,10 +122,10 @@ population: mixed
 > **eGFR caveats: it is NOT valid in acute kidney injury (it assumes a steady state) · it is unreliable at extremes of body size and muscle mass, in amputees, in pregnancy and in cirrhosis · and the historical race-based adjustment has been removed in many jurisdictions.** `UNVERIFIED — the current equation and its adjustments in Australia.`
 
 > [!tip] Causes, and what to look for
-> **· DIABETES — the commonest cause in Australia.** Cross-refer [[I2]] 0.5.
+> **· DIABETES — the commonest cause in Australia.** Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.5.
 > **· Hypertension and vascular disease.**
-> **· Glomerulonephritis** — cross-refer [[H1]].
-> **· POLYCYSTIC KIDNEY DISEASE — autosomal dominant, with a family history, hypertension, haematuria, and extrarenal associations including INTRACRANIAL ANEURYSMS, hepatic cysts and mitral valve prolapse.** Cross-refer [[D1]] 0.2.
+> **· Glomerulonephritis** — cross-refer [[H1_Haematuria_and_Proteinuria]].
+> **· POLYCYSTIC KIDNEY DISEASE — autosomal dominant, with a family history, hypertension, haematuria, and extrarenal associations including INTRACRANIAL ANEURYSMS, hepatic cysts and mitral valve prolapse.** Cross-refer [[D1_Headache_and_Meningism]] 0.2.
 > **· Reflux nephropathy, obstruction, myeloma, and drug-related (lithium, analgesics, calcineurin inhibitors).**
 
 > [!danger] Most people with CKD die of cardiovascular disease before they reach dialysis
@@ -134,9 +134,9 @@ population: mixed
 
 > [!warning] The complications, and what to monitor
 > **· ANAEMIA — from erythropoietin deficiency and functional iron deficiency. CORRECT IRON FIRST, then consider an erythropoiesis-stimulating agent.** **Do not over-correct the haemoglobin — higher targets increase stroke and mortality.** `UNVERIFIED — targets.`
-> **· CKD-MINERAL AND BONE DISORDER — hyperphosphataemia, reduced calcitriol, secondary hyperparathyroidism, and VASCULAR CALCIFICATION, which is the outcome that actually matters.** Cross-refer [[I3]] 0.5.
+> **· CKD-MINERAL AND BONE DISORDER — hyperphosphataemia, reduced calcitriol, secondary hyperparathyroidism, and VASCULAR CALCIFICATION, which is the outcome that actually matters.** Cross-refer [[I3_Calcium__Parathyroid_and_Bone]] 0.5.
 > **· METABOLIC ACIDOSIS — contributes to bone loss, muscle wasting and progression; treated with oral bicarbonate.**
-> **· HYPERKALAEMIA — which constrains the use of the RAS blockade that protects the kidney, and is the commonest reason it is stopped inappropriately.** Cross-refer [[I5]] 0.6.
+> **· HYPERKALAEMIA — which constrains the use of the RAS blockade that protects the kidney, and is the commonest reason it is stopped inappropriately.** Cross-refer [[I5_Weight__Lipids_and_Fluid_Balance]] 0.6.
 > **· Fluid overload and hypertension.**
 > **· Uraemic symptoms — fatigue, nausea, anorexia, PRURITUS (which is severe, under-treated and profoundly distressing), RESTLESS LEGS, sleep disturbance, and sexual dysfunction.**
 > **· Malnutrition and sarcopenia.**
@@ -162,8 +162,8 @@ population: mixed
 > [!warning] Conservative (non-dialytic) management is a legitimate choice
 > **For frail older patients with multiple comorbidities, dialysis may not extend life meaningfully and may reduce its quality — with substantial treatment burden, hospitalisation, and functional decline.**
 > **Conservative kidney management — active symptom control, treatment of anaemia and acidosis, and palliative input, without dialysis — is a genuine option, not a failure or a withdrawal of care.**
-> **The decision should be made in advance, with the patient and family, using honest prognostic information.** Cross-refer [[GER2]] 0.5–0.6 and [[GER1]] 0.2.
-> **And note the Australian dimension: for Aboriginal and Torres Strait Islander patients in remote communities, dialysis frequently means RELOCATION AWAY FROM COUNTRY, family and community — sometimes permanently.** **Declining or discontinuing dialysis in that context is a rational decision about a whole life, not non-compliance.** Cross-refer [[AU1]] 0.4.
+> **The decision should be made in advance, with the patient and family, using honest prognostic information.** Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5–0.6 and [[GER1_Comprehensive_Geriatric_Assessment]] 0.2.
+> **And note the Australian dimension: for Aboriginal and Torres Strait Islander patients in remote communities, dialysis frequently means RELOCATION AWAY FROM COUNTRY, family and community — sometimes permanently.** **Declining or discontinuing dialysis in that context is a rational decision about a whole life, not non-compliance.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4.
 
 ---
 
@@ -177,7 +177,7 @@ population: mixed
 > **Prevention: VOLUME EXPANSION with intravenous fluid in at-risk patients, and using the minimum necessary contrast volume.**
 > **N-ACETYLCYSTEINE and sodium BICARBONATE are NOT supported by current evidence and should not be used.**
 > `UNVERIFIED — the eGFR thresholds defining risk and the hydration protocols.`
-> **Metformin and contrast: the concern is LACTIC ACIDOSIS if AKI develops, not contrast nephropathy itself.** Withhold per local policy and recheck renal function. Cross-refer [[F0.2]] 0.5.
+> **Metformin and contrast: the concern is LACTIC ACIDOSIS if AKI develops, not contrast nephropathy itself.** Withhold per local policy and recheck renal function. Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.5.
 
 > [!warning] The nephrotoxic drugs worth knowing
 > **· NSAIDs — the triple whammy, plus interstitial nephritis and papillary necrosis.**
@@ -185,7 +185,7 @@ population: mixed
 > **· VANCOMYCIN, particularly in combination with piperacillin-tazobactam.**
 > **· CALCINEURIN INHIBITORS (ciclosporin, tacrolimus) — both acute vasoconstrictive and chronic fibrotic toxicity.**
 > **· CISPLATIN, amphotericin B, tenofovir.**
-> **· LITHIUM — nephrogenic diabetes insipidus and chronic interstitial nephropathy.** Cross-refer [[N4]] 0.5.
+> **· LITHIUM — nephrogenic diabetes insipidus and chronic interstitial nephropathy.** Cross-refer [[N4_Mood_Disorders]] 0.5.
 > **· PROTON PUMP INHIBITORS — interstitial nephritis, and an association with CKD.**
 > **· HERBAL AND COMPLEMENTARY PREPARATIONS — ARISTOLOCHIC ACID causes a distinctive nephropathy and urothelial malignancy, and patients do not report these products as medications unless asked specifically.**
 
@@ -200,7 +200,7 @@ population: mixed
 > **· WATER DIURESIS — dilute urine: DIABETES INSIPIDUS or primary polydipsia.**
 
 > [!warning] Diabetes insipidus — cranial versus nephrogenic
-> **· CRANIAL (central) — deficient ADH.** Pituitary surgery, tumour, trauma, infiltrative disease. Cross-refer [[I4]] 0.1.
+> **· CRANIAL (central) — deficient ADH.** Pituitary surgery, tumour, trauma, infiltrative disease. Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.1.
 > **· NEPHROGENIC — renal resistance to ADH.** **The causes to know: LITHIUM (the commonest) · HYPERCALCAEMIA · HYPOKALAEMIA · chronic kidney disease · and rare inherited forms.**
 > **Distinguished by the response to DESMOPRESSIN: cranial DI concentrates the urine, nephrogenic does not.** Water deprivation testing or copeptin measurement supports the diagnosis.
 > **The two electrolyte causes are important because they are correctable — a polyuric patient should have calcium and potassium checked before anything more elaborate.**
@@ -210,9 +210,9 @@ population: mixed
 > **THE COMMONEST CAUSE OF SUDDEN ANURIA IN A HOSPITAL INPATIENT IS A BLOCKED CATHETER.** **Flush it or replace it before initiating an AKI workup** — it takes a minute and it is right often enough to be the first move.
 > **Gradually declining urine output has the full AKI differential; abrupt complete cessation points to obstruction.**
 
-**Ix:** **URINALYSIS AND MICROSCOPY on a fresh sample** (*why:* the cheapest and most discriminating test in AKI, distinguishing pre-renal, ATN, glomerular and interstitial causes — and it is routinely omitted; *what:* casts, cells, protein). **UEC with a BASELINE comparison, and daily thereafter** (*why:* AKI is defined by change, and the trajectory guides management; *what:* creatinine trend, potassium, bicarbonate). **Bladder scan and RENAL TRACT ULTRASOUND** (*why:* obstruction is the most reversible cause and must be excluded early — **noting hydronephrosis may be absent in early or encased obstruction**; *what:* residual volume, hydronephrosis, kidney size and echogenicity). **VBG** (*why:* rapid potassium and acid-base assessment while awaiting formal biochemistry; *what:* pH, bicarbonate, potassium, lactate). FBC (*why:* anaemia suggesting chronicity, thrombocytopenia suggesting thrombotic microangiopathy; *what:* the pattern). **CK** (*why:* rhabdomyolysis; *what:* elevation). **Calcium, phosphate, urate, LDH** (*why:* tumour lysis and myeloma; *what:* the pattern). **Serum and urine electrophoresis with free light chains in unexplained AKI, particularly over 50** (*why:* myeloma cast nephropathy is missed because the dipstick does not detect light chains; *what:* paraprotein — cross-refer [[J4]]). **Immunology — ANA, ANCA, anti-GBM, complement — where there is an active urinary sediment** (*why:* rapidly progressive glomerulonephritis is time-critical; *what:* the cause — cross-refer [[H1]] 0.3). **A complete medication review including over-the-counter NSAIDs, PPIs and complementary products** (*why:* drugs are among the commonest and most reversible causes and patients do not report several of these as medications; *what:* culprit). **Daily weight and fluid balance** (*why:* the most reliable measure of volume change; *what:* trend).
+**Ix:** **URINALYSIS AND MICROSCOPY on a fresh sample** (*why:* the cheapest and most discriminating test in AKI, distinguishing pre-renal, ATN, glomerular and interstitial causes — and it is routinely omitted; *what:* casts, cells, protein). **UEC with a BASELINE comparison, and daily thereafter** (*why:* AKI is defined by change, and the trajectory guides management; *what:* creatinine trend, potassium, bicarbonate). **Bladder scan and RENAL TRACT ULTRASOUND** (*why:* obstruction is the most reversible cause and must be excluded early — **noting hydronephrosis may be absent in early or encased obstruction**; *what:* residual volume, hydronephrosis, kidney size and echogenicity). **VBG** (*why:* rapid potassium and acid-base assessment while awaiting formal biochemistry; *what:* pH, bicarbonate, potassium, lactate). FBC (*why:* anaemia suggesting chronicity, thrombocytopenia suggesting thrombotic microangiopathy; *what:* the pattern). **CK** (*why:* rhabdomyolysis; *what:* elevation). **Calcium, phosphate, urate, LDH** (*why:* tumour lysis and myeloma; *what:* the pattern). **Serum and urine electrophoresis with free light chains in unexplained AKI, particularly over 50** (*why:* myeloma cast nephropathy is missed because the dipstick does not detect light chains; *what:* paraprotein — cross-refer [[J4_Paraproteins_and_Lymphoproliferative]]). **Immunology — ANA, ANCA, anti-GBM, complement — where there is an active urinary sediment** (*why:* rapidly progressive glomerulonephritis is time-critical; *what:* the cause — cross-refer [[H1_Haematuria_and_Proteinuria]] 0.3). **A complete medication review including over-the-counter NSAIDs, PPIs and complementary products** (*why:* drugs are among the commonest and most reversible causes and patients do not report several of these as medications; *what:* culprit). **Daily weight and fluid balance** (*why:* the most reliable measure of volume change; *what:* trend).
 
 ---
 
 > [!note] Cross-references
-> Haematuria, proteinuria and glomerular disease → [[H1]] · Retention, obstructive uropathy and catheters → [[H2]] 0.3–0.5 · Renal colic and obstructed infected system → [[H4]] 0.4 and [[F0.3]] 0.10 · Hyperkalaemia, hyponatraemia and fluid states → [[I5]] 0.5–0.6 and [[F0.2]] · CKD-MBD, calcium and phosphate → [[I3]] 0.5 · Diabetic kidney disease and sick day rules → [[I2]] 0.5, 0.7 · SGLT2 inhibitors and RAS blockade → [[CV-X]] 0.3 · Hepatorenal syndrome → [[C3]] 0.6 · Rhabdomyolysis → [[A7]] 0.6 · Tumour lysis and myeloma → [[J4]] and [[J5]] · Vasculitis and scleroderma renal crisis → [[L2]] 0.4–0.5 · Diabetes insipidus and pituitary disease → [[I4]] 0.1 · Lithium monitoring → [[N4]] 0.5 · Polycystic kidney disease and intracranial aneurysm → [[D1]] 0.2 · Conservative kidney management and goals of care → [[GER2]] 0.5–0.6 · Dialysis away from Country → [[AU1]] 0.4 · Contrast and perioperative medication → [[AN1]] 0.3
+> Haematuria, proteinuria and glomerular disease → [[H1_Haematuria_and_Proteinuria]] · Retention, obstructive uropathy and catheters → [[H2_LUTS__Retention_and_Incontinence]] 0.3–0.5 · Renal colic and obstructed infected system → [[H4_Scrotum__Groin_and_Loin]] 0.4 and [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.10 · Hyperkalaemia, hyponatraemia and fluid states → [[I5_Weight__Lipids_and_Fluid_Balance]] 0.5–0.6 and [[F0-2_Acid-Base__DKA_and_Fluid_States]] · CKD-MBD, calcium and phosphate → [[I3_Calcium__Parathyroid_and_Bone]] 0.5 · Diabetic kidney disease and sick day rules → [[I2_Diabetes_and_Glucose_Disorders]] 0.5, 0.7 · SGLT2 inhibitors and RAS blockade → [[CV-X_Chronic_Heart_Failure]] 0.3 · Hepatorenal syndrome → [[C3_Jaundice_and_Liver_Disease]] 0.6 · Rhabdomyolysis → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Tumour lysis and myeloma → [[J4_Paraproteins_and_Lymphoproliferative]] and [[J5_Oncological_Emergencies_and_Palliative_Care]] · Vasculitis and scleroderma renal crisis → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4–0.5 · Diabetes insipidus and pituitary disease → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.1 · Lithium monitoring → [[N4_Mood_Disorders]] 0.5 · Polycystic kidney disease and intracranial aneurysm → [[D1_Headache_and_Meningism]] 0.2 · Conservative kidney management and goals of care → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5–0.6 · Dialysis away from Country → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4 · Contrast and perioperative medication → [[AN1_Perioperative_Care]] 0.3

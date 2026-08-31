@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Recognition, morphology and management principles are reliable at intern level. **Every margin, thickness threshold, dose and surveillance interval carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **Cancer Council Australia clinical practice guidelines for melanoma and keratinocyte cancers**, and **eTG Dermatology**.
 >
-> **Leg ulcers and non-healing wounds are built in [[G2]] 0.6**, **sun protection in [[G4]] 0.6**, and **clubbing in [[A4]]** — cross-referenced rather than repeated.
+> **Leg ulcers and non-healing wounds are built in [[G2_Blisters_and_Skin_Failure]] 0.6**, **sun protection in [[G4_Chronic_Rash__Pruritus_and_Pigment]] 0.6**, and **clubbing in [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]]** — cross-referenced rather than repeated.
 
 ---
 
@@ -77,8 +77,8 @@ population: mixed
 
 > [!tip] Advanced disease, and follow-up
 > **THE TREATMENT OF METASTATIC MELANOMA HAS BEEN TRANSFORMED.** **Immune CHECKPOINT INHIBITORS and BRAF/MEK targeted therapy have changed survival in advanced melanoma from months to a substantial proportion achieving long-term disease control** — one of the most striking changes in oncology in recent decades.
-> **This matters for two reasons: patients and families may hold outdated expectations · and interns will encounter the IMMUNE-RELATED ADVERSE EVENTS of checkpoint inhibitors, which can affect any organ and occur months after the last dose.** Cross-refer [[J5]] 0.2 and [[A5]] 0.7.
-> **FOLLOW-UP after melanoma: risk of a SECOND PRIMARY melanoma is substantially increased, so surveillance is lifelong · teach and check SELF-EXAMINATION, including of the scalp and the back with a partner or mirror · rigorous SUN PROTECTION · and consider family screening where there is a family history.** Cross-refer [[G4]] 0.6.
+> **This matters for two reasons: patients and families may hold outdated expectations · and interns will encounter the IMMUNE-RELATED ADVERSE EVENTS of checkpoint inhibitors, which can affect any organ and occur months after the last dose.** Cross-refer [[J5_Oncological_Emergencies_and_Palliative_Care]] 0.2 and [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7.
+> **FOLLOW-UP after melanoma: risk of a SECOND PRIMARY melanoma is substantially increased, so surveillance is lifelong · teach and check SELF-EXAMINATION, including of the scalp and the back with a partner or mirror · rigorous SUN PROTECTION · and consider family screening where there is a family history.** Cross-refer [[G4_Chronic_Rash__Pruritus_and_Pigment]] 0.6.
 
 ---
 
@@ -127,14 +127,14 @@ population: mixed
 ## 0.5 Nails
 
 > [!tip] Nail signs of systemic disease
-> **· CLUBBING — cross-refer [[A4]] 0.1.**
+> **· CLUBBING — cross-refer [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.1.**
 > **· KOILONYCHIA (spoon-shaped) — IRON DEFICIENCY.**
 > **· BEAU LINES — transverse grooves across all nails, caused by temporary arrest of nail growth during a severe systemic illness.** **They are useful because they DATE THE INSULT: knowing that nails grow at a roughly predictable rate, the distance from the cuticle indicates how long ago the illness occurred.**
 > **· LEUKONYCHIA (white nails) — hypoalbuminaemia, from liver disease or nephrotic syndrome.**
 > **· TERRY NAILS (proximal white nail with a distal band) — cirrhosis. HALF-AND-HALF nails — chronic kidney disease.**
-> **· SPLINTER HAEMORRHAGES — TRAUMA is by far the commonest cause, but they are a recognised sign of INFECTIVE ENDOCARDITIS and vasculitis.** Cross-refer [[B5]] 0.1.
-> **· PERIUNGUAL TELANGIECTASIA AND ABNORMAL NAILFOLD CAPILLARIES — a genuinely valuable bedside sign of CONNECTIVE TISSUE DISEASE, particularly systemic sclerosis and dermatomyositis.** **Look at the nailfolds with a dermatoscope or even an ophthalmoscope in anyone with Raynaud phenomenon — dilated, dropped-out capillaries indicate a secondary rather than primary Raynaud and change the workup entirely.** Cross-refer [[L2]] 0.4 and [[L3]] 0.6.
-> **· Nail PITTING, ONYCHOLYSIS and oil-drop change — PSORIASIS.** Cross-refer [[G4]] 0.2.
+> **· SPLINTER HAEMORRHAGES — TRAUMA is by far the commonest cause, but they are a recognised sign of INFECTIVE ENDOCARDITIS and vasculitis.** Cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.1.
+> **· PERIUNGUAL TELANGIECTASIA AND ABNORMAL NAILFOLD CAPILLARIES — a genuinely valuable bedside sign of CONNECTIVE TISSUE DISEASE, particularly systemic sclerosis and dermatomyositis.** **Look at the nailfolds with a dermatoscope or even an ophthalmoscope in anyone with Raynaud phenomenon — dilated, dropped-out capillaries indicate a secondary rather than primary Raynaud and change the workup entirely.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4 and [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.6.
+> **· Nail PITTING, ONYCHOLYSIS and oil-drop change — PSORIASIS.** Cross-refer [[G4_Chronic_Rash__Pruritus_and_Pigment]] 0.2.
 > **· Yellow nail syndrome — with lymphoedema and pleural effusions.**
 
 > [!danger] Confirm onychomycosis before treating it
@@ -164,11 +164,11 @@ population: mixed
 > **It is SELF-LIMITING and REVERSIBLE, with regrowth over months once the trigger has resolved — and explaining this, with the timeline, is what the patient needs.** **Check ferritin and thyroid function.**
 
 > [!tip] The other non-scarring causes
-> **· ANDROGENETIC ALOPECIA — patterned: temporal recession and vertex thinning in men; diffuse widening of the central part with preservation of the frontal hairline in women.** **In women with androgenetic alopecia PLUS hirsutism, acne or menstrual irregularity, consider hyperandrogenism and PCOS.** Cross-refer [[I4]] 0.6.
+> **· ANDROGENETIC ALOPECIA — patterned: temporal recession and vertex thinning in men; diffuse widening of the central part with preservation of the frontal hairline in women.** **In women with androgenetic alopecia PLUS hirsutism, acne or menstrual irregularity, consider hyperandrogenism and PCOS.** Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6.
 > **· ALOPECIA AREATA — well-demarcated, smooth, round patches of complete hair loss with retained follicular ostia, sometimes with "EXCLAMATION MARK" hairs (tapering towards the scalp) at the margin, and often with NAIL PITTING.** Autoimmune, with associations including thyroid disease and vitiligo. **The course is unpredictable; the PSYCHOLOGICAL IMPACT is considerable and under-acknowledged, particularly with extensive loss.**
 > **· TINEA CAPITIS — in CHILDREN: a scaly patch with BROKEN HAIRS, sometimes with occipital lymphadenopathy, and in inflammatory cases a boggy KERION which can scar.** **IT REQUIRES SYSTEMIC ANTIFUNGAL TREATMENT — topical antifungals do not penetrate the hair shaft and will not cure it.** **Confirm with mycology, and check household contacts and any pets.**
 > **· TRACTION ALOPECIA — from sustained tension on the hair: tight braids, weaves, extensions, buns and turbans. It affects the FRONTAL AND TEMPORAL hairline, and it disproportionately affects women of African descent.** **It is REVERSIBLE IF ADDRESSED EARLY AND BECOMES SCARRING IF NOT — which makes early recognition and a respectful conversation about hairstyling practices genuinely preventive.**
-> **· TRICHOTILLOMANIA — irregular patches with hairs of varying lengths, from pulling.** Cross-refer [[N5]] 0.4.
+> **· TRICHOTILLOMANIA — irregular patches with hairs of varying lengths, from pulling.** Cross-refer [[N5_Anxiety__OCD_and_Trauma]] 0.4.
 > **· ANAGEN EFFLUVIUM — rapid, extensive loss days to weeks after chemotherapy.**
 > **Investigation: FERRITIN and THYROID function in diffuse loss; androgens where clinically indicated; and a SCALP BIOPSY where scarring alopecia is suspected or the diagnosis is unclear.**
 
@@ -177,4 +177,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Acute rash and drug eruptions → [[G1]] · Blistering, wounds, leg ulcers and Marjolin ulcer → [[G2]] 0.6 · Purpura and vasculitis → [[G3]] · Psoriasis, nail psoriasis and sun protection → [[G4]] 0.2, 0.6 · Flushing and sweating → [[G6]] · Clubbing → [[A4]] 0.1 · Splinter haemorrhages and endocarditis → [[B5]] 0.1 · Nailfold capillaries, Raynaud and connective tissue disease → [[L2]] 0.4 and [[L3]] 0.6 · Checkpoint inhibitor adverse events → [[J5]] 0.2 and [[A5]] 0.7 · Immunosuppression and malignancy risk → [[K3]] 0.5 · Iron deficiency → [[J1]] 0.2 · Hyperandrogenism and PCOS → [[I4]] 0.6 · Trichotillomania and body-focused behaviours → [[N5]] 0.4 · Lymphadenopathy and metastatic disease → [[B6]] 0.8 · Preventive health and skin checks → [[GER3]]
+> Acute rash and drug eruptions → [[G1_Acute_Rash_and_Erythema]] · Blistering, wounds, leg ulcers and Marjolin ulcer → [[G2_Blisters_and_Skin_Failure]] 0.6 · Purpura and vasculitis → [[G3_Purpura_and_Vasculitis]] · Psoriasis, nail psoriasis and sun protection → [[G4_Chronic_Rash__Pruritus_and_Pigment]] 0.2, 0.6 · Flushing and sweating → [[G6_Flushing__Sweating_and_Cyanosis]] · Clubbing → [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.1 · Splinter haemorrhages and endocarditis → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.1 · Nailfold capillaries, Raynaud and connective tissue disease → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4 and [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.6 · Checkpoint inhibitor adverse events → [[J5_Oncological_Emergencies_and_Palliative_Care]] 0.2 and [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7 · Immunosuppression and malignancy risk → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · Iron deficiency → [[J1_Cytopenias_and_Marrow_Failure]] 0.2 · Hyperandrogenism and PCOS → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6 · Trichotillomania and body-focused behaviours → [[N5_Anxiety__OCD_and_Trauma]] 0.4 · Lymphadenopathy and metastatic disease → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8 · Preventive health and skin checks → [[GER3_Preventive_and_Occupational_Health]]

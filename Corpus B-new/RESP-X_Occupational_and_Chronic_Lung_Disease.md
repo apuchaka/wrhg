@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from guidelines. Mechanism, clinical reasoning and discriminators are reliable at intern level. **Every threshold, dose, severity cut-off and eligibility criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **Two areas need particular care.** The **engineered stone silicosis situation in Australia has changed with regulatory action** — verify current status with Safe Work Australia and SafeWork SA. And **long-term oxygen therapy eligibility criteria** are specific and must come from the Thoracic Society of Australia and New Zealand (TSANZ) or your state's respiratory service, not from memory.
 >
-> **Asthma and COPD are built in [[F0.5]] 0.1**, **tuberculosis in [[K3]] 0.3**, **respiratory failure in [[A3]]**, and **dyspnoea, cough and the solitary pulmonary nodule in [[A4]]** — each is cross-referenced rather than repeated.
+> **Asthma and COPD are built in [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.1**, **tuberculosis in [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.3**, **respiratory failure in [[A3_Respiratory_Failure__Bronchospasm_and_Hypoxia]]**, and **dyspnoea, cough and the solitary pulmonary nodule in [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]]** — each is cross-referenced rather than repeated.
 
 ---
 
@@ -49,20 +49,20 @@ population: mixed
 
 > [!warning] The drugs that cause ILD
 > **· AMIODARONE — dose- and duration-related, can occur years in, and may progress after cessation because of the very long half-life.**
-> **· METHOTREXATE — pneumonitis; a new dry cough and breathlessness in a patient on methotrexate is pneumonitis until proven otherwise.** Cross-refer [[L2]] 0.2.
+> **· METHOTREXATE — pneumonitis; a new dry cough and breathlessness in a patient on methotrexate is pneumonitis until proven otherwise.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.2.
 > **· NITROFURANTOIN — acute and chronic forms, and it is prescribed long-term for urinary prophylaxis in exactly the older population in whom the breathlessness gets attributed to age or heart failure.**
 > **· BLEOMYCIN, busulfan and other chemotherapeutics.**
-> **· IMMUNE CHECKPOINT INHIBITORS — pneumonitis is a recognised and potentially fatal immune-related adverse event.** Cross-refer [[A5]] 0.7.
+> **· IMMUNE CHECKPOINT INHIBITORS — pneumonitis is a recognised and potentially fatal immune-related adverse event.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7.
 > **Take a full drug history, including drugs stopped in the preceding months.**
 
 > [!tip] Connective tissue disease-associated ILD, and sarcoidosis
 > **CTD-ILD** — **systemic sclerosis, inflammatory myopathy (particularly the anti-synthetase syndrome, with "MECHANIC'S HANDS", Raynaud phenomenon and arthritis), rheumatoid arthritis, Sjögren syndrome and mixed connective tissue disease.**
-> **ILD may PRECEDE the rheumatological diagnosis**, so a new ILD warrants an autoimmune screen and a careful history for Raynaud phenomenon, arthralgia, rash, sicca and reflux. Cross-refer [[L2]] 0.4.
+> **ILD may PRECEDE the rheumatological diagnosis**, so a new ILD warrants an autoimmune screen and a careful history for Raynaud phenomenon, arthralgia, rash, sicca and reflux. Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4.
 > **SARCOIDOSIS** — **bilateral hilar lymphadenopathy** with or without parenchymal disease. **Löfgren syndrome** (hilar lymphadenopathy, erythema nodosum, ankle arthritis, fever) has a good prognosis and often resolves spontaneously.
-> **Extrapulmonary disease matters more than the lungs in some patients: skin, anterior and posterior uveitis, HYPERCALCAEMIA (from macrophage 1-alpha-hydroxylase — cross-refer [[I3]] 0.2), neurosarcoidosis, and CARDIAC SARCOIDOSIS, which causes conduction block, ventricular arrhythmia and SUDDEN DEATH.**
+> **Extrapulmonary disease matters more than the lungs in some patients: skin, anterior and posterior uveitis, HYPERCALCAEMIA (from macrophage 1-alpha-hydroxylase — cross-refer [[I3_Calcium__Parathyroid_and_Bone]] 0.2), neurosarcoidosis, and CARDIAC SARCOIDOSIS, which causes conduction block, ventricular arrhythmia and SUDDEN DEATH.**
 > **Any sarcoid patient with syncope, palpitations or an abnormal ECG needs cardiac assessment** — this is the complication that kills. **Serum ACE is neither sensitive nor specific and should not be used to diagnose or monitor.**
 
-**Ix:** **High-resolution CT chest** (*why:* the central investigation — the pattern and distribution often make the diagnosis, and a definite UIP pattern may avoid the need for biopsy; *what:* reticulation, honeycombing, ground glass, nodules, distribution). **Pulmonary function tests with DLCO** (*why:* quantifies the restrictive defect and gas transfer, provides the baseline for monitoring, and **DLCO falls before spirometry does**; *what:* reduced FVC and TLC with reduced DLCO). **A walking oximetry test** (*why:* **resting saturation is frequently normal while exertional desaturation is marked**, and it determines oxygen assessment; *what:* desaturation on exertion). **Autoimmune screen — ANA, ENA, RF, anti-CCP, myositis antibodies** (*why:* ILD may be the first manifestation of connective tissue disease; *what:* positive serology — cross-refer [[L2]] 0.6). **Detailed occupational, environmental, hobby and drug history** (*why:* identifies the reversible causes, and it is found only by asking specifically; *what:* the exposure). Serum precipitins where hypersensitivity pneumonitis is suspected (*why:* supports the diagnosis, though a positive result indicates exposure rather than disease; *what:* antibodies to the suspected antigen). Bronchoscopy with lavage, and surgical or cryobiopsy in selected cases (*why:* distinguishes patterns where imaging is inconclusive; *what:* cellular pattern, histology). **Multidisciplinary discussion between respiratory physicians, thoracic radiologists and pathologists** (*why:* **this is the diagnostic standard in ILD** — the diagnosis is made by consensus rather than by any single test, and it materially changes classification and treatment; *what:* the agreed diagnosis). Echocardiography (*why:* pulmonary hypertension complicates ILD and affects prognosis; *what:* estimated pulmonary pressures).
+**Ix:** **High-resolution CT chest** (*why:* the central investigation — the pattern and distribution often make the diagnosis, and a definite UIP pattern may avoid the need for biopsy; *what:* reticulation, honeycombing, ground glass, nodules, distribution). **Pulmonary function tests with DLCO** (*why:* quantifies the restrictive defect and gas transfer, provides the baseline for monitoring, and **DLCO falls before spirometry does**; *what:* reduced FVC and TLC with reduced DLCO). **A walking oximetry test** (*why:* **resting saturation is frequently normal while exertional desaturation is marked**, and it determines oxygen assessment; *what:* desaturation on exertion). **Autoimmune screen — ANA, ENA, RF, anti-CCP, myositis antibodies** (*why:* ILD may be the first manifestation of connective tissue disease; *what:* positive serology — cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.6). **Detailed occupational, environmental, hobby and drug history** (*why:* identifies the reversible causes, and it is found only by asking specifically; *what:* the exposure). Serum precipitins where hypersensitivity pneumonitis is suspected (*why:* supports the diagnosis, though a positive result indicates exposure rather than disease; *what:* antibodies to the suspected antigen). Bronchoscopy with lavage, and surgical or cryobiopsy in selected cases (*why:* distinguishes patterns where imaging is inconclusive; *what:* cellular pattern, histology). **Multidisciplinary discussion between respiratory physicians, thoracic radiologists and pathologists** (*why:* **this is the diagnostic standard in ILD** — the diagnosis is made by consensus rather than by any single test, and it materially changes classification and treatment; *what:* the agreed diagnosis). Echocardiography (*why:* pulmonary hypertension complicates ILD and affects prognosis; *what:* estimated pulmonary pressures).
 
 ### 0.1.1 Mx – Immediate
 **Acute exacerbations of ILD carry high mortality** — supportive care, exclusion of infection, pulmonary embolism and heart failure, and specialist involvement.
@@ -71,7 +71,7 @@ population: mixed
 **Remove the cause where there is one.** **Antifibrotics in IPF and progressive fibrosing ILD; immunosuppression in inflammatory and CTD-associated disease** — with the distinction being the specialist's job precisely because getting it backwards causes harm.
 
 ### 0.1.3 Mx – Chronic/long-term
-**Pulmonary rehabilitation · vaccination · smoking cessation · oxygen assessment · treatment of reflux and comorbidity · transplant referral in appropriate candidates, made EARLY rather than late · and advance care planning**, since the trajectory is progressive. Cross-refer 0.6 and [[GER2]] 0.5.
+**Pulmonary rehabilitation · vaccination · smoking cessation · oxygen assessment · treatment of reflux and comorbidity · transplant referral in appropriate candidates, made EARLY rather than late · and advance care planning**, since the trajectory is progressive. Cross-refer 0.6 and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5.
 
 ---
 
@@ -88,7 +88,7 @@ population: mixed
 > **Australia moved to PROHIBIT the use, supply and manufacture of engineered stone**, a world-first regulatory response. `UNVERIFIED — the current regulatory position, commencement dates and transitional arrangements; verify with Safe Work Australia and SafeWork SA.`
 > **Clinically: upper zone predominant nodules, hilar lymphadenopathy with EGGSHELL CALCIFICATION, and progressive massive fibrosis in advanced disease.**
 > **There is NO specific treatment — this is entirely a disease of prevention and exposure control.**
-> **Silicosis increases the risk of TUBERCULOSIS substantially**, as well as lung cancer, autoimmune disease and chronic kidney disease. **Screen silicotic patients for TB.** Cross-refer [[K3]] 0.3.
+> **Silicosis increases the risk of TUBERCULOSIS substantially**, as well as lung cancer, autoimmune disease and chronic kidney disease. **Screen silicotic patients for TB.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.3.
 > **Any patient who has worked with engineered stone should be asked about it and considered for screening**, regardless of current symptoms.
 
 > [!warning] Occupational asthma — the question that makes the diagnosis
@@ -107,7 +107,7 @@ population: mixed
 > **· Byssinosis** (cotton dust), **metal fume fever** (welding, self-limiting), and irritant-induced asthma (reactive airways dysfunction syndrome) after a single high-level exposure.
 
 > [!warning] The obligations that follow the diagnosis
-> **· Workers' compensation** — in South Australia this involves **ReturnToWorkSA** processes, and certification is part of the clinical role. Cross-refer [[A10]] 0.6 and [[L6]] 0.5.
+> **· Workers' compensation** — in South Australia this involves **ReturnToWorkSA** processes, and certification is part of the clinical role. Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 and [[L6_Soft_Tissue_Injury_and_Mobility]] 0.5.
 > **· Notification to the work health and safety regulator (SafeWork SA) where required.**
 > **· Consideration of OTHER EXPOSED WORKERS** — an index case implies a workplace hazard, and identifying it protects colleagues. **This public health dimension is what distinguishes occupational disease from ordinary disease, and it is the part clinicians most often omit.**
 > **· Dust diseases compensation schemes** for asbestos and silica-related disease.
@@ -165,14 +165,14 @@ Disease-specific. **Reassurance and explanation for isolated pleural plaques.**
 > **· POST-INFECTIVE — childhood pneumonia, pertussis, measles, and TUBERCULOSIS.** The commonest identified cause.
 > **· CYSTIC FIBROSIS** — and it can present in adulthood with milder genotypes, so **CF testing is warranted in adults with bronchiectasis, particularly with upper lobe disease, malabsorption, infertility or sinus disease.**
 > **· PRIMARY CILIARY DYSKINESIA** — with situs inversus in Kartagener syndrome, chronic sinusitis, otitis media and infertility.
-> **· IMMUNODEFICIENCY — particularly COMMON VARIABLE IMMUNODEFICIENCY.** **Checking immunoglobulins is simple, and the diagnosis is transformative because immunoglobulin replacement prevents further lung damage.** Cross-refer [[K3]] 0.5.
+> **· IMMUNODEFICIENCY — particularly COMMON VARIABLE IMMUNODEFICIENCY.** **Checking immunoglobulins is simple, and the diagnosis is transformative because immunoglobulin replacement prevents further lung damage.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5.
 > **· ALLERGIC BRONCHOPULMONARY ASPERGILLOSIS** — in asthma and CF, with central bronchiectasis, high IgE and eosinophilia; steroid-responsive.
 > **· Aspiration and chronic reflux · localised obstruction (foreign body, tumour) · connective tissue disease (RA especially) · inflammatory bowel disease · alpha-1 antitrypsin deficiency.**
 > **A proportion remain idiopathic, but the search is worth making.**
 
 > [!danger] Bronchiectasis in Aboriginal and Torres Strait Islander communities
 > **Bronchiectasis is markedly more prevalent among Aboriginal and Torres Strait Islander people, particularly in remote and Central Australian communities, and it frequently begins in CHILDHOOD following severe or recurrent lower respiratory infection.**
-> **Chronic suppurative lung disease and protracted bacterial bronchitis in Aboriginal children are recognised precursors**, and **early recognition and treatment of persistent wet cough in children is a genuine prevention opportunity** — a wet cough lasting more than four weeks in a child should not be dismissed. Cross-refer [[M2]] and [[AU1]].
+> **Chronic suppurative lung disease and protracted bacterial bronchitis in Aboriginal children are recognised precursors**, and **early recognition and treatment of persistent wet cough in children is a genuine prevention opportunity** — a wet cough lasting more than four weeks in a child should not be dismissed. Cross-refer [[M2_Fever_in_Children]] and [[AU1_Australian_Health_Context_and_ATSI_Health]].
 
 **S/Smx:** **Chronic productive cough with copious purulent sputum**, recurrent chest infections, **haemoptysis** (which can be massive), breathlessness, fatigue, and sinusitis. **Coarse crackles, and clubbing in advanced disease.**
 
@@ -190,7 +190,7 @@ Disease-specific. **Reassurance and explanation for isolated pleural plaques.**
 **Ix:** **High-resolution CT chest** (*why:* the diagnostic test — **bronchial dilatation with a bronchoarterial ratio greater than one ("signet ring"), lack of tapering, and airway visibility in the periphery**; *what:* the distribution, which also hints at aetiology — upper lobe in CF and ABPA, lower lobe in post-infective and aspiration). **Sputum culture, including specific request for *Pseudomonas*, mycobacteria and fungi** (*why:* directs antibiotic choice, and **NTM will not be found unless specifically requested**; *what:* organisms and sensitivities). **Immunoglobulins and IgG subclasses** (*why:* CVID is treatable and its detection prevents further lung damage; *what:* low immunoglobulins). **Sweat test and CFTR genetic testing** (*why:* adult presentations of CF occur; *what:* CF diagnosis). **Total IgE, *Aspergillus*-specific IgE and precipitins** (*why:* ABPA is steroid-responsive and is missed; *what:* raised IgE, positive *Aspergillus* serology). Autoimmune screen (*why:* RA-associated bronchiectasis; *what:* positive serology). Nasal nitric oxide and ciliary studies (*why:* primary ciliary dyskinesia; *what:* low nasal NO, abnormal ciliary function). Alpha-1 antitrypsin level (*why:* a treatable inherited cause; *what:* deficiency). Pulmonary function tests (*why:* usually obstructive; baseline and monitoring; *what:* airflow limitation).
 
 ### 0.4.1 Mx – Immediate
-Exacerbation management with appropriate antibiotics and intensified airway clearance. **Massive haemoptysis is an emergency requiring bronchial artery embolisation** — cross-refer [[A4]] 0.3.
+Exacerbation management with appropriate antibiotics and intensified airway clearance. **Massive haemoptysis is an emergency requiring bronchial artery embolisation** — cross-refer [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.3.
 
 ### 0.4.2 Mx – Definitive
 Treat the underlying cause where identified, and establish the maintenance regimen above.
@@ -209,22 +209,22 @@ Treat the underlying cause where identified, and establish the maintenance regim
 
 > [!danger] The consequences that make it worth finding
 > **· MOTOR VEHICLE AND WORKPLACE ACCIDENTS from sleepiness** — the most immediate risk.
-> **· HYPERTENSION, and particularly RESISTANT hypertension** — cross-refer [[B2]] 0.4.
+> **· HYPERTENSION, and particularly RESISTANT hypertension** — cross-refer [[B2_Hypertension_Spectrum]] 0.4.
 > **· Atrial fibrillation** (with a high recurrence rate after cardioversion or ablation if OSA is untreated), heart failure, coronary disease and stroke.
 > **· Type 2 diabetes and worsened glycaemic control.**
 > **· Pulmonary hypertension and cor pulmonale in severe disease.**
-> **· Perioperative risk** — cross-refer [[AN1]].
+> **· Perioperative risk** — cross-refer [[AN1_Perioperative_Care]].
 
 > [!danger] Driving — the obligation and the conversation
 > **Untreated obstructive sleep apnoea with significant daytime sleepiness affects fitness to drive**, and the requirements are stricter for **commercial licence holders.**
-> **You must advise the patient, document that you have advised them, and explain their obligation to notify the licensing authority.** **South Australia has particular medical reporting provisions.** Cross-refer [[A10]] 0.6.
+> **You must advise the patient, document that you have advised them, and explain their obligation to notify the licensing authority.** **South Australia has particular medical reporting provisions.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6.
 > **The conversation is often unwelcome — many patients drive for a living — but a sleepy driver is a genuine and quantified public risk**, and the treatment usually restores fitness quickly, which is a useful thing to be able to offer alongside the restriction. `UNVERIFIED — the Austroads criteria.`
 
 > [!warning] Obesity hypoventilation syndrome — check a venous bicarbonate
 > **Daytime hypercapnia in an obese person, in the absence of another cause.**
 > **The practical screening tip: an ELEVATED SERUM BICARBONATE on routine biochemistry is a clue to chronic CO₂ retention** — a metabolic compensation for a respiratory acidosis — and it costs nothing, since the bicarbonate is on every electrolyte panel.
 > **An obese, sleepy patient with an unexplained raised bicarbonate should have a blood gas and a sleep assessment.**
-> **These patients require NON-INVASIVE VENTILATION rather than CPAP alone**, and they are at high risk of acute-on-chronic hypercapnic respiratory failure — including precipitation by uncontrolled oxygen therapy. Cross-refer [[A3]].
+> **These patients require NON-INVASIVE VENTILATION rather than CPAP alone**, and they are at high risk of acute-on-chronic hypercapnic respiratory failure — including precipitation by uncontrolled oxygen therapy. Cross-refer [[A3_Respiratory_Failure__Bronchospasm_and_Hypoxia]].
 
 > [!tip] Management, and central sleep apnoea
 > **· Weight loss** — genuinely disease-modifying, and bariatric intervention can resolve OSA.
@@ -254,7 +254,7 @@ Treat the underlying cause where identified, and establish the maintenance regim
 
 > [!tip] Home non-invasive ventilation
 > **Indicated in chronic hypercapnic respiratory failure from: neuromuscular disease (motor neurone disease, muscular dystrophy), chest wall disease (kyphoscoliosis), obesity hypoventilation syndrome, and selected patients with severe COPD and persistent hypercapnia.**
-> **In progressive neuromuscular disease, NIV improves both survival and quality of life**, and the discussion about starting it — and about what happens when it is no longer sufficient — should occur well before the crisis. Cross-refer [[D4]] 0.5 and [[GER2]] 0.6.
+> **In progressive neuromuscular disease, NIV improves both survival and quality of life**, and the discussion about starting it — and about what happens when it is no longer sufficient — should occur well before the crisis. Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.5 and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.6.
 
 > [!danger] Pulmonary rehabilitation is under-referred and works
 > **Pulmonary rehabilitation improves exercise capacity, breathlessness, quality of life and hospital admissions in COPD, ILD and bronchiectasis** — with effect sizes exceeding most drug therapies.
@@ -266,7 +266,7 @@ Treat the underlying cause where identified, and establish the maintenance regim
 > **· A HANDHELD FAN directed at the face.** Stimulation of trigeminal receptors reduces the sensation of breathlessness. **It is free, effective, portable and evidence-supported — and it is consistently forgotten.**
 > **· Breathing control techniques, pursed-lip breathing, and positioning (leaning forward with arms braced).**
 > **· PACING and energy conservation, with occupational therapy input.**
-> **· LOW-DOSE OPIOIDS for refractory breathlessness** — effective, and **the fear of respiratory depression at the doses used for breathlessness is not supported by evidence** in this context. Cross-refer [[GER2]] 0.5. `UNVERIFIED — dosing.`
+> **· LOW-DOSE OPIOIDS for refractory breathlessness** — effective, and **the fear of respiratory depression at the doses used for breathlessness is not supported by evidence** in this context. Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5. `UNVERIFIED — dosing.`
 > **· Treating anxiety**, which both results from and amplifies breathlessness in a self-reinforcing cycle.
 > **· Oxygen only if hypoxaemic** — see above.
 
@@ -274,11 +274,11 @@ Treat the underlying cause where identified, and establish the maintenance regim
 > **Chronic respiratory disease follows the ORGAN FAILURE trajectory — gradual decline punctuated by acute exacerbations, each survivable until one is not.**
 > **Because there is never an obvious terminal moment, these conversations are deferred indefinitely**, and patients end up intubated in an intensive care unit without anyone knowing what they would have wanted.
 > **The prompt: after an exacerbation requiring hospital admission, or when the answer to "would I be surprised if this patient died in the next year?" is no.**
-> **Discuss: what matters to them, their view on intubation and non-invasive ventilation, preferred place of care, and who speaks for them.** Cross-refer [[GER2]] 0.5–0.6 and [[A10]] 0.3.
+> **Discuss: what matters to them, their view on intubation and non-invasive ventilation, preferred place of care, and who speaks for them.** Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5–0.6 and [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3.
 
 **Ix:** **Arterial blood gas on room air when clinically stable** (*why:* determines LTOT eligibility and identifies hypercapnia; *what:* PaO₂, PaCO₂, bicarbonate). Overnight oximetry or transcutaneous CO₂ monitoring (*why:* nocturnal hypoventilation precedes daytime hypercapnia; *what:* nocturnal desaturation, rising CO₂). Pulmonary function tests with DLCO, and **serial FVC in neuromuscular disease** (*why:* tracks progression and determines the timing of NIV; *what:* declining FVC, particularly supine). Six-minute walk test with oximetry (*why:* functional capacity and exertional desaturation; *what:* distance and desaturation). Echocardiography (*why:* pulmonary hypertension and right heart failure; *what:* right heart changes). **Assessment of vaccination status, smoking status, nutrition and mood** (*why:* each is modifiable and each affects outcome; *what:* the gaps).
 
 ---
 
 > [!note] Cross-references
-> Asthma and COPD → [[F0.5]] 0.1 · Acute respiratory failure and oxygen targets → [[A3]] · Dyspnoea, cough, haemoptysis and the solitary pulmonary nodule → [[A4]] · Pneumonia and melioidosis → [[F0.5]] 0.4 · Tuberculosis → [[K3]] 0.3 · Immunodeficiency and CVID → [[K3]] 0.5 · Allergy and ABPA → [[K4]] · Connective tissue disease-associated ILD and myositis → [[L2]] 0.4 · Methotrexate pneumonitis → [[L2]] 0.2 · Checkpoint inhibitor pneumonitis → [[A5]] 0.7 · Sarcoid hypercalcaemia → [[I3]] 0.2 · Resistant hypertension and OSA → [[B2]] 0.4 · Neuromuscular respiratory failure and FVC monitoring → [[D4]] 0.5 and [[F0.5]] 0.5 · Perioperative assessment in OSA → [[AN1]] · Certification, compensation and fitness for work → [[A10]] 0.6 and [[L6]] 0.5 · Advance care planning and refractory breathlessness → [[GER2]] 0.5–0.6 · Paediatric chronic wet cough → [[M2]] · Aboriginal and Torres Strait Islander respiratory health → [[AU1]]
+> Asthma and COPD → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.1 · Acute respiratory failure and oxygen targets → [[A3_Respiratory_Failure__Bronchospasm_and_Hypoxia]] · Dyspnoea, cough, haemoptysis and the solitary pulmonary nodule → [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] · Pneumonia and melioidosis → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.4 · Tuberculosis → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.3 · Immunodeficiency and CVID → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · Allergy and ABPA → [[K4_Allergy_and_Clinical_Immunology]] · Connective tissue disease-associated ILD and myositis → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4 · Methotrexate pneumonitis → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.2 · Checkpoint inhibitor pneumonitis → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7 · Sarcoid hypercalcaemia → [[I3_Calcium__Parathyroid_and_Bone]] 0.2 · Resistant hypertension and OSA → [[B2_Hypertension_Spectrum]] 0.4 · Neuromuscular respiratory failure and FVC monitoring → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.5 and [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5 · Perioperative assessment in OSA → [[AN1_Perioperative_Care]] · Certification, compensation and fitness for work → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 and [[L6_Soft_Tissue_Injury_and_Mobility]] 0.5 · Advance care planning and refractory breathlessness → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5–0.6 · Paediatric chronic wet cough → [[M2_Fever_in_Children]] · Aboriginal and Torres Strait Islander respiratory health → [[AU1_Australian_Health_Context_and_ATSI_Health]]

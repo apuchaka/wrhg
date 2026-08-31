@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Recognition, mechanism and management principles are reliable at intern level. **Every dose, potency class, quantity and regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG Dermatology**, the **Australian Medicines Handbook**, and **Cancer Council / SunSmart** for sun protection advice.
 >
-> **Acute rash and drug eruptions are built in [[G1]]**, **erythroderma and skin failure in [[G2]] 0.4–0.5**, **urticaria in [[K4]]**, and **skin cancer in [[G5]]** — cross-referenced rather than repeated.
+> **Acute rash and drug eruptions are built in [[G1_Acute_Rash_and_Erythema]]**, **erythroderma and skin failure in [[G2_Blisters_and_Skin_Failure]] 0.4–0.5**, **urticaria in [[K4_Allergy_and_Clinical_Immunology]]**, and **skin cancer in [[G5_Lumps__Ulcers_and_Nails]]** — cross-referenced rather than repeated.
 
 ---
 
@@ -43,7 +43,7 @@ population: mixed
 > **1. FOOD ALLERGY TESTING IS OVER-REQUESTED IN ECZEMA.**
 > **Most eczema is NOT food-driven, and specific IgE and skin prick tests have poor positive predictive value in this setting — a positive result frequently reflects sensitisation without clinical allergy.**
 > **UNNECESSARY ELIMINATION DIETS CAUSE HARM: nutritional deficiency, growth faltering, family stress — and, critically, AVOIDING A FOOD CAN PRECIPITATE TRUE IgE-MEDIATED ALLERGY to it, including anaphylaxis on re-exposure.**
-> **Test only where there is a convincing history of an immediate reaction, or in severe eczema not responding to optimal topical treatment.** Cross-refer [[K4]] 0.4.
+> **Test only where there is a convincing history of an immediate reaction, or in severe eczema not responding to optimal topical treatment.** Cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.4.
 > **2. ALLERGY TO THE TREATMENT.**
 > **Eczema that stops responding, or worsens with treatment, may be ALLERGIC CONTACT DERMATITIS to a component of what is being applied — a preservative, a fragrance, lanolin, a topical antibiotic, or occasionally the corticosteroid itself.**
 > **Consider it before escalating potency, and refer for PATCH TESTING.**
@@ -53,7 +53,7 @@ population: mixed
 > **· ALLERGIC contact dermatitis — a DELAYED (type IV) hypersensitivity requiring prior sensitisation, occurring 24–72 hours after contact, and it can spread beyond the contact site.** **Common allergens: NICKEL, fragrance, preservatives, rubber accelerators, hair dye (paraphenylenediamine), and topical medicaments.**
 > **THE TEST IS PATCH TESTING, NOT SKIN PRICK TESTING.**
 > **Patch testing detects delayed T-cell hypersensitivity and is read at 48 and 96 hours. Skin prick testing and specific IgE detect IMMEDIATE IgE-mediated allergy and are the WRONG TEST for contact dermatitis entirely.** **Requesting IgE testing for a suspected contact allergy is a common and unhelpful error.**
-> **Also: DISCOID eczema (coin-shaped, often mistaken for tinea) · ASTEATOTIC eczema (dry, crazy-paving, elderly shins in winter) · SEBORRHOEIC dermatitis (see 0.3) · and VENOUS eczema (cross-refer [[G1]] 0.6).**
+> **Also: DISCOID eczema (coin-shaped, often mistaken for tinea) · ASTEATOTIC eczema (dry, crazy-paving, elderly shins in winter) · SEBORRHOEIC dermatitis (see 0.3) · and VENOUS eczema (cross-refer [[G1_Acute_Rash_and_Erythema]] 0.6).**
 
 ---
 
@@ -69,7 +69,7 @@ population: mixed
 > [!danger] Never give systemic corticosteroids for psoriasis
 > **Systemic steroids may improve psoriasis briefly, but WITHDRAWAL PRECIPITATES A REBOUND FLARE, which can be ERYTHRODERMIC or GENERALISED PUSTULAR PSORIASIS — both of which are dermatological emergencies with significant mortality.**
 > **This matters practically because a patient with psoriasis may be given oral steroids for something else — an asthma exacerbation, an allergic reaction, a musculoskeletal problem — and then flare when they stop.**
-> **If systemic steroids are genuinely necessary for another indication, be aware of the risk, taper rather than stop abruptly, and warn the patient.** Cross-refer [[G2]] 0.4.
+> **If systemic steroids are genuinely necessary for another indication, be aware of the risk, taper rather than stop abruptly, and warn the patient.** Cross-refer [[G2_Blisters_and_Skin_Failure]] 0.4.
 
 > [!warning] The drugs that trigger or worsen psoriasis
 > **· BETA-BLOCKERS**
@@ -82,7 +82,7 @@ population: mixed
 
 > [!danger] Psoriasis is a systemic inflammatory disease, not just a skin condition
 > **· PSORIATIC ARTHRITIS occurs in a substantial minority, can be EROSIVE AND DESTRUCTIVE, and early treatment changes the outcome.**
-> **SCREEN FOR IT AT EVERY REVIEW: joint pain and swelling · MORNING STIFFNESS lasting more than 30 minutes · DACTYLITIS ("sausage digit") · ENTHESITIS (Achilles or plantar fascia pain) · and INFLAMMATORY BACK PAIN (better with movement, worse with rest, night waking).** **Nail involvement and scalp psoriasis increase the risk.** Cross-refer [[L2]] 0.3.
+> **SCREEN FOR IT AT EVERY REVIEW: joint pain and swelling · MORNING STIFFNESS lasting more than 30 minutes · DACTYLITIS ("sausage digit") · ENTHESITIS (Achilles or plantar fascia pain) · and INFLAMMATORY BACK PAIN (better with movement, worse with rest, night waking).** **Nail involvement and scalp psoriasis increase the risk.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.3.
 > **· CARDIOVASCULAR DISEASE — psoriasis is an independent cardiovascular risk factor, and patients with severe psoriasis have measurably increased cardiovascular mortality.** **Screen and manage blood pressure, lipids, glucose and smoking actively.**
 > **· METABOLIC SYNDROME, obesity and metabolic dysfunction-associated steatotic liver disease.**
 > **· INFLAMMATORY BOWEL DISEASE and uveitis.**
@@ -103,14 +103,14 @@ population: mixed
 > **Erythema with greasy yellowish scale in SEBACEOUS-RICH areas: scalp, eyebrows, NASOLABIAL FOLDS, ears, beard area, central chest and flexures.** Driven by *Malassezia* yeast and the host response.
 > **Treated with antifungal shampoos and creams, mild topical steroids for inflammation, and maintenance therapy, because it relapses.**
 > **THE POINT THAT MATTERS: FLORID, EXTENSIVE OR TREATMENT-RESISTANT SEBORRHOEIC DERMATITIS SHOULD PROMPT TWO THOUGHTS:**
-> **1. HIV — severe seborrhoeic dermatitis is a recognised cutaneous marker of HIV infection. TEST.** Cross-refer [[K3]] 0.5.
-> **2. PARKINSON DISEASE and other neurological conditions — seborrhoeic dermatitis is markedly more common and more severe, related to increased sebum and reduced facial movement.** Cross-refer [[D6]] 0.5.
+> **1. HIV — severe seborrhoeic dermatitis is a recognised cutaneous marker of HIV infection. TEST.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5.
+> **2. PARKINSON DISEASE and other neurological conditions — seborrhoeic dermatitis is markedly more common and more severe, related to increased sebum and reduced facial movement.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.5.
 
 > [!tip] Lichen planus
 > **The six Ps: PURPLE, POLYGONAL, PLANAR (flat-topped), PRURITIC PAPULES and PLAQUES**, classically on the flexor wrists, ankles and lower back, with fine white lacy lines on the surface (WICKHAM STRIAE).
 > **Sites that matter beyond the skin:**
 > **· ORAL — lacy white striae on the buccal mucosa, and an EROSIVE form which is painful and carries a small but real risk of SQUAMOUS CELL CARCINOMA, requiring long-term surveillance.**
-> **· GENITAL — erosive vulval and penile lichen planus causes SCARRING and architectural loss.** Cross-refer [[O5]] 0.5.
+> **· GENITAL — erosive vulval and penile lichen planus causes SCARRING and architectural loss.** Cross-refer [[O5_Pelvic_and_Vulval_Conditions]] 0.5.
 > **· NAILS — longitudinal ridging and, in severe cases, pterygium formation with permanent nail loss.**
 > **· SCALP — lichen planopilaris causing SCARRING alopecia.**
 > **Associated with HEPATITIS C — worth testing, particularly with oral disease.** Koebner positive.
@@ -132,9 +132,9 @@ population: mixed
 > **Early diagnosis and treatment (weight and smoking, topical and oral antibiotics, hormonal therapy, biologics, and surgery for established tracts) prevents irreversible scarring.** **Naming the condition is itself valuable to a patient who has been told for a decade that they get boils.**
 
 > [!tip] Three more worth recognising
-> **· PITYRIASIS ROSEA — a single larger "HERALD PATCH" followed days later by an eruption of oval scaly patches along skin cleavage lines in a "CHRISTMAS TREE" distribution on the back. Self-limiting over 6–12 weeks.** **CONSIDER SECONDARY SYPHILIS in the differential — it can look very similar, and the discriminators are palm and sole involvement, absence of a herald patch, and lymphadenopathy. Test if there is any doubt.** Cross-refer [[G1]] 0.5.
+> **· PITYRIASIS ROSEA — a single larger "HERALD PATCH" followed days later by an eruption of oval scaly patches along skin cleavage lines in a "CHRISTMAS TREE" distribution on the back. Self-limiting over 6–12 weeks.** **CONSIDER SECONDARY SYPHILIS in the differential — it can look very similar, and the discriminators are palm and sole involvement, absence of a herald patch, and lymphadenopathy. Test if there is any doubt.** Cross-refer [[G1_Acute_Rash_and_Erythema]] 0.5.
 > **· TINEA — and specifically TINEA INCOGNITO: a fungal infection treated with topical corticosteroids, which suppresses the inflammation and the classic annular scaly edge, producing an atypical, extensive, poorly demarcated eruption that keeps spreading.** **SCRAPE BEFORE YOU TREAT any annular or asymmetrical scaly rash, and avoid combination steroid-antifungal preparations, which cause exactly this problem.**
-> **· CHRONIC SPONTANEOUS URTICARIA — wheals lasting LESS THAN 24 HOURS at any one site, resolving without marks.** **Wheals persisting beyond 24 hours, or leaving bruising, suggest URTICARIAL VASCULITIS and warrant a biopsy.** Cross-refer [[K4]] 0.2.
+> **· CHRONIC SPONTANEOUS URTICARIA — wheals lasting LESS THAN 24 HOURS at any one site, resolving without marks.** **Wheals persisting beyond 24 hours, or leaving bruising, suggest URTICARIAL VASCULITIS and warrant a biopsy.** Cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.2.
 
 ---
 
@@ -147,20 +147,20 @@ population: mixed
 
 > [!warning] Generalised pruritus without a rash — the systemic causes
 > **· IRON DEFICIENCY — WITH OR WITHOUT ANAEMIA. A low ferritin causes itch, and it is cheap to check and easy to treat.** **This is the most commonly missed and most easily corrected cause.**
-> **· CHRONIC KIDNEY DISEASE — uraemic pruritus, which is severe, under-treated and profoundly affects quality of life.** Cross-refer [[H3]] 0.4.
-> **· CHOLESTASIS — and the ITCH CAN PRECEDE JAUNDICE by weeks to months. Check the LFTs, particularly ALP and GGT, in unexplained itch.** **Primary biliary cholangitis classically presents with fatigue and itch in a middle-aged woman before anything is visible.** Cross-refer [[C3]] 0.2.
+> **· CHRONIC KIDNEY DISEASE — uraemic pruritus, which is severe, under-treated and profoundly affects quality of life.** Cross-refer [[H3_Acute_Kidney_Injury_and_CKD]] 0.4.
+> **· CHOLESTASIS — and the ITCH CAN PRECEDE JAUNDICE by weeks to months. Check the LFTs, particularly ALP and GGT, in unexplained itch.** **Primary biliary cholangitis classically presents with fatigue and itch in a middle-aged woman before anything is visible.** Cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.2.
 > **· THYROID DISEASE — both hyper- and hypothyroidism.**
-> **· HAEMATOLOGICAL — POLYCYTHAEMIA VERA, with the characteristic AQUAGENIC PRURITUS (intense itch after a hot shower or bath), and LYMPHOMA, particularly Hodgkin lymphoma, where itch may precede the diagnosis by months.** **Unexplained persistent itch with night sweats, weight loss or lymphadenopathy needs a full blood count, LDH and examination for nodes.** Cross-refer [[J4]] 0.4.
+> **· HAEMATOLOGICAL — POLYCYTHAEMIA VERA, with the characteristic AQUAGENIC PRURITUS (intense itch after a hot shower or bath), and LYMPHOMA, particularly Hodgkin lymphoma, where itch may precede the diagnosis by months.** **Unexplained persistent itch with night sweats, weight loss or lymphadenopathy needs a full blood count, LDH and examination for nodes.** Cross-refer [[J4_Paraproteins_and_Lymphoproliferative]] 0.4.
 > **· HIV.**
 > **· DIABETES, and other endocrine causes.**
 > **· DRUGS — opioids (which cause itch through central mechanisms, not histamine release, so antihistamines do not help), and many others.**
-> **· PREGNANCY — INTRAHEPATIC CHOLESTASIS OF PREGNANCY, with itch particularly of the PALMS AND SOLES, typically without a rash, in the third trimester.** **It carries fetal risk and requires bile acid measurement and obstetric involvement — do not dismiss third-trimester itch.** Cross-refer [[O2]].
+> **· PREGNANCY — INTRAHEPATIC CHOLESTASIS OF PREGNANCY, with itch particularly of the PALMS AND SOLES, typically without a rash, in the third trimester.** **It carries fetal risk and requires bile acid measurement and obstetric involvement — do not dismiss third-trimester itch.** Cross-refer [[O2_Later_Pregnancy_and_Fetal]].
 > **· Neuropathic itch — NOTALGIA PARAESTHETICA (a localised itchy, pigmented patch medial to the scapula) and BRACHIORADIAL PRURITUS (outer forearms, related to cervical spine degeneration and sun exposure).**
 > **· Psychogenic itch and delusional infestation — diagnoses of exclusion, approached carefully.**
 
 > [!danger] Three dermatological causes that present as "itch with no rash"
-> **1. SCABIES — the commonest missed cause of generalised itch.** **The burrows are subtle and are looked for in the wrong places. Examine the FINGER WEB SPACES, wrists, axillae, periumbilical skin, nipples and genitals.** **THE HISTORY IS THE TEST: intense itch WORSE AT NIGHT, and OTHER HOUSEHOLD MEMBERS OR CONTACTS ITCHING.** **Ask. Treat all contacts simultaneously, and warn that itch persists for weeks after successful treatment.** Cross-refer [[K2]] 0.6.
-> **2. PRE-BULLOUS PEMPHIGOID — an elderly patient with severe unexplained itch and non-specific urticarial or eczematous plaques, weeks to months before any blister appears.** **Biopsy with direct immunofluorescence makes the diagnosis at this stage.** Cross-refer [[G2]] 0.2.
+> **1. SCABIES — the commonest missed cause of generalised itch.** **The burrows are subtle and are looked for in the wrong places. Examine the FINGER WEB SPACES, wrists, axillae, periumbilical skin, nipples and genitals.** **THE HISTORY IS THE TEST: intense itch WORSE AT NIGHT, and OTHER HOUSEHOLD MEMBERS OR CONTACTS ITCHING.** **Ask. Treat all contacts simultaneously, and warn that itch persists for weeks after successful treatment.** Cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.6.
+> **2. PRE-BULLOUS PEMPHIGOID — an elderly patient with severe unexplained itch and non-specific urticarial or eczematous plaques, weeks to months before any blister appears.** **Biopsy with direct immunofluorescence makes the diagnosis at this stage.** Cross-refer [[G2_Blisters_and_Skin_Failure]] 0.2.
 > **3. XEROSIS — simple dry skin, particularly in older people in winter or with frequent hot showers. Extremely common, and it responds to emollients and to stopping soap and hot water.**
 
 > [!tip] Symptomatic management while the cause is sought
@@ -181,9 +181,9 @@ population: mixed
 > **· POST-INFLAMMATORY HYPERPIGMENTATION — following any inflammatory skin condition. It is MORE PRONOUNCED AND MORE PERSISTENT IN DARKER SKIN, where it may last months to years and cause more distress than the original condition.** **Dismissing it as cosmetic is a failure to understand its impact.** **Prevention (treating the inflammation promptly) and sun protection are the main strategies.**
 > **· MELASMA — symmetrical brown patches on the forehead, cheeks and upper lip, associated with PREGNANCY, the COMBINED ORAL CONTRACEPTIVE and sun exposure, predominantly in women and in darker skin types.** **RIGOROUS SUN PROTECTION IS ESSENTIAL — without it, no treatment works.** Difficult to treat and prone to recurrence.
 > **· DRUGS — AMIODARONE (slate-grey on sun-exposed skin), MINOCYCLINE (blue-grey in scars and shins), chemotherapy agents, antimalarials, and phenothiazines.**
-> **· ADDISON DISEASE — generalised hyperpigmentation with accentuation in PALMAR CREASES, BUCCAL MUCOSA, SCARS and pressure areas, from ACTH excess.** **In a fatigued, hypotensive patient with hyponatraemia, look at the mouth and the palms.** Cross-refer [[I4]] 0.3.
+> **· ADDISON DISEASE — generalised hyperpigmentation with accentuation in PALMAR CREASES, BUCCAL MUCOSA, SCARS and pressure areas, from ACTH excess.** **In a fatigued, hypotensive patient with hyponatraemia, look at the mouth and the palms.** Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.3.
 > **· HAEMOCHROMATOSIS — bronze discolouration with diabetes ("bronze diabetes").**
-> **· ACANTHOSIS NIGRICANS — velvety, thickened, hyperpigmented skin in the axillae, neck and groin.** **Usually a marker of INSULIN RESISTANCE and obesity — but SUDDEN, EXTENSIVE or rapidly progressive acanthosis nigricans, particularly involving the mucosae or palms, raises an underlying MALIGNANCY (classically gastric adenocarcinoma) and warrants investigation.** Cross-refer [[I2]] 0.1.
+> **· ACANTHOSIS NIGRICANS — velvety, thickened, hyperpigmented skin in the axillae, neck and groin.** **Usually a marker of INSULIN RESISTANCE and obesity — but SUDDEN, EXTENSIVE or rapidly progressive acanthosis nigricans, particularly involving the mucosae or palms, raises an underlying MALIGNANCY (classically gastric adenocarcinoma) and warrants investigation.** Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.1.
 
 > [!warning] Hypopigmentation
 > **· VITILIGO — well-demarcated depigmented (not merely hypopigmented) macules, often symmetrical, around orifices and on extensor surfaces and hands. Autoimmune.**
@@ -206,11 +206,11 @@ population: mixed
 > **The shadowed sites being spared is what confirms that light, rather than something applied to the face, is responsible.** **Look for it deliberately.**
 
 > [!warning] The photosensitive conditions
-> **· DRUG PHOTOSENSITIVITY — the commonest. DOXYCYCLINE (very common and worth warning about explicitly in an Australian summer), thiazides, amiodarone, NSAIDs, voriconazole, quinolones, and St John's wort.** Cross-refer [[G1]] 0.4.
+> **· DRUG PHOTOSENSITIVITY — the commonest. DOXYCYCLINE (very common and worth warning about explicitly in an Australian summer), thiazides, amiodarone, NSAIDs, voriconazole, quinolones, and St John's wort.** Cross-refer [[G1_Acute_Rash_and_Erythema]] 0.4.
 > **· POLYMORPHIC LIGHT ERUPTION — the commonest idiopathic photodermatosis. Itchy papules, vesicles or plaques appearing HOURS after sun exposure, typically in SPRING or EARLY SUMMER on the first significant exposure, and improving through the season as the skin "hardens".** Benign and manageable with sun protection.
-> **· PHOTOAGGRAVATED DERMATOSES — LUPUS ERYTHEMATOSUS (both systemic and cutaneous — a photosensitive facial eruption warrants ANA and a careful systemic enquiry), dermatomyositis (with the heliotrope rash and Gottron papules), rosacea, and porphyria.** Cross-refer [[L2]] 0.4 and [[G2]] 0.3.
+> **· PHOTOAGGRAVATED DERMATOSES — LUPUS ERYTHEMATOSUS (both systemic and cutaneous — a photosensitive facial eruption warrants ANA and a careful systemic enquiry), dermatomyositis (with the heliotrope rash and Gottron papules), rosacea, and porphyria.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4 and [[G2_Blisters_and_Skin_Failure]] 0.3.
 > **· CHRONIC ACTINIC DERMATITIS in older men; SOLAR URTICARIA; and the porphyrias.**
-> **· PHYTOPHOTODERMATITIS — cross-refer [[G2]] 0.3.**
+> **· PHYTOPHOTODERMATITIS — cross-refer [[G2_Blisters_and_Skin_Failure]] 0.3.**
 
 > [!danger] Australia has the highest skin cancer rates in the world
 > **This is the context for everything about sun protection here, and it justifies being more insistent than clinicians elsewhere would be.**
@@ -226,12 +226,12 @@ population: mixed
 > **Patients and clinicians raise the apparent conflict between sun protection and vitamin D, and it is worth being able to answer clearly.**
 > **THE POSITION: for most people, incidental everyday exposure is sufficient for vitamin D, and where deficiency exists or is likely, THE ANSWER IS SUPPLEMENTATION — NOT DELIBERATE UNPROTECTED SUN EXPOSURE.**
 > **Deliberate sun exposure for vitamin D is not recommended in a country with this melanoma incidence.**
-> **Groups genuinely at risk of deficiency: people with naturally dark skin · those who are housebound or in residential care · those who cover for cultural or religious reasons · people with malabsorption · and some medications.** **Test and supplement these groups rather than advising them to sunbathe.** Cross-refer [[I3]] 0.4 and [[GER1]] 0.6.
-> **Chronic sun damage also produces SOLAR KERATOSES and field change, which are premalignant and are covered in [[G5]].**
+> **Groups genuinely at risk of deficiency: people with naturally dark skin · those who are housebound or in residential care · those who cover for cultural or religious reasons · people with malabsorption · and some medications.** **Test and supplement these groups rather than advising them to sunbathe.** Cross-refer [[I3_Calcium__Parathyroid_and_Bone]] 0.4 and [[GER1_Comprehensive_Geriatric_Assessment]] 0.6.
+> **Chronic sun damage also produces SOLAR KERATOSES and field change, which are premalignant and are covered in [[G5_Lumps__Ulcers_and_Nails]].**
 
-**Ix:** **In generalised pruritus WITHOUT a primary rash: FBC and film, FERRITIN, UEC, LFT (including ALP and GGT), TFTs, glucose or HbA1c, LDH, and HIV serology; chest radiograph and examination for lymphadenopathy where lymphoma is a consideration** (*why:* iron deficiency and cholestasis are common, cheap to find and treatable; lymphoma-associated itch precedes diagnosis; *what:* the systemic cause). **BILE ACIDS in third-trimester pruritus** (*why:* intrahepatic cholestasis of pregnancy carries fetal risk; *what:* elevation — cross-refer [[O2]]). **SKIN SCRAPINGS for mycology BEFORE treating any annular or asymmetrical scaly rash** (*why:* prevents tinea incognito and prevents treating tinea as eczema; *what:* dermatophyte). **PATCH TESTING — not skin prick testing or specific IgE — for suspected allergic contact dermatitis** (*why:* it is a delayed T-cell reaction and the immediate-type tests are the wrong assay entirely; *what:* the allergen). **Throat swab and ASOT in guttate psoriasis** (*why:* streptococcal trigger; *what:* streptococcal infection). **Screening for PSORIATIC ARTHRITIS and cardiovascular risk at psoriasis reviews** (*why:* the arthritis is erosive and early treatment changes outcomes, and the cardiovascular risk is independent; *what:* joint symptoms, blood pressure, lipids, glucose). **THYROID function and autoimmune screen in vitiligo** (*why:* associated autoimmune disease is common and treatable; *what:* thyroid dysfunction). **ANA and extended autoimmune serology in a photosensitive eruption** (*why:* cutaneous and systemic lupus; *what:* positive serology — cross-refer [[L2]] 0.6). **SENSORY TESTING of a hypopigmented patch** (*why:* leprosy is diagnosed by anaesthesia in the lesion and is otherwise delayed for years; *what:* sensory loss). **A WOOD LAMP examination** (*why:* distinguishes vitiligo from hypopigmentation and identifies pityriasis versicolor and erythrasma at the bedside; *what:* the fluorescence pattern).
+**Ix:** **In generalised pruritus WITHOUT a primary rash: FBC and film, FERRITIN, UEC, LFT (including ALP and GGT), TFTs, glucose or HbA1c, LDH, and HIV serology; chest radiograph and examination for lymphadenopathy where lymphoma is a consideration** (*why:* iron deficiency and cholestasis are common, cheap to find and treatable; lymphoma-associated itch precedes diagnosis; *what:* the systemic cause). **BILE ACIDS in third-trimester pruritus** (*why:* intrahepatic cholestasis of pregnancy carries fetal risk; *what:* elevation — cross-refer [[O2_Later_Pregnancy_and_Fetal]]). **SKIN SCRAPINGS for mycology BEFORE treating any annular or asymmetrical scaly rash** (*why:* prevents tinea incognito and prevents treating tinea as eczema; *what:* dermatophyte). **PATCH TESTING — not skin prick testing or specific IgE — for suspected allergic contact dermatitis** (*why:* it is a delayed T-cell reaction and the immediate-type tests are the wrong assay entirely; *what:* the allergen). **Throat swab and ASOT in guttate psoriasis** (*why:* streptococcal trigger; *what:* streptococcal infection). **Screening for PSORIATIC ARTHRITIS and cardiovascular risk at psoriasis reviews** (*why:* the arthritis is erosive and early treatment changes outcomes, and the cardiovascular risk is independent; *what:* joint symptoms, blood pressure, lipids, glucose). **THYROID function and autoimmune screen in vitiligo** (*why:* associated autoimmune disease is common and treatable; *what:* thyroid dysfunction). **ANA and extended autoimmune serology in a photosensitive eruption** (*why:* cutaneous and systemic lupus; *what:* positive serology — cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.6). **SENSORY TESTING of a hypopigmented patch** (*why:* leprosy is diagnosed by anaesthesia in the lesion and is otherwise delayed for years; *what:* sensory loss). **A WOOD LAMP examination** (*why:* distinguishes vitiligo from hypopigmentation and identifies pityriasis versicolor and erythrasma at the bedside; *what:* the fluorescence pattern).
 
 ---
 
 > [!note] Cross-references
-> Acute rash, drug eruptions and photosensitive drugs → [[G1]] 0.4 · Eczema herpeticum → [[G1]] 0.2 · Erythroderma and steroid withdrawal → [[G2]] 0.4 · Pre-bullous pemphigoid as unexplained itch → [[G2]] 0.2 · Porphyria and phytophotodermatitis → [[G2]] 0.3 · Purpura and vasculitis → [[G3]] · Skin cancer, solar keratoses and field change → [[G5]] · Urticaria, food allergy testing and anaphylaxis → [[K4]] 0.2, 0.4 · Scabies → [[K2]] 0.6 · HIV and cutaneous markers → [[K3]] 0.5 · Psoriatic arthritis and spondyloarthropathy → [[L2]] 0.3 · Lupus and autoantibodies → [[L2]] 0.4, 0.6 · Cholestatic itch and primary biliary cholangitis → [[C3]] 0.2 · Uraemic pruritus → [[H3]] 0.4 · Lymphoma-associated itch → [[J4]] 0.4 · Addison disease and pigmentation → [[I4]] 0.3 · Acanthosis nigricans and insulin resistance → [[I2]] 0.1 · Vitamin D and bone health → [[I3]] 0.4 and [[GER1]] 0.6 · Obstetric cholestasis → [[O2]] · Seborrhoeic dermatitis in Parkinson disease → [[D6]] 0.5 · Vulval lichen planus → [[O5]] 0.5
+> Acute rash, drug eruptions and photosensitive drugs → [[G1_Acute_Rash_and_Erythema]] 0.4 · Eczema herpeticum → [[G1_Acute_Rash_and_Erythema]] 0.2 · Erythroderma and steroid withdrawal → [[G2_Blisters_and_Skin_Failure]] 0.4 · Pre-bullous pemphigoid as unexplained itch → [[G2_Blisters_and_Skin_Failure]] 0.2 · Porphyria and phytophotodermatitis → [[G2_Blisters_and_Skin_Failure]] 0.3 · Purpura and vasculitis → [[G3_Purpura_and_Vasculitis]] · Skin cancer, solar keratoses and field change → [[G5_Lumps__Ulcers_and_Nails]] · Urticaria, food allergy testing and anaphylaxis → [[K4_Allergy_and_Clinical_Immunology]] 0.2, 0.4 · Scabies → [[K2_Skin_and_Soft_Tissue_Infection]] 0.6 · HIV and cutaneous markers → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · Psoriatic arthritis and spondyloarthropathy → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.3 · Lupus and autoantibodies → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4, 0.6 · Cholestatic itch and primary biliary cholangitis → [[C3_Jaundice_and_Liver_Disease]] 0.2 · Uraemic pruritus → [[H3_Acute_Kidney_Injury_and_CKD]] 0.4 · Lymphoma-associated itch → [[J4_Paraproteins_and_Lymphoproliferative]] 0.4 · Addison disease and pigmentation → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.3 · Acanthosis nigricans and insulin resistance → [[I2_Diabetes_and_Glucose_Disorders]] 0.1 · Vitamin D and bone health → [[I3_Calcium__Parathyroid_and_Bone]] 0.4 and [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 · Obstetric cholestasis → [[O2_Later_Pregnancy_and_Fetal]] · Seborrhoeic dermatitis in Parkinson disease → [[D6_Seizures_and_Movement_Disorders]] 0.5 · Vulval lichen planus → [[O5_Pelvic_and_Vulval_Conditions]] 0.5

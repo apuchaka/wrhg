@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Clinical reasoning, discriminators and behavioural treatment principles are reliable at intern level. **Every dose, threshold and diagnostic criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG Psychotropic**, the **Australian Medicines Handbook**, and Sleep Health Foundation / Australasian Sleep Association guidance.
 >
-> **Obstructive sleep apnoea and obesity hypoventilation are built in [[RESP-X]] 0.5**, and **restless legs syndrome in [[D6]] 0.6** — both are cross-referenced rather than repeated.
+> **Obstructive sleep apnoea and obesity hypoventilation are built in [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.5**, and **restless legs syndrome in [[D6_Seizures_and_Movement_Disorders]] 0.6** — both are cross-referenced rather than repeated.
 
 ---
 
@@ -78,7 +78,7 @@ population: mixed
 > [!tip] Delayed sleep-wake phase disorder — commonly misread as insomnia or laziness
 > **The internal clock is shifted LATER. The person cannot fall asleep until the early hours and cannot wake at a conventional time — but if allowed to sleep on their own schedule, sleep is NORMAL in quality and duration.**
 > **That last point is the discriminator from insomnia: on holidays, they sleep perfectly well — just at the wrong times.**
-> **Very common in ADOLESCENTS and young adults, in whom the biological phase delay of puberty collides with early school start times** — producing chronic sleep deprivation that is attributed to poor motivation, screen use or defiance. Cross-refer [[M7]].
+> **Very common in ADOLESCENTS and young adults, in whom the biological phase delay of puberty collides with early school start times** — producing chronic sleep deprivation that is attributed to poor motivation, screen use or defiance. Cross-refer [[M7_Adolescent_and_Behavioural_Health]].
 > **Treatment targets the clock, not sleep: BRIGHT LIGHT EXPOSURE IN THE MORNING (which advances the phase), AVOIDANCE OF BRIGHT LIGHT IN THE EVENING, and SMALL-DOSE MELATONIN TAKEN SEVERAL HOURS BEFORE THE DESIRED SLEEP TIME — the timing matters more than the dose, and melatonin taken at bedtime does little.**
 > **Hypnotics do not work and are the wrong treatment.** `UNVERIFIED — light and melatonin timing protocols.`
 > **ADVANCED sleep-wake phase disorder is the mirror image, seen in older adults** — sleepy in the early evening, waking very early.
@@ -115,7 +115,7 @@ population: mixed
 > **It is STRONGLY associated with the subsequent development of an ALPHA-SYNUCLEINOPATHY — Parkinson disease, dementia with Lewy bodies, or multiple system atrophy — often preceding the motor or cognitive features by YEARS to DECADES.**
 > **A large proportion of people with idiopathic RBD eventually convert.**
 > **Two implications:**
-> **1. Ask about dream enactment in anyone with parkinsonism or suspected Lewy body dementia** — it supports the diagnosis. Cross-refer [[D6]] 0.5 and [[D2]] 0.3.
+> **1. Ask about dream enactment in anyone with parkinsonism or suspected Lewy body dementia** — it supports the diagnosis. Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.5 and [[D2_Altered_Consciousness_and_Cognition]] 0.3.
 > **2. Conversely, a patient presenting with RBD needs a careful and honest conversation about prognostic significance — which is a genuinely difficult discussion and should be led by a specialist rather than delivered casually at the end of a consultation.**
 > **Management: bedroom SAFETY measures (move furniture, pad the floor, consider separate beds, remove sharp objects), plus melatonin or clonazepam.** `UNVERIFIED — agents and doses.`
 
@@ -123,7 +123,7 @@ population: mixed
 > **· NIGHTMARES versus NIGHT TERRORS in children — the classic exam distinction.**
 > **NIGHTMARES: REM, LATE in the night, the child WAKES fully, RECALLS the dream, and is CONSOLABLE.**
 > **NIGHT TERRORS: NREM, EARLY in the night, the child appears terrified and screams but is NOT awake, is INCONSOLABLE and unresponsive, and has NO RECALL in the morning.** **The parents are far more distressed than the child, and the reassurance that the child has no memory of it is the main therapeutic act.**
-> **· NOCTURNAL SEIZURES versus parasomnias — seizures are STEREOTYPED (identical each time), BRIEF, can occur at ANY time of night, may involve tongue biting or incontinence, and may have post-ictal confusion.** Parasomnias are variable and non-stereotyped. **Video EEG resolves genuinely unclear cases.** Cross-refer [[D6]] 0.1.
+> **· NOCTURNAL SEIZURES versus parasomnias — seizures are STEREOTYPED (identical each time), BRIEF, can occur at ANY time of night, may involve tongue biting or incontinence, and may have post-ictal confusion.** Parasomnias are variable and non-stereotyped. **Video EEG resolves genuinely unclear cases.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.1.
 > **· SLEEP PARALYSIS — REM atonia persisting into wakefulness: the person is awake and aware but unable to move, often with frightening hypnagogic hallucinations and a sense of presence or chest pressure.** **It is common, benign in isolation, and terrifying — and explaining the mechanism is genuinely relieving.** It is also part of the narcolepsy tetrad, so ask about the other features.
 
 ---
@@ -132,8 +132,8 @@ population: mixed
 
 > [!danger] Exclude the common causes before considering the rare ones
 > **In order of frequency: INSUFFICIENT SLEEP OPPORTUNITY · OBSTRUCTIVE SLEEP APNOEA · medication and substance effects · depression · shift work and circadian misalignment · hypothyroidism · and chronic medical illness.**
-> **Together these account for the overwhelming majority.** Cross-refer [[RESP-X]] 0.5.
-> **Quantify the sleepiness with the EPWORTH SLEEPINESS SCALE**, and distinguish SLEEPINESS (a tendency to fall asleep) from FATIGUE (tiredness without the tendency to fall asleep) — **they have different differentials, and depression, anaemia and chronic disease produce fatigue rather than true sleepiness.** Cross-refer [[B6]] 0.5.
+> **Together these account for the overwhelming majority.** Cross-refer [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.5.
+> **Quantify the sleepiness with the EPWORTH SLEEPINESS SCALE**, and distinguish SLEEPINESS (a tendency to fall asleep) from FATIGUE (tiredness without the tendency to fall asleep) — **they have different differentials, and depression, anaemia and chronic disease produce fatigue rather than true sleepiness.** Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.5.
 
 > [!warning] Narcolepsy — and the diagnostic delay is measured in years
 > **· TYPE 1 — excessive daytime sleepiness WITH CATAPLEXY**, associated with loss of hypocretin (orexin) neurons.
@@ -147,7 +147,7 @@ population: mixed
 > [!tip] The other hypersomnias, and the driving question
 > **· IDIOPATHIC HYPERSOMNIA — long, unrefreshing sleep with severe SLEEP INERTIA ("sleep drunkenness" — prolonged grogginess and confusion on waking), and unrefreshing naps, without cataplexy or sleep-onset REM.**
 > **· KLEINE-LEVIN SYNDROME — rare, episodic hypersomnia with cognitive and behavioural change, typically in adolescent males, with normal function between episodes.**
-> **· DRIVING: excessive daytime sleepiness of any cause has fitness-to-drive implications, and the requirements are stricter for commercial licences.** **You must advise the patient, document that you have done so, and explain their obligation to notify the licensing authority.** Cross-refer [[A10]] 0.6.
+> **· DRIVING: excessive daytime sleepiness of any cause has fitness-to-drive implications, and the requirements are stricter for commercial licences.** **You must advise the patient, document that you have done so, and explain their obligation to notify the licensing authority.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6.
 
 ---
 
@@ -164,18 +164,18 @@ population: mixed
 > **· Reduce light and noise at night, and increase LIGHT EXPOSURE during the DAY, which supports the circadian rhythm.**
 > **· Treat pain adequately, and address nocturia and urinary retention.**
 > **· Protected sleep time where the ward supports it.**
-> Cross-refer [[D2]] 0.2 and [[GER2]] 0.4.
+> Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2 and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.4.
 
 > [!warning] Older adults
 > **Age-related phase advance and lighter sleep are NORMAL** — see 0.1.
-> **Look for the treatable contributors: NOCTURIA · pain · restless legs (CHECK FERRITIN — cross-refer [[D6]] 0.6) · obstructive sleep apnoea · depression · medications (diuretics timed late, steroids, stimulating antidepressants, cholinesterase inhibitors) · and daytime napping and inactivity.**
-> **AVOID benzodiazepines and Z-drugs — the falls, fracture, cognitive and mortality risks in older people are substantial, and this is one of the highest-value deprescribing targets.** Cross-refer [[GER1]] 0.4.
+> **Look for the treatable contributors: NOCTURIA · pain · restless legs (CHECK FERRITIN — cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.6) · obstructive sleep apnoea · depression · medications (diuretics timed late, steroids, stimulating antidepressants, cholinesterase inhibitors) · and daytime napping and inactivity.**
+> **AVOID benzodiazepines and Z-drugs — the falls, fracture, cognitive and mortality risks in older people are substantial, and this is one of the highest-value deprescribing targets.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.4.
 > **CBT-I works in older adults** and should be offered rather than assumed inappropriate.
 
 > [!tip] Children and adolescents
 > **· Infants and toddlers — behavioural sleep problems centre on SLEEP ASSOCIATIONS (falling asleep only under conditions that cannot be reproduced at 2am) and bedtime resistance. Behavioural approaches are effective, and parental sleep deprivation is itself a health issue worth asking about.**
-> **· Screen for OBSTRUCTIVE SLEEP APNOEA — in children the usual cause is ADENOTONSILLAR HYPERTROPHY, and it presents with snoring, restless sleep, mouth breathing, and — characteristically — BEHAVIOURAL problems, hyperactivity and poor school performance RATHER than daytime sleepiness.** **A child being assessed for ADHD should be asked about snoring.** Cross-refer [[M2]] and [[RESP-X]] 0.5.
-> **· Adolescents — the biological phase delay of puberty against early school start times produces chronic sleep restriction, with consequences for mood, learning, and risk behaviour.** Cross-refer 0.3 and [[M7]].
+> **· Screen for OBSTRUCTIVE SLEEP APNOEA — in children the usual cause is ADENOTONSILLAR HYPERTROPHY, and it presents with snoring, restless sleep, mouth breathing, and — characteristically — BEHAVIOURAL problems, hyperactivity and poor school performance RATHER than daytime sleepiness.** **A child being assessed for ADHD should be asked about snoring.** Cross-refer [[M2_Fever_in_Children]] and [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.5.
+> **· Adolescents — the biological phase delay of puberty against early school start times produces chronic sleep restriction, with consequences for mood, learning, and risk behaviour.** Cross-refer 0.3 and [[M7_Adolescent_and_Behavioural_Health]].
 > **· Parasomnias are common and usually benign in childhood** — see 0.4.
 
 **Ix:** **A two-week SLEEP DIARY** (*why:* the single most informative investigation, revealing the pattern, the time in bed versus time asleep, and the weekend difference that recall does not; *what:* sleep opportunity, efficiency, timing). **Epworth Sleepiness Scale and STOP-BANG** (*why:* quantifies sleepiness and screens for obstructive sleep apnoea, which is the commonest treatable cause; *what:* scores). **Bed partner history** (*why:* snoring, apnoeas, limb movements and dream enactment cannot be self-reported; *what:* the observed behaviour). TFTs, FBC, **FERRITIN** (*why:* hypothyroidism causes sleepiness, and iron deficiency causes restless legs which is treatable; *what:* abnormal TSH, low ferritin). **Medication review** (*why:* both sedating and stimulating drugs, and timing of diuretics, are common and reversible contributors; *what:* culprit and its timing). **Polysomnography** (*why:* diagnoses sleep-disordered breathing, periodic limb movements and parasomnias; *what:* apnoea-hypopnoea index, sleep architecture, events). **Multiple sleep latency test** following polysomnography where narcolepsy is suspected (*why:* the diagnostic test, and it requires the preceding overnight study to be valid; *what:* short sleep latency, sleep-onset REM periods). **Video EEG** where nocturnal seizures are possible (*why:* distinguishes seizures from parasomnias; *what:* epileptiform correlate).
@@ -183,4 +183,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Obstructive sleep apnoea, obesity hypoventilation and CPAP → [[RESP-X]] 0.5 · Restless legs and ferritin → [[D6]] 0.6 · REM sleep behaviour disorder and parkinsonism → [[D6]] 0.5 and [[D2]] 0.3 · Nocturnal seizures and video EEG → [[D6]] 0.1 · Delirium prevention → [[D2]] 0.2 and [[GER2]] 0.4 · Fatigue versus sleepiness → [[B6]] 0.5 · Depression and anxiety → [[N4]] and [[N5]] · Benzodiazepine dependence and deprescribing → [[N2]] 0.4 and [[GER1]] 0.4 · Driving and fitness to drive → [[A10]] 0.6 · Paediatric sleep and adenotonsillar hypertrophy → [[M2]] · Adolescent health and school start times → [[M7]] · Shift work and occupational health → [[GER3]]
+> Obstructive sleep apnoea, obesity hypoventilation and CPAP → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.5 · Restless legs and ferritin → [[D6_Seizures_and_Movement_Disorders]] 0.6 · REM sleep behaviour disorder and parkinsonism → [[D6_Seizures_and_Movement_Disorders]] 0.5 and [[D2_Altered_Consciousness_and_Cognition]] 0.3 · Nocturnal seizures and video EEG → [[D6_Seizures_and_Movement_Disorders]] 0.1 · Delirium prevention → [[D2_Altered_Consciousness_and_Cognition]] 0.2 and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.4 · Fatigue versus sleepiness → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.5 · Depression and anxiety → [[N4_Mood_Disorders]] and [[N5_Anxiety__OCD_and_Trauma]] · Benzodiazepine dependence and deprescribing → [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.4 and [[GER1_Comprehensive_Geriatric_Assessment]] 0.4 · Driving and fitness to drive → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 · Paediatric sleep and adenotonsillar hypertrophy → [[M2_Fever_in_Children]] · Adolescent health and school start times → [[M7_Adolescent_and_Behavioural_Health]] · Shift work and occupational health → [[GER3_Preventive_and_Occupational_Health]]

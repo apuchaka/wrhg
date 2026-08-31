@@ -74,7 +74,7 @@ population: mixed
 > **DRUGS — the commonest identifiable cause and the most easily reversed: SPIRONOLACTONE · digoxin · cimetidine · antipsychotics (via prolactin) · antiretrovirals · anti-androgens and androgen deprivation therapy · finasteride · anabolic steroids · CANNABIS · and alcohol.**
 > **Systemic: chronic liver disease · hypogonadism (primary or secondary) · hyperthyroidism · chronic kidney disease · refeeding after starvation.**
 > **Tumours: hCG-secreting germ cell tumours (TESTICULAR — examine the testes) and adrenal or Leydig cell tumours.**
-> **Rapid onset, pain, a large size, or a young man should prompt a search for a hormone-secreting tumour** — check hCG, and examine the testes. Cross-refer [[I4]] 0.6 and [[H4]].
+> **Rapid onset, pain, a large size, or a young man should prompt a search for a hormone-secreting tumour** — check hCG, and examine the testes. Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6 and [[H4_Scrotum__Groin_and_Loin]].
 
 **Ix:** **Triple assessment** as per 0.1 (*why:* the standard, and concordance is what makes it safe; *what:* clinical, imaging and pathological findings). **Aspiration of a symptomatic cyst** (*why:* diagnostic and therapeutic, and the findings determine next steps; *what:* fluid character, residual mass). **In male gynaecomastia: LFT, UEC, TFTs, testosterone, LH, FSH, oestradiol, prolactin, and βhCG, with testicular examination and ultrasound if indicated** (*why:* identifies the hormonal or systemic cause and excludes a secreting tumour; *what:* the underlying cause). **Medication review** (*why:* drugs are the commonest reversible cause of gynaecomastia; *what:* culprit drug).
 
@@ -124,7 +124,7 @@ population: mixed
 > **· DUCT ECTASIA — older women, green, brown or creamy discharge from MULTIPLE ducts, often bilateral, sometimes with nipple retraction. Benign.**
 > **· INTRADUCTAL PAPILLOMA — the commonest cause of SINGLE-DUCT BLOODSTAINED discharge. Benign, but requires excision to exclude malignancy and because it may harbour atypia.**
 > **· CARCINOMA and DCIS — can present with bloodstained single-duct discharge.**
-> **· GALACTORRHOEA — bilateral milky discharge NOT related to lactation. This is an ENDOCRINE problem, not a breast problem: check a PREGNANCY TEST, PROLACTIN, TFTs, and the MEDICATION LIST (antipsychotics, metoclopramide, SSRIs, opioids).** Cross-refer [[I4]] 0.2.
+> **· GALACTORRHOEA — bilateral milky discharge NOT related to lactation. This is an ENDOCRINE problem, not a breast problem: check a PREGNANCY TEST, PROLACTIN, TFTs, and the MEDICATION LIST (antipsychotics, metoclopramide, SSRIs, opioids).** Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.2.
 > **· PERIDUCTAL MASTITIS — strongly associated with SMOKING**, with subareolar inflammation, discharge, and sometimes a mammary duct fistula.
 
 > [!danger] Paget disease of the nipple — biopsy persistent nipple eczema
@@ -160,13 +160,13 @@ population: mixed
 > **· Radiotherapy and chemotherapy** per protocol and multidisciplinary decision.
 
 > [!danger] The complications an intern actually encounters
-> **· NEUTROPENIC SEPSIS during chemotherapy — a medical emergency requiring antibiotics within a short defined window.** Cross-refer [[K1]] 0.5.
-> **· ANTHRACYCLINE AND TRASTUZUMAB CARDIOTOXICITY — left ventricular dysfunction, monitored with serial echocardiography.** **A breast cancer patient with new breathlessness needs the heart considered, not just the lungs.** Cross-refer [[CV-X]] 0.1.
-> **· TAMOXIFEN — increased VTE risk, and increased ENDOMETRIAL HYPERPLASIA AND CARCINOMA risk. Any abnormal vaginal bleeding in a woman on tamoxifen requires endometrial assessment.** Cross-refer [[O4]] 0.3. It also causes hot flushes and is associated with cataract.
-> **· AROMATASE INHIBITORS — accelerated BONE LOSS requiring bone density monitoring and often bisphosphonate therapy, plus prominent ARTHRALGIA which is a common reason for non-adherence** and should be asked about and managed rather than left to cause silent discontinuation. Cross-refer [[GER1]] 0.6.
-> **· LYMPHOEDEMA after axillary surgery or radiotherapy** — cross-refer [[B6]] 0.3. **Conventional practice avoids venepuncture, cannulation and blood pressure measurement in the affected arm, although the evidence for this is now less certain than the strength of the convention suggests.** **In an emergency, do not withhold necessary vascular access from a patient because of this.**
+> **· NEUTROPENIC SEPSIS during chemotherapy — a medical emergency requiring antibiotics within a short defined window.** Cross-refer [[K1_Fever_Workup]] 0.5.
+> **· ANTHRACYCLINE AND TRASTUZUMAB CARDIOTOXICITY — left ventricular dysfunction, monitored with serial echocardiography.** **A breast cancer patient with new breathlessness needs the heart considered, not just the lungs.** Cross-refer [[CV-X_Chronic_Heart_Failure]] 0.1.
+> **· TAMOXIFEN — increased VTE risk, and increased ENDOMETRIAL HYPERPLASIA AND CARCINOMA risk. Any abnormal vaginal bleeding in a woman on tamoxifen requires endometrial assessment.** Cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] 0.3. It also causes hot flushes and is associated with cataract.
+> **· AROMATASE INHIBITORS — accelerated BONE LOSS requiring bone density monitoring and often bisphosphonate therapy, plus prominent ARTHRALGIA which is a common reason for non-adherence** and should be asked about and managed rather than left to cause silent discontinuation. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.6.
+> **· LYMPHOEDEMA after axillary surgery or radiotherapy** — cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.3. **Conventional practice avoids venepuncture, cannulation and blood pressure measurement in the affected arm, although the evidence for this is now less certain than the strength of the convention suggests.** **In an emergency, do not withhold necessary vascular access from a patient because of this.**
 > **· FERTILITY — discuss and refer for fertility preservation BEFORE starting gonadotoxic treatment.** This is time-critical and is a well-documented gap, particularly for younger women who are focused on survival at the point of diagnosis.
-> **· Menopausal symptoms induced by treatment — and vaginal oestrogen can often be used, in discussion with the oncologist**, rather than leaving women with severe genitourinary symptoms untreated. Cross-refer [[O4]] 0.6.
+> **· Menopausal symptoms induced by treatment — and vaginal oestrogen can often be used, in discussion with the oncologist**, rather than leaving women with severe genitourinary symptoms untreated. Cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] 0.6.
 
 > [!warning] BreastScreen Australia — and the screening/diagnostic distinction
 > **BreastScreen Australia provides free screening mammography to asymptomatic women within a defined target age range, at a defined interval.** `UNVERIFIED — the target age range, the invited range, and the interval.`
@@ -177,7 +177,7 @@ population: mixed
 > **High-risk women (BRCA carriers, previous chest radiotherapy, strong family history) require a different, more intensive surveillance program including MRI**, arranged through a familial cancer or breast service rather than through population screening.
 
 > [!tip] Metastatic disease — where it goes
-> **BONE is the commonest site** — presenting with pain, pathological fracture, **HYPERCALCAEMIA** (cross-refer [[I3]] 0.2) and **METASTATIC SPINAL CORD COMPRESSION** (cross-refer [[L4]] 0.3).
+> **BONE is the commonest site** — presenting with pain, pathological fracture, **HYPERCALCAEMIA** (cross-refer [[I3_Calcium__Parathyroid_and_Bone]] 0.2) and **METASTATIC SPINAL CORD COMPRESSION** (cross-refer [[L4_Back_and_Neck_Pain]] 0.3).
 > **Also liver, lung and pleura, and BRAIN.**
 > **New back pain in a woman with a history of breast cancer is metastatic disease until proven otherwise**, and it precedes neurological signs by weeks — which is the window.
 
@@ -218,11 +218,11 @@ population: mixed
 > [!tip] Two practical supports and one common error
 > **· AUSTRALIAN BREASTFEEDING ASSOCIATION, lactation consultants (IBCLC), midwives and child health nurses** — refer early rather than after weeks of struggle.
 > **· MEDICATION IN BREASTFEEDING — most medicines are compatible with breastfeeding, and the reflex advice to "stop breastfeeding" or to withhold necessary treatment is usually wrong and causes real harm.** **Consult a specialist medicines-in-pregnancy-and-lactation information service rather than deciding from a product information leaflet, which is written defensively.** `UNVERIFIED — the relevant Australian services.`
-> **· Screen for postnatal depression at these contacts** — breastfeeding difficulty and postnatal mental health are closely linked in both directions. Cross-refer [[O3]].
+> **· Screen for postnatal depression at these contacts** — breastfeeding difficulty and postnatal mental health are closely linked in both directions. Cross-refer [[O3_Labour__Delivery_and_Postpartum]].
 
 **Ix:** **Observation of a breastfeed** (*why:* the diagnostic test for most lactation problems, and it cannot be done by history alone; *what:* attachment, positioning, transfer). **Ultrasound where an abscess is suspected** (*why:* confirms a drainable collection and guides aspiration; *what:* collection). Milk or swab culture where infection is not responding (*why:* directs antibiotics, including resistant organisms; *what:* organism). **Urgent imaging and BIOPSY for any inflammatory breast presentation not responding to antibiotics** (*why:* inflammatory breast cancer; *what:* malignancy). Infant weight and output assessment (*why:* the objective measure of milk transfer; *what:* weight gain, wet nappies).
 
 ---
 
 > [!note] Cross-references
-> Abnormal bleeding on tamoxifen, and menopause management → [[O4]] 0.3, 0.6 · Pelvic and vulval conditions → [[O5]] · Postnatal care and postnatal depression → [[O3]] · Contraception and hormonal considerations → [[O6]] 0.3 · Hyperprolactinaemia and galactorrhoea → [[I4]] 0.2 · Gynaecomastia, hypogonadism and testicular tumours → [[I4]] 0.6 and [[H4]] · Lymphoedema → [[B6]] 0.3 · Breast abscess and skin infection → [[K2]] 0.3 · Neutropenic sepsis → [[K1]] 0.5 · Cardiotoxicity of cancer therapy → [[CV-X]] 0.1 · Bone loss on aromatase inhibitors → [[GER1]] 0.6 · Hypercalcaemia of malignancy → [[I3]] 0.2 · Metastatic spinal cord compression → [[L4]] 0.3 · Breaking bad news → [[GER5]] · Preventive health and population screening → [[GER3]]
+> Abnormal bleeding on tamoxifen, and menopause management → [[O4_Abnormal_and_Menstrual_Bleeding]] 0.3, 0.6 · Pelvic and vulval conditions → [[O5_Pelvic_and_Vulval_Conditions]] · Postnatal care and postnatal depression → [[O3_Labour__Delivery_and_Postpartum]] · Contraception and hormonal considerations → [[O6_Sexual_and_Reproductive_Health]] 0.3 · Hyperprolactinaemia and galactorrhoea → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.2 · Gynaecomastia, hypogonadism and testicular tumours → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6 and [[H4_Scrotum__Groin_and_Loin]] · Lymphoedema → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.3 · Breast abscess and skin infection → [[K2_Skin_and_Soft_Tissue_Infection]] 0.3 · Neutropenic sepsis → [[K1_Fever_Workup]] 0.5 · Cardiotoxicity of cancer therapy → [[CV-X_Chronic_Heart_Failure]] 0.1 · Bone loss on aromatase inhibitors → [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 · Hypercalcaemia of malignancy → [[I3_Calcium__Parathyroid_and_Bone]] 0.2 · Metastatic spinal cord compression → [[L4_Back_and_Neck_Pain]] 0.3 · Breaking bad news → [[GER5_Communication_and_Consultation_Skills]] · Preventive health and population screening → [[GER3_Preventive_and_Occupational_Health]]

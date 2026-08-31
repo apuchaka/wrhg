@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Clinical signs, reasoning and management principles are reliable at intern level. **Diagnostic criteria and any dose carry an `UNVERIFIED` marker naming what to check.** Verify against DSM-5-TR or ICD-11 criteria and **eTG Psychotropic**.
 >
-> **Trauma and PTSD are built in [[N5]] 0.5**, **chronic widespread pain and central sensitisation in [[L3]] 0.5**, and **dissociative amnesia in the neurological differential in [[D2]] 0.5** — each is cross-referenced rather than repeated.
+> **Trauma and PTSD are built in [[N5_Anxiety__OCD_and_Trauma]] 0.5**, **chronic widespread pain and central sensitisation in [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5**, and **dissociative amnesia in the neurological differential in [[D2_Altered_Consciousness_and_Cognition]] 0.5** — each is cross-referenced rather than repeated.
 
 ---
 
@@ -30,7 +30,7 @@ population: mixed
 > [!tip] Dissociative (non-epileptic) seizures
 > **Features suggesting a dissociative seizure: prolonged duration (often many minutes) · EYES CLOSED with active resistance to opening (in epileptic seizures the eyes are usually open) · side-to-side head movement · asynchronous, non-stereotyped limb movements · pelvic thrusting · WAXING AND WANING intensity · preserved awareness or recall despite bilateral motor activity · absence of post-ictal confusion with rapid recovery · absence of significant injury or incontinence · and occurrence in the presence of others.**
 > **But: none of these is definitive individually, epileptic frontal lobe seizures can look bizarre, and the two coexist in a meaningful proportion of patients.**
-> **VIDEO EEG telemetry is the definitive investigation**, and the diagnosis should not be made confidently on a single observed event. Cross-refer [[D6]] 0.1.
+> **VIDEO EEG telemetry is the definitive investigation**, and the diagnosis should not be made confidently on a single observed event. Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.1.
 > **Do NOT give repeated benzodiazepines and escalate to intubation for a prolonged dissociative seizure** — recognising the pattern prevents iatrogenic harm, and patients have been admitted to intensive care unnecessarily.
 
 > [!danger] How you explain the diagnosis is the most important therapeutic act
@@ -74,7 +74,7 @@ population: mixed
 > **· Treat comorbid depression and anxiety, which are common and treatable.**
 > **· CBT has evidence.**
 > **· AVOID: "there's nothing wrong" · repeated referral to new specialists · opioids · and procedures, which carry real risk and rarely help.**
-> **There is substantial overlap with chronic pain and central sensitisation** — cross-refer [[L3]] 0.5.
+> **There is substantial overlap with chronic pain and central sensitisation** — cross-refer [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5.
 
 ---
 
@@ -89,7 +89,7 @@ population: mixed
 > [!warning] Dissociative amnesia, and the discriminator from organic amnesia
 > **Inability to recall important autobiographical information, usually of a traumatic or stressful nature, beyond ordinary forgetting.**
 > **The key discriminator: DISSOCIATIVE amnesia can involve LOSS OF PERSONAL IDENTITY — not knowing who one is. ORGANIC amnesia essentially always PRESERVES identity.**
-> A patient who cannot remember their own name after a psychologically traumatic event is far more likely dissociative; a patient with dense anterograde amnesia who knows exactly who they are is more likely organic. Cross-refer [[D2]] 0.5.
+> A patient who cannot remember their own name after a psychologically traumatic event is far more likely dissociative; a patient with dense anterograde amnesia who knows exactly who they are is more likely organic. Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.5.
 > **Exclude the organic causes first: temporal lobe seizures, transient global amnesia, head injury, hypoglycaemia, substances (ketamine, cannabis, alcohol blackout), and migraine.**
 
 > [!tip] Dissociation in the acute setting, and what helps
@@ -115,7 +115,7 @@ population: mixed
 
 > [!danger] Four cautions about the diagnosis
 > **1. DO NOT DIAGNOSE IN A CRISIS, or during an acute episode of another illness.** The diagnosis requires a longitudinal pattern, and behaviour during acute depression, psychosis, intoxication or overwhelming stress does not establish one.
-> **2. THE OVERLAP WITH COMPLEX PTSD IS SUBSTANTIAL.** **Much of what is labelled borderline personality disorder reflects the sequelae of prolonged developmental trauma — affect dysregulation, negative self-concept, and relationship difficulty are the defining features of both.** **Formulating it as trauma changes how the person is understood, how they are treated, and how they experience the label.** Cross-refer [[N5]] 0.5.
+> **2. THE OVERLAP WITH COMPLEX PTSD IS SUBSTANTIAL.** **Much of what is labelled borderline personality disorder reflects the sequelae of prolonged developmental trauma — affect dysregulation, negative self-concept, and relationship difficulty are the defining features of both.** **Formulating it as trauma changes how the person is understood, how they are treated, and how they experience the label.** Cross-refer [[N5_Anxiety__OCD_and_Trauma]] 0.5.
 > **3. THE LABEL IS HEAVILY STIGMATISED AND FREQUENTLY USED PEJORATIVELY.** **"She's just a personality disorder" is a documented driver of poor care, of dismissal, and of missed physical illness — and patients know it.** If you find yourself using the diagnosis to explain your irritation rather than the patient's presentation, that is the signal to stop.
 > **4. IT IS NEVER A REASON NOT TO TREAT SOMEONE.** Not for their distress, not for their self-harm injuries, and not for their physical symptoms.
 
@@ -143,7 +143,7 @@ population: mixed
 
 > [!danger] Diagnostic overshadowing — physical illness gets missed
 > **A patient with a BPD label who presents with physical symptoms is at high risk of having them attributed to their psychiatric diagnosis.**
-> **Assess the symptom on its merits, every time.** People with severe mental illness have more physical illness, not less, and they die younger. Cross-refer [[N3]] 0.2 and [[AU1]] 0.5.
+> **Assess the symptom on its merits, every time.** People with severe mental illness have more physical illness, not less, and they die younger. Cross-refer [[N3_Psychosis_and_Antipsychotics]] 0.2 and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.5.
 
 > [!tip] The prognosis is good with treatment — and saying so matters
 > **Structured psychotherapies work: DIALECTICAL BEHAVIOUR THERAPY, MENTALISATION-BASED TREATMENT, and SCHEMA THERAPY all have evidence.**
@@ -168,11 +168,11 @@ population: mixed
 > **Fabrication or induction of illness in a child (or other dependent person) by a carer — formerly Munchausen syndrome by proxy.**
 > **Warning features: a history that does not fit · symptoms observed only by the carer and never by staff · symptoms resolving when the carer is absent · repeated presentations to multiple services · unexplained failure to respond to treatment · a carer who is unusually knowledgeable, insistent on further investigation, or who appears to welcome invasive procedures · and inconsistencies between the reported and observed child.**
 > **This is a form of CHILD ABUSE with significant morbidity and mortality.**
-> **It is a MANDATORY REPORTING situation, it requires senior and paediatric involvement immediately, and it should never be managed alone or informally.** **Do not confront the carer.** Cross-refer [[GER4]] and [[M6]]. `UNVERIFIED — SA mandatory reporting requirements and pathway.`
+> **It is a MANDATORY REPORTING situation, it requires senior and paediatric involvement immediately, and it should never be managed alone or informally.** **Do not confront the carer.** Cross-refer [[GER4_Safeguarding_and_Forensic]] and [[M6_Paediatric_Respiratory_and_Neurology]]. `UNVERIFIED — SA mandatory reporting requirements and pathway.`
 
 **Ix:** **A careful examination for POSITIVE functional signs** (*why:* FND is diagnosed by demonstrating internal inconsistency, not by normal imaging; *what:* Hoover sign, entrainment, distractibility). **Video EEG telemetry where dissociative seizures are suspected** (*why:* the definitive test, and clinical features overlap substantially with epilepsy; *what:* absence of epileptiform correlate during a typical event). **Targeted investigation to exclude the organic conditions genuinely suggested by the presentation — then stop** (*why:* both over- and under-investigation cause harm; *what:* the specific alternative diagnosis). **Review of previous records and investigations before repeating them** (*why:* prevents duplication, identifies the pattern, and is frequently more informative than another test; *what:* the investigation history). Screening for depression, anxiety, PTSD and substance use (*why:* comorbid and treatable, and frequently the modifiable element; *what:* comorbidity).
 
 ---
 
 > [!note] Cross-references
-> Mental state examination and risk assessment → [[N1]] · Substance use → [[N2]] · Psychosis versus dissociation and quasi-psychotic phenomena → [[N3]] 0.3 · Depression and anxiety comorbidity → [[N4]] and [[N5]] · Trauma, complex PTSD and trauma-informed practice → [[N5]] 0.5 · Chronic pain, fibromyalgia and central sensitisation → [[L3]] 0.5 · Dissociative versus organic amnesia → [[D2]] 0.5 · Seizures and video EEG → [[D6]] 0.1 · Functional weakness in the stroke differential → [[D3]] 0.5 · Functional tremor → [[D6]] 0.4 · Non-cardiac chest pain → [[B1]] 0.5 · Child protection and mandatory reporting → [[GER4]] and [[M6]] · Diagnostic overshadowing → [[AU1]] 0.5 · Opioid stewardship → [[F0.4]] 0.9
+> Mental state examination and risk assessment → [[N1_Mental_State_Examination_and_Risk]] · Substance use → [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] · Psychosis versus dissociation and quasi-psychotic phenomena → [[N3_Psychosis_and_Antipsychotics]] 0.3 · Depression and anxiety comorbidity → [[N4_Mood_Disorders]] and [[N5_Anxiety__OCD_and_Trauma]] · Trauma, complex PTSD and trauma-informed practice → [[N5_Anxiety__OCD_and_Trauma]] 0.5 · Chronic pain, fibromyalgia and central sensitisation → [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5 · Dissociative versus organic amnesia → [[D2_Altered_Consciousness_and_Cognition]] 0.5 · Seizures and video EEG → [[D6_Seizures_and_Movement_Disorders]] 0.1 · Functional weakness in the stroke differential → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.5 · Functional tremor → [[D6_Seizures_and_Movement_Disorders]] 0.4 · Non-cardiac chest pain → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.5 · Child protection and mandatory reporting → [[GER4_Safeguarding_and_Forensic]] and [[M6_Paediatric_Respiratory_and_Neurology]] · Diagnostic overshadowing → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.5 · Opioid stewardship → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9

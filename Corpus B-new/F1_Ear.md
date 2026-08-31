@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Examination technique, discriminators and clinical reasoning are reliable at intern level. **Every dose, time window, antibiotic regimen and audiometric threshold carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG** and current ENT and Australian otitis media guidance.
 >
-> **Central causes of vertigo and the HINTS examination are built in the neurology block ([[D3]] 0.5)**, and **Ramsay Hunt syndrome in [[D5]]** — cross-referenced rather than repeated.
+> **Central causes of vertigo and the HINTS examination are built in the neurology block ([[D3_Stroke_and_Focal_Neurological_Deficit]] 0.5)**, and **Ramsay Hunt syndrome in [[D5_Dizziness__Vertigo_and_Gait]]** — cross-referenced rather than repeated.
 
 ---
 
@@ -43,7 +43,7 @@ population: mixed
 > **· FACE THEM, at their level, with your face in good light so they can lip-read. Do not talk while looking at the notes or the screen, and do not talk from behind or while wearing a mask if it can be avoided.**
 > **· SPEAK CLEARLY AND SLIGHTLY MORE SLOWLY — do NOT SHOUT, which distorts speech and looks aggressive.**
 > **· REDUCE BACKGROUND NOISE — turn off the television, close the door, move away from the nurses' station.**
-> **· CHECK THE HEARING AID IS IN, TURNED ON, AND HAS A WORKING BATTERY.** **Hearing aids left in the locker are a routine and preventable cause of "confusion" in hospitalised older people, and they contribute directly to delirium.** Cross-refer [[D2]] 0.2.
+> **· CHECK THE HEARING AID IS IN, TURNED ON, AND HAS A WORKING BATTERY.** **Hearing aids left in the locker are a routine and preventable cause of "confusion" in hospitalised older people, and they contribute directly to delirium.** Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2.
 > **· WRITE DOWN key information, and confirm understanding.**
 
 ---
@@ -55,14 +55,14 @@ population: mixed
 > **Because those nerves supply a large territory, PAIN REFERS TO THE EAR FROM ANYWHERE THEY INNERVATE — the teeth, temporomandibular joint, tonsil, tongue base, pharynx, LARYNX and HYPOPHARYNX, parotid, cervical spine and thyroid.**
 > **THE CONSEQUENCE THAT MATTERS: REFERRED OTALGIA CAN BE THE ONLY PRESENTING SYMPTOM OF A HEAD AND NECK CANCER — particularly of the tongue base, tonsil, hypopharynx or larynx, which have few early local symptoms.**
 > **AN ADULT WITH PERSISTENT UNILATERAL OTALGIA AND A NORMAL EAR EXAMINATION NEEDS THE UPPER AERODIGESTIVE TRACT VISUALISED — which in practice means an urgent ENT referral for nasendoscopy, not reassurance and analgesia.**
-> **The risk factors that raise the stakes: age over 50 · SMOKING · ALCOHOL · HPV exposure · and the associated features of DYSPHAGIA, ODYNOPHAGIA, HOARSENESS, weight loss, a NECK LUMP, or trismus.** Cross-refer [[F3]] and [[F4]].
+> **The risk factors that raise the stakes: age over 50 · SMOKING · ALCOHOL · HPV exposure · and the associated features of DYSPHAGIA, ODYNOPHAGIA, HOARSENESS, weight loss, a NECK LUMP, or trismus.** Cross-refer [[F3_Throat__Voice_and_Oral]] and [[F4_Neck_Lumps_and_Facial_Pain]].
 > **This is one of the highest-yield facts in ENT and it is regularly missed.**
 
 > [!tip] The primary causes
 > **· OTITIS EXTERNA and OTITIS MEDIA — see 0.3.**
 > **· MASTOIDITIS — post-auricular swelling, erythema and tenderness with the PINNA PUSHED FORWARD AND OUT.**
 > **· PERICHONDRITIS — infection of the pinna cartilage, characteristically SPARING THE LOBULE (which has no cartilage), often after piercing or trauma. It threatens the cartilage and requires prompt systemic antibiotics covering *Pseudomonas*.**
-> **· HERPES ZOSTER OTICUS / RAMSAY HUNT SYNDROME — severe ear pain with vesicles in the canal or on the concha, facial palsy, and often vertigo and hearing loss.** **It has a worse prognosis than Bell palsy and requires prompt antivirals and corticosteroids.** Cross-refer [[D5]].
+> **· HERPES ZOSTER OTICUS / RAMSAY HUNT SYNDROME — severe ear pain with vesicles in the canal or on the concha, facial palsy, and often vertigo and hearing loss.** **It has a worse prognosis than Bell palsy and requires prompt antivirals and corticosteroids.** Cross-refer [[D5_Dizziness__Vertigo_and_Gait]].
 > **· Trauma, foreign body, impacted wax, barotrauma, and — rarely — carcinoma of the canal.**
 > **The commonest REFERRED cause overall is DENTAL disease, followed by temporomandibular joint dysfunction** (pain on chewing, tenderness over the joint, clicking, bruxism).
 
@@ -91,17 +91,17 @@ population: mixed
 > [!warning] Acute otitis media — and when antibiotics are actually indicated
 > **Predominantly a childhood illness: ear pain, fever, irritability, with a BULGING, red, opaque drum and loss of the light reflex.** **Perforation relieves the pain and produces discharge.**
 > **MOST CASES RESOLVE WITHOUT ANTIBIOTICS, and adequate ANALGESIA is the main treatment.** **DELAYED or "back-pocket" prescribing — giving a script to be filled only if not improving after a defined period — is appropriate for many children and reduces antibiotic use without worsening outcomes.**
-> **ANTIBIOTICS ARE INDICATED FOR: young infants · systemically unwell children · bilateral disease in young children · perforation with discharge · immunocompromise · and — importantly in Australia — ABORIGINAL AND TORRES STRAIT ISLANDER CHILDREN, who have a substantially higher risk of persistent disease, perforation and chronic suppurative otitis media.** Cross-refer [[AU1]] 0.4. `UNVERIFIED — the age thresholds and the antibiotic regimens.`
+> **ANTIBIOTICS ARE INDICATED FOR: young infants · systemically unwell children · bilateral disease in young children · perforation with discharge · immunocompromise · and — importantly in Australia — ABORIGINAL AND TORRES STRAIT ISLANDER CHILDREN, who have a substantially higher risk of persistent disease, perforation and chronic suppurative otitis media.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4. `UNVERIFIED — the age thresholds and the antibiotic regimens.`
 > **COMPLICATIONS: perforation · MASTOIDITIS · FACIAL NERVE PALSY · labyrinthitis · and intracranial spread (meningitis, intracranial abscess, lateral sinus thrombosis).** **A child with otitis media who develops a facial palsy, severe headache, neck stiffness or post-auricular swelling needs urgent assessment.**
 
 > [!danger] Glue ear — and why it matters far beyond the ear
 > **OTITIS MEDIA WITH EFFUSION: fluid in the middle ear WITHOUT acute infection, causing a CONDUCTIVE hearing loss, with a dull, retracted or amber drum, sometimes with visible fluid levels or bubbles, and a FLAT (type B) tympanogram.**
 > **IT IS THE COMMONEST CAUSE OF HEARING LOSS IN CHILDREN.**
-> **THE CONSEQUENCES ARE DEVELOPMENTAL, NOT JUST AUDITORY: impaired SPEECH AND LANGUAGE development · behavioural problems and inattention (frequently mistaken for ADHD — cross-refer [[M7]] 0.6) · reduced educational attainment · and social difficulty.**
+> **THE CONSEQUENCES ARE DEVELOPMENTAL, NOT JUST AUDITORY: impaired SPEECH AND LANGUAGE development · behavioural problems and inattention (frequently mistaken for ADHD — cross-refer [[M7_Adolescent_and_Behavioural_Health]] 0.6) · reduced educational attainment · and social difficulty.**
 > **Most cases resolve spontaneously, so a period of WATCHFUL WAITING with hearing assessment is appropriate. Grommets (ventilation tubes) are considered for persistent bilateral effusion with significant hearing loss or developmental impact.**
 > **THE AUSTRALIAN DIMENSION: otitis media with effusion and chronic suppurative otitis media are markedly MORE PREVALENT, occur EARLIER, and PERSIST LONGER in Aboriginal and Torres Strait Islander children — with rates in some remote communities among the highest reported anywhere.**
 > **The resulting conductive hearing loss during the critical period for language acquisition contributes measurably to educational disadvantage, and — through impaired classroom participation and literacy — to later disadvantage including over-representation in the justice system.**
-> **This makes detecting and treating middle ear disease in Aboriginal children one of the highest-leverage interventions in Australian paediatrics, and it is the reason ear examination is part of the routine child health check.** Cross-refer [[AU1]] 0.4 and [[M4]] 0.5.
+> **This makes detecting and treating middle ear disease in Aboriginal children one of the highest-leverage interventions in Australian paediatrics, and it is the reason ear examination is part of the routine child health check.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4 and [[M4_Growth_and_Development]] 0.5.
 
 > [!danger] Cholesteatoma — look at the attic
 > **Keratinising squamous epithelium trapped within the middle ear or mastoid, which expands and ERODES BONE.**
@@ -123,11 +123,11 @@ population: mixed
 
 > [!warning] Sensorineural causes
 > **· PRESBYCUSIS — the commonest. BILATERAL, symmetrical, HIGH-FREQUENCY loss.** **The characteristic symptom is not "I can't hear" but "I CAN'T FOLLOW CONVERSATION IN A NOISY ROOM" — because high-frequency consonants carry most of the intelligibility of speech.** Asking about that specifically detects it earlier than asking about hearing generally.
-> **· NOISE-INDUCED — occupational and recreational, producing a characteristic notch at around 4 kHz.** **A significant occupational health issue in Australia (mining, construction, agriculture, defence, music), it is entirely PREVENTABLE, and hearing protection and surveillance are legal obligations in noisy workplaces.** Cross-refer [[RESP-X]] 0.2 and [[GER3]].
+> **· NOISE-INDUCED — occupational and recreational, producing a characteristic notch at around 4 kHz.** **A significant occupational health issue in Australia (mining, construction, agriculture, defence, music), it is entirely PREVENTABLE, and hearing protection and surveillance are legal obligations in noisy workplaces.** Cross-refer [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.2 and [[GER3_Preventive_and_Occupational_Health]].
 > **· OTOTOXICITY — AMINOGLYCOSIDES (irreversible, and the ototoxicity is frequently forgotten alongside the nephrotoxicity) · CISPLATIN · loop diuretics · high-dose salicylates (reversible) · and quinine.**
 > **· MÉNIÈRE DISEASE — see 0.6.**
 > **· VESTIBULAR SCHWANNOMA (acoustic neuroma) — see below.**
-> **· INFECTION — congenital CYTOMEGALOVIRUS (the commonest infectious cause of congenital sensorineural hearing loss, and frequently unrecognised), congenital rubella, mumps, measles, and BACTERIAL MENINGITIS (which causes hearing loss in a significant minority of survivors — hence the requirement for audiological assessment after meningitis).** Cross-refer [[D1]] 0.5.
+> **· INFECTION — congenital CYTOMEGALOVIRUS (the commonest infectious cause of congenital sensorineural hearing loss, and frequently unrecognised), congenital rubella, mumps, measles, and BACTERIAL MENINGITIS (which causes hearing loss in a significant minority of survivors — hence the requirement for audiological assessment after meningitis).** Cross-refer [[D1_Headache_and_Meningism]] 0.5.
 > **· Trauma, autoimmune inner ear disease, and genetic causes.**
 
 > [!danger] Asymmetry is the red flag
@@ -138,7 +138,7 @@ population: mixed
 > [!warning] Hearing loss is a modifiable risk factor for dementia
 > **Untreated hearing loss in mid and later life is one of the largest identified MODIFIABLE risk factors for dementia, and it is independently associated with social isolation, depression, falls and reduced quality of life.**
 > **Hearing aids remain substantially UNDER-USED — because of cost, stigma, the perception that hearing loss is a normal and unimportant part of ageing, and clinicians not asking.**
-> **THE PRACTICAL POINT: treating hearing loss is not a quality-of-life extra; it is a cognitive and social intervention.** **Ask about hearing in older patients, examine for wax, refer for audiology, and encourage hearing aid use rather than accepting "I manage".** Cross-refer [[D2]] 0.3 and [[GER1]] 0.5.
+> **THE PRACTICAL POINT: treating hearing loss is not a quality-of-life extra; it is a cognitive and social intervention.** **Ask about hearing in older patients, examine for wax, refer for audiology, and encourage hearing aid use rather than accepting "I manage".** Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.3 and [[GER1_Comprehensive_Geriatric_Assessment]] 0.5.
 
 ---
 
@@ -158,7 +158,7 @@ population: mixed
 > [!warning] Tinnitus — and the two red flags
 > **Most tinnitus is subjective, bilateral, and associated with hearing loss — reflecting central compensation for reduced auditory input rather than a disease in itself.**
 > **THE TWO PATTERNS THAT REQUIRE INVESTIGATION:**
-> **1. PULSATILE TINNITUS — a rhythmic whooshing synchronous with the pulse.** **This is VASCULAR until proven otherwise: dural arteriovenous fistula · carotid stenosis or DISSECTION · glomus tumour (paraganglioma, which may be visible as a red mass behind the drum) · IDIOPATHIC INTRACRANIAL HYPERTENSION (check the fundi for papilloedema and ask about headache and visual obscurations) · and a high-riding jugular bulb.** **It warrants imaging.** Cross-refer [[D1]] 0.3.
+> **1. PULSATILE TINNITUS — a rhythmic whooshing synchronous with the pulse.** **This is VASCULAR until proven otherwise: dural arteriovenous fistula · carotid stenosis or DISSECTION · glomus tumour (paraganglioma, which may be visible as a red mass behind the drum) · IDIOPATHIC INTRACRANIAL HYPERTENSION (check the fundi for papilloedema and ask about headache and visual obscurations) · and a high-riding jugular bulb.** **It warrants imaging.** Cross-refer [[D1_Headache_and_Meningism]] 0.3.
 > **2. UNILATERAL tinnitus with ASYMMETRIC hearing loss → MRI for vestibular schwannoma.**
 > **Also ask about OTOTOXIC drugs, noise exposure, and whether it is objective (audible to the examiner — palatal myoclonus, vascular bruit).**
 
@@ -176,7 +176,7 @@ population: mixed
 ## 0.6 Vertigo, Trauma and Foreign Bodies
 
 > [!tip] The peripheral (ear) causes of vertigo
-> **The critical central-versus-peripheral distinction and the HINTS examination are in [[D3]] 0.5. The ear causes:**
+> **The critical central-versus-peripheral distinction and the HINTS examination are in [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.5. The ear causes:**
 > **· BENIGN PAROXYSMAL POSITIONAL VERTIGO — brief (seconds) vertigo triggered by head POSITION change, diagnosed with the DIX-HALLPIKE manoeuvre and treated with the EPLEY repositioning manoeuvre, which is highly effective and can be done at the bedside.** **No hearing loss.**
 > **· VESTIBULAR NEURITIS — acute, severe, continuous vertigo lasting days, with nausea and vomiting, WITHOUT hearing loss.**
 > **· LABYRINTHITIS — the same picture WITH hearing loss.** **That single difference distinguishes them.**
@@ -184,7 +184,7 @@ population: mixed
 > **· Cholesteatoma with a labyrinthine fistula, and perilymph fistula (vertigo on straining, sneezing or loud noise).**
 
 > [!warning] Ear trauma
-> **· TEMPORAL BONE FRACTURE — suspect with haemotympanum, blood in the canal, CSF OTORRHOEA, BATTLE SIGN (post-auricular bruising, appearing after some delay), facial nerve palsy and hearing loss.** **A facial palsy that is IMMEDIATE after trauma suggests nerve transection and warrants urgent ENT involvement; a DELAYED palsy is more likely oedema and has a better prognosis.** Cross-refer [[L8]] 0.2 and [[F0.5]] 0.7.
+> **· TEMPORAL BONE FRACTURE — suspect with haemotympanum, blood in the canal, CSF OTORRHOEA, BATTLE SIGN (post-auricular bruising, appearing after some delay), facial nerve palsy and hearing loss.** **A facial palsy that is IMMEDIATE after trauma suggests nerve transection and warrants urgent ENT involvement; a DELAYED palsy is more likely oedema and has a better prognosis.** Cross-refer [[L8_Facial__Head_and_Torso_Trauma]] 0.2 and [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7.
 > **· TRAUMATIC PERFORATION — from a slap, blast, or an instrument in the ear.** **MOST HEAL SPONTANEOUSLY. Keep the ear COMPLETELY DRY, do not use drops unless there is infection, do NOT syringe, and review.**
 > **· BAROTRAUMA — flying or diving with Eustachian dysfunction.**
 > **· AURICULAR HAEMATOMA — a collection between cartilage and perichondrium after blunt injury (classically in rugby, wrestling and boxing).** **It must be DRAINED PROMPTLY, because pressure devascularises the cartilage and produces a permanent "CAULIFLOWER EAR". It also needs a pressure dressing and review, because it re-accumulates.**
@@ -193,7 +193,7 @@ population: mixed
 > [!danger] Foreign bodies — and the one that cannot wait
 > **· ONE CAREFUL ATTEMPT, with the right instrument, good light and a cooperative patient.** **REPEATED ATTEMPTS CAUSE CANAL OEDEMA, BLEEDING, TRAUMA AND PUSH THE OBJECT DEEPER — converting a simple problem into one requiring a general anaesthetic.** **Know when to stop and refer.**
 > **· INSECTS — KILL THEM FIRST with mineral oil or lignocaine before attempting removal.** A live insect moving in the canal is distressing and painful, and it will not be removed cooperatively.
-> **· A BUTTON BATTERY IN THE EAR IS AN EMERGENCY.** **It causes liquefactive necrosis of the canal, drum and middle ear structures within HOURS, with permanent damage.** **It requires IMMEDIATE removal — the same urgency as a button battery in the oesophagus.** Cross-refer [[F3]].
+> **· A BUTTON BATTERY IN THE EAR IS AN EMERGENCY.** **It causes liquefactive necrosis of the canal, drum and middle ear structures within HOURS, with permanent damage.** **It requires IMMEDIATE removal — the same urgency as a button battery in the oesophagus.** Cross-refer [[F3_Throat__Voice_and_Oral]].
 > **· Organic material (seeds, food) SWELLS with moisture — so do not irrigate it.**
 > **· Children may present late, with unilateral foul discharge as the only sign.**
 
@@ -208,4 +208,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Vertigo, HINTS and central causes → [[D3]] 0.5 · Facial nerve palsy and Ramsay Hunt → [[D5]] · Meningitis and hearing sequelae → [[D1]] 0.5 · Idiopathic intracranial hypertension → [[D1]] 0.3 · Nose, sinus and epistaxis → [[F2]] · Sore throat, hoarseness and head and neck cancer → [[F3]] · Neck lumps and facial pain → [[F4]] · Temporal bone fracture and head injury → [[L8]] 0.2 and [[F0.5]] 0.7 · Delirium and sensory impairment → [[D2]] 0.2 · Dementia and modifiable risk factors → [[D2]] 0.3 and [[GER1]] 0.5 · Otitis media and hearing loss in Aboriginal and Torres Strait Islander children → [[AU1]] 0.4 · Developmental surveillance and hearing → [[M4]] 0.5 · Behavioural presentations of hearing loss → [[M7]] 0.6 · Occupational noise exposure → [[RESP-X]] 0.2 and [[GER3]] · Button battery ingestion → [[F3]]
+> Vertigo, HINTS and central causes → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.5 · Facial nerve palsy and Ramsay Hunt → [[D5_Dizziness__Vertigo_and_Gait]] · Meningitis and hearing sequelae → [[D1_Headache_and_Meningism]] 0.5 · Idiopathic intracranial hypertension → [[D1_Headache_and_Meningism]] 0.3 · Nose, sinus and epistaxis → [[F2_Nose_and_Sinus]] · Sore throat, hoarseness and head and neck cancer → [[F3_Throat__Voice_and_Oral]] · Neck lumps and facial pain → [[F4_Neck_Lumps_and_Facial_Pain]] · Temporal bone fracture and head injury → [[L8_Facial__Head_and_Torso_Trauma]] 0.2 and [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7 · Delirium and sensory impairment → [[D2_Altered_Consciousness_and_Cognition]] 0.2 · Dementia and modifiable risk factors → [[D2_Altered_Consciousness_and_Cognition]] 0.3 and [[GER1_Comprehensive_Geriatric_Assessment]] 0.5 · Otitis media and hearing loss in Aboriginal and Torres Strait Islander children → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4 · Developmental surveillance and hearing → [[M4_Growth_and_Development]] 0.5 · Behavioural presentations of hearing loss → [[M7_Adolescent_and_Behavioural_Health]] 0.6 · Occupational noise exposure → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.2 and [[GER3_Preventive_and_Occupational_Health]] · Button battery ingestion → [[F3_Throat__Voice_and_Oral]]

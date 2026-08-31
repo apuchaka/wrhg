@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from guidelines. Clinical reasoning and discriminators are reliable at intern level. **Every regimen, size threshold, risk index and criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **All antimicrobial regimens are omitted** — obtain from **eTG Antibiotic** and the **Australian STI Management Guidelines**. Ovarian cyst management thresholds and risk-of-malignancy indices should come from **RANZCOG**. **Transvaginal mesh is subject to regulatory restriction in Australia** — verify current status with the TGA.
 >
-> **Early pregnancy problems including ectopic pregnancy are built in [[O1]]**, **menstrual disorders and endometriosis in [[O4]]**, and **STIs in [[O6]] 0.2** — each is cross-referenced rather than repeated.
+> **Early pregnancy problems including ectopic pregnancy are built in [[O1_Early_Pregnancy]]**, **menstrual disorders and endometriosis in [[O4_Abnormal_and_Menstrual_Bleeding]]**, and **STIs in [[O6_Sexual_and_Reproductive_Health]] 0.2** — each is cross-referenced rather than repeated.
 
 ---
 
@@ -18,11 +18,11 @@ population: mixed
 > [!danger] Pregnancy test first — ectopic pregnancy until proven otherwise
 > **Any woman of reproductive age with acute pelvic or lower abdominal pain has an ectopic pregnancy until a negative pregnancy test says otherwise.**
 > **A ruptured ectopic is a preventable death**, and it presents in ways that are easily attributed elsewhere: shoulder tip pain, diarrhoea, dizziness, or collapse without abdominal pain being prominent.
-> **Do not rely on the reported last menstrual period** — bleeding in ectopic pregnancy is frequently mistaken for a period. **Do not rely on contraception** — no method is perfect, and **an IUD in situ INCREASES the proportion of pregnancies that are ectopic if conception occurs.** Cross-refer [[O1]].
+> **Do not rely on the reported last menstrual period** — bleeding in ectopic pregnancy is frequently mistaken for a period. **Do not rely on contraception** — no method is perfect, and **an IUD in situ INCREASES the proportion of pregnancies that are ectopic if conception occurs.** Cross-refer [[O1_Early_Pregnancy]].
 
 > [!tip] The differential, by system
 > **GYNAECOLOGICAL: ectopic pregnancy · miscarriage · OVARIAN TORSION · ruptured or haemorrhagic ovarian cyst · pelvic inflammatory disease and tubo-ovarian abscess · endometriosis · degenerating or torted fibroid · ovarian hyperstimulation syndrome.**
-> **GASTROINTESTINAL: appendicitis (the classic mimic — cross-refer [[C1]] 0.3) · diverticulitis · inflammatory bowel disease · constipation · irritable bowel syndrome.**
+> **GASTROINTESTINAL: appendicitis (the classic mimic — cross-refer [[C1_Acute_Abdomen]] 0.3) · diverticulitis · inflammatory bowel disease · constipation · irritable bowel syndrome.**
 > **URINARY: urinary tract infection · pyelonephritis · renal or ureteric colic · urinary retention.**
 > **OTHER: abdominal wall pain (a positive CARNETT sign — tenderness that persists or worsens on tensing the abdominal wall, indicating a wall rather than a visceral source) · musculoskeletal · referred spinal pain.**
 
@@ -49,13 +49,13 @@ Examination: observations, abdominal examination, **and — where appropriate an
 > **The risk of tubal damage rises with each episode and with delay to treatment.**
 
 > [!tip] Two associated presentations worth recognising
-> **· FITZ-HUGH-CURTIS SYNDROME — perihepatitis producing RIGHT UPPER QUADRANT pain in a woman with PID**, from inflammatory adhesions between the liver capsule and the anterior abdominal wall. **It is mistaken for cholecystitis**, and the pelvic examination and sexual history are what make the diagnosis. Cross-refer [[C1]] 0.3.
+> **· FITZ-HUGH-CURTIS SYNDROME — perihepatitis producing RIGHT UPPER QUADRANT pain in a woman with PID**, from inflammatory adhesions between the liver capsule and the anterior abdominal wall. **It is mistaken for cholecystitis**, and the pelvic examination and sexual history are what make the diagnosis. Cross-refer [[C1_Acute_Abdomen]] 0.3.
 > **· TUBO-OVARIAN ABSCESS — a palpable or sonographic adnexal mass with systemic illness.** **Requires admission, intravenous antibiotics, and often drainage** — it does not resolve with oral therapy, and **rupture causes peritonitis and sepsis.**
 
 > [!warning] Management points
 > **· Empirical antibiotics covering chlamydia, gonorrhoea AND anaerobes.** `UNVERIFIED — regimens from eTG Antibiotic and ASHM.`
 > **· An IUD can generally be LEFT IN SITU while treatment begins, with review at 48–72 hours** and removal considered if there is no improvement. Removing it reflexively risks pregnancy without clear benefit. `UNVERIFIED — current advice.`
-> **· PARTNER NOTIFICATION AND TREATMENT is essential** — untreated partners cause reinfection, and this is where treatment most often fails. Cross-refer [[O6]] 0.1.
+> **· PARTNER NOTIFICATION AND TREATMENT is essential** — untreated partners cause reinfection, and this is where treatment most often fails. Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.1.
 > **· Advise abstinence until both partners have completed treatment.**
 > **· Admission criteria: pregnancy, severe illness, tubo-ovarian abscess, failure of oral therapy, inability to tolerate oral therapy, and diagnostic uncertainty requiring surgical exclusion.**
 > **· Review at 48–72 hours** — failure to improve should prompt reconsideration of the diagnosis and imaging for an abscess.
@@ -85,7 +85,7 @@ Complete the course, treat partners, and drain an abscess if present.
 > [!tip] Functional and benign cysts
 > **· FOLLICULAR and CORPUS LUTEUM cysts — physiological, common, and usually resolve spontaneously over a couple of cycles.**
 > **· HAEMORRHAGIC cysts — acute pain, sometimes with haemoperitoneum and significant blood loss; usually managed conservatively unless haemodynamically significant.**
-> **· ENDOMETRIOMA** — cross-refer [[O4]] 0.5.
+> **· ENDOMETRIOMA** — cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] 0.5.
 > **· Dermoid (mature cystic teratoma), cystadenoma, and fibroma.**
 > **Management depends on MENOPAUSAL STATUS, SIZE and SONOGRAPHIC MORPHOLOGY** — simple unilocular cysts in premenopausal women are usually observed; complex, solid, septated or vascular features, and any cyst in a postmenopausal woman, warrant further assessment. `UNVERIFIED — the size and morphology thresholds and follow-up intervals.`
 
@@ -135,23 +135,23 @@ Surveillance of cysts managed conservatively. Genetic counselling and cascade te
 **D:** **Pelvic pain persisting for six months or more**, non-cyclical or cyclical, sufficient to cause functional impairment.
 
 > [!tip] Several contributors usually coexist — which is why single-target treatment fails
-> **· Endometriosis and adenomyosis** — cross-refer [[O4]] 0.5.
+> **· Endometriosis and adenomyosis** — cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] 0.5.
 > **· Adhesions** — from previous surgery or infection.
 > **· PELVIC FLOOR MYOFASCIAL PAIN — overactive, tender pelvic floor musculature.** **Extremely common, readily identified by palpating the pelvic floor on vaginal examination, and highly treatable with pelvic floor physiotherapy — and it is under-diagnosed because the pelvic floor is not examined.**
-> **· Irritable bowel syndrome** — cross-refer [[C5]] 0.3.
+> **· Irritable bowel syndrome** — cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.3.
 > **· Bladder pain syndrome / interstitial cystitis** — pain related to bladder filling, relieved by voiding, with urgency and frequency and sterile urine.
 > **· Nerve entrapment** — pudendal, ilioinguinal or iliohypogastric, particularly after Pfannenstiel incisions or hernia repair.
 > **· Musculoskeletal** — sacroiliac, hip and abdominal wall.
-> **· CENTRAL SENSITISATION** — cross-refer [[L3]] 0.5. Longstanding pelvic pain frequently develops a nociplastic component, which explains why removing the original peripheral cause may not resolve it.
+> **· CENTRAL SENSITISATION** — cross-refer [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5. Longstanding pelvic pain frequently develops a nociplastic component, which explains why removing the original peripheral cause may not resolve it.
 
 > [!danger] Ask about sexual violence, coercion and trauma
 > **Chronic pelvic pain has a strong association with a history of sexual and physical violence.**
 > **Ask privately, sensitively, and always with any accompanying person out of the room.**
-> **And conduct examinations with explicit, unhurried consent, with the ability to stop at any point** — an examination that reproduces trauma causes harm and ends the therapeutic relationship. Cross-refer [[GER4]] and [[O6]] 0.5.
+> **And conduct examinations with explicit, unhurried consent, with the ability to stop at any point** — an examination that reproduces trauma causes harm and ends the therapeutic relationship. Cross-refer [[GER4_Safeguarding_and_Forensic]] and [[O6_Sexual_and_Reproductive_Health]] 0.5.
 
 > [!warning] What harms these patients
 > **· Repeated laparoscopy** — each operation adds adhesions and rarely adds information after the first.
-> **· Escalating opioids** — ineffective for nociplastic pain and causing hyperalgesia and dependence. Cross-refer [[F0.4]] 0.9.
+> **· Escalating opioids** — ineffective for nociplastic pain and causing hyperalgesia and dependence. Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9.
 > **· Serial specialist referrals without coordination**, each investigating one component.
 > **What helps: a single coordinating clinician, a multidisciplinary approach including PELVIC FLOOR PHYSIOTHERAPY and psychology, hormonal suppression where there is a cyclical component, neuropathic agents, and an explicit explanation of the pain mechanism.**
 
@@ -184,7 +184,7 @@ Surveillance of cysts managed conservatively. Genetic counselling and cascade te
 > [!tip] The commoner vulvovaginal conditions
 > **· CANDIDIASIS** — itch with thick white discharge, normal vaginal pH. **Recurrent candidiasis warrants a glucose check and consideration of an alternative diagnosis** — much "recurrent thrush" is dermatitis, lichen sclerosus or vulvodynia.
 > **· BACTERIAL VAGINOSIS** — thin grey malodorous discharge, raised pH, "clue cells", and a positive whiff test. **Not sexually transmitted, but associated with sexual activity, and relevant in pregnancy.**
-> **· TRICHOMONAS** — frothy discharge, irritation, raised pH; sexually transmitted. Cross-refer [[O6]] 0.2.
+> **· TRICHOMONAS** — frothy discharge, irritation, raised pH; sexually transmitted. Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.2.
 > **· CONTACT AND IRRITANT DERMATITIS** — **soaps, shower gels, wipes, panty liners, fragranced products, and OVER-WASHING.** **Ask what they are putting on it and how often they wash** — the treatment is frequently to stop doing something.
 > **· LICHEN PLANUS** — erosive, painful rather than itchy, with a characteristic violaceous border and Wickham striae, and it may involve the vagina and mouth, causing scarring.
 > **· VULVODYNIA** — vulval pain without an identifiable cause, provoked (on touch or intercourse) or unprovoked. **A positive diagnosis requiring multimodal management including pelvic floor physiotherapy, topical agents and neuromodulators.**
@@ -220,17 +220,17 @@ Surveillance of cysts managed conservatively. Genetic counselling and cascade te
 > **Surgical options (mid-urethral sling, colposuspension, bulking agents) come after** an adequate trial. **Note the mesh caveat above applies to some sling products.**
 
 > [!tip] The other incontinence types
-> The full classification is in **[[GER2]] 0.1.** The female-specific points:
-> **· URGE incontinence / overactive bladder** — bladder training and fluid modification first, then pharmacotherapy, **with attention to anticholinergic burden** — cross-refer [[GER1]] 0.4.
+> The full classification is in **[[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.1.** The female-specific points:
+> **· URGE incontinence / overactive bladder** — bladder training and fluid modification first, then pharmacotherapy, **with attention to anticholinergic burden** — cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.4.
 > **· MIXED** — very common; treat the predominant component first.
 > **· OVERFLOW** — **bladder scan.** Consider prolapse causing outlet obstruction.
 > **· FISTULA** — continuous leakage without an urge component. **Obstetric fistula is rare in Australia but occurs after obstructed labour, and vesicovaginal fistula follows pelvic surgery or radiotherapy.** **Continuous leakage is a fistula until proven otherwise.**
-> **· FUNCTIONAL** — cross-refer [[GER2]] 0.1.
+> **· FUNCTIONAL** — cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.1.
 
 > [!warning] Obstetric anal sphincter injury and faecal incontinence
 > **Third and fourth degree perineal tears cause anal sphincter injury, and the resulting faecal incontinence and urgency may present YEARS later, sometimes after the menopause when compensation fails.**
 > **Women rarely volunteer it — ask directly about flatus and faecal control in any woman with a history of instrumental or difficult vaginal delivery.**
-> **Pelvic floor physiotherapy, and referral to a colorectal or urogynaecology service, are effective and under-used.** Cross-refer [[C5]] 0.6 and [[O3]].
+> **Pelvic floor physiotherapy, and referral to a colorectal or urogynaecology service, are effective and under-used.** Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.6 and [[O3_Labour__Delivery_and_Postpartum]].
 
 **Ix:** **Examination including a POP-Q or descriptive assessment, and a cough stress test** (*why:* demonstrates the prolapse and demonstrable stress leakage; *what:* compartment and degree, leakage). **Bladder diary over several days** (*why:* the single most informative investigation in incontinence — establishes volumes, frequency, nocturia and the relationship to intake; *what:* the frequency-volume pattern). **Post-void residual bladder scan** (*why:* distinguishes overflow and identifies incomplete emptying from prolapse; *what:* residual volume). Urinalysis and culture (*why:* infection mimics and exacerbates urgency; *what:* infection). **Assessment of pelvic floor contraction, ideally by a physiotherapist** (*why:* determines whether training will work and whether the woman can contract correctly; *what:* strength and coordination). Urodynamics (*why:* reserved for complex, mixed or refractory cases and before surgery; *what:* detrusor and urethral function).
 
@@ -246,4 +246,4 @@ Conservative management first — **supervised pelvic floor physiotherapy, pessa
 ---
 
 > [!note] Cross-references
-> Early pregnancy problems and ectopic pregnancy → [[O1]] · Menstrual disorders, endometriosis and menopause → [[O4]] · STIs, PID organisms and contraception → [[O6]] · Breast assessment → [[O7]] · Postnatal perineal injury → [[O3]] · Acute abdomen and appendicitis → [[C1]] 0.3 · Irritable bowel syndrome → [[C5]] 0.3 · Faecal incontinence and pelvic floor → [[C5]] 0.6 · Continence, catheters and functional incontinence → [[GER2]] 0.1 · Anticholinergic burden → [[GER1]] 0.4 · Chronic pain and central sensitisation → [[L3]] 0.5 · Opioid stewardship → [[F0.4]] 0.9 · Sexual violence and safeguarding → [[GER4]] · Vulval dermatoses in the dermatology context → [[G5]] · Lynch syndrome and family cancer history → [[C5]] 0.5
+> Early pregnancy problems and ectopic pregnancy → [[O1_Early_Pregnancy]] · Menstrual disorders, endometriosis and menopause → [[O4_Abnormal_and_Menstrual_Bleeding]] · STIs, PID organisms and contraception → [[O6_Sexual_and_Reproductive_Health]] · Breast assessment → [[O7_Breast_Disease]] · Postnatal perineal injury → [[O3_Labour__Delivery_and_Postpartum]] · Acute abdomen and appendicitis → [[C1_Acute_Abdomen]] 0.3 · Irritable bowel syndrome → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.3 · Faecal incontinence and pelvic floor → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.6 · Continence, catheters and functional incontinence → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.1 · Anticholinergic burden → [[GER1_Comprehensive_Geriatric_Assessment]] 0.4 · Chronic pain and central sensitisation → [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5 · Opioid stewardship → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9 · Sexual violence and safeguarding → [[GER4_Safeguarding_and_Forensic]] · Vulval dermatoses in the dermatology context → [[G5_Lumps__Ulcers_and_Nails]] · Lynch syndrome and family cancer history → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5

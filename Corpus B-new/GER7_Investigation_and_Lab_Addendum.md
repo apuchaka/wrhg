@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from source. Interpretive principles and mechanism are reliable at intern level. **Every reference range, cut-off, threshold and timing carries an `UNVERIFIED` marker** — reference ranges are ASSAY- AND LABORATORY-SPECIFIC and must come from the report in front of you, not from memory.
 >
 > **SCOPE:** this is a **CROSSWALK ADDENDUM** covering the investigations named in the original coverage report that did not fit a clinical cluster — **RBC folate · rheumatoid factor · lupus investigation · troponins · fetal scalp blood sampling** — plus the cross-cutting principles of test interpretation and the pre-analytical errors that generate spurious results.
-> **Diagnostic test statistics are built in [[PH1]] 0.3** and **the decision to order in [[EBM1]] 0.1** — cross-referenced rather than repeated.
+> **Diagnostic test statistics are built in [[PH1_Population_Health_and_Research_Literacy]] 0.3** and **the decision to order in [[EBM1_Evidence_and_Clinical_Process]] 0.1** — cross-referenced rather than repeated.
 
 ---
 
@@ -20,14 +20,14 @@ population: mixed
 > **THEREFORE ROUGHLY 1 IN 20 HEALTHY PEOPLE HAS AN "ABNORMAL" RESULT FOR ANY GIVEN TEST, BY DEFINITION.**
 > **Order a panel of twenty tests on a well person and the probability of at least one abnormal result approaches certainty.**
 > **THIS IS THE MATHEMATICAL CASE AGAINST SHOTGUN TESTING** — each unnecessary test adds a near-independent chance of a false alarm, and each false alarm generates repeat testing, imaging, referral, anxiety and occasionally an invasive procedure.
-> **THE QUESTION BEFORE ORDERING: what is the pre-test probability, and what will I DO differently with a high result, a low result and a normal one?** **If the answer is "nothing", do not order it.** Cross-refer [[EBM1]] 0.1 and [[PH1]] 0.3.
+> **THE QUESTION BEFORE ORDERING: what is the pre-test probability, and what will I DO differently with a high result, a low result and a normal one?** **If the answer is "nothing", do not order it.** Cross-refer [[EBM1_Evidence_and_Clinical_Process]] 0.1 and [[PH1_Population_Health_and_Research_Literacy]] 0.3.
 
 > [!warning] Four things that make a number uninterpretable in isolation
 > **1. THE RANGE DEPENDS ON THE POPULATION AND THE ASSAY.** **Ranges differ by AGE, SEX, PREGNANCY, and sometimes ancestry — and CRITICALLY BETWEEN LABORATORIES AND ASSAYS.** **A troponin, a TSH or a free light chain result from one laboratory is not directly comparable with one from another.** **When comparing serial results, check they came from the same assay.**
 > **2. THE TREND BEATS THE SINGLE VALUE.** A creatinine of 110 means nothing without the baseline; a stable troponin means something different from a rising one.
 > **3. PHYSIOLOGICAL STATE ALTERS THE NUMBER** — pregnancy lowers creatinine and urea and raises D-dimer; acute illness suppresses TSH and raises ferritin; posture and tourniquet time alter calcium and potassium.
 > **4. AN ABNORMAL RESULT IN THE ABSENCE OF A CLINICAL QUESTION IS USUALLY NOISE.**
-> **AND: SOMEONE MUST OWN THE RESULT.** **A test ordered and never looked at is worse than no test — the abnormality exists in the record, nobody acted, and the medicolegal and clinical consequences fall on the system that generated it.** **Pending results at discharge need a NAMED person responsible.** Cross-refer [[EBM1]] 0.5.
+> **AND: SOMEONE MUST OWN THE RESULT.** **A test ordered and never looked at is worse than no test — the abnormality exists in the record, nobody acted, and the medicolegal and clinical consequences fall on the system that generated it.** **Pending results at discharge need a NAMED person responsible.** Cross-refer [[EBM1_Evidence_and_Clinical_Process]] 0.5.
 
 ---
 
@@ -47,11 +47,11 @@ population: mixed
 > **This is why a low folate result must never be interpreted in isolation.**
 > **AND THE RULE THAT FOLLOWS: NEVER GIVE FOLATE ALONE TO A PATIENT WHO MAY BE B12 DEFICIENT.**
 > **Folate corrects the anaemia and the macrocytosis while the NEUROLOGICAL damage of B12 deficiency — subacute combined degeneration — progresses unchecked, and it may be precipitated or accelerated.** **The haematological improvement provides false reassurance while the cord degenerates.**
-> **CHECK BOTH. If treatment is needed before the B12 result returns, GIVE B12 AS WELL.** Cross-refer [[J1]] 0.3 and [[D4]] 0.2.
+> **CHECK BOTH. If treatment is needed before the B12 result returns, GIVE B12 AS WELL.** Cross-refer [[J1_Cytopenias_and_Marrow_Failure]] 0.3 and [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.2.
 
 > [!warning] The other haematinics, briefly
-> **· FERRITIN is an ACUTE PHASE REACTANT — falsely normal or raised in inflammation, infection, malignancy, liver disease and chronic kidney disease.** **A "normal" ferritin does not exclude iron deficiency in an inflamed patient, which describes most inpatients.** **Interpret it with a CRP, and use TRANSFERRIN SATURATION, which is less affected.** Cross-refer [[J1]] 0.2.
-> **· SERUM B12 is an imperfect assay.** **Where the level is borderline and the suspicion is real, METHYLMALONIC ACID and HOMOCYSTEINE are more sensitive — both rise in B12 deficiency, and homocysteine alone rises in folate deficiency.** **And in FUNCTIONAL B12 deficiency from NITROUS OXIDE use, the serum B12 may be entirely NORMAL while the patient has subacute combined degeneration.** Cross-refer [[N2]] 0.4.
+> **· FERRITIN is an ACUTE PHASE REACTANT — falsely normal or raised in inflammation, infection, malignancy, liver disease and chronic kidney disease.** **A "normal" ferritin does not exclude iron deficiency in an inflamed patient, which describes most inpatients.** **Interpret it with a CRP, and use TRANSFERRIN SATURATION, which is less affected.** Cross-refer [[J1_Cytopenias_and_Marrow_Failure]] 0.2.
+> **· SERUM B12 is an imperfect assay.** **Where the level is borderline and the suspicion is real, METHYLMALONIC ACID and HOMOCYSTEINE are more sensitive — both rise in B12 deficiency, and homocysteine alone rises in folate deficiency.** **And in FUNCTIONAL B12 deficiency from NITROUS OXIDE use, the serum B12 may be entirely NORMAL while the patient has subacute combined degeneration.** Cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.4.
 
 ---
 
@@ -60,7 +60,7 @@ population: mixed
 > [!danger] Autoantibodies are not screening tests
 > **THE GOVERNING PRINCIPLE: autoantibody tests have POOR POSITIVE PREDICTIVE VALUE in unselected populations, because the conditions are uncommon and the tests are not specific.**
 > **Ordering an "autoimmune screen" on a patient with non-specific fatigue and aches produces a positive result often enough to generate referral, anxiety, further testing and sometimes a wrong label — in a patient who does not have connective tissue disease.**
-> **ORDER THEM TO ANSWER A SPECIFIC CLINICAL QUESTION RAISED BY THE HISTORY AND EXAMINATION, not to explain symptoms you cannot otherwise explain.** Cross-refer [[L2]] 0.6.
+> **ORDER THEM TO ANSWER A SPECIFIC CLINICAL QUESTION RAISED BY THE HISTORY AND EXAMINATION, not to explain symptoms you cannot otherwise explain.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.6.
 
 > [!warning] Rheumatoid factor — what it actually is, and why it is a poor test
 > **RHEUMATOID FACTOR IS AN ANTIBODY DIRECTED AGAINST THE Fc PORTION OF IgG — an antibody against antibody. It is not specific to rheumatoid arthritis and never was.**
@@ -68,7 +68,7 @@ population: mixed
 > **TWO CONSEQUENCES:**
 > **1. A POSITIVE RF DOES NOT DIAGNOSE RHEUMATOID ARTHRITIS.** **In a patient with joint pain and a positive RF, the differential remains wide — and a positive RF with fever and a murmur should make you think of endocarditis, not rheumatology.**
 > **2. A NEGATIVE RF DOES NOT EXCLUDE IT.** **SERONEGATIVE RHEUMATOID ARTHRITIS is common, and a substantial proportion of patients with genuine erosive RA are RF-negative.** **Treating a negative RF as reassurance delays diagnosis in a disease where the window for preventing erosion is measured in months.**
-> **ANTI-CCP (anti-cyclic citrullinated peptide) IS THE BETTER TEST: far MORE SPECIFIC for rheumatoid arthritis, frequently positive EARLY (sometimes before symptoms), and PROGNOSTIC — anti-CCP positivity predicts more erosive, aggressive disease.** **If you are asking the RA question, ask for anti-CCP alongside RF.** Cross-refer [[L2]] 0.2, 0.6.
+> **ANTI-CCP (anti-cyclic citrullinated peptide) IS THE BETTER TEST: far MORE SPECIFIC for rheumatoid arthritis, frequently positive EARLY (sometimes before symptoms), and PROGNOSTIC — anti-CCP positivity predicts more erosive, aggressive disease.** **If you are asking the RA question, ask for anti-CCP alongside RF.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.2, 0.6.
 
 > [!danger] Lupus investigation — the sequence, and what each test does
 > **THE SEQUENCE MATTERS, and ordering everything at once wastes money and generates confusion.**
@@ -83,8 +83,8 @@ population: mixed
 > **STEP 3 — DISEASE ACTIVITY AND ORGAN INVOLVEMENT:**
 > **· COMPLEMENT C3 AND C4 FALL in active lupus, because immune complexes CONSUME complement.** **This is the opposite of the acute phase behaviour clinicians expect, and a falling complement with a rising anti-dsDNA indicates a flare.**
 > **· ESR RISES in active lupus while the CRP OFTEN STAYS NORMAL** — so **a HIGH CRP in a lupus patient should prompt a search for INFECTION rather than being attributed to the lupus.** **That discrepancy is genuinely useful in an immunosuppressed patient where the distinction between flare and infection is the whole clinical question.**
-> **· AND CHECK THE URINE. EVERY TIME.** **LUPUS NEPHRITIS IS SILENT, it determines the prognosis, and it is detected by a dipstick and a urine protein-creatinine ratio.** Cross-refer [[L2]] 0.4 and [[H1]] 0.3.
-> **ANTIPHOSPHOLIPID ANTIBODIES — lupus anticoagulant, anticardiolipin and anti-beta-2-glycoprotein I — REQUIRE PERSISTENT POSITIVITY ON TWO OCCASIONS AT LEAST 12 WEEKS APART, because transient positives are common with infection.** **And note the paradox: the lupus anticoagulant PROLONGS the APTT in vitro while causing THROMBOSIS in vivo.** Cross-refer [[J3]] 0.1, 0.6.
+> **· AND CHECK THE URINE. EVERY TIME.** **LUPUS NEPHRITIS IS SILENT, it determines the prognosis, and it is detected by a dipstick and a urine protein-creatinine ratio.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4 and [[H1_Haematuria_and_Proteinuria]] 0.3.
+> **ANTIPHOSPHOLIPID ANTIBODIES — lupus anticoagulant, anticardiolipin and anti-beta-2-glycoprotein I — REQUIRE PERSISTENT POSITIVITY ON TWO OCCASIONS AT LEAST 12 WEEKS APART, because transient positives are common with infection.** **And note the paradox: the lupus anticoagulant PROLONGS the APTT in vitro while causing THROMBOSIS in vivo.** Cross-refer [[J3_Bleeding_and_Thrombosis]] 0.1, 0.6.
 
 ---
 
@@ -98,7 +98,7 @@ population: mixed
 > **· TYPE 2 MI — ischaemia from SUPPLY-DEMAND MISMATCH without plaque rupture: severe ANAEMIA, SEPSIS, sustained TACHYARRHYTHMIA, hypotension, hypoxia, severe hypertension, coronary spasm.** **The treatment is the underlying cause, not the cath lab.**
 > **· NON-ISCHAEMIC MYOCARDIAL INJURY — MYOCARDITIS · PULMONARY EMBOLISM (right ventricular strain) · heart failure · SEPSIS · renal failure · cardiac contusion · arrhythmia · takotsubo · STROKE AND SUBARACHNOID HAEMORRHAGE · extreme exertion · and cardiotoxic chemotherapy.**
 > **THE CLINICAL CONSEQUENCE: A RAISED TROPONIN IN A SEPTIC, TACHYCARDIC 85-YEAR-OLD IS USUALLY TYPE 2 OR NON-ISCHAEMIC INJURY.**
-> **Treating that patient as an acute coronary syndrome — dual antiplatelets plus anticoagulation — can cause serious bleeding while the actual problem goes untreated.** **The troponin is telling you the heart is under strain, not that a coronary artery has occluded.** Cross-refer [[B1]] 0.2.
+> **Treating that patient as an acute coronary syndrome — dual antiplatelets plus anticoagulation — can cause serious bleeding while the actual problem goes untreated.** **The troponin is telling you the heart is under strain, not that a coronary artery has occluded.** Cross-refer [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.2.
 
 > [!warning] The delta, and the chronically raised troponin
 > **THE CHANGE BETWEEN SERIAL SAMPLES — the "DELTA" — IS WHAT DISTINGUISHES ACUTE INJURY FROM CHRONIC ELEVATION.**
@@ -112,16 +112,16 @@ population: mixed
 > [!tip] The other cardiac and vascular biomarkers, and their traps
 > **· BNP / NT-proBNP — most useful for its NEGATIVE predictive value: a low level makes heart failure unlikely and is a good rule-out in undifferentiated breathlessness.**
 > **RAISED by: age, atrial fibrillation, renal impairment, pulmonary embolism, sepsis, right heart strain and valvular disease — so a raised level is not specific.**
-> **AND — THE COUNTERINTUITIVE ONE — LEVELS ARE LOWER IN OBESITY.** **So a "normal" BNP in an obese breathless patient does NOT exclude heart failure with the same confidence.** Cross-refer [[CV-X]] 0.2.
-> **· D-DIMER — only interpretable at LOW or INTERMEDIATE pre-test probability, where a negative result rules out venous thromboembolism.** **Raised by infection, malignancy, PREGNANCY, surgery, trauma, inflammation and increasing age — hence age-adjusted thresholds.** **At high probability it is useless in both directions.** Cross-refer [[J3]] 0.4.
-> **· CK — raised in rhabdomyolysis, myositis, after seizures, after exertion, after intramuscular injection, and in statin-associated myopathy.** Cross-refer [[A7]] 0.6 and [[L3]] 0.2.
+> **AND — THE COUNTERINTUITIVE ONE — LEVELS ARE LOWER IN OBESITY.** **So a "normal" BNP in an obese breathless patient does NOT exclude heart failure with the same confidence.** Cross-refer [[CV-X_Chronic_Heart_Failure]] 0.2.
+> **· D-DIMER — only interpretable at LOW or INTERMEDIATE pre-test probability, where a negative result rules out venous thromboembolism.** **Raised by infection, malignancy, PREGNANCY, surgery, trauma, inflammation and increasing age — hence age-adjusted thresholds.** **At high probability it is useless in both directions.** Cross-refer [[J3_Bleeding_and_Thrombosis]] 0.4.
+> **· CK — raised in rhabdomyolysis, myositis, after seizures, after exertion, after intramuscular injection, and in statin-associated myopathy.** Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 and [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.2.
 
 ---
 
 ## 0.5 Fetal Scalp Blood Sampling and Intrapartum Assessment
 
 > [!tip] Why it exists — CTG has poor specificity
-> **Cardiotocography is SENSITIVE for fetal hypoxia but POORLY SPECIFIC: most abnormal traces occur in babies who are not compromised.** **Acting on the CTG alone therefore drives caesarean and instrumental delivery rates up without a corresponding improvement in neonatal outcome.** Cross-refer [[O2]] 0.5 and [[O3]] 0.1.
+> **Cardiotocography is SENSITIVE for fetal hypoxia but POORLY SPECIFIC: most abnormal traces occur in babies who are not compromised.** **Acting on the CTG alone therefore drives caesarean and instrumental delivery rates up without a corresponding improvement in neonatal outcome.** Cross-refer [[O2_Later_Pregnancy_and_Fetal]] 0.5 and [[O3_Labour__Delivery_and_Postpartum]] 0.1.
 > **FETAL BLOOD SAMPLING provides a DIRECT measurement of fetal acid-base status, and its purpose is to REDUCE UNNECESSARY OPERATIVE DELIVERY by identifying which abnormal traces reflect genuine hypoxia.**
 > **It measures pH and/or LACTATE.** **LACTATE requires a much SMALLER sample volume and has a considerably higher rate of successful sampling, and it is increasingly the preferred measurand for that practical reason.** `UNVERIFIED — the normal, borderline and abnormal thresholds for both pH and lactate.`
 
@@ -141,7 +141,7 @@ population: mixed
 > **PAIRED UMBILICAL ARTERIAL AND VENOUS samples taken at birth, from a doubly clamped segment of cord.**
 > **THE ARTERIAL sample reflects the FETAL condition; the VENOUS sample reflects the PLACENTAL and maternal supply.** **Taking both allows verification that the samples are genuinely arterial and venous (they should differ), which is what makes the result defensible.**
 > **THEY MATTER FOR THREE REASONS: they OBJECTIVELY DOCUMENT the condition at birth · they guide NEONATAL management, including eligibility for therapeutic hypothermia after suspected hypoxic-ischaemic encephalopathy · and they are of considerable MEDICOLEGAL importance, because a normal cord gas is powerful evidence against intrapartum hypoxia in a child who later has cerebral palsy.**
-> **Take them in any delivery where there has been concern — the sample cannot be obtained retrospectively.** Cross-refer [[M1]] and [[M3]].
+> **Take them in any delivery where there has been concern — the sample cannot be obtained retrospectively.** Cross-refer [[M1_The_Seriously_Unwell_Child]] and [[M3_Neonatal_Problems]].
 
 ---
 
@@ -156,10 +156,10 @@ population: mixed
 > **A haemolysed sample reporting a high potassium in a well patient with a normal ECG is almost always artefact — REPEAT IT before treating.** **But do not dismiss a high potassium in a patient who is unwell, oliguric or on relevant drugs without an ECG and a repeat.**
 > **Causes: a small needle, prolonged tourniquet, fist clenching, forcing blood through a needle into the tube, vigorous shaking, and delayed or cold transport.**
 > **· PSEUDOHYPERKALAEMIA also occurs with very high PLATELET or WHITE CELL counts (potassium released during clotting in the tube) — send a plasma sample if suspected.**
-> **· PSEUDOTHROMBOCYTOPENIA — EDTA-induced platelet clumping. The film shows clumps; repeat in citrate.** **Check this before investigating or transfusing an unexpected isolated low platelet count.** Cross-refer [[J1]] 0.6.
+> **· PSEUDOTHROMBOCYTOPENIA — EDTA-induced platelet clumping. The film shows clumps; repeat in citrate.** **Check this before investigating or transfusing an unexpected isolated low platelet count.** Cross-refer [[J1_Cytopenias_and_Marrow_Failure]] 0.6.
 > **· EDTA CONTAMINATION from filling tubes in the wrong order — produces a markedly HIGH POTASSIUM with a very LOW CALCIUM, a combination that should immediately suggest artefact rather than disease.**
 > **· SAMPLING FROM A DRIP ARM — dilution, plus spuriously high glucose, potassium or sodium depending on the infusion. Take from the other arm.**
-> **· CALCIUM must be CORRECTED FOR ALBUMIN, or measured as ionised calcium — an uncorrected total calcium in a hypoalbuminaemic inpatient is misleading in both directions.** Cross-refer [[I3]] 0.1.
+> **· CALCIUM must be CORRECTED FOR ALBUMIN, or measured as ionised calcium — an uncorrected total calcium in a hypoalbuminaemic inpatient is misleading in both directions.** Cross-refer [[I3_Calcium__Parathyroid_and_Bone]] 0.1.
 
 > [!warning] Timing and handling — the samples that must be taken at the right moment
 > **· DIGOXIN — at least several hours after the dose; earlier sampling reports a distribution phase level and looks falsely toxic.**
@@ -171,16 +171,16 @@ population: mixed
 > **· AMMONIA — must go ON ICE and to the laboratory IMMEDIATELY, or it rises spuriously.**
 > **· BLOOD GASES — analysed promptly; delay alters pO₂, pCO₂ and lactate.**
 > **· LACTATE — a tourniquet and a clenched fist raise it.**
-> **· BLOOD CULTURES — BEFORE antibiotics, adequate volume, and from separate sites.** **BUT NEVER DELAY ANTIBIOTICS IN SEPSIS TO OBTAIN THEM** — the antibiotic saves the life and the culture informs the next step. Cross-refer [[F0.3]] 0.7.
+> **· BLOOD CULTURES — BEFORE antibiotics, adequate volume, and from separate sites.** **BUT NEVER DELAY ANTIBIOTICS IN SEPSIS TO OBTAIN THEM** — the antibiotic saves the life and the culture informs the next step. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.7.
 > `UNVERIFIED — all sampling intervals.`
 
 > [!danger] Labelling — the error with the worst consequence
 > **WRONG-BLOOD-IN-TUBE is the pre-analytical error with the most catastrophic potential, because it causes ABO-INCOMPATIBLE TRANSFUSION.**
 > **The controls exist because the error happens: LABEL AT THE BEDSIDE, from the patient's identification band, immediately after taking the sample — never in advance and never at the desk.** **Positively identify the patient by asking them to state their name and date of birth where they are able.**
-> **This is the most tedious rule in medicine and it prevents a preventable death.** Cross-refer [[A9]] 0.2.
+> **This is the most tedious rule in medicine and it prevents a preventable death.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.2.
 > **AND FINALLY — POINT-OF-CARE TESTING has real limitations: capillary glucose is unreliable at extremes and in poor perfusion, capillary blood gases approximate arterial values imperfectly, and point-of-care haemoglobin can mislead in acute haemorrhage.** **Confirm a result that will drive a major decision.**
 
 ---
 
 > [!note] Cross-references
-> Diagnostic test statistics, predictive values and prevalence → [[PH1]] 0.3 · The decision to order and result ownership → [[EBM1]] 0.1, 0.5 · Anaemia, ferritin, B12 and the blood film → [[J1]] 0.1–0.3 · Subacute combined degeneration → [[D4]] 0.2 · Nitrous oxide and functional B12 deficiency → [[N2]] 0.4 · Autoantibody interpretation and vasculitis serology → [[L2]] 0.5–0.6 · Rheumatoid arthritis and anti-CCP → [[L2]] 0.2 · Lupus nephritis and urinalysis → [[L2]] 0.4 and [[H1]] 0.3 · Antiphospholipid antibodies and the lupus anticoagulant → [[J3]] 0.1, 0.6 · Chest pain and troponin interpretation → [[B1]] 0.2 · BNP and heart failure → [[CV-X]] 0.2 · D-dimer and VTE probability → [[J3]] 0.4 · CK and rhabdomyolysis → [[A7]] 0.6 · Calcium correction → [[I3]] 0.1 · Pseudothrombocytopenia → [[J1]] 0.6 · Transfusion and patient identification → [[A9]] 0.2 · Blood cultures and sepsis timing → [[F0.3]] 0.7 · CTG interpretation → [[O2]] 0.5 · Neonatal resuscitation and HIE → [[M1]], [[M3]]
+> Diagnostic test statistics, predictive values and prevalence → [[PH1_Population_Health_and_Research_Literacy]] 0.3 · The decision to order and result ownership → [[EBM1_Evidence_and_Clinical_Process]] 0.1, 0.5 · Anaemia, ferritin, B12 and the blood film → [[J1_Cytopenias_and_Marrow_Failure]] 0.1–0.3 · Subacute combined degeneration → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.2 · Nitrous oxide and functional B12 deficiency → [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.4 · Autoantibody interpretation and vasculitis serology → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5–0.6 · Rheumatoid arthritis and anti-CCP → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.2 · Lupus nephritis and urinalysis → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4 and [[H1_Haematuria_and_Proteinuria]] 0.3 · Antiphospholipid antibodies and the lupus anticoagulant → [[J3_Bleeding_and_Thrombosis]] 0.1, 0.6 · Chest pain and troponin interpretation → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.2 · BNP and heart failure → [[CV-X_Chronic_Heart_Failure]] 0.2 · D-dimer and VTE probability → [[J3_Bleeding_and_Thrombosis]] 0.4 · CK and rhabdomyolysis → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Calcium correction → [[I3_Calcium__Parathyroid_and_Bone]] 0.1 · Pseudothrombocytopenia → [[J1_Cytopenias_and_Marrow_Failure]] 0.6 · Transfusion and patient identification → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.2 · Blood cultures and sepsis timing → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.7 · CTG interpretation → [[O2_Later_Pregnancy_and_Fetal]] 0.5 · Neonatal resuscitation and HIE → [[M1_The_Seriously_Unwell_Child]], [[M3_Neonatal_Problems]]

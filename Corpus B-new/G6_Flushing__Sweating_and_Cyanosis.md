@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Mechanism, discriminators and clinical reasoning are reliable at intern level. **Every dose, threshold and regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG** and the **Australian Medicines Handbook**.
 >
-> **Phaeochromocytoma is built in [[I4]] 0.5**, **menopausal vasomotor symptoms in [[O4]] 0.6**, **hyperthermia in [[A6]] 0.2**, and **carbon monoxide poisoning in [[A5]]** — cross-referenced rather than repeated.
+> **Phaeochromocytoma is built in [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.5**, **menopausal vasomotor symptoms in [[O4_Abnormal_and_Menstrual_Bleeding]] 0.6**, **hyperthermia in [[A6_Thermal_and_Environmental_Injury]] 0.2**, and **carbon monoxide poisoning in [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]]** — cross-referenced rather than repeated.
 
 ---
 
@@ -18,7 +18,7 @@ population: mixed
 > **FLUSHING is TRANSIENT erythema caused by vasodilation, typically of the face, neck and upper chest — the areas with the greatest density of superficial vessels and the least sympathetic vasoconstrictor tone.**
 > **Distinguish it from:**
 > **· BLUSHING — emotionally triggered, physiological, brief.**
-> **· FIXED ERYTHEMA — persistent redness that does not come and go: rosacea, chronic photodamage, lupus, dermatomyositis, seborrhoeic dermatitis.** Cross-refer [[G4]] 0.3.
+> **· FIXED ERYTHEMA — persistent redness that does not come and go: rosacea, chronic photodamage, lupus, dermatomyositis, seborrhoeic dermatitis.** Cross-refer [[G4_Chronic_Rash__Pruritus_and_Pigment]] 0.3.
 > **· Erythema from an inflammatory dermatosis.**
 > **Rosacea confuses this because it combines FIXED background erythema WITH episodic flushing.**
 
@@ -62,13 +62,13 @@ population: mixed
 > **Massive mediator release causing profound HYPOTENSION (or occasionally hypertension), severe bronchospasm, flushing and arrhythmia.**
 > **PRECIPITATED BY: ANAESTHESIA AND SURGERY · tumour manipulation or BIOPSY · radiological CONTRAST · and stress.**
 > **THE PRACTICAL CONSEQUENCE: a patient with known or suspected carcinoid syndrome requires OCTREOTIDE COVER before anaesthesia or an invasive procedure**, and the anaesthetist must be told. **It is a preventable perioperative catastrophe.**
-> **Treatment is octreotide, fluids and supportive care — and note that conventional catecholamine vasopressors may worsen it by stimulating further mediator release.** Cross-refer [[AN1]] 0.7.
+> **Treatment is octreotide, fluids and supportive care — and note that conventional catecholamine vasopressors may worsen it by stimulating further mediator release.** Cross-refer [[AN1_Perioperative_Care]] 0.7.
 
 > [!warning] The other secretory causes
-> **· PHAEOCHROMOCYTOMA — episodic HEADACHE, PALPITATIONS and SWEATING with hypertension.** **The discriminator is that it more characteristically causes PALLOR than flushing, from intense alpha-mediated vasoconstriction — though flushing occurs after the episode.** Plasma or urinary metanephrines. Cross-refer [[I4]] 0.5 and [[B2]] 0.4.
-> **· MEDULLARY THYROID CARCINOMA — flushing and diarrhoea, with a raised CALCITONIN. Associated with MEN2, so ask about a family history and about phaeochromocytoma and hyperparathyroidism.** Cross-refer [[I1]] 0.5.
+> **· PHAEOCHROMOCYTOMA — episodic HEADACHE, PALPITATIONS and SWEATING with hypertension.** **The discriminator is that it more characteristically causes PALLOR than flushing, from intense alpha-mediated vasoconstriction — though flushing occurs after the episode.** Plasma or urinary metanephrines. Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.5 and [[B2_Hypertension_Spectrum]] 0.4.
+> **· MEDULLARY THYROID CARCINOMA — flushing and diarrhoea, with a raised CALCITONIN. Associated with MEN2, so ask about a family history and about phaeochromocytoma and hyperparathyroidism.** Cross-refer [[I1_Thyroid_Disease]] 0.5.
 > **· VIPoma — profuse watery diarrhoea, hypokalaemia and achlorhydria, with flushing.**
-> **· THYROTOXICOSIS — warm, sweaty, flushed, with tremor, weight loss and palpitations.** Cross-refer [[I1]] 0.3.
+> **· THYROTOXICOSIS — warm, sweaty, flushed, with tremor, weight loss and palpitations.** Cross-refer [[I1_Thyroid_Disease]] 0.3.
 > **· HYPOGLYCAEMIA — sweating, tremor, palpitations and hunger.**
 
 > [!danger] Mastocytosis and mast cell activation — the anaesthetic implications matter
@@ -77,7 +77,7 @@ population: mixed
 > **The skin sign: URTICARIA PIGMENTOSA — red-brown macules and papules that URTICATE WHEN RUBBED (DARIER SIGN).** **Stroking a lesion and watching it swell is a bedside diagnostic test worth knowing.**
 > **Investigation: SERUM TRYPTASE (baseline and during an episode), and bone marrow examination in systemic disease.**
 > **THE TRIGGERS ARE CLINICALLY IMPORTANT: NSAIDs · OPIOIDS · RADIOLOGICAL CONTRAST · many ANAESTHETIC agents (particularly neuromuscular blockers) · alcohol · heat and temperature change · exercise · and physical friction.**
-> **A patient with mastocytosis undergoing anaesthesia or contrast imaging needs premedication and a briefed anaesthetist**, because they can have a catastrophic degranulation event. **Flag it prominently in the notes.** Cross-refer [[K4]] 0.2 and [[AN1]] 0.7.
+> **A patient with mastocytosis undergoing anaesthesia or contrast imaging needs premedication and a briefed anaesthetist**, because they can have a catastrophic degranulation event. **Flag it prominently in the notes.** Cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.2 and [[AN1_Perioperative_Care]] 0.7.
 
 ---
 
@@ -86,8 +86,8 @@ population: mixed
 > [!tip] Menopausal vasomotor symptoms
 > **By far the commonest cause of flushing in women in the fifth and sixth decades — hot flushes and night sweats, often with palpitations and sleep disruption.**
 > **They are "wet" flushes, and the diagnosis is clinical in a woman over 45 with a compatible history — FSH is not required and can mislead.**
-> **Management, including the corrected position on menopausal hormone therapy after the over-interpretation of the WHI, is in [[O4]] 0.6.**
-> **Note also that TAMOXIFEN, AROMATASE INHIBITORS and GnRH ANALOGUES induce the same symptoms, often severely, and this is a major cause of non-adherence to adjuvant breast cancer therapy** — so ask about it and manage it rather than leaving it. Cross-refer [[O7]] 0.5.
+> **Management, including the corrected position on menopausal hormone therapy after the over-interpretation of the WHI, is in [[O4_Abnormal_and_Menstrual_Bleeding]] 0.6.**
+> **Note also that TAMOXIFEN, AROMATASE INHIBITORS and GnRH ANALOGUES induce the same symptoms, often severely, and this is a major cause of non-adherence to adjuvant breast cancer therapy** — so ask about it and manage it rather than leaving it. Cross-refer [[O7_Breast_Disease]] 0.5.
 
 > [!warning] The drugs and substances — a list worth knowing
 > **· ALCOHOL — the commonest cause overall.** **ALDEHYDE DEHYDROGENASE (ALDH2) DEFICIENCY causes intense flushing, tachycardia and nausea after small amounts of alcohol, and is common in people of East Asian ancestry.** **It is not an allergy, and it is associated with an increased risk of oesophageal cancer in those who drink despite it — which is worth knowing rather than treating as a party trick.**
@@ -95,7 +95,7 @@ population: mixed
 > **· VASODILATORS — calcium channel blockers (particularly dihydropyridines), nitrates, hydralazine, minoxidil, and PDE5 inhibitors.**
 > **· NIACIN (nicotinic acid) — intense prostaglandin-mediated flushing, reduced by aspirin taken beforehand and by slow-release formulations.**
 > **· OPIOIDS — direct histamine release, causing flushing and itch (which is why antihistamines help opioid itch to some degree, unlike most other causes).**
-> **· VANCOMYCIN INFUSION REACTION (formerly "red man syndrome") — flushing of the face, neck and upper torso with pruritus, caused by direct histamine release related to the RATE of infusion.** **IT IS NOT AN ALLERGY, and it is managed by SLOWING THE INFUSION and giving an antihistamine — not by labelling the patient vancomycin-allergic and switching to an inferior agent.** **This mislabelling is common and consequential.** Cross-refer [[K4]] 0.3.
+> **· VANCOMYCIN INFUSION REACTION (formerly "red man syndrome") — flushing of the face, neck and upper torso with pruritus, caused by direct histamine release related to the RATE of infusion.** **IT IS NOT AN ALLERGY, and it is managed by SLOWING THE INFUSION and giving an antihistamine — not by labelling the patient vancomycin-allergic and switching to an inferior agent.** **This mislabelling is common and consequential.** Cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.3.
 > **· Corticosteroids, ciclosporin, and cholinergic agents.**
 > **· SCOMBROID POISONING — histamine formed by bacterial action in improperly stored dark-fleshed fish (tuna, mackerel, mahi-mahi).** **Flushing, headache, palpitations, diarrhoea and a peppery or metallic taste within an hour of eating, RESPONDING TO ANTIHISTAMINES.** **It mimics fish allergy exactly — and mislabelling it as allergy wrongly excludes fish from the diet for life.** **The clue is that OTHERS WHO ATE THE SAME FISH ARE ALSO AFFECTED, and the person has eaten fish safely before and since.**
 > **· Monosodium glutamate and sulphites.**
@@ -120,8 +120,8 @@ population: mixed
 
 > [!warning] Secondary hyperhidrosis — the causes to work through
 > **· INFECTION — TUBERCULOSIS, infective endocarditis, HIV, brucellosis, abscess.**
-> **· MALIGNANCY — particularly LYMPHOMA, where night sweats are a defining B symptom.** Cross-refer [[J4]] 0.4.
-> **· ENDOCRINE — THYROTOXICOSIS, phaeochromocytoma, acromegaly, carcinoid, HYPOGLYCAEMIA (including nocturnal hypoglycaemia in a patient on insulin or a sulfonylurea, which is a specific and treatable cause of night sweats).** Cross-refer [[I2]] 0.4.
+> **· MALIGNANCY — particularly LYMPHOMA, where night sweats are a defining B symptom.** Cross-refer [[J4_Paraproteins_and_Lymphoproliferative]] 0.4.
+> **· ENDOCRINE — THYROTOXICOSIS, phaeochromocytoma, acromegaly, carcinoid, HYPOGLYCAEMIA (including nocturnal hypoglycaemia in a patient on insulin or a sulfonylurea, which is a specific and treatable cause of night sweats).** Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.4.
 > **· MENOPAUSE and androgen deprivation.**
 > **· DRUGS — SSRIs and SNRIs (very common and under-recognised), opioids, cholinesterase inhibitors, tricyclics, and WITHDRAWAL states from alcohol, opioids or benzodiazepines.**
 > **· Anxiety disorders, obstructive sleep apnoea, gastro-oesophageal reflux, and autonomic neuropathy.**
@@ -142,9 +142,9 @@ population: mixed
 ## 0.5 Anhidrosis and Reduced Sweating
 
 > [!danger] Anhidrosis is dangerous because it removes thermoregulation
-> **Sweating is the principal mechanism of heat loss in humans. Its absence causes HYPERTHERMIA AND HEAT STROKE**, which carries substantial mortality. Cross-refer [[A6]] 0.2.
+> **Sweating is the principal mechanism of heat loss in humans. Its absence causes HYPERTHERMIA AND HEAT STROKE**, which carries substantial mortality. Cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.2.
 > **THE CAUSES:**
-> **· ANTICHOLINERGIC DRUGS — the commonest and most preventable. Antihistamines, tricyclic antidepressants, antipsychotics, oxybutynin and other bladder antimuscarinics, benztropine, and many others.** **The anticholinergic toxidrome is "dry as a bone" precisely because of this.** Cross-refer [[F0.1]] 0.2 and [[GER1]] 0.4.
+> **· ANTICHOLINERGIC DRUGS — the commonest and most preventable. Antihistamines, tricyclic antidepressants, antipsychotics, oxybutynin and other bladder antimuscarinics, benztropine, and many others.** **The anticholinergic toxidrome is "dry as a bone" precisely because of this.** Cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.2 and [[GER1_Comprehensive_Geriatric_Assessment]] 0.4.
 > **· AUTONOMIC NEUROPATHY — most commonly DIABETIC, producing distal anhidrosis with COMPENSATORY truncal and craniofacial sweating (including gustatory sweating while eating), which patients report as "sweating too much" while their feet are dangerously dry.** Also amyloidosis, Parkinson disease and multiple system atrophy.
 > **· SPINAL CORD INJURY — with impaired thermoregulation below the lesion.**
 > **· SKIN DISEASE — extensive burns, scarring, ichthyosis, and radiotherapy fields.**
@@ -154,14 +154,14 @@ population: mixed
 > [!warning] The Australian heatwave problem
 > **Heatwaves cause more deaths in Australia than any other natural hazard, and the people who die are predominantly OLDER PEOPLE, those living alone, those with chronic illness, and — importantly — those on ANTICHOLINERGIC, ANTIPSYCHOTIC and DIURETIC medications.**
 > **THE PRACTICAL ACTION: review anticholinergic burden before summer in older and vulnerable patients, and give explicit heat advice — fluids, cool rooms, avoiding midday exertion, checking on isolated people, and knowing the warning signs.**
-> **This is a genuine and actionable preventive intervention that is rarely delivered.** Cross-refer [[GER1]] 0.4 and [[A6]] 0.2.
+> **This is a genuine and actionable preventive intervention that is rarely delivered.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.4 and [[A6_Thermal_and_Environmental_Injury]] 0.2.
 
 > [!tip] Horner syndrome — anhidrosis that localises the lesion
 > **PTOSIS, MIOSIS and ANHIDROSIS from interruption of the sympathetic pathway.**
 > **THE DISTRIBUTION OF THE ANHIDROSIS LOCALISES THE LESION, because the sudomotor fibres to the face separate from the ocular sympathetic fibres at the superior cervical ganglion:**
 > **· ANHIDROSIS OF THE WHOLE HEMIFACE → a CENTRAL or PRE-ganglionic lesion (brainstem, cord, apical lung tumour, carotid or subclavian pathology).**
 > **· ANHIDROSIS LIMITED TO THE FOREHEAD, OR ABSENT ALTOGETHER → a POST-ganglionic lesion (carotid dissection, cavernous sinus).**
-> **A new Horner syndrome with neck or facial pain is CAROTID DISSECTION until proven otherwise and requires urgent imaging; a Horner syndrome with arm pain or hand wasting suggests a PANCOAST tumour.** Cross-refer [[E3]] and [[D5]].
+> **A new Horner syndrome with neck or facial pain is CAROTID DISSECTION until proven otherwise and requires urgent imaging; a Horner syndrome with arm pain or hand wasting suggests a PANCOAST tumour.** Cross-refer [[E3_Orbit__Lids_and_Pupil]] and [[D5_Dizziness__Vertigo_and_Gait]].
 
 ---
 
@@ -172,7 +172,7 @@ population: mixed
 > **THE TWO CONSEQUENCES:**
 > **1. IN ANAEMIA, CYANOSIS MAY BE ABSENT DESPITE PROFOUND HYPOXIA** — a severely anaemic patient simply does not have enough haemoglobin to accumulate the required amount in the deoxygenated form. **A pale patient who is not cyanosed may still be dangerously hypoxic.**
 > **2. IN POLYCYTHAEMIA, cyanosis appears EARLY and at higher saturations.**
-> **AND: CYANOSIS IS SIGNIFICANTLY HARDER TO DETECT IN RICHLY PIGMENTED SKIN.** **Examine the MUCOUS MEMBRANES, the TONGUE, the CONJUNCTIVAE and the NAIL BEDS, in good natural light — and RELY ON PULSE OXIMETRY rather than on your impression of skin colour.** Cross-refer [[G1]] 0.1.
+> **AND: CYANOSIS IS SIGNIFICANTLY HARDER TO DETECT IN RICHLY PIGMENTED SKIN.** **Examine the MUCOUS MEMBRANES, the TONGUE, the CONJUNCTIVAE and the NAIL BEDS, in good natural light — and RELY ON PULSE OXIMETRY rather than on your impression of skin colour.** Cross-refer [[G1_Acute_Rash_and_Erythema]] 0.1.
 > **CENTRAL cyanosis involves the tongue and mucous membranes and indicates arterial desaturation or an abnormal haemoglobin. PERIPHERAL cyanosis affects the extremities only and reflects reduced peripheral flow — cold, low cardiac output, vasoconstriction or arterial disease — with normal arterial saturation.**
 
 > [!danger] The two abnormal haemoglobins where the oximeter lies
@@ -181,26 +181,26 @@ population: mixed
 > **· "CHOCOLATE-BROWN" arterial blood that does not turn red on exposure to air.**
 > **· A "SATURATION GAP" — the PULSE OXIMETER READS AROUND 85% AND STAYS THERE regardless of oxygen delivery, while the arterial blood gas reports a NORMAL calculated PaO₂ and saturation.** **That discrepancy is the diagnostic clue and is a favourite examination point.**
 > **· CAUSES: DAPSONE (a leading cause) · LOCAL ANAESTHETICS, particularly PRILOCAINE and BENZOCAINE (including topical throat and teething preparations) · nitrates and nitrites · aniline dyes · antimalarials · and nitric oxide.**
-> **· TREATMENT: METHYLENE BLUE — which is CONTRAINDICATED IN G6PD DEFICIENCY, where it causes severe haemolysis and is ineffective.** Cross-refer [[J2]] 0.2.
+> **· TREATMENT: METHYLENE BLUE — which is CONTRAINDICATED IN G6PD DEFICIENCY, where it causes severe haemolysis and is ineffective.** Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]] 0.2.
 > **2. CARBOXYHAEMOGLOBIN.**
 > **· THE PULSE OXIMETER READS FALSELY NORMAL OR HIGH**, because it cannot distinguish carboxyhaemoglobin from oxyhaemoglobin.
 > **· The "cherry-red" appearance is UNRELIABLE and usually ABSENT — it is largely a post-mortem finding.**
-> **· A patient with headache, nausea, confusion and a normal saturation after fire, faulty heating or a generator in an enclosed space needs a CO-OXIMETRY MEASUREMENT of carboxyhaemoglobin, which must be specifically requested.** Cross-refer [[A5]] and [[F0.1]] 0.2.
+> **· A patient with headache, nausea, confusion and a normal saturation after fire, faulty heating or a generator in an enclosed space needs a CO-OXIMETRY MEASUREMENT of carboxyhaemoglobin, which must be specifically requested.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.2.
 
 > [!tip] The other abnormal colours
-> **· JAUNDICE — best seen in the SCLERAE in natural light, and HARDER TO DETECT in darker skin, where the sclerae and the frenulum are the places to look.** Cross-refer [[C3]] 0.1.
+> **· JAUNDICE — best seen in the SCLERAE in natural light, and HARDER TO DETECT in darker skin, where the sclerae and the frenulum are the places to look.** Cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.1.
 > **· CAROTENAEMIA — yellow-orange discolouration from excessive carrot, pumpkin or supplement intake, most obvious on the palms, soles and nasolabial folds.** **THE DISCRIMINATOR IS THAT IT SPARES THE SCLERAE**, whereas jaundice does not. It also occurs in hypothyroidism and anorexia nervosa.
 > **· URAEMIA — a sallow, yellow-brown, sometimes frosted appearance with pruritus.**
 > **· HAEMOCHROMATOSIS — bronze or slate-grey pigmentation with diabetes.**
 > **· AMIODARONE — slate-grey to violaceous discolouration of sun-exposed skin.** **MINOCYCLINE — blue-grey pigmentation in scars, on the shins and in the oral mucosa.**
 > **· ARGYRIA — irreversible slate-blue discolouration from colloidal silver ingestion.**
-> **· ADDISON DISEASE — generalised hyperpigmentation with accentuation in palmar creases, buccal mucosa and scars.** Cross-refer [[I4]] 0.3.
+> **· ADDISON DISEASE — generalised hyperpigmentation with accentuation in palmar creases, buccal mucosa and scars.** Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.3.
 > **· PALLOR — assess the CONJUNCTIVAE and PALMAR CREASES rather than the face, and remember that pallor from vasoconstriction (shock, cold, fear) is different from pallor from anaemia.**
-> **· MOTTLING and LIVEDO — cross-refer [[G3]] 0.4, and note that mottling in an acutely unwell patient is a sign of poor perfusion and impending decompensation.**
+> **· MOTTLING and LIVEDO — cross-refer [[G3_Purpura_and_Vasculitis]] 0.4, and note that mottling in an acutely unwell patient is a sign of poor perfusion and impending decompensation.**
 
 **Ix:** **"Do you sweat when you flush?" and "does it happen when you are asleep?"** (*why:* these two questions split the flushing and sweating differentials more efficiently than any test, and neither is routinely asked; *what:* wet versus dry flushing, primary versus secondary hyperhidrosis). **TFTs** (*why:* thyrotoxicosis causes both flushing and sweating and is easily excluded; *what:* suppressed TSH). **FBC, film, LDH, CRP, HIV serology and chest radiograph in night sweats with systemic features** (*why:* lymphoma, TB, HIV and endocarditis; *what:* the systemic cause). **Urinary 5-HIAA and chromogranin A** where flushing with diarrhoea or wheeze (*why:* carcinoid syndrome; *what:* elevation — `UNVERIFIED — dietary restrictions before collection`). **Plasma or urinary METANEPHRINES** where episodic headache, palpitations and sweating with hypertension (*why:* phaeochromocytoma; *what:* elevation). **SERUM TRYPTASE, baseline and during an episode** (*why:* mast cell disease, with major anaesthetic and contrast implications; *what:* elevation). **CALCITONIN** where flushing with diarrhoea and a thyroid nodule or MEN family history (*why:* medullary thyroid carcinoma; *what:* elevation). **CO-OXIMETRY, specifically requested, for methaemoglobin and carboxyhaemoglobin** (*why:* the pulse oximeter is misleading in both — reading falsely low and fixed in one, falsely normal in the other; *what:* the abnormal haemoglobin fraction). **G6PD status before methylene blue** (*why:* it causes haemolysis and is ineffective in deficiency; *what:* deficiency). **A full medication review including over-the-counter and complementary preparations** (*why:* drugs cause most flushing, most secondary hyperhidrosis and most anhidrosis, and the anticholinergic burden is modifiable; *what:* the culprit).
 
 ---
 
 > [!note] Cross-references
-> Acute rash and skin colour assessment in darker skin → [[G1]] 0.1 · Purpura, livedo and mottling → [[G3]] 0.4 · Rosacea and fixed facial erythema → [[G4]] 0.3 · Skin cancer → [[G5]] · Urticaria, anaphylaxis and drug reaction labelling → [[K4]] 0.2–0.3 · Phaeochromocytoma and secondary hypertension → [[I4]] 0.5 and [[B2]] 0.4 · Thyrotoxicosis and medullary thyroid carcinoma → [[I1]] 0.3, 0.5 · Hypoglycaemia → [[I2]] 0.4 · Addison disease and pigmentation → [[I4]] 0.3 · Menopause and vasomotor symptoms → [[O4]] 0.6 · Aromatase inhibitors and adherence → [[O7]] 0.5 · Lymphoma and B symptoms → [[J4]] 0.4 · G6PD deficiency and methylene blue → [[J2]] 0.2 · Carbon monoxide and toxidromes → [[A5]] and [[F0.1]] 0.2 · Heat stroke and hyperthermia → [[A6]] 0.2 · Anticholinergic burden and deprescribing → [[GER1]] 0.4 · Horner syndrome and carotid dissection → [[E3]] and [[D5]] · Jaundice → [[C3]] 0.1 · Perioperative risk in carcinoid and mastocytosis → [[AN1]] 0.7
+> Acute rash and skin colour assessment in darker skin → [[G1_Acute_Rash_and_Erythema]] 0.1 · Purpura, livedo and mottling → [[G3_Purpura_and_Vasculitis]] 0.4 · Rosacea and fixed facial erythema → [[G4_Chronic_Rash__Pruritus_and_Pigment]] 0.3 · Skin cancer → [[G5_Lumps__Ulcers_and_Nails]] · Urticaria, anaphylaxis and drug reaction labelling → [[K4_Allergy_and_Clinical_Immunology]] 0.2–0.3 · Phaeochromocytoma and secondary hypertension → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.5 and [[B2_Hypertension_Spectrum]] 0.4 · Thyrotoxicosis and medullary thyroid carcinoma → [[I1_Thyroid_Disease]] 0.3, 0.5 · Hypoglycaemia → [[I2_Diabetes_and_Glucose_Disorders]] 0.4 · Addison disease and pigmentation → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.3 · Menopause and vasomotor symptoms → [[O4_Abnormal_and_Menstrual_Bleeding]] 0.6 · Aromatase inhibitors and adherence → [[O7_Breast_Disease]] 0.5 · Lymphoma and B symptoms → [[J4_Paraproteins_and_Lymphoproliferative]] 0.4 · G6PD deficiency and methylene blue → [[J2_Haemoglobinopathy_and_Haemolysis]] 0.2 · Carbon monoxide and toxidromes → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.2 · Heat stroke and hyperthermia → [[A6_Thermal_and_Environmental_Injury]] 0.2 · Anticholinergic burden and deprescribing → [[GER1_Comprehensive_Geriatric_Assessment]] 0.4 · Horner syndrome and carotid dissection → [[E3_Orbit__Lids_and_Pupil]] and [[D5_Dizziness__Vertigo_and_Gait]] · Jaundice → [[C3_Jaundice_and_Liver_Disease]] 0.1 · Perioperative risk in carcinoid and mastocytosis → [[AN1_Perioperative_Care]] 0.7

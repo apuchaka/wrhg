@@ -8,9 +8,9 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Recognition, discriminators and management principles are reliable at intern level. **Every dose, age threshold, severity criterion and time limit carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** **All paediatric doses are omitted** — obtain them from the **Royal Children's Hospital Melbourne guidelines**, the **Australian Asthma Handbook**, and **ANZCOR**.
 >
-> **NOTE ON CROSS-REFERENCES:** earlier files in this corpus cross-reference `[[M6]]` for **child protection and non-accidental injury**. That is an error — **safeguarding is built in [[GER4]]**, and M6 covers respiratory and neurology per the build queue. Those links should be redirected to `[[GER4]]` during consolidation.
+> **NOTE ON CROSS-REFERENCES:** earlier files in this corpus cross-reference `[[M6_Paediatric_Respiratory_and_Neurology]]` for **child protection and non-accidental injury**. That is an error — **safeguarding is built in [[GER4_Safeguarding_and_Forensic]]**, and M6 covers respiratory and neurology per the build queue. Those links should be redirected to `[[GER4_Safeguarding_and_Forensic]]` during consolidation.
 >
-> **Status epilepticus is built in [[D6]] 0.2 and [[F0.4]]**, **anaphylaxis in [[K4]]**, and **paediatric head injury in [[F0.5]] 0.7** — cross-referenced rather than repeated.
+> **Status epilepticus is built in [[D6_Seizures_and_Movement_Disorders]] 0.2 and [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]]**, **anaphylaxis in [[K4_Allergy_and_Clinical_Immunology]]**, and **paediatric head injury in [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7** — cross-referenced rather than repeated.
 
 ---
 
@@ -32,7 +32,7 @@ population: mixed
 > **In stridor with significant obstruction — suspected epiglottitis, bacterial tracheitis, severe croup or a foreign body — DISTRESS CAN PRECIPITATE COMPLETE OBSTRUCTION.**
 > **Therefore: DO NOT examine the throat · DO NOT attempt cannulation or blood tests · DO NOT lie the child down · DO NOT separate them from their parent · keep the environment calm and quiet.**
 > **Get senior anaesthetic, ENT and paediatric help to the child, rather than moving the child to investigations.**
-> **The instinct to "just have a quick look" at the throat has killed children.** Cross-refer [[A2]] 0.3.
+> **The instinct to "just have a quick look" at the throat has killed children.** Cross-refer [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.3.
 
 ---
 
@@ -51,7 +51,7 @@ population: mixed
 > **· EPIGLOTTITIS — rare where *Haemophilus influenzae* type b immunisation is high, but it still occurs in the UNDER-IMMUNISED and in older children and adults.** **The picture: RAPID onset over hours · high fever and a TOXIC appearance · DROOLING and inability to swallow · a MUFFLED "hot potato" voice · the TRIPOD position, sitting forward · and — importantly — LITTLE OR NO COUGH, which distinguishes it from croup.** **Do not examine the throat. Senior airway team, theatre, intubation.**
 > **· BACTERIAL TRACHEITIS — a toxic child with high fever, a croup-like picture that does NOT respond to adrenaline and steroids, and copious purulent secretions.** Requires antibiotics and often intubation.
 > **· INHALED FOREIGN BODY — SUDDEN onset, often with a witnessed choking episode, though the history may be absent or forgotten.** **Signs may be UNILATERAL (reduced air entry, unilateral wheeze), and the CHEST RADIOGRAPH MAY BE NORMAL — most foreign bodies are radiolucent.** **Inspiratory and expiratory films may show air trapping, but a normal film does not exclude it: bronchoscopy is the test.** **A persistent focal wheeze or recurrent pneumonia in the same lobe should prompt the thought.**
-> **· ANAPHYLAXIS — cross-refer [[K4]] 0.1.** Rapid onset, urticaria, angioedema, other system involvement. **Adrenaline intramuscularly.**
+> **· ANAPHYLAXIS — cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.1.** Rapid onset, urticaria, angioedema, other system involvement. **Adrenaline intramuscularly.**
 > **· RETROPHARYNGEAL ABSCESS — neck stiffness or refusal to move the neck, drooling, fever, and systemic illness.**
 
 > [!tip] Laryngomalacia — the common benign one
@@ -78,8 +78,8 @@ population: mixed
 > **"Doing less" is the evidence-based management, and it is harder than doing something.** `UNVERIFIED — current guidance, particularly on oxygen saturation thresholds and respiratory support.`
 
 > [!warning] Who gets severe bronchiolitis, and the presentation that is missed
-> **Risk factors for severe disease: YOUNG AGE (under about six to eight weeks) · PREMATURITY · chronic lung disease of prematurity · congenital HEART disease · neuromuscular disease · immunodeficiency · and Aboriginal and Torres Strait Islander infants, in whom rates of severe disease and subsequent bronchiectasis are higher.** Cross-refer [[AU1]] 0.4 and [[RESP-X]] 0.4.
-> **APNOEA MAY BE THE PRESENTING FEATURE IN YOUNG INFANTS, sometimes before significant respiratory signs** — so bronchiolitis belongs in the differential of an infant presenting with apnoea or a BRUE. Cross-refer [[M3]] 0.5.
+> **Risk factors for severe disease: YOUNG AGE (under about six to eight weeks) · PREMATURITY · chronic lung disease of prematurity · congenital HEART disease · neuromuscular disease · immunodeficiency · and Aboriginal and Torres Strait Islander infants, in whom rates of severe disease and subsequent bronchiectasis are higher.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4 and [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.4.
+> **APNOEA MAY BE THE PRESENTING FEATURE IN YOUNG INFANTS, sometimes before significant respiratory signs** — so bronchiolitis belongs in the differential of an infant presenting with apnoea or a BRUE. Cross-refer [[M3_Neonatal_Problems]] 0.5.
 > **Respiratory support with high-flow nasal cannula or CPAP is used for those who need it**, and the threshold for escalation should be low in the high-risk groups.
 
 > [!tip] Preschool wheeze — resist diagnosing asthma too early
@@ -156,21 +156,21 @@ population: mixed
 > **· NO CLEAR SOURCE for the fever.**
 > **· A child who is systemically UNWELL.**
 > **· A child ALREADY ON ANTIBIOTICS — which can PARTIALLY TREAT and MASK meningitis, blunting the classic features while the infection continues. This is a specific and important trap.**
-> **Any of these means considering MENINGITIS and encephalitis, and a lower threshold for lumbar puncture and imaging.** Cross-refer [[D1]] 0.5 and [[M2]] 0.4.
+> **Any of these means considering MENINGITIS and encephalitis, and a lower threshold for lumbar puncture and imaging.** Cross-refer [[D1_Headache_and_Meningism]] 0.5 and [[M2_Fever_in_Children]] 0.4.
 
 > [!danger] Most paroxysmal events in children are not epilepsy
 > **· BREATH-HOLDING SPELLS — two types, both benign:**
 > **CYANOTIC (blue) — provoked by anger, frustration or crying; the child cries, holds their breath in expiration, becomes blue, and may briefly lose consciousness and stiffen.**
 > **PALLID (reflex anoxic) — provoked by a MINOR INJURY, pain or fright, often with little or no crying; a vagally mediated asystolic pause, with sudden PALLOR and collapse, sometimes with stiffening or jerking.**
 > **Both are benign and self-limiting, and the management is reassurance, first aid and avoiding reinforcement of the behaviour.** **CHECK THE FERRITIN — iron deficiency is associated with breath-holding spells and treating it reduces their frequency.** This is a specific, easily actioned point.
-> **· SYNCOPE — including vasovagal syncope with a few myoclonic jerks, which is regularly misdiagnosed as a seizure. But note that CARDIAC syncope must be excluded: syncope on EXERTION, syncope without warning, syncope with palpitations, or a family history of sudden death — all of which require an ECG.** Cross-refer [[B3]] 0.1 and 0.3.
-> **· Benign neonatal sleep myoclonus · night terrors and other parasomnias (cross-refer [[N7]] 0.4) · tics · daydreaming · self-gratification behaviour · and SANDIFER SYNDROME (dystonic posturing associated with gastro-oesophageal reflux).**
+> **· SYNCOPE — including vasovagal syncope with a few myoclonic jerks, which is regularly misdiagnosed as a seizure. But note that CARDIAC syncope must be excluded: syncope on EXERTION, syncope without warning, syncope with palpitations, or a family history of sudden death — all of which require an ECG.** Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.1 and 0.3.
+> **· Benign neonatal sleep myoclonus · night terrors and other parasomnias (cross-refer [[N7_Sleep_Disorders]] 0.4) · tics · daydreaming · self-gratification behaviour · and SANDIFER SYNDROME (dystonic posturing associated with gastro-oesophageal reflux).**
 
 > [!tip] The most useful investigation is a good eyewitness account — or a video
 > **The description of the event is more informative than any test, and parents' phones make this practical.**
 > **ASK THE FAMILY TO RECORD A FUTURE EPISODE.** A short video resolves the majority of diagnostic uncertainty about paroxysmal events, and it is now routine practice in paediatric neurology.
 > **What to elicit: what the child was doing immediately before · any warning · the colour · the position of the eyes and limbs · the duration (which is almost always over-estimated) · what happened afterwards and how long recovery took · and whether the child was responsive during the event.**
-> **STATUS EPILEPTICUS: treat a seizure lasting beyond about five minutes** — cross-refer [[D6]] 0.2 and [[F0.4]]. **Check GLUCOSE, sodium and calcium in any child with a seizure, and consider pyridoxine-dependent seizures in a neonate or young infant with refractory seizures.**
+> **STATUS EPILEPTICUS: treat a seizure lasting beyond about five minutes** — cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.2 and [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]]. **Check GLUCOSE, sodium and calcium in any child with a seizure, and consider pyridoxine-dependent seizures in a neonate or young infant with refractory seizures.**
 
 ---
 
@@ -190,7 +190,7 @@ population: mixed
 > **· SELF-LIMITED EPILEPSY WITH CENTROTEMPORAL SPIKES (formerly benign rolandic epilepsy) — nocturnal focal seizures involving the face and mouth, with drooling, gurgling and speech arrest, sometimes generalising. Remits in adolescence, and often does not require treatment.**
 > **· JUVENILE MYOCLONIC EPILEPSY — MYOCLONIC JERKS shortly after waking (the teenager who "drops their cereal bowl in the morning"), with generalised tonic-clonic seizures, provoked by SLEEP DEPRIVATION, alcohol and photic stimulation.** **Usually requires lifelong treatment**, and the myoclonus is often not volunteered unless specifically asked about.
 > **· Epileptic encephalopathies (Dravet, Lennox-Gastaut) — early-onset, drug-resistant, with developmental impairment.**
-> **VALPROATE: highly effective in generalised epilepsy but must NOT be used in girls and women of childbearing potential except under strict conditions.** Cross-refer [[D6]] 0.3 and [[N4]] 0.5.
+> **VALPROATE: highly effective in generalised epilepsy but must NOT be used in girls and women of childbearing potential except under strict conditions.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.3 and [[N4_Mood_Disorders]] 0.5.
 
 > [!warning] Headache in children — the red flags
 > **Most childhood headache is migraine or tension-type, and children's migraine is more often BILATERAL and SHORTER than adults', frequently with prominent abdominal symptoms.**
@@ -200,11 +200,11 @@ population: mixed
 > [!tip] Three other neurological presentations
 > **· ACUTE ATAXIA — post-infectious cerebellitis (commonly post-varicella, and the commonest cause) · INGESTION or poisoning (always consider, and ask what is in the house) · posterior fossa tumour · Guillain-Barré syndrome (with the Miller Fisher variant) · and stroke.**
 > **· HYPOTONIA — distinguish CENTRAL (with reduced alertness, normal or brisk reflexes, and other neurological features) from PERIPHERAL (alert child, absent reflexes, weakness — pointing to spinal muscular atrophy, congenital myopathy or neuromuscular junction disease).** **The alert, floppy, weak infant with absent reflexes is a neuromuscular emergency.**
-> **· ACUTE WEAKNESS — Guillain-Barré syndrome (ascending, areflexic, with a risk of respiratory failure requiring SERIAL FVC monitoring) · transverse myelitis · and spinal cord compression.** Cross-refer [[D4]] 0.4–0.5.
+> **· ACUTE WEAKNESS — Guillain-Barré syndrome (ascending, areflexic, with a risk of respiratory failure requiring SERIAL FVC monitoring) · transverse myelitis · and spinal cord compression.** Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.4–0.5.
 
 **Ix:** **Oxygen saturation and respiratory rate against AGE-SPECIFIC values** (*why:* the numbers are meaningless without the age norms; *what:* hypoxia, tachypnoea). **Blood gas ONLY where it will change management in a distressed child** (*why:* it is painful, distressing and can precipitate deterioration in upper airway obstruction — and a rising CO₂ in asthma is a clinical diagnosis of exhaustion before it is a laboratory one; *what:* hypercapnia, acidosis). **Chest radiograph only where indicated** — NOT routinely in bronchiolitis or uncomplicated asthma (*why:* it drives unnecessary antibiotics; *what:* consolidation, pneumothorax, foreign body effects). **Nasopharyngeal viral testing where it changes cohorting or management** (*why:* it rarely changes treatment in bronchiolitis; *what:* RSV and other viruses). **Bedside GLUCOSE, plus sodium and calcium, in any seizing child** (*why:* rapidly reversible causes; *what:* hypoglycaemia, electrolyte disturbance). **URGENT EEG where infantile spasms or regression are suspected** (*why:* time to treatment determines developmental outcome; *what:* hypsarrhythmia, epileptiform activity). **A VIDEO of a typical event recorded by the family** (*why:* the single most useful investigation for paroxysmal events, and it resolves most diagnostic uncertainty; *what:* the semiology). **ECG in any child with syncope or an unexplained collapse** (*why:* long QT and other channelopathies, with implications for the whole family; *what:* QTc, pre-excitation, hypertrophy). **FERRITIN in breath-holding spells** (*why:* iron deficiency is associated and treating it reduces frequency; *what:* low ferritin). MRI brain where red flags, focal signs or regression (*why:* structural lesion; *what:* tumour, malformation, demyelination).
 
 ---
 
 > [!note] Cross-references
-> The seriously unwell child and paediatric physiology → [[M1]] · Fever, meningitis and serious bacterial infection → [[M2]] · Neonatal apnoea and BRUE → [[M3]] 0.5 · Growth, development and regression → [[M4]] 0.6 · Paediatric abdominal pain and limp → [[M5]] · Adolescent health and ADHD → [[M7]] · CHILD PROTECTION AND NON-ACCIDENTAL INJURY → **[[GER4]]** (not M6 — see the sourcing note) · Status epilepticus → [[D6]] 0.2 and [[F0.4]] · Epilepsy, valproate and driving → [[D6]] 0.3 · Meningitis and encephalitis → [[D1]] 0.5 · Guillain-Barré and FVC monitoring → [[D4]] 0.4–0.5 · Anaphylaxis → [[K4]] 0.1 · Airway obstruction and epiglottitis → [[A2]] 0.3 · Asthma and COPD in adults → [[F0.5]] 0.1 · Bronchiectasis and chronic suppurative lung disease → [[RESP-X]] 0.4 · Paediatric head injury → [[F0.5]] 0.7 · Long QT and syncope → [[B3]] 0.1, 0.3 · Parasomnias and night terrors → [[N7]] 0.4 · Aboriginal and Torres Strait Islander child respiratory health → [[AU1]] 0.4
+> The seriously unwell child and paediatric physiology → [[M1_The_Seriously_Unwell_Child]] · Fever, meningitis and serious bacterial infection → [[M2_Fever_in_Children]] · Neonatal apnoea and BRUE → [[M3_Neonatal_Problems]] 0.5 · Growth, development and regression → [[M4_Growth_and_Development]] 0.6 · Paediatric abdominal pain and limp → [[M5_Paediatric_GI__GU_and_Limb]] · Adolescent health and ADHD → [[M7_Adolescent_and_Behavioural_Health]] · CHILD PROTECTION AND NON-ACCIDENTAL INJURY → **[[GER4_Safeguarding_and_Forensic]]** (not M6 — see the sourcing note) · Status epilepticus → [[D6_Seizures_and_Movement_Disorders]] 0.2 and [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] · Epilepsy, valproate and driving → [[D6_Seizures_and_Movement_Disorders]] 0.3 · Meningitis and encephalitis → [[D1_Headache_and_Meningism]] 0.5 · Guillain-Barré and FVC monitoring → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.4–0.5 · Anaphylaxis → [[K4_Allergy_and_Clinical_Immunology]] 0.1 · Airway obstruction and epiglottitis → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.3 · Asthma and COPD in adults → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.1 · Bronchiectasis and chronic suppurative lung disease → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.4 · Paediatric head injury → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7 · Long QT and syncope → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.1, 0.3 · Parasomnias and night terrors → [[N7_Sleep_Disorders]] 0.4 · Aboriginal and Torres Strait Islander child respiratory health → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4

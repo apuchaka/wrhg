@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from source. Clinical reasoning, discriminators and communication are reliable at intern level. **Every βhCG threshold, gestational limit, dose, anti-D regimen and legal provision carries an `UNVERIFIED` marker, or has been omitted with the omission stated in place.**
 > **Verify against RANZCOG statements, your local early pregnancy assessment protocol, eTG, and — for termination of pregnancy — the current South Australian legislation, which changed with decriminalisation and differs from other states.**
 >
-> **Contraception and emergency contraception are built in [[O6]] 0.3**, and **nausea and vomiting more generally in [[C2]] 0.5** — cross-referenced rather than repeated.
+> **Contraception and emergency contraception are built in [[O6_Sexual_and_Reproductive_Health]] 0.3**, and **nausea and vomiting more generally in [[C2_Nausea_and_Vomiting]] 0.5** — cross-referenced rather than repeated.
 
 ---
 
@@ -57,7 +57,7 @@ population: mixed
 > **· AVOID FOLIC ACID supplements (which antagonise the methotrexate), NSAIDs, alcohol and sun exposure.**
 > **· AVOID PREGNANCY for a defined period afterwards, because of teratogenicity — and provide contraception.** `UNVERIFIED — the interval.`
 > **· SURGICAL MANAGEMENT — laparoscopic SALPINGECTOMY (removing the tube) or SALPINGOTOMY (opening it and preserving it, which requires follow-up βhCG because trophoblast can persist).** **Indicated for rupture, haemodynamic instability, significant pain, high βhCG, fetal cardiac activity, or failed medical management.**
-> **A RUPTURED ECTOPIC WITH SHOCK IS A RESUSCITATION AND A LAPAROTOMY — large-bore access, blood, activation of the massive transfusion protocol if needed, and theatre. Do not delay for imaging.** Cross-refer [[A9]] 0.1.
+> **A RUPTURED ECTOPIC WITH SHOCK IS A RESUSCITATION AND A LAPAROTOMY — large-bore access, blood, activation of the massive transfusion protocol if needed, and theatre. Do not delay for imaging.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1.
 
 > [!danger] Three variants that catch people out
 > **1. HETEROTOPIC PREGNANCY — a simultaneous intrauterine AND ectopic pregnancy.** **Rare naturally, but MUCH more common after IVF.** **THEREFORE: seeing an intrauterine pregnancy on ultrasound does NOT exclude a concurrent ectopic in a woman who conceived through assisted reproduction — and pain in that setting still needs the adnexa examined.**
@@ -132,10 +132,10 @@ population: mixed
 > [!danger] Two things that are forgotten in hyperemesis, and both cause serious harm
 > **1. THIAMINE BEFORE ANY GLUCOSE-CONTAINING FLUID.**
 > **Prolonged vomiting depletes thiamine, and administering glucose to a thiamine-deficient woman PRECIPITATES WERNICKE ENCEPHALOPATHY.**
-> **Wernicke encephalopathy in hyperemesis is well described, causes permanent neurological damage and fetal loss, and IS ENTIRELY PREVENTABLE.** **Give thiamine.** Cross-refer [[C2]] 0.7 and [[N2]] 0.1.
+> **Wernicke encephalopathy in hyperemesis is well described, causes permanent neurological damage and fetal loss, and IS ENTIRELY PREVENTABLE.** **Give thiamine.** Cross-refer [[C2_Nausea_and_Vomiting]] 0.7 and [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.1.
 > **2. THROMBOPROPHYLAXIS.**
 > **Pregnancy is already a hypercoagulable state; add dehydration, immobility and hospital admission, and the venous thromboembolism risk is substantial.**
-> **VTE is a leading cause of direct maternal death, and an admitted, dehydrated, vomiting pregnant woman is a high-risk patient in whom prophylaxis is routinely not prescribed.** Cross-refer [[J3]] 0.6 and [[O2]].
+> **VTE is a leading cause of direct maternal death, and an admitted, dehydrated, vomiting pregnant woman is a high-risk patient in whom prophylaxis is routinely not prescribed.** Cross-refer [[J3_Bleeding_and_Thrombosis]] 0.6 and [[O2_Later_Pregnancy_and_Fetal]].
 
 ---
 
@@ -146,7 +146,7 @@ population: mixed
 > **The clinician's role is to provide ACCURATE, NON-DIRECTIVE, TIMELY information about all three, and to facilitate access to whichever the person chooses.**
 > **· Ask what she is thinking, before offering an opinion.**
 > **· Do not assume from age, relationship status, parity or circumstances what she will choose.**
-> **· Check for coercion in either direction — from a partner or family — and see her alone.** Cross-refer [[GER4]] 0.4.
+> **· Check for coercion in either direction — from a partner or family — and see her alone.** Cross-refer [[GER4_Safeguarding_and_Forensic]] 0.4.
 > **· BE TIMELY. Delay reduces the available options and increases the complexity and cost of whatever she chooses.** **Sitting on a referral is not a neutral act.**
 
 > [!danger] Conscientious objection does not permit obstruction
@@ -158,7 +158,7 @@ population: mixed
 > [!warning] The care itself
 > **· MEDICAL termination — a mifepristone and misoprostol regimen, available up to a gestational limit, and providable in PRIMARY CARE in Australia by appropriately certified prescribers with pharmacy dispensing arrangements.** `UNVERIFIED — the gestational limit and the certification requirements, which have changed.`
 > **· SURGICAL termination — suction curettage, with later methods beyond a certain gestation.**
-> **· AFTERCARE: CONTRACEPTION — and long-acting reversible contraception can generally be commenced or inserted IMMEDIATELY, which is the point of highest effectiveness and lowest attrition** (cross-refer [[O6]] 0.3) **· ANTI-D for Rhesus-negative women · follow-up to confirm completion · and emotional support offered without assumption.**
+> **· AFTERCARE: CONTRACEPTION — and long-acting reversible contraception can generally be commenced or inserted IMMEDIATELY, which is the point of highest effectiveness and lowest attrition** (cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.3) **· ANTI-D for Rhesus-negative women · follow-up to confirm completion · and emotional support offered without assumption.**
 > **THE EVIDENCE ON PSYCHOLOGICAL OUTCOMES IS CLEAR: abortion does not cause long-term mental health harm, and the strongest predictor of poorer psychological outcome is pre-existing mental illness and unsupportive circumstances — not the procedure.** **Being told otherwise is itself harmful, and clinicians should not perpetuate it.**
 > **ACCESS BARRIERS IN AUSTRALIA are real: geography (rural and remote), cost, provider availability, and gestational limits.** **Knowing the local pathway and being able to refer promptly is the practical contribution.**
 
@@ -169,16 +169,16 @@ population: mixed
 > [!tip] Preconception and early pregnancy — the things that must happen early
 > **· FOLIC ACID — commenced BEFORE conception and continued through the first trimester, to reduce neural tube defects.** **A HIGHER DOSE is required for: a previous affected pregnancy · DIABETES · OBESITY · ANTIEPILEPTIC medication · malabsorption · and some other conditions.** **The standard dose is inadequate for these groups, and this is regularly missed.** `UNVERIFIED — the doses.`
 > **· IODINE supplementation.**
-> **· MEDICATION REVIEW — ideally before conception.** **The teratogens to identify and change: SODIUM VALPROATE (and antiepileptics generally, which require specialist planning rather than abrupt cessation) · ISOTRETINOIN · ACE INHIBITORS and ARBs · WARFARIN · METHOTREXATE · and some others.** **Equally important is identifying what must be CONTINUED — antiepileptics, thyroid replacement, antidepressants where indicated, and asthma treatment — because abrupt cessation on discovering a pregnancy causes its own harm.** Cross-refer [[D6]] 0.3 and [[N4]] 0.6.
-> **· Smoking, alcohol and other substance cessation.** **There is no established safe level of alcohol in pregnancy** — cross-refer [[N2]] 0.2 and [[M4]] 0.6.
-> **· Vaccination status, cervical screening status, and optimisation of chronic disease — particularly DIABETES, where periconceptional glycaemic control determines congenital malformation risk.** Cross-refer [[I2]].
+> **· MEDICATION REVIEW — ideally before conception.** **The teratogens to identify and change: SODIUM VALPROATE (and antiepileptics generally, which require specialist planning rather than abrupt cessation) · ISOTRETINOIN · ACE INHIBITORS and ARBs · WARFARIN · METHOTREXATE · and some others.** **Equally important is identifying what must be CONTINUED — antiepileptics, thyroid replacement, antidepressants where indicated, and asthma treatment — because abrupt cessation on discovering a pregnancy causes its own harm.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.3 and [[N4_Mood_Disorders]] 0.6.
+> **· Smoking, alcohol and other substance cessation.** **There is no established safe level of alcohol in pregnancy** — cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.2 and [[M4_Growth_and_Development]] 0.6.
+> **· Vaccination status, cervical screening status, and optimisation of chronic disease — particularly DIABETES, where periconceptional glycaemic control determines congenital malformation risk.** Cross-refer [[I2_Diabetes_and_Glucose_Disorders]].
 > **· DATING — ultrasound in the first trimester is the most accurate method, and accurate dating underpins every subsequent decision in the pregnancy.**
 > **· BOOKING INVESTIGATIONS: blood group and antibody screen · FBC and ferritin · rubella immunity · syphilis, hepatitis B, hepatitis C and HIV serology · urine culture (asymptomatic bacteriuria is treated in pregnancy) · and an offer of aneuploidy and structural screening with appropriate counselling.** `UNVERIFIED — the current recommended panel.`
 
 > [!warning] Recurrent pregnancy loss
 > **Investigation is generally offered after a defined number of consecutive losses.** `UNVERIFIED — the threshold, which has been revised downward in some guidance.`
 > **THE CAUSES WORTH KNOWING:**
-> **· ANTIPHOSPHOLIPID SYNDROME — the most important, because it is TREATABLE.** **Testing requires persistent antibody positivity on two occasions at least 12 weeks apart, and treatment with ASPIRIN PLUS LOW MOLECULAR WEIGHT HEPARIN substantially improves live birth rates.** Cross-refer [[J3]] 0.6.
+> **· ANTIPHOSPHOLIPID SYNDROME — the most important, because it is TREATABLE.** **Testing requires persistent antibody positivity on two occasions at least 12 weeks apart, and treatment with ASPIRIN PLUS LOW MOLECULAR WEIGHT HEPARIN substantially improves live birth rates.** Cross-refer [[J3_Bleeding_and_Thrombosis]] 0.6.
 > **· PARENTAL CHROMOSOMAL rearrangement — balanced translocation in one partner, identified by karyotyping both.**
 > **· UTERINE structural anomaly, and Asherman syndrome.**
 > **· ENDOCRINE — poorly controlled diabetes, thyroid disease and thyroid autoimmunity.**
@@ -192,4 +192,4 @@ population: mixed
 ---
 
 > [!note] Cross-references
-> Later pregnancy, pre-eclampsia and VTE in pregnancy → [[O2]] · Labour, delivery and postpartum → [[O3]] · Contraception, LARC and emergency contraception → [[O6]] 0.3 · Abnormal uterine bleeding and menstrual disorders → [[O4]] · Pelvic pain, PID and ovarian torsion → [[O5]] 0.1, 0.3 · Nausea, vomiting and antiemetic choice → [[C2]] 0.5 · Wernicke encephalopathy and thiamine → [[C2]] 0.7 and [[N2]] 0.1 · Massive haemorrhage and transfusion → [[A9]] 0.1 · Antiphospholipid syndrome and VTE → [[J3]] 0.6 · Teratogenic medication and epilepsy in pregnancy → [[D6]] 0.3 and [[N4]] 0.6 · Diabetes and preconception control → [[I2]] · Alcohol in pregnancy and FASD → [[N2]] 0.2 and [[M4]] 0.6 · Family violence, reproductive coercion and seeing the woman alone → [[GER4]] 0.4 · Breaking bad news and grief → [[GER5]] 0.2 · Rhesus disease and neonatal jaundice → [[M3]] 0.1
+> Later pregnancy, pre-eclampsia and VTE in pregnancy → [[O2_Later_Pregnancy_and_Fetal]] · Labour, delivery and postpartum → [[O3_Labour__Delivery_and_Postpartum]] · Contraception, LARC and emergency contraception → [[O6_Sexual_and_Reproductive_Health]] 0.3 · Abnormal uterine bleeding and menstrual disorders → [[O4_Abnormal_and_Menstrual_Bleeding]] · Pelvic pain, PID and ovarian torsion → [[O5_Pelvic_and_Vulval_Conditions]] 0.1, 0.3 · Nausea, vomiting and antiemetic choice → [[C2_Nausea_and_Vomiting]] 0.5 · Wernicke encephalopathy and thiamine → [[C2_Nausea_and_Vomiting]] 0.7 and [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.1 · Massive haemorrhage and transfusion → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1 · Antiphospholipid syndrome and VTE → [[J3_Bleeding_and_Thrombosis]] 0.6 · Teratogenic medication and epilepsy in pregnancy → [[D6_Seizures_and_Movement_Disorders]] 0.3 and [[N4_Mood_Disorders]] 0.6 · Diabetes and preconception control → [[I2_Diabetes_and_Glucose_Disorders]] · Alcohol in pregnancy and FASD → [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.2 and [[M4_Growth_and_Development]] 0.6 · Family violence, reproductive coercion and seeing the woman alone → [[GER4_Safeguarding_and_Forensic]] 0.4 · Breaking bad news and grief → [[GER5_Communication_and_Consultation_Skills]] 0.2 · Rhesus disease and neonatal jaundice → [[M3_Neonatal_Problems]] 0.1

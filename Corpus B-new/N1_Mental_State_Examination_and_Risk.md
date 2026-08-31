@@ -10,7 +10,7 @@ population: mixed
 > **The MENTAL HEALTH ACT 2009 (SA) governs involuntary assessment and treatment in South Australia, and mental health law DIFFERS BETWEEN STATES.** Every provision in 0.5 must be verified against the current Act, SA Health policy and your health network's forms. **Do not apply another jurisdiction's law.**
 > **Sedation agents and doses for acute behavioural disturbance are OMITTED entirely** — obtain them from your health network's protocol.
 >
-> **Delirium is built in [[D2]] 0.2**, **hyperthermic drug syndromes in [[A6]] 0.3**, and **capacity and consent in [[A10]] 0.1–0.2** — each is cross-referenced rather than repeated.
+> **Delirium is built in [[D2_Altered_Consciousness_and_Cognition]] 0.2**, **hyperthermic drug syndromes in [[A6_Thermal_and_Environmental_Injury]] 0.3**, and **capacity and consent in [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.2** — each is cross-referenced rather than repeated.
 
 ---
 
@@ -36,7 +36,7 @@ population: mixed
 > **Collateral from family, carers, the GP, the community team, previous records and ambulance staff frequently changes the assessment entirely** — particularly regarding timeline, baseline function, substance use and risk.
 > **Obtain it, with consent where possible — and in an emergency, obtaining information necessary to assess risk is generally justified without it.** Document what you did and why.
 > **EVERY psychiatric presentation requires observations, a physical examination and a targeted medical assessment.** See 0.6.
-> **Attributing new symptoms to a known psychiatric diagnosis without examining the patient is DIAGNOSTIC OVERSHADOWING**, and it is a documented cause of missed serious illness and premature death in people with mental illness. Cross-refer [[AU1]] 0.5.
+> **Attributing new symptoms to a known psychiatric diagnosis without examining the patient is DIAGNOSTIC OVERSHADOWING**, and it is a documented cause of missed serious illness and premature death in people with mental illness. Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.5.
 
 ---
 
@@ -92,7 +92,7 @@ population: mixed
 > **· Social factors — isolation, relationship breakdown, bereavement, unemployment, financial crisis, legal problems, homelessness.**
 > **· Access to means, and a family history of suicide.**
 > **· THE PERIOD IMMEDIATELY AFTER DISCHARGE from a psychiatric admission or an emergency presentation is among the HIGHEST-RISK periods there is** — which is why follow-up contact within days, arranged before the person leaves, is a core intervention rather than an administrative nicety.
-> **· Populations with elevated rates in Australia include Aboriginal and Torres Strait Islander people — particularly young people — LGBTIQA+ young people, people in rural and remote areas, people recently released from prison, and certain occupational groups.** Cross-refer [[AU1]] 0.4.
+> **· Populations with elevated rates in Australia include Aboriginal and Torres Strait Islander people — particularly young people — LGBTIQA+ young people, people in rural and remote areas, people recently released from prison, and certain occupational groups.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4.
 
 > [!tip] Self-harm without suicidal intent
 > **Self-harm and suicide attempts overlap but are not the same.** Self-harm frequently serves a function — **regulating overwhelming emotion, ending dissociation, communicating distress that cannot be spoken, or self-punishment.**
@@ -117,7 +117,7 @@ population: mixed
 > **Postvention matters — bereavement by suicide carries substantially increased risk for those left behind**, and families should be actively connected with support.
 > **Staff are affected too.** A patient death by suicide has a significant impact on the treating team, and structured support should be offered rather than assumed unnecessary.
 
-**Ix:** **A thorough history including collateral** (*why:* the assessment is clinical, and collateral frequently reveals what the person minimises; *what:* timeline, function, substance use, supports). **Physical examination and observations** (*why:* medical contributors and injuries; *what:* organic cause, injuries). **Toxicology and alcohol level where relevant, and a PARACETAMOL level after any overdose** (*why:* **paracetamol is commonly co-ingested, frequently not disclosed, and treatable — but only within a window**; *what:* levels — cross-refer [[A5]] 0.2). FBC, UEC, LFT, glucose, TFTs (*why:* medical contributors and baseline before medication; *what:* derangement). **ECG** (*why:* QT interval before antipsychotics and some antidepressants, and after overdose; *what:* QTc — cross-refer [[B3]] 0.3). Pregnancy test where relevant (*why:* changes medication choice; *what:* positive).
+**Ix:** **A thorough history including collateral** (*why:* the assessment is clinical, and collateral frequently reveals what the person minimises; *what:* timeline, function, substance use, supports). **Physical examination and observations** (*why:* medical contributors and injuries; *what:* organic cause, injuries). **Toxicology and alcohol level where relevant, and a PARACETAMOL level after any overdose** (*why:* **paracetamol is commonly co-ingested, frequently not disclosed, and treatable — but only within a window**; *what:* levels — cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.2). FBC, UEC, LFT, glucose, TFTs (*why:* medical contributors and baseline before medication; *what:* derangement). **ECG** (*why:* QT interval before antipsychotics and some antidepressants, and after overdose; *what:* QTc — cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3). Pregnancy test where relevant (*why:* changes medication choice; *what:* positive).
 
 ---
 
@@ -162,7 +162,7 @@ population: mixed
 
 > [!danger] Acute behavioural disturbance is medical until proven otherwise
 > **Before concluding that agitation is psychiatric, exclude: HYPOGLYCAEMIA · HYPOXIA · delirium from any cause · sepsis · HEAD INJURY · intracranial event · postictal state · intoxication and — importantly — WITHDRAWAL (alcohol, benzodiazepines) · drug toxicity including anticholinergic and sympathomimetic · urinary retention and constipation · and pain.**
-> **Check the glucose and the observations on every agitated patient.** Cross-refer [[D2]] 0.1–0.2 and see 0.6.
+> **Check the glucose and the observations on every agitated patient.** Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.1–0.2 and see 0.6.
 
 ---
 
@@ -184,7 +184,7 @@ population: mixed
 > **Being subject to the Mental Health Act does NOT mean a person lacks capacity for all decisions.**
 > **The Mental Health Act authorises treatment for MENTAL ILLNESS. It does NOT authorise unrelated medical or surgical treatment.**
 > **A patient on an inpatient treatment order who needs an appendicectomy requires consent through the ordinary pathway — their own if they have capacity, or substitute decision-making under the Consent to Medical Treatment and Palliative Care Act and the Guardianship and Administration Act if they do not.**
-> **Conflating the two is a common and consequential error.** Cross-refer [[A10]] 0.1–0.3.
+> **Conflating the two is a common and consequential error.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.3.
 > **Conversely, a person with serious mental illness may retain full capacity to refuse a specific medical treatment**, and that refusal must be respected.
 
 > [!tip] What an intern actually needs to be able to do
@@ -216,25 +216,25 @@ population: mixed
 > **· Recent medication changes, or substance use and withdrawal.**
 
 > [!tip] The organic differential
-> **· DELIRIUM from any cause — the most important and the commonest.** Cross-refer [[D2]] 0.2.
+> **· DELIRIUM from any cause — the most important and the commonest.** Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2.
 > **· Metabolic: HYPOGLYCAEMIA · hyponatraemia · hypercalcaemia · hepatic encephalopathy · uraemia · hypoxia and hypercapnia.**
-> **· Endocrine: thyroid disease in both directions · Cushing syndrome · ADRENAL INSUFFICIENCY · hyperparathyroidism.** Cross-refer [[I1]] and [[I4]].
+> **· Endocrine: thyroid disease in both directions · Cushing syndrome · ADRENAL INSUFFICIENCY · hyperparathyroidism.** Cross-refer [[I1_Thyroid_Disease]] and [[I4_Pituitary__Adrenal_and_Sex_Hormone]].
 > **· Neurological: intracranial haemorrhage or tumour · stroke · POSTICTAL states and NON-CONVULSIVE STATUS EPILEPTICUS · encephalitis · dementia (particularly frontotemporal, which presents as behavioural change) · Huntington disease · multiple sclerosis.**
-> **· AUTOIMMUNE ENCEPHALITIS — particularly ANTI-NMDA RECEPTOR encephalitis: a young person, often female, with a PSYCHIATRIC PRODROME (behavioural change, psychosis, agitation) followed by seizures, a movement disorder and autonomic instability, associated with an OVARIAN TERATOMA.** **It is treatable, it is frequently admitted to a psychiatric unit first, and it should be considered in new psychosis with any neurological feature.** Cross-refer [[D1]] 0.5.
+> **· AUTOIMMUNE ENCEPHALITIS — particularly ANTI-NMDA RECEPTOR encephalitis: a young person, often female, with a PSYCHIATRIC PRODROME (behavioural change, psychosis, agitation) followed by seizures, a movement disorder and autonomic instability, associated with an OVARIAN TERATOMA.** **It is treatable, it is frequently admitted to a psychiatric unit first, and it should be considered in new psychosis with any neurological feature.** Cross-refer [[D1_Headache_and_Meningism]] 0.5.
 > **· Infective: sepsis · encephalitis · HIV · NEUROSYPHILIS.**
 > **· Nutritional: WERNICKE ENCEPHALOPATHY — give thiamine before glucose in anyone at risk · B12 deficiency.**
-> **· Toxicological: intoxication and WITHDRAWAL — alcohol and benzodiazepine withdrawal in particular · stimulants · anticholinergic toxicity · corticosteroids · dopaminergic drugs.** Cross-refer [[A5]] and [[F0.1]].
-> **· WILSON DISEASE — a young person with a movement disorder, liver disease and psychiatric symptoms.** Cross-refer [[D6]] 0.4.
+> **· Toxicological: intoxication and WITHDRAWAL — alcohol and benzodiazepine withdrawal in particular · stimulants · anticholinergic toxicity · corticosteroids · dopaminergic drugs.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]].
+> **· WILSON DISEASE — a young person with a movement disorder, liver disease and psychiatric symptoms.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.4.
 
 > [!danger] The three drug-related emergencies that present behaviourally
 > **· NEUROLEPTIC MALIGNANT SYNDROME — lead-pipe rigidity, hyperthermia, autonomic instability and altered mental state, developing over DAYS after starting or increasing an antipsychotic, or after abrupt withdrawal of dopaminergic therapy. Raised CK.**
 > **· SEROTONIN TOXICITY — rigidity greater in the LOWER limbs with HYPERREFLEXIA and CLONUS, developing over HOURS after a serotonergic combination.**
 > **· CATATONIA — mutism, immobility, posturing, waxy flexibility, negativism, echolalia and echopraxia.** It occurs in mood disorders, psychotic illness and organic states, **and it is MISSED because the patient appears withdrawn or uncooperative rather than unwell.** **It RESPONDS TO BENZODIAZEPINES**, and **MALIGNANT CATATONIA — with autonomic instability and hyperthermia — is life-threatening.**
-> Cross-refer [[A6]] 0.3 and [[D6]] 0.7.
+> Cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.3 and [[D6_Seizures_and_Movement_Disorders]] 0.7.
 
 **Ix:** **Observations and bedside glucose in every case** (*why:* the two commonest reversible causes of an acute behavioural presentation, and they take seconds; *what:* fever, hypoxia, tachycardia, hypoglycaemia). FBC, UEC, calcium, LFT, TFTs, CRP (*why:* metabolic, endocrine and infective contributors; *what:* derangement). **Toxicology, alcohol level and PARACETAMOL level after any overdose** (*why:* commonly co-ingested and not disclosed; *what:* levels). **CT brain where there are focal signs, head injury, new onset in an older patient, or an unexplained picture** (*why:* structural cause; *what:* lesion, haemorrhage). **EEG where non-convulsive status or encephalitis is possible** (*why:* invisible without one; *what:* seizure activity). Lumbar puncture and autoimmune encephalitis antibodies where indicated (*why:* treatable, and initially misdiagnosed as psychiatric; *what:* CSF findings, antibodies). **CK** where there is rigidity or prolonged restraint (*why:* NMS and rhabdomyolysis; *what:* elevation). **ECG** (*why:* QT before antipsychotics, and after overdose; *what:* QTc, conduction).
 
 ---
 
 > [!note] Cross-references
-> Delirium and altered consciousness → [[D2]] 0.1–0.2 · Hyperthermic drug syndromes and catatonia → [[A6]] 0.3 and [[D6]] 0.7 · Autoimmune encephalitis → [[D1]] 0.5 · Non-convulsive status → [[D6]] 0.2 · Poisoning, overdose and paracetamol → [[A5]] and [[F0.1]] · Capacity, consent and substitute decision-making → [[A10]] 0.1–0.3 · Mood disorders → [[N4]] · Psychosis and antipsychotics → [[N3]] · Anxiety, trauma and functional disorders → [[N6]] · Substance use → [[N7]] · Eating disorders → [[N8]] · Personality and recurrent self-harm → [[N5]] · Aboriginal and Torres Strait Islander social and emotional wellbeing → [[AU1]] 0.4 · Thyroid and adrenal causes → [[I1]] and [[I4]] · QT prolongation → [[B3]] 0.3 · Communication and breaking bad news → [[GER5]]
+> Delirium and altered consciousness → [[D2_Altered_Consciousness_and_Cognition]] 0.1–0.2 · Hyperthermic drug syndromes and catatonia → [[A6_Thermal_and_Environmental_Injury]] 0.3 and [[D6_Seizures_and_Movement_Disorders]] 0.7 · Autoimmune encephalitis → [[D1_Headache_and_Meningism]] 0.5 · Non-convulsive status → [[D6_Seizures_and_Movement_Disorders]] 0.2 · Poisoning, overdose and paracetamol → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] · Capacity, consent and substitute decision-making → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.3 · Mood disorders → [[N4_Mood_Disorders]] · Psychosis and antipsychotics → [[N3_Psychosis_and_Antipsychotics]] · Anxiety, trauma and functional disorders → [[N6_Functional__Dissociative_and_Personality_Disorders]] · Substance use → [[N7_Sleep_Disorders]] · Eating disorders → [[N8_Eating_Disorders]] · Personality and recurrent self-harm → [[N5_Anxiety__OCD_and_Trauma]] · Aboriginal and Torres Strait Islander social and emotional wellbeing → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4 · Thyroid and adrenal causes → [[I1_Thyroid_Disease]] and [[I4_Pituitary__Adrenal_and_Sex_Hormone]] · QT prolongation → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3 · Communication and breaking bad news → [[GER5_Communication_and_Consultation_Skills]]

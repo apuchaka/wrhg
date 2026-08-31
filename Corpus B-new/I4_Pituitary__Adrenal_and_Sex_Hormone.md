@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Physiology, diagnostic logic and clinical reasoning are reliable at intern level. **Every dose, threshold, cut-off, imaging criterion and test protocol carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG Endocrinology**, the **Australian Medicines Handbook**, and endocrine society guidance — **dynamic test protocols (synacthen, dexamethasone suppression, OGTT for GH) are laboratory-specific and must come from your own laboratory.**
 >
-> **Adrenal crisis is built in [[F0.3]] 0.6**, and **primary aldosteronism and phaeochromocytoma are introduced in [[B2]] 0.4** — both are cross-referenced and extended here rather than repeated.
+> **Adrenal crisis is built in [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.6**, and **primary aldosteronism and phaeochromocytoma are introduced in [[B2_Hypertension_Spectrum]] 0.4** — both are cross-referenced and extended here rather than repeated.
 
 ---
 
@@ -27,7 +27,7 @@ population: mixed
 > **· Pituitary apoplexy** — see below.
 > **· Sheehan syndrome** — pituitary infarction following major postpartum haemorrhage. **Classically presents with FAILURE TO LACTATE and failure to resume menses**, though it may present years later with insidious hypopituitarism. **Ask about the obstetric history in any woman with unexplained hypopituitarism.**
 > **· Traumatic brain injury** — a genuinely under-recognised cause. Pituitary dysfunction after significant head injury is common and is frequently missed because the symptoms are attributed to the brain injury itself.
-> **· Infiltrative and inflammatory** — sarcoidosis, tuberculosis, haemochromatosis, Langerhans cell histiocytosis, **lymphocytic hypophysitis** (including in pregnancy) and **immune checkpoint inhibitor hypophysitis**, which is increasingly common and often permanent. Cross-refer [[A5]] 0.7.
+> **· Infiltrative and inflammatory** — sarcoidosis, tuberculosis, haemochromatosis, Langerhans cell histiocytosis, **lymphocytic hypophysitis** (including in pregnancy) and **immune checkpoint inhibitor hypophysitis**, which is increasingly common and often permanent. Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7.
 > **· Craniopharyngioma, metastases, empty sella, and genetic causes.**
 
 > [!danger] Secondary adrenal insufficiency looks different from primary — and the differences are diagnostic
@@ -38,11 +38,11 @@ population: mixed
 
 > [!danger] Give hydrocortisone before thyroxine
 > **In any patient with combined pituitary hormone deficiency, replace glucocorticoid FIRST.**
-> **Thyroid hormone increases cortisol clearance and metabolic demand, so giving thyroxine to a patient with unrecognised adrenal insufficiency can precipitate an adrenal crisis.** The same principle appears in myxoedema coma. Cross-refer [[I1]] 0.1 and 0.4.
+> **Thyroid hormone increases cortisol clearance and metabolic demand, so giving thyroxine to a patient with unrecognised adrenal insufficiency can precipitate an adrenal crisis.** The same principle appears in myxoedema coma. Cross-refer [[I1_Thyroid_Disease]] 0.1 and 0.4.
 
 > [!danger] Pituitary apoplexy
 > **Sudden haemorrhage or infarction into a pituitary tumour** — often the first presentation of a previously unknown adenoma.
-> **Presentation: abrupt severe headache (frequently thunderclap), visual field loss, ophthalmoplegia from cavernous sinus involvement (III, IV, VI), reduced consciousness, and meningism** — and it is **misdiagnosed as subarachnoid haemorrhage or meningitis.** Cross-refer [[D1]] 0.2 and [[D7]] 0.6.
+> **Presentation: abrupt severe headache (frequently thunderclap), visual field loss, ophthalmoplegia from cavernous sinus involvement (III, IV, VI), reduced consciousness, and meningism** — and it is **misdiagnosed as subarachnoid haemorrhage or meningitis.** Cross-refer [[D1_Headache_and_Meningism]] 0.2 and [[D7_Cranial_Nerves_and_Special_Senses]] 0.6.
 > **The immediate priority is HYDROCORTISONE** — acute ACTH deficiency causes adrenal crisis and is the reversible cause of death. **Give it before imaging confirms anything.**
 > Then urgent MRI, ophthalmological assessment of fields and acuity, and neurosurgical involvement, with surgery for visual compromise or deteriorating consciousness.
 
@@ -50,7 +50,7 @@ population: mixed
 > **Cranial (central) DI** — deficient ADH: pituitary surgery, tumour, trauma, infiltration.
 > **Nephrogenic DI** — renal resistance to ADH: **lithium (the commonest), hypercalcaemia, hypokalaemia**, chronic kidney disease.
 > **Polyuria and polydipsia with dilute urine despite a rising serum osmolality.** Distinguished from primary polydipsia by water deprivation testing or copeptin measurement, and from cranial DI by the response to desmopressin.
-> **After pituitary surgery, a triphasic response can occur — transient DI, then a phase of SIADH as stored hormone is released, then permanent DI** — so **a post-operative patient can swing from hypernatraemia to hyponatraemia and back**, which is confusing if not anticipated. Cross-refer [[H3]].
+> **After pituitary surgery, a triphasic response can occur — transient DI, then a phase of SIADH as stored hormone is released, then permanent DI** — so **a post-operative patient can swing from hypernatraemia to hyponatraemia and back**, which is confusing if not anticipated. Cross-refer [[H3_Acute_Kidney_Injury_and_CKD]].
 
 **S/Smx:** Insidious and non-specific — **fatigue, weight change, loss of libido, amenorrhoea, erectile dysfunction, loss of axillary and pubic hair, pallor with fine wrinkled skin, cold intolerance, postural dizziness, and hypoglycaemia.** Plus mass effect: **headache and bitemporal visual field loss.**
 
@@ -71,7 +71,7 @@ Replace the deficient hormones — **glucocorticoid first, then thyroxine, then 
 
 > [!tip] Mass effect
 > **· Bitemporal hemianopia** from compression of the decussating nasal fibres at the optic chiasm — **the visual field defect that is nearly pathognomonic of a suprasellar mass.**
-> **· Cranial nerve palsies (III, IV, V1, V2, VI) with lateral extension into the cavernous sinus** — cross-refer [[D7]] 0.6.
+> **· Cranial nerve palsies (III, IV, V1, V2, VI) with lateral extension into the cavernous sinus** — cross-refer [[D7_Cranial_Nerves_and_Special_Senses]] 0.6.
 > **· Headache · hypopituitarism · and hydrocephalus with very large lesions.**
 
 > [!danger] Prolactinoma — check the simple things before ordering an MRI
@@ -101,7 +101,7 @@ Replace the deficient hormones — **glucocorticoid first, then thyroxine, then 
 > **· Cushing disease** — an ACTH-secreting pituitary adenoma, usually a microadenoma. See 0.4.
 > **· Non-functioning adenoma** — the commonest macroadenoma, presenting with mass effect and hypopituitarism.
 > **· Craniopharyngioma** — suprasellar, often calcified, presenting in children and again in older adults, with **a high rate of diabetes insipidus and hypothalamic dysfunction** including obesity and disordered thirst.
-> **· TSH-secreting adenoma** — rare, producing the unusual pattern of **raised free T4 with a non-suppressed TSH.** Cross-refer [[I1]] 0.1.
+> **· TSH-secreting adenoma** — rare, producing the unusual pattern of **raised free T4 with a non-suppressed TSH.** Cross-refer [[I1_Thyroid_Disease]] 0.1.
 
 **Ix:** **Prolactin, with pregnancy test, TFTs and medication review FIRST** (*why:* these explain most raised prolactins at no cost; *what:* the reversible cause). Request for macroprolactin screening or serial dilution where the result does not fit the picture (*why:* the two assay pitfalls above; *what:* true prolactin level). **IGF-1** (*why:* the screening test for acromegaly; *what:* elevation for age). **Oral glucose tolerance test with GH measurement** (*why:* confirms acromegaly; *what:* failure of GH suppression). **Full anterior pituitary profile** (*why:* co-existing hypopituitarism determines replacement needs; *what:* deficiencies). **MRI pituitary** (*why:* the imaging test; *what:* adenoma size and extension). **Formal visual field testing** (*why:* determines urgency of surgery; *what:* bitemporal defect). Colonoscopy in acromegaly (*why:* increased colonic neoplasia risk; *what:* polyps), and echocardiography and sleep study (*why:* cardiomyopathy and sleep apnoea are major contributors to morbidity; *what:* structural disease, apnoea-hypopnoea index).
 
@@ -138,10 +138,10 @@ Surveillance imaging and hormone assessment, replacement of deficiencies, and �
 > [!warning] Causes of primary adrenal insufficiency
 > **· Autoimmune adrenalitis — the commonest in Australia**, with 21-hydroxylase antibodies, often as part of an autoimmune polyglandular syndrome (with type 1 diabetes, autoimmune thyroid disease, coeliac disease, vitiligo, pernicious anaemia).
 > **· Tuberculosis — the commonest cause worldwide**, and still relevant in migrant populations.
-> **· Adrenal haemorrhage** — meningococcal sepsis (Waterhouse-Friderichsen), anticoagulation, antiphospholipid syndrome, trauma. Cross-refer [[F0.3]] 0.9.
+> **· Adrenal haemorrhage** — meningococcal sepsis (Waterhouse-Friderichsen), anticoagulation, antiphospholipid syndrome, trauma. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9.
 > **· Metastases** (lung, breast, melanoma) and lymphoma.
 > **· Congenital adrenal hyperplasia** — see 0.6.
-> **· Drugs** — ketoconazole, etomidate (a single induction dose suppresses steroidogenesis), and **immune checkpoint inhibitors.** Cross-refer [[A5]] 0.7.
+> **· Drugs** — ketoconazole, etomidate (a single induction dose suppresses steroidogenesis), and **immune checkpoint inhibitors.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7.
 > **· Adrenoleukodystrophy** in young males.
 
 **S/Smx:** **Fatigue, weight loss, anorexia, nausea and vomiting, abdominal pain (which can mimic an acute abdomen), postural dizziness, salt craving, myalgia and arthralgia, and hyperpigmentation in primary disease.** The onset is insidious and the diagnosis is frequently made only when a crisis occurs.
@@ -158,7 +158,7 @@ Surveillance imaging and hormone assessment, replacement of deficiencies, and �
 **Ix:** **Morning (8–9 am) cortisol** (*why:* the screening test, exploiting the diurnal peak — a clearly high value excludes and a clearly low value confirms, with intermediate values requiring dynamic testing; *what:* low, indeterminate or reassuring). **Short synacthen test** (*why:* the confirmatory test; *what:* failure of cortisol to rise adequately — noting it **may be falsely normal in very recent secondary insufficiency** before the adrenals atrophy). **ACTH, taken with the cortisol** (*why:* **distinguishes primary from secondary, which determines whether fludrocortisone is needed and whether the pituitary needs imaging**; *what:* high in primary, low or normal in secondary). **UEC** (*why:* the sodium and potassium pattern is itself diagnostic; *what:* hyponatraemia, hyperkalaemia in primary). Glucose (*why:* hypoglycaemia; *what:* low glucose). **21-hydroxylase antibodies** (*why:* confirms autoimmune aetiology and prompts screening for associated autoimmune disease; *what:* positive). **Adrenal CT where antibodies are negative** (*why:* identifies haemorrhage, infiltration, metastases or tuberculosis; *what:* adrenal enlargement, calcification, mass). **MRI pituitary where secondary and not explained by steroid use** (*why:* pituitary pathology; *what:* lesion). Full pituitary profile in secondary disease (*why:* other axes are usually also affected; *what:* additional deficiencies).
 
 ### 0.3.1 Mx – Immediate
-**Adrenal crisis: hydrocortisone and fluid resuscitation immediately, before confirmation. Take the cortisol first only if it costs no delay.** Cross-refer [[F0.3]] 0.6.
+**Adrenal crisis: hydrocortisone and fluid resuscitation immediately, before confirmation. Take the cortisol first only if it costs no delay.** Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.6.
 
 ### 0.3.2 Mx – Definitive
 **Hydrocortisone in divided doses mimicking the diurnal rhythm, plus FLUDROCORTISONE in PRIMARY disease only.** `UNVERIFIED — doses and regimens.`
@@ -216,7 +216,7 @@ Not usually required, except for severe hypokalaemia, uncontrolled hyperglycaemi
 ## 0.5 Mineralocorticoid Excess and Phaeochromocytoma
 
 > [!warning] Primary aldosteronism — commoner than taught, and specifically treatable
-> Introduced in [[B2]] 0.4. The points that bear repeating:
+> Introduced in [[B2_Hypertension_Spectrum]] 0.4. The points that bear repeating:
 > **· It accounts for a substantial minority of hypertension and a larger proportion of resistant hypertension.**
 > **· HYPOKALAEMIA IS PRESENT IN ONLY A MINORITY — its absence does NOT exclude the diagnosis.** This is the single most consequential misconception.
 > **· Screen with the aldosterone-to-renin ratio**, recognising that **beta-blockers, ACE inhibitors, ARBs, diuretics and especially mineralocorticoid receptor antagonists all interfere** — so the drugs the patient is already on are precisely the ones that confound the test.
@@ -225,7 +225,7 @@ Not usually required, except for severe hypokalaemia, uncontrolled hyperglycaemi
 > `UNVERIFIED — screening thresholds, drug withdrawal periods, and confirmatory protocols.`
 
 > [!danger] Phaeochromocytoma and paraganglioma
-> Introduced in [[B2]] 0.4. Extended here:
+> Introduced in [[B2_Hypertension_Spectrum]] 0.4. Extended here:
 > **· The classic triad is EPISODIC headache, palpitations and diaphoresis**, characteristically with **pallor rather than flushing**, on a background of sustained or labile hypertension. Attacks may be provoked by exertion, anaesthesia, palpation of the abdomen, or certain drugs.
 > **· ALPHA BLOCKADE MUST PRECEDE BETA BLOCKADE.** Giving a beta-blocker first leaves unopposed alpha-mediated vasoconstriction and can precipitate a hypertensive crisis. This is the single most examined point.
 > **· Screen with plasma free metanephrines or 24-hour urinary metanephrines**, which are more sensitive than catecholamines. **False positives occur with tricyclics, levodopa, stimulants, and physiological stress**, so pre-test conditions matter.
@@ -241,7 +241,7 @@ Not usually required, except for severe hypokalaemia, uncontrolled hyperglycaemi
 **Ix:** **Aldosterone-to-renin ratio** with attention to interfering drugs (*why:* screens for primary aldosteronism; *what:* raised ratio requiring confirmation). **Plasma free or urinary metanephrines** (*why:* screens for phaeochromocytoma, and must be done before any adrenal intervention; *what:* elevated). **Genetic testing in confirmed phaeochromocytoma or paraganglioma** (*why:* a high proportion are hereditary, with surveillance and family implications; *what:* germline variant). Potassium, bicarbonate and blood pressure (*why:* the hypokalaemic alkalotic hypertensive pattern; *what:* the combination). CT or MRI adrenals (*why:* localisation; *what:* mass). **Adrenal vein sampling in confirmed primary aldosteronism being considered for surgery** (*why:* CT cannot reliably lateralise; *what:* lateralisation).
 
 ### 0.5.1 Mx – Immediate
-**Alpha blockade before beta blockade in a phaeochromocytoma crisis.** Cross-refer [[B2]] 0.3.
+**Alpha blockade before beta blockade in a phaeochromocytoma crisis.** Cross-refer [[B2_Hypertension_Spectrum]] 0.3.
 
 ### 0.5.2 Mx – Definitive
 Adrenalectomy after adequate alpha blockade for phaeochromocytoma; adrenalectomy or mineralocorticoid receptor antagonist for primary aldosteronism.
@@ -266,7 +266,7 @@ Adrenalectomy after adequate alpha blockade for phaeochromocytoma; adrenalectomy
 > [!tip] Polycystic ovary syndrome — the commonest cause by a wide margin
 > **Diagnosed by the Rotterdam criteria — two of three: oligo- or anovulation · clinical or biochemical hyperandrogenism · polycystic ovarian morphology on ultrasound** — **after excluding other causes**, which makes it partly a diagnosis of exclusion. `UNVERIFIED — the criteria and the ultrasound thresholds, and the modified criteria for adolescents, in whom polycystic morphology is common and normal.`
 > **The metabolic dimension matters more than the cosmetic one**: insulin resistance, impaired glucose tolerance and type 2 diabetes, metabolic dysfunction-associated steatotic liver disease, obstructive sleep apnoea, dyslipidaemia and cardiovascular risk.
-> **And the endometrial risk: chronic anovulation means unopposed oestrogen, which causes endometrial hyperplasia and carcinoma.** **Women with PCOS and prolonged amenorrhoea need endometrial protection** — cyclical progestogen, a combined pill, or a hormonal IUD. **This is frequently overlooked when the focus is on hair and fertility.** Cross-refer [[O4]].
+> **And the endometrial risk: chronic anovulation means unopposed oestrogen, which causes endometrial hyperplasia and carcinoma.** **Women with PCOS and prolonged amenorrhoea need endometrial protection** — cyclical progestogen, a combined pill, or a hormonal IUD. **This is frequently overlooked when the focus is on hair and fertility.** Cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]].
 
 > [!warning] The other causes
 > **· Non-classical congenital adrenal hyperplasia (21-hydroxylase deficiency)** — presents in adolescence or adulthood with hirsutism and oligomenorrhoea, indistinguishable from PCOS clinically. **Screened for with an early-morning follicular-phase 17-hydroxyprogesterone**, and it matters because management and genetic counselling differ.
@@ -274,7 +274,7 @@ Adrenalectomy after adequate alpha blockade for phaeochromocytoma; adrenalectomy
 > **· Hyperprolactinaemia** and **acromegaly.**
 > **· Drugs — anabolic steroids, testosterone (including partner's transdermal gel transferred by skin contact), danazol, and valproate.**
 > **· Ovarian hyperthecosis** in postmenopausal women.
-> **· Classical congenital adrenal hyperplasia** presenting in the neonate with ambiguous genitalia and salt-wasting crisis — a paediatric emergency. Cross-refer [[M3]].
+> **· Classical congenital adrenal hyperplasia** presenting in the neonate with ambiguous genitalia and salt-wasting crisis — a paediatric emergency. Cross-refer [[M3_Neonatal_Problems]].
 
 > [!tip] Male hypogonadism, briefly
 > **Primary (testicular) — LOW testosterone with HIGH LH and FSH.** Klinefelter syndrome, orchitis, trauma, chemotherapy, radiation.
@@ -342,4 +342,4 @@ Adrenalectomy for functioning lesions, for those with concerning imaging feature
 ---
 
 > [!note] Cross-references
-> Adrenal crisis → [[F0.3]] 0.6 · Primary aldosteronism and phaeochromocytoma in the hypertension context → [[B2]] 0.4 · Hypertensive emergency → [[B2]] 0.3 · Thyroid axis and giving hydrocortisone before thyroxine → [[I1]] 0.1, 0.4 · Diabetes, steroid-induced hyperglycaemia → [[I2]] 0.7 · Calcium and bone → [[I3]] · Obesity, weight and lipids → [[I5]] · Hyponatraemia, SIADH and diabetes insipidus → [[H3]] · Pituitary apoplexy and thunderclap headache → [[D1]] 0.2 · Cavernous sinus and cranial nerves → [[D7]] 0.6 · Bitemporal hemianopia → [[E2]] · Checkpoint inhibitor endocrinopathy → [[A5]] 0.7 · Osteoporosis and steroid-induced bone loss → [[GER1]] 0.6 · PCOS, menstrual disorders and endometrial protection → [[O4]] · Contraception and teratogenic antiandrogens → [[O6]] · Congenital adrenal hyperplasia in the neonate → [[M3]] · Proximal myopathy → [[B6]] 0.6
+> Adrenal crisis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.6 · Primary aldosteronism and phaeochromocytoma in the hypertension context → [[B2_Hypertension_Spectrum]] 0.4 · Hypertensive emergency → [[B2_Hypertension_Spectrum]] 0.3 · Thyroid axis and giving hydrocortisone before thyroxine → [[I1_Thyroid_Disease]] 0.1, 0.4 · Diabetes, steroid-induced hyperglycaemia → [[I2_Diabetes_and_Glucose_Disorders]] 0.7 · Calcium and bone → [[I3_Calcium__Parathyroid_and_Bone]] · Obesity, weight and lipids → [[I5_Weight__Lipids_and_Fluid_Balance]] · Hyponatraemia, SIADH and diabetes insipidus → [[H3_Acute_Kidney_Injury_and_CKD]] · Pituitary apoplexy and thunderclap headache → [[D1_Headache_and_Meningism]] 0.2 · Cavernous sinus and cranial nerves → [[D7_Cranial_Nerves_and_Special_Senses]] 0.6 · Bitemporal hemianopia → [[E2_Vision_Loss_and_Disturbance]] · Checkpoint inhibitor endocrinopathy → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7 · Osteoporosis and steroid-induced bone loss → [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 · PCOS, menstrual disorders and endometrial protection → [[O4_Abnormal_and_Menstrual_Bleeding]] · Contraception and teratogenic antiandrogens → [[O6_Sexual_and_Reproductive_Health]] · Congenital adrenal hyperplasia in the neonate → [[M3_Neonatal_Problems]] · Proximal myopathy → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.6

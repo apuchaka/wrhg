@@ -8,14 +8,14 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Clinical reasoning, discriminators and management principles are reliable at intern level. **Every dose, taper schedule, diagnostic criterion and threshold carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG Rheumatology** and current Australian rheumatology and pain guidance.
 >
-> **Inflammatory and drug-induced myopathy is built in [[D4]] 0.6**, and **giant cell arteritis in [[D1]] 0.4** — both are cross-referenced and extended here rather than repeated.
+> **Inflammatory and drug-induced myopathy is built in [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6**, and **giant cell arteritis in [[D1_Headache_and_Meningism]] 0.4** — both are cross-referenced and extended here rather than repeated.
 
 ---
 
 ## 0.1 Approach to Muscle Symptoms
 
 > [!danger] Patients say "weak" for at least four different things — establish which
-> **· TRUE WEAKNESS** — objective loss of power. Neuromuscular. Cross-refer [[D4]] 0.1.
+> **· TRUE WEAKNESS** — objective loss of power. Neuromuscular. Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.1.
 > **· MYALGIA** — pain, with normal power once the pain is overcome.
 > **· STIFFNESS** — difficulty initiating or sustaining movement, which may be inflammatory, parkinsonian or mechanical.
 > **· FATIGUE** — tiredness and lack of stamina, which is not weakness at all.
@@ -25,8 +25,8 @@ population: mixed
 > [!tip] The pattern narrows it fast
 > **· Proximal, symmetrical, painless weakness → myopathy** (inflammatory, drug-induced, endocrine, metabolic).
 > **· Proximal PAIN and stiffness with preserved power → polymyalgia rheumatica** (see 0.2), or bilateral rotator cuff disease.
-> **· Distal weakness → neuropathy** (cross-refer [[D4]] 0.2), or **inclusion body myositis** (which uniquely affects finger flexors and quadriceps, asymmetrically).
-> **· Fatigable weakness worse through the day → neuromuscular junction** (cross-refer [[D4]] 0.5).
+> **· Distal weakness → neuropathy** (cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.2), or **inclusion body myositis** (which uniquely affects finger flexors and quadriceps, asymmetrically).
+> **· Fatigable weakness worse through the day → neuromuscular junction** (cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.5).
 > **· Widespread pain with normal power and normal investigations → nociplastic pain** (see 0.5).
 
 > [!warning] What a creatine kinase does and does not tell you
@@ -37,12 +37,12 @@ population: mixed
 
 > [!danger] Red flags in muscle symptoms
 > **· Rapidly progressive weakness** — think Guillain–Barré, myasthenic crisis, necrotising myopathy.
-> **· Respiratory or bulbar involvement** — breathlessness lying flat, weak cough, choking, nasal voice. **Monitor FVC, not oximetry** — cross-refer [[F0.5]] 0.5.
-> **· Dark or "cola-coloured" urine** — rhabdomyolysis. Cross-refer [[A7]] 0.6.
+> **· Respiratory or bulbar involvement** — breathlessness lying flat, weak cough, choking, nasal voice. **Monitor FVC, not oximetry** — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5.
+> **· Dark or "cola-coloured" urine** — rhabdomyolysis. Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.
 > **· Systemic features — fever, weight loss, rash** — think inflammatory myopathy, vasculitis, malignancy.
 > **· New headache, jaw claudication or visual symptoms in a patient over 50** — **giant cell arteritis. Steroids immediately.** See 0.3.
 
-**Ix:** **CK, TSH, UEC, calcium, phosphate, magnesium, vitamin D, ESR and CRP** (*why:* covers the endocrine, electrolyte and inflammatory causes of muscle symptoms, most of which are reversible; *what:* the abnormality — **and remember vitamin D deficiency causing osteomalacic proximal myopathy, cross-refer [[I3]] 0.5**). **Medication review** (*why:* statins, corticosteroids, colchicine, and alcohol are among the commonest causes; *what:* culprit drug). EMG and nerve conduction studies (*why:* distinguishes myopathy from neuropathy and from neuromuscular junction disease; *what:* the pattern). Myositis-specific antibodies and muscle MRI or biopsy where inflammatory myopathy is suspected (*why:* classifies and directs treatment; *what:* histology, antibody profile — cross-refer [[D4]] 0.6).
+**Ix:** **CK, TSH, UEC, calcium, phosphate, magnesium, vitamin D, ESR and CRP** (*why:* covers the endocrine, electrolyte and inflammatory causes of muscle symptoms, most of which are reversible; *what:* the abnormality — **and remember vitamin D deficiency causing osteomalacic proximal myopathy, cross-refer [[I3_Calcium__Parathyroid_and_Bone]] 0.5**). **Medication review** (*why:* statins, corticosteroids, colchicine, and alcohol are among the commonest causes; *what:* culprit drug). EMG and nerve conduction studies (*why:* distinguishes myopathy from neuropathy and from neuromuscular junction disease; *what:* the pattern). Myositis-specific antibodies and muscle MRI or biopsy where inflammatory myopathy is suspected (*why:* classifies and directs treatment; *what:* histology, antibody profile — cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6).
 
 ---
 
@@ -72,11 +72,11 @@ population: mixed
 > **· Elderly-onset RHEUMATOID ARTHRITIS** — can present with a polymyalgic picture. **Look for peripheral synovitis and check anti-CCP.**
 > **· Inflammatory MYOPATHY** — true weakness and a raised CK.
 > **· HYPOTHYROIDISM** — proximal aches, stiffness, fatigue, raised CK. **Check the TSH.**
-> **· MALIGNANCY** — particularly myeloma, lymphoma and solid tumours, which cause aches, weight loss and a high ESR. **Check a serum protein electrophoresis** — cross-refer [[J4]].
-> **· INFECTION — infective endocarditis in particular** presents with malaise, aches, weight loss and a high inflammatory response, and **immunosuppressing it is disastrous.** Cross-refer [[B5]] 0.2.
-> **· STATIN-associated muscle symptoms** — cross-refer [[I5]] 0.3.
+> **· MALIGNANCY** — particularly myeloma, lymphoma and solid tumours, which cause aches, weight loss and a high ESR. **Check a serum protein electrophoresis** — cross-refer [[J4_Paraproteins_and_Lymphoproliferative]].
+> **· INFECTION — infective endocarditis in particular** presents with malaise, aches, weight loss and a high inflammatory response, and **immunosuppressing it is disastrous.** Cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.2.
+> **· STATIN-associated muscle symptoms** — cross-refer [[I5_Weight__Lipids_and_Fluid_Balance]] 0.3.
 > **· Bilateral rotator cuff disease and adhesive capsulitis** — mechanical, without systemic features or a raised ESR.
-> **· PARKINSON disease** — rigidity and slowness misread as stiffness. Cross-refer [[D6]] 0.5.
+> **· PARKINSON disease** — rigidity and slowness misread as stiffness. Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.5.
 > **· Late-onset spondyloarthritis, osteoarthritis, vitamin D deficiency, and depression.**
 
 > [!danger] Every PMR patient must be counselled about giant cell arteritis
@@ -95,7 +95,7 @@ Not applicable — **unless GCA is suspected, in which case give high-dose stero
 **Low-dose prednisolone with a slow, structured taper over one to two years.** **Relapse during tapering is common** and usually responds to a modest dose increase. **Steroid-sparing agents — methotrexate, and tocilizumab — for relapsing disease or where steroid toxicity is a concern.** `UNVERIFIED — doses, taper schedules and steroid-sparing indications.`
 
 ### 0.2.3 Mx – Chronic/long-term
-**BONE PROTECTION FROM DAY ONE** — calcium, vitamin D, bone density assessment and bisphosphonate consideration, because a one-to-two-year steroid course reliably causes bone loss and these are elderly patients already at fracture risk. Cross-refer [[GER1]] 0.6.
+**BONE PROTECTION FROM DAY ONE** — calcium, vitamin D, bone density assessment and bisphosphonate consideration, because a one-to-two-year steroid course reliably causes bone loss and these are elderly patients already at fracture risk. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.6.
 **Also: glucose monitoring (steroid-induced diabetes), blood pressure, gastric protection where indicated, cataract and glaucoma awareness, infection risk, and a steroid card.**
 **Repeated GCA counselling at every review**, not just at diagnosis.
 
@@ -103,7 +103,7 @@ Not applicable — **unless GCA is suspected, in which case give high-dose stero
 
 ## 0.3 Giant Cell Arteritis — The Overlap
 
-Built in [[D1]] 0.4. Extended here for the PMR relationship and the large-vessel manifestations.
+Built in [[D1_Headache_and_Meningism]] 0.4. Extended here for the PMR relationship and the large-vessel manifestations.
 
 > [!danger] The core principle bears repeating: treat before you investigate
 > **High-dose corticosteroids are started on clinical suspicion — before the ESR result, before the temporal artery biopsy, and before imaging.**
@@ -120,27 +120,27 @@ Built in [[D1]] 0.4. Extended here for the PMR relationship and the large-vessel
 > **· Limb claudication, particularly of the arms · asymmetric pulses or blood pressure · bruits · and constitutional symptoms with a very high inflammatory response and NO headache at all.**
 > **· Later: thoracic aortic aneurysm and dissection**, which is why long-term aortic surveillance is considered.
 > **This presentation is diagnosed on imaging — PET-CT, CT or MR angiography — not on temporal artery biopsy**, which may be entirely normal.
-> **Consider it in an older patient with an unexplained inflammatory syndrome and no localising features** — it is a recognised cause of "fever of unknown origin" in this age group. Cross-refer [[K1]] 0.3.
+> **Consider it in an older patient with an unexplained inflammatory syndrome and no localising features** — it is a recognised cause of "fever of unknown origin" in this age group. Cross-refer [[K1_Fever_Workup]] 0.3.
 
 > [!tip] Ultrasound and steroid-sparing therapy
 > **Temporal and axillary artery ultrasound looking for the "halo sign"** (a hypoechoic circumferential wall thickening) is increasingly used and can be done rapidly, but is operator-dependent and its sensitivity falls after steroids are started — **so it should be done early if it is going to be done.**
 > **Tocilizumab is an effective steroid-sparing agent in GCA** and reduces cumulative steroid exposure, which matters enormously in this elderly population. `UNVERIFIED — availability and PBS criteria in Australia.`
 
-**Ix:** As per [[D1]] 0.4, plus **large-vessel imaging (PET-CT, CT or MR angiography) where the presentation is constitutional without cranial features** (*why:* temporal artery biopsy will be negative in large-vessel disease; *what:* aortic and branch wall thickening or uptake). **Aortic surveillance imaging in the long term** (*why:* aneurysm and dissection risk; *what:* aortic dilatation).
+**Ix:** As per [[D1_Headache_and_Meningism]] 0.4, plus **large-vessel imaging (PET-CT, CT or MR angiography) where the presentation is constitutional without cranial features** (*why:* temporal artery biopsy will be negative in large-vessel disease; *what:* aortic and branch wall thickening or uptake). **Aortic surveillance imaging in the long term** (*why:* aneurysm and dissection risk; *what:* aortic dilatation).
 
 ---
 
 ## 0.4 Myopathy and the Raised CK
 
-Built in [[D4]] 0.6. The points worth carrying here:
+Built in [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6. The points worth carrying here:
 
 > [!tip] The pattern that separates the myopathies
 > **· Inflammatory (polymyositis, dermatomyositis)** — subacute proximal weakness, raised CK, treatable with immunosuppression. **Dermatomyositis carries a paraneoplastic association requiring age-appropriate malignancy screening.**
 > **· Inclusion body myositis** — **older, ASYMMETRIC, FINGER FLEXORS and QUADRICEPS, slowly progressive, steroid-UNRESPONSIVE.** Misdiagnosis as polymyositis leads to years of futile immunosuppression.
-> **· Statin-associated** — from myalgia through to rhabdomyolysis, and **immune-mediated necrotising myopathy with anti-HMGCR antibodies, which PROGRESSES AFTER the statin is stopped.** Cross-refer [[I5]] 0.3.
+> **· Statin-associated** — from myalgia through to rhabdomyolysis, and **immune-mediated necrotising myopathy with anti-HMGCR antibodies, which PROGRESSES AFTER the statin is stopped.** Cross-refer [[I5_Weight__Lipids_and_Fluid_Balance]] 0.3.
 > **· STEROID myopathy — proximal weakness with a NORMAL CK.** Improves with dose reduction and exercise.
 > **· Endocrine — hypothyroidism, hyperthyroidism, Cushing syndrome, and vitamin D deficiency with osteomalacia.** All reversible, all worth testing for.
-> **· Rhabdomyolysis** — cross-refer [[A7]] 0.6.
+> **· Rhabdomyolysis** — cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.
 
 > [!warning] Investigating asymptomatic hyperCKaemia
 > **Repeat it after several days of rest, avoiding exercise, before doing anything else** — exercise-related elevation is by far the commonest explanation.
@@ -181,10 +181,10 @@ Built in [[D4]] 0.6. The points worth carrying here:
 > [!danger] Opioids are contraindicated in fibromyalgia and cause harm
 > **They do not work for nociplastic pain, they cause OPIOID-INDUCED HYPERALGESIA which worsens the underlying problem, and they cause dependence, cognitive impairment and endocrine dysfunction.**
 > **Patients with fibromyalgia are disproportionately likely to end up on long-term opioids** — because the pain is severe, the consultations are difficult, and prescribing something feels like doing something.
-> **Deprescribing opioids in an established fibromyalgia patient is difficult but is one of the more valuable things that can be done**, and it requires a plan, time and support rather than abrupt cessation. Cross-refer [[F0.4]] 0.9.
+> **Deprescribing opioids in an established fibromyalgia patient is difficult but is one of the more valuable things that can be done**, and it requires a plan, time and support rather than abrupt cessation. Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9.
 > **Avoid the harm cycle: repeated imaging, repeated referrals, injections, procedures, surgery and opioids.** Each intervention that fails deepens the illness identity.
 
-**Ix:** **The limited screen above, once** (*why:* identifies the treatable mimics — hypothyroidism, inflammatory disease, myopathy, coeliac disease, vitamin D deficiency — and nothing further is indicated; *what:* the mimic or, more often, normal results). **Screening for depression, anxiety, and a trauma history** (*why:* they are common, treatable, and adverse childhood experiences are over-represented — asked sensitively, not as an implication that the pain is psychological; *what:* comorbid mood disorder). **Sleep assessment** (*why:* obstructive sleep apnoea and restless legs are common, treatable, and directly worsen pain and fatigue; *what:* apnoea, low ferritin in restless legs — cross-refer [[D6]] 0.6).
+**Ix:** **The limited screen above, once** (*why:* identifies the treatable mimics — hypothyroidism, inflammatory disease, myopathy, coeliac disease, vitamin D deficiency — and nothing further is indicated; *what:* the mimic or, more often, normal results). **Screening for depression, anxiety, and a trauma history** (*why:* they are common, treatable, and adverse childhood experiences are over-represented — asked sensitively, not as an implication that the pain is psychological; *what:* comorbid mood disorder). **Sleep assessment** (*why:* obstructive sleep apnoea and restless legs are common, treatable, and directly worsen pain and fatigue; *what:* apnoea, low ferritin in restless legs — cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.6).
 
 ### 0.5.1 Mx – Immediate
 Not applicable.
@@ -200,7 +200,7 @@ The multimodal package above, with education and graded exercise as the core.
 ## 0.6 Chronic Fatigue and the Overlap Syndromes
 
 > [!tip] Approach to chronic fatigue
-> The differential is broad and is covered in [[B6]] 0.5. The essential exclusions: **anaemia and iron deficiency · thyroid disease · diabetes · coeliac disease · obstructive sleep apnoea · chronic kidney or liver disease · adrenal insufficiency · malignancy · chronic infection including HIV and hepatitis · MEDICATION · and DEPRESSION**, which is both a common cause and a common consequence.
+> The differential is broad and is covered in [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.5. The essential exclusions: **anaemia and iron deficiency · thyroid disease · diabetes · coeliac disease · obstructive sleep apnoea · chronic kidney or liver disease · adrenal insufficiency · malignancy · chronic infection including HIV and hepatitis · MEDICATION · and DEPRESSION**, which is both a common cause and a common consequence.
 > **A limited, targeted screen — then stop**, as in 0.5.
 
 > [!warning] Myalgic encephalomyelitis / chronic fatigue syndrome
@@ -211,10 +211,10 @@ The multimodal package above, with education and graded exercise as the core.
 
 > [!tip] Long COVID and the overlap
 > **Post-acute sequelae of COVID-19** overlaps substantially with ME/CFS and fibromyalgia — fatigue, post-exertional symptoms, cognitive difficulty, breathlessness, and autonomic symptoms including **postural orthostatic tachycardia syndrome (POTS)**.
-> **POTS** — an excessive heart rate rise on standing without hypotension, with light-headedness, palpitations and fatigue. **It is often missed and is worth testing for with a lying and standing heart rate and blood pressure**, because it is manageable with fluids, salt, compression, exercise reconditioning and sometimes medication. Cross-refer [[B4]] 0.2.
+> **POTS** — an excessive heart rate rise on standing without hypotension, with light-headedness, palpitations and fatigue. **It is often missed and is worth testing for with a lying and standing heart rate and blood pressure**, because it is manageable with fluids, salt, compression, exercise reconditioning and sometimes medication. Cross-refer [[B4_Syncope__Collapse_and_Hypotension]] 0.2.
 > **The general principles are the same across these conditions: validate, screen appropriately once, avoid iatrogenic harm, focus on function, and manage the treatable comorbidities.**
 
-**Ix:** As per [[B6]] 0.5. **Lying and standing heart rate and blood pressure** (*why:* detects POTS and orthostatic hypotension, both treatable and both commonly missed in chronic fatigue; *what:* excessive tachycardia or postural drop). Sleep assessment and mood screening (*why:* treatable contributors; *what:* apnoea, depression).
+**Ix:** As per [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.5. **Lying and standing heart rate and blood pressure** (*why:* detects POTS and orthostatic hypotension, both treatable and both commonly missed in chronic fatigue; *what:* excessive tachycardia or postural drop). Sleep assessment and mood screening (*why:* treatable contributors; *what:* apnoea, depression).
 
 ### 0.6.1 Mx – Immediate
 Not applicable.
@@ -228,4 +228,4 @@ Function-focused, continuity of care, and support for work and study adjustments
 ---
 
 > [!note] Cross-references
-> Localising weakness and the neuromuscular levels → [[D4]] 0.1 · Inflammatory and drug-induced myopathy → [[D4]] 0.6 · Neuromuscular respiratory failure → [[F0.5]] 0.5 · Giant cell arteritis → [[D1]] 0.4 · Fever of unknown origin in the elderly → [[K1]] 0.3 · Fatigue differential → [[B6]] 0.5 · Rhabdomyolysis → [[A7]] 0.6 · Statin myopathy → [[I5]] 0.3 · Osteomalacia and vitamin D → [[I3]] 0.5 · Myeloma → [[J4]] · Infective endocarditis as a mimic → [[B5]] 0.2 · Parkinsonism as a mimic of stiffness → [[D6]] 0.5 · Restless legs and ferritin → [[D6]] 0.6 · POTS and orthostatic intolerance → [[B4]] 0.2 · Steroid-induced osteoporosis → [[GER1]] 0.6 · Opioid deprescribing and chronic pain → [[F0.4]] 0.9 · Inflammatory arthritis → [[L2]] · Back pain → [[L4]]
+> Localising weakness and the neuromuscular levels → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.1 · Inflammatory and drug-induced myopathy → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6 · Neuromuscular respiratory failure → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5 · Giant cell arteritis → [[D1_Headache_and_Meningism]] 0.4 · Fever of unknown origin in the elderly → [[K1_Fever_Workup]] 0.3 · Fatigue differential → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.5 · Rhabdomyolysis → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Statin myopathy → [[I5_Weight__Lipids_and_Fluid_Balance]] 0.3 · Osteomalacia and vitamin D → [[I3_Calcium__Parathyroid_and_Bone]] 0.5 · Myeloma → [[J4_Paraproteins_and_Lymphoproliferative]] · Infective endocarditis as a mimic → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.2 · Parkinsonism as a mimic of stiffness → [[D6_Seizures_and_Movement_Disorders]] 0.5 · Restless legs and ferritin → [[D6_Seizures_and_Movement_Disorders]] 0.6 · POTS and orthostatic intolerance → [[B4_Syncope__Collapse_and_Hypotension]] 0.2 · Steroid-induced osteoporosis → [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 · Opioid deprescribing and chronic pain → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9 · Inflammatory arthritis → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] · Back pain → [[L4_Back_and_Neck_Pain]]

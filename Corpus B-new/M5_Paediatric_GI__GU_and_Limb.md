@@ -8,7 +8,7 @@ population: mixed
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Age-based frameworks, discriminators and clinical reasoning are reliable at intern level. **Every dose, age threshold, scoring system and imaging criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** **All paediatric doses are omitted** — obtain them from the **Royal Children's Hospital Melbourne guidelines** and your local formulary.
 >
-> **Neonatal vomiting and malrotation are built in [[M3]] 0.4**, **fever and UTI in [[M2]]**, and **septic arthritis in [[L1]] 0.2** — cross-referenced rather than repeated.
+> **Neonatal vomiting and malrotation are built in [[M3_Neonatal_Problems]] 0.4**, **fever and UTI in [[M2_Fever_in_Children]]**, and **septic arthritis in [[L1_Hot_and_Swollen_Joint]] 0.2** — cross-referenced rather than repeated.
 
 ---
 
@@ -20,8 +20,8 @@ population: mixed
 > **· SCHOOL AGE AND ADOLESCENT: APPENDICITIS · constipation · gastroenteritis · mesenteric adenitis · UTI · DIABETIC KETOACIDOSIS · inflammatory bowel disease · functional abdominal pain · and, in girls, OVARIAN TORSION and ECTOPIC PREGNANCY.**
 
 > [!danger] Three things to do in every child with abdominal pain
-> **1. EXAMINE THE SCROTUM IN EVERY BOY.** **Testicular torsion presents with abdominal pain, and the boy may be too embarrassed to mention the scrotal pain — particularly an adolescent.** **Missing it because you did not look is a preventable loss of a testis.** Cross-refer [[H4]] 0.1.
-> **2. CHECK THE GLUCOSE.** **Diabetic ketoacidosis presents with abdominal pain and vomiting**, and new-onset type 1 diabetes in a child is frequently first diagnosed in DKA — sometimes after the abdominal pain has been attributed to gastroenteritis. Cross-refer [[F0.2]] 0.3.
+> **1. EXAMINE THE SCROTUM IN EVERY BOY.** **Testicular torsion presents with abdominal pain, and the boy may be too embarrassed to mention the scrotal pain — particularly an adolescent.** **Missing it because you did not look is a preventable loss of a testis.** Cross-refer [[H4_Scrotum__Groin_and_Loin]] 0.1.
+> **2. CHECK THE GLUCOSE.** **Diabetic ketoacidosis presents with abdominal pain and vomiting**, and new-onset type 1 diabetes in a child is frequently first diagnosed in DKA — sometimes after the abdominal pain has been attributed to gastroenteritis. Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3.
 > **3. DO A PREGNANCY TEST IN ANY GIRL WHO COULD BE PREGNANT** — which includes adolescents who say they are not sexually active, asked and tested privately.
 
 > [!warning] Appendicitis in children is atypical and perforates faster
@@ -35,7 +35,7 @@ population: mixed
 > [!danger] Intussusception — the episodic pallor is the clue
 > **Typically between about six months and two years.**
 > **The presentation: EPISODES of sudden inconsolable crying with DRAWING UP OF THE LEGS and marked PALLOR, lasting minutes, recurring every 15–20 minutes — with the child appearing NORMAL OR LETHARGIC in between.**
-> **THE LETHARGY BETWEEN EPISODES MAY BE THE DOMINANT FEATURE**, and intussusception is a recognised cause of the "unexplained lethargic child" with no abdominal signs. Cross-refer [[M1]] 0.5.
+> **THE LETHARGY BETWEEN EPISODES MAY BE THE DOMINANT FEATURE**, and intussusception is a recognised cause of the "unexplained lethargic child" with no abdominal signs. Cross-refer [[M1_The_Seriously_Unwell_Child]] 0.5.
 > **"Redcurrant jelly" stool and a palpable sausage-shaped mass are LATE features — waiting for them means waiting too long.**
 > **Diagnosis: ULTRASOUND, showing the "target" or "doughnut" sign.**
 > **Treatment: AIR (or contrast) ENEMA REDUCTION under radiological guidance is both diagnostic and therapeutic, with a high success rate** — and it is one of the more satisfying interventions in paediatrics. **Surgery for failed reduction, peritonitis or perforation.**
@@ -45,7 +45,7 @@ population: mixed
 > **Recurrent abdominal pain is very common in school-age children and is usually functional.** **It is a POSITIVE diagnosis, and it is real pain.**
 > **The useful rule: "the further from the umbilicus, the more likely it is organic".** Periumbilical pain in a well, thriving child with a normal examination is reassuring.
 > **RED FLAGS suggesting organic disease: weight loss or growth faltering · pain that WAKES the child from sleep · blood in the stool · BILIOUS vomiting · dysphagia · persistent fever · joint symptoms or rash · perianal disease (fissures, tags, fistulae — suggesting Crohn disease) · a family history of inflammatory bowel disease or coeliac disease · pain localised away from the umbilicus, particularly right lower or right upper quadrant · and unexplained anaemia.**
-> **Management of functional pain: explain the mechanism (real pain, gut-brain interaction), avoid repeated investigation, address school attendance and anxiety, and focus on function.** Cross-refer [[N6]] 0.2 and [[C5]] 0.3.
+> **Management of functional pain: explain the mechanism (real pain, gut-brain interaction), avoid repeated investigation, address school attendance and anxiety, and focus on function.** Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.2 and [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.3.
 
 ---
 
@@ -60,7 +60,7 @@ population: mixed
 > **· Metabolic disease.**
 > **· Poisoning.**
 > **"Vomiting, no diarrhoea, tender abdomen" is not gastroenteritis until those have been considered.**
-> **And BILIOUS (green) vomiting means OBSTRUCTION until proven otherwise, at ANY age** — in an infant, malrotation with volvulus. Cross-refer [[M3]] 0.4.
+> **And BILIOUS (green) vomiting means OBSTRUCTION until proven otherwise, at ANY age** — in an infant, malrotation with volvulus. Cross-refer [[M3_Neonatal_Problems]] 0.4.
 
 > [!tip] Gastroenteritis — assess the dehydration, not the diarrhoea
 > **The clinical task is quantifying DEHYDRATION and deciding the route of rehydration** — the causative organism rarely changes management.
@@ -79,7 +79,7 @@ population: mixed
 > **HAEMOLYTIC URAEMIC SYNDROME follows STEC infection, typically days after the diarrhoea, with the triad of MICROANGIOPATHIC HAEMOLYTIC ANAEMIA, THROMBOCYTOPENIA and ACUTE KIDNEY INJURY.**
 > **The warning signs: pallor, reduced urine output, oedema, lethargy and irritability in a child recovering from bloody diarrhoea.**
 > **ANTIBIOTICS ARE GENERALLY AVOIDED IN SUSPECTED STEC** — they may increase the risk of HUS by increasing toxin release. **This is a specific and counterintuitive point.**
-> **Antimotility agents are also contraindicated.** Cross-refer [[J2]] and [[H3]]. `UNVERIFIED — the current evidence and recommendations.`
+> **Antimotility agents are also contraindicated.** Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]] and [[H3_Acute_Kidney_Injury_and_CKD]]. `UNVERIFIED — the current evidence and recommendations.`
 > **Notification and exclusion from childcare and school apply to several enteric pathogens.**
 
 ---
@@ -126,7 +126,7 @@ population: mixed
 > **UTI in infants and young children presents NON-SPECIFICALLY — fever without source, vomiting, poor feeding, irritability, lethargy, prolonged jaundice in neonates, or faltering growth.** **There are no urinary symptoms because they cannot report them.**
 > **OBTAIN A RELIABLE SAMPLE: clean catch, catheter specimen, or suprapubic aspirate.**
 > **BAG SPECIMENS HAVE AN UNACCEPTABLY HIGH CONTAMINATION RATE. A positive bag urine cannot be used to diagnose UTI**, and acting on one leads to unnecessary antibiotics, unnecessary imaging and a label that follows the child.
-> Cross-refer [[M2]] 0.3.
+> Cross-refer [[M2_Fever_in_Children]] 0.3.
 
 > [!warning] Why childhood UTI matters, and when to image
 > **RENAL SCARRING from pyelonephritis in early childhood can lead to HYPERTENSION and CHRONIC KIDNEY DISEASE decades later** — which is the entire justification for taking childhood UTI seriously.
@@ -137,7 +137,7 @@ population: mixed
 > [!tip] Nocturnal enuresis — and the two questions that direct management
 > **Bedwetting is NORMAL up to a defined age and remains common well beyond it.** `UNVERIFIED — the age.`
 > **QUESTION 1: PRIMARY (never reliably dry) or SECONDARY (previously dry for at least six months)?**
-> **SECONDARY enuresis requires a cause to be sought: URINARY TRACT INFECTION · new-onset DIABETES (ask about polyuria, polydipsia and weight loss) · CONSTIPATION · obstructive sleep apnoea · and PSYCHOSOCIAL STRESS, including bullying, family disruption, and ABUSE.** **New bedwetting in a previously dry child is a recognised presentation of distress and of sexual abuse, and it warrants gentle exploration.** Cross-refer [[M6]].
+> **SECONDARY enuresis requires a cause to be sought: URINARY TRACT INFECTION · new-onset DIABETES (ask about polyuria, polydipsia and weight loss) · CONSTIPATION · obstructive sleep apnoea · and PSYCHOSOCIAL STRESS, including bullying, family disruption, and ABUSE.** **New bedwetting in a previously dry child is a recognised presentation of distress and of sexual abuse, and it warrants gentle exploration.** Cross-refer [[M6_Paediatric_Respiratory_and_Neurology]].
 > **QUESTION 2: IS THERE CONSTIPATION?** **CONSTIPATION IS A COMMON, TREATABLE AND ROUTINELY OVERLOOKED CAUSE OF BOTH BEDWETTING AND DAYTIME WETTING** — a loaded rectum compresses the bladder and reduces its functional capacity. **Treat the constipation before anything else, and a proportion of enuresis resolves.**
 
 > [!warning] Managing enuresis — and the single most important thing to say
@@ -155,7 +155,7 @@ population: mixed
 > [!danger] Exclude septic arthritis and osteomyelitis first, at any age
 > **A limping child has septic arthritis until proven otherwise.** **Septic arthritis of the hip in a child destroys the femoral head, because the intracapsular blood supply is compressed by raised intra-articular pressure.**
 > **The Kocher criteria — fever, non-weight-bearing, raised ESR and raised white cell count — stratify the probability of septic arthritis versus transient synovitis of the hip.** `UNVERIFIED — the criteria and the associated probabilities.`
-> **Where the diagnosis is genuinely uncertain, ASPIRATE.** Cross-refer [[L1]] 0.2.
+> **Where the diagnosis is genuinely uncertain, ASPIRATE.** Cross-refer [[L1_Hot_and_Swollen_Joint]] 0.2.
 > **OSTEOMYELITIS may present with limp and localised bony tenderness with a normal joint, and radiographs are NORMAL for the first one to two weeks — MRI is the investigation.**
 
 > [!tip] The age-based framework
@@ -179,14 +179,14 @@ population: mixed
 > [!warning] Perthes disease and developmental dysplasia
 > **PERTHES DISEASE — idiopathic avascular necrosis of the femoral head, typically in boys aged around 4 to 10.** **Insidious onset of a limp with hip or referred KNEE pain, and RESTRICTED ABDUCTION AND INTERNAL ROTATION.** Often bilateral. Managed with containment and observation depending on age and severity.
 > **DEVELOPMENTAL DYSPLASIA OF THE HIP — screened for at the newborn examination with Barlow and Ortolani tests, but LATE PRESENTATION occurs.** **Later signs: limited hip ABDUCTION, asymmetric skin creases, apparent leg length discrepancy, a waddling gait or toe-walking on one side.**
-> **Risk factors warranting ultrasound screening: BREECH presentation · FAMILY HISTORY · female sex · firstborn.** Cross-refer [[M3]] 0.6.
+> **Risk factors warranting ultrasound screening: BREECH presentation · FAMILY HISTORY · female sex · firstborn.** Cross-refer [[M3_Neonatal_Problems]] 0.6.
 
 > [!danger] Night pain, rest pain and systemic features mean malignancy
 > **· LEUKAEMIA — the commonest childhood malignancy, and it presents with bone pain and limp in a meaningful proportion.** **Look for PALLOR, BRUISING or petechiae, LYMPHADENOPATHY, HEPATOSPLENOMEGALY, fever and lethargy.** **A full blood count and film is the test, and it should be done today.**
-> **· OSTEOSARCOMA and EWING SARCOMA — persistent bone pain, often around the knee or in the proximal humerus, WORSE AT NIGHT, unrelated to activity, sometimes with a palpable mass or swelling.** **Radiograph first, and refer to a specialist sarcoma service BEFORE biopsy.** Cross-refer [[B6]] 0.8 and [[J4]].
+> **· OSTEOSARCOMA and EWING SARCOMA — persistent bone pain, often around the knee or in the proximal humerus, WORSE AT NIGHT, unrelated to activity, sometimes with a palpable mass or swelling.** **Radiograph first, and refer to a specialist sarcoma service BEFORE biopsy.** Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8 and [[J4_Paraproteins_and_Lymphoproliferative]].
 > **A child with persistent bone pain that wakes them at night needs imaging and a blood count, not reassurance and analgesia.**
 
-**Ix:** **Examine the ENTIRE lower limb, the spine, the abdomen and the scrotum — and observe the child WALKING** (*why:* the source of a limp is frequently not where the child says it hurts, and hip pathology refers to the knee; *what:* the site and the gait pattern). **Radiographs including a FROG-LEG LATERAL of the hips** (*why:* SUFE and Perthes are missed on an AP view alone; *what:* slip, femoral head changes, fracture). **FBC and FILM, CRP, ESR, blood cultures** (*why:* infection and leukaemia, and the film is what identifies blasts; *what:* inflammatory markers, blast cells). **Ultrasound of the hip** (*why:* detects an effusion and guides aspiration; *what:* effusion). **Joint aspiration where septic arthritis is possible** (*why:* the definitive test, and the consequences of missing it are permanent; *what:* cell count, Gram stain, culture). **MRI** (*why:* osteomyelitis, discitis and bone tumours, all of which are radiographically occult early; *what:* marrow oedema, collection, lesion). **Consideration of non-accidental injury** (*why:* fractures and limp in a non-mobile child, or with an inconsistent history; *what:* the pattern — cross-refer [[M6]]).
+**Ix:** **Examine the ENTIRE lower limb, the spine, the abdomen and the scrotum — and observe the child WALKING** (*why:* the source of a limp is frequently not where the child says it hurts, and hip pathology refers to the knee; *what:* the site and the gait pattern). **Radiographs including a FROG-LEG LATERAL of the hips** (*why:* SUFE and Perthes are missed on an AP view alone; *what:* slip, femoral head changes, fracture). **FBC and FILM, CRP, ESR, blood cultures** (*why:* infection and leukaemia, and the film is what identifies blasts; *what:* inflammatory markers, blast cells). **Ultrasound of the hip** (*why:* detects an effusion and guides aspiration; *what:* effusion). **Joint aspiration where septic arthritis is possible** (*why:* the definitive test, and the consequences of missing it are permanent; *what:* cell count, Gram stain, culture). **MRI** (*why:* osteomyelitis, discitis and bone tumours, all of which are radiographically occult early; *what:* marrow oedema, collection, lesion). **Consideration of non-accidental injury** (*why:* fractures and limp in a non-mobile child, or with an inconsistent history; *what:* the pattern — cross-refer [[M6_Paediatric_Respiratory_and_Neurology]]).
 
 ---
 
@@ -202,13 +202,13 @@ population: mixed
 > **THE POINT THAT MATTERS MOST: OLIGOARTICULAR JIA, particularly in young ANA-POSITIVE girls, carries a substantial risk of CHRONIC ANTERIOR UVEITIS THAT IS COMPLETELY ASYMPTOMATIC — no pain, no redness, no photophobia — and which causes cataract, glaucoma, band keratopathy and BLINDNESS if undetected.**
 > **These children require REGULAR SLIT-LAMP SCREENING BY AN OPHTHALMOLOGIST on a defined schedule, regardless of symptoms and regardless of whether the arthritis is controlled.**
 > **This is the single highest-yield fact about JIA, and missed screening causes preventable blindness.** `UNVERIFIED — the screening intervals and risk stratification.`
-> **SYSTEMIC JIA (Still disease) — QUOTIDIAN (once-daily spiking) fever, an EVANESCENT SALMON-PINK rash appearing with the fever, arthritis, lymphadenopathy, hepatosplenomegaly and serositis.** **It is a cause of prolonged fever of unknown origin in a child** — cross-refer [[M2]] 0.1.
+> **SYSTEMIC JIA (Still disease) — QUOTIDIAN (once-daily spiking) fever, an EVANESCENT SALMON-PINK rash appearing with the fever, arthritis, lymphadenopathy, hepatosplenomegaly and serositis.** **It is a cause of prolonged fever of unknown origin in a child** — cross-refer [[M2_Fever_in_Children]] 0.1.
 > **MACROPHAGE ACTIVATION SYNDROME complicates systemic JIA: a life-threatening cytokine storm with persistent fever, cytopenias, a PARADOXICALLY FALLING ESR, a very high FERRITIN, hepatic dysfunction and coagulopathy.** **A child with systemic JIA who deteriorates with falling cell counts needs it considered urgently.**
 
 > [!tip] The apophysitis and overuse conditions
 > **· OSGOOD-SCHLATTER DISEASE — traction apophysitis at the tibial tuberosity in an active adolescent, with a tender prominent tuberosity, worse with running and jumping. Self-limiting with skeletal maturity; managed with load modification.**
 > **· SEVER DISEASE — calcaneal apophysitis, causing heel pain in an active child.**
-> **· Osteochondritis dissecans, patellofemoral pain, and stress fractures.** Cross-refer [[L5]] and [[L6]].
+> **· Osteochondritis dissecans, patellofemoral pain, and stress fractures.** Cross-refer [[L5_Regional_Limb_Pain]] and [[L6_Soft_Tissue_Injury_and_Mobility]].
 
 > [!warning] Scoliosis, and the physiological variants that worry parents
 > **ADOLESCENT IDIOPATHIC SCOLIOSIS — detected with the ADAMS FORWARD BEND TEST, looking for a rib hump.** Managed by observation, bracing or surgery depending on curve magnitude and remaining growth.
@@ -217,9 +217,9 @@ population: mixed
 > **· IN-TOEING — from persistent femoral anteversion, internal tibial torsion or metatarsus adductus, depending on age. Almost always resolves.**
 > **· BOW LEGS (genu varum) in toddlers and KNOCK KNEES (genu valgum) in preschoolers follow a normal developmental sequence and resolve.** **RED FLAGS: asymmetry · progression · short stature · pain · or a marked deformity — suggesting RICKETS, skeletal dysplasia or Blount disease.**
 > **· FLAT FEET — normal in young children (the arch develops with age) and usually benign if FLEXIBLE (an arch appears on tiptoeing or with the great toe extended). A RIGID flat foot, or a painful one, warrants investigation for tarsal coalition.**
-> **· TOE WALKING — common and often idiopathic, but exclude CEREBRAL PALSY, tethered cord, muscular dystrophy (check the CK in a boy) and autism.** Cross-refer [[M4]] 0.6.
+> **· TOE WALKING — common and often idiopathic, but exclude CEREBRAL PALSY, tethered cord, muscular dystrophy (check the CK in a boy) and autism.** Cross-refer [[M4_Growth_and_Development]] 0.6.
 
 ---
 
 > [!note] Cross-references
-> The seriously unwell child and the lethargic child → [[M1]] 0.5 · Fever, UTI and serious bacterial infection → [[M2]] · Neonatal vomiting, malrotation and pyloric stenosis → [[M3]] 0.4 · Growth, development and CK in motor delay → [[M4]] · Child protection and non-accidental injury → [[M6]] and [[GER4]] · Septic arthritis and joint aspiration → [[L1]] 0.2, 0.6 · Regional limb pain and referred knee pain → [[L5]] 0.4–0.5 · Paediatric fractures and Salter-Harris → [[L7]] 0.5 · Testicular torsion → [[H4]] 0.1 · Diabetic ketoacidosis → [[F0.2]] 0.3 · Haemolytic uraemic syndrome → [[J2]] and [[H3]] · Leukaemia and bone tumours → [[J4]] and [[B6]] 0.8 · Functional abdominal pain and IBS → [[N6]] 0.2 and [[C5]] 0.3 · Constipation in adults → [[C5]] 0.2 · Uveitis → [[E1]] · Adolescent health → [[M7]]
+> The seriously unwell child and the lethargic child → [[M1_The_Seriously_Unwell_Child]] 0.5 · Fever, UTI and serious bacterial infection → [[M2_Fever_in_Children]] · Neonatal vomiting, malrotation and pyloric stenosis → [[M3_Neonatal_Problems]] 0.4 · Growth, development and CK in motor delay → [[M4_Growth_and_Development]] · Child protection and non-accidental injury → [[M6_Paediatric_Respiratory_and_Neurology]] and [[GER4_Safeguarding_and_Forensic]] · Septic arthritis and joint aspiration → [[L1_Hot_and_Swollen_Joint]] 0.2, 0.6 · Regional limb pain and referred knee pain → [[L5_Regional_Limb_Pain]] 0.4–0.5 · Paediatric fractures and Salter-Harris → [[L7_Fractures_and_Eponyms]] 0.5 · Testicular torsion → [[H4_Scrotum__Groin_and_Loin]] 0.1 · Diabetic ketoacidosis → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3 · Haemolytic uraemic syndrome → [[J2_Haemoglobinopathy_and_Haemolysis]] and [[H3_Acute_Kidney_Injury_and_CKD]] · Leukaemia and bone tumours → [[J4_Paraproteins_and_Lymphoproliferative]] and [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8 · Functional abdominal pain and IBS → [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.2 and [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.3 · Constipation in adults → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.2 · Uveitis → [[E1_Red_and_Painful_Eye]] · Adolescent health → [[M7_Adolescent_and_Behavioural_Health]]

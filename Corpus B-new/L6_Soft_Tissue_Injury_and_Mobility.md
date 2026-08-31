@@ -9,7 +9,7 @@ population: mixed
 > Written from model knowledge, not retrieved from guidelines. Principles, mechanism and practical technique are reliable at intern level. **Every grading system, timeframe, dose and protocol carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **Note that acute soft tissue injury management has changed** — the RICE protocol has been superseded — and that **the evidence on early NSAID and ice use is genuinely contested.** See 0.2 and verify against current sports medicine guidance.
 >
-> **Compartment syndrome and rhabdomyolysis are built in [[A7]] 0.6**, **falls and functional assessment in [[GER1]] 0.3 and 0.5**, and **hospital deconditioning in [[GER2]] 0.4** — each is cross-referenced rather than repeated.
+> **Compartment syndrome and rhabdomyolysis are built in [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6**, **falls and functional assessment in [[GER1_Comprehensive_Geriatric_Assessment]] 0.3 and 0.5**, and **hospital deconditioning in [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.4** — each is cross-referenced rather than repeated.
 
 ---
 
@@ -87,7 +87,7 @@ population: mixed
 
 > [!danger] What does not work, and what causes harm
 > **· COMPLETE REST** — deconditions the tendon and the whole kinetic chain, and symptoms recur immediately on return.
-> **· REPEATED CORTICOSTEROID INJECTION** — short-term relief with **worse long-term outcomes**, most clearly demonstrated in lateral epicondylalgia. Cross-refer [[L5]] 0.3.
+> **· REPEATED CORTICOSTEROID INJECTION** — short-term relief with **worse long-term outcomes**, most clearly demonstrated in lateral epicondylalgia. Cross-refer [[L5_Regional_Limb_Pain]] 0.3.
 > **· NEVER inject corticosteroid INTO the Achilles or patellar tendon** — it risks rupture in a load-bearing tendon.
 > **· Passive modalities alone** — ultrasound therapy, massage and taping may provide symptomatic relief but do not produce tendon adaptation.
 
@@ -95,7 +95,7 @@ population: mixed
 > **Fluoroquinolones (ciprofloxacin, norfloxacin, moxifloxacin) cause tendinopathy and tendon RUPTURE, most often of the Achilles, and it can occur within days of starting and up to months after stopping.**
 > **Risk is higher with: concurrent CORTICOSTEROIDS, age over 60, renal impairment, and transplant recipients.**
 > **If a patient on a fluoroquinolone develops tendon pain, STOP THE DRUG immediately, avoid loading the tendon, and review.**
-> **This should also inform prescribing** — a fluoroquinolone is a poor choice in an older patient on prednisolone with a history of Achilles problems, and there is usually an alternative. Cross-refer [[L5]] 0.7.
+> **This should also inform prescribing** — a fluoroquinolone is a poor choice in an older patient on prednisolone with a history of Achilles problems, and there is usually an alternative. Cross-refer [[L5_Regional_Limb_Pain]] 0.7.
 
 **Ix:** **Usually a clinical diagnosis.** Ultrasound (*why:* confirms tendinopathy and excludes a tear where the diagnosis is uncertain — **but structural change on imaging correlates poorly with symptoms and is common in asymptomatic tendons**, so it should not drive management; *what:* thickening, hypoechoic change, neovascularity, tear). HbA1c and lipids (*why:* metabolic factors are associated with tendinopathy and poor response; *what:* diabetes, dyslipidaemia). **Medication review for fluoroquinolones and corticosteroids** (*why:* a reversible and dangerous contributor; *what:* culprit drug).
 
@@ -120,8 +120,8 @@ population: mixed
 > **Distinguishing them prevents both unnecessary investigation and inappropriate reassurance.**
 
 > [!danger] The two muscle emergencies
-> **· ACUTE COMPARTMENT SYNDROME — pain out of proportion, pain on passive stretch, tense compartment.** **Pulses are present and the limb is pink until very late — waiting for pulselessness means waiting too long.** Cross-refer [[A7]] 0.6.
-> **· RHABDOMYOLYSIS** — after crush injury, prolonged immobility, extreme exertion, seizures, or drug toxicity. Cross-refer [[A7]] 0.6.
+> **· ACUTE COMPARTMENT SYNDROME — pain out of proportion, pain on passive stretch, tense compartment.** **Pulses are present and the limb is pink until very late — waiting for pulselessness means waiting too long.** Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.
+> **· RHABDOMYOLYSIS** — after crush injury, prolonged immobility, extreme exertion, seizures, or drug toxicity. Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.
 > **CHRONIC EXERTIONAL compartment syndrome** is different — exercise-induced pain and tightness that resolves predictably with rest, diagnosed by compartment pressure testing, and managed with load modification, gait retraining or fasciotomy.
 
 **Ix:** Ultrasound or MRI where a significant tear is suspected (*why:* grading affects prognosis and return timeline, and identifies a complete rupture requiring surgery; *what:* tear extent, haematoma). **Doppler ultrasound where calf injury could be DVT** (*why:* they mimic each other and coexist; *what:* thrombus). CK and renal function where rhabdomyolysis is possible (*why:* acute kidney injury; *what:* raised CK, rising creatinine). **Compartment pressure measurement** in suspected chronic exertional compartment syndrome (*why:* the diagnostic test, performed with exercise; *what:* elevated post-exercise pressures).
@@ -149,7 +149,7 @@ population: mixed
 
 > [!tip] Certification and return to work
 > **Certificates should specify what the person CAN do, not only what they cannot** — restricted duties, modified hours, avoiding specific tasks — because **prolonged complete absence from work worsens outcomes and reduces the likelihood of ever returning.**
-> **Early graded return to work is protective**, and the same fear-avoidance principles apply as in back pain. Cross-refer [[L4]] 0.1, [[A10]] 0.6 and [[GER3]].
+> **Early graded return to work is protective**, and the same fear-avoidance principles apply as in back pain. Cross-refer [[L4_Back_and_Neck_Pain]] 0.1, [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 and [[GER3_Preventive_and_Occupational_Health]].
 > In South Australia, work-related injury involves **ReturnToWorkSA** processes. `UNVERIFIED — current certification requirements and forms.`
 
 ---
@@ -159,7 +159,7 @@ population: mixed
 > [!danger] Immobility is a diagnosis with its own complications, and most of them are preventable
 > **Muscle loss begins within DAYS of bed rest and is disproportionately severe in older people.**
 > **The consequences: falls · pressure injury · venous thromboembolism · pneumonia and atelectasis · constipation · urinary retention and infection · delirium · bone loss · orthostatic intolerance · and permanent functional decline leading to residential placement.**
-> **On every ward round, ask: has this patient been out of bed today, and what is preventing it?** Cross-refer [[GER2]] 0.4.
+> **On every ward round, ask: has this patient been out of bed today, and what is preventing it?** Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.4.
 
 > [!warning] Fitting a walking stick — three things that are commonly wrong
 > **1. HELD IN THE OPPOSITE HAND to the affected leg.** This is counterintuitive and is the most frequent error. Holding it on the affected side does almost nothing; holding it opposite widens the base of support and genuinely offloads the affected limb.
@@ -187,13 +187,13 @@ population: mixed
 > **· Timed Up and Go** — time to rise from a chair, walk a short distance, turn, return and sit. **Quick, repeatable, and predicts falls.**
 > **· Gait speed** — one of the best single predictors of adverse outcomes in older people.
 > **· Sit-to-stand test** — lower limb strength and functional capacity.
-> **· ADL and IADL assessment** — cross-refer [[GER1]] 0.3, remembering that **instrumental activities decline first.**
+> **· ADL and IADL assessment** — cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.3, remembering that **instrumental activities decline first.**
 > `UNVERIFIED — the cut-off values for each measure.`
 
 > [!warning] Rehabilitation settings and who benefits
 > **· Inpatient rehabilitation** — for those with rehabilitation potential and goals who cannot yet manage at home.
 > **· Geriatric evaluation and management (GEM)** — for older patients with multiple problems.
-> **· Transition care** — time-limited support after hospital, allowing recovery before permanent decisions are made. **Under-used, and it prevents premature residential placement.** Cross-refer [[GER1]] 0.3.
+> **· Transition care** — time-limited support after hospital, allowing recovery before permanent decisions are made. **Under-used, and it prevents premature residential placement.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.3.
 > **· Community and outpatient rehabilitation, and home-based programs.**
 > **The key principle: assess rehabilitation potential rather than assuming it from age**, and **do not make permanent placement decisions from an acute bed.**
 
@@ -206,9 +206,9 @@ Mobilise. Remove unnecessary tethers — catheters, lines, telemetry. Analgesia 
 Rehabilitation matched to need, correctly fitted aids, and home modification.
 
 ### 0.6.3 Mx – Chronic/long-term
-Ongoing exercise, falls prevention, review of aids as function changes, and carer support. Cross-refer [[GER1]] 0.5.
+Ongoing exercise, falls prevention, review of aids as function changes, and carer support. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.5.
 
 ---
 
 > [!note] Cross-references
-> Regional limb pain and specific tendinopathies → [[L5]] · Fractures and immobilisation → [[L7]] · Back pain, yellow flags and return to work → [[L4]] 0.1 · Chronic pain and central sensitisation → [[L3]] 0.5 · Compartment syndrome and rhabdomyolysis → [[A7]] 0.6 · Baker cyst versus DVT → [[B6]] 0.3 · Falls and multifactorial assessment → [[GER1]] 0.5 · Functional assessment and the aged care system → [[GER1]] 0.3 · Hospital deconditioning and immobility → [[GER2]] 0.4 · Pressure injury → [[GER2]] 0.2 · Fluoroquinolone and corticosteroid tendon risk → [[L5]] 0.7 · Certification and fitness for work → [[A10]] 0.6 and [[GER3]]
+> Regional limb pain and specific tendinopathies → [[L5_Regional_Limb_Pain]] · Fractures and immobilisation → [[L7_Fractures_and_Eponyms]] · Back pain, yellow flags and return to work → [[L4_Back_and_Neck_Pain]] 0.1 · Chronic pain and central sensitisation → [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5 · Compartment syndrome and rhabdomyolysis → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Baker cyst versus DVT → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.3 · Falls and multifactorial assessment → [[GER1_Comprehensive_Geriatric_Assessment]] 0.5 · Functional assessment and the aged care system → [[GER1_Comprehensive_Geriatric_Assessment]] 0.3 · Hospital deconditioning and immobility → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.4 · Pressure injury → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.2 · Fluoroquinolone and corticosteroid tendon risk → [[L5_Regional_Limb_Pain]] 0.7 · Certification and fitness for work → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 and [[GER3_Preventive_and_Occupational_Health]]
