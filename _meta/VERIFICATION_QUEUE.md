@@ -5,7 +5,7 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-31
 
-471 open items. Close one by editing its marker in the file, then rerunning `scan`.
+475 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
 # Actionable — openly accessible Australian sources (70)
 
@@ -74,8 +74,8 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/01_Cardiovascular.md** L323 · _0.3 Ischaemic Heart Disease_ · `inherited` — the CCS class descriptors themselves, per Heart Foundation or CSANZ. Not reproduced here.
 - **Corpus A/01_Cardiovascular.md** L620 · _0.9.1 Supraventricular tachycardia (SVT)_ · `inherited` — model knowledge, not source-checked. The strain pressure and duration, per ANZCOR or a named emergency medicine source.
 - **Corpus A/01_Cardiovascular.md** L1215 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — which agents are used instead, and in what order, per RANZCOG or SOMANZ.
-- **Corpus A/01_Cardiovascular.md** L1424 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — model knowledge, not source-checked. Duration of exercise restriction, per CSANZ or Heart Foundation.
-- **Corpus A/01_Cardiovascular.md** L1428 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — the duration, per CSANZ or Heart Foundation.
+- **Corpus A/01_Cardiovascular.md** L1433 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — model knowledge, not source-checked. Duration of exercise restriction, per CSANZ or Heart Foundation.
+- **Corpus A/01_Cardiovascular.md** L1437 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — the duration, per CSANZ or Heart Foundation.
 - **Corpus A/03_Gastrointestinal.md** L1369 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — the recommended timing of restarting; RACGP or your health network's gastroenterology guidance.
 - **Corpus A/04_Neurology.md** L857 · _Added from unverified layer — current terminology, and two counselling points_ · `inherited` — the incidence, and how Australian guidance recommends the conversation be framed and timed; Epilepsy Action Australia, or RACGP.
 - **Corpus A/17_06_Subfertility_and_OHSS.md** L105 · _Ovarian hyperstimulation syndrome (OHSS)_ · `inherited` — this grading is attributed to the RCOG, a UK college, and is not confirmed as Australian practice. Resolve against RANZCOG.
@@ -114,7 +114,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/01_Cardiovascular.md** L369 · _Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)_ · `inherited` — model knowledge, not source-checked. Agents and doses per eTG Cardiovascular; the entity is already queued at PENDING_GUIDELINE_CHECKS P5-A30 against eTG and Heart Foundation.
 - **Corpus B/C1_Acute_Abdomen.md** L189 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (326)
+# Triage — source not named in the marker (330)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
@@ -307,7 +307,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Drugs_06_Cardiovascular.md** L40 · _0.1.1 Vitamin K Antagonists (Warfarin)_ · `snippet` — model knowledge, not source-checked; confirm the mitral stenosis severity threshold against a named cardiology source.
 - **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L97 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (143)
+## R3 — everything else (147)
 
 - **Corpus A/01_Cardiovascular.md** L48 · _Added from unverified layer — right ventricular infarction and the right-sided leads_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L80 · _0.1.3 Mx – Definitive (STEMI)_ · `inherited` — model knowledge, not source-checked.
@@ -321,7 +321,8 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/01_Cardiovascular.md** L696 · _0.12.3 AV blocks_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L1044 · _0.21.1 Murmurs — differential diagnosis_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L1217 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — recovery and recurrence figures.
-- **Corpus A/01_Cardiovascular.md** L1608 · _0.36.1 Peripheral Arterial Disease (PAD)_ · `inherited` — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.
+- **Corpus A/01_Cardiovascular.md** L1285 · _0.29 Deep Vein Thrombosis (DVT)_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/01_Cardiovascular.md** L1617 · _0.36.1 Peripheral Arterial Disease (PAD)_ · `inherited` — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.
 - **Corpus A/03_Gastrointestinal.md** L271 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L553 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L595 · _0.12.1 Added from unverified layer — two complications of chronic pancreatitis_ · `inherited` — model knowledge, not source-checked.
@@ -349,6 +350,8 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/04_Neurology.md** L1405 · _Added from unverified layer — two discriminators in a weak patient_ · `inherited` — the time course of onset and of recovery, and whether any test distinguishes it from disuse atrophy; specialist neurology or rheumatology guidance.
 - **Corpus A/05_Ophthalmology.md** L69 · _Added from unverified layer — the rust ring_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/07_Renal_Medicine_and_Urology.md** L793 · _Added from unverified layer — DIAPPERS: the reversible causes of incontinence_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L26 · _Cellulitis_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L61 · _Superior vena cava obstruction (SVCO)_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L60 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_06_Ortho_-_Spinal_Orthopaedics.md** L100 · _Added from unverified layer — do not over-image, and do not over-interpret the images_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L143 · _Added from unverified layer — why alkali burns are worse than acid burns_ · `inherited` — model knowledge, not source-checked.
@@ -452,6 +455,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Exam_Manoeuvres_and_Procedures.md** L414 · _0.17 Implantable Cardioverter Defibrillator (ICD)_ · `snippet` — model knowledge, not source-checked. The magnet rate, per the device manufacturer's card.
 - **Corpus C/NEW_Investigations_Endocrine.md** L143 · _Added from unverified layer — normokalaemia does not exclude it_ · `snippet` — model knowledge, not source-checked. The proportion of primary aldosteronism that is normokalaemic, per a named endocrine source.
 - **Corpus C/NEW_Investigations_Gastroenterology.md** L47 · _0.1.1 A raised ALP with a normal GGT — owned elsewhere_ · `snippet` — nothing to verify here; this is a pointer.
+- **Corpus C/NEW_Investigations_Haematology_Part2.md** L334 · _0.24 Lymphoscintigraphy_ · `snippet` — model knowledge, not source-checked.
 
 # Permanently noted — requires Therapeutic Guidelines or AMH (64)
 
@@ -463,8 +467,8 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/03_Gastrointestinal.md** L832 · _0.18 Appendicitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/03_Gastrointestinal.md** L1724 · _0.41.5 Added from unverified layer — generalised pain and the catastrophes_ · `inherited` — empirical antibiotic choice for suspected perforation or ischaemia; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L17 · _Animal & human bites_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L37 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L40 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L51 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L54 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L73 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — every anticipatory prescribing dose, from eTG Palliative Care and your health network's end-of-life care pathway. eTG is login-gated, so this is a permanent instruction to look them up at the point of use rather than a queued item.
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L65 · _0.2.1 Mx – Immediate_ · `unverified` — no empirical regimen, dose, or fluid volume is stated here; obtain both from eTG Antibiotic and local policy. The timing target for antibiotic administration and the initial fluid bolus volume in Australian practice both require verification against the current Sepsis Clinical Care Standard.
 - **Corpus B/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L43 · _0.1 The Poisoned Patient — Risk Assessment and General Approach_ · `unverified` — the time window in which charcoal retains benefit, dosing, and contraindications require verification against eTG Toxicology.
