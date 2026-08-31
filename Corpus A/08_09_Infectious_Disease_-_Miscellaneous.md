@@ -3,7 +3,7 @@ block: Infectious Disease
 source: quackquackmed 08.09 Miscellaneous infections
 trust: inherited
 population: mixed
-conflicts_open: 0
+conflicts_open: 1
 conflicts_r1: 0
 ---
 
