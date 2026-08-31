@@ -87,6 +87,40 @@ no_baseline: 0
 > [!note] Envenomation — antivenoms, first aid and the detection kit
 > Australian envenomation is owned by [[NEW_Drugs_04_Antidotes_and_Antivenoms]] (`trust: snippet`, AMH-derived): pressure immobilisation and **why it works here** (Australian venoms travel by lymphatics), the five monovalent antivenoms, **venom-induced consumption coagulopathy**, and that **the detection kit tells you WHICH antivenom, not WHETHER the patient is envenomed**. Not repeated here.
 
+## Added from unverified layer — the allergy framework, and four things it explains
+`SRC:K4_Allergy_and_Clinical_Immunology §0.1, §0.6, §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] **Gell and Coombs — the four hypersensitivity types** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **· Type I — IgE-mediated, immediate.** Mast cell degranulation within minutes. Anaphylaxis, acute urticaria, allergic rhinitis, food and venom allergy.
+> **· Type II — antibody against cell-surface antigen.** Autoimmune haemolytic anaemia, immune thrombocytopenia, Goodpasture, acute haemolytic transfusion reaction.
+> **· Type III — immune complex.** Serum sickness, post-streptococcal glomerulonephritis, systemic lupus erythematosus, the vasculitides.
+> **· Type IV — T-cell mediated, DELAYED, hours to days.** Allergic contact dermatitis, the tuberculin reaction, and **the severe cutaneous adverse drug reactions — DRESS, Stevens-Johnson syndrome and toxic epidermal necrolysis.**
+> **Why it earns its place clinically rather than as taxonomy:** it predicts **timing** and therefore **what test to use.** A type I reaction is minutes and is tested by skin prick or specific IgE; a type IV reaction is days and neither of those tests will find it. **A "penicillin allergy" that was a rash on day 8 is a different immunological event from one that was wheeze in 10 minutes**, and treating them as one label is what produces both unnecessary avoidance and unsafe re-challenge.
+> **Search note:** `Gell` in this vault matches `flagellin`, `flagellated`, `Shigella` and `Salmonella` and nothing else. Anchor on word boundaries (CLAUDE.md rule 9).
+
+> [!danger] **Bradykinin-mediated angioedema does not respond to adrenaline, antihistamine or steroid**
+> The two mechanisms are already described in this vault — **hereditary angioedema** (C1-inhibitor deficiency) at [[10_09b_Haemonc_-_Miscellaneous_Haematology]] Hereditary angioedema, and **ACE-inhibitor angioedema**, which [[01_Cardiovascular]] notes **may begin up to a year after starting the drug**. What neither states is the consequence.
+> **These are bradykinin-mediated, not mast-cell mediated. The standard anaphylaxis drugs do not work.** Management is **airway first and specific therapy** — C1-inhibitor concentrate or a bradykinin-receptor antagonist for hereditary angioedema, and cessation of the ACE inhibitor with supportive airway care.
+> **Give adrenaline anyway if you cannot tell them apart and the airway is threatened** — the cost of adrenaline in a bradykinin angioedema is far lower than the cost of withholding it in anaphylaxis — **but do not conclude the diagnosis was wrong when it fails to work.** Persistent, isolated, non-urticarial, non-itchy facial or tongue swelling with no wheeze and no rash is the pattern that should raise it.
+> `UNVERIFIED — the specific agents and their availability in Australia, per Therapeutic Guidelines and the ASCIA hereditary angioedema position paper.`
+
+> [!warning] **Chronic spontaneous urticaria — different disease, different management**
+> The entry below covers **acute** urticaria. **Beyond six weeks it is chronic**, and the shift matters: **it is usually not allergic at all.** A substantial proportion is autoimmune, food and environmental triggers are rarely found, and **allergy testing in chronic urticaria is low-yield and generates false positives that lead to unnecessary avoidance.**
+> **Management is a non-sedating antihistamine, up-titrated above the standard dose under specialist guidance**, with **omalizumab** for those who do not respond. **Sedating antihistamines and long-term oral steroids are not the answer** and are what these patients usually arrive on.
+> **Reassure explicitly that it is not dangerous and that it usually remits**, because the search for a cause is itself a large part of the burden.
+> `UNVERIFIED — the licensed up-dosing multiple and the Australian PBS criteria for omalizumab in chronic spontaneous urticaria.`
+
+> [!danger] **Tick-induced mammalian meat allergy (alpha-gal)** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **An Australian problem, concentrated on the east coast and particularly the northern beaches and north shore of Sydney**, following bites from the paralysis tick.
+> The tick bite sensitises the person to **alpha-gal, a carbohydrate present in all mammalian meat** — beef, lamb, pork — but not in poultry or fish.
+> **The reaction is DELAYED by hours rather than minutes**, which is why it is not recognised: the patient wakes in the night with urticaria or anaphylaxis and has no idea it relates to dinner. **A history of "idiopathic" nocturnal anaphylaxis should prompt the question about red meat and about tick bites.**
+> **Reactions to gelatine-containing products and to some drugs and vaccine excipients can occur through the same mechanism.** Management is avoidance of mammalian meat and **rigorous tick-bite prevention and correct tick removal**, since further bites worsen it.
+
+> [!tip] **Jack jumper ant allergy and venom immunotherapy** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> ***Myrmecia pilosula*, the jack jumper ant, is a leading cause of sting anaphylaxis in Tasmania and cool-temperate south-eastern Australia** — an Australian problem with no counterpart in overseas texts.
+> **Venom immunotherapy for it was developed in Australia, is highly effective, and is available through specialist allergy services.** A person with systemic sting anaphylaxis should be referred rather than simply given an adrenaline autoinjector and discharged, because **immunotherapy can remove the risk rather than manage it.**
+> The same principle applies to honeybee venom allergy. `UNVERIFIED — availability, referral pathway and course duration for jack jumper venom immunotherapy in Australia, per ASCIA.`
+
 ## Acute urticaria and angioedema
 
 - **D:** urticaria (hives) is a skin condition characterised by erythematous, blanching, oedematous, non-painful, pruritic lesions that typically resolve within 24 hours and leave no residual markings. Angio-oedema is a sudden, pronounced swelling of the subdermis or mucous membranes.
