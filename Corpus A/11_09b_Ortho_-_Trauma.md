@@ -139,6 +139,16 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 
 ---
 
+### Added from unverified layer — why alkali burns are worse than acid burns
+`SRC:A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+**Acids cause coagulative necrosis.** The coagulated protein forms an **eschar that limits further penetration**, so the injury tends to be more superficial and self-limiting.
+
+**Alkalis cause liquefactive necrosis** — saponification of fat and dissolution of protein. **No barrier forms, so penetration continues.** Alkali burns are therefore **deeper, progress for longer, and are more damaging than acid burns of equivalent concentration.**
+
+**This is counterintuitive** — "acid burn" sounds worse — and it changes management: for an alkali exposure, **irrigation needs to continue far longer than instinct suggests**, because the injury is still advancing while you irrigate.
+
+
 ## Thoracic trauma
 
 > [!danger] Haemothorax — secondary to laceration of a blood vessel. Mx: wide bore chest drain; thoracotomy if >1.5L blood loss initially, or >200mL/h loss for >2h.
