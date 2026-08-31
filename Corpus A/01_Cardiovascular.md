@@ -44,6 +44,21 @@ conflicts_r1: 0
 
 > [!note] Posterior STEMI
 > Reciprocal V1–3 changes: ST depression, tall/broad R waves, upright T waves. Confirmed by ST elevation and Q waves in posterior leads (V7–9). Inferior MIs are associated with AV block.
+### Added from unverified layer — right ventricular infarction and the right-sided leads
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Inferior STEMI — obtain right-sided leads (V4R) before giving GTN
+> The territory table above sends an inferior pattern (II, III, aVF) to the RCA, which also
+> supplies the right ventricle. **Right ventricular infarction is preload-dependent:** the
+> failing RV cannot fill against a reduced venous return, so **a vasodilator causes profound
+> hypotension.** These patients need **fluid rather than vasodilatation**.
+> **`→MED:GTN`** — the contraindication itself is already stated at
+> [[NEW_Drugs_06_Cardiovascular]] *"Nitrates are contraindicated (or dangerous) in:
+> right ventricular / inferior myocardial infarction — a preload-dependent ventricle"*. What
+> that entry does not give is **how you know**, which is this: **right-sided chest leads,
+> V4R in particular, in any inferior STEMI.** §0.1.2 above says "GTN 1 spray (caution
+> hypotension)" — this is the specific reason for that caution.
+
 
 **DDx of ST changes:**
 - Global T wave inversion → think non-cardiac cause
