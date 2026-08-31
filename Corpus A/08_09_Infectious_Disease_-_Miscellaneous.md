@@ -113,6 +113,35 @@ no_baseline: 0
 > **Duration:** prophylaxis for a **minimum of 3 years post-splenectomy** in adults (some sources/individualised plans support lifelong prophylaxis, particularly for higher-risk patients — this is a case-by-case decision rather than a fixed endpoint for everyone); in children, prophylaxis continues until **at least 5 years of age** regardless of when splenectomy occurred, given the disproportionate infection risk in young children with asplenia.
 > **Patient safety-netting:** patients should have a written action/emergency plan and keep emergency antibiotics at home and work, with instructions to take them immediately and seek urgent medical review if they develop fever, sweats, chills, or fatigue — reflecting the genuinely rapid, high-mortality course post-splenectomy sepsis can take. Infection risk is highest in the first 2 years post-splenectomy (~30% of infections occur in year 1, ~50% within 2 years) but persists lifelong, which is the rationale for the extended/individualised prophylaxis duration above.
 
+### Added from unverified layer — fever: what produces it, and when its absence misleads
+`SRC:K1_Fever_Workup §0.1, §0.5, §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] **What actually raises the temperature**
+> Exogenous pyrogens and tissue injury drive release of **endogenous pyrogens — interleukin-1, interleukin-6, tumour necrosis factor and the interferons** — which act on the hypothalamus via **prostaglandin E2** to **raise the thermoregulatory set point**. The body then *defends* the new higher temperature by vasoconstricting, shivering and seeking warmth.
+> **This is why a patient developing a fever feels cold and shivers** — they are below their new set point — and why they feel hot and sweat as the fever breaks and the set point falls.
+> The contrast with hyperthermia, where the set point is normal and **antipyretics do not work**, is owned by [[11_09b_Ortho_-_Trauma]] Heat illness and by [[03a_Anaesthetics_Primer]] — not repeated here.
+
+> [!danger] **Absence of fever does not exclude infection**
+> **Blunted or absent febrile responses occur in: the elderly · neonates · the immunosuppressed and those on corticosteroids · uraemic and dialysis patients · those taking regular paracetamol or NSAIDs · and in overwhelming sepsis.**
+> **Hypothermia in a patient with infection is a marker of severity and a poor prognostic sign, not reassurance.**
+> In an older person, **new confusion, a fall, reduced oral intake or functional decline may be the only sign of a serious infection.** The parallel warning for the surgical abdomen in the old is at [[03_Gastrointestinal]] 0.41.6 the acute abdomen in special groups; for inflammatory markers, [[Investigation-Interpretation]] notes that a normal CRP does not exclude serious infection.
+
+> [!warning] **Fever patterns are over-taught and under-useful** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Tertian and quartan patterns in malaria (owned by [[08_07_Infectious_Disease_-_Protozoan_Infections]] Malaria), **Pel-Ebstein fever in Hodgkin lymphoma**, and relative bradycardia in typhoid are classical, examinable, and **unreliable in practice** — modified by antipyretics, by the timing of observations, and by treatment already given. **Do not exclude a diagnosis because the pattern does not fit.**
+> **Relative bradycardia** — a heart rate lower than expected for the temperature — retains modest usefulness, described in typhoid, legionella, brucellosis and **drug fever**, but is not diagnostic.
+
+> [!warning] **Drug fever — a diagnosis of exclusion, but a common one, and completely reversible**
+> Named as an FUO cause above; these are its features. Fever that may be high, in a patient who **looks better than their temperature suggests**; sometimes **relative bradycardia, eosinophilia or a rash**, but frequently none of these. It may begin days to weeks after the drug was started.
+> **Common culprits: beta-lactams, sulfonamides including co-trimoxazole, anticonvulsants (phenytoin, carbamazepine), allopurinol, heparin, antituberculous drugs, and antipsychotics.**
+> **Diagnosis is by cessation.** `UNVERIFIED — the expected time to defervescence after stopping the drug.`
+> **Document it as an adverse reaction** so the agent is not re-prescribed. The more serious drug-related febrile syndromes — DRESS, neuroleptic malignant syndrome, serotonin toxicity and transfusion reactions — are owned by [[09_08_Dermatology_-_Miscellaneous]], [[11_09b_Ortho_-_Trauma]] and [[10_08_Haemonc_-_Blood_Products_and_Transfusion]].
+
+> [!tip] **Fever after solid organ transplant follows a timeline**
+> **First month** — nosocomial and surgical-site infection, and infection related to the operation itself.
+> **One to six months** — **opportunistic infection**: CMV, *Pneumocystis jirovecii*, fungal disease, and reactivation of latent infection.
+> **Beyond six months** — community-acquired infection, plus late opportunistic infection in those on heavier immunosuppression.
+> Transplant immunosuppression regimens and the non-infective complications are owned by [[07_Renal_Medicine_and_Urology]] 0.2.6 Complications of transplant and lifelong immunosuppression, not repeated here.
+
 ## Pyrexia of unknown origin (PUO) / Fever of unknown origin (FUO)
 
 > [!note] Expanded from CSV ("Fever of unknown origin," High yield) — the original entry was genuinely thin (a one-line definition and a bare causes list) for a High-yield topic; expanded with a systematic approach, Ix, and Mx. Verified against the NSW Agency for Clinical Innovation's FUO clinical tool, Aug 2026 — PUO and FUO are the same entity under different terminology (PUO the more traditional/British term, FUO more commonly used internationally including in current Australian resources); both are used interchangeably here.
