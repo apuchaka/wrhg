@@ -93,6 +93,17 @@ conflicts_r1: 0
 - **Dx/Ix:** CSF sampling — positive for glucose, β2-transferrin.
 - **Mx:** if traumatic, conservative management; usually resolves spontaneously. 7–10 days bedrest with head elevated 15–30° ± lumbar drain. Avoid coughing, sneezing, nose-blowing. Cover with antibiotics and pneumococcal vaccine.
 
+## Added from unverified layer — nasal foreign body
+`SRC:A8_Foreign_Bodies_by_Site §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+**Unilateral, foul-smelling nasal discharge in a small child is a nasal foreign body until proven otherwise** — the smell and the *unilaterality* are the whole clue, and the history is frequently absent.
+
+> [!tip] The "mother's kiss"
+> The parent occludes the unaffected nostril and **blows a short sharp breath into the child's mouth**. The pressure expels the object, and it is **atraumatic, needs no sedation, and often works first attempt** — worth trying before instrumentation in a cooperative child.
+
+**A button battery in the nose is the same emergency as one in the oesophagus** — see [[13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology]] — and causes septal perforation. **Any suspicion warrants immediate examination, not a return appointment.**
+
+
 ## Epistaxis
 
 - **D:** bleeding from the nostril, nasal cavity, and/or nasopharynx; may be classified as anterior or posterior. Acute or chronic (>12 weeks).
