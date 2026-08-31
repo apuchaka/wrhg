@@ -149,6 +149,29 @@ Risk stratify with **GRACE score** (predicts all-cause mortality at 6 months pos
   - Drugs (steroids, COCP)
   - Others: pregnancy, coarctation of the aorta
 
+#### Added from unverified layer — three things the aetiology list above does not say
+`SRC:B2_Hypertension_Spectrum §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Renovascular hypertension has **two** causes with different patients
+> The list above says "renal artery stenosis" without splitting it. It is **atherosclerotic**
+> in older patients with vascular disease elsewhere, and **fibromuscular dysplasia** in
+> **younger women**, classically with a **"string of beads"** appearance on angiography.
+> `fibromuscular` and `string of beads` were both **absent from the whole vault** before this.
+> Suspect either with an **abdominal bruit**.
+
+> [!danger] A significant creatinine rise after starting an ACE inhibitor or ARB suggests **bilateral** renal artery stenosis
+> In bilateral disease, glomerular filtration depends on angiotensin II-mediated efferent
+> arteriolar constriction. Removing it drops filtration on both sides at once. **A rise in
+> creatinine after starting an ACEi or ARB is therefore a diagnostic signal, not only an
+> adverse effect** — and it is one of the few ways renovascular hypertension announces itself
+> without imaging.
+
+> [!warning] Drugs the list above omits
+> Alongside steroids and the COCP: **venlafaxine and other SNRIs**, **ciclosporin**,
+> **erythropoietin**, NSAIDs, decongestants and stimulants. `liquorice` is already covered at
+> [[NEW_Cardiology_and_Vascular]] §Elevated Blood Pressure, where it is noted as an apparent
+> mineralocorticoid excess.
+
 ### 0.2.1 Staging
 | Stage | Clinic BP | ABPM |
 |---|---|---|
@@ -163,6 +186,23 @@ Risk stratify with **GRACE score** (predicts all-cause mortality at 6 months pos
 - Confirm with ambulatory BP monitoring (ABPM) to exclude white coat syndrome
 - Alternative: home BP monitoring — 2 readings morning + 2 evening, for 4–7 days
 
+#### Added from unverified layer — masked hypertension, and which arm to use
+`SRC:B2_Hypertension_Spectrum §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] ABPM excludes white coat hypertension. It also finds **masked** hypertension, which is the dangerous one
+> The line above uses out-of-office monitoring to rule *out* a false positive. It equally
+> rules *in* a false negative:
+> - **White coat** — raised in clinic, normal outside. Not entirely benign, but does not warrant the same treatment.
+> - **Masked** — **normal in clinic, raised outside.** It carries the cardiovascular risk of hypertension and, because every clinic reading is reassuring, **it goes untreated.**
+>
+> **Out-of-office thresholds are lower than clinic thresholds** — see the ABPM column in §0.2.1. Reading home numbers against clinic numbers over-diagnoses.
+
+> [!tip] If the two arms differ persistently, use the higher one from then on
+> "Remeasure on both arms" above finds an **inter-arm difference**, which itself suggests
+> **subclavian stenosis, coarctation or aortic dissection** and is worth pursuing. Once a
+> persistent difference is established, **the arm with the higher reading is the one used
+> for all subsequent measurement** — otherwise every later reading understates the pressure.
+
 **Ix:** Fundoscopy (*why:* screens for hypertensive retinopathy as a marker of target-organ damage/chronicity; *what:* graded I–IV, see below). Urine dipstick/ACR (*why:* screens for renal target-organ damage and as a clue to secondary causes e.g. glomerulonephritis; *what:* proteinuria/haematuria if renal involvement). ECG (*why:* screens for LVH as target-organ damage and for arrhythmia; *what:* voltage criteria for LVH, strain pattern). Bloods — FBC (*why:* baseline, screens for polycythaemia in some secondary causes; *what:* usually normal), U&Es (*why:* baseline renal function and screens for renal-cause/renal-damage, plus baseline before ACEI/diuretic; *what:* may show renal impairment or hypokalaemia suggesting hyperaldosteronism), HbA1c (*why:* screens for coexisting diabetes, common comorbidity affecting risk stratification; *what:* may be elevated), lipids (*why:* completes the cardiovascular risk profile for absolute-risk-based treatment decisions; *what:* often deranged, part of risk calculation).
 
 > [!info] Hypertensive retinopathy grading
@@ -174,6 +214,26 @@ Risk stratify with **GRACE score** (predicts all-cause mortality at 6 months pos
 ### 0.2.3 Treatment threshold
 
 **Mx – Immediate/acute (hypertensive emergency, i.e. Stage 3/crisis BP with acute target-organ damage — encephalopathy, ACS, aortic dissection, acute pulmonary oedema, AKI, eclampsia):** IV antihypertensives (e.g. GTN infusion, labetalol, or sodium nitroprusside depending on context) in a monitored setting; controlled BP reduction (generally aiming for a gradual reduction over hours, not immediate normalisation, to avoid hypoperfusion — the specific target/rate depends on the precipitating emergency, e.g. faster reduction is appropriate in dissection than in most other hypertensive emergencies). Note: asymptomatic severe hypertension without acute target-organ damage ("hypertensive urgency") does **not** require emergency IV treatment — manage with oral therapy and outpatient follow-up.
+#### Added from unverified layer — why gradual, and the nitroprusside caveat
+`SRC:B2_Hypertension_Spectrum §0.2, §0.3` `UNVERIFIED — model knowledge, not source-checked. Percentage reduction targets and the permitted duration of a nitroprusside infusion, per eTG Cardiovascular.`
+
+> [!danger] The reason "gradual, not immediate normalisation" is a rule and not a preference
+> **Chronic hypertension shifts the cerebral autoregulation curve to the right.** The brain
+> has adapted to perfusing at a higher pressure, and **its lower autoregulatory limit has
+> risen with it.** Dropping the pressure abruptly to a population-"normal" value therefore
+> takes it **below that shifted limit**, and the result is cerebral hypoperfusion — the
+> injury the treatment was given to prevent.
+> This is why **treating the number rather than the patient** is among the most common
+> avoidable harms in this area, and why the line above prefers a **titratable** agent in a
+> monitored setting: an overshoot must be correctable within minutes.
+
+> [!warning] Sodium nitroprusside is not a drug to leave running
+> **Sodium nitroprusside is metabolised to thiocyanate and cyanide, which accumulate** with
+> prolonged infusion or in **renal impairment**. That limits how long it can be used and
+> mandates monitoring — a consideration the agent list above does not carry, and one that
+> matters most in exactly the patient a hypertensive emergency produces, whose kidneys are
+> often already injured.
+
 
 **Mx – Definitive/chronic (routine hypertension, not a crisis):**
 Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-year cardiovascular risk ≥10%).

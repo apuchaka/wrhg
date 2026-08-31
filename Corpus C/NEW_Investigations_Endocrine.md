@@ -139,6 +139,20 @@ conflicts_r1: 0
 >
 > **Correct hypokalaemia before sampling** — low potassium suppresses aldosterone and blunts the result.
 
+### Added from unverified layer — normokalaemia does not exclude it
+`SRC:B2_Hypertension_Spectrum §0.4` `UNVERIFIED — model knowledge, not source-checked. The proportion of primary aldosteronism that is normokalaemic, per a named endocrine source.`
+
+> [!danger] **Hypokalaemia is present in only a minority of primary aldosteronism, and its absence does not exclude the diagnosis.**
+> The indications above list hypokalaemia first, which reflects how the condition was
+> historically taught. **Primary aldosteronism is now recognised in a substantial minority of
+> hypertensive patients and a larger proportion of resistant hypertension**, most of them
+> **normokalaemic**. Waiting for a low potassium before requesting an ARR is the single
+> commonest way the diagnosis is missed.
+> It matters because it is **specifically treatable** — surgically curable if unilateral,
+> highly responsive to mineralocorticoid receptor antagonism if bilateral — and because it
+> carries **excess cardiovascular risk beyond that of the blood pressure alone**.
+> **No proportion is stated**; the marker names what would settle it.
+
 > [!warning] **A units trap, refused rather than converted.** Sources quote an abnormal ARR as **above 20 when aldosterone is expressed in ng/dL and plasma renin activity in ng/mL/h** — **US units**. Australian laboratories report aldosterone in **pmol/L** and renin as a direct concentration in **mIU/L**, giving entirely different numeric cut-offs. **The Australian threshold is deliberately not stated here**; use the reporting laboratory's own cut-off, which is method-specific.
 
 **Normal/abnormal:** A raised ARR **with an elevated aldosterone** suggests renin-independent aldosterone excess. A raised ratio driven only by a very low renin is less convincing. Refer for confirmatory testing rather than treating on the screen.
