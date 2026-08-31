@@ -103,13 +103,33 @@ meets the caution at the point where they meet the rule it qualifies.
 **Recorded here so the call is auditable** — a wrong "not a conflict" decision is exactly
 as invisible as a wrong supersede, and this table exists for that reason.
 
+## Two additives DROPPED at placement — both found by reading the destination, not by a scan
+
+Round 1 called these gaps. Reading the destination file before writing showed both were
+already there. Recorded because a dropped additive is a duplicate that did not happen, and
+because **neither scan caught them** — only reading did.
+
+| Claim | Why it was called a gap | Where it actually was |
+|---|---|---|
+| **Oxygen only if hypoxaemic in ACS** | Searched `oxygen`, `routine oxygen`, and `(oxygen\|O2).{0,60}(ACS\|infarct\|STEMI)` — the last returned three hits, none in ACS | **`01_Cardiovascular.md` §0.1.2 Mx – Immediate**: *"Aspirin 300 mg, **O2 if sats <94%**…"*. The search looked for the word **oxygen**; the file writes **O2**. Rule 2 — a spelling variant, in the most ordinary form it takes |
+| **Heart rate before blood pressure in dissection, to avoid reflex tachycardia worsening shear stress** | Searched `shear` — **14 hits**, of which I read the first, which was diffuse axonal injury | **`01_Cardiovascular.md` §0.36.5**, in parentheses on the Mx line: *"(rate control first, then vasodilator if BP remains high, **to avoid reflex tachycardia worsening shear stress**)"* — the identical claim, identically reasoned. Rule 2's truncation clause, in the form where the hit **was** returned and simply not read |
+
+**The second is the more instructive.** The pattern was correct, the scope was correct, and
+the count was 14 — everything a scan can report was right. The failure was reading one line
+of a fourteen-line result. **A scan that returns the answer and a reader who stops at the
+first hit produce exactly the same output as a scan that found nothing.**
+
+Two of eleven additives, both in the same file, both duplicates avoided.
+
 ## Summary
 
 | | n |
 |---|---|
 | Superseded | 22 |
 | Round-2 probes confirming existing coverage or dismissed | 12 |
-| **Additive** | **11** |
+| Additive claimed by the gap check | 11 |
+| **Dropped at placement — already present** | **2** |
+| **Additive actually merged** | **9** |
 | Conflicts | 0 |
 
 **No conflict block.** Nothing in B1 contradicts an existing figure or claim; every
