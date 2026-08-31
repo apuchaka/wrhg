@@ -183,6 +183,25 @@ no_baseline: 0
 | Protease inhibitors (PI) | Indinavir, nelfinavir, ritonavir | SE: DM, hyperlipidaemia, buffalo hump, central obesity. Indinavir: renal stones, asymptomatic ↑bilirubin. Ritonavir: potent P450 inhibitor |
 | **Integrase inhibitors (INSTI)** | **Dolutegravir, bictegravir, raltegravir, elvitegravir** | Block integration of viral genome into host DNA — **current first-line class in Australia**, per the Mx note above |
 
+### Added from unverified layer — what happens in the minutes before PEP is considered
+`SRC:K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency §0.1, §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Immediate first aid after a sharps or splash exposure — and what NOT to do**
+> **· Percutaneous:** wash the wound with **soap and running water**.
+> **· DO NOT squeeze the wound, DO NOT scrub it, and DO NOT suck it.** **Do not instil bleach, alcohol or antiseptic into the wound.** These damage tissue and there is no evidence any of them reduces transmission.
+> **· Mucous membrane or eye:** irrigate copiously with water or saline. **Remove contact lenses and irrigate the eye again afterwards**, and irrigate the lenses too if they are to be kept.
+> **· Then report immediately** — to the supervisor and to occupational health or the emergency department. **The prophylaxis window below is measured in hours, and the commonest reason it is missed is delayed reporting**, not delayed prescribing.
+
+> [!warning] **Hepatitis C has NO post-exposure prophylaxis** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> There is nothing to give. **Management is surveillance** — baseline serology, then **HCV RNA PCR** at defined intervals, because RNA becomes detectable well before antibody.
+> **This is not a gap in care: hepatitis C is now curable with direct-acting antivirals, so the aim is early detection and treatment rather than prevention.** Say so to the exposed person, who will otherwise hear "no prophylaxis" as "nothing can be done".
+> `UNVERIFIED — the testing intervals for HCV RNA and serology after occupational exposure, per the Australian national guidelines for post-exposure management (ASHM).`
+
+> [!tip] **Non-occupational PEP (NPEP) is its own pathway** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> The block below covers exposure generically. **NPEP is the pathway after a non-occupational exposure — condomless sex, a shared injecting device, a sexual assault** — and it differs in who assesses it and where: emergency departments, sexual health services and an NPEP hotline rather than occupational health.
+> **The clinical decision is the same shape** — source status, exposure type, time since exposure — **but the person in front of you has no employer pathway and may have no idea the option exists.** Awareness of it is the intervention.
+> `UNVERIFIED — the Australian NPEP eligibility matrix, the current regimen, and the state NPEP hotline numbers, per ASHM's NPEP guidelines.`
+
 > [!note] PrEP and PEP — high-yield, commonly examined and not in the original source. **PrEP (pre-exposure prophylaxis):** oral tenofovir/emtricitabine, taken by HIV-negative people at ongoing risk to prevent acquisition; long-acting injectable cabotegravir PrEP is TGA-approved in Australia but, as of the last confirmed update, is not PBS-subsidised, limiting accessibility. **PEP (post-exposure prophylaxis):** a combination ART course started as soon as possible (ideally within hours, and generally not beyond 72h) after a significant exposure (e.g. needlestick, condomless sex with a partner of unknown/positive status), continued for 28 days — genuinely time-critical, and a common OSCE/exam scenario (a patient presenting after a high-risk exposure asking about PEP).
 
 ### Opportunistic infections by CD4 count
