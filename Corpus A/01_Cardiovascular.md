@@ -574,6 +574,17 @@ Regular narrow-complex tachycardia not ventricular in origin. QRS <80 ms, usuall
 
 > [!tip] Valsalva manoeuvre — forced expiration against a closed glottis. Can terminate SVT or normalise middle-ear pressures.
 
+#### Added from unverified layer — do the Valsalva properly
+`SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.2` `UNVERIFIED — model knowledge, not source-checked. The strain pressure and duration, per ANZCOR or a named emergency medicine source.`
+
+> [!tip] The **modified** Valsalva is substantially more effective than the standard one
+> **Standard strain, then immediately lay the patient flat and passively raise their legs.**
+> The leg raise restores venous return at the moment of release, which is what augments the
+> vagal surge. **This should be the default technique**, not a refinement.
+> It is free, it works in a meaningful proportion of SVT, and **doing it well is worth more
+> than doing it early** — the Mx line above lists it first for a reason, and a poorly
+> performed Valsalva sends patients to adenosine who did not need it.
+
 ---
 
 ## 0.10 Pacemakers
@@ -692,6 +703,25 @@ Down-sloping ST depression, flattened/inverted T waves, short QT interval, arrhy
 **S/Smx:** may be asymptomatic, or present with palpitations, dizziness, dyspnoea, chest pain.
 
 **Ix:** ECG (*why:* diagnostic; *what:* short PR interval, δ wave — wide QRS with slurred upstroke, LAD/RAD; Type A: dominant R wave in V1; Type B: no dominant R wave) ± echo (*why:* screens for associated structural defects e.g. Ebstein anomaly, HOCM; *what:* may show associated lesion), electrophysiology study (*why:* localises the accessory pathway and risk-stratifies before ablation; *what:* confirms pathway location and conduction properties).
+
+> [!danger] Added from unverified layer — **pre-excited AF: the AV-node drugs are the danger**
+> `SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.2` `UNVERIFIED — model knowledge, not source-checked. Antiarrhythmic choice and dosing, per eTG Cardiovascular under specialist direction.`
+>
+> The A/P above notes that the pathway "can degenerate to AF/VF". **This is how.**
+> An **irregular, broad, very fast** tachycardia in a patient with WPW is **atrial
+> fibrillation conducting down the accessory pathway.**
+> **Adenosine, verapamil, diltiazem, beta-blockers and digoxin all block the AV node**, and
+> in this rhythm that **pushes conduction preferentially down the accessory pathway** —
+> accelerating the ventricular rate and precipitating **ventricular fibrillation.**
+> **Treat with synchronised cardioversion**, or an antiarrhythmic acting on the pathway under
+> specialist direction. **This is one of the highest-consequence drug errors in acute
+> cardiology.**
+>
+> **The corpus already carries one arm of this and not the others:**
+> [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]] lists *"atrial fibrillation with
+> pre-excitation (WPW)"* as a contraindication **to non-dihydropyridine calcium channel
+> blockers only**. Adenosine, beta-blockers and digoxin carry the same danger and are not
+> flagged anywhere. Cross-refer §0.9 for the irregular broad-complex box.
 
 **Mx:** radiofrequency ablation of accessory pathway (safe and effective); medical — sotalol, amiodarone, flecainide (avoid sotalol in coexistent AF).
 
