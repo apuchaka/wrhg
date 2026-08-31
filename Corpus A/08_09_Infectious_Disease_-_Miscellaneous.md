@@ -137,6 +137,15 @@ no_baseline: 4
 
 - **P:** average mortality 20%, worse (50–70%) if end organ damage or shock present — reinforcing why time to surgical debridement is the single most important prognostic factor.
 
+## Added from unverified layer — terminal complement deficiency
+`SRC:K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency §0.5` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!danger] **A second episode of meningococcal disease is a diagnosis in itself**
+> **Deficiency of the terminal complement components (C5–C9) and of properdin causes recurrent NEISSERIAL infection** — meningococcal disease above all, and disseminated gonococcal infection. The episodes are often **less severe than a first episode in a complement-sufficient person**, which is part of why the pattern is missed.
+> **So: recurrent, unusually late-onset, or unusual-serogroup meningococcal disease should prompt a complement screen and immunology referral**, alongside the vaccination and prophylaxis that follow from it.
+> `UNVERIFIED — the screening test (CH50/AH50 and terminal pathway assays), and Australian meningococcal vaccination recommendations for complement deficiency, per the Australian Immunisation Handbook.`
+> **The acquired form is already in this vault and the inherited form was not:** [[NEW_Drugs_07_Blood_and_Electrolytes]] and [[NEW_Drugs_20_Vaccines]] record that **eculizumab and ravulizumab block C5 and mandate meningococcal vaccination before starting** — the same defect, produced deliberately by a drug.
+
 ## Post-splenectomy sepsis
 
 > [!info] Verified against the Australian Immunisation Handbook and eTG-cited Australian guidance (Medicine Today), Aug 2026 — found genuine dose/frequency corrections and some updated vaccine coverage, not just a "check locally" caveat.
