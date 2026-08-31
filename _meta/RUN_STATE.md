@@ -738,8 +738,8 @@ file. **No marker was silently voided in Block 1.**
 
 ## Resume point
 
-**DONE:** K1 · K2 · K3 · K4 · I1.
-**NEXT:** I2 · I3 · I4 · I5 · O6 · CV-X.
+**DONE:** K1 · K2 · K3 · K4 · I1 · I2.
+**NEXT:** I3 · I4 · I5 · O6 · CV-X.
 Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1–E3).
 **Do NOT start Week 4** — the user decides that after seeing this run's yield.
 
@@ -774,6 +774,7 @@ suppresses a marker on the ground that the *source* mentions the subject.
 | K3 Exposure, TB, HIV, Immunodeficiency | 48 | 7 | 40 | 0 | none |
 | K4 Allergy and Clinical Immunology | 38 | 10 | 25 | 0 | none |
 | I1 Thyroid Disease | 32 | 2 | 30 | 0 | none |
+| I2 Diabetes and Glucose Disorders | 34 | 4 | 30 | 0 | none |
 
 **The K block ran ~26% additive. I1 ran 6%.**
 
@@ -787,10 +788,10 @@ suppresses a marker on the ground that the *source* mentions the subject.
 > not a coverage measure.** Expect I2–I5 to run low too, for the same reason: Corpus C
 > has a dedicated investigations file per specialty.
 
-**Six unanchored-substring traps so far this run**, none of which was on the user's
+**Seven unanchored-substring traps so far this run**, none of which was on the user's
 known-collisions list: `felon`→`lifelong` (66/66) · `IGRA`→`migraine` (118/125) ·
 `PrEP`→`preparation` (~98/113) · `IRIS`→the eye (18/22) · `Gell`→`Shigella`/`flagellin`
-(9/9) · `TRAb`→`trabecular`/`strabismus` (28/32). **Treat any short unanchored pattern as
+(9/9) · `TRAb`→`trabecular`/`strabismus` (28/32) · `LADA`→`maladaptive` (6/6). **Treat any short unanchored pattern as
 suspect by default; a list of known-bad ones will always be behind.**
 
 ## Next free conflict ID: **CF-036.** (CF-035 is the atelectasis conflict written this run.)
