@@ -5,6 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!note] Leukaemia = cancer of the WBCs in the bone marrow → marrow failure → ↓RBC (anaemia) and ↓mature WBC and ↓platelets (haemorrhage).

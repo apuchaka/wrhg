@@ -5,6 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!info] Localised for Australia — all antibiotic/antifungal regimens in this file verified against the WA Health "Quick guide to STI and BBV management" (2026 edition), Aug 2026. Two genuine dosing corrections were needed (chlamydia's azithromycin course, and gonorrhoea's ceftriaxone dose and dual-therapy structure) — see the individual entries below for detail.

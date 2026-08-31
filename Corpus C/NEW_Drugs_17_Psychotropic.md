@@ -6,6 +6,7 @@ trust: snippet
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 # NEW — Drug Classes: Psychotropic (AMH section 17)

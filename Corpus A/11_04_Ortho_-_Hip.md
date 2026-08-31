@@ -5,6 +5,7 @@ trust: inherited
 population: adult
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 ## Hip / neck of femur (NOF) fractures

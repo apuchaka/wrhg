@@ -5,6 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] This is a quick-reference antidote table only — always confirm doses and current protocols against Australian poisons information (Poisons Information Centre 13 11 26) and eTG before treating any overdose.

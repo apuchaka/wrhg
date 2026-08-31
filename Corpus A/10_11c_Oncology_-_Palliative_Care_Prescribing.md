@@ -5,6 +5,7 @@ trust: inherited
 population: adult
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 1
 ---
 
 > [!info] Verified against Australian palliative care prescribing resources (Therapeutic Guidelines: Palliative Care at tg.org.au, WA Cancer and Palliative Care Network guidelines, NSW CEC last-days-of-life guidance), Aug 2026 — found one genuinely important correction beyond "check locally": **diamorphine (heroin) is not used in Australian clinical practice** — it's a UK-specific palliative/anaesthetic drug, essentially unavailable here, so the diamorphine conversion figures below should not be used in an Australian context at all (not just "verify the numbers" — the drug itself isn't part of the Australian formulary for this indication). Australian practice uses morphine, oxycodone, hydromorphone, and fentanyl as the standard opioid options instead — hydromorphone in particular is commonly used in Australian palliative care (including for renal impairment, given a more favourable metabolite profile than morphine) and is a genuinely more prominent option in Australian teaching than this UK-sourced file reflects.
