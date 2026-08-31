@@ -41,6 +41,17 @@ no_baseline: 0
 >
 > If 3–4 criteria are present, positive predictive value is >90% for septic arthritis.
 
+## Added from unverified layer — pulled elbow (radial head subluxation)
+`SRC:L5_Regional_Limb_Pain §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!tip] **The commonest elbow injury in a toddler, and it is not a fracture**
+> **A sudden axial pull on a pronated, extended arm** — lifting a child by the hand, swinging them, a stumble while being led — **slips the annular ligament over the radial head.** Typically **one to four years old**, and it stops happening once the ligament thickens.
+> **The presentation is the giveaway: the child is NOT distressed at rest and is not obviously injured — they simply will not use the arm**, which is held slightly flexed and pronated at the side. **There is no swelling, no deformity and no bruising**, and pain is minimal until the forearm is supinated.
+> **Because it looks like nothing, the history is the diagnosis** — and a carer who describes pulling the child's arm may be reluctant to say so.
+> **A radiograph is not required where the history and examination are typical**, and reduction is a simple manoeuvre performed by someone trained in it, with the child using the arm again within minutes — which is itself confirmatory.
+> **When it does NOT fit, it is something else.** Swelling, bruising, deformity, point tenderness over bone, a child outside the usual age range, or a history that does not match **means imaging and a fracture assessment** — and, where the history keeps changing, a safeguarding assessment. Cross-refer [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]].
+> `UNVERIFIED — the reduction manoeuvre, which of the described techniques is preferred, and the observation period afterwards. NO TECHNIQUE IS DESCRIBED HERE deliberately; RCH and Queensland Children's Health guidelines are the open sources.`
+
 ## Developmental dysplasia of the hip (DDH)
 
 - **D:** spectrum of conditions affecting the proximal femur and acetabulum.

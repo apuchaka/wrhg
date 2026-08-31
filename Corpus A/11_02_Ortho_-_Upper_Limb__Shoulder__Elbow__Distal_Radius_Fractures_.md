@@ -144,6 +144,21 @@ no_baseline: 0
 - **S/Smx:** pain when extending the wrist and elbow against resistance; acute pain lasting 6–12 weeks, with a chronic phase between 6 months and 2 years.
 - **Mx:** rest, ice, physiotherapy, NSAIDs.
 
+> [!danger] Added from unverified layer — **corticosteroid injection is the wrong reflex in lateral epicondylalgia**
+> `SRC:L5_Regional_Limb_Pain §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> The management above is correct and is missing the thing patients most often ask for.
+> **A corticosteroid injection gives good short-term relief and a WORSE outcome at a year than doing nothing** — higher recurrence and slower eventual recovery. **The short-term benefit is real, which is why the practice persists**, and it is the reason a patient who was injected and improved will ask for another.
+> **The naming reflects this:** the condition is now usually called **lateral epicondylALGIA** or **tendinOSIS** rather than epicondylITIS, because the histology is **degenerative rather than inflammatory** — so an anti-inflammatory injection is treating a process that is not there.
+> **What to offer instead: explanation of the natural history above, load modification rather than rest, and progressive loading exercise with physiotherapy.** The natural history is favourable and saying so is part of the treatment.
+> `UNVERIFIED — the size and duration of the short-term benefit and of the one-year harm, and current Australian guidance on injection; the RACGP HANDI resource and a sports medicine source would settle it.`
+
+> [!danger] Added from unverified layer — **posterior shoulder dislocation is missed on the AP film**
+> `SRC:L5_Regional_Limb_Pain §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Uncommon, and missed more often than it is diagnosed** — the AP radiograph can look almost normal, and the diagnosis is made on the axillary or scapular-Y view, **which is why a single AP is not an adequate shoulder series.**
+> **The signs on the AP are subtle and named:** the **"lightbulb sign"** — the humeral head appears symmetrically rounded because the arm is fixed in internal rotation — **loss of the normal overlap between the humeral head and the glenoid**, and the **"rim sign"**, a widened glenohumeral space.
+> **The clinical sign is the one that should prompt the extra view: the arm is held internally rotated and adducted, and EXTERNAL ROTATION IS BLOCKED.** A patient who physically cannot externally rotate has a posterior dislocation until the axillary view says otherwise.
+> **Ask about the mechanism, because it is characteristic: a SEIZURE, an ELECTROCUTION, or a fall on an internally rotated arm** — violent unopposed internal rotator contraction. **A post-ictal patient with shoulder pain gets a proper series**, and bilateral dislocation, though rare, is nearly always this mechanism.
+
 ### Olecranon bursitis
 
 - **D:** swelling over the posterior aspect of the elbow. Typically in middle-aged males.
