@@ -383,6 +383,16 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 
 **A:** [SMITH] Sepsis, Mitral valve pathology, IHD, Thyrotoxicosis, HTN
 
+> [!warning] Added from unverified layer — the **acute** precipitants SMITH does not cover
+> `SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+> SMITH covers the chronic substrate and sepsis. New AF in an unwell patient is frequently a
+> **symptom of the acute illness rather than a new cardiac diagnosis**, so also look for:
+> **alcohol binge ("holiday heart")** — distinct from the chronic heavy use listed under R
+> above · **pulmonary embolism** · **the post-operative state** · **electrolyte disturbance**
+> · **obstructive sleep apnoea**.
+> **Treating the rate without treating the precipitant is the common error** — and in sepsis
+> the sepsis usually needs treating more than the rate does.
+
 **P:** Anatomical/histological change in atria secondary to underlying heart disease → conductive changes.
 
 **S/Smx:** palpitations, irregularly irregular pulse, SOB, chest pain, fatigue, dizziness, syncope
@@ -514,6 +524,16 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 
 **Mx if stable:** amiodarone (loading dose then 24h infusion), or lidocaine/procainamide; + ICD if drug therapy fails or LV function impaired.
 
+> [!tip] Added from unverified layer — the rest of the VT-versus-SVT discriminators
+> `SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.3` `UNVERIFIED — model knowledge, not source-checked. Formal algorithm criteria (Brugada, Vereckei) omitted.`
+> The Ix line above names **AV dissociation and capture beats**. The set is completed by:
+> - **Fusion beats** — a hybrid morphology, essentially diagnostic alongside capture beats.
+> - **Precordial concordance** — every QRS across V1–V6 positive, or every one negative.
+> - **Extreme axis deviation** and a **very broad QRS**.
+> - **Known structural heart disease or prior MI** — clinically the single most useful discriminator, and the one that needs no ECG.
+>
+> **None of this changes the safe decision**, which the §0.12.4 line already states: assume VT. Treating VT as SVT is dangerous; treating SVT as VT is usually harmless.
+
 **Mx of torsade de pointes:** Mg sulphate.
 
 > [!danger] Do NOT use verapamil in VT.
@@ -574,6 +594,17 @@ Regular narrow-complex tachycardia not ventricular in origin. QRS <80 ms, usuall
 
 > [!tip] Valsalva manoeuvre — forced expiration against a closed glottis. Can terminate SVT or normalise middle-ear pressures.
 
+#### Added from unverified layer — do the Valsalva properly
+`SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.2` `UNVERIFIED — model knowledge, not source-checked. The strain pressure and duration, per ANZCOR or a named emergency medicine source.`
+
+> [!tip] The **modified** Valsalva is substantially more effective than the standard one
+> **Standard strain, then immediately lay the patient flat and passively raise their legs.**
+> The leg raise restores venous return at the moment of release, which is what augments the
+> vagal surge. **This should be the default technique**, not a refinement.
+> It is free, it works in a meaningful proportion of SVT, and **doing it well is worth more
+> than doing it early** — the Mx line above lists it first for a reason, and a poorly
+> performed Valsalva sends patients to adenosine who did not need it.
+
 ---
 
 ## 0.10 Pacemakers
@@ -630,6 +661,19 @@ Usual ECG settings: voltage 10 mV, speed 25 mm/s.
 > - **2nd degree Type 2 (Mobitz II):** constant PR interval between dropped beats
 > - **3rd degree (complete):** dissociation between P waves and QRS complexes; if post-MI, think RCA lesion
 
+#### Added from unverified layer — *where* the block sits is what decides urgency
+`SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Mobitz I and Mobitz II are not two grades of the same thing
+> The box above separates them on the **PR interval**. The reason that matters is **anatomical**:
+> - **Mobitz I is usually within the AV node.** Often vagally mediated or drug-related, **atropine-responsive**, and it rarely progresses. Generally benign.
+> - **Mobitz II is infranodal — in the His-Purkinje system.** It is therefore **not reliably atropine-responsive**, it **progresses unpredictably to complete heart block**, and it usually needs pacing. **This is the dangerous one**, which is why §0.8 lists it among the risk factors for asystole.
+> - **In third-degree block the escape tells you the level:** a **narrow** escape suggests a junctional origin and relative stability; a **broad, slow** escape suggests a ventricular origin and is unstable.
+
+> [!tip] Added from unverified layer — bradycardia with a **wide QRS**: check a gas before you pace
+> `SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+> **Hyperkalaemia produces bradycardia with QRS widening**, peaked T waves and loss of P waves, progressing to a sine wave and arrest. It is fast to check, immediately treatable, and **will not respond to pacing**. See [[NEW_Drugs_07_Blood_and_Electrolytes]] for the treatment sequence.
+
 ### 0.12.4 QRS complex
 - Normal: 80–100 ms
 - Broad-complex tachycardia (>100–120 ms) — assume VT until otherwise proven
@@ -640,6 +684,20 @@ Usual ECG settings: voltage 10 mV, speed 25 mm/s.
 |---|---|---|---|
 | RBBB | Slow/absent RBB conduction, longer RV depolarisation | Normal variant (↑age), RV hypertrophy, PE, MI | "MaRRoW" — M in V1, W in V6 |
 | LBBB | Slow/absent LBB conduction, longer LV depolarisation | Acute MI, aortic stenosis, HTN | "WiLLiaM" — W in V1, M in V6. A new LBBB is always assumed to be MI until otherwise proven |
+
+#### Added from unverified layer — reading ST change when the LBBB is **not** new
+`SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.3` `UNVERIFIED — model knowledge, not source-checked. The Sgarbossa criteria and their weightings, per a named cardiology source.`
+
+> [!warning] "A new LBBB is always assumed to be pathological" answers only half the question
+> The table above covers the **new** LBBB. It does not say how to read ST segments in a
+> patient whose LBBB is **known and old**, or who is **ventricularly paced** — and in both,
+> the baseline ST/T changes are abnormal by default, so ordinary STEMI criteria do not apply.
+> The **Sgarbossa criteria** exist for exactly this, resting on **ST elevation concordant
+> with the QRS**, ST depression concordant in V1–V3, and **excessively discordant** ST
+> elevation. **The criteria themselves are not reproduced here** — the discordance threshold
+> is the part that gets misremembered, and a misremembered threshold is worse than none.
+> The practical point an intern needs: **a known LBBB or a paced rhythm does not mean the
+> ECG is uninterpretable**, and it does not mean ischaemia can be excluded.
 
 **Fascicular blocks (hemiblocks)** — the left bundle branch splits into anterior and posterior fascicles; block of one in isolation (without a full bundle branch block pattern) causes a characteristic axis shift without QRS widening beyond the fascicular-block range (typically <120ms, distinguishing isolated hemiblock from a full bundle branch block):
 - **Left anterior fascicular block (LAFB):** left axis deviation (more marked than −45°) with a small Q wave and tall R wave in lead I/aVL (qR pattern), small R wave and deep S wave in II/III/aVF (rS pattern) — the anterior fascicle is thinner and more vulnerable, making LAFB the more common isolated hemiblock of the two.
@@ -692,6 +750,25 @@ Down-sloping ST depression, flattened/inverted T waves, short QT interval, arrhy
 **S/Smx:** may be asymptomatic, or present with palpitations, dizziness, dyspnoea, chest pain.
 
 **Ix:** ECG (*why:* diagnostic; *what:* short PR interval, δ wave — wide QRS with slurred upstroke, LAD/RAD; Type A: dominant R wave in V1; Type B: no dominant R wave) ± echo (*why:* screens for associated structural defects e.g. Ebstein anomaly, HOCM; *what:* may show associated lesion), electrophysiology study (*why:* localises the accessory pathway and risk-stratifies before ablation; *what:* confirms pathway location and conduction properties).
+
+> [!danger] Added from unverified layer — **pre-excited AF: the AV-node drugs are the danger**
+> `SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.2` `UNVERIFIED — model knowledge, not source-checked. Antiarrhythmic choice and dosing, per eTG Cardiovascular under specialist direction.`
+>
+> The A/P above notes that the pathway "can degenerate to AF/VF". **This is how.**
+> An **irregular, broad, very fast** tachycardia in a patient with WPW is **atrial
+> fibrillation conducting down the accessory pathway.**
+> **Adenosine, verapamil, diltiazem, beta-blockers and digoxin all block the AV node**, and
+> in this rhythm that **pushes conduction preferentially down the accessory pathway** —
+> accelerating the ventricular rate and precipitating **ventricular fibrillation.**
+> **Treat with synchronised cardioversion**, or an antiarrhythmic acting on the pathway under
+> specialist direction. **This is one of the highest-consequence drug errors in acute
+> cardiology.**
+>
+> **The corpus already carries one arm of this and not the others:**
+> [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]] lists *"atrial fibrillation with
+> pre-excitation (WPW)"* as a contraindication **to non-dihydropyridine calcium channel
+> blockers only**. Adenosine, beta-blockers and digoxin carry the same danger and are not
+> flagged anywhere. Cross-refer §0.9 for the irregular broad-complex box.
 
 **Mx:** radiofrequency ablation of accessory pathway (safe and effective); medical — sotalol, amiodarone, flecainide (avoid sotalol in coexistent AF).
 

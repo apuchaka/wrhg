@@ -36,6 +36,8 @@ conflicts_r1: 0
 - **Practical:** **an INR must never be prescribed without a plan for who reviews it.** Patients need an INR booklet or app, education about consistent diet and about telling every prescriber they are on warfarin, and a clear point of contact.
 
 > [!danger] **DOACs are CONTRAINDICATED in mechanical heart valves and in antiphospholipid syndrome.** Sources state both explicitly: mechanical valve thrombosis has occurred on rivaroxaban, and the only agents approved for mechanical valves are vitamin K antagonists; DOACs are listed as contraindicated in antiphospholipid syndrome for both VTE and AF indications. **A patient on warfarin for either indication must not be "modernised" onto a DOAC.**
+>
+> **Added from unverified layer:** `SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.4` `UNVERIFIED — model knowledge, not source-checked; confirm the mitral stenosis severity threshold against a named cardiology source.` **Moderate-to-severe mitral stenosis belongs on this list too** — historically grouped with mechanical valves as "valvular AF", and the setting where warfarin remains required.
 
 ### 0.1.2 Heparins (Unfractionated Heparin)
 - **Mechanism:** binds **antithrombin**, accelerating its inactivation of **thrombin (IIa) and factor Xa** — unfractionated heparin is long enough to bridge antithrombin to thrombin, which is why it inhibits both.

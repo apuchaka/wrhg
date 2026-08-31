@@ -409,6 +409,20 @@ conflicts_r1: 0
 > - **Diathermy in surgery** requires device management; involve the device team preoperatively.
 > - **Device infection is serious** — a red, tender or discharging pocket, or bacteraemia (especially *Staphylococcus aureus*) in a patient with a device, requires urgent cardiology involvement, and usually means **system extraction**. Do not treat it as a superficial wound infection.
 > - **Complications**: pneumothorax, haematoma, lead displacement and fracture, tricuspid regurgitation, venous occlusion, and battery depletion requiring generator change.
+
+> ### Added from unverified layer — the magnet does something different on a pacemaker, and the four malfunctions
+> `SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.6` `UNVERIFIED — model knowledge, not source-checked. The magnet rate, per the device manufacturer's card.`
+>
+> **A magnet over an ICD suspends tachyarrhythmia detection and therapy — it stops shocks, and it does NOT affect the pacing function.** The deactivation point above uses this.
+> **A magnet over a PACEMAKER does something else entirely: it causes asynchronous pacing at a fixed magnet rate. It does not "turn it off".** Confusing the two is examined, and matters at the bedside when the device in front of you is not the one you assumed.
+>
+> **The four malfunctions worth recognising**, alongside the complications listed above:
+> - **Failure to capture** — pacing spikes with no following QRS. Lead displacement, fracture, exit block, or a metabolic cause.
+> - **Failure to sense** — the device paces without seeing intrinsic beats, risking **R-on-T**.
+> - **Oversensing** — noise, myopotentials or T waves read as beats, **inhibiting pacing**. Dangerous in a pacing-dependent patient.
+> - **Twiddler's syndrome** — the patient manipulates the generator in its pocket, twisting and dislodging the leads. It is a named cause of the "lead displacement" already listed above.
+>
+> **Pacemaker syndrome** — fatigue, dyspnoea and neck pulsation from **loss of AV synchrony** in single-chamber ventricular pacing.
 > - See [[01_Cardiovascular]].
 
 **Alt:** **Optimal medical therapy for heart failure** — which itself reduces sudden death and must be maximised first; **wearable cardioverter defibrillator** during the waiting period in selected patients; **subcutaneous ICD** where pacing is not required; catheter ablation of VT; **CRT** where there is a broad QRS; and — a legitimate, informed choice — **declining a device**.
