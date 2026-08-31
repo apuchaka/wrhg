@@ -21,6 +21,20 @@ conflicts_r1: 0
 - **D:** infection of the dermis and deeper subcutaneous tissues. Erysipelas is a related, more superficial variant, involving only the upper dermis and superficial lymphatics — the purulent/non-purulent Mx distinction below broadly maps onto this deep/superficial and staphylococcal/streptococcal distinction respectively.
 - **A:** *Strep pyogenes*, *S. aureus*.
 - **R:** diabetes, venous insufficiency, eczema, oedema & lymphoedema, obesity, previous episodes of cellulitis, toe-web abnormalities (a disrupted skin barrier providing bacterial entry).
+
+> [!danger] Added from unverified layer — **bilateral simultaneous cellulitis is rare**
+> `SRC:B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+> **Bilateral** red, warm, swollen lower legs are far more often **venous stasis dermatitis or
+> lipodermatosclerosis** than infection. Both are **inflammatory and not infective**, both
+> look convincingly like cellulitis, and **neither responds to antibiotics.**
+> The risk factors above — venous insufficiency, oedema and lymphoedema — are precisely the
+> patients in whom this confusion arises, and it is a common reason for repeated
+> unnecessary courses. **Ask whether it is truly one leg**: cellulitis is nearly always
+> unilateral, and simultaneous bilateral disease should prompt a rethink rather than a
+> broader antibiotic.
+> `lipodermatosclerosis` is already described at [[01_Cardiovascular]] §0.36.7 and
+> [[Examination]] (*"firm, woody induration"*) — this line is the link from the infective
+> differential to it.
 - **S/Smx:** erythema, pain, swelling, commonly on the shins; possibly associated with systemic upset.
 - **Ix:** clinical diagnosis ± bloods and blood cultures if sepsis is suspected.
 
