@@ -976,3 +976,84 @@ not tokens.** All 30 verified present by reading.
 
 Only `scan` does. `study --dir .` left the working tree clean apart from
 `_meta/STUDY_CHECKS.md`. The revert-after-scan step still applies to `scan`.
+
+---
+
+# VAULT-WIDE CLAIM AUDIT — stopped at C4, resume point below
+
+## Resume point
+
+**Done:** C6 (calibration), C1, C2, C3, C4 — reports in `_meta/audits/`.
+**Next:** **C5, then C7**, then D1–D7, GER1–2, A6–A8, F0-1..F0-5.
+**Nothing merged.** Every report is REPORT ONLY.
+
+Method is fixed and written down: CLAUDE.md rule 12, and the Step 29 REQUIRED CHECK.
+Extraction rule to reuse **verbatim**, because granularity drift is the main variance left:
+*one claim = one assertion that could independently be true or false, and that a reader could
+act on differently.*
+
+## The multiplier, per file
+
+Old rule = `**absent**` rows in the file's `_meta/merges/` table. New rule = ABSENT + WEAKER.
+
+| File | Claims | Old | New | Multiplier | DISCARD rows | ADDITIVE rows |
+|---|---:|---:|---:|---:|---:|---:|
+| **C6** | 164 | 6 | **75** | **12.5×** | 5 | 3 |
+| C3 | 118 | 5 | 29 | 5.8× | 8 | 2 |
+| C2 | 93 | 6 | 22 | 3.7× | 6 | 3 |
+| C1 | 182 | 13 | 40 | 3.1× | 7 | 6 |
+| C4 | 81 | 8 | 20 | 2.5× | 4 | 0 |
+
+**MY PREDICTION WAS WRONG, and the direction is the opposite of what I said.**
+
+I predicted discard-heavy tables would under-report *less*. **C3 has the most DISCARD rows
+(8) and the second-highest multiplier (5.8×). C4 has the fewest (4) and the lowest (2.5×).**
+Across the five files the correlation runs the other way from my claim.
+
+**What actually predicts the multiplier is how much of the file is written as prose reasoning
+rather than as named entities.** C6 and C3 are dense in discriminators, negative claims and
+mechanism — "does not distinguish", "is unreliable", "may look entirely normal", "LFTs do not
+test liver function", "a slowly enlarging liver is painless". Those have no topic name, so a
+row-level check cannot see them and a term search does not find them. C4 is mostly named
+entities — Forrest, Blatchford, Rockall, Dieulafoy, Heyde — which a row-level check does see.
+
+**So the rule for the remaining 29 files: the multiplier tracks prose density, not
+disposition mix.** Do not use DISCARD count to triage which tables need re-running.
+
+## ADDITIVE-row findings so far
+
+| File | Finding |
+|---|---|
+| **C6** | **Barrett block duplicates base-A `13_06b:41`**, merged on the stated premise that the destination "stops before management" — it did not. Two claims near-verbatim. The one new element (interval by segment length) **disagrees** with base-A's flat 3–5 years and was never raised as a conflict |
+| **C1** | **~40 claims duplicate `NEW_Gastroenterology_and_Hepatology:19–40`**, which was in base-A: watch-the-patient-before-touching almost verbatim, the must-not-miss list, the medical mimics, the examination sequence, β-hCG, the bloods panel. **Plus a buried disagreement**: base-A `:30` says elicit **rebound**; the merged block says rebound "should largely be abandoned". Suggested **CF-038 R3** |
+| C2 | Clean. The cannabinoid block looked like a duplicate (`hot shower` = 3 base-A hits) and is not — all three are polycythaemia pruritus, rosacea and fentanyl patch absorption |
+| C3 | Clean. Both blocks 0 in base-A on every term tested |
+| **C4** | Clean, **and the model for handling an overlap**: the §0.33.4 block writes *"AIMS65 is a further pre-endoscopy risk score alongside the Glasgow-Blatchford and Rockall scores **already at §0.33.2**"* — adds one, points at the rest, reproduces nothing. This is the Barrett failure avoided |
+
+## Tooling changed this run
+
+**`gapcheck.py` now folds Roman and Arabic numerals**, narrowly — only after a qualifier
+(grade, stage, type, class, phase, degree, tier), because folding a bare `1` to `(?:1|I)`
+would match the pronoun. Tested before commit; `Grade III` now finds `Grade 3` at
+`03_Gastrointestinal:1047`, the line that produced the false ABSENT. The corpus carries both
+forms in one file (`:513` "grade III or IV encephalopathy", `:233` "Grade 3").
+
+It paid off immediately at C3: the **complete West Haven four-grade scale** sits at
+`03_Gastrointestinal:230–234` under a heading reading only `Grading`, and `West Haven`
+returns **0 across the whole vault**.
+
+## New collisions for rule 9's register
+
+| Pattern | Hits | What it matched | Real |
+|---|---:|---|---:|
+| **`Ladd`** | **210** | `bladder` ×152, `Bladder` ×16, `gallbladder` ×15, `ladder` ×10 | **0** |
+| `Cushing` | 44 | Cushing's syndrome ×31 — the **stress-ulcer eponym** is absent | 0 |
+| `extramammary` | 3 | *"extramammary pain referred to the breast"* | 0 |
+| `myotomy` | 3 | **pyloromyotomy** — a different operation | 0 |
+| `watershed` | 2 | a Jones fracture and arterial ulcer sites — **not the splenic flexure** | 0 |
+
+## Two of my own search errors, recorded
+
+- **`contrast enema`** returned 0; the corpus writes **"air enema works in 75%"** (`15_08`).
+  Claim PRESENT. Rule 2, my phrasing.
+- **`Grade III`** returned 0; the corpus writes **Grade 1–4**. Now fixed mechanically.
