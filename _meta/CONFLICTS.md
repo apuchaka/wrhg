@@ -5,11 +5,12 @@ description: Generated. Do not hand-edit — stamp the block in the file and res
 
 # Conflict index — generated 2026-08-31
 
-Open 1 · deferred 0 · resolved 3
+Open 2 · deferred 0 · resolved 3
 
 ## Open
 
 - **CF-032** [R2] Corpus A/03_Gastrointestinal.md L873 · _0.18.1 Added from unverified layer — presentation sequence, atypical positions, and the RIF differential_ — appendicitis imaging: does ultrasound visualise the appendix **R2**
+- **CF-033** [R2] Corpus A/04_Neurology.md L893 · _Seizures vs Syncope_ — does incontinence discriminate seizure from syncope? **R2**
 
 ## Deferred
 

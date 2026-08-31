@@ -5,7 +5,7 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-31
 
-463 open items. Close one by editing its marker in the file, then rerunning `scan`.
+464 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
 # Actionable — openly accessible Australian sources (68)
 
@@ -14,7 +14,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 ## R1 — could kill someone this rotation (25)
 
 - **Corpus A/01_Cardiovascular.md** L440 · _0.4.1 Stroke/bleeding risk scoring_ · `inherited` — **R1** whether current Australian practice uses CHA₂DS₂-VASc or the newer CHA₂DS₂-VA, which REMOVES SEX as a criterion and would make this sex-split threshold obsolete. Corpus C (NEW_Exam_Manoeuvres_and_Procedures) writes "CHA₂DS₂-VA/VASc", naming both. Check against the Heart Foundation and Stroke Foundation, both open.
-- **Corpus A/04_Neurology.md** L1201 · _Haemorrhagic Stroke_ · `inherited` — **R1** all four figures here (the 150–220 trigger band, the ≤140 target, the 60mmHg maximum fall and the 1h window) against the Stroke Foundation Living Guidelines for Stroke Management, which is open and free. This is an inherited figure that has never been source-checked, and every part of it changes management.
+- **Corpus A/04_Neurology.md** L1208 · _Haemorrhagic Stroke_ · `inherited` — **R1** all four figures here (the 150–220 trigger band, the ≤140 target, the 60mmHg maximum fall and the 1h window) against the Stroke Foundation Living Guidelines for Stroke Management, which is open and free. This is an inherited figure that has never been source-checked, and every part of it changes management.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L260 · _Hypothermia_ · `inherited` — the core temperature below which defibrillation and drugs are withheld or spaced, and the rewarming rate; ANZCOR.
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L132 · _0.4.1 Mx – Immediate_ · `unverified` — compression rate, compression depth, compression-to-ventilation ratio, defibrillation energy levels, and the dose and interval for adrenaline and amiodarone are all deliberately omitted here. Obtain them directly from ANZCOR Guideline 11 (adult ALS) and Guideline 12/13 (paediatric and newborn). The paediatric adrenaline timing error already found in this corpus came from exactly this category of figure.
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L135 · _0.4.2 Mx – Definitive_ · `unverified` — oxygen saturation targets, CO₂ targets and temperature management parameters require verification against current ANZCOR post-resuscitation guidance.
@@ -46,7 +46,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/03_Gastrointestinal.md** L1073 · _0.25.1 Added from unverified layer — anorectal pain, and what the dentate line implies_ · `inherited` — the time window within which excision is preferred; RACGP or a colorectal surgical reference.
 - **Corpus A/03_Gastrointestinal.md** L1363 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — the grade labels (Ia/Ib/IIa/IIb/IIc/III) and their associated rebleeding percentages; RACGP or a gastroenterology reference.
 - **Corpus A/04_Neurology.md** L787 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — the diagnostic criteria, the recurrence rate, and what imaging is warranted before accepting the diagnosis; RACGP or a neurology reference.
-- **Corpus A/04_Neurology.md** L1125 · _Vertigo (Peripheral vs Central, BPPV, Vestibular Neuritis)_ · `inherited` — the diagnostic criteria (duration threshold and required features), and which antidepressant class is first-line in Australian practice; RACGP, or a neurology or vestibular medicine reference.
+- **Corpus A/04_Neurology.md** L1132 · _Vertigo (Peripheral vs Central, BPPV, Vestibular Neuritis)_ · `inherited` — the diagnostic criteria (duration threshold and required features), and which antidepressant class is first-line in Australian practice; RACGP, or a neurology or vestibular medicine reference.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L77 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — eligibility criteria, timeframes, practitioner requirements and whether a health practitioner may initiate the discussion, per SA Health and the applicable state legislation. This is law, not clinical guidance, and it is deliberately not written from memory.
 - **Corpus A/11_06_Ortho_-_Spinal_Orthopaedics.md** L107 · _Added from unverified layer — do not over-image, and do not over-interpret the images_ · `inherited` — the prevalence of asymptomatic disc findings by age band, and the Australian imaging referral criteria for radicular pain; RACGP.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L241 · _Heat illness_ · `inherited` — the core temperature threshold conventionally used to define heat stroke; RACGP or an emergency medicine reference.
@@ -335,11 +335,11 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/04_Neurology.md** L627 · _Added from unverified layer — neck stiffness: the differential_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/04_Neurology.md** L776 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/04_Neurology.md** L844 · _Added from unverified layer — current terminology, and two counselling points_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/04_Neurology.md** L1070 · _Added from unverified layer — bulbar versus pseudobulbar palsy_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/04_Neurology.md** L1117 · _Vertigo (Peripheral vs Central, BPPV, Vestibular Neuritis)_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/04_Neurology.md** L1233 · _Added from unverified layer — stroke chameleons, and two things to examine for_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/04_Neurology.md** L1385 · _Added from unverified layer — two discriminators in a weak patient_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/04_Neurology.md** L1398 · _Added from unverified layer — two discriminators in a weak patient_ · `inherited` — the time course of onset and of recovery, and whether any test distinguishes it from disuse atrophy; specialist neurology or rheumatology guidance.
+- **Corpus A/04_Neurology.md** L1077 · _Added from unverified layer — bulbar versus pseudobulbar palsy_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/04_Neurology.md** L1124 · _Vertigo (Peripheral vs Central, BPPV, Vestibular Neuritis)_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/04_Neurology.md** L1240 · _Added from unverified layer — stroke chameleons, and two things to examine for_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/04_Neurology.md** L1392 · _Added from unverified layer — two discriminators in a weak patient_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/04_Neurology.md** L1405 · _Added from unverified layer — two discriminators in a weak patient_ · `inherited` — the time course of onset and of recovery, and whether any test distinguishes it from disuse atrophy; specialist neurology or rheumatology guidance.
 - **Corpus A/05_Ophthalmology.md** L69 · _Added from unverified layer — the rust ring_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/07_Renal_Medicine_and_Urology.md** L793 · _Added from unverified layer — DIAPPERS: the reversible causes of incontinence_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L60 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — model knowledge, not source-checked.
@@ -446,11 +446,11 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Investigations_Endocrine.md** L143 · _Added from unverified layer — normokalaemia does not exclude it_ · `snippet` — model knowledge, not source-checked. The proportion of primary aldosteronism that is normokalaemic, per a named endocrine source.
 - **Corpus C/NEW_Investigations_Gastroenterology.md** L47 · _0.1.1 A raised ALP with a normal GGT — owned elsewhere_ · `snippet` — nothing to verify here; this is a pointer.
 
-# Permanently noted — requires Therapeutic Guidelines or AMH (63)
+# Permanently noted — requires Therapeutic Guidelines or AMH (64)
 
 **Not a to-do list.** These cannot be closed without an institutional login. The marker stays in the file as a permanent flag: look it up at the point of use. Do not delete these, and do not resolve them from memory or from a non-AU source.
 
-## R1 — could kill someone this rotation (34)
+## R1 — could kill someone this rotation (35)
 
 - **Corpus A/01_Cardiovascular.md** L755 · _0.13 Wolff-Parkinson-White (WPW) Syndrome_ · `inherited` — model knowledge, not source-checked. Antiarrhythmic choice and dosing, per eTG Cardiovascular under specialist direction.
 - **Corpus A/03_Gastrointestinal.md** L832 · _0.18 Appendicitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
@@ -486,6 +486,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L94 · _0.3 Acute Pulmonary Oedema_ · `unverified` — GTN dosing and titration, and furosemide dosing, are omitted; obtain from eTG Cardiovascular and local protocol.
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L285 · _0.9 Acute Renal Colic_ · `unverified` — agent and dose from eTG Analgesic.
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L329 · _0.10.1 Mx – Immediate_ · `unverified` — antibiotic agents, doses and durations, and steroid indications and dosing, from eTG Antibiotic.
+- **Corpus C/NEW_Cardiology_and_Vascular.md** L129 · _Added from unverified layer — the two the phenotype list does not reach_ · `snippet` — model knowledge, not source-checked. Steroid agent and dose in suspected adrenal crisis, per eTG — and note the dose already stated at [[NEW_Drugs_10_Endocrine]] is an ADULT dose.
 
 ## R2 — changes disposition (8)
 
