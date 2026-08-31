@@ -731,3 +731,48 @@ Corpus A **and** C, before writing D4's destination table.
 are all the bare `` `UNVERIFIED` `` prose reference in Corpus B line 11 and one Corpus C
 file. **No marker was silently voided in Block 1.**
 
+
+---
+
+# Week 2 run — Corpus B-new merge (2026-08-31, branch `claude/next-6gvrdi`)
+
+## Resume point
+
+**DONE:** K1 · K2.
+**NEXT:** K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X.
+Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1–E3).
+**Do NOT start Week 4** — the user decides that after seeing this run's yield.
+
+## Standing facts for a session picking this up
+
+- **The 39 files in `Corpus B-new/` that duplicate a `Corpus B/` name are NOT merge
+  material.** They are a pre-Step-11 re-export: byte-identical to `Corpus B` at
+  `75ae3b9f^` once frontmatter and wikilink form are normalised. Leave them alone.
+  Only the **73 new files** are in scope.
+- **`merge_tools.py scan` re-stamps counter frontmatter on those 39 every run**, because
+  they are `.md` files under the vault root. Revert them after each scan:
+  `while read -r f; do git checkout -- "Corpus B-new/$f"; done < <(cd "Corpus B" && ls *.md)`
+- The 73 carry `trust: unverified`; `population` is corrected per file only for the week
+  being merged, and stays at the tool's `mixed` placeholder otherwise.
+- Step 31 has been run on the 73: 3064 links expanded, 0 unresolved.
+
+## NO-BASELINE test — the scope that is correct
+
+`git archive 0db4034 | tar -x` produces the **whole repository**, including **Corpus B —
+the merge source** — and the root project documents. Testing a subject against all of it
+suppresses a marker on the ground that the *source* mentions the subject.
+
+**Restrict every base-A test to `Corpus A` and `Corpus C`.** `paronychia` is the proof:
+1 hit across the full archive, 0 in the inherited layer.
+
+## Yield so far
+
+| File | Tested | Additive | Discard | Conflicts | New files |
+|---|---:|---:|---:|---:|---|
+| K1 Fever Workup | 55 | 15 | 39 | 1 (CF-035 R2) | none |
+| K2 Skin and Soft Tissue Infection | 42 | 13 | 28 | 0 | none |
+
+**~30% additive against 08_09/09_05/10_10a/11_01**, versus the ~80% discard of Blocks 1
+and 2. Corpus A's infectious-disease layer is thinner than its GI and neurology layers.
+
+## Next free conflict ID: **CF-036.** (CF-035 is the atelectasis conflict written this run.)
