@@ -188,7 +188,7 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 ## Abdominal trauma
 
 ### Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed
-`SRC:C1_Acute_Abdomen §0.10` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:C1_Acute_Abdomen §0.10` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 **A/P:** **Blunt** trauma injures solid organs by deceleration and direct compression — the **spleen and liver** are the most commonly injured — and injures hollow viscera by crush against the spine or by shearing at points of fixation. **Penetrating** trauma injures whatever lies along the tract, with the **small bowel and liver** commonest in stab wounds.
 
@@ -227,7 +227,7 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 > Australian envenomation is owned by [[NEW_Drugs_04_Antidotes_and_Antivenoms]] (`trust: snippet`, AMH-derived): pressure immobilisation and **why it works here** (Australian venoms travel by lymphatics), the five monovalent antivenoms, **venom-induced consumption coagulopathy**, and that **the detection kit tells you WHICH antivenom, not WHETHER the patient is envenomed**. Not repeated here.
 
 ## Added from unverified layer — environmental injury
-`SRC:A6_Thermal_and_Environmental_Injury §0.1` `SRC:A6 §0.2` `SRC:A6 §0.5` `SRC:A6 §0.6` `SRC:A6 §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:A6_Thermal_and_Environmental_Injury §0.1` `SRC:A6 §0.2` `SRC:A6 §0.5` `SRC:A6 §0.6` `SRC:A6 §0.7` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE (heat illness only) — heat exhaustion and heat stroke were absent from the corpus before this merge; no inherited layer disagrees with them. The HYPOTHERMIA half of this block does have a thin baseline — 25 pre-merge hits, including the Osborne wave at [[01_Cardiovascular]] §0.12 — so that part is not no-baseline.`
 
 > [!note] Why this is here
 > The corpus covered **drug-induced** hyperthermia thoroughly — serotonin syndrome and neuroleptic malignant syndrome in [[04_Neurology]], malignant hyperthermia in [[03a_Anaesthetics_Primer]] — and **environmental** heat illness nowhere. Hypothermia appeared only as an ECG pattern. This section fills the environmental side; it does not touch the drug-induced entries, which are more detailed than anything here.
@@ -271,6 +271,7 @@ The **ECG changes** — bradycardia, the **J (Osborn) wave**, first-degree block
 **Non-freezing cold injury** (trench or immersion foot) occurs at temperatures above freezing with prolonged wet exposure, and causes prolonged neuropathic pain.
 
 ### Drowning and submersion
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.` The only two pre-merge occurrences of `drowning` were the word in unrelated contexts — a cause of hypoxic brain injury in a developmental-delay list, and *family history of drowning* as a channelopathy clue in the syncope history. Neither is drowning as an emergency.
 
 **Hypoxia is the injury**, and **rescue breathing is the priority intervention** — this is the one arrest where ventilation matters more than compressions, which is why the ANZCOR paediatric and drowning sequences differ from the adult cardiac sequence. See [[15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support]].
 

@@ -114,7 +114,7 @@ Bypass the upper airway, directing ventilation through the trachea into the lung
 - **Surgical tracheostomy:** incision made through the trachea itself, tracheostomy inserted through this incision
 
 ### Added from unverified layer — tracheostomy and laryngectomy EMERGENCIES
-`SRC:A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies §0.4` `UNVERIFIED — model knowledge, not source-checked. Obtain and follow the current National Tracheostomy Safety Project (NTSP) emergency algorithms; the sequence below is orientation, not a substitute for them.`
+`SRC:A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies §0.4` `UNVERIFIED — model knowledge, not source-checked. Obtain and follow the current National Tracheostomy Safety Project (NTSP) emergency algorithms; the sequence below is orientation, not a substitute for them.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!danger] **The first question is not "what is wrong with the tube" — it is "is there a patent upper airway?"**
 > This single question splits the management completely, and it is answered from the notes and the bed-head sign, not from looking at the neck.

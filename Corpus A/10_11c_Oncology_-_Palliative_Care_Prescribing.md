@@ -57,7 +57,7 @@ conflicts_r1: 0
 *(Note: haloperidol and chlorpromazine/chlorperazine appear both in the hiccups and nausea sections in the source material — a reflection of overlapping antiemetic/antidopaminergic mechanisms rather than an error.)*
 
 ## Added from unverified layer — recognising dying, and anticipatory prescribing
-`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.5` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!note] Why this section exists
 > The rest of this file is **prescribing** — opioid conversion and symptom control. It assumes someone has already recognised that the patient is dying. Nothing in the vault covered that recognition, so this adds it.

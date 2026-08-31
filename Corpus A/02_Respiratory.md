@@ -842,7 +842,7 @@ Encompasses BiPAP, CPAP, etc.
 ---
 
 ## Added from unverified layer — the solitary pulmonary nodule
-`SRC:A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule §0.4` `UNVERIFIED — model knowledge, not source-checked. Size thresholds and follow-up intervals per the current Fleischner Society recommendations; deliberately not reproduced here.`
+`SRC:A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule §0.4` `UNVERIFIED — model knowledge, not source-checked. Size thresholds and follow-up intervals per the current Fleischner Society recommendations; deliberately not reproduced here.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 **D:** A single rounded opacity in the lung, usually found incidentally. Before this block, `pulmonary nodule` returned **two hits vault-wide** — one an extra-articular feature of rheumatoid arthritis, one in lung cancer screening — so the incidental nodule had no entry.
 

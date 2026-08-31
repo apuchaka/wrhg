@@ -172,7 +172,7 @@ Risk stratify with **GRACE score** (predicts all-cause mortality at 6 months pos
   - Others: pregnancy, coarctation of the aorta
 
 #### Added from unverified layer — three things the aetiology list above does not say
-`SRC:B2_Hypertension_Spectrum §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:B2_Hypertension_Spectrum §0.4` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!tip] Renovascular hypertension has **two** causes with different patients
 > The list above says "renal artery stenosis" without splitting it. It is **atherosclerotic**
@@ -336,7 +336,7 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 > ("may mimic MI but not relieved by GTN").
 
 ### Added from unverified layer — accelerated diagnostic protocols
-`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.1` `UNVERIFIED — which pathway your site uses, and its components and thresholds, per your health network's chest pain pathway.`
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.1` `UNVERIFIED — which pathway your site uses, and its components and thresholds, per your health network's chest pain pathway.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!tip] Australian emergency departments risk-stratify chest pain with a **structured
 > accelerated diagnostic protocol**, not with gestalt
@@ -391,7 +391,8 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 - **Definitive:** long-term calcium channel blocker, long-acting nitrate added if needed, cardiology involvement.
 - **Chronic/long-term:** **smoking cessation is the single most effective intervention** and should be framed that way. Stimulant cessation with drug and alcohol support. Where chemotherapy-related, **document the agent as a contraindication** so it is not re-prescribed.
 
-> [!info] MINOCA and INOCA — a troponin rise with normal arteries is not a false alarm
+> [!info] MINOCA and INOCA
+> `NO-BASELINE — MINOCA, INOCA and spontaneous coronary artery dissection were each absent from the corpus before this merge; no inherited layer disagrees with them. Note the surrounding coronary-vasospasm block is NOT no-baseline: Prinzmetal and coronary artery spasm had six pre-merge mentions.` — a troponin rise with normal arteries is not a false alarm
 > **Myocardial infarction with non-obstructive coronary arteries** and **ischaemia with non-obstructive coronary arteries** are recognised entities. A patient with a genuine troponin rise and a normal angiogram has **not** had a false alarm — vasospasm, microvascular dysfunction, **spontaneous coronary artery dissection**, myocarditis and embolism all belong in that differential, and **the workup continues rather than stopping**.
 > **Spontaneous coronary artery dissection specifically affects younger women, including peripartum**, and is frequently misattributed to anxiety. This is a different entity from the aortic dissection at §0.36.5 and shares only the word.
 
@@ -708,7 +709,7 @@ Usual ECG settings: voltage 10 mV, speed 25 mm/s.
 | LBBB | Slow/absent LBB conduction, longer LV depolarisation | Acute MI, aortic stenosis, HTN | "WiLLiaM" — W in V1, M in V6. A new LBBB is always assumed to be MI until otherwise proven |
 
 #### Added from unverified layer — reading ST change when the LBBB is **not** new
-`SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.3` `UNVERIFIED — model knowledge, not source-checked. The Sgarbossa criteria and their weightings, per a named cardiology source.`
+`SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.3` `UNVERIFIED — model knowledge, not source-checked. The Sgarbossa criteria and their weightings, per a named cardiology source.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!warning] "A new LBBB is always assumed to be pathological" answers only half the question
 > The table above covers the **new** LBBB. It does not say how to read ST segments in a
@@ -1195,7 +1196,7 @@ Obstruction of blood flow → hypoperfusion of tissues distal to obstruction.
 
 
 ### Added from unverified layer — peripartum cardiomyopathy
-`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.3` `UNVERIFIED — model knowledge, not source-checked. Diagnostic timing window, ejection-fraction threshold and all drug choices in pregnancy and lactation, per RANZCOG or SOMANZ.`
+`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.3` `UNVERIFIED — model knowledge, not source-checked. Diagnostic timing window, ejection-fraction threshold and all drug choices in pregnancy and lactation, per RANZCOG or SOMANZ.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 **D:** Heart failure with reduced ejection fraction arising in **late pregnancy or the puerperium**, without another identifiable cause. §0.26 Dilated Cardiomyopathy lists "peripartum" as one cause in passing (line 960); **that single word was, before this block, the entire coverage of it in this vault.** `PENDING_GUIDELINE_CHECKS` **P5-A30** already flags it as one of "the cardiovascular four".
 
@@ -1282,7 +1283,7 @@ Right heart failure arising from lung disease specifically — COPD, PE, interst
 ## 0.29 Deep Vein Thrombosis (DVT)
 
 > [!tip] Added from unverified layer — **May-Thurner syndrome**
-> `SRC:B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+> `SRC:B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 > **Compression of the left common iliac vein by the overlying right common iliac artery.**
 > It is the reason an otherwise unexplained DVT in a young patient is **disproportionately
 > left-sided**, and it is worth considering when the thrombosis is iliofemoral, recurrent, or

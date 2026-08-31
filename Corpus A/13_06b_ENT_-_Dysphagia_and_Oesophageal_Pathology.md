@@ -55,7 +55,7 @@ conflicts_r1: 0
 
 
 ## 0.3.2 Added from unverified layer — swallowed foreign body
-`SRC:A8_Foreign_Bodies_by_Site §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:A8_Foreign_Bodies_by_Site §0.6` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!danger] A button battery in the oesophagus is a time-critical emergency
 > **Not a swallowed object to observe. An injury already in progress.**

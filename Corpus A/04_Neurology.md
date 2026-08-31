@@ -1121,7 +1121,7 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 - **Mx:** vestibular sedatives (e.g. prochlorperazine, betahistine) for short-term symptomatic relief in the acute phase only (prolonged use can impair central vestibular compensation and delay recovery); vestibular rehabilitation exercises to promote compensation once the acute phase settles; corticosteroids sometimes used though evidence is mixed.
 
 #### Added from unverified layer — persistent postural-perceptual dizziness (PPPD)
-`SRC:D5_Dizziness__Vertigo_and_Gait §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.4` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 **Chronic non-vertiginous dizziness and unsteadiness lasting months**, characteristically **worse when upright, worse with movement, and worse in visually complex environments** — supermarket aisles, crowds, scrolling on a phone, patterned carpets.
 
