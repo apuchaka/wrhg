@@ -170,6 +170,21 @@ no_baseline: 0
   - **Definitive:** image-guided or surgical drainage for any identified discrete abscess, given antibiotics alone are unlikely to adequately penetrate/resolve a purulent collection — the same general "source control matters as much as antibiotics" principle as abscesses elsewhere in this project; antibiotics de-escalated/tailored once culture and sensitivity results are available, with a typical total duration of several weeks (often IV transitioning to oral, analogous to the osteomyelitis/discitis duration principles in [[11_07b_Ortho_-_Osteomyelitis__Osteochondritis_Dissecans__Fat_Embolism__Charcot_Joint__Osteomalacia]] and [[11_06_Ortho_-_Spinal_Orthopaedics]] Discitis, not repeated here).
   - **Chronic/long-term:** monitor for and address any underlying predisposing condition (diabetes control, HIV management, addressing an injection-drug-use source) given these are recognised risk factors for both the initial episode and recurrence.
 
+## Added from unverified layer — the two other closed-space hand infections
+`SRC:K2_Skin_and_Soft_Tissue_Infection §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!danger] **Felon — infection of the fingertip pulp**
+> The pulp is **divided into closed compartments by fibrous septa running from the periosteum to the skin**, so infection there raises compartment pressure rather than spreading. The result is a **tensely swollen, exquisitely painful fingertip with throbbing pain that is worse than the appearance suggests.**
+> **The pressure is the problem:** untreated it causes **skin necrosis, and osteomyelitis of the distal phalanx or septic arthritis of the DIP joint.**
+> **It needs surgical drainage, not antibiotics alone** — the same principle as the tendon sheath below, for the same anatomical reason. Refer to hand surgery.
+
+> [!warning] **Paronychia — infection of the nail fold**
+> **Acute** — usually *S. aureus*, after a hangnail, nail-biting or a manicure. Erythema and swelling of the nail fold, progressing to a visible collection.
+> **If it is fluctuant it must be drained; antibiotics alone will not resolve a collection**, and a neglected one can track around the nail as a run-around abscess or under the nail plate, which then has to come off.
+> **Chronic** — over weeks in wet-work occupations, associated with *Candida* and irritant exposure. **Treated as a barrier and dermatitis problem, not as an acute bacterial infection**, and antibiotics do not help.
+
+> [!note] **A search note for whoever looks for this next.** Searching `felon` in this vault returns **62 hits in Corpus A and C and every single one is the word `lifelong`** — `l-i-**f-e-l-o-n**-g` — inside prophylaxis-duration and immunosuppression sentences. Before this block, the count said present and the corpus said nothing. Anchor on word boundaries (CLAUDE.md rule 9).
+
 ## Tendon sheath infection (hand)
 
 > [!info] Kanavel's cardinal signs (flexor tenosynovitis)
