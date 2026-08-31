@@ -420,6 +420,7 @@ because the only available filling material is model knowledge.
 | Topic | Absent from | Why it matters | Would be settled by |
 |---|---|---|---|
 | **Dubin-Johnson syndrome** | whole vault; C3 does not cover it | Conjugated hyperbilirubinaemia with an otherwise normal liver — the benign cause that must not be worked up as obstruction | RACGP, or a hepatology reference |
+| **Decompression sickness** | whole vault | Australian diving makes this more arguable than altitude illness, which is deliberately left alone as low priority for an intern exam. The only current mention is a nitrous-oxide gas-space aside in `NEW_Drugs_02` | SA Health / DAN Asia-Pacific, or an emergency medicine reference |
 | **Rotor syndrome** | whole vault; C3 does not cover it | The same, and it is the standard exam pairing with Dubin-Johnson | as above |
 | **Schatzki ring** | whole vault; C6 does not cover it | A specific lower-oesophageal ring causing intermittent solid dysphagia; `13_06b` §0.2 covers benign stricture generally but not this entity | RACGP, or a gastroenterology reference |
 

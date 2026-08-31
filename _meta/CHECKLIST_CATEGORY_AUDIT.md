@@ -62,6 +62,61 @@ drowning, no electrical injury. The category title promises four things and deli
 This is exactly where the merge found its largest gap, and the two facts are the same fact:
 **the notes are missing environmental injury because the checklist never asked for it.**
 
+> [!important] **CORRECTION, 2026-08-31 — Finding 2 is half wrong, and the half that is
+> wrong inverts this audit's central assumption.**
+>
+> Finding 2 said the `Injury, Poisoning, Envenomation & Environmental` category names four
+> things and delivers two, and implied the corpus was correspondingly bare. **The
+> environmental half was bare. The envenomation half was not.**
+>
+> `Corpus C/NEW_Drugs_04_Antidotes_and_Antivenoms.md` is **3 118 words, `trust: snippet`,
+> AMH-derived**, and covers envenomation thoroughly:
+>
+> | Concept | Present |
+> |---|---|
+> | Pressure immobilisation **with the mechanism** — Australian venoms spread by lymphatics, so walking pumps them | ✅ |
+> | Do not wash the bite site — **venom on the skin is what the detection kit reads** | ✅ |
+> | Five monovalent antivenoms (brown, tiger, black, death adder, taipan) plus polyvalent | ✅ |
+> | **Only ~5% of bites need antivenom** — the decision is evidence of envenoming, not the bite | ✅ |
+> | **VICC**, neurotoxicity (ptosis → bulbar, may not reverse), myotoxicity | ✅ |
+> | **The SVDK identifies WHICH antivenom, not WHETHER the patient is envenomed** | ✅ |
+> | **Antivenom dose is the same in children as adults** — it neutralises venom, not body weight | ✅ |
+> | Funnel-web, redback, box jellyfish and vinegar, stonefish and hot water, Irukandji, tick paralysis, blue-ringed octopus | ✅ |
+>
+> **So the checklist gap was real and the corpus gap was not.** That is a far smaller
+> problem, and this audit originally implied the opposite.
+>
+> **THE PRINCIPLE THIS OVERTURNS:** *a thin checklist category does not imply thin corpus
+> coverage.* Here the corpus was **ahead of its own specification**. The environmental half
+> is the reverse case — checklist and corpus both empty until the A6 merge.
+>
+> **Consequence for the 872-row audit: it must run in BOTH directions.**
+> 1. **Rows with no corpus coverage** — the obvious direction, and the only one every method
+>    so far has looked in.
+> 2. **Corpus content with no checklist row** — `NEW_Drugs_04` is exactly this, and **it is
+>    invisible to every method used in this project to date.** Nothing has ever searched
+>    from the corpus outward.
+>
+> The second direction is also how the corpus's real strengths get lost: content nobody is
+> prompted to study.
+
+> [!warning] **A second problem with `NEW_Drugs_04`, distinct from coverage: it is
+> unreachable.**
+> Its own frontmatter says `status: standalone — not yet cross-referenced into the corpus`.
+>
+> **Measured rather than assumed:** **five Corpus C files link to it** —
+> `NEW_Drugs_06`, `07`, `10`, `12`, `18` — so it is reachable *within Corpus C*.
+> **Zero Corpus A files link to it.** A reader working in the 148-file original notes —
+> from `11_09b_Ortho_-_Trauma`, the anaphylaxis entries, or `09_01_Dermatology` — never
+> arrives there.
+>
+> *(An earlier draft of this box said "nothing in the vault links to it". That was wrong,
+> and the correction is the point: the file is unreachable **from Corpus A**, not
+> unreachable.)*
+>
+> **Thorough and unreachable is close to absent in practice.** Cross-references were added
+> 2026-08-31; this is a Step 28 job, not a content gap.
+
 ## Finding 3 — five rows are misfiled under ENT, and appear nowhere else
 
 | Row filed under ENT | Where it belongs |
