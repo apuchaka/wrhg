@@ -524,7 +524,53 @@ failure, because the added block is always visible and removable.
 
 ---
 
-## NEXT JOB — resume the merge queue (NOT STARTED)
+## MERGE QUEUE PROGRESS
+
+**Done:** C1–C7 · D1–D7 · **GER1 · GER2 · A6**.
+**RESUME AT: A7**, then A8 · F0-1…F0-5 · B1–B6 · A1–A5, A9, A10.
+
+### GER1, GER2, A6 results
+
+| File | Placements | Discards | Present of tested |
+|---|---|---|---|
+| GER1 | 1 | 5 | 21 of 22 |
+| GER2 | 3 | 3 | 15 of 21 |
+| A6 | 2 (large) | 6 | 13 of 17 |
+
+**Still zero new conflicts.** Vault-wide: **CF-032 alone, 0 R1.**
+
+### The two biggest clinical gaps found in the entire merge, both here
+
+1. **The corpus could say which opioid to convert to, and not that the patient was dying.**
+   `10_11c_Oncology_-_Palliative_Care_Prescribing` is a prescribing file with three
+   sections. `last days of life`, `terminal phase`, `recognising dying` and `anticipatory
+   prescribing` returned **nothing** vault-wide. Filled from GER2 §0.5.
+2. **Environmental heat illness was entirely absent** — the corpus had drug-induced
+   hyperthermia (NMS, serotonin syndrome, malignant hyperthermia) and nothing on heat
+   exhaustion, heat stroke, or hypothermia beyond an ECG pattern. Filled from A6.
+
+### A reusable tool was built: `inventory.py` (scratchpad, not committed)
+
+Enumerates named scores, eponyms and acronyms in a file **with digit folding**, so a
+B-block claim can be checked against the actual instrument list rather than a guessed
+search string. Noisy on all-caps prose (`FIRST`, `WHY`, `MULTIPLE`) — **it informs, it does
+not decide**, and every hit is read.
+
+**Rebuild it if a later session needs it**; it is 30 lines and lives only in the scratchpad.
+
+### BEFORE B1–B6 — a required step, not yet done
+
+**Enumerate every named score and eponym in `01_Cardiovascular` with digit folding, and
+check each B-block claim against that list specifically.** `CHA₂DS₂-VASc` is already there
+**with subscripts** and `B3_Arrhythmia` links to it — the exact configuration that nearly
+produced a cross-file duplicate in D3.
+
+**Same for A1–A5, A9, A10 against the emergency files:** Wells · PERC · GRACE · TIMI ·
+HAS-BLED · Ottawa · Canadian C-spine · PECARN · NEXUS.
+
+---
+
+## Method reminder — non-negotiable, it has now caught eleven errors
 
 Scope: **every claim in those six destination tables**, not only the concepts previously
 listed. They were built with the A-and-C rule but **before rule 10 and digit folding**, so
