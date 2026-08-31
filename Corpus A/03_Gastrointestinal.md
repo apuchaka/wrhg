@@ -1918,6 +1918,46 @@ Splenic preservation where possible; embolisation or splenectomy for significant
 ### 0.5.3 Mx – Chronic/long-term
 **Post-splenectomy care is a recurring exam topic and a genuine clinical duty**: immunisation against encapsulated organisms (pneumococcus, meningococcus, *Haemophilus influenzae* type b), annual influenza vaccination, antibiotic prophylaxis, a medical alert card, and clear education about seeking urgent care with any fever. `UNVERIFIED — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.`
 
+### 0.41.13 Right Lower Quadrant (Right Iliac Fossa) Pain — from unverified layer
+`SRC:C1_Acute_Abdomen §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+*The appendicitis fragment at §0.18.1 is left in place; that duplication is marked and accepted.*
+
+> [!tip] Appendicitis — the classical sequence
+> **Periumbilical visceral pain → anorexia and nausea → migration to the right iliac fossa → vomiting (which follows the pain; vomiting preceding pain suggests another diagnosis) → low-grade fever → localised peritonism at McBurney's point.**
+> **Anorexia is a genuinely useful negative** — a patient who is hungry is less likely to have appendicitis, though this is a probability shift rather than a rule.
+> Scoring systems such as the **Alvarado score** structure the assessment. `UNVERIFIED — components and thresholds.`
+
+> [!warning] Atypical appendix positions change the presentation
+> **Retrocaecal** — less anterior tenderness, positive psoas sign, sometimes flank pain.
+> **Pelvic** — suprapubic pain, urinary frequency, diarrhoea, tenderness on rectal or vaginal examination, positive obturator sign.
+> **In pregnancy** — the appendix is displaced upward and laterally by the gravid uterus, so pain may be in the right upper quadrant in the third trimester.
+
+> [!danger] The differential in a young woman is the difficult one
+> **Ectopic pregnancy · ovarian torsion · ruptured ovarian cyst · pelvic inflammatory disease** all present as right iliac fossa pain and all are managed differently.
+> **Ovarian torsion** — sudden severe unilateral pain with vomiting, often with a known cyst, and the ovary is salvageable only if detorsion happens early. Ultrasound with Doppler, **though the presence of flow does not exclude torsion** because the ovary has dual blood supply.
+> **Pregnancy test first, then pelvic ultrasound.** A negative test excludes ectopic; a positive one changes the entire pathway.
+
+> [!tip] The rest of the differential
+> **Mesenteric adenitis** — children and adolescents, often after a viral illness, with tender mobile nodes and a less impressive abdomen. A retrospective diagnosis.
+> **Meckel's diverticulum** — the rule of 2s. Can mimic appendicitis exactly.
+> **Crohn's disease** — terminal ileitis, with a longer history, diarrhoea, weight loss.
+> **Caecal pathology** — carcinoma, diverticulitis, and in the neutropenic patient **typhlitis (neutropenic enterocolitis)**.
+> **Ureteric colic** — loin to groin, writhing, haematuria.
+> **Psoas abscess** — fever, hip flexion deformity, positive psoas sign.
+> **Testicular torsion referring to the abdomen.**
+
+**Ix:** **Pregnancy test** (*why:* the first branch point in any woman of reproductive age; *what:* positive). FBC, CRP (*why:* support inflammation, though **normal values do not exclude appendicitis**, particularly early; *what:* leucocytosis, raised CRP). Urinalysis (*why:* excludes urinary tract infection and identifies the haematuria of ureteric colic — noting **pyuria occurs in appendicitis** when the inflamed appendix lies against the ureter or bladder, so an abnormal urine does not exclude it; *what:* leucocytes, blood, nitrites). **CT abdomen and pelvis** in adults (*why:* the most accurate test, reducing negative appendicectomy rates, and identifies the alternative diagnoses; *what:* dilated appendix, wall thickening, fat stranding, appendicolith, alternative pathology). **Ultrasound first in children, young women and pregnancy** (*why:* avoids radiation in radiosensitive groups and assesses the adnexa; *what:* non-compressible appendix, adnexal pathology, free fluid — noting a non-visualised appendix on ultrasound does not exclude appendicitis). MRI in pregnancy where ultrasound is non-diagnostic (*why:* avoids ionising radiation while providing adequate imaging; *what:* appendiceal inflammation).
+
+### 0.6.1 Mx – Immediate
+Nil by mouth, IV fluids, analgesia, antiemetic. Antibiotics per local protocol. Surgical referral.
+
+### 0.6.2 Mx – Definitive
+**Laparoscopic appendicectomy** remains standard. **Antibiotic-first management of uncomplicated appendicitis is an established alternative** in selected patients, with a meaningful recurrence rate — worth knowing as it appears in exams and increasingly in practice. `UNVERIFIED — selection criteria and recurrence rates.` Urgent surgery for ovarian torsion. Drainage of an appendiceal abscess with interval appendicectomy in some pathways.
+
+### 0.6.3 Mx – Chronic/long-term
+Histology review — **an appendiceal neuroendocrine tumour or mucinous neoplasm is an occasional incidental finding requiring further management**, so the result must be checked and acted on rather than assumed benign.
+
+
 
 
 
