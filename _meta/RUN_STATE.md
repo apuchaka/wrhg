@@ -738,8 +738,8 @@ file. **No marker was silently voided in Block 1.**
 
 ## Resume point
 
-**DONE:** K1 · K2.
-**NEXT:** K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X.
+**DONE:** K1 · K2 · K3.
+**NEXT:** K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X.
 Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1–E3).
 **Do NOT start Week 4** — the user decides that after seeing this run's yield.
 
@@ -771,6 +771,7 @@ suppresses a marker on the ground that the *source* mentions the subject.
 |---|---:|---:|---:|---:|---|
 | K1 Fever Workup | 55 | 15 | 39 | 1 (CF-035 R2) | none |
 | K2 Skin and Soft Tissue Infection | 42 | 13 | 28 | 0 | none |
+| K3 Exposure, TB, HIV, Immunodeficiency | 48 | 7 | 40 | 0 | none |
 
 **~30% additive against 08_09/09_05/10_10a/11_01**, versus the ~80% discard of Blocks 1
 and 2. Corpus A's infectious-disease layer is thinner than its GI and neurology layers.
