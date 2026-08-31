@@ -5,6 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!tip] Highlighted conditions in this file come up more frequently in exams: Chronic granulomatous disease, DiGeorge syndrome, SCID, Wiskott-Aldrich syndrome, X-linked agammaglobulinaemia.

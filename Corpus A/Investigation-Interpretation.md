@@ -5,6 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 # 1 Investigation Interpretation (Template G — test-led, not disease-led)

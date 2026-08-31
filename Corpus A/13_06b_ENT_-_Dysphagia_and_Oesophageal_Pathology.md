@@ -5,6 +5,7 @@ trust: inherited
 population: adult
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 1
 ---
 
 ## 0.1 Dysphagia — approach

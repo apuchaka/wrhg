@@ -5,6 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!info] Verified — most content in this file (drug mechanisms, adverse effect profiles, drug-drug interactions, discontinuation syndrome patterns) is pharmacological rather than jurisdiction-specific, and doesn't need wholesale replacement for Australian use. The one section requiring genuine correction was lithium's therapeutic range (see below, now indication-specific and AU-verified). For specific current PBS-subsidised formulations, exact starting doses, or the latest AMH/eTG Psychotropic prescribing detail for an individual patient, check those sources directly rather than treating this file as a prescribing reference — it's a conceptual/mechanistic study aid.

@@ -5,6 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!info] **Localisation status — read the scope, not the headline.** A substantial Australian localisation pass was run on this file against NHMRC, the National Blood Authority, Queensland Clinical Guidelines, SA Health and the Australian Government Pregnancy Care Guidelines, Aug 2026. Genuine corrections were made (anti-D dosing, HG medication first-line pattern, LMWH neuraxial timing) and several other figures were confirmed to match Australian practice exactly. **The per-entry boxes below are the record of what was actually checked** — each names its source and what it covers.

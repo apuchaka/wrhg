@@ -5,6 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!info] Definition: anaemia = Hb <120 g/L in non-pregnant females; Hb <130 g/L in males.

@@ -5,6 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!info] Localisation status — every antibiotic/antiviral regimen in this file has now been individually verified against Australian sources (SA Health, Safer Care Victoria, Melbourne Sexual Health Centre, and current international paediatric dosing literature) — see the [!info] verification note under each condition below for the specific correction or confirmation made. Several genuine dosing/drug corrections were found (anti-D was resolved separately in [[16_01-05_Antenatal_Care]]; syphilis maternal treatment uses a different drug and schedule entirely; GBS and gonococcal/chlamydial neonatal conjunctivitis regimens also needed real corrections, not just terminology swaps).
