@@ -1130,6 +1130,22 @@ Assess volume status:
 
 ## 0.27 Weight Change — Differential Approach
 
+### Added from unverified layer — two things about weight the differential does not cover
+`SRC:I5_Weight__Lipids_and_Fluid_Balance §0.1, §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Weight stigma is a clinical problem, not a matter of courtesy** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **People living with obesity report avoiding or delaying medical care because of how they have been treated**, and that avoidance produces late presentations of conditions unrelated to weight.
+> **The specific clinical failure is diagnostic overshadowing** — attributing a symptom to weight and stopping there. **A larger patient with breathlessness, joint pain or fatigue is entitled to the same differential as a thinner one**, and the commonest error is not investigating.
+> Practically: **ask permission before discussing weight, use person-first language, weigh only when it is clinically needed and do it privately, and make sure the equipment fits** — chairs, cuffs, gowns, scales and the imaging table, whose weight limits are a real constraint that should be known before it is discovered at the point of need.
+> **Obesity is a chronic relapsing condition with substantial genetic and environmental determinants**, and framing it as a failure of willpower is both inaccurate and an obstacle to the consultation.
+
+> [!warning] **Post-bariatric surgery — two things every doctor should know**
+> Bariatric surgery appears in this vault only as a risk factor for micronutrient deficiency. Two acute problems do not.
+> **1. Abdominal pain after gastric bypass is an INTERNAL HERNIA until proven otherwise.** It can present intermittently, with normal observations and normal bloods between episodes, **and a normal CT does not exclude it.** It causes closed-loop obstruction and bowel infarction. **The action is early discussion with the bariatric surgical unit, not reassurance on a normal scan.**
+> **2. Thiamine deficiency causes Wernicke encephalopathy after bariatric surgery**, particularly with persistent vomiting or poor intake in the early months. The general rule is already stated at [[NEW_Neurology]] — *give thiamine before glucose in any patient at risk* — and **recent bariatric surgery belongs on that at-risk list alongside alcohol dependence and malnutrition.** `UNVERIFIED — parenteral thiamine dose and duration, per Therapeutic Guidelines.`
+> **Dumping syndrome** — early (osmotic, within about half an hour, with cramping, diarrhoea and vasomotor symptoms) and late (reactive hypoglycaemia, one to three hours after eating) — is the commoner and more benign explanation for post-prandial symptoms, and is managed dietetically.
+> **Lifelong micronutrient supplementation and monitoring is required**, which the deficiency entries in this file and in Corpus C already cover.
+
 > [!note] Gap-filled from CSV ("Weight change," High yield) — genuinely absent as a unifying differential despite the individual causes being scattered across this file (thyroid disease, Cushing's, diabetes) and others throughout the project. Given how many of the highest-yield endocrine conditions present via weight change, an organised approach to this presenting complaint is worth having explicitly, rather than only reaching the diagnosis once a specific disease is already suspected.
 
 **The core organising principle:** weight change is a presenting complaint, not a diagnosis — the differential splits broadly into endocrine/metabolic causes (the focus here, given this file's scope), and non-endocrine causes (malignancy, GI disease, psychiatric, medication-related) that must be actively considered rather than assumed endocrine by default just because the patient has landed in this file's context.
