@@ -396,6 +396,21 @@ See `_meta/merges/C1_Acute_Abdomen.md`.
    link against the filesystem before commit. Do that check every time; do not trust a
    filename that looks right.
 
+## PRIORITY study-list gaps — MISSING DOMAINS, not single facts
+
+**Different in kind from the eponym gaps below.** Those are one named thing each. **These
+were whole clinical domains absent from 240 files**, and both have now been filled — **but
+filled from Corpus B, which is `unverified` model knowledge. Read them knowing that.**
+
+| Domain | Why it matters | Now in | Read it as |
+|---|---|---|---|
+| **Heat illness** — heat exhaustion vs heat stroke, exertional vs classic, active cooling, hypothermia management | **Australian-specific and seasonal.** The corpus had drug-induced hyperthermia (NMS, serotonin syndrome, malignant hyperthermia) and nothing environmental. Hypothermia existed only as an ECG pattern | `11_09b_Ortho_-_Trauma` §Added from unverified layer — environmental injury | `unverified`; six `UNVERIFIED` markers inside it, and **not one temperature figure is stated** |
+| **Recognising dying** — the terminal phase, anticipatory prescribing, voluntary assisted dying | **This is an OSCE station.** `10_11c_Oncology_-_Palliative_Care_Prescribing` could say which opioid to convert to and not that the patient was dying | `10_11c_Oncology_-_Palliative_Care_Prescribing` §Added from unverified layer | `unverified`; **all anticipatory doses omitted** (eTG, login-gated) and **no VAD law stated** (state legislation) |
+
+**Both are worth verifying against a named source before the exam**, precisely because they
+are now the only account of these domains in the vault — there is no `inherited` layer
+underneath them to disagree with.
+
 ## Study-list additions — real absences no merge can close
 
 Gaps confirmed absent from **all 240 corpus files** and **not supplied by the Corpus B
@@ -556,7 +571,16 @@ B-block claim can be checked against the actual instrument list rather than a gu
 search string. Noisy on all-caps prose (`FIRST`, `WHY`, `MULTIPLE`) — **it informs, it does
 not decide**, and every hit is read.
 
-**Rebuild it if a later session needs it**; it is 30 lines and lives only in the scratchpad.
+**It is now a committed script: `scripts/inventory.py`.** Usage:
+`python3 scripts/inventory.py "Corpus A/01_Cardiovascular.md"`, `--corpus A` for a whole
+corpus, or `--compare FILE_A FILE_B` for what B has that A does not.
+
+> Its own self-test found a defect in its first version: the acronym pattern allowed
+> **trailing** digits only, so after folding it saw `ABCD2` but **not `CHA2DS2-VASc`** — the
+> very score it was written to catch. A tool that misses its own worked example is worse
+> than no tool, because it reports a clean inventory. Fixed to allow interspersed digits;
+> it now returns `CHA2DS2-VASc`, the `CHA2DS2-VA` variant at `01_Cardiovascular` L297, and
+> `CHA2DS2-VASc-based`.
 
 ### BEFORE B1–B6 — a required step, not yet done
 
