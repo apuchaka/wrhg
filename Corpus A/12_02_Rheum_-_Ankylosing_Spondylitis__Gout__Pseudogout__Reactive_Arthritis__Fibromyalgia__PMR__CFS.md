@@ -110,6 +110,14 @@ no_baseline: 2
   - Bloods (FBC, ESR/CRP, TFTs) are typically normal, and are mainly useful to exclude an alternative or coexisting cause rather than to confirm the diagnosis — over-testing beyond a reasonable baseline is generally discouraged given fibromyalgia is fundamentally a clinical diagnosis.
 - **Mx:** bio-psycho-social model — patient education, CBT; aerobic exercise (most evidence); pregabalin, duloxetine, TCAs.
 
+> [!danger] Added from unverified layer — **opioids are contraindicated in fibromyalgia and cause harm**
+> `SRC:L3_Muscle_Symptoms_and_Widespread_Pain §0.5` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **They do not work in fibromyalgia and they make it worse.** The mechanism is central pain processing, not nociception, so an opioid has nothing to act on — and **opioid-induced hyperalgesia lowers the pain threshold further**, producing a patient on escalating doses with escalating pain.
+> **This is not a caution about dose. There is no dose.** It sits alongside dependence, sedation, constipation and the loss of the therapeutic relationship when the drug is eventually withdrawn.
+> **What has the largest effect is not a drug at all: graded exercise, sleep, and education about the mechanism** — which is also what makes the diagnosis therapeutic to give clearly rather than hedge. **Where a drug is used it is a centrally acting agent, not an analgesic in the ordinary sense.**
+> **Say the mechanism out loud to the patient.** "The pain is real and the amplifier is turned up" is a sentence that changes the consultation, and patients who have been told the pain is imaginary have usually been told it more than once.
+> The corpus holds 173 `opioid` mentions and **not one of them is this**, which is how a contraindication goes missing in a file that already covers the condition.
+
 ## 0.7 Chronic fatigue syndrome (myalgic encephalomyelitis)
 
 - **D:** condition characterised by disabling fatigue affecting mental and physical function more than 50% of the time for at least 3 months. Symptoms not better attributed to another disorder.
