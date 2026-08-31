@@ -13,7 +13,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 
 ## R1 — could kill someone this rotation (25)
 
-- **Corpus A/01_Cardiovascular.md** L462 · _0.4.1 Stroke/bleeding risk scoring_ · `inherited` — **R1** whether current Australian practice uses CHA₂DS₂-VASc or the newer CHA₂DS₂-VA, which REMOVES SEX as a criterion and would make this sex-split threshold obsolete. Corpus C (NEW_Exam_Manoeuvres_and_Procedures) writes "CHA₂DS₂-VA/VASc", naming both. Check against the Heart Foundation and Stroke Foundation, both open.
+- **Corpus A/01_Cardiovascular.md** L463 · _0.4.1 Stroke/bleeding risk scoring_ · `inherited` — **R1** whether current Australian practice uses CHA₂DS₂-VASc or the newer CHA₂DS₂-VA, which REMOVES SEX as a criterion and would make this sex-split threshold obsolete. Corpus C (NEW_Exam_Manoeuvres_and_Procedures) writes "CHA₂DS₂-VA/VASc", naming both. Check against the Heart Foundation and Stroke Foundation, both open.
 - **Corpus A/04_Neurology.md** L1208 · _Haemorrhagic Stroke_ · `inherited` — **R1** all four figures here (the 150–220 trigger band, the ≤140 target, the 60mmHg maximum fall and the 1h window) against the Stroke Foundation Living Guidelines for Stroke Management, which is open and free. This is an inherited figure that has never been source-checked, and every part of it changes management.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L260 · _Hypothermia_ · `inherited` — the core temperature below which defibrillation and drugs are withheld or spaced, and the rewarming rate; ANZCOR.
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L132 · _0.4.1 Mx – Immediate_ · `unverified` — compression rate, compression depth, compression-to-ventilation ratio, defibrillation energy levels, and the dose and interval for adrenaline and amiodarone are all deliberately omitted here. Obtain them directly from ANZCOR Guideline 11 (adult ALS) and Guideline 12/13 (paediatric and newborn). The paediatric adrenaline timing error already found in this corpus came from exactly this category of figure.
@@ -41,7 +41,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 
 ## R2 — changes disposition (27)
 
-- **Corpus A/01_Cardiovascular.md** L1198 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — model knowledge, not source-checked. Diagnostic timing window, ejection-fraction threshold and all drug choices in pregnancy and lactation, per RANZCOG or SOMANZ.
+- **Corpus A/01_Cardiovascular.md** L1199 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — model knowledge, not source-checked. Diagnostic timing window, ejection-fraction threshold and all drug choices in pregnancy and lactation, per RANZCOG or SOMANZ.
 - **Corpus A/03_Gastrointestinal.md** L571 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — the Atlanta definitions and the organ-failure criteria they use (the modified Marshall score); RACGP or a gastroenterology reference. Ranson, BISAP and APACHE II are further prognostic scores in use — their components and thresholds are deliberately not stated here, and neither is the 48-hour CRP cut-off.
 - **Corpus A/03_Gastrointestinal.md** L875 · _0.18.1 Added from unverified layer — presentation sequence, atypical positions, and the RIF differential_ · `inherited` — selection criteria for antibiotic-first management; RACGP or your health network's surgical guidelines.
 - **Corpus A/03_Gastrointestinal.md** L1079 · _0.25.1 Added from unverified layer — anorectal pain, and what the dentate line implies_ · `inherited` — the time window within which excision is preferred; RACGP or a colorectal surgical reference.
@@ -51,7 +51,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L77 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — eligibility criteria, timeframes, practitioner requirements and whether a health practitioner may initiate the discussion, per SA Health and the applicable state legislation. This is law, not clinical guidance, and it is deliberately not written from memory.
 - **Corpus A/11_06_Ortho_-_Spinal_Orthopaedics.md** L107 · _Added from unverified layer — do not over-image, and do not over-interpret the images_ · `inherited` — the prevalence of asymptomatic disc findings by age band, and the Australian imaging referral criteria for radicular pain; RACGP.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L241 · _Heat illness_ · `inherited` — the core temperature threshold conventionally used to define heat stroke; RACGP or an emergency medicine reference.
-- **Corpus A/11_09b_Ortho_-_Trauma.md** L277 · _Drowning and submersion_ · `inherited` — the observation period; ANZCOR or an emergency medicine reference.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L278 · _Drowning and submersion_ · `inherited` — the observation period; ANZCOR or an emergency medicine reference.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L66 · _0.3.2 Added from unverified layer — swallowed foreign body_ · `inherited` — the time window within which removal is required, whether honey or sucralfate is recommended before retrieval in Australian practice, and the observation protocol after removal; Poisons Information Centre 13 11 26, RCH or Queensland Children's Health.
 - **Corpus A/15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support.md** L152 · _Added from unverified layer — two ANZCOR points not stated above_ · `inherited` — **the saturation targets by minute of life, and the threshold and increments for escalating oxygen. Per ANZCOR Guideline 13.4.** Deliberately not stated here: these are minute-by-minute figures and a wrong one changes management.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L111 · _0.3 Substitute Decision-Making and Advance Care Directives_ · `unverified` — eligibility criteria, the process, the practitioner training requirements, and the rules about initiating a discussion all require verification against the current Act and SA Health guidance. This is an area where the law is recent, detailed, and where getting the procedure wrong has serious consequences.
@@ -72,10 +72,10 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 ## R3 — everything else (19)
 
 - **Corpus A/01_Cardiovascular.md** L323 · _0.3 Ischaemic Heart Disease_ · `inherited` — the CCS class descriptors themselves, per Heart Foundation or CSANZ. Not reproduced here.
-- **Corpus A/01_Cardiovascular.md** L620 · _0.9.1 Supraventricular tachycardia (SVT)_ · `inherited` — model knowledge, not source-checked. The strain pressure and duration, per ANZCOR or a named emergency medicine source.
-- **Corpus A/01_Cardiovascular.md** L1215 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — which agents are used instead, and in what order, per RANZCOG or SOMANZ.
-- **Corpus A/01_Cardiovascular.md** L1433 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — model knowledge, not source-checked. Duration of exercise restriction, per CSANZ or Heart Foundation.
-- **Corpus A/01_Cardiovascular.md** L1437 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — the duration, per CSANZ or Heart Foundation.
+- **Corpus A/01_Cardiovascular.md** L621 · _0.9.1 Supraventricular tachycardia (SVT)_ · `inherited` — model knowledge, not source-checked. The strain pressure and duration, per ANZCOR or a named emergency medicine source.
+- **Corpus A/01_Cardiovascular.md** L1216 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — which agents are used instead, and in what order, per RANZCOG or SOMANZ.
+- **Corpus A/01_Cardiovascular.md** L1434 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — model knowledge, not source-checked. Duration of exercise restriction, per CSANZ or Heart Foundation.
+- **Corpus A/01_Cardiovascular.md** L1438 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — the duration, per CSANZ or Heart Foundation.
 - **Corpus A/03_Gastrointestinal.md** L1375 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — the recommended timing of restarting; RACGP or your health network's gastroenterology guidance.
 - **Corpus A/04_Neurology.md** L857 · _Added from unverified layer — current terminology, and two counselling points_ · `inherited` — the incidence, and how Australian guidance recommends the conversation be framed and timed; Epilepsy Action Australia, or RACGP.
 - **Corpus A/10_08_Haemonc_-_Blood_Products_and_Transfusion.md** L149 · _Blood product transfusion complications_ · `inherited` — model knowledge, not source-checked. Timing window and investigation sequence, per the NBA or your transfusion service.
@@ -181,8 +181,8 @@ The marker does not say what to check against. Read the entry and either name an
 ## R2 — changes disposition (136)
 
 - **Corpus A/01_Cardiovascular.md** L339 · _Added from unverified layer — accelerated diagnostic protocols_ · `inherited` — which pathway your site uses, and its components and thresholds, per your health network's chest pain pathway.
-- **Corpus A/01_Cardiovascular.md** L550 · _0.7 Ventricular Tachycardia_ · `inherited` — model knowledge, not source-checked. Formal algorithm criteria (Brugada, Vereckei) omitted.
-- **Corpus A/01_Cardiovascular.md** L711 · _0.12.5 Bundle branch blocks_ · `inherited` — model knowledge, not source-checked. The Sgarbossa criteria and their weightings, per a named cardiology source.
+- **Corpus A/01_Cardiovascular.md** L551 · _0.7 Ventricular Tachycardia_ · `inherited` — model knowledge, not source-checked. Formal algorithm criteria (Brugada, Vereckei) omitted.
+- **Corpus A/01_Cardiovascular.md** L712 · _0.12.5 Bundle branch blocks_ · `inherited` — model knowledge, not source-checked. The Sgarbossa criteria and their weightings, per a named cardiology source.
 - **Corpus A/02_Respiratory.md** L845 · _Added from unverified layer — the solitary pulmonary nodule_ · `inherited` — model knowledge, not source-checked. Size thresholds and follow-up intervals per the current Fleischner Society recommendations; deliberately not reproduced here.
 - **Corpus A/02_Respiratory.md** L857 · _Added from unverified layer — the solitary pulmonary nodule_ · `inherited` — the intervals and size cut-offs; use the current Fleischner recommendations at the point of use rather than a remembered threshold.
 - **Corpus A/03_Gastrointestinal.md** L576 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — the timing at which intervention is preferred, and the criteria for calling necrosis infected; gastroenterology or upper GI surgical guidance.
@@ -326,13 +326,13 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/01_Cardiovascular.md** L212 · _0.2.2 Diagnosing hypertension_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L322 · _0.3 Ischaemic Heart Disease_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L325 · _Added from unverified layer — response to treatment is not a diagnostic test_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/01_Cardiovascular.md** L409 · _0.4 Atrial Fibrillation_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/01_Cardiovascular.md** L687 · _0.12.3 AV blocks_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/01_Cardiovascular.md** L696 · _0.12.3 AV blocks_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/01_Cardiovascular.md** L1044 · _0.21.1 Murmurs — differential diagnosis_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/01_Cardiovascular.md** L1217 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — recovery and recurrence figures.
-- **Corpus A/01_Cardiovascular.md** L1285 · _0.29 Deep Vein Thrombosis (DVT)_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/01_Cardiovascular.md** L1617 · _0.36.1 Peripheral Arterial Disease (PAD)_ · `inherited` — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.
+- **Corpus A/01_Cardiovascular.md** L410 · _0.4 Atrial Fibrillation_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/01_Cardiovascular.md** L688 · _0.12.3 AV blocks_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/01_Cardiovascular.md** L697 · _0.12.3 AV blocks_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/01_Cardiovascular.md** L1045 · _0.21.1 Murmurs — differential diagnosis_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/01_Cardiovascular.md** L1218 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — recovery and recurrence figures.
+- **Corpus A/01_Cardiovascular.md** L1286 · _0.29 Deep Vein Thrombosis (DVT)_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/01_Cardiovascular.md** L1618 · _0.36.1 Peripheral Arterial Disease (PAD)_ · `inherited` — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.
 - **Corpus A/02_Respiratory.md** L13 · _0.1 Asthma_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/02_Respiratory.md** L169 · _Added from unverified layer — the types are not fixed categories_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/02_Respiratory.md** L821 · _0.21 Upper Respiratory Tract Infection (URTI)_ · `inherited` — model knowledge, not source-checked.
@@ -484,7 +484,7 @@ The marker does not say what to check against. Read the entry and either name an
 
 ## R1 — could kill someone this rotation (35)
 
-- **Corpus A/01_Cardiovascular.md** L777 · _0.13 Wolff-Parkinson-White (WPW) Syndrome_ · `inherited` — model knowledge, not source-checked. Antiarrhythmic choice and dosing, per eTG Cardiovascular under specialist direction.
+- **Corpus A/01_Cardiovascular.md** L778 · _0.13 Wolff-Parkinson-White (WPW) Syndrome_ · `inherited` — model knowledge, not source-checked. Antiarrhythmic choice and dosing, per eTG Cardiovascular under specialist direction.
 - **Corpus A/03_Gastrointestinal.md** L838 · _0.18 Appendicitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/03_Gastrointestinal.md** L1730 · _0.41.5 Added from unverified layer — generalised pain and the catastrophes_ · `inherited` — empirical antibiotic choice for suspected perforation or ischaemia; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L17 · _Animal & human bites_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.

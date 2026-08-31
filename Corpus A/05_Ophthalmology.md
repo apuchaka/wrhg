@@ -66,7 +66,7 @@ conflicts_r1: 0
 ---
 
 ## Added from unverified layer — the rust ring
-`SRC:A8_Foreign_Bodies_by_Site §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:A8_Foreign_Bodies_by_Site §0.4` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 **A metallic corneal foreign body left in place oxidises and leaves a `rust ring`** in the surrounding stroma. **Removing the foreign body is not the end of the job** — the ring itself impairs epithelial healing and, if central, affects vision, so it usually needs removal too, generally with a slit lamp and a burr by someone experienced.
 

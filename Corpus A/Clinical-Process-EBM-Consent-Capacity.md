@@ -58,7 +58,7 @@ A capacitous adult has the right to refuse any treatment, **even where the refus
 - Disagreement between parents, or between a Gillick-competent minor and their parents, over a child's treatment can require escalation (senior clinician input, ethics consultation, or ultimately court involvement in genuinely contested or high-stakes cases) — genuinely complex territory beyond the scope of a single consultation, not detailed further here.
 
 ## Added from unverified layer — deciding for someone who cannot decide
-`SRC:A10_Ethics__Capacity__Consent_and_Certification §0.3` `UNVERIFIED — model knowledge, not source-checked. The hierarchy of substitute decision-makers and their powers is set by STATE legislation and is NOT reproduced here — confirm against the Act applying in your jurisdiction and your health service's policy.`
+`SRC:A10_Ethics__Capacity__Consent_and_Certification §0.3` `UNVERIFIED — model knowledge, not source-checked. The hierarchy of substitute decision-makers and their powers is set by STATE legislation and is NOT reproduced here — confirm against the Act applying in your jurisdiction and your health service's policy.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!tip] The standard is **substituted judgement**, not best interests as the team sees them
 > Where a valid advance care directive does not answer the question, the substitute decision-maker is asked: **what would THIS person have wanted**, judged from their **known values, beliefs and previously expressed wishes**.
@@ -66,7 +66,7 @@ A capacitous adult has the right to refuse any treatment, **even where the refus
 > Framing it correctly is also kinder: it moves the family from *"do you want us to stop?"* — which asks them to authorise a death — to *"what would they have said?"*, which asks them to report something they may actually know.
 
 ## Added from unverified layer — determination of death by neurological criteria
-`SRC:A10_Ethics__Capacity__Consent_and_Certification §0.5` `UNVERIFIED — model knowledge, not source-checked. The formal criteria, the observation periods and the qualifications required are set by ANZICS statement and by state legislation; obtain and follow those. NOTHING below is a substitute for them.`
+`SRC:A10_Ethics__Capacity__Consent_and_Certification §0.5` `UNVERIFIED — model knowledge, not source-checked. The formal criteria, the observation periods and the qualifications required are set by ANZICS statement and by state legislation; obtain and follow those. NOTHING below is a substitute for them.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!danger] The preconditions matter more than the examination
 > A clinical determination is **invalid** unless there is a **known cause sufficient to explain irreversible brain damage**, and an adequate period has elapsed and reversible contributors have been excluded — **sedation, neuromuscular blockade, hypothermia, metabolic and endocrine derangement, and profound hypotension.** Testing before those are cleared produces a false result.
@@ -79,7 +79,7 @@ A capacitous adult has the right to refuse any treatment, **even where the refus
 > **Death is determined first, communicated clearly, and the family given time.** The donation conversation follows separately and is led by the people trained for it. Collapsing the two makes families feel the death was concluded in order to obtain the organs.
 
 ## Added from unverified layer — certificates are legal documents
-`SRC:A10_Ethics__Capacity__Consent_and_Certification §0.7` `UNVERIFIED — model knowledge, not source-checked. Certificate content requirements and workers-compensation forms are jurisdiction-specific; confirm locally.`
+`SRC:A10_Ethics__Capacity__Consent_and_Certification §0.7` `UNVERIFIED — model knowledge, not source-checked. Certificate content requirements and workers-compensation forms are jurisdiction-specific; confirm locally.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!warning] Certify only what you assessed, and never backdate
 > Sickness certificates, work capacity certificates and fitness assessments are **legal documents**, relied on by employers, insurers and courts. **Certify only what you have assessed and genuinely believe**, and **do not backdate** — a period you did not observe is a period you cannot certify.

@@ -94,7 +94,7 @@ conflicts_r1: 0
 - **Mx:** if traumatic, conservative management; usually resolves spontaneously. 7–10 days bedrest with head elevated 15–30° ± lumbar drain. Avoid coughing, sneezing, nose-blowing. Cover with antibiotics and pneumococcal vaccine.
 
 ## Added from unverified layer — nasal foreign body
-`SRC:A8_Foreign_Bodies_by_Site §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:A8_Foreign_Bodies_by_Site §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 **Unilateral, foul-smelling nasal discharge in a small child is a nasal foreign body until proven otherwise** — the smell and the *unilaterality* are the whole clue, and the history is frequently absent.
 

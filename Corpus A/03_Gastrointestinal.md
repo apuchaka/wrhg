@@ -1082,7 +1082,7 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 
 ### 0.25.2 Added from unverified layer — rectal foreign body
-`SRC:A8_Foreign_Bodies_by_Site §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:A8_Foreign_Bodies_by_Site §0.7` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 **Examine for perforation before attempting anything.** Peritonism, free gas on imaging, or systemic upset means laparotomy, not retrieval. **An object that has migrated proximally will not be reachable from below.**
 
@@ -1510,7 +1510,7 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 ---
 
 ### 0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis
-`SRC:C3_Jaundice_and_Liver_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:C3_Jaundice_and_Liver_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 Two complications of portal hypertension that are respiratory rather than abdominal, and are missed because they are not looked for:
 
@@ -1542,7 +1542,7 @@ Two complications of portal hypertension that are respiratory rather than abdomi
 ---
 
 ### 0.39.1 Added from unverified layer — acute colonic pseudo-obstruction, and the CT transition point
-`SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+`SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.1` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
 > [!danger] Acute colonic pseudo-obstruction (Ogilvie syndrome)
 > **Massive colonic dilatation without any mechanical obstruction**, typically in an unwell, elderly, immobile or post-operative patient. It is distinct from the paralytic ileus described above, which is predominantly small bowel and post-operative.
