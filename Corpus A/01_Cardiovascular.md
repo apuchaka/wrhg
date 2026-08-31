@@ -75,6 +75,28 @@ Aspirin 300 mg, O2 if sats <94%, paracetamol 1 g PO/IV (morphine only if severe 
 **PCI possible within 2h:**
 - Prasugrel (clopidogrel if on oral anticoagulant; ticagrelor if high bleeding risk)
 - Obtain radial access (preferred to femoral)
+
+#### Added from unverified layer — why radial, and what femoral access does when it goes wrong
+`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Retroperitoneal haematoma — the one with no visible signs**
+> A **high** femoral puncture bleeds into the retroperitoneum, and there may be **no groin swelling, no bruise and no local tenderness.** The presentation is **back, flank or abdominal pain with hypotension, tachycardia and a falling haemoglobin**, hours after the procedure — and it is frequently attributed to sedation, a vasovagal reaction or analgesia while the patient continues to bleed.
+> **Any hypotension after arterial access is retroperitoneal haemorrhage until excluded**, and the investigation is a **CT abdomen**.
+
+> [!tip] The other access complications
+> - **Pseudoaneurysm** — a **pulsatile** groin mass with a systolic bruit or thrill, and pain, over hours to days. Confirmed on **duplex ultrasound** (to-and-fro flow in the neck). Small ones may thrombose with observation; larger ones are treated with **ultrasound-guided thrombin injection**; surgery is for failure or infection.
+> - **Arteriovenous fistula** — a **continuous** bruit, because flow occurs in both systole and diastole. (Distinct from the dialysis fistula at [[07_Renal_Medicine_and_Urology]].)
+> - **Haematoma** — common and usually conservative, but watch for expansion and for nerve or compartment compression.
+> **This is the reason for the line above.** Radial access has substantially lower rates of all of them, which is why it became the default.
+
+#### Added from unverified layer — mechanical complications of infarction, days 3 to 7
+`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.2` `UNVERIFIED — model knowledge, not source-checked. The timing window, per a named cardiology source.`
+
+> [!danger] A new murmur several days after an infarct is a surgical emergency until proven otherwise
+> - **Papillary muscle rupture** → acute severe mitral regurgitation with flash pulmonary oedema and cardiogenic shock. **The murmur may be soft or absent**, because the regurgitant gradient equalises rapidly across a low-compliance left atrium — so **a quiet murmur here is not reassurance.** §0.21 lists papillary muscle rupture as an aetiology of MR; it does not say it is a post-infarct complication or that the murmur can be silent.
+> - **Ventricular septal rupture** → harsh pansystolic murmur with a thrill, and shock.
+> - **Free wall rupture** → tamponade and pulseless electrical activity.
+> All three need **urgent echocardiography and immediate cardiothoracic involvement.**
 - UFH + bailout GPIIb/IIIa inhibitor
 - PCI with drug-eluting stent
 
@@ -1018,6 +1040,11 @@ Obstruction of blood flow → hypoperfusion of tissues distal to obstruction.
 
 > [!tip] Murmur mnemonics
 > - **RILE:** right-sided murmurs best heard on inspiration; left-sided best heard on expiration
+>
+> **Added from unverified layer** — `SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+> - **Valsalva and standing reduce preload, so most murmurs get QUIETER — with two exceptions that get LOUDER: hypertrophic cardiomyopathy and mitral valve prolapse.** Reduced ventricular volume worsens outflow obstruction in HOCM and increases prolapse in MVP. §0.26 states the HOCM half of this; the MVP half and the general rule are here.
+> - **Squatting and handgrip increase afterload and preload**, which **increases** mitral regurgitation, VSD and aortic regurgitation murmurs and **reduces** the HOCM murmur.
+> - `handgrip` was **0 vault-wide** before this line, so the manoeuvre that best separates MR from HOCM had no entry at all.
 > - **ASMR:** Aortic Stenosis & Mitral Regurgitation during Systole
 > - **ARMS:** Aortic Regurgitation & Mitral Stenosis during Diastole
 
