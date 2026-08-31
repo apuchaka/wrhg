@@ -738,8 +738,8 @@ file. **No marker was silently voided in Block 1.**
 
 ## Resume point
 
-**DONE:** K1 · K2 · K3 · K4 · I1 · I2.
-**NEXT:** I3 · I4 · I5 · O6 · CV-X.
+**DONE:** K1 · K2 · K3 · K4 · I1 · I2 · I3.
+**NEXT:** I4 · I5 · O6 · CV-X.
 Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1–E3).
 **Do NOT start Week 4** — the user decides that after seeing this run's yield.
 
@@ -775,6 +775,7 @@ suppresses a marker on the ground that the *source* mentions the subject.
 | K4 Allergy and Clinical Immunology | 38 | 10 | 25 | 0 | none |
 | I1 Thyroid Disease | 32 | 2 | 30 | 0 | none |
 | I2 Diabetes and Glucose Disorders | 34 | 4 | 30 | 0 | none |
+| I3 Calcium, Parathyroid and Bone | 26 | 2 | 23 | 0 | none |
 
 **The K block ran ~26% additive. I1 ran 6%.**
 
