@@ -1,6 +1,8 @@
 ---
 block: Sexual Health & Reproductive Health
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
 ---
 
 > [!warning] Sourcing

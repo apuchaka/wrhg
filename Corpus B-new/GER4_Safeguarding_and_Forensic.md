@@ -1,6 +1,8 @@
 ---
 block: GP, Preventive Medicine, Ethics & Communication
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
 ---
 
 > [!warning] Sourcing — and this file needs it more than most
