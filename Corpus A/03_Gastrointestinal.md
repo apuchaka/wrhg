@@ -1668,7 +1668,7 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 > [!info] Examination sequence
 > **Inspection** — distension, scars (which tell you about adhesions), visible peristalsis, hernias, bruising (Grey Turner and Cullen signs, both late and uncommon), respiratory movement of the abdomen.
 > **Palpation** — start away from the pain. **Guarding** (voluntary or involuntary muscle contraction), **rigidity** (board-like, involuntary — peritonitis), and localised tenderness.
-> **Percussion tenderness rather than rebound.** Gentle percussion elicits the same information as releasing deep palpation, is far kinder, and is more reproducible. **Rebound testing is unpleasant, poorly reproducible and should largely be abandoned.**
+> **Percussion tenderness rather than rebound.** `CF-038` Gentle percussion elicits the same information as releasing deep palpation, is far kinder, and is more reproducible. **Rebound testing is unpleasant, poorly reproducible and should largely be abandoned.**
 > **Auscultation** — absent bowel sounds in ileus or peritonitis; high-pitched tinkling in obstruction. Bowel sounds are **less informative than commonly taught** and should not override the rest of the examination.
 > **Percussion for shifting dullness** where ascites is suspected.
 

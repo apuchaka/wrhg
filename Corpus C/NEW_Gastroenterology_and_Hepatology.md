@@ -33,7 +33,7 @@ no_baseline: 0
 - **Examination:** **A–E and vital signs first — including temperature and a capillary glucose.**
   - **Observe the patient before touching them**: lying completely still suggests peritonitis; restless and writhing suggests colic.
   - **Inspect** for distension, scars, hernias (**examine all hernial orifices — an incarcerated hernia is easily missed under a gown**), visible peristalsis, bruising (Grey Turner's and Cullen's signs, late and uncommon).
-  - **Palpate** gently and away from the pain first: guarding, rigidity, rebound and percussion tenderness; **localised versus generalised peritonism**; organomegaly; **a pulsatile expansile mass**; Murphy's sign; Rovsing's sign.
+  - **Palpate** gently and away from the pain first: guarding, rigidity, rebound and percussion tenderness `CF-038`; **localised versus generalised peritonism**; organomegaly; **a pulsatile expansile mass**; Murphy's sign; Rovsing's sign.
   - **Percuss** for tympany and shifting dullness; **auscultate** for bowel sounds (**absent in peritonitis; high-pitched and tinkling in obstruction — though bowel sounds alone are a weak sign**) and for bruits.
   - **Digital rectal examination** where indicated — for melaena, blood, masses and impaction; **examine the external genitalia and scrotum in men**.
   - **Pelvic examination** where gynaecological pathology is likely and it will change management, with consent and a chaperone.
