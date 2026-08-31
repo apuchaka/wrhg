@@ -1066,6 +1066,18 @@ Peak incidence ~36h after last drink — **one point on a withdrawal timeline, n
 
 > [!info] Recognised risk factors also include intranasal influenza vaccination and pregnancy (particularly the third trimester and immediate postpartum period, ~3× risk) and diabetes (~5× risk) — an association with COVID-19 has also been noted (see [[02_Respiratory]] Viral pneumonia/pneumonitis (including COVID-19) for the general COVID-19 entry, not repeated here), though the mechanism (as with the broader HSV-reactivation theory) remains incompletely understood.
 
+### Added from unverified layer — bulbar versus pseudobulbar palsy
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] The tongue tells you which
+> - **Bulbar palsy — LOWER motor neurone.** **Flaccid, wasted, fasciculating tongue**; absent gag; nasal speech; nasal regurgitation of fluids. Causes: motor neurone disease (§Motor Neuron Disease above), Guillain-Barré, myasthenia, brainstem lesions, poliomyelitis.
+> - **Pseudobulbar palsy — bilateral UPPER motor neurone.** **Small, spastic, immobile tongue with NO fasciculation**; **brisk jaw jerk**; slow strained speech; and **emotional lability — pathological laughing and crying**, which is characteristic and distressing to families. Causes: bilateral strokes, multiple sclerosis, motor neurone disease.
+>
+> **A fasciculating tongue with brisk reflexes elsewhere is motor neurone disease until proven otherwise** — the combination is what makes MND the answer, because it is the one diagnosis that produces upper and lower motor neurone signs together.
+
+The pieces of this examination already exist elsewhere and are not repeated: the **jaw jerk** is described above, and **asking the patient to write** — which separates dysphasia from dysarthria in seconds, since writing is normal in dysarthria — is in [[History-Taking]]. What was missing is the two syndromes set against each other.
+
+
 ### Horner's Syndrome
 
 **D:** a clinical triad resulting from disruption of the sympathetic nerve supply to the eye/face, localising to one of three neuron levels along the sympathetic pathway.
