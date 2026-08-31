@@ -739,7 +739,7 @@ file. **No marker was silently voided in Block 1.**
 ## Resume point
 
 **WEEK 2 COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
-**IN PROGRESS:** Week 3 — **L1 done.** Next L2. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
+**IN PROGRESS:** Week 3 — **L1, L2 done.** Next L3. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
 ophthalmology (E1–E3). **Week 4 is approved for AFTER week 3**, priced by the probe in
 `_meta/merges/WEEK4_PROBE.md` at ~100 additive blocks for 25 files; **run M before J** if
 it is ever cut short.
@@ -809,6 +809,7 @@ suppresses a marker on the ground that the *source* mentions the subject.
 | **WEEK 2 TOTAL (11 files)** | **382** | **56** | **329** | **1 (CF-035 R2)** | **none** |
 | — *week 3 below* — | | | | | |
 | L1 Hot and Swollen Joint | 30 | 3 | 27 | 0 | none |
+| L2 Polyarthralgia and Inflammatory Arthritis | 31 | 1 | 30 | 0 | none |
 
 **Week 2 ran 15% additive overall** (56 of 385 dispositions), against the ~20% of blocks
 1 and 2. Corpus A + Corpus C together are **denser** in week 2's topics than the
@@ -860,3 +861,14 @@ grep -h "^#\+ " FILE | sort | uniq -d
 
 Re-run correctly over all eleven Corpus A files modified this run: **all clean.** No
 duplicate header was introduced; only the check was broken.
+
+## Open for the user — a pre-existing duplicate header
+
+`12_01_Rheum` has **`### Management` twice**, at `:37` (rheumatoid arthritis) and `:150`
+(psoriatic arthritis). **Present at `f6bfb05`, before this run** — not introduced by any
+merge. It is the first genuine duplicate the *corrected* duplicate-header check has caught,
+which is some evidence the corrected check works.
+
+**Not fixed:** renaming a heading is not an additive merge, it changes an anchor, and
+CLAUDE.md forbids renumbering file sections. No other file currently points at either
+anchor (checked). Left for a decision.
