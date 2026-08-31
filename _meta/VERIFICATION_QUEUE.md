@@ -5,7 +5,7 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-31
 
-483 open items. Close one by editing its marker in the file, then rerunning `scan`.
+490 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
 # Actionable — openly accessible Australian sources (70)
 
@@ -114,7 +114,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/01_Cardiovascular.md** L369 · _Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)_ · `inherited` — model knowledge, not source-checked. Agents and doses per eTG Cardiovascular; the entity is already queued at PENDING_GUIDELINE_CHECKS P5-A30 against eTG and Heart Foundation.
 - **Corpus B/C1_Acute_Abdomen.md** L189 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (338)
+# Triage — source not named in the marker (345)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
@@ -177,11 +177,13 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L234 · _0.5 Falls_ · `unverified` — dosing and who should receive it.
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L276 · _0.6 Osteoporosis and Fracture Prevention_ · `unverified` — dosing interval and the recommended transition regimen.
 
-## R2 — changes disposition (130)
+## R2 — changes disposition (135)
 
 - **Corpus A/01_Cardiovascular.md** L339 · _Added from unverified layer — accelerated diagnostic protocols_ · `inherited` — which pathway your site uses, and its components and thresholds, per your health network's chest pain pathway.
 - **Corpus A/01_Cardiovascular.md** L550 · _0.7 Ventricular Tachycardia_ · `inherited` — model knowledge, not source-checked. Formal algorithm criteria (Brugada, Vereckei) omitted.
 - **Corpus A/01_Cardiovascular.md** L711 · _0.12.5 Bundle branch blocks_ · `inherited` — model knowledge, not source-checked. The Sgarbossa criteria and their weightings, per a named cardiology source.
+- **Corpus A/02_Respiratory.md** L845 · _Added from unverified layer — the solitary pulmonary nodule_ · `inherited` — model knowledge, not source-checked. Size thresholds and follow-up intervals per the current Fleischner Society recommendations; deliberately not reproduced here.
+- **Corpus A/02_Respiratory.md** L857 · _Added from unverified layer — the solitary pulmonary nodule_ · `inherited` — the intervals and size cut-offs; use the current Fleischner recommendations at the point of use rather than a remembered threshold.
 - **Corpus A/03_Gastrointestinal.md** L570 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — the timing at which intervention is preferred, and the criteria for calling necrosis infected; gastroenterology or upper GI surgical guidance.
 - **Corpus A/03_Gastrointestinal.md** L597 · _0.12.1 Added from unverified layer — two complications of chronic pancreatitis_ · `inherited` — the diagnostic criteria distinguishing type 3c from type 2, and the preferred glucose-lowering agents; see [[06_Metabolic_Medicine_and_Endocrinology]] and specialist endocrine guidance.
 - **Corpus A/03_Gastrointestinal.md** L1371 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — its components and thresholds, and how it compares with Glasgow-Blatchford in Australian practice.
@@ -189,6 +191,9 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/04_Neurology.md** L792 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — diagnostic criteria and the yield of EEG in this setting; neurology guidance.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L251 · _Heat illness_ · `inherited` — the temperature at which to stop active cooling, and whether immersion or evaporative cooling is preferred in Australian practice.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L54 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — the surveillance intervals, and the criteria for who requires surveillance at all. These differ between guidelines, so take them from the gastroenterology service running the programme rather than from a general reference.
+- **Corpus A/14a-2_Psych_-_Overdose_and_Poisoning_Management.md** L36 · _Added from unverified layer — carbon monoxide beyond the acute episode_ · `inherited` — model knowledge, not source-checked. Carboxyhaemoglobin thresholds and hyperbaric indications, per the Poisons Information Centre.
+- **Corpus A/14a-2_Psych_-_Overdose_and_Poisoning_Management.md** L40 · _Added from unverified layer — carbon monoxide beyond the acute episode_ · `inherited` — the treatment thresholds in pregnancy, per the Poisons Information Centre.
+- **Corpus A/14a-2_Psych_-_Overdose_and_Poisoning_Management.md** L71 · _0.4 Tricyclic antidepressant toxicity — detail_ · `inherited` — model knowledge, not source-checked. QRS duration thresholds omitted.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L310 · _Added from unverified layer — two funding pathways outside aged care_ · `inherited` — current eligibility criteria and the age boundary between NDIS and aged care, and what DVA covers; both are open government sources.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L315 · _Added from unverified layer — two things done on admission_ · `inherited` — which scale is used in your health network, and its action thresholds.
 - **Corpus A/Investigation-Interpretation.md** L560 · _1.22 Cognitive Screening Tools (MMSE, MoCA, AMTS)_ · `inherited` — the RUDAS and 4AT cutoffs and their validation populations. The derivation-population principle above applies to these two exactly as it does to the rest, so the cutoffs are deliberately not stated here.
@@ -310,7 +315,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Drugs_06_Cardiovascular.md** L40 · _0.1.1 Vitamin K Antagonists (Warfarin)_ · `snippet` — model knowledge, not source-checked; confirm the mitral stenosis severity threshold against a named cardiology source.
 - **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L97 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (152)
+## R3 — everything else (154)
 
 - **Corpus A/01_Cardiovascular.md** L48 · _Added from unverified layer — right ventricular infarction and the right-sided leads_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L80 · _0.1.3 Mx – Definitive (STEMI)_ · `inherited` — model knowledge, not source-checked.
@@ -328,6 +333,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/01_Cardiovascular.md** L1617 · _0.36.1 Peripheral Arterial Disease (PAD)_ · `inherited` — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.
 - **Corpus A/02_Respiratory.md** L13 · _0.1 Asthma_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/02_Respiratory.md** L169 · _Added from unverified layer — the types are not fixed categories_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/02_Respiratory.md** L821 · _0.21 Upper Respiratory Tract Infection (URTI)_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L271 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L553 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L595 · _0.12.1 Added from unverified layer — two complications of chronic pancreatitis_ · `inherited` — model knowledge, not source-checked.
@@ -371,6 +377,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L48 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L58 · _0.3.2 Added from unverified layer — swallowed foreign body_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/14_05a_Psych_-_Eating_Disorders.md** L76 · _Added from unverified layer — parotid enlargement_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/14a-2_Psych_-_Overdose_and_Poisoning_Management.md** L43 · _Added from unverified layer — adverse drug reactions, and reporting them in Australia_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_.md** L63 · _Added from unverified layer — three points not stated above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L303 · _Added from unverified layer — two funding pathways outside aged care_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L313 · _Added from unverified layer — two things done on admission_ · `inherited` — model knowledge, not source-checked.

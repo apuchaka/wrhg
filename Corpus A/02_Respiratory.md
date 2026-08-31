@@ -817,6 +817,11 @@ Encompasses BiPAP, CPAP, etc.
 
 ## 0.21 Upper Respiratory Tract Infection (URTI)
 
+> [!info] Added from unverified layer — **post-viral cough**
+> `SRC:A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+> A **dry cough persisting for weeks after the viral illness itself has resolved** is common, benign and self-limiting, caused by **transient airway hyperresponsiveness**. It is not treatment failure, not a bacterial complication, and not a reason for antibiotics.
+> **It needs an explanation and a timeframe rather than an investigation** — which is what stops the patient re-presenting and the clinician escalating. Reserve investigation for the red flags: haemoptysis, weight loss, breathlessness, focal signs, or a cough that is **worsening** rather than slowly settling.
+
 > [!note] Gap-filled from CSV (Respiratory category, High yield, "unlikely covered") — not covered as a standalone topic in the source UK notes, likely because it's usually considered low-complexity/self-evident, but flagged as high-yield in the CSV so given a brief dedicated entry.
 
 **D:** Infection of the upper respiratory tract — nose, sinuses, pharynx, larynx — most commonly viral, encompassing the "common cold," pharyngitis, sinusitis, and laryngitis.
@@ -833,6 +838,25 @@ Encompasses BiPAP, CPAP, etc.
 - **Definitive (self-limiting in the large majority):** supportive care — analgesia/antipyretics, fluids, rest; reassurance about expected duration.
 - **Targeted (confirmed/high-probability bacterial pharyngitis):** penicillin V (or amoxicillin) for confirmed/high-probability group A strep pharyngitis, particularly relevant in populations/regions with higher rheumatic fever risk (see [[01_Cardiovascular]] 0.22 and the Australian Context of Health/Aboriginal & TSI Health category for RHD-endemic-region considerations).
 - **Chronic/long-term:** not applicable to simple URTI; recurrent tonsillitis may warrant ENT referral for consideration of tonsillectomy if meeting frequency/severity criteria.
+
+---
+
+## Added from unverified layer — the solitary pulmonary nodule
+`SRC:A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule §0.4` `UNVERIFIED — model knowledge, not source-checked. Size thresholds and follow-up intervals per the current Fleischner Society recommendations; deliberately not reproduced here.`
+
+**D:** A single rounded opacity in the lung, usually found incidentally. Before this block, `pulmonary nodule` returned **two hits vault-wide** — one an extra-articular feature of rheumatoid arthritis, one in lung cancer screening — so the incidental nodule had no entry.
+
+> [!tip] Features that point one way or the other
+> **Toward benign:** small · **smooth, well-defined margins** · **benign calcification patterns — central, laminated, diffuse, or "popcorn"** (characteristic of a **hamartoma**) · a younger non-smoker.
+> **Toward malignant:** larger · **spiculated or irregular margins** · upper lobe · **growth** · older age, smoking history, previous malignancy.
+> Calcification is the most useful single radiological feature, and the *pattern* is what matters — **eccentric or stippled calcification does not reassure.**
+
+> [!danger] **Find the old films first — they can end the workup on the day**
+> **A nodule unchanged over an adequate interval on previous imaging is almost certainly benign.** Chase prior chest radiographs and CTs, including from other hospitals and from imaging done for unrelated reasons, **before** committing the patient to a surveillance program or a biopsy. This is the highest-yield and most frequently skipped step.
+
+**Mx:** structured follow-up rather than immediate action for most incidental nodules. The **Fleischner Society** recommendations stratify by **size**, **solid versus subsolid versus ground-glass**, **single versus multiple**, and patient risk. `UNVERIFIED — the intervals and size cut-offs; use the current Fleischner recommendations at the point of use rather than a remembered threshold.`
+
+> [!note] Australian context: granulomatous nodules from prior **tuberculosis** or **non-tuberculous mycobacterial** infection occur here. The endemic fungal causes that dominate North American teaching on this topic — histoplasmosis, coccidioidomycosis — are **not** a significant local cause, so that part of the international literature does not transfer.
 
 ---
 
