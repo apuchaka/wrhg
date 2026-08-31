@@ -65,6 +65,14 @@ conflicts_r1: 0
 
 ---
 
+## Added from unverified layer — the rust ring
+`SRC:A8_Foreign_Bodies_by_Site §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A metallic corneal foreign body left in place oxidises and leaves a `rust ring`** in the surrounding stroma. **Removing the foreign body is not the end of the job** — the ring itself impairs epithelial healing and, if central, affects vision, so it usually needs removal too, generally with a slit lamp and a burr by someone experienced.
+
+**Always evert the upper lid** in a patient with a foreign-body sensation and nothing visible: a subtarsal foreign body produces vertical linear corneal abrasions from blinking, which is a diagnostic pattern.
+
+
 ## Corneal Abrasion
 
 **D:** a defect in the corneal epithelium, most commonly from direct trauma.

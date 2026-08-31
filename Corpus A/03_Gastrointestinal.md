@@ -1075,6 +1075,14 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 - **Skin tags** are often the residue of a previous thrombosed pile, or associated with a chronic fissure or Crohn disease — so a tag is a clue to what has happened before, not a diagnosis on its own.
 
 
+### 0.25.2 Added from unverified layer — rectal foreign body
+`SRC:A8_Foreign_Bodies_by_Site §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+**Examine for perforation before attempting anything.** Peritonism, free gas on imaging, or systemic upset means laparotomy, not retrieval. **An object that has migrated proximally will not be reachable from below.**
+
+**The consultation matters as much as the procedure.** Adults are frequently embarrassed and delay presenting, which is why perforation is more common than the mechanism suggests — a matter-of-fact, non-judgemental approach gets an accurate history. **In a child, a rectal foreign body is a safeguarding presentation** and requires child protection escalation, as §0.41.6 notes for the acute abdomen generally.
+
+
 ## 0.26 Colorectal Cancer
 
 **D:** cancers of the colon — majority are adenocarcinomas. 66% arise in the colon, 30% rectum; others include carcinoid tumours, GI stromal cell tumours (GISTs), lymphomas.

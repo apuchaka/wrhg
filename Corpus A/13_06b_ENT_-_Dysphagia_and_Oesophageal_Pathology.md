@@ -54,6 +54,24 @@ conflicts_r1: 0
 - `UNVERIFIED — the surveillance intervals, and the criteria for who requires surveillance at all. These differ between guidelines, so take them from the gastroenterology service running the programme rather than from a general reference.`
 
 
+## 0.3.2 Added from unverified layer — swallowed foreign body
+`SRC:A8_Foreign_Bodies_by_Site §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] A button battery in the oesophagus is a time-critical emergency
+> **Not a swallowed object to observe. An injury already in progress.**
+> The battery generates a current at the mucosal contact point, causing **liquefactive necrosis** — the same mechanism as an alkali burn (see [[11_09b_Ortho_-_Trauma]]) — and injury begins **within hours**, progressing to oesophageal perforation, tracheo-oesophageal fistula, and erosion into the aorta.
+> **It requires immediate imaging and urgent endoscopic removal — not a period of observation.**
+> **On plain radiograph it shows a `halo` or `double-ring` sign** — a lucent rim distinguishing it from a coin, which is a single uniform disc. **This distinction is the whole decision**: a coin can often be observed, a battery cannot.
+> **Suspect it in any small child with unexplained drooling, refusal to feed, or new stridor**, with or without a witnessed ingestion.
+> `UNVERIFIED — the time window within which removal is required, whether honey or sucralfate is recommended before retrieval in Australian practice, and the observation protocol after removal; Poisons Information Centre 13 11 26, RCH or Queensland Children's Health.`
+
+> [!warning] Two more that are not "wait and see"
+> **Multiple magnets** — two or more, or a magnet with any other metallic object. They attract across bowel loops, **trapping and necrosing the wall between them**, causing perforation and fistula. A single magnet with nothing else is different.
+> **Sharp or long objects** — these do not reliably pass, and the risk is perforation.
+
+**Objects that usually can be managed expectantly:** a **single** smooth object such as a coin, once past the oesophagus and in a child with no symptoms. **The oesophagus is the dangerous location; the stomach usually is not.**
+
+
 ## 0.4 Oesophageal carcinoma
 
 - **D:** neoplastic mucosal lesions, divided into SCC or adenocarcinoma (rarely other kinds).

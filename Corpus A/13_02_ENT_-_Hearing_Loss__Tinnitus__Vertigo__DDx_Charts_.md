@@ -27,6 +27,16 @@ conflicts_r1: 0
 > [!info] Sensorineural hearing loss — asymmetric
 > Neoplasm (vestibular schwannoma); iatrogenic (radiation, surgery); idiopathic.
 
+## Added from unverified layer — aural foreign body
+`SRC:A8_Foreign_Bodies_by_Site §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] A live insect is killed before it is removed
+> **Drown it first** — with mineral oil, olive oil or lidocaine — because a moving insect against the tympanic membrane is intensely distressing and causes further injury during extraction.
+> **Organic material such as a seed or pea should not be irrigated**, because it swells.
+
+**One attempt by an inexperienced operator is reasonable; repeated attempts convert a simple problem into a bleeding, oedematous canal that then needs theatre.** Refer early rather than persist. A **button battery in the ear** is again an emergency ([[13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology]]).
+
+
 ## Tinnitus — differential diagnosis
 
 - **Mx (general approach):** identify and treat any reversible underlying cause first (e.g. remove impacted earwax, review ototoxic medications, treat otitis media, manage thyroid dysfunction) — a surprising proportion of tinnitus has an identifiable, addressable driver rather than being purely idiopathic. For persistent tinnitus without a reversible cause: **hearing aids** if there's associated hearing loss (amplifying external sound can reduce the relative prominence of tinnitus); **sound therapy/masking** (white noise or similar background sound reduces the contrast between tinnitus and silence, particularly useful at night); **cognitive behavioural therapy** — genuinely evidence-supported for reducing the distress and functional impact of tinnitus, even though it doesn't eliminate the sound itself, given much of tinnitus's burden comes from the psychological/attentional response to it rather than the sound alone; **tinnitus retraining therapy** (a structured combination of counselling and sound therapy) for persistent, distressing cases. Pharmacological options have limited evidence overall; treat any co-existing anxiety/depression/insomnia actively given these commonly amplify perceived tinnitus severity and are themselves treatable.
