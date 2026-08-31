@@ -36,6 +36,21 @@ no_baseline: 0
 
 - **Mx:** refer to neurosurgery or orthopaedic spinal surgery → decompressive surgery.
 
+## Added from unverified layer — yellow flags in back pain
+`SRC:L4_Back_and_Neck_Pain §0.1` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!warning] **Yellow flags predict chronicity better than any scan does**
+> The corpus covers **red** flags — the features pointing at a serious structural cause — thoroughly. **Yellow flags are a different axis entirely: psychosocial factors that predict which patient with ordinary mechanical back pain will still be disabled by it in a year.**
+> **· The belief that pain means damage, and that activity is dangerous** — fear-avoidance, which is the single most modifiable one.
+> **· Catastrophising** — expecting the worst outcome.
+> **· Low mood, anxiety, and social withdrawal.**
+> **· Passive coping and an expectation that a passive treatment will fix it** — waiting for a scan, an injection or an operation rather than moving.
+> **· Work factors** — dissatisfaction, a belief that work caused it or will worsen it, an unresolved compensation or medicolegal claim, and prolonged time off, which is itself predictive.
+> **· A history of previous prolonged disabling episodes.**
+> **The practical point is that they are asked about, not looked for on a film**, and that finding them changes the management toward activity, graded return to work and explanation — not toward more imaging.
+> **They are also the reason imaging can cause harm:** an incidental degenerative finding reported to a patient who already believes their spine is damaged confirms the belief and worsens the outcome. This is the mechanism behind the do-not-image rule the red-flag entries already state.
+> `UNVERIFIED — whether a validated yellow-flag screening instrument is recommended in Australian practice and which one, per the RACGP and the Australian clinical care standard for low back pain.`
+
 ## Spinal stenosis (lumbar spondylosis)
 
 - **D:** degenerative condition of the lumbar spine causing narrowing of the spinal canal.
