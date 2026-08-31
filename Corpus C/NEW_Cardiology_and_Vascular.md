@@ -124,6 +124,30 @@ conflicts_r1: 0
   - **Distributive:** **sepsis** (commonest), **anaphylaxis**, neurogenic shock from spinal cord injury, adrenal crisis, liver failure, drug overdose with vasodilatation.
   - **Cardiogenic:** myocardial infarction, arrhythmia, acute valvular failure, myocarditis, decompensated cardiomyopathy, drug toxicity (beta-blocker, calcium channel blocker).
   - **Obstructive:** **tension pneumothorax**, **cardiac tamponade**, **massive pulmonary embolism**, dynamic hyperinflation in a ventilated asthmatic.
+
+### Added from unverified layer — the two the phenotype list does not reach
+`SRC:B4_Syncope__Collapse_and_Hypotension §0.5` `UNVERIFIED — model knowledge, not source-checked. Steroid agent and dose in suspected adrenal crisis, per eTG — and note the dose already stated at [[NEW_Drugs_10_Endocrine]] is an ADULT dose.`
+
+> [!danger] **Hypotension that does not respond to fluid *and* vasopressors — think adrenal insufficiency**
+> **Cortisol is required for vascular responsiveness to catecholamines.** Without it there is
+> **vasoplegia that noradrenaline does not correct**, so escalating the vasopressor looks like
+> the right move and does nothing. The phenotype list above names *adrenal crisis* under
+> distributive shock; what it does not say is that this is the one phenotype where **the
+> failure to respond is itself the diagnostic clue.**
+> **Look for hyponatraemia with hyperkalaemia and hypoglycaemia**, and ask about
+> **recent steroid cessation or a missed dose** — including inhaled and topical steroids,
+> and the patient on long-term prednisolone who stopped for a procedure.
+> The other causes of true refractoriness are mechanical or metabolic, and are already above
+> or elsewhere: **tamponade and tension pneumothorax** (no volume overcomes an obstruction),
+> **severe acidosis** (see the fluids entry on impaired adrenoceptor function), **occult
+> haemorrhage**, and **anaphylaxis including biphasic presentations**.
+
+> [!warning] **On the ward, the commonest cause of a hypotension call is iatrogenic**
+> Before working through the phenotypes, look at the chart: **antihypertensives continued in
+> a patient who is now dry or septic**, opioids and sedatives, **spinal or epidural
+> anaesthesia**, and rapid diuresis. This is not a phenotype so much as the first thing to
+> exclude, and it is the reason the drug chart belongs in the initial assessment rather than
+> after the fluid bolus.
   - **Non-shock hypotension:** drugs (antihypertensives, diuretics, opioids, sedatives, anaesthetic agents), autonomic dysfunction, prolonged immobility, endocrine causes.
 - **Focused Hx:** speed of onset; **bleeding from any site — haematemesis, melaena, PV bleeding, trauma, recent procedure**; fever and infective symptoms; **allergen exposure with rash, wheeze or angioedema**; chest pain; dyspnoea; drug and fluid chart review including **recent doses of antihypertensives, opioids and sedatives**; anticoagulation; comorbidity, particularly cardiac and adrenal; **steroid use, current or recently stopped** (adrenal crisis is missed precisely because the history is not taken); last oral intake and output; pregnancy — **a woman of reproductive age with hypotension and abdominal pain has a ruptured ectopic until excluded**.
 - **Examination:** **A–E**, with **perfusion assessed rather than only the number**: conscious state, capillary refill, peripheral temperature and mottling, urine output. Then the phenotype-defining signs — **JVP (low in hypovolaemia and distributive; raised in cardiogenic, tamponade, tension pneumothorax and massive PE)**; **warm peripheries and bounding pulses in distributive shock versus cold, clamped peripheries in cardiogenic and hypovolaemic**; chest auscultation and percussion; heart sounds and murmurs; abdominal examination including a **pulsatile expansile mass**; rectal examination; skin for rash, urticaria, purpura or mottling; temperature; and a **full drug chart review as part of the examination, not after it**.

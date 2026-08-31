@@ -890,6 +890,13 @@ Peak incidence ~36h after last drink — **one point on a withdrawal timeline, n
 
 ### Seizures vs Syncope
 
+> [!fail]- CONFLICT CF-033 — does incontinence discriminate seizure from syncope? **R2**
+> **A (`inherited`):** the table below — *"Incontinence — Seizures: **More common** · Syncope: **Rare**."* Incontinence is presented as evidence favouring seizure.
+> **B (`unverified`):** `SRC:B4_Syncope__Collapse_and_Hypotension §0.1` — *"Urinary incontinence occurs in **both** syncope and seizure and is **not** a useful discriminator, despite being taught as one. Lateral tongue biting and prolonged postictal confusion are the features that genuinely separate them."*
+> **Why it matters:** a reader using the table treats incontinence as evidence for seizure; a reader using B4 discards it. **The patient wrongly labelled epileptic is started on antiepileptic drugs and loses their driving licence** — the same consequence this file already names for the convulsive-syncope trap. The two rows the sources agree on, **lateral tongue bite** and **postictal confusion**, are both already in the table and in [[History-Taking]]; it is only the incontinence row in dispute.
+> **Resolve against:** Epilepsy Action Australia or the Epilepsy Society of Australia; RACGP guidance on first seizure; Austroads *Assessing Fitness to Drive* for the licensing consequence.
+
+
 | Feature | Seizures | Syncope |
 |---|---|---|
 | Movement | Rhythmic jerking (tonic-clonic) | Twitching, jerking |
