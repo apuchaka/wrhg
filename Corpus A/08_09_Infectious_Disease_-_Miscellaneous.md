@@ -98,6 +98,19 @@ no_baseline: 9
   - **Breast abscess:** ultrasound-guided needle aspiration is now generally preferred over surgical incision and drainage where feasible, given comparable efficacy with less scarring/cosmetic impact and less disruption to breastfeeding — surgical drainage remains an option for larger or more complex abscesses, or where aspiration fails. Breastfeeding can generally continue on the affected side once an abscess is being appropriately managed, though this should be individualised with the treating clinician, particularly if drainage affects the ability to feed directly from that breast.
   - **Chronic/long-term:** address contributing factors (attachment/positioning review, feeding frequency) to prevent recurrence; lactation consultant input is genuinely valuable given how much of the underlying problem (poor drainage, positioning) is addressed through practical feeding support rather than medication alone.
 
+### Added from unverified layer — non-lactational and periductal mastitis
+`SRC:O7_Breast_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!warning] **Mastitis in a woman who is not breastfeeding is a different disease**
+> The entry above is lactational mastitis. **Non-lactational mastitis has different organisms, a different natural history, and a strong and under-asked risk factor.**
+> **· PERIDUCTAL MASTITIS is strongly associated with SMOKING** — the association is strong enough that smoking cessation is part of the treatment rather than general advice, and the condition recurs while smoking continues. Typically **younger women, periareolar**, and often **anaerobes and mixed flora rather than the *S. aureus* of lactational disease**, so the antibiotic choice differs. `UNVERIFIED — the antibiotic regimen for non-lactational and periductal mastitis, per Therapeutic Guidelines: Antibiotic.`
+> **· It recurs, and it fistulates.** A **mammary duct fistula** — a chronic discharging periareolar sinus — is the characteristic complication, and it needs surgical rather than repeated antibiotic management.
+> **· Duct ectasia** (already listed in the breast lump differential at [[NEW_Breast]]) is the related non-infective process, with thick discharge and nipple retraction in older women.
+
+> [!danger] **AND THE RULE THAT OUTRANKS ALL OF THIS: "mastitis" that does not resolve is cancer until proven otherwise**
+> **Inflammatory breast cancer presents with erythema, warmth and peau d'orange and is routinely treated as mastitis first.** [[NEW_Breast]] names it as *"the classic trap"*.
+> **Any mastitis — lactational or not — that fails to settle on appropriate antibiotics needs re-examination and imaging, not a second antibiotic course.** In a non-lactating woman the threshold is lower still, because the prior probability has shifted.
+
 ## Lemierre's syndrome
 
 - **D:** infectious thrombophlebitis of the internal jugular vein, secondary to bacterial sore throat caused by *Fusobacterium necrophorum* → peritonsillar abscess.
