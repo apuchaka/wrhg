@@ -17,6 +17,11 @@ that makes the failure impossible rather than merely forbidden:
     backstop.
   * a pattern that looks like a PROXIMITY or PHRASE search is rejected before it runs
     (rule 10, ADJACENCY and PARAPHRASE clauses).
+  * hits are grouped by corpus, and a result whose hits ALL sit in the SOURCE corpus is
+    reported as ZERO with a loud warning. A merge gap check that matches the B file being
+    merged has found itself, not the destination — a false PRESENT, which is the silent
+    direction nothing downstream catches (rule 9). Found 2026-08-31 by running this tool on
+    B5: six real gaps read as "present", every hit a self-match.
 
 USAGE
     python3 scripts/gapcheck.py 'micturition'
@@ -77,6 +82,9 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("pattern", help="regex, case-insensitive")
     ap.add_argument("--dirs", nargs="+", default=DEFAULT_DIRS)
+    ap.add_argument("--source", default="Corpus B",
+                    help="the corpus being merged FROM. Hits here are self-matches and do "
+                         "not count towards PRESENT. Pass '' to disable.")
     ap.add_argument("--allow-phrase", action="store_true",
                     help="permit a multi-word or proximity pattern. Use only AFTER the "
                          "single-word search has been run and read.")
@@ -109,15 +117,33 @@ def main():
                 if rx.search(line):
                     hits.append((path, i, line.rstrip("\n")))
 
-    print(f"gapcheck: {len(hits)} hit(s) for /{args.pattern}/ in {', '.join(args.dirs)}")
+    src = args.source.strip()
+    self_hits = [h for h in hits if src and h[0].startswith(src + os.sep)]
+    dest_hits = [h for h in hits if h not in self_hits]
+
+    print(f"gapcheck: {len(hits)} hit(s) for /{args.pattern}/ in {', '.join(args.dirs)}"
+          f"  —  {len(dest_hits)} in destination corpora, {len(self_hits)} self-match"
+          f"{'' if len(self_hits) == 1 else 'es'} in {src or 'n/a'}")
     print("Every line below is printed IN FULL. There is no limit flag and none will be "
           "added — truncation is the defect this tool exists to prevent.\n")
-    for path, i, line in hits:
+    for path, i, line in dest_hits:
         print(f"{path}:{i}: {line}")
+    if self_hits:
+        print(f"\n--- {len(self_hits)} SELF-MATCH(ES) in {src}, which do NOT count towards "
+              f"PRESENT ---")
+        for path, i, line in self_hits:
+            print(f"{path}:{i}: {line}")
 
-    if not hits:
+    if not dest_hits:
+        if self_hits:
+            print(f"\n*** WARNING: every hit is a SELF-MATCH in {src}. ***")
+            print("    The search found the file being merged, not the destination. Treat "
+                  "this as ZERO, not as PRESENT.")
+            print("    A self-match reported as PRESENT is a FALSE PRESENT — the silent "
+                  "direction, which nothing downstream catches (rule 9).")
         rare = rarest_term(args.pattern)
-        print("\nZERO HITS — this is NOT an ABSENT verdict yet (rule 2).")
+        print("\nZERO HITS IN THE DESTINATION CORPORA — this is NOT an ABSENT verdict yet "
+              "(rule 2).")
         print("  Rules 9 and 10 passing is exactly when rule 2 is the backstop. Before "
               "recording ABSENT, run the component re-search:")
         print(f"    1. the rarest word bare        : python3 scripts/gapcheck.py "
