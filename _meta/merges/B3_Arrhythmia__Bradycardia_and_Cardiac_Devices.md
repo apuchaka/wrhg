@@ -56,7 +56,6 @@ returned 14 hits and only the first was read.
 | 0.3 | **Precordial concordance** as a VT discriminator | `01_Cardiovascular.md` §0.7 VT Ix |
 | 0.4 | **Acute precipitants of new AF** — alcohol binge ("holiday heart"), PE, post-operative state, OSA | `01_Cardiovascular.md` §0.4 |
 | 0.4 | **DOACs are also contraindicated in moderate-to-severe mitral stenosis** | `NEW_Drugs_06_Cardiovascular.md:38` |
-| 0.4 | **Atrial stunning** — why anticoagulation continues after cardioversion | `NEW_Exam_Manoeuvres_and_Procedures.md:375` |
 | 0.5 | **Mobitz II is infranodal (His-Purkinje), which is *why* it is not reliably atropine-responsive and progresses unpredictably** | `01_Cardiovascular.md` §0.12 heart-block classification |
 | 0.5 | **Bradycardia with a wide QRS — check a gas; hyperkalaemia will not respond to pacing** | `01_Cardiovascular.md` §0.8 |
 | 0.6 | **Magnet over an ICD stops shocks and does not affect pacing; magnet over a pacemaker causes asynchronous pacing and does not turn it off** | `NEW_Exam_Manoeuvres_and_Procedures.md` device section |
@@ -71,6 +70,14 @@ returned 14 hits and only the first was read.
 |---|---|---|
 | **Atropine is ineffective in the transplanted (denervated) heart** | `atropine` → **23 hits** | Hit 7 of 23: `01_Cardiovascular.md:404` — *"Atropine boluses to total 3 mg (500 mcg boluses); **contraindicated in heart transplant patients**"*. The first six hits were antimuscarinics in Parkinson's, cycloplegics, beta-blocker overdose and organophosphates. **Under the old habit this would have been merged as a duplicate.** |
 | **Torsades is treated with magnesium** | `torsade` → **11 hits** | Hits 3 and 4 are `01_Cardiovascular.md:384` and `:607`, both *"Mx of torsade de pointes: Mg sulphate"*. The first two hits are a classification line and an Ix line that mention torsades without treating it |
+| **Atrial stunning explains post-cardioversion anticoagulation** | 1 hit, **read** | `NEW_Exam_Manoeuvres_and_Procedures.md:375` says it in full: *"anticoagulate for at least 4 weeks regardless of the pre-procedure strategy — **because of atrial stunning.** The atrium does not contract effectively for days to weeks"*. I read that line through `cut -c1-150`, which **cut it four words before the phrase** |
+
+**The third drop is a different mechanism from the first two, and worth separating.** The
+new clause governs **which hits** are read; this was the right hit, reached in full result
+order, and **truncated mid-line**. Rule 2's truncation clause already covers it — *never
+conclude absence from truncated output* — but the two guards sit on **different axes**, and
+satisfying one says nothing about the other. Reading every hit at `cut -c1-150` is still
+reading none of them properly.
 
 ## Rule 9 artifacts
 
@@ -85,9 +92,10 @@ returned 14 hits and only the first was read.
 
 | | n |
 |---|---|
-| Superseded | 27 |
-| **Additive** | **11** |
-| Dropped at placement | 2 |
+| Superseded | 28 |
+| Additive claimed by the gap check | 11 |
+| **Dropped at placement** | **3** |
+| **Additive actually merged** | **10** |
 | Conflicts | 0 |
 
 ## Figures
