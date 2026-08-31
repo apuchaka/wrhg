@@ -9,6 +9,14 @@ conflicts_r1: 0
 
 ## 0.1 Asthma
 
+> [!warning] Added from unverified layer — **wheeze is a sign, not a diagnosis**
+> `SRC:A3_Respiratory_Failure__Bronchospasm_and_Hypoxia §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+> **Wheeze in a patient with no history of airways disease is not asthma** until **anaphylaxis**, **pulmonary oedema** and **foreign body** have been excluded.
+> - **"Cardiac asthma"** — wheeze from pulmonary oedema — is treated with diuresis and nitrates, not salbutamol, and the two look alike at the bedside. See [[01_Cardiovascular]] §0.28.
+> - **Monophonic wheeze localised to one area** suggests a **fixed** obstruction — foreign body, tracheal stenosis or tumour — not the widespread polyphonic wheeze of asthma. See [[13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA]].
+> - **Bronchospasm on induction or shortly after intubation** should raise **anaphylaxis to a neuromuscular blocking agent or antibiotic**, alongside the mechanical causes. See [[03a_Anaesthetics_Primer]].
+> **Wheeze that has never responded to a bronchodilator is evidence against asthma**, not evidence for poorly controlled asthma.
+
 **D:** Chronic inflammatory airway disease characterised by intermittent, reversible airway obstruction and hyperreactivity.
 
 **R:** family history, allergens, atopic history ± nasal polyposis, obesity, GORD, apnoea
@@ -156,6 +164,21 @@ Emphysema occurs due to elastin breakdown causing loss of alveolar integrity.
 | Type II | ↓O2 + ↑CO2 | Usually ↓ventilation | BiPAP |
 | Type III | Peri-operative / atelectasis | — | — |
 | Type IV | Septic shock / respiratory failure secondary to ↑metabolic requirements | — | — |
+
+### Added from unverified layer — the types are not fixed categories
+`SRC:A3_Respiratory_Failure__Bronchospasm_and_Hypoxia §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Type 1 becomes Type 2 when the patient tires — and the CO₂ rising is the warning, not the reassurance**
+> The table above reads as four categories. **The first two are a continuum.**
+> A patient with pneumonia or asthma hyperventilating to maintain oxygenation has **Type 1 failure with a LOW CO₂** — the low CO₂ is the *work*, not a comfort. **When they exhaust, the CO₂ rises.**
+> So a **"normalising" CO₂ in a previously hypocapnic, still-distressed patient is the transition to Type 2**, and it is a pre-arrest observation. Read alongside the **silent chest** at §0.1 and the **falling respiratory rate** trap — all three are the same error: **an observation moving toward normal in a patient who is not improving.**
+
+> [!tip] Acute, chronic, or acute-on-chronic — the bicarbonate answers it on a single gas
+> Renal compensation for hypercapnia takes **days**, so the bicarbonate is a record of how long this has been going on.
+> - High CO₂ + **high bicarbonate** + **near-normal pH** → **chronic** retention, compensated.
+> - High CO₂ + **normal bicarbonate** + **low pH** → **acute**.
+> - High CO₂ + **high bicarbonate** + **low pH** → **acute-on-chronic.** The bicarbonate proves the chronicity, the pH proves the acute change. **This is the patient on the ward who was stable this morning.**
+> See [[Investigation-Interpretation]] §1.5 for the full acid-base sequence, which this feeds into.
 
 ---
 
