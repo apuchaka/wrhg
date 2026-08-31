@@ -187,6 +187,25 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
    - **This applies to every claim about the tooling**: what a scan counts, why a marker did
      or did not register, what a lint rule catches, whether a skip fired. If it is going into
      a commit message, a report, or a PR body — **run it first and paste what it printed.**
+   - **VERIFYING YOUR OWN WORK USES `gapcheck.py`, NOT PLAIN GREP. A check that can produce a
+     false negative is not a check.** The gap search and the verification search are the same
+     search pointed in opposite directions, and both fail the same way.
+     - Found 2026-08-31, verifying the 16-PR merge to `main`. A hand-written `grep -F` pass
+       over the 29 headline additions reported **four MISSING**. Three were bad patterns of
+       mine — unescaped `**`, a literal `(`, an em-dash I had transcribed wrong. **The
+       fourth was real rule 2**: the block is titled `**modified** Valsalva`, with the bold
+       markers *inside* the phrase, so `grep -F "modified Valsalva"` cannot match it. The
+       content was present at lines 619–628 the whole time.
+     - **Re-run through `gapcheck.py`, all 29 came back PRESENT.** Nothing had been lost in
+       nine rebases. **The verification had a 14% false-negative rate and the merge had a 0%
+       loss rate.**
+     - **This is the more dangerous direction than it looks.** A false ABSENT during a *gap
+       check* costs a duplicate. A false MISSING during a *merge verification* says content
+       was destroyed — which invites a "restore" that re-adds a block already present, or a
+       revert of a good merge. **The remedy is the same tool, because it cannot truncate,
+       refuses proximity and phrase patterns, and never reports zero as a verdict.**
+     - So: **any claim that content is present or absent goes through `gapcheck.py`** —
+       including, and especially, when the thing being checked is your own merge.
 
 ## 1.4 Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.

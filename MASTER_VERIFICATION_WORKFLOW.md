@@ -1724,6 +1724,27 @@ report examined / converted / flagged per chunk.
 > ending at **"tongue-biting (lat"**; and `micturition syncope` requiring an adjacency the
 > corpus does not use.
 
+> [!danger] **REQUIRED CHECK — VERIFY THE MERGE WITH `gapcheck.py` TOO, never with a
+> hand-written grep.**
+> The post-merge check that content survived is **the same search as the gap check, pointed
+> the other way**, and it fails identically.
+>
+> Found 2026-08-31 verifying a 16-PR merge to `main`. A hand-written `grep -F` over the 29
+> headline additions reported **four MISSING**. Three were bad patterns — unescaped `**`, a
+> literal `(`, a mis-transcribed em-dash. **The fourth was rule 2 exactly**: the block is
+> headed `**modified** Valsalva`, bold markers *inside* the phrase, so a fixed-string search
+> for `modified Valsalva` cannot match it. It had been present the whole time.
+> **Re-run through `gapcheck.py`: all 29 PRESENT. The verification had a 14% false-negative
+> rate; the merge had a 0% loss rate.**
+>
+> **A false MISSING here is worse than a false ABSENT in a gap check.** The gap-check version
+> costs a duplicate. This version says content was destroyed — inviting a "restore" that
+> re-adds a block already there, or a revert of a sound merge.
+>
+> ```
+> python3 scripts/gapcheck.py '<distinctive phrase>' --dirs "Corpus A" "Corpus C"
+> ```
+
 > [!danger] **REQUIRED CHECK — the gap search must include the DESTINATION FILE.**
 > A search that excludes its own destination cannot detect the duplicate it is about to
 > create. This is not the eponym trap and not the Unicode trap: **the pattern is correct
