@@ -34,6 +34,27 @@ no_baseline: 0
   - If not responding in 4–6 days, order investigations for fungal infection (e.g. HRCT).
   - ± G-CSF if appropriate.
 
+### Added from unverified layer — what the neutropenic patient does not show you
+`SRC:K1_Fever_Workup §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **There may be no localising signs, because the signs require neutrophils**
+> **Pus, erythema, consolidation on a chest radiograph and peritonism are all products of the neutrophilic inflammatory response — which this patient does not have.**
+> **A neutropenic patient with pneumonia may have a normal chest radiograph.** One with a perianal abscess may have only pain. **The absence of findings is not reassurance; it is expected**, and it is why the empirical antibiotic above is given before the source is known.
+> This is also why the escalation to CT above matters: it finds what plain radiography cannot.
+
+> [!warning] **Examine carefully but gently, and there are two things not to do**
+> Look at the **mouth, skin, perianal region, every line and exit site, and the chest.** The source is often visible and there is little else to find.
+> **Avoid digital rectal examination and rectal thermometers in a neutropenic patient**, because of the risk of translocation and bacteraemia across a mucosal surface that cannot defend itself.
+
+> [!tip] **Blood cultures: peripheral AND every lumen**
+> **Take cultures from a peripheral vein and from each lumen of any central line, labelled by source.** Paired cultures allow **differential time to positivity** — a line culture flagging substantially earlier than the peripheral one points to the line as the source, which is what determines whether it has to come out.
+> This is a different use of time-to-positivity from the one at [[Investigation-Interpretation]], where it helps separate true infection from contamination.
+
+> [!info] **Risk stratification — the MASCC score** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Not every febrile neutropenic patient needs the same pathway. **The MASCC score identifies a low-risk group who may be suitable for oral therapy and early discharge** rather than admission for intravenous antibiotics.
+> **This is a decision made with haematology or oncology, not independently**, and it never delays the first dose — the patient is stratified after the antibiotic, not before it.
+> `UNVERIFIED — the MASCC score's components, its low-risk threshold, and whether Australian practice uses it or a local equivalent, per eviQ and hospital protocol.`
+
 ## Tumour lysis syndrome
 
 - **D:** oncological emergency caused by the rapid breakdown of cancer cells and the subsequent release of large amounts of intracellular content into the bloodstream.
