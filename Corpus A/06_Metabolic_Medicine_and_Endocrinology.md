@@ -1165,7 +1165,7 @@ Assess volume status:
 ### Added from unverified layer — two things about weight the differential does not cover
 `SRC:I5_Weight__Lipids_and_Fluid_Balance §0.1, §0.2` `UNVERIFIED — model knowledge, not source-checked.`
 
-> [!danger] **Weight stigma is a clinical problem, not a matter of courtesy** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> [!danger] **Weight stigma is a clinical problem, not a matter of courtesy** `NO-BASELINE — as a barrier to care and a source of diagnostic error. Scoped: the TERM is not new — [[14_05a_Psych_-_Eating_Disorders]] lists weight stigma and teasing among the risk factors for binge eating disorder. Its effect on the consultation is what was absent.`
 > **People living with obesity report avoiding or delaying medical care because of how they have been treated**, and that avoidance produces late presentations of conditions unrelated to weight.
 > **The specific clinical failure is diagnostic overshadowing** — attributing a symptom to weight and stopping there. **A larger patient with breathlessness, joint pain or fatigue is entitled to the same differential as a thinner one**, and the commonest error is not investigating.
 > Practically: **ask permission before discussing weight, use person-first language, weigh only when it is clinically needed and do it privately, and make sure the equipment fits** — chairs, cuffs, gowns, scales and the imaging table, whose weight limits are a real constraint that should be known before it is discovered at the point of need.
