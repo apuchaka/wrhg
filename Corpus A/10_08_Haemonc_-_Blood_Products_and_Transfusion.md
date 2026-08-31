@@ -145,4 +145,14 @@ conflicts_r1: 0
 
 > [!danger] Transfusion-related acute lung injury (TRALI) — non-cardiogenic pulmonary oedema, possibly secondary to ↑vascular permeability due to host neutrophils being activated by substances in donated blood. S/Smx: hypoxia, pulmonary infiltrates on CXR, fever, ↓BP. Mx: stop transfusion, O2, support as needed.
 
+> [!warning] Added from unverified layer — **delayed haemolytic transfusion reaction**
+> `SRC:A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies §0.2` `UNVERIFIED — model knowledge, not source-checked. Timing window and investigation sequence, per the NBA or your transfusion service.`
+> The reactions described here are acute. **Days after an apparently uneventful transfusion**, a previously sensitised patient can develop a **falling haemoglobin, jaundice, and a newly positive antibody screen** — an anamnestic response to an antigen they had met before, in a titre too low to detect at crossmatch.
+> **It is missed because the transfusion has already been forgotten.** The patient is investigated for a new bleed or for haemolysis of unknown cause. **Ask about transfusion in the preceding weeks** in any unexplained falling haemoglobin with jaundice, and tell the transfusion service — the antibody now needs to be on record for every future crossmatch.
+
+> [!warning] Added from unverified layer — **someone must decide when to RESTART**
+> `SRC:A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies §0.4` `UNVERIFIED — model knowledge, not source-checked. Timing of resumption by indication and bleed site, per a named haematology or cardiology source.`
+> After a major bleed is controlled and the anticoagulant reversed, **the decision to restart is an active one and it frequently gets made by nobody.** A patient with a **mechanical valve** or a **recent pulmonary embolism** left indefinitely un-anticoagulated is exposed to the harm the drug was preventing — and that harm is silent until it arrives.
+> **Document who owns the decision and when it will be reviewed**, before the patient leaves the ward. Reversal is not a treatment plan.
+
 > [!warning] Transfusion-associated circulatory overload (TACO) — hypervolaemia secondary to excessive transfusion, seen especially in patients with predisposing conditions such as heart failure. S/Smx: pulmonary oedema, ↑BP. Mx: slow or stop transfusion, consider IV furosemide, support as needed.
