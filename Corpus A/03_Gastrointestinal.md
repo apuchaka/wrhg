@@ -1864,6 +1864,33 @@ Analgesia, antiemetic, nil by mouth, fluids. Antibiotics for cholecystitis or ch
 ### 0.3.3 Mx – Chronic/long-term
 Dietary advice pending surgery. Interval cholecystectomy after gallstone pancreatitis, ideally before discharge or soon after, since recurrence risk while waiting is significant.
 
+### 0.41.11 Epigastric Pain — from unverified layer
+`SRC:C1_Acute_Abdomen §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Get an ECG before you settle on a gastrointestinal diagnosis
+> **Inferior myocardial infarction presents with epigastric pain, nausea and vomiting**, and is misdiagnosed as gastritis or "indigestion" with real frequency — particularly in diabetics, women, the elderly and Aboriginal and Torres Strait Islander patients. An ECG takes two minutes.
+
+> [!tip] The differential
+> **Peptic ulcer disease** — burning, related to meals; duodenal classically relieved by food, gastric worsened by it, though the distinction is unreliable.
+> **Perforated peptic ulcer** — **sudden, severe, generalised pain with board-like rigidity**, in a patient who can often name the exact moment it started. Free gas on an erect chest radiograph. A surgical emergency.
+> **Acute pancreatitis** — severe epigastric pain **boring through to the back**, relieved somewhat by sitting forward, with vomiting. Cross-refer §0.11 Acute Pancreatitis.
+> **Gastritis and gastro-oesophageal reflux.**
+> **Abdominal aortic aneurysm** — see 0.9.
+> **Oesophageal rupture (Boerhaave)** — severe pain after forceful vomiting, with surgical emphysema and systemic toxicity. Rare, lethal, and missed.
+> **Biliary** — foregut pain often starts epigastric before localising.
+
+**Ix:** **ECG and troponin** (*why:* excludes the cardiac cause, which is the one that kills fastest and is treated entirely differently; *what:* ischaemic change, troponin rise). **Lipase** (*why:* diagnoses pancreatitis; *what:* marked elevation). **Erect CXR** (*why:* free gas from perforation, and mediastinal air in oesophageal rupture; *what:* free subdiaphragmatic gas, pneumomediastinum). *H. pylori* testing (*why:* eradication heals ulcers and prevents recurrence, and it is a treatable cause of a common problem; *what:* urea breath test, stool antigen or biopsy — `UNVERIFIED — testing method, and the requirement to withhold PPIs and antibiotics beforehand`). Gastroscopy (*why:* diagnoses ulcer and malignancy and permits biopsy and haemostasis; *what:* ulcer, malignancy, oesophagitis). CT where perforation or vascular pathology is suspected (*why:* localises perforation and identifies aneurysm; *what:* free gas, aneurysm, extravasation).
+
+### 0.4.1 Mx – Immediate
+Resuscitate. **Perforation: nil by mouth, nasogastric tube, IV fluids, broad-spectrum antibiotics, analgesia, and urgent surgical referral.** Proton pump inhibitor. Treat pancreatitis medically.
+
+### 0.4.2 Mx – Definitive
+Surgical repair of perforation. Endoscopic management of bleeding ulcer. *H. pylori* eradication. Pancreatitis management per §0.11 Acute Pancreatitis.
+
+### 0.4.3 Mx – Chronic/long-term
+**Confirm eradication of *H. pylori* and confirm ulcer healing**, particularly for gastric ulcers, where **repeat endoscopy with biopsy is required to exclude malignancy.** Review NSAID and aspirin use.
+
+
 
 ## 0.42 Faecal Incontinence (Adult)
 
