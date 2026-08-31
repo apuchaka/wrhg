@@ -49,6 +49,15 @@ The first branch point is whether consciousness was lost, because it splits the 
 >
 > This matters more than it first appears: **withdrawal of psychotropic medication produced the largest effect of any single falls-prevention intervention in randomised trials** — but the same trial evidence shows sustained withdrawal is genuinely hard to achieve in practice, so this is a deprescribing project with follow-up, not a one-off stop order. See Polypharmacy and Deprescribing below.
 
+> [!warning] Added from unverified layer — **fitting a walking stick: three things that are commonly wrong**
+> `SRC:L6_Soft_Tissue_Injury_and_Mobility §0.5` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> A stick that has never been fitted is a fall risk rather than a fall prevention, and all three errors are visible in seconds.
+> **· WRONG HAND.** The stick is held in the hand **OPPOSITE** the affected leg, and moves forward **with** that leg — it widens the base and unloads the bad side. Held on the same side it does neither, and most people pick the same side by instinct.
+> **· WRONG HEIGHT.** With the person standing upright in their usual shoes, arms relaxed at their sides, **the handle should reach the wrist crease**, giving a slight bend at the elbow. Too tall pushes the shoulder up and is tiring; too short pitches them forward.
+> **· WORN OR MISSING FERRULE.** The rubber tip is the only thing between the stick and the floor. **A worn, split or missing ferrule is a slip waiting to happen**, and it is a consumable that nobody thinks to replace. Look at it.
+> **Also worth checking:** that the stick belongs to this person and was not inherited from a taller relative, and that they have been shown stairs — **up with the good leg, down with the bad**.
+> Referral to physiotherapy or occupational therapy for assessment and prescription is the definitive answer; this is what to check in the meantime.
+
 ### Assessment — the multifactorial falls risk assessment
 
 **Screening:** ask every older patient about falls in the past 12 months, and about unsteadiness or fear of falling. Two or more falls in a year, one fall with injury, or reported gait/balance difficulty all warrant the full multifactorial assessment.

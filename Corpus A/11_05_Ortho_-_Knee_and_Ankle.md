@@ -86,7 +86,21 @@ no_baseline: 0
 > - **Grade III (severe):** complete tear.
 
 - **Ix:** XR by Ottawa rules ± MRI.
+> [!fail]- CONFLICT CF-036 — RICE versus PEACE and LOVE in acute soft tissue injury **R2**
+> **A (`inherited`):** `RICE` here and at [[11_02_Ortho_-_Upper_Limb__Shoulder__Elbow__Distal_Radius_Fractures_]] — **R**est, **I**ce, **C**ompression, **E**levation.
+> **B (`unverified`):** `SRC:L6_Soft_Tissue_Injury_and_Mobility §0.1` — *"RICE has been superseded — the current framework is **PEACE and LOVE**"*: **P**rotect, **E**levate, **A**void anti-inflammatories, **C**ompress, **E**ducate — then **L**oad, **O**ptimism, **V**ascularisation, **E**xercise.
+> **Why it matters, and it is not a mnemonic preference:** the two disagree on **three** things an intern actually does. **Rest versus early LOAD** — B holds that load is the stimulus for healing and that prolonged rest causes harm. **Ice and NSAIDs** — B holds both are at best neutral and may impair healing by suppressing the inflammatory phase, where A prescribes ice and, in `11_02`, NSAIDs alongside it. **Duration of immobilisation.** A patient told to rest and ice for two weeks receives different care from one told to protect briefly and then load.
+> **What both agree on:** protection, compression and elevation in the first days. **The dispute is rest-versus-load and the anti-inflammatories**, not the whole framework.
+> **Note that B's own text calls the NSAID and ice question "genuinely contested"** — so this is a live disagreement in the literature, not a settled correction, and adjudicating it from either corpus would misrepresent the state of the evidence.
+> **Resolve against:** the RACGP HANDI resource · an Australian sports medicine source (ACSEP) · the current Cochrane position on ice and NSAIDs in acute soft tissue injury. All open.
 - **Mx:** RICE ± orthosis (cast, crutches). Severe — consider surgery.
+
+> [!tip] Added from unverified layer — **two things that get mistaken for a soft tissue injury**
+> `SRC:L6_Soft_Tissue_Injury_and_Mobility §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **· Delayed onset muscle soreness (DOMS) is not an injury.** Diffuse, bilateral or symmetrical soreness beginning **the day after** unaccustomed or eccentric exercise, peaking a day or two later and settling on its own. **The discriminators from a true strain: it is not sudden, not focal, not associated with a specific painful moment, and there is no localised tenderness over one muscle belly.** It needs reassurance and continued gentle activity, not investigation or rest.
+> **Search note:** every `DOMS` in this vault outside this block is the word **condoms**. Anchor on word boundaries (CLAUDE.md rule 9).
+> **· Myositis ossificans** — **heterotopic bone forming within a muscle weeks after a significant blunt injury**, classically quadriceps or brachialis. **The picture is a contusion that is not settling: persistent pain, a firm palpable mass, and progressively LOSING range of movement rather than gaining it.** Radiographs are normal early and show mineralisation from a few weeks. **The management point is what not to do — aggressive stretching and deep massage of a resolving contusion are thought to worsen it**, so a haematoma that is not improving is a reason to stop pushing range, not to push harder.
+> `UNVERIFIED — the imaging timeline, whether early ultrasound is useful, and the indications for excision; an Australian sports medicine source would settle both entries.`
 
 ### 0.6.2 High ankle sprains (10%)
 
