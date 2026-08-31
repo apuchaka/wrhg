@@ -87,6 +87,28 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
    - **The same rule applies to auditing a merge.** An audit run against the *current*
      tree finds the merge's own additions and reports everything present. **Audit against
      the tree the merge started from.**
+   - **A multi-hit grep must be read to the LAST hit before any `ABSENT` verdict, and a
+     hit count is not a verdict.** This is a third failure direction, and rules 9 and 10
+     do not cover it: there the *pattern* was wrong, or the *scope* was wrong. **Here the
+     pattern was right, the scope was right, the count was right, and the reading stopped
+     early.**
+     - Found 2026-08-31 merging B1. `grep shear` returned **14 hits**. The first was
+       *diffuse axonal injury* in `04_Neurology`, obviously unrelated, and on that basis
+       the claim was called absent. **`01_Cardiovascular` §0.36.5 already carried it** —
+       *"(rate control first, then vasodilator if BP remains high, to avoid reflex
+       tachycardia worsening shear stress)"* — the identical claim, identically reasoned,
+       further down the same result set. The same run also called *oxygen only if
+       hypoxaemic* absent while §0.1.2 said `O2 if sats <94%`, which is rule 2's spelling
+       clause in its most ordinary form.
+     - **Everything a scan can report was correct.** Nothing in the tool's output was
+       wrong and no better pattern existed. **A reader who stops at the first hit produces
+       exactly the same conclusion as a scan that found nothing**, and the two are
+       indistinguishable in any report.
+     - **So: `n` hits means `n` lines to read.** Where a result set is genuinely too large
+       to read, that is a signal the pattern needs narrowing — **not** licence to sample
+       it. Never write `head -1` (or `head -3`) into the step that decides ABSENT; use it
+       to preview, then re-run unlimited before the verdict. Quote the hit that settled
+       the question, so the reading is visible in the report and not merely asserted.
 
 ## 1.4 Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.

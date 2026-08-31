@@ -396,6 +396,30 @@ See `_meta/merges/C1_Acute_Abdomen.md`.
    link against the filesystem before commit. Do that check every time; do not trust a
    filename that looks right.
 
+## Correction — why the two `→MED:` markers behaved differently
+
+Both explanations given in the B1 and B2 commit messages were **wrong**, and both were
+asserted from reading the code rather than running it. Tested 2026-08-31:
+
+```
+GTN                    MED match: ['GTN']      DOSE match: []
+sodium nitroprusside   MED match: []           DOSE match: []
+```
+
+| What was claimed | What is true |
+|---|---|
+| `→MED:GTN` registered "because the filename inside its wikilink contains digits" | **`RE_DOSE` requires a unit** (`mg`, `mL`, …), so the filename never matched it. It registered because **`RE_MED_MIRROR` matched and the report listed it regardless of whether a figure was found** — the report had no figure requirement at all |
+| `→MED:sodium nitroprusside` did not register "because the report only picks up lines carrying a digit" | **`RE_MED_MIRROR`'s drug pattern was `[A-Za-z0-9_\-]+`, which excludes spaces.** A two-word drug name never matched. Nothing to do with digits |
+
+**The second is a defect in its own right, and worse than the misuse that exposed it.**
+Every multi-word drug name — `sodium nitroprusside`, `magnesium sulfate`, `calcium
+gluconate`, `tranexamic acid` — was **silently ignored** by the mirror machinery. No match,
+no report entry, no error. That is the voided-marker failure shape, and it was found the
+only way it could be: **by writing one and noticing the report did not change.**
+
+An audit of every `→MED:` in the vault found **three, all `adrenaline`, all parsing, all
+correct** — so nothing was lost. The defect was latent, waiting for the first two-word drug.
+
 ## PRIORITY study-list gaps — MISSING DOMAINS, not single facts
 
 **Different in kind from the eponym gaps below.** Those are one named thing each. **These
@@ -410,6 +434,37 @@ filled from Corpus B, which is `unverified` model knowledge. Read them knowing t
 **Both are worth verifying against a named source before the exam**, precisely because they
 are now the only account of these domains in the vault — there is no `inherited` layer
 underneath them to disagree with.
+
+### Same tier, different shape — **MYOCARDITIS has no entity**
+
+> [!danger] **27 mentions across the vault. Every one is somebody else's complication. No entry.**
+> Found merging B1, 2026-08-31. `grep -i myocarditis` returns 27 hits and
+> `grep "^#+.*[Mm]yocarditis"` returns **nothing**. It appears as a complication of
+> **diphtheria** (`15_04a`), **clozapine** (`14_03`), **Chagas disease** (`08_07`),
+> **measles** (`15_03a`), **Lyme disease** (`08_01-03`), and as a cause of **dilated
+> cardiomyopathy** (`01_Cardiovascular:1006`) — and never as a thing a patient presents with.
+>
+> **This is the same tier as heat illness, recognising dying and foreign bodies**, and it is
+> a different shape from all three. Those were domains absent from the specification *and*
+> the corpus. **Myocarditis is densely present and structurally absent**: the word is
+> everywhere, so every search for it succeeds, and no search reveals that there is nothing
+> to find. A coverage audit keyed on term presence would score it as covered.
+>
+> **What exists now, and what it is not.** The B1 merge added a myopericarditis block to
+> `01_Cardiovascular` §0.32 Pericarditis — troponin rise or impaired function reclassifies
+> the illness, and exertion during active myocarditis is associated with arrhythmic death,
+> so exercise restriction matters in a way it does not in uncomplicated pericarditis.
+> **That block is a fragment inside another disease's entry, it is `unverified`, and it is
+> explicitly not a substitute for an entry.** A reader arriving at "young person, chest
+> pain, viral prodrome, raised troponin" still has nowhere to go.
+>
+> **A proper entry needs** aetiology (viral, drug, autoimmune, peripartum), the
+> presentation, its overlap with pericarditis, the ECG and echo findings, the troponin
+> pattern, when to suspect fulminant disease, and the exercise-restriction advice with a
+> duration. `UNVERIFIED — the whole entry, per CSANZ or Heart Foundation.`
+>
+> **Read the §0.32 fragment knowing there is no inherited layer beneath it** — the same
+> caveat as the three domains above.
 
 ## Study-list additions — real absences no merge can close
 

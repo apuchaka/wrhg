@@ -55,7 +55,20 @@ RE_STAMP = re.compile(
 RE_TIER_TAG = re.compile(r"\*\*(R[123])\*\*")
 RE_CHECK_CALLOUT = re.compile(r"^>\s*\[!check\]")
 RE_NOT_CHECKED = re.compile(r"^>\s*\*\*NOT checked:\*\*", re.I)
-RE_MED_MIRROR = re.compile(r"`→MED:([A-Za-z0-9_\-]+)`")
+# Internal spaces are allowed because real drug names have them — `sodium nitroprusside`,
+# `magnesium sulfate`, `tranexamic acid`. The original pattern excluded them, so any
+# multi-word mirror was SILENTLY ignored: no match, no entry in the dose-mirror report,
+# no error. That is the voided-marker failure shape (§1.7), and it was found the only
+# way it can be — by writing one and noticing the report did not change.
+# RE_MED_LOOSE catches anything that *looks* like a mirror so lint can say so out loud
+# rather than letting a mistyped marker vanish.
+RE_MED_MIRROR = re.compile(r"`→MED:([A-Za-z0-9_\- ]+)`")
+RE_MED_LOOSE = re.compile(r"→MED:")
+
+# How far past a →MED: marker to look for the figure it mirrors. The marker convention puts
+# it on a callout header above a weight/age band table; the longest real one is 7 rows plus
+# header and owner lines. 20 is generous without running into the next section.
+MED_BLOCK_LOOKAHEAD = 20
 
 # a dose-ish figure: number + unit, optionally per kg
 RE_DOSE = re.compile(
@@ -845,6 +858,43 @@ def cmd_lint(args):
                         f"{r} L{i+1}: file declares `figures: none` but states a "
                         f"figure — {line.strip()[:90]}"
                     )
+
+        # →MED: mirrors a FIGURE owned elsewhere (§1.7). A mirror on a line carrying no
+        # figure is a cross-reference wearing a mirror's marker: it enters the dose-mirror
+        # report as an entry with nothing to compare, so the report overstates how many
+        # mirrored figures the vault actually has. Found 2026-08-31, when two such markers
+        # were written during the B1 and B2 merges and the report showed 4 entries against
+        # 3 real ones. Semantic misuse is not checkable in general; THIS case is.
+        # Scope is the BLOCK, not the line. The established convention puts the marker on a
+        # callout header and the figures in the table beneath it — all three real mirrors in
+        # the vault look like that. A line-scoped test flagged every one of them as a
+        # violation on its first run (rule 4: the scan's own false positives are the signal).
+        for i, line in enumerate(lines):
+            for m in RE_MED_MIRROR.finditer(line):
+                block, j = [line], i + 1
+                quoted = line.lstrip().startswith(">")
+                while j < len(lines) and j - i <= MED_BLOCK_LOOKAHEAD:
+                    nxt = lines[j]
+                    if quoted:
+                        if not nxt.lstrip().startswith(">"):
+                            break
+                    elif not nxt.strip():
+                        break
+                    block.append(nxt)
+                    j += 1
+                if not RE_DOSE.search("\n".join(block)):
+                    problems.append(
+                        f"{r} L{i+1}: →MED:{m.group(1)} in a block stating no figure — "
+                        f"→MED mirrors a figure owned elsewhere; a pointer with no figure "
+                        f"should be a plain cross-reference — {line.strip()[:80]}"
+                    )
+            # a marker that looks like a mirror but does not parse contributes nothing and
+            # raises nothing — the same silence the MALFORMED check exists to break.
+            if RE_MED_LOOSE.search(line) and not RE_MED_MIRROR.search(line):
+                problems.append(
+                    f"{r} L{i+1}: MALFORMED →MED marker — written but does not parse, so "
+                    f"it contributes nothing to the dose-mirror report: {line.strip()[:80]}"
+                )
 
         # three-appearances rule for mirrored drugs
         for m in RE_MED_MIRROR.finditer(text):
