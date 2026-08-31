@@ -495,7 +495,36 @@ study list with Dubin-Johnson, Rotor and Schatzki ring.
 
 ---
 
-## NEXT JOB — the C2–C7 full re-audit (NOT STARTED)
+## C2–C7 FULL RE-AUDIT — DONE 2026-08-31
+
+**57 verdict rows re-tested under rule 10.** Two more absences were wrong; both corrected.
+**Total duplicates from Block 1: seven.** All seven are now pointers.
+
+| # | Block 1 claim | Original lives in | Shape |
+|---|---|---|---|
+| 1 | ALP/GGT bone differential | `NEW_Investigations_General_and_Preventive` L77–79 | different file |
+| 2 | Russell's sign + dental erosion | `14_05a` L42 — **same file, 36 lines up** | same file |
+| 3 | CT transition point | `Investigation-Interpretation` L159 | different file |
+| 4 | appendicitis in pregnancy | `NEW_Obstetrics` L31 | different file |
+| 5 | psoas abscess | `NEW_Exam_Manoeuvres` L285 | left — pointers, never a copy |
+| 6 | severity is not the lipase | `NEW_Investigations_Gastroenterology` L158 | different file |
+| 7 | urine-and-stool discriminator | `NEW_Investigations_Renal_and_Urology` L88 | different file, **partial** — mechanism kept |
+
+**Six of seven originals were in Corpus C**, and five sat in a **different file** from where
+the duplicate landed. That is the shape nothing else detects.
+
+### The other direction is clean — this is the reassuring half
+
+**22 PRESENT verdicts were re-tested**, the ones whose being wrong would mean content was
+**discarded** that should have merged. **All 22 confirmed.** No discard was wrong.
+
+**Every Block 1 error ran the same direction: a gap called where none existed, never a gap
+missed.** The merges were over-eager, not careless — and over-eagerness is the recoverable
+failure, because the added block is always visible and removable.
+
+---
+
+## NEXT JOB — resume the merge queue (NOT STARTED)
 
 Scope: **every claim in those six destination tables**, not only the concepts previously
 listed. They were built with the A-and-C rule but **before rule 10 and digit folding**, so
@@ -504,12 +533,17 @@ they sit at lower confidence than D4–D7 now do.
 Method: rule 10 throughout — pre-merge tree `245c1e5` **and** current tree, Corpus A **and**
 C, **nothing excluded**, digit folding, instrument-specific components.
 
-Report: which absences hold · which were artefacts · **and any duplicate that landed in a
-different file from its original** — that is the ALP/GGT shape, and it is the one nothing
-else detects.
+**Order:** GER1–2 · A6, A7, A8 · F0-1…F0-5 · B1–B6 · A1–A5, A9, A10.
 
-A partial re-audit of 45 previously-listed concepts already ran and found **42 held, 5 were
-wrong**; those five are corrected. This job is the remaining claims.
+**Method, non-negotiable now that it has caught seven errors:** rule 10 throughout —
+pre-merge tree `245c1e5` **and** current tree, Corpus A **and** C, **nothing excluded**,
+digit folding, instrument-specific components. Read every hit before trusting it.
+
+**Cardiology and emergency are as eponym-dense as neurology** — Levine, Beck, Cushing,
+Kussmaul, TIMI, GRACE, Wells, PERC, CHA₂DS₂-VASc, HAS-BLED — so B1–B6 and A1–A5 will
+exercise the eponym and Unicode checks hardest. Note `CHA₂DS₂-VASc` and `HAS-BLED`
+specifically: the first is already in `01_Cardiovascular` **with subscripts**, and B3 links
+to it.
 
 ---
 
