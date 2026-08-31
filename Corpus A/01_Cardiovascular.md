@@ -237,6 +237,8 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 **S/Smx:**
 - Stable angina (all 3 features): chest pressure/constriction <20 min, provoked by exertion, relieved by rest or GTN
 - Atypical angina (women, DM, older people): 2 of 3 above + GI discomfort, dyspnoea, nausea
+- Neither pattern: **non-anginal** chest pain. `SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+- **Severity is graded by the level of exertion that provokes it** (Canadian Cardiovascular Society class) — the axis is functional limitation, not pain intensity. `SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.2` `UNVERIFIED — the CCS class descriptors themselves, per Heart Foundation or CSANZ. Not reproduced here.`
 ### Added from unverified layer — response to treatment is not a diagnostic test
 `SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.1` `UNVERIFIED — model knowledge, not source-checked.`
 
