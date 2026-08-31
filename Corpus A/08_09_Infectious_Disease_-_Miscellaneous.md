@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 1
 conflicts_r1: 0
-no_baseline: 4
+no_baseline: 9
 ---
 
 ## Animal & human bites

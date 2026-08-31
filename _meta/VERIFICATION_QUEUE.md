@@ -5,16 +5,18 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-31
 
-1311 open items. Close one by editing its marker in the file, then rerunning `scan`.
+1351 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
-# Actionable — openly accessible Australian sources (148)
+# Actionable — openly accessible Australian sources (158)
 
 These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No login needed. **This is the working queue.**
 
-## R1 — could kill someone this rotation (50)
+## R1 — could kill someone this rotation (52)
 
 - **Corpus A/01_Cardiovascular.md** L464 · _0.4.1 Stroke/bleeding risk scoring_ · `inherited` — **R1** whether current Australian practice uses CHA₂DS₂-VASc or the newer CHA₂DS₂-VA, which REMOVES SEX as a criterion and would make this sex-split threshold obsolete. Corpus C (NEW_Exam_Manoeuvres_and_Procedures) writes "CHA₂DS₂-VA/VASc", naming both. Check against the Heart Foundation and Stroke Foundation, both open.
 - **Corpus A/04_Neurology.md** L1209 · _Haemorrhagic Stroke_ · `inherited` — **R1** all four figures here (the 150–220 trigger band, the ≤140 target, the 60mmHg maximum fall and the 1h window) against the Stroke Foundation Living Guidelines for Stroke Management, which is open and free. This is an inherited figure that has never been source-checked, and every part of it changes management.
+- **Corpus A/08_08_Infectious_Disease_-_Genitourinary_Infections_and_STIs.md** L235 · _Added from unverified layer — doxycycline post-exposure prophylaxis (doxy-PEP)_ · `inherited` — whether doxy-PEP is currently recommended in Australia and by whom, the dose and the time window, and the eligibility criteria. ASHM and the Australasian Society for HIV Medicine STI guidelines are the open sources; state and sexual-health-service policy governs in practice. NO DOSE OR TIME WINDOW IS STATED HERE.
+- **Corpus A/09_01_Dermatology_-_Dermatological_Emergencies.md** L111 · _Added from unverified layer — the allergy framework, and four things it explains_ · `inherited` — the licensed up-dosing multiple and the Australian PBS criteria for omalizumab in chronic spontaneous urticaria.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L261 · _Hypothermia_ · `inherited` — the core temperature below which defibrillation and drugs are withheld or spaced, and the rewarming rate; ANZCOR.
 - **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L128 · _0.4.1 Mx – Immediate_ · `UNSET` — compression rate, compression depth, compression-to-ventilation ratio, defibrillation energy levels, and the dose and interval for adrenaline and amiodarone are all deliberately omitted here. Obtain them directly from ANZCOR Guideline 11 (adult ALS) and Guideline 12/13 (paediatric and newborn). The paediatric adrenaline timing error already found in this corpus came from exactly this category of figure.
 - **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L131 · _0.4.2 Mx – Definitive_ · `UNSET` — oxygen saturation targets, CO₂ targets and temperature management parameters require verification against current ANZCOR post-resuscitation guidance.
@@ -64,15 +66,17 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus B/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L259 · _0.8 Procedural Sedation_ · `unverified` — all agent doses, titration increments, combinations, fasting guidance and reversal agent dosing are omitted; obtain from ACEM guidance and local policy.
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L286 · _0.6 Advance Care Planning in Practice_ · `unverified` — the SA Health goals-of-care and resuscitation planning forms and their current names and structure.
 
-## R2 — changes disposition (56)
+## R2 — changes disposition (58)
 
 - **Corpus A/01_Cardiovascular.md** L1200 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — model knowledge, not source-checked. Diagnostic timing window, ejection-fraction threshold and all drug choices in pregnancy and lactation, per RANZCOG or SOMANZ.
+- **Corpus A/01_Cardiovascular.md** L1281 · _Added from unverified layer — profiling the decompensated patient, and the period after discharge_ · `inherited` — the recommended interval to first review after a heart failure admission, and the availability and referral criteria for heart failure programmes in South Australia, per the Heart Foundation and CSANZ guidelines and local health network policy.
 - **Corpus A/03_Gastrointestinal.md** L572 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — the Atlanta definitions and the organ-failure criteria they use (the modified Marshall score); RACGP or a gastroenterology reference. Ranson, BISAP and APACHE II are further prognostic scores in use — their components and thresholds are deliberately not stated here, and neither is the 48-hour CRP cut-off.
 - **Corpus A/03_Gastrointestinal.md** L876 · _0.18.1 Added from unverified layer — presentation sequence, atypical positions, and the RIF differential_ · `inherited` — selection criteria for antibiotic-first management; RACGP or your health network's surgical guidelines.
 - **Corpus A/03_Gastrointestinal.md** L1080 · _0.25.1 Added from unverified layer — anorectal pain, and what the dentate line implies_ · `inherited` — the time window within which excision is preferred; RACGP or a colorectal surgical reference.
 - **Corpus A/03_Gastrointestinal.md** L1370 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — the grade labels (Ia/Ib/IIa/IIb/IIc/III) and their associated rebleeding percentages; RACGP or a gastroenterology reference.
 - **Corpus A/04_Neurology.md** L788 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — the diagnostic criteria, the recurrence rate, and what imaging is warranted before accepting the diagnosis; RACGP or a neurology reference.
 - **Corpus A/04_Neurology.md** L1133 · _Vertigo (Peripheral vs Central, BPPV, Vestibular Neuritis)_ · `inherited` — the diagnostic criteria (duration threshold and required features), and which antidepressant class is first-line in Australian practice; RACGP, or a neurology or vestibular medicine reference.
+- **Corpus A/09_01_Dermatology_-_Dermatological_Emergencies.md** L122 · _Added from unverified layer — the allergy framework, and four things it explains_ · `inherited` — availability, referral pathway and course duration for jack jumper venom immunotherapy in Australia, per ASCIA.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L78 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — eligibility criteria, timeframes, practitioner requirements and whether a health practitioner may initiate the discussion, per SA Health and the applicable state legislation. This is law, not clinical guidance, and it is deliberately not written from memory.
 - **Corpus A/11_06_Ortho_-_Spinal_Orthopaedics.md** L108 · _Added from unverified layer — do not over-image, and do not over-interpret the images_ · `inherited` — the prevalence of asymptomatic disc findings by age band, and the Australian imaging referral criteria for radicular pain; RACGP.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L242 · _Heat illness_ · `inherited` — the core temperature threshold conventionally used to define heat stroke; RACGP or an emergency medicine reference.
@@ -123,18 +127,24 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus C/NEW_Investigations_Gastroenterology.md** L29 · _0.1 Liver Function Panel (ALT, AST, ALP, Bilirubin, GGT)_ · `snippet` — the R-ratio cut-offs are attributed to the American College of Gastroenterology, not an Australian source. Resolve against GESA (Gastroenterological Society of Australia).
 - **Corpus C/NEW_Investigations_Renal_and_Urology.md** L50 · _0.2 Urine ACR (Albumin-to-Creatinine Ratio)_ · `snippet` — KDIGO is an international body, not an Australian one. Australia follows KDIGO staging via Kidney Health Australia's CKD management handbook — confirm the staging and the referral thresholds against Kidney Health Australia.
 
-## R3 — everything else (42)
+## R3 — everything else (48)
 
 - **Corpus A/01_Cardiovascular.md** L324 · _0.3 Ischaemic Heart Disease_ · `inherited` — the CCS class descriptors themselves, per Heart Foundation or CSANZ. Not reproduced here.
 - **Corpus A/01_Cardiovascular.md** L622 · _0.9.1 Supraventricular tachycardia (SVT)_ · `inherited` — model knowledge, not source-checked. The strain pressure and duration, per ANZCOR or a named emergency medicine source.
 - **Corpus A/01_Cardiovascular.md** L1217 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — which agents are used instead, and in what order, per RANZCOG or SOMANZ.
-- **Corpus A/01_Cardiovascular.md** L1435 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — model knowledge, not source-checked. Duration of exercise restriction, per CSANZ or Heart Foundation.
-- **Corpus A/01_Cardiovascular.md** L1439 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — the duration, per CSANZ or Heart Foundation.
+- **Corpus A/01_Cardiovascular.md** L1454 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — model knowledge, not source-checked. Duration of exercise restriction, per CSANZ or Heart Foundation.
+- **Corpus A/01_Cardiovascular.md** L1458 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — the duration, per CSANZ or Heart Foundation.
 - **Corpus A/03_Gastrointestinal.md** L1376 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — the recommended timing of restarting; RACGP or your health network's gastroenterology guidance.
 - **Corpus A/04_Neurology.md** L858 · _Added from unverified layer — current terminology, and two counselling points_ · `inherited` — the incidence, and how Australian guidance recommends the conversation be framed and timed; Epilepsy Action Australia, or RACGP.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L229 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — current eligibility for JE vaccination in Australia, per the Australian Immunisation Handbook and state health advice.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L234 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — current Australian advice on conception delay after travel to an area with Zika transmission, and which areas currently qualify; Smartraveller and the Australian Immunisation Handbook would settle it.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L743 · _Added from unverified layer — hypoglycaemia: unawareness, and working out the cause_ · `inherited` — the duration of avoidance required, and the Australian driving-licence implications of documented unawareness, per Austroads "Assessing Fitness to Drive".
+- **Corpus A/08_05-06_Infectious_Disease_-_Viral_Infections.md** L198 · _Added from unverified layer — what happens in the minutes before PEP is considered_ · `inherited` — the testing intervals for HCV RNA and serology after occupational exposure, per the Australian national guidelines for post-exposure management (ASHM).
+- **Corpus A/08_05-06_Infectious_Disease_-_Viral_Infections.md** L203 · _Added from unverified layer — what happens in the minutes before PEP is considered_ · `inherited` — the Australian NPEP eligibility matrix, the current regimen, and the state NPEP hotline numbers, per ASHM's NPEP guidelines.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L30 · _Added from unverified layer — two bite exposures the organism list does not carry_ · `inherited` — the post-exposure prophylaxis schedule, immunoglobulin indication and wound-washing duration, per the Australian Immunisation Handbook and the CDNA national guidelines for Australian bat lyssavirus.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L146 · _Added from unverified layer — terminal complement deficiency_ · `inherited` — the screening test (CH50/AH50 and terminal pathway assays), and Australian meningococcal vaccination recommendations for complement deficiency, per the Australian Immunisation Handbook.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L270 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — current eligibility for JE vaccination in Australia, per the Australian Immunisation Handbook and state health advice.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L275 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — current Australian advice on conception delay after travel to an area with Zika transmission, and which areas currently qualify; Smartraveller and the Australian Immunisation Handbook would settle it.
 - **Corpus A/10_08_Haemonc_-_Blood_Products_and_Transfusion.md** L150 · _Blood product transfusion complications_ · `inherited` — model knowledge, not source-checked. Timing window and investigation sequence, per the NBA or your transfusion service.
+- **Corpus A/15_01b_Paeds_-_Anaphylaxis.md** L113 · _Added from unverified layer — food allergy: preventing it, and the two forms that test negative_ · `inherited` — the recommended age window for introduction, whether any infant group needs assessment before first exposure, and the current wording, per the ASCIA infant feeding and allergy prevention guidelines. NO AGE, QUANTITY OR FREQUENCY IS STATED HERE deliberately (CLAUDE.md rule 5) — look it up at the point of use.
 - **Corpus A/17_06_Subfertility_and_OHSS.md** L106 · _Ovarian hyperstimulation syndrome (OHSS)_ · `inherited` — this grading is attributed to the RCOG, a UK college, and is not confirmed as Australian practice. Resolve against RANZCOG.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L317 · _Added from unverified layer — two things done on admission_ · `inherited` — whether an Australian bundle is specified by name, and its components; NSW ACI or your health network.
 - **Corpus A/History-Taking.md** L808 · _1.31 Headache_ · `inherited` — whether an validated clinical decision rule for headache red flags is recommended in Australian practice, per RACGP.
@@ -168,12 +178,13 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus B/F0-2_Acid-Base__DKA_and_Fluid_States.md** L122 · _0.4 Paediatric Diabetic Ketoacidosis_ · `unverified` — every paediatric figure is omitted here. Use the RCH Clinical Practice Guideline on DKA and your local paediatric protocol. Weight-based calculation is mandatory and must not be estimated from adult figures.
 - **Corpus C/NEW_Drugs_08_Dermatological.md** L84 · _0.2.1 Topical Corticosteroids_ · `snippet` — paediatric FTU counts by age band, per RCH.
 
-# Partly actionable — an open source settles part, a login source settles the rest (22)
+# Partly actionable — an open source settles part, a login source settles the rest (25)
 
 **These name BOTH kinds of source.** Work the open-source part now; the remainder stays a standing instruction to look up at the point of use, exactly as a login-only item does. Do not file these as done when the open part is closed.
 
-## R1 — could kill someone this rotation (12)
+## R1 — could kill someone this rotation (13)
 
+- **Corpus A/01_Cardiovascular.md** L1915 · _0.40 Dyslipidaemia_ · `inherited` — whether current Australian guidance recommends a baseline CK, and the alternate-day dosing evidence; the Heart Foundation and Therapeutic Guidelines would settle it.
 - **Corpus B-new/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L68 · _0.2.1 Mx – Immediate_ · `UNSET` — all doses from ASCIA and eTG.
 - **Corpus B-new/A3_Respiratory_Failure__Bronchospasm_and_Hypoxia.md** L165 · _0.5.1 Mx – Immediate_ · `UNSET` — all doses from eTG and the Australian Asthma Handbook.
 - **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L139 · _0.4 Acute Cough_ · `UNSET` — diagnostic method by stage of illness (PCR versus serology), antibiotic regimens, exclusion periods and contact prophylaxis all require verification against eTG and SA Health guidance.
@@ -196,24 +207,27 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus B/B2_Hypertension_Spectrum.md** L52 · _0.1.2 Mx – Definitive_ · `unverified` — all agents, doses, combinations and blood pressure targets from eTG Cardiovascular and the Heart Foundation guideline.
 - **Corpus B/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L317 · _0.10 Paediatric Analgesia_ · `unverified` — confirm the exact age cut-offs and current TGA restrictions against the Australian Medicines Handbook, as these have been revised.
 
-## R3 — everything else (4)
+## R3 — everything else (6)
 
 - **Corpus A/01_Cardiovascular.md** L370 · _Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)_ · `inherited` — model knowledge, not source-checked. Agents and doses per eTG Cardiovascular; the entity is already queued at PENDING_GUIDELINE_CHECKS P5-A30 against eTG and Heart Foundation.
+- **Corpus A/09_01_Dermatology_-_Dermatological_Emergencies.md** L105 · _Added from unverified layer — the allergy framework, and four things it explains_ · `inherited` — the specific agents and their availability in Australia, per Therapeutic Guidelines and the ASCIA hereditary angioedema position paper.
+- **Corpus A/16_16-17_Contraception.md** L188 · _Added from unverified layer — the counselling point that decides whether it is taken_ · `inherited` — the current Australian scheduling and pharmacy-supply position, and whether any weight-related efficacy caveat is stated in current guidance, per the Therapeutic Guidelines and the SA Health sexual health services.
 - **Corpus B-new/C1_Acute_Abdomen.md** L185 · _0.5.3 Mx – Chronic/long-term_ · `UNSET` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 - **Corpus B-new/O5_Pelvic_and_Vulval_Conditions.md** L59 · _0.2 Pelvic Inflammatory Disease_ · `unverified` — regimens from eTG Antibiotic and ASHM.
 - **Corpus B/C1_Acute_Abdomen.md** L190 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (1016)
+# Triage — source not named in the marker (1040)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
-## R1 — could kill someone this rotation (160)
+## R1 — could kill someone this rotation (161)
 
 - **Corpus A/03_Gastrointestinal.md** L276 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — the maximum inflation time and the balloon pressures; gastroenterology or intensive care unit protocol.
 - **Corpus A/03_Gastrointestinal.md** L1702 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.
 - **Corpus A/03a_Anaesthetics_Primer.md** L339 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03a_Anaesthetics_Primer.md** L362 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked. The timing window, per a named surgical source.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L245 · _Sepsis_ · `inherited` — model knowledge, not source-checked. The formal definition history, per the Sepsis-3 papers.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L107 · _Added from unverified layer — two ways thyroid disease hides_ · `inherited` — the dose above which interference occurs, the washout period before retesting, and which Australian laboratory platforms are affected; the reporting laboratory is the source and should be asked directly.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L286 · _Sepsis_ · `inherited` — model knowledge, not source-checked. The formal definition history, per the Sepsis-3 papers.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L210 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.
 - **Corpus A/15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support.md** L148 · _Added from unverified layer — two ANZCOR points not stated above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L181 · _0.5 Professional Practice Concern_ · `UNSET` — the precise wording of the notifiable conduct categories, the exemptions (which differ for practitioners providing health care to another practitioner, and which vary between states — Western Australia and Queensland have historically differed), and the reporting process must be verified against current Ahpra guidance.
@@ -370,7 +384,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L235 · _0.5 Falls_ · `unverified` — dosing and who should receive it.
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L277 · _0.6 Osteoporosis and Fracture Prevention_ · `unverified` — dosing interval and the recommended transition regimen.
 
-## R2 — changes disposition (421)
+## R2 — changes disposition (423)
 
 - **Corpus A/01_Cardiovascular.md** L340 · _Added from unverified layer — accelerated diagnostic protocols_ · `inherited` — which pathway your site uses, and its components and thresholds, per your health network's chest pain pathway.
 - **Corpus A/01_Cardiovascular.md** L552 · _0.7 Ventricular Tachycardia_ · `inherited` — model knowledge, not source-checked. Formal algorithm criteria (Brugada, Vereckei) omitted.
@@ -382,7 +396,9 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/03_Gastrointestinal.md** L1378 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — its components and thresholds, and how it compares with Glasgow-Blatchford in Australian practice.
 - **Corpus A/03_Gastrointestinal.md** L1521 · _0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis_ · `inherited` — the desaturation threshold that defines orthodeoxia, and the pulmonary pressure thresholds for portopulmonary hypertension; specialist respiratory or hepatology guidance.
 - **Corpus A/04_Neurology.md** L793 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — diagnostic criteria and the yield of EEG in this setting; neurology guidance.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L187 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — the diagnostic criteria, the ferritin threshold, and treatment; a haematology source would settle it.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L345 · _Added from unverified layer — two things that change what happens to the parathyroid patient_ · `inherited` — the calcium-to-creatinine clearance ratio cut-off used to distinguish FHH from primary hyperparathyroidism, and current Australian practice on genetic testing; an endocrinology source would settle it.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L369 · _Added from unverified layer — the adrenal incidentaloma_ · `inherited` — the unenhanced Hounsfield-unit threshold, the absolute and relative washout percentages, the size cut-off for surgical referral, and the follow-up imaging interval. All are numbers, all vary between guidelines, and none is stated here (CLAUDE.md rule 5 applies to adult figures too). An endocrine or radiology source would settle them.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L228 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — the diagnostic criteria, the ferritin threshold, and treatment; a haematology source would settle it.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L252 · _Heat illness_ · `inherited` — the temperature at which to stop active cooling, and whether immersion or evaporative cooling is preferred in Australian practice.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L55 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — the surveillance intervals, and the criteria for who requires surveillance at all. These differ between guidelines, so take them from the gastroenterology service running the programme rather than from a general reference.
 - **Corpus A/14a-2_Psych_-_Overdose_and_Poisoning_Management.md** L37 · _Added from unverified layer — carbon monoxide beyond the acute episode_ · `inherited` — model knowledge, not source-checked. Carboxyhaemoglobin thresholds and hyperbaric indications, per the Poisons Information Centre.
@@ -794,7 +810,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Drugs_06_Cardiovascular.md** L41 · _0.1.1 Vitamin K Antagonists (Warfarin)_ · `snippet` — model knowledge, not source-checked; confirm the mitral stenosis severity threshold against a named cardiology source.
 - **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L98 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (435)
+## R3 — everything else (456)
 
 - **Corpus A/01_Cardiovascular.md** L49 · _Added from unverified layer — right ventricular infarction and the right-sided leads_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L81 · _0.1.3 Mx – Definitive (STEMI)_ · `inherited` — model knowledge, not source-checked.
@@ -808,8 +824,10 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/01_Cardiovascular.md** L698 · _0.12.3 AV blocks_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L1046 · _0.21.1 Murmurs — differential diagnosis_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L1219 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — recovery and recurrence figures.
-- **Corpus A/01_Cardiovascular.md** L1287 · _0.29 Deep Vein Thrombosis (DVT)_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/01_Cardiovascular.md** L1619 · _0.36.1 Peripheral Arterial Disease (PAD)_ · `inherited` — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.
+- **Corpus A/01_Cardiovascular.md** L1265 · _Added from unverified layer — profiling the decompensated patient, and the period after discharge_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/01_Cardiovascular.md** L1306 · _0.29 Deep Vein Thrombosis (DVT)_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/01_Cardiovascular.md** L1638 · _0.36.1 Peripheral Arterial Disease (PAD)_ · `inherited` — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.
+- **Corpus A/01_Cardiovascular.md** L1909 · _0.40 Dyslipidaemia_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/02_Respiratory.md** L14 · _0.1 Asthma_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/02_Respiratory.md** L170 · _Added from unverified layer — the types are not fixed categories_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/02_Respiratory.md** L822 · _0.21 Upper Respiratory Tract Infection (URTI)_ · `inherited` — model knowledge, not source-checked.
@@ -841,17 +859,34 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/04_Neurology.md** L1393 · _Added from unverified layer — two discriminators in a weak patient_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/04_Neurology.md** L1406 · _Added from unverified layer — two discriminators in a weak patient_ · `inherited` — the time course of onset and of recovery, and whether any test distinguishes it from disuse atrophy; specialist neurology or rheumatology guidance.
 - **Corpus A/05_Ophthalmology.md** L70 · _Added from unverified layer — the rust ring_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L95 · _Added from unverified layer — two ways thyroid disease hides_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L338 · _Added from unverified layer — two things that change what happens to the parathyroid patient_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L354 · _Added from unverified layer — the adrenal incidentaloma_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L501 · _0.15.2 Type 2 Diabetes Mellitus (T2DM)_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L737 · _Added from unverified layer — hypoglycaemia: unawareness, and working out the cause_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L1134 · _Added from unverified layer — two things about weight the differential does not cover_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/07_Renal_Medicine_and_Urology.md** L794 · _Added from unverified layer — DIAPPERS: the reversible causes of incontinence_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L27 · _Cellulitis_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L117 · _Added from unverified layer — fever: what produces it, and when its absence misleads_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L136 · _Added from unverified layer — fever: what produces it, and when its absence misleads_ · `inherited` — the expected time to defervescence after stopping the drug.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L174 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L178 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — availability, funding and indications for PET-CT in FUO in Australia; Medicare Benefits Schedule and local nuclear medicine policy would settle it.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L213 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_01-03_Infectious_Disease_-_Bacterial_Infections.md** L333 · _Added from unverified layer — three Australian zoonoses the list above does not carry_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_05-06_Infectious_Disease_-_Viral_Infections.md** L187 · _Added from unverified layer — what happens in the minutes before PEP is considered_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_08_Infectious_Disease_-_Genitourinary_Infections_and_STIs.md** L228 · _Added from unverified layer — doxycycline post-exposure prophylaxis (doxy-PEP)_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L19 · _Added from unverified layer — two bite exposures the organism list does not carry_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L41 · _Cellulitis_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L57 · _Added from unverified layer — two things to do at the bedside, and one more mimic_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L133 · _Necrotising fasciitis_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L141 · _Added from unverified layer — terminal complement deficiency_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L158 · _Added from unverified layer — fever: what produces it, and when its absence misleads_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L177 · _Added from unverified layer — fever: what produces it, and when its absence misleads_ · `inherited` — the expected time to defervescence after stopping the drug.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L215 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L219 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — availability, funding and indications for PET-CT in FUO in Australia; Medicare Benefits Schedule and local nuclear medicine policy would settle it.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L254 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L338 · _Added from unverified layer — suppurative lymphadenitis_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/09_01_Dermatology_-_Dermatological_Emergencies.md** L91 · _Added from unverified layer — the allergy framework, and four things it explains_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/09_05_Dermatology_-_Bacterial_Infections_and_Infestations.md** L82 · _Added from unverified layer — Australian environmental and occupational skin infection_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_08_Haemonc_-_Blood_Products_and_Transfusion.md** L155 · _Blood product transfusion complications_ · `inherited` — model knowledge, not source-checked. Timing of resumption by indication and bleed site, per a named haematology or cardiology source.
 - **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L38 · _Added from unverified layer — what the neutropenic patient does not show you_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L83 · _Superior vena cava obstruction (SVCO)_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L61 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/11_01_Ortho_-_Orthopaedic_Emergencies.md** L174 · _Added from unverified layer — the two other closed-space hand infections_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_06_Ortho_-_Spinal_Orthopaedics.md** L101 · _Added from unverified layer — do not over-image, and do not over-interpret the images_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L144 · _Added from unverified layer — why alkali burns are worse than acid burns_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L192 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — model knowledge, not source-checked.
@@ -865,7 +900,9 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L59 · _0.3.2 Added from unverified layer — swallowed foreign body_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/14_05a_Psych_-_Eating_Disorders.md** L77 · _Added from unverified layer — parotid enlargement_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/14a-2_Psych_-_Overdose_and_Poisoning_Management.md** L44 · _Added from unverified layer — adverse drug reactions, and reporting them in Australia_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/15_01b_Paeds_-_Anaphylaxis.md** L105 · _Added from unverified layer — food allergy: preventing it, and the two forms that test negative_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_.md** L64 · _Added from unverified layer — three points not stated above_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/16_16-17_Contraception.md** L182 · _Added from unverified layer — the counselling point that decides whether it is taken_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L304 · _Added from unverified layer — two funding pathways outside aged care_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L314 · _Added from unverified layer — two things done on admission_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/Clinical-Process-EBM-Consent-Capacity.md** L62 · _Added from unverified layer — deciding for someone who cannot decide_ · `inherited` — model knowledge, not source-checked. The hierarchy of substitute decision-makers and their powers is set by STATE legislation and is NOT reproduced here — confirm against the Act applying in your jurisdiction and your health service's policy.
@@ -1232,18 +1269,19 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Investigations_Gastroenterology.md** L48 · _0.1.1 A raised ALP with a normal GGT — owned elsewhere_ · `snippet` — nothing to verify here; this is a pointer.
 - **Corpus C/NEW_Investigations_Haematology_Part2.md** L335 · _0.24 Lymphoscintigraphy_ · `snippet` — model knowledge, not source-checked.
 
-# Permanently noted — requires Therapeutic Guidelines or AMH (125)
+# Permanently noted — requires Therapeutic Guidelines or AMH (128)
 
 **Not a to-do list.** These cannot be closed without an institutional login. The marker stays in the file as a permanent flag: look it up at the point of use. Do not delete these, and do not resolve them from memory or from a non-AU source.
 
-## R1 — could kill someone this rotation (63)
+## R1 — could kill someone this rotation (64)
 
 - **Corpus A/01_Cardiovascular.md** L779 · _0.13 Wolff-Parkinson-White (WPW) Syndrome_ · `inherited` — model knowledge, not source-checked. Antiarrhythmic choice and dosing, per eTG Cardiovascular under specialist direction.
 - **Corpus A/03_Gastrointestinal.md** L839 · _0.18 Appendicitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/03_Gastrointestinal.md** L1731 · _0.41.5 Added from unverified layer — generalised pain and the catastrophes_ · `inherited` — empirical antibiotic choice for suspected perforation or ischaemia; Therapeutic Guidelines (login). Look up at point of use.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L18 · _Animal & human bites_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L52 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L55 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L1145 · _Added from unverified layer — two things about weight the differential does not cover_ · `inherited` — parenteral thiamine dose and duration, per Therapeutic Guidelines.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L32 · _Added from unverified layer — two bite exposures the organism list does not carry_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L78 · _Added from unverified layer — two things to do at the bedside, and one more mimic_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L81 · _Added from unverified layer — two things to do at the bedside, and one more mimic_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L74 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — every anticipatory prescribing dose, from eTG Palliative Care and your health network's end-of-life care pathway. eTG is login-gated, so this is a permanent instruction to look them up at the point of use rather than a queued item.
 - **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L61 · _0.2.1 Mx – Immediate_ · `UNSET` — no empirical regimen, dose, or fluid volume is stated here; obtain both from eTG Antibiotic and local policy. The timing target for antibiotic administration and the initial fluid bolus volume in Australian practice both require verification against the current Sepsis Clinical Care Standard.
 - **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L39 · _0.1 The Poisoned Patient — Risk Assessment and General Approach_ · `UNSET` — the time window in which charcoal retains benefit, dosing, and contraindications require verification against eTG Toxicology.
@@ -1302,9 +1340,10 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L330 · _0.10.1 Mx – Immediate_ · `unverified` — antibiotic agents, doses and durations, and steroid indications and dosing, from eTG Antibiotic.
 - **Corpus C/NEW_Cardiology_and_Vascular.md** L130 · _Added from unverified layer — the two the phenotype list does not reach_ · `snippet` — model knowledge, not source-checked. Steroid agent and dose in suspected adrenal crisis, per eTG — and note the dose already stated at [[NEW_Drugs_10_Endocrine]] is an ADULT dose.
 
-## R2 — changes disposition (20)
+## R2 — changes disposition (21)
 
 - **Corpus A/03_Gastrointestinal.md** L619 · _0.13 Small Bowel Bacterial Overgrowth Syndrome_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L24 · _Added from unverified layer — two bite exposures the organism list does not carry_ · `inherited` — the agent and duration for bite prophylaxis in asplenia, per Therapeutic Guidelines: Antibiotic.
 - **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L56 · _Added from unverified layer — what the neutropenic patient does not show you_ · `inherited` — the MASCC score's components, its low-risk threshold, and whether Australian practice uses it or a local equivalent, per eviQ and hospital protocol.
 - **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L79 · _0.2 Tricyclic Antidepressant Overdose_ · `UNSET` — the specific QRS duration thresholds associated with seizure and arrhythmia risk, and the threshold at which bicarbonate is indicated, require verification against eTG Toxicology and the Poisons Information Centre.
 - **Corpus B-new/B5_Murmurs__Endocarditis_and_Vascular_Disease.md** L67 · _0.2 New and Changing Murmur_ · `UNSET` — the criteria, their weighting, and all antibiotic regimens and durations from eTG Antibiotic.
@@ -1325,12 +1364,13 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L121 · _0.4 Severe Community-Acquired Pneumonia and ARDS_ · `unverified` — the components, weightings and score thresholds for SMART-COP, CORB and CURB-65 all require verification against eTG Antibiotic.
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L314 · _0.10 Tonsillitis and Peritonsillar Abscess (Quinsy)_ · `unverified` — the specific high-risk criteria, geographic definitions and recommended regimens require verification against eTG Antibiotic and the Australian guideline for prevention, diagnosis and management of acute rheumatic fever.
 
-## R3 — everything else (42)
+## R3 — everything else (43)
 
 - **Corpus A/01_Cardiovascular.md** L241 · _0.2.3 Treatment threshold_ · `inherited` — model knowledge, not source-checked. Percentage reduction targets and the permitted duration of a nitroprusside infusion, per eTG Cardiovascular.
 - **Corpus A/01_Cardiovascular.md** L391 · _Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)_ · `inherited` — agents and doses omitted, per eTG Cardiovascular.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L16 · _Animal & human bites_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L225 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — the agents, doses and durations of both phases, per Therapeutic Guidelines: Antibiotic and the NT/Qld melioidosis protocols.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L266 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — the agents, doses and durations of both phases, per Therapeutic Guidelines: Antibiotic and the NT/Qld melioidosis protocols.
+- **Corpus A/09_05_Dermatology_-_Bacterial_Infections_and_Infestations.md** L87 · _Added from unverified layer — Australian environmental and occupational skin infection_ · `inherited` — the antibiotic combination and duration, and current endemic areas, per the Victorian Department of Health Buruli ulcer guidance and Therapeutic Guidelines: Antibiotic.
 - **Corpus A/15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis.md** L43 · _Management_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L181 · _0.6 Failure to Wake Post-Sedation_ · `UNSET` — doses, titration increments and duration of action for both agents require verification against eTG and your local sedation policy before use.
 - **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L182 · _0.5.1 Mx – Immediate_ · `UNSET` — antibiotic indications and regimens from eTG Antibiotic.

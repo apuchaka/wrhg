@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 6
+no_baseline: 8
 ---
 
 ## 0.1 Acute Coronary Syndrome (ACS)
