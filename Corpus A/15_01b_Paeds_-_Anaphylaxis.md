@@ -95,3 +95,6 @@ conflicts_r1: 0
   - Has a concomitant illness that increases risk (e.g. severe asthma, a history of arrhythmia, systemic mastocytosis or other mast cell disorders).
   - Presents for care late in the evening, given this limits the practical ability to complete a full observation period and safely arrange follow-up before a typical discharge time.
 - A child who remains stable and asymptomatic through the appropriate observation period above, has (or is prescribed) an adrenaline injector with confirmed understanding of its use, and has adequate supervision arranged after discharge, may be discharged with the safety-netting and referral advice above.
+
+> [!note] Anaphylaxis from a sting or bite
+> Where anaphylaxis follows an insect sting or a bite, the envenomation itself is owned by [[NEW_Drugs_04_Antidotes_and_Antivenoms]] — antivenoms, pressure immobilisation, and the **tick paralysis** trap where weakness progresses after removal. **The anaphylaxis is treated as anaphylaxis regardless**; the envenomation is the separate question.

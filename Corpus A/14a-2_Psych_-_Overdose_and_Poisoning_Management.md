@@ -29,6 +29,9 @@ conflicts_r1: 0
 | **Lithium** | Volume resuscitation (IV fluids); haemodialysis if severe; ± IV sodium bicarbonate. |
 | **Warfarin** | See [[10_08_Haemonc_-_Blood_Products_and_Transfusion]] Warfarin — management of high INR (Vitamin K, PCC, FFP, etc). |
 
+> [!note] Envenomation — antivenoms, first aid and the detection kit
+> Australian envenomation is owned by [[NEW_Drugs_04_Antidotes_and_Antivenoms]] (`trust: snippet`, AMH-derived): pressure immobilisation and **why it works here** (Australian venoms travel by lymphatics), the five monovalent antivenoms, **venom-induced consumption coagulopathy**, and that **the detection kit tells you WHICH antivenom, not WHETHER the patient is envenomed**. Not repeated here.
+
 ## 0.2 Digoxin toxicity — detail
 
 - **S/Smx:** generally unwell, anorexia, confusion, yellow-green vision, arrhythmias, gynaecomastia.

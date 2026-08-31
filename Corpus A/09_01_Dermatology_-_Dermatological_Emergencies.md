@@ -83,6 +83,9 @@ conflicts_r1: 0
 
 > [!note] See [[15_01b_Paeds_-_Anaphylaxis]] for the paediatric-specific overnight-observation criteria (severe/refractory reaction, history of biphasic reaction, concomitant illness, late-evening presentation) that refine the 4-hour minimum above for children specifically, not repeated here.
 
+> [!note] Envenomation — antivenoms, first aid and the detection kit
+> Australian envenomation is owned by [[NEW_Drugs_04_Antidotes_and_Antivenoms]] (`trust: snippet`, AMH-derived): pressure immobilisation and **why it works here** (Australian venoms travel by lymphatics), the five monovalent antivenoms, **venom-induced consumption coagulopathy**, and that **the detection kit tells you WHICH antivenom, not WHETHER the patient is envenomed**. Not repeated here.
+
 ## Acute urticaria and angioedema
 
 - **D:** urticaria (hives) is a skin condition characterised by erythematous, blanching, oedematous, non-painful, pruritic lesions that typically resolve within 24 hours and leave no residual markings. Angio-oedema is a sudden, pronounced swelling of the subdermis or mucous membranes.

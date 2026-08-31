@@ -223,6 +223,9 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 
 - **Mx:** immediate referral to ophthalmology; admit + strict bed rest; urgent lateral canthotomy to decompress the orbit.
 
+> [!note] Envenomation — antivenoms, first aid and the detection kit
+> Australian envenomation is owned by [[NEW_Drugs_04_Antidotes_and_Antivenoms]] (`trust: snippet`, AMH-derived): pressure immobilisation and **why it works here** (Australian venoms travel by lymphatics), the five monovalent antivenoms, **venom-induced consumption coagulopathy**, and that **the detection kit tells you WHICH antivenom, not WHETHER the patient is envenomed**. Not repeated here.
+
 ## Added from unverified layer — environmental injury
 `SRC:A6_Thermal_and_Environmental_Injury §0.1` `SRC:A6 §0.2` `SRC:A6 §0.5` `SRC:A6 §0.6` `SRC:A6 §0.7` `UNVERIFIED — model knowledge, not source-checked.`
 
