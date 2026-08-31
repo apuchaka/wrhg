@@ -178,6 +178,15 @@ General advice: use barrier method (e.g. condoms) until pills taken 7 days in a 
 
 ---
 
+### Added from unverified layer — the counselling point that decides whether it is taken
+`SRC:O6_Sexual_and_Reproductive_Health §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!warning] **Emergency contraceptive pills are NOT abortifacients — say so explicitly**
+> **They work primarily by delaying or preventing ovulation. They do not disrupt an established pregnancy and are not effective if implantation has already occurred** — which is also why they are less effective the later they are taken, and why the copper IUD above is the more effective option.
+> **This matters because the belief that they are abortifacients is common, is held by patients, by families and sometimes by pharmacy or clinic staff, and it is a reason people decline them or are refused them.** Stating the mechanism plainly, unprompted, is part of the consultation rather than an optional extra.
+> **They are also not teratogenic**, so an existing undiagnosed pregnancy is not a reason to withhold one, and a pregnancy test is not required before supply.
+> `UNVERIFIED — the current Australian scheduling and pharmacy-supply position, and whether any weight-related efficacy caveat is stated in current guidance, per the Therapeutic Guidelines and the SA Health sexual health services.`
+
 ## Postpartum contraception
 
 - Contraception required after day 21 postpartum
