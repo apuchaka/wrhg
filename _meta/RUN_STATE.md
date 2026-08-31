@@ -738,8 +738,8 @@ file. **No marker was silently voided in Block 1.**
 
 ## Resume point
 
-**DONE:** K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5.
-**NEXT:** O6 · CV-X.
+**WEEK 2 COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
+**NEXT:** Week 3 — L1–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5 ophthalmology (E1–E3).
 Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1–E3).
 **Do NOT start Week 4** — the user decides that after seeing this run's yield.
 
@@ -778,6 +778,13 @@ suppresses a marker on the ground that the *source* mentions the subject.
 | I3 Calcium, Parathyroid and Bone | 26 | 2 | 23 | 0 | none |
 | I4 Pituitary, Adrenal and Sex Hormone | 30 | 1 | 29 | 0 | none |
 | I5 Weight, Lipids and Fluid Balance | 30 | 3 | 27 | 0 | none |
+| O6 Sexual and Reproductive Health | 34 | 2 | 32 | 0 | none |
+| CV-X Chronic Heart Failure | 28 | 2 | 26 | 0 | none |
+| **TOTAL (11 files)** | **382** | **56** | **329** | **1 (CF-035 R2)** | **none** |
+
+**Week 2 ran 15% additive overall** (56 of 385 dispositions), against the ~20% of blocks
+1 and 2. Corpus A + Corpus C together are **denser** in week 2's topics than the
+file-count indicator suggested, not thinner.
 
 **The K block ran ~26% additive. I1 ran 6%.**
 
