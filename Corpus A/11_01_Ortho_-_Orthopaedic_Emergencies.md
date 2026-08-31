@@ -30,6 +30,13 @@ no_baseline: 1
 
 ### Septic arthritis of a replaced joint
 
+> [!info] Added from unverified layer — **why the microbiology is different, and what sonication is for**
+> `SRC:L1_Hot_and_Swollen_Joint §0.1` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Prosthetic joint infection is a BIOFILM disease, not simply septic arthritis in a joint that has a prosthesis in it.** Organisms adherent to the implant are **metabolically quiescent and protected from both antibiotics and the immune system**, which is why antibiotics alone do not clear it and why the implant usually has to be revised or removed.
+> **The organisms differ accordingly** — **coagulase-negative staphylococci and *Cutibacterium acnes*** dominate the late and indolent presentations, and these are exactly the organisms a laboratory would otherwise dismiss as skin contaminants.
+> **Routine culture of joint fluid is frequently negative**, because the organisms are on the implant rather than free in the fluid. **SONICATION of the explanted prosthesis dislodges the biofilm and substantially increases the culture yield** — so **multiple deep tissue samples, and the implant itself, go to the laboratory, with the laboratory told what is suspected** and prolonged incubation requested.
+> **Do not give antibiotics before the samples are taken** unless the patient is septic — a partially treated prosthetic joint infection with negative cultures is a much harder problem than an untreated one.
+
 > [!warning] Refer to orthopaedics.
 
 - Usually *Staph epidermidis*, other coagulase-negative Staph, or *Staph aureus*.

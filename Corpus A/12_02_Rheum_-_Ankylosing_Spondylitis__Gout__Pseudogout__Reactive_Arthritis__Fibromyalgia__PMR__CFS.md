@@ -48,6 +48,23 @@ no_baseline: 0
 
 - **Prophylactic:** allopurinol 100mg OD (**lower starting dose required in renal impairment** — starting dose should be guided by renal function per current AU guidance, not a fixed 100mg regardless of eGFR), titrate to uric acid <300 μmol/L — consider starting only after the acute episode is over, with colchicine/NSAID cover (≤6 months). See [[09_01_Dermatology_-_Dermatological_Emergencies]] Stevens-Johnson syndrome / Toxic epidermal necrolysis (SJS/TEN) for the genuinely important HLA-B*58:01/allopurinol hypersensitivity association, not repeated here. Febuxostat as an alternative. 3rd line (refractory): uricase, IV pegloticase. *(And read the eGFR itself with care — see [[07_Renal_Medicine_and_Urology]] Chronic Kidney Disease (CKD) for why an eGFR overestimates function in a low-muscle-mass patient and is invalid while creatinine is unstable, both of which bite hardest exactly where a renally-dosed drug is being started.)*
 
+### Added from unverified layer — two things about gout the entry above does not carry
+`SRC:L1_Hot_and_Swollen_Joint §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Allopurinol hypersensitivity and HLA-B*5801** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Allopurinol can cause a severe cutaneous adverse reaction** — DRESS, Stevens-Johnson syndrome and toxic epidermal necrolysis — **which is uncommon but carries substantial mortality.**
+> **The risk is strongly associated with the HLA-B*5801 allele**, whose frequency **varies markedly by ancestry and is higher in Han Chinese, Thai and Korean populations**, and the risk is further increased by **chronic kidney disease** and by **starting at too high a dose.**
+> **Two things follow practically:** consider **HLA-B*5801 testing before starting allopurinol in higher-prevalence ancestry groups**, and **start low and titrate up** rather than starting at a maintenance dose — the dose-escalation approach reduces the risk independently of genotype.
+> **Warn the patient to stop the drug and present immediately if a rash develops**, which is the part that gets omitted.
+> `UNVERIFIED — whether HLA-B*5801 testing is recommended and funded in Australia and for whom, and the starting-dose and titration schedule. Therapeutic Guidelines and the Australian Rheumatology Association would settle it. NO DOSE IS STATED HERE.`
+> The `HLA-B` hits elsewhere in this vault are **B27** (ankylosing spondylitis, 0.1 above) and **B51** (Behçet, [[12_04_Rheum_-_Vasculitis]]) — a different allele in each case.
+
+> [!warning] **The Australian and New Zealand epidemiology of gout** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Gout is substantially more prevalent, presents earlier, and is more severe in Māori and Pacific peoples**, reflecting differences in renal urate handling rather than in diet — **which matters because the dietary framing is both inaccurate here and experienced as blame.**
+> **It is also under-treated in these groups**, with lower rates of urate-lowering therapy and of reaching target despite higher disease burden.
+> **In Australia this is relevant in practice**, and the same under-treatment pattern is described in Aboriginal and Torres Strait Islander patients. Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] once that file is merged.
+> **The clinical consequence is not epidemiological interest — it is a lower threshold to start urate-lowering therapy and to follow it to target**, rather than treating attacks as they come.
+
 ## 0.3 Pseudogout
 
 - **D:** microcrystal synovitis caused by the deposition of calcium pyrophosphate dihydrate crystals in the synovium — more accurately termed acute calcium pyrophosphate crystal deposition disease.
