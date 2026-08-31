@@ -1194,6 +1194,30 @@ Obstruction of blood flow → hypoperfusion of tissues distal to obstruction.
 
 
 
+### Added from unverified layer — peripartum cardiomyopathy
+`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.3` `UNVERIFIED — model knowledge, not source-checked. Diagnostic timing window, ejection-fraction threshold and all drug choices in pregnancy and lactation, per RANZCOG or SOMANZ.`
+
+**D:** Heart failure with reduced ejection fraction arising in **late pregnancy or the puerperium**, without another identifiable cause. §0.26 Dilated Cardiomyopathy lists "peripartum" as one cause in passing (line 960); **that single word was, before this block, the entire coverage of it in this vault.** `PENDING_GUIDELINE_CHECKS` **P5-A30** already flags it as one of "the cardiovascular four".
+
+> [!danger] It is missed because its symptoms **are** the symptoms of pregnancy
+> **Breathlessness, fatigue, ankle swelling and reduced exercise tolerance are all normal in late pregnancy and the puerperium** — which is exactly why a failing heart gets attributed to being pregnant. **Women have died after being reassured.**
+> **Features that should prompt an echocardiogram rather than reassurance:**
+> **orthopnoea and paroxysmal nocturnal dyspnoea** · **dyspnoea at rest** · a **resting tachycardia that does not settle** · a **new murmur or third heart sound** · **raised JVP** · haemoptysis.
+> **The threshold for echocardiography in a breathless peripartum woman should be low.** Reassurance is the intervention with the worst downside here.
+
+> [!warning] The differential in a breathless peripartum woman
+> **Pulmonary embolism** — pregnancy and the puerperium are prothrombotic, see §0.30 · **amniotic fluid embolism** · **pre-eclampsia with pulmonary oedema**, see [[16_08-09_Antenatal_and_Perinatal_Problems]] · **pre-existing or undiagnosed valvular disease unmasked by the volume load of pregnancy**, particularly mitral stenosis, see §0.21 · anaemia · thyrotoxicosis · infection.
+
+**S/Smx:** as for heart failure (§0.28), against a background where each symptom individually is explicable by the pregnancy itself.
+
+**Ix:** **echocardiography** (*why:* it is the diagnostic test and the reason to lower the threshold — it distinguishes a failing ventricle from physiological breathlessness within minutes; *what:* reduced ejection fraction, chamber dilatation). ECG, BNP or NT-proBNP, FBC, UEC, TFTs (*why:* the differential above; *what:* as per §0.28). Consider CTPA or V/Q for PE (*why:* the commonest alternative and also lethal; *what:* filling defect).
+
+**Mx:** heart failure management as §0.28, **with agent choice constrained by pregnancy and breastfeeding** — ACE inhibitors and ARBs are contraindicated antenatally (see §0.2 and [[16_08-09_Antenatal_and_Perinatal_Problems]]). Joint obstetric, cardiology and anaesthetic involvement. `UNVERIFIED — which agents are used instead, and in what order, per RANZCOG or SOMANZ.`
+
+**P:** a proportion recover ventricular function and a proportion do not. **Counselling about future pregnancies is a specific and necessary conversation**, since recurrence risk is meaningful and is higher where function has not recovered. `UNVERIFIED — recovery and recurrence figures.`
+
+---
+
 ## 0.28 Chronic Heart Failure
 
 **D:** Dysfunction of the left ventricle resulting in insufficient delivery of blood to vital organs. Classified by ejection fraction: **HFrEF** (reduced, EF <40%), **HFmrEF** (mildly reduced, EF 40–49%) and **HFpEF** (preserved, EF ≥50%). The middle band matters — it is not a gap in the definitions, and those patients are managed closer to HFrEF than the older two-way split implied.
