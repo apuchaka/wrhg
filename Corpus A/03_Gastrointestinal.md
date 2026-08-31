@@ -1664,8 +1664,9 @@ Cause-specific.
 ### 0.1.3 Mx – Chronic/long-term
 Follow-up of any patient discharged with "non-specific abdominal pain" — a defined review, because a proportion have a diagnosis that declares itself over the following days.
 
-### 0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel
+### 0.41.4 Assessment, Peritonism and the Core Investigations — from unverified layer
 `SRC:C1_Acute_Abdomen §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.41.4 fragment; its section pointers and its CONFLICT block are carried below.*
 
 > [!tip] Watch the patient before you touch them
 > **The patient with peritonitis lies completely still**, often with knees drawn up, and objects to the trolley being moved or bumped. Movement of the inflamed parietal peritoneum hurts, so they avoid it.
@@ -1679,15 +1680,8 @@ Follow-up of any patient discharged with "non-specific abdominal pain" — a def
 > **Auscultation** — absent bowel sounds in ileus or peritonitis; high-pitched tinkling in obstruction. Bowel sounds are **less informative than commonly taught** and should not override the rest of the examination.
 > **Percussion for shifting dullness** where ascites is suspected.
 
-> [!fail]- CONFLICT CF-038 — is rebound tenderness elicited, or abandoned? **R3**
-> **A (`snippet`, base-A, [[NEW_Gastroenterology_and_Hepatology]]):** "**Palpate** gently and away from the pain first: guarding, rigidity, **rebound** and percussion tenderness; **localised versus generalised peritonism**; organomegaly; **a pulsatile expansile mass**; Murphy's sign; Rovsing's sign."
-> **B (`unverified`, `SRC:C1_Acute_Abdomen §0.2`, the callout above):** "**Percussion tenderness rather than rebound.** Gentle percussion elicits the same information as releasing deep palpation, is far kinder, and is more reproducible. **Rebound testing is unpleasant, poorly reproducible and should largely be abandoned.**"
-> **Why it matters:** A instructs the examiner to elicit a sign B says to stop eliciting. Both are instructions about what to do to a patient at the bedside, and a reader meeting only one will not know the other exists. The weight is **R3** — neither changes a disposition — but the disagreement is real.
-> **How it was buried:** B was merged as an ADDITION, because the gap check that authorised it searched Corpus A alone and A lives in Corpus C. No conflict was raised at the time.
-> **Resolve against:** RACS resources or a current clinical examination text. Both open. **Not adjudicated.**
-
 > [!danger] Three examinations that are skipped and cost diagnoses
-> **1. The hernial orifices.** Palpate both groins in every patient with abdominal pain or obstruction. An incarcerated femoral hernia in an elderly woman is a classic missed cause of obstruction, and it is found by putting your hand on it. See §0.21 Hernias.
+> **1. The hernial orifices.** Palpate both groins in every patient with abdominal pain or obstruction. See §0.21 Hernias. An incarcerated femoral hernia in an elderly woman is a classic missed cause of obstruction, and it is found by putting your hand on it.
 > **2. The testes in any male with abdominal pain, especially a boy.** **Testicular torsion frequently presents as abdominal pain with no testicular complaint at all**, and the window to save the testis is a few hours. Examine the scrotum.
 > **3. A pregnancy test in every woman of reproductive age.** Not "she says she can't be pregnant." Do the test.
 
@@ -1701,22 +1695,23 @@ Follow-up of any patient discharged with "non-specific abdominal pain" — a def
 > [!warning] Analgesia does not obscure the diagnosis
 > The traditional teaching that opioids mask an acute abdomen and delay surgical assessment **has not held up** — appropriate analgesia does not reduce diagnostic accuracy and improves the examination by allowing the patient to cooperate. **Withholding analgesia pending surgical review is unkind and unjustified.**
 
-**Ix — the core panel for every acute abdomen:**
-- **Pregnancy test (β-hCG) in every woman of reproductive age** (*why:* ectopic pregnancy is the diagnosis that kills young women presenting with abdominal pain, and it also determines imaging choice; *what:* positive test)
-- FBC (*why:* leucocytosis supports inflammation and a falling haemoglobin suggests bleeding, with the caveat that **a normal white cell count does not exclude a surgical abdomen**, particularly in the elderly; *what:* white cell count, haemoglobin)
-- UEC (*why:* renal function, hydration, and electrolyte derangement from vomiting; *what:* urea, creatinine, potassium)
-- **Lipase or amylase** (*why:* diagnoses pancreatitis, which is managed medically and would otherwise proceed to unnecessary laparotomy — lipase is more specific and remains elevated longer; *what:* marked elevation)
-- LFT (*why:* separates hepatic from biliary from non-hepatobiliary causes, and an obstructive pattern points to stones or malignancy; *what:* raised ALP and GGT versus transaminases, bilirubin)
-- **VBG with lactate** (*why:* a raised lactate in an abdomen with unimpressive signs is the single most important pointer to **mesenteric ischaemia** or established sepsis; *what:* metabolic acidosis, raised lactate)
-- CRP (*why:* supports inflammation and tracks response, though it lags by hours and a normal value early does not exclude; *what:* elevation)
-- Group and hold or crossmatch (*why:* many of these patients go to theatre or bleed; *what:* units available)
-- **ECG** (*why:* inferior myocardial infarction presents as epigastric pain, and it costs nothing; *what:* ischaemic change)
-- Urinalysis (*why:* infection, haematuria in renal colic — with the caveat that **haematuria also occurs in a leaking aortic aneurysm** and does not confirm a stone; *what:* blood, leucocytes, nitrites)
-- **Erect chest radiograph** (*why:* free gas under the diaphragm indicates perforation, and it also identifies the lower lobe pneumonia that mimics an acute abdomen; *what:* free subdiaphragmatic gas, consolidation)
-- **CT abdomen and pelvis with contrast** (*why:* the investigation that resolves most acute abdomens, identifies the cause and stages the complication; *what:* free gas, collection, obstruction, ischaemia, inflammation) — `UNVERIFIED — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.`
-- Ultrasound as first-line in **suspected biliary disease, in pregnancy, in children, and in suspected gynaecological pathology** (*why:* avoids radiation, is highly sensitive for gallstones and for free fluid, and is the appropriate first test in those groups; *what:* stones, wall thickening, free fluid, adnexal mass)
+**Ix — the core panel for every acute abdomen:** **Pregnancy test (β-hCG) in every woman of reproductive age** (*why:* ectopic pregnancy is the diagnosis that kills young women presenting with abdominal pain, and it also determines imaging choice; *what:* positive test). FBC (*why:* leucocytosis supports inflammation and a falling haemoglobin suggests bleeding, with the caveat that **a normal white cell count does not exclude a surgical abdomen**, particularly in the elderly; *what:* white cell count, haemoglobin). UEC (*why:* renal function, hydration, and electrolyte derangement from vomiting; *what:* urea, creatinine, potassium). **Lipase or amylase** (*why:* diagnoses pancreatitis, which is managed medically and would otherwise proceed to unnecessary laparotomy — lipase is more specific and remains elevated longer; *what:* marked elevation). LFT (*why:* separates hepatic from biliary from non-hepatobiliary causes, and an obstructive pattern points to stones or malignancy; *what:* raised ALP and GGT versus transaminases, bilirubin). **VBG with lactate** (*why:* a raised lactate in an abdomen with unimpressive signs is the single most important pointer to **mesenteric ischaemia** or established sepsis; *what:* metabolic acidosis, raised lactate). CRP (*why:* supports inflammation and tracks response, though it lags by hours and a normal value early does not exclude; *what:* elevation). Group and hold or crossmatch (*why:* many of these patients go to theatre or bleed; *what:* units available). **ECG** (*why:* inferior myocardial infarction presents as epigastric pain, and it costs nothing; *what:* ischaemic change). Urinalysis (*why:* infection, haematuria in renal colic — with the caveat that **haematuria also occurs in a leaking aortic aneurysm** and does not confirm a stone; *what:* blood, leucocytes, nitrites). **Erect chest radiograph** (*why:* free gas under the diaphragm indicates perforation, and it also identifies the lower lobe pneumonia that mimics an acute abdomen; *what:* free subdiaphragmatic gas, consolidation). **CT abdomen and pelvis with contrast** (*why:* the investigation that resolves most acute abdomens, identifies the cause and stages the complication; *what:* free gas, collection, obstruction, ischaemia, inflammation — `UNVERIFIED — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution`). Ultrasound as first-line in **suspected biliary disease, in pregnancy, in children, and in suspected gynaecological pathology** (*why:* avoids radiation, is highly sensitive for gallstones and for free fluid, and is the appropriate first test in those groups; *what:* stones, wall thickening, free fluid, adnexal mass).
 
----
+### 0.2.1 Mx – Immediate
+Resuscitate, analgesia, antiemetic, nil by mouth, IV fluids. Nasogastric tube where there is obstruction with vomiting. Antibiotics where perforation or sepsis is suspected. **Involve the surgical team early rather than after all results return.**
+
+### 0.2.2 Mx – Definitive
+Cause-specific. **Serial examination by the same clinician is a legitimate and valuable investigation** in an equivocal abdomen — the evolution over hours frequently makes the diagnosis where a single assessment cannot.
+
+### 0.2.3 Mx – Chronic/long-term
+Clear discharge advice with return criteria for anyone sent home undiagnosed.
+
+> [!fail]- CONFLICT CF-038 — is rebound tenderness elicited, or abandoned? **R3**
+> **A (`snippet`, base-A, [[NEW_Gastroenterology_and_Hepatology]]):** "**Palpate** gently and away from the pain first: guarding, rigidity, **rebound** and percussion tenderness; **localised versus generalised peritonism**; organomegaly; **a pulsatile expansile mass**; Murphy's sign; Rovsing's sign."
+> **B (`unverified`, `SRC:C1_Acute_Abdomen §0.2`, the callout above):** "**Percussion tenderness rather than rebound.** Gentle percussion elicits the same information as releasing deep palpation, is far kinder, and is more reproducible. **Rebound testing is unpleasant, poorly reproducible and should largely be abandoned.**"
+> **Why it matters:** A instructs the examiner to elicit a sign B says to stop eliciting. Both are instructions about what to do to a patient at the bedside, and a reader meeting only one will not know the other exists. The weight is **R3** — neither changes a disposition — but the disagreement is real.
+> **How it was buried:** B was merged as an ADDITION, because the gap check that authorised it searched Corpus A alone and A lives in Corpus C. No conflict was raised at the time.
+> **Resolve against:** RACS resources or a current clinical examination text. Both open. **Not adjudicated.**
 
 ### 0.41.5 Added from unverified layer — generalised pain and the catastrophes
 `SRC:C1_Acute_Abdomen §0.9` `UNVERIFIED — model knowledge, not source-checked.`
