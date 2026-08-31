@@ -1680,6 +1680,26 @@ report examined / converted / flagged per chunk.
 > This one is worse than the others when missed: the duplicate would have landed in a
 > **different file** from the original, where nothing puts the two renderings side by side.
 
+> [!danger] **REQUIRED CHECK — TWO SAMPLING ROUNDS. A first round at 100% present means
+> sample the unusual items, never close the file.**
+> Established 2026-08-31 on the F0 block and now standing method for **every** file.
+>
+> **Round 1 tested 42 concepts across F0-2…F0-5 and found all 42 present.** On that
+> evidence the block was fully superseded and the merge would have stopped.
+>
+> **Round 2 sampled the unusual items instead of the headline ones and found three
+> absences, two of them real** — that newborn resuscitation commences in **air** rather than
+> oxygen, and that a child's arrest is **hypoxic in origin**, which is why the paediatric
+> sequence leads with rescue breaths. Both ANZCOR, both genuinely absent, both would have
+> been lost.
+>
+> **The reason is structural, not luck:** the headline concepts of any file are exactly the
+> ones a mature corpus already has. A first round samples the headlines, so a 100% result
+> measures how obvious the sample was, not how complete the corpus is.
+>
+> **Round 2 must sample differently** — technique detail, the caveat inside a
+> recommendation, the thing that is true only in children, the reason behind a rule rather
+> than the rule.
 > [!danger] **REQUIRED CHECK — the ABSENT path runs through `scripts/gapcheck.py`, which
 > cannot truncate.**
 > Rule 2 has prohibited concluding absence from truncated output since the beginning. It was

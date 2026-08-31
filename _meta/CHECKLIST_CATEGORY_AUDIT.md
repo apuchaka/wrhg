@@ -142,6 +142,51 @@ An entire domain, one row, lowest weight. Whether that matches the AMC's own wei
 **not something this audit can settle** — it needs the AMC curriculum or blueprint, which is
 outside the vault. Flagged as a question, not asserted as an error.
 
+## Finding 5 — three domains missing from BOTH checklist and corpus, and what they share
+
+Environmental injury · recognising dying · foreign bodies. **All three are
+presentation-driven emergencies rather than diseases** — things a patient *arrives with*,
+not things they *have*. Three is a pattern, not three coincidences.
+
+**The hypothesis: a disease-organised specification systematically misses presentations.**
+
+### It was tested against the categories, and it is only PARTLY supported
+
+Every one of the 872 topics was classified as **presentation-shaped** (naming a symptom,
+event or injury) or **disease-shaped** (naming a diagnosis).
+
+| | categories | mean presentation-shaped |
+|---|---|---|
+| Stub (≤11 rows) | 6 | **23%** |
+| Large (>11 rows) | 18 | **16%** |
+
+The difference runs in the predicted direction but is **small**, and it is carried almost
+entirely by two categories — `Injury/Poisoning` at 40% and `Older Persons Health` at 45%.
+**Two of the six stubs are 0% presentation-shaped** (`Clinical Process`, `Australian
+Context`), which the hypothesis does not predict.
+
+### The refined version, which the data does support
+
+**The checklist is overwhelmingly disease-organised everywhere — only ~17% of all 872 rows
+are presentation-shaped.** So the bias is not a property of the thin categories; it is a
+property of the whole specification.
+
+**What that predicts is different, and more useful:** remaining holes will be
+presentation-shaped **anywhere in the checklist**, not concentrated in the stubs. Looking
+only at the thin categories for further gaps would be looking in the wrong place.
+
+`Gastroenterology` at 102 rows and 21% presentation-shaped is the biggest category in the
+file — and the merge still found a missing **acute abdomen framework**, a **neck-stiffness
+differential**, and **bulbar versus pseudobulbar**, all presentation-shaped, all inside
+domains the checklist covers densely. **Category size does not protect against this.**
+
+### Why this cannot be closed from inside the vault
+
+Testing it properly means asking *"what presentations does an Australian intern meet that
+this checklist never names?"* — which is the external-reference question already recorded
+below. **This finding sharpens that question; it does not answer it.** It is recorded as a
+hypothesis with its supporting and non-supporting evidence, not as an established fact.
+
 ## PRIORITY ORDER for the outstanding external work
 
 > [!important] **The ATSI weighting question comes FIRST — ahead of the 872-row audit.**
