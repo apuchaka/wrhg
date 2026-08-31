@@ -39,6 +39,18 @@ no_baseline: 4
 - **S/Smx:** erythema, pain, swelling, commonly on the shins; possibly associated with systemic upset.
 - **Ix:** clinical diagnosis ± bloods and blood cultures if sepsis is suspected.
 
+### Added from unverified layer — two things to do at the bedside, and one more mimic
+`SRC:K2_Skin_and_Soft_Tissue_Infection §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] **Mark the border and write the time on the skin**
+> Draw around the edge of the erythema and **write the date and time beside it**. It converts an argument about whether the leg looks better into an observation, it survives handover and a change of shift, and it is the single most useful thing to do at the first review.
+> **Spread beyond the mark is the objective sign of failure**, and the prompt to reconsider the diagnosis as much as the antibiotic.
+
+> [!warning] **Calciphylaxis — the mimic to know in a dialysis patient** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> In patients with **end-stage kidney disease, particularly on dialysis**, calcific uraemic arteriolopathy produces **exquisitely painful** necrotic plaques and ulcers with surrounding violaceous, retiform erythema — most often on the thighs, abdomen and other fatty areas.
+> **The pain is out of proportion and the lesions do not respond to antibiotics.** It carries a high mortality and needs renal and dermatology involvement, not a longer antibiotic course.
+> Chronic kidney disease–mineral bone disorder, which is the setting it arises from, is owned by [[07_Renal_Medicine_and_Urology]] 0.2.2 Mineral Bone Disease (in CKD).
+
 > [!info] Eron classification of cellulitis
 > - **Class I:** no signs of systemic toxicity, no uncontrolled comorbidities.
 > - **Class II:** systemically unwell, or has a comorbidity that may complicate/delay resolution (e.g. peripheral arterial disease).
@@ -102,6 +114,12 @@ no_baseline: 4
   - **Immediate/acute:** urgent surgical debridement — the single most important intervention and the priority over any investigation, given source control is what actually halts the rapidly progressive tissue destruction; broad-spectrum IV antibiotics covering the likely organisms per the Type 1–4 classification above (typically a broad-spectrum beta-lactam/beta-lactamase inhibitor or carbapenem plus clindamycin — clindamycin specifically added for its toxin-suppressing effect on toxin-producing organisms like *Strep pyogenes*, distinct from its antibacterial action); aggressive fluid resuscitation given the septic physiology; ICU-level supportive care given the shock/organ dysfunction risk.
   - **Definitive:** repeated surgical debridement is often needed (a single operation frequently isn't sufficient, given how the disease can continue to progress along fascial planes even after initial debridement) — patients typically return to theatre for reassessment/further debridement within 24–48h; de-escalate antibiotics once culture/sensitivity results are available.
   - **Chronic/long-term:** reconstructive surgery (skin grafting, flap reconstruction) once the infection is controlled, given the often extensive tissue loss from debridement; rehabilitation given the functional impact of extensive soft tissue/muscle loss.
+
+> [!warning] Added from unverified layer — ***Vibrio vulnificus*, and the host who gets it**
+> `SRC:K2_Skin_and_Soft_Tissue_Infection §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Type 3 above names *Vibrio* from marine or fresh-water exposure. **What makes it predictable is the host, not the water:** *V. vulnificus* causes fulminant necrotising infection and septicaemia **chiefly in people with chronic liver disease, haemochromatosis or iron overload, and the immunocompromised** — iron availability is thought to be why.
+> **Exposure is seawater or estuarine water contacting a wound, or ingestion of raw shellfish** (from which it can cause primary septicaemia with haemorrhagic bullae and no wound at all).
+> **A febrile patient with cirrhosis, haemorrhagic bullae and a seawater or oyster history is this diagnosis until proven otherwise**, and mortality is high and hours matter.
 
 - **P:** average mortality 20%, worse (50–70%) if end organ damage or shock present — reinforcing why time to surgical debridement is the single most important prognostic factor.
 
