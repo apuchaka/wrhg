@@ -163,6 +163,23 @@ Risk stratify with **GRACE score** (predicts all-cause mortality at 6 months pos
 - Confirm with ambulatory BP monitoring (ABPM) to exclude white coat syndrome
 - Alternative: home BP monitoring — 2 readings morning + 2 evening, for 4–7 days
 
+#### Added from unverified layer — masked hypertension, and which arm to use
+`SRC:B2_Hypertension_Spectrum §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] ABPM excludes white coat hypertension. It also finds **masked** hypertension, which is the dangerous one
+> The line above uses out-of-office monitoring to rule *out* a false positive. It equally
+> rules *in* a false negative:
+> - **White coat** — raised in clinic, normal outside. Not entirely benign, but does not warrant the same treatment.
+> - **Masked** — **normal in clinic, raised outside.** It carries the cardiovascular risk of hypertension and, because every clinic reading is reassuring, **it goes untreated.**
+>
+> **Out-of-office thresholds are lower than clinic thresholds** — see the ABPM column in §0.2.1. Reading home numbers against clinic numbers over-diagnoses.
+
+> [!tip] If the two arms differ persistently, use the higher one from then on
+> "Remeasure on both arms" above finds an **inter-arm difference**, which itself suggests
+> **subclavian stenosis, coarctation or aortic dissection** and is worth pursuing. Once a
+> persistent difference is established, **the arm with the higher reading is the one used
+> for all subsequent measurement** — otherwise every later reading understates the pressure.
+
 **Ix:** Fundoscopy (*why:* screens for hypertensive retinopathy as a marker of target-organ damage/chronicity; *what:* graded I–IV, see below). Urine dipstick/ACR (*why:* screens for renal target-organ damage and as a clue to secondary causes e.g. glomerulonephritis; *what:* proteinuria/haematuria if renal involvement). ECG (*why:* screens for LVH as target-organ damage and for arrhythmia; *what:* voltage criteria for LVH, strain pattern). Bloods — FBC (*why:* baseline, screens for polycythaemia in some secondary causes; *what:* usually normal), U&Es (*why:* baseline renal function and screens for renal-cause/renal-damage, plus baseline before ACEI/diuretic; *what:* may show renal impairment or hypokalaemia suggesting hyperaldosteronism), HbA1c (*why:* screens for coexisting diabetes, common comorbidity affecting risk stratification; *what:* may be elevated), lipids (*why:* completes the cardiovascular risk profile for absolute-risk-based treatment decisions; *what:* often deranged, part of risk calculation).
 
 > [!info] Hypertensive retinopathy grading
