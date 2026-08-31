@@ -1747,8 +1747,9 @@ Laparotomy, revascularisation, resection, or endovascular repair as indicated.
 ### 0.9.3 Mx – Chronic/long-term
 Anticoagulation and rhythm management where an embolic source is found. Cardiovascular secondary prevention. Nutritional support and stoma care after extensive resection.
 
-### 0.41.6 Added from unverified layer — the acute abdomen in special groups
+### 0.41.6 The Acute Abdomen in Special Groups — from unverified layer
 `SRC:C1_Acute_Abdomen §0.11` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.41.6 fragment; all five of its obstetric and paediatric ownership pointers are carried.*
 
 > [!danger] The elderly
 > **Presentation is blunted and mortality is far higher.** Older patients with a surgical abdomen frequently have **less pain, no fever, a normal white cell count and an unimpressive examination** — and yet have perforation, ischaemia or obstruction.
@@ -1756,9 +1757,9 @@ Anticoagulation and rhythm management where an embolic source is found. Cardiova
 > **Have a low threshold for CT in an older patient with unexplained abdominal pain**, and be sceptical of a diagnosis of gastroenteritis or constipation. Delayed diagnosis is the main driver of the excess mortality.
 
 > [!danger] Pregnancy
-> **Anatomy and physiology both mislead.** That the appendix is **displaced upward as gestation advances** is owned by [[NEW_Obstetrics]] and is not restated here. What that entry does not add: a **physiological leucocytosis** is normal in pregnancy, so a raised white cell count means little, and the gravid uterus lifts the abdominal wall away from inflamed viscera, so **guarding and rebound are often absent even with peritonitis.**
+> **Anatomy and physiology both mislead.** That the appendix is **displaced upward as gestation advances** is owned by [[NEW_Obstetrics]] and is not restated here. The appendix is displaced upward and laterally. A **physiological leucocytosis** is normal, so a raised white cell count means little. The gravid uterus lifts the abdominal wall away from inflamed viscera, so **guarding and rebound are often absent even with peritonitis.**
 > The obstetric differential must be considered alongside the surgical one: **ectopic pregnancy** ([[17_04_Ectopic_Pregnancy_and_GTD]]), **miscarriage** ([[17_03_Termination_of_Pregnancy_and_Miscarriage]]), **placental abruption and uterine rupture** ([[16_14-15_Obstetric_Emergencies]]), **HELLP syndrome and pre-eclampsia with liver capsule distension** ([[16_08-09_Antenatal_and_Perinatal_Problems]]), and **fibroid degeneration** ([[17_05_PID__Endometriosis__Fibroids]]).
-> **Do not withhold necessary imaging out of radiation fear.** Ultrasound first, MRI second, and **CT where it is genuinely needed** — the risk of a missed perforation to both mother and fetus exceeds the radiation risk. Involve obstetrics early.
+> **Do not withhold necessary imaging out of radiation fear.** Ultrasound first, MRI second, and **CT where it is genuinely needed** — the risk of a missed perforation to both mother and fetus exceeds the radiation risk. Involve obstetrics early. Cross-refer `TODO:link — O1 Early pregnancy (unbuilt)` and `TODO:link — O2 Later pregnancy & fetal (unbuilt)`.
 
 > [!warning] The immunosuppressed and neutropenic patient
 > Corticosteroids, chemotherapy and immunosuppressants **blunt the inflammatory response**, so pain, fever, guarding and leucocytosis may all be minimal or absent in the presence of established perforation.
@@ -1766,14 +1767,24 @@ Anticoagulation and rhythm management where an embolic source is found. Cardiova
 > **CMV colitis, atypical infections, and graft-versus-host disease** in transplant recipients.
 > **Have a lower threshold for imaging and a higher index of suspicion** in this group than the clinical findings would suggest.
 
-> [!note] Children
-> The paediatric acute abdomen is owned by [[15_07_Paeds_-_Abdominal_Pain__Neuroblastoma__Coeliac_Disease__Malnutrition__Diarrhoea_and_Vomiting]] and [[15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_]], and is not repeated here.
+> [!tip] Children
+> The paediatric acute abdomen is owned by [[15_07_Paeds_-_Abdominal_Pain__Neuroblastoma__Coeliac_Disease__Malnutrition__Diarrhoea_and_Vomiting]] and [[15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_]]. The differential is age-dependent and is also covered in `TODO:link — M5 Paediatric GI, GU & limb (unbuilt)`. The points that matter here:
+> **· Bilious vomiting in a neonate or infant is malrotation with volvulus until proven otherwise** — a surgical emergency requiring urgent upper GI contrast study.
+> **· Intussusception** — colicky pain with drawing up of the legs, vomiting, a sausage-shaped mass, and late "redcurrant jelly" stool. Ultrasound diagnoses it; air or contrast enema often treats it.
+> **· Testicular torsion presenting as abdominal pain** — examine the scrotum in every boy.
+> **· Constipation is common but is a diagnosis made positively**, not by exclusion of a scan.
+> **· Henoch-Schönlein purpura** — abdominal pain with a purpuric rash on the buttocks and legs, arthralgia and haematuria, and it can be complicated by intussusception.
 
-**Ix:** group-specific, with the general principle that in **all four groups the threshold for imaging should be lower than the clinical findings suggest**, because the findings are unreliable.
+**Ix:** Group-specific, with the general principle that in **all four groups the threshold for imaging should be lower than the clinical findings suggest**, because the findings are unreliable.
 
-**Mx — immediate:** standard resuscitation, with early senior and specialty involvement. In pregnancy, involve obstetrics from the outset and position the patient in left lateral tilt after the mid-second trimester to avoid aortocaval compression.
+### 0.11.1 Mx – Immediate
+Standard resuscitation, with early senior and specialty involvement. In pregnancy, involve obstetrics from the outset and position the patient in left lateral tilt after the mid-second trimester to avoid aortocaval compression.
 
----
+### 0.11.2 Mx – Definitive
+Cause-specific. **Surgery is not contraindicated in pregnancy** and a necessary operation should not be delayed — delay harms the fetus more than the operation does.
+
+### 0.11.3 Mx – Chronic/long-term
+Group-appropriate follow-up, including obstetric review after any operative intervention in pregnancy.
 
 ### 0.41.7 Added from unverified layer — bilious versus non-bilious vomiting, and the vomiting patterns
 `SRC:C2_Nausea_and_Vomiting §0.3` `SRC:C2_Nausea_and_Vomiting §0.4 (cannabinoid hyperemesis only)` `UNVERIFIED — model knowledge, not source-checked.`
