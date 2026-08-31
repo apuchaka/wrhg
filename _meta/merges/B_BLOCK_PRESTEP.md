@@ -49,7 +49,7 @@ checking, **13 are genuinely absent** and 50 were present, partial, or search ar
 | **CSANZ as a cited body** | B1, B3 | 0 in A and C; the corpus cites Heart Foundation, NHF, ESC, ACC/AHA, NICE |
 | **HBPM (home BP monitoring)** | B2 | `home blood pressure` — 0. **ABPM is present** at L138/L148; the home arm is not |
 | **SCAPE (sympathetic crashing acute pulmonary oedema)** | B2 | 5 raw hits, **all `e`SCAPE` rhythm / land`SCAPE`** — rule 9 |
-| **HAS-BLED** | B3 | 0 in A and C. `01_Cardiovascular` carries **CHA₂DS₂-VASc, CHA₂DS₂-VA and ORBIT** — three stroke/bleed instruments, and **no bleeding-risk score paired with the stroke score** |
+| **HAS-BLED** | B3 | 0 in A and C — **and correctly so. NOT a gap; see the correction below.** |
 | **Sgarbossa criteria** | B3 | `concordant ST` — 0; `paced rhythm.*ST` — 0. **New LBBB is present** (L33, L509 "a new LBBB is always assumed…"), so the corpus has the STEMI-equivalent rule and not the way to read ST in a *known* LBBB or paced rhythm |
 | **Twiddler's syndrome** | B3 | `pacemaker.*pocket`, `manipulat.*generator` — 0. `lead displacement` **is** present as a complication at `NEW_Exam_Manoeuvres_and_Procedures.md:411` |
 | **May-Thurner syndrome** | B6 | `iliac vein compress`, `left leg.*DVT` — 0. Absent by name and by mechanism |
@@ -78,6 +78,34 @@ checking, **13 are genuinely absent** and 50 were present, partial, or search ar
 | CRAB | `NEW_Investigations_Haematology_Part2.md:215`, `10_02:100` | Raw `CRAB` also matched a **COPD/asthma mnemonic** at `02_Respiratory.md:64` and the **crab louse** at `08_08:221` — rule 9, two artifacts on one four-letter string |
 | CFS | `12_02 §0.7 Chronic fatigue syndrome (myalgic encephalomyelitis)` | |
 | SOMANZ, HELLP, MEN2, NIV, PTH, SDH, GCA, PMR, SVC, ALP, B12, CCP, FVC, FNA, Cushing | all present, ≥3 anchored hits each | |
+
+## CORRECTION — the HAS-BLED row was wrong. ORBIT **is** a bleeding score
+
+**What this document originally said:** that `01_Cardiovascular` carries "three stroke/bleed
+instruments, and **no bleeding-risk score paired with the stroke score**."
+
+**That is false.** Found 2026-08-31 while merging B3, by reading every `ORBIT` hit instead of
+counting them.
+
+**ORBIT is the bleeding score.** `01_Cardiovascular.md:280` carries it in full — *"ORBIT
+bleeding score — 5 components, maximum 7"* — with the component list, the risk bands, and at
+`:292` a `[!danger]` box on the trap that **a high bleeding score does not decide against
+anticoagulation**, because high bleeding and high stroke scores occur in the same patient.
+`:296` states the pairing outright: *"use CHA₂DS₂-VASc for stroke risk and ORBIT for bleeding
+risk."* The block even records its own arithmetic correction from 2026-08-29.
+
+**HAS-BLED is therefore absent by design, not by omission.** Adding it would introduce a
+competing instrument for a role already filled, which is worse than leaving it out.
+
+**How the error happened, because the method is what needs fixing:** `inventory.py` returns
+bare names. I read `ORBIT` as one more acronym in a list and never opened the block it names.
+**A name in an inventory is not a description of what it does** — and since the pre-step's
+entire method is a name comparison, this failure is available to it on every row.
+
+**The guard: a name-level absence must be checked by reading the destination before it is
+called a gap.** This is the same shape as the CTCA row above, which the pre-step did catch —
+acronym absent, content in the destination all along. There the reading happened before the
+claim landed. Here it did not, and the claim reached a PR body.
 
 ## Rule 9 artifacts caught in this pre-step
 
