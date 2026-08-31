@@ -520,6 +520,54 @@ guideline established it, not B.
 appendicectomy prophylaxis would likely reproduce A's `co-amoxiclav + metronidazole` and
 agree perfectly. Concordance never closes an item.
 
+**BEFORE MERGING A SECTION, GREP THE DESTINATION FOR ITS `SRC:` TOKEN.**
+
+```
+grep -n "SRC:<bfile> §<section>" <destination>
+```
+
+**This is the one search in this project that cannot fail.** Every other check in §1.3 exists
+because a search can miss — wrong spelling, wrong scope, wrong alphabet, a name the corpus does
+not use. The `SRC:` token is **exact, machine-written and unique**, so a zero means zero.
+Use it in preference to any content search when the question is "has part of this section
+already been merged here".
+
+**Measured 2026-08-31: 138 of the 970 sections in Corpus B and B-new already hold a merged
+fragment — 14%.** 58 B files are affected. **7 sections have fragments in more than one
+destination**, and those are the awkward ones: one section, two fragments, two places.
+
+**WHERE A FRAGMENT EXISTS, THE SECTION SUPERSEDES IT — AND INHERITS ITS CROSS-REFERENCES.**
+
+The fragment's clinical claims are reproduced by the section merge. **Its connective tissue is
+not, because the connective tissue was written by the merge and exists nowhere in Corpus B.**
+Ten blocks were sampled against their own B source sections: **zero were pure subsets, and
+five of ten were assembly** — built from two B files, or from B plus destination content, or
+narrowed deliberately with a scope note.
+
+What must be carried across, not discarded:
+
+| Merge-authored element | Worked example |
+|---|---|
+| internal `§x.y.z` cross-references | C1 §0.6's block **replaced B's Alvarado sentence** with a pointer to `§0.41.3` |
+| `[[file]]` pointers placing a claim against existing content | *"the anatomy is already tabulated in [[11_07a_Ortho_-_Dermatomes_and_Myotomes]]"* |
+| delta-framing against destination content | *"the **acute** precipitants **SMITH** does not cover"* — SMITH is Corpus A's mnemonic, absent from B3 |
+| verbatim quotation of another file | `01_Cardiovascular:48` quotes `NEW_Drugs_06` then says *"what that entry does not give is **how you know**"* |
+| ownership assignment | *"[[04_Neurology]] and the rhabdomyolysis entries own those"* |
+| a deliberate scope note | the ATSI block: *"deliberately narrow — what an intern does, not the history, the policy or the epidemiology"*, then a map of where the rest lives |
+
+**Delete the fragment's prose; keep its pointers, re-aimed at the merged section.** A section
+merged without them is content a reader cannot reach from where they are, which is the
+reachability failure §1.3 rule 12 already names.
+
+**The two worked examples of correct placement**, for the case where the destination already
+covers part of what is being merged:
+- `03_Gastrointestinal` §0.33.4 — *"**AIMS65** is a further pre-endoscopy risk score alongside
+  the Glasgow-Blatchford and Rockall scores **already at §0.33.2**."*
+- `01_Cardiovascular:48` — quotes the owning entry, then states only the delta.
+
+Both name what they add, point at what exists, and reproduce nothing. **Reach for that shape
+wherever the overlap is obvious, rather than defaulting to duplication.**
+
 **Additive merge format** — under a marked subheading, never woven into existing prose,
 which produces unreviewable diffs and blurs provenance at every sentence boundary. **Every
 block carries a `SRC:` token naming the origin file and section**, so `grep -rn "SRC:C1_" .`

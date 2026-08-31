@@ -1791,6 +1791,37 @@ report examined / converted / flagged per chunk.
 > tree finds the merge's own additions and reports everything present. The first run of the
 > C-block re-audit did exactly that. **Audit against the tree the merge started from.**
 
+> [!danger] **REQUIRED CHECK — BEFORE MERGING A SECTION, GREP THE DESTINATION FOR ITS
+> `SRC:` TOKEN. This is the only search in this project that cannot fail.**
+>
+> ```
+> grep -n "SRC:<bfile> §<section>" <destination>
+> ```
+>
+> Every other check on this page exists because a content search can miss — a spelling, a
+> scope, an alphabet, a name the corpus does not use. **The `SRC:` token is exact,
+> machine-written and unique. A zero means zero.**
+>
+> **Measured 2026-08-31: 138 of 970 sections already hold a merged fragment (14%), across 58
+> B files; 7 sections have fragments in two different destinations.** So 86% of section
+> merges land on clean ground and this check costs one command to establish which.
+>
+> **WHERE A FRAGMENT EXISTS: THE SECTION SUPERSEDES IT, AND INHERITS ITS CROSS-REFERENCES.**
+>
+> Ten blocks were sampled against their own B source sections. **Zero were pure subsets.
+> Five of ten were assembly** — combining two B files, or B with destination content, or
+> narrowed deliberately. **The clinical claims come back with the section; the connective
+> tissue does not, because the merge wrote it and Corpus B never contained it.**
+>
+> Carry across, re-aimed at the merged section: internal `§` cross-references, `[[file]]`
+> pointers, delta-framings against destination content ("what SMITH does not cover"),
+> verbatim quotations of an owning entry, ownership assignments, and scope notes.
+> **Delete the fragment's prose; keep its pointers.**
+>
+> **The shape to copy where the destination already covers part of it:** *"AIMS65 is a
+> further pre-endoscopy risk score alongside the Glasgow-Blatchford and Rockall scores
+> already at §0.33.2."* Name the addition, point at what exists, reproduce nothing.
+
 > [!danger] **REQUIRED CHECK — A DISCARD VERDICT IS MADE AT CLAIM LEVEL. Naming a
 > destination file or section is not evidence that the destination carries the content.**
 > Every other check on this page governs the search that *looks for* something. This one
