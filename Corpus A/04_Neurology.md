@@ -840,6 +840,25 @@ Start in a specific area of the brain, typically the temporal lobe; further divi
 
 > [!info] Mx (focal seizures): lamotrigine or levetiracetam first-line; carbamazepine, oxcarbazepine, or zonisamide second-line — these drug class choices are internationally standard, including in Australia; no valproate-specific sex caveat applies here since valproate isn't the first-line choice for focal seizures in the first place.
 
+### Added from unverified layer — current terminology, and two counselling points
+`SRC:D6_Seizures_and_Movement_Disorders §0.1` `SRC:D6 §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] The current ILAE terms — the concept above, named
+> §Focal Seizures already says focal seizures are divided **by awareness and by motor versus non-motor features**. The current names for that division:
+> - **Focal aware** — awareness retained throughout. (Formerly *simple partial*.)
+> - **Focal with impaired awareness** — awareness lost or reduced at any point. (Formerly *complex partial*.)
+> - **Focal to bilateral tonic-clonic** — a focal onset that spreads. (Formerly *secondary generalised*.)
+>
+> **The corpus uses neither the current terms nor the superseded ones**, so this adds names rather than content — but the names are what an exam and a discharge summary will use.
+
+> [!danger] SUDEP — sudden unexpected death in epilepsy
+> **Patients and families have a right to know it exists.** The main modifiable factors are **seizure control and medication adherence**, and the risk concentrates in **nocturnal generalised tonic-clonic seizures**.
+> Avoiding the conversation does not protect anyone: it removes the strongest reason a patient has to take medication reliably.
+> `UNVERIFIED — the incidence, and how Australian guidance recommends the conversation be framed and timed; Epilepsy Action Australia, or RACGP.`
+
+- **Drug-resistant epilepsy is defined as failure of two appropriately chosen and tolerated antiseizure medications.** It matters because it is the trigger for **epilepsy surgery assessment**, referral for which is frequently delayed by years — see [[NEW_Drugs_15_Neurological]], which covers the referral itself.
+
+
 ### Febrile Convulsions
 Children 6 months to 5 years old, ~3% of children; occurs early in a viral infection when temperature rises rapidly; brief, generalised tonic-clonic or tonic.
 
