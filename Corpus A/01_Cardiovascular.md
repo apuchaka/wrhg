@@ -149,6 +149,29 @@ Risk stratify with **GRACE score** (predicts all-cause mortality at 6 months pos
   - Drugs (steroids, COCP)
   - Others: pregnancy, coarctation of the aorta
 
+#### Added from unverified layer — three things the aetiology list above does not say
+`SRC:B2_Hypertension_Spectrum §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Renovascular hypertension has **two** causes with different patients
+> The list above says "renal artery stenosis" without splitting it. It is **atherosclerotic**
+> in older patients with vascular disease elsewhere, and **fibromuscular dysplasia** in
+> **younger women**, classically with a **"string of beads"** appearance on angiography.
+> `fibromuscular` and `string of beads` were both **absent from the whole vault** before this.
+> Suspect either with an **abdominal bruit**.
+
+> [!danger] A significant creatinine rise after starting an ACE inhibitor or ARB suggests **bilateral** renal artery stenosis
+> In bilateral disease, glomerular filtration depends on angiotensin II-mediated efferent
+> arteriolar constriction. Removing it drops filtration on both sides at once. **A rise in
+> creatinine after starting an ACEi or ARB is therefore a diagnostic signal, not only an
+> adverse effect** — and it is one of the few ways renovascular hypertension announces itself
+> without imaging.
+
+> [!warning] Drugs the list above omits
+> Alongside steroids and the COCP: **venlafaxine and other SNRIs**, **ciclosporin**,
+> **erythropoietin**, NSAIDs, decongestants and stimulants. `liquorice` is already covered at
+> [[NEW_Cardiology_and_Vascular]] §Elevated Blood Pressure, where it is noted as an apparent
+> mineralocorticoid excess.
+
 ### 0.2.1 Staging
 | Stage | Clinic BP | ABPM |
 |---|---|---|
