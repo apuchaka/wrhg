@@ -3,7 +3,7 @@ name: conflicts
 description: Generated. Do not hand-edit — stamp the block in the file and rescan.
 ---
 
-# Conflict index — generated 2026-08-30
+# Conflict index — generated 2026-08-31
 
 Open 1 · deferred 0 · resolved 3
 
