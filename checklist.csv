@@ -749,23 +749,23 @@ Dermatology,Toxic epidermal necrolysis (TEN),,,,Low,Likely covered,
 ENT,Acute Labrynthitis,,,,Low,Unlikely covered,Zero to Finals - ENT
 ENT,Acute otitis externa,,,,Medium,Likely covered,
 ENT,Acute otitis media and sequelae,,,,Medium,Likely covered,
-ENT,Biceps femoris (Hamstring) TEARS,,,,Low,Partially covered,Zero to Finals - ENT
-ENT,ECG (start early — it takes repeated exposure to get fluent),,,,Low,Likely covered,
+Musculoskeletal / Orthopaedics / Rheumatology,Biceps femoris (Hamstring) TEARS,,,,Low,Partially covered,Zero to Finals - ENT
+Cardiology,ECG (start early — it takes repeated exposure to get fluent),,,,Low,Likely covered,
 ENT,Ear pain and/or discharge,,,,Medium,Partially covered,Zero to Finals - ENT
 ENT,Epiglottitis,,,,Low,Likely covered,
 ENT,Epistaxis,,,,Medium,Likely covered,
-ENT,"FBC, UEC, LFTs — the ""core bloods"" you'll see in nearly every case",,,,Low,Unlikely covered,Zero to Finals - ENT
+Cardiology,"FBC, UEC, LFTs — the ""core bloods"" you'll see in nearly every case",,,,Low,Unlikely covered,Zero to Finals - ENT
 ENT,Hearing Impairment,,,,Medium,Likely covered,
 ENT,Laryngitis,,,,Low,Unlikely covered,Zero to Finals - ENT
 ENT,Meniere's,,,,Low,Likely covered,
 ENT,Pharyngitis,,,,Medium,Unlikely covered,Zero to Finals - ENT
-ENT,Sick Sinus Syndrome,,,,Low,Likely covered,
+Cardiology,Sick Sinus Syndrome,,,,Low,Likely covered,
 ENT,Snoring,,,,Low,Likely covered,
 ENT,"Throat – Pain, mass",,,,Medium,Partially covered,Zero to Finals - ENT
 ENT,Tinnitus,,,,Low,Likely covered,
 ENT,Upper airway obstruction,,,,Medium,Partially covered,Zero to Finals - ENT
 ENT,Vestibular schwannoma,,,,Low,Likely covered,
-ENT,meniscal tear,,,,Low,Unlikely covered,Zero to Finals - ENT
+Musculoskeletal / Orthopaedics / Rheumatology,meniscal tear,,,,Low,Unlikely covered,Zero to Finals - ENT
 Ophthalmology,Acute Glaucoma,,,,Medium,Likely covered,
 Ophthalmology,Acute angle closure glaucoma,,,,Medium,Likely covered,
 Ophthalmology,Age-related Macular Degeneration,,,,Low,Likely covered,
