@@ -209,6 +209,30 @@ no_baseline: 0
 - **Specific exposures narrow the differential further than destination alone** — freshwater swimming (schistosomiasis, leptospirosis), animal contact (brucellosis, rabies exposure), insect/tick bites, sexual contact, food and water sources, and healthcare contact abroad (antimicrobial-resistant organism risk) — see [[History-Taking]] Fever and Suspected Infection for the travel-history questions that elicit these, not repeated here.
 - **Malaria prophylaxis adherence doesn't exclude malaria** — no chemoprophylaxis regimen is 100% effective, and poor adherence is common; malaria should still be actively tested for (thick and thin blood films, or rapid antigen testing) in a febrile returned traveller from an endemic area regardless of reported prophylaxis use.
 
+### Added from unverified layer — four things the incubation framework does not carry
+`SRC:K1_Fever_Workup §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Rickettsial infection — LOOK FOR THE ESCHAR**
+> **Scrub typhus, the spotted fevers (including Australian tick typhus) and murine typhus** present with fever, headache, myalgia and rash — and with **an eschar at the bite site**, a small, painless, black-crusted ulcer that **makes the diagnosis**.
+> **It is missed because of where it hides: the axilla, the groin, under the breast, behind the knee, in the scalp and between the toes.** Undress and look.
+> **Doxycycline is the treatment and is given empirically on suspicion**, because serology is retrospective and confirms the diagnosis after the decision has been made. Doxycycline's rickettsial indications are listed in [[NEW_Drugs_05_Anti_infectives]].
+> **Search note:** every other `eschar` in this corpus is anthrax ([[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Anthrax), burns escharotomy or acid coagulative necrosis ([[11_09b_Ortho_-_Trauma]]). The word alone will not find this.
+
+> [!danger] **Melioidosis — an Australian diagnosis, not a travel one**
+> *Burkholderia pseudomallei*, in soil and surface water in **northern Australia**, with cases concentrated in **the wet season** and after flooding, storms and cyclones.
+> **The risk groups are the point: diabetes, chronic kidney disease, harmful alcohol use, chronic lung disease, and Aboriginal and Torres Strait Islander people.**
+> It presents as **severe community-acquired pneumonia, sepsis, or abscesses anywhere** — including prostatic, hepatic, splenic and cerebral — and it is missed when a severe pneumonia in a northern-Australian patient with diabetes is treated as ordinary CAP.
+> **It requires specific and prolonged antimicrobial therapy** — an intensive intravenous phase followed by months of oral eradication. `UNVERIFIED — the agents, doses and durations of both phases, per Therapeutic Guidelines: Antibiotic and the NT/Qld melioidosis protocols.`
+
+> [!warning] **Murray Valley and Japanese encephalitis — named on the notifiable list, but not as diagnoses**
+> Both appear in this corpus only inside the NNDSS vector-borne category at [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Notifiable Diseases (Australia). As clinical entities: **mosquito-borne flaviviruses, with recent Australian activity**, to be considered in **encephalitis after inland, riverine or irrigation-area exposure**, particularly in the warmer months and after flooding.
+> **Japanese encephalitis has a vaccine** and is now part of targeted Australian programmes. `UNVERIFIED — current eligibility for JE vaccination in Australia, per the Australian Immunisation Handbook and state health advice.`
+> Most infections are asymptomatic; a small minority develop encephalitis, and that minority carries substantial mortality and long-term neurological sequelae. Encephalitis assessment itself is owned by [[04_Neurology]], not repeated here.
+
+> [!info] **Zika** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Mosquito-borne, usually mild or asymptomatic, with fever, rash, conjunctivitis and arthralgia. **It matters almost entirely for its congenital risk** — infection in pregnancy causes fetal brain abnormalities including microcephaly. **Sexual transmission occurs**, which is why advice covers partners as well as travellers.
+> **The clinically relevant action is pre-conception and pregnancy travel advice**, not the acute illness. `UNVERIFIED — current Australian advice on conception delay after travel to an area with Zika transmission, and which areas currently qualify; Smartraveller and the Australian Immunisation Handbook would settle it.`
+
 ## Sepsis
 
 > [!note] See [[01_Cardiovascular]] Infective Endocarditis for the modified Duke criteria — the analogous structured diagnostic framework for a different specific infection, not repeated here.
