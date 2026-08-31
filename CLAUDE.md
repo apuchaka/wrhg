@@ -40,6 +40,29 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
      `lipohaemarthrosis` and `aemolysis` inside `**H**aemolysis` by the same mechanism.
      **What the tool cannot derive, and you still do by hand: spelling and naming variants,
      and the concept expressed in different words.**
+   - **SEARCH THE PLAIN ENGLISH NAME OF THE TOPIC, NOT ONLY THE EPONYM, THE ACRONYM OR
+     THE MECHANISM.** The eponym clause above says: when the *name* of a named instrument
+     returns nothing, search its components. **This is the converse, and it is not implied
+     by it** — when you search an alternate name, a mechanism word or an acronym, you must
+     still search **what the corpus would plainly call the thing.**
+     - Found 2026-08-31 auditing the week-3 merge. **A pulled elbow block was merged and
+       marked `NO-BASELINE` while `Corpus A/11_02:149` already carried a section headed
+       `### Pulled elbow`.** The gap check had run `nursemaid` (0 hits) and `pronation`
+       (3 hits, all adult fracture mechanisms) — **an American eponym and a mechanism word,
+       neither of which the existing section uses.** Both searches were correctly built,
+       correctly scoped and correctly read. **Neither searched the two words in the heading.**
+     - **This is the failure mode rules 9 and 10 cannot see.** The pattern was right for
+       what it asked, the scope was right, the count was right, the reading was complete.
+       The *question* was wrong. A search for a name the corpus does not use returns an
+       honest zero about a topic the corpus covers under another heading.
+     - Three further instances in the same audit: `allopurinol hypersensitivity` was called
+       absent while **three** files carried it, one of them the destination file itself, at
+       a line saying *"not repeated here"*; the RA *treat-to-target* principle was reported
+       absent while sitting **34 lines above the merge point**; `weight stigma` likewise.
+     - **The cheap form of this check: before merging a block, grep the destination file for
+       the words in your own block's TITLE.** It costs one command and it is the only
+       search guaranteed to be phrased the way a reader would phrase it.
+
    - **Rule 9 is this rule's inverse** — it covers the search that finds the *wrong* thing
      rather than nothing, and the file silently skipped before any search ran. A zero
      result can mean the term was absent, the spelling differed (this rule), or the file
@@ -109,6 +132,10 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
      | `PrEP` | 113 | PREP`aration(s)` ×68, `pre`PUCE ×3 | ~15 |
      | `TRAb` | 32 | TRAB`ecular` ×11, `s`TRAB`ismus` ×11 | 4 |
      | `IRIS` | 22 | the eye | 4 |
+     | `orf` | 7 | Peterd`ORF`, n`ORF`loxacin, burgd`ORF`eri | **0** |
+     | `PPPD` | 3 | **pylorus-preserving pancreaticoduodenectomy**, not the dizziness syndrome | **0** |
+     | `HLH` | 3 | **hypoplastic left heart**, not haemophagocytic lymphohistiocytosis | **0** |
+     | `RED-S` | 1 | `Red-stained nappy` | **0** |
      | **`ANA`** | **2111** | `management` ×465, `anaemia` ×316, `Anaemia` ×168, `Anaesthetics` ×162, `Management` ×128, `analgesia` ×124 | **~30** |
 
      - **`ANA` at 2111 hits is the ceiling case, and it settles the question: if 2111 can
@@ -116,6 +143,11 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
        not two. The count tells you how common the letters are, not whether the concept is
        in the corpus. Read the matches or do not use the number.
 
+     - **`PPPD` and `HLH` are the more dangerous shape than pure noise.** Each is a *real*
+       medical acronym that already means **something else** in this corpus — pylorus-preserving
+       pancreaticoduodenectomy and hypoplastic left heart. Noise like `orf` looks like noise on
+       sight; **a hit that is itself a legitimate clinical term reads as a genuine find**, and is
+       dismissed only by reading the sentence around it.
      - **`IGRA` at 125 hits with 7 real is WORSE than a zero result, because nobody
        scrutinises 125.** A zero triggers rule 2's component re-search by reflex and, in
        `gapcheck.py`, by refusal to issue a verdict. A three-figure count reads as
