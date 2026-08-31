@@ -37,6 +37,8 @@ DEFAULT_DIRS = ["Corpus A", "Corpus B", "Corpus C"]
 
 # Words too common in medical prose to carry a search on their own. Used to pick the rarest
 # term for the rule 2 retry, not to reject anything.
+RETRY_NOISE_CAP = 40  # above this a retry term is reported as too common, never dumped
+
 COMMON = {
     "the", "a", "an", "and", "or", "of", "in", "on", "to", "is", "are", "was", "be", "not",
     "with", "for", "by", "at", "from", "it", "its", "this", "that", "these", "those",
@@ -196,21 +198,46 @@ def main():
             print("(A standing step since 2026-08-31: the rarer-word retry has now caught a "
                   "duplicate three times —\n Glasgow-Imrie, West Haven, lipohaemarthrosis — "
                   "and in each case the original search looked clean.)\n")
-            found = 0
+            found, too_common = 0, []
             for term in terms:
                 rhits = [h for h in search(re.escape(term), args.dirs)
                          if not (src and h[0].startswith(src + os.sep))]
+                # A retry term returning a very large number of hits is not evidence about
+                # the original claim in either direction — it is a term too common to
+                # discriminate. Printing 700 lines is not "reading them", and rule 10's own
+                # instruction for an unreadable result set is to NARROW THE PATTERN, never
+                # to truncate it. So: say so, and do not pretend the dump was a check.
+                # Found 2026-08-31 the same day the retry was automated: `pulmonary-renal`
+                # retried as `pulmonary` (233) and `renal` (768) and emitted 1001 lines.
+                if len(rhits) > RETRY_NOISE_CAP:
+                    print(f"  retry /{term}/ -> {len(rhits)} hit(s) — TOO COMMON TO "
+                          f"DISCRIMINATE, lines not printed")
+                    too_common.append(term)
+                    continue
                 print(f"  retry /{term}/ -> {len(rhits)} hit(s)")
                 for path, i, line in rhits:
                     print(f"    {path}:{i}: {line}")
                 found += len(rhits)
+            if too_common:
+                print(f"\n  {len(too_common)} retry term(s) were too common to be "
+                      f"informative: {', '.join(too_common)}.")
+                print("  This is NOT evidence of presence or absence. Rule 10: when a "
+                      "result set is too large to read,")
+                print("  NARROW THE PATTERN — pick a distinctive component of the "
+                      "instrument and search that instead.")
             if found:
                 print(f"\n*** {found} HIT(S) FROM THE RETRY. READ THEM BEFORE RECORDING "
                       f"ABSENT. ***")
                 print("    A retry hit is how Glasgow-Imrie, West Haven and "
                       "lipohaemarthrosis were each caught.")
+            elif too_common:
+                print("\n  *** THE RETRY IS INCONCLUSIVE, NOT NEGATIVE. *** Every term "
+                      "that could have discriminated was")
+                print("      too common to read, so this zero has NOT been re-searched. "
+                      "Narrow and run it again.")
             else:
-                print("\n  Retry found nothing either.")
+                print("\n  Retry found nothing either — every derived term was readable "
+                      "and returned zero.")
         else:
             print("\n  No retry term could be derived from this pattern.")
         print("\nStill to consider by hand, which no tool can derive:")
