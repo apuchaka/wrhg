@@ -237,6 +237,32 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 **S/Smx:**
 - Stable angina (all 3 features): chest pressure/constriction <20 min, provoked by exertion, relieved by rest or GTN
 - Atypical angina (women, DM, older people): 2 of 3 above + GI discomfort, dyspnoea, nausea
+### Added from unverified layer — response to treatment is not a diagnostic test
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!warning] The triad above uses GTN relief as a **feature**, not as a rule-out
+> Relief with GTN **does not confirm** that pain is cardiac — **GTN relieves oesophageal
+> spasm**, which is one of the differentials it is being used to exclude. Relief with an
+> **antacid does not exclude** cardiac pain either. **Do not use response to treatment as a
+> diagnostic test in chest pain.**
+> This qualifies rather than contradicts the triad: "relieved by rest or GTN" is one of
+> three features of typical angina and stays correct as written. What it cannot do is stand
+> alone, and it is used as a discriminator in three further places —
+> [[History-Taking]] (in SOCRATES), §0.1 S/Smx, and §0.32 Pericarditis
+> ("may mimic MI but not relieved by GTN").
+
+### Added from unverified layer — accelerated diagnostic protocols
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.1` `UNVERIFIED — which pathway your site uses, and its components and thresholds, per your health network's chest pain pathway.`
+
+> [!tip] Australian emergency departments risk-stratify chest pain with a **structured
+> accelerated diagnostic protocol**, not with gestalt
+> These pathways combine history, ECG, risk factors and serial troponin to identify patients
+> low-risk enough for early discharge. **Applying one is more defensible than an impression**,
+> and which one is in use is a local question.
+> **Components, point allocations and cut-offs are deliberately not stated here** — they are
+> site- and assay-specific, and a remembered threshold applied to the wrong assay is worse
+> than no threshold. Look them up on your own network's pathway at the point of use.
+
 
 **Ix:** ECG (*why:* screens for ischaemic changes/prior infarction and baseline before starting anti-anginal drugs; *what:* usually normal between episodes; may show ST depression during pain, or Q waves if prior MI). Bloods — Hb (*why:* screens for anaemia as a reversible contributor to demand ischaemia; *what:* may be low), lipids/HbA1c (*why:* completes cardiovascular risk assessment; *what:* often deranged). If stable angina cannot be excluded clinically: CT coronary angiography (*why:* first-line non-invasive anatomical test per current stepped-diagnostic pathway; *what:* visualises coronary stenosis directly) → non-invasive functional imaging e.g. stress echo/perfusion scan (*why:* used if CT is inconclusive or contraindicated, assesses functional significance of a stenosis; *what:* reversible perfusion defect/wall motion abnormality on stress) → invasive coronary angiography (*why:* 3rd line, gold-standard when non-invasive tests are inconclusive or high-risk features are present, and allows immediate PCI; *what:* directly visualises and can quantify stenosis severity).
 
