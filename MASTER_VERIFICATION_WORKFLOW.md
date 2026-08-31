@@ -1680,6 +1680,30 @@ report examined / converted / flagged per chunk.
 > This one is worse than the others when missed: the duplicate would have landed in a
 > **different file** from the original, where nothing puts the two renderings side by side.
 
+> [!danger] **REQUIRED CHECK — the ABSENT path runs through `scripts/gapcheck.py`, which
+> cannot truncate.**
+> Rule 2 has prohibited concluding absence from truncated output since the beginning. It was
+> **violated twice in one block** (B3, B4 — 2026-08-31), by someone who had written the
+> anti-truncation clause the same day. **A stated prohibition did not hold**, so the verdict
+> path now has a tool where the failure is impossible rather than forbidden.
+>
+> `gapcheck.py` prints **every matching line in full**. There is no `--limit`, no width cap,
+> and none will be added. It also **refuses a proximity or phrase pattern** before running
+> it, naming the single-word retry, and it **does not report a zero result as ABSENT** — it
+> prints the rule 2 component re-search steps and asks which were run.
+>
+> ```
+> python3 scripts/gapcheck.py 'micturition'            # the rarer word, bare
+> python3 scripts/gapcheck.py 'atrial stunning'        # REFUSED → suggests 'stunning'
+> python3 scripts/gapcheck.py 'shear' --dirs "Corpus A" "Corpus C"
+> ```
+>
+> **Grep with `cut`/`head` is still fine for previewing and counting.** It is the *verdict*
+> that must go through the tool. The three real failures it was built from:
+> `cut -c1-150` ending four words before **"because of atrial stunning"**; `cut -c1-160`
+> ending at **"tongue-biting (lat"**; and `micturition syncope` requiring an adjacency the
+> corpus does not use.
+
 > [!danger] **REQUIRED CHECK — the gap search must include the DESTINATION FILE.**
 > A search that excludes its own destination cannot detect the duplicate it is about to
 > create. This is not the eponym trap and not the Unicode trap: **the pattern is correct
