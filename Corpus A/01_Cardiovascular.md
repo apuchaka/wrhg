@@ -227,7 +227,7 @@ Risk stratify with **GRACE score** (predicts all-cause mortality at 6 months pos
 > avoidable harms in this area, and why the line above prefers a **titratable** agent in a
 > monitored setting: an overshoot must be correctable within minutes.
 
-> [!warning] `→MED:sodium nitroprusside` — it is not a drug to leave running
+> [!warning] Sodium nitroprusside is not a drug to leave running
 > **Sodium nitroprusside is metabolised to thiocyanate and cyanide, which accumulate** with
 > prolonged infusion or in **renal impairment**. That limits how long it can be used and
 > mandates monitoring — a consideration the agent list above does not carry, and one that
