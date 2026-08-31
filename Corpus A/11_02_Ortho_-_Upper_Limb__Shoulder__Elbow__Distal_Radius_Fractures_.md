@@ -198,6 +198,16 @@ no_baseline: 0
 - **Ix:** XR (AP and lateral wrist), confirming the opposite (volar) displacement direction from Colles' fracture above — the same imaging principle applies, not repeated here.
 - **Mx:** **genuinely more likely to require surgical fixation than Colles' fracture**, given Smith's fractures are inherently unstable (the volar displacement direction makes closed reduction harder to hold in a cast) — closed reduction and casting may be attempted for minimally displaced fractures, but ORIF is more often needed than for the equivalent Colles' fracture pattern, a useful distinguishing point between the two.
 
+### Added from unverified layer — Chauffeur's fracture (radial styloid)
+`SRC:L7_Fractures_and_Eponyms §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!info] **The fourth of the distal radius eponyms — the other three are above**
+> **An oblique intra-articular fracture of the RADIAL STYLOID.** The name is historical: the starting handle of an early motor car kicked back and drove the radial styloid off. **Modern mechanism is a fall onto an extended wrist with radial deviation, or a direct blow.**
+> **Two things make it matter more than its size suggests:**
+> **· It is INTRA-ARTICULAR.** Like Barton's above, it involves the radiocarpal joint, so displacement and step-off are what determine management rather than the fragment's size.
+> **· It is a marker of higher-energy carpal injury.** The radial styloid is the attachment of the radioscaphocapitate and long radiolunate ligaments, so **the force that avulsed it may also have produced a scapholunate dissociation or a perilunate injury** — the fractures that are famously missed. **Look at the scapholunate interval and the carpal arcs on the same film**, and do not stop at the styloid.
+> Scaphoid fracture and the normal early radiograph are covered above; the same principle applies here — **an apparently isolated radial styloid fracture with wrist pain out of proportion needs the carpus looked at properly.**
+
 ### Barton's fracture
 
 - Distal radial fracture (Colles' or Smith's) associated with radiocarpal dislocation.
