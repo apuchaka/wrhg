@@ -57,4 +57,14 @@ conflicts_r1: 0
 
 > [!note] The mechanism by which SVC obstruction causes visual disturbances is not well explained in the literature.
 
+> [!tip] Added from unverified layer — **Pemberton's sign**
+> `SRC:B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+> **Ask the patient to raise both arms above their head and hold them there.** In SVC
+> obstruction this produces **facial plethora, cyanosis, distress and sometimes stridor**, by
+> further narrowing an already compromised thoracic inlet.
+> It is free, takes seconds, and is the bedside manoeuvre that converts the S/Smx list above
+> from a set of symptoms into a demonstrable sign. `Pemberton` and `arms above the head` were
+> both **0 vault-wide**. It is also positive in retrosternal goitre, which is worth knowing
+> since that is the other mass lesion at the thoracic inlet.
+
 - **Mx:** endovascular stenting to provide symptomatic relief; radical chemotherapy or chemo-radiotherapy in some cancers; ± glucocorticoids (weak evidence).

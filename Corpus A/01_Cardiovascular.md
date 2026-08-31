@@ -1281,6 +1281,15 @@ Right heart failure arising from lung disease specifically — COPD, PE, interst
 
 ## 0.29 Deep Vein Thrombosis (DVT)
 
+> [!tip] Added from unverified layer — **May-Thurner syndrome**
+> `SRC:B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+> **Compression of the left common iliac vein by the overlying right common iliac artery.**
+> It is the reason an otherwise unexplained DVT in a young patient is **disproportionately
+> left-sided**, and it is worth considering when the thrombosis is iliofemoral, recurrent, or
+> occurs without the usual risk factors — because it is anatomically correctable and the
+> patient will otherwise be anticoagulated indefinitely for a "provoked-by-nothing" clot.
+> `May-Thurner` and `iliac vein compression` were both **0 vault-wide** before this line.
+
 **D:** Blood clot in a major deep vein, classically in the lower limbs, impairing venous blood flow.
 
 **R:** ↑age, recent surgery, immobility >3 days, previous VTE, cancer, pregnancy, COCP, HRT, trauma, clotting disorder
