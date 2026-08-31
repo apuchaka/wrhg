@@ -739,7 +739,14 @@ file. **No marker was silently voided in Block 1.**
 ## Resume point
 
 **WEEK 2 COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
-**NEXT:** Week 3 — L1–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5 ophthalmology (E1–E3).
+**IN PROGRESS:** Week 3 — L1–L8, RESP-X, O4/O5/O7, AN1, AU1 (14 files). Then Week 5
+ophthalmology (E1–E3). **Week 4 is approved for AFTER week 3**, priced by the probe in
+`_meta/merges/WEEK4_PROBE.md` at ~100 additive blocks for 25 files; **run M before J** if
+it is ever cut short.
+
+**PR #88 covers this branch, not just week 2.** Week 3 commits extend it, because the
+session is restricted to `claude/next-6gvrdi` and cannot open a second branch. If week 2
+is wanted as its own reviewable unit, merge #88 before week 3 lands.
 Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1–E3).
 **Do NOT start Week 4** — the user decides that after seeing this run's yield.
 
