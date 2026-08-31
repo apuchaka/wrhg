@@ -316,12 +316,32 @@ Injection of anaesthetic (e.g. LA, opioids) into the epidural or subarachnoid sp
 - Pain — undertreated pain itself contributes to other complications (tachycardia, hypertension, delayed mobilisation) — a standing priority in recovery, not an afterthought
 - PONV — see dedicated section above
 
+> [!danger] Added from unverified layer — **tachycardia with hypotension in the first 24 hours is BLEEDING until excluded**
+> `SRC:A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+> The hypotension line above lists bleeding among the causes. **The default assumption should be
+> bleeding, not one option among three.** Do not attribute early post-operative tachycardia and
+> hypotension to **pain, anxiety or residual anaesthetic effect** without examining **the wound,
+> the drains and the abdomen**, and checking a haemoglobin. A young patient compensates until
+> they do not, so **a normal blood pressure with a rising heart rate is the abnormal
+> observation** — see [[NEW_Cardiology_and_Vascular]] on shock phenotypes.
+
 **Early (first few post-op days):**
 - Fever — a useful clinical approach is the "5 W's" mnemonic: **W**ind (atelectasis/pneumonia — most common cause in the first 24–48h), **W**ater (UTI, typically day 3–5), **W**alking (DVT/PE, typically day 5+), **W**ound (surgical site infection, typically day 5–7), **W**onder drugs (drug fever/reaction — consider at any time)
 - Atelectasis — encourage early mobilisation, deep breathing exercises/incentive spirometry, adequate analgesia (pain itself causes shallow breathing and atelectasis)
 - VTE (DVT/PE) — see [[01_Cardiovascular]] Deep Vein Thrombosis (DVT) and Pulmonary Embolism (PE) (two separate sections, 0.28 and 0.29) for full disease-level content; perioperative VTE prophylaxis (mechanical — TED stockings/intermittent pneumatic compression, ± pharmacological LMWH depending on procedure-specific bleeding-vs-thrombosis risk balance) is a standard part of postoperative care, not an optional extra
 - Surgical site infection — see wound-specific content below
 - Ileus — see [[03_Gastrointestinal]] Ileus for full disease-level content; common and usually self-limiting after abdominal surgery specifically
+
+> [!danger] Added from unverified layer — **anastomotic leak, and the patient who is "not progressing"**
+> `SRC:A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest §0.4` `UNVERIFIED — model knowledge, not source-checked. The timing window, per a named surgical source.`
+> Around **days 3 to 7** after bowel surgery, an anastomotic leak presents as **tachycardia, a
+> low-grade fever, ileus, and a patient who is simply "not progressing"** — **not** as obvious
+> peritonitis. It is mistaken for the ileus listed above, which is exactly why it is missed.
+> **New post-operative atrial fibrillation is a recognised early sign** and should prompt a
+> search for a surgical cause rather than rate control alone — see [[01_Cardiovascular]] §0.4,
+> where post-operative state is listed among the acute precipitants of AF.
+> Investigation is **CT with contrast**; see [[NEW_Investigations_Gastroenterology]], which
+> names suspected anastomotic leak as the setting where barium is contraindicated.
 
 **Wound-specific complications:**
 - Infection (surgical site infection) — erythema, warmth, discharge, fever, typically day 5–7; Mx per severity — oral/IV antibiotics ± wound drainage
