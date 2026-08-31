@@ -7,4 +7,9 @@ __pycache__/
 # which is how 11 of them and a .pyc were swept into commits by `git add -A`.
 # The durable record of a run is _meta/OVERNIGHT_REPORT.md and _meta/RUN_STATE.md,
 # not these files.
+# Anchored at the repo root by git, because the pattern contains a slash — which is
+# exactly why 14 logs survived inside Corpus A/_meta/runs/ on 2026-08-31. The tool now
+# resolves the vault root itself (scripts/merge_tools.py vault_root), so logs cannot be
+# written into a corpus at all; this second pattern is the belt to that braces.
 _meta/runs/
+**/_meta/runs/
