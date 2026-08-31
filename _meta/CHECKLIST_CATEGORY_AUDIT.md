@@ -87,6 +87,30 @@ An entire domain, one row, lowest weight. Whether that matches the AMC's own wei
 **not something this audit can settle** — it needs the AMC curriculum or blueprint, which is
 outside the vault. Flagged as a question, not asserted as an error.
 
+## PRIORITY ORDER for the outstanding external work
+
+> [!important] **The ATSI weighting question comes FIRST — ahead of the 872-row audit.**
+> Set 2026-08-31. The reasoning is structural, not a guess about content:
+>
+> **One `Low`-yield row for an entire domain that Australian curricula weight substantially
+> is more likely to be a real hole than anything a row-level audit will surface.** The
+> row-level audit searches for topics the checklist already names; this is a question about
+> whether the checklist names the right topics at the right weight — and a weighting error
+> on a whole domain costs more study time misallocated than any single missing row.
+>
+> It is also the **cheapest** of the outstanding checks: it needs one external document and
+> answers a yes/no question, where the 872-row audit needs 872 careful reads.
+>
+> **What settles it:** the AMC curriculum or examination blueprint, or an Australian intern
+> syllabus. **This cannot be settled from inside the vault** — the corpus has ATSI content
+> (`Investigation-Interpretation` on KICA and derivation populations, `18_Geriatrics`, the
+> dementia files), but its *presence* says nothing about whether the checklist's weighting
+> of the domain is right.
+>
+> The audit does not assert the weighting is wrong. It records that **one row at the lowest
+> weight, for a named domain, in a category that is itself a 4-row stub, is the shape of an
+> error** — and that the check is cheap.
+
 ## What this audit cannot do, and what would
 
 This was the **cheap** audit: 24 categories against row counts and titles. It found four
@@ -99,8 +123,9 @@ reassuring and wrong — it would have missed all three known-missing domains, b
 `stroke`, `dying`, `terminal`, `palliative` and `hypothermia` all appear somewhere in the
 vault in unrelated contexts. **Rule 9's generic-component trap, at audit scale.**
 
-**Neither audit closes the real gap.** Finding what the checklist and the corpus both lack
-requires an **external reference** — the AMC curriculum, an Australian intern syllabus, or a
+**Neither audit closes the real gap, and the order matters.** The ATSI weighting check goes
+first (above). Finding what the checklist and the corpus both lack requires an **external
+reference** — the AMC curriculum, an Australian intern syllabus, or a
 published exam blueprint. That is **outstanding work, and it is not addressed by the merge,
 by this audit, or by the 872-row audit.** It is recorded here so it is not mistaken for
 done.
