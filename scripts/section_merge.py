@@ -64,7 +64,9 @@ def run(cfg):
                 (r'`NO-BASELINE[^`]*`', 'NO-BASELINE marker')]
         lost = []
         for pat, name in PROT:
-            was = [l for l in frag if re.search(pat, l)]
+            # A line carrying the fragment's own SRC: token IS the fragment's marker line,
+            # not an annotation on the destination — the new block writes its own.
+            was = [l for l in frag if re.search(pat, l) and 'SRC:' not in l]
             for l in was:
                 if l not in block:
                     lost.append(f"{name}: {l.strip()[:90]}")
