@@ -739,7 +739,7 @@ file. **No marker was silently voided in Block 1.**
 ## Resume point
 
 **WEEK 2 COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
-**IN PROGRESS:** Week 3 — L1–L8, RESP-X, O4/O5/O7, AN1, AU1 (14 files). Then Week 5
+**IN PROGRESS:** Week 3 — **L1 done.** Next L2. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
 ophthalmology (E1–E3). **Week 4 is approved for AFTER week 3**, priced by the probe in
 `_meta/merges/WEEK4_PROBE.md` at ~100 additive blocks for 25 files; **run M before J** if
 it is ever cut short.
@@ -806,7 +806,9 @@ suppresses a marker on the ground that the *source* mentions the subject.
 | I5 Weight, Lipids and Fluid Balance | 30 | 3 | 27 | 0 | none |
 | O6 Sexual and Reproductive Health | 34 | 2 | 32 | 0 | none |
 | CV-X Chronic Heart Failure | 28 | 2 | 26 | 0 | none |
-| **TOTAL (11 files)** | **382** | **56** | **329** | **1 (CF-035 R2)** | **none** |
+| **WEEK 2 TOTAL (11 files)** | **382** | **56** | **329** | **1 (CF-035 R2)** | **none** |
+| — *week 3 below* — | | | | | |
+| L1 Hot and Swollen Joint | 30 | 3 | 27 | 0 | none |
 
 **Week 2 ran 15% additive overall** (56 of 385 dispositions), against the ~20% of blocks
 1 and 2. Corpus A + Corpus C together are **denser** in week 2's topics than the
