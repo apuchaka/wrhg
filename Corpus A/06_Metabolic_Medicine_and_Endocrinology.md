@@ -334,6 +334,22 @@ Main problem is ↑PTH that persists despite correction of Ca levels. Parathyroi
 
 ---
 
+### Added from unverified layer — two things that change what happens to the parathyroid patient
+`SRC:I3_Calcium__Parathyroid_and_Bone §0.2, §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Familial hypocalciuric hypercalcaemia — the diagnosis that prevents a pointless parathyroidectomy** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **FHH is a benign autosomal dominant condition** (calcium-sensing receptor mutation) that produces **mild hypercalcaemia with a PTH that is normal or mildly raised — biochemically indistinguishable from mild primary hyperparathyroidism on the tests above.**
+> **The discriminator is the URINE.** In primary hyperparathyroidism urinary calcium excretion is normal or high; **in FHH it is inappropriately LOW**, because the receptor defect makes the kidney reabsorb calcium avidly. **A 24-hour urinary calcium, or a calcium-to-creatinine clearance ratio, separates them.**
+> **Other pointers: lifelong hypercalcaemia rather than new, no symptoms, no stones, no bone disease, and a family history of "high calcium" or of a parathyroidectomy that did not work.**
+> **It needs no treatment. Operating on it does not correct the calcium and removes normal glands** — which is the whole reason the distinction matters, and the reason a urinary calcium belongs in the workup of any mild asymptomatic hypercalcaemia before a surgical referral.
+> `UNVERIFIED — the calcium-to-creatinine clearance ratio cut-off used to distinguish FHH from primary hyperparathyroidism, and current Australian practice on genetic testing; an endocrinology source would settle it.`
+
+> [!warning] **Localisation imaging is for surgical planning, not for diagnosis** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Primary hyperparathyroidism is diagnosed biochemically** — by the calcium and the PTH above, not by a scan.
+> **Sestamibi scintigraphy, ultrasound and four-dimensional CT are done AFTER the decision to operate**, to tell the surgeon where the adenoma is and whether a minimally invasive approach is possible.
+> **A negative localisation scan does not exclude the diagnosis and is not a reason to withhold surgery** — it changes the operation, usually to bilateral neck exploration by an experienced surgeon.
+> The inverse error matters too: **an incidental parathyroid-looking lesion on a scan is not a diagnosis** without the biochemistry.
+
 ## 0.11 Hypoparathyroidism
 
 **D:** decreased PTH → decreased Ca, increased PO4.
