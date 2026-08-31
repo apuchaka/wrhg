@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 1
 ---
 
 > [!warning] **This file is named for oncological emergencies and covers three of them — neutropenic sepsis, tumour lysis syndrome, and SVC obstruction. Two more are owned elsewhere and were not pointed at from here at all** (added in the G9 round, 2026-08-29):
