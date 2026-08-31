@@ -75,6 +75,28 @@ Aspirin 300 mg, O2 if sats <94%, paracetamol 1 g PO/IV (morphine only if severe 
 **PCI possible within 2h:**
 - Prasugrel (clopidogrel if on oral anticoagulant; ticagrelor if high bleeding risk)
 - Obtain radial access (preferred to femoral)
+
+#### Added from unverified layer — why radial, and what femoral access does when it goes wrong
+`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Retroperitoneal haematoma — the one with no visible signs**
+> A **high** femoral puncture bleeds into the retroperitoneum, and there may be **no groin swelling, no bruise and no local tenderness.** The presentation is **back, flank or abdominal pain with hypotension, tachycardia and a falling haemoglobin**, hours after the procedure — and it is frequently attributed to sedation, a vasovagal reaction or analgesia while the patient continues to bleed.
+> **Any hypotension after arterial access is retroperitoneal haemorrhage until excluded**, and the investigation is a **CT abdomen**.
+
+> [!tip] The other access complications
+> - **Pseudoaneurysm** — a **pulsatile** groin mass with a systolic bruit or thrill, and pain, over hours to days. Confirmed on **duplex ultrasound** (to-and-fro flow in the neck). Small ones may thrombose with observation; larger ones are treated with **ultrasound-guided thrombin injection**; surgery is for failure or infection.
+> - **Arteriovenous fistula** — a **continuous** bruit, because flow occurs in both systole and diastole. (Distinct from the dialysis fistula at [[07_Renal_Medicine_and_Urology]].)
+> - **Haematoma** — common and usually conservative, but watch for expansion and for nerve or compartment compression.
+> **This is the reason for the line above.** Radial access has substantially lower rates of all of them, which is why it became the default.
+
+#### Added from unverified layer — mechanical complications of infarction, days 3 to 7
+`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.2` `UNVERIFIED — model knowledge, not source-checked. The timing window, per a named cardiology source.`
+
+> [!danger] A new murmur several days after an infarct is a surgical emergency until proven otherwise
+> - **Papillary muscle rupture** → acute severe mitral regurgitation with flash pulmonary oedema and cardiogenic shock. **The murmur may be soft or absent**, because the regurgitant gradient equalises rapidly across a low-compliance left atrium — so **a quiet murmur here is not reassurance.** §0.21 lists papillary muscle rupture as an aetiology of MR; it does not say it is a post-infarct complication or that the murmur can be silent.
+> - **Ventricular septal rupture** → harsh pansystolic murmur with a thrill, and shock.
+> - **Free wall rupture** → tamponade and pulseless electrical activity.
+> All three need **urgent echocardiography and immediate cardiothoracic involvement.**
 - UFH + bailout GPIIb/IIIa inhibitor
 - PCI with drug-eluting stent
 
@@ -1018,6 +1040,11 @@ Obstruction of blood flow → hypoperfusion of tissues distal to obstruction.
 
 > [!tip] Murmur mnemonics
 > - **RILE:** right-sided murmurs best heard on inspiration; left-sided best heard on expiration
+>
+> **Added from unverified layer** — `SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+> - **Valsalva and standing reduce preload, so most murmurs get QUIETER — with two exceptions that get LOUDER: hypertrophic cardiomyopathy and mitral valve prolapse.** Reduced ventricular volume worsens outflow obstruction in HOCM and increases prolapse in MVP. §0.26 states the HOCM half of this; the MVP half and the general rule are here.
+> - **Squatting and handgrip increase afterload and preload**, which **increases** mitral regurgitation, VSD and aortic regurgitation murmurs and **reduces** the HOCM murmur.
+> - `handgrip` was **0 vault-wide** before this line, so the manoeuvre that best separates MR from HOCM had no entry at all.
 > - **ASMR:** Aortic Stenosis & Mitral Regurgitation during Systole
 > - **ARMS:** Aortic Regurgitation & Mitral Stenosis during Diastole
 
@@ -1166,6 +1193,30 @@ Obstruction of blood flow → hypoperfusion of tissues distal to obstruction.
 - **Chronic/long-term:** identify and address the precipitating stressor if possible (often a major emotional or physical stress trigger); recurrence occurs in a minority — no specific long-term therapy is proven to prevent it.
 
 
+
+### Added from unverified layer — peripartum cardiomyopathy
+`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.3` `UNVERIFIED — model knowledge, not source-checked. Diagnostic timing window, ejection-fraction threshold and all drug choices in pregnancy and lactation, per RANZCOG or SOMANZ.`
+
+**D:** Heart failure with reduced ejection fraction arising in **late pregnancy or the puerperium**, without another identifiable cause. §0.26 Dilated Cardiomyopathy lists "peripartum" as one cause in passing (line 960); **that single word was, before this block, the entire coverage of it in this vault.** `PENDING_GUIDELINE_CHECKS` **P5-A30** already flags it as one of "the cardiovascular four".
+
+> [!danger] It is missed because its symptoms **are** the symptoms of pregnancy
+> **Breathlessness, fatigue, ankle swelling and reduced exercise tolerance are all normal in late pregnancy and the puerperium** — which is exactly why a failing heart gets attributed to being pregnant. **Women have died after being reassured.**
+> **Features that should prompt an echocardiogram rather than reassurance:**
+> **orthopnoea and paroxysmal nocturnal dyspnoea** · **dyspnoea at rest** · a **resting tachycardia that does not settle** · a **new murmur or third heart sound** · **raised JVP** · haemoptysis.
+> **The threshold for echocardiography in a breathless peripartum woman should be low.** Reassurance is the intervention with the worst downside here.
+
+> [!warning] The differential in a breathless peripartum woman
+> **Pulmonary embolism** — pregnancy and the puerperium are prothrombotic, see §0.30 · **amniotic fluid embolism** · **pre-eclampsia with pulmonary oedema**, see [[16_08-09_Antenatal_and_Perinatal_Problems]] · **pre-existing or undiagnosed valvular disease unmasked by the volume load of pregnancy**, particularly mitral stenosis, see §0.21 · anaemia · thyrotoxicosis · infection.
+
+**S/Smx:** as for heart failure (§0.28), against a background where each symptom individually is explicable by the pregnancy itself.
+
+**Ix:** **echocardiography** (*why:* it is the diagnostic test and the reason to lower the threshold — it distinguishes a failing ventricle from physiological breathlessness within minutes; *what:* reduced ejection fraction, chamber dilatation). ECG, BNP or NT-proBNP, FBC, UEC, TFTs (*why:* the differential above; *what:* as per §0.28). Consider CTPA or V/Q for PE (*why:* the commonest alternative and also lethal; *what:* filling defect).
+
+**Mx:** heart failure management as §0.28, **with agent choice constrained by pregnancy and breastfeeding** — ACE inhibitors and ARBs are contraindicated antenatally (see §0.2 and [[16_08-09_Antenatal_and_Perinatal_Problems]]). Joint obstetric, cardiology and anaesthetic involvement. `UNVERIFIED — which agents are used instead, and in what order, per RANZCOG or SOMANZ.`
+
+**P:** a proportion recover ventricular function and a proportion do not. **Counselling about future pregnancies is a specific and necessary conversation**, since recurrence risk is meaningful and is higher where function has not recovered. `UNVERIFIED — recovery and recurrence figures.`
+
+---
 
 ## 0.28 Chronic Heart Failure
 
@@ -1552,6 +1603,34 @@ Right heart failure arising from lung disease specifically — COPD, PE, interst
 
 **Mx:**
 - **Immediate/acute** (severe/limb-threatening PAD — acute limb ischaemia): ABCDE + analgesia (e.g. IV opioids), IV UFH to prevent thrombus enlargement, urgent vascular review.
+
+#### Added from unverified layer — embolic versus thrombotic, and what happens when flow is restored
+`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.`
+
+> [!tip] Which two of the six Ps matter most, and why the history does the work
+> Of the six Ps in the box above, **paraesthesia and paralysis are the critical two.** The
+> first four indicate ischaemia; **sensory and motor loss indicate that nerve and muscle are
+> dying and the limb is immediately threatened.**
+>
+> | | **Embolic** | **Thrombotic** (on existing disease) |
+> |---|---|---|
+> | Onset | Sudden, dramatic | More gradual, often less severe |
+> | Prior claudication | **Absent** | Usually present |
+> | Contralateral pulses | **Normal** | Also abnormal |
+> | Source | **AF**, mural thrombus post-MI, aneurysm, valve | Existing atherosclerosis |
+> | Treatment | Embolectomy | Bypass, thrombolysis, angioplasty |
+>
+> **A cold pulseless leg in a patient with atrial fibrillation and no history of claudication
+> is embolic** — and the history plus the *contralateral* pulse examination do most of the
+> diagnostic work, before any imaging.
+
+> [!danger] Reperfusion injury — restoring the flow is not the end of it
+> Revascularising an ischaemic limb releases **potassium, myoglobin and acid** into the
+> circulation and causes **compartment syndrome from muscle oedema.** This is the same
+> physiology as crush injury: **hyperkalaemia, rhabdomyolysis and acute kidney injury** — see
+> [[11_01_Ortho_-_Orthopaedic_Emergencies]] for compartment syndrome and rhabdomyolysis, and
+> [[NEW_Drugs_07_Blood_and_Electrolytes]] for the hyperkalaemia sequence.
+> **Anticipate it before the vascular team restores flow**, not after the potassium comes back.
 - **Definitive:** angioplasty ± stent; endovascular intervention for short-segment stenosis, aortoiliac disease, high-risk patients; open surgical revascularisation for long-segment lesions (>10cm), multifocal lesions, common femoral artery lesions, purely infrapopliteal disease; amputation as worst-case option for non-salvageable limb ischaemia.
 - **Chronic/long-term:** stop smoking, manage comorbidities (DM, HTN); statin (atorvastatin 80mg) + clopidogrel for all patients regardless of intervention + analgesia for claudication; supervised exercise training programme (proven to improve walking distance).
 
