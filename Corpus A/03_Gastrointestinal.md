@@ -1713,8 +1713,9 @@ Clear discharge advice with return criteria for anyone sent home undiagnosed.
 > **How it was buried:** B was merged as an ADDITION, because the gap check that authorised it searched Corpus A alone and A lives in Corpus C. No conflict was raised at the time.
 > **Resolve against:** RACS resources or a current clinical examination text. Both open. **Not adjudicated.**
 
-### 0.41.5 Added from unverified layer — generalised pain and the catastrophes
+### 0.41.5 Generalised Abdominal Pain and the Catastrophes — from unverified layer
 `SRC:C1_Acute_Abdomen §0.9` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.41.5 fragment; its §0.37 and §0.6.6 pointers are carried.*
 
 > [!danger] Ruptured abdominal aortic aneurysm — the mimic of renal colic
 > **Sudden abdominal, back or flank pain, with hypotension and a pulsatile expansile abdominal mass.** Haematuria may be present, which is precisely why it is misdiagnosed as ureteric colic.
@@ -1724,24 +1725,27 @@ Clear discharge advice with return criteria for anyone sent home undiagnosed.
 > [!danger] Acute mesenteric ischaemia — pain out of proportion to signs
 > **Severe, poorly localised, unremitting abdominal pain with a soft, minimally tender abdomen** — the discordance between the patient's distress and the examination findings is the diagnosis. Signs of peritonism appear late, once the bowel is infarcted and the mortality is high.
 > Risk factors: **atrial fibrillation** and other embolic sources, atherosclerosis, hypovolaemia, low cardiac output, vasopressors, hypercoagulable states.
-> **A markedly raised lactate in a patient whose abdomen feels unremarkable should be taken very seriously.** The investigation is **CT mesenteric angiography**, and the treatment is urgent revascularisation and resection.
-> See §0.37 Ischaemic Bowel Disease for the disease entry.
+> **A markedly raised lactate in a patient whose abdomen feels unremarkable should be taken very seriously.** The investigation is **CT mesenteric angiography**, and the treatment is urgent revascularisation and resection. See §0.37 Ischaemic Bowel Disease for the disease entry.
+> `TODO:link — F0-2 §0.5 lactic acidosis (unmerged)`.
 
 > [!tip] The other generalised causes
 > **Perforated viscus** — sudden onset, rigid abdomen, free gas.
-> **Bowel obstruction** — colicky pain, distension, vomiting, absolute constipation. **The critical distinction is simple versus strangulated obstruction**: continuous rather than colicky pain, tachycardia, fever, peritonism and a raised lactate suggest strangulation and mandate urgent surgery. See §0.19 SBO and §0.20 LBO.
+> **Bowel obstruction** — colicky pain, distension, vomiting, absolute constipation. **The critical distinction is simple versus strangulated obstruction**: continuous rather than colicky pain, tachycardia, fever, peritonism and a raised lactate suggest strangulation and mandate urgent surgery. Cross-refer §0.19 / §0.20 Bowel Obstruction.
 > **Peritonitis** of any cause.
-> **Spontaneous bacterial peritonitis** in a patient with ascites — may present with only fever, abdominal discomfort or encephalopathy, and **requires a diagnostic ascitic tap**, which is under-performed. The diagnostic neutrophil count is owned by **§0.6.6**, where it is stated as an `inherited` figure — not restated here.
-> **Diabetic ketoacidosis** — abdominal pain is common and can be severe enough to mimic a surgical abdomen. See [[06_Metabolic_Medicine_and_Endocrinology]].
+> **Spontaneous bacterial peritonitis** in a patient with ascites — may present with only fever, abdominal discomfort or encephalopathy, and **requires diagnostic ascitic tap**, which is under-performed. The diagnostic neutrophil count is owned by §0.6.6 Spontaneous bacterial peritonitis (SBP). Cross-refer §0.38 Cirrhosis.
+> **Diabetic ketoacidosis** — abdominal pain is common and can be severe enough to mimic a surgical abdomen. Cross-refer [[06_Metabolic_Medicine_and_Endocrinology]] Diabetic Ketoacidosis (DKA).
 > **Gastroenteritis** — common, but **a diagnosis of exclusion in the elderly**, where mesenteric ischaemia and obstruction present with vomiting and diarrhoea.
 
-**Ix:** **Serial lactate** (*why:* the most useful single marker in a generalised abdomen with equivocal signs; *what:* elevation, and failure to clear). **CT angiography** where mesenteric ischaemia is suspected (*why:* the diagnostic test, and delay costs bowel and life; *what:* arterial occlusion, bowel wall changes, pneumatosis, portal venous gas). **Bedside aortic ultrasound** (*why:* fast, and can identify an aneurysm before the patient is moved; *what:* aortic diameter, free fluid). Erect CXR and CT (*why:* free gas; *what:* perforation). **Diagnostic ascitic tap** in any patient with ascites and abdominal pain or fever (*why:* SBP is diagnosed by neutrophil count on the ascitic fluid and is otherwise missed; *what:* ascitic neutrophil count and culture — threshold owned by §0.6.6). ECG and troponin, glucose and ketones (*why:* the extra-abdominal causes; *what:* infarction, DKA).
+**Ix:** **Serial lactate** (*why:* the most useful single marker in a generalised abdomen with equivocal signs; *what:* elevation, and failure to clear). **CT angiography** where mesenteric ischaemia is suspected (*why:* the diagnostic test, and delay costs bowel and life; *what:* arterial occlusion, bowel wall changes, pneumatosis, portal venous gas). **Bedside aortic ultrasound** (*why:* fast, and can identify an aneurysm before the patient is moved; *what:* aortic diameter, free fluid). Erect CXR and CT (*why:* free gas; *what:* perforation). **Diagnostic ascitic tap** in any patient with ascites and abdominal pain or fever (*why:* SBP is diagnosed by neutrophil count on the ascitic fluid and is otherwise missed; *what:* ascitic neutrophil count and culture — `UNVERIFIED — the diagnostic neutrophil threshold`). ECG and troponin, glucose and ketones (*why:* the extra-abdominal causes; *what:* infarction, DKA).
 
-**Mx — immediate:** resuscitate aggressively. Nil by mouth, nasogastric tube for obstruction, IV fluids, broad-spectrum antibiotics where perforation or ischaemia is suspected, analgesia. **Immediate surgical and, where relevant, vascular involvement.** Do not delay theatre for imaging in an unstable patient with a suspected ruptured aneurysm. `UNVERIFIED — empirical antibiotic choice for suspected perforation or ischaemia; Therapeutic Guidelines (login). Look up at point of use.`
+### 0.9.1 Mx – Immediate
+Resuscitate aggressively. Nil by mouth, nasogastric tube for obstruction, IV fluids, broad-spectrum antibiotics where perforation or ischaemia is suspected, analgesia. **Immediate surgical and, where relevant, vascular involvement.** Do not delay theatre for imaging in an unstable patient with a suspected ruptured aneurysm.
 
-**Mx — chronic/long-term:** anticoagulation and rhythm management where an embolic source is found. Cardiovascular secondary prevention. Nutritional support and stoma care after extensive resection.
+### 0.9.2 Mx – Definitive
+Laparotomy, revascularisation, resection, or endovascular repair as indicated.
 
----
+### 0.9.3 Mx – Chronic/long-term
+Anticoagulation and rhythm management where an embolic source is found. Cardiovascular secondary prevention. Nutritional support and stoma care after extensive resection.
 
 ### 0.41.6 Added from unverified layer — the acute abdomen in special groups
 `SRC:C1_Acute_Abdomen §0.11` `UNVERIFIED — model knowledge, not source-checked.`
