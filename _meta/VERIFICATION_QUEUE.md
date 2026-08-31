@@ -5,17 +5,42 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-31
 
-496 open items. Close one by editing its marker in the file, then rerunning `scan`.
+1311 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
-# Actionable — openly accessible Australian sources (71)
+# Actionable — openly accessible Australian sources (148)
 
 These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No login needed. **This is the working queue.**
 
-## R1 — could kill someone this rotation (25)
+## R1 — could kill someone this rotation (50)
 
 - **Corpus A/01_Cardiovascular.md** L464 · _0.4.1 Stroke/bleeding risk scoring_ · `inherited` — **R1** whether current Australian practice uses CHA₂DS₂-VASc or the newer CHA₂DS₂-VA, which REMOVES SEX as a criterion and would make this sex-split threshold obsolete. Corpus C (NEW_Exam_Manoeuvres_and_Procedures) writes "CHA₂DS₂-VA/VASc", naming both. Check against the Heart Foundation and Stroke Foundation, both open.
 - **Corpus A/04_Neurology.md** L1209 · _Haemorrhagic Stroke_ · `inherited` — **R1** all four figures here (the 150–220 trigger band, the ≤140 target, the 60mmHg maximum fall and the 1h window) against the Stroke Foundation Living Guidelines for Stroke Management, which is open and free. This is an inherited figure that has never been source-checked, and every part of it changes management.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L261 · _Hypothermia_ · `inherited` — the core temperature below which defibrillation and drugs are withheld or spaced, and the rewarming rate; ANZCOR.
+- **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L128 · _0.4.1 Mx – Immediate_ · `UNSET` — compression rate, compression depth, compression-to-ventilation ratio, defibrillation energy levels, and the dose and interval for adrenaline and amiodarone are all deliberately omitted here. Obtain them directly from ANZCOR Guideline 11 (adult ALS) and Guideline 12/13 (paediatric and newborn). The paediatric adrenaline timing error already found in this corpus came from exactly this category of figure.
+- **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L131 · _0.4.2 Mx – Definitive_ · `UNSET` — oxygen saturation targets, CO₂ targets and temperature management parameters require verification against current ANZCOR post-resuscitation guidance.
+- **Corpus B-new/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L166 · _0.5.1 Mx – Immediate_ · `UNSET` — dexamethasone and prednisolone dosing for croup, nebulised adrenaline dose and repeat interval, and severity grading criteria are omitted; obtain from RCH and local paediatric guidelines.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L103 · _0.3 Hyperthermia versus Fever, and the Drug-Induced Hyperthermias_ · `UNSET` — dantrolene dosing and reconstitution requirements from the ANZCA crisis manual and local protocol.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L162 · _0.5 Hypothermia_ · `UNSET` — the specific exceptions and the potassium threshold used to determine futility require verification against ANZCOR.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L168 · _0.5 Hypothermia_ · `UNSET` — the temperature thresholds and the modified drug and shock intervals require verification against ANZCOR Guideline 11.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L232 · _0.7 Drowning and Submersion Injury_ · `UNSET` — the exact number of initial rescue breaths and the modified sequence require verification against ANZCOR Guideline 9.3.2.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L64 · _0.2 Burns — Resuscitation and Management_ · `UNSET` — the Parkland (or modified Parkland) formula, the crystalloid volume in mL/kg per %TBSA, the proportion given in the first eight hours, the timing reference point (from time of INJURY, not from time of presentation — this is the part most often got wrong), the urine output targets for adults and children, and the paediatric maintenance additions are ALL omitted from this file. Obtain them from ANZBA and your local burns protocol. This is precisely the category of figure this corpus has previously carried incorrectly.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L182 · _0.5 Symptomatic Bradycardia_ · `UNSET` — atropine dose and maximum, infusion agents and rates, and transcutaneous pacing settings are omitted; obtain from ANZCOR Guideline 11.9.
+- **Corpus B-new/D3_Stroke_and_Focal_Neurological_Deficit.md** L37 · _0.1 Acute Stroke — Recognition and Hyperacute Management_ · `UNSET` — the time windows, agent, dose, and the full inclusion and exclusion criteria for both therapies are omitted. These have changed repeatedly and must come from the Stroke Foundation guideline and your local pathway.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L298 · _0.9.1 Mx – Immediate_ · `UNSET` — adrenaline IM dose by age and weight, the repeat interval, IV infusion rates, and paediatric fluid bolus volumes are all deliberately omitted here. Obtain them directly from the ASCIA Acute Management of Anaphylaxis guideline and ANZCOR Guideline 9.2.7. A paediatric adrenaline timing error has already been found in this corpus and originated in exactly this section.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L114 · _0.4 Paediatric Diabetic Ketoacidosis_ · `UNSET` — treatment agent, dose and route for suspected cerebral oedema require verification against the RCH clinical practice guideline.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L124 · _0.4.1 Mx – Immediate_ · `UNSET` — all rates, volumes, the delay before insulin, and the shock-bolus criteria are omitted; obtain from RCH and local guidance.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L269 · _0.9.1 Mx – Immediate_ · `UNSET` — bolus volumes, maintenance calculations and deficit replacement rates for adults and children are omitted; use local and RCH guidance.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L244 · _0.8 Paediatric Sepsis_ · `UNSET` — age-specific vital sign ranges require verification against the RCH or your local paediatric observation chart.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L255 · _0.8.1 Mx – Immediate_ · `UNSET` — bolus volume in mL/kg, the number of boluses before inotropes, and all antibiotic doses are omitted; use RCH guidelines and local protocol.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L110 · _0.3.2 Mx – Definitive_ · `UNSET` — saturation, CO₂ and temperature targets from ANZCOR post-resuscitation guidance.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L127 · _0.4 Paediatric Resuscitation_ · `UNSET` — compression-to-ventilation ratios (which differ for one versus two rescuers), compression depth as a proportion of chest diameter, defibrillation energy in J/kg, and adrenaline dosing are all omitted. Obtain from ANZCOR Guideline 12 series and the RCH resuscitation guideline.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L155 · _0.5 Neonatal Resuscitation_ · `UNSET` — heart rate thresholds, inflation pressures, compression-to-ventilation ratio for newborns (which differs from all other age groups), and adrenaline dosing are omitted. Obtain from ANZCOR Guideline 13 series.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L158 · _0.5 Neonatal Resuscitation_ · `UNSET` — starting oxygen concentration by gestation and the minute-by-minute saturation targets require verification against ANZCOR Guideline 13.4.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L254 · _0.8 Procedural Sedation_ · `UNSET` — all agent doses, titration increments, combinations, fasting guidance and reversal agent dosing are omitted; obtain from ACEM guidance and local policy.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L281 · _0.6 Advance Care Planning in Practice_ · `UNSET` — the SA Health goals-of-care and resuscitation planning forms and their current names and structure.
+- **Corpus B-new/K1_Fever_Workup.md** L174 · _0.4 Fever in the Returning Traveller_ · `unverified` — check the SA Health notifiable conditions list
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L86 · _0.3 Resuscitation and the Sick Child Pathway_ · `unverified` — the ratios, rates, depths and energy levels. Obtain from ANZCOR.
+- **Corpus B-new/M2_Fever_in_Children.md** L195 · _0.6 Specific Infections and the Australian Context_ · `unverified` — check the SA Health list
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L133 · _0.4.1 Mx – Immediate_ · `unverified` — compression rate, compression depth, compression-to-ventilation ratio, defibrillation energy levels, and the dose and interval for adrenaline and amiodarone are all deliberately omitted here. Obtain them directly from ANZCOR Guideline 11 (adult ALS) and Guideline 12/13 (paediatric and newborn). The paediatric adrenaline timing error already found in this corpus came from exactly this category of figure.
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L136 · _0.4.2 Mx – Definitive_ · `unverified` — oxygen saturation targets, CO₂ targets and temperature management parameters require verification against current ANZCOR post-resuscitation guidance.
 - **Corpus B/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L171 · _0.5.1 Mx – Immediate_ · `unverified` — dexamethasone and prednisolone dosing for croup, nebulised adrenaline dose and repeat interval, and severity grading criteria are omitted; obtain from RCH and local paediatric guidelines.
@@ -39,7 +64,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus B/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L259 · _0.8 Procedural Sedation_ · `unverified` — all agent doses, titration increments, combinations, fasting guidance and reversal agent dosing are omitted; obtain from ACEM guidance and local policy.
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L286 · _0.6 Advance Care Planning in Practice_ · `unverified` — the SA Health goals-of-care and resuscitation planning forms and their current names and structure.
 
-## R2 — changes disposition (27)
+## R2 — changes disposition (56)
 
 - **Corpus A/01_Cardiovascular.md** L1200 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — model knowledge, not source-checked. Diagnostic timing window, ejection-fraction threshold and all drug choices in pregnancy and lactation, per RANZCOG or SOMANZ.
 - **Corpus A/03_Gastrointestinal.md** L572 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — the Atlanta definitions and the organ-failure criteria they use (the modified Marshall score); RACGP or a gastroenterology reference. Ranson, BISAP and APACHE II are further prognostic scores in use — their components and thresholds are deliberately not stated here, and neither is the 48-hour CRP cut-off.
@@ -54,6 +79,35 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L279 · _Drowning and submersion_ · `inherited` — the observation period; ANZCOR or an emergency medicine reference.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L67 · _0.3.2 Added from unverified layer — swallowed foreign body_ · `inherited` — the time window within which removal is required, whether honey or sucralfate is recommended before retrieval in Australian practice, and the observation protocol after removal; Poisons Information Centre 13 11 26, RCH or Queensland Children's Health.
 - **Corpus A/15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support.md** L153 · _Added from unverified layer — two ANZCOR points not stated above_ · `inherited` — **the saturation targets by minute of life, and the threshold and increments for escalating oxygen. Per ANZCOR Guideline 13.4.** Deliberately not stated here: these are minute-by-minute figures and a wrong one changes management.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L107 · _0.3 Substitute Decision-Making and Advance Care Directives_ · `UNSET` — eligibility criteria, the process, the practitioner training requirements, and the rules about initiating a discussion all require verification against the current Act and SA Health guidance. This is an area where the law is recent, detailed, and where getting the procedure wrong has serious consequences.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L37 · _0.1 Burns — Assessment_ · `UNSET` — the TBSA percentage thresholds for referral, which differ for adults and children, are omitted. Obtain from ANZBA and your state burns service referral criteria.
+- **Corpus B-new/A8_Foreign_Bodies_by_Site.md** L186 · _0.6 Swallowed Foreign Body_ · `UNSET` — the specific time windows for removal in each category, the object size and length thresholds beyond which passage is unlikely, and the recommended observation intervals require verification against RCH and current gastroenterology guidance.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L132 · _0.4 Atrial Fibrillation and Flutter_ · `UNSET` — score components, point allocations and the thresholds at which anticoagulation is recommended require verification against current CSANZ/Heart Foundation guidance.
+- **Corpus B-new/B5_Murmurs__Endocarditis_and_Vascular_Disease.md** L122 · _0.3.2 Mx – Definitive_ · `UNSET` — every agent, its safety in pregnancy and lactation, the ejection fraction threshold for anticoagulation, and the status of bromocriptine require verification against SOMANZ and current cardio-obstetric guidance.
+- **Corpus B-new/CV-X_Chronic_Heart_Failure.md** L118 · _0.3 HFrEF Management — The Four Pillars_ · `unverified` — all agents, starting doses, target doses, titration intervals and PBS authority criteria.
+- **Corpus B-new/D2_Altered_Consciousness_and_Cognition.md** L163 · _0.3.2 Mx – Definitive_ · `UNSET` — agents, PBS authority criteria, and the assessment requirements for continuation.
+- **Corpus B-new/D6_Seizures_and_Movement_Disorders.md** L44 · _0.1 Seizures — Classification and the First Seizure_ · `UNSET` — all non-driving periods, from Austroads Assessing Fitness to Drive.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L325 · _0.10 Australian Elapid Snakebite_ · `UNSET` — bandage pressure guidance, application technique and the criteria and timing for removal require verification against ANZCOR Guideline 9.4.8 and the Australian Snakebite Project consensus guideline.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L70 · _0.2.1 Mx – Immediate_ · `UNSET` — bolus volumes for adults and children, and the number of boluses before escalating to vasopressor support, are omitted; use local and RCH guidance.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L25 · _0.1 Acute Asthma_ · `UNSET` — the specific saturation and peak flow thresholds defining each severity band require verification against the Australian Asthma Handbook.
+- **Corpus B-new/G4_Chronic_Rash__Pruritus_and_Pigment.md** L99 · _0.2 Psoriasis_ · `unverified` — agents, doses and PBS criteria.
+- **Corpus B-new/GER1_Comprehensive_Geriatric_Assessment.md** L285 · _0.6 Osteoporosis and Fracture Prevention_ · `UNSET` — all agents, doses, and the PBS authority criteria that determine what is actually prescribable in Australia.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L30 · _0.1 Continence_ · `UNSET` — agents, doses and PBS criteria.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L133 · _0.5 Lifestyle Risk and Behaviour Change_ · `unverified` — agents, availability and PBS criteria.
+- **Corpus B-new/H3_Acute_Kidney_Injury_and_CKD.md** L153 · _0.4 Chronic Kidney Disease_ · `unverified` — agents, eGFR thresholds for initiation, and PBS criteria.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L77 · _0.2 Type 2 Diabetes — Management_ · `unverified` — all agents, doses, sequencing and PBS criteria.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L140 · _0.3 Lipid Disorders_ · `unverified` — agents, intensities, targets and PBS authority criteria.
+- **Corpus B-new/J3_Bleeding_and_Thrombosis.md** L152 · _0.5 Management and Anticoagulant Choice_ · `unverified` — agents, doses, renal thresholds and PBS criteria.
+- **Corpus B-new/J5_Oncological_Emergencies_and_Palliative_Care.md** L120 · _0.4 Palliative Care Principles_ · `unverified` — every aspect: the eligibility criteria, the process, the timeframes, who may participate, the conscientious objection provisions, and — importantly — the rules about who may RAISE the subject, which differ between Australian jurisdictions and have been the subject of amendment. Verify against the current SA Act and SA Health guidance before saying anything about it to a patient.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L69 · _0.2 Non-Occupational Exposure, PEP and PrEP_ · `unverified` — NPEP eligibility criteria, risk categories and regimens from ASHM guidelines.
+- **Corpus B-new/K4_Allergy_and_Clinical_Immunology.md** L264 · _0.7 Immunotherapy and Long-Term Allergy Management_ · `unverified` — indications and PBS authority requirements.
+- **Corpus B-new/L3_Muscle_Symptoms_and_Widespread_Pain.md** L130 · _0.3 Giant Cell Arteritis — The Overlap_ · `unverified` — availability and PBS criteria in Australia.
+- **Corpus B-new/N2_Acute_Behavioural_Disturbance_and_Substance_Use.md** L76 · _0.2 Alcohol Use Disorder_ · `unverified` — agents, doses, contraindications and PBS criteria.
+- **Corpus B-new/N4_Mood_Disorders.md** L200 · _0.5 Mood Stabilisers_ · `unverified` — the current TGA requirements.
+- **Corpus B-new/N7_Sleep_Disorders.md** L148 · _0.5 Excessive Daytime Sleepiness and Narcolepsy_ · `unverified` — agents, PBS criteria and access.
+- **Corpus B-new/O5_Pelvic_and_Vulval_Conditions.md** L218 · _0.6 Prolapse and Urinary Incontinence_ · `unverified` — the current TGA position and available products.
+- **Corpus B-new/RESP-X_Occupational_and_Chronic_Lung_Disease.md** L41 · _0.1 Interstitial Lung Disease_ · `unverified` — antifibrotic agents, PBS criteria and monitoring.
+- **Corpus B-new/RESP-X_Occupational_and_Chronic_Lung_Disease.md** L224 · _0.5 Sleep-Disordered Breathing_ · `unverified` — the Austroads criteria.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L112 · _0.3 Substitute Decision-Making and Advance Care Directives_ · `unverified` — eligibility criteria, the process, the practitioner training requirements, and the rules about initiating a discussion all require verification against the current Act and SA Health guidance. This is an area where the law is recent, detailed, and where getting the procedure wrong has serious consequences.
 - **Corpus B/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L42 · _0.1 Burns — Assessment_ · `unverified` — the TBSA percentage thresholds for referral, which differ for adults and children, are omitted. Obtain from ANZBA and your state burns service referral criteria.
 - **Corpus B/A8_Foreign_Bodies_by_Site.md** L191 · _0.6 Swallowed Foreign Body_ · `unverified` — the specific time windows for removal in each category, the object size and length thresholds beyond which passage is unlikely, and the recommended observation intervals require verification against RCH and current gastroenterology guidance.
@@ -69,7 +123,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus C/NEW_Investigations_Gastroenterology.md** L29 · _0.1 Liver Function Panel (ALT, AST, ALP, Bilirubin, GGT)_ · `snippet` — the R-ratio cut-offs are attributed to the American College of Gastroenterology, not an Australian source. Resolve against GESA (Gastroenterological Society of Australia).
 - **Corpus C/NEW_Investigations_Renal_and_Urology.md** L50 · _0.2 Urine ACR (Albumin-to-Creatinine Ratio)_ · `snippet` — KDIGO is an international body, not an Australian one. Australia follows KDIGO staging via Kidney Health Australia's CKD management handbook — confirm the staging and the referral thresholds against Kidney Health Australia.
 
-## R3 — everything else (19)
+## R3 — everything else (42)
 
 - **Corpus A/01_Cardiovascular.md** L324 · _0.3 Ischaemic Heart Disease_ · `inherited` — the CCS class descriptors themselves, per Heart Foundation or CSANZ. Not reproduced here.
 - **Corpus A/01_Cardiovascular.md** L622 · _0.9.1 Supraventricular tachycardia (SVT)_ · `inherited` — model knowledge, not source-checked. The strain pressure and duration, per ANZCOR or a named emergency medicine source.
@@ -78,10 +132,33 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/01_Cardiovascular.md** L1439 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — the duration, per CSANZ or Heart Foundation.
 - **Corpus A/03_Gastrointestinal.md** L1376 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — the recommended timing of restarting; RACGP or your health network's gastroenterology guidance.
 - **Corpus A/04_Neurology.md** L858 · _Added from unverified layer — current terminology, and two counselling points_ · `inherited` — the incidence, and how Australian guidance recommends the conversation be framed and timed; Epilepsy Action Australia, or RACGP.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L229 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — current eligibility for JE vaccination in Australia, per the Australian Immunisation Handbook and state health advice.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L234 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — current Australian advice on conception delay after travel to an area with Zika transmission, and which areas currently qualify; Smartraveller and the Australian Immunisation Handbook would settle it.
 - **Corpus A/10_08_Haemonc_-_Blood_Products_and_Transfusion.md** L150 · _Blood product transfusion complications_ · `inherited` — model knowledge, not source-checked. Timing window and investigation sequence, per the NBA or your transfusion service.
 - **Corpus A/17_06_Subfertility_and_OHSS.md** L106 · _Ovarian hyperstimulation syndrome (OHSS)_ · `inherited` — this grading is attributed to the RCOG, a UK college, and is not confirmed as Australian practice. Resolve against RANZCOG.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L317 · _Added from unverified layer — two things done on admission_ · `inherited` — whether an Australian bundle is specified by name, and its components; NSW ACI or your health network.
 - **Corpus A/History-Taking.md** L808 · _1.31 Headache_ · `inherited` — whether an validated clinical decision rule for headache red flags is recommended in Australian practice, per RACGP.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L186 · _0.5 Adverse Drug Reaction_ · `UNSET` — confirm current TGA reporting mechanisms and what must be reported.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L155 · _0.5 Hypothermia_ · `UNSET` — the temperature boundaries defining each grade require verification against ANZCOR; no values are stated here.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L173 · _0.5 Minor Traumatic Wound_ · `UNSET` — the vaccination schedule, booster intervals and immunoglobulin indications require verification against the Australian Immunisation Handbook.
+- **Corpus B-new/A8_Foreign_Bodies_by_Site.md** L21 · _0.1 Foreign Bodies — General Principles_ · `UNSET` — the removal time window, the role of honey or sucralfate as a pre-hospital temporising measure, and post-removal surveillance imaging all require verification against current RCH and Poisons Information Centre guidance.
+- **Corpus B-new/AN1_Perioperative_Care.md** L94 · _0.2 Airway Assessment and Anaesthetic Technique_ · `unverified` — the lipid emulsion regimen; follow the ANZCA/ASRA protocol on the wall.
+- **Corpus B-new/AN1_Perioperative_Care.md** L117 · _0.3 Perioperative Medication Management_ · `unverified` — this is recent and changing; check current ANZCA guidance.
+- **Corpus B-new/AN1_Perioperative_Care.md** L135 · _0.4 Fasting, Fluids and Enhanced Recovery_ · `unverified` — the exact intervals and the categories, from ANZCA guidance.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L18 · _0.1 Tachyarrhythmia — The Approach_ · `UNSET` — synchronised cardioversion energies, sedation, and the number of attempts before escalation are omitted; obtain from ANZCOR Guideline 11.9.
+- **Corpus B-new/CV-X_Chronic_Heart_Failure.md** L186 · _0.4 HFpEF Management_ · `unverified` — agents, doses and current Australian PBS eligibility for SGLT2 inhibitors in HFpEF, which may lag the evidence.
+- **Corpus B-new/D6_Seizures_and_Movement_Disorders.md** L116 · _0.3 Epilepsy Management_ · `UNSET` — the current TGA requirements and the specific conditions under which valproate may be used.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L117 · _0.4 Paediatric Diabetic Ketoacidosis_ · `UNSET` — every paediatric figure is omitted here. Use the RCH Clinical Practice Guideline on DKA and your local paediatric protocol. Weight-based calculation is mandatory and must not be estimated from adult figures.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L47 · _0.1 Obesity_ · `unverified` — agents, doses, and current PBS and supply status, which is changing.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L198 · _0.5 Bites, Wounds and Australian Exposures_ · `unverified` — the washing duration, the PEP schedule and immunoglobulin indications, from the Australian Immunisation Handbook and state health guidance.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L252 · _0.6 Vector-Borne and Zoonotic Disease in Australia_ · `unverified` — the current recommended removal technique and agents from ASCIA and state health guidance.
+- **Corpus B-new/K4_Allergy_and_Clinical_Immunology.md** L139 · _0.4 Food Allergy and the Prevention of Allergy_ · `unverified` — the exact ASCIA infant feeding recommendations, including advice for high-risk infants and the frequency of ongoing exposure.
+- **Corpus B-new/M7_Adolescent_and_Behavioural_Health.md** L80 · _0.3 Confidentiality, Consent and the Mature Minor_ · `unverified` — the SA provisions, the relevant ages, and the requirements (including any requirement for a second practitioner's opinion). Verify against the Consent to Medical Treatment and Palliative Care Act 1995 (SA) and SA Health policy. Do NOT apply another jurisdiction's rules.
+- **Corpus B-new/N1_Mental_State_Examination_and_Risk.md** L176 · _0.5 Mental Health Legislation in South Australia_ · `unverified` — every provision below. Order names and levels, durations, who may make and revoke them, review timeframes and forms must be confirmed against the current Act, SA Health policy and your health network's documentation. Applying another state's framework, or an outdated version of this one, is a legal error.
+- **Corpus B-new/N7_Sleep_Disorders.md** L75 · _0.2 Insomnia_ · `unverified` — doses, formulations and PBS availability.
+- **Corpus B-new/N8_Eating_Disorders.md** L151 · _0.5 Bulimia Nervosa, Binge Eating Disorder and ARFID_ · `unverified` — availability and PBS status in Australia.
+- **Corpus B-new/O4_Abnormal_and_Menstrual_Bleeding.md** L225 · _0.6 Menopause and Hormone Therapy_ · `unverified` — all agents, doses, formulations and PBS availability.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L101 · _0.2 The Major Sexually Transmissible Infections_ · `unverified` — the current screening interval, ages and self-collection pathway from the National Cervical Screening Program.
 - **Corpus B/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L191 · _0.5 Adverse Drug Reaction_ · `unverified` — confirm current TGA reporting mechanisms and what must be reported.
 - **Corpus B/A6_Thermal_and_Environmental_Injury.md** L160 · _0.5 Hypothermia_ · `unverified` — the temperature boundaries defining each grade require verification against ANZCOR; no values are stated here.
 - **Corpus B/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L178 · _0.5 Minor Traumatic Wound_ · `unverified` — the vaccination schedule, booster intervals and immunoglobulin indications require verification against the Australian Immunisation Handbook.
@@ -91,12 +168,18 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus B/F0-2_Acid-Base__DKA_and_Fluid_States.md** L122 · _0.4 Paediatric Diabetic Ketoacidosis_ · `unverified` — every paediatric figure is omitted here. Use the RCH Clinical Practice Guideline on DKA and your local paediatric protocol. Weight-based calculation is mandatory and must not be estimated from adult figures.
 - **Corpus C/NEW_Drugs_08_Dermatological.md** L84 · _0.2.1 Topical Corticosteroids_ · `snippet` — paediatric FTU counts by age band, per RCH.
 
-# Partly actionable — an open source settles part, a login source settles the rest (11)
+# Partly actionable — an open source settles part, a login source settles the rest (22)
 
 **These name BOTH kinds of source.** Work the open-source part now; the remainder stays a standing instruction to look up at the point of use, exactly as a login-only item does. Do not file these as done when the open part is closed.
 
-## R1 — could kill someone this rotation (6)
+## R1 — could kill someone this rotation (12)
 
+- **Corpus B-new/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L68 · _0.2.1 Mx – Immediate_ · `UNSET` — all doses from ASCIA and eTG.
+- **Corpus B-new/A3_Respiratory_Failure__Bronchospasm_and_Hypoxia.md** L165 · _0.5.1 Mx – Immediate_ · `UNSET` — all doses from eTG and the Australian Asthma Handbook.
+- **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L139 · _0.4 Acute Cough_ · `UNSET` — diagnostic method by stage of illness (PCR versus serology), antibiotic regimens, exclusion periods and contact prophylaxis all require verification against eTG and SA Health guidance.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L315 · _0.10 Paediatric Analgesia_ · `UNSET` — all doses, maxima and dosing intervals are omitted; obtain from the RCH clinical practice guidelines and the Australian Medicines Handbook Children's Dosing Companion.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L343 · _0.11 Fascia Iliaca Block_ · `UNSET` — maximum safe local anaesthetic doses by weight, the block volume and concentration, and the intralipid regimen for LAST are all omitted; obtain from your local protocol, the Australian Medicines Handbook and ANZCA guidance.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L37 · _0.1.1 Mx – Immediate_ · `UNSET` — all doses, nebuliser versus spacer regimens, magnesium dosing and oxygen targets are omitted; obtain from the Australian Asthma Handbook and eTG.
 - **Corpus B/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L73 · _0.2.1 Mx – Immediate_ · `unverified` — all doses from ASCIA and eTG.
 - **Corpus B/A3_Respiratory_Failure__Bronchospasm_and_Hypoxia.md** L170 · _0.5.1 Mx – Immediate_ · `unverified` — all doses from eTG and the Australian Asthma Handbook.
 - **Corpus B/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L144 · _0.4 Acute Cough_ · `unverified` — diagnostic method by stage of illness (PCR versus serology), antibiotic regimens, exclusion periods and contact prophylaxis all require verification against eTG and SA Health guidance.
@@ -104,30 +187,139 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus B/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L348 · _0.11 Fascia Iliaca Block_ · `unverified` — maximum safe local anaesthetic doses by weight, the block volume and concentration, and the intralipid regimen for LAST are all omitted; obtain from your local protocol, the Australian Medicines Handbook and ANZCA guidance.
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L42 · _0.1.1 Mx – Immediate_ · `unverified` — all doses, nebuliser versus spacer regimens, magnesium dosing and oxygen targets are omitted; obtain from the Australian Asthma Handbook and eTG.
 
-## R2 — changes disposition (3)
+## R2 — changes disposition (6)
 
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L59 · _0.2 Heat Stroke and Severe Hyperthermia_ · `UNSET` — the target core temperature at which active cooling is stopped, the recommended cooling rate, and the preferred method by patient group require verification against eTG and ANZCOR.
+- **Corpus B-new/B2_Hypertension_Spectrum.md** L47 · _0.1.2 Mx – Definitive_ · `UNSET` — all agents, doses, combinations and blood pressure targets from eTG Cardiovascular and the Heart Foundation guideline.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L312 · _0.10 Paediatric Analgesia_ · `UNSET` — confirm the exact age cut-offs and current TGA restrictions against the Australian Medicines Handbook, as these have been revised.
 - **Corpus B/A6_Thermal_and_Environmental_Injury.md** L64 · _0.2 Heat Stroke and Severe Hyperthermia_ · `unverified` — the target core temperature at which active cooling is stopped, the recommended cooling rate, and the preferred method by patient group require verification against eTG and ANZCOR.
 - **Corpus B/B2_Hypertension_Spectrum.md** L52 · _0.1.2 Mx – Definitive_ · `unverified` — all agents, doses, combinations and blood pressure targets from eTG Cardiovascular and the Heart Foundation guideline.
 - **Corpus B/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L317 · _0.10 Paediatric Analgesia_ · `unverified` — confirm the exact age cut-offs and current TGA restrictions against the Australian Medicines Handbook, as these have been revised.
 
-## R3 — everything else (2)
+## R3 — everything else (4)
 
 - **Corpus A/01_Cardiovascular.md** L370 · _Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)_ · `inherited` — model knowledge, not source-checked. Agents and doses per eTG Cardiovascular; the entity is already queued at PENDING_GUIDELINE_CHECKS P5-A30 against eTG and Heart Foundation.
+- **Corpus B-new/C1_Acute_Abdomen.md** L185 · _0.5.3 Mx – Chronic/long-term_ · `UNSET` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
+- **Corpus B-new/O5_Pelvic_and_Vulval_Conditions.md** L59 · _0.2 Pelvic Inflammatory Disease_ · `unverified` — regimens from eTG Antibiotic and ASHM.
 - **Corpus B/C1_Acute_Abdomen.md** L190 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (350)
+# Triage — source not named in the marker (1016)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
-## R1 — could kill someone this rotation (56)
+## R1 — could kill someone this rotation (160)
 
 - **Corpus A/03_Gastrointestinal.md** L276 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — the maximum inflation time and the balloon pressures; gastroenterology or intensive care unit protocol.
 - **Corpus A/03_Gastrointestinal.md** L1702 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.
 - **Corpus A/03a_Anaesthetics_Primer.md** L339 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/03a_Anaesthetics_Primer.md** L355 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked. The timing window, per a named surgical source.
-- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L175 · _Sepsis_ · `inherited` — model knowledge, not source-checked. The formal definition history, per the Sepsis-3 papers.
+- **Corpus A/03a_Anaesthetics_Primer.md** L362 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked. The timing window, per a named surgical source.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L245 · _Sepsis_ · `inherited` — model knowledge, not source-checked. The formal definition history, per the Sepsis-3 papers.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L210 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.
 - **Corpus A/15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support.md** L148 · _Added from unverified layer — two ANZCOR points not stated above_ · `inherited` — model knowledge, not source-checked.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L181 · _0.5 Professional Practice Concern_ · `UNSET` — the precise wording of the notifiable conduct categories, the exemptions (which differ for practitioners providing health care to another practitioner, and which vary between states — Western Australia and Queensland have historically differed), and the reporting process must be verified against current Ahpra guidance.
+- **Corpus B-new/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L58 · _0.2 Acute Upper Airway Obstruction_ · `UNSET` — the role and availability of specific bradykinin-pathway agents (icatibant, C1 esterase inhibitor) in Australian practice requires verification; cross-refer [[10_09b_Haemonc_-_Miscellaneous_Haematology]] Hereditary angioedema.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L91 · _0.2.1 Mx – Immediate_ · `UNSET` — bicarbonate dosing, target pH, QRS threshold and vasopressor choice are all omitted.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L65 · _0.2 Heat Stroke and Severe Hyperthermia_ · `UNSET` — agent and dosing.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L286 · _0.8.1 Mx – Immediate_ · `UNSET` — urine output targets and fluid regimens for electrical injury require verification against burns unit protocol.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L99 · _0.3 Chemical Burns_ · `UNSET` — calcium gluconate gel concentration, intra-arterial technique and systemic dosing require verification with the Poisons Information Centre on 13 11 26.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L199 · _0.6 Crush Injury and Rhabdomyolysis_ · `UNSET` — pre-release fluid regimens and the management of anticipated hyperkalaemia at extrication require verification against a current disaster medicine or retrieval source.
+- **Corpus B-new/A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies.md** L35 · _0.1 Acute Anaemia and Major Haemorrhage_ · `UNSET` — the product ratios, the tranexamic acid dose and its time window, calcium replacement thresholds and doses, and the criteria for activating the protocol are ALL omitted. Obtain from your hospital's massive haemorrhage protocol and current trauma guidance.
+- **Corpus B-new/AN1_Perioperative_Care.md** L237 · _0.7 Specific Perioperative Situations_ · `unverified` — the stress dosing regimens.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L143 · _0.4 Conditions With Disproportionate Burden_ · `unverified` — diagnostic criteria (Jones, with Australian modifications), prophylaxis regimens and duration.
+- **Corpus B-new/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L51 · _0.1 Acute Chest Pain_ · `UNSET` — the door-to-ECG time target and STEMI voltage criteria require verification
+- **Corpus B-new/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L51 · _0.1 Acute Chest Pain_ · `UNSET` — score components and thresholds, and which pathway your site uses
+- **Corpus B-new/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L54 · _0.1.1 Mx – Immediate_ · `UNSET` — all antiplatelet and anticoagulant agents and doses, and the PCI and fibrinolysis time targets, are omitted; obtain from your health network's ACS pathway.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L61 · _0.2 Narrow Complex Tachycardia_ · `UNSET` — doses, dose escalation and the adjustments above.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L105 · _0.3 Broad Complex Tachycardia_ · `UNSET` — magnesium dose and potassium targets.
+- **Corpus B-new/B5_Murmurs__Endocarditis_and_Vascular_Disease.md** L221 · _0.6 Rest Pain, Chronic Limb-Threatening Ischaemia and Acute Limb Ischaemia_ · `UNSET` — the ischaemic time window, the Rutherford classification categories, and heparin dosing require verification.
+- **Corpus B-new/C1_Acute_Abdomen.md** L90 · _0.2 Assessment, Peritonism and the Core Investigations_ · `UNSET` — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution
+- **Corpus B-new/C2_Nausea_and_Vomiting.md** L179 · _0.5 Antiemetic Selection by Mechanism_ · `UNSET` — agent and dose.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L144 · _0.4 Acute Liver Failure_ · `UNSET` — indications, dosing and duration.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L186 · _0.5 Chronic Liver Disease and Cirrhosis_ · `UNSET` — the safe paracetamol dose in cirrhosis.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L72 · _0.2 Upper Gastrointestinal Bleeding — Non-Variceal_ · `UNSET` — dosing, route and duration.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L205 · _0.5.2 Mx – Definitive_ · `UNSET` — dosing regimens and the alternate-day evidence.
+- **Corpus B-new/C5_Bowel_Habit__Obstruction_and_Distension.md** L47 · _0.1 Bowel Obstruction_ · `UNSET` — neostigmine dosing, contraindications and monitoring requirements.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L234 · _0.6 Pruritus Ani_ · `UNSET` — agent, dose and repeat interval, and the age restrictions.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L61 · _0.2 Acute Pancreatitis — Management and Complications_ · `UNSET` — this is a genuine and recent change in practice, and the current recommended fluid type, rate and resuscitation targets must be obtained from a current source rather than from older teaching. Do not reproduce a remembered mL/kg/hr figure.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L134 · _0.3.2 Mx – Definitive_ · `UNSET` — dosing and administration.
+- **Corpus B-new/CV-X_Chronic_Heart_Failure.md** L132 · _0.3 HFrEF Management — The Four Pillars_ · `unverified` — the acceptable creatinine rise and the potassium thresholds for dose reduction or cessation.
+- **Corpus B-new/CV-X_Chronic_Heart_Failure.md** L288 · _0.7 Self-Management, Prognosis and Palliative Care_ · `unverified` — the weight gain thresholds used in Australian action plans.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L78 · _0.2 Thunderclap Headache and Subarachnoid Haemorrhage_ · `UNSET` — dose and duration.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L144 · _0.3 Primary Headache Disorders_ · `UNSET` — oxygen flow rate and delivery, and verapamil dosing and monitoring schedule.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L156 · _0.3 Primary Headache Disorders_ · `UNSET` — carbamazepine dosing, monitoring, and the interactions and hyponatraemia risk.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L178 · _0.4 Secondary Headaches Worth Knowing_ · `UNSET` — steroid dose, the different regimens for visual versus non-visual presentations, biopsy timing, and tocilizumab as a steroid-sparing agent.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L185 · _0.4 Secondary Headaches Worth Knowing_ · `UNSET` — the opening pressure threshold and acetazolamide dosing.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L233 · _0.5 Meningism, Meningitis and Encephalitis_ · `UNSET` — dose, indications, and the age groups in which it applies.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L265 · _0.5 Meningism, Meningitis and Encephalitis_ · `UNSET` — dose, renal adjustment and duration.
+- **Corpus B-new/D6_Seizures_and_Movement_Disorders.md** L134 · _0.3 Epilepsy Management_ · `UNSET` — folate dose and monitoring requirements.
+- **Corpus B-new/D7_Cranial_Nerves_and_Special_Senses.md** L54 · _0.2 Facial Palsy_ · `UNSET` — steroid agent, dose and duration, and the indications for antivirals.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L98 · _0.3.2 Mx – Definitive_ · `UNSET` — pralidoxime dosing and the time window before ageing require verification.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L138 · _0.4.2 Mx – Definitive_ · `UNSET` — cyproheptadine dosing and route require verification.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L190 · _0.6 Paracetamol Overdose_ · `UNSET` — the nomogram treatment line, the earliest time at which a level is interpretable, the modified-release protocol and all NAC dosing require verification against the current Australian and New Zealand consensus guideline for paracetamol poisoning and the Poisons Information Centre. No figures are stated here; this is the highest-consequence category of number in this file.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L195 · _0.6.1 Mx – Immediate_ · `UNSET` — charcoal timing window and dose require verification.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L263 · _0.8.1 Mx – Immediate_ · `UNSET` — fomepizole and ethanol dosing, and the anion gap or level thresholds triggering treatment, require verification with the Poisons Information Centre.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L301 · _0.9.2 Mx – Definitive_ · `UNSET` — observation period duration and glucagon dosing require verification.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L333 · _0.10.2 Mx – Definitive_ · `UNSET` — antivenom indications, the number of vials, dilution, administration rate and premedication practice all require verification with the Poisons Information Centre and current Australian guidance. Vial numbers in particular have changed with evidence and must not be recalled.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L90 · _0.3 Adult Diabetic Ketoacidosis — Management_ · `UNSET` — initial fluid bolus volume, subsequent replacement rate, choice of crystalloid, fixed-rate insulin infusion rate in units/kg/hr, the glucose threshold at which dextrose is added, potassium replacement rates by measured level, and bicarbonate indications are ALL omitted from this file. A DKA fluid rate error has already been found in this corpus. Obtain every one of these figures from your health network's DKA protocol before use — do not reconstruct them from memory or from a UK or US source, as replacement rates and fluid choices differ between jurisdictions.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L182 · _0.6.2 Mx – Definitive_ · `UNSET` — indications and dosing require verification.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L295 · _0.10 Third-Spacing_ · `UNSET` — thresholds require verification
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L170 · _0.5.2 Mx – Definitive_ · `UNSET` — thrombolysis agent, dose, and absolute and relative contraindications require verification.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L219 · _0.7 Mechanical Ventilation_ · `UNSET` — lung-protective tidal volume in mL/kg predicted body weight, plateau pressure limits, PEEP tables, and oxygenation targets are all omitted; obtain from local ICU protocol and current ARDS guidance.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L224 · _0.7.1 Mx – Immediate_ · `UNSET` — mannitol and hypertonic saline dosing and indications require verification.
+- **Corpus B-new/F2_Nose_and_Sinus.md** L127 · _0.4 Rhinitis_ · `unverified` — the maximum duration.
+- **Corpus B-new/G1_Acute_Rash_and_Erythema.md** L74 · _0.2 The Acutely Unwell Patient with a Rash_ · `unverified` — dosing.
+- **Corpus B-new/GER1_Comprehensive_Geriatric_Assessment.md** L230 · _0.5 Falls_ · `UNSET` — dosing and who should receive it.
+- **Corpus B-new/GER1_Comprehensive_Geriatric_Assessment.md** L272 · _0.6 Osteoporosis and Fracture Prevention_ · `UNSET` — dosing interval and the recommended transition regimen.
+- **Corpus B-new/GER6_Drug_Class_Addendum.md** L68 · _0.2 NaSSAs and Cardiac Glycosides_ · `unverified` — levels, sampling timing (which must be several hours post-dose or the result is meaningless), and toxicity management.
+- **Corpus B-new/GER6_Drug_Class_Addendum.md** L81 · _0.3 Weak Opioids and Muscle Relaxants_ · `unverified` — the current scheduling.
+- **Corpus B-new/GER8_Procedure_Addendum.md** L46 · _0.1 Procedural Safety_ · `unverified` — maximum doses and the lipid emulsion regimen.
+- **Corpus B-new/I1_Thyroid_Disease.md** L72 · _0.2 Hypothyroidism_ · `unverified` — starting doses, dose adjustment increments, the recheck interval, and target TSH.
+- **Corpus B-new/I1_Thyroid_Disease.md** L180 · _0.4 Thyroid Emergencies_ · `unverified` — thyroid hormone preparation, loading and maintenance doses, and hydrocortisone dosing.
+- **Corpus B-new/I1_Thyroid_Disease.md** L249 · _0.6 Thyroid Disease in Pregnancy and Special Situations_ · `unverified` — the recommended dose increase and monitoring schedule.
+- **Corpus B-new/I1_Thyroid_Disease.md** L258 · _0.6 Thyroid Disease in Pregnancy and Special Situations_ · `unverified` — trimester switching points, dosing, and TRAb monitoring recommendations.
+- **Corpus B-new/I4_Pituitary__Adrenal_and_Sex_Hormone.md** L154 · _0.3 Adrenal Insufficiency_ · `unverified` — the exact sick day dosing rules.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L261 · _0.6 Potassium Disorders_ · `unverified` — all concentrations, rates and monitoring requirements.
+- **Corpus B-new/J1_Cytopenias_and_Marrow_Failure.md** L66 · _0.2 Microcytic Anaemia_ · `unverified` — the current dosing recommendation.
+- **Corpus B-new/J4_Paraproteins_and_Lymphoproliferative.md** L73 · _0.2 Multiple Myeloma_ · `unverified` — the preferred modality and current recommendations.
+- **Corpus B-new/J4_Paraproteins_and_Lymphoproliferative.md** L187 · _0.6 Myeloproliferative Neoplasms_ · `unverified` — haematocrit targets.
+- **Corpus B-new/J5_Oncological_Emergencies_and_Palliative_Care.md** L132 · _0.5 Symptom Control_ · `unverified` — the fraction and all doses.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L94 · _0.2.1 Mx – Immediate_ · `unverified` — all regimens, and the role of intravenous immunoglobulin in streptococcal toxic shock, which remains debated.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L74 · _0.2 Non-Occupational Exposure, PEP and PrEP_ · `unverified` — eligibility, regimens, on-demand versus daily dosing, and monitoring intervals.
+- **Corpus B-new/K4_Allergy_and_Clinical_Immunology.md** L208 · _0.6 Urticaria, Angioedema and Mast Cell Disorders_ · `unverified` — the permissible degree of up-dosing and the criteria for omalizumab.
+- **Corpus B-new/L1_Hot_and_Swollen_Joint.md** L133 · _0.3 Crystal Arthropathy_ · `unverified` — the populations in whom testing is recommended and the current Australian advice.
+- **Corpus B-new/L3_Muscle_Symptoms_and_Widespread_Pain.md** L72 · _0.2 Polymyalgia Rheumatica_ · `unverified` — starting dose, expected time to response, and the taper schedule.
+- **Corpus B-new/L3_Muscle_Symptoms_and_Widespread_Pain.md** L98 · _0.2.2 Mx – Definitive_ · `unverified` — doses, taper schedules and steroid-sparing indications.
+- **Corpus B-new/L4_Back_and_Neck_Pain.md** L124 · _0.3.1 Mx – Immediate_ · `unverified` — the dexamethasone dose and regimen, and whether a loading dose is used.
+- **Corpus B-new/L8_Facial__Head_and_Torso_Trauma.md** L34 · _0.1 The Primary Survey and Trauma Principles_ · `unverified` — dose and the time window.
+- **Corpus B-new/L8_Facial__Head_and_Torso_Trauma.md** L211 · _0.6 Trauma in Special Populations_ · `unverified` — the gestational thresholds and dosing.
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L100 · _0.3 Resuscitation and the Sick Child Pathway_ · `unverified` — the formula.
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L107 · _0.3 Resuscitation and the Sick Child Pathway_ · `unverified` — current service arrangements.
+- **Corpus B-new/M2_Fever_in_Children.md** L27 · _0.1 Approach to the Febrile Child_ · `unverified` — current antipyretic guidance.
+- **Corpus B-new/M2_Fever_in_Children.md** L106 · _0.4 The Serious Bacterial Infections_ · `unverified` — the indications and dose.
+- **Corpus B-new/M3_Neonatal_Problems.md** L80 · _0.2 The Cyanosed or Collapsed Neonate_ · `unverified` — dose and administration.
+- **Corpus B-new/M3_Neonatal_Problems.md** L135 · _0.3 Feeding, Weight and Hypoglycaemia_ · `unverified` — dose, route and schedule, and the oral alternative regimen.
+- **Corpus B-new/M5_Paediatric_GI__GU_and_Limb.md** L76 · _0.2 Vomiting and Gastroenteritis_ · `unverified` — dosing and the age restrictions.
+- **Corpus B-new/M6_Paediatric_Respiratory_and_Neurology.md** L47 · _0.2 Stridor and Upper Airway Obstruction_ · `unverified` — agent, dose and route.
+- **Corpus B-new/N1_Mental_State_Examination_and_Risk.md** L154 · _0.4 Agitation, Aggression and De-escalation_ · `unverified` — agents and doses are deliberately OMITTED. Obtain them from your health network's acute behavioural disturbance protocol, which specifies agent, dose, route, maximum doses and required monitoring for your setting.
+- **Corpus B-new/N2_Acute_Behavioural_Disturbance_and_Substance_Use.md** L33 · _0.1 Alcohol Withdrawal and Delirium Tremens_ · `unverified` — the scale, its cut-offs, and the symptom-triggered dosing protocol.
+- **Corpus B-new/N2_Acute_Behavioural_Disturbance_and_Substance_Use.md** L39 · _0.1 Alcohol Withdrawal and Delirium Tremens_ · `unverified` — thiamine dose, route and duration.
+- **Corpus B-new/N3_Psychosis_and_Antipsychotics.md** L132 · _0.5 Antipsychotic Adverse Effects_ · `unverified` — treatment options and doses.
+- **Corpus B-new/N3_Psychosis_and_Antipsychotics.md** L191 · _0.6 Clozapine_ · `unverified` — the exact interval.
+- **Corpus B-new/N4_Mood_Disorders.md** L177 · _0.5 Mood Stabilisers_ · `unverified` — the therapeutic range, the timing of sampling, and monitoring intervals.
+- **Corpus B-new/N5_Anxiety__OCD_and_Trauma.md** L135 · _0.5 Trauma and Stressor-Related Disorders_ · `unverified` — dose and current evidence.
+- **Corpus B-new/N8_Eating_Disorders.md** L145 · _0.5 Bulimia Nervosa, Binge Eating Disorder and ARFID_ · `unverified` — dosing.
+- **Corpus B-new/O1_Early_Pregnancy.md** L43 · _0.1 Assessing Bleeding and Pain in Early Pregnancy_ · `unverified` — the gestational thresholds, dose and timing, and whether a Kleihauer is required.
+- **Corpus B-new/O1_Early_Pregnancy.md** L56 · _0.2 Ectopic Pregnancy_ · `unverified` — the criteria, dose and monitoring schedule.
+- **Corpus B-new/O1_Early_Pregnancy.md** L173 · _0.6 Early Pregnancy Care and Recurrent Loss_ · `unverified` — the doses.
+- **Corpus B-new/O2_Later_Pregnancy_and_Fetal.md** L73 · _0.2 Pre-eclampsia and Eclampsia_ · `unverified` — the dose, the gestational window for starting, and the risk criteria triggering it.
+- **Corpus B-new/O2_Later_Pregnancy_and_Fetal.md** L94 · _0.2 Pre-eclampsia and Eclampsia_ · `unverified` — loading and maintenance regimens, monitoring frequency, and the calcium gluconate dose.
+- **Corpus B-new/O2_Later_Pregnancy_and_Fetal.md** L140 · _0.4 Preterm Labour and Prelabour Rupture of Membranes_ · `unverified` — the gestational range, agent, dose and repeat course policy.
+- **Corpus B-new/O3_Labour__Delivery_and_Postpartum.md** L45 · _0.1 Normal Labour_ · `unverified` — the agent and dose.
+- **Corpus B-new/O3_Labour__Delivery_and_Postpartum.md** L111 · _0.3 Postpartum Haemorrhage_ · `unverified` — dose and timing.
+- **Corpus B-new/O7_Breast_Disease.md** L108 · _0.3 Breast Pain_ · `unverified` — the evidence and dosing for pharmacological options.
+- **Corpus B-new/PH1_Population_Health_and_Research_Literacy.md** L249 · _0.6 Public Health Practice_ · `unverified` — the SA notifiable disease list, the urgency categories, and the notification mechanism. Know where to find it before you need it.
+- **Corpus B-new/RESP-X_Occupational_and_Chronic_Lung_Disease.md** L191 · _0.4 Bronchiectasis_ · `unverified` — antibiotic regimens, durations, eradication protocols and macrolide dosing.
+- **Corpus B-new/RESP-X_Occupational_and_Chronic_Lung_Disease.md** L272 · _0.6 Chronic Respiratory Failure and Long-Term Management_ · `unverified` — dosing.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L186 · _0.5 Professional Practice Concern_ · `unverified` — the precise wording of the notifiable conduct categories, the exemptions (which differ for practitioners providing health care to another practitioner, and which vary between states — Western Australia and Queensland have historically differed), and the reporting process must be verified against current Ahpra guidance.
 - **Corpus B/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L63 · _0.2 Acute Upper Airway Obstruction_ · `unverified` — the role and availability of specific bradykinin-pathway agents (icatibant, C1 esterase inhibitor) in Australian practice requires verification; cross-refer [[10_09b_Haemonc_-_Miscellaneous_Haematology]] Hereditary angioedema.
 - **Corpus B/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L96 · _0.2.1 Mx – Immediate_ · `unverified` — bicarbonate dosing, target pH, QRS threshold and vasopressor choice are all omitted.
@@ -178,7 +370,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L235 · _0.5 Falls_ · `unverified` — dosing and who should receive it.
 - **Corpus B/GER1_Comprehensive_Geriatric_Assessment.md** L277 · _0.6 Osteoporosis and Fracture Prevention_ · `unverified` — dosing interval and the recommended transition regimen.
 
-## R2 — changes disposition (136)
+## R2 — changes disposition (421)
 
 - **Corpus A/01_Cardiovascular.md** L340 · _Added from unverified layer — accelerated diagnostic protocols_ · `inherited` — which pathway your site uses, and its components and thresholds, per your health network's chest pain pathway.
 - **Corpus A/01_Cardiovascular.md** L552 · _0.7 Ventricular Tachycardia_ · `inherited` — model knowledge, not source-checked. Formal algorithm criteria (Brugada, Vereckei) omitted.
@@ -190,6 +382,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/03_Gastrointestinal.md** L1378 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — its components and thresholds, and how it compares with Glasgow-Blatchford in Australian practice.
 - **Corpus A/03_Gastrointestinal.md** L1521 · _0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis_ · `inherited` — the desaturation threshold that defines orthodeoxia, and the pulmonary pressure thresholds for portopulmonary hypertension; specialist respiratory or hepatology guidance.
 - **Corpus A/04_Neurology.md** L793 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — diagnostic criteria and the yield of EEG in this setting; neurology guidance.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L187 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — the diagnostic criteria, the ferritin threshold, and treatment; a haematology source would settle it.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L252 · _Heat illness_ · `inherited` — the temperature at which to stop active cooling, and whether immersion or evaporative cooling is preferred in Australian practice.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L55 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — the surveillance intervals, and the criteria for who requires surveillance at all. These differ between guidelines, so take them from the gastroenterology service running the programme rather than from a general reference.
 - **Corpus A/14a-2_Psych_-_Overdose_and_Poisoning_Management.md** L37 · _Added from unverified layer — carbon monoxide beyond the acute episode_ · `inherited` — model knowledge, not source-checked. Carboxyhaemoglobin thresholds and hyperbaric indications, per the Poisons Information Centre.
@@ -199,6 +392,290 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L316 · _Added from unverified layer — two things done on admission_ · `inherited` — which scale is used in your health network, and its action thresholds.
 - **Corpus A/Clinical-Process-EBM-Consent-Capacity.md** L70 · _Added from unverified layer — determination of death by neurological criteria_ · `inherited` — model knowledge, not source-checked. The formal criteria, the observation periods and the qualifications required are set by ANZICS statement and by state legislation; obtain and follow those. NOTHING below is a substitute for them.
 - **Corpus A/Investigation-Interpretation.md** L561 · _1.22 Cognitive Screening Tools (MMSE, MoCA, AMTS)_ · `inherited` — the RUDAS and 4AT cutoffs and their validation populations. The derivation-population principle above applies to these two exactly as it does to the rest, so the cutoffs are deliberately not stated here.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L36 · _0.1 Capacity Assessment_ · `UNSET` — the specific age thresholds, and the circumstances in which a second practitioner's opinion is required, must be verified against the Consent to Medical Treatment and Palliative Care Act 1995 (SA). Do not assume the position in another state applies.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L136 · _0.4 Neurologically Determined Death_ · `UNSET` — the required observation period, the CO₂ threshold and technique for the apnoea test, the qualifications and independence requirements of the two examining practitioners, and the accepted imaging modalities are ALL omitted from this file. The authoritative Australian source is the ANZICS Statement on Death and Organ Donation; obtain the current edition.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L152 · _0.4.2 Mx – Definitive_ · `UNSET` — reportable death criteria under the Coroners Act 2003 (SA).
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L223 · _0.6 Fitness Certification_ · `UNSET` — every non-driving period and every threshold is omitted. Use the current Assessing Fitness to Drive publication directly; the periods differ by condition, by licence class, and are revised.
+- **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L25 · _0.1 The Deteriorating Patient — Recognition_ · `UNSET` — do not memorise generic numbers; obtain the observation chart and MET criteria for your own health network, as these are what you will be examined and audited against.
+- **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L53 · _0.2 SIRS, Sepsis and Septic Shock — Definitions_ · `UNSET` — confirm the specific SIRS threshold values and the SOFA/qSOFA component cut-offs against a current source before quoting numbers in an exam.
+- **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L56 · _0.2 SIRS, Sepsis and Septic Shock — Definitions_ · `UNSET` — confirm component thresholds.
+- **Corpus B-new/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L252 · _0.8 Tracheostomy and Laryngectomy Emergency_ · `UNSET` — the emergency manoeuvres described for tracheo-innominate fistula, including cuff overinflation and digital compression, require verification against a current surgical source.
+- **Corpus B-new/A3_Respiratory_Failure__Bronchospasm_and_Hypoxia.md** L22 · _0.1 Respiratory Failure — Type 1 versus Type 2_ · `UNSET` — the specific PaO₂ and PaCO₂ threshold values defining each type require verification against a current source; no numbers are stated here.
+- **Corpus B-new/A3_Respiratory_Failure__Bronchospasm_and_Hypoxia.md** L96 · _0.3 Chronic and Acute-on-Chronic Respiratory Failure_ · `UNSET` — PaO₂ criteria, the required period of stability, and the daily hours of use required for benefit all need verification against current Australian respiratory guidance and the funding criteria in South Australia.
+- **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L40 · _0.1 Acute Dyspnoea_ · `UNSET` — cut-offs, and the effect of renal impairment, obesity and AF on them
+- **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L74 · _0.2 Chronic and Chronic Progressive Dyspnoea_ · `UNSET` — the grade descriptors and the version used in Australian practice require verification.
+- **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L164 · _0.5 Chronic Cough_ · `UNSET` — the duration threshold and the paediatric definition require verification.
+- **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L250 · _0.7 Solitary Pulmonary Nodule_ · `UNSET` — every size threshold, follow-up interval and duration of surveillance is omitted from this file. Obtain the current Fleischner Society guidance and your local radiology department's protocol. These figures are revised periodically, are not intuitive, and reconstructing them from memory is exactly the failure mode this corpus is guarding against.
+- **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L257 · _0.7 Solitary Pulmonary Nodule_ · `UNSET` — the size threshold below which PET is unreliable
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L42 · _0.1 The Poisoned Patient — Risk Assessment and General Approach_ · `UNSET` — indications and thresholds require verification and are agent-specific.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L164 · _0.4.2 Mx – Definitive_ · `UNSET` — indications, carboxyhaemoglobin thresholds, oxygen half-life figures, and the location and referral pathway for hyperbaric facilities require verification with the Poisons Information Centre.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L183 · _0.5 Adverse Drug Reaction_ · `UNSET` — confirm current Australian de-labelling pathways and referral criteria.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L221 · _0.6 Severe Cutaneous Adverse Reactions_ · `UNSET` — the body surface area thresholds separating SJS, SJS/TEN overlap and TEN require verification.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L276 · _0.7.1 Mx – Immediate_ · `UNSET` — corticosteroid doses by toxicity grade, the grading criteria themselves, and escalation thresholds require verification against the treating centre's protocol and current oncology guidance.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L23 · _0.1 Heat Illness — The Spectrum_ · `UNSET` — the specific core temperature thresholds defining each stage require verification; no values are stated here.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L241 · _0.7 Drowning and Submersion Injury_ · `UNSET` — the recommended observation period and discharge criteria require verification.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L272 · _0.8 Electrical Injury_ · `UNSET` — the voltage threshold separating low from high voltage, and the monitoring duration criteria, require verification.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L204 · _0.6 Crush Injury and Rhabdomyolysis_ · `UNSET` — compartment pressure and delta pressure thresholds require verification.
+- **Corpus B-new/A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies.md** L38 · _0.1 Acute Anaemia and Major Haemorrhage_ · `UNSET` — haemoglobin trigger thresholds for different patient groups require verification against the National Blood Authority guidelines.
+- **Corpus B-new/A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies.md** L116 · _0.3 Coagulopathy — Assessment Framework_ · `UNSET` — all reference ranges require verification.
+- **Corpus B-new/AN1_Perioperative_Care.md** L30 · _0.1 Preoperative Assessment_ · `unverified` — the MET threshold.
+- **Corpus B-new/AN1_Perioperative_Care.md** L44 · _0.1 Preoperative Assessment_ · `unverified` — the PBM thresholds and iron regimens.
+- **Corpus B-new/AN1_Perioperative_Care.md** L57 · _0.1 Preoperative Assessment_ · `unverified` — the specific indications and age thresholds.
+- **Corpus B-new/AN1_Perioperative_Care.md** L82 · _0.2 Airway Assessment and Anaesthetic Technique_ · `unverified` — all anticoagulant timing intervals for neuraxial procedures.
+- **Corpus B-new/AN1_Perioperative_Care.md** L116 · _0.3 Perioperative Medication Management_ · `unverified` — the withholding interval.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L27 · _0.1 The Australian Health System_ · `unverified` — all co-payment amounts, thresholds and current arrangements.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L173 · _0.4 Conditions With Disproportionate Burden_ · `unverified` — services, statistics and current strategies.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L225 · _0.6 Practical Intern-Level Competencies_ · `unverified` — current eligibility, registration process and annotation requirements.
+- **Corpus B-new/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L190 · _0.5 Troponin and Cardiac Biomarkers_ · `UNSET` — the 99th percentile values, sex-specific cut-offs, sampling intervals and delta thresholds are all assay-specific and site-specific. Obtain them from your own laboratory and chest pain pathway; troponin I and troponin T values are not interchangeable and neither are values between manufacturers.
+- **Corpus B-new/B2_Hypertension_Spectrum.md** L29 · _0.1 Elevated Blood Pressure_ · `UNSET` — clinic, ABPM daytime, ABPM 24-hour and HBPM diagnostic thresholds all differ and require verification.
+- **Corpus B-new/B2_Hypertension_Spectrum.md** L33 · _0.1 Elevated Blood Pressure_ · `UNSET` — the current calculator, its risk category thresholds, the age at which assessment begins for different populations, and the treatment thresholds for each category all require verification.
+- **Corpus B-new/B2_Hypertension_Spectrum.md** L133 · _0.4 Paroxysmal Hypertension and Secondary Causes_ · `UNSET` — the definition of resistant hypertension and the age thresholds require verification.
+- **Corpus B-new/B2_Hypertension_Spectrum.md** L137 · _0.4 Paroxysmal Hypertension and Secondary Causes_ · `UNSET` — which drugs must be withheld and for how long before testing, and the ratio thresholds, require verification and specialist input.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L100 · _0.3 Broad Complex Tachycardia_ · `UNSET` — algorithm criteria.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L146 · _0.4 Atrial Fibrillation and Flutter_ · `UNSET` — the duration cut-off, the pre- and post-cardioversion anticoagulation periods.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L235 · _0.6 Cardiac Device Events_ · `UNSET` — criteria and point values.
+- **Corpus B-new/B4_Syncope__Collapse_and_Hypotension.md** L83 · _0.2 Syncope_ · `UNSET` — QT correction formulae and cut-offs, and Brugada morphology criteria.
+- **Corpus B-new/B4_Syncope__Collapse_and_Hypotension.md** L92 · _0.2 Syncope_ · `UNSET` — components and thresholds
+- **Corpus B-new/B5_Murmurs__Endocarditis_and_Vascular_Disease.md** L143 · _0.4 Post-Catheterisation Vascular Complications_ · `UNSET` — size thresholds and the technique details.
+- **Corpus B-new/B5_Murmurs__Endocarditis_and_Vascular_Disease.md** L197 · _0.5 Claudication and Peripheral Arterial Disease_ · `UNSET` — the diagnostic and severity thresholds
+- **Corpus B-new/B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations.md** L90 · _0.3 Unilateral Limb Swelling_ · `UNSET` — Wells score components and thresholds, age-adjusted D-dimer, and the scanning protocol including whether a repeat scan is required.
+- **Corpus B-new/B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations.md** L257 · _0.7 Generalised Pain_ · `UNSET` — diagnostic criteria and recommended pharmacotherapy.
+- **Corpus B-new/B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations.md** L293 · _0.8 Undifferentiated Lump_ · `UNSET` — the size threshold and referral criteria; obtain your state's sarcoma referral pathway.
+- **Corpus B-new/B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations.md** L299 · _0.8 Undifferentiated Lump_ · `UNSET` — size thresholds and the duration beyond which investigation is indicated.
+- **Corpus B-new/C1_Acute_Abdomen.md** L194 · _0.6 Right Lower Quadrant (Right Iliac Fossa) Pain_ · `UNSET` — components and thresholds.
+- **Corpus B-new/C1_Acute_Abdomen.md** L221 · _0.6.2 Mx – Definitive_ · `UNSET` — selection criteria and recurrence rates.
+- **Corpus B-new/C1_Acute_Abdomen.md** L232 · _0.7 Left Lower Quadrant (Left Iliac Fossa) Pain_ · `UNSET` — selection criteria from current colorectal guidance.
+- **Corpus B-new/C1_Acute_Abdomen.md** L305 · _0.9 Generalised Abdominal Pain and the Catastrophes_ · `UNSET` — the diagnostic neutrophil threshold
+- **Corpus B-new/C2_Nausea_and_Vomiting.md** L112 · _0.3 Bilious versus Non-Bilious Vomiting_ · `UNSET` — the measurement thresholds
+- **Corpus B-new/C2_Nausea_and_Vomiting.md** L250 · _0.7 Complications of Vomiting_ · `UNSET` — risk criteria, replacement thresholds and the rate of caloric reintroduction.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L13 · _0.1 Jaundice — Mechanism and Classification_ · `UNSET` — the threshold at which jaundice becomes visible.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L33 · _0.1 Jaundice — Mechanism and Classification_ · `UNSET` — the R ratio formula used to formally classify hepatocellular versus cholestatic injury, and all reference ranges.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L131 · _0.4 Acute Liver Failure_ · `UNSET` — the criteria and their component thresholds require verification.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L178 · _0.5 Chronic Liver Disease and Cirrhosis_ · `UNSET` — the scores, their variables and cut-offs.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L183 · _0.5 Chronic Liver Disease and Cirrhosis_ · `UNSET` — surveillance intervals and the criteria for who requires them.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L207 · _0.6 Complications of Cirrhosis_ · `UNSET` — all agents, doses, transfusion thresholds and timing targets.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L215 · _0.6 Complications of Cirrhosis_ · `UNSET` — the diagnostic neutrophil threshold.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L35 · _0.1 Gastrointestinal Bleeding — Framework and Resuscitation_ · `UNSET` — haemoglobin transfusion thresholds for variceal and non-variceal bleeding require verification against the National Blood Authority Patient Blood Management guidelines.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L38 · _0.1 Gastrointestinal Bleeding — Framework and Resuscitation_ · `UNSET` — components and thresholds.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L75 · _0.2 Upper Gastrointestinal Bleeding — Non-Variceal_ · `UNSET` — the classification and its associated rebleeding rates.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L111 · _0.3 Variceal Bleeding_ · `UNSET` — all agents, doses, durations, transfusion thresholds and TIPS selection criteria.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L147 · _0.4 Lower Gastrointestinal Bleeding_ · `UNSET` — the age and criteria triggering colonoscopy in current Australian guidance.
+- **Corpus B-new/C5_Bowel_Habit__Obstruction_and_Distension.md** L43 · _0.1 Bowel Obstruction_ · `UNSET` — the caecal diameter threshold at which perforation risk becomes critical.
+- **Corpus B-new/C5_Bowel_Habit__Obstruction_and_Distension.md** L69 · _0.2 Constipation_ · `UNSET` — the Rome criteria.
+- **Corpus B-new/C5_Bowel_Habit__Obstruction_and_Distension.md** L166 · _0.4 Chronic Diarrhoea and Change in Bowel Habit_ · `UNSET` — the duration threshold.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L23 · _0.1 Dyspepsia, Reflux and Heartburn_ · `UNSET` — the age threshold for new-onset dyspepsia triggering endoscopy in current Australian guidance.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L37 · _0.1 Dyspepsia, Reflux and Heartburn_ · `UNSET` — Rome criteria.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L82 · _0.2 Peptic Ulcer Disease and *Helicobacter pylori*_ · `UNSET` — risk thresholds and gastroprotection regimens.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L108 · _0.3 Oesophageal Disease_ · `UNSET` — surveillance intervals and the criteria for who requires surveillance, which differ between guidelines.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L115 · _0.3 Oesophageal Disease_ · `UNSET` — the eosinophil count threshold for diagnosis, and treatment regimens.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L13 · _0.1 Acute Pancreatitis — Diagnosis and Severity_ · `UNSET` — the enzyme threshold multiple.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L39 · _0.1 Acute Pancreatitis — Diagnosis and Severity_ · `UNSET` — all score components, thresholds and the CRP cut-off.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L99 · _0.2.2 Mx – Definitive_ · `UNSET` — triglyceride thresholds and treatment protocols.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L162 · _0.4 Pancreatic Pseudocyst and Fluid Collections_ · `UNSET` — cyst fluid analysis thresholds and surveillance criteria.
+- **Corpus B-new/CV-X_Chronic_Heart_Failure.md** L27 · _0.1 Definition, Classification and Pathophysiology_ · `unverified` — the EF cut-offs defining each category.
+- **Corpus B-new/CV-X_Chronic_Heart_Failure.md** L81 · _0.2 Diagnosis and Assessment_ · `unverified` — the rule-out thresholds, which differ between BNP and NT-proBNP, between acute and non-acute presentations, and by age.
+- **Corpus B-new/CV-X_Chronic_Heart_Failure.md** L264 · _0.6 Comorbidities, Devices and Advanced Heart Failure_ · `unverified` — EF thresholds, QRS duration criteria, the required duration of optimal medical therapy, and NYHA class requirements for both devices.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L31 · _0.1 Headache — Framework and Red Flags_ · `UNSET` — the age threshold, and variants of the mnemonic differ between sources.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L111 · _0.3 Primary Headache Disorders_ · `UNSET` — the formal ICHD diagnostic criteria including attack duration and the number of attacks required.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L123 · _0.3 Primary Headache Disorders_ · `UNSET` — confirm the current contraindication wording and the position for migraine without aura.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L197 · _0.4 Secondary Headaches Worth Knowing_ · `UNSET` — the exact medication-day thresholds for each drug class.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L237 · _0.5 Meningism, Meningitis and Encephalitis_ · `UNSET` — the specific criteria in current Australian guidance.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L258 · _0.5 Meningism, Meningitis and Encephalitis_ · `UNSET` — all reference values and the glucose ratio threshold.
+- **Corpus B-new/D2_Altered_Consciousness_and_Cognition.md** L72 · _0.2 Delirium_ · `UNSET` — scoring and cut-offs.
+- **Corpus B-new/D2_Altered_Consciousness_and_Cognition.md** L135 · _0.3 Dementia_ · `UNSET` — the "one-year rule" and diagnostic criteria.
+- **Corpus B-new/D2_Altered_Consciousness_and_Cognition.md** L147 · _0.3 Dementia_ · `UNSET` — all cut-off scores, and the availability and validation range of RUDAS and KICA-Cog.
+- **Corpus B-new/D3_Stroke_and_Focal_Neurological_Deficit.md** L43 · _0.1 Acute Stroke — Recognition and Hyperacute Management_ · `UNSET` — all threshold and target values.
+- **Corpus B-new/D3_Stroke_and_Focal_Neurological_Deficit.md** L114 · _0.3 Transient Ischaemic Attack and Secondary Prevention_ · `UNSET` — current risk stratification and the recommended assessment timeframe.
+- **Corpus B-new/D3_Stroke_and_Focal_Neurological_Deficit.md** L128 · _0.3 Transient Ischaemic Attack and Secondary Prevention_ · `UNSET` — the stenosis percentage thresholds, the timing target, and the difference between symptomatic and asymptomatic stenosis management.
+- **Corpus B-new/D5_Dizziness__Vertigo_and_Gait.md** L106 · _0.3 Episodic Vertigo_ · `UNSET` — diagnostic criteria and all treatment regimens; the evidence for several is weak.
+- **Corpus B-new/D6_Seizures_and_Movement_Disorders.md** L276 · _0.6 Chorea, Dystonia, Tics and Myoclonus_ · `UNSET` — the ferritin threshold below which iron replacement is recommended, which is higher than the usual anaemia threshold.
+- **Corpus B-new/D7_Cranial_Nerves_and_Special_Senses.md** L185 · _0.4 Speech, Voice and Swallowing_ · `UNSET` — the duration threshold for referral in current Australian guidance.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L198 · _0.6.2 Mx – Definitive_ · `UNSET` — transplant referral criteria require verification.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L224 · _0.7 Beta-Blocker and Calcium Channel Blocker Overdose_ · `UNSET` — observation duration requires verification with the Poisons Information Centre.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L252 · _0.8 Toxic Alcohols — Methanol and Ethylene Glycol_ · `UNSET` — osmolar gap calculation and its normal threshold require verification; the gap is insensitive and a normal value never excludes ingestion.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L266 · _0.8.2 Mx – Definitive_ · `UNSET` — dialysis indication thresholds require verification.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L374 · _0.11.2 Mx – Definitive_ · `UNSET` — antivenom vial numbers and repeat criteria require verification with the Poisons Information Centre.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L374 · _0.11.2 Mx – Definitive_ · `UNSET` — confirm current recommendation and the status of the redback antivenom evidence; this is an area where practice has changed.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L25 · _0.1 Acid-Base Interpretation — Framework_ · `UNSET` — normal anion gap range, the albumin correction factor, Winter's formula constants for expected pCO₂, and the delta ratio cut-offs all require verification against the Oxford Handbook of Clinical and Laboratory Investigation or a current source. No numeric values are stated here.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L45 · _0.1.2 Mx – Definitive_ · `UNSET` — indications and thresholds for bicarbonate therapy require verification and vary by cause.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L59 · _0.2 HAGMA — Diabetic Ketoacidosis (the acid-base picture)_ · `UNSET` — the potassium threshold below which insulin is withheld, and all replacement rates, come from your local DKA protocol and are not stated here.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L169 · _0.6 NAGMA — Severe Diarrhoea_ · `UNSET` — the urinary anion gap formula and interpretation thresholds require verification.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L201 · _0.7 Metabolic Alkalosis — Profuse Vomiting and Diuretic Use_ · `UNSET` — urinary chloride cut-off values require verification.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L241 · _0.8.2 Mx – Definitive_ · `UNSET` — dialysis threshold criteria require verification.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L98 · _0.3 Cardiogenic Shock — Acute Left Ventricular Failure_ · `UNSET` — cut-offs require verification and are altered by renal impairment, obesity and atrial fibrillation
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L166 · _0.5.2 Mx – Definitive_ · `UNSET` — eligibility criteria and time window require verification.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L286 · _0.9 Adult Analgesia_ · `UNSET` — confirm current ScriptCheckSA obligations and which drugs are monitored, as the requirements have changed since introduction.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L96 · _0.3 Acute Pulmonary Oedema_ · `UNSET` — cut-offs
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L122 · _0.4 Severe Community-Acquired Pneumonia and ARDS_ · `UNSET` — the Berlin definition timing window and PaO₂/FiO₂ severity thresholds require verification.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L149 · _0.5 Neuromuscular Respiratory Failure_ · `UNSET` — the FVC and NIF thresholds triggering ICU admission and intubation, sometimes taught as the "20/30/40 rule", require verification against a current neurology or intensive care source. No values are stated here.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L243 · _0.8 Minor Head Injury_ · `UNSET` — the specific criteria, age bands and thresholds within the Canadian CT Head Rule and the PREDICT guideline require verification; do not reconstruct them from memory, as the exclusion criteria are as important as the inclusion criteria and are easily misremembered.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L284 · _0.9 Acute Renal Colic_ · `UNSET` — stone size thresholds for spontaneous passage and for intervention require verification.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L322 · _0.10 Tonsillitis and Peritonsillar Abscess (Quinsy)_ · `UNSET` — thresholds
+- **Corpus B-new/F1_Ear.md** L97 · _0.3 Otitis Externa and Otitis Media_ · `unverified` — the age thresholds and the antibiotic regimens.
+- **Corpus B-new/F1_Ear.md** L186 · _0.6 Vertigo, Trauma and Foreign Bodies_ · `unverified` — diagnostic criteria and treatment.
+- **Corpus B-new/F2_Nose_and_Sinus.md** L63 · _0.2 Acute Rhinosinusitis_ · `unverified` — the criteria and antibiotic indications.
+- **Corpus B-new/F2_Nose_and_Sinus.md** L87 · _0.3 Chronic Rhinosinusitis and Nasal Polyps_ · `unverified` — the diagnostic criteria.
+- **Corpus B-new/F2_Nose_and_Sinus.md** L183 · _0.6 Nasal Trauma and Foreign Bodies_ · `unverified` — the manipulation window.
+- **Corpus B-new/F3_Throat__Voice_and_Oral.md** L22 · _0.1 Sore Throat_ · `unverified` — the criteria and their interpretation.
+- **Corpus B-new/F3_Throat__Voice_and_Oral.md** L26 · _0.1 Sore Throat_ · `unverified` — the RHDAustralia criteria and regimens.
+- **Corpus B-new/F4_Neck_Lumps_and_Facial_Pain.md** L102 · _0.4 Thyroid Nodules_ · `unverified` — the risk stratification systems and the size thresholds for FNA.
+- **Corpus B-new/G1_Acute_Rash_and_Erythema.md** L81 · _0.3 Severe Cutaneous Adverse Reactions_ · `unverified` — the percentage thresholds.
+- **Corpus B-new/G2_Blisters_and_Skin_Failure.md** L110 · _0.4 Erythroderma_ · `unverified` — the percentage threshold.
+- **Corpus B-new/G4_Chronic_Rash__Pruritus_and_Pigment.md** L221 · _0.6 Photosensitivity and Sun Protection_ · `unverified` — the threshold and the seasonal recommendations.
+- **Corpus B-new/G5_Lumps__Ulcers_and_Nails.md** L79 · _0.2 Melanoma_ · `unverified` — all thresholds and margins.
+- **Corpus B-new/G5_Lumps__Ulcers_and_Nails.md** L101 · _0.3 Basal Cell and Squamous Cell Carcinoma_ · `unverified` — the size and depth thresholds.
+- **Corpus B-new/GER1_Comprehensive_Geriatric_Assessment.md** L72 · _0.2 Frailty_ · `UNSET` — the scale descriptors and scoring rules.
+- **Corpus B-new/GER1_Comprehensive_Geriatric_Assessment.md** L129 · _0.3 Functional Assessment and the Australian Aged Care System_ · `UNSET` — reporting obligations for elder abuse in South Australia, and the relevant services and hotlines.
+- **Corpus B-new/GER1_Comprehensive_Geriatric_Assessment.md** L178 · _0.4 Polypharmacy and Deprescribing_ · `UNSET` — the criteria themselves.
+- **Corpus B-new/GER1_Comprehensive_Geriatric_Assessment.md** L183 · _0.4 Polypharmacy and Deprescribing_ · `UNSET` — current eligibility and referral requirements.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L55 · _0.1.3 Mx – Chronic/long-term_ · `UNSET` — the current name, eligibility and application process for continence funding schemes.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L113 · _0.3 Malnutrition and Nutrition_ · `UNSET` — the tools, thresholds and scoring.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L136 · _0.3 Malnutrition and Nutrition_ · `UNSET` — risk criteria, electrolyte thresholds and the rate of caloric reintroduction.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L247 · _0.5.3 Mx – Chronic/long-term_ · `UNSET` — reportable death criteria under the Coroners Act 2003 (SA).
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L24 · _0.1 The Preventive Consultation_ · `unverified` — all specific recommendations.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L25 · _0.1 The Preventive Consultation_ · `unverified` — item numbers and eligibility.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L43 · _0.2 Cardiovascular and Metabolic Risk_ · `unverified` — use the current calculator and the current thresholds; do not rely on remembered figures.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L50 · _0.2 Cardiovascular and Metabolic Risk_ · `unverified` — the qualifying criteria.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L56 · _0.2 Cardiovascular and Metabolic Risk_ · `unverified` — diagnostic criteria and lipid thresholds.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L63 · _0.2 Cardiovascular and Metabolic Risk_ · `unverified` — all screening intervals and thresholds.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L169 · _0.6 Occupational Health, Certification and Driving_ · `unverified` — current forms and requirements.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L194 · _0.6 Occupational Health, Certification and Driving_ · `unverified` — the current provisions.
+- **Corpus B-new/GER4_Safeguarding_and_Forensic.md** L34 · _0.1 The Safeguarding Mindset and Mandatory Reporting_ · `unverified` — the SA legislation, the reporting threshold as legally defined, the contact pathway, and the categories of reportable concern. Look these up now, and know where your health network's policy is kept.
+- **Corpus B-new/GER4_Safeguarding_and_Forensic.md** L137 · _0.4 Family and Domestic Violence_ · `unverified` — current services and SA pathways.
+- **Corpus B-new/GER4_Safeguarding_and_Forensic.md** L160 · _0.5 Sexual Assault_ · `unverified` — the service, its scope and the referral pathway.
+- **Corpus B-new/GER4_Safeguarding_and_Forensic.md** L172 · _0.5 Sexual Assault_ · `unverified` — the SA provisions, including in relation to age and to power imbalance.
+- **Corpus B-new/GER4_Safeguarding_and_Forensic.md** L194 · _0.6 Elder Abuse and Adults at Risk_ · `unverified` — the scope, the reporting obligations (which may be mandatory for some groups), the age and eligibility criteria, and the referral pathway. This differs between states and must be checked.
+- **Corpus B-new/GER7_Investigation_and_Lab_Addendum.md** L45 · _0.2 Haematinics and Red Cell Folate_ · `unverified` — availability, cost and reference ranges, which vary by laboratory.
+- **Corpus B-new/GER7_Investigation_and_Lab_Addendum.md** L112 · _0.4 Troponins and Cardiac Biomarkers_ · `unverified` — the assay-specific thresholds and timing, which differ between assays and hospitals and must come from your local pathway.
+- **Corpus B-new/GER7_Investigation_and_Lab_Addendum.md** L129 · _0.5 Fetal Scalp Blood Sampling and Intrapartum Assessment_ · `unverified` — the normal, borderline and abnormal thresholds for both pH and lactate.
+- **Corpus B-new/H1_Haematuria_and_Proteinuria.md** L126 · _0.4 Nephrotic Syndrome_ · `unverified` — the proteinuria threshold.
+- **Corpus B-new/H1_Haematuria_and_Proteinuria.md** L149 · _0.4 Nephrotic Syndrome_ · `unverified` — the criteria.
+- **Corpus B-new/H2_LUTS__Retention_and_Incontinence.md** L41 · _0.1 Lower Urinary Tract Symptoms_ · `unverified` — the score and its bands.
+- **Corpus B-new/H2_LUTS__Retention_and_Incontinence.md** L109 · _0.3 Acute Urinary Retention_ · `unverified` — the residual volume and output thresholds that define significant post-obstructive diuresis.
+- **Corpus B-new/H2_LUTS__Retention_and_Incontinence.md** L188 · _0.6 Incontinence_ · `unverified` — current schemes and eligibility.
+- **Corpus B-new/H3_Acute_Kidney_Injury_and_CKD.md** L27 · _0.1 Acute Kidney Injury — Definition and Approach_ · `unverified` — the KDIGO staging criteria for creatinine rise and urine output.
+- **Corpus B-new/H3_Acute_Kidney_Injury_and_CKD.md** L124 · _0.4 Chronic Kidney Disease_ · `unverified` — the eGFR and ACR cut-offs for each category, and the combined risk matrix.
+- **Corpus B-new/H3_Acute_Kidney_Injury_and_CKD.md** L182 · _0.5 Drug and Contrast Nephropathy_ · `unverified` — the eGFR thresholds defining risk and the hydration protocols.
+- **Corpus B-new/H4_Scrotum__Groin_and_Loin.md** L99 · _0.3 Penile and Foreskin Problems_ · `unverified` — the time thresholds and the phenylephrine regimen.
+- **Corpus B-new/I1_Thyroid_Disease.md** L34 · _0.1 Thyroid Function Tests — Interpretation_ · `unverified` — all reference ranges.
+- **Corpus B-new/I1_Thyroid_Disease.md** L84 · _0.2 Hypothyroidism_ · `unverified` — the TSH threshold for treatment and the monitoring interval.
+- **Corpus B-new/I1_Thyroid_Disease.md** L162 · _0.4 Thyroid Emergencies_ · `unverified` — the score.
+- **Corpus B-new/I1_Thyroid_Disease.md** L210 · _0.5 Thyroid Nodule and Goitre_ · `unverified` — the systems, categories and size thresholds.
+- **Corpus B-new/I1_Thyroid_Disease.md** L247 · _0.6 Thyroid Disease in Pregnancy and Special Situations_ · `unverified` — obtain from your laboratory.
+- **Corpus B-new/I1_Thyroid_Disease.md** L272 · _0.6 Thyroid Disease in Pregnancy and Special Situations_ · `unverified` — diagnostic criteria and treatment regimens.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L25 · _0.1 Diagnosis and Classification_ · `unverified` — all diagnostic threshold values, and the separate thresholds defining impaired fasting glucose and impaired glucose tolerance.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L136 · _0.4 Hypoglycaemia_ · `unverified` — the glucose thresholds used to define and grade hypoglycaemia.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L260 · _0.7 Diabetes in Special Situations_ · `unverified` — timing, thresholds and risk criteria, which differ between guidelines and have been contested.
+- **Corpus B-new/I3_Calcium__Parathyroid_and_Bone.md** L60 · _0.2 Hypercalcaemia_ · `unverified` — the ratio and its threshold.
+- **Corpus B-new/I3_Calcium__Parathyroid_and_Bone.md** L81 · _0.2 Hypercalcaemia_ · `unverified` — all agents, doses, fluid rates and the severity thresholds triggering each step.
+- **Corpus B-new/I3_Calcium__Parathyroid_and_Bone.md** L167 · _0.4 Parathyroid Disorders_ · `unverified` — the specific criteria.
+- **Corpus B-new/I4_Pituitary__Adrenal_and_Sex_Hormone.md** L100 · _0.2 Pituitary Tumours_ · `unverified` — thresholds and protocols.
+- **Corpus B-new/I4_Pituitary__Adrenal_and_Sex_Hormone.md** L204 · _0.4 Cushing Syndrome_ · `unverified` — all test protocols and thresholds.
+- **Corpus B-new/I4_Pituitary__Adrenal_and_Sex_Hormone.md** L228 · _0.5 Mineralocorticoid Excess and Phaeochromocytoma_ · `unverified` — screening thresholds, drug withdrawal periods, and confirmatory protocols.
+- **Corpus B-new/I4_Pituitary__Adrenal_and_Sex_Hormone.md** L270 · _0.6 Androgen Excess, Hirsutism and Virilisation_ · `unverified` — the criteria and the ultrasound thresholds, and the modified criteria for adolescents, in whom polycystic morphology is common and normal.
+- **Corpus B-new/I4_Pituitary__Adrenal_and_Sex_Hormone.md** L314 · _0.7 Adrenal and Pituitary Incidentalomas_ · `unverified` — the full recommended panel and thresholds.
+- **Corpus B-new/I4_Pituitary__Adrenal_and_Sex_Hormone.md** L324 · _0.7 Adrenal and Pituitary Incidentalomas_ · `unverified` — the attenuation and size thresholds.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L23 · _0.1 Obesity_ · `unverified` — the ethnicity-specific thresholds.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L48 · _0.1 Obesity_ · `unverified` — BMI and comorbidity eligibility thresholds.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L118 · _0.3 Lipid Disorders_ · `unverified` — the criteria and LDL thresholds.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L131 · _0.3 Lipid Disorders_ · `unverified` — the triglyceride threshold at which pancreatitis risk becomes significant.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L165 · _0.4 Metabolic Syndrome and Integrated Risk_ · `unverified` — the diagnostic criteria, which differ between definitions.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L255 · _0.6 Potassium Disorders_ · `unverified` — all agents, doses and the potassium thresholds triggering each step.
+- **Corpus B-new/J1_Cytopenias_and_Marrow_Failure.md** L38 · _0.1 Approach to Anaemia_ · `unverified` — transfusion thresholds.
+- **Corpus B-new/J1_Cytopenias_and_Marrow_Failure.md** L53 · _0.2 Microcytic Anaemia_ · `unverified` — the ferritin thresholds, including the higher threshold applied in the presence of inflammation or chronic kidney disease.
+- **Corpus B-new/J1_Cytopenias_and_Marrow_Failure.md** L75 · _0.2 Microcytic Anaemia_ · `unverified` — the cut-off.
+- **Corpus B-new/J3_Bleeding_and_Thrombosis.md** L121 · _0.4 Venous Thromboembolism — Diagnosis_ · `unverified` — the Wells scores, PERC rule, and age-adjusted D-dimer formula.
+- **Corpus B-new/J4_Paraproteins_and_Lymphoproliferative.md** L33 · _0.1 Paraproteins and MGUS_ · `unverified` — the diagnostic thresholds, risk stratification and monitoring intervals.
+- **Corpus B-new/J4_Paraproteins_and_Lymphoproliferative.md** L54 · _0.2 Multiple Myeloma_ · `unverified` — the criteria and thresholds.
+- **Corpus B-new/J5_Oncological_Emergencies_and_Palliative_Care.md** L199 · _0.6 The Last Days of Life_ · `unverified` — the SA reportable death criteria. Check them; getting this wrong causes real distress to families.
+- **Corpus B-new/K1_Fever_Workup.md** L105 · _0.3 Fever of Unknown Origin and Prolonged Fever_ · `unverified` — the temperature threshold, duration and the definition of "appropriate initial investigation".
+- **Corpus B-new/K1_Fever_Workup.md** L199 · _0.5 Fever in the Immunocompromised, and Febrile Neutropenia_ · `unverified` — the score and its threshold.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L64 · _0.1.3 Mx – Chronic/long-term_ · `unverified` — prophylaxis regimens and the recurrence threshold.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L86 · _0.2 Necrotising Soft Tissue Infection_ · `unverified` — the score components and thresholds.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L244 · _0.6 Infestations_ · `unverified` — current programs and treatment protocols.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L85 · _0.2 Non-Occupational Exposure, PEP and PrEP_ · `unverified` — the SA forensic and reporting pathway, and the relevant services.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L111 · _0.3 Tuberculosis — Latent Infection, Contacts and Active Disease_ · `unverified` — which test in which population, cut-offs, and the latent TB treatment regimens.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L173 · _0.4 HIV and Opportunistic Infection_ · `unverified` — the CD4 thresholds and the prophylaxis regimens and their start and stop points.
+- **Corpus B-new/K4_Allergy_and_Clinical_Immunology.md** L62 · _0.2 Allergy Assessment and Testing_ · `unverified` — antihistamine withholding periods, tryptase timing and thresholds, and challenge protocols.
+- **Corpus B-new/L1_Hot_and_Swollen_Joint.md** L87 · _0.2 Septic Arthritis_ · `unverified` — the criteria and their thresholds.
+- **Corpus B-new/L1_Hot_and_Swollen_Joint.md** L126 · _0.3 Crystal Arthropathy_ · `unverified` — the target urate, the indications and the thresholds.
+- **Corpus B-new/L1_Hot_and_Swollen_Joint.md** L243 · _0.6 Joint Aspiration and Synovial Fluid Interpretation_ · `unverified` — all cell count thresholds. These are the numbers that determine whether a joint is washed out, and they must come from a current source.
+- **Corpus B-new/L3_Muscle_Symptoms_and_Widespread_Pain.md** L168 · _0.5 Fibromyalgia and Chronic Widespread Pain_ · `unverified` — the current diagnostic criteria.
+- **Corpus B-new/L4_Back_and_Neck_Pain.md** L252 · _0.7 Neck Pain and the Cervical Spine_ · `unverified` — the rule criteria, their exclusions, and which is used in your health service.
+- **Corpus B-new/L5_Regional_Limb_Pain.md** L196 · _0.5 Knee_ · `unverified` — the criteria.
+- **Corpus B-new/L5_Regional_Limb_Pain.md** L252 · _0.7 Ankle and Foot_ · `unverified` — the criteria.
+- **Corpus B-new/L6_Soft_Tissue_Injury_and_Mobility.md** L194 · _0.6 Immobility, Mobility Aids and Functional Assessment_ · `unverified` — the cut-off values for each measure.
+- **Corpus B-new/L7_Fractures_and_Eponyms.md** L67 · _0.2 Fracture Healing and Complications_ · `unverified` — the criteria.
+- **Corpus B-new/L7_Fractures_and_Eponyms.md** L180 · _0.5 Paediatric Fractures_ · `unverified` — the SA mandatory reporting requirements and pathway.
+- **Corpus B-new/L8_Facial__Head_and_Torso_Trauma.md** L124 · _0.3 Chest Trauma_ · `unverified` — the volume thresholds.
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L44 · _0.1 Recognising the Seriously Unwell Child_ · `unverified` — the specific criteria and thresholds.
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L97 · _0.3 Resuscitation and the Sick Child Pathway_ · `unverified` — the recommended threshold.
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L118 · _0.4 The Unwell Infant_ · `unverified` — the age thresholds and the required workup.
+- **Corpus B-new/M2_Fever_in_Children.md** L30 · _0.1 Approach to the Febrile Child_ · `unverified` — the recommended route by age and the temperature thresholds.
+- **Corpus B-new/M2_Fever_in_Children.md** L36 · _0.1 Approach to the Febrile Child_ · `unverified` — the criteria.
+- **Corpus B-new/M2_Fever_in_Children.md** L49 · _0.2 Fever in the Young Infant_ · `unverified` — the age thresholds, the temperature cut-off, and exactly what the septic screen must include at each age. These differ between guidelines and must come from your local protocol.
+- **Corpus B-new/M2_Fever_in_Children.md** L71 · _0.3 Fever Without Source in Older Children_ · `unverified` — the imaging and prophylaxis criteria, which have become less interventionist.
+- **Corpus B-new/M2_Fever_in_Children.md** L156 · _0.5 Rash in a Febrile Child_ · `unverified` — the diagnostic criteria and the current definitions.
+- **Corpus B-new/M3_Neonatal_Problems.md** L38 · _0.1 Neonatal Jaundice_ · `unverified` — the age threshold for optimal Kasai outcome.
+- **Corpus B-new/M3_Neonatal_Problems.md** L61 · _0.1 Neonatal Jaundice_ · `unverified` — all thresholds; use the nomogram.
+- **Corpus B-new/M3_Neonatal_Problems.md** L103 · _0.2 The Cyanosed or Collapsed Neonate_ · `unverified` — full criteria.
+- **Corpus B-new/M3_Neonatal_Problems.md** L104 · _0.2 The Cyanosed or Collapsed Neonate_ · `unverified` — the protocol and thresholds.
+- **Corpus B-new/M3_Neonatal_Problems.md** L111 · _0.3 Feeding, Weight and Hypoglycaemia_ · `unverified` — the percentage and the day.
+- **Corpus B-new/M3_Neonatal_Problems.md** L128 · _0.3 Feeding, Weight and Hypoglycaemia_ · `unverified` — glucose thresholds, screening schedules and dextrose regimens.
+- **Corpus B-new/M3_Neonatal_Problems.md** L186 · _0.5 Apnoea and BRUE_ · `unverified` — the risk criteria.
+- **Corpus B-new/M4_Growth_and_Development.md** L50 · _0.2 Growth Faltering_ · `unverified` — the centile-crossing thresholds.
+- **Corpus B-new/M4_Growth_and_Development.md** L157 · _0.5 Developmental Milestones and Surveillance_ · `unverified` — all milestone limit ages; use a current reference.
+- **Corpus B-new/M5_Paediatric_GI__GU_and_Limb.md** L35 · _0.1 Acute Abdominal Pain in Children_ · `unverified` — the scoring systems and their thresholds.
+- **Corpus B-new/M5_Paediatric_GI__GU_and_Limb.md** L85 · _0.2 Vomiting and Gastroenteritis_ · `unverified` — the current evidence and recommendations.
+- **Corpus B-new/M5_Paediatric_GI__GU_and_Limb.md** L160 · _0.5 The Limping Child_ · `unverified` — the criteria and the associated probabilities.
+- **Corpus B-new/M6_Paediatric_Respiratory_and_Neurology.md** L51 · _0.2 Stridor and Upper Airway Obstruction_ · `unverified` — the severity criteria.
+- **Corpus B-new/M6_Paediatric_Respiratory_and_Neurology.md** L81 · _0.3 Bronchiolitis and Preschool Wheeze_ · `unverified` — current guidance, particularly on oxygen saturation thresholds and respiratory support.
+- **Corpus B-new/M6_Paediatric_Respiratory_and_Neurology.md** L104 · _0.4 Asthma in Children_ · `unverified` — diagnostic criteria and spirometry thresholds.
+- **Corpus B-new/M6_Paediatric_Respiratory_and_Neurology.md** L113 · _0.4 Asthma in Children_ · `unverified` — all doses, frequencies and escalation thresholds.
+- **Corpus B-new/M7_Adolescent_and_Behavioural_Health.md** L100 · _0.4 Common Adolescent Health Issues_ · `unverified` — services and access.
+- **Corpus B-new/M7_Adolescent_and_Behavioural_Health.md** L164 · _0.6 ADHD_ · `unverified` — the criteria and the age threshold.
+- **Corpus B-new/N2_Acute_Behavioural_Disturbance_and_Substance_Use.md** L62 · _0.2 Alcohol Use Disorder_ · `unverified` — the current thresholds.
+- **Corpus B-new/N3_Psychosis_and_Antipsychotics.md** L30 · _0.1 The First Episode of Psychosis_ · `unverified` — current service names, eligibility and referral pathways.
+- **Corpus B-new/N3_Psychosis_and_Antipsychotics.md** L49 · _0.2 Schizophrenia and Related Disorders_ · `unverified` — the specific criteria and durations.
+- **Corpus B-new/N3_Psychosis_and_Antipsychotics.md** L181 · _0.6 Clozapine_ · `unverified` — the monitoring protocol and thresholds, which are specified in the relevant clozapine monitoring programme.
+- **Corpus B-new/N3_Psychosis_and_Antipsychotics.md** L187 · _0.6 Clozapine_ · `unverified` — the intervals, thresholds and system requirements.
+- **Corpus B-new/N4_Mood_Disorders.md** L74 · _0.2 Depression — Management_ · `unverified` — current program names, session numbers and eligibility.
+- **Corpus B-new/N4_Mood_Disorders.md** L138 · _0.4 Bipolar Disorder and Mania_ · `unverified` — the duration criteria.
+- **Corpus B-new/N4_Mood_Disorders.md** L232 · _0.6 Special Situations_ · `unverified` — availability, funding and criteria in Australia.
+- **Corpus B-new/N5_Anxiety__OCD_and_Trauma.md** L53 · _0.2 The Anxiety Disorders_ · `unverified` — diagnostic criteria and duration thresholds.
+- **Corpus B-new/N5_Anxiety__OCD_and_Trauma.md** L124 · _0.5 Trauma and Stressor-Related Disorders_ · `unverified` — criteria and durations.
+- **Corpus B-new/N5_Anxiety__OCD_and_Trauma.md** L167 · _0.6 Management_ · `unverified` — programs and access.
+- **Corpus B-new/N6_Functional__Dissociative_and_Personality_Disorders.md** L69 · _0.2 Somatic Symptom and Related Disorders_ · `unverified` — diagnostic criteria.
+- **Corpus B-new/N6_Functional__Dissociative_and_Personality_Disorders.md** L117 · _0.4 Personality Disorders_ · `unverified` — the current classification.
+- **Corpus B-new/N6_Functional__Dissociative_and_Personality_Disorders.md** L174 · _0.6 Factitious Disorder and Malingering_ · `unverified` — SA mandatory reporting requirements and pathway.
+- **Corpus B-new/N8_Eating_Disorders.md** L37 · _0.1 Recognising Eating Disorders_ · `unverified` — the questions and threshold.
+- **Corpus B-new/N8_Eating_Disorders.md** L46 · _0.1 Recognising Eating Disorders_ · `unverified` — full diagnostic criteria.
+- **Corpus B-new/N8_Eating_Disorders.md** L73 · _0.2 Medical Complications and Risk Assessment_ · `unverified` — the specific thresholds for each parameter, and the admission criteria, are deliberately omitted. Obtain them from ANZAED guidance and your local eating disorder protocol.
+- **Corpus B-new/N8_Eating_Disorders.md** L91 · _0.3 Refeeding Syndrome_ · `unverified` — the at-risk criteria, starting rates, rate of increase, monitoring frequency and replacement regimens. These are protocol matters.
+- **Corpus B-new/N8_Eating_Disorders.md** L171 · _0.6 Treatment Pathways and the Australian Context_ · `unverified` — eligibility criteria, session numbers and the referral process.
+- **Corpus B-new/O1_Early_Pregnancy.md** L40 · _0.1 Assessing Bleeding and Pain in Early Pregnancy_ · `unverified` — the threshold, which varies with the scanner, the operator and local protocol.
+- **Corpus B-new/O1_Early_Pregnancy.md** L132 · _0.4 Molar Pregnancy and Hyperemesis_ · `unverified` — the scoring tool.
+- **Corpus B-new/O1_Early_Pregnancy.md** L182 · _0.6 Early Pregnancy Care and Recurrent Loss_ · `unverified` — the threshold, which has been revised downward in some guidance.
+- **Corpus B-new/O2_Later_Pregnancy_and_Fetal.md** L27 · _0.1 Hypertensive Disorders of Pregnancy_ · `unverified` — the diagnostic blood pressure thresholds.
+- **Corpus B-new/O2_Later_Pregnancy_and_Fetal.md** L32 · _0.1 Hypertensive Disorders of Pregnancy_ · `unverified` — all doses and thresholds for treatment.
+- **Corpus B-new/O2_Later_Pregnancy_and_Fetal.md** L56 · _0.2 Pre-eclampsia and Eclampsia_ · `unverified` — the full diagnostic criteria.
+- **Corpus B-new/O2_Later_Pregnancy_and_Fetal.md** L141 · _0.4 Preterm Labour and Prelabour Rupture of Membranes_ · `unverified` — gestational threshold and regimen.
+- **Corpus B-new/O3_Labour__Delivery_and_Postpartum.md** L183 · _0.6 Perinatal Mental Health_ · `unverified` — the schedule and cut-offs.
+- **Corpus B-new/O4_Abnormal_and_Menstrual_Bleeding.md** L81 · _0.2 Heavy Menstrual Bleeding_ · `unverified` — the age and risk thresholds
+- **Corpus B-new/O4_Abnormal_and_Menstrual_Bleeding.md** L111 · _0.3 Intermenstrual, Postcoital and Postmenopausal Bleeding_ · `unverified` — the threshold, which differs for women on tamoxifen and on hormone therapy.
+- **Corpus B-new/O4_Abnormal_and_Menstrual_Bleeding.md** L129 · _0.4 Amenorrhoea_ · `unverified` — the age thresholds.
+- **Corpus B-new/O4_Abnormal_and_Menstrual_Bleeding.md** L189 · _0.5 Dysmenorrhoea and Endometriosis_ · `unverified` — current initiatives and referral pathways.
+- **Corpus B-new/O5_Pelvic_and_Vulval_Conditions.md** L86 · _0.3 Ovarian Pathology_ · `unverified` — the cyst size threshold.
+- **Corpus B-new/O5_Pelvic_and_Vulval_Conditions.md** L93 · _0.3 Ovarian Pathology_ · `unverified` — the size and morphology thresholds and follow-up intervals.
+- **Corpus B-new/O5_Pelvic_and_Vulval_Conditions.md** L111 · _0.3 Ovarian Pathology_ · `unverified` — the indices and their thresholds.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L51 · _0.1 The Sexual History and STI Assessment_ · `unverified` — the current outbreak status and the recommended antenatal retesting schedule.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L53 · _0.1 The Sexual History and STI Assessment_ · `unverified` — window periods for each infection
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L192 · _0.4 Emergency Contraception and Unintended Pregnancy_ · `unverified` — the time windows, doses, weight thresholds and the interval before restarting hormonal contraception.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L211 · _0.4 Emergency Contraception and Unintended Pregnancy_ · `unverified` — the gestational threshold for anti-D
+- **Corpus B-new/O7_Breast_Disease.md** L30 · _0.1 Triple Assessment_ · `unverified` — the age thresholds.
+- **Corpus B-new/RESP-X_Occupational_and_Chronic_Lung_Disease.md** L117 · _0.2 Occupational Lung Disease_ · `unverified` — the SA notification requirements, forms and thresholds.
+- **Corpus B-new/RESP-X_Occupational_and_Chronic_Lung_Disease.md** L240 · _0.5 Sleep-Disordered Breathing_ · `unverified` — AHI severity thresholds, screening tool cut-offs (STOP-BANG, Epworth) and CPAP eligibility.
+- **Corpus B-new/RESP-X_Occupational_and_Chronic_Lung_Disease.md** L256 · _0.6 Chronic Respiratory Failure and Long-Term Management_ · `unverified` — the PaO₂ and saturation criteria, the stability interval before assessment, and TSANZ eligibility.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L41 · _0.1 Capacity Assessment_ · `unverified` — the specific age thresholds, and the circumstances in which a second practitioner's opinion is required, must be verified against the Consent to Medical Treatment and Palliative Care Act 1995 (SA). Do not assume the position in another state applies.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L141 · _0.4 Neurologically Determined Death_ · `unverified` — the required observation period, the CO₂ threshold and technique for the apnoea test, the qualifications and independence requirements of the two examining practitioners, and the accepted imaging modalities are ALL omitted from this file. The authoritative Australian source is the ANZICS Statement on Death and Organ Donation; obtain the current edition.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L157 · _0.4.2 Mx – Definitive_ · `unverified` — reportable death criteria under the Coroners Act 2003 (SA).
@@ -317,7 +794,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Drugs_06_Cardiovascular.md** L41 · _0.1.1 Vitamin K Antagonists (Warfarin)_ · `snippet` — model knowledge, not source-checked; confirm the mitral stenosis severity threshold against a named cardiology source.
 - **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L98 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (158)
+## R3 — everything else (435)
 
 - **Corpus A/01_Cardiovascular.md** L49 · _Added from unverified layer — right ventricular infarction and the right-sided leads_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L81 · _0.1.3 Mx – Definitive (STEMI)_ · `inherited` — model knowledge, not source-checked.
@@ -366,8 +843,14 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/05_Ophthalmology.md** L70 · _Added from unverified layer — the rust ring_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/07_Renal_Medicine_and_Urology.md** L794 · _Added from unverified layer — DIAPPERS: the reversible causes of incontinence_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L27 · _Cellulitis_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L117 · _Added from unverified layer — fever: what produces it, and when its absence misleads_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L136 · _Added from unverified layer — fever: what produces it, and when its absence misleads_ · `inherited` — the expected time to defervescence after stopping the drug.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L174 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L178 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — availability, funding and indications for PET-CT in FUO in Australia; Medicare Benefits Schedule and local nuclear medicine policy would settle it.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L213 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_08_Haemonc_-_Blood_Products_and_Transfusion.md** L155 · _Blood product transfusion complications_ · `inherited` — model knowledge, not source-checked. Timing of resumption by indication and bleed site, per a named haematology or cardiology source.
-- **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L62 · _Superior vena cava obstruction (SVCO)_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L38 · _Added from unverified layer — what the neutropenic patient does not show you_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L83 · _Superior vena cava obstruction (SVCO)_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L61 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_06_Ortho_-_Spinal_Orthopaedics.md** L101 · _Added from unverified layer — do not over-image, and do not over-interpret the images_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L144 · _Added from unverified layer — why alkali burns are worse than acid burns_ · `inherited` — model knowledge, not source-checked.
@@ -389,6 +872,277 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/Clinical-Process-EBM-Consent-Capacity.md** L83 · _Added from unverified layer — certificates are legal documents_ · `inherited` — model knowledge, not source-checked. Certificate content requirements and workers-compensation forms are jurisdiction-specific; confirm locally.
 - **Corpus A/Investigation-Interpretation.md** L283 · _Added from unverified layer — classifying the elevation, and what to do with the classification_ · `inherited` — model knowledge, not source-checked. Sex-specific 99th-percentile values are assay-specific; obtain them from your own laboratory.
 - **Corpus A/Investigation-Interpretation.md** L557 · _1.22 Cognitive Screening Tools (MMSE, MoCA, AMTS)_ · `inherited` — model knowledge, not source-checked.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L48 · _0.1.3 Mx – Chronic/long-term_ · `UNSET` — process and jurisdiction.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L60 · _0.2 Consent and Treatment Refusal_ · `UNSET` — confirm the current statutory and common law position, including any civil liability legislation modifying it.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L68 · _0.2 Consent and Treatment Refusal_ · `UNSET` — the statutory basis and its limits in South Australia require verification against the Consent to Medical Treatment and Palliative Care Act 1995.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L72 · _0.2 Consent and Treatment Refusal_ · `UNSET` — the precise scope of treatment authorised under the SA Mental Health Act requires verification.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L96 · _0.3 Substitute Decision-Making and Advance Care Directives_ · `UNSET` — the exact hierarchy, the terminology, the documents that are valid in South Australia, and whether an interstate or older-format directive is recognised all require verification against the Advance Care Directives Act 2013 (SA) and the Guardianship and Administration Act 1993 (SA). Terminology differs substantially between states — "enduring guardian", "medical treatment decision maker", "person responsible" are not interchangeable across borders.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L185 · _0.5 Professional Practice Concern_ · `UNSET` — confirm current mandatory notification exemptions for treating practitioners and the current Doctors' Health SA contact and scope.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L212 · _0.6 Fitness Certification_ · `UNSET` — this is a genuine jurisdictional difference and the precise nature, scope and extent of the South Australian obligation must be verified against the Motor Vehicles Act 1959 (SA) and current SA Government guidance before relying on it. Do not assume the position in another state applies, and do not assume this summary is complete.
+- **Corpus B-new/A10_Ethics__Capacity__Consent_and_Certification.md** L230 · _0.6 Fitness Certification_ · `UNSET` — the current certificate format, requirements and scheme rules require verification against ReturnToWorkSA.
+- **Corpus B-new/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L242 · _0.8 Tracheostomy and Laryngectomy Emergency_ · `UNSET` — obtain the current NTSP tracheostomy and laryngectomy emergency algorithms and your hospital's version; the sequence below is the principle, not a substitute for the algorithm.
+- **Corpus B-new/A3_Respiratory_Failure__Bronchospasm_and_Hypoxia.md** L36 · _0.1 Respiratory Failure — Type 1 versus Type 2_ · `UNSET` — the alveolar gas equation, the A-a gradient formula and its age-adjusted normal range require verification.
+- **Corpus B-new/A3_Respiratory_Failure__Bronchospasm_and_Hypoxia.md** L190 · _0.6 Hypoxia_ · `UNSET` — confirm the current evidence and any device or practice guidance on this, as it is an active area and the magnitude of the effect varies between devices.
+- **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L132 · _0.4 Acute Cough_ · `UNSET` — the duration boundaries separating acute, subacute and chronic cough require verification.
+- **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L237 · _0.7 Solitary Pulmonary Nodule_ · `UNSET` — the size boundary defining nodule versus mass requires verification.
+- **Corpus B-new/A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule.md** L253 · _0.7 Solitary Pulmonary Nodule_ · `UNSET` — confirm the current status and eligibility of the Australian National Lung Cancer Screening Program, which is recent and may have changed.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L43 · _0.1 The Poisoned Patient — Risk Assessment and General Approach_ · `UNSET` — indications and regimen.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L225 · _0.6 Severe Cutaneous Adverse Reactions_ · `UNSET` — confirm which HLA tests are recommended and funded in Australian practice and for which populations.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L199 · _0.6 Frostbite and Non-Freezing Cold Injury_ · `UNSET` — water temperature range and duration for rewarming require verification.
+- **Corpus B-new/A6_Thermal_and_Environmental_Injury.md** L215 · _0.6.2 Mx – Definitive_ · `UNSET` — indications and time windows.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L33 · _0.1 Burns — Assessment_ · `UNSET` — the specific percentages assigned to each body region in the rule of nines, the palmar surface percentage, and the age-adjusted Lund and Browder values are omitted. Use a printed chart, which every emergency department has, rather than recall.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L135 · _0.4 Chemical Eye Injury_ · `UNSET` — the target pH range and the recheck interval require verification.
+- **Corpus B-new/A8_Foreign_Bodies_by_Site.md** L62 · _0.2 Aural Foreign Body_ · `UNSET` — agent choice and whether to instil anything if perforation is suspected requires verification.
+- **Corpus B-new/A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies.md** L161 · _0.4 Anticoagulant-Associated Bleeding and Reversal_ · `UNSET` — confirm current andexanet alfa availability and funding in Australia and at your health network, as this has changed and continues to.
+- **Corpus B-new/AN1_Perioperative_Care.md** L29 · _0.1 Preoperative Assessment_ · `unverified` — the class definitions.
+- **Corpus B-new/AN1_Perioperative_Care.md** L31 · _0.1 Preoperative Assessment_ · `unverified` — components and interpretation.
+- **Corpus B-new/AN1_Perioperative_Care.md** L38 · _0.1 Preoperative Assessment_ · `unverified` — the DAPT durations by stent type, and the interval after infarction.
+- **Corpus B-new/AN1_Perioperative_Care.md** L47 · _0.1 Preoperative Assessment_ · `unverified` — the recommended cessation interval.
+- **Corpus B-new/AN1_Perioperative_Care.md** L118 · _0.3 Perioperative Medication Management_ · `unverified` — local policy varies.
+- **Corpus B-new/AN1_Perioperative_Care.md** L191 · _0.5 Postoperative Complications_ · `unverified` — agents, doses and durations.
+- **Corpus B-new/AN1_Perioperative_Care.md** L221 · _0.6 Postoperative Analgesia_ · `unverified` — current obligations.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L36 · _0.1 The Australian Health System_ · `unverified` — item numbers, eligibility, frequency and current structure; these change and I would not rely on the detail here.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L51 · _0.1 The Australian Health System_ · `unverified` — the standards and their current content.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L76 · _0.2 Aboriginal and Torres Strait Islander Health — Context_ · `unverified` — all statistics; specific figures are deliberately omitted here.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L83 · _0.2 Aboriginal and Torres Strait Islander Health — Context_ · `unverified` — the current targets, progress and program structures.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L94 · _0.3 Cultural Safety in Practice_ · `unverified` — the current definitions and requirements.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L126 · _0.3 Cultural Safety in Practice_ · `unverified` — the SA patient transport scheme name, eligibility and application process.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L186 · _0.5 Rural, Remote and Other Priority Populations_ · `unverified` — the classification and its applications.
+- **Corpus B-new/AU1_Australian_Health_Context_and_ATSI_Health.md** L193 · _0.5 Rural, Remote and Other Priority Populations_ · `unverified` — current eligibility rules and refugee health services in SA.
+- **Corpus B-new/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L73 · _0.2 Chest Tightness and Chronic Chest Pain_ · `UNSET` — class descriptors.
+- **Corpus B-new/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L133 · _0.3.3 Mx – Chronic/long-term_ · `UNSET` — duration of restriction.
+- **Corpus B-new/B2_Hypertension_Spectrum.md** L21 · _0.1 Elevated Blood Pressure_ · `UNSET` — required rest period, number of readings and the interval between visits required for diagnosis.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L57 · _0.2 Narrow Complex Tachycardia_ · `UNSET` — strain pressure and duration.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L211 · _0.6 Cardiac Device Events_ · `UNSET` — agents and doses.
+- **Corpus B-new/B4_Syncope__Collapse_and_Hypotension.md** L87 · _0.2 Syncope_ · `UNSET` — the diagnostic fall in systolic and diastolic pressure, and the timing of measurements, require verification.
+- **Corpus B-new/B5_Murmurs__Endocarditis_and_Vascular_Disease.md** L23 · _0.1 Heart Murmurs — Assessment_ · `UNSET` — Levine grading descriptors.
+- **Corpus B-new/B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations.md** L186 · _0.5 Fatigue, Lethargy and Malaise_ · `UNSET` — the current recommended approach, and the status of graded exercise therapy, require verification against current guidance, as this area has changed and remains contested.
+- **Corpus B-new/C1_Acute_Abdomen.md** L151 · _0.4 Epigastric Pain_ · `UNSET` — testing method, and the requirement to withhold PPIs and antibiotics beforehand
+- **Corpus B-new/C1_Acute_Abdomen.md** L231 · _0.7 Left Lower Quadrant (Left Iliac Fossa) Pain_ · `UNSET` — Hinchey stages and their management implications.
+- **Corpus B-new/C1_Acute_Abdomen.md** L233 · _0.7 Left Lower Quadrant (Left Iliac Fossa) Pain_ · `UNSET` — the interval and the indications for follow-up colonoscopy.
+- **Corpus B-new/C2_Nausea_and_Vomiting.md** L132 · _0.4 Chronic and Refractory Nausea and Vomiting_ · `UNSET` — prokinetic agents, their duration limits and their adverse effect profiles.
+- **Corpus B-new/C2_Nausea_and_Vomiting.md** L137 · _0.4 Chronic and Refractory Nausea and Vomiting_ · `UNSET` — acute management options.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L100 · _0.3 Conjugated and Obstructive Jaundice_ · `UNSET` — the law has recognised exceptions and is a probability statement, not an absolute.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L210 · _0.6 Complications of Cirrhosis_ · `UNSET` — the gradient value separating high from low.
+- **Corpus B-new/C3_Jaundice_and_Liver_Disease.md** L222 · _0.6 Complications of Cirrhosis_ · `UNSET` — doses and targets.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L80 · _0.2 Upper Gastrointestinal Bleeding — Non-Variceal_ · `UNSET` — the recommended timing of restarting.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L82 · _0.2 Upper Gastrointestinal Bleeding — Non-Variceal_ · `UNSET` — the recommended timing from presentation, which differs for stable and unstable patients
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L197 · _0.5 Occult and Obscure Bleeding, and Iron Deficiency Anaemia_ · `UNSET` — the current eligible age range and screening interval for the National Bowel Cancer Screening Program, which has been revised.
+- **Corpus B-new/C5_Bowel_Habit__Obstruction_and_Distension.md** L100 · _0.2 Constipation_ · `UNSET` — all agents, doses and the disimpaction regimens for adults and children.
+- **Corpus B-new/C5_Bowel_Habit__Obstruction_and_Distension.md** L104 · _0.2 Constipation_ · `UNSET` — agents and indications.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L49 · _0.1.2 Mx – Definitive_ · `UNSET` — PPI doses, duration and step-down regimens.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L70 · _0.2 Peptic Ulcer Disease and *Helicobacter pylori*_ · `UNSET` — the required withholding periods.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L74 · _0.2 Peptic Ulcer Disease and *Helicobacter pylori*_ · `UNSET` — regimens, durations, and the interval before confirmatory testing.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L156 · _0.4 Anorectal Pain_ · `UNSET` — agents and concentrations.
+- **Corpus B-new/C6_Dyspepsia__Oesophageal_and_Anorectal_Disease.md** L163 · _0.4 Anorectal Pain_ · `UNSET` — the time window.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L34 · _0.1 Acute Pancreatitis — Diagnosis and Severity_ · `UNSET` — the recommended timing.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L66 · _0.2 Acute Pancreatitis — Management and Complications_ · `UNSET` — the recommended timing of initiating feeding.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L151 · _0.4 Pancreatic Pseudocyst and Fluid Collections_ · `UNSET` — the exact time boundary and the full definitions.
+- **Corpus B-new/C7_Pancreatobiliary_Disease.md** L231 · _0.6 Pancreatic Malignancy_ · `UNSET` — its performance characteristics.
+- **Corpus B-new/CV-X_Chronic_Heart_Failure.md** L135 · _0.3 HFrEF Management — The Four Pillars_ · `unverified` — the washout interval.
+- **Corpus B-new/CV-X_Chronic_Heart_Failure.md** L228 · _0.5 Decompensation — Precipitants and the Chronic-Acute Interface_ · `unverified` — agents, doses and monitoring frequency.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L74 · _0.2 Thunderclap Headache and Subarachnoid Haemorrhage_ · `UNSET` — the time window within which a negative CT alone is considered sufficient, and the interval after headache onset before LP can reliably detect xanthochromia. Both have changed with modern scanners and must be verified.
+- **Corpus B-new/D1_Headache_and_Meningism.md** L133 · _0.3 Primary Headache Disorders_ · `UNSET` — all agents, doses, and the current regulatory requirements for valproate and topiramate prescribing in Australia.
+- **Corpus B-new/D2_Altered_Consciousness_and_Cognition.md** L103 · _0.2 Delirium_ · `UNSET` — agents, doses and review intervals.
+- **Corpus B-new/D2_Altered_Consciousness_and_Cognition.md** L253 · _0.6 Mild Cognitive Impairment and the "Worried About My Memory" Consultation_ · `UNSET` — the modifiable risk factor list and estimated attributable fractions are from published dementia prevention work and should be verified against the current source.
+- **Corpus B-new/D3_Stroke_and_Focal_Neurological_Deficit.md** L28 · _0.1 Acute Stroke — Recognition and Hyperacute Management_ · `UNSET` — scoring.
+- **Corpus B-new/D3_Stroke_and_Focal_Neurological_Deficit.md** L142 · _0.3 Transient Ischaemic Attack and Secondary Prevention_ · `UNSET` — all agents, doses, the duration of dual antiplatelet therapy, and blood pressure targets.
+- **Corpus B-new/D3_Stroke_and_Focal_Neurological_Deficit.md** L168 · _0.4 Intracerebral Haemorrhage_ · `UNSET` — targets and the timeframe.
+- **Corpus B-new/D4_Weakness__Neuropathy_and_Radiculopathy.md** L76 · _0.2 Peripheral Neuropathy_ · `UNSET` — all agents, doses, titration and current prescribing requirements.
+- **Corpus B-new/D5_Dizziness__Vertigo_and_Gait.md** L76 · _0.2 Acute Vestibular Syndrome and the HINTS Examination_ · `UNSET` — the recommended duration limit for suppressants, and the evidence for corticosteroids, which is contested.
+- **Corpus B-new/D6_Seizures_and_Movement_Disorders.md** L19 · _0.1 Seizures — Classification and the First Seizure_ · `UNSET` — the full classification.
+- **Corpus B-new/D6_Seizures_and_Movement_Disorders.md** L121 · _0.3 Epilepsy Management_ · `UNSET` — agent selection by syndrome.
+- **Corpus B-new/D6_Seizures_and_Movement_Disorders.md** L186 · _0.4 Tremor_ · `UNSET` — availability and funding in Australia
+- **Corpus B-new/D6_Seizures_and_Movement_Disorders.md** L243 · _0.5.2 Mx – Definitive_ · `UNSET` — agents, doses and the sequencing of therapy.
+- **Corpus B-new/D7_Cranial_Nerves_and_Special_Senses.md** L79 · _0.2 Facial Palsy_ · `UNSET` — the grading.
+- **Corpus B-new/E1_Red_and_Painful_Eye.md** L110 · _0.3 Acute Angle-Closure Glaucoma_ · `unverified` — all agents and doses.
+- **Corpus B-new/E2_Vision_Loss_and_Disturbance.md** L130 · _0.4 Gradual Vision Loss_ · `unverified` — the AREDS categories and formulation.
+- **Corpus B-new/E2_Vision_Loss_and_Disturbance.md** L133 · _0.4 Gradual Vision Loss_ · `unverified` — the Australian screening intervals.
+- **Corpus B-new/EBM1_Evidence_and_Clinical_Process.md** L65 · _0.2 Using Guidelines Well_ · `unverified` — the GRADE terminology and its categories.
+- **Corpus B-new/EBM1_Evidence_and_Clinical_Process.md** L75 · _0.2 Using Guidelines Well_ · `unverified` — current recommendations.
+- **Corpus B-new/EBM1_Evidence_and_Clinical_Process.md** L180 · _0.6 Error, Incident Reporting and Open Disclosure_ · `unverified` — the ACSQHC Australian Open Disclosure Framework and your local policy.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L234 · _0.7.2 Mx – Definitive_ · `UNSET` — indications and technique require verification.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L155 · _0.5.2 Mx – Definitive_ · `UNSET` — dialysis indications require verification with the Poisons Information Centre and nephrology.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L179 · _0.6.1 Mx – Immediate_ · `UNSET` — replacement rates and potassium infusion limits come from local policy and are not stated here.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L211 · _0.7.1 Mx – Immediate_ · `UNSET` — fluid and potassium replacement rates from local policy.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L284 · _0.9 Meningococcal Sepsis_ · `UNSET` — contact prophylaxis agents and doses require verification with your state public health unit.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L347 · _0.11 Biliary Sepsis — Ascending Cholangitis_ · `UNSET` — the recommended timing of ERCP by severity grade requires verification against current guidance.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L27 · _0.1 The A–E Approach_ · `UNSET` — confirm which expansion your curriculum and examiners use; do not assume the one you learned is universal.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L57 · _0.2 Acute Exacerbation of COPD_ · `UNSET` — the target saturation range in COPD and the delivery devices used to achieve it require verification against TSANZ oxygen guidance; no range is stated here.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L162 · _0.5.1 Mx – Immediate_ · `UNSET` — note that suxamethonium and other agents carry specific hazards in some neuromuscular conditions; confirm with anaesthetics before any rapid sequence induction in these patients.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L180 · _0.6 Acute Severe Headache_ · `UNSET` — the time window within which a negative CT is considered sufficient to exclude SAH, and the interval after headache onset before LP can reliably detect xanthochromia, both require verification and both have changed with modern scanners.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L211 · _0.7 Major Head Injury_ · `UNSET` — target blood pressure, cerebral perfusion pressure and oxygenation values require verification against current neurotrauma guidance.
+- **Corpus B-new/F1_Ear.md** L43 · _0.1 Examining the Ear and Assessing Hearing_ · `unverified` — the classification and normal values.
+- **Corpus B-new/F1_Ear.md** L85 · _0.3 Otitis Externa and Otitis Media_ · `unverified` — agents and regimens.
+- **Corpus B-new/F1_Ear.md** L159 · _0.5 Sudden Sensorineural Hearing Loss and Tinnitus_ · `unverified` — the definition, the steroid regimen, and the treatment window.
+- **Corpus B-new/F2_Nose_and_Sinus.md** L43 · _0.1 Epistaxis_ · `unverified` — agents and pack durations.
+- **Corpus B-new/F3_Throat__Voice_and_Oral.md** L32 · _0.1 Sore Throat_ · `unverified` — the duration.
+- **Corpus B-new/F4_Neck_Lumps_and_Facial_Pain.md** L166 · _0.6 Facial Pain and Swelling_ · `unverified` — doses and monitoring.
+- **Corpus B-new/G1_Acute_Rash_and_Erythema.md** L191 · _0.6 Cellulitis and Its Mimics_ · `unverified` — regimens.
+- **Corpus B-new/G2_Blisters_and_Skin_Failure.md** L56 · _0.2 The Autoimmune Blistering Diseases_ · `unverified` — regimens.
+- **Corpus B-new/G2_Blisters_and_Skin_Failure.md** L64 · _0.2 The Autoimmune Blistering Diseases_ · `unverified` — current regimens.
+- **Corpus B-new/G3_Purpura_and_Vasculitis.md** L22 · _0.1 Approach to the Non-Blanching Rash_ · `unverified` — the size definitions.
+- **Corpus B-new/G3_Purpura_and_Vasculitis.md** L105 · _0.3 Cutaneous Small Vessel Vasculitis_ · `unverified` — the monitoring schedule.
+- **Corpus B-new/G4_Chronic_Rash__Pruritus_and_Pigment.md** L35 · _0.1 Eczema and Contact Dermatitis_ · `unverified` — potency classes, quantities and regimens.
+- **Corpus B-new/G4_Chronic_Rash__Pruritus_and_Pigment.md** L38 · _0.1 Eczema and Contact Dermatitis_ · `unverified` — the recommended weekly quantity.
+- **Corpus B-new/G6_Flushing__Sweating_and_Cyanosis.md** L62 · _0.2 The Endocrine and Neoplastic Causes_ · `unverified` — the collection requirements and dietary restrictions for 5-HIAA.
+- **Corpus B-new/G6_Flushing__Sweating_and_Cyanosis.md** L141 · _0.4 Hyperhidrosis_ · `unverified` — agents, concentrations and regimens.
+- **Corpus B-new/G6_Flushing__Sweating_and_Cyanosis.md** L204 · _0.6 Cyanosis and Abnormal Skin Colour_ · `unverified` — dietary restrictions before collection
+- **Corpus B-new/GER1_Comprehensive_Geriatric_Assessment.md** L110 · _0.3 Functional Assessment and the Australian Aged Care System_ · `UNSET` — program names, assessment pathways, eligibility, funding levels and waiting times have all changed and continue to change. Verify against My Aged Care and the Department of Health and Aged Care before advising a patient or family. Do not quote package levels or waiting times from memory.
+- **Corpus B-new/GER1_Comprehensive_Geriatric_Assessment.md** L276 · _0.6 Osteoporosis and Fracture Prevention_ · `UNSET` — duration of therapy before a holiday, and who is eligible.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L78 · _0.2 Pressure Injury_ · `UNSET` — the full staging definitions and terminology.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L145 · _0.3 Malnutrition and Nutrition_ · `UNSET` — the IDDSI levels and descriptors.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L260 · _0.6 Advance Care Planning in Practice_ · `UNSET` — SA document names, forms and their legal effect.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L79 · _0.3 Cancer Screening in Practice_ · `unverified` — all ages, intervals and eligibility.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L104 · _0.4 Immunisation_ · `unverified` — the entire schedule, ages, intervals and funding.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L114 · _0.4 Immunisation_ · `unverified` — confirm current recommendations.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L162 · _0.6 Occupational Health, Certification and Driving_ · `unverified` — SA requirements.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L180 · _0.6 Occupational Health, Certification and Driving_ · `unverified` — all standards and non-driving periods.
+- **Corpus B-new/GER3_Preventive_and_Occupational_Health.md** L184 · _0.6 Occupational Health, Certification and Driving_ · `unverified` — check the SA provisions before acting.
+- **Corpus B-new/GER4_Safeguarding_and_Forensic.md** L217 · _0.6 Elder Abuse and Adults at Risk_ · `unverified` — the SA pathways.
+- **Corpus B-new/GER5_Communication_and_Consultation_Skills.md** L143 · _0.4 Interpreters and Communicating Across Difference_ · `unverified` — the services and access arrangements.
+- **Corpus B-new/GER6_Drug_Class_Addendum.md** L28 · _0.1 Safe Prescribing and the High-Risk Medicines_ · `unverified` — your health service's specific high-risk medicine policy.
+- **Corpus B-new/GER6_Drug_Class_Addendum.md** L114 · _0.4 Mast Cell Stabilisers, Pleuromutilins and Antimycobacterials_ · `unverified` — current Australian availability and indications.
+- **Corpus B-new/GER6_Drug_Class_Addendum.md** L162 · _0.5 Antiseptics, Skin Protectants and Vesicants_ · `unverified` — agent-specific compress and antidote protocols; use your local extravasation policy, and know where it is before you need it.
+- **Corpus B-new/GER6_Drug_Class_Addendum.md** L205 · _0.6 Interactions, Monitoring and Deprescribing_ · `unverified` — all target ranges and monitoring intervals.
+- **Corpus B-new/GER6_Drug_Class_Addendum.md** L211 · _0.6 Interactions, Monitoring and Deprescribing_ · `unverified` — the current reporting mechanism.
+- **Corpus B-new/GER7_Investigation_and_Lab_Addendum.md** L141 · _0.5 Fetal Scalp Blood Sampling and Intrapartum Assessment_ · `unverified` — current practice and repeat intervals.
+- **Corpus B-new/GER7_Investigation_and_Lab_Addendum.md** L178 · _0.6 Pre-Analytical Error — Where Wrong Results Actually Come From_ · `unverified` — all sampling intervals.
+- **Corpus B-new/GER8_Procedure_Addendum.md** L103 · _0.3 Gastrografin and Contrast Studies_ · `unverified` — current withholding recommendations.
+- **Corpus B-new/H2_LUTS__Retention_and_Incontinence.md** L73 · _0.2 Benign Prostatic Hyperplasia_ · `unverified` — the correction factor and its timing.
+- **Corpus B-new/H2_LUTS__Retention_and_Incontinence.md** L103 · _0.3 Acute Urinary Retention_ · `unverified` — the duration of catheterisation before a trial, and the alpha-blocker regimen.
+- **Corpus B-new/H3_Acute_Kidney_Injury_and_CKD.md** L125 · _0.4 Chronic Kidney Disease_ · `unverified` — the current equation and its adjustments in Australia.
+- **Corpus B-new/H3_Acute_Kidney_Injury_and_CKD.md** L139 · _0.4 Chronic Kidney Disease_ · `unverified` — targets.
+- **Corpus B-new/H4_Scrotum__Groin_and_Loin.md** L137 · _0.4 Renal Colic and Urolithiasis_ · `unverified` — agents and doses.
+- **Corpus B-new/I1_Thyroid_Disease.md** L80 · _0.2 Hypothyroidism_ · `unverified` — the current position on combination therapy.
+- **Corpus B-new/I1_Thyroid_Disease.md** L140 · _0.3 Hyperthyroidism and Thyrotoxicosis_ · `unverified` — doses, monitoring, titration versus block-and-replace regimens, and the pregnancy switching points.
+- **Corpus B-new/I1_Thyroid_Disease.md** L171 · _0.4 Thyroid Emergencies_ · `unverified` — all agents and doses.
+- **Corpus B-new/I1_Thyroid_Disease.md** L222 · _0.5 Thyroid Nodule and Goitre_ · `unverified` — the categories and their associated risks.
+- **Corpus B-new/I1_Thyroid_Disease.md** L278 · _0.6 Thyroid Disease in Pregnancy and Special Situations_ · `unverified` — current supplementation recommendations.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L48 · _0.1 Diagnosis and Classification_ · `unverified` — current NDSS eligibility and what is subsidised.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L62 · _0.2 Type 2 Diabetes — Management_ · `unverified` — the HbA1c targets for each group.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L72 · _0.2 Type 2 Diabetes — Management_ · `unverified` — the withholding recommendations, which are recent and evolving.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L101 · _0.3 Type 1 Diabetes — Management_ · `unverified` — eligibility.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L199 · _0.5 Microvascular Complications_ · `unverified` — screening intervals for type 1, type 2 and pregnancy.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L273 · _0.7 Diabetes in Special Situations_ · `unverified` — the recommended withholding period.
+- **Corpus B-new/I2_Diabetes_and_Glucose_Disorders.md** L275 · _0.7 Diabetes in Special Situations_ · `unverified` — this recommendation is recent and evolving.
+- **Corpus B-new/I3_Calcium__Parathyroid_and_Bone.md** L26 · _0.1 Calcium Homeostasis and Interpreting the Result_ · `unverified` — the correction formula.
+- **Corpus B-new/I3_Calcium__Parathyroid_and_Bone.md** L138 · _0.3 Hypocalcaemia_ · `unverified` — all doses, infusion rates and monitoring.
+- **Corpus B-new/I3_Calcium__Parathyroid_and_Bone.md** L196 · _0.5 Metabolic Bone Disease_ · `unverified` — current supplementation recommendations and target levels.
+- **Corpus B-new/I4_Pituitary__Adrenal_and_Sex_Hormone.md** L167 · _0.3.2 Mx – Definitive_ · `unverified` — doses and regimens.
+- **Corpus B-new/I4_Pituitary__Adrenal_and_Sex_Hormone.md** L332 · _0.7 Adrenal and Pituitary Incidentalomas_ · `unverified` — surveillance intervals.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L73 · _0.2 Unintentional Weight Loss_ · `unverified` — the percentage and timeframe that define clinically significant loss.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L220 · _0.5 Sodium and Water Balance_ · `unverified` — the correction rate.
+- **Corpus B-new/J2_Haemoglobinopathy_and_Haemolysis.md** L163 · _0.5 Sickle Cell Disease_ · `unverified` — all agents, doses and eligibility.
+- **Corpus B-new/J2_Haemoglobinopathy_and_Haemolysis.md** L195 · _0.6 Thalassaemia_ · `unverified` — chelating agents, doses, monitoring intervals and ferritin targets.
+- **Corpus B-new/J3_Bleeding_and_Thrombosis.md** L167 · _0.5 Management and Anticoagulant Choice_ · `unverified` — the specific durations.
+- **Corpus B-new/J3_Bleeding_and_Thrombosis.md** L172 · _0.5 Management and Anticoagulant Choice_ · `unverified` — current guidance.
+- **Corpus B-new/J5_Oncological_Emergencies_and_Palliative_Care.md** L61 · _0.2 Neutropenic Sepsis and Treatment Toxicity_ · `unverified` — drug-specific management.
+- **Corpus B-new/K1_Fever_Workup.md** L125 · _0.3 Fever of Unknown Origin and Prolonged Fever_ · `unverified` — availability, funding and indications in Australia.
+- **Corpus B-new/K1_Fever_Workup.md** L146 · _0.4 Fever in the Returning Traveller_ · `unverified` — the number and timing of films, and the role of rapid diagnostic tests and PCR, from current Australian guidance.
+- **Corpus B-new/K1_Fever_Workup.md** L245 · _0.6 Post-Operative and Drug Fever_ · `unverified` — the expected time to defervescence.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L100 · _0.2.3 Mx – Chronic/long-term_ · `unverified` — the indications and regimen.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L205 · _0.5 Bites, Wounds and Australian Exposures_ · `unverified` — the current endemic areas, diagnostic method and treatment regimen from Victorian and national guidance.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L237 · _0.6 Infestations_ · `unverified` — agents, application instructions, repeat intervals and age restrictions.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L251 · _0.6 Infestations_ · `unverified` — current exclusion policy.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L36 · _0.1 Occupational and Bloodborne Virus Exposure_ · `unverified` — the per-exposure transmission risk figures for each virus.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L42 · _0.1 Occupational and Bloodborne Virus Exposure_ · `unverified` — the HBIG and vaccine indications by anti-HBs level, the HIV PEP window, regimen and duration, and the follow-up serology schedule.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L165 · _0.4 HIV and Opportunistic Infection_ · `unverified` — window periods for each assay.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L221 · _0.5 Immunodeficiency and Screening Before Immunosuppression_ · `unverified` — the full screening panel, the prophylaxis regimens, and the intervals required between live vaccination and starting immunosuppression.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L245 · _0.6 Vector-Borne and Zoonotic Disease in Australia_ · `unverified` — the current distribution, at-risk groups and vaccination recommendations, which are actively evolving.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L254 · _0.6 Vector-Borne and Zoonotic Disease in Australia_ · `unverified` — this remains a debated area and the official position should be checked; handle the conversation with patients carefully and without dismissiveness.
+- **Corpus B-new/K4_Allergy_and_Clinical_Immunology.md** L99 · _0.3 Drug Allergy and De-labelling_ · `unverified` — risk stratification tools and rechallenge protocols.
+- **Corpus B-new/K4_Allergy_and_Clinical_Immunology.md** L103 · _0.3 Drug Allergy and De-labelling_ · `unverified` — the actual cross-reactivity figures and which cephalosporins are considered safe.
+- **Corpus B-new/K4_Allergy_and_Clinical_Immunology.md** L187 · _0.5 Allergic Rhinitis and the Atopic March_ · `unverified` — agents, doses, age restrictions and the current montelukast warnings.
+- **Corpus B-new/K4_Allergy_and_Clinical_Immunology.md** L252 · _0.7 Immunotherapy and Long-Term Allergy Management_ · `unverified` — indications, duration, and Australian availability and funding.
+- **Corpus B-new/L1_Hot_and_Swollen_Joint.md** L139 · _0.3 Crystal Arthropathy_ · `unverified` — all doses and durations.
+- **Corpus B-new/L2_Polyarthralgia_and_Inflammatory_Arthritis.md** L99 · _0.2 Rheumatoid Arthritis_ · `unverified` — all doses, monitoring intervals, washout periods and the current advice regarding male fertility.
+- **Corpus B-new/L2_Polyarthralgia_and_Inflammatory_Arthritis.md** L179 · _0.4 Connective Tissue Disease_ · `unverified` — confirm the current recommendation and the patient groups it applies to.
+- **Corpus B-new/L3_Muscle_Symptoms_and_Widespread_Pain.md** L115 · _0.3 Giant Cell Arteritis — The Overlap_ · `unverified` — the steroid doses, which differ substantially between visual and non-visual presentations, and the biopsy timing window.
+- **Corpus B-new/L3_Muscle_Symptoms_and_Widespread_Pain.md** L213 · _0.6 Chronic Fatigue and the Overlap Syndromes_ · `unverified` — this is a genuinely contested and evolving area, the guidance has changed and differs between jurisdictions and guideline bodies, and it is emotionally charged for patients. Check the current position before advising, and be careful not to apply the fibromyalgia exercise advice to ME/CFS uncritically — they are different conditions with different evidence.
+- **Corpus B-new/L4_Back_and_Neck_Pain.md** L85 · _0.2 Cauda Equina Syndrome_ · `unverified` — the recommended time targets to imaging and to surgery.
+- **Corpus B-new/L6_Soft_Tissue_Injury_and_Mobility.md** L60 · _0.2 Acute Soft Tissue Injury Management_ · `unverified` — this is an area of active debate; check current sports medicine guidance rather than treating either position as settled.
+- **Corpus B-new/L6_Soft_Tissue_Injury_and_Mobility.md** L110 · _0.4 Muscle Injury_ · `unverified` — the grading system.
+- **Corpus B-new/L6_Soft_Tissue_Injury_and_Mobility.md** L156 · _0.5 Rehabilitation and Return to Activity_ · `unverified` — current certification requirements and forms.
+- **Corpus B-new/L6_Soft_Tissue_Injury_and_Mobility.md** L172 · _0.6 Immobility, Mobility Aids and Functional Assessment_ · `unverified` — the precise fitting measurements.
+- **Corpus B-new/L7_Fractures_and_Eponyms.md** L115 · _0.4 Lower Limb Fractures and Eponyms_ · `unverified` — the classification.
+- **Corpus B-new/L7_Fractures_and_Eponyms.md** L120 · _0.4 Lower Limb Fractures and Eponyms_ · `unverified` — the recommended time-to-surgery target.
+- **Corpus B-new/L7_Fractures_and_Eponyms.md** L164 · _0.5 Paediatric Fractures_ · `unverified` — the classification.
+- **Corpus B-new/L7_Fractures_and_Eponyms.md** L222 · _0.7 Open Fractures and Orthopaedic Emergencies_ · `unverified` — the classification, the antibiotic regimen, and the time targets for antibiotics and debridement.
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L47 · _0.1 Recognising the Seriously Unwell Child_ · `unverified` — the age-specific ranges.
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L101 · _0.3 Resuscitation and the Sick Child Pathway_ · `unverified` — bolus volumes and the fluid type.
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L173 · _0.6 Practical Paediatrics_ · `unverified` — the maintenance calculation, the specific fluid, and the monitoring frequency.
+- **Corpus B-new/M1_The_Seriously_Unwell_Child.md** L179 · _0.6 Practical Paediatrics_ · `unverified` — the clinical grading of dehydration severity.
+- **Corpus B-new/M2_Fever_in_Children.md** L181 · _0.6 Specific Infections and the Australian Context_ · `unverified` — testing, treatment and prophylaxis regimens.
+- **Corpus B-new/M3_Neonatal_Problems.md** L88 · _0.2 The Cyanosed or Collapsed Neonate_ · `unverified` — the protocol and interpretation.
+- **Corpus B-new/M3_Neonatal_Problems.md** L202 · _0.5 Apnoea and BRUE_ · `unverified` — the current recommendations.
+- **Corpus B-new/M3_Neonatal_Problems.md** L231 · _0.6 Common and Minor Neonatal Problems_ · `unverified` — the Australian screening panel and protocols.
+- **Corpus B-new/M4_Growth_and_Development.md** L30 · _0.1 Measuring and Plotting Growth_ · `unverified` — the chart in use and the age to which correction applies.
+- **Corpus B-new/M4_Growth_and_Development.md** L42 · _0.1 Measuring and Plotting Growth_ · `unverified` — the mid-parental height formula and target range.
+- **Corpus B-new/M4_Growth_and_Development.md** L167 · _0.5 Developmental Milestones and Surveillance_ · `unverified` — the specific limit ages for each milestone.
+- **Corpus B-new/M4_Growth_and_Development.md** L183 · _0.5 Developmental Milestones and Surveillance_ · `unverified` — the current schedule and checks.
+- **Corpus B-new/M4_Growth_and_Development.md** L222 · _0.6 Developmental Delay and Neurodevelopmental Conditions_ · `unverified` — current NDIS access pathways and eligibility.
+- **Corpus B-new/M5_Paediatric_GI__GU_and_Limb.md** L71 · _0.2 Vomiting and Gastroenteritis_ · `unverified` — the clinical grading of severity.
+- **Corpus B-new/M5_Paediatric_GI__GU_and_Limb.md** L122 · _0.3 Constipation and Soiling_ · `unverified` — agents, doses and disimpaction regimens.
+- **Corpus B-new/M5_Paediatric_GI__GU_and_Limb.md** L138 · _0.4 Urinary Tract Infection and Enuresis_ · `unverified` — the definitions of atypical and recurrent UTI, the imaging pathway, and the indications for prophylaxis, all of which differ between guidelines.
+- **Corpus B-new/M5_Paediatric_GI__GU_and_Limb.md** L141 · _0.4 Urinary Tract Infection and Enuresis_ · `unverified` — the age.
+- **Corpus B-new/M5_Paediatric_GI__GU_and_Limb.md** L207 · _0.6 Bone Pain and Paediatric Orthopaedic Conditions_ · `unverified` — the screening intervals and risk stratification.
+- **Corpus B-new/M6_Paediatric_Respiratory_and_Neurology.md** L136 · _0.5 Seizures and Febrile Convulsions_ · `unverified` — the age range.
+- **Corpus B-new/M7_Adolescent_and_Behavioural_Health.md** L89 · _0.3 Confidentiality, Consent and the Mature Minor_ · `unverified` — the SA mandatory reporting requirements, the ages, and the specific provisions relating to sexual activity. These are legal obligations and must be confirmed.
+- **Corpus B-new/M7_Adolescent_and_Behavioural_Health.md** L103 · _0.4 Common Adolescent Health Issues_ · `unverified` — the current Australian regulatory position, which has changed recently.
+- **Corpus B-new/M7_Adolescent_and_Behavioural_Health.md** L192 · _0.6 ADHD_ · `unverified` — the requirement for an ECG, and all doses.
+- **Corpus B-new/M7_Adolescent_and_Behavioural_Health.md** L193 · _0.6 ADHD_ · `unverified` — the SA requirements.
+- **Corpus B-new/N1_Mental_State_Examination_and_Risk.md** L119 · _0.3 Suicide and Self-Harm_ · `unverified` — confirm numbers and current services.
+- **Corpus B-new/N1_Mental_State_Examination_and_Risk.md** L163 · _0.4 Agitation, Aggression and De-escalation_ · `unverified` — SA requirements and reporting obligations.
+- **Corpus B-new/N2_Acute_Behavioural_Disturbance_and_Substance_Use.md** L45 · _0.1 Alcohol Withdrawal and Delirium Tremens_ · `unverified` — agents, doses and regimens.
+- **Corpus B-new/N2_Acute_Behavioural_Disturbance_and_Substance_Use.md** L104 · _0.3 Stimulants and Methamphetamine_ · `unverified` — the current position.
+- **Corpus B-new/N3_Psychosis_and_Antipsychotics.md** L145 · _0.5 Antipsychotic Adverse Effects_ · `unverified` — the monitoring schedule.
+- **Corpus B-new/N4_Mood_Disorders.md** L91 · _0.2 Depression — Management_ · `unverified` — the recommended continuation duration.
+- **Corpus B-new/N4_Mood_Disorders.md** L158 · _0.4 Bipolar Disorder and Mania_ · `unverified` — agents and doses.
+- **Corpus B-new/N4_Mood_Disorders.md** L163 · _0.4 Bipolar Disorder and Mania_ · `unverified` — agents, doses and current recommendations.
+- **Corpus B-new/N4_Mood_Disorders.md** L195 · _0.5 Mood Stabilisers_ · `unverified` — the schedule.
+- **Corpus B-new/N4_Mood_Disorders.md** L239 · _0.6 Special Situations_ · `unverified` — the SA requirements under the Mental Health Act 2009.
+- **Corpus B-new/N5_Anxiety__OCD_and_Trauma.md** L104 · _0.4 Obsessive-Compulsive and Related Disorders_ · `unverified` — the doses and the trial duration.
+- **Corpus B-new/N5_Anxiety__OCD_and_Trauma.md** L175 · _0.6 Management_ · `unverified` — all agents and doses.
+- **Corpus B-new/N7_Sleep_Disorders.md** L62 · _0.2 Insomnia_ · `unverified` — the Australian programs currently available.
+- **Corpus B-new/N7_Sleep_Disorders.md** L86 · _0.3 Circadian Rhythm Disorders and Shift Work_ · `unverified` — light and melatonin timing protocols.
+- **Corpus B-new/N7_Sleep_Disorders.md** L123 · _0.4 Parasomnias_ · `unverified` — agents and doses.
+- **Corpus B-new/N8_Eating_Disorders.md** L97 · _0.3 Refeeding Syndrome_ · `unverified` — this is an area where guidance has changed; check the current protocol rather than applying older teaching.
+- **Corpus B-new/N8_Eating_Disorders.md** L176 · _0.6 Treatment Pathways and the Australian Context_ · `unverified` — current services and contacts.
+- **Corpus B-new/O1_Early_Pregnancy.md** L41 · _0.1 Assessing Bleeding and Pain in Early Pregnancy_ · `unverified` — the expected rate of rise.
+- **Corpus B-new/O1_Early_Pregnancy.md** L61 · _0.2 Ectopic Pregnancy_ · `unverified` — the interval.
+- **Corpus B-new/O1_Early_Pregnancy.md** L96 · _0.3 Miscarriage_ · `unverified` — regimens and success rates.
+- **Corpus B-new/O1_Early_Pregnancy.md** L113 · _0.3 Miscarriage_ · `unverified` — Australian support organisations.
+- **Corpus B-new/O1_Early_Pregnancy.md** L127 · _0.4 Molar Pregnancy and Hyperemesis_ · `unverified` — monitoring schedules and the contraception interval.
+- **Corpus B-new/O1_Early_Pregnancy.md** L133 · _0.4 Molar Pregnancy and Hyperemesis_ · `unverified` — all agents and doses.
+- **Corpus B-new/O1_Early_Pregnancy.md** L159 · _0.5 Unintended Pregnancy_ · `unverified` — the current SA legislation, the gestational limits, the requirements for later gestations, the conscientious objection provisions, and the age-related considerations. These differ between states and must be checked before advising anyone.
+- **Corpus B-new/O1_Early_Pregnancy.md** L162 · _0.5 Unintended Pregnancy_ · `unverified` — the gestational limit and the certification requirements, which have changed.
+- **Corpus B-new/O1_Early_Pregnancy.md** L179 · _0.6 Early Pregnancy Care and Recurrent Loss_ · `unverified` — the current recommended panel.
+- **Corpus B-new/O2_Later_Pregnancy_and_Fetal.md** L170 · _0.5 Fetal Concerns_ · `unverified` — current bundle elements.
+- **Corpus B-new/O2_Later_Pregnancy_and_Fetal.md** L181 · _0.5 Fetal Concerns_ · `unverified` — the classification system and normal ranges.
+- **Corpus B-new/O3_Labour__Delivery_and_Postpartum.md** L46 · _0.1 Normal Labour_ · `unverified` — the recommended interval and the exceptions.
+- **Corpus B-new/O3_Labour__Delivery_and_Postpartum.md** L110 · _0.3 Postpartum Haemorrhage_ · `unverified` — agents, doses and order; use your unit's protocol.
+- **Corpus B-new/O4_Abnormal_and_Menstrual_Bleeding.md** L23 · _0.1 Terminology and the PALM-COEIN Framework_ · `unverified` — the normal ranges for cycle length, duration and volume.
+- **Corpus B-new/O4_Abnormal_and_Menstrual_Bleeding.md** L79 · _0.2 Heavy Menstrual Bleeding_ · `unverified` — all doses and regimens.
+- **Corpus B-new/O4_Abnormal_and_Menstrual_Bleeding.md** L197 · _0.6 Menopause and Hormone Therapy_ · `unverified` — the average age of menopause in Australia.
+- **Corpus B-new/O4_Abnormal_and_Menstrual_Bleeding.md** L215 · _0.6 Menopause and Hormone Therapy_ · `unverified` — the current Australasian Menopause Society position, absolute risk figures and the "timing hypothesis".
+- **Corpus B-new/O5_Pelvic_and_Vulval_Conditions.md** L60 · _0.2 Pelvic Inflammatory Disease_ · `unverified` — current advice.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L46 · _0.1 The Sexual History and STI Assessment_ · `unverified` — current services and their names.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L72 · _0.2 The Major Sexually Transmissible Infections_ · `unverified` — regimens and retesting interval; note that doxycycline has replaced azithromycin as first line in most situations, including rectal infection.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L78 · _0.2 The Major Sexually Transmissible Infections_ · `unverified` — regimens, and the indications for test of cure, which are broader than for chlamydia.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L133 · _0.3 Contraception_ · `unverified` — all failure rates and durations of action.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L145 · _0.3 Contraception_ · `unverified` — the full UKMEC/WHO categories, which are graded rather than binary and should be consulted directly.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L149 · _0.3 Contraception_ · `unverified` — the windows and current availability.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L204 · _0.4 Emergency Contraception and Unintended Pregnancy_ · `unverified` — the gestational limits, prescriber requirements, and the current SA legal provisions. Verify before advising a patient, and do not rely on knowledge of another state's law.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L208 · _0.4 Emergency Contraception and Unintended Pregnancy_ · `unverified` — the specific obligations under SA law and Medical Board guidance.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L291 · _0.6 Gender Diversity and Puberty_ · `unverified` — gender-affirming hormone regimens, monitoring, and the relevant Australian standards of care, which are specialist-led and evolving.
+- **Corpus B-new/O6_Sexual_and_Reproductive_Health.md** L294 · _0.6 Gender Diversity and Puberty_ · `unverified` — the age ranges and staging descriptors.
+- **Corpus B-new/O7_Breast_Disease.md** L175 · _0.5 Breast Cancer_ · `unverified` — the target age range, the invited range, and the interval.
+- **Corpus B-new/O7_Breast_Disease.md** L197 · _0.6 Breast Infection and Lactation_ · `unverified` — antibiotic choice and duration, and the current guidance on management, which has been revised.
+- **Corpus B-new/O7_Breast_Disease.md** L223 · _0.6 Breast Infection and Lactation_ · `unverified` — the relevant Australian services.
+- **Corpus B-new/PH1_Population_Health_and_Research_Literacy.md** L237 · _0.5 Screening_ · `unverified` — all ages, intervals, tests and eligibility. These change and must be checked.
+- **Corpus B-new/PH1_Population_Health_and_Research_Literacy.md** L275 · _0.6 Public Health Practice_ · `unverified` — the current schedule.
+- **Corpus B-new/RESP-X_Occupational_and_Chronic_Lung_Disease.md** L91 · _0.2 Occupational Lung Disease_ · `unverified` — the current regulatory position, commencement dates and transitional arrangements; verify with Safe Work Australia and SafeWork SA.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L53 · _0.1.3 Mx – Chronic/long-term_ · `unverified` — process and jurisdiction.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L65 · _0.2 Consent and Treatment Refusal_ · `unverified` — confirm the current statutory and common law position, including any civil liability legislation modifying it.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L73 · _0.2 Consent and Treatment Refusal_ · `unverified` — the statutory basis and its limits in South Australia require verification against the Consent to Medical Treatment and Palliative Care Act 1995.
@@ -478,11 +1232,11 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Investigations_Gastroenterology.md** L48 · _0.1.1 A raised ALP with a normal GGT — owned elsewhere_ · `snippet` — nothing to verify here; this is a pointer.
 - **Corpus C/NEW_Investigations_Haematology_Part2.md** L335 · _0.24 Lymphoscintigraphy_ · `snippet` — model knowledge, not source-checked.
 
-# Permanently noted — requires Therapeutic Guidelines or AMH (64)
+# Permanently noted — requires Therapeutic Guidelines or AMH (125)
 
 **Not a to-do list.** These cannot be closed without an institutional login. The marker stays in the file as a permanent flag: look it up at the point of use. Do not delete these, and do not resolve them from memory or from a non-AU source.
 
-## R1 — could kill someone this rotation (35)
+## R1 — could kill someone this rotation (63)
 
 - **Corpus A/01_Cardiovascular.md** L779 · _0.13 Wolff-Parkinson-White (WPW) Syndrome_ · `inherited` — model knowledge, not source-checked. Antiarrhythmic choice and dosing, per eTG Cardiovascular under specialist direction.
 - **Corpus A/03_Gastrointestinal.md** L839 · _0.18 Appendicitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
@@ -491,6 +1245,34 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L52 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L55 · _Cellulitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L74 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — every anticipatory prescribing dose, from eTG Palliative Care and your health network's end-of-life care pathway. eTG is login-gated, so this is a permanent instruction to look them up at the point of use rather than a queued item.
+- **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L61 · _0.2.1 Mx – Immediate_ · `UNSET` — no empirical regimen, dose, or fluid volume is stated here; obtain both from eTG Antibiotic and local policy. The timing target for antibiotic administration and the initial fluid bolus volume in Australian practice both require verification against the current Sepsis Clinical Care Standard.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L39 · _0.1 The Poisoned Patient — Risk Assessment and General Approach_ · `UNSET` — the time window in which charcoal retains benefit, dosing, and contraindications require verification against eTG Toxicology.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L111 · _0.3 Benzodiazepine Overdose_ · `UNSET` — indications, dosing and contraindications from eTG and the Poisons Information Centre.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L214 · _0.6.1 Mx – Immediate_ · `UNSET` — all fluid rates, urine output targets, and hyperkalaemia treatment doses are omitted; obtain from local protocol and eTG.
+- **Corpus B-new/A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies.md** L165 · _0.4 Anticoagulant-Associated Bleeding and Reversal_ · `UNSET` — every dose, the PCC dose by INR and weight, vitamin K dose and route, protamine dosing and its ratio to heparin given, and idarucizumab dosing are ALL omitted. Obtain from eTG, the Australian Medicines Handbook and your health network's reversal protocol.
+- **Corpus B-new/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L41 · _0.1 Acute Chest Pain_ · `UNSET` — target heart rate and blood pressure, and agent choice and dosing, require verification against eTG.
+- **Corpus B-new/C2_Nausea_and_Vomiting.md** L175 · _0.5 Antiemetic Selection by Mechanism_ · `UNSET` — all doses, routes, maximum durations and age restrictions from eTG and the Australian Medicines Handbook.
+- **Corpus B-new/C2_Nausea_and_Vomiting.md** L241 · _0.7 Complications of Vomiting_ · `UNSET` — thiamine dose, route and duration from eTG.
+- **Corpus B-new/D6_Seizures_and_Movement_Disorders.md** L78 · _0.2 Status Epilepticus_ · `UNSET` — all agents, doses, routes and repeat intervals are omitted. Obtain them from your health network's status epilepticus protocol and eTG. Paediatric dosing is weight-based and differs.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L68 · _0.2.2 Mx – Definitive_ · `UNSET` — the QRS threshold at which bicarbonate is indicated, and its dosing, require verification against eTG Toxicology and the Poisons Information Centre.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L95 · _0.3.1 Mx – Immediate_ · `UNSET` — atropine initial dose, doubling regimen and titration endpoint require verification against eTG Toxicology and the Poisons Information Centre; the doses used are far larger than in any other indication and must not be estimated.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L132 · _0.4.1 Mx – Immediate_ · `UNSET` — benzodiazepine dosing and the core temperature threshold defining severe hyperthermia require verification against eTG.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L166 · _0.5.1 Mx – Immediate_ · `UNSET` — naloxone dose, route, titration increment and infusion rate require verification against eTG and local policy; the dose appropriate for an opioid-dependent patient differs from that for an opioid-naive post-operative patient and neither is stated here.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L231 · _0.7.1 Mx – Immediate_ · `UNSET` — atropine, calcium, glucagon, vasopressor and high-dose insulin dosing and titration are all omitted here and must come from the Poisons Information Centre and eTG. High-dose insulin regimens use doses far above diabetic practice and must never be estimated.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L140 · _0.5 HAGMA — Lactic Acidosis_ · `UNSET` — the metformin eGFR thresholds for dose reduction and cessation require verification against the Australian Medicines Handbook.
+- **Corpus B-new/F0-2_Acid-Base__DKA_and_Fluid_States.md** L238 · _0.8.1 Mx – Immediate_ · `UNSET` — bicarbonate dosing, target urinary pH, and potassium replacement targets require verification with the Poisons Information Centre and eTG.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L162 · _0.5 Obstructive Shock — Massive Pulmonary Embolism_ · `UNSET` — Wells and PERC criteria and their thresholds, the PESI score, D-dimer age-adjusted cut-offs, and thrombolysis dosing all require verification against eTG and local protocol.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L167 · _0.5.1 Mx – Immediate_ · `UNSET` — anticoagulant choice and dosing require verification against eTG.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L188 · _0.6 Distributive Shock — Adrenal (Addisonian) Crisis_ · `UNSET` — hydrocortisone dose, route and frequency for adults and children are omitted; obtain from eTG Endocrinology and local protocol.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L222 · _0.7 Adult Sepsis_ · `UNSET` — the antibiotic administration time target, empirical regimens by source, and initial fluid volumes require verification against the current Clinical Care Standard, eTG Antibiotic and your local pathway.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L227 · _0.7.1 Mx – Immediate_ · `UNSET` — all regimens, doses and volumes from eTG and local protocol; none stated here.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L281 · _0.9 Meningococcal Sepsis_ · `UNSET` — the pre-hospital antibiotic agent, dose and route, and all empirical regimens, require verification against eTG Antibiotic and your state health department's meningococcal guidance.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L352 · _0.11.1 Mx – Immediate_ · `UNSET` — antibiotic regimens from eTG Antibiotic.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L291 · _0.9.1 Mx – Immediate_ · `UNSET` — all doses from eTG Analgesic and local protocol.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L90 · _0.3 Acute Pulmonary Oedema_ · `UNSET` — GTN dosing and titration, and frusemide dosing, are omitted; obtain from eTG Cardiovascular and local protocol.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L281 · _0.9 Acute Renal Colic_ · `UNSET` — agent and dose from eTG Analgesic.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L325 · _0.10.1 Mx – Immediate_ · `UNSET` — antibiotic agents, doses and durations, and steroid indications and dosing, from eTG Antibiotic.
+- **Corpus B-new/I5_Weight__Lipids_and_Fluid_Balance.md** L211 · _0.5 Sodium and Water Balance_ · `unverified` — the maximum permitted rate of sodium rise per 24 hours, and the more conservative limit in high-risk patients, are DELIBERATELY OMITTED from this file. Obtain them from eTG and your health network's protocol. This is the single figure in electrolyte medicine least suitable for recall.
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L66 · _0.2.1 Mx – Immediate_ · `unverified` — no empirical regimen, dose, or fluid volume is stated here; obtain both from eTG Antibiotic and local policy. The timing target for antibiotic administration and the initial fluid bolus volume in Australian practice both require verification against the current Sepsis Clinical Care Standard.
 - **Corpus B/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L44 · _0.1 The Poisoned Patient — Risk Assessment and General Approach_ · `unverified` — the time window in which charcoal retains benefit, dosing, and contraindications require verification against eTG Toxicology.
 - **Corpus B/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L116 · _0.3 Benzodiazepine Overdose_ · `unverified` — indications, dosing and contraindications from eTG and the Poisons Information Centre.
@@ -520,9 +1302,21 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L330 · _0.10.1 Mx – Immediate_ · `unverified` — antibiotic agents, doses and durations, and steroid indications and dosing, from eTG Antibiotic.
 - **Corpus C/NEW_Cardiology_and_Vascular.md** L130 · _Added from unverified layer — the two the phenotype list does not reach_ · `snippet` — model knowledge, not source-checked. Steroid agent and dose in suspected adrenal crisis, per eTG — and note the dose already stated at [[NEW_Drugs_10_Endocrine]] is an ADULT dose.
 
-## R2 — changes disposition (8)
+## R2 — changes disposition (20)
 
 - **Corpus A/03_Gastrointestinal.md** L619 · _0.13 Small Bowel Bacterial Overgrowth Syndrome_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L56 · _Added from unverified layer — what the neutropenic patient does not show you_ · `inherited` — the MASCC score's components, its low-risk threshold, and whether Australian practice uses it or a local equivalent, per eviQ and hospital protocol.
+- **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L79 · _0.2 Tricyclic Antidepressant Overdose_ · `UNSET` — the specific QRS duration thresholds associated with seizure and arrhythmia risk, and the threshold at which bicarbonate is indicated, require verification against eTG Toxicology and the Poisons Information Centre.
+- **Corpus B-new/B5_Murmurs__Endocarditis_and_Vascular_Disease.md** L67 · _0.2 New and Changing Murmur_ · `UNSET` — the criteria, their weighting, and all antibiotic regimens and durations from eTG Antibiotic.
+- **Corpus B-new/C1_Acute_Abdomen.md** L269 · _0.8 Suprapubic Pain_ · `UNSET` — regimens from eTG Antibiotic.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L320 · _0.10.1 Mx – Immediate_ · `UNSET` — empirical regimens from eTG Antibiotic and local antibiograms; local resistance patterns matter here more than in most infections.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L60 · _0.2 Acute Exacerbation of COPD_ · `UNSET` — the number of criteria required and the recommended agents come from eTG Antibiotic.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L116 · _0.4 Severe Community-Acquired Pneumonia and ARDS_ · `UNSET` — the components, weightings and score thresholds for SMART-COP, CORB and CURB-65 all require verification against eTG Antibiotic.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L309 · _0.10 Tonsillitis and Peritonsillar Abscess (Quinsy)_ · `UNSET` — the specific high-risk criteria, geographic definitions and recommended regimens require verification against eTG Antibiotic and the Australian guideline for prevention, diagnosis and management of acute rheumatic fever.
+- **Corpus B-new/K1_Fever_Workup.md** L191 · _0.5 Fever in the Immunocompromised, and Febrile Neutropenia_ · `unverified` — the fever and neutrophil thresholds defining febrile neutropenia, the door-to-antibiotic time target, and the empirical regimen, all from eTG Antibiotic and local protocol.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L56 · _0.1.1 Mx – Immediate_ · `unverified` — oral versus intravenous criteria, agents and duration from eTG Antibiotic.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L248 · _0.6 Infestations_ · `unverified` — regimens from eTG and the ARF guideline.
+- **Corpus B-new/L1_Hot_and_Swollen_Joint.md** L95 · _0.2.1 Mx – Immediate_ · `unverified` — empirical regimens and treatment duration from eTG Antibiotic.
 - **Corpus B/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L84 · _0.2 Tricyclic Antidepressant Overdose_ · `unverified` — the specific QRS duration thresholds associated with seizure and arrhythmia risk, and the threshold at which bicarbonate is indicated, require verification against eTG Toxicology and the Poisons Information Centre.
 - **Corpus B/B5_Murmurs__Endocarditis_and_Vascular_Disease.md** L72 · _0.2 New and Changing Murmur_ · `unverified` — the criteria, their weighting, and all antibiotic regimens and durations from eTG Antibiotic.
 - **Corpus B/C1_Acute_Abdomen.md** L274 · _0.8 Suprapubic Pain_ · `unverified` — regimens from eTG Antibiotic.
@@ -531,12 +1325,33 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L121 · _0.4 Severe Community-Acquired Pneumonia and ARDS_ · `unverified` — the components, weightings and score thresholds for SMART-COP, CORB and CURB-65 all require verification against eTG Antibiotic.
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L314 · _0.10 Tonsillitis and Peritonsillar Abscess (Quinsy)_ · `unverified` — the specific high-risk criteria, geographic definitions and recommended regimens require verification against eTG Antibiotic and the Australian guideline for prevention, diagnosis and management of acute rheumatic fever.
 
-## R3 — everything else (21)
+## R3 — everything else (42)
 
 - **Corpus A/01_Cardiovascular.md** L241 · _0.2.3 Treatment threshold_ · `inherited` — model knowledge, not source-checked. Percentage reduction targets and the permitted duration of a nitroprusside infusion, per eTG Cardiovascular.
 - **Corpus A/01_Cardiovascular.md** L391 · _Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)_ · `inherited` — agents and doses omitted, per eTG Cardiovascular.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L16 · _Animal & human bites_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L225 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — the agents, doses and durations of both phases, per Therapeutic Guidelines: Antibiotic and the NT/Qld melioidosis protocols.
 - **Corpus A/15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis.md** L43 · _Management_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
+- **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L181 · _0.6 Failure to Wake Post-Sedation_ · `UNSET` — doses, titration increments and duration of action for both agents require verification against eTG and your local sedation policy before use.
+- **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L182 · _0.5.1 Mx – Immediate_ · `UNSET` — antibiotic indications and regimens from eTG Antibiotic.
+- **Corpus B-new/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L91 · _0.2.2 Mx – Definitive_ · `UNSET` — agents and doses from eTG Cardiovascular.
+- **Corpus B-new/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L119 · _0.3 Pleuritic Chest Pain_ · `UNSET` — doses and duration from eTG.
+- **Corpus B-new/B2_Hypertension_Spectrum.md** L106 · _0.3 Hypertensive Emergency_ · `UNSET` — the percentage reduction targets for the first hour and the subsequent 24 hours, the specific targets in aortic dissection and in stroke with and without thrombolysis, and all agent choices and doses are omitted. Obtain from eTG and your health network's protocol.
+- **Corpus B-new/B3_Arrhythmia__Bradycardia_and_Cardiac_Devices.md** L142 · _0.4 Atrial Fibrillation and Flutter_ · `UNSET` — agent choice, doses and rate targets from eTG.
+- **Corpus B-new/B5_Murmurs__Endocarditis_and_Vascular_Disease.md** L56 · _0.1.3 Mx – Chronic/long-term_ · `UNSET` — current prophylaxis indications and regimens from eTG Antibiotic; these have been substantially restricted.
+- **Corpus B-new/C4_Gastrointestinal_Bleeding.md** L101 · _0.3 Variceal Bleeding_ · `UNSET` — agent and duration from eTG Antibiotic.
+- **Corpus B-new/C5_Bowel_Habit__Obstruction_and_Distension.md** L138 · _0.3 Acute Diarrhoea and Gastroenteritis_ · `UNSET` — treatment regimens have changed: oral vancomycin and fidaxomicin have replaced metronidazole as first-line in most guidance. Obtain current recommendations from eTG Antibiotic.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L39 · _0.1.2 Mx – Definitive_ · `UNSET` — activated charcoal indications, the time window in which it retains benefit, and all contraindications require verification against eTG Toxicology; no window is stated here.
+- **Corpus B-new/F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation.md** L218 · _0.7 Beta-Blocker and Calcium Channel Blocker Overdose_ · `UNSET` — this class fact was previously recorded inverted in this corpus; confirm the selectivity direction against the Australian Medicines Handbook before relying on it.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L96 · _0.3 Cardiogenic Shock — Acute Left Ventricular Failure_ · `UNSET` — all GTN, frusemide and inotrope doses and titration are omitted; obtain from eTG Cardiovascular and local protocol.
+- **Corpus B-new/F0-3_Shock_Phenotypes_and_Sepsis_Syndromes.md** L315 · _0.10 Urosepsis and Gram-Negative Septic Shock_ · `UNSET` — confirm the exceptions against eTG Antibiotic.
+- **Corpus B-new/F0-4_Resuscitation_Algorithms_and_Emergency_Procedures.md** L202 · _0.6.1 Mx – Immediate_ · `UNSET` — all induction agent and paralytic doses, and the choice of agent by clinical scenario, are omitted; obtain from local protocol and eTG.
+- **Corpus B-new/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L119 · _0.4 Severe Community-Acquired Pneumonia and ARDS_ · `UNSET` — regionally specific empirical regimens from eTG Antibiotic.
+- **Corpus B-new/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L220 · _0.5 End-of-Life Care and Recognising Dying_ · `UNSET` — all agents, doses, routes and conversion ratios are omitted. Obtain from eTG Palliative Care and your health network's end-of-life medication guidelines.
+- **Corpus B-new/J5_Oncological_Emergencies_and_Palliative_Care.md** L178 · _0.6 The Last Days of Life_ · `unverified` — all agents and doses. Use your health network's anticipatory prescribing chart and eTG Palliative Care.
+- **Corpus B-new/K2_Skin_and_Soft_Tissue_Infection.md** L113 · _0.3 Abscess, Boils and Deep Space Infection_ · `unverified` — local prevalence and empirical recommendations from eTG and local antibiograms.
+- **Corpus B-new/K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency.md** L135 · _0.3 Tuberculosis — Latent Infection, Contacts and Active Disease_ · `unverified` — regimens, phases, durations, doses and monitoring schedules from eTG.
+- **Corpus B-new/L4_Back_and_Neck_Pain.md** L161 · _0.4.2 Mx – Definitive_ · `unverified` — regimens and duration from eTG Antibiotic.
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L186 · _0.6 Failure to Wake Post-Sedation_ · `unverified` — doses, titration increments and duration of action for both agents require verification against eTG and your local sedation policy before use.
 - **Corpus B/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L187 · _0.5.1 Mx – Immediate_ · `unverified` — antibiotic indications and regimens from eTG Antibiotic.
 - **Corpus B/B1_Chest_Pain_Framework_and_Cardiac_Biomarkers.md** L96 · _0.2.2 Mx – Definitive_ · `unverified` — agents and doses from eTG Cardiovascular.

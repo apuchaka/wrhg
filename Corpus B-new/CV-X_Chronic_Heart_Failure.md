@@ -3,6 +3,9 @@ block: Cardiovascular
 source: built in chat, model knowledge, NOT source-verified
 trust: unverified
 population: adult
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing

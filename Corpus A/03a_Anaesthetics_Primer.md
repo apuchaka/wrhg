@@ -3,7 +3,7 @@ block: Anaesthetics / Perioperative Care
 source: quackquackmed 03a Primer on Anaesthetics
 trust: inherited
 population: mixed
-conflicts_open: 0
+conflicts_open: 1
 conflicts_r1: 0
 no_baseline: 1
 ---
@@ -345,6 +345,13 @@ Injection of anaesthetic (e.g. LA, opioids) into the epidural or subarachnoid sp
 > observation** — see [[NEW_Cardiology_and_Vascular]] on shock phenotypes.
 
 **Early (first few post-op days):**
+> [!fail]- CONFLICT CF-035 — atelectasis as a cause of early post-operative fever **R2**
+> **A (`inherited`):** the 5 W's below place **W**ind first — *"atelectasis/pneumonia — **most common cause in the first 24–48h**"* — and the bullet after it treats atelectasis as the thing to prevent.
+> **B (`unverified`):** `SRC:K1_Fever_Workup §0.6` — *"atelectasis as a cause of fever is **poorly supported by evidence** despite being taught for decades — it is **associated with** early post-operative fever rather than **causing** it, and attributing fever to atelectasis can **delay finding the real source**."*
+> **Why it matters:** this is not a naming dispute. If atelectasis is the answer, the early post-operative fever is explained and the patient gets spirometry and mobilisation. If it is only an association, the fever is still unexplained and the search continues — and the sources that present in the same window are pneumonia, aspiration, a transfusion reaction, malignant hyperthermia, and an infection that predated the operation. The difference is whether a CT gets ordered.
+> **Note:** both sides agree atelectasis is *common* after surgery and that mobilisation and deep breathing are correct care. The dispute is causation of the fever, not management of the lung.
+> **Resolve against:** ANZCA professional documents on post-operative care · the RACS perioperative resources · a current Australian surgical or anaesthetic text. Not resolvable from this corpus, and not resolved here.
+
 - Fever — a useful clinical approach is the "5 W's" mnemonic: **W**ind (atelectasis/pneumonia — most common cause in the first 24–48h), **W**ater (UTI, typically day 3–5), **W**alking (DVT/PE, typically day 5+), **W**ound (surgical site infection, typically day 5–7), **W**onder drugs (drug fever/reaction — consider at any time)
 - Atelectasis — encourage early mobilisation, deep breathing exercises/incentive spirometry, adequate analgesia (pain itself causes shallow breathing and atelectasis)
 - VTE (DVT/PE) — see [[01_Cardiovascular]] Deep Vein Thrombosis (DVT) and Pulmonary Embolism (PE) (two separate sections, 0.28 and 0.29) for full disease-level content; perioperative VTE prophylaxis (mechanical — TED stockings/intermittent pneumatic compression, ± pharmacological LMWH depending on procedure-specific bleeding-vs-thrombosis risk balance) is a standard part of postoperative care, not an optional extra
