@@ -739,7 +739,7 @@ file. **No marker was silently voided in Block 1.**
 ## Resume point
 
 **WEEK 2 COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
-**IN PROGRESS:** Week 3 — **L1–L8 done.** Next RESP-X. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
+**IN PROGRESS:** Week 3 — **L1–L8, RESP-X done.** Next O4. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
 ophthalmology (E1–E3). **Week 4 is approved for AFTER week 3**, priced by the probe in
 `_meta/merges/WEEK4_PROBE.md` at ~100 additive blocks for 25 files; **run M before J** if
 it is ever cut short.
@@ -816,6 +816,7 @@ suppresses a marker on the ground that the *source* mentions the subject.
 | L6 Soft Tissue Injury and Mobility | 24 | 3 | 20 | 1 (CF-036 R2) | none |
 | L7 Fractures and Eponyms | 26 | 1 | 25 | 0 | none |
 | L8 Facial, Head and Torso Trauma | 28 | 2 | 26 | 0 | none |
+| RESP-X Occupational and Chronic Lung Disease | 26 | 1 | 25 | 0 | none |
 
 **Week 2 ran 15% additive overall** (56 of 385 dispositions), against the ~20% of blocks
 1 and 2. Corpus A + Corpus C together are **denser** in week 2's topics than the
@@ -878,3 +879,12 @@ which is some evidence the corrected check works.
 **Not fixed:** renaming a heading is not an additive merge, it changes an anchor, and
 CLAUDE.md forbids renumbering file sections. No other file currently points at either
 anchor (checked). Left for a decision.
+
+## A practice change for the rest of this run
+
+**Stop piping `gapcheck.py` output through `cut -c` or `head`.** Three near-misses in week 3
+came from exactly that — `RICE` cut off by `head -4` (L6, would have merged a conflict as an
+addition) and the obesity-hypoventilation bicarbonate screen cut off by `cut -c1-190`
+(RESP-X, would have merged a duplicate). **`gapcheck.py` cannot truncate; a filter
+downstream of it can.** Use `grep -c` for a count, or grep for a distinctive substring and
+print the whole line.
