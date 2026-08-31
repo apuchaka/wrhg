@@ -460,8 +460,32 @@ def rel(root, path):
     return os.path.relpath(path, root)
 
 
+def vault_root(start):
+    """Walk up from `start` to the directory that holds CLAUDE.md, else .git.
+
+    Run logs must land at the vault root and nowhere else. Before this existed,
+    `log_run` used the caller's --dir, so `--dir "Corpus A"` wrote its log to
+    `Corpus A/_meta/runs/` — inside a corpus, which is the one place nothing
+    non-clinical belongs. .gitignore did not catch them either: `_meta/runs/`
+    contains a slash, so git anchors it to the repository root and it never
+    matched `Corpus A/_meta/runs/`. Fourteen stray log files, invisible to the
+    ignore rules and one `git add -A` away from a commit.
+
+    Falls back to `start` when no marker is found, so the function is safe to
+    call on a directory outside any vault.
+    """
+    d = os.path.abspath(start)
+    while True:
+        if os.path.isfile(os.path.join(d, "CLAUDE.md")) or os.path.isdir(os.path.join(d, ".git")):
+            return d
+        parent = os.path.dirname(d)
+        if parent == d:
+            return os.path.abspath(start)
+        d = parent
+
+
 def log_run(root, name, lines):
-    d = os.path.join(root, "_meta", "runs")
+    d = os.path.join(vault_root(root), "_meta", "runs")
     if DRY_RUN:
         return f"(dry-run: no log written to {d})"
     os.makedirs(d, exist_ok=True)
