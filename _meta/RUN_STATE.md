@@ -738,8 +738,8 @@ file. **No marker was silently voided in Block 1.**
 
 ## Resume point
 
-**DONE:** K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4.
-**NEXT:** I5 · O6 · CV-X.
+**DONE:** K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5.
+**NEXT:** O6 · CV-X.
 Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1–E3).
 **Do NOT start Week 4** — the user decides that after seeing this run's yield.
 
@@ -777,6 +777,7 @@ suppresses a marker on the ground that the *source* mentions the subject.
 | I2 Diabetes and Glucose Disorders | 34 | 4 | 30 | 0 | none |
 | I3 Calcium, Parathyroid and Bone | 26 | 2 | 23 | 0 | none |
 | I4 Pituitary, Adrenal and Sex Hormone | 30 | 1 | 29 | 0 | none |
+| I5 Weight, Lipids and Fluid Balance | 30 | 3 | 27 | 0 | none |
 
 **The K block ran ~26% additive. I1 ran 6%.**
 
@@ -797,3 +798,30 @@ known-collisions list: `felon`→`lifelong` (66/66) · `IGRA`→`migraine` (118/
 suspect by default; a list of known-bad ones will always be behind.**
 
 ## Next free conflict ID: **CF-036.** (CF-035 is the atelectasis conflict written this run.)
+
+## A verification defect found mid-run (rule 7) — FIXED, and the correct form
+
+Every merge until I5 ended with this duplicate-header check:
+
+```
+grep -n "^#\+ " FILE | awk -F: '{print $3}' | sort | uniq -d      # VACUOUS - DO NOT USE
+```
+
+`grep -n` prefixes the line number, so `$2` is the header text **up to its first colon**
+and `$3` is whatever follows a second one. For a colon-free header `$3` is **empty**, so
+every such header maps to the empty string and `uniq -d` prints one blank line — which
+reads as "no duplicates". Proven, not reasoned:
+
+```
+$ printf '10:## Alpha\n20:## Alpha\n' | awk -F: '{print $3}' | sort | uniq -d | cat -A
+$
+```
+
+Two identical headers, one empty line. **Use this instead:**
+
+```
+grep -h "^#\+ " FILE | sort | uniq -d
+```
+
+Re-run correctly over all eleven Corpus A files modified this run: **all clean.** No
+duplicate header was introduced; only the check was broken.
