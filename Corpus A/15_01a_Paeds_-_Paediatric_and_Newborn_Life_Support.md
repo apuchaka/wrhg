@@ -142,3 +142,17 @@ conflicts_r1: 0
 **When an injury pattern doesn't fit the history:** given how common minor childhood injury is, it's precisely this context in which recognising an inconsistent or implausible mechanism matters most — see [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Non-accidental injury (NAI) for the specific red-flag injury patterns and approach, not repeated here; the vast majority of childhood injury is genuinely accidental and reflects the developmental patterns above, but this differential should remain active rather than being set aside by default.
 
 **Cross-reference:** see [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure and Glasgow Coma Scale (GCS), and [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] for the disease-level and safeguarding detail this entry connects to, not repeated here.
+
+## Added from unverified layer — two ANZCOR points not stated above
+`SRC:F0-4_Resuscitation_Algorithms_and_Emergency_Procedures §0.4` `SRC:F0-4 §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Newborn resuscitation commences in AIR, not oxygen
+> **Start with air**, not 100% oxygen. This is a deliberate change from older practice: **hyperoxia causes oxidative injury in the newborn**, and outcomes are better when resuscitation begins in air with oxygen added only if the response is inadequate, guided by **pre-ductal saturations measured on the right hand or wrist**.
+> Right-hand placement is not arbitrary — it is **pre-ductal**, so it reflects what is reaching the brain before any right-to-left shunt through the ductus.
+> `UNVERIFIED — **the saturation targets by minute of life, and the threshold and increments for escalating oxygen. Per ANZCOR Guideline 13.4.** Deliberately not stated here: these are minute-by-minute figures and a wrong one changes management.`
+
+> [!warning] A child's arrest is respiratory until proven otherwise
+> **The commonest path to paediatric cardiac arrest is hypoxia**, not a primary cardiac rhythm — the reverse of the adult pattern. The heart usually stops **because** the child stopped breathing or was profoundly shocked.
+> **This is why the paediatric sequence differs from the adult one**, and why rescue breaths come first. Hypoxia appears above among the 4Hs as a *reversible cause*; the point here is that in a child it is usually **the** cause.
+> It is also why **drowning is managed on the paediatric-style sequence regardless of age** — see [[11_09b_Ortho_-_Trauma]].
+
