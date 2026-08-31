@@ -106,9 +106,87 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
        indistinguishable in any report.
      - **So: `n` hits means `n` lines to read.** Where a result set is genuinely too large
        to read, that is a signal the pattern needs narrowing — **not** licence to sample
-       it. Never write `head -1` (or `head -3`) into the step that decides ABSENT; use it
-       to preview, then re-run unlimited before the verdict. Quote the hit that settled
-       the question, so the reading is visible in the report and not merely asserted.
+       it. Quote the hit that settled the question, so the reading is visible in the
+       report and not merely asserted.
+
+   - **HARD PROHIBITION — no `cut`, `head`, `-m`, `fold`, or any column or line limit on a
+     grep whose output feeds an `ABSENT` verdict.** Not a caution. Not "prefer to avoid".
+     **If the output is too long to read, narrow the pattern — never truncate the result.**
+     - Rule 2 has prohibited concluding absence from truncated output since the beginning,
+       and it was **violated twice in a single block** (B3 and B4, 2026-08-31) by someone
+       who had just written the clause above. A prohibition that is only stated gets
+       violated; this one is phrased so that the *command being typed* is the violation,
+       which is checkable while typing it rather than afterwards.
+     - **B3:** `cut -c1-150` ended a line **four words before** `because of atrial
+       stunning`. **B4:** `cut -c1-160` ended a line at `tongue-biting (lat`, cutting
+       `(lateral suggests seizure)` — **on a line already quoted in the same session for a
+       different claim.**
+     - **The two clauses guard different axes.** The one above governs *which* hits are
+       read; this governs *how much of each*. **Reading every hit at `cut -c1-150` is still
+       reading none of them properly**, and satisfying either says nothing about the other.
+     - Truncation is fine for **previewing** a result set, for counting, and for anything
+       that is not a verdict. `scripts/gapcheck.py` exists so the verdict path has a tool
+       that cannot truncate.
+
+   - **ADJACENCY — never require two terms to be near each other. Search the rarer term
+     alone.** A pattern like `situational syncope`, `micturition syncope`, or
+     `X.{0,40}Y` asserts that the corpus places the two words together. It frequently does
+     not.
+     - Found 2026-08-31 on B4. Situational syncope was called absent on
+       `situational syncope|micturition syncope|cough syncope` — **every alternative
+       required the word *syncope* adjacent.** The corpus writes
+       *"situational (micturition, defaecation, cough, swallow)"* under a heading. Searching
+       **`micturition` alone returned it immediately.**
+     - This is the Step 29 word-order check, and it is now a rule: **pick the term that is
+       rarest in general English, search it bare, and read the hits.** A proximity operator
+       is a guess about someone else's sentence structure.
+
+   - **PARAPHRASE — a failed phrase search must be retried on its least-common single word
+     before `ABSENT`.** The corpus rewords. A phrase is the author's; the concept is not.
+     - Found 2026-08-31 on B4. *Hypotension is relative to the patient's own baseline* was
+       called absent on `own baseline|relative hypotension|usual blood pressure`. The corpus
+       writes *"a blood pressure low **for that patient**"* and then gives a worked example.
+       **A paraphrase is not a pattern.**
+     - The retry is mechanical: take the phrase, drop every word that is common in medical
+       prose, and search what remains — bare, unanchored, untruncated.
+
+   - **RULE 2 IS THE BACKSTOP WHEN 9 AND 10 BOTH PASS.** This is the reason to keep running
+     it even when the search looks clean.
+     - Of six `ABSENT` verdicts overturned at placement across B3 and B4, **rule 10's
+       clauses would have passed four of them**: the scope was right, the corpus was right,
+       the pattern was right, the count was right. They failed on truncation, adjacency and
+       paraphrase — all three of which are **rule 2's territory: the search that finds
+       nothing because the corpus said it differently.**
+     - **Rule 2's component re-search caught all four.** So: run it on *every* zero result,
+       including — especially — the ones where the pattern looks obviously correct.
+
+11. **A claim about tool behaviour is TESTED, never reasoned.** Run it, print the output,
+   quote the output. Reading the source and explaining what it must do is not evidence, and
+   this project has now been wrong twice in one day doing exactly that.
+   - **Both explanations were confident, plausible, and false.** Asked why one `→MED:`
+     marker registered in the dose-mirror report and another did not, I read the regexes and
+     answered from them: the first "registered because the filename in its wikilink contains
+     digits", the second "failed because its line carried no digit". A four-line script
+     settled it:
+     ```
+     GTN                    MED match: ['GTN']      DOSE match: []
+     sodium nitroprusside   MED match: []           DOSE match: []
+     ```
+     **Neither explanation survived.** `RE_DOSE` requires a *unit*, so no filename ever
+     matched it; the report simply listed every parsed mirror regardless of figures. And the
+     second failed because the drug pattern `[A-Za-z0-9_\-]+` **excludes spaces**, so no
+     multi-word drug name ever matched — nothing to do with digits.
+   - **The second was a live defect, and only running it could have found it.** Every
+     multi-word drug — `sodium nitroprusside`, `magnesium sulfate`, `calcium gluconate`,
+     `tranexamic acid` — was **silently dropped** by the mirror machinery. No match, no
+     entry, no error: the voided-marker shape. It was found the only way it can be, **by
+     writing one and noticing the report did not change.**
+   - **Reasoning about code shares the defect of the code.** The same misreading that puts a
+     bug in a regex puts it in the explanation of that regex, so an explanation derived from
+     the source cannot detect a bug in the source. Only execution is independent of it.
+   - **This applies to every claim about the tooling**: what a scan counts, why a marker did
+     or did not register, what a lint rule catches, whether a skip fired. If it is going into
+     a commit message, a report, or a PR body — **run it first and paste what it printed.**
 
 ## 1.4 Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.
