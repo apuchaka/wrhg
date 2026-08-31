@@ -1614,18 +1614,17 @@ Two complications of portal hypertension that are respiratory rather than abdomi
 
 ---
 
-### 0.41.3 Added from unverified layer — visceral versus parietal pain, and the must-not-miss list
-`SRC:C1_Acute_Abdomen §0.1` `SRC:C1_Acute_Abdomen §0.4 (extra-abdominal causes only)` `UNVERIFIED — model knowledge, not source-checked.`
+### 0.41.3 The Acute Abdomen — Framework — from unverified layer
+`SRC:C1_Acute_Abdomen §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.41.3 fragment, whose section pointers are carried into the must-not-miss list below.*
 
-**D:** acute abdominal pain of less than a few days' duration requiring urgent assessment to identify or exclude a condition needing surgery or immediate intervention.
+**D:** Acute abdominal pain of less than a few days' duration requiring urgent assessment to identify or exclude a condition needing surgery or immediate intervention.
 
-Abdominal pain is transmitted by two distinct pathways, and the transition between them explains almost every classical pain history.
-
+**A/P:** Abdominal pain is transmitted by two distinct pathways, and the transition between them explains almost every classical pain history.
 **Visceral pain** arises from stretch, distension or ischaemia of hollow organs and capsules. Its afferents are unmyelinated, bilateral and sparse, so the pain is **dull, poorly localised, midline, and referred to the segment of embryological origin**:
-- **Foregut** (stomach to second part of duodenum, liver, biliary tree, pancreas, spleen) → **epigastrium**
-- **Midgut** (distal duodenum to proximal two-thirds of transverse colon, including appendix) → **periumbilical**
-- **Hindgut** (distal transverse colon to rectum, and pelvic organs) → **suprapubic**
-
+· **Foregut** (stomach to second part of duodenum, liver, biliary tree, pancreas, spleen) → **epigastrium**
+· **Midgut** (distal duodenum to proximal two-thirds of transverse colon, including appendix) → **periumbilical**
+· **Hindgut** (distal transverse colon to rectum, and pelvic organs) → **suprapubic**
 **Parietal (somatic) pain** arises when inflammation reaches the parietal peritoneum, which is richly innervated by segmental somatic nerves. It is **sharp, severe, and precisely localised** over the site of pathology, and is worsened by movement, coughing and palpation.
 
 > [!tip] This is why appendicitis migrates
@@ -1633,29 +1632,37 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 > **A history of migrating pain is one of the most useful features in the whole presentation.**
 
 > [!danger] The must-not-miss list
-> - **Ruptured abdominal aortic aneurysm** — the great mimic of renal colic
-> - **Mesenteric ischaemia** — pain grossly out of proportion to signs (§0.37)
-> - **Perforated viscus**
-> - **Ruptured ectopic pregnancy** — in any woman of reproductive age
-> - **Bowel obstruction with strangulation** (§0.19, §0.20)
-> - **Ascending cholangitis** (§0.4)
-> - **Severe acute pancreatitis** (§0.11)
-> - **Testicular or ovarian torsion**
-> - **Myocardial infarction and diabetic ketoacidosis** presenting as abdominal pain
->
+> **· Ruptured abdominal aortic aneurysm** — the great mimic of renal colic
+> **· Mesenteric ischaemia** — pain grossly out of proportion to signs (§0.37)
+> **· Perforated viscus**
+> **· Ruptured ectopic pregnancy** — in any woman of reproductive age
+> **· Bowel obstruction with strangulation** (§0.19, §0.20)
+> **· Ascending cholangitis** — see §0.4 Ascending Cholangitis
+> **· Severe acute pancreatitis** (§0.11)
+> **· Testicular or ovarian torsion**
+> **· Myocardial infarction and diabetic ketoacidosis** presenting as abdominal pain
 > Every one of these has been missed by anchoring on gastroenteritis, constipation or "non-specific abdominal pain."
 
 > [!warning] Extra-abdominal causes of abdominal pain
-> **Cardiac** — inferior myocardial infarction presenting as epigastric pain with nausea, particularly in diabetics, women and the elderly. **Get an ECG before settling on a gastrointestinal diagnosis for epigastric pain.**
+> **Cardiac** — inferior myocardial infarction presenting as epigastric pain with nausea, particularly in diabetics, women and the elderly. **Get an ECG.**
 > **Respiratory** — lower lobe pneumonia, pulmonary embolism, pleurisy, all irritating the diaphragm.
 > **Metabolic** — **diabetic ketoacidosis**, adrenal crisis, hypercalcaemia, uraemia, acute intermittent porphyria, lead poisoning.
 > **Haematological** — sickle cell crisis, and haemolysis.
 > **Neurological** — herpes zoster before the rash appears (dermatomal, unilateral, exquisitely tender skin), radiculopathy, spinal pathology.
 > **Other** — familial Mediterranean fever, hereditary angioedema causing abdominal attacks, testicular torsion referring to the abdomen.
 
-**Chronic/long-term:** follow-up of any patient discharged with "non-specific abdominal pain" — a defined review, because a proportion have a diagnosis that declares itself over the following days.
+**S/Smx:** Site, onset, character, radiation, associated symptoms, timing, exacerbating and relieving factors, and severity. Then: vomiting and its character, bowel habit and flatus, urinary symptoms, gynaecological history including last menstrual period, weight loss, previous abdominal surgery, and drug and alcohol history.
 
----
+**Ix:** See 0.2, which sets out the core panel for every acute abdomen.
+
+### 0.1.1 Mx – Immediate
+A–E, resuscitation, analgesia, nil by mouth, IV fluids, and early surgical involvement where a surgical cause is plausible.
+
+### 0.1.2 Mx – Definitive
+Cause-specific.
+
+### 0.1.3 Mx – Chronic/long-term
+Follow-up of any patient discharged with "non-specific abdominal pain" — a defined review, because a proportion have a diagnosis that declares itself over the following days.
 
 ### 0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel
 `SRC:C1_Acute_Abdomen §0.2` `UNVERIFIED — model knowledge, not source-checked.`
