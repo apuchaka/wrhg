@@ -72,6 +72,17 @@ no_baseline: 0
 
 > [!warning] Poor prognostic factors: RF positive, anti-CCP positive, HLA-DR4, poor functional status at presentation, early erosions on X-ray (<2 years), extra-articular features, insidious onset, possibly female sex.
 
+> [!danger] Added from unverified layer — **the window of opportunity: how EARLY treatment starts changes the outcome**
+> `SRC:L2_Polyarthralgia_and_Inflammatory_Arthritis §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **The management above says what to give. It does not say that WHEN it is given is itself a determinant of outcome, and it is.**
+> **Starting a disease-modifying drug early — within the first months of symptom onset — produces higher remission rates and less joint damage than the same drug started later**, and the difference is not recoverable afterwards: **erosive damage is permanent.** A patient treated late reaches a worse ceiling with identical drugs.
+> **The operational consequences are all about time rather than about choice of agent:**
+> **· A suspected inflammatory arthritis is an URGENT rheumatology referral, not a routine one** — do not wait for serology, and do not wait to see whether it settles. **Seronegative disease is still erosive**, and a normal rheumatoid factor and anti-CCP do not justify a delay.
+> **· Do not treat a persistent inflammatory polyarthritis with NSAIDs and review** for months while the referral sits.
+> **· Once started, treatment is titrated to a target of remission or low disease activity, reassessed at intervals, rather than left at whatever dose was first tolerated.**
+> The same principle appears in this vault only for **psoriatic** arthritis, at [[NEW_Drugs_08_Dermatological]] — *"early treatment prevents erosive damage"* — inside a dermatology drug entry, where a reader working through rheumatoid arthritis would not meet it.
+> `UNVERIFIED — the interval that defines "early", the target definition, and the reassessment frequency used in Australian practice, per Therapeutic Guidelines: Rheumatology and the Australian Rheumatology Association. NO INTERVAL IS STATED HERE.`
+
 ### Complications / extra-articular manifestations
 
 - Ocular manifestations in 25%: keratoconjunctivitis sicca, episcleritis, scleritis, corneal ulceration, keratitis.
