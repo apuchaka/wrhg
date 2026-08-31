@@ -461,6 +461,14 @@ Similar phenotype to pseudohypoparathyroidism, but normal biochemistry.
 
 ### 0.15.2 Type 2 Diabetes Mellitus (T2DM)
 
+> [!danger] Added from unverified layer — **LADA: the adult misclassified as type 2** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> `SRC:I2_Diabetes_and_Glucose_Disorders §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+> **Latent autoimmune diabetes in adults is type 1 diabetes with a slow onset**, and it is routinely labelled type 2 because the patient is an adult.
+> **The clues are the ones that do not fit type 2: a normal or low body mass index · no metabolic syndrome features · other autoimmune disease personally or in the family · and rapid progression to needing insulin despite good adherence to oral agents.**
+> **Diagnosis is GAD antibodies, with C-peptide.** The consequence is practical: **these patients need insulin sooner, and a sulfonylurea will fail quickly**, so the label change is not academic.
+> **The mirror-image error also happens** — [[15_16b_Paeds_-_Diabetes_Mellitus__MODY__DKA]] Maturity onset diabetes of the young (MODY) covers the young patient wrongly labelled type 1, who may need no insulin at all.
+> **Search note:** every `LADA` in this vault outside this block is `maladaptive` or `maladaptation`. Anchor on word boundaries (CLAUDE.md rule 9).
+
 **D:** progressive disorder defined by deficits in insulin secretion and increased insulin resistance, leading to abnormal glucose metabolism and related metabolic derangements.
 
 **A/P:** relative insulin deficiency due to excess adipose tissue — not enough insulin to "go around" the excess fatty tissue.
@@ -688,6 +696,25 @@ Increase monitoring ± check ketones; consume 3L of fluids/24h ± sugary drinks.
 **Prevention:** patient education on symptoms, encourage frequent monitoring (especially in T1DM), provide a Hypokit (with glucagon).
 
 > [!note] β-blockers reduce hypoglycaemic awareness.
+
+### Added from unverified layer — hypoglycaemia: unawareness, and working out the cause
+`SRC:I2_Diabetes_and_Glucose_Disorders §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Hypoglycaemia unawareness is caused by hypoglycaemia — and it is REVERSIBLE**
+> The note above records that β-blockers blunt awareness. The commoner cause is the hypoglycaemia itself: **repeated episodes progressively blunt the counter-regulatory response, so the adrenergic warning symptoms are lost and the first sign becomes confusion or collapse.** The threshold at which symptoms appear falls below the threshold at which cognition fails.
+> **It is a major risk factor for severe hypoglycaemia, and it has driving implications** — see 0.15.8 Austroads Driving Standards for Diabetes above.
+> **The part worth knowing is that it reverses.** **Scrupulously avoiding any hypoglycaemia for a period restores the warning symptoms**, which usually means deliberately relaxing glycaemic targets for a while — an apparent step backwards that is the correct treatment. Continuous glucose monitoring with alarms is central to doing it.
+> `UNVERIFIED — the duration of avoidance required, and the Australian driving-licence implications of documented unawareness, per Austroads "Assessing Fitness to Drive".`
+
+> [!warning] **Hypoglycaemia in a person WITHOUT diabetes always needs explanation**
+> The causes list above is a list of causes. What it does not give is the diagnostic sequence.
+> **Whipple's triad establishes that the hypoglycaemia is real** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.` — **symptoms consistent with hypoglycaemia · a low plasma glucose measured at the time of those symptoms · and resolution of the symptoms when the glucose is corrected.** All three, or the investigation should not proceed. (Not to be confused with Whipple's procedure at [[03_Gastrointestinal]] or Whipple's disease.)
+> **Then the samples taken DURING the episode, before treating it, do the work** — once the glucose is corrected the opportunity is gone:
+> **· C-peptide LOW with high insulin → exogenous insulin administration** (therapeutic error, or factitious).
+> **· C-peptide HIGH → endogenous insulin** — **insulinoma, or a sulfonylurea**, which is why a sulfonylurea screen is sent alongside.
+> **· Insulin and C-peptide both low → not insulin-mediated** — consider adrenal insufficiency, liver failure, sepsis, alcohol, or a non-islet tumour.
+> The corpus already uses C-peptide to separate type 1 from type 2 diabetes; **this is the same test answering a different question**, and the discriminating step is taking the sample before the dextrose.
+
 
 ---
 
