@@ -461,7 +461,57 @@ instrument without stating a threshold, so there is no competing claim to confli
 
 ## Resume point
 
-**Block 1 (C1–C7) merged. Block 2: D1, D2, D3 merged. RESUME AT D4.**
+**BLOCK 1 (C1–C7) AND BLOCK 2 (D1–D7) BOTH COMPLETE.**
+**RESUME AT: the C2–C7 full re-audit** (below), then GER1–2 · A6, A7, A8 · F0-1…F0-5 ·
+B1–B6 · A1–A5, A9, A10.
+
+### Block 2 result — 8 placements, 34 discards, ZERO new conflicts
+
+| File | Placements | Discards | Of concepts tested, already present |
+|---|---|---|---|
+| D1 Headache | 1 | 5 | 32 of 33 |
+| D2 Consciousness | 2 | 5 | 15 of 19 |
+| D3 Stroke | 1 | 6 | — (2 scores saved by digit folding) |
+| D4 Weakness | 2 | 6 | 19 of 22 |
+| D5 Dizziness | 1 | 5 | 18 of 20 |
+| D6 Seizures | 1 | 6 | 20 of 22 |
+| D7 Cranial nerves | 1 | 5 | 20 of 22 |
+
+**Conflict rate: 0 across 7 files, against Block 1's 1 across 7.** Vault-wide still
+**CF-032 alone**, 0 R1. Both files flagged in advance as collision risks — D5 against
+§Vertigo, D7 against §Cranial Nerve Disorders — collided almost completely, and **the
+corpus won both times**.
+
+`04_Neurology` is 28 637 words and absorbed six of the eight placements. Where Corpus B
+added, it added **discriminations the corpus had the parts for but never assembled**: the
+neck-stiffness differential, structural versus metabolic, stroke chameleons, foot drop by
+inversion, bulbar versus pseudobulbar.
+
+### The four remaining Block-2 gaps no merge can close
+
+Hunt and Hess · Weber syndrome · Millard-Gubler · mal de débarquement · glossopharyngeal
+neuralgia. Each absent from the vault **and** from the B file covering that topic. On the
+study list with Dubin-Johnson, Rotor and Schatzki ring.
+
+---
+
+## NEXT JOB — the C2–C7 full re-audit (NOT STARTED)
+
+Scope: **every claim in those six destination tables**, not only the concepts previously
+listed. They were built with the A-and-C rule but **before rule 10 and digit folding**, so
+they sit at lower confidence than D4–D7 now do.
+
+Method: rule 10 throughout — pre-merge tree `245c1e5` **and** current tree, Corpus A **and**
+C, **nothing excluded**, digit folding, instrument-specific components.
+
+Report: which absences hold · which were artefacts · **and any duplicate that landed in a
+different file from its original** — that is the ALP/GGT shape, and it is the one nothing
+else detects.
+
+A partial re-audit of 45 previously-listed concepts already ran and found **42 held, 5 were
+wrong**; those five are corrected. This job is the remaining claims.
+
+---
 
 `D4_Weakness__Neuropathy_and_Radiculopathy` — **nothing committed, no table written.** Its
 three candidate gaps are listed below and **must be re-verified against the pre-merge tree
