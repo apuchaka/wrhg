@@ -46,6 +46,24 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
      `pubert` fire inside *children*, *infants*, *gestational* and *puberty* — the same
      concept, and anchoring them would break them. The test is whether the longer word is
      a **different** concept.
+   - **A COMPONENT pattern that is too generic makes a real gap read as FILLED.** This is
+     the inverse of the eponym check and is equally silent. That check says: before
+     concluding a named instrument is absent, search its *components* rather than its name.
+     But a component must be **specific to the instrument**, or it matches everything.
+     - Found 2026-08-31 on D4. `normal CK` was used as the component pattern for
+       *steroid myopathy has a normal CK*. It matched **9 files**, of which the relevant
+       one was **polymyalgia rheumatica** at `12_02` — *"↑ESR (>40). Normal CK and EMG"* —
+       a different condition entirely. The gap was real and the pattern reported it filled.
+       Two more the same day: `over-interpret` matched a urine-dipstick warning and CRP/ESR
+       kinetics, not spinal imaging; `tibialis posterior` matched **Achilles rupture and
+       the Thompson test**, not the foot-drop inversion discriminator.
+     - **The direction of failure matters.** A too-narrow component pattern produces a
+       false ABSENT, which the eponym check then catches. A too-generic one produces a
+       false PRESENT, which **nothing catches** — the item is silently dropped from the
+       merge and no report ever mentions it. Prefer a distinctive phrase from the
+       instrument itself (`metabolic atrophy`, `imaging must match the clinical level`)
+       over a common clinical word pair, and **read every component hit before trusting
+       it**.
    - Found three times in one week (2026-08-30). Treat it as a class: when one turns up,
      audit every containment test and unanchored alternative in the same tool, against the
      real corpus rather than by eye. That audit found two further instances nobody had

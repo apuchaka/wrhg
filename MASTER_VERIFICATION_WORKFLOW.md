@@ -1662,6 +1662,14 @@ report examined / converted / flagged per chunk.
 > sign, search what the patient does, not who described it. For a classification, search a
 > category label. Then read the hit.
 >
+> **The component must be SPECIFIC TO THE INSTRUMENT, or the check inverts.** A generic
+> component pattern makes a real gap read as filled — and unlike a false ABSENT, which this
+> check catches, a false PRESENT is caught by nothing: the item is silently dropped and no
+> report mentions it. On D4, `normal CK` matched 9 files, the relevant one being
+> **polymyalgia rheumatica**, and reported *steroid myopathy has a normal CK* as already
+> present. Prefer a distinctive phrase from the instrument itself over a common word pair,
+> and **read every component hit**.
+>
 > **Worked example 3 — `ABCD2` and `CHA2DS2-VASc`, Block 2 / D3. Unicode digits.** Both
 > returned **ABSENT**. `04_Neurology` L1104 carries **`ABCD²`** with a superscript, with
 > every component and an Australian caution; `01_Cardiovascular` L290 carries
