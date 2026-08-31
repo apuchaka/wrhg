@@ -298,3 +298,13 @@ The scale of the problem is Australian and specific: **more than half of medicat
 > **Discharge to no fixed address is the other version of this problem**, and it fails for overlapping reasons: there is nowhere to deliver equipment or a home modification to, no address for follow-up correspondence, no safe storage for medicines, and often no phone number that will still work next week. People who are homeless or at risk of homelessness are **also eligible for aged care assessment from age 50** (see Falls in Older People above) — which is frequently the most useful referral available and is routinely not made, because the patient does not look like the person the service is imagined to be for. Involve social work early, and ask about housing explicitly rather than inferring it from the address on the chart, which may be historical. Ask **where the patient is going and who will actually see them**, early — this is the discharge planning that most often fails silently because everyone assumes someone else arranged it.
 
 > [!tip] The commonest avoidable discharge failures, in the order they occur: planning started too late for the services to be arranged; discharge to a function level below baseline with no new support; a medication list that does not say what changed or why; and a follow-up plan that depends on an appointment nobody actually booked.
+
+## Added from unverified layer — two funding pathways outside aged care
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+The aged care pathways above are not the only ones, and the two below are missed because nobody asks:
+
+- **Veterans may access DVA-funded services**, which are **separate from aged care, and often quicker**. **Always ask about veteran status** — it opens a different and frequently better-resourced pathway that families routinely do not know exists.
+- **For a younger person with disability, the NDIS rather than aged care** is the correct scheme. Age is the branch point, and routing someone into the wrong system costs months.
+
+`UNVERIFIED — current eligibility criteria and the age boundary between NDIS and aged care, and what DVA covers; both are open government sources.`
