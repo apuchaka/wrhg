@@ -42,7 +42,8 @@ no_baseline: 0
 > If 3–4 criteria are present, positive predictive value is >90% for septic arthritis.
 
 ## Added from unverified layer — pulled elbow (radial head subluxation)
-`SRC:L5_Regional_Limb_Pain §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+`SRC:L5_Regional_Limb_Pain §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+The inherited layer already carries a short entry — [[11_02_Ortho_-_Upper_Limb__Shoulder__Elbow__Distal_Radius_Fractures_]] Pulled elbow — giving the definition, the age group, the limited supination and extension, and a reduction manoeuvre. **That entry is the owner of the manoeuvre; this block adds the presentation, the imaging decision and the red flags, and does not restate it.**
 
 > [!tip] **The commonest elbow injury in a toddler, and it is not a fracture**
 > **A sudden axial pull on a pronated, extended arm** — lifting a child by the hand, swinging them, a stumble while being led — **slips the annular ligament over the radial head.** Typically **one to four years old**, and it stops happening once the ligament thickens.
@@ -50,7 +51,7 @@ no_baseline: 0
 > **Because it looks like nothing, the history is the diagnosis** — and a carer who describes pulling the child's arm may be reluctant to say so.
 > **A radiograph is not required where the history and examination are typical**, and reduction is a simple manoeuvre performed by someone trained in it, with the child using the arm again within minutes — which is itself confirmatory.
 > **When it does NOT fit, it is something else.** Swelling, bruising, deformity, point tenderness over bone, a child outside the usual age range, or a history that does not match **means imaging and a fracture assessment** — and, where the history keeps changing, a safeguarding assessment. Cross-refer [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]].
-> `UNVERIFIED — the reduction manoeuvre, which of the described techniques is preferred, and the observation period afterwards. NO TECHNIQUE IS DESCRIBED HERE deliberately; RCH and Queensland Children's Health guidelines are the open sources.`
+> `UNVERIFIED — which reduction technique is preferred, and the observation period afterwards. The manoeuvre itself is stated in the inherited entry cross-referenced above and is not repeated here; RCH and Queensland Children's Health guidelines are the open sources.`
 
 ## Developmental dysplasia of the hip (DDH)
 
