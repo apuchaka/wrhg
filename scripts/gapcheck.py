@@ -93,6 +93,41 @@ def fold_dashes(s):
     return s.translate(DASH_FOLD)
 
 
+# NUMERAL-FORM FOLDING. Added 2026-08-31 after `Grade III` returned a false ABSENT while
+# `03_Gastrointestinal:1047` defined all four grades as `Grade 1`..`Grade 4`. Digit folding
+# does NOT cover this — no digit changes when a numeral changes alphabet.
+#
+# Deliberately NARROW. Folding every bare `1` to `1|I` would be a catastrophe: under the
+# case-insensitive match `\bI\b` matches the pronoun and every stray initial. So the fold
+# fires ONLY where a numeral follows a qualifier word, which is exactly where medicine
+# varies its alphabet — grade, stage, type, class, phase, degree, tier.
+ROMAN = {1: "I", 2: "II", 3: "III", 4: "IV", 5: "V",
+         6: "VI", 7: "VII", 8: "VIII", 9: "IX", 10: "X"}
+ARABIC = {v: k for k, v in ROMAN.items()}
+QUALIFIER = r"(?:grade|stage|type|class|phase|degree|tier)"
+RE_NUMERAL = re.compile(
+    rf"\b({QUALIFIER})(\s+)(X|IX|VIII|VII|VI|V|IV|III|II|I|10|[1-9])\b", re.I)
+
+
+def fold_numerals(pattern):
+    """Make `Grade III` also match `Grade 3`, and vice versa.
+
+    Returns the pattern with each qualified numeral replaced by an alternation of both
+    forms. A pattern with no qualified numeral is returned unchanged.
+    """
+    def sub(m):
+        word, gap, num = m.group(1), m.group(2), m.group(3)
+        up = num.upper()
+        if up in ARABIC:
+            other = str(ARABIC[up])
+        elif num.isdigit() and int(num) in ROMAN:
+            other = ROMAN[int(num)]
+        else:
+            return m.group(0)
+        return f"{word}{gap}(?:{num}|{other})"
+    return RE_NUMERAL.sub(sub, pattern)
+
+
 def search(pattern, dirs):
     """Every matching line, in full. The one place a search happens.
 
@@ -100,7 +135,7 @@ def search(pattern, dirs):
     query finds an en-dash in the corpus and vice versa. The line is REPORTED unfolded,
     so what you read is what the file actually says.
     """
-    rx = re.compile(fold_dashes(pattern), re.I)
+    rx = re.compile(fold_numerals(fold_dashes(pattern)), re.I)
     out = []
     for path in md_files(dirs):
         with open(path, encoding="utf-8") as fh:
