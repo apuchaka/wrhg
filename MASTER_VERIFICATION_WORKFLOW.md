@@ -1791,6 +1791,41 @@ report examined / converted / flagged per chunk.
 > tree finds the merge's own additions and reports everything present. The first run of the
 > C-block re-audit did exactly that. **Audit against the tree the merge started from.**
 
+> [!danger] **REQUIRED CHECK — A DISCARD VERDICT IS MADE AT CLAIM LEVEL. Naming a
+> destination file or section is not evidence that the destination carries the content.**
+> Every other check on this page governs the search that *looks for* something. This one
+> governs the verdict that decides **not to look any further** — and it is the only verdict
+> in this method that leaves no artefact behind.
+>
+> **A wrong merge produces a duplicate carrying a `SRC:` token, which a later gap check
+> finds. A WRONG DISCARD PRODUCES NOTHING** — no marker, no block, no diff, no line in any
+> report. It is the more expensive error, so it gets the more expensive check.
+>
+> **Two worked examples, both in C6, both found by hand and not by any check. Neither was a
+> search error: both searches were correct and both verdicts were made at the wrong
+> granularity.**
+>
+> **· AREA-LEVEL — achalasia.** C6 §0.3 "oesophageal disease" was discarded to `13_06b` and
+> §0.30 because **those files own the area**. They do. **The topic is not in them:**
+> achalasia appears twice in `13_06b`, both times as **one word in a list** — no definition,
+> no failure of the lower oesophageal sphincter to relax, no bird's beak, no manometry, no
+> management. **A file owning an area is not evidence it carries a topic.**
+>
+> **· CLAIM-LEVEL — dyspepsia.** C6 §0.1 was discarded to §0.28 GORD and §0.29 gastritis.
+> **Both exist and are good.** B's section still carried at least six claims absent from
+> both — among them the **inferior-MI cardiac exclusion**, with the point that relief from
+> an antacid or from GTN **does not distinguish the two**. **A topic being present is not
+> evidence that its claims are.**
+>
+> **So: extract every distinct clinical claim from the section and test each separately.**
+> A dyspepsia section is a mechanism claim, a red-flag list, a drug-cause list, an
+> investigation set and a management approach — five verdicts, not one. Test the **named
+> destination first**, then the whole vault before concluding: content sitting elsewhere is
+> a **reachability** problem, which is a different finding and gets a different label.
+>
+> **Classify:** `CONFIRMED` · `DISPLACED` · `AREA-LEVEL` · `CLAIM-GAPS` · `WRONG`.
+> **When a claim is missing, the CLAIM merges — the section does not.**
+
 > [!warning] **REQUIRED CHECK — word order. Search the rarer word alone, never the phrase.**
 > A regex requiring two terms in a fixed order fails whenever the corpus chose the other
 > order, and the failure is silent. The corpus writes **prophylactic antibiotics**, not

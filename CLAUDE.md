@@ -343,6 +343,45 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
        pattern used a hyphen. **Loss rate 0%; verification false-negative rate 1 in 27.**
        Each was found only by running the check where the answer was already known.
 
+12. **A DISCARD VERDICT MUST BE MADE AT CLAIM LEVEL. Naming a destination file or
+   section is not evidence that the destination carries the content.** Rules 2, 9 and 10
+   all govern the search that *looks for* something. This governs the verdict that decides
+   **not to look any further**, and it is the only verdict in this project that leaves no
+   artefact behind.
+   - **THE COROLLARY IS WHY THIS RULE IS EXPENSIVE ON PURPOSE: A WRONG DISCARD IS
+     UNDETECTABLE DOWNSTREAM.** A wrong *merge* produces a duplicate, carrying a `SRC:`
+     token, which a later gap check finds — the four caught on 2026-08-31 were all found
+     that way. A wrong *discard* produces **nothing**: no marker, no block, no diff, no
+     entry in any report. It is therefore the more expensive error and warrants the more
+     expensive check. Nothing else in this method has that property.
+   - **Two failure depths, both found by hand in one file (C6) in one morning. Neither was
+     a search error — both searches were correct, and the verdicts were made at the wrong
+     granularity.**
+     - **AREA-LEVEL (the achalasia shape).** C6 §0.3 "oesophageal disease" was discarded to
+       `13_06b` and §0.30 because **those files own the area**. They do. **The topic is not
+       in them:** achalasia appears twice in `13_06b`, both times as **one word in a list** —
+       no definition, no failure of the lower oesophageal sphincter to relax, no bird's beak,
+       no manometry, no management. **A file owning an area is not evidence it carries a
+       topic.**
+     - **CLAIM-LEVEL (the dyspepsia shape).** C6 §0.1 was discarded to §0.28 GORD and §0.29
+       gastritis. **Both exist and are good.** B's section still carried at least six claims
+       absent from both — among them the **inferior-MI cardiac exclusion**, with the point
+       that relief from an antacid or from GTN **does not distinguish** the two. **A topic
+       being present is not evidence that its claims are.**
+   - **So the test is: extract every distinct clinical claim from the discarded section and
+     test each one separately.** A section on dyspepsia is not one claim — it is a mechanism
+     claim, a red-flag list, a drug-cause list, an investigation set and a management
+     approach, each separately present or absent. Test the **named destination first**, then
+     the whole vault before concluding, because content sitting elsewhere is a *reachability*
+     problem and not the same finding.
+   - **Classify, never collapse:** `CONFIRMED` · `DISPLACED` (present, but not where the
+     table said) · `AREA-LEVEL` · `CLAIM-GAPS` (list every missing claim) · `WRONG` (absent
+     from the vault entirely).
+   - **When a claim is missing, the claim merges — the section does not.** One missing claim
+     is not licence to re-merge a section that was correctly discarded in the rest.
+   - **Weight the finding.** A missed red flag, a lethal misattribution and a management step
+     are not the same as a footnote. Say which it is.
+
 ## 1.4 Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.
 
