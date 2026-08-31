@@ -91,6 +91,21 @@ no_baseline: 0
 
 > [!note] Amiodarone can cause both hyper- and hypothyroidism.
 
+### Added from unverified layer — two ways thyroid disease hides
+`SRC:I1_Thyroid_Disease §0.1, §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Apathetic thyrotoxicosis — the elderly presentation** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> The S/Smx list above is the classic sympathetic picture, and **older patients frequently do not have it.**
+> **Apathetic thyrotoxicosis presents as the opposite of what the name "hyperthyroidism" suggests: apathy, withdrawal, low mood, weight loss and profound weakness — with none of the tremor, heat intolerance, sweating or irritability**, and often no goitre and no eye signs.
+> **Frequently the only cardiovascular sign is atrial fibrillation or heart failure**, and the thyroid is not considered because nothing looks thyrotoxic.
+> **So: check thyroid function in any older person with new atrial fibrillation, unexplained weight loss, or a depression that does not fit** — the differential it is most often mistaken for is depression or malignancy, and both of those investigations proceed while the treatable cause sits untested.
+
+> [!warning] **Biotin interferes with thyroid assays and produces a convincing Graves-like result**
+> **High-dose biotin** — widely taken as an over-the-counter hair, skin and nail supplement, and in some multivitamins, at doses far above nutritional requirements — **interferes with the immunoassays used for thyroid function.**
+> **The classic artefact is a LOW TSH with HIGH free T4 and T3 — biochemical Graves disease in a patient who is clinically euthyroid.** It can also distort troponin, and thyroid antibody assays.
+> **The patient will not mention it, because a supplement is not a medicine to most people.** **Ask specifically about supplements when the biochemistry does not match the patient**, and repeat the tests after stopping it rather than starting antithyroid treatment.
+> `UNVERIFIED — the dose above which interference occurs, the washout period before retesting, and which Australian laboratory platforms are affected; the reporting laboratory is the source and should be asked directly.`
+
 ### 0.2.1 Graves' Disease
 
 **D:** autoimmune thyroid condition associated with hyperthyroidism — antibodies to the TSH receptor (90%) and anti-thyroid peroxidase antibodies (75%).
