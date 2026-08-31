@@ -15,6 +15,20 @@ no_baseline: 4
   - Human bites — aerobic and anaerobic bacteria: Strep, Staph, *Eikenella*, *Fusobacterium*, *Prevotella*. Consider risk of HIV, hepatitis C.
 - **Mx:** clean wound, do not suture closed unless thorough washout performed. Antibiotics: amoxicillin+clavulanate, or doxycycline + metronidazole. `UNVERIFIED — AU regimen; Therapeutic Guidelines (login). Look up at point of use.`
 
+### Added from unverified layer — two bite exposures the organism list does not carry
+`SRC:K2_Skin_and_Soft_Tissue_Infection §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] ***Capnocytophaga canimorsus* — a dog bite that kills the asplenic patient** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> An oral commensal of dogs and cats that causes **fulminant sepsis with purpura fulminans, disseminated intravascular coagulation and multi-organ failure** — overwhelmingly in people who are **asplenic or hyposplenic, have chronic liver disease or harmful alcohol use, or are immunosuppressed.**
+> **The bite itself can look trivial**, and the patient presents days later profoundly unwell out of proportion to the wound.
+> This is the organism behind the standing instruction at Post-splenectomy sepsis below: an asplenic patient with **any** animal bite needs antibiotics, not observation. `UNVERIFIED — the agent and duration for bite prophylaxis in asplenia, per Therapeutic Guidelines: Antibiotic.`
+
+> [!danger] **Australian bat lyssavirus — ANY bat contact, anywhere in Australia**
+> Named in this corpus only inside the NNDSS quarantinable category at [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Notifiable Diseases (Australia), as *"rabies/lyssaviruses"*. As a clinical action:
+> **Any bite, scratch or mucous-membrane exposure from any Australian bat — flying fox or microbat — is treated as a potential lyssavirus exposure.** The virus is present in bats across the country, the illness it causes is **effectively always fatal once symptomatic**, and post-exposure prophylaxis is **completely effective if given.**
+> **Wash the wound immediately and thoroughly, then contact public health the same day** for rabies vaccine and immunoglobulin assessment. **Do not handle bats** — refer the public to trained wildlife handlers.
+> `UNVERIFIED — the post-exposure prophylaxis schedule, immunoglobulin indication and wound-washing duration, per the Australian Immunisation Handbook and the CDNA national guidelines for Australian bat lyssavirus.`
+
 > [!info] Verified against Australian bite-wound literature (RCH Clinical Practice Guidelines; ED and tropical Australia bite-management studies), Aug 2026 — amoxicillin-clavulanate is confirmed as the current Australian first-line choice, consistent with the "amoxicillin+clavulanate" already in the note (this is the UK name for the same amoxicillin+clavulanic acid combination — not actually a different drug). **Oral dosing: amoxicillin-clavulanate 875/125mg 12-hourly** is specifically cited as most appropriate for high-risk wounds. For penicillin allergy, Australian sources specify **ciprofloxacin 500mg 12-hourly plus clindamycin 450mg 8-hourly** — a different combination from the doxycycline+metronidazole option in the note (which isn't wrong pharmacologically, but isn't the specific Australian-cited alternative either) — worth knowing both exist as reasonable options but the ciprofloxacin+clindamycin combination is the one specifically documented in Australian clinical practice guidelines. For established moderate-severe infection requiring admission, IV piperacillin-tazobactam is the cited regimen. Minor genuine correction beyond dose specifics: routine antibiotics are **not required prophylactically for all bites** in adults — thorough washout/debridement remains the most important intervention, with prophylactic antibiotics reserved for higher-risk wounds (immunocompromise, diabetes, crush injury, wounds needing surgical repair, hand/joint involvement) rather than given to every bite universally. `UNVERIFIED — AU regimen; Therapeutic Guidelines (login). Look up at point of use.`
 
 ## Cellulitis
@@ -310,6 +324,16 @@ no_baseline: 4
   - **Immediate/acute:** urgent neurosurgical/spinal referral, given the risk of progressive cord compression and irreversible neurological deficit if decompression is delayed — this shares the same time-critical, "don't wait for full work-up if focal deficit is present" urgency as cauda equina syndrome and malignant spinal cord compression (see [[04_Neurology]] for both, not repeated here); empirical broad-spectrum IV antibiotics started promptly, covering *S. aureus* (including MRSA where locally relevant) given this is the most common causative organism per the A/P above.
   - **Definitive:** surgical evacuation/decompression for large abscesses, evidence of cord compression, or those not responding to antibiotics alone; long-term antibiotics (often several weeks), refined once culture/sensitivity results (from blood cultures or surgical specimens) are available.
   - **Chronic/long-term:** address any identifiable source (e.g. treat the primary discitis or bacteraemia source) to prevent recurrence; rehabilitation if a neurological deficit has occurred, given recovery depends heavily on how promptly decompression occurred relative to deficit onset.
+
+## Added from unverified layer — suppurative lymphadenitis
+`SRC:K2_Skin_and_Soft_Tissue_Infection §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] **A large, tender, fluctuant node is not always a bacterial abscess**
+> **· Bacterial** — *S. aureus* and group A *Streptococcus*, acute and fluctuant, drained and treated as an abscess.
+> **· Mycobacterial** — **tuberculous cervical lymphadenitis, "scrofula"**: `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.` **matted, minimally tender nodes evolving over weeks**, with overlying violaceous skin and possible **sinus formation**. **Incision produces a chronically discharging sinus rather than resolution — the diagnostic step is aspiration or excision biopsy with mycobacterial culture, not drainage.**
+> **· Non-tuberculous mycobacterial lymphadenitis** — most often a **well child** with a single chronically enlarging cervical node and no systemic upset; managed surgically rather than with antibiotics.
+> **· *Bartonella henselae*** — regional lymphadenopathy weeks after a cat scratch, usually self-limiting. Owned by [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Cat scratch disease.
+> **· Malignancy** — **a persistent, hard, fixed or matted node is not an abscess and must not be drained as one.** Lymphoma is owned by [[10_02_Haemonc_-_Lymphomas_and_Multiple_Myeloma]].
 
 ## Nematode infections
 
