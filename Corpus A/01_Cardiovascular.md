@@ -52,7 +52,7 @@ conflicts_r1: 0
 > supplies the right ventricle. **Right ventricular infarction is preload-dependent:** the
 > failing RV cannot fill against a reduced venous return, so **a vasodilator causes profound
 > hypotension.** These patients need **fluid rather than vasodilatation**.
-> **`→MED:GTN`** — the contraindication itself is already stated at
+> The contraindication itself is already stated at
 > [[NEW_Drugs_06_Cardiovascular]] *"Nitrates are contraindicated (or dangerous) in:
 > right ventricular / inferior myocardial infarction — a preload-dependent ventricle"*. What
 > that entry does not give is **how you know**, which is this: **right-sided chest leads,

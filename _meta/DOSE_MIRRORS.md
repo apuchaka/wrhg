@@ -2,9 +2,6 @@
 
 Figures marked `→MED:` grouped by drug. Differing figures for the same drug need a population token or are drift.
 
-## GTN
-- Corpus A/01_Cardiovascular.md L55 — > **`→MED:GTN`** — the contraindication itself is already stated at
-
 ## adrenaline
 - Corpus A/01_Cardiovascular.md L791 — > [!danger] **IM adrenaline 1:1000 — ASCIA 2026 weight/age bands** `→MED:adrenaline`
 - Corpus A/15_01b_Paeds_-_Anaphylaxis.md L39 — > [!danger] **IM adrenaline 1:1000 — ASCIA 2026 weight/age bands** `→MED:adrenaline`
