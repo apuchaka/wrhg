@@ -1082,6 +1082,18 @@ Peak incidence ~36h after last drink — **one point on a withdrawal timeline, n
 - **Ix:** clinical diagnosis; HINTS exam (Head Impulse, Nystagmus, Test of Skew) used by specialists to help distinguish from a central (posterior circulation stroke) cause in acute vestibular syndrome, given the two can otherwise look similar and the consequences of missing a stroke are severe.
 - **Mx:** vestibular sedatives (e.g. prochlorperazine, betahistine) for short-term symptomatic relief in the acute phase only (prolonged use can impair central vestibular compensation and delay recovery); vestibular rehabilitation exercises to promote compensation once the acute phase settles; corticosteroids sometimes used though evidence is mixed.
 
+#### Added from unverified layer — persistent postural-perceptual dizziness (PPPD)
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**Chronic non-vertiginous dizziness and unsteadiness lasting months**, characteristically **worse when upright, worse with movement, and worse in visually complex environments** — supermarket aisles, crowds, scrolling on a phone, patterned carpets.
+
+**It commonly follows an acute vestibular event** — vestibular neuritis, BPPV, a vestibular migraine attack, or even a panic attack — and represents a **maladaptive persistence of the acute compensatory strategy**. That is the link to the compensation point above: the same central adaptation that resolves vestibular neuritis becomes the problem when it does not switch off.
+
+**It is a positive diagnosis, not "nothing wrong".** It responds to **vestibular rehabilitation, an SSRI or SNRI, and cognitive behavioural therapy**. Naming it is itself therapeutic — these patients have usually had extensive negative investigation and been told there is no cause.
+
+`UNVERIFIED — the diagnostic criteria (duration threshold and required features), and which antidepressant class is first-line in Australian practice; RACGP, or a neurology or vestibular medicine reference.`
+
+
 **P (vertigo generally):** BPPV frequently recurs but responds well to repeat Epley manoeuvres; vestibular neuritis typically resolves over days to weeks as central compensation develops, though some patients have prolonged symptoms.
 
 ---
