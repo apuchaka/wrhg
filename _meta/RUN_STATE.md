@@ -891,3 +891,88 @@ addition) and the obesity-hypoventilation bicarbonate screen cut off by `cut -c1
 (RESP-X, would have merged a duplicate). **`gapcheck.py` cannot truncate; a filter
 downstream of it can.** Use `grep -c` for a count, or grep for a distinctive substring and
 print the whole line.
+
+---
+
+# WEEK 3 — COMPLETE (14 files), and the audit that followed it
+
+## Resume point
+
+**Week 3 is merged and closed. Next: WEEK 4, M-series before J-series**, per the
+user's confirmation and the probe caveat in `_meta/merges/WEEK4_PROBE.md`.
+Week 5 ophthalmology (E1–E3) after that.
+
+## Per-file result
+
+| File | Tested | Additive | Discard | Conflicts |
+|---|---:|---:|---:|---|
+| L1 Hot and Swollen Joint | 30 | 3 | 27 | 0 |
+| L2 Polyarthralgia | 31 | 1 | 30 | 0 |
+| L3 Muscle Symptoms | 26 | 2 | 24 | 0 |
+| L4 Back and Neck Pain | 28 | 1 | 27 | 0 |
+| L5 Regional Limb Pain | 34 | 3 | 31 | 0 |
+| L6 Soft Tissue Injury | 24 | 3 | 20 | **CF-036 R2** |
+| L7 Fractures and Eponyms | 26 | 1 | 25 | 0 |
+| L8 Facial/Head/Torso Trauma | 28 | 2 | 26 | 0 |
+| RESP-X Occupational Lung | 26 | 1 | 25 | 0 |
+| O4 Menstrual Bleeding | 28 | 1 | 27 | 0 |
+| O5 Pelvic and Vulval | 26 | 2 | 24 | 0 |
+| O7 Breast Disease | 24 | 1 | 23 | 0 |
+| AN1 Perioperative Care | 30 | 4 | 26 | 0 |
+| AU1 ATSI Health | 26 | 5 | 21 | 0 |
+| **TOTAL** | **387** | **30** | **356** | **1** |
+
+**7.8% additive** — well below week 2's band. Corpus A is NOT thin in
+musculoskeletal, O&G or perioperative content. Next free conflict ID: **CF-037**.
+
+**Lint: 256 problems before week 3 and 256 after.** No dose figure was introduced.
+
+## THE AUDIT — read this before starting week 4
+
+The close-out verification reported two terms MISSING. **Both were false negatives of
+my own verification** — `hyperCKaemia` and `nursemaid` were *search terms used to find
+a gap*, never words written into the merged text. That is now the second time a
+merge-verification pass has produced false MISSINGs at a 0% real loss rate.
+
+**But chasing `nursemaid` found a real duplicate**, and the audit it triggered found
+three more. Full record in `_meta/merges/NO_BASELINE_AUDIT.md`. All 74 NO-BASELINE
+markers in the tree were re-tested against base-A **by the block's own plain topic
+name**; 24 returned non-zero, every hit was read, **4 were real** and are fixed at
+`1175373`, `9c4a94f`, `d563089`, `9bd39fe`.
+
+| What | Why the original check missed it |
+|---|---|
+| `11_10` pulled elbow duplicated `11_02:149` | searched `nursemaid` and `pronation`, never `pulled elbow` |
+| `12_02` allopurinol/HLA-B duplicated **3** files | searched `HLA-B`, got 28 hits, stopped before the `*58:01` ones |
+| `12_01` treat-to-target already at `:48` | searched `window of opportunity`, which is genuinely absent |
+| `06_Metabolic` weight stigma term at `14_05a:53` | searched the clinical effect, not the term |
+
+**The lesson, now CLAUDE.md rule 2's plain-name clause:** every one of those searches
+was correctly built, correctly scoped, correctly counted and completely read. **The
+question was wrong, not the search.** Before merging a block, grep the destination for
+the words in your own block's **title** — one command, and it is the only phrasing
+guaranteed to match how a reader would write it.
+
+**Also corrected upstream:** I told the user the window of opportunity was "a
+treat-to-target principle absent from the RA file itself". The treat-to-target half is
+**present**, at `12_01:48`, with DAS28 and the reassessment interval, 34 lines above
+where I merged. Only the early-treatment claim was absent.
+
+## Four new acronym collisions
+
+**`orf`** (Peterd**orf**, n**orf**loxacin, burgd**orf**eri — 7 hits, 0 real),
+**`PPPD`** (pylorus-preserving pancreaticoduodenectomy), **`HLH`** (hypoplastic left
+heart), **`RED-S`** (`Red-stained nappy`). `PPPD` and `HLH` are the dangerous shape:
+**a real acronym with a second real meaning**, which reads as a genuine hit.
+
+## Counting blocks by `SRC:` token does not work
+
+30 additive blocks produced **20** `SRC:` tokens, which looks like 10 lost blocks and is
+not. Related claims merged under one heading share one token spanning sections —
+`SRC:AN1_Perioperative_Care §0.1, §0.4, §0.5` covers four callouts. **Count callouts,
+not tokens.** All 30 verified present by reading.
+
+## `merge_tools.py study` does NOT re-stamp the 39 duplicates
+
+Only `scan` does. `study --dir .` left the working tree clean apart from
+`_meta/STUDY_CHECKS.md`. The revert-after-scan step still applies to `scan`.
