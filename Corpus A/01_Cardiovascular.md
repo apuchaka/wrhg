@@ -1232,6 +1232,15 @@ Right heart failure arising from lung disease specifically — COPD, PE, interst
 
 > [!note] Pericardial rub — "fresh snow" sound, best heard at the left sternal edge, leaning forward, end-expiration. Heard even when holding breath (not respiration-related). May need repeat examination.
 
+### Added from unverified layer — myopericarditis, and why it changes the advice
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.3` `UNVERIFIED — model knowledge, not source-checked. Duration of exercise restriction, per CSANZ or Heart Foundation.`
+
+> [!danger] A raised troponin in apparent pericarditis reclassifies the illness
+> Suspect **myocarditis** where **troponin is raised, ventricular function is impaired, or arrhythmia occurs.** That turns a self-limiting nuisance into a potentially serious disease, and it changes what the patient is told.
+> **Exercise restriction matters here in a way it does not in uncomplicated pericarditis**, because **exertion during active myocarditis is associated with arrhythmic death**. The Mx – Chronic advice above ("avoid strenuous activity until symptoms resolve and inflammatory markers normalise") is the pericarditis version; myocarditis needs a defined period of restriction, and this is advice **young athletic patients most need and least often receive.** `UNVERIFIED — the duration, per CSANZ or Heart Foundation.`
+>
+> **Myocarditis has no entry of its own anywhere in this vault.** It appears twenty-seven times, every one of them as a complication of something else — diphtheria, clozapine, Chagas disease, measles, Lyme disease, dilated cardiomyopathy. This block is the closest thing to a standing entry and is not a substitute for one.
+
 **Uraemic pericarditis:** treat with intensive dialysis.
 
 **Dressler's syndrome:** post-MI pericarditis (possible inflammatory reaction), usually 2–4 weeks post-MI; Mx as per pericarditis.

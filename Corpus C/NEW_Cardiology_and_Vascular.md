@@ -51,6 +51,12 @@ conflicts_r1: 0
 
 ## Pleuritic Chest Pain
 
+### Added from unverified layer — why pleuritic pain is sharp, and why it refers to the shoulder
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+- The **visceral pleura has no pain fibres**; the **parietal pleura is richly innervated** by the intercostal nerves and, over the diaphragm, by the **phrenic nerve**. Inflammation or stretching of *parietal* pleura is therefore what produces sharp, well-localised, respirophasic pain — and it is why a purely visceral process can be extensive and painless.
+- **Diaphragmatic pleural irritation refers to the shoulder tip via C3–C5.** That referral is already listed in [[History-Taking]] under Radiation (ruptured ectopic, splenic pathology, subphrenic collection); this is the innervation that produces it.
+
 - **DDx:** **pulmonary embolism** (the one to exclude first); pneumonia; pneumothorax; pleural effusion and empyema; **pericarditis** (pleuritic and positional together); rib fracture or chest wall injury; costochondritis; malignancy involving the pleura, including mesothelioma; **herpes zoster**; connective tissue disease serositis (SLE, rheumatoid); subdiaphragmatic causes irritating the diaphragm (subphrenic abscess, cholecystitis, pancreatitis).
 - **Focused Hx:** confirm the pain is genuinely **worse on inspiration, coughing or movement**; onset and progression; fever, cough, sputum, haemoptysis; dyspnoea; **VTE risk factors in full** (immobility, surgery within weeks, malignancy and its treatment, previous VTE, pregnancy or postpartum, oestrogen-containing contraception or HRT, long-haul travel, thrombophilia); leg swelling or pain; trauma, including minor trauma or vigorous coughing in an older or osteoporotic patient; recent viral illness; connective tissue disease symptoms; occupational asbestos exposure where mesothelioma is a consideration.
 - **Examination:** vital signs with **respiratory rate and SpO₂**, and **heart rate** (tachycardia is the commonest abnormal sign in PE); chest expansion; percussion note; auscultation for **pleural rub**, reduced breath sounds, bronchial breathing, crackles; chest wall palpation for focal bony tenderness; **calf examination**; JVP and signs of right heart strain; **pericardial rub with the patient sitting forward**; skin for a dermatomal rash.
