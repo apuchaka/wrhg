@@ -5,7 +5,7 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-31
 
-430 open items. Close one by editing its marker in the file, then rerunning `scan`.
+431 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
 # Actionable — openly accessible Australian sources (62)
 
@@ -15,7 +15,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 
 - **Corpus A/01_Cardiovascular.md** L297 · _0.4.1 Stroke/bleeding risk scoring_ · `inherited` — **R1** whether current Australian practice uses CHA₂DS₂-VASc or the newer CHA₂DS₂-VA, which REMOVES SEX as a criterion and would make this sex-split threshold obsolete. Corpus C (NEW_Exam_Manoeuvres_and_Procedures) writes "CHA₂DS₂-VA/VASc", naming both. Check against the Heart Foundation and Stroke Foundation, both open.
 - **Corpus A/04_Neurology.md** L1201 · _Haemorrhagic Stroke_ · `inherited` — **R1** all four figures here (the 150–220 trigger band, the ≤140 target, the 60mmHg maximum fall and the 1h window) against the Stroke Foundation Living Guidelines for Stroke Management, which is open and free. This is an inherited figure that has never been source-checked, and every part of it changes management.
-- **Corpus A/11_09b_Ortho_-_Trauma.md** L247 · _Hypothermia_ · `inherited` — the core temperature below which defibrillation and drugs are withheld or spaced, and the rewarming rate; ANZCOR.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L257 · _Hypothermia_ · `inherited` — the core temperature below which defibrillation and drugs are withheld or spaced, and the rewarming rate; ANZCOR.
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L132 · _0.4.1 Mx – Immediate_ · `unverified` — compression rate, compression depth, compression-to-ventilation ratio, defibrillation energy levels, and the dose and interval for adrenaline and amiodarone are all deliberately omitted here. Obtain them directly from ANZCOR Guideline 11 (adult ALS) and Guideline 12/13 (paediatric and newborn). The paediatric adrenaline timing error already found in this corpus came from exactly this category of figure.
 - **Corpus B/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L135 · _0.4.2 Mx – Definitive_ · `unverified` — oxygen saturation targets, CO₂ targets and temperature management parameters require verification against current ANZCOR post-resuscitation guidance.
 - **Corpus B/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L170 · _0.5.1 Mx – Immediate_ · `unverified` — dexamethasone and prednisolone dosing for croup, nebulised adrenaline dose and repeat interval, and severity grading criteria are omitted; obtain from RCH and local paediatric guidelines.
@@ -49,8 +49,8 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/04_Neurology.md** L1125 · _Vertigo (Peripheral vs Central, BPPV, Vestibular Neuritis)_ · `inherited` — the diagnostic criteria (duration threshold and required features), and which antidepressant class is first-line in Australian practice; RACGP, or a neurology or vestibular medicine reference.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L77 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — eligibility criteria, timeframes, practitioner requirements and whether a health practitioner may initiate the discussion, per SA Health and the applicable state legislation. This is law, not clinical guidance, and it is deliberately not written from memory.
 - **Corpus A/11_06_Ortho_-_Spinal_Orthopaedics.md** L107 · _Added from unverified layer — do not over-image, and do not over-interpret the images_ · `inherited` — the prevalence of asymptomatic disc findings by age band, and the Australian imaging referral criteria for radicular pain; RACGP.
-- **Corpus A/11_09b_Ortho_-_Trauma.md** L228 · _Heat illness_ · `inherited` — the core temperature threshold conventionally used to define heat stroke; RACGP or an emergency medicine reference.
-- **Corpus A/11_09b_Ortho_-_Trauma.md** L264 · _Drowning and submersion_ · `inherited` — the observation period; ANZCOR or an emergency medicine reference.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L238 · _Heat illness_ · `inherited` — the core temperature threshold conventionally used to define heat stroke; RACGP or an emergency medicine reference.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L274 · _Drowning and submersion_ · `inherited` — the observation period; ANZCOR or an emergency medicine reference.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L111 · _0.3 Substitute Decision-Making and Advance Care Directives_ · `unverified` — eligibility criteria, the process, the practitioner training requirements, and the rules about initiating a discussion all require verification against the current Act and SA Health guidance. This is an area where the law is recent, detailed, and where getting the procedure wrong has serious consequences.
 - **Corpus B/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L41 · _0.1 Burns — Assessment_ · `unverified` — the TBSA percentage thresholds for referral, which differ for adults and children, are omitted. Obtain from ANZBA and your state burns service referral criteria.
 - **Corpus B/A8_Foreign_Bodies_by_Site.md** L190 · _0.6 Swallowed Foreign Body_ · `unverified` — the specific time windows for removal in each category, the object size and length thresholds beyond which passage is unlikely, and the recommended observation intervals require verification against RCH and current gastroenterology guidance.
@@ -105,7 +105,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 
 - **Corpus B/C1_Acute_Abdomen.md** L189 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (298)
+# Triage — source not named in the marker (299)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
@@ -113,7 +113,7 @@ The marker does not say what to check against. Read the entry and either name an
 
 - **Corpus A/03_Gastrointestinal.md** L275 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — the maximum inflation time and the balloon pressures; gastroenterology or intensive care unit protocol.
 - **Corpus A/03_Gastrointestinal.md** L1687 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.
-- **Corpus A/11_09b_Ortho_-_Trauma.md** L199 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L209 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L185 · _0.5 Professional Practice Concern_ · `unverified` — the precise wording of the notifiable conduct categories, the exemptions (which differ for practitioners providing health care to another practitioner, and which vary between states — Western Australia and Queensland have historically differed), and the reporting process must be verified against current Ahpra guidance.
 - **Corpus B/A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies.md** L62 · _0.2 Acute Upper Airway Obstruction_ · `unverified` — the role and availability of specific bradykinin-pathway agents (icatibant, C1 esterase inhibitor) in Australian practice requires verification; cross-refer [[10_09b_Haemonc_-_Miscellaneous_Haematology]] Hereditary angioedema.
 - **Corpus B/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L95 · _0.2.1 Mx – Immediate_ · `unverified` — bicarbonate dosing, target pH, QRS threshold and vasopressor choice are all omitted.
@@ -171,7 +171,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/03_Gastrointestinal.md** L1363 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — its components and thresholds, and how it compares with Glasgow-Blatchford in Australian practice.
 - **Corpus A/03_Gastrointestinal.md** L1506 · _0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis_ · `inherited` — the desaturation threshold that defines orthodeoxia, and the pulmonary pressure thresholds for portopulmonary hypertension; specialist respiratory or hepatology guidance.
 - **Corpus A/04_Neurology.md** L792 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — diagnostic criteria and the yield of EEG in this setting; neurology guidance.
-- **Corpus A/11_09b_Ortho_-_Trauma.md** L238 · _Heat illness_ · `inherited` — the temperature at which to stop active cooling, and whether immersion or evaporative cooling is preferred in Australian practice.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L248 · _Heat illness_ · `inherited` — the temperature at which to stop active cooling, and whether immersion or evaporative cooling is preferred in Australian practice.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L54 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — the surveillance intervals, and the criteria for who requires surveillance at all. These differ between guidelines, so take them from the gastroenterology service running the programme rather than from a general reference.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L310 · _Added from unverified layer — two funding pathways outside aged care_ · `inherited` — current eligibility criteria and the age boundary between NDIS and aged care, and what DVA covers; both are open government sources.
 - **Corpus A/18_Geriatrics_and_Older_Persons_Health.md** L315 · _Added from unverified layer — two things done on admission_ · `inherited` — which scale is used in your health network, and its action thresholds.
@@ -293,7 +293,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/GER2_Geriatric_Syndromes_and_End_of_Life_Care.md** L251 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — reportable death criteria under the Coroners Act 2003 (SA).
 - **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L97 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (120)
+## R3 — everything else (121)
 
 - **Corpus A/03_Gastrointestinal.md** L271 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L553 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — model knowledge, not source-checked.
@@ -322,9 +322,10 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/07_Renal_Medicine_and_Urology.md** L793 · _Added from unverified layer — DIAPPERS: the reversible causes of incontinence_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L60 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_06_Ortho_-_Spinal_Orthopaedics.md** L100 · _Added from unverified layer — do not over-image, and do not over-interpret the images_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/11_09b_Ortho_-_Trauma.md** L181 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/11_09b_Ortho_-_Trauma.md** L217 · _Added from unverified layer — environmental injury_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/11_09b_Ortho_-_Trauma.md** L256 · _Frostbite and non-freezing cold injury_ · `inherited` — water bath temperature and duration.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L143 · _Added from unverified layer — why alkali burns are worse than acid burns_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L191 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L227 · _Added from unverified layer — environmental injury_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/11_09b_Ortho_-_Trauma.md** L266 · _Frostbite and non-freezing cold injury_ · `inherited` — water bath temperature and duration.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L48 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/14_05a_Psych_-_Eating_Disorders.md** L76 · _Added from unverified layer — parotid enlargement_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/15_08_Paeds_-_Surgical_Abdomen__Appendicitis__Intussusception__Pyloric_Stenosis__Hirschsprung__Oesophageal_Atresia_.md** L63 · _Added from unverified layer — three points not stated above_ · `inherited` — model knowledge, not source-checked.
