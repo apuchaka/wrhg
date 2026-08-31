@@ -1831,6 +1831,40 @@ Distinguishing the rest: **ascites** — shifting dullness, fluid thrill, flank 
 
 ---
 
+### 0.41.10 Right Upper Quadrant Pain — from unverified layer
+`SRC:C1_Acute_Abdomen §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** Biliary structures are foregut, so pain begins epigastric and localises to the right upper quadrant as the gallbladder or its peritoneal covering inflames. **Referred right shoulder tip pain indicates diaphragmatic irritation via C3–C5**, and is a genuinely useful pointer to a subphrenic or hepatic process.
+
+> [!tip] The biliary spectrum, in order of severity
+> **Biliary colic** — stone transiently obstructing the cystic duct. Severe, constant (despite the name), postprandial especially after fatty food, lasting hours then resolving. **No fever, no systemic upset, normal inflammatory markers.**
+> **Acute cholecystitis** — sustained obstruction with inflammation. Persistent pain, fever, **positive Murphy's sign**, raised inflammatory markers.
+> **Choledocholithiasis** — stone in the common bile duct. Jaundice, obstructive LFTs, pale stool and dark urine.
+> **Ascending cholangitis** — infection above an obstruction. **Charcot's triad** of pain, fever with rigors and jaundice; **Reynolds' pentad** adds hypotension and confusion. Requires drainage, not just antibiotics — cross-refer §0.4 Ascending Cholangitis.
+> **Gallstone pancreatitis** — stone at the ampulla. Cross-refer 0.4 and §0.11 Acute Pancreatitis.
+
+> [!warning] The rest of the RUQ differential
+> **Hepatitis** — viral, alcoholic, drug-induced, ischaemic. Tender hepatomegaly with markedly raised transaminases.
+> **Liver abscess** — pyogenic or amoebic. Fever, swinging temperature, tender liver.
+> **Congestive hepatopathy** — right heart failure causing hepatic capsular stretch, with raised JVP.
+> **Right lower lobe pneumonia** — a genuinely common mimic. Examine the chest and get a chest radiograph.
+> **Subphrenic abscess** — usually post-operative, with shoulder tip pain and a raised hemidiaphragm.
+> **Fitz-Hugh-Curtis syndrome** — perihepatitis complicating pelvic inflammatory disease, producing RUQ pain in a young woman. Ask about pelvic symptoms.
+> **Renal** — pyelonephritis, renal colic.
+> **Duodenal ulcer** and **hepatic flexure pathology**.
+
+**Ix:** LFT (*why:* separates hepatocellular from obstructive patterns, directing you to hepatitis versus stones; *what:* transaminases versus ALP/GGT and bilirubin). **Ultrasound of the biliary tree** (*why:* the first-line test — highly sensitive for gallstones, and shows wall thickening, pericholecystic fluid and duct dilatation; *what:* stones, thickened wall, sonographic Murphy sign, dilated CBD). Lipase (*why:* excludes pancreatitis, which coexists; *what:* elevation). MRCP where duct stones are suspected but not seen (*why:* non-invasive assessment of the duct before committing to ERCP; *what:* duct stone). HIDA scan where the diagnosis remains uncertain (*why:* non-filling of the gallbladder confirms cystic duct obstruction; *what:* non-visualisation). CXR (*why:* right lower lobe pneumonia and free gas; *what:* consolidation, free air).
+
+### 0.3.1 Mx – Immediate
+Analgesia, antiemetic, nil by mouth, fluids. Antibiotics for cholecystitis or cholangitis. **Urgent biliary drainage for cholangitis.**
+
+### 0.3.2 Mx – Definitive
+**Cholecystectomy**, with laparoscopic surgery during the index admission generally preferred for acute cholecystitis over delayed interval surgery. ERCP for duct stones. Percutaneous cholecystostomy in patients unfit for surgery.
+
+### 0.3.3 Mx – Chronic/long-term
+Dietary advice pending surgery. Interval cholecystectomy after gallstone pancreatitis, ideally before discharge or soon after, since recurrence risk while waiting is significant.
+
+
 ## 0.42 Faecal Incontinence (Adult)
 
 > [!note] Gap-filled from CSV ("Faecal incontinence," found under Renal & Urology in the source spreadsheet, but genuinely a GI/colorectal topic) — the paediatric equivalent (encopresis, driven overwhelmingly by functional constipation/stool-withholding) is already built in [[15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis]] Encopresis (faecal incontinence), not repeated here — but adult faecal incontinence is a genuinely different condition with different dominant causes, and had no coverage anywhere. Verified against RACGP's Silver Book aged care guide and current Australian primary care research, Aug 2026.
