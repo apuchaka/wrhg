@@ -383,6 +383,16 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 
 **A:** [SMITH] Sepsis, Mitral valve pathology, IHD, Thyrotoxicosis, HTN
 
+> [!warning] Added from unverified layer — the **acute** precipitants SMITH does not cover
+> `SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+> SMITH covers the chronic substrate and sepsis. New AF in an unwell patient is frequently a
+> **symptom of the acute illness rather than a new cardiac diagnosis**, so also look for:
+> **alcohol binge ("holiday heart")** — distinct from the chronic heavy use listed under R
+> above · **pulmonary embolism** · **the post-operative state** · **electrolyte disturbance**
+> · **obstructive sleep apnoea**.
+> **Treating the rate without treating the precipitant is the common error** — and in sepsis
+> the sepsis usually needs treating more than the rate does.
+
 **P:** Anatomical/histological change in atria secondary to underlying heart disease → conductive changes.
 
 **S/Smx:** palpitations, irregularly irregular pulse, SOB, chest pain, fatigue, dizziness, syncope
@@ -513,6 +523,16 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 **Mx if unstable** (SBP <90, HF, chest pain, syncope): immediately cardiovert (DC), treat under ALS algorithm.
 
 **Mx if stable:** amiodarone (loading dose then 24h infusion), or lidocaine/procainamide; + ICD if drug therapy fails or LV function impaired.
+
+> [!tip] Added from unverified layer — the rest of the VT-versus-SVT discriminators
+> `SRC:B3_Arrhythmia__Bradycardia_and_Cardiac_Devices §0.3` `UNVERIFIED — model knowledge, not source-checked. Formal algorithm criteria (Brugada, Vereckei) omitted.`
+> The Ix line above names **AV dissociation and capture beats**. The set is completed by:
+> - **Fusion beats** — a hybrid morphology, essentially diagnostic alongside capture beats.
+> - **Precordial concordance** — every QRS across V1–V6 positive, or every one negative.
+> - **Extreme axis deviation** and a **very broad QRS**.
+> - **Known structural heart disease or prior MI** — clinically the single most useful discriminator, and the one that needs no ECG.
+>
+> **None of this changes the safe decision**, which the §0.12.4 line already states: assume VT. Treating VT as SVT is dangerous; treating SVT as VT is usually harmless.
 
 **Mx of torsade de pointes:** Mg sulphate.
 
