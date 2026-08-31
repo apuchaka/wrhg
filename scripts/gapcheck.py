@@ -70,14 +70,42 @@ def rarest_term(pattern):
     return max(meaningful, key=len)
 
 
+# Every dash character this corpus uses, folded to ASCII hyphen before matching — the
+# same mechanism as merge_tools.normalise()'s Unicode digit folding, and added for the same
+# reason: a variant nobody can see produces a confident false ABSENT.
+#
+# THREE en-dash false-ABSENTs in one run (2026-08-31) made this a class rather than an
+# incident:
+#   `warm-cold`         0 hits — the block was written "wet–dry / warm–cold"
+#   `pulmonary-renal`   0 hits — PRESENT TWICE as "pulmonary–renal", in two same-day-
+#                       referral danger callouts, and the automated retry could not find it
+#                       either because `pulmonary` and `renal` are too common to read
+#   (a third, in the week 2 merge verification, on a hyphenated block title)
+#
+# Folding TO the ASCII hyphen is safe inside a regex: en-dash, em-dash, figure dash, minus
+# and the rest are not regex metacharacters, and a hyphen that is already a hyphen — the
+# range in `[a-z]` — is left exactly as it was.
+DASHES = "\u2010\u2011\u2012\u2013\u2014\u2015\u2212\uFE58\uFE63\uFF0D"
+DASH_FOLD = str.maketrans({c: "-" for c in DASHES})
+
+
+def fold_dashes(s):
+    return s.translate(DASH_FOLD)
+
+
 def search(pattern, dirs):
-    """Every matching line, in full. The one place a search happens."""
-    rx = re.compile(pattern, re.I)
+    """Every matching line, in full. The one place a search happens.
+
+    Both the pattern and each line are dash-folded before matching, so a hyphen in the
+    query finds an en-dash in the corpus and vice versa. The line is REPORTED unfolded,
+    so what you read is what the file actually says.
+    """
+    rx = re.compile(fold_dashes(pattern), re.I)
     out = []
     for path in md_files(dirs):
         with open(path, encoding="utf-8") as fh:
             for i, line in enumerate(fh, 1):
-                if rx.search(line):
+                if rx.search(fold_dashes(line)):
                     out.append((path, i, line.rstrip("\n")))
     return out
 

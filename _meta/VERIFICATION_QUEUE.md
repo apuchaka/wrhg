@@ -5,7 +5,7 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-31
 
-1351 open items. Close one by editing its marker in the file, then rerunning `scan`.
+1359 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
 # Actionable — openly accessible Australian sources (158)
 
@@ -136,7 +136,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/01_Cardiovascular.md** L1458 · _Added from unverified layer — myopericarditis, and why it changes the advice_ · `inherited` — the duration, per CSANZ or Heart Foundation.
 - **Corpus A/03_Gastrointestinal.md** L1376 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — the recommended timing of restarting; RACGP or your health network's gastroenterology guidance.
 - **Corpus A/04_Neurology.md** L858 · _Added from unverified layer — current terminology, and two counselling points_ · `inherited` — the incidence, and how Australian guidance recommends the conversation be framed and timed; Epilepsy Action Australia, or RACGP.
-- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L743 · _Added from unverified layer — hypoglycaemia: unawareness, and working out the cause_ · `inherited` — the duration of avoidance required, and the Australian driving-licence implications of documented unawareness, per Austroads "Assessing Fitness to Drive".
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L775 · _Added from unverified layer — hypoglycaemia: unawareness, and working out the cause_ · `inherited` — the duration of avoidance required, and the Australian driving-licence implications of documented unawareness, per Austroads "Assessing Fitness to Drive".
 - **Corpus A/08_05-06_Infectious_Disease_-_Viral_Infections.md** L198 · _Added from unverified layer — what happens in the minutes before PEP is considered_ · `inherited` — the testing intervals for HCV RNA and serology after occupational exposure, per the Australian national guidelines for post-exposure management (ASHM).
 - **Corpus A/08_05-06_Infectious_Disease_-_Viral_Infections.md** L203 · _Added from unverified layer — what happens in the minutes before PEP is considered_ · `inherited` — the Australian NPEP eligibility matrix, the current regimen, and the state NPEP hotline numbers, per ASHM's NPEP guidelines.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L30 · _Added from unverified layer — two bite exposures the organism list does not carry_ · `inherited` — the post-exposure prophylaxis schedule, immunoglobulin indication and wound-washing duration, per the Australian Immunisation Handbook and the CDNA national guidelines for Australian bat lyssavirus.
@@ -216,7 +216,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus B-new/O5_Pelvic_and_Vulval_Conditions.md** L59 · _0.2 Pelvic Inflammatory Disease_ · `unverified` — regimens from eTG Antibiotic and ASHM.
 - **Corpus B/C1_Acute_Abdomen.md** L190 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (1040)
+# Triage — source not named in the marker (1046)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
@@ -396,8 +396,8 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/03_Gastrointestinal.md** L1378 · _0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision_ · `inherited` — its components and thresholds, and how it compares with Glasgow-Blatchford in Australian practice.
 - **Corpus A/03_Gastrointestinal.md** L1521 · _0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis_ · `inherited` — the desaturation threshold that defines orthodeoxia, and the pulmonary pressure thresholds for portopulmonary hypertension; specialist respiratory or hepatology guidance.
 - **Corpus A/04_Neurology.md** L793 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — diagnostic criteria and the yield of EEG in this setting; neurology guidance.
-- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L345 · _Added from unverified layer — two things that change what happens to the parathyroid patient_ · `inherited` — the calcium-to-creatinine clearance ratio cut-off used to distinguish FHH from primary hyperparathyroidism, and current Australian practice on genetic testing; an endocrinology source would settle it.
-- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L369 · _Added from unverified layer — the adrenal incidentaloma_ · `inherited` — the unenhanced Hounsfield-unit threshold, the absolute and relative washout percentages, the size cut-off for surgical referral, and the follow-up imaging interval. All are numbers, all vary between guidelines, and none is stated here (CLAUDE.md rule 5 applies to adult figures too). An endocrine or radiology source would settle them.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L377 · _Added from unverified layer — two things that change what happens to the parathyroid patient_ · `inherited` — the calcium-to-creatinine clearance ratio cut-off used to distinguish FHH from primary hyperparathyroidism, and current Australian practice on genetic testing; an endocrinology source would settle it.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L401 · _Added from unverified layer — the adrenal incidentaloma_ · `inherited` — the unenhanced Hounsfield-unit threshold, the absolute and relative washout percentages, the size cut-off for surgical referral, and the follow-up imaging interval. All are numbers, all vary between guidelines, and none is stated here (CLAUDE.md rule 5 applies to adult figures too). An endocrine or radiology source would settle them.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L228 · _Added from unverified layer — FUO: three things the approach above does not name_ · `inherited` — the diagnostic criteria, the ferritin threshold, and treatment; a haematology source would settle it.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L252 · _Heat illness_ · `inherited` — the temperature at which to stop active cooling, and whether immersion or evaporative cooling is preferred in Australian practice.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L55 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — the surveillance intervals, and the criteria for who requires surveillance at all. These differ between guidelines, so take them from the gastroenterology service running the programme rather than from a general reference.
@@ -810,7 +810,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Drugs_06_Cardiovascular.md** L41 · _0.1.1 Vitamin K Antagonists (Warfarin)_ · `snippet` — model knowledge, not source-checked; confirm the mitral stenosis severity threshold against a named cardiology source.
 - **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L98 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (456)
+## R3 — everything else (462)
 
 - **Corpus A/01_Cardiovascular.md** L49 · _Added from unverified layer — right ventricular infarction and the right-sided leads_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L81 · _0.1.3 Mx – Definitive (STEMI)_ · `inherited` — model knowledge, not source-checked.
@@ -860,11 +860,14 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/04_Neurology.md** L1406 · _Added from unverified layer — two discriminators in a weak patient_ · `inherited` — the time course of onset and of recovery, and whether any test distinguishes it from disuse atrophy; specialist neurology or rheumatology guidance.
 - **Corpus A/05_Ophthalmology.md** L70 · _Added from unverified layer — the rust ring_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L95 · _Added from unverified layer — two ways thyroid disease hides_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L338 · _Added from unverified layer — two things that change what happens to the parathyroid patient_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L354 · _Added from unverified layer — the adrenal incidentaloma_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L501 · _0.15.2 Type 2 Diabetes Mellitus (T2DM)_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L737 · _Added from unverified layer — hypoglycaemia: unawareness, and working out the cause_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L1134 · _Added from unverified layer — two things about weight the differential does not cover_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L307 · _Phaeochromocytoma and Paraganglioma — consolidated owner_ · `inherited` — model knowledge, not source-checked; the three pre-existing components it consolidates are Corpus C snippet-derived.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L317 · _Phaeochromocytoma and Paraganglioma — consolidated owner_ · `inherited` — current Australian genetic testing and cascade screening recommendations; an endocrine genetics service would settle it.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L335 · _Phaeochromocytoma and Paraganglioma — consolidated owner_ · `inherited` — the duration of pre-operative blockade and the perioperative protocol, per an Australian endocrine surgical source.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L370 · _Added from unverified layer — two things that change what happens to the parathyroid patient_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L386 · _Added from unverified layer — the adrenal incidentaloma_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L533 · _0.15.2 Type 2 Diabetes Mellitus (T2DM)_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L769 · _Added from unverified layer — hypoglycaemia: unawareness, and working out the cause_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L1166 · _Added from unverified layer — two things about weight the differential does not cover_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/07_Renal_Medicine_and_Urology.md** L794 · _Added from unverified layer — DIAPPERS: the reversible causes of incontinence_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/08_01-03_Infectious_Disease_-_Bacterial_Infections.md** L333 · _Added from unverified layer — three Australian zoonoses the list above does not carry_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/08_05-06_Infectious_Disease_-_Viral_Infections.md** L187 · _Added from unverified layer — what happens in the minutes before PEP is considered_ · `inherited` — model knowledge, not source-checked.
@@ -886,12 +889,15 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L38 · _Added from unverified layer — what the neutropenic patient does not show you_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_10a_Haemonc_-_Haematological_and_Oncological_Emergencies.md** L83 · _Superior vena cava obstruction (SVCO)_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L61 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/11_01_Ortho_-_Orthopaedic_Emergencies.md** L174 · _Added from unverified layer — the two other closed-space hand infections_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/11_01_Ortho_-_Orthopaedic_Emergencies.md** L34 · _Septic arthritis of a replaced joint_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/11_01_Ortho_-_Orthopaedic_Emergencies.md** L181 · _Added from unverified layer — the two other closed-space hand infections_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_06_Ortho_-_Spinal_Orthopaedics.md** L101 · _Added from unverified layer — do not over-image, and do not over-interpret the images_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L144 · _Added from unverified layer — why alkali burns are worse than acid burns_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L192 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L231 · _Added from unverified layer — environmental injury_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L270 · _Frostbite and non-freezing cold injury_ · `inherited` — water bath temperature and duration.
+- **Corpus A/12_01_Rheum_-_Rheumatoid_Arthritis__Osteoarthritis__Psoriatic_Arthritis.md** L76 · _Management_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/12_02_Rheum_-_Ankylosing_Spondylitis__Gout__Pseudogout__Reactive_Arthritis__Fibromyalgia__PMR__CFS.md** L52 · _Added from unverified layer — two things about gout the entry above does not carry_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/13_02_ENT_-_Hearing_Loss__Tinnitus__Vertigo__DDx_Charts_.md** L32 · _Added from unverified layer — aural foreign body_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/13_04_ENT_-_Nose__Rhinosinusitis__Fractures__CSF_Rhinorrhoea__Epistaxis__Nasal_Cancers_.md** L98 · _Added from unverified layer — nasal foreign body_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA.md** L14 · _Added from unverified layer — the timing of the noise localises the lesion_ · `inherited` — model knowledge, not source-checked.
@@ -1269,20 +1275,21 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Investigations_Gastroenterology.md** L48 · _0.1.1 A raised ALP with a normal GGT — owned elsewhere_ · `snippet` — nothing to verify here; this is a pointer.
 - **Corpus C/NEW_Investigations_Haematology_Part2.md** L335 · _0.24 Lymphoscintigraphy_ · `snippet` — model knowledge, not source-checked.
 
-# Permanently noted — requires Therapeutic Guidelines or AMH (128)
+# Permanently noted — requires Therapeutic Guidelines or AMH (130)
 
 **Not a to-do list.** These cannot be closed without an institutional login. The marker stays in the file as a permanent flag: look it up at the point of use. Do not delete these, and do not resolve them from memory or from a non-AU source.
 
-## R1 — could kill someone this rotation (64)
+## R1 — could kill someone this rotation (65)
 
 - **Corpus A/01_Cardiovascular.md** L779 · _0.13 Wolff-Parkinson-White (WPW) Syndrome_ · `inherited` — model knowledge, not source-checked. Antiarrhythmic choice and dosing, per eTG Cardiovascular under specialist direction.
 - **Corpus A/03_Gastrointestinal.md** L839 · _0.18 Appendicitis_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/03_Gastrointestinal.md** L1731 · _0.41.5 Added from unverified layer — generalised pain and the catastrophes_ · `inherited` — empirical antibiotic choice for suspected perforation or ischaemia; Therapeutic Guidelines (login). Look up at point of use.
-- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L1145 · _Added from unverified layer — two things about weight the differential does not cover_ · `inherited` — parenteral thiamine dose and duration, per Therapeutic Guidelines.
+- **Corpus A/06_Metabolic_Medicine_and_Endocrinology.md** L1177 · _Added from unverified layer — two things about weight the differential does not cover_ · `inherited` — parenteral thiamine dose and duration, per Therapeutic Guidelines.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L32 · _Added from unverified layer — two bite exposures the organism list does not carry_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L78 · _Added from unverified layer — two things to do at the bedside, and one more mimic_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L81 · _Added from unverified layer — two things to do at the bedside, and one more mimic_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/10_11c_Oncology_-_Palliative_Care_Prescribing.md** L74 · _Added from unverified layer — recognising dying, and anticipatory prescribing_ · `inherited` — every anticipatory prescribing dose, from eTG Palliative Care and your health network's end-of-life care pathway. eTG is login-gated, so this is a permanent instruction to look them up at the point of use rather than a queued item.
+- **Corpus A/12_02_Rheum_-_Ankylosing_Spondylitis__Gout__Pseudogout__Reactive_Arthritis__Fibromyalgia__PMR__CFS.md** L59 · _Added from unverified layer — two things about gout the entry above does not carry_ · `inherited` — whether HLA-B*5801 testing is recommended and funded in Australia and for whom, and the starting-dose and titration schedule. Therapeutic Guidelines and the Australian Rheumatology Association would settle it. NO DOSE IS STATED HERE.
 - **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L61 · _0.2.1 Mx – Immediate_ · `UNSET` — no empirical regimen, dose, or fluid volume is stated here; obtain both from eTG Antibiotic and local policy. The timing target for antibiotic administration and the initial fluid bolus volume in Australian practice both require verification against the current Sepsis Clinical Care Standard.
 - **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L39 · _0.1 The Poisoned Patient — Risk Assessment and General Approach_ · `UNSET` — the time window in which charcoal retains benefit, dosing, and contraindications require verification against eTG Toxicology.
 - **Corpus B-new/A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy.md** L111 · _0.3 Benzodiazepine Overdose_ · `UNSET` — indications, dosing and contraindications from eTG and the Poisons Information Centre.
@@ -1364,13 +1371,14 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L121 · _0.4 Severe Community-Acquired Pneumonia and ARDS_ · `unverified` — the components, weightings and score thresholds for SMART-COP, CORB and CURB-65 all require verification against eTG Antibiotic.
 - **Corpus B/F0-5_Acute_Respiratory__Headache_and_Head_Injury.md** L314 · _0.10 Tonsillitis and Peritonsillar Abscess (Quinsy)_ · `unverified` — the specific high-risk criteria, geographic definitions and recommended regimens require verification against eTG Antibiotic and the Australian guideline for prevention, diagnosis and management of acute rheumatic fever.
 
-## R3 — everything else (43)
+## R3 — everything else (44)
 
 - **Corpus A/01_Cardiovascular.md** L241 · _0.2.3 Treatment threshold_ · `inherited` — model knowledge, not source-checked. Percentage reduction targets and the permitted duration of a nitroprusside infusion, per eTG Cardiovascular.
 - **Corpus A/01_Cardiovascular.md** L391 · _Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)_ · `inherited` — agents and doses omitted, per eTG Cardiovascular.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L16 · _Animal & human bites_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L266 · _Added from unverified layer — four things the incubation framework does not carry_ · `inherited` — the agents, doses and durations of both phases, per Therapeutic Guidelines: Antibiotic and the NT/Qld melioidosis protocols.
 - **Corpus A/09_05_Dermatology_-_Bacterial_Infections_and_Infestations.md** L87 · _Added from unverified layer — Australian environmental and occupational skin infection_ · `inherited` — the antibiotic combination and duration, and current endemic areas, per the Victorian Department of Health Buruli ulcer guidance and Therapeutic Guidelines: Antibiotic.
+- **Corpus A/12_01_Rheum_-_Rheumatoid_Arthritis__Osteoarthritis__Psoriatic_Arthritis.md** L84 · _Management_ · `inherited` — the interval that defines "early", the target definition, and the reassessment frequency used in Australian practice, per Therapeutic Guidelines: Rheumatology and the Australian Rheumatology Association. NO INTERVAL IS STATED HERE.
 - **Corpus A/15_10_Paeds_-_UTI__Nephrotic_Syndrome__Glomerulonephritis.md** L43 · _Management_ · `inherited` — AU regimen; Therapeutic Guidelines (login). Look up at point of use.
 - **Corpus B-new/A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest.md** L181 · _0.6 Failure to Wake Post-Sedation_ · `UNSET` — doses, titration increments and duration of action for both agents require verification against eTG and your local sedation policy before use.
 - **Corpus B-new/A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury.md** L182 · _0.5.1 Mx – Immediate_ · `UNSET` — antibiotic indications and regimens from eTG Antibiotic.

@@ -15,6 +15,15 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
 2. **Zero grep hits is not proof of absence.** Check case-sensitivity, Unicode characters (α, β, ₂ subscripts), hyphenation variants, **markdown emphasis inside a word**, and alternate medical terminology before concluding content is missing. Historically most "missing" results have been search artifacts.
    - **The markdown case specifically:** this corpus bolds acronym expansions letter by letter — `**H**aemolysis, **E**levated **L**iver enzymes, **L**ow **P**latelets`. A search for `Haemolysis` finds nothing, because the literal text is `**H**aemolysis`. **Whenever a search for an acronym expansion returns zero hits, search again for a distinctive letter-run from the middle of the word** (`aemolysis`) before concluding the expansion is absent. The construction most likely to be searched for is the one least likely to be found.
    - Also never conclude absence from **truncated** output: a hit that was returned and cut off by a `cut`/`head` limit looks identical to no hit at all. View the full line.
+   - **DASH VARIANTS ARE FOLDED BY `gapcheck.py`, the way digit folding works** — hyphen,
+     en-dash, em-dash, figure dash and minus all match each other, in both directions, in
+     the pattern and in the text. Added 2026-08-31 after **three en-dash false-ABSENTs in
+     one run** made it a class rather than an incident: `warm-cold` (0 hits, the block was
+     written `wet–dry / warm–cold`), `pulmonary-renal` (**0 hits, and the syndrome is
+     PRESENT TWICE** as `pulmonary–renal` in two same-day-referral callouts), and one in
+     the week 2 merge verification. **The trap is removed mechanically rather than
+     remembered** — an invisible character variant is exactly the failure a person cannot
+     be asked to notice.
    - **THE SINGLE-WORD RETRY IS A STANDING STEP, NOT A FALLBACK — and `gapcheck.py` RUNS
      IT FOR YOU.** Promoted 2026-08-31 after the rarer-word retry caught a duplicate for
      the **third** time: **Glasgow-Imrie** (C7 — the retry on `Glasgow` found the Glasgow
@@ -100,6 +109,12 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
      | `PrEP` | 113 | PREP`aration(s)` ×68, `pre`PUCE ×3 | ~15 |
      | `TRAb` | 32 | TRAB`ecular` ×11, `s`TRAB`ismus` ×11 | 4 |
      | `IRIS` | 22 | the eye | 4 |
+     | **`ANA`** | **2111** | `management` ×465, `anaemia` ×316, `Anaemia` ×168, `Anaesthetics` ×162, `Management` ×128, `analgesia` ×124 | **~30** |
+
+     - **`ANA` at 2111 hits is the ceiling case, and it settles the question: if 2111 can
+       be ~99% noise, NO HIT COUNT IS EVIDENCE OF ANYTHING.** Not four figures, not three,
+       not two. The count tells you how common the letters are, not whether the concept is
+       in the corpus. Read the matches or do not use the number.
 
      - **`IGRA` at 125 hits with 7 real is WORSE than a zero result, because nobody
        scrutinises 125.** A zero triggers rule 2's component re-search by reflex and, in
