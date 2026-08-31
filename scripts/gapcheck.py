@@ -68,6 +68,58 @@ def rarest_term(pattern):
     return max(meaningful, key=len)
 
 
+def search(pattern, dirs):
+    """Every matching line, in full. The one place a search happens."""
+    rx = re.compile(pattern, re.I)
+    out = []
+    for path in md_files(dirs):
+        with open(path, encoding="utf-8") as fh:
+            for i, line in enumerate(fh, 1):
+                if rx.search(line):
+                    out.append((path, i, line.rstrip("\n")))
+    return out
+
+
+def retry_terms(pattern):
+    """The single-word retry set, derived mechanically from the pattern.
+
+    THIS IS A STANDING STEP, NOT A FALLBACK. Promoted 2026-08-31 after the rarer-word
+    retry caught a duplicate for the THIRD time — Glasgow-Imrie (C7), West Haven (C3),
+    and `lipohaemarthrosis` (L1), where a 0-hit verdict would have merged a block that
+    Corpus C already stated. A retry run only when something "looks suspicious" is a
+    retry that does not run, because a clean-looking zero is exactly what it is for.
+
+    Two shapes, because the three worked examples are two different failures:
+      * MULTI-WORD — the corpus reworded the phrase. Retry each meaningful word bare.
+        `Glasgow-Imrie` -> `Glasgow`, `Imrie`.  `West Haven` -> `Haven`.
+      * SINGLE LONG WORD — the corpus used a different compound, or markdown emphasis
+        split it. Retry internal substrings, which covers `haemarthrosis` inside
+        `lipohaemarthrosis` AND `aemolysis` inside `**H**aemolysis`.
+    """
+    words = [w for w in re.findall(r"[A-Za-z][A-Za-z'-]{3,}", pattern)
+             if w.lower() not in COMMON]
+    terms = []
+    if len(words) > 1:
+        terms = sorted(set(words), key=len, reverse=True)
+    for w in words:
+        for part in re.split(r"[-']", w):
+            if len(part) >= 4 and part not in terms and part.lower() not in COMMON:
+                terms.append(part)
+    if len(words) == 1 and len(words[0]) >= 8:
+        w = words[0]
+        for cut in (3, 4, 5, 6):
+            if len(w) - cut >= 5:
+                for cand in (w[cut:], w[:-cut]):
+                    if cand not in terms:
+                        terms.append(cand)
+    seen, out = set(), []
+    for x in terms:
+        if x.lower() not in seen:
+            seen.add(x.lower())
+            out.append(x)
+    return out[:8]
+
+
 def md_files(dirs):
     for d in dirs:
         if not os.path.isdir(d):
@@ -109,13 +161,7 @@ def main():
                   "  Then re-run with --allow-phrase if you still need the phrase form.")
             return 2
 
-    rx = re.compile(args.pattern, re.I)
-    hits = []
-    for path in md_files(args.dirs):
-        with open(path, encoding="utf-8") as fh:
-            for i, line in enumerate(fh, 1):
-                if rx.search(line):
-                    hits.append((path, i, line.rstrip("\n")))
+    hits = search(args.pattern, args.dirs)
 
     src = args.source.strip()
     self_hits = [h for h in hits if src and h[0].startswith(src + os.sep)]
@@ -141,21 +187,38 @@ def main():
                   "this as ZERO, not as PRESENT.")
             print("    A self-match reported as PRESENT is a FALSE PRESENT — the silent "
                   "direction, which nothing downstream catches (rule 9).")
-        rare = rarest_term(args.pattern)
         print("\nZERO HITS IN THE DESTINATION CORPORA — this is NOT an ABSENT verdict yet "
               "(rule 2).")
-        print("  Rules 9 and 10 passing is exactly when rule 2 is the backstop. Before "
-              "recording ABSENT, run the component re-search:")
-        print(f"    1. the rarest word bare        : python3 scripts/gapcheck.py "
-              f"'{rare or '<rarest-word>'}'")
-        print("    2. a distinctive letter-run     : e.g. 'aemolysis' for '**H**aemolysis' "
-              "(rule 2, markdown emphasis)")
-        print("    3. spelling and naming variants : ae/e, -ise/-ize, AU vs international "
+        terms = retry_terms(args.pattern)
+        if terms:
+            print(f"\nSINGLE-WORD RETRY — RUN AUTOMATICALLY, not suggested. "
+                  f"{len(terms)} term(s), every hit printed in full.")
+            print("(A standing step since 2026-08-31: the rarer-word retry has now caught a "
+                  "duplicate three times —\n Glasgow-Imrie, West Haven, lipohaemarthrosis — "
+                  "and in each case the original search looked clean.)\n")
+            found = 0
+            for term in terms:
+                rhits = [h for h in search(re.escape(term), args.dirs)
+                         if not (src and h[0].startswith(src + os.sep))]
+                print(f"  retry /{term}/ -> {len(rhits)} hit(s)")
+                for path, i, line in rhits:
+                    print(f"    {path}:{i}: {line}")
+                found += len(rhits)
+            if found:
+                print(f"\n*** {found} HIT(S) FROM THE RETRY. READ THEM BEFORE RECORDING "
+                      f"ABSENT. ***")
+                print("    A retry hit is how Glasgow-Imrie, West Haven and "
+                      "lipohaemarthrosis were each caught.")
+            else:
+                print("\n  Retry found nothing either.")
+        else:
+            print("\n  No retry term could be derived from this pattern.")
+        print("\nStill to consider by hand, which no tool can derive:")
+        print("    * spelling and naming variants : ae/e, -ise/-ize, AU vs international "
               "drug name, acronym vs expansion")
-        print("    4. the CONCEPT, not the phrase  : what would the corpus call this if it "
+        print("    * the CONCEPT, not the phrase  : what would the corpus call this if it "
               "used different words?")
-        print("  Record which of these you ran. A zero result you did not re-search is not "
-              "a finding.")
+        print("  A zero result you did not re-search is not a finding.")
         return 1
     return 0
 

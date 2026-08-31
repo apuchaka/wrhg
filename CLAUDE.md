@@ -15,6 +15,22 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
 2. **Zero grep hits is not proof of absence.** Check case-sensitivity, Unicode characters (α, β, ₂ subscripts), hyphenation variants, **markdown emphasis inside a word**, and alternate medical terminology before concluding content is missing. Historically most "missing" results have been search artifacts.
    - **The markdown case specifically:** this corpus bolds acronym expansions letter by letter — `**H**aemolysis, **E**levated **L**iver enzymes, **L**ow **P**latelets`. A search for `Haemolysis` finds nothing, because the literal text is `**H**aemolysis`. **Whenever a search for an acronym expansion returns zero hits, search again for a distinctive letter-run from the middle of the word** (`aemolysis`) before concluding the expansion is absent. The construction most likely to be searched for is the one least likely to be found.
    - Also never conclude absence from **truncated** output: a hit that was returned and cut off by a `cut`/`head` limit looks identical to no hit at all. View the full line.
+   - **THE SINGLE-WORD RETRY IS A STANDING STEP, NOT A FALLBACK — and `gapcheck.py` RUNS
+     IT FOR YOU.** Promoted 2026-08-31 after the rarer-word retry caught a duplicate for
+     the **third** time: **Glasgow-Imrie** (C7 — the retry on `Glasgow` found the Glasgow
+     score with its PANCREAS mnemonic), **West Haven** (C3 — the complete four-grade scale
+     sat under a heading reading only `Grading`), and **`lipohaemarthrosis`** (L1 — 0 hits,
+     and the retry on `haemarthrosis` found *"fat globules suggest an intra-articular
+     fracture"* already stated at `NEW_Investigations_Rheumatology:173`).
+     **In all three the original search looked clean.** That is why "retry when something
+     looks suspicious" is not a rule: a clean-looking zero is exactly the case it exists
+     for. **Every ABSENT verdict gets the retry before it counts.**
+     `gapcheck.py` now derives the terms and runs them itself on any zero result, printing
+     every hit in full — a multi-word pattern retries each meaningful word bare, and a
+     single long word retries its internal substrings, which covers `haemarthrosis` inside
+     `lipohaemarthrosis` and `aemolysis` inside `**H**aemolysis` by the same mechanism.
+     **What the tool cannot derive, and you still do by hand: spelling and naming variants,
+     and the concept expressed in different words.**
    - **Rule 9 is this rule's inverse** — it covers the search that finds the *wrong* thing
      rather than nothing, and the file silently skipped before any search ran. A zero
      result can mean the term was absent, the spelling differed (this rule), or the file
@@ -93,7 +109,14 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
      - `felon`, `Conn`, `Gell` and `LADA` each returned a non-zero count for a term
        **completely absent from the corpus**. Four false PRESENTs in one run — the
        direction rule 9 already flags as the one nothing downstream catches.
-     - **So: do not maintain a list of known-bad patterns and check against it.** The list
+     - **So: do not maintain a list of known-bad patterns and check against it. KNOWING A
+       TERM COLLIDES DOES NOT HELP IF THE CHECK IS NOT RE-RUN EACH TIME.** `PERC` **was
+       already on the collision list** for that run and still returned **253 hits**
+       (`hypercalcaemia` ×73, `percentage` ×23, `hypercholesterolaemia` ×17,
+       `percussion` ×16); `HIT` returned 206. **The list does not stop the count being
+       produced, and the count is what gets read.** A list tells you a pattern is bad
+       *once*; the check has to establish it *every time*, because the next reader is a
+       different session with a different working memory. The list
        was five entries long at the start of that run and eight instances were found that
        it did not contain. **Treat any pattern under about six characters as suspect by
        default**, and settle it the cheap way — pipe the hits through
