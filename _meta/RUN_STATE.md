@@ -739,7 +739,7 @@ file. **No marker was silently voided in Block 1.**
 ## Resume point
 
 **WEEK 2 COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
-**IN PROGRESS:** Week 3 — **L1–L8, RESP-X, O4, O5 done.** Next O7. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
+**IN PROGRESS:** Week 3 — **L1–L8, RESP-X, O4, O5, O7 done.** Next AN1, then AU1. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
 ophthalmology (E1–E3). **Week 4 is approved for AFTER week 3**, priced by the probe in
 `_meta/merges/WEEK4_PROBE.md` at ~100 additive blocks for 25 files; **run M before J** if
 it is ever cut short.
@@ -819,6 +819,7 @@ suppresses a marker on the ground that the *source* mentions the subject.
 | RESP-X Occupational and Chronic Lung Disease | 26 | 1 | 25 | 0 | none |
 | O4 Abnormal and Menstrual Bleeding | 28 | 1 | 27 | 0 | none |
 | O5 Pelvic and Vulval Conditions | 26 | 2 | 24 | 0 | none |
+| O7 Breast Disease | 24 | 1 | 23 | 0 | none |
 
 **Week 2 ran 15% additive overall** (56 of 385 dispositions), against the ~20% of blocks
 1 and 2. Corpus A + Corpus C together are **denser** in week 2's topics than the
