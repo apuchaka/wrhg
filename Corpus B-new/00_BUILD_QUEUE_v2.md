@@ -12,6 +12,8 @@ source: bl.md coverage report, re-ordered against the study schedule
 
 **110 files built. BUILD COMPLETE — all clusters and all addenda.** *(Reconciled against directory listing 31 Aug.)*
 
+> [!note] **The §6 Week 4 cluster bullets were missing their `[BUILT]` tick** — H3, H4, M1–M7, J1–J5 and PH1, 15 of Week 4's 25 clusters, while §0's own table and this count both said complete. All 15 files exist on disk; the ticks were added 31 Aug after checking each filename. **A reader working from §6 would have under-reported Week 4 by 60%.** The status table, the file count and the per-cluster ticks are three separate records of the same fact and they had drifted apart — check a cluster against the directory listing, not against any one of them.
+
 > ✅ **BUILD COMPLETE — 31 AUGUST 2026.** All clinical clusters and all three reference addenda built.
 > **The work from here is VERIFICATION and RETRIEVAL, not more content.**
 > **Verification worklist: `grep -n UNVERIFIED *.md`** — these cluster where Australian practice is jurisdiction-specific (eTG regimens, screening intervals, the revised CVD risk calculator, mental health and safeguarding law, TGA scheduling).
@@ -56,7 +58,7 @@ source: bl.md coverage report, re-ordered against the study schedule
 - **N1 absorbed N2's scope** (de-escalation, sedation, restraint, Mental Health Act). N2 was rebuilt as *Acute Behavioural Disturbance and Substance Use* — which also fills a genuine gap, since **the queue contains no dedicated substance use cluster.** Alcohol and drug use deserve more than half a file if time allows.
 - **Incontinence is now split across three files** — [[GER2]] 0.1 (types, catheters), [[O5]] 0.6 (female, prolapse), [[H2]] 0.6 (male, overflow). Worth consolidating.
 - **L3 was already built** in the original session and was not in the working notes — trust the directory listing over any running count.
-- **509+ `UNVERIFIED` markers** across the corpus. `grep -n UNVERIFIED *.md` is the AU-verification worklist.
+- **912 `UNVERIFIED` markers** across the 110 clinical files (915 including these two queue files). `grep -n UNVERIFIED *.md` is the AU-verification worklist. *(Counted 31 Aug; the previous "509+" was written mid-build.)*
 - Highest-yield remaining for the MCQ: **Paediatrics (M1–M7)** and **Haematology (J1–J5)**. PH1 is high-yield per hour of work.
 
 ---
@@ -190,27 +192,27 @@ If you'd rather build strictly in order — a, b, c on each cluster before movin
 ### 6.2 Renal & Urology — 4 clusters, 9 parts
 - ✅ **H1. Haematuria & proteinuria** — a: haematuria & glomerular syndromes · b: proteinuria, nephrotic & nephritic syndromes  **[BUILT]**
 - ✅ **H2. LUTS, retention & incontinence** — a: LUTS & urinary retention · b: incontinence types & management  **[BUILT]**
-- **H3. Urine output & renal injury** — a: acute kidney injury & chronic kidney disease · b: polyuria, oliguria, contrast & drug nephropathy
-- **H4. Scrotum, groin & loin** — a: acute scrotum & testicular torsion · b: groin lumps, renal colic, urological trauma
+- ✅ **H3. Urine output & renal injury** — a: acute kidney injury & chronic kidney disease · b: polyuria, oliguria, contrast & drug nephropathy  **[BUILT]**
+- ✅ **H4. Scrotum, groin & loin** — a: acute scrotum & testicular torsion · b: groin lumps, renal colic, urological trauma  **[BUILT]**
 
 ### 6.3 Paediatrics — 7 clusters, 15 parts
-- **M1. The seriously unwell child** — a: recognition & the unwell infant · b: the irritable, lethargic or pale child
-- **M2. Fever in children** — a: febrile child & fever without source · b: rash in a child, fever in the neonate
-- **M3. Neonatal problems** — a: neonatal jaundice, feeding, cyanosis · b: apnoea, BRUE, vomiting, minor neonatal problems
-- **M4. Growth & development** — a: growth faltering, short & tall stature · b: developmental delay & surveillance
-- **M5. Paediatric GI, GU & limb** — a: abdominal pain & vomiting in children · b: constipation, diarrhoea, enuresis · c: limp & bone pain in a child
-- **M6. Paediatric respiratory & neurology** — a: wheeze & respiratory distress · b: seizures in children
-- **M7. Adolescent & behavioural** — a: adolescent health & the HEADSS assessment · b: school refusal, behavioural concerns, ADHD
+- ✅ **M1. The seriously unwell child** — a: recognition & the unwell infant · b: the irritable, lethargic or pale child  **[BUILT]**
+- ✅ **M2. Fever in children** — a: febrile child & fever without source · b: rash in a child, fever in the neonate  **[BUILT]**
+- ✅ **M3. Neonatal problems** — a: neonatal jaundice, feeding, cyanosis · b: apnoea, BRUE, vomiting, minor neonatal problems  **[BUILT]**
+- ✅ **M4. Growth & development** — a: growth faltering, short & tall stature · b: developmental delay & surveillance  **[BUILT]**
+- ✅ **M5. Paediatric GI, GU & limb** — a: abdominal pain & vomiting in children · b: constipation, diarrhoea, enuresis · c: limp & bone pain in a child  **[BUILT]**
+- ✅ **M6. Paediatric respiratory & neurology** — a: wheeze & respiratory distress · b: seizures in children  **[BUILT]**
+- ✅ **M7. Adolescent & behavioural** — a: adolescent health & the HEADSS assessment · b: school refusal, behavioural concerns, ADHD  **[BUILT]**
 
 ### 6.4 Haematology — 5 clusters, 11 parts
-- **J1. Cytopenias & marrow failure** — a: anaemia classification & investigation · b: white cell & platelet disorders, febrile neutropenia
-- **J2. Haemoglobinopathy & haemolysis** — a: haemolytic anaemias · b: sickle cell disease & thalassaemia
-- **J3. Bleeding & thrombosis** — a: bleeding disorders (links [[A9]] 0.3) · b: VTE, thrombophilia, anticoagulation
-- **J4. Paraproteins & lymphoproliferative** — a: myeloma & paraprotein · b: lymphoma & leukaemia overview
-- **J5. Oncology & palliative** — a: oncological emergencies · b: palliative care, symptom control, end-of-life prescribing
+- ✅ **J1. Cytopenias & marrow failure** — a: anaemia classification & investigation · b: white cell & platelet disorders, febrile neutropenia  **[BUILT]**
+- ✅ **J2. Haemoglobinopathy & haemolysis** — a: haemolytic anaemias · b: sickle cell disease & thalassaemia  **[BUILT]**
+- ✅ **J3. Bleeding & thrombosis** — a: bleeding disorders (links [[A9]] 0.3) · b: VTE, thrombophilia, anticoagulation  **[BUILT]**
+- ✅ **J4. Paraproteins & lymphoproliferative** — a: myeloma & paraprotein · b: lymphoma & leukaemia overview  **[BUILT]**
+- ✅ **J5. Oncology & palliative** — a: oncological emergencies · b: palliative care, symptom control, end-of-life prescribing  **[BUILT]**
 
 ### 6.5 Public Health, Epidemiology, Statistics & Research — 1 cluster, 3 parts **(NEW — beyond bl.md)**
-- **PH1. Population health & research literacy** — a: study design, bias, confounding · b: statistics — sensitivity, specificity, predictive values, NNT, risk measures · c: screening principles, notifiable diseases, outbreak management
+- ✅ **PH1. Population health & research literacy** — a: study design, bias, confounding · b: statistics — sensitivity, specificity, predictive values, NNT, risk measures · c: screening principles, notifiable diseases, outbreak management  **[BUILT]**
 
 ---
 

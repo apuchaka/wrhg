@@ -1,12 +1,17 @@
 ---
 block: Ophthalmology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Localisation, discriminators and red flags are reliable at intern level. **Every dose, time window, screening interval and threshold carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG**, RANZCO guidance, and the **NHMRC diabetic retinopathy screening recommendations**.
 >
-> **Giant cell arteritis is built in [[D1]] 0.3**, **stroke and TIA in [[D3]]**, and **diabetic retinopathy screening in [[I2]] 0.5** — cross-referenced rather than repeated.
+> **Giant cell arteritis is built in [[D1_Headache_and_Meningism]] 0.3**, **stroke and TIA in [[D3_Stroke_and_Focal_Neurological_Deficit]]**, and **diabetic retinopathy screening in [[I2_Diabetes_and_Glucose_Disorders]] 0.5** — cross-referenced rather than repeated.
 
 ---
 
@@ -45,20 +50,20 @@ source: built in chat, model knowledge, NOT source-verified
 > **THE REFRAME THAT MATTERS: THIS IS A STROKE, AND IT IS MANAGED AS ONE.**
 > **The retina tolerates ischaemia for a very short time, so visual recovery is uncommon — but the patient has just declared themselves at high risk of a CEREBRAL stroke, and the urgent task is finding the source and preventing the next event.**
 > **THEREFORE: urgent ophthalmology AND an acute stroke pathway assessment — CAROTID imaging, cardiac assessment including for atrial fibrillation, vascular risk factors, and — in anyone over 50 — ESR AND CRP FOR GIANT CELL ARTERITIS.**
-> **Ocular massage and pressure-lowering measures are sometimes attempted acutely; the evidence is weak, and they must not delay the vascular workup.** Cross-refer [[D3]] 0.1.
+> **Ocular massage and pressure-lowering measures are sometimes attempted acutely; the evidence is weak, and they must not delay the vascular workup.** Cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.1.
 
 > [!danger] Amaurosis fugax is a TIA and must not be reassured away
 > **Transient monocular visual loss, classically described as a CURTAIN OR SHADE DESCENDING (or ascending) across the vision of one eye, lasting seconds to minutes, then clearing completely.**
 > **IT IS A TRANSIENT ISCHAEMIC ATTACK OF THE EYE, and it carries the same implications as any other TIA.**
 > **It requires the URGENT TIA PATHWAY: carotid imaging, cardiac assessment, antiplatelet therapy, risk factor management — and, in the over-50s, exclusion of GIANT CELL ARTERITIS.**
-> **Because the vision returns to normal, both patient and clinician are inclined to be reassured. That is the error.** Cross-refer [[D3]] 0.2.
+> **Because the vision returns to normal, both patient and clinician are inclined to be reassured. That is the error.** Cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.2.
 
 > [!danger] Giant cell arteritis — the fellow eye is at risk within days
 > **ARTERITIC ANTERIOR ISCHAEMIC OPTIC NEUROPATHY causes sudden, severe, painless monocular loss in a patient over 50, with a swollen, PALE ("chalky white") optic disc.**
 > **The systemic features must be sought: JAW CLAUDICATION (the most specific — pain in the jaw on chewing, which patients describe as tiredness) · new temporal HEADACHE · SCALP TENDERNESS · polymyalgic symptoms · fever, malaise and weight loss.**
 > **GIVE HIGH-DOSE CORTICOSTEROIDS IMMEDIATELY ON SUSPICION — DO NOT WAIT FOR ESR, CRP, BIOPSY OR THE OPHTHALMOLOGY REVIEW.**
 > **THE VISION IN THE AFFECTED EYE IS USUALLY NOT RECOVERABLE. THE POINT OF TREATMENT IS THE OTHER EYE, WHICH CAN BE LOST WITHIN DAYS.**
-> **The biopsy remains positive for a period after steroids begin, so treating does not prevent diagnosis.** Cross-refer [[D1]] 0.3 and [[L3]] 0.4.
+> **The biopsy remains positive for a period after steroids begin, so treating does not prevent diagnosis.** Cross-refer [[D1_Headache_and_Meningism]] 0.3 and [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.4.
 > **NON-ARTERITIC AION is commoner — occurring in patients with a small, crowded "disc at risk", vascular risk factors and often nocturnal hypotension, typically producing an ALTITUDINAL field defect (loss of the upper or lower half).** **It is less devastating, but GCA must still be excluded in anyone over 50, because the two are distinguished by the systemic features and the inflammatory markers, not by the appearance alone.**
 
 > [!warning] Retinal vein occlusion and vitreous haemorrhage
@@ -102,7 +107,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Signs: reduced acuity · marked RED DESATURATION and impaired colour vision, often disproportionate to the acuity · a RELATIVE AFFERENT PUPILLARY DEFECT · and a central scotoma.**
 > **THE FUNDUS IS OFTEN NORMAL, because most cases are retrobulbar — hence the old aphorism that "the patient sees nothing and the doctor sees nothing".**
 > **It is strongly associated with MULTIPLE SCLEROSIS and may be the first presentation, so it requires MRI of the brain and orbits.** **Vision usually recovers substantially over weeks.**
-> **Consider alternatives where the picture is atypical — bilateral, severe, poorly recovering or with a swollen disc — including neuromyelitis optica and MOG antibody disease, which are treated differently.** Cross-refer [[D7]] and [[D4]].
+> **Consider alternatives where the picture is atypical — bilateral, severe, poorly recovering or with a swollen disc — including neuromyelitis optica and MOG antibody disease, which are treated differently.** Cross-refer [[D7_Cranial_Nerves_and_Special_Senses]] and [[D4_Weakness__Neuropathy_and_Radiculopathy]].
 
 ---
 
@@ -115,7 +120,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **BY THE TIME A PATIENT NOTICES, SUBSTANTIAL IRREVERSIBLE DAMAGE HAS OCCURRED.**
 > **This is the entire rationale for OPPORTUNISTIC SCREENING — measuring intraocular pressure, examining the optic disc for CUPPING, and assessing the visual field.**
 > **RISK FACTORS: increasing AGE · FAMILY HISTORY (a strong risk factor, and a reason to advise siblings and children to be screened) · AFRICAN ancestry (earlier onset and more aggressive disease) · MYOPIA · diabetes · and CORTICOSTEROIDS in any form.**
-> **Treatment lowers intraocular pressure and halts progression but does not restore lost field — which makes early detection the whole game.** Cross-refer [[GER3]].
+> **Treatment lowers intraocular pressure and halts progression but does not restore lost field — which makes early detection the whole game.** Cross-refer [[GER3_Preventive_and_Occupational_Health]].
 
 > [!tip] Cataract and macular degeneration — and the functional difference between them
 > **· CATARACT — gradual blurring, GLARE and haloes (particularly driving at night), reduced contrast and colour saturation, and sometimes "second sight" (a myopic shift temporarily improving near vision).** **It is the leading cause of REVERSIBLE blindness worldwide, and surgery is one of the most effective interventions in medicine.** **No RAPD** — if there is one, something else is going on as well.
@@ -129,16 +134,16 @@ source: built in chat, model knowledge, NOT source-verified
 > **The progression: non-proliferative changes (microaneurysms, dot and blot haemorrhages, hard exudates, cotton wool spots) → PROLIFERATIVE retinopathy with neovascularisation, which bleeds (vitreous haemorrhage) and causes tractional detachment.**
 > **DIABETIC MACULOPATHY is the commonest cause of visual loss in diabetes**, and it can occur at any stage of retinopathy.
 > **Treatment: panretinal photocoagulation for proliferative disease, and anti-VEGF or laser for maculopathy — alongside glycaemic, blood pressure and lipid control.**
-> **THE COUNTERINTUITIVE POINT: RAPID IMPROVEMENT IN GLYCAEMIC CONTROL CAN TRANSIENTLY WORSEN RETINOPATHY.** **So a patient with established retinopathy starting intensive therapy — including insulin or an incretin agent with a large HbA1c drop — needs ophthalmological review, not less monitoring.** **Long-term the control is unequivocally beneficial; the short-term worsening is real and must be anticipated rather than blamed on the treatment.** Cross-refer [[I2]] 0.5.
+> **THE COUNTERINTUITIVE POINT: RAPID IMPROVEMENT IN GLYCAEMIC CONTROL CAN TRANSIENTLY WORSEN RETINOPATHY.** **So a patient with established retinopathy starting intensive therapy — including insulin or an incretin agent with a large HbA1c drop — needs ophthalmological review, not less monitoring.** **Long-term the control is unequivocally beneficial; the short-term worsening is real and must be anticipated rather than blamed on the treatment.** Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.5.
 
 > [!tip] The rest, and what to do about low vision
 > **· REFRACTIVE ERROR and PRESBYOPIA — the commonest causes of reduced vision overall, and correctable. The pinhole test identifies them.**
-> **· HYPERTENSIVE RETINOPATHY, and MALIGNANT HYPERTENSION with papilloedema, which is a hypertensive emergency.** Cross-refer [[B2]] 0.3.
+> **· HYPERTENSIVE RETINOPATHY, and MALIGNANT HYPERTENSION with papilloedema, which is a hypertensive emergency.** Cross-refer [[B2_Hypertension_Spectrum]] 0.3.
 > **· RETINITIS PIGMENTOSA — NIGHT BLINDNESS first, then progressive peripheral constriction to tunnel vision, with a family history and characteristic bone-spicule pigmentation.**
 > **· Corneal disease, and inherited optic neuropathies.**
 > **THE PRACTICAL CONSEQUENCES OF LOW VISION, which are consistently under-addressed:**
-> **· FALLS AND FRACTURES — visual impairment is a major and modifiable falls risk factor, and cataract surgery reduces falls.** Cross-refer [[GER1]] 0.5.
-> **· DRIVING — there are visual standards for licensing, and a duty to advise the patient and document it.** Cross-refer [[A10]] 0.6.
+> **· FALLS AND FRACTURES — visual impairment is a major and modifiable falls risk factor, and cataract surgery reduces falls.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.5.
+> **· DRIVING — there are visual standards for licensing, and a duty to advise the patient and document it.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6.
 > **· DEPRESSION AND SOCIAL ISOLATION, which are common and under-recognised after significant vision loss.**
 > **· LOW VISION SERVICES, magnifiers, lighting assessment, home modification, talking devices, and registration for support services — refer, because these transform function and are rarely offered.**
 
@@ -156,13 +161,13 @@ source: built in chat, model knowledge, NOT source-verified
 > | Follows | Nothing | Often a headache (but "acephalgic" aura occurs) | Headache, worse on lying and in the morning |
 > | Action | **URGENT TIA WORKUP** | Reassure, treat migraine | **FUNDOSCOPY — and investigate for raised ICP** |
 > **THE DISCRIMINATORS TO CARRY: monocular and negative and brief = vascular. Binocular and positive and spreading over minutes = migraine. Seconds and postural = raised intracranial pressure.**
-> **TRANSIENT VISUAL OBSCURATIONS LASTING SECONDS ON STANDING OR BENDING ARE THE CLASSIC SYMPTOM OF PAPILLOEDEMA, and they are the reason to look at the fundi in anyone with headache** — particularly a young woman with obesity, where idiopathic intracranial hypertension is a real and sight-threatening diagnosis. Cross-refer [[D1]] 0.3.
+> **TRANSIENT VISUAL OBSCURATIONS LASTING SECONDS ON STANDING OR BENDING ARE THE CLASSIC SYMPTOM OF PAPILLOEDEMA, and they are the reason to look at the fundi in anyone with headache** — particularly a young woman with obesity, where idiopathic intracranial hypertension is a real and sight-threatening diagnosis. Cross-refer [[D1_Headache_and_Meningism]] 0.3.
 
 > [!tip] The other transient causes
 > **· OCCIPITAL TIA or seizure — binocular homonymous disturbance.**
-> **· POSTURAL HYPOTENSION and arrhythmia — greying out with presyncopal symptoms.** Cross-refer [[B4]].
+> **· POSTURAL HYPOTENSION and arrhythmia — greying out with presyncopal symptoms.** Cross-refer [[B4_Syncope__Collapse_and_Hypotension]].
 > **· HYPOGLYCAEMIA.**
-> **· INTERMITTENT ANGLE CLOSURE — blurring with HALOES around lights, in dim light or when reading, with eye ache and headache, resolving spontaneously.** **These prodromal attacks precede acute closure and are an opportunity to prevent it with a peripheral iridotomy.** Cross-refer [[E1]] 0.3.
+> **· INTERMITTENT ANGLE CLOSURE — blurring with HALOES around lights, in dim light or when reading, with eye ache and headache, resolving spontaneously.** **These prodromal attacks precede acute closure and are an opportunity to prevent it with a peripheral iridotomy.** Cross-refer [[E1_Red_and_Painful_Eye]] 0.3.
 > **· Dry eye and tear film instability — fluctuating blur that clears momentarily with blinking. Common and benign.**
 > **· A NEW MIGRAINE AURA IN A PATIENT OVER 50, or an aura that is always on the SAME SIDE, should not simply be attributed to migraine** — stereotyped, always-unilateral events warrant investigation.
 
@@ -172,7 +177,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!info] Field defects localise precisely — this is the highest-yield anatomy in neurology
 > **· MONOCULAR field loss or blindness → the EYE or the OPTIC NERVE (anterior to the chiasm).**
-> **· BITEMPORAL HEMIANOPIA → the CHIASM, compressed from below or within — PITUITARY MACROADENOMA, craniopharyngioma, meningioma.** **The patient may not notice it (they bump into door frames, or have car accidents) and it is found on confrontation testing.** **CHECK THE FIELDS IN ANY PATIENT WITH HEADACHE, ENDOCRINE SYMPTOMS OR ACROMEGALIC FEATURES.** Cross-refer [[I4]] 0.1.
+> **· BITEMPORAL HEMIANOPIA → the CHIASM, compressed from below or within — PITUITARY MACROADENOMA, craniopharyngioma, meningioma.** **The patient may not notice it (they bump into door frames, or have car accidents) and it is found on confrontation testing.** **CHECK THE FIELDS IN ANY PATIENT WITH HEADACHE, ENDOCRINE SYMPTOMS OR ACROMEGALIC FEATURES.** Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.1.
 > **· HOMONYMOUS HEMIANOPIA → the contralateral optic TRACT, radiation or OCCIPITAL cortex.**
 > **· SUPERIOR quadrantanopia ("PIE IN THE SKY") → the contralateral TEMPORAL lobe (Meyer's loop).**
 > **· INFERIOR quadrantanopia ("pie on the floor") → the contralateral PARIETAL lobe.**
@@ -193,21 +198,21 @@ source: built in chat, model knowledge, NOT source-verified
 > **· A COMPRESSIVE lesion — classically a POSTERIOR COMMUNICATING ARTERY ANEURYSM — squeezes the outside first, so the PUPIL IS INVOLVED (dilated, poorly reactive) — often EARLY and sometimes before the ptosis and ophthalmoplegia are complete.**
 > **· A MICROVASCULAR lesion — diabetes, hypertension — infarcts the centre of the nerve and characteristically SPARES THE PUPIL, and is usually painful but self-limiting.**
 > **A THIRD NERVE PALSY WITH PUPIL INVOLVEMENT REQUIRES URGENT IMAGING OF THE CEREBRAL VESSELS (CT or MR angiography) — an unruptured aneurysm compressing the nerve is a warning before a subarachnoid haemorrhage, and it is an opportunity to prevent one.**
-> **Pupil sparing does not permit complacency in a young patient or where the palsy is incomplete or progressive.** Cross-refer [[D7]] and [[D1]] 0.1.
+> **Pupil sparing does not permit complacency in a young patient or where the palsy is incomplete or progressive.** Cross-refer [[D7_Cranial_Nerves_and_Special_Senses]] and [[D1_Headache_and_Meningism]] 0.1.
 
 > [!warning] The other causes of binocular diplopia
 > **· SIXTH NERVE PALSY — horizontal diplopia worse on looking towards the affected side, with failure of abduction.** **The sixth nerve has a LONG INTRACRANIAL COURSE, making it vulnerable to stretching by RAISED INTRACRANIAL PRESSURE — a "FALSE LOCALISING SIGN".** **So a sixth nerve palsy with headache means looking at the fundi for papilloedema.**
 > **· FOURTH NERVE PALSY — VERTICAL diplopia that is WORSE ON LOOKING DOWN AND IN — so worse when READING or DESCENDING STAIRS — with a compensatory HEAD TILT away from the affected side.** Often congenital and decompensating, or traumatic.
-> **· MYASTHENIA GRAVIS — FATIGABLE and VARIABLE diplopia and ptosis, WORSE AT THE END OF THE DAY or with sustained upgaze, and — critically — the PUPIL IS NEVER INVOLVED.** **Myasthenia can mimic any pupil-sparing ocular motor palsy, and variability is the clue.** **Ask about diurnal variation, bulbar symptoms and breathlessness.** Cross-refer [[D4]] 0.3.
-> **· THYROID EYE DISEASE — restriction from enlarged extraocular muscles, with proptosis and lid retraction; the commonest cause of adult proptosis.** Cross-refer [[I1]] 0.3 and [[E3]].
+> **· MYASTHENIA GRAVIS — FATIGABLE and VARIABLE diplopia and ptosis, WORSE AT THE END OF THE DAY or with sustained upgaze, and — critically — the PUPIL IS NEVER INVOLVED.** **Myasthenia can mimic any pupil-sparing ocular motor palsy, and variability is the clue.** **Ask about diurnal variation, bulbar symptoms and breathlessness.** Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.3.
+> **· THYROID EYE DISEASE — restriction from enlarged extraocular muscles, with proptosis and lid retraction; the commonest cause of adult proptosis.** Cross-refer [[I1_Thyroid_Disease]] 0.3 and [[E3_Orbit__Lids_and_Pupil]].
 > **· ORBITAL causes — blowout fracture with entrapment, orbital mass, orbital cellulitis, idiopathic orbital inflammation.**
-> **· INTERNUCLEAR OPHTHALMOPLEGIA — impaired adduction of one eye with nystagmus of the abducting eye, from a medial longitudinal fasciculus lesion.** **Bilateral INO in a young adult is multiple sclerosis until proven otherwise.** Cross-refer [[D7]].
+> **· INTERNUCLEAR OPHTHALMOPLEGIA — impaired adduction of one eye with nystagmus of the abducting eye, from a medial longitudinal fasciculus lesion.** **Bilateral INO in a young adult is multiple sclerosis until proven otherwise.** Cross-refer [[D7_Cranial_Nerves_and_Special_Senses]].
 > **· Decompensated childhood squint, and giant cell arteritis (which can cause diplopia).**
 > **ANY NEW DIPLOPIA WITH HEADACHE, PAIN, PUPIL INVOLVEMENT, OTHER CRANIAL NERVE SIGNS OR SYSTEMIC FEATURES NEEDS URGENT IMAGING AND SPECIALIST ASSESSMENT.**
 
-**Ix:** **ACUITY with pinhole, PUPILS with a swinging light test, CONFRONTATION FIELDS, RED DESATURATION, and FUNDOSCOPY — in every patient with visual symptoms** (*why:* an RAPD localises to nerve or retina and excludes media opacity, and field testing distinguishes an eye problem from a brain one; *what:* the localisation). **COVER TEST — asking whether covering either eye abolishes the diplopia, and whether the visual loss is the same with each eye covered** (*why:* monocular versus binocular is the branch point in both diplopia and visual loss; *what:* the pattern). **ESR AND CRP, AND IMMEDIATE CORTICOSTEROIDS, in anyone over 50 with sudden visual loss** (*why:* giant cell arteritis takes the second eye within days, and treatment must not wait for results; *what:* inflammatory markers, and temporal artery biopsy or ultrasound). **URGENT TIA PATHWAY — carotid imaging, cardiac assessment, ECG — for amaurosis fugax or retinal artery occlusion** (*why:* these are cerebrovascular events and the next one may not be confined to the eye; *what:* carotid stenosis, atrial fibrillation, cardiac source). **DILATED FUNDUS EXAMINATION for new flashes and floaters** (*why:* a retinal tear treated with laser prevents a detachment requiring surgery; *what:* tear, detachment). **URGENT ophthalmology for a shadow with PRESERVED central acuity** (*why:* "macula on" detachment is the one where surgery preserves central vision; *what:* macular status). **AMSLER GRID and prompt referral for new metamorphopsia** (*why:* wet AMD is treatable but time-sensitive; *what:* distortion, central scotoma). **CT OR MR ANGIOGRAPHY urgently for a third nerve palsy with pupil involvement** (*why:* posterior communicating artery aneurysm, and the palsy is a warning before rupture; *what:* aneurysm). **MRI brain and orbits for optic neuritis** (*why:* multiple sclerosis and the alternative demyelinating syndromes, which are treated differently; *what:* demyelinating lesions). **FORMAL VISUAL FIELD TESTING and pituitary imaging for bitemporal hemianopia** (*why:* chiasmal compression, frequently unnoticed by the patient; *what:* the lesion — cross-refer [[I4]] 0.1). **Fundoscopy for PAPILLOEDEMA in anyone with headache or transient obscurations** (*why:* raised intracranial pressure threatens vision and the obscurations are the warning; *what:* disc swelling).
+**Ix:** **ACUITY with pinhole, PUPILS with a swinging light test, CONFRONTATION FIELDS, RED DESATURATION, and FUNDOSCOPY — in every patient with visual symptoms** (*why:* an RAPD localises to nerve or retina and excludes media opacity, and field testing distinguishes an eye problem from a brain one; *what:* the localisation). **COVER TEST — asking whether covering either eye abolishes the diplopia, and whether the visual loss is the same with each eye covered** (*why:* monocular versus binocular is the branch point in both diplopia and visual loss; *what:* the pattern). **ESR AND CRP, AND IMMEDIATE CORTICOSTEROIDS, in anyone over 50 with sudden visual loss** (*why:* giant cell arteritis takes the second eye within days, and treatment must not wait for results; *what:* inflammatory markers, and temporal artery biopsy or ultrasound). **URGENT TIA PATHWAY — carotid imaging, cardiac assessment, ECG — for amaurosis fugax or retinal artery occlusion** (*why:* these are cerebrovascular events and the next one may not be confined to the eye; *what:* carotid stenosis, atrial fibrillation, cardiac source). **DILATED FUNDUS EXAMINATION for new flashes and floaters** (*why:* a retinal tear treated with laser prevents a detachment requiring surgery; *what:* tear, detachment). **URGENT ophthalmology for a shadow with PRESERVED central acuity** (*why:* "macula on" detachment is the one where surgery preserves central vision; *what:* macular status). **AMSLER GRID and prompt referral for new metamorphopsia** (*why:* wet AMD is treatable but time-sensitive; *what:* distortion, central scotoma). **CT OR MR ANGIOGRAPHY urgently for a third nerve palsy with pupil involvement** (*why:* posterior communicating artery aneurysm, and the palsy is a warning before rupture; *what:* aneurysm). **MRI brain and orbits for optic neuritis** (*why:* multiple sclerosis and the alternative demyelinating syndromes, which are treated differently; *what:* demyelinating lesions). **FORMAL VISUAL FIELD TESTING and pituitary imaging for bitemporal hemianopia** (*why:* chiasmal compression, frequently unnoticed by the patient; *what:* the lesion — cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.1). **Fundoscopy for PAPILLOEDEMA in anyone with headache or transient obscurations** (*why:* raised intracranial pressure threatens vision and the obscurations are the warning; *what:* disc swelling).
 
 ---
 
 > [!note] Cross-references
-> Red and painful eye, angle closure and optic neuropathy → [[E1]] · Lids, orbit, pupils and neuro-ophthalmology → [[E3]] · Stroke, TIA and carotid disease → [[D3]] 0.1–0.2 · Giant cell arteritis → [[D1]] 0.3 and [[L3]] 0.4 · Raised intracranial pressure and idiopathic intracranial hypertension → [[D1]] 0.3 · Cranial nerve palsies and internuclear ophthalmoplegia → [[D7]] · Myasthenia gravis → [[D4]] 0.3 · Pituitary disease and bitemporal hemianopia → [[I4]] 0.1 · Thyroid eye disease → [[I1]] 0.3 · Diabetic retinopathy and screening → [[I2]] 0.5 · Hypertensive retinopathy and emergencies → [[B2]] 0.3 · Syncope and presyncope → [[B4]] · Falls and visual impairment → [[GER1]] 0.5 · Fitness to drive → [[A10]] 0.6 · Screening and preventive health → [[GER3]] · Orbital trauma → [[L8]] 0.2
+> Red and painful eye, angle closure and optic neuropathy → [[E1_Red_and_Painful_Eye]] · Lids, orbit, pupils and neuro-ophthalmology → [[E3_Orbit__Lids_and_Pupil]] · Stroke, TIA and carotid disease → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.1–0.2 · Giant cell arteritis → [[D1_Headache_and_Meningism]] 0.3 and [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.4 · Raised intracranial pressure and idiopathic intracranial hypertension → [[D1_Headache_and_Meningism]] 0.3 · Cranial nerve palsies and internuclear ophthalmoplegia → [[D7_Cranial_Nerves_and_Special_Senses]] · Myasthenia gravis → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.3 · Pituitary disease and bitemporal hemianopia → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.1 · Thyroid eye disease → [[I1_Thyroid_Disease]] 0.3 · Diabetic retinopathy and screening → [[I2_Diabetes_and_Glucose_Disorders]] 0.5 · Hypertensive retinopathy and emergencies → [[B2_Hypertension_Spectrum]] 0.3 · Syncope and presyncope → [[B4_Syncope__Collapse_and_Hypotension]] · Falls and visual impairment → [[GER1_Comprehensive_Geriatric_Assessment]] 0.5 · Fitness to drive → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 · Screening and preventive health → [[GER3_Preventive_and_Occupational_Health]] · Orbital trauma → [[L8_Facial__Head_and_Torso_Trauma]] 0.2

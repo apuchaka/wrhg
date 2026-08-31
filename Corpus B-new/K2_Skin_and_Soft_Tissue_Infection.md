@@ -1,6 +1,11 @@
 ---
 block: Immunology, Allergy & Infectious Disease
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
@@ -25,7 +30,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Rapid extension beyond a marked border in hours should raise necrotising infection** — see 0.2.
 
 > [!danger] A substantial proportion of "cellulitis" is not cellulitis
-> **Bilateral lower limb "cellulitis" is almost never cellulitis** — bilateral simultaneous infection is rare, and the far commoner explanation is **venous stasis dermatitis or lipodermatosclerosis.** Cross-refer [[B6]] 0.2. These patients receive repeated antibiotic courses and admissions while the venous disease goes untreated.
+> **Bilateral lower limb "cellulitis" is almost never cellulitis** — bilateral simultaneous infection is rare, and the far commoner explanation is **venous stasis dermatitis or lipodermatosclerosis.** Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.2. These patients receive repeated antibiotic courses and admissions while the venous disease goes untreated.
 > **The other mimics worth knowing:**
 > **· Deep vein thrombosis** — and it can coexist.
 > **· Gout and pseudogout** — a hot, red, exquisitely tender joint with surrounding erythema and fever, frequently high.
@@ -52,7 +57,7 @@ Antibiotics, **elevation of the affected limb** — genuinely effective and cons
 
 ### 0.1.2 Mx – Definitive
 Complete the antibiotic course, drain any abscess, and **treat the portal of entry.**
-**If not improving at 48 hours, reconsider: is it actually cellulitis · is there an undrained abscess · is the organism resistant · is there a deeper infection (osteomyelitis, necrotising) · or is the limb ischaemic?** Cross-refer [[B5]] 0.5.
+**If not improving at 48 hours, reconsider: is it actually cellulitis · is there an undrained abscess · is the organism resistant · is there a deeper infection (osteomyelitis, necrotising) · or is the limb ischaemic?** Cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.5.
 
 ### 0.1.3 Mx – Chronic/long-term
 **Address the predisposing factors — lymphoedema management with compression, venous insufficiency, tinea, weight, glycaemic control, and skin care with emollients.**
@@ -111,20 +116,20 @@ Prolonged rehabilitation, wound and reconstructive management, and psychological
 > [!danger] Hidradenitis suppurativa is not an infection, and is treated as one for years
 > Recurrent painful nodules, abscesses, sinus tracts and scarring in **the axillae, groin, inframammary and perianal regions** — the intertriginous, apocrine-bearing areas.
 > **It is a chronic inflammatory follicular occlusion disease, not primarily infective.** Patients are frequently given repeated courses of antibiotics and repeated incisions over years before it is recognised.
-> **The clue is the distribution, the recurrence in the same sites, the sinus tracts and the scarring.** Management involves long-term medical therapy, smoking cessation, weight management and dermatological or surgical input — not just drainage. Cross-refer [[G5]].
+> **The clue is the distribution, the recurrence in the same sites, the sinus tracts and the scarring.** Management involves long-term medical therapy, smoking cessation, weight management and dermatological or surgical input — not just drainage. Cross-refer [[G5_Lumps__Ulcers_and_Nails]].
 
 > [!warning] Hand infections are surgical emergencies more often than they look
 > **· Flexor tenosynovitis** — recognised by **Kanavel's signs: a finger held in slight flexion · fusiform swelling of the whole digit · tenderness along the flexor tendon sheath · and pain on passive extension.** **This requires urgent hand surgical drainage** — delay causes tendon necrosis and permanent loss of function.
 > **· Felon** — a closed-space pulp infection of the fingertip, which needs drainage before it causes osteomyelitis.
 > **· Paronychia** — around the nail fold; drainage where fluctuant.
-> **· Any hand wound over the MCP joints — the "fight bite"** — cross-refer [[A7]] 0.5.
+> **· Any hand wound over the MCP joints — the "fight bite"** — cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5.
 > **The hand has closed compartments and functionally critical structures. Refer early rather than watching.**
 
 > [!tip] Site-specific abscesses worth knowing
-> **· Perianal and perirectal** — cross-refer [[C6]] 0.4. Drainage, and consider Crohn disease and diabetes.
-> **· Breast** — lactational (usually *S. aureus*; **continue breastfeeding or expressing, which aids drainage**) and non-lactational (associated with smoking and periductal mastitis, and **any breast abscess in a non-lactating woman warrants follow-up to exclude inflammatory or underlying malignancy**). Cross-refer [[O7]].
+> **· Perianal and perirectal** — cross-refer [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] 0.4. Drainage, and consider Crohn disease and diabetes.
+> **· Breast** — lactational (usually *S. aureus*; **continue breastfeeding or expressing, which aids drainage**) and non-lactational (associated with smoking and periductal mastitis, and **any breast abscess in a non-lactating woman warrants follow-up to exclude inflammatory or underlying malignancy**). Cross-refer [[O7_Breast_Disease]].
 > **· Pilonidal.**
-> **· Dental** — a common occult source of fever and of deep neck space infection. Cross-refer [[F0.5]] 0.10.
+> **· Dental** — a common occult source of fever and of deep neck space infection. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10.
 > **· In people who inject drugs** — groin and deep abscesses, with a lower threshold for imaging, and **consider the associated complications: DVT, mycotic aneurysm, endocarditis, osteomyelitis, tetanus and wound botulism.**
 
 **Ix:** **Ultrasound** (*why:* confirms a drainable collection versus cellulitis alone, and can guide aspiration — it changes management directly; *what:* fluid collection, foreign body). **Pus for culture and sensitivities at the time of drainage** (*why:* far more informative than a surface swab, identifies MRSA, and guides therapy if the patient does not settle; *what:* organism). Blood cultures where systemically unwell (*why:* bacteraemia; *what:* organism). Glucose and HbA1c (*why:* undiagnosed diabetes; *what:* hyperglycaemia). CT or MRI for deep, perianal or hand infections (*why:* defines the extent and relationship to critical structures for surgical planning; *what:* collection, tract, bone involvement). **HIV and immune screening in recurrent or unusual abscesses** (*why:* underlying immunodeficiency; *what:* positive result).
@@ -156,16 +161,16 @@ Decolonisation for recurrent staphylococcal disease, diabetes screening and mana
 > [!danger] The lymphoedema-cellulitis vicious cycle
 > **Lymphoedema predisposes to cellulitis, and each episode of cellulitis damages lymphatics further, worsening the lymphoedema and increasing the risk of the next episode.**
 > **Breaking the cycle requires treating the lymphoedema, not just the infection: compression, complex decongestive therapy, meticulous skin care and emollients, prompt treatment of any breach, and antibiotic prophylaxis in those with frequent recurrence.**
-> **Referral to a lymphoedema service is the intervention that reduces future admissions**, and it is rarely made from an acute cellulitis admission. Cross-refer [[B6]] 0.3.
+> **Referral to a lymphoedema service is the intervention that reduces future admissions**, and it is rarely made from an acute cellulitis admission. Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.3.
 
 > [!tip] Suppurative lymphadenitis and the causes worth considering
 > **· Bacterial** — *S. aureus*, group A *Streptococcus*.
 > **· Mycobacterial** — **tuberculous cervical lymphadenitis ("scrofula")** with matted, non-tender nodes and possible sinus formation, and **non-tuberculous mycobacterial lymphadenitis in young children**, which is managed differently (often excision rather than prolonged antibiotics).
 > **· *Bartonella henselae* (cat scratch disease)** — regional lymphadenopathy weeks after a cat scratch or bite, often in children, usually self-limiting.
-> **· Melioidosis** in northern Australia. Cross-refer [[K1]] 0.4.
-> **· Malignancy** — a persistent, hard, fixed or matted node is not an abscess. Cross-refer [[B6]] 0.8 and [[F4]].
+> **· Melioidosis** in northern Australia. Cross-refer [[K1_Fever_Workup]] 0.4.
+> **· Malignancy** — a persistent, hard, fixed or matted node is not an abscess. Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8 and [[F4_Neck_Lumps_and_Facial_Pain]].
 
-**Ix:** As per 0.1, plus **detailed exposure history — gardening, aquariums, animals, soil, travel** (*why:* the nodular lymphangitis differential is entirely determined by exposure, and the diagnosis will not be considered without asking; *what:* the exposure). **Tissue biopsy with culture including mycobacterial and fungal media, and histology** (*why:* the atypical organisms will not grow on routine culture and require specific request and prolonged incubation; *what:* organism, granulomas). Ultrasound of the node (*why:* distinguishes reactive node from abscess and guides aspiration; *what:* architecture, collection). **Excision biopsy rather than fine needle aspiration where lymphoma is a consideration** (*why:* nodal architecture is needed and FNA is frequently non-diagnostic; *what:* histology). Cross-refer [[B6]] 0.8.
+**Ix:** As per 0.1, plus **detailed exposure history — gardening, aquariums, animals, soil, travel** (*why:* the nodular lymphangitis differential is entirely determined by exposure, and the diagnosis will not be considered without asking; *what:* the exposure). **Tissue biopsy with culture including mycobacterial and fungal media, and histology** (*why:* the atypical organisms will not grow on routine culture and require specific request and prolonged incubation; *what:* organism, granulomas). Ultrasound of the node (*why:* distinguishes reactive node from abscess and guides aspiration; *what:* architecture, collection). **Excision biopsy rather than fine needle aspiration where lymphoma is a consideration** (*why:* nodal architecture is needed and FNA is frequently non-diagnostic; *what:* histology). Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8.
 
 ### 0.4.1 Mx – Immediate
 Treat as cellulitis where the picture is typical. **Withhold empirical treatment and pursue tissue where the pattern is nodular or atypical**, because the treatment differs.
@@ -183,8 +188,8 @@ Organism-specific, often prolonged for mycobacterial and fungal causes.
 > [!tip] Bites — the organism depends on the mouth
 > **· Cat bites** — deep, narrow puncture wounds that inoculate organisms deep and seal over. **High infection rate. *Pasteurella multocida* causes rapid-onset cellulitis, often within 12–24 hours.** **Prophylactic antibiotics are indicated for essentially all cat bites**, and hand bites in particular warrant a low threshold for surgical review.
 > **· Dog bites** — more crushing and tearing, lower infection rate than cat bites, but **greater tissue damage.** ***Capnocytophaga canimorsus* causes fulminant sepsis in asplenic, immunocompromised and alcohol-dependent patients** — a small dog bite can be lethal in that group, and it warrants prophylaxis and vigilance.
-> **· Human bites** — ***Eikenella corrodens* and oral anaerobes.** **A "fight bite" over the MCP joint is a joint and tendon injury until proven otherwise** — cross-refer [[A7]] 0.5.
-> **· All bites** — irrigate copiously, debride, **generally do NOT close primarily** (particularly hand and puncture wounds), check tetanus status, and consider bloodborne virus exposure for human bites. Cross-refer [[A7]] 0.5 and [[K3]].
+> **· Human bites** — ***Eikenella corrodens* and oral anaerobes.** **A "fight bite" over the MCP joint is a joint and tendon injury until proven otherwise** — cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5.
+> **· All bites** — irrigate copiously, debride, **generally do NOT close primarily** (particularly hand and puncture wounds), check tetanus status, and consider bloodborne virus exposure for human bites. Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5 and [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]].
 
 > [!danger] Australian bat lyssavirus — any bat contact
 > **Any bite, scratch or mucous membrane exposure from ANY bat in Australia — flying foxes and insectivorous microbats alike — is a potential Australian bat lyssavirus exposure.**
@@ -202,10 +207,10 @@ Organism-specific, often prolonged for mycobacterial and fungal causes.
 > [!tip] Other exposure-specific organisms
 > **· Marine and seawater** — ***Vibrio vulnificus*** (severe, necrotising, high mortality in chronic liver disease and haemochromatosis — see 0.2), ***Mycobacterium marinum*** (fish tank granuloma), ***Erysipelothrix rhusiopathiae*** in fish and meat handlers.
 > **· Soil and freshwater** — **tetanus**, **melioidosis** in northern Australia, ***Nocardia***, **clostridial infection**, and **leptospirosis.**
-> **· Occupational** — abattoir and farm work (**Q fever**, brucellosis, orf, erysipeloid), gardening (**sporotrichosis, tetanus**), and healthcare (bloodborne viruses — cross-refer [[K3]]).
-> **· Tetanus prophylaxis** — assess immunisation status and wound type for every wound. Cross-refer [[A7]] 0.5.
+> **· Occupational** — abattoir and farm work (**Q fever**, brucellosis, orf, erysipeloid), gardening (**sporotrichosis, tetanus**), and healthcare (bloodborne viruses — cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]]).
+> **· Tetanus prophylaxis** — assess immunisation status and wound type for every wound. Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5.
 
-**Ix:** **A detailed exposure history — animal, marine, soil, occupational, geographic and recreational** (*why:* it determines the organism and therefore the antibiotic, and none of these diagnoses will be made without it; *what:* the exposure). Wound culture, with **specific request for atypical organisms where the exposure suggests them** (*why:* *M. marinum*, *M. ulcerans*, *Nocardia* and fungi require specific media, prolonged incubation or PCR and will not be found on a routine swab; *what:* organism). **PCR or biopsy of the ulcer edge where Buruli ulcer is suspected** (*why:* the diagnostic test; *what:* *M. ulcerans* DNA). Radiography where a retained foreign body, fracture or joint involvement is possible (*why:* penetrating injuries and bites frequently involve deeper structures; *what:* foreign body, air in a joint, fracture). Bloodborne virus baseline serology after human bites and needlestick (*why:* baseline for exposure management; *what:* HIV, hepatitis B and C status — cross-refer [[K3]]). Tetanus immunisation history (*why:* determines vaccine and immunoglobulin; *what:* status).
+**Ix:** **A detailed exposure history — animal, marine, soil, occupational, geographic and recreational** (*why:* it determines the organism and therefore the antibiotic, and none of these diagnoses will be made without it; *what:* the exposure). Wound culture, with **specific request for atypical organisms where the exposure suggests them** (*why:* *M. marinum*, *M. ulcerans*, *Nocardia* and fungi require specific media, prolonged incubation or PCR and will not be found on a routine swab; *what:* organism). **PCR or biopsy of the ulcer edge where Buruli ulcer is suspected** (*why:* the diagnostic test; *what:* *M. ulcerans* DNA). Radiography where a retained foreign body, fracture or joint involvement is possible (*why:* penetrating injuries and bites frequently involve deeper structures; *what:* foreign body, air in a joint, fracture). Bloodborne virus baseline serology after human bites and needlestick (*why:* baseline for exposure management; *what:* HIV, hepatitis B and C status — cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]]). Tetanus immunisation history (*why:* determines vaccine and immunoglobulin; *what:* status).
 
 ### 0.5.1 Mx – Immediate
 **Wash and irrigate copiously.** Debride. Leave high-risk wounds open. Prophylactic antibiotics for cat bites, hand bites, human bites and the immunocompromised. **Tetanus prophylaxis. Urgent post-exposure prophylaxis for bat exposure.**
@@ -236,15 +241,15 @@ Occupational review and vaccination where relevant — **Q fever vaccination for
 > **It presents as thick, crusted, hyperkeratotic plaques, and the itch may be absent**, which is why it is missed and mistaken for eczema or psoriasis.
 > **It is extraordinarily contagious** — shed skin scales carry viable mites, and outbreaks occur in residential care facilities and households. **It requires combined topical and oral treatment, isolation, environmental decontamination, and contact management.**
 > **The Australian public health dimension matters:** scabies and impetigo carry a very high burden in some remote Aboriginal and Torres Strait Islander communities, and **scabies-related skin breakdown is a major driver of group A streptococcal skin infection, which in turn drives acute rheumatic fever, rheumatic heart disease and post-streptococcal glomerulonephritis.**
-> **So treating scabies in these settings is not a cosmetic intervention — it is cardiac and renal prevention.** Community-wide treatment programs exist for this reason. Cross-refer [[F0.5]] 0.10 and [[AU1]]. `UNVERIFIED — current programs and treatment protocols.`
+> **So treating scabies in these settings is not a cosmetic intervention — it is cardiac and renal prevention.** Community-wide treatment programs exist for this reason. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 and [[AU1_Australian_Health_Context_and_ATSI_Health]]. `UNVERIFIED — current programs and treatment protocols.`
 
 > [!tip] Impetigo
 > Superficial infection with **group A *Streptococcus* and/or *S. aureus*** — non-bullous with golden crusting, or bullous.
-> **In remote Australian communities the prevalence in children is among the highest in the world**, and the same ARF/RHD and glomerulonephritis link applies. **Treatment thresholds and regimens differ in high-risk populations** — cross-refer [[F0.5]] 0.10. `UNVERIFIED — regimens from eTG and the ARF guideline.`
+> **In remote Australian communities the prevalence in children is among the highest in the world**, and the same ARF/RHD and glomerulonephritis link applies. **Treatment thresholds and regimens differ in high-risk populations** — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10. `UNVERIFIED — regimens from eTG and the ARF guideline.`
 
 > [!tip] The other infestations
 > **· Head lice** — itch and nits adherent to hair shafts. Treat with a pediculicide or wet combing; **treat contacts; no need to exclude children from school under current Australian practice.** `UNVERIFIED — current exclusion policy.`
-> **· Pubic lice** — **consider it a marker of sexual contact and offer a full STI screen.** Cross-refer [[O6]].
+> **· Pubic lice** — **consider it a marker of sexual contact and offer a full STI screen.** Cross-refer [[O6_Sexual_and_Reproductive_Health]].
 > **· Body lice** — associated with homelessness and poor access to laundry; a vector for trench fever and other infections. **Treatment is as much about clothing and laundering as about the person.**
 > **· Cutaneous larva migrans** — an intensely itchy, serpiginous, migrating track, typically on the feet or buttocks after **walking barefoot or lying on contaminated sand in tropical areas.** Self-limiting but treatable.
 > **· Tungiasis, myiasis** — in returning travellers.
@@ -263,4 +268,4 @@ Complete the treatment course with the repeat application, and manage environmen
 ---
 
 > [!note] Cross-references
-> Fever workup and the source search → [[K1]] 0.2 · Sepsis and necrotising infection phenotypes → [[F0.3]] 0.3 · Bilateral leg swelling and pseudocellulitis → [[B6]] 0.2 · Lymphoedema and unilateral limb swelling → [[B6]] 0.3 · Undifferentiated lumps and lymphadenopathy → [[B6]] 0.8 and [[F4]] · Wounds, bites and tetanus → [[A7]] 0.5 · Crush injury and compartment syndrome → [[A7]] 0.6 · Perianal abscess and hidradenitis → [[C6]] 0.4 and [[G5]] · Breast abscess → [[O7]] · Diabetic foot and peripheral arterial disease → [[B5]] 0.5–0.6 and [[I2]] · Acute rheumatic fever and the skin infection link → [[F0.5]] 0.10 and [[AU1]] · Occupational and bloodborne exposure → [[K3]] · Pubic lice and STI screening → [[O6]] · Melioidosis → [[K1]] 0.4
+> Fever workup and the source search → [[K1_Fever_Workup]] 0.2 · Sepsis and necrotising infection phenotypes → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3 · Bilateral leg swelling and pseudocellulitis → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.2 · Lymphoedema and unilateral limb swelling → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.3 · Undifferentiated lumps and lymphadenopathy → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8 and [[F4_Neck_Lumps_and_Facial_Pain]] · Wounds, bites and tetanus → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5 · Crush injury and compartment syndrome → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Perianal abscess and hidradenitis → [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] 0.4 and [[G5_Lumps__Ulcers_and_Nails]] · Breast abscess → [[O7_Breast_Disease]] · Diabetic foot and peripheral arterial disease → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.5–0.6 and [[I2_Diabetes_and_Glucose_Disorders]] · Acute rheumatic fever and the skin infection link → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 and [[AU1_Australian_Health_Context_and_ATSI_Health]] · Occupational and bloodborne exposure → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] · Pubic lice and STI screening → [[O6_Sexual_and_Reproductive_Health]] · Melioidosis → [[K1_Fever_Workup]] 0.4

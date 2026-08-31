@@ -1,12 +1,17 @@
 ---
 block: Psychiatry & Mental Health
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Clinical reasoning, discriminators and treatment principles are reliable at intern level. **Every dose, duration and diagnostic criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG Psychotropic**, the **Australian Medicines Handbook**, and the **Phoenix Australia** guidelines for PTSD, which are the Australian standard.
 >
-> **Functional and somatic symptom disorders are built in [[N6]]** and are cross-referenced rather than repeated.
+> **Functional and somatic symptom disorders are built in [[N6_Functional__Dissociative_and_Personality_Disorders]]** and are cross-referenced rather than repeated.
 
 ---
 
@@ -15,12 +20,12 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] Exclude the medical causes before diagnosing an anxiety disorder
 > **Particularly with: NEW onset in an older adult · absence of any psychological context or trigger · prominent PHYSICAL symptoms with relatively little cognitive worry · episodic rather than continuous symptoms · and symptoms that wake the person from sleep.**
 > **The mimics that matter:**
-> **· THYROTOXICOSIS — the classic. Tremor, palpitations, heat intolerance, weight loss, irritability. CHECK THE TFTs.** Cross-refer [[I1]] 0.3.
-> **· ARRHYTHMIA — particularly SUPRAVENTRICULAR TACHYCARDIA in a young person, presenting as recurrent "panic attacks" with abrupt onset and offset, palpitations and light-headedness.** **The discriminator is the ABRUPT ON/OFF quality and the palpitations preceding the fear rather than following it.** **Get an ECG DURING an episode, or arrange ambulatory monitoring — a normal resting ECG proves nothing.** Cross-refer [[B3]] 0.2.
-> **· PHAEOCHROMOCYTOMA — episodic headache, palpitations and sweating, characteristically with PALLOR rather than the flushing of anxiety.** Cross-refer [[I4]] 0.5.
+> **· THYROTOXICOSIS — the classic. Tremor, palpitations, heat intolerance, weight loss, irritability. CHECK THE TFTs.** Cross-refer [[I1_Thyroid_Disease]] 0.3.
+> **· ARRHYTHMIA — particularly SUPRAVENTRICULAR TACHYCARDIA in a young person, presenting as recurrent "panic attacks" with abrupt onset and offset, palpitations and light-headedness.** **The discriminator is the ABRUPT ON/OFF quality and the palpitations preceding the fear rather than following it.** **Get an ECG DURING an episode, or arrange ambulatory monitoring — a normal resting ECG proves nothing.** Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.2.
+> **· PHAEOCHROMOCYTOMA — episodic headache, palpitations and sweating, characteristically with PALLOR rather than the flushing of anxiety.** Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.5.
 > **· HYPOGLYCAEMIA.**
 > **· Respiratory — asthma, pulmonary embolism, COPD — where breathlessness is misattributed to anxiety.** **"Anxiety" is a diagnosis that gets applied to breathless young women with pulmonary emboli.**
-> **· Delirium**, particularly in the elderly. Cross-refer [[D2]] 0.2.
+> **· Delirium**, particularly in the elderly. Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2.
 > **· Rare: carcinoid syndrome, mastocytosis.**
 
 > [!warning] Substances — ask about caffeine specifically
@@ -44,14 +49,14 @@ source: built in chat, model knowledge, NOT source-verified
 > **· SPECIFIC PHOBIA — a circumscribed fear with avoidance, which is why it often causes little impairment unless the feared object is unavoidable (needles, flying, driving).** **NEEDLE PHOBIA specifically causes avoidance of vaccination, blood tests and medical care**, and is worth asking about and managing rather than dismissing.
 > **· AGORAPHOBIA — fear of situations where escape might be difficult or help unavailable (crowds, public transport, queues, being outside alone), leading to avoidance and, at the extreme, being housebound.** Frequently follows panic disorder.
 > **· SEPARATION ANXIETY DISORDER — which occurs in adults as well as children.**
-> **· SELECTIVE MUTISM — in children.** Cross-refer [[M7]].
+> **· SELECTIVE MUTISM — in children.** Cross-refer [[M7_Adolescent_and_Behavioural_Health]].
 > `UNVERIFIED — diagnostic criteria and duration thresholds.`
 
 > [!danger] Reassurance and investigation feed health anxiety rather than resolving it
 > **In health anxiety, reassurance and normal test results produce only TRANSIENT relief, followed by renewed doubt and further checking — and each cycle strengthens the pattern.**
 > **So the instinct to "just do the test to reassure them" is counterproductive**, and it also generates incidental findings that create genuine new problems.
 > **What helps instead: a thorough assessment ONCE · a clear positive explanation of what is happening · an agreed plan to stop repeated investigation · scheduled rather than symptom-triggered review · and psychological therapy targeting the checking and reassurance-seeking.**
-> **This requires the clinician to tolerate the patient's uncertainty rather than resolving their own discomfort with another test.** Cross-refer [[N6]].
+> **This requires the clinician to tolerate the patient's uncertainty rather than resolving their own discomfort with another test.** Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]].
 
 ---
 
@@ -67,7 +72,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Drawing this cycle for a patient, and explaining that the sensations are real but the interpretation is what drives the escalation, is genuinely therapeutic** — it reframes the experience from "something is wrong with my heart" to "my alarm system has misfired", and it is the basis of the psychological treatment.
 
 > [!warning] Hyperventilation — and do not use a paper bag
-> **Overbreathing causes a respiratory alkalosis, which INCREASES the binding of calcium to albumin and REDUCES the IONISED calcium — producing perioral and acral PARAESTHESIA and CARPOPEDAL SPASM with a completely normal total calcium.** Cross-refer [[I3]] 0.1.
+> **Overbreathing causes a respiratory alkalosis, which INCREASES the binding of calcium to albumin and REDUCES the IONISED calcium — producing perioral and acral PARAESTHESIA and CARPOPEDAL SPASM with a completely normal total calcium.** Cross-refer [[I3_Calcium__Parathyroid_and_Bone]] 0.1.
 > **REBREATHING INTO A PAPER BAG IS OUTDATED AND UNSAFE** — it has caused deaths where the underlying problem was hypoxia (asthma, pulmonary embolism, myocardial infarction) rather than anxiety.
 > **Use BREATHING RETRAINING instead — slow, controlled, diaphragmatic breathing with a prolonged expiration — and reassess the patient rather than assuming.**
 
@@ -76,7 +81,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **But two errors follow:**
 > **1. ENDLESS INVESTIGATION.** Repeated troponins, serial ECGs and CT angiograms across multiple presentations reinforce the belief that something has been missed, and generate incidental findings.
 > **2. TELLING THE PATIENT "THERE'S NOTHING WRONG".** This is heard as disbelief, it is not true, and it guarantees re-presentation.
-> **Instead: give them a POSITIVE diagnosis, explain the mechanism, validate that the symptoms are real and physical, and arrange follow-up and treatment.** **"You had a panic attack — that's a real physiological event and here's what happens" is a far better outcome than a normal troponin and a discharge letter saying non-cardiac chest pain.** Cross-refer [[B1]] 0.5.
+> **Instead: give them a POSITIVE diagnosis, explain the mechanism, validate that the symptoms are real and physical, and arrange follow-up and treatment.** **"You had a panic attack — that's a real physiological event and here's what happens" is a far better outcome than a normal troponin and a discharge letter saying non-cardiac chest pain.** Cross-refer [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.5.
 
 ---
 
@@ -115,7 +120,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· AVOIDANCE — of internal reminders (thoughts, feelings) and external ones (people, places, activities, conversations).**
 > **· NEGATIVE ALTERATIONS IN COGNITION AND MOOD — amnesia for aspects of the event, persistent negative beliefs about oneself or the world, distorted blame, persistent negative emotional state, anhedonia, detachment, and inability to experience positive emotion.**
 > **· ALTERATIONS IN AROUSAL AND REACTIVITY — irritability and anger, RECKLESS or self-destructive behaviour, HYPERVIGILANCE, exaggerated startle, poor concentration, and sleep disturbance.**
-> **COMPLEX PTSD — following prolonged or repeated trauma, particularly interpersonal and in childhood — adds persistent AFFECT DYSREGULATION, a negative SELF-CONCEPT, and difficulties in RELATIONSHIPS.** These features overlap substantially with what is often labelled personality disorder. Cross-refer [[N6]].
+> **COMPLEX PTSD — following prolonged or repeated trauma, particularly interpersonal and in childhood — adds persistent AFFECT DYSREGULATION, a negative SELF-CONCEPT, and difficulties in RELATIONSHIPS.** These features overlap substantially with what is often labelled personality disorder. Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]].
 > **ADJUSTMENT DISORDER — a distressing, impairing response to an identifiable stressor that does not meet criteria for another disorder and generally resolves as circumstances change or adaptation occurs.** `UNVERIFIED — criteria and durations.`
 
 > [!danger] Do not conduct single-session psychological debriefing after trauma
@@ -135,16 +140,16 @@ source: built in chat, model knowledge, NOT source-verified
 > **The reframe: "what happened to you?" rather than "what's wrong with you?"** — which changes how presentations that look like difficult behaviour are understood.
 > **The specific healthcare situations that re-traumatise, and what to do:**
 > **· EXAMINATIONS, particularly intimate ones — explain before touching, seek explicit permission at each step, offer a chaperone, offer the patient control over pace and stopping, and consider whether the examination is genuinely necessary now.**
-> **· RESTRAINT AND SECLUSION — profoundly re-traumatising for survivors of violence.** Cross-refer [[N1]] 0.4.
+> **· RESTRAINT AND SECLUSION — profoundly re-traumatising for survivors of violence.** Cross-refer [[N1_Mental_State_Examination_and_Risk]] 0.4.
 > **· Anaesthesia and loss of consciousness · being undressed · being confined · being physically held · loud environments · and being disbelieved.**
 > **Ask, where you can: "is there anything about being in hospital, or being examined, that we should know about or that we can do differently?"** — and record the answer so the next clinician does not have to ask again.
 
 > [!tip] The Australian context
-> **· VETERANS — Open Arms provides free counselling to current and former ADF members and their families. Ask about service history, because it is not volunteered and DVA pathways differ.** Cross-refer [[AU1]] 0.1.
+> **· VETERANS — Open Arms provides free counselling to current and former ADF members and their families. Ask about service history, because it is not volunteered and DVA pathways differ.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.1.
 > **· FIRST RESPONDERS and healthcare workers — repeated exposure to the details of traumatic events is a recognised route to PTSD, and this includes clinicians.**
-> **· REFUGEES AND ASYLUM SEEKERS — high rates of torture and trauma exposure; specialist services exist and interpreters are essential.** Cross-refer [[AU1]] 0.5.
-> **· ABORIGINAL AND TORRES STRAIT ISLANDER PEOPLES — intergenerational and collective trauma arising from colonisation, the Stolen Generations and ongoing racism, which is not adequately captured by an individual PTSD framework and requires a social and emotional wellbeing approach.** Cross-refer [[AU1]] 0.2 and 0.4.
-> **· FAMILY AND SEXUAL VIOLENCE — cross-refer [[GER4]].**
+> **· REFUGEES AND ASYLUM SEEKERS — high rates of torture and trauma exposure; specialist services exist and interpreters are essential.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.5.
+> **· ABORIGINAL AND TORRES STRAIT ISLANDER PEOPLES — intergenerational and collective trauma arising from colonisation, the Stolen Generations and ongoing racism, which is not adequately captured by an individual PTSD framework and requires a social and emotional wellbeing approach.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.2 and 0.4.
+> **· FAMILY AND SEXUAL VIOLENCE — cross-refer [[GER4_Safeguarding_and_Forensic]].**
 
 ---
 
@@ -166,25 +171,25 @@ source: built in chat, model knowledge, NOT source-verified
 > **· START AT A LOWER DOSE THAN YOU WOULD FOR DEPRESSION.** **Anxious patients are particularly sensitive to the initial activating effects — jitteriness, agitation, worsened anxiety — and if they are not warned, they take one tablet, feel worse, conclude the medication is dangerous, and never take another.**
 > **Warn explicitly: "for the first week or two you may feel more anxious or restless before it starts to help. That's expected and it settles."** **This single sentence substantially improves the chance they persist.**
 > **· OCD needs higher doses and longer trials.**
-> **· Other options: pregabalin (with misuse potential and dependence — cross-refer [[F0.4]] 0.9), buspirone, and propranolol for the somatic symptoms of performance anxiety.**
+> **· Other options: pregabalin (with misuse potential and dependence — cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9), buspirone, and propranolol for the somatic symptoms of performance anxiety.**
 > `UNVERIFIED — all agents and doses.`
 
 > [!danger] Benzodiazepines undermine the treatment that works
 > **Beyond the familiar problems — tolerance, dependence, withdrawal, cognitive impairment, falls in older people, and lethality in combination with opioids and alcohol — there is a specific problem in anxiety disorders:**
 > **They BLOCK THE EXTINCTION LEARNING that exposure therapy depends on.** A patient who takes a benzodiazepine before entering a feared situation does not learn that the situation is safe — they learn that they survived it *because* of the tablet. **The avoidance is preserved in chemical form.**
 > **If used at all: short-term, defined duration, with an explicit end point agreed at the outset, and alongside definitive treatment rather than instead of it.**
-> **Deprescribing an established benzodiazepine requires a slow, negotiated taper — abrupt cessation is dangerous and destroys the relationship.** Cross-refer [[N2]] 0.4.
+> **Deprescribing an established benzodiazepine requires a slow, negotiated taper — abrupt cessation is dangerous and destroys the relationship.** Cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.4.
 
 > [!tip] The non-pharmacological measures that genuinely help
 > **· CAFFEINE REDUCTION — ask the quantity, and reduce it gradually to avoid withdrawal headache.**
 > **· ALCOHOL REDUCTION — self-medication is extremely common and it worsens anxiety, particularly the rebound anxiety of the following morning.**
 > **· EXERCISE — good evidence in anxiety.**
-> **· SLEEP — treating insomnia improves anxiety and vice versa.** Cross-refer [[N7]].
+> **· SLEEP — treating insomnia improves anxiety and vice versa.** Cross-refer [[N7_Sleep_Disorders]].
 > **· Breathing retraining and grounding techniques**, taught properly rather than mentioned.
 
-**Ix:** **TFTs** (*why:* thyrotoxicosis is the classic mimic and is easily excluded; *what:* suppressed TSH). FBC, UEC, glucose, calcium (*why:* metabolic contributors, and calcium relates to the tetany of hyperventilation; *what:* derangement). **ECG, and ambulatory or event monitoring where the episodes are abrupt-onset with palpitations** (*why:* SVT masquerades as panic disorder and a resting ECG between episodes is normal; *what:* arrhythmia during symptoms — cross-refer [[B3]] 0.2). **Caffeine, alcohol and substance history with quantification** (*why:* commonly causative and entirely modifiable; *what:* intake). Plasma or urinary metanephrines **only where the episodic pattern with pallor and hypertension genuinely suggests it** (*why:* phaeochromocytoma is rare and untargeted testing generates false positives; *what:* elevated metanephrines). **Investigation restraint in health anxiety** (*why:* repeated normal tests reinforce the disorder and generate incidental findings; *what:* nothing that changes management).
+**Ix:** **TFTs** (*why:* thyrotoxicosis is the classic mimic and is easily excluded; *what:* suppressed TSH). FBC, UEC, glucose, calcium (*why:* metabolic contributors, and calcium relates to the tetany of hyperventilation; *what:* derangement). **ECG, and ambulatory or event monitoring where the episodes are abrupt-onset with palpitations** (*why:* SVT masquerades as panic disorder and a resting ECG between episodes is normal; *what:* arrhythmia during symptoms — cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.2). **Caffeine, alcohol and substance history with quantification** (*why:* commonly causative and entirely modifiable; *what:* intake). Plasma or urinary metanephrines **only where the episodic pattern with pallor and hypertension genuinely suggests it** (*why:* phaeochromocytoma is rare and untargeted testing generates false positives; *what:* elevated metanephrines). **Investigation restraint in health anxiety** (*why:* repeated normal tests reinforce the disorder and generate incidental findings; *what:* nothing that changes management).
 
 ---
 
 > [!note] Cross-references
-> Mental state examination and risk → [[N1]] · Restraint, seclusion and re-traumatisation → [[N1]] 0.4 · Substance use, alcohol and benzodiazepine withdrawal → [[N2]] · Psychosis versus flashbacks → [[N3]] 0.3 · Depression and comorbid anxiety → [[N4]] · Somatic symptom and functional disorders, and personality → [[N6]] · Insomnia → [[N7]] · Thyrotoxicosis → [[I1]] 0.3 · Phaeochromocytoma → [[I4]] 0.5 · SVT and palpitations → [[B3]] 0.2 · Non-cardiac chest pain → [[B1]] 0.5 · Hyperventilation and ionised calcium → [[I3]] 0.1 · Pregabalin and benzodiazepine stewardship → [[F0.4]] 0.9 · Family and sexual violence → [[GER4]] · Veterans, refugees and intergenerational trauma → [[AU1]] 0.1–0.2, 0.5 · Adolescent mental health → [[M7]]
+> Mental state examination and risk → [[N1_Mental_State_Examination_and_Risk]] · Restraint, seclusion and re-traumatisation → [[N1_Mental_State_Examination_and_Risk]] 0.4 · Substance use, alcohol and benzodiazepine withdrawal → [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] · Psychosis versus flashbacks → [[N3_Psychosis_and_Antipsychotics]] 0.3 · Depression and comorbid anxiety → [[N4_Mood_Disorders]] · Somatic symptom and functional disorders, and personality → [[N6_Functional__Dissociative_and_Personality_Disorders]] · Insomnia → [[N7_Sleep_Disorders]] · Thyrotoxicosis → [[I1_Thyroid_Disease]] 0.3 · Phaeochromocytoma → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.5 · SVT and palpitations → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.2 · Non-cardiac chest pain → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.5 · Hyperventilation and ionised calcium → [[I3_Calcium__Parathyroid_and_Bone]] 0.1 · Pregabalin and benzodiazepine stewardship → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9 · Family and sexual violence → [[GER4_Safeguarding_and_Forensic]] · Veterans, refugees and intergenerational trauma → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.1–0.2, 0.5 · Adolescent mental health → [[M7_Adolescent_and_Behavioural_Health]]

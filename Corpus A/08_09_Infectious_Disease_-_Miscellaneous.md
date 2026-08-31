@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 1
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 9
 ---
 
 ## Animal & human bites
@@ -14,6 +14,20 @@ no_baseline: 0
   - Animal bites — *Pasteurella multocida*.
   - Human bites — aerobic and anaerobic bacteria: Strep, Staph, *Eikenella*, *Fusobacterium*, *Prevotella*. Consider risk of HIV, hepatitis C.
 - **Mx:** clean wound, do not suture closed unless thorough washout performed. Antibiotics: amoxicillin+clavulanate, or doxycycline + metronidazole. `UNVERIFIED — AU regimen; Therapeutic Guidelines (login). Look up at point of use.`
+
+### Added from unverified layer — two bite exposures the organism list does not carry
+`SRC:K2_Skin_and_Soft_Tissue_Infection §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] ***Capnocytophaga canimorsus* — a dog bite that kills the asplenic patient** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> An oral commensal of dogs and cats that causes **fulminant sepsis with purpura fulminans, disseminated intravascular coagulation and multi-organ failure** — overwhelmingly in people who are **asplenic or hyposplenic, have chronic liver disease or harmful alcohol use, or are immunosuppressed.**
+> **The bite itself can look trivial**, and the patient presents days later profoundly unwell out of proportion to the wound.
+> This is the organism behind the standing instruction at Post-splenectomy sepsis below: an asplenic patient with **any** animal bite needs antibiotics, not observation. `UNVERIFIED — the agent and duration for bite prophylaxis in asplenia, per Therapeutic Guidelines: Antibiotic.`
+
+> [!danger] **Australian bat lyssavirus — ANY bat contact, anywhere in Australia**
+> Named in this corpus only inside the NNDSS quarantinable category at [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Notifiable Diseases (Australia), as *"rabies/lyssaviruses"*. As a clinical action:
+> **Any bite, scratch or mucous-membrane exposure from any Australian bat — flying fox or microbat — is treated as a potential lyssavirus exposure.** The virus is present in bats across the country, the illness it causes is **effectively always fatal once symptomatic**, and post-exposure prophylaxis is **completely effective if given.**
+> **Wash the wound immediately and thoroughly, then contact public health the same day** for rabies vaccine and immunoglobulin assessment. **Do not handle bats** — refer the public to trained wildlife handlers.
+> `UNVERIFIED — the post-exposure prophylaxis schedule, immunoglobulin indication and wound-washing duration, per the Australian Immunisation Handbook and the CDNA national guidelines for Australian bat lyssavirus.`
 
 > [!info] Verified against Australian bite-wound literature (RCH Clinical Practice Guidelines; ED and tropical Australia bite-management studies), Aug 2026 — amoxicillin-clavulanate is confirmed as the current Australian first-line choice, consistent with the "amoxicillin+clavulanate" already in the note (this is the UK name for the same amoxicillin+clavulanic acid combination — not actually a different drug). **Oral dosing: amoxicillin-clavulanate 875/125mg 12-hourly** is specifically cited as most appropriate for high-risk wounds. For penicillin allergy, Australian sources specify **ciprofloxacin 500mg 12-hourly plus clindamycin 450mg 8-hourly** — a different combination from the doxycycline+metronidazole option in the note (which isn't wrong pharmacologically, but isn't the specific Australian-cited alternative either) — worth knowing both exist as reasonable options but the ciprofloxacin+clindamycin combination is the one specifically documented in Australian clinical practice guidelines. For established moderate-severe infection requiring admission, IV piperacillin-tazobactam is the cited regimen. Minor genuine correction beyond dose specifics: routine antibiotics are **not required prophylactically for all bites** in adults — thorough washout/debridement remains the most important intervention, with prophylactic antibiotics reserved for higher-risk wounds (immunocompromise, diabetes, crush injury, wounds needing surgical repair, hand/joint involvement) rather than given to every bite universally. `UNVERIFIED — AU regimen; Therapeutic Guidelines (login). Look up at point of use.`
 
@@ -38,6 +52,18 @@ no_baseline: 0
 > differential to it.
 - **S/Smx:** erythema, pain, swelling, commonly on the shins; possibly associated with systemic upset.
 - **Ix:** clinical diagnosis ± bloods and blood cultures if sepsis is suspected.
+
+### Added from unverified layer — two things to do at the bedside, and one more mimic
+`SRC:K2_Skin_and_Soft_Tissue_Infection §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] **Mark the border and write the time on the skin**
+> Draw around the edge of the erythema and **write the date and time beside it**. It converts an argument about whether the leg looks better into an observation, it survives handover and a change of shift, and it is the single most useful thing to do at the first review.
+> **Spread beyond the mark is the objective sign of failure**, and the prompt to reconsider the diagnosis as much as the antibiotic.
+
+> [!warning] **Calciphylaxis — the mimic to know in a dialysis patient** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> In patients with **end-stage kidney disease, particularly on dialysis**, calcific uraemic arteriolopathy produces **exquisitely painful** necrotic plaques and ulcers with surrounding violaceous, retiform erythema — most often on the thighs, abdomen and other fatty areas.
+> **The pain is out of proportion and the lesions do not respond to antibiotics.** It carries a high mortality and needs renal and dermatology involvement, not a longer antibiotic course.
+> Chronic kidney disease–mineral bone disorder, which is the setting it arises from, is owned by [[07_Renal_Medicine_and_Urology]] 0.2.2 Mineral Bone Disease (in CKD).
 
 > [!info] Eron classification of cellulitis
 > - **Class I:** no signs of systemic toxicity, no uncontrolled comorbidities.
@@ -103,7 +129,22 @@ no_baseline: 0
   - **Definitive:** repeated surgical debridement is often needed (a single operation frequently isn't sufficient, given how the disease can continue to progress along fascial planes even after initial debridement) — patients typically return to theatre for reassessment/further debridement within 24–48h; de-escalate antibiotics once culture/sensitivity results are available.
   - **Chronic/long-term:** reconstructive surgery (skin grafting, flap reconstruction) once the infection is controlled, given the often extensive tissue loss from debridement; rehabilitation given the functional impact of extensive soft tissue/muscle loss.
 
+> [!warning] Added from unverified layer — ***Vibrio vulnificus*, and the host who gets it**
+> `SRC:K2_Skin_and_Soft_Tissue_Infection §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Type 3 above names *Vibrio* from marine or fresh-water exposure. **What makes it predictable is the host, not the water:** *V. vulnificus* causes fulminant necrotising infection and septicaemia **chiefly in people with chronic liver disease, haemochromatosis or iron overload, and the immunocompromised** — iron availability is thought to be why.
+> **Exposure is seawater or estuarine water contacting a wound, or ingestion of raw shellfish** (from which it can cause primary septicaemia with haemorrhagic bullae and no wound at all).
+> **A febrile patient with cirrhosis, haemorrhagic bullae and a seawater or oyster history is this diagnosis until proven otherwise**, and mortality is high and hours matter.
+
 - **P:** average mortality 20%, worse (50–70%) if end organ damage or shock present — reinforcing why time to surgical debridement is the single most important prognostic factor.
+
+## Added from unverified layer — terminal complement deficiency
+`SRC:K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency §0.5` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!danger] **A second episode of meningococcal disease is a diagnosis in itself**
+> **Deficiency of the terminal complement components (C5–C9) and of properdin causes recurrent NEISSERIAL infection** — meningococcal disease above all, and disseminated gonococcal infection. The episodes are often **less severe than a first episode in a complement-sufficient person**, which is part of why the pattern is missed.
+> **So: recurrent, unusually late-onset, or unusual-serogroup meningococcal disease should prompt a complement screen and immunology referral**, alongside the vaccination and prophylaxis that follow from it.
+> `UNVERIFIED — the screening test (CH50/AH50 and terminal pathway assays), and Australian meningococcal vaccination recommendations for complement deficiency, per the Australian Immunisation Handbook.`
+> **The acquired form is already in this vault and the inherited form was not:** [[NEW_Drugs_07_Blood_and_Electrolytes]] and [[NEW_Drugs_20_Vaccines]] record that **eculizumab and ravulizumab block C5 and mandate meningococcal vaccination before starting** — the same defect, produced deliberately by a drug.
 
 ## Post-splenectomy sepsis
 
@@ -112,6 +153,35 @@ no_baseline: 0
 > **Antibiotic prophylaxis:** **amoxicillin 250mg PO once daily, OR phenoxymethylpenicillin (penicillin V) 250mg PO BD** — genuinely different from the original note's figures (penicillin V 500mg BD is double the correct dose; amoxicillin's frequency was also unspecified/implied differently). For confirmed penicillin allergy: roxithromycin 300mg daily or erythromycin (per local guidance).
 > **Duration:** prophylaxis for a **minimum of 3 years post-splenectomy** in adults (some sources/individualised plans support lifelong prophylaxis, particularly for higher-risk patients — this is a case-by-case decision rather than a fixed endpoint for everyone); in children, prophylaxis continues until **at least 5 years of age** regardless of when splenectomy occurred, given the disproportionate infection risk in young children with asplenia.
 > **Patient safety-netting:** patients should have a written action/emergency plan and keep emergency antibiotics at home and work, with instructions to take them immediately and seek urgent medical review if they develop fever, sweats, chills, or fatigue — reflecting the genuinely rapid, high-mortality course post-splenectomy sepsis can take. Infection risk is highest in the first 2 years post-splenectomy (~30% of infections occur in year 1, ~50% within 2 years) but persists lifelong, which is the rationale for the extended/individualised prophylaxis duration above.
+
+### Added from unverified layer — fever: what produces it, and when its absence misleads
+`SRC:K1_Fever_Workup §0.1, §0.5, §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] **What actually raises the temperature**
+> Exogenous pyrogens and tissue injury drive release of **endogenous pyrogens — interleukin-1, interleukin-6, tumour necrosis factor and the interferons** — which act on the hypothalamus via **prostaglandin E2** to **raise the thermoregulatory set point**. The body then *defends* the new higher temperature by vasoconstricting, shivering and seeking warmth.
+> **This is why a patient developing a fever feels cold and shivers** — they are below their new set point — and why they feel hot and sweat as the fever breaks and the set point falls.
+> The contrast with hyperthermia, where the set point is normal and **antipyretics do not work**, is owned by [[11_09b_Ortho_-_Trauma]] Heat illness and by [[03a_Anaesthetics_Primer]] — not repeated here.
+
+> [!danger] **Absence of fever does not exclude infection**
+> **Blunted or absent febrile responses occur in: the elderly · neonates · the immunosuppressed and those on corticosteroids · uraemic and dialysis patients · those taking regular paracetamol or NSAIDs · and in overwhelming sepsis.**
+> **Hypothermia in a patient with infection is a marker of severity and a poor prognostic sign, not reassurance.**
+> In an older person, **new confusion, a fall, reduced oral intake or functional decline may be the only sign of a serious infection.** The parallel warning for the surgical abdomen in the old is at [[03_Gastrointestinal]] 0.41.6 the acute abdomen in special groups; for inflammatory markers, [[Investigation-Interpretation]] notes that a normal CRP does not exclude serious infection.
+
+> [!warning] **Fever patterns are over-taught and under-useful** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Tertian and quartan patterns in malaria (owned by [[08_07_Infectious_Disease_-_Protozoan_Infections]] Malaria), **Pel-Ebstein fever in Hodgkin lymphoma**, and relative bradycardia in typhoid are classical, examinable, and **unreliable in practice** — modified by antipyretics, by the timing of observations, and by treatment already given. **Do not exclude a diagnosis because the pattern does not fit.**
+> **Relative bradycardia** — a heart rate lower than expected for the temperature — retains modest usefulness, described in typhoid, legionella, brucellosis and **drug fever**, but is not diagnostic.
+
+> [!warning] **Drug fever — a diagnosis of exclusion, but a common one, and completely reversible**
+> Named as an FUO cause above; these are its features. Fever that may be high, in a patient who **looks better than their temperature suggests**; sometimes **relative bradycardia, eosinophilia or a rash**, but frequently none of these. It may begin days to weeks after the drug was started.
+> **Common culprits: beta-lactams, sulfonamides including co-trimoxazole, anticonvulsants (phenytoin, carbamazepine), allopurinol, heparin, antituberculous drugs, and antipsychotics.**
+> **Diagnosis is by cessation.** `UNVERIFIED — the expected time to defervescence after stopping the drug.`
+> **Document it as an adverse reaction** so the agent is not re-prescribed. The more serious drug-related febrile syndromes — DRESS, neuroleptic malignant syndrome, serotonin toxicity and transfusion reactions — are owned by [[09_08_Dermatology_-_Miscellaneous]], [[11_09b_Ortho_-_Trauma]] and [[10_08_Haemonc_-_Blood_Products_and_Transfusion]].
+
+> [!tip] **Fever after solid organ transplant follows a timeline**
+> **First month** — nosocomial and surgical-site infection, and infection related to the operation itself.
+> **One to six months** — **opportunistic infection**: CMV, *Pneumocystis jirovecii*, fungal disease, and reactivation of latent infection.
+> **Beyond six months** — community-acquired infection, plus late opportunistic infection in those on heavier immunosuppression.
+> Transplant immunosuppression regimens and the non-infective complications are owned by [[07_Renal_Medicine_and_Urology]] 0.2.6 Complications of transplant and lifelong immunosuppression, not repeated here.
 
 ## Pyrexia of unknown origin (PUO) / Fever of unknown origin (FUO)
 
@@ -141,6 +211,23 @@ no_baseline: 0
 
 **Mx:** **stable patients do not automatically need empirical antibiotics** — a genuinely important principle, given the temptation to treat empirically can obscure the underlying diagnosis (e.g. partially treating an infection without curing it, making subsequent cultures falsely negative) without addressing the actual cause; the highest-yield action is targeted, risk-guided investigation with repeated reassessment over time, not reflexive treatment. Treat the underlying cause once identified. Neutropenic FUO is the clear exception, requiring urgent empirical treatment as above, not repeated here.
 
+### Added from unverified layer — FUO: three things the approach above does not name
+`SRC:K1_Fever_Workup §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] **PET-CT has become genuinely useful in FUO**
+> It identifies occult infection, inflammation and malignancy in one study and **directs biopsy**, which is the step that actually makes the diagnosis. It is one of the few broad investigations that earns its place in a workup the entry above deliberately keeps targeted.
+> `UNVERIFIED — availability, funding and indications for PET-CT in FUO in Australia; Medicare Benefits Schedule and local nuclear medicine policy would settle it.`
+> **Biopsy anything accessible and abnormal** — lymph node, skin lesion, temporal artery, bone marrow, liver lesion. **Histology diagnoses FUO more often than serology does.**
+
+> [!info] **Adult-onset Still disease — the features, not just the name** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Named in the causes list above. What identifies it: **a quotidian (once-daily spiking) fever · an evanescent salmon-pink rash that comes and goes with the fever spikes · arthralgia · and a very high ferritin.**
+> The rash is the same one described in **systemic-onset juvenile idiopathic arthritis** at [[11_10_Ortho_-_Paediatric_Orthopaedics]] Juvenile idiopathic arthritis (JIA) — the paediatric counterpart of this disease, and the only place the corpus previously carried it.
+
+> [!danger] **Haemophagocytic lymphohistiocytosis (HLH)** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> A hyperinflammatory syndrome of persistent fever, cytopenias, splenomegaly and **a strikingly high ferritin**, triggered by infection, malignancy or rheumatological disease. It is rapidly fatal untreated and is missed because it looks like sepsis that is not responding.
+> **Consider it when a very high ferritin accompanies persistent fever and falling counts.** `UNVERIFIED — the diagnostic criteria, the ferritin threshold, and treatment; a haematology source would settle it.`
+> **Note the acronym collision before searching for this:** every `HLH` in the corpus outside this block is **hypoplastic left heart** in [[15_05_Paeds_-_Acyanotic_Congenital_Heart_Disease]].
+
 ## Approach to Fever in the Returned Traveller
 
 > [!note] Gap-filled from CSV ("Return traveller fever," Medium yield) — the individual travel-related diseases (Malaria, Dengue fever, Yellow fever, Enteric fever/typhoid, Leptospirosis, Schistosomiasis, Trypanosomiasis) are all built across this project's Infectious Disease files, and the history-taking approach is already established in [[History-Taking]] Fever and Suspected Infection (the travel-history block within itected Infection entry) — this entry adds the organising framework that ties the differential together, given incubation period is genuinely one of the most useful ways to narrow it. Not repeated here: the individual disease-level Ix/Mx detail, or the history-taking questions themselves.
@@ -162,6 +249,30 @@ no_baseline: 0
 - **Non-travel causes remain part of the differential** — a returned traveller can still have a completely unrelated, locally-acquired cause of fever, and travel history shouldn't crowd out the standard differential entirely, particularly if the timeline or exposure pattern doesn't fit a travel-related cause.
 - **Specific exposures narrow the differential further than destination alone** — freshwater swimming (schistosomiasis, leptospirosis), animal contact (brucellosis, rabies exposure), insect/tick bites, sexual contact, food and water sources, and healthcare contact abroad (antimicrobial-resistant organism risk) — see [[History-Taking]] Fever and Suspected Infection for the travel-history questions that elicit these, not repeated here.
 - **Malaria prophylaxis adherence doesn't exclude malaria** — no chemoprophylaxis regimen is 100% effective, and poor adherence is common; malaria should still be actively tested for (thick and thin blood films, or rapid antigen testing) in a febrile returned traveller from an endemic area regardless of reported prophylaxis use.
+
+### Added from unverified layer — four things the incubation framework does not carry
+`SRC:K1_Fever_Workup §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Rickettsial infection — LOOK FOR THE ESCHAR**
+> **Scrub typhus, the spotted fevers (including Australian tick typhus) and murine typhus** present with fever, headache, myalgia and rash — and with **an eschar at the bite site**, a small, painless, black-crusted ulcer that **makes the diagnosis**.
+> **It is missed because of where it hides: the axilla, the groin, under the breast, behind the knee, in the scalp and between the toes.** Undress and look.
+> **Doxycycline is the treatment and is given empirically on suspicion**, because serology is retrospective and confirms the diagnosis after the decision has been made. Doxycycline's rickettsial indications are listed in [[NEW_Drugs_05_Anti_infectives]].
+> **Search note:** every other `eschar` in this corpus is anthrax ([[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Anthrax), burns escharotomy or acid coagulative necrosis ([[11_09b_Ortho_-_Trauma]]). The word alone will not find this.
+
+> [!danger] **Melioidosis — an Australian diagnosis, not a travel one**
+> *Burkholderia pseudomallei*, in soil and surface water in **northern Australia**, with cases concentrated in **the wet season** and after flooding, storms and cyclones.
+> **The risk groups are the point: diabetes, chronic kidney disease, harmful alcohol use, chronic lung disease, and Aboriginal and Torres Strait Islander people.**
+> It presents as **severe community-acquired pneumonia, sepsis, or abscesses anywhere** — including prostatic, hepatic, splenic and cerebral — and it is missed when a severe pneumonia in a northern-Australian patient with diabetes is treated as ordinary CAP.
+> **It requires specific and prolonged antimicrobial therapy** — an intensive intravenous phase followed by months of oral eradication. `UNVERIFIED — the agents, doses and durations of both phases, per Therapeutic Guidelines: Antibiotic and the NT/Qld melioidosis protocols.`
+
+> [!warning] **Murray Valley and Japanese encephalitis — named on the notifiable list, but not as diagnoses**
+> Both appear in this corpus only inside the NNDSS vector-borne category at [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Notifiable Diseases (Australia). As clinical entities: **mosquito-borne flaviviruses, with recent Australian activity**, to be considered in **encephalitis after inland, riverine or irrigation-area exposure**, particularly in the warmer months and after flooding.
+> **Japanese encephalitis has a vaccine** and is now part of targeted Australian programmes. `UNVERIFIED — current eligibility for JE vaccination in Australia, per the Australian Immunisation Handbook and state health advice.`
+> Most infections are asymptomatic; a small minority develop encephalitis, and that minority carries substantial mortality and long-term neurological sequelae. Encephalitis assessment itself is owned by [[04_Neurology]], not repeated here.
+
+> [!info] **Zika** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Mosquito-borne, usually mild or asymptomatic, with fever, rash, conjunctivitis and arthralgia. **It matters almost entirely for its congenital risk** — infection in pregnancy causes fetal brain abnormalities including microcephaly. **Sexual transmission occurs**, which is why advice covers partners as well as travellers.
+> **The clinically relevant action is pre-conception and pregnancy travel advice**, not the acute illness. `UNVERIFIED — current Australian advice on conception delay after travel to an area with Zika transmission, and which areas currently qualify; Smartraveller and the Australian Immunisation Handbook would settle it.`
 
 ## Sepsis
 
@@ -222,6 +333,16 @@ no_baseline: 0
   - **Immediate/acute:** urgent neurosurgical/spinal referral, given the risk of progressive cord compression and irreversible neurological deficit if decompression is delayed — this shares the same time-critical, "don't wait for full work-up if focal deficit is present" urgency as cauda equina syndrome and malignant spinal cord compression (see [[04_Neurology]] for both, not repeated here); empirical broad-spectrum IV antibiotics started promptly, covering *S. aureus* (including MRSA where locally relevant) given this is the most common causative organism per the A/P above.
   - **Definitive:** surgical evacuation/decompression for large abscesses, evidence of cord compression, or those not responding to antibiotics alone; long-term antibiotics (often several weeks), refined once culture/sensitivity results (from blood cultures or surgical specimens) are available.
   - **Chronic/long-term:** address any identifiable source (e.g. treat the primary discitis or bacteraemia source) to prevent recurrence; rehabilitation if a neurological deficit has occurred, given recovery depends heavily on how promptly decompression occurred relative to deficit onset.
+
+## Added from unverified layer — suppurative lymphadenitis
+`SRC:K2_Skin_and_Soft_Tissue_Infection §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] **A large, tender, fluctuant node is not always a bacterial abscess**
+> **· Bacterial** — *S. aureus* and group A *Streptococcus*, acute and fluctuant, drained and treated as an abscess.
+> **· Mycobacterial** — **tuberculous cervical lymphadenitis, "scrofula"**: `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.` **matted, minimally tender nodes evolving over weeks**, with overlying violaceous skin and possible **sinus formation**. **Incision produces a chronically discharging sinus rather than resolution — the diagnostic step is aspiration or excision biopsy with mycobacterial culture, not drainage.**
+> **· Non-tuberculous mycobacterial lymphadenitis** — most often a **well child** with a single chronically enlarging cervical node and no systemic upset; managed surgically rather than with antibiotics.
+> **· *Bartonella henselae*** — regional lymphadenopathy weeks after a cat scratch, usually self-limiting. Owned by [[08_01-03_Infectious_Disease_-_Bacterial_Infections]] Cat scratch disease.
+> **· Malignancy** — **a persistent, hard, fixed or matted node is not an abscess and must not be drained as one.** Lymphoma is owned by [[10_02_Haemonc_-_Lymphomas_and_Multiple_Myeloma]].
 
 ## Nematode infections
 

@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 3
 ---
 
 ## Impetigo
@@ -76,3 +76,25 @@ no_baseline: 0
 > - Second-line: PO ivermectin (weight-based dosing; first-line specifically for crusted scabies) or topical malathion 0.5% (24h application) if permethrin fails or is unsuitable.
 > - For all patients: avoid close physical contact with others until treatment is complete; all household and close physical contacts should be treated at the same time, even if asymptomatic; launder, iron or tumble dry clothing, bedding, towels on the first day of treatment; advise that itch can last 4–6 weeks post eradication.
 > - School/childcare exclusion: until the day after appropriate treatment has commenced.
+
+
+## Added from unverified layer — Australian environmental and occupational skin infection
+`SRC:K2_Skin_and_Soft_Tissue_Infection §0.4, §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] ***Mycobacterium ulcerans* — Buruli / Bairnsdale ulcer** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **An Australian disease, and expanding.** Endemic on the **Mornington Peninsula and Bellarine Peninsula in Victoria**, with foci in **coastal Queensland and the Northern Territory**; possums and mosquitoes are implicated in transmission.
+> **A painless nodule or papule** — often dismissed as a bite — that over **weeks to months** becomes a **painless ulcer with characteristically undermined edges**, the skin overhanging a wider defect beneath. **The lack of pain and the lack of systemic upset are what make it slip past**, and the incubation is long enough that patients no longer connect it to a visit months earlier.
+> **The diagnostic test is PCR on a swab of the undermined edge.** Treatment is **prolonged combination antibiotic therapy, not primary surgery** — an important reversal of the instinct with any other chronic ulcer. `UNVERIFIED — the antibiotic combination and duration, and current endemic areas, per the Victorian Department of Health Buruli ulcer guidance and Therapeutic Guidelines: Antibiotic.`
+> **Ask where the patient has been in the last six months**, not the last week.
+
+> [!warning] **Nodular lymphangitis — a pattern with its own differential**
+> Not ordinary lymphangitis. **A chain of subcutaneous nodules ascending a limb along the lymphatics from an inoculation site**, developing over weeks, without the acute fever and systemic upset of streptococcal lymphangitis. The pattern itself names the differential:
+> **· Sporotrichosis** — after a **rose thorn, sphagnum moss or plant material injury in a gardener** ("rose gardener's disease"). Antifungal indications are listed in [[NEW_Drugs_05_Anti_infectives]].
+> **· *Mycobacterium marinum*** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.` — after **fish tank, aquarium or fish handling exposure** ("fish tank granuloma"). **Ask about the aquarium; nobody volunteers it.**
+> **· *Nocardia*** — after soil exposure, particularly in the immunosuppressed.
+> **· Tularaemia and leishmaniasis** — in the relevant geography, not Australian-acquired.
+> **The common failure is treating it as bacterial cellulitis for weeks.** Diagnosis needs **biopsy and culture with the laboratory told what is suspected**, because mycobacterial and fungal culture require different conditions and a longer incubation than a routine swab.
+
+> [!tip] **Two occupational lesions worth recognising** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **· Erysipeloid** — *Erysipelothrix rhusiopathiae*, from handling **raw fish, shellfish, poultry and pork**. A **violaceous, well-demarcated, spreading plaque on the hand or finger**, painful and itchy, that is **not** erysipelas and is often self-limiting. Butchers, fishmongers, abattoir workers and cooks.
+> **· Orf** — a parapoxvirus from **sheep and goats**, especially at lambing and around shearing. A **solitary firm nodule on the hand** that evolves through characteristic stages and **resolves on its own over weeks**. It needs recognition rather than treatment — the harm is an unnecessary excision or a course of antibiotics.

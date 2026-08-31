@@ -1,13 +1,18 @@
 ---
 block: GP, Preventive Medicine, Ethics & Communication
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Communication frameworks and technique are well established and reliable at intern level. **Service names, interpreter services and telehealth item numbers carry an `UNVERIFIED` marker** — verify against current Australian sources.
 > **This file is OSCE-critical and is written with actual FORMS OF WORDS rather than principles alone, because in an OSCE and at the bedside the difference is whether you can say the sentence.**
 >
-> **Open disclosure and handover are built in [[EBM1]] 0.5–0.6**, **cultural safety in [[AU1]] 0.3**, and **goals of care in [[GER2]] 0.6** — cross-referenced rather than repeated.
+> **Open disclosure and handover are built in [[EBM1_Evidence_and_Clinical_Process]] 0.5–0.6**, **cultural safety in [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.3**, and **goals of care in [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.6** — cross-referenced rather than repeated.
 
 ---
 
@@ -79,12 +84,12 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] Prognosis, and telling someone a person has died
 > **PROGNOSIS: ask first — "would it help to talk about time, or would you rather not?"**
 > **Use RANGES in units of time — "days to weeks", "weeks to short months", "months to a year" — never a single number, which is almost always wrong and is remembered exactly.**
-> **Acknowledge the uncertainty honestly: "I can't tell you precisely, and anyone who gives you an exact number is guessing. What I can say is..."** Cross-refer [[J5]] 0.4.
+> **Acknowledge the uncertainty honestly: "I can't tell you precisely, and anyone who gives you an exact number is guessing. What I can say is..."** Cross-refer [[J5_Oncological_Emergencies_and_Palliative_Care]] 0.4.
 > **TELLING SOMEONE A PERSON HAS DIED — in person wherever possible; if by phone, ask them to sit down and whether someone is with them.**
 > **"I'm so sorry, I have some very sad news. Despite everything we did, [name] died a short time ago."**
 > **Use the person's NAME. Say "died". Then be silent.**
-> **Afterwards: what happened, in simple terms · whether they suffered (answer honestly and kindly) · whether they were alone · the opportunity to SEE the body · practical information IN WRITING (certification, the funeral director, what to do next) · and bereavement contacts.** Cross-refer [[J5]] 0.6.
-> **CULTURE: some families and cultures expect information to go to the family first, or prefer that a dying person not be told directly.** **DO NOT ASSUME IN EITHER DIRECTION — ASK THE PATIENT, EARLY AND BEFORE THE NEWS EXISTS: "if there were ever difficult news, would you want me to tell you directly, or would you prefer I speak with your family?"** **Asking respects both the individual's right to know and the family's cultural framework.** Cross-refer [[AU1]] 0.3.
+> **Afterwards: what happened, in simple terms · whether they suffered (answer honestly and kindly) · whether they were alone · the opportunity to SEE the body · practical information IN WRITING (certification, the funeral director, what to do next) · and bereavement contacts.** Cross-refer [[J5_Oncological_Emergencies_and_Palliative_Care]] 0.6.
+> **CULTURE: some families and cultures expect information to go to the family first, or prefer that a dying person not be told directly.** **DO NOT ASSUME IN EITHER DIRECTION — ASK THE PATIENT, EARLY AND BEFORE THE NEWS EXISTS: "if there were ever difficult news, would you want me to tell you directly, or would you prefer I speak with your family?"** **Asking respects both the individual's right to know and the family's cultural framework.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.3.
 
 ---
 
@@ -98,7 +103,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· APOLOGISE FOR WHAT IS APOLOGISABLE.** "I'm sorry you've had that experience" is honest, is not an admission of liability, and defuses.
 > **· DO NOT become defensive, do not argue the facts early, and DO NOT BLAME OTHER STAFF OR OTHER TEAMS — it is unprofessional and it destroys confidence in all of you.**
 > **· AGREE CONCRETE ACTIONS with a timeframe, and offer the formal complaints pathway without defensiveness.**
-> **· AND KNOW WHEN TO STOP — if you feel unsafe, leave and get help.** Cross-refer [[N1]] 0.4.
+> **· AND KNOW WHEN TO STOP — if you feel unsafe, leave and get help.** Cross-refer [[N1_Mental_State_Examination_and_Risk]] 0.4.
 
 > [!warning] When the patient asks for something you should not give
 > **Antibiotics for a viral illness, a scan that is not indicated, opioids, a certificate you cannot justify.**
@@ -120,10 +125,10 @@ source: built in chat, model knowledge, NOT source-verified
 > **· "What would be an unacceptable outcome for her?"**
 > **· "Has she ever talked about what she'd want if she became very unwell?"**
 > **Then make a RECOMMENDATION, rather than handing over a menu: "Based on what you've told me about her, I'd recommend we focus on keeping her comfortable and free of pain, and that we don't put her through intensive care, which I don't think would help her and would be distressing. How does that sit with you?"**
-> **Families should not be made to feel they are deciding to end a life. The clinical team recommends; the family tells us about the person.** Cross-refer [[GER2]] 0.6 and [[A10]] 0.3.
+> **Families should not be made to feel they are deciding to end a life. The clinical team recommends; the family tells us about the person.** Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.6 and [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3.
 
 > [!tip] Three other difficult conversations
-> **· DELIVERING A DIAGNOSIS THE PATIENT MAY NOT ACCEPT — functional neurological disorder, chronic pain, somatic symptom disorder.** **The key is to give a POSITIVE diagnosis with a mechanism, to state clearly that you believe the symptoms are real, and to avoid "there's nothing wrong" and "it's stress".** Cross-refer [[N6]] 0.1.
+> **· DELIVERING A DIAGNOSIS THE PATIENT MAY NOT ACCEPT — functional neurological disorder, chronic pain, somatic symptom disorder.** **The key is to give a POSITIVE diagnosis with a mechanism, to state clearly that you believe the symptoms are real, and to avoid "there's nothing wrong" and "it's stress".** Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.1.
 > **· THE PATIENT WHO DOES NOT WANT TO KNOW — a legitimate choice. Confirm it, document it, and leave the door open: "that's completely fine, and if you change your mind at any point, just say."**
 > **· FAMILY DISAGREEMENT — bring them together where possible, return repeatedly to what the PATIENT would have wanted rather than what each family member wants, and name the conflict gently: "I can see you each want the best for him and you see it differently. Can we come back to what he would say?"**
 
@@ -148,7 +153,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· CONFIRM the interpreter and patient are comfortable with each other — in small communities the interpreter may be known to the patient, which can inhibit disclosure, and an alternative or telephone interpreter may be preferable.**
 
 > [!warning] Communicating across cultural difference
-> **The full treatment is in [[AU1]] 0.3. The consultation-level points:**
+> **The full treatment is in [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.3. The consultation-level points:**
 > **· CULTURAL SAFETY IS DEFINED BY THE PERSON RECEIVING THE CARE, not by your assessment of your own competence.**
 > **· DO NOT ASSUME from a name, an appearance or a country of birth. ASK: "is there anything about your background or beliefs that would help me look after you better?"**
 > **· GRATUITOUS CONCURRENCE — agreeing to be polite or to end an uncomfortable exchange — means "do you understand?" produces unreliable answers. Use teach-back instead.**
@@ -173,7 +178,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!danger] Communicate risk in natural frequencies, never in relative terms
 > **THE RULES:**
-> **· USE ABSOLUTE NUMBERS, NOT RELATIVE ONES.** "It halves your risk" is uninterpretable and misleading. Cross-refer [[PH1]] 0.4.
+> **· USE ABSOLUTE NUMBERS, NOT RELATIVE ONES.** "It halves your risk" is uninterpretable and misleading. Cross-refer [[PH1_Population_Health_and_Research_Literacy]] 0.4.
 > **· USE NATURAL FREQUENCIES with a CONSISTENT DENOMINATOR: "out of 100 people like you, about 3 will have a stroke in the next 5 years without treatment, and about 2 with it."**
 > **· PRESENT BOTH BENEFIT AND HARM, in the same format and with the same denominator — presenting benefit as a frequency and harm as a percentage distorts the comparison.**
 > **· USE VISUAL AIDS and validated decision aids where they exist — icon arrays are understood far better than numbers alone.**
@@ -198,7 +203,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] Telehealth — the things that are easy to forget
 > **· CONFIRM IDENTITY AND, CRITICALLY, THE PATIENT'S PHYSICAL LOCATION at the start of every consultation.** **If they deteriorate or disclose a risk of harm, you need to know where to send help — and you cannot ask afterwards if the call drops.**
 > **· CONFIRM PRIVACY AT BOTH ENDS, and ASK WHO ELSE IS IN THE ROOM.**
-> **THIS IS NOT ADMINISTRATIVE — IT IS A SAFETY QUESTION.** **You cannot see the room, so you cannot see the controlling partner sitting off-camera, or the parent listening to an adolescent's consultation.** **Ask directly: "is there anyone else with you, or able to hear us?"** — and if the answers seem constrained, adapt. **Yes/no questions the patient can answer safely are a recognised technique.** Cross-refer [[GER4]] 0.4 and [[M7]] 0.3.
+> **THIS IS NOT ADMINISTRATIVE — IT IS A SAFETY QUESTION.** **You cannot see the room, so you cannot see the controlling partner sitting off-camera, or the parent listening to an adolescent's consultation.** **Ask directly: "is there anyone else with you, or able to hear us?"** — and if the answers seem constrained, adapt. **Yes/no questions the patient can answer safely are a recognised technique.** Cross-refer [[GER4_Safeguarding_and_Forensic]] 0.4 and [[M7_Adolescent_and_Behavioural_Health]] 0.3.
 > **· CONSENT to the modality, and document that it was a telehealth consultation.**
 > **· HAVE A BACKUP PLAN for technology failure, agreed at the start.**
 > **· KNOW THE LIMITS: no examination, degraded non-verbal cues, and unsuitability for a genuinely unwell patient, an undifferentiated first presentation with red flags, or a situation needing an examination to exclude something dangerous.**
@@ -206,13 +211,13 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!tip] Written communication, and boundaries
 > **· TO PATIENTS: plain language, short sentences, ACTIONABLE — what to do, when, and what should prompt them to seek help.** Assume it will be read by someone anxious.
-> **· TO COLLEAGUES: ISBAR for verbal handover, and a discharge summary that states what CHANGED and WHO owns the outstanding items.** Cross-refer [[EBM1]] 0.5.
+> **· TO COLLEAGUES: ISBAR for verbal handover, and a discharge summary that states what CHANGED and WHO owns the outstanding items.** Cross-refer [[EBM1_Evidence_and_Clinical_Process]] 0.5.
 > **· DOCUMENT THE CONVERSATION ITSELF — particularly for bad news, goals of care, consent, and any discussion of risk: what was discussed, what the patient understood, what was agreed, and who was present.** **A conversation that is not documented cannot be built on by the next clinician, who then has it again — which is exhausting and distressing for the family.**
-> **· PROFESSIONAL BOUNDARIES: do not give clinical advice outside a proper clinical relationship, including on social media and in messaging apps; be careful with any online presence that identifies you as a doctor; and do not treat yourself, your family or your friends — you cannot take an objective history and you will skip the examination and the difficult questions.** Cross-refer [[GER3]] 0.6 and [[A10]] 0.4.
+> **· PROFESSIONAL BOUNDARIES: do not give clinical advice outside a proper clinical relationship, including on social media and in messaging apps; be careful with any online presence that identifies you as a doctor; and do not treat yourself, your family or your friends — you cannot take an objective history and you will skip the examination and the difficult questions.** Cross-refer [[GER3_Preventive_and_Occupational_Health]] 0.6 and [[A10_Ethics__Capacity__Consent_and_Certification]] 0.4.
 
 **Ix:** Not applicable — the analogous discipline for this file, and the items most often marked in an OSCE: **ASK ICE, EARLY AND NATURALLY** (*why:* the patient's concern determines what the consultation is actually about, and it is explicitly assessed; *what:* their idea, their fear, their expectation). **FIND OUT WHAT THEY ALREADY KNOW BEFORE DELIVERING NEWS** (*why:* it tells you where to start and frequently reveals they already suspect; *what:* their current understanding). **GIVE A WARNING SHOT, THEN PAUSE, THEN BE SILENT** (*why:* the silence after bad news is the most important part of the conversation and the hardest to tolerate; *what:* space for the emotion). **USE THE WORD — "cancer", "died"** (*why:* euphemism causes families to leave without understanding what happened; *what:* unambiguous understanding). **BOOK A PROFESSIONAL INTERPRETER AND DOUBLE THE TIME** (*why:* family members filter and children must never be used; *what:* an accurate, private consultation). **TEACH-BACK, PHRASED AS A CHECK ON YOUR EXPLANATION** (*why:* "do you understand?" reliably produces yes, and health literacy is not predictable from appearances; *what:* actual comprehension). **ABSOLUTE NUMBERS WITH A CONSISTENT DENOMINATOR** (*why:* relative risk is uninterpretable and verbal descriptors are understood inconsistently; *what:* a decision the person can actually make). **CONFIRM LOCATION AND WHO ELSE IS PRESENT IN EVERY TELEHEALTH CONSULTATION** (*why:* you cannot see the room, and you may need to send help; *what:* safety). **DOCUMENT THE CONVERSATION** (*why:* so the family does not have to have it again with the next clinician; *what:* what was discussed, understood and agreed).
 
 ---
 
 > [!note] Cross-references
-> Handover, ISBAR, discharge summaries and open disclosure → [[EBM1]] 0.5–0.6 · Preventive consultation, behaviour change and motivational interviewing → [[GER3]] 0.1, 0.5 · Safeguarding, seeing the person alone and interpreter rules → [[GER4]] · Goals of care, advance care planning and the dying patient → [[GER2]] 0.5–0.6 and [[J5]] 0.4, 0.6 · Consent, capacity and information disclosure → [[A10]] 0.1–0.2 · Cultural safety, gratuitous concurrence and Aboriginal Liaison Officers → [[AU1]] 0.3 · Risk communication and absolute numbers → [[PH1]] 0.4 · Explaining a functional diagnosis → [[N6]] 0.1 · De-escalating the angry or agitated person → [[N1]] 0.4 · Adolescent confidentiality → [[M7]] 0.3 · Diagnosis disclosure in developmental disability → [[M4]] 0.6 · Clinician self-care and having your own GP → [[GER3]] 0.6
+> Handover, ISBAR, discharge summaries and open disclosure → [[EBM1_Evidence_and_Clinical_Process]] 0.5–0.6 · Preventive consultation, behaviour change and motivational interviewing → [[GER3_Preventive_and_Occupational_Health]] 0.1, 0.5 · Safeguarding, seeing the person alone and interpreter rules → [[GER4_Safeguarding_and_Forensic]] · Goals of care, advance care planning and the dying patient → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5–0.6 and [[J5_Oncological_Emergencies_and_Palliative_Care]] 0.4, 0.6 · Consent, capacity and information disclosure → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.2 · Cultural safety, gratuitous concurrence and Aboriginal Liaison Officers → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.3 · Risk communication and absolute numbers → [[PH1_Population_Health_and_Research_Literacy]] 0.4 · Explaining a functional diagnosis → [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.1 · De-escalating the angry or agitated person → [[N1_Mental_State_Examination_and_Risk]] 0.4 · Adolescent confidentiality → [[M7_Adolescent_and_Behavioural_Health]] 0.3 · Diagnosis disclosure in developmental disability → [[M4_Growth_and_Development]] 0.6 · Clinician self-care and having your own GP → [[GER3_Preventive_and_Occupational_Health]] 0.6

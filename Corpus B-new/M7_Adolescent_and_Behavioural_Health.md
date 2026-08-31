@@ -1,13 +1,18 @@
 ---
 block: Paediatrics
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Frameworks, consultation approach and clinical reasoning are reliable at intern level. **Every dose, age threshold and legal provision carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **The legal position on consent by minors, mandatory reporting of sexual activity, and stimulant prescribing authority are all SOUTH AUSTRALIA-SPECIFIC and must be verified** against the **Consent to Medical Treatment and Palliative Care Act 1995 (SA)**, SA Health policy, and the SA Drugs of Dependence provisions. **Do not apply another state's rules.**
 >
-> **Mental health assessment is built in [[N1]]**, **eating disorders in [[N8]]**, **sexual health and gender diversity in [[O6]]**, and **safeguarding in [[GER4]]** — cross-referenced rather than repeated.
+> **Mental health assessment is built in [[N1_Mental_State_Examination_and_Risk]]**, **eating disorders in [[N8_Eating_Disorders]]**, **sexual health and gender diversity in [[O6_Sexual_and_Reproductive_Health]]**, and **safeguarding in [[GER4_Safeguarding_and_Forensic]]** — cross-referenced rather than repeated.
 
 ---
 
@@ -42,11 +47,11 @@ source: built in chat, model knowledge, NOT source-verified
 > [!info] The domains
 > **· H — HOME.** Who lives at home, relationships, recent moves or changes, safety, who they can talk to, whether they have ever had to leave.
 > **· E — EDUCATION and EMPLOYMENT.** School, performance and any CHANGE in it, engagement, bullying (giving and receiving), suspensions, plans, part-time work.
-> **· E — EATING.** Eating patterns, body image, weight concerns, dieting, exercise, food security. Cross-refer [[N8]] 0.1.
+> **· E — EATING.** Eating patterns, body image, weight concerns, dieting, exercise, food security. Cross-refer [[N8_Eating_Disorders]] 0.1.
 > **· A — ACTIVITIES.** Friends, hobbies, sport, what they do outside school, ONLINE life and screen use.
-> **· D — DRUGS.** Tobacco and VAPING, alcohol, cannabis and other substances — including energy drinks and supplements. Cross-refer [[N2]].
-> **· S — SEXUALITY.** Relationships, sexual activity, orientation and gender identity, contraception, STI risk, consent and coercion. Cross-refer [[O6]].
-> **· S — SUICIDE, self-harm and mental health.** Mood, sleep, anhedonia, self-harm, suicidal thoughts. Cross-refer [[N1]] 0.3.
+> **· D — DRUGS.** Tobacco and VAPING, alcohol, cannabis and other substances — including energy drinks and supplements. Cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]].
+> **· S — SEXUALITY.** Relationships, sexual activity, orientation and gender identity, contraception, STI risk, consent and coercion. Cross-refer [[O6_Sexual_and_Reproductive_Health]].
+> **· S — SUICIDE, self-harm and mental health.** Mood, sleep, anhedonia, self-harm, suicidal thoughts. Cross-refer [[N1_Mental_State_Examination_and_Risk]] 0.3.
 > **· S — SAFETY.** Violence at home or outside, injury, seatbelts and helmets, driving and passenger behaviour, weapons, abuse, online safety.
 
 > [!tip] The technique matters more than the checklist
@@ -73,7 +78,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Capacity is DECISION-SPECIFIC and depends on the young person's understanding, not their age alone.** **A "mature minor" who understands the nature and consequences of a proposed treatment may consent to it themselves.**
 > **South Australia has SPECIFIC STATUTORY PROVISIONS governing consent by minors, which differ from the common law position in other states.**
 > **`UNVERIFIED — the SA provisions, the relevant ages, and the requirements (including any requirement for a second practitioner's opinion). Verify against the Consent to Medical Treatment and Palliative Care Act 1995 (SA) and SA Health policy. Do NOT apply another jurisdiction's rules.`**
-> Cross-refer [[A10]] 0.1.
+> Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1.
 > **PARENTAL INVOLVEMENT SHOULD BE ENCOURAGED, NOT COMPELLED.** **In most situations, involving a supportive parent produces better outcomes — and part of the clinical work is helping the young person find a way to tell them, rather than either forcing disclosure or colluding in secrecy.**
 > **Ask: "who could you tell about this?" and "what would help you talk to your mum about it?"**
 
@@ -82,7 +87,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Risk of serious harm to the young person or to others.**
 > **· Specific legal provisions regarding sexual activity involving young people below defined ages, or involving significant age gaps or a position of power or authority.**
 > **`UNVERIFIED — the SA mandatory reporting requirements, the ages, and the specific provisions relating to sexual activity. These are legal obligations and must be confirmed.`**
-> Cross-refer [[GER4]].
+> Cross-refer [[GER4_Safeguarding_and_Forensic]].
 > **Where a report must be made, tell the young person, explain why, and support them through it wherever it is safe to do so.**
 
 ---
@@ -92,27 +97,27 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] Mental health — half of all lifetime mental illness begins by the mid-teens
 > **Depression, anxiety, self-harm, eating disorders and emerging psychotic illness all have their onset in adolescence**, which makes this the highest-yield period for detection and early intervention.
 > **Presentations are frequently indirect: declining school performance · social withdrawal · irritability rather than sadness · somatic symptoms (headache, abdominal pain, fatigue) · substance use · and risk-taking.**
-> **In Australia, headspace provides youth-specific mental health services**, and referral is straightforward and does not require a crisis. Cross-refer [[N1]], [[N4]] and [[N5]]. `UNVERIFIED — services and access.`
+> **In Australia, headspace provides youth-specific mental health services**, and referral is straightforward and does not require a crisis. Cross-refer [[N1_Mental_State_Examination_and_Risk]], [[N4_Mood_Disorders]] and [[N5_Anxiety__OCD_and_Trauma]]. `UNVERIFIED — services and access.`
 
 > [!tip] Substance use, and the one that has changed fastest
 > **VAPING has become a major and rapidly evolving issue among Australian adolescents** — with high nicotine content, rapid dependence, marketing directed at young people, and a regulatory environment that has changed substantially and continues to. **Ask about it specifically and separately from smoking, because young people do not classify vaping as smoking.** `UNVERIFIED — the current Australian regulatory position, which has changed recently.`
-> **Also: alcohol (including the pattern of drinking, not just the quantity), cannabis (with its association with psychosis in vulnerable young people), and other substances.** Cross-refer [[N2]].
+> **Also: alcohol (including the pattern of drinking, not just the quantity), cannabis (with its association with psychosis in vulnerable young people), and other substances.** Cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]].
 > **Ask about PEERS FIRST, then them** — "do people at your school vape?" before "do you?"
 
 > [!warning] Sexual health, and LARC in adolescents
-> **· Contraception: LONG-ACTING REVERSIBLE CONTRACEPTION (implant, IUD) is SAFE, EFFECTIVE and APPROPRIATE in adolescents — including those who have never been pregnant — and it is substantially UNDER-OFFERED to this group.** **Nulliparity is not a contraindication to an IUD.** Cross-refer [[O6]] 0.3.
+> **· Contraception: LONG-ACTING REVERSIBLE CONTRACEPTION (implant, IUD) is SAFE, EFFECTIVE and APPROPRIATE in adolescents — including those who have never been pregnant — and it is substantially UNDER-OFFERED to this group.** **Nulliparity is not a contraindication to an IUD.** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.3.
 > **· STI testing, emergency contraception, and HPV vaccination status.**
 > **· CONSENT AND COERCION — ask about whether relationships feel equal and safe, about age gaps, about pressure, and about image sharing.**
-> **· GENDER IDENTITY AND SEXUAL ORIENTATION — cross-refer [[O6]] 0.6.**
+> **· GENDER IDENTITY AND SEXUAL ORIENTATION — cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.6.**
 > **LGBTIQA+ young people have substantially higher rates of psychological distress, self-harm and suicidality — and this is driven by STIGMA, REJECTION, DISCRIMINATION AND BULLYING, not by their identity.** **FAMILY ACCEPTANCE IS STRONGLY PROTECTIVE**, which makes supporting families through that process a genuine clinical intervention. **Use the young person's chosen name and pronouns, and record them.**
 
 > [!tip] The rest of adolescent practice
 > **· ACNE — with a psychosocial impact that is routinely under-estimated by clinicians and is a genuine contributor to depression. Treat it properly.** **Isotretinoin requires pregnancy prevention and mood monitoring.** Cross-refer the dermatology block.
-> **· SLEEP — the biological phase delay of puberty against early school start times produces chronic sleep restriction, with effects on mood, learning and risk behaviour.** Cross-refer [[N7]] 0.3.
-> **· CHRONIC ILLNESS IN ADOLESCENCE — adherence typically deteriorates, risk-taking interacts with the condition, and TRANSITION TO ADULT SERVICES is a high-risk period with well-documented loss to follow-up and deterioration.** **Transition should be planned and gradual, not an abrupt handover at a birthday.** **In type 1 diabetes specifically, ask about insulin omission** — cross-refer [[I2]] 0.3 and [[N8]] 0.5.
+> **· SLEEP — the biological phase delay of puberty against early school start times produces chronic sleep restriction, with effects on mood, learning and risk behaviour.** Cross-refer [[N7_Sleep_Disorders]] 0.3.
+> **· CHRONIC ILLNESS IN ADOLESCENCE — adherence typically deteriorates, risk-taking interacts with the condition, and TRANSITION TO ADULT SERVICES is a high-risk period with well-documented loss to follow-up and deterioration.** **Transition should be planned and gradual, not an abrupt handover at a birthday.** **In type 1 diabetes specifically, ask about insulin omission** — cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.3 and [[N8_Eating_Disorders]] 0.5.
 > **· FATIGUE — a common presentation with a broad differential: inadequate sleep, depression, anaemia and iron deficiency, hypothyroidism, coeliac disease, glandular fever, and chronic fatigue.** **Take it seriously and investigate proportionately rather than dismissing it.**
-> **· BODY IMAGE IN BOYS — muscularity-oriented concerns, supplement use and ANABOLIC STEROID use are under-recognised and rarely asked about, and boys are under-diagnosed with eating disorders as a result.** Cross-refer [[N8]] 0.1.
-> **· Sport injury, overtraining, and relative energy deficiency in sport** — cross-refer [[O4]] 0.4 and [[L5]] 0.7.
+> **· BODY IMAGE IN BOYS — muscularity-oriented concerns, supplement use and ANABOLIC STEROID use are under-recognised and rarely asked about, and boys are under-diagnosed with eating disorders as a result.** Cross-refer [[N8_Eating_Disorders]] 0.1.
+> **· Sport injury, overtraining, and relative energy deficiency in sport** — cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] 0.4 and [[L5_Regional_Limb_Pain]] 0.7.
 
 ---
 
@@ -132,7 +137,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **The child presents to a doctor, not a psychologist — with RECURRENT ABDOMINAL PAIN, HEADACHE, nausea or fatigue.**
 > **THE DIAGNOSTIC CLUE IS THE TEMPORAL PATTERN: symptoms occur on SCHOOL MORNINGS, resolve once the child is allowed to stay home, and are ABSENT on weekends and school holidays.**
 > **Ask explicitly: "does this happen at weekends?" and "what about in the school holidays?"**
-> **The symptoms are REAL — anxiety produces genuine gastrointestinal and autonomic symptoms — and telling a family the pain is "not real" or "just anxiety" is both inaccurate and destroys the alliance.** Cross-refer [[N6]] 0.2.
+> **The symptoms are REAL — anxiety produces genuine gastrointestinal and autonomic symptoms — and telling a family the pain is "not real" or "just anxiety" is both inaccurate and destroys the alliance.** Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.2.
 
 > [!danger] Duration of absence predicts difficulty of return — and medical certificates entrench it
 > **The longer a young person is out of school, the harder return becomes** — anxiety about attending is reinforced by avoidance, academic gaps widen, peer relationships lapse, and the home becomes a comfortable refuge.
@@ -144,7 +149,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Oppositional behaviour, aggression, defiance and conduct problems are presentations, not diagnoses. Look for:**
 > **· UNDIAGNOSED ADHD, AUTISM or LEARNING DIFFICULTY — a child who cannot access the curriculum or cannot regulate attention will disrupt rather than admit failure.**
 > **· HEARING OR VISION IMPAIRMENT.**
-> **· TRAUMA AND ADVERSITY — family violence, abuse, neglect, parental substance use or mental illness, bereavement, housing instability.** **"What happened to you" rather than "what's wrong with you".** Cross-refer [[N5]] 0.5.
+> **· TRAUMA AND ADVERSITY — family violence, abuse, neglect, parental substance use or mental illness, bereavement, housing instability.** **"What happened to you" rather than "what's wrong with you".** Cross-refer [[N5_Anxiety__OCD_and_Trauma]] 0.5.
 > **· MOOD DISORDER — depression in adolescents frequently presents as IRRITABILITY and anger rather than sadness.**
 > **· SUBSTANCE USE.**
 > **· SLEEP disorder.**
@@ -168,8 +173,8 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] The differential — check the treatable and reversible things first
 > **Before diagnosing ADHD, consider and exclude:**
 > **· HEARING IMPAIRMENT and VISION impairment — a child who cannot hear the teacher looks inattentive.**
-> **· SLEEP DISORDER, particularly OBSTRUCTIVE SLEEP APNOEA.** **In children, OSA presents with HYPERACTIVITY, inattention and behavioural problems RATHER than sleepiness.** **ASK ABOUT SNORING IN EVERY CHILD BEING ASSESSED FOR ADHD** — adenotonsillectomy can resolve the behavioural picture entirely. Cross-refer [[N7]] 0.6 and [[RESP-X]] 0.5.
-> **· ABSENCE EPILEPSY — brief staring spells misread as inattention. Hyperventilate the child.** Cross-refer [[M6]] 0.6.
+> **· SLEEP DISORDER, particularly OBSTRUCTIVE SLEEP APNOEA.** **In children, OSA presents with HYPERACTIVITY, inattention and behavioural problems RATHER than sleepiness.** **ASK ABOUT SNORING IN EVERY CHILD BEING ASSESSED FOR ADHD** — adenotonsillectomy can resolve the behavioural picture entirely. Cross-refer [[N7_Sleep_Disorders]] 0.6 and [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.5.
+> **· ABSENCE EPILEPSY — brief staring spells misread as inattention. Hyperventilate the child.** Cross-refer [[M6_Paediatric_Respiratory_and_Neurology]] 0.6.
 > **· ANXIETY and DEPRESSION — both impair concentration.**
 > **· TRAUMA — hypervigilance and dysregulation are readily mistaken for ADHD, and the treatment is different.**
 > **· SPECIFIC LEARNING DISORDER — a child who cannot read will not attend to reading.**
@@ -191,12 +196,12 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] Two things worth telling families
 > **1. UNTREATED ADHD HAS REAL CONSEQUENCES — academic underachievement, injury and accident risk, substance use, and involvement with the justice system are all increased, and treatment reduces several of these.** This matters when families are hesitant about medication because of what they have read.
 > **2. IT IS NOT A PARENTING FAILURE.** Families with a child with ADHD have usually been told, implicitly or explicitly, that they are the problem — by schools, by relatives, and sometimes by clinicians. **Saying plainly that this is a neurodevelopmental condition, not the result of how they have parented, is therapeutic.**
-> **Also: AUTISM in adolescence — masking, social exhaustion, late diagnosis particularly in girls, and high rates of coexisting anxiety and depression.** Cross-refer [[M4]] 0.6.
+> **Also: AUTISM in adolescence — masking, social exhaustion, late diagnosis particularly in girls, and high rates of coexisting anxiety and depression.** Cross-refer [[M4_Growth_and_Development]] 0.6.
 > **TRANSITION TO ADULT SERVICES is a documented point of loss to follow-up** — for ADHD, autism, chronic illness and mental health alike. **It should be planned over years, not effected at a birthday.**
 
-**Ix:** **A psychosocial (HEEADSSS) assessment conducted with the young person ALONE** (*why:* the information that matters most will not be disclosed with a parent present, and this is often the only opportunity; *what:* risk and protective factors). **Information from SCHOOL and standardised rating scales from multiple informants where ADHD is suspected** (*why:* the diagnosis requires impairment in more than one setting and cannot be made from one consultation; *what:* cross-setting impairment). **HEARING AND VISION assessment** (*why:* both mimic inattention and behavioural problems and are treatable; *what:* impairment). **Ask about SNORING and sleep** (*why:* obstructive sleep apnoea in children presents as hyperactivity and inattention, and is curable; *what:* snoring, witnessed apnoea, restless sleep). **FBC and ferritin, TFTs, coeliac serology where fatigue or inattention is unexplained** (*why:* common, treatable and easily missed; *what:* deficiency, thyroid dysfunction, coeliac disease). **Baseline height, weight, heart rate and blood pressure before stimulants, with a cardiac and family history** (*why:* growth suppression and cardiovascular monitoring, and a family history of sudden death changes the assessment; *what:* baseline parameters). Pregnancy test and STI screening where indicated, discussed and taken privately (*why:* confidentiality determines disclosure; *what:* pregnancy, infection). **Consideration of mandatory reporting obligations at every adolescent presentation** (*why:* a legal duty, and the disclosure may only come once; *what:* the reportable concern — cross-refer [[GER4]]).
+**Ix:** **A psychosocial (HEEADSSS) assessment conducted with the young person ALONE** (*why:* the information that matters most will not be disclosed with a parent present, and this is often the only opportunity; *what:* risk and protective factors). **Information from SCHOOL and standardised rating scales from multiple informants where ADHD is suspected** (*why:* the diagnosis requires impairment in more than one setting and cannot be made from one consultation; *what:* cross-setting impairment). **HEARING AND VISION assessment** (*why:* both mimic inattention and behavioural problems and are treatable; *what:* impairment). **Ask about SNORING and sleep** (*why:* obstructive sleep apnoea in children presents as hyperactivity and inattention, and is curable; *what:* snoring, witnessed apnoea, restless sleep). **FBC and ferritin, TFTs, coeliac serology where fatigue or inattention is unexplained** (*why:* common, treatable and easily missed; *what:* deficiency, thyroid dysfunction, coeliac disease). **Baseline height, weight, heart rate and blood pressure before stimulants, with a cardiac and family history** (*why:* growth suppression and cardiovascular monitoring, and a family history of sudden death changes the assessment; *what:* baseline parameters). Pregnancy test and STI screening where indicated, discussed and taken privately (*why:* confidentiality determines disclosure; *what:* pregnancy, infection). **Consideration of mandatory reporting obligations at every adolescent presentation** (*why:* a legal duty, and the disclosure may only come once; *what:* the reportable concern — cross-refer [[GER4_Safeguarding_and_Forensic]]).
 
 ---
 
 > [!note] Cross-references
-> The seriously unwell child → [[M1]] · Growth, puberty, autism and developmental assessment → [[M4]] · Paediatric abdominal pain and functional pain → [[M5]] 0.1 · Absence epilepsy and paediatric neurology → [[M6]] 0.6 · CHILD PROTECTION AND MANDATORY REPORTING → [[GER4]] · Capacity, consent and the mature minor → [[A10]] 0.1 · Risk assessment, self-harm and suicidality → [[N1]] 0.2–0.3 · Substance use and vaping → [[N2]] · Mood and anxiety disorders → [[N4]] and [[N5]] · Trauma-informed practice → [[N5]] 0.5 · Somatic symptom and functional disorders → [[N6]] 0.2 · Sleep phase delay and OSA in children → [[N7]] 0.3, 0.6 and [[RESP-X]] 0.5 · Eating disorders, ARFID and body image in boys → [[N8]] · Contraception, LARC, STIs and gender diversity → [[O6]] · Functional hypothalamic amenorrhoea and RED-S → [[O4]] 0.4 and [[L5]] 0.7 · Type 1 diabetes and insulin omission → [[I2]] 0.3 · Preventive health and immunisation → [[GER3]] · Aboriginal and Torres Strait Islander youth health → [[AU1]] 0.4
+> The seriously unwell child → [[M1_The_Seriously_Unwell_Child]] · Growth, puberty, autism and developmental assessment → [[M4_Growth_and_Development]] · Paediatric abdominal pain and functional pain → [[M5_Paediatric_GI__GU_and_Limb]] 0.1 · Absence epilepsy and paediatric neurology → [[M6_Paediatric_Respiratory_and_Neurology]] 0.6 · CHILD PROTECTION AND MANDATORY REPORTING → [[GER4_Safeguarding_and_Forensic]] · Capacity, consent and the mature minor → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1 · Risk assessment, self-harm and suicidality → [[N1_Mental_State_Examination_and_Risk]] 0.2–0.3 · Substance use and vaping → [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] · Mood and anxiety disorders → [[N4_Mood_Disorders]] and [[N5_Anxiety__OCD_and_Trauma]] · Trauma-informed practice → [[N5_Anxiety__OCD_and_Trauma]] 0.5 · Somatic symptom and functional disorders → [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.2 · Sleep phase delay and OSA in children → [[N7_Sleep_Disorders]] 0.3, 0.6 and [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.5 · Eating disorders, ARFID and body image in boys → [[N8_Eating_Disorders]] · Contraception, LARC, STIs and gender diversity → [[O6_Sexual_and_Reproductive_Health]] · Functional hypothalamic amenorrhoea and RED-S → [[O4_Abnormal_and_Menstrual_Bleeding]] 0.4 and [[L5_Regional_Limb_Pain]] 0.7 · Type 1 diabetes and insulin omission → [[I2_Diabetes_and_Glucose_Disorders]] 0.3 · Preventive health and immunisation → [[GER3_Preventive_and_Occupational_Health]] · Aboriginal and Torres Strait Islander youth health → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4

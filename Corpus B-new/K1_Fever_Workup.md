@@ -1,13 +1,18 @@
 ---
 block: Immunology, Allergy & Infectious Disease
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Diagnostic reasoning, mechanism and discriminators are reliable at intern level. **Every temperature threshold, neutrophil cut-off, time target, dose and duration carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **All empirical antimicrobial regimens are omitted** — obtain them from **eTG Antibiotic** and your health network's protocol, since local antibiograms drive the choice. Notifiable disease obligations must be checked against **SA Health**. Tropical and travel-related infection management should be confirmed with an infectious diseases service.
 >
-> Sepsis recognition and management is built in [[F0.3]] 0.7 and [[A1]] 0.2 and is cross-referenced rather than repeated.
+> Sepsis recognition and management is built in [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.7 and [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2 and is cross-referenced rather than repeated.
 
 ---
 
@@ -21,12 +26,12 @@ source: built in chat, model knowledge, NOT source-verified
 > [!tip] Fever is not hyperthermia, and the distinction changes treatment
 > **Fever** — set point raised, body defends it, **antipyretics work** because they inhibit prostaglandin synthesis and lower the set point.
 > **Hyperthermia** — set point normal, heat production or retention exceeds dissipation. **Antipyretics do NOT work.** Heat stroke, malignant hyperthermia, neuroleptic malignant syndrome, serotonin toxicity, thyroid storm.
-> The full comparison is in [[A6]] 0.3. **Reaching for paracetamol in a hyperthermic patient wastes time in a condition where time matters.**
+> The full comparison is in [[A6_Thermal_and_Environmental_Injury]] 0.3. **Reaching for paracetamol in a hyperthermic patient wastes time in a condition where time matters.**
 
 > [!danger] Absence of fever does not exclude infection
 > **Blunted or absent febrile responses occur in: the elderly · neonates · the immunosuppressed and those on corticosteroids · uraemic and dialysis patients · those on regular paracetamol or NSAIDs · and in overwhelming sepsis.**
 > **Hypothermia in a patient with infection is a marker of severity and a poor prognostic sign**, not reassurance.
-> In an older person, **new confusion, a fall, reduced oral intake or functional decline may be the only sign of a serious infection.** Cross-refer [[GER1]] 0.1.
+> In an older person, **new confusion, a fall, reduced oral intake or functional decline may be the only sign of a serious infection.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.1.
 
 > [!warning] Fever patterns are over-taught and under-useful
 > Tertian and quartan patterns in malaria, Pel-Ebstein fever in Hodgkin lymphoma, and relative bradycardia in typhoid are classical, examinable, and **unreliable in practice** — modified by antipyretics, timing of observations and treatment. **Do not exclude a diagnosis because the pattern does not fit.**
@@ -39,7 +44,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Drug fever** — see 0.6.
 > **· Endocrine** — thyroid storm, adrenal crisis, phaeochromocytoma.
 > **· Tissue necrosis and inflammation** — myocardial infarction, pancreatitis, resolving haematoma, gout, post-seizure.
-> **· Transfusion reactions** — cross-refer [[A9]] 0.2.
+> **· Transfusion reactions** — cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.2.
 > **· Factitious.**
 
 **S/Smx:** Temperature, rigors, sweats, and the localising features of the source — which must be actively sought rather than waited for.
@@ -47,7 +52,7 @@ source: built in chat, model knowledge, NOT source-verified
 **Ix:** See 0.2.
 
 ### 0.1.1 Mx – Immediate
-**Assess for sepsis first** — cross-refer [[F0.3]] 0.7. A febrile patient who is haemodynamically unwell gets cultures and antibiotics immediately; a febrile patient who is well gets a proper diagnostic assessment.
+**Assess for sepsis first** — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.7. A febrile patient who is haemodynamically unwell gets cultures and antibiotics immediately; a febrile patient who is well gets a proper diagnostic assessment.
 
 ### 0.1.2 Mx – Definitive
 Source-directed.
@@ -66,7 +71,7 @@ Cause-specific.
 > **· Mouth and teeth** — **dental abscess is a genuinely common occult source.**
 > **· Ears, sinuses, throat.**
 > **· Lymph nodes, all groups.**
-> **· Heart — for a new murmur.** Cross-refer [[B5]] 0.2.
+> **· Heart — for a new murmur.** Cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.2.
 > **· Abdomen, including the flanks and a rectal examination where indicated.**
 > **· Spine — percuss it.** **Discitis and epidural abscess present with fever and focal spinal tenderness, and are missed for weeks.**
 > **· Joints** — a septic joint may be the source or a metastatic consequence.
@@ -82,7 +87,7 @@ Cause-specific.
 > Premature antibiotics **sterilise cultures and obscure the diagnosis** — this is precisely how endocarditis and fever of unknown origin become undiagnosable.
 > **The exceptions where you treat immediately: sepsis or haemodynamic instability · neutropenia · asplenia · suspected meningitis · suspected necrotising infection · and the immunosuppressed.** In all of those, delay kills.
 
-**Ix:** **Blood cultures — at least two sets from separate sites, before antibiotics** (*why:* the single most important microbiological test, and yield falls sharply once antibiotics are given; *what:* organism and sensitivities). **FBC with differential and blood film** (*why:* neutrophilia, neutropenia, lymphopenia, atypical lymphocytes, eosinophilia (parasites, drug reaction) and blasts all redirect the differential, and the film is frequently diagnostic; *what:* the pattern). CRP, and ESR where an inflammatory or malignant cause is considered (*why:* CRP tracks acute infection; **a very high ESR with a modest CRP points toward giant cell arteritis, myeloma or malignancy**; *what:* the discordance is itself informative). UEC, LFT, lactate (*why:* organ dysfunction and hypoperfusion; *what:* derangement). **Urinalysis and culture, interpreted with care** (*why:* urinary tract infection is common, but **asymptomatic bacteriuria is very common in the elderly and catheterised, and a positive urine does not prove the fever's source** — cross-refer [[F0.3]] 0.10; *what:* pyuria, organism, in clinical context). **CXR** (*why:* pneumonia may have no localising signs in the elderly; *what:* consolidation, effusion, mass). Site-directed cultures — sputum, wound, stool, CSF, joint aspirate, drain fluid (*why:* identifies the organism at the source; *what:* growth). **CT of the relevant region where a collection is suspected** (*why:* occult intra-abdominal, pelvic, spinal and thoracic collections require drainage and are invisible clinically; *what:* collection, abscess). Echocardiography where endocarditis is possible — **transoesophageal if transthoracic is negative and suspicion persists** (*why:* TTE has limited sensitivity, particularly for prosthetic valves; *what:* vegetation, abscess). Viral serology and PCR as directed (*why:* EBV, CMV, HIV, hepatitis and respiratory viruses; *what:* pathogen). **HIV testing** (*why:* it is a treatable diagnosis, it changes the entire differential, and it is under-offered — testing should be routine rather than reserved for those who "look at risk"; *what:* positive serology).
+**Ix:** **Blood cultures — at least two sets from separate sites, before antibiotics** (*why:* the single most important microbiological test, and yield falls sharply once antibiotics are given; *what:* organism and sensitivities). **FBC with differential and blood film** (*why:* neutrophilia, neutropenia, lymphopenia, atypical lymphocytes, eosinophilia (parasites, drug reaction) and blasts all redirect the differential, and the film is frequently diagnostic; *what:* the pattern). CRP, and ESR where an inflammatory or malignant cause is considered (*why:* CRP tracks acute infection; **a very high ESR with a modest CRP points toward giant cell arteritis, myeloma or malignancy**; *what:* the discordance is itself informative). UEC, LFT, lactate (*why:* organ dysfunction and hypoperfusion; *what:* derangement). **Urinalysis and culture, interpreted with care** (*why:* urinary tract infection is common, but **asymptomatic bacteriuria is very common in the elderly and catheterised, and a positive urine does not prove the fever's source** — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.10; *what:* pyuria, organism, in clinical context). **CXR** (*why:* pneumonia may have no localising signs in the elderly; *what:* consolidation, effusion, mass). Site-directed cultures — sputum, wound, stool, CSF, joint aspirate, drain fluid (*why:* identifies the organism at the source; *what:* growth). **CT of the relevant region where a collection is suspected** (*why:* occult intra-abdominal, pelvic, spinal and thoracic collections require drainage and are invisible clinically; *what:* collection, abscess). Echocardiography where endocarditis is possible — **transoesophageal if transthoracic is negative and suspicion persists** (*why:* TTE has limited sensitivity, particularly for prosthetic valves; *what:* vegetation, abscess). Viral serology and PCR as directed (*why:* EBV, CMV, HIV, hepatitis and respiratory viruses; *what:* pathogen). **HIV testing** (*why:* it is a treatable diagnosis, it changes the entire differential, and it is under-offered — testing should be routine rather than reserved for those who "look at risk"; *what:* positive serology).
 
 ### 0.2.1 Mx – Immediate
 Sepsis pathway if unwell. Cultures before antibiotics. Antipyretics and fluids for comfort.
@@ -113,7 +118,7 @@ Subcategories: **classic, nosocomial, neutropenic, and HIV-associated** — each
 
 > [!warning] Resist empirical antibiotics and empirical steroids
 > **Both obscure the diagnosis without curing it.** Empirical antibiotics sterilise cultures and partially treat endocarditis into a culture-negative state; empirical steroids suppress fever in lymphoma, tuberculosis and vasculitis alike, and can be catastrophic in undiagnosed infection.
-> **The exception is suspected giant cell arteritis with visual symptoms**, where steroids are given immediately on suspicion because delay causes blindness. Cross-refer [[D1]] 0.4.
+> **The exception is suspected giant cell arteritis with visual symptoms**, where steroids are given immediately on suspicion because delay causes blindness. Cross-refer [[D1_Headache_and_Meningism]] 0.4.
 
 > [!tip] Targeted rather than shotgun investigation
 > **Every test should be prompted by a clinical clue.** Undirected panels generate false positives that then require chasing.
@@ -160,7 +165,7 @@ A proportion of FUO resolves spontaneously without a diagnosis ever being made, 
 > **· Viral haemorrhagic fever** — rare, but **if the epidemiology fits, isolate immediately and contact the infectious diseases service and public health before proceeding**, because laboratory handling and staff protection change.
 
 > [!warning] Australian-acquired infections matter too — do not assume "travel" means overseas
-> **· Melioidosis** — northern Australia, particularly during the wet season, and disproportionately affecting **people with diabetes, chronic kidney disease, harmful alcohol use, and Aboriginal and Torres Strait Islander people.** Presents as severe pneumonia, sepsis or abscesses. **Requires specific prolonged antimicrobial therapy** and is missed if not considered. Cross-refer [[F0.5]] 0.4.
+> **· Melioidosis** — northern Australia, particularly during the wet season, and disproportionately affecting **people with diabetes, chronic kidney disease, harmful alcohol use, and Aboriginal and Torres Strait Islander people.** Presents as severe pneumonia, sepsis or abscesses. **Requires specific prolonged antimicrobial therapy** and is missed if not considered. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.4.
 > **· Q fever** — abattoir, farm, veterinary and livestock exposure. **A vaccine exists and is recommended for at-risk occupations**, which is a preventive point worth knowing.
 > **· Murray Valley encephalitis and Japanese encephalitis** — mosquito-borne flaviviruses with recent Australian activity; consider in encephalitis after inland or riverine exposure.
 > **· Ross River and Barmah Forest virus** — fever, rash and prominent polyarthralgia, common and often prolonged.
@@ -199,7 +204,7 @@ Pathogen-specific therapy with infectious diseases involvement. **Radical cure w
 > **· Biologic agents** — **TNF inhibitors cause reactivation of latent tuberculosis, which is why screening before starting them is mandatory.** **Rituximab causes hepatitis B reactivation** (screen and prophylax) and predisposes to PJP and progressive multifocal leukoencephalopathy. **Eculizumab predisposes to meningococcal disease** and mandates vaccination.
 > **· Solid organ transplant** — the differential follows a **post-transplant timeline**: nosocomial and surgical infections in the first month; **opportunistic infections (CMV, PJP, fungal, reactivation) from one to six months**; and community-acquired plus late opportunistic infections thereafter.
 > **· HIV** — the differential is **stratified by CD4 count**, with PJP, cerebral toxoplasmosis, cryptococcal meningitis, CMV retinitis and disseminated *Mycobacterium avium* complex appearing at progressively lower counts. **A febrile patient of unknown HIV status should be tested.**
-> **· Asplenia and hyposplenism** — **encapsulated organisms**, and the risk of **overwhelming post-splenectomy infection**, which progresses from well to dead within hours. **These patients need immediate antibiotics with any fever**, plus vaccination, prophylaxis and a medical alert. Cross-refer [[C1]] 0.5.
+> **· Asplenia and hyposplenism** — **encapsulated organisms**, and the risk of **overwhelming post-splenectomy infection**, which progresses from well to dead within hours. **These patients need immediate antibiotics with any fever**, plus vaccination, prophylaxis and a medical alert. Cross-refer [[C1_Acute_Abdomen]] 0.5.
 > **· Neutropenia from other causes** — drugs (**clozapine, carbimazole, methotrexate, co-trimoxazole**), marrow failure, and haematological malignancy.
 
 > [!warning] Immune reconstitution inflammatory syndrome
@@ -215,30 +220,30 @@ Pathogen-specific therapy with infectious diseases involvement. **Radical cure w
 De-escalate on culture. Escalate cover or add antifungals per protocol for persistent fever. Remove infected lines. Growth factor support where indicated.
 
 ### 0.5.3 Mx – Chronic/long-term
-**Prophylaxis, vaccination and patient education** — every immunocompromised or asplenic patient should know that fever means presenting immediately, and should carry documentation. **Screening for latent TB and hepatitis B before starting biologics.** Cross-refer [[K3]].
+**Prophylaxis, vaccination and patient education** — every immunocompromised or asplenic patient should know that fever means presenting immediately, and should carry documentation. **Screening for latent TB and hepatitis B before starting biologics.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]].
 
 ---
 
 ## 0.6 Post-Operative and Drug Fever
 
 > [!tip] The post-operative timeline narrows the differential
-> **· Within 24 hours** — usually the **inflammatory response to surgery itself**, which is common and benign. Also consider **malignant hyperthermia** (cross-refer [[A6]] 0.3), transfusion reaction, and a pre-existing infection.
+> **· Within 24 hours** — usually the **inflammatory response to surgery itself**, which is common and benign. Also consider **malignant hyperthermia** (cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.3), transfusion reaction, and a pre-existing infection.
 > **· Days 1–3** — **respiratory**: pneumonia and aspiration. **Note that atelectasis as a cause of fever is poorly supported by evidence despite being taught for decades** — it is associated with early post-operative fever rather than causing it, and attributing fever to atelectasis can delay finding the real source.
 > **· Days 3–5** — **urinary tract infection (especially catheterised) and intravenous line phlebitis or infection.**
-> **· Days 5–7** — **surgical site infection, anastomotic leak, and intra-abdominal collection.** Cross-refer [[C7]] 0.5.
+> **· Days 5–7** — **surgical site infection, anastomotic leak, and intra-abdominal collection.** Cross-refer [[C7_Pancreatobiliary_Disease]] 0.5.
 > **· Beyond a week** — **venous thromboembolism, deep collection or abscess, *C. difficile*, and drug fever.**
 > The traditional mnemonic is the **five Ws — Wind, Water, Wound, Walking, Wonder drugs** — useful as a prompt, with the atelectasis caveat above.
 
 > [!danger] The post-operative patient who is not progressing
 > **Persistent or new fever from around day five, with ileus that will not settle, unexplained tachycardia, rising inflammatory markers, or simply not recovering as expected, means a collection or an anastomotic leak until proven otherwise.** **New post-operative atrial fibrillation is a recognised early flag.**
-> Cross-refer [[A1]] 0.5 and [[C7]] 0.5.
+> Cross-refer [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.5 and [[C7_Pancreatobiliary_Disease]] 0.5.
 
 > [!warning] Drug fever
 > **A diagnosis of exclusion, but a common one, and completely reversible.**
 > Features: fever that may be high, in a patient who **looks better than their temperature suggests**; sometimes **relative bradycardia, eosinophilia, or a rash** — but frequently none of these. It may begin days to weeks after the drug was started.
 > **Common culprits: beta-lactams, sulfonamides including co-trimoxazole, anticonvulsants (phenytoin, carbamazepine), allopurinol, heparin, antituberculous drugs, and antipsychotics.**
 > **Diagnosis is by cessation — fever typically resolves within a few days of stopping the offending agent.** `UNVERIFIED — the expected time to defervescence.`
-> **Do not forget the more serious drug-related febrile syndromes: DRESS (with eosinophilia and organ involvement — cross-refer [[A5]] 0.6), neuroleptic malignant syndrome and serotonin toxicity (cross-refer [[A6]] 0.3), and transfusion reactions (cross-refer [[A9]] 0.2).**
+> **Do not forget the more serious drug-related febrile syndromes: DRESS (with eosinophilia and organ involvement — cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6), neuroleptic malignant syndrome and serotonin toxicity (cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.3), and transfusion reactions (cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.2).**
 
 > [!tip] The other non-infective causes in an inpatient
 > **· Venous thromboembolism.**
@@ -262,4 +267,4 @@ Source control — drainage, line removal, return to theatre for a leak. Cessati
 ---
 
 > [!note] Cross-references
-> Sepsis definitions, phenotypes and management → [[F0.3]] 0.7 and [[A1]] 0.2 · Fever versus hyperthermia and the drug-induced hyperthermic syndromes → [[A6]] 0.3 · Meningococcal sepsis → [[F0.3]] 0.9 · Urosepsis and asymptomatic bacteriuria → [[F0.3]] 0.10 · Infective endocarditis and new murmur → [[B5]] 0.2 · Severe CAP and melioidosis → [[F0.5]] 0.4 · Meningitis and encephalitis → [[D1]] 0.5 · Transfusion reactions → [[A9]] 0.2 · Post-operative collections and anastomotic leak → [[C7]] 0.5 and [[A1]] 0.5 · Severe cutaneous adverse reactions and DRESS → [[A5]] 0.6 · Post-splenectomy prophylaxis → [[C1]] 0.5 · Giant cell arteritis → [[D1]] 0.4 · Atypical presentation in the elderly → [[GER1]] 0.1 · Skin and soft tissue infection → [[K2]] · Exposure, prophylaxis and immunodeficiency → [[K3]] · Neutropenia and haematological causes → [[J1]]
+> Sepsis definitions, phenotypes and management → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.7 and [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2 · Fever versus hyperthermia and the drug-induced hyperthermic syndromes → [[A6_Thermal_and_Environmental_Injury]] 0.3 · Meningococcal sepsis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9 · Urosepsis and asymptomatic bacteriuria → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.10 · Infective endocarditis and new murmur → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.2 · Severe CAP and melioidosis → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.4 · Meningitis and encephalitis → [[D1_Headache_and_Meningism]] 0.5 · Transfusion reactions → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.2 · Post-operative collections and anastomotic leak → [[C7_Pancreatobiliary_Disease]] 0.5 and [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.5 · Severe cutaneous adverse reactions and DRESS → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6 · Post-splenectomy prophylaxis → [[C1_Acute_Abdomen]] 0.5 · Giant cell arteritis → [[D1_Headache_and_Meningism]] 0.4 · Atypical presentation in the elderly → [[GER1_Comprehensive_Geriatric_Assessment]] 0.1 · Skin and soft tissue infection → [[K2_Skin_and_Soft_Tissue_Infection]] · Exposure, prophylaxis and immunodeficiency → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] · Neutropenia and haematological causes → [[J1_Cytopenias_and_Marrow_Failure]]

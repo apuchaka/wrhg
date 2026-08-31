@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 6
 ---
 
 ## 0.1 Hypothyroidism
@@ -90,6 +90,21 @@ no_baseline: 0
 > [!info] Gap-filled — lid lag/lid retraction was mentioned only as a bare term elsewhere in this project (in the Ocular Manifestations reference), never explained, and never distinguished from exophthalmos despite the two being genuinely different processes that are easy to conflate as "the same thyroid eye thing." **Lid lag/retraction: sympathetic overactivity, not autoimmune.** Hyperthyroidism's generalised increase in sympathetic/adrenergic tone causes overactivity of **Müller's muscle** — a smooth muscle assisting upper eyelid elevation, under sympathetic control — producing lid retraction at rest and a visible lag of the upper lid behind the globe during downward eye movement. **This occurs in *any* cause of thyrotoxicosis** (Graves', toxic nodular goitre, thyroiditis, exogenous excess), given it simply reflects generalised sympathetic overactivity, not an eye-specific disease process — it resolves once the hyperthyroid state itself is corrected. This is genuinely distinct from **exophthalmos/proptosis**, which is specifically an autoimmune process (retro-orbital glycosaminoglycan and collagen deposition — see Thyroid Eye Disease in [[05_Ophthalmology]], not repeated here) occurring specifically in Graves' disease, and which — importantly — **doesn't reliably correlate with or resolve alongside thyroid hormone status**, unlike lid lag. Confusing the two matters clinically: lid lag in a hyperthyroid patient of any cause is expected and non-specific, while exophthalmos should prompt specific consideration of Graves'-associated thyroid eye disease and its own distinct, independently-progressing management pathway.
 
 > [!note] Amiodarone can cause both hyper- and hypothyroidism.
+
+### Added from unverified layer — two ways thyroid disease hides
+`SRC:I1_Thyroid_Disease §0.1, §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Apathetic thyrotoxicosis — the elderly presentation** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> The S/Smx list above is the classic sympathetic picture, and **older patients frequently do not have it.**
+> **Apathetic thyrotoxicosis presents as the opposite of what the name "hyperthyroidism" suggests: apathy, withdrawal, low mood, weight loss and profound weakness — with none of the tremor, heat intolerance, sweating or irritability**, and often no goitre and no eye signs.
+> **Frequently the only cardiovascular sign is atrial fibrillation or heart failure**, and the thyroid is not considered because nothing looks thyrotoxic.
+> **So: check thyroid function in any older person with new atrial fibrillation, unexplained weight loss, or a depression that does not fit** — the differential it is most often mistaken for is depression or malignancy, and both of those investigations proceed while the treatable cause sits untested.
+
+> [!warning] **Biotin interferes with thyroid assays and produces a convincing Graves-like result**
+> **High-dose biotin** — widely taken as an over-the-counter hair, skin and nail supplement, and in some multivitamins, at doses far above nutritional requirements — **interferes with the immunoassays used for thyroid function.**
+> **The classic artefact is a LOW TSH with HIGH free T4 and T3 — biochemical Graves disease in a patient who is clinically euthyroid.** It can also distort troponin, and thyroid antibody assays.
+> **The patient will not mention it, because a supplement is not a medicine to most people.** **Ask specifically about supplements when the biochemistry does not match the patient**, and repeat the tests after stopping it rather than starting antithyroid treatment.
+> `UNVERIFIED — the dose above which interference occurs, the washout period before retesting, and which Australian laboratory platforms are affected; the reporting laboratory is the source and should be asked directly.`
 
 ### 0.2.1 Graves' Disease
 
@@ -288,6 +303,38 @@ Autosomal dominant disorder affecting various endocrine organs.
 
 ---
 
+## Phaeochromocytoma and Paraganglioma — consolidated owner
+`SRC:I4_Pituitary__Adrenal_and_Sex_Hormone §0.4` `UNVERIFIED — model knowledge, not source-checked; the three pre-existing components it consolidates are Corpus C snippet-derived.`
+
+> [!note] **Why this section exists.** `_meta/KNOWN_ABSENCES.md` entry 7 recorded that phaeochromocytoma had **no entity section anywhere in this vault** — only the MEN2A/2B lists in 0.9 above — while its **presentation**, its **screening test** and its **alpha-before-beta safety rule** sat in three different Corpus C files. The entry left open whether that mattered. **It does: the alpha-before-beta rule was findable only by someone who already knew to look for it**, inside an alpha-blocker pharmacology entry. This section is the single owner; the three components stay where they are and now point here. **No content was moved out of Corpus C and no figure was added anywhere.**
+
+**D:** A catecholamine-secreting tumour of chromaffin cells. **Adrenal medullary → phaeochromocytoma. Extra-adrenal, along the sympathetic chain → paraganglioma** (head and neck paragangliomas are more often non-secretory).
+
+**A/P:** Autonomous secretion of noradrenaline, adrenaline or dopamine, **episodic rather than continuous**, which is why blood pressure and symptoms come in paroxysms and why a measurement taken between episodes can be normal.
+
+> [!warning] **A substantial proportion are part of an inherited syndrome, and the proportion is higher than the older teaching allowed**
+> **MEN2A and MEN2B** — see 0.9 above, where phaeochromocytoma is already listed in both. Also **von Hippel-Lindau**, **neurofibromatosis type 1**, and the **succinate dehydrogenase (SDH) mutations**, which carry a higher risk of extra-adrenal, multifocal and malignant disease.
+> **So a diagnosis of phaeochromocytoma is an indication for genetic assessment and for family screening**, not just for an operation. `UNVERIFIED — current Australian genetic testing and cascade screening recommendations; an endocrine genetics service would settle it.`
+
+**S/Smx:** **The triad — episodic headache, sweating and palpitations — with hypertension.** Also pallor (not flushing), tremor, anxiety, nausea and weight loss. **The hypertension may be paroxysmal, sustained, or sustained with paroxysms on top.**
+**Triggers worth asking about: posture, exertion, micturition (a bladder paraganglioma), abdominal palpation, certain foods and certain drug doses.**
+**The full differential of paroxysmal hypertension is owned by [[NEW_Cardiology_and_Vascular]] Paroxysmal Hypertension**, not repeated here — including drugs and withdrawal states, **autonomic dysreflexia in spinal cord injury**, and **"pseudophaeochromocytoma"**, which is commoner than phaeochromocytoma itself.
+
+**Ix:** **Plasma free metanephrines, or 24-hour urinary fractionated metanephrines** (*why:* the metabolites are produced continuously inside the tumour, so unlike catecholamines themselves they are not missed between paroxysms; *what:* markedly raised is specific, mildly raised is often drug-related). **What the test is, how to read it, the interfering drugs and the collection conditions are owned by [[NEW_Investigations_Renal_and_Urology]] 0.10 Metanephrines (Plasma Free or 24-hour Urinary Fractionated)** — which carries its own note that it is mis-filed under Renal and Urology, and is an endocrine investigation.
+
+> [!danger] **CONFIRM BIOCHEMICALLY, THEN IMAGE — and never the other way round**
+> Adrenal nodules are common incidental findings. **Imaging first produces a lesion in search of a diagnosis**, and the workup then chases it.
+> **And never biopsy an adrenal mass before excluding phaeochromocytoma** — needling one can precipitate a hypertensive crisis. See the adrenal incidentaloma block in 0.10 below.
+
+> [!danger] **ALPHA BLOCKADE MUST BE ESTABLISHED BEFORE ANY BETA-BLOCKER**
+> **This is the rule this section exists to make findable.** It previously sat only inside an alpha-blocker pharmacology entry, where nobody looking up phaeochromocytoma would reach it.
+> **Giving a beta-blocker first removes β₂-mediated vasodilatation while leaving α-mediated vasoconstriction unopposed — producing a hypertensive crisis.** It applies to any beta-blocker given for any reason, including one started for the tachycardia the tumour is causing, and including labetalol despite its alpha activity.
+> The class pharmacology, the shift away from phenoxybenzamine toward selective alpha-blockers and calcium channel blockers, and the monitoring are owned by [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]] Alpha-Blockers (Non-selective). **No dose is stated in this vault for any of it, deliberately.**
+
+**Mx – Immediate:** Treat a hypertensive crisis with the specialist agents named in the alpha-blocker entry above; **do not reach for a beta-blocker.** Discuss with endocrinology early.
+**Mx – Definitive:** **Pre-operative alpha blockade and volume repletion, then surgical resection** — the blockade period exists because the tumour has maintained chronic vasoconstriction and volume contraction, and removing it without preparation causes profound hypotension. `UNVERIFIED — the duration of pre-operative blockade and the perioperative protocol, per an Australian endocrine surgical source.`
+**Mx – Chronic/long-term:** **Lifelong biochemical surveillance** — recurrence and metachronous tumours occur, particularly in the syndromic and SDH-associated cases. **Genetic assessment and family screening** as above.
+
 ## 0.10 Hyperparathyroidism
 
 **D:** increased PTH, divided into primary, secondary, and tertiary.
@@ -318,6 +365,42 @@ Main problem is ↑PTH that persists despite correction of Ca levels. Parathyroi
 - Tertiary: if developing post-renal transplant, wait 12 months as ↑PTH may resolve spontaneously; may require surgery
 
 ---
+
+### Added from unverified layer — two things that change what happens to the parathyroid patient
+`SRC:I3_Calcium__Parathyroid_and_Bone §0.2, §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Familial hypocalciuric hypercalcaemia — the diagnosis that prevents a pointless parathyroidectomy** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **FHH is a benign autosomal dominant condition** (calcium-sensing receptor mutation) that produces **mild hypercalcaemia with a PTH that is normal or mildly raised — biochemically indistinguishable from mild primary hyperparathyroidism on the tests above.**
+> **The discriminator is the URINE.** In primary hyperparathyroidism urinary calcium excretion is normal or high; **in FHH it is inappropriately LOW**, because the receptor defect makes the kidney reabsorb calcium avidly. **A 24-hour urinary calcium, or a calcium-to-creatinine clearance ratio, separates them.**
+> **Other pointers: lifelong hypercalcaemia rather than new, no symptoms, no stones, no bone disease, and a family history of "high calcium" or of a parathyroidectomy that did not work.**
+> **It needs no treatment. Operating on it does not correct the calcium and removes normal glands** — which is the whole reason the distinction matters, and the reason a urinary calcium belongs in the workup of any mild asymptomatic hypercalcaemia before a surgical referral.
+> `UNVERIFIED — the calcium-to-creatinine clearance ratio cut-off used to distinguish FHH from primary hyperparathyroidism, and current Australian practice on genetic testing; an endocrinology source would settle it.`
+
+> [!warning] **Localisation imaging is for surgical planning, not for diagnosis** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Primary hyperparathyroidism is diagnosed biochemically** — by the calcium and the PTH above, not by a scan.
+> **Sestamibi scintigraphy, ultrasound and four-dimensional CT are done AFTER the decision to operate**, to tell the surgeon where the adenoma is and whether a minimally invasive approach is possible.
+> **A negative localisation scan does not exclude the diagnosis and is not a reason to withhold surgery** — it changes the operation, usually to bilateral neck exploration by an experienced surgeon.
+> The inverse error matters too: **an incidental parathyroid-looking lesion on a scan is not a diagnosis** without the biochemistry.
+
+### Added from unverified layer — the adrenal incidentaloma
+`SRC:I4_Pituitary__Adrenal_and_Sex_Hormone §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] **Two questions, and both must be answered**
+> An adrenal mass found on imaging done for something else is common and increasingly so, because cross-sectional imaging is common. **Every one of them raises exactly two questions:**
+> **1. Is it FUNCTIONING — is it making a hormone?**
+> **2. Is it MALIGNANT?**
+> **The functional workup is required in ALL adrenal incidentalomas, including those that are asymptomatic and look benign**, because subclinical hormone excess is common and is the part a "reassuring" scan report does not address. It comprises **screening for phaeochromocytoma (plasma free or 24-hour urinary metanephrines — see [[NEW_Investigations_Renal_and_Urology]] 0.10), for cortisol excess, and — in anyone hypertensive or hypokalaemic — for primary aldosteronism** with the aldosterone-renin ratio in 0.9 above.
+
+> [!danger] **NEVER biopsy an adrenal mass before excluding phaeochromocytoma**
+> **Needling an unsuspected phaeochromocytoma can precipitate a hypertensive crisis.** This is the single most dangerous error available in the workup of an adrenal mass, and it is made by a radiologist or a clinician who is thinking about malignancy and has not thought about function.
+> **Biopsy is rarely the right answer anyway** — it does not distinguish adrenal adenoma from adrenocortical carcinoma, and its main legitimate use is confirming a suspected metastasis from a known extra-adrenal primary, **after** biochemical exclusion of phaeochromocytoma.
+> The **alpha-blockade-before-beta-blockade** rule that follows from the same physiology is at [[NEW_Drug_Classes_Cardiovascular_Antihypertensives]].
+
+> [!tip] **The imaging phenotype predicts benignity**
+> **A small, homogeneous, lipid-rich lesion with low unenhanced attenuation and rapid contrast washout is characteristic of a benign adenoma**; **large size, heterogeneity, irregular margins, high unenhanced attenuation and slow washout raise concern** for adrenocortical carcinoma or metastasis. Interval growth on repeat imaging is the other concerning feature.
+> `UNVERIFIED — the unenhanced Hounsfield-unit threshold, the absolute and relative washout percentages, the size cut-off for surgical referral, and the follow-up imaging interval. All are numbers, all vary between guidelines, and none is stated here (CLAUDE.md rule 5 applies to adult figures too). An endocrine or radiology source would settle them.`
+
+> [!note] **A recorded known absence, partly addressed.** `_meta/KNOWN_ABSENCES.md` entry 7 records that **phaeochromocytoma has no entity section anywhere in this vault** — it appears only inside MEN2A/MEN2B lists here at 0.9, with its presentation, its screening test and its alpha-before-beta rule scattered across three Corpus C files. **This block does not consolidate it**, because that file states the consolidation question is open and for a later round. It does add the two safety rules that were in none of the three.
 
 ## 0.11 Hypoparathyroidism
 
@@ -445,6 +528,14 @@ Similar phenotype to pseudohypoparathyroidism, but normal biochemistry.
 > Pregnant women with T1DM — low-dose aspirin (100–150mg, taken at night) from 12–16 weeks until 36 weeks.
 
 ### 0.15.2 Type 2 Diabetes Mellitus (T2DM)
+
+> [!danger] Added from unverified layer — **LADA: the adult misclassified as type 2** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> `SRC:I2_Diabetes_and_Glucose_Disorders §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+> **Latent autoimmune diabetes in adults is type 1 diabetes with a slow onset**, and it is routinely labelled type 2 because the patient is an adult.
+> **The clues are the ones that do not fit type 2: a normal or low body mass index · no metabolic syndrome features · other autoimmune disease personally or in the family · and rapid progression to needing insulin despite good adherence to oral agents.**
+> **Diagnosis is GAD antibodies, with C-peptide.** The consequence is practical: **these patients need insulin sooner, and a sulfonylurea will fail quickly**, so the label change is not academic.
+> **The mirror-image error also happens** — [[15_16b_Paeds_-_Diabetes_Mellitus__MODY__DKA]] Maturity onset diabetes of the young (MODY) covers the young patient wrongly labelled type 1, who may need no insulin at all.
+> **Search note:** every `LADA` in this vault outside this block is `maladaptive` or `maladaptation`. Anchor on word boundaries (CLAUDE.md rule 9).
 
 **D:** progressive disorder defined by deficits in insulin secretion and increased insulin resistance, leading to abnormal glucose metabolism and related metabolic derangements.
 
@@ -673,6 +764,25 @@ Increase monitoring ± check ketones; consume 3L of fluids/24h ± sugary drinks.
 **Prevention:** patient education on symptoms, encourage frequent monitoring (especially in T1DM), provide a Hypokit (with glucagon).
 
 > [!note] β-blockers reduce hypoglycaemic awareness.
+
+### Added from unverified layer — hypoglycaemia: unawareness, and working out the cause
+`SRC:I2_Diabetes_and_Glucose_Disorders §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Hypoglycaemia unawareness is caused by hypoglycaemia — and it is REVERSIBLE**
+> The note above records that β-blockers blunt awareness. The commoner cause is the hypoglycaemia itself: **repeated episodes progressively blunt the counter-regulatory response, so the adrenergic warning symptoms are lost and the first sign becomes confusion or collapse.** The threshold at which symptoms appear falls below the threshold at which cognition fails.
+> **It is a major risk factor for severe hypoglycaemia, and it has driving implications** — see 0.15.8 Austroads Driving Standards for Diabetes above.
+> **The part worth knowing is that it reverses.** **Scrupulously avoiding any hypoglycaemia for a period restores the warning symptoms**, which usually means deliberately relaxing glycaemic targets for a while — an apparent step backwards that is the correct treatment. Continuous glucose monitoring with alarms is central to doing it.
+> `UNVERIFIED — the duration of avoidance required, and the Australian driving-licence implications of documented unawareness, per Austroads "Assessing Fitness to Drive".`
+
+> [!warning] **Hypoglycaemia in a person WITHOUT diabetes always needs explanation**
+> The causes list above is a list of causes. What it does not give is the diagnostic sequence.
+> **Whipple's triad establishes that the hypoglycaemia is real** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.` — **symptoms consistent with hypoglycaemia · a low plasma glucose measured at the time of those symptoms · and resolution of the symptoms when the glucose is corrected.** All three, or the investigation should not proceed. (Not to be confused with Whipple's procedure at [[03_Gastrointestinal]] or Whipple's disease.)
+> **Then the samples taken DURING the episode, before treating it, do the work** — once the glucose is corrected the opportunity is gone:
+> **· C-peptide LOW with high insulin → exogenous insulin administration** (therapeutic error, or factitious).
+> **· C-peptide HIGH → endogenous insulin** — **insulinoma, or a sulfonylurea**, which is why a sulfonylurea screen is sent alongside.
+> **· Insulin and C-peptide both low → not insulin-mediated** — consider adrenal insufficiency, liver failure, sepsis, alcohol, or a non-islet tumour.
+> The corpus already uses C-peptide to separate type 1 from type 2 diabetes; **this is the same test answering a different question**, and the discriminating step is taking the sample before the dextrose.
+
 
 ---
 
@@ -1051,6 +1161,22 @@ Assess volume status:
 - **Chronic/long-term:** address the underlying cause definitively (e.g. desmopressin for central DI — see Diabetes Insipidus above) to prevent recurrence; ensure adequate ongoing free water access, particularly important in patients with a blunted thirst mechanism (elderly, impaired consciousness) who may not reliably self-correct.
 
 ## 0.27 Weight Change — Differential Approach
+
+### Added from unverified layer — two things about weight the differential does not cover
+`SRC:I5_Weight__Lipids_and_Fluid_Balance §0.1, §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Weight stigma is a clinical problem, not a matter of courtesy** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **People living with obesity report avoiding or delaying medical care because of how they have been treated**, and that avoidance produces late presentations of conditions unrelated to weight.
+> **The specific clinical failure is diagnostic overshadowing** — attributing a symptom to weight and stopping there. **A larger patient with breathlessness, joint pain or fatigue is entitled to the same differential as a thinner one**, and the commonest error is not investigating.
+> Practically: **ask permission before discussing weight, use person-first language, weigh only when it is clinically needed and do it privately, and make sure the equipment fits** — chairs, cuffs, gowns, scales and the imaging table, whose weight limits are a real constraint that should be known before it is discovered at the point of need.
+> **Obesity is a chronic relapsing condition with substantial genetic and environmental determinants**, and framing it as a failure of willpower is both inaccurate and an obstacle to the consultation.
+
+> [!warning] **Post-bariatric surgery — two things every doctor should know**
+> Bariatric surgery appears in this vault only as a risk factor for micronutrient deficiency. Two acute problems do not.
+> **1. Abdominal pain after gastric bypass is an INTERNAL HERNIA until proven otherwise.** It can present intermittently, with normal observations and normal bloods between episodes, **and a normal CT does not exclude it.** It causes closed-loop obstruction and bowel infarction. **The action is early discussion with the bariatric surgical unit, not reassurance on a normal scan.**
+> **2. Thiamine deficiency causes Wernicke encephalopathy after bariatric surgery**, particularly with persistent vomiting or poor intake in the early months. The general rule is already stated at [[NEW_Neurology]] — *give thiamine before glucose in any patient at risk* — and **recent bariatric surgery belongs on that at-risk list alongside alcohol dependence and malnutrition.** `UNVERIFIED — parenteral thiamine dose and duration, per Therapeutic Guidelines.`
+> **Dumping syndrome** — early (osmotic, within about half an hour, with cramping, diarrhoea and vasomotor symptoms) and late (reactive hypoglycaemia, one to three hours after eating) — is the commoner and more benign explanation for post-prandial symptoms, and is managed dietetically.
+> **Lifelong micronutrient supplementation and monitoring is required**, which the deficiency entries in this file and in Corpus C already cover.
 
 > [!note] Gap-filled from CSV ("Weight change," High yield) — genuinely absent as a unifying differential despite the individual causes being scattered across this file (thyroid disease, Cushing's, diabetes) and others throughout the project. Given how many of the highest-yield endocrine conditions present via weight change, an organised approach to this presenting complaint is worth having explicitly, rather than only reaching the diagnosis once a specific disease is already suspected.
 

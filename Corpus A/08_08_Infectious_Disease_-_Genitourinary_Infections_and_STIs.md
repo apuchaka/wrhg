@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 1
 ---
 
 ## The STI Check — Sexual History, What to Test, and When
@@ -223,6 +223,16 @@ A **window period** is the interval between exposure and the point at which a te
 - **S/Smx:** pruritus in the pubic/perianal region (and occasionally other coarse body hair — eyelashes, eyebrows, axillary hair), worse at night; visible lice or nits (eggs) attached to hair shafts on close inspection; secondary excoriation from scratching.
 - **Ix:** clinical diagnosis, confirmed by direct visualisation of lice or nits on examination (sometimes with a magnifying glass/dermatoscope) — no laboratory test is typically needed.
 - **Mx:** topical permethrin or malathion applied to affected areas per product instructions, with a repeat application after 7 days to catch any newly-hatched lice from eggs that survived the first application; **treat all sexual partners from the preceding month**, given the sexually-transmitted nature of spread; wash bedding/clothing in hot water; **offer testing for other STIs**, given pubic lice acquisition implies a relevant sexual exposure and co-infection risk. Eyelash involvement specifically requires a different approach (e.g. petroleum jelly application) rather than the standard topical insecticides used elsewhere, given the need to avoid the treatment itself causing eye irritation/toxicity.
+
+## Added from unverified layer — doxycycline post-exposure prophylaxis (doxy-PEP)
+`SRC:O6_Sexual_and_Reproductive_Health §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!tip] **A single dose of doxycycline taken after condomless sex, to prevent bacterial STIs**
+> **Doxy-PEP substantially reduces syphilis and chlamydia**, and reduces gonorrhoea less reliably because tetracycline resistance is common in *Neisseria gonorrhoeae*.
+> **It is offered to specific higher-incidence populations** — principally gay and bisexual men and other men who have sex with men, and trans women, with a recent bacterial STI — **not as general advice.**
+> **The trade-off being weighed is antimicrobial resistance** — in the target organisms, and in the commensal flora — **against a genuine reduction in syphilis, which is rising in Australia including in heterosexual populations and in pregnancy.**
+> **It does not replace condoms, HIV PrEP, or regular comprehensive testing at all sites** (see the extragenital sampling point owned by [[NEW_Investigations_Obstetrics_and_Gynaecology]]).
+> `UNVERIFIED — whether doxy-PEP is currently recommended in Australia and by whom, the dose and the time window, and the eligibility criteria. ASHM and the Australasian Society for HIV Medicine STI guidelines are the open sources; state and sexual-health-service policy governs in practice. NO DOSE OR TIME WINDOW IS STATED HERE.`
 
 ## STI ulcers — summary DDx
 

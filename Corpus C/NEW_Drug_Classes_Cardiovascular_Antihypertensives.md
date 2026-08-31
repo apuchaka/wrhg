@@ -88,6 +88,8 @@ no_baseline: 0
 - **Note on current practice:** sources record a **shift away from phenoxybenzamine** toward selective alpha-blockers and calcium channel blockers for pre-operative preparation, without worse outcomes. **No doses are stated here**; this is specialist-directed prescribing.
 - **Monitoring:** blood pressure including postural, heart rate, volume status; this is an inpatient/specialist monitoring context.
 
+> [!note] **Phaeochromocytoma and paraganglioma are now owned as an entity** by [[06_Metabolic_Medicine_and_Endocrinology]] Phaeochromocytoma and Paraganglioma — consolidated owner, which holds the presentation, the diagnostic sequence, the genetic associations and the **alpha-before-beta** rule in one place. This entry keeps the class pharmacology, the shift away from phenoxybenzamine, and the monitoring and is unchanged.
+
 ## Alpha-2 Adrenergic Agonists (Central)
 
 - **Mechanism:** stimulate presynaptic α₂-adrenoceptors in the brainstem vasomotor centre → **reduced central sympathetic outflow** → reduced peripheral resistance, heart rate and blood pressure. Methyldopa is a prodrug converted to α-methylnoradrenaline, a false neurotransmitter acting at the same receptor.

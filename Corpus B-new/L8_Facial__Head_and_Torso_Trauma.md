@@ -1,12 +1,17 @@
 ---
 block: Musculoskeletal / Orthopaedics / Rheumatology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Sequence, priorities and discriminators are reliable at intern level. **Every volume threshold, dose, time target and classification carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **EMST/ATLS teaching, the RACS trauma guidelines** and your health network's trauma protocol — **trauma call criteria, massive transfusion protocols and transfer thresholds are institution-specific.**
 >
-> **Head injury is built in [[F0.5]] 0.7–0.8**, **airway compromise in [[A2]]**, **tension pneumothorax in [[F0.5]] 0.2**, **burns in [[A7]]**, **massive transfusion in [[A9]] 0.1**, and **spinal trauma in [[L4]] 0.7 and [[L7]]** — each is cross-referenced rather than repeated.
+> **Head injury is built in [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7–0.8**, **airway compromise in [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]]**, **tension pneumothorax in [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.2**, **burns in [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]]**, **massive transfusion in [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1**, and **spinal trauma in [[L4_Back_and_Neck_Pain]] 0.7 and [[L7_Fractures_and_Eponyms]]** — each is cross-referenced rather than repeated.
 
 ---
 
@@ -19,14 +24,14 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] B — the six immediately life-threatening chest injuries
 > Found and treated **in the primary survey**, clinically, before imaging:
 > **· Airway obstruction · TENSION PNEUMOTHORAX · OPEN pneumothorax · MASSIVE HAEMOTHORAX · FLAIL CHEST with pulmonary contusion · CARDIAC TAMPONADE.**
-> **Tension pneumothorax is a CLINICAL diagnosis — decompress it; do not wait for a chest radiograph.** Cross-refer [[F0.5]] 0.2.
+> **Tension pneumothorax is a CLINICAL diagnosis — decompress it; do not wait for a chest radiograph.** Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.2.
 
 > [!danger] C — "blood on the floor and four more"
 > **The five places a trauma patient bleeds enough to die:**
 > **· EXTERNAL (on the floor) · CHEST · ABDOMEN · PELVIS and RETROPERITONEUM · LONG BONES (particularly femoral shaft).**
 > **Each is addressed by a specific adjunct: chest radiograph, eFAST, pelvic radiograph and binder, and examination of the limbs.**
 > **A patient who remains shocked with all five excluded should prompt consideration of a non-haemorrhagic cause — tamponade, tension pneumothorax, neurogenic shock, or a cardiac event that caused the crash.**
-> **Tranexamic acid is given early in significant trauma** — the benefit is time-dependent and is lost, or reversed, if given late. Cross-refer [[A9]] 0.1. `UNVERIFIED — dose and the time window.`
+> **Tranexamic acid is given early in significant trauma** — the benefit is time-dependent and is lost, or reversed, if given late. Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1. `UNVERIFIED — dose and the time window.`
 
 > [!warning] The lethal triad
 > **HYPOTHERMIA → ACIDOSIS → COAGULOPATHY**, each worsening the others in a self-reinforcing spiral that is the proximate cause of death in many trauma patients.
@@ -47,7 +52,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!danger] The airway is the first concern in facial trauma
 > **Facial fractures threaten the airway through: bleeding into the pharynx · progressive soft tissue swelling · displaced fracture segments · and — with BILATERAL MANDIBULAR fractures — loss of the anterior tongue support, allowing the tongue to fall back.**
-> **The threat is progressive**, so a patient who is currently maintaining their airway may not be in an hour. **Early senior airway involvement, and a low threshold for definitive airway control.** Cross-refer [[A2]] 0.1.
+> **The threat is progressive**, so a patient who is currently maintaining their airway may not be in an hour. **Early senior airway involvement, and a low threshold for definitive airway control.** Cross-refer [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.1.
 
 > [!tip] Le Fort fractures
 > **· Le Fort I — a transverse fracture separating the maxillary alveolus from the rest of the maxilla.** The hard palate moves independently.
@@ -71,12 +76,12 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!tip] The other facial injuries
 > **· Zygomatic (tripod) fracture** — flattening of the cheek prominence, a palpable step at the infraorbital rim and zygomatic arch, **infraorbital numbness**, subconjunctival haemorrhage without a posterior limit, and **TRISMUS** if the arch impinges on the coronoid process.
-> **· Mandibular fracture — the mandible is a ring, so it usually breaks in TWO places; find the second one.** Features: **malocclusion ("does your bite feel normal?" is the single best question), trismus, a step in the dental arch, and a SUBLINGUAL HAEMATOMA, which is near-pathognomonic.** Cross-refer [[F0.5]] 0.10.
-> **· Base of skull fracture** — periorbital and mastoid bruising, haemotympanum, CSF rhinorrhoea or otorrhoea. Cross-refer [[F0.5]] 0.7.
+> **· Mandibular fracture — the mandible is a ring, so it usually breaks in TWO places; find the second one.** Features: **malocclusion ("does your bite feel normal?" is the single best question), trismus, a step in the dental arch, and a SUBLINGUAL HAEMATOMA, which is near-pathognomonic.** Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10.
+> **· Base of skull fracture** — periorbital and mastoid bruising, haemotympanum, CSF rhinorrhoea or otorrhoea. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7.
 > **· Facial lacerations** — consider **facial nerve** injury (test all branches before infiltrating local anaesthetic) and **parotid duct** injury in cheek lacerations along a line from tragus to upper lip.
 
 > [!danger] Ocular and dental emergencies within facial trauma
-> **· GLOBE RUPTURE — do NOT press on the eye, do NOT instil drops or ointment, do NOT attempt to measure pressure. Apply a rigid SHIELD (not a pad), keep the patient upright and nil by mouth, give antiemetics, and refer urgently.** Cross-refer [[E1]].
+> **· GLOBE RUPTURE — do NOT press on the eye, do NOT instil drops or ointment, do NOT attempt to measure pressure. Apply a rigid SHIELD (not a pad), keep the patient upright and nil by mouth, give antiemetics, and refer urgently.** Cross-refer [[E1_Red_and_Painful_Eye]].
 > **· RETROBULBAR HAEMATOMA — proptosis, a tense eye, severe pain, reduced acuity and a RELATIVE AFFERENT PUPILLARY DEFECT. This is an orbital compartment syndrome and vision is lost within hours. It requires urgent LATERAL CANTHOTOMY AND CANTHOLYSIS**, which is a bedside procedure that may need to be performed before ophthalmology arrives.
 > **· HYPHAEMA — blood in the anterior chamber; upright posture and urgent ophthalmology.**
 > **· AVULSED PERMANENT TOOTH — TIME-CRITICAL. Handle by the crown only, do not scrub the root, rinse gently, and REIMPLANT IMMEDIATELY into the socket if possible.** **If not, transport in MILK, saliva, or a proprietary tooth preservation solution — NOT in water, which destroys the periodontal ligament cells.** **Deciduous teeth are NOT reimplanted.** **Urgent dental review.** This is examinable and the storage medium is the point.
@@ -184,9 +189,9 @@ source: built in chat, model knowledge, NOT source-verified
 > **· BETA-BLOCKERS AND OTHER RATE-LIMITING DRUGS BLUNT THE TACHYCARDIC RESPONSE**, so a "normal" heart rate does not mean a normal circulating volume.
 > **· A patient with baseline hypertension may be profoundly shocked at a blood pressure that reads as normal** — a systolic of 110 in someone who normally runs at 170 is significant hypotension.
 > **· A GROUND-LEVEL FALL IS A MAJOR TRAUMA MECHANISM IN AN OLDER PERSON**, and under-triage of these patients is well documented.
-> **· ANTICOAGULATION means a low threshold for CT head even after apparently trivial injury**, and a low threshold for repeat imaging. Cross-refer [[F0.5]] 0.8 and [[A9]] 0.4.
+> **· ANTICOAGULATION means a low threshold for CT head even after apparently trivial injury**, and a low threshold for repeat imaging. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.8 and [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4.
 > **· Rib fractures, as above, carry disproportionate mortality.**
-> **· Frailty predicts outcome better than injury severity score alone**, and should inform goals-of-care discussions early rather than after a prolonged ICU course. Cross-refer [[GER1]] 0.2.
+> **· Frailty predicts outcome better than injury severity score alone**, and should inform goals-of-care discussions early rather than after a prolonged ICU course. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.2.
 > **Lower every threshold: for trauma call activation, for imaging, for admission, and for senior involvement.**
 
 > [!warning] Children
@@ -195,7 +200,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· A larger surface-area-to-mass ratio** — rapid HYPOTHERMIA. Keep them warm actively.
 > **· Less protected abdominal organs** — a compliant rib cage and thin abdominal wall mean **significant liver, spleen and pancreatic injury can occur WITHOUT rib fractures or external marks.**
 > **· Weight-based drug and fluid dosing**, with a length-based tape or a validated estimate.
-> **· NON-ACCIDENTAL INJURY must be considered in every paediatric trauma presentation** — cross-refer [[L7]] 0.5, [[GER4]] and [[M6]].
+> **· NON-ACCIDENTAL INJURY must be considered in every paediatric trauma presentation** — cross-refer [[L7_Fractures_and_Eponyms]] 0.5, [[GER4_Safeguarding_and_Forensic]] and [[M6_Paediatric_Respiratory_and_Neurology]].
 > **· Family presence during resuscitation is generally supported and should be facilitated with a dedicated staff member.**
 
 > [!danger] Pregnancy — resuscitate the mother
@@ -204,16 +209,16 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Physiological changes MASK blood loss** — plasma volume is substantially increased, so **a pregnant woman can lose a large proportion of her blood volume before becoming hypotensive**, and by then the placental circulation has already been sacrificed. **Fetal distress may be the first sign of maternal hypovolaemia.**
 > **· PLACENTAL ABRUPTION can occur after relatively minor trauma and may be CONCEALED, with little or no vaginal bleeding.** **Cardiotocographic monitoring for a defined period is required after significant trauma in a viable pregnancy.**
 > **· Give ANTI-D to Rh-negative women after abdominal trauma**, and consider a Kleihauer test. `UNVERIFIED — the gestational thresholds and dosing.`
-> **· PERIMORTEM CAESAREAN — in maternal cardiac arrest beyond around 20 weeks, delivery should be commenced early in the arrest**, both to improve maternal resuscitation by relieving aortocaval compression and for fetal survival. Cross-refer [[F0.4]] and [[O2]].
+> **· PERIMORTEM CAESAREAN — in maternal cardiac arrest beyond around 20 weeks, delivery should be commenced early in the arrest**, both to improve maternal resuscitation by relieving aortocaval compression and for fetal survival. Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] and [[O2_Later_Pregnancy_and_Fetal]].
 > **· Do not withhold necessary imaging because of pregnancy** — the risk of a missed injury exceeds the radiation risk, though shielding and dose reduction should be used.
 
 > [!tip] Two other groups
 > **· Obesity** — imaging may be limited by table weight and bore size, vascular access is harder, landmarks are obscured, and drug dosing requires thought. **Plan for these before they become urgent.**
-> **· Anticoagulated and antiplatelet patients** — establish the agent and the time of the last dose early, and **reverse promptly where there is significant bleeding or intracranial injury.** Cross-refer [[A9]] 0.4.
+> **· Anticoagulated and antiplatelet patients** — establish the agent and the time of the last dose early, and **reverse promptly where there is significant bleeding or intracranial injury.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4.
 
 **Ix:** As per the preceding sections, with **a pregnancy test in every woman of reproductive age** (*why:* it changes positioning, imaging decisions, monitoring and disposition; *what:* positive). **Cardiotocography after significant trauma in a viable pregnancy** (*why:* detects abruption and fetal distress, and abruption may be concealed; *what:* uterine irritability, fetal heart rate abnormality). **Kleihauer test in Rh-negative pregnant women** (*why:* quantifies fetomaternal haemorrhage and guides anti-D dosing; *what:* fetal cells in maternal circulation). **A collateral history and baseline observations for older patients** (*why:* establishes what their normal blood pressure and function actually are, which is what makes the current numbers interpretable; *what:* baseline).
 
 ---
 
 > [!note] Cross-references
-> Head injury, GCS and intracranial haemorrhage → [[F0.5]] 0.7–0.8 · Tension pneumothorax and acute respiratory emergencies → [[F0.5]] 0.2 · Airway compromise → [[A2]] · Shock phenotypes and haemorrhagic shock → [[F0.3]] 0.2 · Massive transfusion, tranexamic acid and anticoagulant reversal → [[A9]] 0.1, 0.4 · Burns and chemical injury → [[A7]] · Wounds, bites and tetanus → [[A7]] 0.5 · Compartment syndrome → [[A7]] 0.6 · Hypothermia → [[A6]] · Fractures, open fractures and orthopaedic emergencies → [[L7]] · Spinal trauma and the fused spine → [[L4]] 0.7 · Ocular trauma and the red eye → [[E1]] · Mandibular and deep neck space injury → [[F0.5]] 0.10 · Non-accidental injury and mandatory reporting → [[L7]] 0.5, [[GER4]] and [[M6]] · Frailty and goals of care → [[GER1]] 0.2 and [[GER2]] 0.5 · Trauma in pregnancy and perimortem caesarean → [[O2]] and [[F0.4]] · Paediatric resuscitation → [[M1]]
+> Head injury, GCS and intracranial haemorrhage → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7–0.8 · Tension pneumothorax and acute respiratory emergencies → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.2 · Airway compromise → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] · Shock phenotypes and haemorrhagic shock → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.2 · Massive transfusion, tranexamic acid and anticoagulant reversal → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1, 0.4 · Burns and chemical injury → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] · Wounds, bites and tetanus → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5 · Compartment syndrome → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Hypothermia → [[A6_Thermal_and_Environmental_Injury]] · Fractures, open fractures and orthopaedic emergencies → [[L7_Fractures_and_Eponyms]] · Spinal trauma and the fused spine → [[L4_Back_and_Neck_Pain]] 0.7 · Ocular trauma and the red eye → [[E1_Red_and_Painful_Eye]] · Mandibular and deep neck space injury → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 · Non-accidental injury and mandatory reporting → [[L7_Fractures_and_Eponyms]] 0.5, [[GER4_Safeguarding_and_Forensic]] and [[M6_Paediatric_Respiratory_and_Neurology]] · Frailty and goals of care → [[GER1_Comprehensive_Geriatric_Assessment]] 0.2 and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5 · Trauma in pregnancy and perimortem caesarean → [[O2_Later_Pregnancy_and_Fetal]] and [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] · Paediatric resuscitation → [[M1_The_Seriously_Unwell_Child]]

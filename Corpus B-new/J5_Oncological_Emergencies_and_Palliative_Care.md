@@ -1,13 +1,18 @@
 ---
 block: Haematology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Recognition, principles and clinical reasoning are reliable at intern level. **ALL DOSES ARE OMITTED** — end-of-life and opioid prescribing must come from the **Australian Medicines Handbook**, **eTG Palliative Care**, **CareSearch / palliAGED**, and your health network's anticipatory prescribing chart, calculated for the individual patient.
 > **VOLUNTARY ASSISTED DYING is lawful in South Australia under specific statutory requirements** — every aspect of it is flagged `UNVERIFIED` and must be checked against the current Act and SA Health guidance. **Do not act on anything in 0.4 about VAD without verifying it.**
 >
-> **End-of-life care, prognostic trajectories and advance care planning are built in [[GER2]] 0.5–0.6**, **febrile neutropenia in [[K1]] 0.5**, and **hypercalcaemia in [[I3]] 0.2** — cross-referenced rather than repeated.
+> **End-of-life care, prognostic trajectories and advance care planning are built in [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5–0.6**, **febrile neutropenia in [[K1_Fever_Workup]] 0.5**, and **hypercalcaemia in [[I3_Calcium__Parathyroid_and_Bone]] 0.2** — cross-referenced rather than repeated.
 
 ---
 
@@ -22,7 +27,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **1. WHAT IS THE CANCER, and is it curative or palliative intent?**
 > **2. WHAT TREATMENT ARE THEY ON, and WHEN WAS THE LAST DOSE?** **Anyone within weeks of chemotherapy is neutropenic until proven otherwise. Anyone on a checkpoint inhibitor — even months after the last dose — can have an immune-related adverse event.**
 > **3. DO THEY HAVE A TREATMENT CARD, protocol or alert?** Most oncology and haematology services issue one, and it names the regimen and the contact number.
-> **4. WHAT IS THE DOCUMENTED GOALS-OF-CARE STATUS?** **Find it before you escalate or before you withhold — and if there isn't one, that is itself a finding.** Cross-refer [[A10]] 0.3.
+> **4. WHAT IS THE DOCUMENTED GOALS-OF-CARE STATUS?** **Find it before you escalate or before you withhold — and if there isn't one, that is itself a finding.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3.
 
 ---
 
@@ -30,7 +35,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!danger] Antibiotics within the hour — before the workup is complete
 > **FEBRILE NEUTROPENIA IS A MEDICAL EMERGENCY with mortality comparable to any other form of sepsis.**
-> **GIVE EMPIRICAL BROAD-SPECTRUM ANTIBIOTICS WITHIN A SHORT DEFINED WINDOW — do NOT wait for the neutrophil count, the cultures, the chest radiograph, or a senior review.** Cross-refer [[K1]] 0.5.
+> **GIVE EMPIRICAL BROAD-SPECTRUM ANTIBIOTICS WITHIN A SHORT DEFINED WINDOW — do NOT wait for the neutrophil count, the cultures, the chest radiograph, or a senior review.** Cross-refer [[K1_Fever_Workup]] 0.5.
 > **THE ABSENCE OF FEVER DOES NOT EXCLUDE IT.** **Patients on corticosteroids, the elderly, and those in septic shock may be afebrile or HYPOTHERMIC.** **Hypotension, tachycardia, confusion, rigors or simply "feeling unwell" in a recently treated patient warrant the same response.**
 > **Practical points: take cultures from peripheral sites AND from every lumen of any central line · examine the line site, the mouth, the perineum and the skin · and AVOID RECTAL EXAMINATIONS, SUPPOSITORIES AND ENEMAS in a neutropenic patient**, because of the risk of bacteraemia and perianal infection.
 > **NEUTROPENIC ENTEROCOLITIS (typhlitis) — right iliac fossa pain, fever and diarrhoea in a neutropenic patient, with bowel wall thickening on CT.** **It mimics appendicitis, and it is managed medically rather than surgically in most cases** — so recognising it prevents an operation the patient may not survive.
@@ -43,16 +48,16 @@ source: built in chat, model knowledge, NOT source-verified
 > **1. THEY OCCUR MONTHS AFTER THE LAST DOSE.** A patient who stopped treatment three months ago is still at risk, and the connection is not made.
 > **2. TREATMENT IS CORTICOSTEROIDS — not just stopping the drug.** Immunosuppression is the therapy, escalating to other agents for severe or refractory cases.
 > **3. DIARRHOEA IN A CHECKPOINT INHIBITOR PATIENT IS IMMUNE COLITIS UNTIL PROVEN OTHERWISE.** **Treating it as gastroenteritis with LOPERAMIDE is dangerous — it can mask progression to perforation.** Exclude infection (including *C. difficile*), then treat with steroids.
-> **ENDOCRINOPATHIES ARE FREQUENTLY PERMANENT**, requiring lifelong replacement — and adrenal insufficiency can present as collapse. Cross-refer [[I4]] 0.3 and [[A5]] 0.7.
+> **ENDOCRINOPATHIES ARE FREQUENTLY PERMANENT**, requiring lifelong replacement — and adrenal insufficiency can present as collapse. Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.3 and [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7.
 
 > [!warning] The chemotherapy toxicities worth knowing by name
-> **· ANTHRACYCLINES — cumulative CARDIOTOXICITY; baseline and surveillance echocardiography.** Cross-refer [[CV-X]] 0.1.
+> **· ANTHRACYCLINES — cumulative CARDIOTOXICITY; baseline and surveillance echocardiography.** Cross-refer [[CV-X_Chronic_Heart_Failure]] 0.1.
 > **· TRASTUZUMAB — cardiotoxicity, usually reversible.**
-> **· BLEOMYCIN — PULMONARY FIBROSIS, with risk related to cumulative dose and to high inspired oxygen concentrations, which matters if the patient later needs anaesthesia.** Cross-refer [[RESP-X]] 0.1.
+> **· BLEOMYCIN — PULMONARY FIBROSIS, with risk related to cumulative dose and to high inspired oxygen concentrations, which matters if the patient later needs anaesthesia.** Cross-refer [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.1.
 > **· CISPLATIN — nephrotoxicity, OTOTOXICITY (irreversible, and a reason for audiometry) and peripheral neuropathy.**
 > **· VINCRISTINE — peripheral neuropathy, and it is FATAL IF GIVEN INTRATHECALLY.** **This has caused deaths, and it is why vinca alkaloids are dispensed in minibags and never in a syringe.**
 > **· 5-FLUOROURACIL and CAPECITABINE — mucositis, diarrhoea, hand-foot syndrome, coronary vasospasm; severe toxicity occurs in DPD deficiency, for which testing is increasingly used.**
-> **· METHOTREXATE — mucositis, myelosuppression, and remember it is WEEKLY.** Cross-refer [[L2]] 0.2.
+> **· METHOTREXATE — mucositis, myelosuppression, and remember it is WEEKLY.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.2.
 > **EXTRAVASATION of a vesicant: STOP the infusion, do NOT flush, ASPIRATE what you can through the cannula, leave the cannula in initially, mark the area, apply the appropriate warm or cold compress for that drug, use the specific antidote where one exists, and involve the oncology and plastic surgery teams.** `UNVERIFIED — drug-specific management.`
 
 ---
@@ -64,9 +69,9 @@ source: built in chat, model knowledge, NOT source-verified
 > **The consequences: acute kidney injury (urate and calcium phosphate deposition), arrhythmia, seizures and death.**
 > **HIGHEST RISK: BURKITT and other high-grade lymphomas · acute leukaemias, particularly with a high white cell count · bulky chemosensitive disease · and pre-existing renal impairment or dehydration. It can occur SPONTANEOUSLY before treatment in very high-turnover disease.**
 > **PREVENTION IS THE MANAGEMENT: aggressive HYDRATION · ALLOPURINOL or, in high-risk cases, RASBURICASE · and frequent monitoring of potassium, phosphate, calcium, urate and renal function.**
-> **RASBURICASE IS CONTRAINDICATED IN G6PD DEFICIENCY — it causes severe haemolysis and methaemoglobinaemia.** **Screen at-risk patients first.** Cross-refer [[J2]] 0.2.
+> **RASBURICASE IS CONTRAINDICATED IN G6PD DEFICIENCY — it causes severe haemolysis and methaemoglobinaemia.** **Screen at-risk patients first.** Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]] 0.2.
 > **THE COUNTERINTUITIVE POINT: DO NOT GIVE CALCIUM FOR ASYMPTOMATIC HYPOCALCAEMIA in tumour lysis** — it increases calcium phosphate precipitation and worsens renal injury. **Treat calcium only if symptomatic or with arrhythmia.**
-> **Treat the hyperkalaemia, and involve renal medicine early — dialysis is sometimes required.** Cross-refer [[I5]] 0.6.
+> **Treat the hyperkalaemia, and involve renal medicine early — dialysis is sometimes required.** Cross-refer [[I5_Weight__Lipids_and_Fluid_Balance]] 0.6.
 
 > [!warning] Superior vena cava obstruction
 > **Features: facial and upper limb SWELLING · distended, non-pulsatile neck and chest wall VEINS with visible collaterals · plethora · dyspnoea and cough · headache WORSE ON BENDING FORWARD OR LYING FLAT · and PEMBERTON SIGN (facial plethora, distress and stridor on raising both arms above the head).**
@@ -79,12 +84,12 @@ source: built in chat, model knowledge, NOT source-verified
 > **PAIN PRECEDES NEUROLOGICAL SIGNS BY WEEKS.** New or worsening back pain in a patient with known malignancy — particularly if it is band-like, worse lying flat, or wakes them at night — is cord compression until proven otherwise.
 > **THE FUNCTIONAL OUTCOME IS DETERMINED BY THE NEUROLOGICAL STATUS AT THE TIME OF TREATMENT.** **A patient who is still walking when treated usually keeps walking. A patient who has lost the ability to walk usually does not regain it.**
 > **That single fact is why this is an emergency and why the window is the pain phase, not the paralysis phase.**
-> **Management: DEXAMETHASONE IMMEDIATELY · WHOLE-SPINE MRI (because there are frequently multiple levels) · and urgent discussion with oncology, radiation oncology and spinal surgery.** **Do not wait until morning.** Cross-refer [[L4]] 0.3.
+> **Management: DEXAMETHASONE IMMEDIATELY · WHOLE-SPINE MRI (because there are frequently multiple levels) · and urgent discussion with oncology, radiation oncology and spinal surgery.** **Do not wait until morning.** Cross-refer [[L4_Back_and_Neck_Pain]] 0.3.
 
 > [!tip] The other structural emergencies
 > **· RAISED INTRACRANIAL PRESSURE from brain metastases — headache worse in the morning or on coughing, vomiting, focal deficit, seizures, papilloedema.** **Dexamethasone and imaging.** **But avoid steroids before biopsy if primary CNS LYMPHOMA is a possibility — steroids can make the lesion disappear radiologically and render the biopsy non-diagnostic**, delaying treatment of a treatable disease. **Discuss before prescribing.**
-> **· MALIGNANT BOWEL OBSTRUCTION — frequently MULTI-LEVEL and NOT surgically correctable.** **Management is often MEDICAL: anti-secretory agents, antiemetics chosen by mechanism, analgesia, corticosteroids, and a venting gastrostomy or nasogastric tube for symptom relief.** **Surgery is considered only for a single-level obstruction in a patient with reasonable performance status.** Cross-refer [[C5]] 0.5.
-> **· CARDIAC TAMPONADE from a malignant pericardial effusion — cross-refer [[F0.3]] 0.5.**
+> **· MALIGNANT BOWEL OBSTRUCTION — frequently MULTI-LEVEL and NOT surgically correctable.** **Management is often MEDICAL: anti-secretory agents, antiemetics chosen by mechanism, analgesia, corticosteroids, and a venting gastrostomy or nasogastric tube for symptom relief.** **Surgery is considered only for a single-level obstruction in a patient with reasonable performance status.** Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5.
+> **· CARDIAC TAMPONADE from a malignant pericardial effusion — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.5.**
 > **· MASSIVE HAEMOPTYSIS or catastrophic haemorrhage — and where this is anticipated in a dying patient, PLAN FOR IT: dark towels, sedation prescribed in advance, and a briefed family.** See 0.6.
 
 ---
@@ -102,8 +107,8 @@ source: built in chat, model knowledge, NOT source-verified
 > **Doctors consistently predict survival LONGER than it turns out to be, and the error increases the better they know the patient.**
 > **The consequences: late referral · conversations that never happen · treatment continued past benefit · and families unprepared.**
 > **The "SURPRISE QUESTION" — "would I be surprised if this patient died in the next twelve months?" — is a crude but useful prompt, and a "no" should trigger advance care planning.**
-> **Communicating prognosis: ask first what they want to know, and how much detail.** **Use RANGES in units of time — "days to weeks", "weeks to short months" — rather than a number, and acknowledge the uncertainty honestly.** **A specific number is almost always wrong and is remembered forever.** Cross-refer [[GER5]].
-> **The illness trajectories — cancer's late steep decline, organ failure's sawtooth, frailty's slow drift — are in [[GER2]] 0.5** and explain why prognostication is hardest in non-malignant disease.
+> **Communicating prognosis: ask first what they want to know, and how much detail.** **Use RANGES in units of time — "days to weeks", "weeks to short months" — rather than a number, and acknowledge the uncertainty honestly.** **A specific number is almost always wrong and is remembered forever.** Cross-refer [[GER5_Communication_and_Consultation_Skills]].
+> **The illness trajectories — cancer's late steep decline, organ failure's sawtooth, frailty's slow drift — are in [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5** and explain why prognostication is hardest in non-malignant disease.
 
 > [!tip] Place of care, and what makes home possible
 > **Most people say they would prefer to die at home. Most die in hospital.**
@@ -129,7 +134,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· PRESCRIBE A LAXATIVE WITH EVERY OPIOID, EVERY TIME. Opioid-induced constipation does not develop tolerance and it is universal.**
 > **· ANTICIPATE nausea on initiation and prescribe an antiemetic.**
 > **· RENAL IMPAIRMENT: AVOID MORPHINE — its active metabolites accumulate and cause sedation, myoclonus and respiratory depression. Use hydromorphone or fentanyl.** **This is one of the commonest and most consequential prescribing errors in palliative care.**
-> **· ADJUVANTS by pain type: NEUROPATHIC pain → antineuropathic agents (cross-refer [[F0.4]] 0.8) · BONE pain → NSAIDs, RADIOTHERAPY (a single fraction is often highly effective and under-used), bisphosphonates · liver capsular pain and raised intracranial pressure → dexamethasone · colic → antispasmodics.**
+> **· ADJUVANTS by pain type: NEUROPATHIC pain → antineuropathic agents (cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.8) · BONE pain → NSAIDs, RADIOTHERAPY (a single fraction is often highly effective and under-used), bisphosphonates · liver capsular pain and raised intracranial pressure → dexamethasone · colic → antispasmodics.**
 > **· OPIOID ROTATION where side effects limit dose escalation.**
 
 > [!danger] The opioid myths that cause under-treatment
@@ -142,12 +147,12 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Positioning (upright, leaning forward with arms braced), breathing control, pacing, and a cool, open, uncluttered room.**
 > **· LOW-DOSE OPIOIDS are effective for refractory breathlessness and are safe at the doses used.**
 > **· Anxiolytics where anxiety is driving or amplifying it — and the two feed each other.**
-> **· OXYGEN ONLY IF HYPOXIC.** **Oxygen does not relieve breathlessness in non-hypoxaemic patients, and it tethers them to a machine and a mask.** Cross-refer [[RESP-X]] 0.6.
+> **· OXYGEN ONLY IF HYPOXIC.** **Oxygen does not relieve breathlessness in non-hypoxaemic patients, and it tethers them to a machine and a mask.** Cross-refer [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.6.
 
 > [!tip] The rest of the symptom burden
-> **· NAUSEA AND VOMITING — choose the antiemetic by MECHANISM and receptor, not by habit.** Cross-refer [[C2]] 0.5.
+> **· NAUSEA AND VOMITING — choose the antiemetic by MECHANISM and receptor, not by habit.** Cross-refer [[C2_Nausea_and_Vomiting]] 0.5.
 > **· CONSTIPATION — as above, prescribed prophylactically.**
-> **· DELIRIUM — extremely common at the end of life. Look for the reversible causes (urinary retention, constipation, hypercalcaemia, infection, opioid toxicity, drug withdrawal) before assuming it is terminal.** Cross-refer [[D2]] 0.2.
+> **· DELIRIUM — extremely common at the end of life. Look for the reversible causes (urinary retention, constipation, hypercalcaemia, infection, opioid toxicity, drug withdrawal) before assuming it is terminal.** Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.2.
 > **· MOUTH CARE — dry mouth, thrush and mucositis cause disproportionate distress and are easily and cheaply treated. It is the single most appreciated nursing intervention at the end of life.**
 > **· ANOREXIA AND CACHEXIA — the distress is usually greater for the FAMILY than for the patient. Explaining that not eating is a consequence of the illness rather than a cause of deterioration relieves a great deal of guilt and conflict.**
 > **· Fatigue, pruritus, hiccups, lymphoedema, malignant wounds, ascites and pleural effusions** — each with specific management.
@@ -183,7 +188,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **SAYING THIS EXPLICITLY — "that sound is upsetting to hear, and I want you to know he isn't distressed by it and isn't choking" — is one of the most valuable things you can offer a family**, and it is frequently not said.
 
 > [!warning] Hydration, nutrition, and the family conversations
-> **· ARTIFICIAL HYDRATION AND NUTRITION at the end of life do not prolong life or improve symptoms in the dying phase, and can worsen secretions, oedema and breathlessness.** **The decision should be individualised and discussed, not applied by default in either direction.** **MOUTH CARE is what relieves the sensation of thirst.** Cross-refer [[GER2]] 0.3.
+> **· ARTIFICIAL HYDRATION AND NUTRITION at the end of life do not prolong life or improve symptoms in the dying phase, and can worsen secretions, oedema and breathlessness.** **The decision should be individualised and discussed, not applied by default in either direction.** **MOUTH CARE is what relieves the sensation of thirst.** Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.3.
 > **· TELL THE FAMILY WHAT TO EXPECT — the breathing changes, the reduced consciousness, the mottling, the fact that hearing is thought to persist, and that the timing is uncertain.** **Unexpected normal events are frightening; anticipated ones are not.**
 > **· GIVE PERMISSION — to be present, and equally to step out. Families frequently feel they must maintain a vigil and then feel guilty when the death occurs during the few minutes they left the room.** **Tell them in advance that this commonly happens and that it is not a failure.**
 > **· INVOLVE CHILDREN honestly and age-appropriately — exclusion causes more lasting harm than inclusion, and children construct worse explanations than the truth.**
@@ -202,4 +207,4 @@ source: built in chat, model knowledge, NOT source-verified
 ---
 
 > [!note] Cross-references
-> End-of-life care, trajectories and advance care planning → [[GER2]] 0.5–0.6 · Capacity, substitute decision-making and goals of care → [[A10]] 0.1–0.3 · Breaking bad news and difficult conversations → [[GER5]] · Febrile neutropenia → [[K1]] 0.5 · Hypercalcaemia → [[I3]] 0.2 · Hyperkalaemia → [[I5]] 0.6 · Metastatic spinal cord compression → [[L4]] 0.3 · Malignant bowel obstruction → [[C5]] 0.5 · Cardiac tamponade → [[F0.3]] 0.5 · Antiemetic selection by mechanism → [[C2]] 0.5 · Delirium → [[D2]] 0.2 · Neuropathic pain and opioid stewardship → [[F0.4]] 0.8–0.9 · Refractory breathlessness and the handheld fan → [[RESP-X]] 0.6 · Anthracycline and trastuzumab cardiotoxicity → [[CV-X]] 0.1 · Bleomycin lung toxicity → [[RESP-X]] 0.1 · Checkpoint inhibitor adverse events → [[A5]] 0.7 and [[I4]] 0.3 · G6PD deficiency and rasburicase → [[J2]] 0.2 · Myeloma, lymphoma and leukaemia → [[J4]] · Malnutrition and artificial nutrition → [[GER2]] 0.3
+> End-of-life care, trajectories and advance care planning → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5–0.6 · Capacity, substitute decision-making and goals of care → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.3 · Breaking bad news and difficult conversations → [[GER5_Communication_and_Consultation_Skills]] · Febrile neutropenia → [[K1_Fever_Workup]] 0.5 · Hypercalcaemia → [[I3_Calcium__Parathyroid_and_Bone]] 0.2 · Hyperkalaemia → [[I5_Weight__Lipids_and_Fluid_Balance]] 0.6 · Metastatic spinal cord compression → [[L4_Back_and_Neck_Pain]] 0.3 · Malignant bowel obstruction → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5 · Cardiac tamponade → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.5 · Antiemetic selection by mechanism → [[C2_Nausea_and_Vomiting]] 0.5 · Delirium → [[D2_Altered_Consciousness_and_Cognition]] 0.2 · Neuropathic pain and opioid stewardship → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.8–0.9 · Refractory breathlessness and the handheld fan → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.6 · Anthracycline and trastuzumab cardiotoxicity → [[CV-X_Chronic_Heart_Failure]] 0.1 · Bleomycin lung toxicity → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.1 · Checkpoint inhibitor adverse events → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7 and [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.3 · G6PD deficiency and rasburicase → [[J2_Haemoglobinopathy_and_Haemolysis]] 0.2 · Myeloma, lymphoma and leukaemia → [[J4_Paraproteins_and_Lymphoproliferative]] · Malnutrition and artificial nutrition → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.3

@@ -1,12 +1,17 @@
 ---
 block: Haematology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Diagnostic frameworks, mechanism and discriminators are reliable at intern level. **Every reference range, threshold, dose and regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG**, the **Australian Medicines Handbook**, and the **National Blood Authority Patient Blood Management guidelines**.
 >
-> **Haemolysis and haemoglobinopathies are built in [[J2]]**, **bleeding and thrombosis in [[J3]]**, **febrile neutropenia in [[K1]] 0.5**, and **transfusion in [[A9]] 0.2** — cross-referenced rather than repeated.
+> **Haemolysis and haemoglobinopathies are built in [[J2_Haemoglobinopathy_and_Haemolysis]]**, **bleeding and thrombosis in [[J3_Bleeding_and_Thrombosis]]**, **febrile neutropenia in [[K1_Fever_Workup]] 0.5**, and **transfusion in [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.2** — cross-referenced rather than repeated.
 
 ---
 
@@ -14,7 +19,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!danger] Anaemia is a sign, not a diagnosis
 > **Every anaemia has a cause, and treating the anaemia without finding the cause is how cancers are missed.**
-> **The rule that matters most: IRON DEFICIENCY IN AN ADULT MAN OR A POSTMENOPAUSAL WOMAN IS GASTROINTESTINAL BLOOD LOSS UNTIL PROVEN OTHERWISE**, and warrants endoscopic investigation unless there is a clear alternative explanation. Cross-refer [[C4]] 0.2 and [[C5]] 0.5.
+> **The rule that matters most: IRON DEFICIENCY IN AN ADULT MAN OR A POSTMENOPAUSAL WOMAN IS GASTROINTESTINAL BLOOD LOSS UNTIL PROVEN OTHERWISE**, and warrants endoscopic investigation unless there is a clear alternative explanation. Cross-refer [[C4_Gastrointestinal_Bleeding]] 0.2 and [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5.
 
 > [!tip] Two axes classify almost every anaemia
 > **AXIS 1 — THE MCV: microcytic, normocytic, macrocytic.**
@@ -30,7 +35,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!tip] Symptoms depend on the rate of onset, not the number
 > **A patient with chronic iron deficiency can be walking around and working at a haemoglobin that would leave someone with acute haemorrhage shocked** — because compensation (increased cardiac output, right-shifted oxygen dissociation, plasma volume expansion) develops over time.
 > **The clinical consequence: treat the PATIENT, not the number.**
-> **Transfusion follows RESTRICTIVE thresholds, is given ONE UNIT AT A TIME WITH REASSESSMENT, and is not a substitute for diagnosing and treating the cause.** **In a stable, non-bleeding patient with iron deficiency, IRON is the treatment and transfusion is usually unnecessary.** Cross-refer [[A9]] 0.2. `UNVERIFIED — transfusion thresholds.`
+> **Transfusion follows RESTRICTIVE thresholds, is given ONE UNIT AT A TIME WITH REASSESSMENT, and is not a substitute for diagnosing and treating the cause.** **In a stable, non-bleeding patient with iron deficiency, IRON is the treatment and transfusion is usually unnecessary.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.2. `UNVERIFIED — transfusion thresholds.`
 
 ---
 
@@ -48,20 +53,20 @@ source: built in chat, model knowledge, NOT source-verified
 > `UNVERIFIED — the ferritin thresholds, including the higher threshold applied in the presence of inflammation or chronic kidney disease.`
 
 > [!warning] Iron deficiency — the causes and the two tests everyone forgets
-> **· BLOOD LOSS — gastrointestinal (the priority in adults) · MENSTRUAL (the commonest cause in premenopausal women, and heavy menstrual bleeding is under-asked about — cross-refer [[O4]] 0.2) · urinary · repeated blood donation · and iatrogenic (frequent phlebotomy in inpatients, which is a genuine and underestimated cause).**
+> **· BLOOD LOSS — gastrointestinal (the priority in adults) · MENSTRUAL (the commonest cause in premenopausal women, and heavy menstrual bleeding is under-asked about — cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] 0.2) · urinary · repeated blood donation · and iatrogenic (frequent phlebotomy in inpatients, which is a genuine and underestimated cause).**
 > **· MALABSORPTION — COELIAC DISEASE, atrophic gastritis, *H. pylori*, bariatric surgery, and PPI use (which reduces the gastric acid needed for iron absorption).**
 > **· INCREASED DEMAND — pregnancy, infancy, adolescence.**
 > **· DIETARY — vegetarian and vegan diets, and toddlers on excessive cow's milk.**
 > **· HOOKWORM and other parasites in relevant populations.**
 > **THE TWO TESTS FORGOTTEN IN NEW IRON DEFICIENCY:**
 > **1. COELIAC SEROLOGY — with total IgA, because selective IgA deficiency causes false negatives.** **Coeliac disease presents as isolated iron deficiency with no gastrointestinal symptoms surprisingly often.**
-> **2. A MENSTRUAL HISTORY in any premenopausal woman — asked in a way that actually quantifies it.** Cross-refer [[O4]] 0.2.
+> **2. A MENSTRUAL HISTORY in any premenopausal woman — asked in a way that actually quantifies it.** Cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] 0.2.
 
 > [!tip] Treating iron deficiency
 > **· ORAL IRON is first-line. Absorption is limited by HEPCIDIN, which rises for a day or so after a dose — so ALTERNATE-DAY dosing may achieve better total absorption with fewer gastrointestinal side effects than daily dosing.** `UNVERIFIED — the current dosing recommendation.`
 > **· Take it with vitamin C or citrus; avoid with tea, calcium, antacids and PPIs.**
 > **· CONTINUE FOR MONTHS AFTER THE HAEMOGLOBIN NORMALISES** — the haemoglobin corrects long before the stores are replete, and stopping when the count is normal guarantees recurrence. **Recheck the ferritin, not just the haemoglobin.**
-> **· INTRAVENOUS IRON for intolerance, malabsorption, ongoing losses exceeding oral replacement, chronic kidney disease, or where rapid correction is needed — including PRE-OPERATIVELY.** Cross-refer [[AN1]] 0.1.
+> **· INTRAVENOUS IRON for intolerance, malabsorption, ongoing losses exceeding oral replacement, chronic kidney disease, or where rapid correction is needed — including PRE-OPERATIVELY.** Cross-refer [[AN1_Perioperative_Care]] 0.1.
 > **· IRON DEFICIENCY WITHOUT ANAEMIA IS SYMPTOMATIC AND WORTH TREATING** — fatigue, poor exercise tolerance, RESTLESS LEGS, hair loss, pica and impaired concentration all occur before the haemoglobin falls. **Do not dismiss a low ferritin with a normal haemoglobin.**
 
 > [!danger] Thalassaemia trait — do not treat it with iron forever
@@ -71,7 +76,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Confirm with HAEMOGLOBIN ELECTROPHORESIS or HPLC for beta thalassaemia trait (raised HbA2) — but note that ALPHA thalassaemia trait has a NORMAL electrophoresis and requires GENETIC testing.**
 > **Two practical consequences:**
 > **1. These patients are given iron indefinitely for a "refractory anaemia" that is not iron deficiency, risking IRON OVERLOAD.**
-> **2. The diagnosis has GENETIC COUNSELLING implications — two carriers can have a child with transfusion-dependent thalassaemia, which makes partner testing and counselling important, particularly in populations of Mediterranean, Middle Eastern, South Asian, Southeast Asian and African ancestry.** Cross-refer [[J2]].
+> **2. The diagnosis has GENETIC COUNSELLING implications — two carriers can have a child with transfusion-dependent thalassaemia, which makes partner testing and counselling important, particularly in populations of Mediterranean, Middle Eastern, South Asian, Southeast Asian and African ancestry.** Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]].
 > **Note that iron deficiency and thalassaemia trait COEXIST commonly** — so a thalassaemia carrier can still become iron deficient, and the ferritin distinguishes them.
 
 ---
@@ -88,7 +93,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **SUBACUTE COMBINED DEGENERATION OF THE CORD — dorsal columns and corticospinal tracts.**
 > **The picture: symmetrical distal PARAESTHESIA · loss of vibration and proprioception · SENSORY ATAXIA with a positive Romberg sign · and the characteristic combination of ABSENT ANKLE REFLEXES WITH UPGOING PLANTARS (a mixed peripheral and central lesion).** Also cognitive change and optic atrophy.
 > **CRITICALLY: THE NEUROLOGICAL DAMAGE CAN OCCUR WITH A NORMAL HAEMOGLOBIN AND A NORMAL MCV.** **You cannot exclude B12 deficiency on a normal full blood count.**
-> **Treat on suspicion — the neurological damage becomes irreversible if treatment is delayed.** Cross-refer [[D4]] 0.2.
+> **Treat on suspicion — the neurological damage becomes irreversible if treatment is delayed.** Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.2.
 
 > [!danger] Never give folate alone to a patient who may be B12 deficient
 > **Folate replacement corrects the haematological picture while the NEUROLOGICAL damage of B12 deficiency progresses — and it can precipitate or accelerate subacute combined degeneration.**
@@ -101,7 +106,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· ILEAL — Crohn disease, ileal resection, bacterial overgrowth, tropical sprue.**
 > **· DRUGS — METFORMIN (a genuinely common cause, and worth checking periodically in long-term users) and PROTON PUMP INHIBITORS.**
 > **· DIET — strict vegan diets without supplementation.**
-> **· NITROUS OXIDE — recreational use inactivates B12 and causes a FUNCTIONAL deficiency with a NORMAL serum B12. Check methylmalonic acid and homocysteine.** Cross-refer [[N2]] 0.4.
+> **· NITROUS OXIDE — recreational use inactivates B12 and causes a FUNCTIONAL deficiency with a NORMAL serum B12. Check methylmalonic acid and homocysteine.** Cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.4.
 > **Serum B12 is an imperfect test. Where the level is borderline and the clinical suspicion is real, METHYLMALONIC ACID and HOMOCYSTEINE are more sensitive** — both rise in B12 deficiency, and homocysteine alone rises in folate deficiency.
 
 > [!warning] Macrocytosis with cytopenias in an older person
@@ -126,9 +131,9 @@ source: built in chat, model knowledge, NOT source-verified
 > **The two coexist frequently**, producing an intermediate picture — which is where transferrin saturation and, if needed, marrow iron or a trial of iron help.
 
 > [!warning] The other normocytic causes
-> **· ACUTE BLOOD LOSS.** **THE HAEMOGLOBIN IS NORMAL IMMEDIATELY AFTER ACUTE HAEMORRHAGE** — because whole blood is lost, and the concentration does not fall until plasma volume is restored by fluid shift or resuscitation. **A normal haemoglobin in an acutely bleeding patient is meaningless and must not be reassuring.** Cross-refer [[A9]] 0.1.
-> **· ANAEMIA OF CHRONIC KIDNEY DISEASE — erythropoietin deficiency. Correct iron FIRST, then consider an erythropoiesis-stimulating agent, and do not over-correct the haemoglobin.** Cross-refer [[H3]] 0.4.
-> **· HAEMOLYSIS — cross-refer [[J2]].** Reticulocytes high.
+> **· ACUTE BLOOD LOSS.** **THE HAEMOGLOBIN IS NORMAL IMMEDIATELY AFTER ACUTE HAEMORRHAGE** — because whole blood is lost, and the concentration does not fall until plasma volume is restored by fluid shift or resuscitation. **A normal haemoglobin in an acutely bleeding patient is meaningless and must not be reassuring.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1.
+> **· ANAEMIA OF CHRONIC KIDNEY DISEASE — erythropoietin deficiency. Correct iron FIRST, then consider an erythropoiesis-stimulating agent, and do not over-correct the haemoglobin.** Cross-refer [[H3_Acute_Kidney_Injury_and_CKD]] 0.4.
+> **· HAEMOLYSIS — cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]].** Reticulocytes high.
 > **· MARROW FAILURE OR INFILTRATION — see 0.6.**
 > **· MIXED DEFICIENCY — a combined iron and B12 or folate deficiency can produce a NORMAL MCV as the average of microcytic and macrocytic populations.** **The clues are a RAISED RDW and a DIMORPHIC blood film.** **This is why the film matters.**
 > **· ENDOCRINE — hypothyroidism, hypopituitarism, adrenal insufficiency.**
@@ -150,13 +155,13 @@ source: built in chat, model knowledge, NOT source-verified
 > **Chronic strongyloidiasis is endemic in parts of northern and central Australia and is highly prevalent in some Aboriginal communities, and in migrants and returned travellers from endemic areas. It can persist ASYMPTOMATICALLY FOR DECADES through autoinfection.**
 > **GIVING CORTICOSTEROIDS (or other immunosuppression) TO A PATIENT WITH LATENT STRONGYLOIDES CAN PRECIPITATE HYPERINFECTION SYNDROME AND DISSEMINATED STRONGYLOIDIASIS — which carries very high mortality, often with Gram-negative sepsis and meningitis from translocated gut organisms.**
 > **SCREEN FOR STRONGYLOIDES (serology) BEFORE STARTING CORTICOSTEROIDS OR IMMUNOSUPPRESSION IN ANYONE FROM AN ENDEMIC AREA — and treat before immunosuppressing.**
-> **Unexplained eosinophilia in such a patient should prompt the test.** Cross-refer [[K3]] 0.5 and [[K1]] 0.4.
+> **Unexplained eosinophilia in such a patient should prompt the test.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 and [[K1_Fever_Workup]] 0.4.
 
 > [!warning] Neutropenia — and one variant that must not trigger a workup
 > **Causes: DRUGS (chemotherapy · CLOZAPINE · carbimazole and propylthiouracil · sulfasalazine · methotrexate · many antibiotics including beta-lactams and co-trimoxazole) · infection (viral, and overwhelming bacterial sepsis) · autoimmune, including Felty syndrome · B12 and folate deficiency · marrow failure and infiltration · and hypersplenism.**
 > **BENIGN ETHNIC NEUTROPENIA (Duffy-null associated neutrophil count) — a mild, chronic, entirely benign neutropenia that is common in people of African ancestry and some Middle Eastern populations.**
-> **It carries NO increased infection risk. Recognising it prevents unnecessary bone marrow biopsies, and — importantly — prevents patients being denied or delayed chemotherapy, clozapine or other treatments because their baseline count sits below a reference range derived from a different population.** **This is an equity issue as well as a diagnostic one.** Cross-refer [[N3]] 0.6.
-> **FEBRILE NEUTROPENIA is a medical emergency requiring antibiotics within a short defined window, BEFORE the workup is complete.** Cross-refer [[K1]] 0.5.
+> **It carries NO increased infection risk. Recognising it prevents unnecessary bone marrow biopsies, and — importantly — prevents patients being denied or delayed chemotherapy, clozapine or other treatments because their baseline count sits below a reference range derived from a different population.** **This is an equity issue as well as a diagnostic one.** Cross-refer [[N3_Psychosis_and_Antipsychotics]] 0.6.
+> **FEBRILE NEUTROPENIA is a medical emergency requiring antibiotics within a short defined window, BEFORE the workup is complete.** Cross-refer [[K1_Fever_Workup]] 0.5.
 > **AGRANULOCYTOSIS from a drug — stop the drug immediately, and never rechallenge.**
 
 ---
@@ -173,7 +178,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· INCREASED DESTRUCTION — immune thrombocytopenia, drug-induced, HIT, TTP, HUS, DIC, antiphospholipid syndrome, post-transfusion purpura.**
 > **· SEQUESTRATION — hypersplenism from any cause, most commonly cirrhosis with portal hypertension.**
 > **· DILUTION — massive transfusion and fluid resuscitation.**
-> **· PREGNANCY — gestational thrombocytopenia (common, mild, benign), pre-eclampsia and HELLP syndrome.** Cross-refer [[O2]].
+> **· PREGNANCY — gestational thrombocytopenia (common, mild, benign), pre-eclampsia and HELLP syndrome.** Cross-refer [[O2_Later_Pregnancy_and_Fetal]].
 
 > [!warning] Immune thrombocytopenia
 > **A diagnosis of exclusion: isolated thrombocytopenia with an otherwise normal blood count and film, and no other explanation.**
@@ -185,11 +190,11 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!danger] The three thrombocytopenias where the reflex action is wrong
 > **1. HEPARIN-INDUCED THROMBOCYTOPENIA — a platelet fall (typically 5 to 10 days after starting heparin, sooner on re-exposure) associated with THROMBOSIS, not bleeding.**
-> **THE ERROR: stopping the heparin and doing nothing else.** **HIT is a PROTHROMBOTIC state — these patients clot, arterially and venously, and limbs and lives are lost.** **STOP ALL HEPARIN (including flushes and heparin-bonded lines) AND START AN ALTERNATIVE NON-HEPARIN ANTICOAGULANT.** **Do not give warfarin acutely (risk of venous limb gangrene) and do not transfuse platelets.** Cross-refer [[A9]] 0.4 and [[J3]].
+> **THE ERROR: stopping the heparin and doing nothing else.** **HIT is a PROTHROMBOTIC state — these patients clot, arterially and venously, and limbs and lives are lost.** **STOP ALL HEPARIN (including flushes and heparin-bonded lines) AND START AN ALTERNATIVE NON-HEPARIN ANTICOAGULANT.** **Do not give warfarin acutely (risk of venous limb gangrene) and do not transfuse platelets.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4 and [[J3_Bleeding_and_Thrombosis]].
 > **2. THROMBOTIC THROMBOCYTOPENIC PURPURA — microangiopathic haemolytic anaemia with SCHISTOCYTES, thrombocytopenia, neurological features, renal impairment and fever (the classic pentad, rarely all present).** **Caused by ADAMTS13 deficiency.**
 > **THE ERROR: transfusing platelets.** **PLATELET TRANSFUSION IS CONTRAINDICATED — it fuels further microvascular thrombosis.**
-> **PLASMA EXCHANGE IS LIFE-SAVING AND URGENT — mortality is very high untreated and falls dramatically with prompt exchange.** **A patient with a microangiopathic film and thrombocytopenia needs a haematologist immediately.** Cross-refer [[J2]].
-> **3. DISSEMINATED INTRAVASCULAR COAGULATION — treat the underlying cause; blood product support is guided by bleeding and by the coagulation profile, not by numbers alone.** Cross-refer [[A9]] 0.3.
+> **PLASMA EXCHANGE IS LIFE-SAVING AND URGENT — mortality is very high untreated and falls dramatically with prompt exchange.** **A patient with a microangiopathic film and thrombocytopenia needs a haematologist immediately.** Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]].
+> **3. DISSEMINATED INTRAVASCULAR COAGULATION — treat the underlying cause; blood product support is guided by bleeding and by the coagulation profile, not by numbers alone.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3.
 
 > [!danger] Pancytopenia — and the reversible cause to exclude first
 > **Causes:**
@@ -209,12 +214,12 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Suspected TTP — a microangiopathic film with thrombocytopenia.**
 > **· Suspected HIT.**
 > **· Neutropenic fever.**
-> **· Suspected acute promyelocytic leukaemia — where coagulopathy and DIC are prominent and treatment is genuinely time-critical.** Cross-refer [[J4]].
+> **· Suspected acute promyelocytic leukaemia — where coagulopathy and DIC are prominent and treatment is genuinely time-critical.** Cross-refer [[J4_Paraproteins_and_Lymphoproliferative]].
 > **· New pancytopenia in a patient with bleeding or infection.**
 
-**Ix:** **FBC with a BLOOD FILM, and a RETICULOCYTE count** (*why:* the film and reticulocytes together split the differential and identify the diagnoses that cannot wait; *what:* indices, morphology, marrow response). **Iron studies — ferritin, iron, transferrin/TIBC, transferrin saturation — WITH a CRP** (*why:* ferritin is an acute phase reactant and is uninterpretable without knowing whether the patient is inflamed; *what:* the pattern per the table above). **B12 and FOLATE, with methylmalonic acid and homocysteine if borderline** (*why:* deficiency causes irreversible neurological damage and reversible pancytopenia, and the serum B12 is imperfect; *what:* deficiency). **UEC, LFT, TFTs, CRP/ESR** (*why:* renal, hepatic, thyroid and inflammatory causes; *what:* the underlying disease). **COELIAC SEROLOGY with total IgA in new iron deficiency** (*why:* it commonly presents as isolated iron deficiency without gut symptoms; *what:* positive serology). **Haemoglobin electrophoresis or HPLC where thalassaemia is suspected, recognising that ALPHA thalassaemia requires genetic testing** (*why:* prevents indefinite iron therapy and has genetic counselling implications; *what:* raised HbA2, abnormal variants). **Repeat platelet count in a CITRATE tube for isolated thrombocytopenia** (*why:* excludes EDTA-induced pseudothrombocytopenia before any investigation; *what:* true count). **Direct antiglobulin test, LDH, haptoglobin, bilirubin where haemolysis is possible** (*why:* cross-refer [[J2]]; *what:* haemolytic pattern). **STRONGYLOIDES serology before corticosteroids or immunosuppression in anyone from an endemic area** (*why:* hyperinfection has very high mortality and is entirely preventable; *what:* positive serology). **Serum and urine electrophoresis with free light chains in unexplained anaemia over 50, particularly with renal impairment, hypercalcaemia or bone pain** (*why:* myeloma; *what:* paraprotein — cross-refer [[J4]]). **Bone marrow aspirate and trephine** where unexplained cytopenias persist, blasts are present, or infiltration is suspected — **after B12, folate and iron have been checked** (*why:* diagnostic, but avoidable if a reversible deficiency explains the picture; *what:* cellularity, dysplasia, blasts, infiltration). **Endoscopic investigation of the gastrointestinal tract in iron deficiency in men and postmenopausal women** (*why:* occult malignancy; *what:* the source — cross-refer [[C5]] 0.5).
+**Ix:** **FBC with a BLOOD FILM, and a RETICULOCYTE count** (*why:* the film and reticulocytes together split the differential and identify the diagnoses that cannot wait; *what:* indices, morphology, marrow response). **Iron studies — ferritin, iron, transferrin/TIBC, transferrin saturation — WITH a CRP** (*why:* ferritin is an acute phase reactant and is uninterpretable without knowing whether the patient is inflamed; *what:* the pattern per the table above). **B12 and FOLATE, with methylmalonic acid and homocysteine if borderline** (*why:* deficiency causes irreversible neurological damage and reversible pancytopenia, and the serum B12 is imperfect; *what:* deficiency). **UEC, LFT, TFTs, CRP/ESR** (*why:* renal, hepatic, thyroid and inflammatory causes; *what:* the underlying disease). **COELIAC SEROLOGY with total IgA in new iron deficiency** (*why:* it commonly presents as isolated iron deficiency without gut symptoms; *what:* positive serology). **Haemoglobin electrophoresis or HPLC where thalassaemia is suspected, recognising that ALPHA thalassaemia requires genetic testing** (*why:* prevents indefinite iron therapy and has genetic counselling implications; *what:* raised HbA2, abnormal variants). **Repeat platelet count in a CITRATE tube for isolated thrombocytopenia** (*why:* excludes EDTA-induced pseudothrombocytopenia before any investigation; *what:* true count). **Direct antiglobulin test, LDH, haptoglobin, bilirubin where haemolysis is possible** (*why:* cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]]; *what:* haemolytic pattern). **STRONGYLOIDES serology before corticosteroids or immunosuppression in anyone from an endemic area** (*why:* hyperinfection has very high mortality and is entirely preventable; *what:* positive serology). **Serum and urine electrophoresis with free light chains in unexplained anaemia over 50, particularly with renal impairment, hypercalcaemia or bone pain** (*why:* myeloma; *what:* paraprotein — cross-refer [[J4_Paraproteins_and_Lymphoproliferative]]). **Bone marrow aspirate and trephine** where unexplained cytopenias persist, blasts are present, or infiltration is suspected — **after B12, folate and iron have been checked** (*why:* diagnostic, but avoidable if a reversible deficiency explains the picture; *what:* cellularity, dysplasia, blasts, infiltration). **Endoscopic investigation of the gastrointestinal tract in iron deficiency in men and postmenopausal women** (*why:* occult malignancy; *what:* the source — cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5).
 
 ---
 
 > [!note] Cross-references
-> Haemolysis, thalassaemia and sickle cell disease → [[J2]] · Bleeding disorders, VTE and anticoagulation → [[J3]] · Myeloma, leukaemia and lymphoma → [[J4]] · Oncological emergencies → [[J5]] · Transfusion, massive haemorrhage and reversal → [[A9]] · Febrile neutropenia → [[K1]] 0.5 · Strongyloides and immunosuppression → [[K3]] 0.5 · Iron deficiency and GI bleeding → [[C4]] 0.2 and [[C5]] 0.5 · Coeliac disease → [[C5]] 0.4 · Heavy menstrual bleeding → [[O4]] 0.2 · Anaemia of chronic kidney disease → [[H3]] 0.4 · Subacute combined degeneration → [[D4]] 0.2 · Nitrous oxide and functional B12 deficiency → [[N2]] 0.4 · Clozapine monitoring and benign ethnic neutropenia → [[N3]] 0.6 · Preoperative anaemia and patient blood management → [[AN1]] 0.1 · Thrombocytopenia in pregnancy → [[O2]]
+> Haemolysis, thalassaemia and sickle cell disease → [[J2_Haemoglobinopathy_and_Haemolysis]] · Bleeding disorders, VTE and anticoagulation → [[J3_Bleeding_and_Thrombosis]] · Myeloma, leukaemia and lymphoma → [[J4_Paraproteins_and_Lymphoproliferative]] · Oncological emergencies → [[J5_Oncological_Emergencies_and_Palliative_Care]] · Transfusion, massive haemorrhage and reversal → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] · Febrile neutropenia → [[K1_Fever_Workup]] 0.5 · Strongyloides and immunosuppression → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · Iron deficiency and GI bleeding → [[C4_Gastrointestinal_Bleeding]] 0.2 and [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5 · Coeliac disease → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.4 · Heavy menstrual bleeding → [[O4_Abnormal_and_Menstrual_Bleeding]] 0.2 · Anaemia of chronic kidney disease → [[H3_Acute_Kidney_Injury_and_CKD]] 0.4 · Subacute combined degeneration → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.2 · Nitrous oxide and functional B12 deficiency → [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.4 · Clozapine monitoring and benign ethnic neutropenia → [[N3_Psychosis_and_Antipsychotics]] 0.6 · Preoperative anaemia and patient blood management → [[AN1_Perioperative_Care]] 0.1 · Thrombocytopenia in pregnancy → [[O2_Later_Pregnancy_and_Fetal]]

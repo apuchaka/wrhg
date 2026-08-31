@@ -1,12 +1,17 @@
 ---
 block: Renal & Urology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Diagnostic reasoning, discriminators and mechanism are reliable at intern level. **Every threshold, referral criterion, dose and regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG**, **Kidney Health Australia (CARI guidelines and the CKD management handbook)**, and your local nephrology and urology referral criteria.
 >
-> **Vasculitis and ANCA-associated disease are built in [[L2]] 0.5**, and **acute kidney injury and chronic kidney disease in [[H3]]** — cross-referenced rather than repeated.
+> **Vasculitis and ANCA-associated disease are built in [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5**, and **acute kidney injury and chronic kidney disease in [[H3_Acute_Kidney_Injury_and_CKD]]** — cross-referenced rather than repeated.
 
 ---
 
@@ -14,7 +19,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!tip] First — is it actually blood?
 > **A positive dipstick with NO red cells on microscopy means haemoglobin or MYOGLOBIN, not haematuria.**
-> **· MYOGLOBINURIA — rhabdomyolysis. Cross-refer [[A7]] 0.6.**
+> **· MYOGLOBINURIA — rhabdomyolysis. Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.**
 > **· HAEMOGLOBINURIA — intravascular haemolysis.**
 > **· Non-blood causes of discoloured urine: beetroot, food dyes, RIFAMPICIN (orange), senna, nitrofurantoin, methyldopa, porphyria, and bile.**
 > **· Contamination — menstruation, or a lesion of the external genitalia or perineum.** **Repeat the sample outside menstruation before investigating.**
@@ -47,7 +52,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!tip] The non-glomerular causes
 > **· MALIGNANCY — bladder, renal, ureteric, prostatic.**
-> **· STONES** — cross-refer [[H4]] 0.4.
+> **· STONES** — cross-refer [[H4_Scrotum__Groin_and_Loin]] 0.4.
 > **· INFECTION — cystitis, pyelonephritis, prostatitis, tuberculosis (with STERILE PYURIA).**
 > **· Benign prostatic enlargement.**
 > **· Trauma, including catheter trauma and post-instrumentation.**
@@ -89,18 +94,18 @@ source: built in chat, model knowledge, NOT source-verified
 > **Three immunofluorescence patterns, which map onto three groups of disease:**
 > **· LINEAR — ANTI-GBM DISEASE (Goodpasture). Antibodies against the glomerular and alveolar basement membrane, causing glomerulonephritis with PULMONARY HAEMORRHAGE. Treated with PLASMA EXCHANGE plus immunosuppression, and it is TIME-CRITICAL — renal recovery depends on how early it is started.**
 > **· GRANULAR (immune complex) — post-infectious GN, IgA nephropathy and IgA vasculitis, LUPUS nephritis, cryoglobulinaemic GN, membranoproliferative GN.**
-> **· PAUCI-IMMUNE (little or no staining) — ANCA-ASSOCIATED VASCULITIS: granulomatosis with polyangiitis, microscopic polyangiitis, eosinophilic granulomatosis with polyangiitis.** Cross-refer [[L2]] 0.5.
+> **· PAUCI-IMMUNE (little or no staining) — ANCA-ASSOCIATED VASCULITIS: granulomatosis with polyangiitis, microscopic polyangiitis, eosinophilic granulomatosis with polyangiitis.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5.
 
 > [!danger] Pulmonary-renal syndrome
 > **HAEMOPTYSIS or unexplained hypoxia + HAEMATURIA and PROTEINURIA + RISING CREATININE.**
 > **Causes: ANCA-associated vasculitis, anti-GBM disease, and lupus.**
-> **Send ANCA and anti-GBM URGENTLY, get a fresh urine microscopy looking for RED CELL CASTS, and involve nephrology and rheumatology the same day.** **Immunosuppression cannot wait for a tissue diagnosis if the patient is deteriorating.** Cross-refer [[L2]] 0.5 and [[A4]] 0.3.
+> **Send ANCA and anti-GBM URGENTLY, get a fresh urine microscopy looking for RED CELL CASTS, and involve nephrology and rheumatology the same day.** **Immunosuppression cannot wait for a tissue diagnosis if the patient is deteriorating.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5 and [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.3.
 
 > [!tip] IgA nephropathy versus post-streptococcal GN — the timing discriminates them
 > **· IgA NEPHROPATHY — the commonest primary glomerulonephritis worldwide.** **"SYNPHARYNGITIC" haematuria: visible haematuria appearing within ONE TO TWO DAYS of an upper respiratory tract infection — essentially concurrent with the sore throat.** Complement is NORMAL.
 > **· POST-STREPTOCOCCAL GN — haematuria appearing ONE TO THREE WEEKS after a throat infection, or THREE TO SIX WEEKS after a skin infection.** **Complement C3 is LOW and recovers over weeks — a useful and time-limited finding.**
 > **The interval is the discriminator: days versus weeks.**
-> **Post-streptococcal GN is usually self-limiting in children with supportive care. It remains clinically important in Australia because of the high burden of streptococcal SKIN infection in some remote Aboriginal and Torres Strait Islander communities** — the same infections that drive acute rheumatic fever. Cross-refer [[K2]] 0.6 and [[AU1]] 0.4.
+> **Post-streptococcal GN is usually self-limiting in children with supportive care. It remains clinically important in Australia because of the high burden of streptococcal SKIN infection in some remote Aboriginal and Torres Strait Islander communities** — the same infections that drive acute rheumatic fever. Cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.6 and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4.
 > **IgA nephropathy has a variable course** — a proportion progress to end-stage disease over decades, so it needs long-term monitoring rather than reassurance.
 
 > [!warning] The hereditary and benign causes of persistent haematuria
@@ -109,7 +114,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!tip] Management principles in glomerulonephritis
 > **· BLOOD PRESSURE CONTROL — the single most important intervention for preserving renal function long term.**
-> **· RENIN-ANGIOTENSIN SYSTEM BLOCKADE — ACE inhibitor or ARB — which reduces proteinuria and slows progression independently of blood pressure.** **Expect a modest creatinine rise and accept it.** Cross-refer [[CV-X]] 0.3.
+> **· RENIN-ANGIOTENSIN SYSTEM BLOCKADE — ACE inhibitor or ARB — which reduces proteinuria and slows progression independently of blood pressure.** **Expect a modest creatinine rise and accept it.** Cross-refer [[CV-X_Chronic_Heart_Failure]] 0.3.
 > **· IMMUNOSUPPRESSION where the disease is immune-mediated and progressive** — specialist-directed.
 > **· Treat the underlying cause** — infection, lupus, vasculitis, drug.
 > **· URGENT nephrology involvement for RPGN**, where delay costs nephrons permanently.
@@ -147,7 +152,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!tip] Children with typical nephrotic syndrome are treated without a biopsy
 > **A child of typical age with typical nephrotic syndrome, normal complement, no significant haematuria, no hypertension and normal renal function is presumed to have MINIMAL CHANGE DISEASE and treated with CORTICOSTEROIDS without biopsy.**
-> **Biopsy is reserved for atypical features: age outside the usual range, significant haematuria, hypertension, renal impairment, low complement, or FAILURE TO RESPOND to steroids.** Cross-refer [[M5]].
+> **Biopsy is reserved for atypical features: age outside the usual range, significant haematuria, hypertension, renal impairment, low complement, or FAILURE TO RESPOND to steroids.** Cross-refer [[M5_Paediatric_GI__GU_and_Limb]].
 
 ---
 
@@ -156,7 +161,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] The dipstick detects albumin — and misses light chains
 > **Urine dipstick is primarily sensitive to ALBUMIN.**
 > **It DOES NOT reliably detect immunoglobulin LIGHT CHAINS (Bence Jones protein).**
-> **So a patient with MYELOMA can have massive overflow proteinuria and a NEGATIVE or trace dipstick** — which is why **unexplained renal impairment, particularly with anaemia, hypercalcaemia or bone pain, requires SERUM AND URINE ELECTROPHORESIS AND FREE LIGHT CHAINS specifically, not just a dipstick.** Cross-refer [[J4]].
+> **So a patient with MYELOMA can have massive overflow proteinuria and a NEGATIVE or trace dipstick** — which is why **unexplained renal impairment, particularly with anaemia, hypercalcaemia or bone pain, requires SERUM AND URINE ELECTROPHORESIS AND FREE LIGHT CHAINS specifically, not just a dipstick.** Cross-refer [[J4_Paraproteins_and_Lymphoproliferative]].
 > **The dipstick is also affected by urine concentration** — producing false positives in concentrated urine and false negatives in dilute — which is why quantification uses a ratio to creatinine.
 
 > [!tip] Types of proteinuria, by mechanism
@@ -175,9 +180,9 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] Persistent proteinuria matters twice over
 > **It is a marker of kidney disease AND an INDEPENDENT CARDIOVASCULAR RISK FACTOR** — a patient with proteinuria is at higher cardiovascular risk than an equivalent patient without it, irrespective of eGFR.
 > **So finding it obliges two things: renal assessment, and intensified cardiovascular risk management.**
-> **Reducing proteinuria with RAS blockade slows renal progression**, and it is one of the few interventions that modifies the trajectory of chronic kidney disease. Cross-refer [[H3]] and [[I2]] 0.5.
+> **Reducing proteinuria with RAS blockade slows renal progression**, and it is one of the few interventions that modifies the trajectory of chronic kidney disease. Cross-refer [[H3_Acute_Kidney_Injury_and_CKD]] and [[I2_Diabetes_and_Glucose_Disorders]] 0.5.
 
-**Ix:** **Repeat ACR or PCR to confirm persistence** (*why:* transient proteinuria is common and does not warrant a workup; *what:* persistent elevation). **First-morning specimen where orthostatic proteinuria is possible** (*why:* it is the diagnostic test and avoids unnecessary investigation of a healthy adolescent; *what:* absent proteinuria on waking). **Urine microscopy for casts and dysmorphic cells** (*why:* distinguishes glomerular disease; *what:* casts). UEC, eGFR, albumin, lipids, glucose or HbA1c (*why:* renal function, nephrotic features and diabetes; *what:* the pattern). **Serum and urine electrophoresis with free light chains** where unexplained, particularly over 50 (*why:* myeloma is missed by dipstick; *what:* paraprotein). Autoimmune screen — ANA, anti-dsDNA, complement, ANCA, anti-GBM (*why:* immune-mediated glomerular disease; *what:* the cause — cross-refer [[L2]] 0.6). Hepatitis B and C, HIV, syphilis serology (*why:* treatable infective causes of glomerular disease; *what:* infection). **Anti-PLA2R antibodies** where membranous nephropathy is suspected (*why:* may obviate biopsy in typical primary disease; *what:* positive). Renal ultrasound (*why:* size, symmetry, obstruction and echogenicity, and it determines biopsy feasibility — **small echogenic kidneys indicate chronic irreversible disease and biopsy will not help**; *what:* structural findings).
+**Ix:** **Repeat ACR or PCR to confirm persistence** (*why:* transient proteinuria is common and does not warrant a workup; *what:* persistent elevation). **First-morning specimen where orthostatic proteinuria is possible** (*why:* it is the diagnostic test and avoids unnecessary investigation of a healthy adolescent; *what:* absent proteinuria on waking). **Urine microscopy for casts and dysmorphic cells** (*why:* distinguishes glomerular disease; *what:* casts). UEC, eGFR, albumin, lipids, glucose or HbA1c (*why:* renal function, nephrotic features and diabetes; *what:* the pattern). **Serum and urine electrophoresis with free light chains** where unexplained, particularly over 50 (*why:* myeloma is missed by dipstick; *what:* paraprotein). Autoimmune screen — ANA, anti-dsDNA, complement, ANCA, anti-GBM (*why:* immune-mediated glomerular disease; *what:* the cause — cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.6). Hepatitis B and C, HIV, syphilis serology (*why:* treatable infective causes of glomerular disease; *what:* infection). **Anti-PLA2R antibodies** where membranous nephropathy is suspected (*why:* may obviate biopsy in typical primary disease; *what:* positive). Renal ultrasound (*why:* size, symmetry, obstruction and echogenicity, and it determines biopsy feasibility — **small echogenic kidneys indicate chronic irreversible disease and biopsy will not help**; *what:* structural findings).
 
 ---
 
@@ -201,4 +206,4 @@ source: built in chat, model knowledge, NOT source-verified
 ---
 
 > [!note] Cross-references
-> Acute kidney injury, chronic kidney disease and CKD-MBD → [[H3]] · Lower urinary tract symptoms and retention → [[H2]] · Renal colic, scrotal and groin problems → [[H4]] · Vasculitis, ANCA and pulmonary-renal syndrome → [[L2]] 0.5 · Autoantibody interpretation → [[L2]] 0.6 · Lupus nephritis and urinalysis at every visit → [[L2]] 0.4 · Haemoptysis → [[A4]] 0.3 · Myeloma and light chains → [[J4]] · Rhabdomyolysis and myoglobinuria → [[A7]] 0.6 · Diabetic kidney disease → [[I2]] 0.5 · RAS blockade and the expected creatinine rise → [[CV-X]] 0.3 · Post-streptococcal disease and skin infection → [[K2]] 0.6 and [[AU1]] 0.4 · Paediatric nephrotic syndrome → [[M5]] · Hypertension → [[B2]]
+> Acute kidney injury, chronic kidney disease and CKD-MBD → [[H3_Acute_Kidney_Injury_and_CKD]] · Lower urinary tract symptoms and retention → [[H2_LUTS__Retention_and_Incontinence]] · Renal colic, scrotal and groin problems → [[H4_Scrotum__Groin_and_Loin]] · Vasculitis, ANCA and pulmonary-renal syndrome → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5 · Autoantibody interpretation → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.6 · Lupus nephritis and urinalysis at every visit → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.4 · Haemoptysis → [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.3 · Myeloma and light chains → [[J4_Paraproteins_and_Lymphoproliferative]] · Rhabdomyolysis and myoglobinuria → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Diabetic kidney disease → [[I2_Diabetes_and_Glucose_Disorders]] 0.5 · RAS blockade and the expected creatinine rise → [[CV-X_Chronic_Heart_Failure]] 0.3 · Post-streptococcal disease and skin infection → [[K2_Skin_and_Soft_Tissue_Infection]] 0.6 and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4 · Paediatric nephrotic syndrome → [[M5_Paediatric_GI__GU_and_Limb]] · Hypertension → [[B2_Hypertension_Spectrum]]

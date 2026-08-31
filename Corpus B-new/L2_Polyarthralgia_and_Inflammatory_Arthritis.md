@@ -1,6 +1,11 @@
 ---
 block: Musculoskeletal / Orthopaedics / Rheumatology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
@@ -24,7 +29,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **"Does it get better or worse as the day goes on?" and "how long are you stiff in the morning?" are the two highest-yield questions in rheumatology.**
 
 > [!tip] Then characterise the pattern
-> **· Number** — monoarthritis (cross-refer [[L1]]), oligoarthritis (up to about four joints), or polyarthritis.
+> **· Number** — monoarthritis (cross-refer [[L1_Hot_and_Swollen_Joint]]), oligoarthritis (up to about four joints), or polyarthritis.
 > **· Symmetry** — symmetrical suggests rheumatoid arthritis, lupus, viral; asymmetrical suggests spondyloarthritis, psoriatic arthritis, gout.
 > **· Distribution** — small versus large joints, peripheral versus axial, upper versus lower limb.
 > **· WHICH joints, specifically:**
@@ -35,7 +40,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Duration** — under about six weeks suggests a self-limiting cause; beyond that suggests chronic inflammatory disease.
 
 > [!warning] Acute symmetrical polyarthritis of under six weeks is often viral — do not over-investigate
-> **Parvovirus B19** (classically in an adult after contact with a child with slapped cheek disease — a symmetrical small joint arthritis that resolves), **Ross River and Barmah Forest virus** (which cause prolonged, disabling polyarthralgia in Australia — cross-refer [[K3]] 0.6), hepatitis B and C, rubella, EBV and chikungunya.
+> **Parvovirus B19** (classically in an adult after contact with a child with slapped cheek disease — a symmetrical small joint arthritis that resolves), **Ross River and Barmah Forest virus** (which cause prolonged, disabling polyarthralgia in Australia — cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.6), hepatitis B and C, rubella, EBV and chikungunya.
 > **An extensive autoantibody panel in a well person with a six-week symmetrical polyarthritis generates false positives and mislabels people.** Take a history, exclude the serious, and review — most resolve.
 
 > [!tip] The extra-articular clues that make the diagnosis
@@ -50,11 +55,11 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Sicca symptoms, alopecia, serositis, and constitutional features.**
 
 > [!danger] Red flags that change the pathway
-> **· Fever with a single hot joint → septic arthritis** — cross-refer [[L1]].
+> **· Fever with a single hot joint → septic arthritis** — cross-refer [[L1_Hot_and_Swollen_Joint]].
 > **· Weight loss, night sweats, or a raised inflammatory response out of proportion → malignancy, chronic infection, or vasculitis.**
-> **· New headache with jaw claudication or visual symptoms in someone over 50 → GIANT CELL ARTERITIS. Give steroids immediately** — cross-refer [[D1]] 0.4 and [[L3]].
+> **· New headache with jaw claudication or visual symptoms in someone over 50 → GIANT CELL ARTERITIS. Give steroids immediately** — cross-refer [[D1_Headache_and_Meningism]] 0.4 and [[L3_Muscle_Symptoms_and_Widespread_Pain]].
 > **· Haemoptysis with haematuria and acute kidney injury → PULMONARY-RENAL SYNDROME** — see 0.5.
-> **· Mononeuritis multiplex → vasculitis** — cross-refer [[D4]] 0.4.
+> **· Mononeuritis multiplex → vasculitis** — cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.4.
 
 **Ix:** **FBC, CRP and ESR, UEC, LFT, calcium, urate** (*why:* the baseline that identifies inflammation, cytopenias, renal and hepatic involvement, and gout; *what:* inflammatory response, organ involvement). **URINALYSIS with microscopy at every visit in suspected connective tissue disease** (*why:* **lupus nephritis and vasculitic renal involvement are frequently silent, and blood and protein on a dipstick is how they are detected before renal function declines** — this is a free test that is repeatedly omitted; *what:* haematuria, proteinuria, casts). Radiographs of symptomatic joints (*why:* erosions, chondrocalcinosis, osteoarthritic change; *what:* structural change). **Targeted serology only** — see 0.6 (*why:* untargeted panels in low-probability patients cause harm; *what:* confirmation of a clinical suspicion). Viral serology where an acute polyarthritis (*why:* self-limiting causes; *what:* parvovirus, arboviral, hepatitis).
 
@@ -68,7 +73,7 @@ source: built in chat, model knowledge, NOT source-verified
 Later deformities: ulnar deviation, swan neck and boutonnière, Z-thumb, and MTP subluxation with painful walking.
 
 > [!warning] The extra-articular disease is where much of the morbidity lies
-> **· Cardiovascular — ACCELERATED ATHEROSCLEROSIS IS THE LEADING CAUSE OF DEATH in rheumatoid arthritis**, driven by chronic inflammation independently of traditional risk factors. **Cardiovascular risk must be assessed and treated actively**, and the risk is under-recognised because these patients are seen as having a joint disease. Cross-refer [[B2]] 0.1.
+> **· Cardiovascular — ACCELERATED ATHEROSCLEROSIS IS THE LEADING CAUSE OF DEATH in rheumatoid arthritis**, driven by chronic inflammation independently of traditional risk factors. **Cardiovascular risk must be assessed and treated actively**, and the risk is under-recognised because these patients are seen as having a joint disease. Cross-refer [[B2_Hypertension_Spectrum]] 0.1.
 > **· Lung — interstitial lung disease, pleural effusions, nodules.** ILD is a major cause of mortality and may precede the arthritis.
 > **· Eye — episcleritis, scleritis, and secondary Sjögren syndrome.**
 > **· Haematological — anaemia of chronic disease; Felty syndrome (RA with splenomegaly and neutropenia).**
@@ -78,7 +83,7 @@ Later deformities: ulnar deviation, swan neck and boutonnière, Z-thumb, and MTP
 > **Erosion of the transverse ligament and odontoid peg allows the atlas to subluxate on the axis, risking CERVICAL CORD COMPRESSION.**
 > **Neck manipulation during intubation or positioning can cause catastrophic cord injury.**
 > **Any patient with longstanding rheumatoid arthritis presenting for surgery, or requiring intubation, needs this considered — flexion/extension cervical radiographs or MRI, and the anaesthetist informed.**
-> **Symptoms to ask about: neck pain, occipital headache, paraesthesia in the hands, and a sense of the head "falling forward".** Cross-refer [[F0.4]] 0.6.
+> **Symptoms to ask about: neck pain, occipital headache, paraesthesia in the hands, and a sense of the head "falling forward".** Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.6.
 
 > [!danger] Methotrexate — the weekly dosing error kills people
 > **Methotrexate for rheumatoid arthritis is dosed ONCE WEEKLY.**
@@ -98,8 +103,8 @@ Later deformities: ulnar deviation, swan neck and boutonnière, Z-thumb, and MTP
 > **This is why a patient with a persistent inflammatory polyarthritis needs early rheumatology referral rather than a trial of NSAIDs and review in six months.**
 > **Treat-to-target: escalate therapy until remission or low disease activity is achieved**, measured with a composite score, rather than accepting partial control.
 > **Conventional DMARDs**: methotrexate first-line; also **sulfasalazine, hydroxychloroquine (requiring retinal monitoring for retinopathy) and leflunomide.**
-> **Biologic and targeted synthetic DMARDs**: TNF inhibitors, IL-6 inhibitors, B-cell depletion, T-cell costimulation blockade, and **JAK inhibitors.** **All require screening for latent tuberculosis and hepatitis B before starting** — cross-refer [[K3]] 0.5 — and **live vaccines are contraindicated once established.**
-> **Corticosteroids are a bridge, not a strategy** — effective and fast, but with cumulative harm, so **bone protection and an exit plan should be in place from the outset.** Cross-refer [[GER1]] 0.6.
+> **Biologic and targeted synthetic DMARDs**: TNF inhibitors, IL-6 inhibitors, B-cell depletion, T-cell costimulation blockade, and **JAK inhibitors.** **All require screening for latent tuberculosis and hepatitis B before starting** — cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 — and **live vaccines are contraindicated once established.**
+> **Corticosteroids are a bridge, not a strategy** — effective and fast, but with cumulative harm, so **bone protection and an exit plan should be in place from the outset.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.6.
 
 **Ix:** **Rheumatoid factor and anti-CCP** (*why:* **anti-CCP is considerably more SPECIFIC than rheumatoid factor and predicts erosive disease**, whereas RF is positive in Sjögren syndrome, hepatitis C, endocarditis, sarcoidosis and a proportion of healthy older people; *what:* positive antibodies — **noting seronegative RA exists and a negative result does not exclude the diagnosis**). CRP and ESR (*why:* disease activity and monitoring; *what:* inflammatory response). FBC (*why:* anaemia of chronic disease, and baseline before DMARDs; *what:* anaemia, cytopenias). **Radiographs of hands and feet** (*why:* baseline for progression, and **erosions of the MTP joints often appear before those in the hands**; *what:* periarticular osteopenia, joint space narrowing, marginal erosions). **Ultrasound or MRI where the examination is equivocal** (*why:* detects synovitis and early erosions that clinical examination and radiographs miss; *what:* synovitis, power Doppler signal). **Baseline before DMARDs: FBC, LFT, UEC, hepatitis B and C serology, latent TB screening, chest radiograph, and pregnancy test** (*why:* the pre-immunosuppression screen prevents reactivation and toxicity; *what:* baseline and latent infection). Cardiovascular risk assessment (*why:* the leading cause of death; *what:* risk factors).
 
@@ -125,19 +130,19 @@ Early DMARD therapy with treat-to-target escalation, rheumatology-led.
 > [!danger] Inflammatory back pain — the criteria that should trigger referral
 > **· Onset before about age 45 · insidious onset · duration over three months · morning stiffness over 30 minutes · improvement with EXERCISE but NOT with rest · pain waking the patient in the SECOND HALF of the night · and alternating buttock pain.**
 > **Good response to NSAIDs supports it.**
-> **Axial spondyloarthritis has a long diagnostic delay — frequently many years — and the delay is longer in WOMEN**, in whom it is under-recognised and more often attributed to fibromyalgia or mechanical back pain. Cross-refer [[L4]].
+> **Axial spondyloarthritis has a long diagnostic delay — frequently many years — and the delay is longer in WOMEN**, in whom it is under-recognised and more often attributed to fibromyalgia or mechanical back pain. Cross-refer [[L4_Back_and_Neck_Pain]].
 > **Radiographic sacroiliitis is a LATE finding — plain films can be normal for years. MRI of the sacroiliac joints detects active inflammation (bone marrow oedema) at the pre-radiographic stage**, and is what allows early diagnosis.
 
 > [!danger] A fused spine fractures with trivial trauma — and the fracture is unstable
 > **In advanced ankylosing spondylitis the spine becomes a rigid, osteoporotic column with no capacity to absorb force.**
 > **A fall from standing height, or even a minor jolt, can cause a highly unstable three-column fracture — most often in the cervical spine — with a high risk of spinal cord injury.**
 > **Have a very low threshold for CT or MRI after ANY trauma in a patient with a fused spine, however trivial. Plain radiographs are inadequate.**
-> **And immobilise in the patient's usual deformed position, not in a neutral position** — forcing a fused kyphotic spine flat can itself cause cord injury. Cross-refer [[F0.5]] 0.7 and [[L4]].
+> **And immobilise in the patient's usual deformed position, not in a neutral position** — forcing a fused kyphotic spine flat can itself cause cord injury. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7 and [[L4_Back_and_Neck_Pain]].
 
 > [!warning] Acute anterior uveitis needs same-day ophthalmology
 > **Acute, usually unilateral, painful red eye with photophobia and blurred vision, recurring and often alternating sides.**
 > **It occurs in a substantial proportion of HLA-B27-associated disease, and it can be the presenting feature — sometimes years before the joint symptoms.**
-> **Any patient with spondyloarthritis must know to seek urgent ophthalmological assessment for a painful red eye**, because delayed treatment causes synechiae, glaucoma and visual loss. Cross-refer [[E1]].
+> **Any patient with spondyloarthritis must know to seek urgent ophthalmological assessment for a painful red eye**, because delayed treatment causes synechiae, glaucoma and visual loss. Cross-refer [[E1_Red_and_Painful_Eye]].
 
 > [!tip] Psoriatic arthritis — the patterns and the hidden psoriasis
 > **Five patterns: asymmetrical oligoarthritis · symmetrical polyarthritis resembling rheumatoid arthritis · DIP-predominant · arthritis mutilans (severe destructive, with "telescoping" digits) · and axial disease.**
@@ -162,7 +167,7 @@ Early DMARD therapy with treat-to-target escalation, rheumatology-led.
 
 > [!tip] Systemic lupus erythematosus
 > **A multisystem autoimmune disease, predominantly of women of reproductive age.**
-> **In Australia, prevalence and severity are higher among Aboriginal and Torres Strait Islander people and among people of Asian, African and Pacific ancestry**, with more renal involvement and worse outcomes — cross-refer [[AU1]].
+> **In Australia, prevalence and severity are higher among Aboriginal and Torres Strait Islander people and among people of Asian, African and Pacific ancestry**, with more renal involvement and worse outcomes — cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]].
 > **Features: malar rash (SPARING the nasolabial folds, which distinguishes it from rosacea and dermatomyositis) · discoid lesions · photosensitivity · PAINLESS oral or nasal ulcers · non-erosive arthritis (Jaccoud arthropathy — reducible deformity without erosion) · serositis (pleuritis, pericarditis) · RENAL · neuropsychiatric · haematological (any cytopenia) · and the immunological features.**
 > **LUPUS NEPHRITIS IS FREQUENTLY SILENT.** **Urinalysis with microscopy at every visit is how it is caught** — proteinuria, haematuria and casts appear before renal function declines, and by the time the creatinine rises significant damage has occurred. **This is the single most important routine test in lupus follow-up.**
 > **Monitoring activity: anti-dsDNA titre RISES and complement C3 and C4 FALL with disease activity, particularly renal flares.**
@@ -172,7 +177,7 @@ Early DMARD therapy with treat-to-target escalation, rheumatology-led.
 > **Arterial or venous thrombosis, or pregnancy morbidity (recurrent early loss, late fetal death, severe pre-eclampsia), with persistently positive antiphospholipid antibodies — lupus anticoagulant, anticardiolipin, or anti-β2-glycoprotein I — on TWO occasions at least 12 weeks apart.**
 > **The paradox worth knowing: the lupus anticoagulant PROLONGS the APTT in vitro while causing THROMBOSIS in vivo.** An unexplained prolonged APTT that does not correct on mixing should prompt the thought.
 > **After thrombosis, lifelong anticoagulation is required — and WARFARIN rather than a DOAC**, because **direct oral anticoagulants have been shown to be inferior in antiphospholipid syndrome, particularly in triple-positive patients, with increased arterial thrombotic events.** **This is a recent and important change, and putting an antiphospholipid patient on a DOAC out of convenience is a recognised harm.** `UNVERIFIED — confirm the current recommendation and the patient groups it applies to.`
-> **In pregnancy: aspirin and low molecular weight heparin**, not warfarin. Cross-refer [[O1]] and [[O2]].
+> **In pregnancy: aspirin and low molecular weight heparin**, not warfarin. Cross-refer [[O1_Early_Pregnancy]] and [[O2_Later_Pregnancy_and_Fetal]].
 
 > [!warning] Systemic sclerosis — and the emergency within it
 > **Limited cutaneous** (skin distal to elbows and knees, plus face) — the **CREST** features, **anti-centromere antibody**, and the main late complication is **PULMONARY ARTERIAL HYPERTENSION**, requiring annual screening echocardiography.
@@ -191,11 +196,11 @@ Early DMARD therapy with treat-to-target escalation, rheumatology-led.
 > **Dry eyes and dry mouth from lymphocytic infiltration of exocrine glands**, with fatigue and arthralgia. **Anti-Ro (SSA) and anti-La (SSB).**
 > **Two things that matter beyond the sicca symptoms:**
 > **1. A substantially increased risk of NON-HODGKIN LYMPHOMA** — **persistent parotid swelling, new lymphadenopathy, or a falling complement should prompt investigation**, not reassurance.
-> **2. ANTI-Ro CROSSES THE PLACENTA AND CAUSES NEONATAL LUPUS AND CONGENITAL COMPLETE HEART BLOCK**, which is irreversible. **Any woman with anti-Ro antibodies planning pregnancy needs specialist obstetric input and fetal cardiac monitoring.** Cross-refer [[O2]].
+> **2. ANTI-Ro CROSSES THE PLACENTA AND CAUSES NEONATAL LUPUS AND CONGENITAL COMPLETE HEART BLOCK**, which is irreversible. **Any woman with anti-Ro antibodies planning pregnancy needs specialist obstetric input and fetal cardiac monitoring.** Cross-refer [[O2_Later_Pregnancy_and_Fetal]].
 > Also: severe dental caries from xerostomia — **dental review is a legitimate part of management.**
 
 > [!tip] The others
-> **· Inflammatory myopathies — dermatomyositis and polymyositis** — cross-refer [[D4]] 0.6 and [[L3]]. **Dermatomyositis carries a paraneoplastic association warranting age-appropriate malignancy screening.**
+> **· Inflammatory myopathies — dermatomyositis and polymyositis** — cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6 and [[L3_Muscle_Symptoms_and_Widespread_Pain]]. **Dermatomyositis carries a paraneoplastic association warranting age-appropriate malignancy screening.**
 > **· Mixed connective tissue disease** — overlapping features with **anti-U1-RNP.**
 > **· Drug-induced lupus** — **hydralazine, procainamide, minocycline, isoniazid, and TNF inhibitors.** **Anti-histone antibodies**, sparing of the kidneys and CNS, and **resolution on stopping the drug.**
 
@@ -216,17 +221,17 @@ Disease-specific immunomodulation, rheumatology-led. **Hydroxychloroquine for es
 
 > [!tip] Classify by vessel size — it predicts the clinical picture
 > **LARGE VESSEL**
-> **· Giant cell arteritis** — over 50, headache, scalp tenderness, jaw claudication, visual loss. **Treat with steroids on suspicion, before biopsy** — cross-refer [[D1]] 0.4 and [[L3]].
+> **· Giant cell arteritis** — over 50, headache, scalp tenderness, jaw claudication, visual loss. **Treat with steroids on suspicion, before biopsy** — cross-refer [[D1_Headache_and_Meningism]] 0.4 and [[L3_Muscle_Symptoms_and_Widespread_Pain]].
 > **· Takayasu arteritis** — younger women, **absent or asymmetric pulses, blood pressure discrepancy between arms, bruits, limb claudication.** "Pulseless disease."
 > **MEDIUM VESSEL**
 > **· Polyarteritis nodosa** — **mononeuritis multiplex, renal infarction and hypertension, abdominal angina, skin nodules and livedo — and it characteristically SPARES the lungs.** Associated with **hepatitis B.**
-> **· Kawasaki disease** — cross-refer [[M2]].
+> **· Kawasaki disease** — cross-refer [[M2_Fever_in_Children]].
 > **SMALL VESSEL — ANCA-ASSOCIATED**
 > **· Granulomatosis with polyangiitis** — **the ENT, lung and kidney triad: epistaxis, nasal crusting, SADDLE-NOSE deformity, sinusitis and subglottic stenosis; pulmonary nodules, cavities or haemorrhage; and rapidly progressive glomerulonephritis.** **c-ANCA / anti-PR3.**
 > **· Microscopic polyangiitis** — pulmonary-renal, without granulomas or ENT disease. **p-ANCA / anti-MPO.**
 > **· Eosinophilic granulomatosis with polyangiitis** — **ASTHMA, EOSINOPHILIA and neuropathy** as the defining triad, with sinusitis and cardiac involvement.
 > **SMALL VESSEL — IMMUNE COMPLEX**
-> **· IgA vasculitis (Henoch-Schönlein purpura)** — **palpable purpura on the buttocks and extensor legs, arthralgia, abdominal pain and nephritis**, mostly in children. Cross-refer [[C4]] 0.4 and [[M5]].
+> **· IgA vasculitis (Henoch-Schönlein purpura)** — **palpable purpura on the buttocks and extensor legs, arthralgia, abdominal pain and nephritis**, mostly in children. Cross-refer [[C4_Gastrointestinal_Bleeding]] 0.4 and [[M5_Paediatric_GI__GU_and_Limb]].
 > **· Cryoglobulinaemic vasculitis** — strongly associated with **hepatitis C.**
 > **· Anti-GBM disease (Goodpasture)** — pulmonary haemorrhage with glomerulonephritis.
 
@@ -237,8 +242,8 @@ Disease-specific immunomodulation, rheumatology-led. **Hydroxychloroquine for es
 > **Send ANCA and anti-GBM urgently, get a urine microscopy for red cell casts, and involve nephrology and rheumatology the same day.**
 
 > [!warning] The clinical red flags for vasculitis
-> **· PALPABLE PURPURA** — non-blanching, raised. This is small vessel vasculitis until proven otherwise and warrants a skin biopsy. Cross-refer [[G3]].
-> **· MONONEURITIS MULTIPLEX** — sequential involvement of individual named nerves. Cross-refer [[D4]] 0.4.
+> **· PALPABLE PURPURA** — non-blanching, raised. This is small vessel vasculitis until proven otherwise and warrants a skin biopsy. Cross-refer [[G3_Purpura_and_Vasculitis]].
+> **· MONONEURITIS MULTIPLEX** — sequential involvement of individual named nerves. Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.4.
 > **· Unexplained multisystem illness with a markedly raised inflammatory response** — particularly with constitutional symptoms, renal involvement and an abnormal urinary sediment.
 > **· Recurrent epistaxis with nasal crusting, or a new saddle-nose deformity.**
 > **· Digital ischaemia or gangrene.**
@@ -280,7 +285,7 @@ Induction with corticosteroids plus cyclophosphamide or rituximab, then maintena
 > [!warning] ESR and CRP are not interchangeable, and their discordance is informative
 > **CRP is a hepatic acute phase protein — it rises within hours and falls quickly.**
 > **ESR reflects plasma protein composition and is slower to rise and fall, and it is raised by AGE, ANAEMIA, PREGNANCY, obesity, renal failure and PARAPROTEINS independently of inflammation.**
-> **A very high ESR with a normal or near-normal CRP is a recognised and useful pattern** — it points toward **systemic lupus erythematosus (where CRP is characteristically not raised unless there is infection or serositis), MYELOMA and other paraproteinaemias**, and it should prompt a serum protein electrophoresis. Cross-refer [[J4]].
+> **A very high ESR with a normal or near-normal CRP is a recognised and useful pattern** — it points toward **systemic lupus erythematosus (where CRP is characteristically not raised unless there is infection or serositis), MYELOMA and other paraproteinaemias**, and it should prompt a serum protein electrophoresis. Cross-refer [[J4_Paraproteins_and_Lymphoproliferative]].
 > **Conversely, a raised CRP in a lupus patient should raise INFECTION rather than being assumed to be a flare** — which is a genuinely useful clinical rule.
 
 **Ix:** As described. **The practical rule: take the history, examine the patient, form a clinical hypothesis, and then order the two or three tests that will confirm or refute it** — not a panel.
@@ -288,4 +293,4 @@ Induction with corticosteroids plus cyclophosphamide or rituximab, then maintena
 ---
 
 > [!note] Cross-references
-> The hot swollen joint and septic arthritis → [[L1]] · Muscle symptoms, PMR and giant cell arteritis → [[L3]] · Inflammatory back pain and axial disease → [[L4]] · Regional limb pain → [[L5]] · Giant cell arteritis → [[D1]] 0.4 · Mononeuritis multiplex and inflammatory myopathy → [[D4]] 0.4, 0.6 · Palpable purpura → [[G3]] · Anterior uveitis → [[E1]] · Interstitial lung disease → [[RESP-X]] · Cervical spine and anaesthesia → [[F0.4]] 0.6 and [[AN1]] · Pre-immunosuppression screening → [[K3]] 0.5 · Steroid-induced osteoporosis → [[GER1]] 0.6 · Cardiovascular risk in inflammatory disease → [[B2]] 0.1 · Anticoagulation in antiphospholipid syndrome → [[A9]] 0.4 and [[J3]] · Pregnancy, anti-Ro and congenital heart block → [[O2]] · Myeloma and the ESR-CRP discordance → [[J4]] · IgA vasculitis in children → [[M5]] · Aboriginal and Torres Strait Islander health → [[AU1]]
+> The hot swollen joint and septic arthritis → [[L1_Hot_and_Swollen_Joint]] · Muscle symptoms, PMR and giant cell arteritis → [[L3_Muscle_Symptoms_and_Widespread_Pain]] · Inflammatory back pain and axial disease → [[L4_Back_and_Neck_Pain]] · Regional limb pain → [[L5_Regional_Limb_Pain]] · Giant cell arteritis → [[D1_Headache_and_Meningism]] 0.4 · Mononeuritis multiplex and inflammatory myopathy → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.4, 0.6 · Palpable purpura → [[G3_Purpura_and_Vasculitis]] · Anterior uveitis → [[E1_Red_and_Painful_Eye]] · Interstitial lung disease → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] · Cervical spine and anaesthesia → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.6 and [[AN1_Perioperative_Care]] · Pre-immunosuppression screening → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · Steroid-induced osteoporosis → [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 · Cardiovascular risk in inflammatory disease → [[B2_Hypertension_Spectrum]] 0.1 · Anticoagulation in antiphospholipid syndrome → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4 and [[J3_Bleeding_and_Thrombosis]] · Pregnancy, anti-Ro and congenital heart block → [[O2_Later_Pregnancy_and_Fetal]] · Myeloma and the ESR-CRP discordance → [[J4_Paraproteins_and_Lymphoproliferative]] · IgA vasculitis in children → [[M5_Paediatric_GI__GU_and_Limb]] · Aboriginal and Torres Strait Islander health → [[AU1_Australian_Health_Context_and_ATSI_Health]]

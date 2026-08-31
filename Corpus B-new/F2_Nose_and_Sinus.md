@@ -1,12 +1,17 @@
 ---
 block: ENT
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. First aid technique, discriminators and clinical reasoning are reliable at intern level. **Every dose, duration, antibiotic regimen and time window carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG** and current ENT guidance.
 >
-> **Orbital cellulitis is built in [[M2]] 0.4**, **anticoagulant reversal in [[A9]] 0.4**, and **nasal fracture in the trauma context in [[L8]] 0.2** — cross-referenced rather than repeated.
+> **Orbital cellulitis is built in [[M2_Fever_in_Children]] 0.4**, **anticoagulant reversal in [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4**, and **nasal fracture in the trauma context in [[L8_Facial__Head_and_Torso_Trauma]] 0.2** — cross-referenced rather than repeated.
 
 ---
 
@@ -29,12 +34,12 @@ source: built in chat, model knowledge, NOT source-verified
 > **Epistaxis kills people — predominantly older, anticoagulated patients — and the volume lost is systematically UNDER-ESTIMATED because much of it is swallowed.**
 > **In any substantial bleed: ABC · intravenous access · FBC, coagulation, GROUP AND HOLD or crossmatch · resuscitate · and monitor.**
 > **A patient who is tachycardic, pale or hypotensive with epistaxis is a haemorrhage, not a nosebleed.**
-> **ANTICOAGULATION: do NOT reflexively reverse it.** **Balance the bleeding against the thrombotic risk — reversing anticoagulation in a patient with a mechanical valve or recent VTE has its own serious consequences.** **Control the bleeding locally first, and make reversal decisions deliberately and with senior input.** Cross-refer [[A9]] 0.4.
+> **ANTICOAGULATION: do NOT reflexively reverse it.** **Balance the bleeding against the thrombotic risk — reversing anticoagulation in a patient with a mechanical valve or recent VTE has its own serious consequences.** **Control the bleeding locally first, and make reversal decisions deliberately and with senior input.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4.
 
 > [!tip] Causes, and the escalation of management
 > **LOCAL: TRAUMA — including nose-picking, which is the commonest cause in children · dry air and heating · foreign body · rhinitis and infection · septal deviation or perforation · topical steroid spray technique (aiming at the septum) · and TUMOUR.**
 > **SYSTEMIC: ANTICOAGULANTS and ANTIPLATELETS · coagulopathy and thrombocytopenia · liver disease · alcohol · HEREDITARY HAEMORRHAGIC TELANGIECTASIA · and hypertension (which is strongly associated, though its role as a direct cause is debated — treat it, but do not assume it explains everything).**
-> **HEREDITARY HAEMORRHAGIC TELANGIECTASIA — recurrent epistaxis from childhood, mucocutaneous TELANGIECTASIA (lips, tongue, fingers), a FAMILY HISTORY, and ARTERIOVENOUS MALFORMATIONS in the lung, liver and brain.** **The pulmonary AVMs matter because they cause paradoxical embolism, stroke and CEREBRAL ABSCESS, and because these patients need air filters on intravenous lines.** Cross-refer [[J3]] 0.2.
+> **HEREDITARY HAEMORRHAGIC TELANGIECTASIA — recurrent epistaxis from childhood, mucocutaneous TELANGIECTASIA (lips, tongue, fingers), a FAMILY HISTORY, and ARTERIOVENOUS MALFORMATIONS in the lung, liver and brain.** **The pulmonary AVMs matter because they cause paradoxical embolism, stroke and CEREBRAL ABSCESS, and because these patients need air filters on intravenous lines.** Cross-refer [[J3_Bleeding_and_Thrombosis]] 0.2.
 > **ESCALATION: correct first aid → topical vasoconstrictor and local anaesthetic → identify and CAUTERISE the bleeding point → ANTERIOR PACKING → posterior packing or balloon → ENT for endoscopic control, sphenopalatine artery ligation, or embolisation.** `UNVERIFIED — agents and pack durations.`
 > **CAUTERISE ONLY ONE SIDE OF THE SEPTUM AT A TIME.** **Bilateral simultaneous septal cautery risks SEPTAL PERFORATION by devascularising the cartilage from both sides.**
 
@@ -61,7 +66,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] The complications that mandate urgent imaging and admission
 > **· ORBITAL (POSTSEPTAL) CELLULITIS — spreading from the ethmoid sinuses through the thin lamina papyracea.**
 > **THE DISCRIMINATING FEATURES FROM PRESEPTAL CELLULITIS: PROPTOSIS · PAINFUL AND RESTRICTED EYE MOVEMENTS · DIPLOPIA · REDUCED VISUAL ACUITY OR COLOUR VISION · and a relative afferent pupillary defect.**
-> **Assessing eye movements and acuity in a swollen, painful, uncooperative eye is difficult — and it is exactly what has to be done.** Cross-refer [[M2]] 0.4 and [[E3]].
+> **Assessing eye movements and acuity in a swollen, painful, uncooperative eye is difficult — and it is exactly what has to be done.** Cross-refer [[M2_Fever_in_Children]] 0.4 and [[E3_Orbit__Lids_and_Pupil]].
 > **· CAVERNOUS SINUS THROMBOSIS — headache, proptosis, chemosis, OPHTHALMOPLEGIA (III, IV, VI), and reduced sensation in the V1 and V2 distributions.** **It characteristically BECOMES BILATERAL as thrombus propagates across the sinus, which is close to diagnostic.**
 > **· MENINGITIS, subdural empyema and intracranial abscess — headache, fever, neck stiffness, altered consciousness, focal signs or seizures.**
 > **· POTT'S PUFFY TUMOUR — frontal bone osteomyelitis with a subperiosteal abscess, producing a doughy SWELLING OVER THE FOREHEAD, typically in adolescents with frontal sinusitis.** **It indicates intracranial spread until proven otherwise and needs imaging and surgery.**
@@ -72,7 +77,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **THE FEATURES: rapidly progressive facial pain and swelling · FACIAL OR PALATAL NUMBNESS (from perineural invasion) · a BLACK NECROTIC ESCHAR on the turbinate, septum or hard palate — which is the key finding and requires looking inside the nose and mouth · orbital involvement with proptosis and ophthalmoplegia · and fever.**
 > **IT PROGRESSES OVER HOURS TO DAYS AND CARRIES VERY HIGH MORTALITY.**
 > **It requires URGENT ENT assessment with nasendoscopy and biopsy, urgent imaging, systemic antifungal therapy, aggressive surgical debridement, and correction of the underlying immunosuppression or ketoacidosis.**
-> **THE PRACTICAL RULE: facial pain with numbness, or any dark necrotic area in the nose or on the palate, in a ketoacidotic or immunocompromised patient, is an emergency — look, and escalate the same hour.** Cross-refer [[F0.2]] 0.3 and [[K3]] 0.5.
+> **THE PRACTICAL RULE: facial pain with numbness, or any dark necrotic area in the nose or on the palate, in a ketoacidotic or immunocompromised patient, is an emergency — look, and escalate the same hour.** Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3 and [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5.
 
 ---
 
@@ -91,9 +96,9 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!warning] The associations that change management
 > **· ASTHMA — chronic rhinosinusitis with polyps and asthma frequently coexist, and treating the nose improves the chest.**
-> **· ASPIRIN-EXACERBATED RESPIRATORY DISEASE (Samter triad): ASTHMA + NASAL POLYPS + NSAID/ASPIRIN SENSITIVITY.** **Recognising it matters because these patients can have severe bronchospasm after an NSAID, and it should be prominently documented as an alert.** Cross-refer [[K4]] 0.3.
-> **· CYSTIC FIBROSIS — NASAL POLYPS IN A CHILD ARE CYSTIC FIBROSIS UNTIL PROVEN OTHERWISE.** Polyps are rare in children, and this association is a classic examination point and a real diagnostic route. **Check the newborn screening result and arrange sweat testing.** Cross-refer [[RESP-X]] 0.4.
-> **· PRIMARY CILIARY DYSKINESIA, EOSINOPHILIC GRANULOMATOSIS WITH POLYANGIITIS (asthma, eosinophilia, polyps, neuropathy — cross-refer [[L2]] 0.5), granulomatosis with polyangiitis (crusting, septal perforation, saddle nose), and allergic fungal rhinosinusitis.**
+> **· ASPIRIN-EXACERBATED RESPIRATORY DISEASE (Samter triad): ASTHMA + NASAL POLYPS + NSAID/ASPIRIN SENSITIVITY.** **Recognising it matters because these patients can have severe bronchospasm after an NSAID, and it should be prominently documented as an alert.** Cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.3.
+> **· CYSTIC FIBROSIS — NASAL POLYPS IN A CHILD ARE CYSTIC FIBROSIS UNTIL PROVEN OTHERWISE.** Polyps are rare in children, and this association is a classic examination point and a real diagnostic route. **Check the newborn screening result and arrange sweat testing.** Cross-refer [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.4.
+> **· PRIMARY CILIARY DYSKINESIA, EOSINOPHILIC GRANULOMATOSIS WITH POLYANGIITIS (asthma, eosinophilia, polyps, neuropathy — cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5), granulomatosis with polyangiitis (crusting, septal perforation, saddle nose), and allergic fungal rhinosinusitis.**
 
 > [!tip] Why intranasal steroids "don't work" — and it is usually technique
 > **INTRANASAL CORTICOSTEROIDS are the mainstay of treatment for both chronic rhinosinusitis and allergic rhinitis, and the commonest reason for apparent failure is HOW THEY ARE USED.**
@@ -113,8 +118,8 @@ source: built in chat, model knowledge, NOT source-verified
 > **Sneezing, ITCH (of nose, eyes and palate — itch is the feature that most suggests allergy), watery rhinorrhoea and congestion, seasonal or perennial.**
 > **Signs in children: the ALLERGIC SALUTE (an upward rub of the nose producing a transverse nasal crease) · ALLERGIC SHINERS (infraorbital venous congestion) · Dennie-Morgan lines · and mouth breathing.**
 > **THE UNITED AIRWAY CONCEPT: the upper and lower airways are one continuous system, and UNTREATED ALLERGIC RHINITIS WORSENS ASTHMA CONTROL.**
-> **So in a patient with poorly controlled asthma, ASK ABOUT AND TREAT THE NOSE** — it is a genuine and frequently overlooked contributor. Cross-refer [[F0.5]] 0.1.
-> **TREATMENT: allergen avoidance where feasible · INTRANASAL CORTICOSTEROID IS FIRST-LINE and is MORE EFFECTIVE THAN ORAL ANTIHISTAMINES, particularly for CONGESTION, which antihistamines barely touch · oral or intranasal antihistamines for itch and sneezing · combination sprays · saline irrigation · and ALLERGEN IMMUNOTHERAPY for selected patients with a clear single trigger and inadequate response.** Cross-refer [[K4]] 0.4.
+> **So in a patient with poorly controlled asthma, ASK ABOUT AND TREAT THE NOSE** — it is a genuine and frequently overlooked contributor. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.1.
+> **TREATMENT: allergen avoidance where feasible · INTRANASAL CORTICOSTEROID IS FIRST-LINE and is MORE EFFECTIVE THAN ORAL ANTIHISTAMINES, particularly for CONGESTION, which antihistamines barely touch · oral or intranasal antihistamines for itch and sneezing · combination sprays · saline irrigation · and ALLERGEN IMMUNOTHERAPY for selected patients with a clear single trigger and inadequate response.** Cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.4.
 
 > [!danger] Rhinitis medicamentosa — the self-perpetuating trap
 > **Prolonged use of TOPICAL DECONGESTANT sprays (oxymetazoline, xylometazoline) beyond a few days causes REBOUND CONGESTION as the effect wears off.**
@@ -129,7 +134,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **It follows head trauma, skull base fracture, or sinus and pituitary surgery — and it occasionally occurs spontaneously, particularly in obese women with raised intracranial pressure.**
 > **IT CARRIES A RISK OF MENINGITIS.**
 > **The confirmatory test is BETA-2 TRANSFERRIN (or beta-trace protein) on the fluid, which is specific to CSF.** **The "halo sign" on tissue paper is unreliable.**
-> **Do not dismiss persistent unilateral clear rhinorrhoea after head trauma as rhinitis.** Cross-refer [[F0.5]] 0.7.
+> **Do not dismiss persistent unilateral clear rhinorrhoea after head trauma as rhinitis.** Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7.
 
 ---
 
@@ -138,9 +143,9 @@ source: built in chat, model knowledge, NOT source-verified
 > [!tip] The common causes
 > **· SEPTAL DEVIATION and turbinate hypertrophy — very common, often asymptomatic, and a poor explanation for symptoms that fluctuate.**
 > **· Rhinitis, chronic rhinosinusitis and polyps.**
-> **· ADENOIDAL HYPERTROPHY in children — with mouth breathing, snoring, hyponasal speech and obstructive sleep apnoea.** Cross-refer [[N7]] 0.6 and [[M7]] 0.6.
+> **· ADENOIDAL HYPERTROPHY in children — with mouth breathing, snoring, hyponasal speech and obstructive sleep apnoea.** Cross-refer [[N7_Sleep_Disorders]] 0.6 and [[M7_Adolescent_and_Behavioural_Health]] 0.6.
 > **· FOREIGN BODY in a child.**
-> **· CHOANAL ATRESIA in a NEONATE — bilateral atresia presents at birth with CYCLICAL CYANOSIS THAT IMPROVES ON CRYING (because crying forces mouth breathing) and resolves with an oral airway.** **The bedside test is INABILITY TO PASS A CATHETER through each nostril into the pharynx.** **Neonates are preferential nasal breathers, which is why this is an emergency.** Cross-refer [[M3]] 0.2.
+> **· CHOANAL ATRESIA in a NEONATE — bilateral atresia presents at birth with CYCLICAL CYANOSIS THAT IMPROVES ON CRYING (because crying forces mouth breathing) and resolves with an oral airway.** **The bedside test is INABILITY TO PASS A CATHETER through each nostril into the pharynx.** **Neonates are preferential nasal breathers, which is why this is an emergency.** Cross-refer [[M3_Neonatal_Problems]] 0.2.
 > **· Tumour.**
 
 > [!danger] Unilateral findings in an adult are the red flags
@@ -150,14 +155,14 @@ source: built in chat, model knowledge, NOT source-verified
 > **THIS IS THE HIGH-YIELD ONE.** **Glue ear is a childhood condition. A NEW unilateral middle ear effusion in an ADULT means the Eustachian tube is obstructed — and the commonest sinister cause is a NASOPHARYNGEAL TUMOUR obstructing its opening.**
 > **NASOPHARYNGEAL CARCINOMA — associated with EPSTEIN-BARR VIRUS, with a markedly higher incidence in people of Southern Chinese and Southeast Asian ancestry.**
 > **Its presenting features are characteristically NOT nasal: the COMMONEST presentation is a PAINLESS NECK LUMP (cervical lymphadenopathy) · then unilateral serous otitis media and hearing loss · then epistaxis and obstruction · and later CRANIAL NERVE PALSIES from skull base involvement.**
-> **So: a neck lump, or a unilateral adult middle ear effusion, in a patient of relevant ancestry, requires nasopharyngeal examination.** Cross-refer [[F1]] 0.3 and [[F4]].
+> **So: a neck lump, or a unilateral adult middle ear effusion, in a patient of relevant ancestry, requires nasopharyngeal examination.** Cross-refer [[F1_Ear]] 0.3 and [[F4_Neck_Lumps_and_Facial_Pain]].
 
 > [!warning] Anosmia
 > **· POST-VIRAL — the commonest cause, including after COVID-19, and it may persist for months. Olfactory training has evidence.**
 > **· Obstructive — polyps, chronic rhinosinusitis (where smell loss is a cardinal symptom).**
 > **· HEAD INJURY — shearing of olfactory fibres at the cribriform plate; often permanent.**
-> **· NEURODEGENERATIVE DISEASE — anosmia is an EARLY feature of PARKINSON DISEASE and Alzheimer disease, frequently PRECEDING motor or cognitive symptoms BY YEARS.** Cross-refer [[D6]] 0.5.
-> **· CONGENITAL — KALLMANN SYNDROME (anosmia with hypogonadotrophic hypogonadism and delayed puberty). ASK ABOUT SMELL in any patient with delayed puberty.** Cross-refer [[O4]] 0.4.
+> **· NEURODEGENERATIVE DISEASE — anosmia is an EARLY feature of PARKINSON DISEASE and Alzheimer disease, frequently PRECEDING motor or cognitive symptoms BY YEARS.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.5.
+> **· CONGENITAL — KALLMANN SYNDROME (anosmia with hypogonadotrophic hypogonadism and delayed puberty). ASK ABOUT SMELL in any patient with delayed puberty.** Cross-refer [[O4_Abnormal_and_Menstrual_Bleeding]] 0.4.
 > **· Toxic and drug-related.**
 > **The consequences are underestimated: loss of taste and appetite with weight loss, inability to detect gas, smoke or spoiled food (a genuine SAFETY issue worth addressing with smoke alarms and expiry-date discipline), and significant effects on mood and quality of life.**
 
@@ -170,26 +175,26 @@ source: built in chat, model knowledge, NOT source-verified
 > **A SEPTAL HAEMATOMA appears as a BOGGY, BLUISH, often BILATERAL swelling of the septum that narrows the airway.**
 > **It is missed because nobody looks inside — the external appearance gets all the attention.**
 > **UNTREATED, PRESSURE DEVASCULARISES THE SEPTAL CARTILAGE, causing NECROSIS WITHIN DAYS, a septal perforation and a permanent SADDLE-NOSE DEFORMITY — and it can abscess.**
-> **It requires URGENT INCISION AND DRAINAGE, not observation.** Cross-refer [[L8]] 0.2.
+> **It requires URGENT INCISION AND DRAINAGE, not observation.** Cross-refer [[L8_Facial__Head_and_Torso_Trauma]] 0.2.
 
 > [!tip] The rest of nasal trauma
 > **· Assess for ASSOCIATED INJURIES — head injury, cervical spine, orbital and other facial fractures, and CSF leak.**
 > **· EPISTAXIS control as above.**
 > **· DEFORMITY is best assessed once the SWELLING HAS SETTLED, at around five to seven days — and manipulation, if required, must be performed within a limited window before the fracture sets.** **So the referral pathway is: exclude a septal haematoma and other injuries now, arrange ENT review at the right interval.** `UNVERIFIED — the manipulation window.`
 > **· Radiographs of the nasal bones are NOT useful — they do not change management, which is based on the clinical appearance and the patient's concern about deformity.**
-> **· SEPTAL PERFORATION — causes whistling, crusting and epistaxis. Its causes are worth knowing: trauma and surgery · BILATERAL septal cautery · intranasal COCAINE · intranasal steroid spray aimed at the septum · and GRANULOMATOSIS WITH POLYANGIITIS, which should be considered in any unexplained septal perforation with crusting.** Cross-refer [[L2]] 0.5.
+> **· SEPTAL PERFORATION — causes whistling, crusting and epistaxis. Its causes are worth knowing: trauma and surgery · BILATERAL septal cautery · intranasal COCAINE · intranasal steroid spray aimed at the septum · and GRANULOMATOSIS WITH POLYANGIITIS, which should be considered in any unexplained septal perforation with crusting.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5.
 
 > [!danger] Nasal foreign bodies — and the one that cannot wait
 > **UNILATERAL FOUL-SMELLING PURULENT NASAL DISCHARGE IN A CHILD IS A FOREIGN BODY UNTIL PROVEN OTHERWISE.**
 > **The insertion is frequently unwitnessed and unremembered, and the child presents weeks later with what is treated as sinusitis.**
 > **Removal: ONE careful attempt in a cooperative child with adequate light and the right instrument.** **Repeated attempts cause bleeding, oedema and displacement posteriorly — where the object may be inhaled.**
 > **The "MOTHER'S KISS" (or parent's kiss) technique — the parent occludes the unaffected nostril and blows a short, sharp puff into the child's mouth — is effective, atraumatic and worth knowing.**
-> **A BUTTON BATTERY IN THE NOSE IS AN EMERGENCY.** **It causes liquefactive necrosis and SEPTAL PERFORATION WITHIN HOURS.** **It requires immediate removal, and it must never be left for a routine list.** **Suspect it with a unilateral discharge and a history of access to small batteries — and note that a disc battery on a radiograph shows a characteristic double-ring or halo appearance.** Cross-refer [[F1]] 0.6 and [[F3]].
+> **A BUTTON BATTERY IN THE NOSE IS AN EMERGENCY.** **It causes liquefactive necrosis and SEPTAL PERFORATION WITHIN HOURS.** **It requires immediate removal, and it must never be left for a routine list.** **Suspect it with a unilateral discharge and a history of access to small batteries — and note that a disc battery on a radiograph shows a characteristic double-ring or halo appearance.** Cross-refer [[F1_Ear]] 0.6 and [[F3_Throat__Voice_and_Oral]].
 > **Organic material (seeds, foam) SWELLS when wet — do not irrigate.**
 
-**Ix:** **CORRECT FIRST AID, TIMED, before anything else in epistaxis** (*why:* most anterior bleeds stop with it, and it is almost always performed incorrectly; *what:* cessation of bleeding). **FBC, coagulation, GROUP AND HOLD in significant epistaxis** (*why:* the volume lost is under-estimated because it is swallowed, and these patients are frequently anticoagulated; *what:* anaemia, coagulopathy). **NASENDOSCOPY via ENT for unilateral obstruction, unilateral epistaxis, a unilateral mass, or a unilateral adult middle ear effusion** (*why:* nasopharyngeal and sinonasal malignancy present this way and are invisible on anterior rhinoscopy; *what:* the tumour). **CONTRAST CT or MRI urgently where orbital or intracranial complications of sinusitis are suspected** (*why:* orbital cellulitis threatens vision and intracranial spread threatens life; *what:* abscess, orbital involvement, sinus thrombosis). **Examination of the nasal cavity and PALATE in an immunocompromised or ketoacidotic patient with facial pain** (*why:* the black eschar of invasive fungal disease is visible and the condition progresses over hours; *what:* necrotic mucosa). **BETA-2 TRANSFERRIN on clear unilateral rhinorrhoea** (*why:* confirms CSF and the halo sign is unreliable; *what:* CSF leak). **Sweat test and CFTR testing for nasal polyps in a child** (*why:* polyps are rare in children and cystic fibrosis is the association; *what:* CF). **INSPECTION OF THE SEPTUM after any nasal trauma** (*why:* septal haematoma causes permanent deformity within days and is missed because nobody looks inside; *what:* boggy septal swelling). **Radiograph where a button battery is suspected** (*why:* the double-ring appearance identifies it, and it needs removal within hours; *what:* the battery). **Allergen testing only where it will change management** (*why:* a positive result without a matching history reflects sensitisation, not clinical allergy; *what:* the relevant trigger — cross-refer [[K4]] 0.4).
+**Ix:** **CORRECT FIRST AID, TIMED, before anything else in epistaxis** (*why:* most anterior bleeds stop with it, and it is almost always performed incorrectly; *what:* cessation of bleeding). **FBC, coagulation, GROUP AND HOLD in significant epistaxis** (*why:* the volume lost is under-estimated because it is swallowed, and these patients are frequently anticoagulated; *what:* anaemia, coagulopathy). **NASENDOSCOPY via ENT for unilateral obstruction, unilateral epistaxis, a unilateral mass, or a unilateral adult middle ear effusion** (*why:* nasopharyngeal and sinonasal malignancy present this way and are invisible on anterior rhinoscopy; *what:* the tumour). **CONTRAST CT or MRI urgently where orbital or intracranial complications of sinusitis are suspected** (*why:* orbital cellulitis threatens vision and intracranial spread threatens life; *what:* abscess, orbital involvement, sinus thrombosis). **Examination of the nasal cavity and PALATE in an immunocompromised or ketoacidotic patient with facial pain** (*why:* the black eschar of invasive fungal disease is visible and the condition progresses over hours; *what:* necrotic mucosa). **BETA-2 TRANSFERRIN on clear unilateral rhinorrhoea** (*why:* confirms CSF and the halo sign is unreliable; *what:* CSF leak). **Sweat test and CFTR testing for nasal polyps in a child** (*why:* polyps are rare in children and cystic fibrosis is the association; *what:* CF). **INSPECTION OF THE SEPTUM after any nasal trauma** (*why:* septal haematoma causes permanent deformity within days and is missed because nobody looks inside; *what:* boggy septal swelling). **Radiograph where a button battery is suspected** (*why:* the double-ring appearance identifies it, and it needs removal within hours; *what:* the battery). **Allergen testing only where it will change management** (*why:* a positive result without a matching history reflects sensitisation, not clinical allergy; *what:* the relevant trigger — cross-refer [[K4_Allergy_and_Clinical_Immunology]] 0.4).
 
 ---
 
 > [!note] Cross-references
-> Ear examination, glue ear and unilateral effusion → [[F1]] 0.1, 0.3 · Sore throat, hoarseness and head and neck cancer → [[F3]] · Neck lumps and nasopharyngeal carcinoma → [[F4]] · Orbital versus preseptal cellulitis → [[M2]] 0.4 and [[E3]] · Anticoagulant reversal → [[A9]] 0.4 · Hereditary haemorrhagic telangiectasia → [[J3]] 0.2 · Aspirin-exacerbated respiratory disease and allergy testing → [[K4]] 0.3–0.4 · Asthma and the united airway → [[F0.5]] 0.1 · Cystic fibrosis and bronchiectasis → [[RESP-X]] 0.4 · Granulomatosis with polyangiitis and septal perforation → [[L2]] 0.5 · Invasive fungal disease in DKA and immunosuppression → [[F0.2]] 0.3 and [[K3]] 0.5 · CSF leak and base of skull fracture → [[F0.5]] 0.7 and [[L8]] 0.2 · Choanal atresia and the neonate → [[M3]] 0.2 · Adenoids and paediatric sleep-disordered breathing → [[N7]] 0.6 · Anosmia in Parkinson disease → [[D6]] 0.5 · Kallmann syndrome → [[O4]] 0.4
+> Ear examination, glue ear and unilateral effusion → [[F1_Ear]] 0.1, 0.3 · Sore throat, hoarseness and head and neck cancer → [[F3_Throat__Voice_and_Oral]] · Neck lumps and nasopharyngeal carcinoma → [[F4_Neck_Lumps_and_Facial_Pain]] · Orbital versus preseptal cellulitis → [[M2_Fever_in_Children]] 0.4 and [[E3_Orbit__Lids_and_Pupil]] · Anticoagulant reversal → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4 · Hereditary haemorrhagic telangiectasia → [[J3_Bleeding_and_Thrombosis]] 0.2 · Aspirin-exacerbated respiratory disease and allergy testing → [[K4_Allergy_and_Clinical_Immunology]] 0.3–0.4 · Asthma and the united airway → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.1 · Cystic fibrosis and bronchiectasis → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.4 · Granulomatosis with polyangiitis and septal perforation → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.5 · Invasive fungal disease in DKA and immunosuppression → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3 and [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · CSF leak and base of skull fracture → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7 and [[L8_Facial__Head_and_Torso_Trauma]] 0.2 · Choanal atresia and the neonate → [[M3_Neonatal_Problems]] 0.2 · Adenoids and paediatric sleep-disordered breathing → [[N7_Sleep_Disorders]] 0.6 · Anosmia in Parkinson disease → [[D6_Seizures_and_Movement_Disorders]] 0.5 · Kallmann syndrome → [[O4_Abnormal_and_Menstrual_Bleeding]] 0.4

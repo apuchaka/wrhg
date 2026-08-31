@@ -731,3 +731,132 @@ Corpus A **and** C, before writing D4's destination table.
 are all the bare `` `UNVERIFIED` `` prose reference in Corpus B line 11 and one Corpus C
 file. **No marker was silently voided in Block 1.**
 
+
+---
+
+# Week 2 run — Corpus B-new merge (2026-08-31, branch `claude/next-6gvrdi`)
+
+## Resume point
+
+**WEEK 2 COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
+**IN PROGRESS:** Week 3 — **L1 done.** Next L2. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
+ophthalmology (E1–E3). **Week 4 is approved for AFTER week 3**, priced by the probe in
+`_meta/merges/WEEK4_PROBE.md` at ~100 additive blocks for 25 files; **run M before J** if
+it is ever cut short.
+
+**PR #88 covers this branch, not just week 2.** Week 3 commits extend it, because the
+session is restricted to `claude/next-6gvrdi` and cannot open a second branch. If week 2
+is wanted as its own reviewable unit, merge #88 before week 3 lands.
+Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1–E3).
+**Do NOT start Week 4** — the user decides that after seeing this run's yield.
+
+## Standing facts for a session picking this up
+
+- **The 39 files in `Corpus B-new/` that duplicate a `Corpus B/` name are NOT merge
+  material.** They are a pre-Step-11 re-export: byte-identical to `Corpus B` at
+  `75ae3b9f^` once frontmatter and wikilink form are normalised. Leave them alone.
+  Only the **73 new files** are in scope.
+- **`merge_tools.py scan` re-stamps counter frontmatter on those 39 every run**, because
+  they are `.md` files under the vault root. Revert them after each scan:
+  `while read -r f; do git checkout -- "Corpus B-new/$f"; done < <(cd "Corpus B" && ls *.md)`
+
+> [!danger] **THE TWO-COPIES TRAP — read this before searching or editing anything in
+> `Corpus B-new/`.** Thirty-nine filenames now exist **twice in one vault**, in
+> `Corpus B/` and `Corpus B-new/`, **with different content**. `A8_Foreign_Bodies_by_Site.md`
+> is the clearest case: `Corpus B/` says *lidocaine* (Step 11's TGA-sourced correction) and
+> `Corpus B-new/` says *lignocaine* (the pre-Step-11 export). Same filename, opposite side
+> of a sourced rename.
+>
+> Consequences to keep in mind while both exist:
+> - **A vault-wide grep returns both copies**, so a hit count over `Corpus B*` double-counts,
+>   and reading only the first hit can return the reverted text.
+> - **An Obsidian wikilink resolves by filename**, so `[[A8_Foreign_Bodies_by_Site]]` is
+>   ambiguous and which copy opens is not something this vault decides.
+> - **Any tool taking `--dir` at the vault root walks both.** That is why `scan` keeps
+>   stamping them.
+>
+> **The 39 are being kept deliberately, pending a deletion decision.** Until then: scope
+> every search to `Corpus A`, `Corpus C` and the **73 new files**, never to `Corpus B-new`
+> as a whole, and never treat a `Corpus B-new` copy of a Corpus B filename as current.
+- The 73 carry `trust: unverified`; `population` is corrected per file only for the week
+  being merged, and stays at the tool's `mixed` placeholder otherwise.
+- Step 31 has been run on the 73: 3064 links expanded, 0 unresolved.
+
+## NO-BASELINE test — the scope that is correct
+
+`git archive 0db4034 | tar -x` produces the **whole repository**, including **Corpus B —
+the merge source** — and the root project documents. Testing a subject against all of it
+suppresses a marker on the ground that the *source* mentions the subject.
+
+**Restrict every base-A test to `Corpus A` and `Corpus C`.** `paronychia` is the proof:
+1 hit across the full archive, 0 in the inherited layer.
+
+## Yield so far
+
+| File | Tested | Additive | Discard | Conflicts | New files |
+|---|---:|---:|---:|---:|---|
+| K1 Fever Workup | 55 | 15 | 39 | 1 (CF-035 R2) | none |
+| K2 Skin and Soft Tissue Infection | 42 | 13 | 28 | 0 | none |
+| K3 Exposure, TB, HIV, Immunodeficiency | 48 | 7 | 40 | 0 | none |
+| K4 Allergy and Clinical Immunology | 38 | 10 | 25 | 0 | none |
+| I1 Thyroid Disease | 32 | 2 | 30 | 0 | none |
+| I2 Diabetes and Glucose Disorders | 34 | 4 | 30 | 0 | none |
+| I3 Calcium, Parathyroid and Bone | 26 | 2 | 23 | 0 | none |
+| I4 Pituitary, Adrenal and Sex Hormone | 30 | 1 | 29 | 0 | none |
+| I5 Weight, Lipids and Fluid Balance | 30 | 3 | 27 | 0 | none |
+| O6 Sexual and Reproductive Health | 34 | 2 | 32 | 0 | none |
+| CV-X Chronic Heart Failure | 28 | 2 | 26 | 0 | none |
+| **WEEK 2 TOTAL (11 files)** | **382** | **56** | **329** | **1 (CF-035 R2)** | **none** |
+| — *week 3 below* — | | | | | |
+| L1 Hot and Swollen Joint | 30 | 3 | 27 | 0 | none |
+
+**Week 2 ran 15% additive overall** (56 of 385 dispositions), against the ~20% of blocks
+1 and 2. Corpus A + Corpus C together are **denser** in week 2's topics than the
+file-count indicator suggested, not thinner.
+
+**The K block ran ~26% additive. I1 ran 6%.**
+
+> [!danger] **The endocrine yield indicator I gave the user was WRONG, and the error is
+> reusable.** I predicted endocrine would be week 2's richest seam because Corpus A has
+> **one** `06_` file against five new `I` files. **That indicator counted Corpus A
+> filenames only.** Thyroid content is spread over `06_Metabolic`, `05_Ophthalmology`
+> (thyroid eye disease, own section), `15_16a`, `15_17a`, `16_08-09`, `13_06a` — and
+> above all **`Corpus C/NEW_Investigations_Endocrine.md`**, which carries the TFT pattern
+> table, TIRADS, Bethesda and the uptake-scan logic. **A file count over one corpus is
+> not a coverage measure.** Expect I2–I5 to run low too, for the same reason: Corpus C
+> has a dedicated investigations file per specialty.
+
+**Eight unanchored-substring traps so far this run**, none of which was on the user's
+known-collisions list: `felon`→`lifelong` (66/66) · `IGRA`→`migraine` (118/125) ·
+`PrEP`→`preparation` (~98/113) · `IRIS`→the eye (18/22) · `Gell`→`Shigella`/`flagellin`
+(9/9) · `TRAb`→`trabecular`/`strabismus` (28/32) · `LADA`→`maladaptive` (6/6) · `Conn`→`connective` (123/123). **Treat any short unanchored pattern as
+suspect by default; a list of known-bad ones will always be behind.**
+
+## Next free conflict ID: **CF-036.** (CF-035 is the atelectasis conflict written this run.)
+
+## A verification defect found mid-run (rule 7) — FIXED, and the correct form
+
+Every merge until I5 ended with this duplicate-header check:
+
+```
+grep -n "^#\+ " FILE | awk -F: '{print $3}' | sort | uniq -d      # VACUOUS - DO NOT USE
+```
+
+`grep -n` prefixes the line number, so `$2` is the header text **up to its first colon**
+and `$3` is whatever follows a second one. For a colon-free header `$3` is **empty**, so
+every such header maps to the empty string and `uniq -d` prints one blank line — which
+reads as "no duplicates". Proven, not reasoned:
+
+```
+$ printf '10:## Alpha\n20:## Alpha\n' | awk -F: '{print $3}' | sort | uniq -d | cat -A
+$
+```
+
+Two identical headers, one empty line. **Use this instead:**
+
+```
+grep -h "^#\+ " FILE | sort | uniq -d
+```
+
+Re-run correctly over all eleven Corpus A files modified this run: **all clean.** No
+duplicate header was introduced; only the check was broken.

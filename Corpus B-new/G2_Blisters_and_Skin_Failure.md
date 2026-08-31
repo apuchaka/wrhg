@@ -1,12 +1,17 @@
 ---
 block: Dermatology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Mechanism, morphology and discriminators are reliable at intern level. **Every dose, body surface area threshold, ABPI value and regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG Dermatology** and Australian wound management guidance.
 >
-> **SJS/TEN and eczema herpeticum are built in [[G1]] 0.2–0.3**, **burns in [[A7]]**, and **pressure injury prevention in [[GER2]] 0.2** — cross-referenced rather than repeated.
+> **SJS/TEN and eczema herpeticum are built in [[G1_Acute_Rash_and_Erythema]] 0.2–0.3**, **burns in [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]]**, and **pressure injury prevention in [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.2** — cross-referenced rather than repeated.
 
 ---
 
@@ -57,7 +62,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Skin lesions are FLACCID blisters that rupture immediately, leaving painful, weeping, slowly healing EROSIONS. NIKOLSKY POSITIVE.**
 > **Before corticosteroids, pemphigus vulgaris was usually FATAL — from fluid loss and sepsis. It remains a serious disease requiring specialist management.**
 > **RITUXIMAB combined with corticosteroids is now first-line therapy and has substantially improved outcomes.** `UNVERIFIED — current regimens.`
-> **MUCOUS MEMBRANE (cicatricial) PEMPHIGOID is a separate entity — predominantly mucosal, and it SCARS. OCULAR involvement causes symblepharon, entropion, corneal damage and BLINDNESS, and laryngeal and oesophageal involvement causes stricture.** **It requires ophthalmological assessment in every case.** Cross-refer [[E1]].
+> **MUCOUS MEMBRANE (cicatricial) PEMPHIGOID is a separate entity — predominantly mucosal, and it SCARS. OCULAR involvement causes symblepharon, entropion, corneal damage and BLINDNESS, and laryngeal and oesophageal involvement causes stricture.** **It requires ophthalmological assessment in every case.** Cross-refer [[E1_Red_and_Painful_Eye]].
 
 > [!tip] Dermatitis herpetiformis — the skin sign of coeliac disease
 > **INTENSELY ITCHY grouped vesicles and papules on EXTENSOR surfaces — elbows, knees, buttocks, sacrum and scalp — usually symmetrical.**
@@ -66,8 +71,8 @@ source: built in chat, model knowledge, NOT source-verified
 > **DIF shows GRANULAR IgA IN THE DERMAL PAPILLAE — taken from perilesional skin.**
 > **TREATMENT:**
 > **· A STRICT LIFELONG GLUTEN-FREE DIET is the definitive treatment — it treats the skin, the gut, and the long-term lymphoma risk. But the skin takes MONTHS to respond.**
-> **· DAPSONE gives dramatic relief within days and is used while the diet takes effect.** **CHECK G6PD STATUS BEFORE PRESCRIBING DAPSONE — it causes severe haemolysis in G6PD deficiency, and it causes methaemoglobinaemia and haemolysis even in normal individuals, requiring monitoring.** Cross-refer [[J2]] 0.2.
-> **Also: coeliac serology, and management as for coeliac disease including bone density and nutritional assessment.** Cross-refer [[C5]] 0.4.
+> **· DAPSONE gives dramatic relief within days and is used while the diet takes effect.** **CHECK G6PD STATUS BEFORE PRESCRIBING DAPSONE — it causes severe haemolysis in G6PD deficiency, and it causes methaemoglobinaemia and haemolysis even in normal individuals, requiring monitoring.** Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]] 0.2.
+> **Also: coeliac serology, and management as for coeliac disease including bone density and nutritional assessment.** Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.4.
 
 ---
 
@@ -76,11 +81,11 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] Infection, injury and the physical causes
 > **· STAPHYLOCOCCAL SCALDED SKIN SYNDROME — a toxin-mediated superficial split, mostly in young children, with a positive Nikolsky sign, perioral crusting and radial fissuring, and — critically — SPARED MUCOSAE, which distinguishes it from TEN.**
 > **· BULLOUS IMPETIGO — localised, staphylococcal, with a collarette of scale.**
-> **· HERPES SIMPLEX and ZOSTER — grouped vesicles on an erythematous base; zoster is dermatomal.** **ECZEMA HERPETICUM — monomorphic punched-out erosions on eczematous skin, requiring urgent aciclovir.** Cross-refer [[G1]] 0.2.
-> **· NECROTISING FASCIITIS — haemorrhagic bullae with pain out of proportion.** Cross-refer [[K2]] 0.2.
-> **· BURNS, friction blisters, frostbite and chemical injury.** Cross-refer [[A7]].
+> **· HERPES SIMPLEX and ZOSTER — grouped vesicles on an erythematous base; zoster is dermatomal.** **ECZEMA HERPETICUM — monomorphic punched-out erosions on eczematous skin, requiring urgent aciclovir.** Cross-refer [[G1_Acute_Rash_and_Erythema]] 0.2.
+> **· NECROTISING FASCIITIS — haemorrhagic bullae with pain out of proportion.** Cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.2.
+> **· BURNS, friction blisters, frostbite and chemical injury.** Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]].
 > **· OEDEMA BLISTERS — tense clear blisters arising in acutely and severely oedematous limbs, particularly in decompensated heart failure. Benign, and they resolve as the oedema does.**
-> **· COMA BLISTERS — tense blisters over PRESSURE POINTS in a patient who has been unconscious and immobile for a prolonged period.** **They are a clue to the DURATION of unconsciousness, and they are classically described after drug overdose and carbon monoxide poisoning.** **Finding them in an unexplained collapse suggests the patient was down for many hours** — which changes the assessment for rhabdomyolysis, pressure injury and compartment syndrome. Cross-refer [[A5]] and [[A7]] 0.6.
+> **· COMA BLISTERS — tense blisters over PRESSURE POINTS in a patient who has been unconscious and immobile for a prolonged period.** **They are a clue to the DURATION of unconsciousness, and they are classically described after drug overdose and carbon monoxide poisoning.** **Finding them in an unexplained collapse suggests the patient was down for many hours** — which changes the assessment for rhabdomyolysis, pressure injury and compartment syndrome. Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.
 
 > [!danger] Porphyria cutanea tarda — blisters on the backs of the hands
 > **The commonest porphyria, caused by reduced hepatic uroporphyrinogen decarboxylase activity.**
@@ -88,7 +93,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **The blisters appear after minor trauma the patient may not recall, so they present as "my skin just comes off".**
 > **THE TRIGGERS ARE THE POINT, BECAUSE THEY ARE TREATABLE: HEPATITIS C (a strong association — test for it) · ALCOHOL · IRON OVERLOAD and HAEMOCHROMATOSIS (HFE mutations) · OESTROGENS · HIV · and smoking.**
 > **Diagnosis: URINARY PORPHYRINS — and the urine may show PINK-RED FLUORESCENCE under a Wood lamp, which is a memorable bedside finding.**
-> **Treatment: remove the triggers (alcohol, oestrogen), treat hepatitis C, VENESECTION to reduce iron, and low-dose hydroxychloroquine.** Cross-refer [[C3]] 0.3.
+> **Treatment: remove the triggers (alcohol, oestrogen), treat hepatitis C, VENESECTION to reduce iron, and low-dose hydroxychloroquine.** Cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.3.
 > **PSEUDOPORPHYRIA looks identical but has normal porphyrins — caused by NSAIDs (particularly naproxen), frusemide, tetracyclines, and dialysis.**
 
 > [!tip] Two more worth recognising
@@ -105,9 +110,9 @@ source: built in chat, model knowledge, NOT source-verified
 > **Erythema and scaling affecting essentially the whole body surface.** `UNVERIFIED — the percentage threshold.`
 > **It is an emergency not because of the skin appearance but because of the SYSTEMIC PHYSIOLOGICAL CONSEQUENCES — see 0.5.**
 > **THE CAUSES:**
-> **· PSORIASIS — including, importantly, after ABRUPT WITHDRAWAL OF SYSTEMIC CORTICOSTEROIDS, which can precipitate erythrodermic or pustular psoriasis.** **This is a specific iatrogenic cause: never stop systemic steroids abruptly in a patient with psoriasis, and be cautious about giving them at all.** Cross-refer [[G4]].
+> **· PSORIASIS — including, importantly, after ABRUPT WITHDRAWAL OF SYSTEMIC CORTICOSTEROIDS, which can precipitate erythrodermic or pustular psoriasis.** **This is a specific iatrogenic cause: never stop systemic steroids abruptly in a patient with psoriasis, and be cautious about giving them at all.** Cross-refer [[G4_Chronic_Rash__Pruritus_and_Pigment]].
 > **· ECZEMA / atopic dermatitis.**
-> **· DRUG REACTIONS — including DRESS.** Cross-refer [[G1]] 0.3.
+> **· DRUG REACTIONS — including DRESS.** Cross-refer [[G1_Acute_Rash_and_Erythema]] 0.3.
 > **· CUTANEOUS T-CELL LYMPHOMA — mycosis fungoides and SÉZARY SYNDROME (erythroderma with lymphadenopathy and circulating atypical Sézary cells).**
 > **· Pityriasis rubra pilaris — with characteristic ISLANDS OF SPARING (normal skin within the erythroderma), which is a useful diagnostic clue.**
 > **· Idiopathic ("red man syndrome") — a diagnosis of exclusion, and some later declare as lymphoma, so these patients need follow-up.**
@@ -152,7 +157,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!tip] What impairs healing — the checklist for any non-healing wound
 > **INFECTION · POOR PERFUSION (arterial disease — the most important and most often unassessed) · PRESSURE and shear · OEDEMA · DIABETES and hyperglycaemia · MALNUTRITION, particularly protein, vitamin C and zinc · CORTICOSTEROIDS and immunosuppressants · SMOKING · a retained FOREIGN BODY · MALIGNANCY · and repeated trauma.**
-> **A wound that is not healing has a reason, and it is usually on this list — most often perfusion, pressure, infection or nutrition.** Cross-refer [[L6]] 0.1.
+> **A wound that is not healing has a reason, and it is usually on this list — most often perfusion, pressure, infection or nutrition.** Cross-refer [[L6_Soft_Tissue_Injury_and_Mobility]] 0.1.
 
 > [!danger] The three leg ulcers — and always do an ABPI before compression
 > | | **VENOUS** | **ARTERIAL** | **NEUROPATHIC** |
@@ -164,14 +169,14 @@ source: built in chat, model knowledge, NOT source-verified
 > | Treatment | **COMPRESSION** | **REVASCULARISATION — do NOT compress** | **OFFLOADING**, glycaemic control, footwear |
 > **THE SAFETY RULE: MEASURE THE ANKLE-BRACHIAL PRESSURE INDEX BEFORE APPLYING COMPRESSION.**
 > **COMPRESSING AN ISCHAEMIC LIMB CAUSES TISSUE NECROSIS AND CAN COST THE LIMB.** **A "venous-looking" ulcer in an older patient with vascular risk factors may have coexisting arterial disease — mixed ulcers are common.**
-> **Note also that the ABPI is FALSELY ELEVATED in DIABETES and chronic kidney disease because of medial arterial calcification making the vessels incompressible — so a normal or high ABPI in a diabetic patient does not exclude arterial disease, and toe pressures or waveform analysis are needed.** Cross-refer [[B6]] 0.2 and [[I2]] 0.5.
+> **Note also that the ABPI is FALSELY ELEVATED in DIABETES and chronic kidney disease because of medial arterial calcification making the vessels incompressible — so a normal or high ABPI in a diabetic patient does not exclude arterial disease, and toe pressures or waveform analysis are needed.** Cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.2 and [[I2_Diabetes_and_Glucose_Disorders]] 0.5.
 > **COMPRESSION IS THE TREATMENT FOR VENOUS ULCERATION** — dressings are secondary, and an expensive dressing without compression will not heal a venous ulcer.
 
 > [!warning] Pressure injury — prevention is the intervention
 > **Prevention is far more effective than any treatment: REGULAR REPOSITIONING · appropriate support surfaces · NUTRITION and hydration · management of MOISTURE (incontinence-associated dermatitis) · early MOBILISATION · and daily SKIN INSPECTION, particularly of the SACRUM AND HEELS.**
 > **THE HEELS ARE THE MOST FORGOTTEN SITE** — they are easily offloaded with a pillow under the calves and are routinely not.
 > **Pressure injuries are a recognised quality and safety indicator, are largely preventable, cause substantial pain and morbidity, and prolong admissions.**
-> **The intern-level actions: look at the skin when you examine the patient · document what you find · request a pressure-relieving mattress when you identify risk · address the modifiable contributors (nutrition, continence, mobility, sedation) · and question the catheter, the sedative and the bed rest that are keeping the patient immobile.** Cross-refer [[GER2]] 0.2 and [[L6]] 0.6.
+> **The intern-level actions: look at the skin when you examine the patient · document what you find · request a pressure-relieving mattress when you identify risk · address the modifiable contributors (nutrition, continence, mobility, sedation) · and question the catheter, the sedative and the bed rest that are keeping the patient immobile.** Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.2 and [[L6_Soft_Tissue_Injury_and_Mobility]] 0.6.
 
 > [!danger] Biopsy any ulcer that will not heal
 > **A chronic non-healing ulcer may be MALIGNANT — either a primary skin cancer that has ulcerated (squamous cell carcinoma, basal cell carcinoma, amelanotic melanoma) or a MARJOLIN ULCER, a squamous cell carcinoma arising within a chronic wound, burn scar or sinus tract.**
@@ -191,4 +196,4 @@ source: built in chat, model knowledge, NOT source-verified
 ---
 
 > [!note] Cross-references
-> Acute rash, SJS/TEN, DRESS and eczema herpeticum → [[G1]] 0.2–0.3 · Purpura and vasculitis → [[G3]] · Eczema and psoriasis → [[G4]] · Skin cancer and the suspicious lesion → [[G5]] · Burns and cold injury → [[A7]] · Necrotising fasciitis and skin infection → [[K2]] 0.2 · Coma blisters, overdose and rhabdomyolysis → [[A5]] and [[A7]] 0.6 · Coeliac disease → [[C5]] 0.4 · G6PD deficiency and dapsone → [[J2]] 0.2 · Porphyria, hepatitis C and haemochromatosis → [[C3]] 0.3 · Peripheral arterial disease and ABPI → [[B6]] 0.2 · Diabetic foot and offloading → [[I2]] 0.5 · Pressure injury and immobility → [[GER2]] 0.2 and [[L6]] 0.6 · Wound healing and tissue repair → [[L6]] 0.1 · Ocular involvement in mucous membrane pemphigoid → [[E1]] · Nutrition and refeeding → [[GER2]] 0.3
+> Acute rash, SJS/TEN, DRESS and eczema herpeticum → [[G1_Acute_Rash_and_Erythema]] 0.2–0.3 · Purpura and vasculitis → [[G3_Purpura_and_Vasculitis]] · Eczema and psoriasis → [[G4_Chronic_Rash__Pruritus_and_Pigment]] · Skin cancer and the suspicious lesion → [[G5_Lumps__Ulcers_and_Nails]] · Burns and cold injury → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] · Necrotising fasciitis and skin infection → [[K2_Skin_and_Soft_Tissue_Infection]] 0.2 · Coma blisters, overdose and rhabdomyolysis → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Coeliac disease → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.4 · G6PD deficiency and dapsone → [[J2_Haemoglobinopathy_and_Haemolysis]] 0.2 · Porphyria, hepatitis C and haemochromatosis → [[C3_Jaundice_and_Liver_Disease]] 0.3 · Peripheral arterial disease and ABPI → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.2 · Diabetic foot and offloading → [[I2_Diabetes_and_Glucose_Disorders]] 0.5 · Pressure injury and immobility → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.2 and [[L6_Soft_Tissue_Injury_and_Mobility]] 0.6 · Wound healing and tissue repair → [[L6_Soft_Tissue_Injury_and_Mobility]] 0.1 · Ocular involvement in mucous membrane pemphigoid → [[E1_Red_and_Painful_Eye]] · Nutrition and refeeding → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.3

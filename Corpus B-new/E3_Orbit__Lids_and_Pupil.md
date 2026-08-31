@@ -1,12 +1,17 @@
 ---
 block: Ophthalmology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Localisation, anatomy and discriminators are reliable at intern level. **Every dose, threshold and regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG** and RANZCO guidance.
 >
-> **Cranial nerve palsies and diplopia are built in [[E2]] 0.6 and [[D7]]**, **orbital cellulitis in [[M2]] 0.4**, and **thyroid disease in [[I1]] 0.3** — cross-referenced rather than repeated.
+> **Cranial nerve palsies and diplopia are built in [[E2_Vision_Loss_and_Disturbance]] 0.6 and [[D7_Cranial_Nerves_and_Special_Senses]]**, **orbital cellulitis in [[M2_Fever_in_Children]] 0.4**, and **thyroid disease in [[I1_Thyroid_Disease]] 0.3** — cross-referenced rather than repeated.
 
 ---
 
@@ -24,7 +29,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **THE FEATURES THAT MATTER: a pearly nodule with surface TELANGIECTASIA · central ULCERATION · INDURATION · DISTORTION of the normal lid margin architecture · and — the most useful single sign — LOSS OF EYELASHES over the lesion, which indicates destruction of the follicles by infiltrating tumour.**
 > **MEDIAL CANTHAL tumours are particularly important because the tissue planes there allow deep, silent spread into the orbit and along nerves, and reconstruction is difficult** — so they warrant specialist oculoplastic management and often Mohs surgery.
 > **Also occurring: squamous cell carcinoma, sebaceous carcinoma (above) and melanoma.**
-> **ANY PERSISTENT EYELID LESION WITH LASH LOSS, ULCERATION OR LID MARGIN DISTORTION NEEDS BIOPSY.** Cross-refer [[G5]] 0.3.
+> **ANY PERSISTENT EYELID LESION WITH LASH LOSS, ULCERATION OR LID MARGIN DISTORTION NEEDS BIOPSY.** Cross-refer [[G5_Lumps__Ulcers_and_Nails]] 0.3.
 
 > [!tip] Entropion, ectropion, and the lid that will not close
 > **· ENTROPION — the lid turns IN, so the LASHES ABRADE THE CORNEA. Causes irritation, watering, corneal abrasion and ultimately ulceration and scarring.** Temporised with taping and lubricants; corrected surgically.
@@ -33,7 +38,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· FACIAL NERVE PALSY AND EXPOSURE KERATOPATHY — the single most important lid point in general practice.**
 > **A patient who cannot close the eye (lagophthalmos) and who has lost the protective Bell phenomenon is at risk of corneal drying, ulceration, perforation and permanent visual loss WITHIN DAYS.**
 > **EVERY PATIENT WITH A FACIAL PALSY NEEDS: frequent LUBRICATING DROPS during the day · OINTMENT at night · and the eye TAPED SHUT or a moisture chamber overnight · plus review of the cornea.**
-> **This is routinely omitted from Bell palsy management, where all the attention goes to steroids and antivirals — and the cornea is what is actually at risk.** Cross-refer [[D5]] and [[F1]] 0.2.
+> **This is routinely omitted from Bell palsy management, where all the attention goes to steroids and antivirals — and the cornea is what is actually at risk.** Cross-refer [[D5_Dizziness__Vertigo_and_Gait]] and [[F1_Ear]] 0.2.
 
 ---
 
@@ -69,15 +74,15 @@ source: built in chat, model knowledge, NOT source-verified
 > **2. COMPRESSIVE OPTIC NEUROPATHY — enlarged muscles compressing the nerve at the orbital apex.** **THE SIGNS ARE REDUCED ACUITY, RED DESATURATION and an RAPD — not necessarily worse proptosis.** **It is an emergency requiring high-dose steroids, radiotherapy or urgent surgical decompression.**
 > **SO: CHECK ACUITY, COLOUR VISION AND PUPILS AT EVERY REVIEW OF THYROID EYE DISEASE — the proptosis is what everyone looks at, and the optic nerve is what is lost.**
 > **SMOKING is a strong, dose-related and MODIFIABLE risk factor for developing thyroid eye disease and for it worsening — and it reduces the response to treatment.** **This is one of the most compelling smoking cessation conversations in medicine and it should be had explicitly.**
-> **RADIOIODINE treatment can precipitate or worsen thyroid eye disease, which affects the choice of treatment for the hyperthyroidism, sometimes with steroid cover.** Cross-refer [[I1]] 0.3.
+> **RADIOIODINE treatment can precipitate or worsen thyroid eye disease, which affects the choice of treatment for the hyperthyroidism, sometimes with steroid cover.** Cross-refer [[I1_Thyroid_Disease]] 0.3.
 
 > [!warning] The other causes of proptosis
-> **· ORBITAL CELLULITIS — proptosis with PAINFUL, RESTRICTED eye movements, reduced acuity and systemic illness. An emergency.** Cross-refer [[M2]] 0.4 and [[F2]] 0.2.
+> **· ORBITAL CELLULITIS — proptosis with PAINFUL, RESTRICTED eye movements, reduced acuity and systemic illness. An emergency.** Cross-refer [[M2_Fever_in_Children]] 0.4 and [[F2_Nose_and_Sinus]] 0.2.
 > **· ORBITAL TUMOURS — lymphoma (a painless, "salmon-pink" conjunctival or orbital mass in an older patient), metastases, lacrimal gland tumours, cavernous haemangioma, and optic nerve glioma or meningioma.**
 > **· IN CHILDREN, two that are urgent: RHABDOMYOSARCOMA — RAPIDLY PROGRESSIVE proptosis over days to weeks in a child, which is a malignancy requiring immediate referral · and METASTATIC NEUROBLASTOMA, which classically causes PERIORBITAL ECCHYMOSIS ("raccoon eyes") with proptosis.** **Rapidly progressive proptosis in a child is a cancer until proven otherwise.**
 > **· IDIOPATHIC ORBITAL INFLAMMATION ("orbital pseudotumour") — painful proptosis with restricted movements, dramatically steroid-responsive, and a diagnosis of exclusion.**
 > **· CAROTID-CAVERNOUS FISTULA — PULSATILE proptosis with an audible BRUIT (listen over the globe and temple), dilated "CORKSCREW" conjunctival vessels, chemosis and raised intraocular pressure, typically after head trauma.**
-> **· CAVERNOUS SINUS THROMBOSIS — proptosis, chemosis, ophthalmoplegia and V1/V2 sensory loss, characteristically BECOMING BILATERAL.** Cross-refer [[F2]] 0.2.
+> **· CAVERNOUS SINUS THROMBOSIS — proptosis, chemosis, ophthalmoplegia and V1/V2 sensory loss, characteristically BECOMING BILATERAL.** Cross-refer [[F2_Nose_and_Sinus]] 0.2.
 
 > [!tip] Assessing proptosis
 > **· AXIAL versus NON-AXIAL displacement.** **Axial (straight forward) suggests a lesion within the muscle cone or a diffuse process such as thyroid eye disease; NON-AXIAL (displaced up, down or sideways) suggests a mass OUTSIDE the cone, and the direction of displacement points to where it is.**
@@ -99,21 +104,21 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!danger] A painful Horner syndrome is a carotid dissection
 > **HORNER SYNDROME: PTOSIS (partial and mild — the Müller muscle is sympathetically innervated, unlike the levator) · MIOSIS · and ANHIDROSIS, with apparent enophthalmos.**
-> **THE ANHIDROSIS LOCALISES THE LESION — whole hemiface implies a central or preganglionic lesion; forehead only or absent implies postganglionic.** Cross-refer [[G6]] 0.5.
+> **THE ANHIDROSIS LOCALISES THE LESION — whole hemiface implies a central or preganglionic lesion; forehead only or absent implies postganglionic.** Cross-refer [[G6_Flushing__Sweating_and_Cyanosis]] 0.5.
 > **THE CAUSES BY NEURONE:**
 > **· FIRST-ORDER (central) — brainstem stroke (LATERAL MEDULLARY/Wallenberg syndrome), cervical cord lesion, syringomyelia, multiple sclerosis, tumour.**
 > **· SECOND-ORDER (preganglionic) — an APICAL LUNG TUMOUR (PANCOAST), thyroid or neck surgery, cervical rib, trauma, mediastinal mass.** **A Horner syndrome with arm pain or hand wasting is a Pancoast tumour until imaged.**
 > **· THIRD-ORDER (postganglionic) — INTERNAL CAROTID ARTERY DISSECTION, cavernous sinus pathology, cluster headache.**
 > **THE URGENT ONE: A HORNER SYNDROME WITH IPSILATERAL NECK, FACE OR HEAD PAIN IS A CAROTID DISSECTION UNTIL PROVEN OTHERWISE.**
-> **It requires urgent vascular imaging, because dissection precedes stroke — often by hours to days — and antithrombotic treatment prevents it.** Cross-refer [[D3]] 0.4.
+> **It requires urgent vascular imaging, because dissection precedes stroke — often by hours to days — and antithrombotic treatment prevents it.** Cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.4.
 > **A HORNER SYNDROME IN AN INFANT, particularly with HETEROCHROMIA (a paler iris on the affected side, because sympathetic innervation is needed for iris pigmentation in the first years), may be congenital — but NEUROBLASTOMA must be excluded.**
 
 > [!warning] The specific pupil syndromes
-> **· THIRD NERVE PALSY — ptosis, the eye "down and out", and the pupil.** **PUPIL-INVOLVING (dilated, unreactive) = COMPRESSIVE = POSTERIOR COMMUNICATING ARTERY ANEURYSM until angiography says otherwise.** **PUPIL-SPARING = more often microvascular (diabetes, hypertension), painful but self-limiting.** Cross-refer [[E2]] 0.6.
+> **· THIRD NERVE PALSY — ptosis, the eye "down and out", and the pupil.** **PUPIL-INVOLVING (dilated, unreactive) = COMPRESSIVE = POSTERIOR COMMUNICATING ARTERY ANEURYSM until angiography says otherwise.** **PUPIL-SPARING = more often microvascular (diabetes, hypertension), painful but self-limiting.** Cross-refer [[E2_Vision_Loss_and_Disturbance]] 0.6.
 > **· ADIE (tonic) PUPIL — typically a YOUNG WOMAN with a unilateral DILATED pupil that reacts POORLY OR NOT AT ALL TO LIGHT but constricts SLOWLY AND TONICALLY to a near target, then REDILATES SLOWLY.** **This is LIGHT-NEAR DISSOCIATION.** **It shows DENERVATION SUPERSENSITIVITY — constricting to DILUTE pilocarpine that would not affect a normal pupil, which is the confirmatory test.** **Benign. With absent deep tendon reflexes it is Holmes-Adie syndrome.**
 > **· ARGYLL ROBERTSON PUPIL — small, irregular pupils with LIGHT-NEAR DISSOCIATION ("accommodates but does not react"), classically bilateral, associated with NEUROSYPHILIS.** Rare, but the classic teaching example, and a reason to consider syphilis serology in unexplained pupillary abnormality.
 > **· PHARMACOLOGICAL DILATATION — the everyday one that causes alarm.** **NEBULISED IPRATROPIUM escaping from a poorly fitting mask is a well-recognised cause of a unilateral fixed dilated pupil in an emergency department or intensive care patient, and it triggers unnecessary neuroimaging.** Also hyoscine patches (transferred by the fingers to the eye), and plant alkaloids. **The test: a pharmacologically blocked pupil will NOT constrict to full-strength pilocarpine, whereas a third nerve palsy pupil will.**
-> **· A FIXED DILATED PUPIL IN AN UNCONSCIOUS PATIENT suggests uncal herniation and is a neurosurgical emergency — but consider drugs, direct ocular trauma and pre-existing abnormality before acting on it alone.** Cross-refer [[F0.5]] 0.7.
+> **· A FIXED DILATED PUPIL IN AN UNCONSCIOUS PATIENT suggests uncal herniation and is a neurosurgical emergency — but consider drugs, direct ocular trauma and pre-existing abnormality before acting on it alone.** Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7.
 
 ---
 
@@ -124,7 +129,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **1. PTOSIS + DILATED PUPIL + eye "DOWN AND OUT" → THIRD NERVE PALSY → urgent imaging for an ANEURYSM.**
 > **2. PTOSIS (partial) + CONSTRICTED PUPIL → HORNER SYNDROME → and if painful, carotid dissection.**
 > **3. PTOSIS that is FATIGABLE and VARIABLE, WITH NORMAL PUPILS → MYASTHENIA GRAVIS.**
-> **THE PUPIL IS NEVER INVOLVED IN MYASTHENIA — which is why myasthenia can mimic any pupil-sparing ocular motor palsy, and why a normal pupil with variable ptosis and diplopia should prompt the question "is it worse at the end of the day?" and a test of fatigability on sustained upgaze.** Cross-refer [[D4]] 0.3.
+> **THE PUPIL IS NEVER INVOLVED IN MYASTHENIA — which is why myasthenia can mimic any pupil-sparing ocular motor palsy, and why a normal pupil with variable ptosis and diplopia should prompt the question "is it worse at the end of the day?" and a test of fatigability on sustained upgaze.** Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.3.
 > **The other causes: APONEUROTIC (age-related dehiscence of the levator aponeurosis — the commonest cause overall, with a HIGH lid crease and PRESERVED levator function, bilateral and gradual) · MYOGENIC (myotonic dystrophy, chronic progressive external ophthalmoplegia, oculopharyngeal muscular dystrophy) · MECHANICAL (a lid mass, oedema, scarring) · and CONGENITAL.**
 
 > [!danger] Congenital ptosis and strabismus threaten sight through amblyopia
@@ -134,7 +139,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **THEREFORE:**
 > **· CONGENITAL PTOSIS covering the visual axis requires urgent referral.**
 > **· STRABISMUS IS NEVER NORMAL BEYOND EARLY INFANCY.** **A persistent squint requires referral — not "he'll grow out of it".** **Test with the CORNEAL LIGHT REFLEX (asymmetry indicates deviation) and the COVER TEST.** **Note that a broad nasal bridge can produce PSEUDO-strabismus with a symmetrical light reflex, which is reassuring — but that distinction is made by testing, not by assuming.**
-> **· LEUKOCORIA — a white pupillary reflex, or an ABSENT/ABNORMAL RED REFLEX — is RETINOBLASTOMA or congenital CATARACT until proven otherwise, and both are emergencies. Parents often notice it first in photographs, where one eye fails to show "red eye".** **Take that report seriously.** Cross-refer [[M3]] 0.6 and [[M4]] 0.5.
+> **· LEUKOCORIA — a white pupillary reflex, or an ABSENT/ABNORMAL RED REFLEX — is RETINOBLASTOMA or congenital CATARACT until proven otherwise, and both are emergencies. Parents often notice it first in photographs, where one eye fails to show "red eye".** **Take that report seriously.** Cross-refer [[M3_Neonatal_Problems]] 0.6 and [[M4_Growth_and_Development]] 0.5.
 > **This is the entire justification for red reflex testing at every newborn and child health check.**
 
 ---
@@ -146,14 +151,14 @@ source: built in chat, model knowledge, NOT source-verified
 > **Signs: blurred, elevated disc margins · loss of the physiological cup · engorged veins with loss of spontaneous venous pulsation · peripapillary haemorrhages and cotton wool spots.**
 > **THE SYMPTOMS THAT ACCOMPANY IT: headache worse on LYING FLAT, in the MORNING, and with COUGHING or straining · nausea and vomiting · TRANSIENT VISUAL OBSCURATIONS lasting SECONDS on standing or bending · pulsatile tinnitus · and diplopia from a false-localising SIXTH nerve palsy.**
 > **ACUITY IS PRESERVED EARLY — with an enlarged blind spot — which is why papilloedema is dangerous: the patient has no visual complaint until the field is already being lost.**
-> **CAUSES: intracranial mass · IDIOPATHIC INTRACRANIAL HYPERTENSION (classically a young woman with obesity, and associated with certain drugs including tetracyclines, retinoids and hormonal agents) · cerebral VENOUS SINUS THROMBOSIS · malignant hypertension · meningitis and encephalitis · and hydrocephalus.** Cross-refer [[D1]] 0.3.
+> **CAUSES: intracranial mass · IDIOPATHIC INTRACRANIAL HYPERTENSION (classically a young woman with obesity, and associated with certain drugs including tetracyclines, retinoids and hormonal agents) · cerebral VENOUS SINUS THROMBOSIS · malignant hypertension · meningitis and encephalitis · and hydrocephalus.** Cross-refer [[D1_Headache_and_Meningism]] 0.3.
 > **Distinguish from PSEUDOPAPILLOEDEMA — optic disc drusen or a small crowded hypermetropic disc — which requires imaging of the disc rather than of the brain.**
 
 > [!tip] Nystagmus — peripheral versus central
 > **· PERIPHERAL (vestibular): UNIDIRECTIONAL (fast phase always in the same direction) · HORIZONTAL or horizontal-torsional, NEVER purely vertical · SUPPRESSED BY VISUAL FIXATION and enhanced by removing fixation · accompanied by vertigo, nausea and sometimes hearing symptoms.**
 > **· CENTRAL: DIRECTION-CHANGING (fast phase changes with gaze direction) · may be PURELY VERTICAL or torsional · NOT suppressed by fixation · with other neurological signs.**
 > **DOWNBEAT NYSTAGMUS DESERVES SPECIFIC MENTION: it localises to the CRANIOCERVICAL JUNCTION and cerebellum, and its causes include ARNOLD-CHIARI MALFORMATION, cerebellar degeneration, DRUGS (lithium, anticonvulsants) and WERNICKE ENCEPHALOPATHY.** **It is not a peripheral sign, and it warrants MRI.**
-> Cross-refer [[D5]] and [[D3]] 0.5.
+> Cross-refer [[D5_Dizziness__Vertigo_and_Gait]] and [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.5.
 > **End-point nystagmus at extremes of gaze is physiological and should not be over-interpreted.**
 
 > [!danger] Charles Bonnet syndrome — explaining it is the treatment
@@ -162,7 +167,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **THE CLINICAL POINT IS THIS: PATIENTS DO NOT DISCLOSE IT.** **They are frightened that it means they are developing dementia or a psychiatric illness, and they conceal it — sometimes for years — from family and from clinicians.**
 > **So it must be ASKED ABOUT DIRECTLY in anyone with significant visual impairment: "some people who lose vision see things that aren't there — patterns, or people, or animals. Has anything like that happened to you?"**
 > **AND THE EXPLANATION IS THE TREATMENT: telling them it is a recognised consequence of vision loss, that it does not mean they are losing their mind, and that it often diminishes over time, produces enormous relief.**
-> **Prescribing an antipsychotic for it is the wrong response, and it is what happens when the syndrome is not recognised.** Cross-refer [[N3]] 0.3 and [[D2]] 0.3.
+> **Prescribing an antipsychotic for it is the wrong response, and it is what happens when the syndrome is not recognised.** Cross-refer [[N3_Psychosis_and_Antipsychotics]] 0.3 and [[D2_Altered_Consciousness_and_Cognition]] 0.3.
 > **Note the contrast: hallucinations in dementia with Lewy bodies occur with fluctuating cognition, parkinsonism and reduced insight — a different picture entirely.**
 
 **Ix:** **ACUITY, COLOUR VISION and PUPILS at every review of THYROID EYE DISEASE** (*why:* compressive optic neuropathy is the sight-threatening complication and it is detected by acuity, red desaturation and an RAPD rather than by worsening proptosis; *what:* reduced acuity, RAPD). **COMPARISON OF PUPIL SIZE IN BRIGHT LIGHT AND IN DARKNESS** (*why:* it identifies which pupil is abnormal and therefore which differential applies; *what:* the light/dark difference). **Old photographs, including the patient's phone or licence** (*why:* establishes whether anisocoria or ptosis is long-standing, and can spare an entire workup; *what:* the baseline). **URGENT VASCULAR IMAGING for a painful Horner syndrome** (*why:* carotid dissection precedes stroke and is treatable; *what:* dissection). **CT or MR ANGIOGRAPHY for a pupil-involving third nerve palsy** (*why:* posterior communicating artery aneurysm; *what:* aneurysm). **CHEST IMAGING for a Horner syndrome with arm symptoms or in a smoker** (*why:* Pancoast tumour; *what:* apical mass). **DILUTE PILOCARPINE for a suspected Adie pupil, and full-strength pilocarpine to exclude pharmacological blockade** (*why:* denervation supersensitivity confirms Adie, and a pharmacologically blocked pupil will not constrict at all; *what:* the response). **BIOPSY of any persistent eyelid lesion with lash loss, ulceration or lid margin distortion, and of any recurrent same-site chalazion** (*why:* basal cell and sebaceous carcinoma; *what:* histology). **RED REFLEX in every newborn and child health check, and urgent referral for leukocoria** (*why:* retinoblastoma and congenital cataract are both sight- and, for one, life-threatening, and treatable early; *what:* absent or abnormal red reflex). **CORNEAL LIGHT REFLEX AND COVER TEST for suspected squint** (*why:* distinguishes true strabismus from pseudostrabismus, and true squint risks permanent amblyopia; *what:* deviation). **FUNDOSCOPY for papilloedema in anyone with headache or transient obscurations** (*why:* acuity is preserved early so there is no visual complaint to prompt it; *what:* disc swelling). **MRI for downbeat or direction-changing nystagmus** (*why:* it localises centrally, to the craniocervical junction; *what:* structural lesion). **DIRECTLY ASKING about visual hallucinations in the visually impaired** (*why:* patients conceal them through fear of being thought psychotic, and explanation is the treatment; *what:* Charles Bonnet syndrome).
@@ -170,4 +175,4 @@ source: built in chat, model knowledge, NOT source-verified
 ---
 
 > [!note] Cross-references
-> Red and painful eye, and angle closure → [[E1]] · Vision loss, field defects and diplopia → [[E2]] · Cranial nerve palsies and internuclear ophthalmoplegia → [[D7]] · Facial nerve palsy and corneal exposure → [[D5]] and [[F1]] 0.2 · Myasthenia gravis → [[D4]] 0.3 · Carotid dissection and stroke → [[D3]] 0.4 · Nystagmus and vertigo → [[D5]] and [[D3]] 0.5 · Raised intracranial pressure and IIH → [[D1]] 0.3 · Horner syndrome and anhidrosis → [[G6]] 0.5 · Eyelid and periocular skin cancer → [[G5]] 0.3 · Thyroid eye disease and radioiodine → [[I1]] 0.3 · Orbital cellulitis → [[M2]] 0.4 and [[F2]] 0.2 · Red reflex, leukocoria and neonatal screening → [[M3]] 0.6 · Developmental vision screening and amblyopia → [[M4]] 0.5 · Visual hallucinations, Lewy body dementia and psychosis → [[D2]] 0.3 and [[N3]] 0.3 · Head injury and the fixed dilated pupil → [[F0.5]] 0.7 · Orbital trauma → [[L8]] 0.2
+> Red and painful eye, and angle closure → [[E1_Red_and_Painful_Eye]] · Vision loss, field defects and diplopia → [[E2_Vision_Loss_and_Disturbance]] · Cranial nerve palsies and internuclear ophthalmoplegia → [[D7_Cranial_Nerves_and_Special_Senses]] · Facial nerve palsy and corneal exposure → [[D5_Dizziness__Vertigo_and_Gait]] and [[F1_Ear]] 0.2 · Myasthenia gravis → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.3 · Carotid dissection and stroke → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.4 · Nystagmus and vertigo → [[D5_Dizziness__Vertigo_and_Gait]] and [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.5 · Raised intracranial pressure and IIH → [[D1_Headache_and_Meningism]] 0.3 · Horner syndrome and anhidrosis → [[G6_Flushing__Sweating_and_Cyanosis]] 0.5 · Eyelid and periocular skin cancer → [[G5_Lumps__Ulcers_and_Nails]] 0.3 · Thyroid eye disease and radioiodine → [[I1_Thyroid_Disease]] 0.3 · Orbital cellulitis → [[M2_Fever_in_Children]] 0.4 and [[F2_Nose_and_Sinus]] 0.2 · Red reflex, leukocoria and neonatal screening → [[M3_Neonatal_Problems]] 0.6 · Developmental vision screening and amblyopia → [[M4_Growth_and_Development]] 0.5 · Visual hallucinations, Lewy body dementia and psychosis → [[D2_Altered_Consciousness_and_Cognition]] 0.3 and [[N3_Psychosis_and_Antipsychotics]] 0.3 · Head injury and the fixed dilated pupil → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7 · Orbital trauma → [[L8_Facial__Head_and_Torso_Trauma]] 0.2

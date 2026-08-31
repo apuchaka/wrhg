@@ -1,12 +1,17 @@
 ---
 block: Obstetrics & Gynaecology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Clinical reasoning, classification and discriminators are reliable at intern level. **Every age threshold, endometrial thickness cut-off, dose and regimen carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **RANZCOG** statements, the **Australasian Menopause Society**, eTG, and the **National Cervical Screening Program**.
 >
-> **Contraception, STIs and cervical screening are built in [[O6]]** and are cross-referenced rather than repeated.
+> **Contraception, STIs and cervical screening are built in [[O6_Sexual_and_Reproductive_Health]]** and are cross-referenced rather than repeated.
 
 ---
 
@@ -33,7 +38,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!danger] Pregnancy test first, every time
 > **In any woman of reproductive age with abnormal bleeding, exclude pregnancy before anything else.**
-> **Ectopic pregnancy, miscarriage and gestational trophoblastic disease all present as abnormal bleeding**, and a missed ectopic is a preventable death. Cross-refer [[O1]].
+> **Ectopic pregnancy, miscarriage and gestational trophoblastic disease all present as abnormal bleeding**, and a missed ectopic is a preventable death. Cross-refer [[O1_Early_Pregnancy]].
 
 ---
 
@@ -54,7 +59,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **A substantial proportion of women with heavy menstrual bleeding since MENARCHE have an underlying bleeding disorder — most commonly VON WILLEBRAND DISEASE.**
 > **This is systematically under-recognised**, and these women are treated with escalating hormonal therapy, and sometimes hysterectomy, without the diagnosis ever being made — while remaining at risk of postpartum and surgical haemorrhage.
 > **Screen if: heavy bleeding since the FIRST period · postpartum haemorrhage · bleeding after dental extraction or surgery · frequent epistaxis · easy bruising · or a family history of bleeding.**
-> Cross-refer [[A9]] 0.3 and [[J3]].
+> Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3 and [[J3_Bleeding_and_Thrombosis]].
 
 > [!tip] The structural and endocrine causes worth knowing
 > **· FIBROIDS — very common. SUBMUCOSAL fibroids cause the most bleeding despite often being the smallest**; intramural and subserosal fibroids cause bulk symptoms (pressure, urinary frequency, abdominal distension) more than bleeding.
@@ -95,12 +100,12 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!warning] The risk factors are all about unopposed oestrogen
 > **· OBESITY — peripheral aromatisation of androgens to oestrogen in adipose tissue. The single most important modifiable factor, and rising.**
-> **· Chronic anovulation, including PCOS** — cross-refer [[I4]] 0.6.
+> **· Chronic anovulation, including PCOS** — cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6.
 > **· Nulliparity, early menarche, late menopause.**
 > **· TAMOXIFEN — which is oestrogenic on the endometrium while antioestrogenic on breast.**
 > **· Oestrogen-only hormone therapy in a woman with a uterus.**
 > **· Diabetes and hypertension.**
-> **· LYNCH SYNDROME — hereditary non-polyposis colorectal cancer, which carries a high lifetime risk of endometrial cancer. Ask about the family history of bowel, endometrial and ovarian cancer**, because it changes screening for the woman and her relatives. Cross-refer [[C5]] 0.5.
+> **· LYNCH SYNDROME — hereditary non-polyposis colorectal cancer, which carries a high lifetime risk of endometrial cancer. Ask about the family history of bowel, endometrial and ovarian cancer**, because it changes screening for the woman and her relatives. Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5.
 
 > [!tip] Investigating postmenopausal bleeding
 > **· TRANSVAGINAL ULTRASOUND measuring ENDOMETRIAL THICKNESS** — below a defined threshold in a woman not on hormone therapy, the risk of cancer is low. `UNVERIFIED — the threshold, which differs for women on tamoxifen and on hormone therapy.`
@@ -111,7 +116,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] Intermenstrual and postcoital bleeding — do a speculum examination
 > **Postcoital bleeding in particular demands direct visualisation of the cervix.**
 > **Causes: cervical ectropion, cervical polyp, cervicitis (particularly CHLAMYDIA — test for it), and CERVICAL CARCINOMA.**
-> **Check the cervical screening history** — an overdue or never-screened woman with postcoital bleeding needs prompt colposcopy referral, and **a normal screening test does NOT exclude cancer in a woman with symptoms**, because screening is not designed for symptomatic assessment. Cross-refer [[O6]] 0.2.
+> **Check the cervical screening history** — an overdue or never-screened woman with postcoital bleeding needs prompt colposcopy referral, and **a normal screening test does NOT exclude cancer in a woman with symptoms**, because screening is not designed for symptomatic assessment. Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.2.
 > **The examination is the investigation here, and skipping it is how cervical cancers are missed in young women.**
 
 **Ix:** **Speculum examination and inspection of the cervix** (*why:* cervical pathology is visible and is missed without looking; *what:* lesion, polyp, ectropion, discharge). **Chlamydia and gonorrhoea NAAT** (*why:* cervicitis is a common and treatable cause of intermenstrual and postcoital bleeding; *what:* infection). Cervical screening test if due, **with colposcopy referral for a visible or suspicious lesion regardless of screening result** (*why:* symptomatic assessment differs from screening; *what:* HPV, cytology, colposcopic findings). **Transvaginal ultrasound, endometrial sampling and hysteroscopy as above** (*why:* excludes endometrial pathology; *what:* thickness, histology). Pregnancy test in premenopausal women (*why:* always; *what:* positive).
@@ -127,7 +132,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Then work through the compartments:**
 > **1. OUTFLOW TRACT** — imperforate hymen or transverse vaginal septum (with **cyclical pain and a haematocolpos** — a young woman with cyclical pain and no periods needs examination), **Asherman syndrome** (intrauterine adhesions after instrumentation or infection), cervical stenosis, and **Müllerian agenesis (MRKH)**.
 > **2. OVARY** — **primary ovarian insufficiency**, PCOS, **Turner syndrome**, and damage from chemotherapy or radiotherapy.
-> **3. PITUITARY** — **prolactinoma and other causes of hyperprolactinaemia**, Sheehan syndrome, other tumours, and infiltrative disease. Cross-refer [[I4]] 0.1–0.2.
+> **3. PITUITARY** — **prolactinoma and other causes of hyperprolactinaemia**, Sheehan syndrome, other tumours, and infiltrative disease. Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.1–0.2.
 > **4. HYPOTHALAMUS** — **functional hypothalamic amenorrhoea**, and **Kallmann syndrome (with ANOSMIA — ask about the sense of smell)**.
 > **5. OTHER ENDOCRINE** — thyroid disease, congenital adrenal hyperplasia, Cushing syndrome, androgen-secreting tumours.
 
@@ -140,9 +145,9 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] Functional hypothalamic amenorrhoea and relative energy deficiency
 > **Suppression of the hypothalamic-pituitary-ovarian axis by low energy availability — from restricted intake, excessive exercise, or both — plus psychological stress.**
 > **Common in athletes, dancers, and women with disordered eating, and it is a diagnosis of exclusion.**
-> **The consequence that matters is BONE: prolonged oestrogen deficiency in a young woman causes bone loss at the age when peak bone mass should be accruing, and it may not be fully recoverable. STRESS FRACTURES are the presenting orthopaedic manifestation.** Cross-refer [[L5]] 0.7.
+> **The consequence that matters is BONE: prolonged oestrogen deficiency in a young woman causes bone loss at the age when peak bone mass should be accruing, and it may not be fully recoverable. STRESS FRACTURES are the presenting orthopaedic manifestation.** Cross-refer [[L5_Regional_Limb_Pain]] 0.7.
 > **Relative Energy Deficiency in Sport (RED-S)** extends beyond the older "female athlete triad" and affects multiple systems in both sexes.
-> **The treatment is restoring energy availability — not the oral contraceptive pill, which masks the amenorrhoea, does not restore bone density, and removes the most useful clinical marker of recovery.** Cross-refer [[N8]].
+> **The treatment is restoring energy availability — not the oral contraceptive pill, which masks the amenorrhoea, does not restore bone density, and removes the most useful clinical marker of recovery.** Cross-refer [[N8_Eating_Disorders]].
 
 > [!danger] Primary ovarian insufficiency needs hormone therapy until the usual age of menopause
 > **Loss of ovarian function before age 40, with raised FSH on two occasions.**
@@ -150,7 +155,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **This is a different risk-benefit calculation from menopausal hormone therapy in an older woman, and the fears generated by the WHI do NOT apply** — these women are being brought up to a normal physiological state, not given supraphysiological hormones. **Under-treatment of POI is common and harmful.**
 > **Also address: fertility (spontaneous conception is possible but uncommon; discuss options and refer), the psychological impact of an unexpected loss of fertility, and the search for a cause — karyotype, fragile X premutation, autoimmune and adrenal antibodies.**
 
-**Ix:** **Pregnancy test** (*why:* the commonest cause of secondary amenorrhoea; *what:* positive). **FSH, LH and oestradiol** (*why:* localises to ovary versus hypothalamic-pituitary; *what:* high FSH in ovarian failure, low or normal in central causes). **Prolactin and TFTs** (*why:* both common, both treatable, and both easily missed; *what:* hyperprolactinaemia, thyroid dysfunction — cross-refer [[I4]] 0.2). **Testosterone and androgens where there is hirsutism or virilisation** (*why:* PCOS, congenital adrenal hyperplasia, androgen-secreting tumour; *what:* elevation — cross-refer [[I4]] 0.6). **Pelvic ultrasound** (*why:* confirms the presence and structure of uterus and ovaries, and identifies outflow obstruction and polycystic morphology; *what:* anatomy). **Karyotype in primary amenorrhoea and in POI** (*why:* Turner syndrome and other chromosomal causes, with implications for management and counselling; *what:* chromosomal abnormality). **MRI pituitary** where a central cause or hyperprolactinaemia (*why:* pituitary lesion; *what:* adenoma). **Bone density where amenorrhoea has been prolonged** (*why:* oestrogen deficiency causes bone loss, and the loss is silent; *what:* reduced density). Assessment of energy availability, eating patterns and exercise load (*why:* functional hypothalamic amenorrhoea is the commonest cause in young women and is reversible; *what:* the underlying behaviour).
+**Ix:** **Pregnancy test** (*why:* the commonest cause of secondary amenorrhoea; *what:* positive). **FSH, LH and oestradiol** (*why:* localises to ovary versus hypothalamic-pituitary; *what:* high FSH in ovarian failure, low or normal in central causes). **Prolactin and TFTs** (*why:* both common, both treatable, and both easily missed; *what:* hyperprolactinaemia, thyroid dysfunction — cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.2). **Testosterone and androgens where there is hirsutism or virilisation** (*why:* PCOS, congenital adrenal hyperplasia, androgen-secreting tumour; *what:* elevation — cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6). **Pelvic ultrasound** (*why:* confirms the presence and structure of uterus and ovaries, and identifies outflow obstruction and polycystic morphology; *what:* anatomy). **Karyotype in primary amenorrhoea and in POI** (*why:* Turner syndrome and other chromosomal causes, with implications for management and counselling; *what:* chromosomal abnormality). **MRI pituitary** where a central cause or hyperprolactinaemia (*why:* pituitary lesion; *what:* adenoma). **Bone density where amenorrhoea has been prolonged** (*why:* oestrogen deficiency causes bone loss, and the loss is silent; *what:* reduced density). Assessment of energy availability, eating patterns and exercise load (*why:* functional hypothalamic amenorrhoea is the commonest cause in young women and is reversible; *what:* the underlying behaviour).
 
 ---
 
@@ -166,7 +171,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **The average delay from symptom onset to diagnosis is many years**, and the largest contributor is **the normalisation of severe menstrual pain** — by the woman, by her family, and by clinicians.
 > **"Period pain that stops you doing normal activities is not normal" is the single most useful thing to say**, and asking whether pain has caused absence from school or work quantifies it usefully.
 > **Symptoms: cyclical pelvic pain and dysmenorrhoea · DEEP DYSPAREUNIA · cyclical dyschezia or haematochezia · cyclical urinary symptoms · SUBFERTILITY · and fatigue.**
-> **Over time the pain frequently becomes NON-cyclical and chronic, through central sensitisation** — which is why longstanding endometriosis needs a chronic pain approach as well as a gynaecological one. Cross-refer [[L3]] 0.5.
+> **Over time the pain frequently becomes NON-cyclical and chronic, through central sensitisation** — which is why longstanding endometriosis needs a chronic pain approach as well as a gynaecological one. Cross-refer [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5.
 
 > [!warning] Two things that make endometriosis hard to diagnose
 > **1. SYMPTOMS CORRELATE POORLY WITH DISEASE EXTENT.** Extensive disease can be relatively asymptomatic, and minimal disease can be severely painful. **Do not use imaging findings to validate or dismiss the reported pain.**
@@ -224,9 +229,9 @@ source: built in chat, model knowledge, NOT source-verified
 > **It is effective for vaginal dryness, dyspareunia, urinary urgency and RECURRENT URINARY TRACT INFECTIONS in postmenopausal women** — and the effect on recurrent UTI is substantial and under-used.
 > **It does not require systemic progestogen for endometrial protection at the doses used, and it can be used long-term.**
 > **It can be considered in many women with a history of breast cancer, in discussion with their oncologist** — a blanket prohibition denies effective treatment for a genuinely distressing problem.
-> **It is under-prescribed largely because nobody asks about the symptoms.** **Ask.** Cross-refer [[O6]] 0.5 and [[O5]].
+> **It is under-prescribed largely because nobody asks about the symptoms.** **Ask.** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.5 and [[O5_Pelvic_and_Vulval_Conditions]].
 
-**Ix:** **Usually none in a woman over 45 with typical symptoms.** **FSH in women under 40, or where the presentation is atypical** (*why:* diagnosing primary ovarian insufficiency, which requires different management; *what:* raised FSH on two occasions). TFTs (*why:* thyroid dysfunction mimics menopausal symptoms closely and is easily excluded; *what:* abnormal TSH). **Investigation of any abnormal or postmenopausal bleeding, before and during hormone therapy** (*why:* unscheduled bleeding on hormone therapy still requires exclusion of endometrial pathology; *what:* endometrial assessment — see 0.3). **Blood pressure, lipids, glucose and cardiovascular risk assessment** (*why:* cardiovascular risk rises after menopause and this is a natural point to assess it; *what:* risk factors). **Bone density where risk factors are present, and in primary ovarian insufficiency** (*why:* accelerated bone loss follows oestrogen withdrawal; *what:* reduced density — cross-refer [[GER1]] 0.6). Breast and cervical screening status (*why:* the consultation is an opportunity; *what:* overdue screening).
+**Ix:** **Usually none in a woman over 45 with typical symptoms.** **FSH in women under 40, or where the presentation is atypical** (*why:* diagnosing primary ovarian insufficiency, which requires different management; *what:* raised FSH on two occasions). TFTs (*why:* thyroid dysfunction mimics menopausal symptoms closely and is easily excluded; *what:* abnormal TSH). **Investigation of any abnormal or postmenopausal bleeding, before and during hormone therapy** (*why:* unscheduled bleeding on hormone therapy still requires exclusion of endometrial pathology; *what:* endometrial assessment — see 0.3). **Blood pressure, lipids, glucose and cardiovascular risk assessment** (*why:* cardiovascular risk rises after menopause and this is a natural point to assess it; *what:* risk factors). **Bone density where risk factors are present, and in primary ovarian insufficiency** (*why:* accelerated bone loss follows oestrogen withdrawal; *what:* reduced density — cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.6). Breast and cervical screening status (*why:* the consultation is an opportunity; *what:* overdue screening).
 
 ### 0.6.1 Mx – Immediate
 Not applicable.
@@ -235,9 +240,9 @@ Not applicable.
 Symptom-directed: hormone therapy where appropriate, non-hormonal alternatives otherwise, and **vaginal oestrogen for genitourinary symptoms regardless of whether systemic therapy is used.**
 
 ### 0.6.3 Mx – Chronic/long-term
-**Annual review of ongoing hormone therapy — indication, dose, route and whether it is still needed** — with the recognition that there is no arbitrary maximum duration, and the decision is individualised. **Bone health, cardiovascular risk, and cancer screening.** **Contraception is still required in the perimenopause** — cross-refer [[O6]] 0.3.
+**Annual review of ongoing hormone therapy — indication, dose, route and whether it is still needed** — with the recognition that there is no arbitrary maximum duration, and the decision is individualised. **Bone health, cardiovascular risk, and cancer screening.** **Contraception is still required in the perimenopause** — cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.3.
 
 ---
 
 > [!note] Cross-references
-> Contraception, the LNG-IUS and enzyme inducers → [[O6]] 0.3 · STIs, cervical screening and sexual dysfunction → [[O6]] 0.1–0.2, 0.5 · Early pregnancy bleeding and ectopic pregnancy → [[O1]] · Pelvic pain, PID and vulval conditions → [[O5]] · Breast assessment → [[O7]] · PCOS, hyperprolactinaemia and androgen excess → [[I4]] 0.2, 0.6 · Thyroid disease → [[I1]] · Bleeding disorders and von Willebrand disease → [[A9]] 0.3 and [[J3]] · Iron deficiency anaemia → [[J1]] · Osteoporosis and bone protection → [[GER1]] 0.6 · Chronic pelvic pain and central sensitisation → [[L3]] 0.5 · Stress fractures and RED-S → [[L5]] 0.7 · Disordered eating → [[N8]] · Lynch syndrome and family cancer history → [[C5]] 0.5
+> Contraception, the LNG-IUS and enzyme inducers → [[O6_Sexual_and_Reproductive_Health]] 0.3 · STIs, cervical screening and sexual dysfunction → [[O6_Sexual_and_Reproductive_Health]] 0.1–0.2, 0.5 · Early pregnancy bleeding and ectopic pregnancy → [[O1_Early_Pregnancy]] · Pelvic pain, PID and vulval conditions → [[O5_Pelvic_and_Vulval_Conditions]] · Breast assessment → [[O7_Breast_Disease]] · PCOS, hyperprolactinaemia and androgen excess → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.2, 0.6 · Thyroid disease → [[I1_Thyroid_Disease]] · Bleeding disorders and von Willebrand disease → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3 and [[J3_Bleeding_and_Thrombosis]] · Iron deficiency anaemia → [[J1_Cytopenias_and_Marrow_Failure]] · Osteoporosis and bone protection → [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 · Chronic pelvic pain and central sensitisation → [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5 · Stress fractures and RED-S → [[L5_Regional_Limb_Pain]] 0.7 · Disordered eating → [[N8_Eating_Disorders]] · Lynch syndrome and family cancer history → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5

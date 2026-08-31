@@ -1,13 +1,18 @@
 ---
 block: Paediatrics
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Frameworks, discriminators and clinical reasoning are reliable at intern level. **Every milestone age, centile threshold, formula and referral criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **Milestone limit ages differ between references and must come from a current source** — use the **Royal Children's Hospital Melbourne guidelines**, the **Australian child health record ("blue book" equivalent)** and your state's child health service materials.
 >
-> **Puberty and its disorders are built in [[O6]] 0.6** and **adolescent health in [[M7]]** — cross-referenced rather than repeated.
+> **Puberty and its disorders are built in [[O6_Sexual_and_Reproductive_Health]] 0.6** and **adolescent health in [[M7_Adolescent_and_Behavioural_Health]]** — cross-referenced rather than repeated.
 
 ---
 
@@ -29,7 +34,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **A RAPIDLY INCREASING head circumference crossing centiles upward means RAISED INTRACRANIAL PRESSURE until proven otherwise — hydrocephalus, tumour, or a SUBDURAL COLLECTION from abusive head trauma.**
 > **Look also for: a tense or bulging fontanelle · splayed sutures · "sunsetting" eyes · vomiting · irritability or lethargy · and developmental regression.**
 > **MICROCEPHALY** — congenital infection, genetic syndromes, perinatal injury, or a familial small head (check the parents' head circumferences before alarming anyone).
-> Cross-refer [[M6]] and [[M1]] 0.5.
+> Cross-refer [[M6_Paediatric_Respiratory_and_Neurology]] and [[M1_The_Seriously_Unwell_Child]] 0.5.
 
 > [!tip] Mid-parental height puts the child in family context
 > **Calculate the expected height range from the parents' heights and compare it with the child's projected adult height.**
@@ -52,7 +57,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Feeding technique — poor attachment, inadequate milk transfer, incorrect formula preparation (both over- and under-concentration).**
 > **· FOOD INSECURITY and poverty — ask, gently and directly.**
 > **· Oral-motor difficulty, cleft palate, neurological impairment, tongue tie.**
-> **· Feeding aversion and ARFID** — cross-refer [[N8]] 0.5.
+> **· Feeding aversion and ARFID** — cross-refer [[N8_Eating_Disorders]] 0.5.
 > **· Adenotonsillar hypertrophy causing feeding fatigue and sleep-disordered breathing.**
 > **· NEGLECT.**
 > **2. INADEQUATE ABSORPTION.**
@@ -60,7 +65,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· CYSTIC FIBROSIS — with steatorrhoea, recurrent chest infections, and a positive newborn screen (check it).**
 > **· Cow's milk protein allergy · inflammatory bowel disease · giardiasis · post-infectious enteropathy · short gut.**
 > **3. INCREASED REQUIREMENTS.**
-> **· CONGENITAL HEART DISEASE — sweating with feeds, tachypnoea, hepatomegaly.** Cross-refer [[M3]] 0.2.
+> **· CONGENITAL HEART DISEASE — sweating with feeds, tachypnoea, hepatomegaly.** Cross-refer [[M3_Neonatal_Problems]] 0.2.
 > **· Chronic lung disease · chronic or recurrent infection including recurrent UTI, HIV and TB · malignancy · hyperthyroidism · chronic inflammation · chronic kidney disease.**
 > **4. INADEQUATE UTILISATION — metabolic, chromosomal and endocrine disorders.**
 
@@ -68,7 +73,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Poverty and food insecurity · parental mental illness, particularly maternal depression · family violence · substance use · social isolation and lack of support · and neglect.**
 > **These are common and they are frequently the answer** — but the conversation has to be handled without accusation, because a defensive family disengages and the child loses the follow-up.
 > **Ask about practicalities: "how are things at home?", "is there enough food to go around?", "who's helping you?", "how are YOU going?"**
-> **And hold neglect in mind as a possibility while working with the family — the two are not mutually exclusive, and a child protection concern does not require certainty.** Cross-refer [[M6]] and [[GER4]].
+> **And hold neglect in mind as a possibility while working with the family — the two are not mutually exclusive, and a child protection concern does not require certainty.** Cross-refer [[M6_Paediatric_Respiratory_and_Neurology]] and [[GER4_Safeguarding_and_Forensic]].
 
 > [!warning] Investigate in a targeted way, not with a panel
 > **Most children with growth faltering have INADEQUATE INTAKE and NO organic disease**, and an extensive laboratory workup in a child with a clear feeding history is unhelpful.
@@ -129,11 +134,11 @@ source: built in chat, model knowledge, NOT source-verified
 > **THE DISCRIMINATOR: exogenous (nutritional) obesity makes children TALL for their age. Endocrine causes make them SHORT.**
 > **· TALL and obese → almost always exogenous. Extensive endocrine investigation is not warranted.**
 > **· SHORT and obese → investigate: HYPOTHYROIDISM · CUSHING SYNDROME · growth hormone deficiency · PRADER-WILLI syndrome · and other genetic syndromes.**
-> **Complications to screen for: type 2 diabetes and insulin resistance · metabolic dysfunction-associated steatotic liver disease · obstructive sleep apnoea · hypertension and dyslipidaemia · SLIPPED UPPER FEMORAL EPIPHYSIS (a specifically orthopaedic risk — cross-refer [[M5]]) · and the substantial psychosocial burden including bullying and low self-esteem.**
-> **Management is FAMILY-BASED and behavioural, and the language used matters enormously.** **Weight stigma in healthcare is harmful and counterproductive** — cross-refer [[I5]] 0.1. **Avoid weighing and discussing weight in front of siblings, avoid moralising about food, and focus on health behaviours and family patterns rather than on the number.**
+> **Complications to screen for: type 2 diabetes and insulin resistance · metabolic dysfunction-associated steatotic liver disease · obstructive sleep apnoea · hypertension and dyslipidaemia · SLIPPED UPPER FEMORAL EPIPHYSIS (a specifically orthopaedic risk — cross-refer [[M5_Paediatric_GI__GU_and_Limb]]) · and the substantial psychosocial burden including bullying and low self-esteem.**
+> **Management is FAMILY-BASED and behavioural, and the language used matters enormously.** **Weight stigma in healthcare is harmful and counterproductive** — cross-refer [[I5_Weight__Lipids_and_Fluid_Balance]] 0.1. **Avoid weighing and discussing weight in front of siblings, avoid moralising about food, and focus on health behaviours and family patterns rather than on the number.**
 
 > [!tip] Puberty — normal, precocious and delayed
-> The detail is in **[[O6]] 0.6.** The points to carry:
+> The detail is in **[[O6_Sexual_and_Reproductive_Health]] 0.6.** The points to carry:
 > **· The normal SEQUENCE: in girls, breast development first, then pubic hair, then the growth spurt, then menarche. In boys, TESTICULAR ENLARGEMENT first, then pubic hair, then the growth spurt and voice change.** **Testicular volume is the first sign in boys and is measured with an orchidometer — pubic hair without testicular enlargement suggests an adrenal androgen source rather than true puberty.**
 > **· PRECOCIOUS PUBERTY — central (gonadotrophin-dependent) or peripheral. It is more often IDIOPATHIC IN GIRLS and more often PATHOLOGICAL IN BOYS — so a boy with precocious puberty requires CNS imaging.**
 > **· DELAYED PUBERTY — constitutional delay is commonest, but exclude chronic disease, coeliac disease, hypothyroidism, TURNER and KLINEFELTER syndromes, undernutrition and excessive exercise, and KALLMANN SYNDROME (hypogonadotrophic hypogonadism with ANOSMIA — ask about the sense of smell).**
@@ -168,13 +173,13 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!warning] Always check hearing and vision
 > **This is the most commonly omitted step in a developmental assessment, and it is the most likely to yield a treatable cause.**
-> **· HEARING — a child with speech and language delay has hearing loss until proven otherwise.** **Both permanent sensorineural loss (which newborn screening detects, but which can be acquired or progressive) and CONDUCTIVE loss from OTITIS MEDIA WITH EFFUSION ("glue ear"), which is extremely common, fluctuating, and a genuine cause of language and educational delay — and which is disproportionately prevalent and persistent in Aboriginal and Torres Strait Islander children.** Cross-refer [[F1]] and [[AU1]] 0.4.
+> **· HEARING — a child with speech and language delay has hearing loss until proven otherwise.** **Both permanent sensorineural loss (which newborn screening detects, but which can be acquired or progressive) and CONDUCTIVE loss from OTITIS MEDIA WITH EFFUSION ("glue ear"), which is extremely common, fluctuating, and a genuine cause of language and educational delay — and which is disproportionately prevalent and persistent in Aboriginal and Torres Strait Islander children.** Cross-refer [[F1_Ear]] and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4.
 > **· VISION — visual impairment presents as developmental delay, poor eye contact (which may be misattributed to autism), and delayed motor skills.**
 > **Formal audiology and ophthalmology assessment, not a bedside impression.**
 
 > [!tip] The Australian surveillance framework
 > **Routine developmental surveillance occurs through: the CHILD HEALTH RECORD held by parents (the "blue book" or state equivalent) · scheduled CHILD HEALTH CHECKS by community child health nurses and general practitioners at defined ages · immunisation visits as an opportunity · and school entry health assessments.**
-> **The Aboriginal and Torres Strait Islander child health check (part of the 715 framework) provides a structured opportunity.** Cross-refer [[AU1]] 0.1.
+> **The Aboriginal and Torres Strait Islander child health check (part of the 715 framework) provides a structured opportunity.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.1.
 > **Surveillance is continuous and opportunistic rather than a one-off screen** — every contact with a child is a chance to look at the growth chart and ask about development. `UNVERIFIED — the current schedule and checks.`
 
 ---
@@ -189,7 +194,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] The causes, and how often no cause is found
 > **· GENETIC AND CHROMOSOMAL — Down syndrome, fragile X, microdeletion and microduplication syndromes, single gene disorders.**
 > **· PRENATAL — congenital infection (cytomegalovirus is the commonest infectious cause of neurodevelopmental disability and is frequently unrecognised) · teratogens · and FETAL ALCOHOL SPECTRUM DISORDER.**
-> **FASD is an important and under-diagnosed cause in Australia**, with growth restriction, characteristic facial features, and neurodevelopmental impairment — and its prevention is a public health matter rather than an individual failing. Cross-refer [[AU1]] and [[N2]] 0.2.
+> **FASD is an important and under-diagnosed cause in Australia**, with growth restriction, characteristic facial features, and neurodevelopmental impairment — and its prevention is a public health matter rather than an individual failing. Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] and [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.2.
 > **· PERINATAL — hypoxic-ischaemic encephalopathy, extreme prematurity, kernicterus, hypoglycaemia.**
 > **· POSTNATAL — meningitis and encephalitis, traumatic brain injury including ABUSIVE head trauma, near-drowning, lead exposure, and severe neglect.**
 > **· METABOLIC and neurodegenerative disorders.**
@@ -199,13 +204,13 @@ source: built in chat, model knowledge, NOT source-verified
 > **DUCHENNE MUSCULAR DYSTROPHY presents with delayed walking, toe-walking, difficulty climbing stairs, frequent falls, calf pseudohypertrophy, and GOWERS SIGN (climbing up their own legs to stand).**
 > **THE CK IS MARKEDLY RAISED — often to many times normal — and it is a cheap, simple test.**
 > **The diagnosis is frequently delayed by years**, because early motor delay is attributed to normal variation and because the CK is not checked.
-> **A BOY WITH MOTOR DELAY, LATE WALKING OR AN ABNORMAL GAIT SHOULD HAVE A CK.** **Early diagnosis matters for treatment, for surveillance, and critically for GENETIC COUNSELLING — because carrier mothers may have further affected sons in the interim.** Cross-refer [[D4]] 0.6.
+> **A BOY WITH MOTOR DELAY, LATE WALKING OR AN ABNORMAL GAIT SHOULD HAVE A CK.** **Early diagnosis matters for treatment, for surveillance, and critically for GENETIC COUNSELLING — because carrier mothers may have further affected sons in the interim.** Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6.
 
 > [!tip] Cerebral palsy
 > **A group of permanent disorders of movement and posture attributed to a NON-PROGRESSIVE lesion in the developing brain.** **Non-progressive is the key word — the lesion does not change, but the clinical picture does as the child grows.**
 > **Types: SPASTIC (commonest — hemiplegic, diplegic, quadriplegic) · DYSKINETIC · ATAXIC · mixed.** Functional classification uses the Gross Motor Function Classification System.
 > **The comorbidities determine quality of life more than the motor impairment does: EPILEPSY · intellectual disability · communication impairment · FEEDING difficulty and aspiration · HIP DISPLACEMENT (which requires a formal SURVEILLANCE program with regular radiographs, because silent progressive subluxation leads to painful dislocation) · scoliosis · constipation · sleep disturbance · and PAIN, which is very common and markedly under-recognised in children who cannot report it.**
-> **Early intervention improves function**, and the diagnosis can now be made earlier than was traditional. Cross-refer [[N2]] 0.5 for behavioural presentations in children with disability.
+> **Early intervention improves function**, and the diagnosis can now be made earlier than was traditional. Cross-refer [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.5 for behavioural presentations in children with disability.
 
 > [!warning] Autism spectrum — the early signs, and who gets missed
 > **Persistent difficulties in SOCIAL COMMUNICATION AND INTERACTION, plus RESTRICTED AND REPETITIVE patterns of behaviour, interests or activities, present from early development.**
@@ -215,10 +220,10 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Children with average or high intelligence, who compensate until social demands exceed their capacity — often at high school transition.**
 > **· ADULTS, increasingly recognised, often after their own child is diagnosed.**
 > **EARLY INTERVENTION improves outcomes**, and in Australia access is largely through the **NDIS**, with the early childhood approach for young children. **Knowing that the NDIS exists and how to initiate access is a practical and valuable thing to be able to tell a family.** `UNVERIFIED — current NDIS access pathways and eligibility.`
-> **Autistic people have higher rates of coexisting ADHD, anxiety, epilepsy, gastrointestinal problems, sleep disorder and ARFID** — cross-refer [[M7]] and [[N8]] 0.5.
+> **Autistic people have higher rates of coexisting ADHD, anxiety, epilepsy, gastrointestinal problems, sleep disorder and ARFID** — cross-refer [[M7_Adolescent_and_Behavioural_Health]] and [[N8_Eating_Disorders]] 0.5.
 
 > [!tip] Supporting the family
-> **· Diagnosis disclosure is a significant event.** Give it in a planned appointment with both parents where possible, allow time, expect grief, and provide written information and a follow-up appointment — **people retain very little of what is said at the moment of diagnosis.** Cross-refer [[GER5]].
+> **· Diagnosis disclosure is a significant event.** Give it in a planned appointment with both parents where possible, allow time, expect grief, and provide written information and a follow-up appointment — **people retain very little of what is said at the moment of diagnosis.** Cross-refer [[GER5_Communication_and_Consultation_Skills]].
 > **· Acknowledge the grief without pathologising it, and without rushing to reassurance.**
 > **· Ask about SIBLINGS and about the parents' own wellbeing and relationship.**
 > **· Connect them with early intervention, funding pathways, peer and parent support organisations, and respite where appropriate.**
@@ -229,4 +234,4 @@ source: built in chat, model knowledge, NOT source-verified
 ---
 
 > [!note] Cross-references
-> The seriously unwell child → [[M1]] · Fever and infection in children → [[M2]] · Neonatal problems, jaundice and cyanosis → [[M3]] · Paediatric GI, hip dysplasia and SUFE → [[M5]] · Child protection, neglect and abusive head trauma → [[M6]] and [[GER4]] · Adolescent health, ADHD and school refusal → [[M7]] · Puberty, precocious and delayed → [[O6]] 0.6 · Duchenne muscular dystrophy → [[D4]] 0.6 · Hearing loss and otitis media with effusion → [[F1]] · Turner syndrome, coarctation and aortic disease → [[B5]] 0.1 · Congenital heart disease → [[M3]] 0.2 · Coeliac disease → [[C5]] 0.4 · Cystic fibrosis and bronchiectasis → [[RESP-X]] 0.4 · Obesity and weight stigma → [[I5]] 0.1 · ARFID and feeding aversion → [[N8]] 0.5 · Fetal alcohol spectrum disorder → [[AU1]] and [[N2]] 0.2 · Breaking bad news and diagnosis disclosure → [[GER5]] · Child health checks and immunisation → [[GER3]] and [[AU1]] 0.1
+> The seriously unwell child → [[M1_The_Seriously_Unwell_Child]] · Fever and infection in children → [[M2_Fever_in_Children]] · Neonatal problems, jaundice and cyanosis → [[M3_Neonatal_Problems]] · Paediatric GI, hip dysplasia and SUFE → [[M5_Paediatric_GI__GU_and_Limb]] · Child protection, neglect and abusive head trauma → [[M6_Paediatric_Respiratory_and_Neurology]] and [[GER4_Safeguarding_and_Forensic]] · Adolescent health, ADHD and school refusal → [[M7_Adolescent_and_Behavioural_Health]] · Puberty, precocious and delayed → [[O6_Sexual_and_Reproductive_Health]] 0.6 · Duchenne muscular dystrophy → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6 · Hearing loss and otitis media with effusion → [[F1_Ear]] · Turner syndrome, coarctation and aortic disease → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.1 · Congenital heart disease → [[M3_Neonatal_Problems]] 0.2 · Coeliac disease → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.4 · Cystic fibrosis and bronchiectasis → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.4 · Obesity and weight stigma → [[I5_Weight__Lipids_and_Fluid_Balance]] 0.1 · ARFID and feeding aversion → [[N8_Eating_Disorders]] 0.5 · Fetal alcohol spectrum disorder → [[AU1_Australian_Health_Context_and_ATSI_Health]] and [[N2_Acute_Behavioural_Disturbance_and_Substance_Use]] 0.2 · Breaking bad news and diagnosis disclosure → [[GER5_Communication_and_Consultation_Skills]] · Child health checks and immunisation → [[GER3_Preventive_and_Occupational_Health]] and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.1

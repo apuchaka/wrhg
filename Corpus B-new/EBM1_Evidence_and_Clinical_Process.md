@@ -1,12 +1,17 @@
 ---
 block: EBM & Clinical Process
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing and scope
 > Written from model knowledge, not retrieved from source. Frameworks, reasoning and communication principles are reliable at intern level. **Programme names, national standards and legal obligations carry an `UNVERIFIED` marker** — verify against the **Australian Commission on Safety and Quality in Health Care (ACSQHC)**, the **NSQHS Standards**, SA Health policy and AHPRA.
 >
-> **SCOPE NOTE:** study design, bias, confounding, diagnostic test statistics, measures of effect and screening are built in **[[PH1]]** and are NOT repeated here. This file covers **applying** evidence, and the clinical process around it. **Consent and capacity are in [[A10]] 0.1–0.2.**
+> **SCOPE NOTE:** study design, bias, confounding, diagnostic test statistics, measures of effect and screening are built in **[[PH1_Population_Health_and_Research_Literacy]]** and are NOT repeated here. This file covers **applying** evidence, and the clinical process around it. **Consent and capacity are in [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.2.**
 
 ---
 
@@ -34,7 +39,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Was the analysis by INTENTION TO TREAT?**
 > **· Was blinding adequate — particularly of outcome assessors for subjective outcomes?**
 > **RESULTS (what does it show?):**
-> **· What is the ABSOLUTE effect and the NNT — not the relative risk reduction?** Cross-refer [[PH1]] 0.4.
+> **· What is the ABSOLUTE effect and the NNT — not the relative risk reduction?** Cross-refer [[PH1_Population_Health_and_Research_Literacy]] 0.4.
 > **· How PRECISE is it — how wide is the confidence interval?**
 > **APPLICABILITY (does it apply to my patient?):**
 > **· Are the trial participants like the person in front of me? **Trial populations are systematically YOUNGER, HEALTHIER, LESS COMORBID, less often female, less often from minority backgrounds, and less often frail than real patients.**
@@ -65,7 +70,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **This is the central problem in applying guidelines to real patients.**
 > **Each guideline is developed for one condition, usually excluding the comorbid, elderly and frail from its evidence base — and applying five single-disease guidelines simultaneously to one multimorbid patient produces POLYPHARMACY, contradictory advice, an unmanageable treatment burden, and interactions nobody anticipated.**
 > **A patient with heart failure, diabetes, chronic kidney disease, osteoarthritis and depression, managed strictly by guideline, ends up on a dozen medications with conflicting instructions and a full-time job attending appointments.**
-> **THE RESPONSE IS NOT TO IGNORE GUIDELINES BUT TO PRIORITISE: what matters most to this person · what has the largest absolute benefit given their competing risks and life expectancy · what has the greatest treatment burden · and what can be stopped.** Cross-refer [[GER1]] 0.2, 0.4.
+> **THE RESPONSE IS NOT TO IGNORE GUIDELINES BUT TO PRIORITISE: what matters most to this person · what has the largest absolute benefit given their competing risks and life expectancy · what has the greatest treatment burden · and what can be stopped.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.2, 0.4.
 > **DEVIATING FROM A GUIDELINE IS ENTIRELY LEGITIMATE where there is a reason — and the requirement is that the reasoning is EXPLICIT AND DOCUMENTED.** **"Guideline recommends X; not used here because Y" is defensible. Silent deviation is not.**
 > **CHOOSING WISELY AUSTRALIA publishes specialty-generated lists of low-value tests and treatments** — a useful counterweight to the assumption that more intervention is better. `UNVERIFIED — current recommendations.`
 
@@ -85,7 +90,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· CONFIRMATION BIAS — seeking and weighting evidence that supports the working diagnosis while discounting what contradicts it.**
 > **· AVAILABILITY — over-estimating what comes readily to mind, usually because it was recent or memorable.** *(Diagnosing the condition you saw last week, or missing the one you have never seen.)*
 > **· DIAGNOSTIC MOMENTUM — a label attached early, often by someone junior or by a paramedic, becomes progressively more certain as it is repeated through handovers, until nobody questions it.** *(The "seizure" that was a syncope, carried through three shifts.)*
-> **· ATTRIBUTION AND DIAGNOSTIC OVERSHADOWING — attributing new symptoms to an existing condition or to a characteristic of the patient.** **This disproportionately harms people with mental illness, intellectual disability, obesity, substance use disorders and chronic pain — and it kills them younger.** Cross-refer [[N6]] 0.5 and [[AU1]] 0.5.
+> **· ATTRIBUTION AND DIAGNOSTIC OVERSHADOWING — attributing new symptoms to an existing condition or to a characteristic of the patient.** **This disproportionately harms people with mental illness, intellectual disability, obesity, substance use disorders and chronic pain — and it kills them younger.** Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.5 and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.5.
 > **· SEARCH SATISFICING — stopping after the first positive finding.** *(The second fracture on the trauma series; the second drug interaction.)*
 > **· FRAMING — being led by how the problem was presented to you.**
 > **· OUTCOME AND HINDSIGHT BIAS — judging the quality of a decision by how it turned out, which distorts learning at morbidity and mortality meetings.**
@@ -121,7 +126,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!danger] Three documentation habits that cause harm
 > **1. COPY-AND-PASTE (and "copy-forward" in electronic records).** **It propagates errors indefinitely, inflates notes with stale information, obscures what actually changed today, and creates entries describing examinations that were not performed.** **An error copied forward for a week acquires a false authority through repetition.**
-> **2. PEJORATIVE OR JUDGEMENTAL LANGUAGE.** **"Non-compliant", "difficult", "drug-seeking", "poor historian", "frequent flyer".** **Patients read their records, and this language demonstrably changes how subsequent clinicians treat them — priming them to take symptoms less seriously.** **Write what happened instead: "did not attend — reports no transport", "declined admission; concerns explored were X and Y".** Cross-refer [[AU1]] 0.3.
+> **2. PEJORATIVE OR JUDGEMENTAL LANGUAGE.** **"Non-compliant", "difficult", "drug-seeking", "poor historian", "frequent flyer".** **Patients read their records, and this language demonstrably changes how subsequent clinicians treat them — priming them to take symptoms less seriously.** **Write what happened instead: "did not attend — reports no transport", "declined admission; concerns explored were X and Y".** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.3.
 > **3. EMPTY ENTRIES.** **"Reviewed. Plan as per team." "Obs stable." "For ward round."** These occupy space, satisfy an audit of documentation frequency, and convey nothing — and they are indistinguishable from not having seen the patient.
 > **Also: unexplained abbreviations, speculation about other clinicians' decisions, and using the record to conduct a disagreement.**
 
@@ -150,7 +155,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **WHAT IT MUST CONTAIN:**
 > **· The DIAGNOSIS, and what actually happened.**
 > **· MEDICATION CHANGES — every drug STARTED, STOPPED or CHANGED, WITH THE REASON.** **A list of discharge medications without indicating what changed and why is nearly useless, and it is how patients end up back on a drug that was stopped for a good reason, or permanently off one that was only held temporarily.**
-> **· ANYTHING HELD OR WITHHELD, with WHO should restart it, WHEN, and with what MONITORING.** **"ACE inhibitor withheld" with no plan produces either a patient permanently off a beneficial drug, or one restarted blindly into another acute kidney injury.** Cross-refer [[H3]] 0.3.
+> **· ANYTHING HELD OR WITHHELD, with WHO should restart it, WHEN, and with what MONITORING.** **"ACE inhibitor withheld" with no plan produces either a patient permanently off a beneficial drug, or one restarted blindly into another acute kidney injury.** Cross-refer [[H3_Acute_Kidney_Injury_and_CKD]] 0.3.
 > **· OUTSTANDING RESULTS, and NAMED responsibility for following them up.** **A pending culture, biopsy or scan with nobody assigned is a well-documented mechanism of serious missed diagnoses.**
 > **· FOLLOW-UP — arranged with whom, when, and whether the appointment exists or the GP is expected to arrange it.**
 > **· WHAT TO WATCH FOR, and what should prompt re-presentation.**
@@ -187,18 +192,18 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] The second victim, and speaking up
 > **THE SECOND VICTIM: clinicians involved in a serious adverse event experience substantial distress — guilt, shame, loss of confidence, intrusive rumination, sleep disturbance and, in some, lasting career impact and suicidal ideation.**
 > **This is a normal response to having harmed someone you were trying to help, and it is not a sign of weakness or of unsuitability for medicine.**
-> **Support — from colleagues, supervisors, employee assistance programs and, where needed, professional help — is legitimate and necessary, and the culture of not discussing these events makes them worse.** **If it happens to you, tell someone.** Cross-refer [[N1]] 0.3.
+> **Support — from colleagues, supervisors, employee assistance programs and, where needed, professional help — is legitimate and necessary, and the culture of not discussing these events makes them worse.** **If it happens to you, tell someone.** Cross-refer [[N1_Mental_State_Examination_and_Risk]] 0.3.
 > **SPEAKING UP ABOUT SAFETY — the hierarchy is a genuine barrier, and juniors reliably under-communicate concern to seniors.**
 > **GRADED ASSERTIVENESS gives you an escalating script, and the "CUS" formulation is easy to remember under pressure:**
 > **· "I am CONCERNED about..."**
 > **· "I am UNCOMFORTABLE with..."**
 > **· "This is a SAFETY issue — we need to stop."**
 > **Escalating explicitly through those three levels is more effective than hinting, and it gives you permission to be direct.** **If you remain unheard and a patient is at risk, escalate around or above the person — that is a legitimate use of the chain of escalation and it is what it exists for.**
-> **Other structures worth knowing: MORBIDITY AND MORTALITY meetings (which should examine systems, not perform blame) · ROOT CAUSE ANALYSIS for serious incidents · the CLINICAL AUDIT CYCLE (standard → measure → change → re-measure, and the re-measurement is the step routinely skipped) · sentinel event reporting · coronial reporting obligations · and mandatory notification to AHPRA where a practitioner poses a risk to the public.** Cross-refer [[A10]] 0.4–0.5.
+> **Other structures worth knowing: MORBIDITY AND MORTALITY meetings (which should examine systems, not perform blame) · ROOT CAUSE ANALYSIS for serious incidents · the CLINICAL AUDIT CYCLE (standard → measure → change → re-measure, and the re-measurement is the step routinely skipped) · sentinel event reporting · coronial reporting obligations · and mandatory notification to AHPRA where a practitioner poses a risk to the public.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.4–0.5.
 
 **Ix:** Not applicable — but the analogous discipline for this file: **before ordering a test, ask what you will do with each possible result** (*why:* a test that cannot change management should not be done, and this single question prevents a large volume of low-value investigation; *what:* a decision). **Before accepting a diagnosis, ask "what else could this be?" and "what would I be embarrassed to miss?"** (*why:* premature closure is the largest single contributor to diagnostic error; *what:* the dangerous alternative). **Before discharging, ask "what is outstanding, and who owns it?"** (*why:* unfollowed results at transitions of care are a documented mechanism of serious harm; *what:* a named person and a plan). **Before handing over, ask "what am I worried about that isn't in the notes?"** (*why:* clinician concern predicts deterioration and is exactly what structured handover omits; *what:* the soft signal).
 
 ---
 
 > [!note] Cross-references
-> Study design, bias, statistics and screening → [[PH1]] · Consent, capacity, certification and mandatory reporting → [[A10]] · Deprescribing, multimorbidity and treatment burden → [[GER1]] 0.2, 0.4 · Communication, breaking bad news and health literacy → [[GER5]] · Diagnostic overshadowing → [[N6]] 0.5 and [[AU1]] 0.5 · Cultural safety and documentation language → [[AU1]] 0.3 · The deteriorating patient and escalation → [[A1]] 0.5 · Discharge medication reconciliation after AKI → [[H3]] 0.3 · Clinician wellbeing after adverse events → [[N1]] 0.3 · Goals of care documentation → [[GER2]] 0.6
+> Study design, bias, statistics and screening → [[PH1_Population_Health_and_Research_Literacy]] · Consent, capacity, certification and mandatory reporting → [[A10_Ethics__Capacity__Consent_and_Certification]] · Deprescribing, multimorbidity and treatment burden → [[GER1_Comprehensive_Geriatric_Assessment]] 0.2, 0.4 · Communication, breaking bad news and health literacy → [[GER5_Communication_and_Consultation_Skills]] · Diagnostic overshadowing → [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.5 and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.5 · Cultural safety and documentation language → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.3 · The deteriorating patient and escalation → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.5 · Discharge medication reconciliation after AKI → [[H3_Acute_Kidney_Injury_and_CKD]] 0.3 · Clinician wellbeing after adverse events → [[N1_Mental_State_Examination_and_Risk]] 0.3 · Goals of care documentation → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.6

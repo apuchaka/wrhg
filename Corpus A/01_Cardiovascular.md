@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 6
+no_baseline: 8
 ---
 
 ## 0.1 Acute Coronary Syndrome (ACS)
@@ -1261,6 +1261,25 @@ Obstruction of blood flow → hypoperfusion of tissues distal to obstruction.
 - Continue regular HF medications; stop β-blockers only if HR <50, 2nd/3rd degree AV block, or shock
 - Once stabilised, transition back to the chronic guideline-directed therapy above.
 
+### Added from unverified layer — profiling the decompensated patient, and the period after discharge
+`SRC:CV-X_Chronic_Heart_Failure §0.4, §0.5` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!tip] **The wet–dry / warm–cold framework — decide two things before you decide the drug**
+> Decompensated heart failure is profiled on **two independent axes**, and the combination, not the diagnosis, determines the treatment:
+> **· CONGESTION — "wet" or "dry".** Orthopnoea, raised JVP, oedema, crackles, ascites, weight gain.
+> **· PERFUSION — "warm" or "cold".** Narrow pulse pressure, cool peripheries, hypotension, confusion, oliguria, rising lactate and creatinine.
+> **· Warm and wet** — the commonest by a wide margin. **Diurese.**
+> **· Cold and wet** — congested and hypoperfused. **The difficult one:** diuresis alone can worsen perfusion, and inotropic or vasodilator support and senior input are needed. Cross-refer [[NEW_Cardiology_and_Vascular]] on shock phenotypes.
+> **· Warm and dry** — compensated. The question is why they presented; look for a non-cardiac cause.
+> **· Cold and dry** — hypoperfused without congestion; consider over-diuresis, hypovolaemia and end-stage disease.
+> **The clinical use is that it stops "heart failure" being a single treatment.** The acute Mx above assumes warm-and-wet, which is right most of the time and wrong in exactly the group that does worst.
+
+> [!danger] **The period after discharge is the highest-risk time, and it is nobody's job by default**
+> **Readmission and death cluster in the weeks immediately after a heart failure admission** — a vulnerable phase in which the patient has a changed drug regimen, no established follow-up, and no clear point of contact.
+> **What reduces it is concrete and unglamorous: early review after discharge, a written plan the patient actually holds, daily weights with a threshold at which they act, a named contact, medication reconciliation with an explicit titration plan, and referral to a multidisciplinary heart failure programme where one exists.**
+> **The commonest failure is discharging on a regimen that was never up-titrated, with no one owning the titration.** The four-drug strategy only works if someone continues it after the admission that started it.
+> `UNVERIFIED — the recommended interval to first review after a heart failure admission, and the availability and referral criteria for heart failure programmes in South Australia, per the Heart Foundation and CSANZ guidelines and local health network policy.`
+
 ### 0.28.2 High output heart failure
 A normal heart is unable to pump enough blood to meet the body's metabolic needs, e.g. severe anaemia, pregnancy, Paget's disease, thiamine deficiency. **Mx — definitive:** treat the underlying cause (e.g. transfusion/iron for anaemia, thiamine replacement for beriberi) rather than standard HFrEF therapy alone.
 
@@ -1885,6 +1904,15 @@ TEVAR = thoracic endovascular aortic repair
 - **Immediate:** not an acute-management condition (unless presenting as an ASCVD event, managed per that condition, e.g. ACS).
 - **Definitive:** treatment decisions are driven by **absolute cardiovascular risk** (as for hypertension — AusCVD Risk Calculator) rather than lipid levels alone, except in high-risk groups (known ASCVD, familial hypercholesterolaemia, diabetes with other risk factors, CKD) where statin therapy is recommended regardless of baseline LDL-C. Statins are first-line lipid-lowering therapy; ezetimibe added if target not reached on maximally tolerated statin; PCSK9 inhibitors reserved for very high-risk patients not at target on statin + ezetimibe (specialist-initiated, PBS-restricted).
 - **Chronic/long-term:** lifestyle modification (diet, exercise, weight loss, smoking cessation, alcohol moderation) for all patients regardless of drug therapy; periodic lipid re-check after initiating/titrating therapy; manage secondary causes if present.
+
+> [!warning] Added from unverified layer — **statin-associated muscle symptoms are mostly not caused by the statin**
+> `SRC:I5_Weight__Lipids_and_Fluid_Balance §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> Muscle aches are the commonest reason statins are stopped, and stopping them is a substantial and under-recognised cause of preventable cardiovascular events.
+> **Blinded rechallenge studies consistently show that most patients who report muscle symptoms on a statin report them on placebo too.** The symptoms are real; the attribution usually is not.
+> **So the response is a structured rechallenge rather than a permanent "statin allergy" label:** stop, confirm the symptoms resolve, then **rechallenge with the same or a different statin, at a lower dose or on alternate days**, and titrate. Most patients tolerate something.
+> **What genuinely does need stopping and investigating: severe proximal weakness, dark urine, or a markedly raised creatine kinase** — statin myopathy and rhabdomyolysis are real but uncommon, and [[04_Neurology]] and the rhabdomyolysis entries own those. **Immune-mediated necrotising myopathy** (anti-HMGCR, anti-SRP — see [[NEW_Investigations_Rheumatology]]) is the rare form that persists after the drug is stopped.
+> **A routine creatine kinase is not needed in someone with mild aches, a normal examination and no red flags** — it more often produces an unhelpful mildly raised result than an answer.
+> `UNVERIFIED — whether current Australian guidance recommends a baseline CK, and the alternate-day dosing evidence; the Heart Foundation and Therapeutic Guidelines would settle it.`
 
 > [!info] Verified against Heart Foundation Australia, Aug 2026 — current Australian LDL-C targets confirmed, including a recently-updated, more intensive post-ACS target.
 > **General Australian guidance:** LDL-C <2.0mmol/L for primary prevention; <1.8mmol/L for secondary prevention (established ASCVD).

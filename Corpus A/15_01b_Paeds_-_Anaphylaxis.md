@@ -5,7 +5,7 @@ trust: inherited
 population: paed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 3
 ---
 
 ## Anaphylaxis
@@ -99,3 +99,32 @@ no_baseline: 0
 
 > [!note] Anaphylaxis from a sting or bite
 > Where anaphylaxis follows an insect sting or a bite, the envenomation itself is owned by [[NEW_Drugs_04_Antidotes_and_Antivenoms]] — antivenoms, pressure immobilisation, and the **tick paralysis** trap where weakness progresses after removal. **The anaphylaxis is treated as anaphylaxis regardless**; the envenomation is the separate question.
+
+
+## Added from unverified layer — food allergy: preventing it, and the two forms that test negative
+`SRC:K4_Allergy_and_Clinical_Immunology §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] **Introducing allergenic foods EARLY prevents food allergy — the advice reversed** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **This is the reverse of what was advised for two decades**, and parents, grandparents and older written material still carry the old version — so it has to be said explicitly rather than assumed.
+> **Common allergenic foods, including egg and peanut, are introduced in the first year, alongside other solids, and not delayed.** Delaying them **increases** the risk of allergy rather than reducing it.
+> **Once introduced, the food is kept in the diet regularly.** An allergenic food eaten once and then dropped for months does not maintain tolerance.
+> **This applies to infants with eczema and to those with a family history of allergy — the higher-risk group — not only to low-risk infants**, and those are exactly the families most likely to have been told to avoid.
+> **Breastfeeding is encouraged, and maternal avoidance of allergenic foods during pregnancy or breastfeeding is NOT recommended.**
+> `UNVERIFIED — the recommended age window for introduction, whether any infant group needs assessment before first exposure, and the current wording, per the ASCIA infant feeding and allergy prevention guidelines. NO AGE, QUANTITY OR FREQUENCY IS STATED HERE deliberately (CLAUDE.md rule 5) — look it up at the point of use.`
+
+> [!tip] **The atopic march**
+> Atopic conditions appear in a characteristic **sequence** rather than at random: **eczema in infancy → food allergy → allergic rhinitis → asthma** in later childhood. [[15_04b_Paeds_-_Asthma_in_Children]] already notes that food allergy commonly emerges after or alongside eczema; this is the rest of the sequence.
+> **The clinical use is anticipatory:** infantile eczema, particularly early and severe, identifies a child at higher risk of the later steps — which is the group in whom the early-introduction advice above matters most, and the group in whom a new wheeze deserves a lower threshold for considering asthma.
+> The march is a tendency, not a rule. Children enter it at different points and many never complete it.
+
+> [!warning] **FPIES — food protein-induced enterocolitis syndrome** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Non-IgE mediated, which is the whole difficulty: skin prick testing and specific IgE are NEGATIVE**, so a child who has genuinely reacted is told they are not allergic.
+> **Profuse repetitive vomiting beginning some hours after the food — not minutes — often with pallor, lethargy and floppiness, and it can progress to shock.** There is **no urticaria, no wheeze and no angioedema**, so it does not look like anaphylaxis.
+> **The common triggers are ordinary infant foods** — cow's milk, soy, rice, oat, egg — **and rice is a classic one that surprises people.**
+> **It is regularly misdiagnosed as sepsis or gastroenteritis** and treated with fluids, which is the right immediate treatment for the wrong reason; the diagnosis is made on the pattern repeating with the same food.
+> **Most children grow out of it.** Management is avoidance with dietitian input and a supervised reintroduction plan.
+
+> [!tip] **Pollen-food (oral) allergy syndrome** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Itch and tingling of the lips, mouth and throat immediately on eating raw fruit, vegetables or nuts**, in someone with **pollen allergy** — the reaction is cross-reactivity between pollen proteins and similar plant proteins in the food.
+> **The proteins are heat-labile, so the same food COOKED is usually tolerated** — a raw apple causes symptoms and an apple pie does not. That inconsistency is what makes patients doubt themselves and doctors doubt the history.
+> **It is usually mild and confined to the mouth**, and it is worth distinguishing from true food anaphylaxis so that a child is not unnecessarily labelled and restricted — while noting that a minority do have systemic reactions, and nuts are the group where more caution is warranted.

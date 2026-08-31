@@ -1,6 +1,11 @@
 ---
 block: Public Health, Epidemiology & Research Literacy
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing — and why this file has fewer flags than the others
@@ -223,12 +228,12 @@ source: built in chat, model knowledge, NOT source-verified
 > **THE CONSEQUENCE FOR APPRAISAL: A SCREENING PROGRAMME MUST BE JUDGED ON DISEASE-SPECIFIC AND IDEALLY ALL-CAUSE MORTALITY IN RANDOMISED TRIALS — NOT on survival from diagnosis, not on stage shift, and not on the number of cancers detected.** **All three of those improve with a useless screening test.**
 
 > [!warning] The Australian programmes
-> **· BreastScreen Australia — mammography for asymptomatic women in a defined age range.** **REMEMBER: SCREENING IS FOR ASYMPTOMATIC PEOPLE. A symptomatic woman needs diagnostic assessment.** Cross-refer [[O7]] 0.5.
-> **· National Cervical Screening Program — now HPV-BASED rather than cytology-based, at longer intervals, with SELF-COLLECTION available**, which has substantially improved participation among under-screened groups. Cross-refer [[O6]] 0.2.
-> **· National Bowel Cancer Screening Program — immunochemical faecal occult blood testing mailed to eligible ages.** **Participation is the main limitation, and a GP endorsement measurably improves it.** **A POSITIVE iFOBT REQUIRES COLONOSCOPY, and delays in that pathway are a recognised problem.** Cross-refer [[C5]] 0.5.
-> **· Newborn bloodspot screening, newborn hearing screening, and pulse oximetry screening.** Cross-refer [[M3]] 0.6.
+> **· BreastScreen Australia — mammography for asymptomatic women in a defined age range.** **REMEMBER: SCREENING IS FOR ASYMPTOMATIC PEOPLE. A symptomatic woman needs diagnostic assessment.** Cross-refer [[O7_Breast_Disease]] 0.5.
+> **· National Cervical Screening Program — now HPV-BASED rather than cytology-based, at longer intervals, with SELF-COLLECTION available**, which has substantially improved participation among under-screened groups. Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.2.
+> **· National Bowel Cancer Screening Program — immunochemical faecal occult blood testing mailed to eligible ages.** **Participation is the main limitation, and a GP endorsement measurably improves it.** **A POSITIVE iFOBT REQUIRES COLONOSCOPY, and delays in that pathway are a recognised problem.** Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5.
+> **· Newborn bloodspot screening, newborn hearing screening, and pulse oximetry screening.** Cross-refer [[M3_Neonatal_Problems]] 0.6.
 > **· A national LUNG CANCER SCREENING programme for high-risk smokers has been introduced.**
-> **· PSA testing for prostate cancer is NOT a national screening programme — it remains a shared decision-making conversation because of the overdiagnosis and overtreatment problem.** Cross-refer [[GER3]] and [[H2]] 0.2.
+> **· PSA testing for prostate cancer is NOT a national screening programme — it remains a shared decision-making conversation because of the overdiagnosis and overtreatment problem.** Cross-refer [[GER3_Preventive_and_Occupational_Health]] and [[H2_LUTS__Retention_and_Incontinence]] 0.2.
 > `UNVERIFIED — all ages, intervals, tests and eligibility. These change and must be checked.`
 > **INFORMED CHOICE, NOT COERCION: people have a right to decline screening, and the conversation should present benefits AND harms — including false positives, overdiagnosis and the consequences of further investigation — in absolute numbers.**
 
@@ -281,12 +286,12 @@ source: built in chat, model knowledge, NOT source-verified
 > **· SECONDARY — detecting disease early to improve outcome (screening).**
 > **· TERTIARY — reducing the impact of established disease (rehabilitation, secondary prevention after myocardial infarction).**
 > **· QUATERNARY — PROTECTING PATIENTS FROM OVER-MEDICALISATION AND FROM THE HARMS OF UNNECESSARY INTERVENTION.**
-> **Quaternary prevention is the least known and arguably the most relevant to daily practice: not ordering the test that will generate an incidentaloma, not prescribing the drug whose NNT is 300, deprescribing, and declining to screen someone who will not benefit.** **"First, do no harm" expressed as a public health concept.** Cross-refer [[GER1]] 0.4 and [[GER3]].
-> **And the social determinants of health — the conditions in which people are born, grow, work and age — account for more variation in health outcomes than healthcare does.** Cross-refer [[AU1]] 0.2.
+> **Quaternary prevention is the least known and arguably the most relevant to daily practice: not ordering the test that will generate an incidentaloma, not prescribing the drug whose NNT is 300, deprescribing, and declining to screen someone who will not benefit.** **"First, do no harm" expressed as a public health concept.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.4 and [[GER3_Preventive_and_Occupational_Health]].
+> **And the social determinants of health — the conditions in which people are born, grow, work and age — account for more variation in health outcomes than healthcare does.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.2.
 
 **Ix:** Not applicable — but the analogous discipline is: **before ordering any test, ask what the PRE-TEST PROBABILITY is, and what you will do with a positive and with a negative result** (*why:* a test that will not change management should not be ordered, and in low pre-test probability a positive result is more likely false than true; *what:* a genuinely useful answer). **Before accepting a reported treatment benefit, ask for the ABSOLUTE risk reduction and the NNT** (*why:* relative measures conceal magnitude; *what:* the number that lets a patient decide). **Before accepting a screening claim, ask whether it reduces MORTALITY in randomised trials** (*why:* survival, stage shift and detection rates all improve with a useless test; *what:* mortality benefit or its absence).
 
 ---
 
 > [!note] Cross-references
-> Preventive health, screening and immunisation in practice → [[GER3]] · Evidence appraisal, guidelines and clinical reasoning → [[EBM1]] · Deprescribing and polypharmacy → [[GER1]] 0.4 · Australian health system, Closing the Gap and social determinants → [[AU1]] · Cervical and breast screening → [[O6]] 0.2 and [[O7]] 0.5 · Bowel cancer screening and iFOBT → [[C5]] 0.5 · PSA and prostate screening → [[H2]] 0.2 · Newborn screening → [[M3]] 0.6 · Notifiable infections and contact tracing → [[F0.3]] 0.9 and [[M2]] 0.6 · Occupational disease notification → [[RESP-X]] 0.2 · Communication of risk and shared decision-making → [[GER5]] · Consent and information disclosure → [[A10]] 0.2
+> Preventive health, screening and immunisation in practice → [[GER3_Preventive_and_Occupational_Health]] · Evidence appraisal, guidelines and clinical reasoning → [[EBM1_Evidence_and_Clinical_Process]] · Deprescribing and polypharmacy → [[GER1_Comprehensive_Geriatric_Assessment]] 0.4 · Australian health system, Closing the Gap and social determinants → [[AU1_Australian_Health_Context_and_ATSI_Health]] · Cervical and breast screening → [[O6_Sexual_and_Reproductive_Health]] 0.2 and [[O7_Breast_Disease]] 0.5 · Bowel cancer screening and iFOBT → [[C5_Bowel_Habit__Obstruction_and_Distension]] 0.5 · PSA and prostate screening → [[H2_LUTS__Retention_and_Incontinence]] 0.2 · Newborn screening → [[M3_Neonatal_Problems]] 0.6 · Notifiable infections and contact tracing → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9 and [[M2_Fever_in_Children]] 0.6 · Occupational disease notification → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.2 · Communication of risk and shared decision-making → [[GER5_Communication_and_Consultation_Skills]] · Consent and information disclosure → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.2

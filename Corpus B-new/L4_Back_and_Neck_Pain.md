@@ -1,12 +1,17 @@
 ---
 block: Musculoskeletal / Orthopaedics / Rheumatology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Clinical reasoning, red flags and discriminators are reliable at intern level. **Every dose, imaging rule, time target and threshold carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify decision rules (Canadian C-spine, NEXUS) and dexamethasone dosing for cord compression against current sources and your health network's protocol.
 >
-> **Radiculopathy is built in [[D4]] 0.3**, **paresis patterns in [[D3]] 0.6**, and **inflammatory back pain in [[L2]] 0.3** — each is cross-referenced rather than repeated.
+> **Radiculopathy is built in [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.3**, **paresis patterns in [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.6**, and **inflammatory back pain in [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.3** — each is cross-referenced rather than repeated.
 
 ---
 
@@ -26,13 +31,13 @@ source: built in chat, model knowledge, NOT source-verified
 > **FRACTURE**
 > **· Significant trauma — or MINOR trauma in the osteoporotic, elderly, or those on corticosteroids · known osteoporosis · ANY trauma in a patient with ANKYLOSING SPONDYLITIS or DISH.**
 > **INFLAMMATORY**
-> **· Onset under 45 · insidious · morning stiffness over 30 minutes · improves with EXERCISE not rest · wakes in the second half of the night · good NSAID response.** Cross-refer [[L2]] 0.3.
+> **· Onset under 45 · insidious · morning stiffness over 30 minutes · improves with EXERCISE not rest · wakes in the second half of the night · good NSAID response.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.3.
 > **NEUROLOGICAL**
 > **· Progressive motor deficit · a sensory level · upper motor neurone signs in the legs.**
 
 > [!danger] Back pain can be referred visceral pain — and some of it is lethal
-> **· ABDOMINAL AORTIC ANEURYSM — a ruptured or symptomatic AAA presents as back or flank pain, and is repeatedly misdiagnosed as renal colic or musculoskeletal pain in an older patient.** **Examine the abdomen and feel for a pulsatile mass; a normal examination does not exclude it.** Cross-refer [[B5]] 0.4 and [[C1]] 0.7.
-> **· Aortic dissection** — tearing interscapular pain. Cross-refer [[B1]] 0.3.
+> **· ABDOMINAL AORTIC ANEURYSM — a ruptured or symptomatic AAA presents as back or flank pain, and is repeatedly misdiagnosed as renal colic or musculoskeletal pain in an older patient.** **Examine the abdomen and feel for a pulsatile mass; a normal examination does not exclude it.** Cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.4 and [[C1_Acute_Abdomen]] 0.7.
+> **· Aortic dissection** — tearing interscapular pain. Cross-refer [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.3.
 > **· Pancreatitis, peptic ulcer perforation, cholecystitis, pyelonephritis, renal colic, pelvic inflammatory disease, ectopic pregnancy, and endometriosis.**
 > **"New back pain in an older patient" deserves at least a moment's thought about the aorta before it is called mechanical.**
 
@@ -113,7 +118,7 @@ Surgical decompression.
 
 **S/Smx:** Back pain as above, then **limb weakness, a sensory level, gait disturbance, and — late — sphincter dysfunction.** Upper motor neurone signs below the level.
 
-**Ix:** **URGENT MRI OF THE WHOLE SPINE** (*why:* identifies all levels of compression, which changes the radiotherapy field or surgical plan; *what:* epidural disease, cord compression, multiple levels). CT (*why:* assesses bony destruction and stability, and guides surgical decision-making; *what:* vertebral body destruction, instability). Investigation for a primary where unknown — **CT chest, abdomen and pelvis, serum protein electrophoresis, PSA, mammography** (*why:* the primary determines treatment and prognosis, and myeloma is common and specifically treatable; *what:* primary tumour, paraprotein). **Calcium** (*why:* hypercalcaemia of malignancy frequently coexists and causes confusion, constipation and dehydration; *what:* elevation — cross-refer [[I3]] 0.2). FBC, UEC, LFT (*why:* baseline and organ involvement; *what:* derangement).
+**Ix:** **URGENT MRI OF THE WHOLE SPINE** (*why:* identifies all levels of compression, which changes the radiotherapy field or surgical plan; *what:* epidural disease, cord compression, multiple levels). CT (*why:* assesses bony destruction and stability, and guides surgical decision-making; *what:* vertebral body destruction, instability). Investigation for a primary where unknown — **CT chest, abdomen and pelvis, serum protein electrophoresis, PSA, mammography** (*why:* the primary determines treatment and prognosis, and myeloma is common and specifically treatable; *what:* primary tumour, paraprotein). **Calcium** (*why:* hypercalcaemia of malignancy frequently coexists and causes confusion, constipation and dehydration; *what:* elevation — cross-refer [[I3_Calcium__Parathyroid_and_Bone]] 0.2). FBC, UEC, LFT (*why:* baseline and organ involvement; *what:* derangement).
 
 ### 0.3.1 Mx – Immediate
 **High-dose corticosteroid immediately on clinical suspicion**, before imaging confirms. **Urgent whole-spine MRI. Urgent discussion with oncology, radiation oncology and spinal surgery.** **Nurse flat with log-rolling until spinal stability is established.** Analgesia, VTE prophylaxis, and bowel and bladder care. `UNVERIFIED — the dexamethasone dose and regimen, and whether a loading dose is used.`
@@ -122,7 +127,7 @@ Surgical decompression.
 **Radiotherapy**, or **surgical decompression and stabilisation** where there is spinal instability, a single level with good performance status, an unknown primary requiring tissue, or radioresistant tumour. **Bone-modifying agents (bisphosphonates or denosumab).**
 
 ### 0.3.3 Mx – Chronic/long-term
-Rehabilitation, pressure area and bladder care, **and — importantly — a goals-of-care discussion**, since cord compression usually signals advanced disease. Cross-refer [[GER2]] 0.5 and [[J5]].
+Rehabilitation, pressure area and bladder care, **and — importantly — a goals-of-care discussion**, since cord compression usually signals advanced disease. Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5 and [[J5_Oncological_Emergencies_and_Palliative_Care]].
 
 ---
 
@@ -135,7 +140,7 @@ Rehabilitation, pressure area and bladder care, **and — importantly — a goal
 
 > [!tip] Organisms
 > ***Staphylococcus aureus* is the commonest**, followed by streptococci and Gram-negatives.
-> **Tuberculosis (Pott disease)** — indolent, over months, with vertebral body destruction, a **gibbus deformity**, and large paravertebral "cold" abscesses. Consider it in patients from high-prevalence countries and the immunosuppressed. Cross-refer [[K3]] 0.3.
+> **Tuberculosis (Pott disease)** — indolent, over months, with vertebral body destruction, a **gibbus deformity**, and large paravertebral "cold" abscesses. Consider it in patients from high-prevalence countries and the immunosuppressed. Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.3.
 > ***Brucella*** — with relevant occupational or unpasteurised dairy exposure.
 
 > [!warning] Take blood cultures before antibiotics
@@ -147,7 +152,7 @@ Rehabilitation, pressure area and bladder care, **and — importantly — a goal
 > **Progression from back pain to radicular pain to weakness to paralysis can occur over hours to days.**
 > **Any neurological deficit with suspected spinal infection is a surgical emergency requiring urgent decompression and drainage.**
 
-**Ix:** **Blood cultures — at least two sets, before antibiotics where the patient is stable** (*why:* identifies the organism and avoids a biopsy; *what:* organism and sensitivities). **CRP and ESR** (*why:* almost always raised, useful for monitoring response, and the practical trigger for imaging; *what:* elevation). **MRI with contrast** (*why:* the diagnostic test — detects discitis, vertebral osteomyelitis, paravertebral collections and epidural abscess, all of which plain radiographs miss for weeks; *what:* marrow oedema, disc and endplate destruction, epidural collection). CT-guided biopsy where blood cultures are negative (*why:* organism identification directs prolonged therapy; *what:* organism, and histology to exclude malignancy). **Echocardiography** (*why:* **infective endocarditis and spinal infection frequently coexist**, and finding one should prompt a search for the other; *what:* vegetation — cross-refer [[B5]] 0.2). HIV testing and assessment for immunosuppression (*why:* predisposing conditions; *what:* immunodeficiency).
+**Ix:** **Blood cultures — at least two sets, before antibiotics where the patient is stable** (*why:* identifies the organism and avoids a biopsy; *what:* organism and sensitivities). **CRP and ESR** (*why:* almost always raised, useful for monitoring response, and the practical trigger for imaging; *what:* elevation). **MRI with contrast** (*why:* the diagnostic test — detects discitis, vertebral osteomyelitis, paravertebral collections and epidural abscess, all of which plain radiographs miss for weeks; *what:* marrow oedema, disc and endplate destruction, epidural collection). CT-guided biopsy where blood cultures are negative (*why:* organism identification directs prolonged therapy; *what:* organism, and histology to exclude malignancy). **Echocardiography** (*why:* **infective endocarditis and spinal infection frequently coexist**, and finding one should prompt a search for the other; *what:* vegetation — cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.2). HIV testing and assessment for immunosuppression (*why:* predisposing conditions; *what:* immunodeficiency).
 
 ### 0.4.1 Mx – Immediate
 **Blood cultures, then antibiotics.** Urgent MRI. **Urgent surgical referral for any neurological deficit, instability, or abscess requiring drainage.**
@@ -167,7 +172,7 @@ Monitoring of inflammatory markers and repeat imaging to confirm resolution, reh
 > **Management:**
 > **· STAY ACTIVE. Bed rest is harmful and delays recovery.** Return to normal activity, including work, as early as tolerable.
 > **· Reassurance and education**, with attention to the language used.
-> **· Simple analgesia and heat.** **NSAIDs where not contraindicated. AVOID OPIOIDS** — they do not improve outcomes in back pain, and they cause dependence, constipation and hyperalgesia. Cross-refer [[F0.4]] 0.9.
+> **· Simple analgesia and heat.** **NSAIDs where not contraindicated. AVOID OPIOIDS** — they do not improve outcomes in back pain, and they cause dependence, constipation and hyperalgesia. Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9.
 > **· Physiotherapy and exercise**, particularly where recovery is slower than expected.
 > **· Address the yellow flags** from 0.1.
 
@@ -180,14 +185,14 @@ Monitoring of inflammatory markers and repeat imaging to confirm resolution, reh
 > **This is examinable, and it is one of the clearest examples of a consultation changing a disease course.**
 
 > [!tip] Radiculopathy
-> Covered in **[[D4]] 0.3.** The points to carry:
+> Covered in **[[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.3.** The points to carry:
 > **· L5 is the commonest lumbar radiculopathy, causes foot drop, and has NO reflex change** — so a normal reflex examination does not exclude it.
 > **· Straight leg raise reproduces L5/S1 pain; femoral stretch reproduces L2–L4.**
 > **· Most radiculopathy resolves with conservative management over weeks.**
 > **· Image for red flags, progressive deficit, or when intervention is being considered — and the imaging must MATCH the clinical level**, because incidental disc abnormalities at other levels are near-universal.
 
 > [!warning] Chronic back pain is a different problem from acute back pain
-> Once pain persists beyond about three months, **central sensitisation and psychosocial factors dominate over any structural lesion**, and the management shifts accordingly — cross-refer [[L3]] 0.5.
+> Once pain persists beyond about three months, **central sensitisation and psychosocial factors dominate over any structural lesion**, and the management shifts accordingly — cross-refer [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5.
 > **What helps: exercise, graded activity, cognitive behavioural approaches, multidisciplinary pain programs, and addressing sleep, mood and work factors.**
 > **What harms: repeated imaging, repeated specialist referral, escalating opioids, and repeated interventional procedures.**
 
@@ -208,7 +213,7 @@ Monitoring of inflammatory markers and repeat imaging to confirm resolution, reh
 > | **Pulses** | **Present** | **Reduced or absent** |
 > | **Symptoms** | Heaviness, paraesthesia, weakness | Cramping calf pain |
 > | **Skin** | Normal | Hair loss, trophic change, cool |
-> **The "shopping trolley sign" — able to walk much further when leaning on a trolley — is characteristic of neurogenic claudication** and is a useful single question. **They can also coexist**, particularly in older vasculopaths. Cross-refer [[B5]] 0.5.
+> **The "shopping trolley sign" — able to walk much further when leaning on a trolley — is characteristic of neurogenic claudication** and is a useful single question. **They can also coexist**, particularly in older vasculopaths. Cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.5.
 
 > [!tip] Lumbar spinal stenosis
 > **Degenerative narrowing of the central canal or lateral recesses from facet hypertrophy, ligamentum flavum thickening and disc bulging.**
@@ -217,7 +222,7 @@ Monitoring of inflammatory markers and repeat imaging to confirm resolution, reh
 
 > [!warning] Vertebral fragility fracture
 > **Sudden onset of severe localised back pain, often after trivial or no trauma, in an older or osteoporotic patient**, with subsequent height loss and progressive kyphosis.
-> **Many are ASYMPTOMATIC and found incidentally on imaging done for another reason — and an incidental vertebral fracture is a diagnosis of osteoporosis that is routinely not acted upon.** Cross-refer [[GER1]] 0.6.
+> **Many are ASYMPTOMATIC and found incidentally on imaging done for another reason — and an incidental vertebral fracture is a diagnosis of osteoporosis that is routinely not acted upon.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.6.
 > **Consider malignancy and myeloma** in any vertebral fracture, particularly above T5, with atypical features, or in a patient without osteoporosis risk factors.
 > Management: analgesia adequate to allow mobilisation, early mobilisation, calcitonin or other adjuncts in some cases, **and — critically — investigation and treatment of the underlying osteoporosis.** **Vertebroplasty and kyphoplasty remain contested.**
 
@@ -226,7 +231,7 @@ Monitoring of inflammatory markers and repeat imaging to confirm resolution, reh
 > **· Facet joint arthropathy** — pain worse on extension and rotation.
 > **· Diffuse idiopathic skeletal hyperostosis (DISH)** — flowing ossification along the anterior spine, associated with diabetes and metabolic syndrome, and — like ankylosing spondylitis — **producing a rigid spine that fractures with minor trauma.**
 
-**Ix:** **MRI** (*why:* the imaging of choice for stenosis and for nerve root compression; *what:* canal and foraminal dimensions, level). **Ankle-brachial index** (*why:* distinguishes or identifies coexisting vascular claudication, which is common in the same demographic; *what:* reduced ABI — **noting it can be falsely normal in diabetic calcification** — cross-refer [[B5]] 0.5). Radiographs including flexion-extension views (*why:* instability and spondylolisthesis, which affect surgical planning; *what:* slip, mobility). **DXA and osteoporosis workup after any fragility fracture** (*why:* the fracture is the diagnosis, and treatment prevents the next one; *what:* bone density, secondary causes — cross-refer [[GER1]] 0.6 and [[I3]]).
+**Ix:** **MRI** (*why:* the imaging of choice for stenosis and for nerve root compression; *what:* canal and foraminal dimensions, level). **Ankle-brachial index** (*why:* distinguishes or identifies coexisting vascular claudication, which is common in the same demographic; *what:* reduced ABI — **noting it can be falsely normal in diabetic calcification** — cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.5). Radiographs including flexion-extension views (*why:* instability and spondylolisthesis, which affect surgical planning; *what:* slip, mobility). **DXA and osteoporosis workup after any fragility fracture** (*why:* the fracture is the diagnosis, and treatment prevents the next one; *what:* bone density, secondary causes — cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 and [[I3_Calcium__Parathyroid_and_Bone]]).
 
 ---
 
@@ -249,8 +254,8 @@ Monitoring of inflammatory markers and repeat imaging to confirm resolution, reh
 > **Neither rule applies to patients who are intoxicated, distracted by another painful injury, or have altered consciousness.**
 
 > [!danger] Three groups whose cervical spine is different
-> **1. ANKYLOSING SPONDYLITIS AND DISH — a fused spine fractures with trivial trauma, and the fracture is UNSTABLE and involves all three columns.** **Plain films are inadequate: get a CT, and often an MRI.** **Immobilise in the patient's usual deformed position — forcing a kyphotic fused neck flat onto a board can itself cause cord injury.** Cross-refer [[L2]] 0.3 and [[F0.5]] 0.7.
-> **2. RHEUMATOID ARTHRITIS — atlantoaxial subluxation**, with risk of cord compression during intubation or manipulation. **Flag it to the anaesthetist.** Cross-refer [[L2]] 0.2 and [[AN1]].
+> **1. ANKYLOSING SPONDYLITIS AND DISH — a fused spine fractures with trivial trauma, and the fracture is UNSTABLE and involves all three columns.** **Plain films are inadequate: get a CT, and often an MRI.** **Immobilise in the patient's usual deformed position — forcing a kyphotic fused neck flat onto a board can itself cause cord injury.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.3 and [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7.
+> **2. RHEUMATOID ARTHRITIS — atlantoaxial subluxation**, with risk of cord compression during intubation or manipulation. **Flag it to the anaesthetist.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.2 and [[AN1_Perioperative_Care]].
 > **3. DOWN SYNDROME — atlantoaxial instability** is more prevalent, and relevant to anaesthesia and to certain sports.
 
 > [!tip] Mechanical neck pain and whiplash
@@ -259,8 +264,8 @@ Monitoring of inflammatory markers and repeat imaging to confirm resolution, reh
 > **Whiplash-associated disorder** has strong psychosocial and compensation-related determinants of chronicity, and **the same yellow flag principles apply as in low back pain.**
 
 > [!warning] Two vascular considerations in neck pain
-> **· Vertebral or carotid artery dissection** — **neck pain with posterior circulation symptoms, or a painful Horner syndrome**, particularly in a younger patient after minor trauma or neck manipulation. **Requires vascular imaging of the neck, not just a brain CT.** Cross-refer [[D3]] 0.3 and [[D7]] 0.3.
-> **· Subarachnoid haemorrhage** — neck pain and stiffness developing over hours after a thunderclap headache. Cross-refer [[D1]] 0.2.
+> **· Vertebral or carotid artery dissection** — **neck pain with posterior circulation symptoms, or a painful Horner syndrome**, particularly in a younger patient after minor trauma or neck manipulation. **Requires vascular imaging of the neck, not just a brain CT.** Cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.3 and [[D7_Cranial_Nerves_and_Special_Senses]] 0.3.
+> **· Subarachnoid haemorrhage** — neck pain and stiffness developing over hours after a thunderclap headache. Cross-refer [[D1_Headache_and_Meningism]] 0.2.
 
 **Ix:** **MRI cervical spine urgently in suspected myelopathy** (*why:* the only test that shows cord compression and signal change, and the deficit is progressive; *what:* canal stenosis, cord compression, cord signal change). **CT cervical spine in trauma where a decision rule indicates imaging** (*why:* far more sensitive than plain radiographs for fracture; *what:* fracture, alignment). **CT and MRI after ANY trauma in a fused spine** (*why:* plain films miss these fractures and they are unstable; *what:* three-column fracture). **CT or MR angiography of the neck vessels where dissection is suspected** (*why:* brain imaging alone misses the dissection; *what:* flap, tapering, intramural haematoma). Flexion-extension views or MRI in rheumatoid arthritis before surgery (*why:* atlantoaxial subluxation; *what:* instability).
 
@@ -276,4 +281,4 @@ Physiotherapy, ergonomic and postural advice, and **avoidance of prolonged colla
 ---
 
 > [!note] Cross-references
-> Radiculopathy, myotomes and dermatomes → [[D4]] 0.3 · Paresis patterns and spinal cord syndromes → [[D3]] 0.6 · Cervical and vertebral artery dissection → [[D3]] 0.3 · Inflammatory back pain and axial spondyloarthritis → [[L2]] 0.3 · Rheumatoid cervical spine and anaesthesia → [[L2]] 0.2 and [[AN1]] · Chronic widespread pain and central sensitisation → [[L3]] 0.5 · Fractures and spinal trauma → [[L7]] · Abdominal aortic aneurysm → [[B5]] 0.4 and [[C1]] 0.7 · Aortic dissection → [[B1]] 0.3 · Peripheral arterial disease and claudication → [[B5]] 0.5 · Spinal infection and endocarditis → [[B5]] 0.2 · Tuberculosis → [[K3]] 0.3 · Hypercalcaemia of malignancy → [[I3]] 0.2 · Osteoporosis and fragility fracture → [[GER1]] 0.6 · Opioid stewardship → [[F0.4]] 0.9 · Head and spinal injury → [[F0.5]] 0.7 · Palliative and goals of care → [[GER2]] 0.5 and [[J5]]
+> Radiculopathy, myotomes and dermatomes → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.3 · Paresis patterns and spinal cord syndromes → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.6 · Cervical and vertebral artery dissection → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.3 · Inflammatory back pain and axial spondyloarthritis → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.3 · Rheumatoid cervical spine and anaesthesia → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] 0.2 and [[AN1_Perioperative_Care]] · Chronic widespread pain and central sensitisation → [[L3_Muscle_Symptoms_and_Widespread_Pain]] 0.5 · Fractures and spinal trauma → [[L7_Fractures_and_Eponyms]] · Abdominal aortic aneurysm → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.4 and [[C1_Acute_Abdomen]] 0.7 · Aortic dissection → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.3 · Peripheral arterial disease and claudication → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.5 · Spinal infection and endocarditis → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.2 · Tuberculosis → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.3 · Hypercalcaemia of malignancy → [[I3_Calcium__Parathyroid_and_Bone]] 0.2 · Osteoporosis and fragility fracture → [[GER1_Comprehensive_Geriatric_Assessment]] 0.6 · Opioid stewardship → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9 · Head and spinal injury → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7 · Palliative and goals of care → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.5 and [[J5_Oncological_Emergencies_and_Palliative_Care]]

@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 1
 ---
 
 ## Septic arthritis
@@ -29,6 +29,13 @@ no_baseline: 0
 > [!note] See also [[11_10_Ortho_-_Paediatric_Orthopaedics]] Septic arthritis vs transient synovitis, where the Kocher criteria for diagnosis of septic arthritis, for paediatric septic arthritis.
 
 ### Septic arthritis of a replaced joint
+
+> [!info] Added from unverified layer — **why the microbiology is different, and what sonication is for**
+> `SRC:L1_Hot_and_Swollen_Joint §0.1` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Prosthetic joint infection is a BIOFILM disease, not simply septic arthritis in a joint that has a prosthesis in it.** Organisms adherent to the implant are **metabolically quiescent and protected from both antibiotics and the immune system**, which is why antibiotics alone do not clear it and why the implant usually has to be revised or removed.
+> **The organisms differ accordingly** — **coagulase-negative staphylococci and *Cutibacterium acnes*** dominate the late and indolent presentations, and these are exactly the organisms a laboratory would otherwise dismiss as skin contaminants.
+> **Routine culture of joint fluid is frequently negative**, because the organisms are on the implant rather than free in the fluid. **SONICATION of the explanted prosthesis dislodges the biofilm and substantially increases the culture yield** — so **multiple deep tissue samples, and the implant itself, go to the laboratory, with the laboratory told what is suspected** and prolonged incubation requested.
+> **Do not give antibiotics before the samples are taken** unless the patient is septic — a partially treated prosthetic joint infection with negative cultures is a much harder problem than an untreated one.
 
 > [!warning] Refer to orthopaedics.
 
@@ -169,6 +176,21 @@ no_baseline: 0
   - **Immediate/acute:** empirical broad-spectrum IV antibiotics covering *S. aureus* (including MRSA cover where locally relevant, per the same general principle as septic arthritis/cellulitis elsewhere in this project) pending culture results; supportive care, with escalation to sepsis management (see [[08_09_Infectious_Disease_-_Miscellaneous]] Sepsis) if the patient is systemically unwell.
   - **Definitive:** image-guided or surgical drainage for any identified discrete abscess, given antibiotics alone are unlikely to adequately penetrate/resolve a purulent collection — the same general "source control matters as much as antibiotics" principle as abscesses elsewhere in this project; antibiotics de-escalated/tailored once culture and sensitivity results are available, with a typical total duration of several weeks (often IV transitioning to oral, analogous to the osteomyelitis/discitis duration principles in [[11_07b_Ortho_-_Osteomyelitis__Osteochondritis_Dissecans__Fat_Embolism__Charcot_Joint__Osteomalacia]] and [[11_06_Ortho_-_Spinal_Orthopaedics]] Discitis, not repeated here).
   - **Chronic/long-term:** monitor for and address any underlying predisposing condition (diabetes control, HIV management, addressing an injection-drug-use source) given these are recognised risk factors for both the initial episode and recurrence.
+
+## Added from unverified layer — the two other closed-space hand infections
+`SRC:K2_Skin_and_Soft_Tissue_Infection §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!danger] **Felon — infection of the fingertip pulp**
+> The pulp is **divided into closed compartments by fibrous septa running from the periosteum to the skin**, so infection there raises compartment pressure rather than spreading. The result is a **tensely swollen, exquisitely painful fingertip with throbbing pain that is worse than the appearance suggests.**
+> **The pressure is the problem:** untreated it causes **skin necrosis, and osteomyelitis of the distal phalanx or septic arthritis of the DIP joint.**
+> **It needs surgical drainage, not antibiotics alone** — the same principle as the tendon sheath below, for the same anatomical reason. Refer to hand surgery.
+
+> [!warning] **Paronychia — infection of the nail fold**
+> **Acute** — usually *S. aureus*, after a hangnail, nail-biting or a manicure. Erythema and swelling of the nail fold, progressing to a visible collection.
+> **If it is fluctuant it must be drained; antibiotics alone will not resolve a collection**, and a neglected one can track around the nail as a run-around abscess or under the nail plate, which then has to come off.
+> **Chronic** — over weeks in wet-work occupations, associated with *Candida* and irritant exposure. **Treated as a barrier and dermatitis problem, not as an acute bacterial infection**, and antibiotics do not help.
+
+> [!note] **A search note for whoever looks for this next.** Searching `felon` in this vault returns **62 hits in Corpus A and C and every single one is the word `lifelong`** — `l-i-**f-e-l-o-n**-g` — inside prophylaxis-duration and immunosuppression sentences. Before this block, the count said present and the corpus said nothing. Anchor on word boundaries (CLAUDE.md rule 9).
 
 ## Tendon sheath infection (hand)
 

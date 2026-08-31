@@ -1,6 +1,11 @@
 ---
 block: GP, Preventive Medicine, Ethics & Communication
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing — and this file needs it more than most
@@ -8,7 +13,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Mandatory reporting requirements, adult safeguarding legislation and sexual assault service pathways DIFFER BETWEEN AUSTRALIAN STATES.** Verify against **South Australian legislation, SA Health policy, the SA Child Abuse Report Line, the SA Adult Safeguarding Unit, and your health network's safeguarding procedure — before you need them, not while you need them.**
 > **Applying another jurisdiction's rules here is a legal error with consequences for a child or an adult at risk.**
 >
-> **Consent and capacity are built in [[A10]] 0.1–0.2**, **non-accidental fractures in [[L7]] 0.5**, and **trauma-informed practice in [[N5]] 0.5** — cross-referenced rather than repeated.
+> **Consent and capacity are built in [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.2**, **non-accidental fractures in [[L7_Fractures_and_Eponyms]] 0.5**, and **trauma-informed practice in [[N5_Anxiety__OCD_and_Trauma]] 0.5** — cross-referenced rather than repeated.
 
 ---
 
@@ -30,7 +35,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!warning] Four practical rules that apply across all of safeguarding
 > **1. DO NOT MANAGE IT ALONE.** **Involve a senior clinician, social work, and your local child protection or safeguarding service early.** This is not a decision for a junior doctor at 3am on their own.
-> **2. DO NOT PROMISE CONFIDENTIALITY YOU CANNOT KEEP.** **Say at the outset — particularly to an adolescent — that what is discussed is private unless you are worried someone is at serious risk of harm, and that if that happens you will tell them first and involve them in how it is done.** Cross-refer [[M7]] 0.3.
+> **2. DO NOT PROMISE CONFIDENTIALITY YOU CANNOT KEEP.** **Say at the outset — particularly to an adolescent — that what is discussed is private unless you are worried someone is at serious risk of harm, and that if that happens you will tell them first and involve them in how it is done.** Cross-refer [[M7_Adolescent_and_Behavioural_Health]] 0.3.
 > **3. DOCUMENT AS IF IT WILL BE READ IN COURT — because it may be.** **Contemporaneous · factual · VERBATIM QUOTES in quotation marks for what was said · body maps and diagrams for injuries · measurements rather than comparisons to fruit · photographs only in accordance with local policy and consent · and a clear distinction between what you OBSERVED and what you were TOLD.**
 > **4. THINK ABOUT THE OTHERS.** **Siblings and other children in the household. Children of an adult patient you are treating for substance use, mental illness or injury from violence. Other residents in a facility. The risk rarely attaches to one person alone.**
 
@@ -44,8 +49,8 @@ source: built in chat, model knowledge, NOT source-verified
 > **· PATTERNED INJURIES — the shape of an implement, a hand, a grip mark on the upper arms or chest, a ligature mark, or a BITE MARK.**
 > **· BURNS with a sharp demarcation, a glove-and-stocking or immersion distribution, symmetrical burns of the buttocks or feet, or discrete circular burns.**
 > **· A TORN FRENULUM in a non-mobile infant.**
-> **· FRACTURES with high specificity: METAPHYSEAL CORNER or "bucket-handle" fractures · POSTERIOR RIB fractures · scapular, sternal and spinous process fractures · MULTIPLE fractures of DIFFERENT AGES · and any long bone fracture in a NON-AMBULANT child.** Cross-refer [[L7]] 0.5.
-> **· ABUSIVE HEAD TRAUMA — the combination of subdural haemorrhages, retinal haemorrhages and encephalopathy.** **It presents as a seizure, apnoea, vomiting, irritability, poor feeding or collapse — frequently with NO history of trauma offered at all.** **It is a leading cause of death from child abuse, and the presenting complaint is often something else entirely.** Cross-refer [[M1]] 0.4 and [[M3]] 0.5.
+> **· FRACTURES with high specificity: METAPHYSEAL CORNER or "bucket-handle" fractures · POSTERIOR RIB fractures · scapular, sternal and spinous process fractures · MULTIPLE fractures of DIFFERENT AGES · and any long bone fracture in a NON-AMBULANT child.** Cross-refer [[L7_Fractures_and_Eponyms]] 0.5.
+> **· ABUSIVE HEAD TRAUMA — the combination of subdural haemorrhages, retinal haemorrhages and encephalopathy.** **It presents as a seizure, apnoea, vomiting, irritability, poor feeding or collapse — frequently with NO history of trauma offered at all.** **It is a leading cause of death from child abuse, and the presenting complaint is often something else entirely.** Cross-refer [[M1_The_Seriously_Unwell_Child]] 0.4 and [[M3_Neonatal_Problems]] 0.5.
 
 > [!danger] The history matters as much as the injury
 > **· A history that is INCONSISTENT with the injury, or that CHANGES between tellings or between carers.**
@@ -66,11 +71,11 @@ source: built in chat, model knowledge, NOT source-verified
 > **So a normal examination must never be reported to a family or documented as evidence that nothing happened.**
 > **THE PRESENTATIONS: a DISCLOSURE by the child — which is the single most important piece of evidence there is · a sexually transmitted infection in a child · pregnancy in a young adolescent · anogenital injury · sexualised behaviour inappropriate for the developmental stage · new-onset enuresis or encopaosis · recurrent unexplained abdominal pain · self-harm, eating disturbance or sudden behavioural or school change.**
 > **A CHILD'S DISCLOSURE MUST BE TAKEN SERIOUSLY AND ACTED ON.** Children rarely fabricate abuse, and retraction is common and does not indicate falsehood.
-> **FABRICATED OR INDUCED ILLNESS is a form of abuse and is covered in [[N6]] 0.6.**
+> **FABRICATED OR INDUCED ILLNESS is a form of abuse and is covered in [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.6.**
 
 > [!tip] Consider the medical differentials — and document the one that causes most trouble
-> **Before concluding, consider: BLEEDING DISORDERS (including von Willebrand disease and vitamin K deficiency bleeding in an infant — cross-refer [[J3]] 0.2 and [[M3]] 0.3) · OSTEOGENESIS IMPERFECTA and metabolic bone disease including rickets · birthmarks and vascular malformations · coagulopathy from liver disease · and certain traditional or cultural practices such as cupping and coining, which produce characteristic marks and are not abuse.**
-> **AND DOCUMENT CONGENITAL DERMAL MELANOCYTOSIS ("Mongolian spots") EXPLICITLY — site, size and appearance — in the newborn or early infant record.** **These blue-grey macules over the sacrum and buttocks are common in babies with darker skin, are entirely benign, and are REPEATEDLY AND DISTRESSINGLY MISTAKEN FOR BRUISING, leading to unnecessary and traumatic child protection referrals.** **A clear early note prevents that.** Cross-refer [[M3]] 0.6.
+> **Before concluding, consider: BLEEDING DISORDERS (including von Willebrand disease and vitamin K deficiency bleeding in an infant — cross-refer [[J3_Bleeding_and_Thrombosis]] 0.2 and [[M3_Neonatal_Problems]] 0.3) · OSTEOGENESIS IMPERFECTA and metabolic bone disease including rickets · birthmarks and vascular malformations · coagulopathy from liver disease · and certain traditional or cultural practices such as cupping and coining, which produce characteristic marks and are not abuse.**
+> **AND DOCUMENT CONGENITAL DERMAL MELANOCYTOSIS ("Mongolian spots") EXPLICITLY — site, size and appearance — in the newborn or early infant record.** **These blue-grey macules over the sacrum and buttocks are common in babies with darker skin, are entirely benign, and are REPEATEDLY AND DISTRESSINGLY MISTAKEN FOR BRUISING, leading to unnecessary and traumatic child protection referrals.** **A clear early note prevents that.** Cross-refer [[M3_Neonatal_Problems]] 0.6.
 > **Considering these differentials is part of good practice, not a reason to delay a report where suspicion remains — both can and should happen in parallel.**
 
 ---
@@ -96,7 +101,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **A usable form of words: "I've found an injury that I can't fully explain. When that happens, I'm required by law to talk to child protection services — that's a legal requirement for all doctors and it isn't an accusation. I want to be upfront with you that I'm doing it."**
 > **Framing it as a legal obligation applying to everyone, rather than as a judgement about this family, allows the relationship to survive it — and the family will need medical care afterwards regardless of the outcome.**
 > **Exception: do not disclose your intention to report where doing so would place the child at increased immediate risk — take senior advice.**
-> **AND LOOK AFTER YOURSELF AND YOUR TEAM.** **These presentations are distressing, they generate doubt and guilt in both directions, and debriefing with a senior colleague is appropriate rather than weak.** Cross-refer [[EBM1]] 0.6.
+> **AND LOOK AFTER YOURSELF AND YOUR TEAM.** **These presentations are distressing, they generate doubt and guilt in both directions, and debriefing with a senior colleague is appropriate rather than weak.** Cross-refer [[EBM1_Evidence_and_Clinical_Process]] 0.6.
 
 ---
 
@@ -104,9 +109,9 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!info] It is a pattern of control, not a series of assaults
 > **Physical violence is one component and often not the dominant one. The defining feature is COERCIVE CONTROL — a pattern of behaviour that dominates and restricts another person.**
-> **It includes: EMOTIONAL abuse and degradation · FINANCIAL control (restricting access to money, sabotaging employment, accumulating debt in the person's name) · SOCIAL ISOLATION from family and friends · monitoring and TECHNOLOGY-FACILITATED abuse (tracking, accessing accounts and devices) · REPRODUCTIVE COERCION (interfering with contraception, forcing or preventing pregnancy — worth asking about specifically in a sexual health consultation, cross-refer [[O6]] 0.3) · threats to children, pets or immigration status · sexual violence · and stalking.**
+> **It includes: EMOTIONAL abuse and degradation · FINANCIAL control (restricting access to money, sabotaging employment, accumulating debt in the person's name) · SOCIAL ISOLATION from family and friends · monitoring and TECHNOLOGY-FACILITATED abuse (tracking, accessing accounts and devices) · REPRODUCTIVE COERCION (interfering with contraception, forcing or preventing pregnancy — worth asking about specifically in a sexual health consultation, cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.3) · threats to children, pets or immigration status · sexual violence · and stalking.**
 > **It is COMMON, it occurs across all socioeconomic, cultural and educational groups, it affects people of all genders, and it is a leading contributor to the burden of disease in women of reproductive age in Australia.**
-> **VIOLENCE FREQUENTLY BEGINS OR ESCALATES DURING PREGNANCY AND AFTER THE BIRTH — which makes antenatal and postnatal contacts important opportunities to ask.** Cross-refer [[O2]] and [[O3]].
+> **VIOLENCE FREQUENTLY BEGINS OR ESCALATES DURING PREGNANCY AND AFTER THE BIRTH — which makes antenatal and postnatal contacts important opportunities to ask.** Cross-refer [[O2_Later_Pregnancy_and_Fetal]] and [[O3_Labour__Delivery_and_Postpartum]].
 
 > [!warning] How it presents in a clinic
 > **Rarely as a disclosure. Usually as something else:**
@@ -136,7 +141,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· DO NOT recommend couple counselling or mediation where there is violence — it is unsafe. DO NOT attempt to confront or counsel the perpetrator.**
 
 > [!tip] The groups facing additional barriers
-> **· ABORIGINAL AND TORRES STRAIT ISLANDER women experience family violence at markedly higher rates, and face specific barriers — including a well-founded FEAR OF CHILD REMOVAL grounded in the history of the Stolen Generations, and distrust of police and statutory services.** **Involve Aboriginal Health Workers and Aboriginal-controlled services, and be explicit about what will and will not be reported.** Cross-refer [[AU1]] 0.2–0.3.
+> **· ABORIGINAL AND TORRES STRAIT ISLANDER women experience family violence at markedly higher rates, and face specific barriers — including a well-founded FEAR OF CHILD REMOVAL grounded in the history of the Stolen Generations, and distrust of police and statutory services.** **Involve Aboriginal Health Workers and Aboriginal-controlled services, and be explicit about what will and will not be reported.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.2–0.3.
 > **· People on temporary or dependent VISAS, where the perpetrator controls their immigration status.**
 > **· People with DISABILITY, who may be dependent on the perpetrator for care.**
 > **· LGBTIQA+ people, who may fear being outed or not believed.**
@@ -159,8 +164,8 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!tip] The medical care
 > **· INJURIES — assessed and treated.**
-> **· EMERGENCY CONTRACEPTION, and pregnancy testing.** Cross-refer [[O6]] 0.3.
-> **· HIV POST-EXPOSURE PROPHYLAXIS — TIME-CRITICAL, and the window is short. It must be considered immediately rather than deferred to a follow-up appointment.** Cross-refer [[K3]] 0.5.
+> **· EMERGENCY CONTRACEPTION, and pregnancy testing.** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.3.
+> **· HIV POST-EXPOSURE PROPHYLAXIS — TIME-CRITICAL, and the window is short. It must be considered immediately rather than deferred to a follow-up appointment.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5.
 > **· STI testing and presumptive treatment, hepatitis B vaccination and immunoglobulin where indicated.**
 > **· FOLLOW-UP — repeat serology at the appropriate intervals, and mental health support.**
 > **· Consider DRUG-FACILITATED assault, where the person has amnesia or an unexplained level of impairment — relevant to both the medical assessment and the time-limited toxicology.**
@@ -175,7 +180,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· ASK WHAT THEY NEED FROM YOU, and what would make the current consultation easier.**
 > **· OFFER support and referral, without insisting.**
 > **· RECORD IT (with their agreement) so that they do not have to disclose again to the next clinician, and so that future examinations can be approached appropriately.**
-> **The consultation may well be able to continue — the point is that it continues on their terms.** Cross-refer [[N5]] 0.5 and [[O5]] 0.4.
+> **The consultation may well be able to continue — the point is that it continues on their terms.** Cross-refer [[N5_Anxiety__OCD_and_Trauma]] 0.5 and [[O5_Pelvic_and_Vulval_Conditions]] 0.4.
 
 ---
 
@@ -185,7 +190,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **An adult WITH CAPACITY has the right to make decisions others consider unwise — including remaining in a situation you regard as abusive.**
 > **This is the fundamental distinction from child protection, and it is uncomfortable.**
 > **Your role with a capable adult is to: ensure they know what is happening is not acceptable · provide information and offer help · address any coercion or control limiting their real choice · maintain the relationship so the offer stands · and document.**
-> **Where CAPACITY IS IMPAIRED, different frameworks apply — guardianship and administration, substitute decision-making, and adult safeguarding legislation.** Cross-refer [[A10]] 0.1–0.3.
+> **Where CAPACITY IS IMPAIRED, different frameworks apply — guardianship and administration, substitute decision-making, and adult safeguarding legislation.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.3.
 > **SOUTH AUSTRALIA HAS ADULT SAFEGUARDING LEGISLATION AND AN ADULT SAFEGUARDING UNIT, with provisions for reporting concerns about adults at risk.** `UNVERIFIED — the scope, the reporting obligations (which may be mandatory for some groups), the age and eligibility criteria, and the referral pathway. This differs between states and must be checked.`
 
 > [!warning] The types, and the one that is commonest
@@ -213,7 +218,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· DOCUMENT factually.**
 > **AND THE NUANCE THAT MATTERS CLINICALLY: SOME ELDER ABUSE ARISES FROM CARER BURNOUT rather than malice — an exhausted, unsupported, untrained carer managing dementia-related behaviours with no respite and no help.**
 > **This does not excuse harm, and safety comes first — but it changes the response.** **Providing carer support, respite, education, home care packages and treatment for the carer's own health can be genuinely protective, and is sometimes the most effective intervention available.**
-> **ASK THE CARER HOW THEY ARE, separately and meaning it.** Cross-refer [[GER1]] 0.3 and [[D2]] 0.3.
+> **ASK THE CARER HOW THEY ARE, separately and meaning it.** Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.3 and [[D2_Altered_Consciousness_and_Cognition]] 0.3.
 > **The same principles extend to other ADULTS AT RISK — people with intellectual disability, acquired brain injury or severe mental illness, and people in institutional care — who face elevated rates of abuse and reduced ability to report it.**
 
 **Ix:** **SEE THE PERSON ALONE — in every case of suspected child, family or elder abuse** (*why:* disclosure will not occur with the alleged perpetrator present, and asking in front of them may increase the risk afterwards; *what:* the disclosure). **A PROFESSIONAL INTERPRETER, never a family member and never a child** (*why:* family members filter, omit and may be implicated; *what:* an accurate account). **CONTEMPORANEOUS, FACTUAL DOCUMENTATION with verbatim quotes, body maps and measurements** (*why:* it becomes evidence, and it must distinguish observation from report; *what:* the record). **SKELETAL SURVEY, neuroimaging and OPHTHALMOLOGICAL examination for retinal haemorrhages, as directed by the paediatric team** (*why:* identifies occult fractures of different ages and abusive head trauma; *what:* the injury pattern). **Coagulation studies and bone biochemistry** (*why:* excludes the medical differentials, which should be considered in parallel with — not instead of — the safeguarding response; *what:* bleeding disorder, metabolic bone disease). **Assessment for NON-FATAL STRANGULATION where family violence is disclosed** (*why:* it is a major predictor of subsequent homicide AND causes delayed airway and neurological injury; *what:* the history, and the physical findings). **HIV POST-EXPOSURE PROPHYLAXIS assessment immediately after sexual assault** (*why:* the window is short and deferring it to follow-up loses the opportunity; *what:* eligibility). **CAPACITY ASSESSMENT, decision-specific, in suspected elder abuse** (*why:* it determines whether the person's own choice governs or a substitute framework applies; *what:* capacity for the specific decision). **REVIEW OF THE OTHER PEOPLE IN THE HOUSEHOLD** (*why:* siblings, other children and other dependent adults are at risk and are routinely not considered; *what:* who else is exposed).
@@ -221,4 +226,4 @@ source: built in chat, model knowledge, NOT source-verified
 ---
 
 > [!note] Cross-references
-> Consent, capacity and substitute decision-making → [[A10]] 0.1–0.3 · Preventive health and health assessments → [[GER3]] · Communication, difficult conversations and interpreters → [[GER5]] · Comprehensive geriatric assessment and carer support → [[GER1]] 0.3 · Dementia and behavioural symptoms → [[D2]] 0.3 · Non-accidental fractures and the developmental fit → [[L7]] 0.5 · Abusive head trauma and the collapsed infant → [[M1]] 0.4 and [[M3]] 0.5 · Congenital dermal melanocytosis and documentation → [[M3]] 0.6 · Growth faltering and neglect → [[M4]] 0.2 · Adolescent confidentiality and consent → [[M7]] 0.3 · Fabricated or induced illness → [[N6]] 0.6 · Trauma-informed practice and PTSD → [[N5]] 0.5 · Chronic pelvic pain and sexual violence → [[O5]] 0.4 · Reproductive coercion, contraception and emergency contraception → [[O6]] 0.3 · HIV post-exposure prophylaxis → [[K3]] 0.5 · Bleeding disorders in the differential → [[J3]] 0.2 and [[M3]] 0.3 · Violence in pregnancy → [[O2]] and [[O3]] · Aboriginal and Torres Strait Islander families, cultural safety and fear of removal → [[AU1]] 0.2–0.3 · Clinician support after distressing events → [[EBM1]] 0.6
+> Consent, capacity and substitute decision-making → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1–0.3 · Preventive health and health assessments → [[GER3_Preventive_and_Occupational_Health]] · Communication, difficult conversations and interpreters → [[GER5_Communication_and_Consultation_Skills]] · Comprehensive geriatric assessment and carer support → [[GER1_Comprehensive_Geriatric_Assessment]] 0.3 · Dementia and behavioural symptoms → [[D2_Altered_Consciousness_and_Cognition]] 0.3 · Non-accidental fractures and the developmental fit → [[L7_Fractures_and_Eponyms]] 0.5 · Abusive head trauma and the collapsed infant → [[M1_The_Seriously_Unwell_Child]] 0.4 and [[M3_Neonatal_Problems]] 0.5 · Congenital dermal melanocytosis and documentation → [[M3_Neonatal_Problems]] 0.6 · Growth faltering and neglect → [[M4_Growth_and_Development]] 0.2 · Adolescent confidentiality and consent → [[M7_Adolescent_and_Behavioural_Health]] 0.3 · Fabricated or induced illness → [[N6_Functional__Dissociative_and_Personality_Disorders]] 0.6 · Trauma-informed practice and PTSD → [[N5_Anxiety__OCD_and_Trauma]] 0.5 · Chronic pelvic pain and sexual violence → [[O5_Pelvic_and_Vulval_Conditions]] 0.4 · Reproductive coercion, contraception and emergency contraception → [[O6_Sexual_and_Reproductive_Health]] 0.3 · HIV post-exposure prophylaxis → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · Bleeding disorders in the differential → [[J3_Bleeding_and_Thrombosis]] 0.2 and [[M3_Neonatal_Problems]] 0.3 · Violence in pregnancy → [[O2_Later_Pregnancy_and_Fetal]] and [[O3_Labour__Delivery_and_Postpartum]] · Aboriginal and Torres Strait Islander families, cultural safety and fear of removal → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.2–0.3 · Clinician support after distressing events → [[EBM1_Evidence_and_Clinical_Process]] 0.6

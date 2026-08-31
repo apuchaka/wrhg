@@ -1,13 +1,18 @@
 ---
 block: Obstetrics
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Recognition, mechanism and discriminators are reliable at intern level. **Every dose, blood pressure threshold, gestational cut-off and regimen carries an `UNVERIFIED` marker, or has been omitted with the omission stated in place.** **Magnesium sulfate and antihypertensive regimens are protocol-driven and are not reproduced here.**
 > Verify against **RANZCOG**, the **SOMANZ hypertension in pregnancy guideline**, the **Safer Baby Bundle**, eTG and your local maternity protocols.
 >
-> **Early pregnancy is built in [[O1]]**, **labour and postpartum in [[O3]]**, and **trauma in pregnancy in [[L8]] 0.6** — cross-referenced rather than repeated.
+> **Early pregnancy is built in [[O1_Early_Pregnancy]]**, **labour and postpartum in [[O3_Labour__Delivery_and_Postpartum]]**, and **trauma in pregnancy in [[L8_Facial__Head_and_Torso_Trauma]] 0.6** — cross-referenced rather than repeated.
 
 ---
 
@@ -24,20 +29,20 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] The drugs — and the ones that must be stopped
 > **SAFE AND USED IN PREGNANCY: LABETALOL · METHYLDOPA · NIFEDIPINE · HYDRALAZINE (parenteral, for acute severe hypertension).**
 > **CONTRAINDICATED: ACE INHIBITORS AND ARBs — they cause fetal renal failure, oligohydramnios, pulmonary hypoplasia, skull ossification defects and fetal death.** **A woman of childbearing potential on an ACE inhibitor should know this and have a plan; a woman who presents pregnant on one needs it changed immediately.** **DIURETICS are generally avoided.**
-> Cross-refer [[B2]] 0.5 and [[O1]] 0.6. `UNVERIFIED — all doses and thresholds for treatment.`
+> Cross-refer [[B2_Hypertension_Spectrum]] 0.5 and [[O1_Early_Pregnancy]] 0.6. `UNVERIFIED — all doses and thresholds for treatment.`
 
 > [!warning] Three points that change management
 > **1. TREATING THE BLOOD PRESSURE DOES NOT TREAT PRE-ECLAMPSIA.**
 > **Antihypertensives prevent MATERNAL STROKE. They do NOT alter the underlying placental disease, do not protect the fetus, and do not remove the need for surveillance or delivery.** **A woman whose blood pressure has normalised on treatment still has pre-eclampsia and can still progress to eclampsia, HELLP or abruption.**
 > **2. SEVERE HYPERTENSION IN PREGNANCY IS AN EMERGENCY, AND THE RISK IS INTRACRANIAL HAEMORRHAGE.** **Maternal stroke from uncontrolled severe hypertension is a recognised and preventable cause of maternal death, and it is the reason acute severe hypertension is treated urgently rather than observed.**
 > **3. BLOOD PRESSURE OFTEN PEAKS SEVERAL DAYS AFTER DELIVERY — commonly around days three to five — WHICH IS AFTER MOST WOMEN HAVE GONE HOME.**
-> **Pre-eclampsia and eclampsia can present or worsen POSTPARTUM, sometimes weeks later.** **A woman presenting after delivery with headache, visual symptoms, epigastric pain or a seizure must have pre-eclampsia considered — and this is regularly missed because the pregnancy is thought to be over.** Cross-refer [[O3]].
+> **Pre-eclampsia and eclampsia can present or worsen POSTPARTUM, sometimes weeks later.** **A woman presenting after delivery with headache, visual symptoms, epigastric pain or a seizure must have pre-eclampsia considered — and this is regularly missed because the pregnancy is thought to be over.** Cross-refer [[O3_Labour__Delivery_and_Postpartum]].
 
 > [!danger] Hypertensive disease in pregnancy is a lifelong cardiovascular risk marker
 > **Women who have had pre-eclampsia or gestational hypertension have a substantially increased lifetime risk of chronic hypertension, ischaemic heart disease, stroke, chronic kidney disease and diabetes.**
 > **Pregnancy functions as a cardiovascular stress test that identifies women at risk decades before they would otherwise be detected.**
 > **AND THIS FOLLOW-UP IS ALMOST NEVER ARRANGED.** The woman is discharged from maternity care and the information is lost.
-> **THE ACTION: document it prominently in the discharge summary to the GP, tell the woman explicitly, and recommend lifelong cardiovascular risk assessment — blood pressure, lipids, glucose and lifestyle — starting in the years after the pregnancy rather than in her sixties.** Cross-refer [[GER3]] 0.2 and [[B2]] 0.1.
+> **THE ACTION: document it prominently in the discharge summary to the GP, tell the woman explicitly, and recommend lifelong cardiovascular risk assessment — blood pressure, lipids, glucose and lifestyle — starting in the years after the pregnancy rather than in her sixties.** Cross-refer [[GER3_Preventive_and_Occupational_Health]] 0.2 and [[B2_Hypertension_Spectrum]] 0.1.
 
 ---
 
@@ -108,8 +113,8 @@ source: built in chat, model knowledge, NOT source-verified
 > | Fetal condition | Usually well initially | **Distress or death is common** |
 > | Presentation | Often malpresentation, high head | Normal lie |
 > **THE CRITICAL POINT ABOUT ABRUPTION: THE BLEEDING MAY BE CONCEALED BEHIND THE PLACENTA.** **The visible loss can be minimal or absent while the woman is exsanguinating into the uterus — so SHOCK OUT OF PROPORTION TO VISIBLE BLEEDING IS THE HALLMARK, and resuscitation must be guided by the woman's physiology, not by what is on the pad.**
-> **Abruption risk factors: HYPERTENSION and pre-eclampsia · TRAUMA — including motor vehicle accidents and FAMILY VIOLENCE, which must be considered (cross-refer [[GER4]] 0.4 and [[L8]] 0.6) · SMOKING · cocaine and methamphetamine use · previous abruption · polyhydramnios and sudden decompression · and prolonged rupture of membranes.**
-> **Abruption also causes DIC**, which compounds the haemorrhage. Cross-refer [[A9]] 0.3.
+> **Abruption risk factors: HYPERTENSION and pre-eclampsia · TRAUMA — including motor vehicle accidents and FAMILY VIOLENCE, which must be considered (cross-refer [[GER4_Safeguarding_and_Forensic]] 0.4 and [[L8_Facial__Head_and_Torso_Trauma]] 0.6) · SMOKING · cocaine and methamphetamine use · previous abruption · polyhydramnios and sudden decompression · and prolonged rupture of membranes.**
+> **Abruption also causes DIC**, which compounds the haemorrhage. Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3.
 
 > [!danger] The rarer catastrophes, and the placenta accreta spectrum
 > **· VASA PRAEVIA — unprotected FETAL vessels running across the internal os.** **Rupture of the membranes tears them, and the blood lost is FETAL — so a relatively small volume causes rapid fetal exsanguination and death.** **The classic presentation is painless bleeding at the moment of membrane rupture with immediate, profound fetal bradycardia.** **It demands immediate delivery.**
@@ -119,7 +124,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!tip] Managing antepartum haemorrhage
 > **RESUSCITATE THE MOTHER FIRST — the fetus is best served by a well-perfused mother.**
 > **· Large-bore intravenous access, bloods including FBC, coagulation, GROUP AND CROSSMATCH, and Kleihauer where relevant.**
-> **· Activate the massive transfusion protocol if the bleeding is significant.** Cross-refer [[A9]] 0.1.
+> **· Activate the massive transfusion protocol if the bleeding is significant.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1.
 > **· LEFT LATERAL TILT or manual uterine displacement after about 20 weeks, to relieve aortocaval compression.**
 > **· ANTI-D for Rhesus-negative women.**
 > **· CTG for fetal assessment, and ultrasound for placental site.**
@@ -187,43 +192,43 @@ source: built in chat, model knowledge, NOT source-verified
 > **· GFR RISES → creatinine and urea FALL, so a "normal" creatinine in pregnancy may represent significant impairment.**
 > **· Reduced lower oesophageal sphincter tone and delayed gastric emptying → reflux, and ASPIRATION RISK at anaesthesia.**
 > **· Progesterone-driven hyperventilation → a compensated RESPIRATORY ALKALOSIS, so a "normal" pCO₂ in a breathless pregnant woman is abnormal and concerning.**
-> **· AORTOCAVAL COMPRESSION after about 20 weeks — the gravid uterus compresses the inferior vena cava when supine, and left lateral tilt or manual uterine displacement can restore a blood pressure on its own.** Cross-refer [[L8]] 0.6.
+> **· AORTOCAVAL COMPRESSION after about 20 weeks — the gravid uterus compresses the inferior vena cava when supine, and left lateral tilt or manual uterine displacement can restore a blood pressure on its own.** Cross-refer [[L8_Facial__Head_and_Torso_Trauma]] 0.6.
 
 > [!danger] Venous thromboembolism is a leading cause of direct maternal death
 > **Pregnancy and the postpartum period are hypercoagulable, and the puerperium carries the highest risk.**
 > **· ANTICOAGULATION IS WITH LOW MOLECULAR WEIGHT HEPARIN. Warfarin is teratogenic and DOACs are not used.**
 > **· RISK-ASSESS every woman antenatally, on admission and postnatally, and prescribe prophylaxis accordingly — including after caesarean, with hyperemesis, with immobility, and with obesity.**
-> **· DIAGNOSIS IS HARDER: breathlessness and leg swelling are common in normal pregnancy, D-dimer is unhelpful because it rises physiologically, and imaging decisions involve radiation counselling.** **The consequence is that the threshold for investigating must be LOWER, not higher — and imaging should not be withheld from a pregnant woman with suspected pulmonary embolism.** Cross-refer [[J3]] 0.4, 0.6.
+> **· DIAGNOSIS IS HARDER: breathlessness and leg swelling are common in normal pregnancy, D-dimer is unhelpful because it rises physiologically, and imaging decisions involve radiation counselling.** **The consequence is that the threshold for investigating must be LOWER, not higher — and imaging should not be withheld from a pregnant woman with suspected pulmonary embolism.** Cross-refer [[J3_Bleeding_and_Thrombosis]] 0.4, 0.6.
 
 > [!warning] The medical conditions that need active management
-> **· DIABETES — pre-existing and GESTATIONAL.** **Periconceptional glycaemic control determines congenital malformation risk; gestational diabetes causes macrosomia, shoulder dystocia, neonatal hypoglycaemia and hyperbilirubinaemia.** **AND THE FOLLOW-UP THAT IS ROUTINELY NOT ARRANGED: gestational diabetes confers a high lifetime risk of type 2 diabetes, requiring a POSTPARTUM GLUCOSE TOLERANCE TEST and then LIFELONG PERIODIC SCREENING.** **Put it in the discharge summary.** Cross-refer [[I2]] 0.1.
-> **· ASTHMA — frequently UNDER-TREATED in pregnancy because women and clinicians fear the medications.** **Uncontrolled asthma is far more dangerous to the fetus than inhaled corticosteroids are. Continue and optimise treatment.** Cross-refer [[F0.5]] 0.1.
-> **· EPILEPSY — requires pre-pregnancy planning, high-dose folate, and specialist medication review. Valproate must be avoided.** **Do not stop antiepileptics abruptly on discovering a pregnancy.** Cross-refer [[D6]] 0.3.
+> **· DIABETES — pre-existing and GESTATIONAL.** **Periconceptional glycaemic control determines congenital malformation risk; gestational diabetes causes macrosomia, shoulder dystocia, neonatal hypoglycaemia and hyperbilirubinaemia.** **AND THE FOLLOW-UP THAT IS ROUTINELY NOT ARRANGED: gestational diabetes confers a high lifetime risk of type 2 diabetes, requiring a POSTPARTUM GLUCOSE TOLERANCE TEST and then LIFELONG PERIODIC SCREENING.** **Put it in the discharge summary.** Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.1.
+> **· ASTHMA — frequently UNDER-TREATED in pregnancy because women and clinicians fear the medications.** **Uncontrolled asthma is far more dangerous to the fetus than inhaled corticosteroids are. Continue and optimise treatment.** Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.1.
+> **· EPILEPSY — requires pre-pregnancy planning, high-dose folate, and specialist medication review. Valproate must be avoided.** **Do not stop antiepileptics abruptly on discovering a pregnancy.** Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.3.
 > **· THYROID disease, cardiac disease, autoimmune disease and inflammatory bowel disease all need specialist co-management.**
-> **· MENTAL HEALTH — cross-refer [[N4]] 0.6 and [[O3]]. **The framing is treated illness versus untreated illness, and maternal suicide is a leading cause of maternal death.**
+> **· MENTAL HEALTH — cross-refer [[N4_Mood_Disorders]] 0.6 and [[O3_Labour__Delivery_and_Postpartum]]. **The framing is treated illness versus untreated illness, and maternal suicide is a leading cause of maternal death.**
 > **· ANAEMIA and iron deficiency — screen and treat, since it is common and affects both mother and baby.**
 
 > [!danger] The infections that matter, and the two that are rising in Australia
 > **· ASYMPTOMATIC BACTERIURIA IS TREATED IN PREGNANCY** — unlike in non-pregnant adults — because it progresses to pyelonephritis and is associated with preterm birth. **Screen at booking.**
-> **· GROUP B STREPTOCOCCUS — intrapartum antibiotic prophylaxis by screening or risk-based protocol, to prevent early-onset neonatal sepsis.** Cross-refer [[M2]] 0.2.
-> **· SYPHILIS — Australia has a sustained infectious syphilis OUTBREAK with CONGENITAL SYPHILIS CASES, including deaths.** **Congenital syphilis is entirely preventable by antenatal testing and treatment, and cases represent a system failure.** **Testing at booking, and RETESTING later in pregnancy in higher-prevalence settings, is the response.** Cross-refer [[O6]] 0.1 and [[AU1]] 0.4.
+> **· GROUP B STREPTOCOCCUS — intrapartum antibiotic prophylaxis by screening or risk-based protocol, to prevent early-onset neonatal sepsis.** Cross-refer [[M2_Fever_in_Children]] 0.2.
+> **· SYPHILIS — Australia has a sustained infectious syphilis OUTBREAK with CONGENITAL SYPHILIS CASES, including deaths.** **Congenital syphilis is entirely preventable by antenatal testing and treatment, and cases represent a system failure.** **Testing at booking, and RETESTING later in pregnancy in higher-prevalence settings, is the response.** Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.1 and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4.
 > **· HIV — antenatal testing with treatment reduces mother-to-child transmission to very low levels. Universal offer of testing is standard.**
 > **· HEPATITIS B — maternal screening allows the neonate to receive immunoglobulin and vaccination at birth, preventing chronic infection. This is time-critical in the first hours of life.**
 > **· CYTOMEGALOVIRUS — the commonest infectious cause of congenital disability, including sensorineural hearing loss, and frequently unrecognised. Hygiene advice for pregnant women with young children is the main preventive measure.**
 > **· TOXOPLASMOSIS and LISTERIA — food and cat litter advice.**
-> **· PARVOVIRUS B19 — fetal anaemia and HYDROPS.** Cross-refer [[J2]] 0.1.
+> **· PARVOVIRUS B19 — fetal anaemia and HYDROPS.** Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]] 0.1.
 > **· VARICELLA — significantly more severe in pregnancy, with maternal pneumonia; VZIG for susceptible exposed women, and neonatal risk with peripartum infection.**
-> **· INFLUENZA and COVID-19 — both cause MORE SEVERE disease in pregnancy, with increased ICU admission and preterm birth.** **Vaccination in pregnancy is recommended and protects both mother and infant.** Cross-refer [[GER3]] 0.4.
+> **· INFLUENZA and COVID-19 — both cause MORE SEVERE disease in pregnancy, with increased ICU admission and preterm birth.** **Vaccination in pregnancy is recommended and protects both mother and infant.** Cross-refer [[GER3_Preventive_and_Occupational_Health]] 0.4.
 > **· And RUBELLA — check immunity at booking and vaccinate POSTPARTUM (it is a live vaccine and is not given in pregnancy).**
 
 > [!tip] Prescribing in pregnancy
 > **THE DEFAULT ERROR IS WITHHOLDING NECESSARY TREATMENT.** **Most medicines are compatible with pregnancy, and the risk of untreated maternal illness — asthma, epilepsy, depression, infection, thromboembolism — usually exceeds the risk of the drug.**
 > **Product information is written defensively and is a poor guide.** **Use a specialist obstetric medicines information service, which every state has, and consult early rather than stopping a drug reflexively when a woman announces a pregnancy.**
-> **And take the opportunity of preconception planning wherever a woman of childbearing potential is on a teratogen — the decision is far better made before conception than after.** Cross-refer [[O1]] 0.6.
+> **And take the opportunity of preconception planning wherever a woman of childbearing potential is on a teratogen — the decision is far better made before conception than after.** Cross-refer [[O1_Early_Pregnancy]] 0.6.
 
 **Ix:** **BLOOD PRESSURE AND URINE DIPSTICK in every pregnant or recently pregnant woman with headache, visual symptoms, epigastric pain, vomiting or swelling** (*why:* epigastric pain is attributed to reflux while severe pre-eclampsia progresses; *what:* hypertension, proteinuria). **FBC, UEC, LFT, urate and coagulation in suspected pre-eclampsia** (*why:* the diagnosis no longer requires proteinuria and is made on organ dysfunction — thrombocytopenia and transaminitis identify HELLP; *what:* the organ involvement). **DEEP TENDON REFLEXES, RESPIRATORY RATE and URINE OUTPUT during magnesium infusion** (*why:* loss of reflexes is the earliest sign of toxicity and precedes respiratory depression; *what:* toxicity). **NO DIGITAL VAGINAL EXAMINATION in antepartum haemorrhage until the placental site is known, and none in PPROM** (*why:* it can precipitate catastrophic haemorrhage in praevia and introduces infection in PPROM; *what:* avoided harm). **CTG and ultrasound for EVERY report of reduced fetal movements** (*why:* it is associated with stillbirth and telephone reassurance features in stillbirth reviews; *what:* fetal wellbeing, growth, liquor). **GROUP AND CROSSMATCH, Kleihauer and ANTI-D in any bleeding after 20 weeks in a Rhesus-negative woman** (*why:* sensitisation affects future pregnancies; *what:* Rhesus status and the volume of fetomaternal haemorrhage). **A LOWER threshold for imaging suspected pulmonary embolism in pregnancy** (*why:* D-dimer is uninterpretable, symptoms overlap with normal pregnancy, and VTE is a leading cause of maternal death; *what:* the embolus). **Booking infection screen with RETESTING for syphilis later in pregnancy in higher-prevalence settings** (*why:* congenital syphilis is entirely preventable and cases are rising in Australia; *what:* treponemal serology). **POSTPARTUM GLUCOSE TOLERANCE TEST after gestational diabetes, documented in the discharge summary** (*why:* the lifetime type 2 diabetes risk is high and the follow-up is routinely lost; *what:* persistent glucose intolerance).
 
 ---
 
 > [!note] Cross-references
-> Early pregnancy, ectopic and preconception care → [[O1]] · Labour, delivery, postpartum haemorrhage and postnatal mental health → [[O3]] · Contraception and postpartum LARC → [[O6]] 0.3 · Hypertension and long-term cardiovascular risk → [[B2]] and [[GER3]] 0.2 · Massive haemorrhage, transfusion and DIC → [[A9]] 0.1, 0.3 · VTE, thrombophilia and antiphospholipid syndrome → [[J3]] 0.4, 0.6 · Diabetes and preconception glycaemic control → [[I2]] 0.1 · Asthma → [[F0.5]] 0.1 · Epilepsy and teratogenic medication → [[D6]] 0.3 · Perinatal mental health → [[N4]] 0.6 · Group B streptococcus and neonatal sepsis → [[M2]] 0.2 · Neonatal jaundice, hypoglycaemia and congenital heart disease → [[M3]] · Parvovirus and fetal anaemia → [[J2]] 0.1 · Syphilis and STI screening → [[O6]] 0.1 and [[AU1]] 0.4 · Immunisation in pregnancy → [[GER3]] 0.4 · Trauma in pregnancy and aortocaval compression → [[L8]] 0.6 · Family violence in pregnancy → [[GER4]] 0.4 · Breaking bad news and perinatal loss → [[GER5]] 0.2
+> Early pregnancy, ectopic and preconception care → [[O1_Early_Pregnancy]] · Labour, delivery, postpartum haemorrhage and postnatal mental health → [[O3_Labour__Delivery_and_Postpartum]] · Contraception and postpartum LARC → [[O6_Sexual_and_Reproductive_Health]] 0.3 · Hypertension and long-term cardiovascular risk → [[B2_Hypertension_Spectrum]] and [[GER3_Preventive_and_Occupational_Health]] 0.2 · Massive haemorrhage, transfusion and DIC → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1, 0.3 · VTE, thrombophilia and antiphospholipid syndrome → [[J3_Bleeding_and_Thrombosis]] 0.4, 0.6 · Diabetes and preconception glycaemic control → [[I2_Diabetes_and_Glucose_Disorders]] 0.1 · Asthma → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.1 · Epilepsy and teratogenic medication → [[D6_Seizures_and_Movement_Disorders]] 0.3 · Perinatal mental health → [[N4_Mood_Disorders]] 0.6 · Group B streptococcus and neonatal sepsis → [[M2_Fever_in_Children]] 0.2 · Neonatal jaundice, hypoglycaemia and congenital heart disease → [[M3_Neonatal_Problems]] · Parvovirus and fetal anaemia → [[J2_Haemoglobinopathy_and_Haemolysis]] 0.1 · Syphilis and STI screening → [[O6_Sexual_and_Reproductive_Health]] 0.1 and [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4 · Immunisation in pregnancy → [[GER3_Preventive_and_Occupational_Health]] 0.4 · Trauma in pregnancy and aortocaval compression → [[L8_Facial__Head_and_Torso_Trauma]] 0.6 · Family violence in pregnancy → [[GER4_Safeguarding_and_Forensic]] 0.4 · Breaking bad news and perinatal loss → [[GER5_Communication_and_Consultation_Skills]] 0.2

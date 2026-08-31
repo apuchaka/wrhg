@@ -1,12 +1,17 @@
 ---
 block: Haematology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Mechanism, patterns and discriminators are reliable at intern level. **Every dose, transfusion threshold, chelation regimen and screening interval carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG**, the **Australian Medicines Handbook**, and the **Thalassaemia and Sickle Cell Australia** / state haemoglobinopathy service protocols.
 >
-> **Cytopenias and the general anaemia approach are built in [[J1]]**, **TTP, HUS and DIC in [[J1]] 0.6 and [[A9]] 0.3**, and **malaria in [[K1]] 0.4** — cross-referenced rather than repeated.
+> **Cytopenias and the general anaemia approach are built in [[J1_Cytopenias_and_Marrow_Failure]]**, **TTP, HUS and DIC in [[J1_Cytopenias_and_Marrow_Failure]] 0.6 and [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3**, and **malaria in [[K1_Fever_Workup]] 0.4** — cross-referenced rather than repeated.
 
 ---
 
@@ -17,12 +22,12 @@ source: built in chat, model knowledge, NOT source-verified
 > **· LDH — RAISED (released from lysed cells).**
 > **· UNCONJUGATED BILIRUBIN — RAISED (haem breakdown exceeding conjugation capacity).**
 > **· HAPTOGLOBIN — LOW OR ABSENT (consumed binding free haemoglobin).**
-> **Haptoglobin is the most SPECIFIC of the four — but it is an ACUTE PHASE REACTANT, so it can be falsely normal in an inflamed patient**, which is the same trap as ferritin in iron deficiency. Cross-refer [[J1]] 0.2.
+> **Haptoglobin is the most SPECIFIC of the four — but it is an ACUTE PHASE REACTANT, so it can be falsely normal in an inflamed patient**, which is the same trap as ferritin in iron deficiency. Cross-refer [[J1_Cytopenias_and_Marrow_Failure]] 0.2.
 > **A raised LDH with a raised bilirubin and a low haptoglobin, in an anaemic patient with high reticulocytes, is haemolysis until proven otherwise.**
 
 > [!info] Intravascular versus extravascular — and what each looks like
 > **INTRAVASCULAR — red cells lysed within the circulation.**
-> **Features: HAEMOGLOBINAEMIA · HAEMOGLOBINURIA (dark or "cola" urine, with a dipstick POSITIVE FOR BLOOD but NO red cells on microscopy — cross-refer [[H1]] 0.1) · haemosiderinuria · a profoundly low haptoglobin · and schistocytes on the film.**
+> **Features: HAEMOGLOBINAEMIA · HAEMOGLOBINURIA (dark or "cola" urine, with a dipstick POSITIVE FOR BLOOD but NO red cells on microscopy — cross-refer [[H1_Haematuria_and_Proteinuria]] 0.1) · haemosiderinuria · a profoundly low haptoglobin · and schistocytes on the film.**
 > **Causes: microangiopathic haemolysis · ABO-incompatible transfusion reaction · paroxysmal nocturnal haemoglobinuria · mechanical valve haemolysis · severe G6PD crises · MALARIA · and clostridial sepsis.**
 > **EXTRAVASCULAR — red cells removed by the reticuloendothelial system, principally the spleen.**
 > **Features: SPLENOMEGALY · jaundice · SPHEROCYTES · a less dramatic haptoglobin fall · and no haemoglobinuria.**
@@ -43,7 +48,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **THE COMPLICATIONS OF ANY CHRONIC HAEMOLYSIS:**
 > **· PIGMENT GALLSTONES — from chronic bilirubin load. Common, and a cause of biliary presentations in these patients.**
 > **· FOLATE DEFICIENCY — from increased erythropoietic turnover. These patients need folate supplementation.**
-> **· APLASTIC CRISIS WITH PARVOVIRUS B19 — the virus infects erythroid precursors and shuts down production for a week or two. In someone with a normal red cell lifespan this is unnoticed; in someone whose cells survive days rather than months, the haemoglobin FALLS PRECIPITOUSLY.** **A sudden severe drop in haemoglobin with a LOW reticulocyte count in a chronic haemolytic patient is parvovirus B19 until proven otherwise.** Cross-refer [[M2]] 0.5.
+> **· APLASTIC CRISIS WITH PARVOVIRUS B19 — the virus infects erythroid precursors and shuts down production for a week or two. In someone with a normal red cell lifespan this is unnoticed; in someone whose cells survive days rather than months, the haemoglobin FALLS PRECIPITOUSLY.** **A sudden severe drop in haemoglobin with a LOW reticulocyte count in a chronic haemolytic patient is parvovirus B19 until proven otherwise.** Cross-refer [[M2_Fever_in_Children]] 0.5.
 > **· IRON OVERLOAD if regularly transfused.**
 > **· Leg ulcers, pulmonary hypertension, and extramedullary haematopoiesis in severe chronic cases.**
 
@@ -57,7 +62,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **THE LABORATORY CLUE: a RAISED MCHC — one of the few conditions that raises it, because the cell has lost membrane while retaining its haemoglobin content.**
 > **THE DISCRIMINATOR FROM AUTOIMMUNE HAEMOLYSIS: both show spherocytes, but the DAT IS NEGATIVE in hereditary spherocytosis and POSITIVE in warm AIHA.**
 > **Confirmed by EMA binding flow cytometry or osmotic fragility testing.**
-> **Management: FOLATE supplementation, monitoring, cholecystectomy for symptomatic gallstones, and SPLENECTOMY in severe disease — which requires prior VACCINATION against encapsulated organisms and lifelong antibiotic prophylaxis and awareness of overwhelming post-splenectomy infection.** Cross-refer [[K3]] 0.5.
+> **Management: FOLATE supplementation, monitoring, cholecystectomy for symptomatic gallstones, and SPLENECTOMY in severe disease — which requires prior VACCINATION against encapsulated organisms and lifelong antibiotic prophylaxis and awareness of overwhelming post-splenectomy infection.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5.
 
 > [!danger] G6PD deficiency — and the assay is falsely normal during the crisis
 > **X-linked, the commonest enzyme defect worldwide, with high prevalence in people of Mediterranean, African, Middle Eastern, South Asian and Southeast Asian ancestry.**
@@ -65,11 +70,11 @@ source: built in chat, model knowledge, NOT source-verified
 > **THE TRIGGERS:**
 > **· INFECTION — the commonest trigger of all, and the one most often forgotten.**
 > **· FAVA BEANS ("favism").**
-> **· DRUGS: PRIMAQUINE and tafenoquine · DAPSONE · NITROFURANTOIN · sulfonamides including co-trimoxazole · METHYLENE BLUE (which matters because it is the antidote for methaemoglobinaemia and is contraindicated here) · RASBURICASE (used in tumour lysis — cross-refer [[J5]]) · some quinolones · and nalidixic acid.**
+> **· DRUGS: PRIMAQUINE and tafenoquine · DAPSONE · NITROFURANTOIN · sulfonamides including co-trimoxazole · METHYLENE BLUE (which matters because it is the antidote for methaemoglobinaemia and is contraindicated here) · RASBURICASE (used in tumour lysis — cross-refer [[J5_Oncological_Emergencies_and_Palliative_Care]]) · some quinolones · and nalidixic acid.**
 > **· NAPHTHALENE mothballs.**
 > **THE TRAP: THE G6PD ASSAY IS FALSELY NORMAL DURING AN ACUTE HAEMOLYTIC EPISODE.** The most deficient cells have already been destroyed, and the reticulocytes replacing them have HIGHER enzyme levels.
 > **So a normal G6PD level taken during a crisis does not exclude the diagnosis — REPEAT IT WEEKS AFTER RECOVERY.**
-> **G6PD deficiency also causes NEONATAL JAUNDICE, sometimes severe, and should be considered in a jaundiced newborn of relevant ancestry.** Cross-refer [[M3]] 0.1.
+> **G6PD deficiency also causes NEONATAL JAUNDICE, sometimes severe, and should be considered in a jaundiced newborn of relevant ancestry.** Cross-refer [[M3_Neonatal_Problems]] 0.1.
 > **Management is avoidance of triggers, supportive care during a crisis, and a documented drug alert.**
 
 ---
@@ -103,17 +108,17 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] Schistocytes plus thrombocytopenia is an emergency until proven otherwise
 > **MICROANGIOPATHIC HAEMOLYTIC ANAEMIA — red cells sheared by fibrin strands or abnormal endothelium, producing SCHISTOCYTES, with consumption of platelets.**
 > **The differential, and it must be worked through quickly:**
-> **· TTP — plasma exchange is urgent and life-saving; DO NOT transfuse platelets.** Cross-refer [[J1]] 0.6.
-> **· HUS — typically following STEC diarrhoea in children; atypical HUS is complement-mediated.** Cross-refer [[M5]] 0.2.
-> **· DIC — with abnormal coagulation studies, which distinguishes it from TTP where the PT and APTT are typically NORMAL.** **That distinction is diagnostically useful and examinable.** Cross-refer [[A9]] 0.3.
-> **· PRE-ECLAMPSIA and HELLP SYNDROME — always consider pregnancy.** Cross-refer [[O2]].
+> **· TTP — plasma exchange is urgent and life-saving; DO NOT transfuse platelets.** Cross-refer [[J1_Cytopenias_and_Marrow_Failure]] 0.6.
+> **· HUS — typically following STEC diarrhoea in children; atypical HUS is complement-mediated.** Cross-refer [[M5_Paediatric_GI__GU_and_Limb]] 0.2.
+> **· DIC — with abnormal coagulation studies, which distinguishes it from TTP where the PT and APTT are typically NORMAL.** **That distinction is diagnostically useful and examinable.** Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3.
+> **· PRE-ECLAMPSIA and HELLP SYNDROME — always consider pregnancy.** Cross-refer [[O2_Later_Pregnancy_and_Fetal]].
 > **· MALIGNANT HYPERTENSION — check the blood pressure and the fundi.**
 > **· Disseminated malignancy, vasculitis, scleroderma renal crisis, and drugs.**
 > **A patient with anaemia, thrombocytopenia and fragments on the film needs a haematologist NOW, not in the morning.**
 
 > [!warning] The mechanical and infective causes
-> **· PROSTHETIC VALVE HAEMOLYSIS — mechanical shearing, and it is markedly worse with a PARAVALVULAR LEAK or valve dysfunction. New or worsening haemolysis in a patient with a mechanical valve should prompt an echocardiogram** — cross-refer [[B5]] 0.3.
-> **· MALARIA — cross-refer [[K1]] 0.4. FEVER PLUS HAEMOLYSIS IN A RETURNED TRAVELLER IS MALARIA UNTIL THICK AND THIN FILMS SAY OTHERWISE.** Falciparum can cause massive intravascular haemolysis ("blackwater fever") and is a medical emergency.
+> **· PROSTHETIC VALVE HAEMOLYSIS — mechanical shearing, and it is markedly worse with a PARAVALVULAR LEAK or valve dysfunction. New or worsening haemolysis in a patient with a mechanical valve should prompt an echocardiogram** — cross-refer [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.3.
+> **· MALARIA — cross-refer [[K1_Fever_Workup]] 0.4. FEVER PLUS HAEMOLYSIS IN A RETURNED TRAVELLER IS MALARIA UNTIL THICK AND THIN FILMS SAY OTHERWISE.** Falciparum can cause massive intravascular haemolysis ("blackwater fever") and is a medical emergency.
 > **· March haemoglobinuria** — after prolonged running or marching.
 > **· Snake envenomation, burns, near-drowning.**
 
@@ -122,7 +127,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **The triad: HAEMOLYSIS (intravascular, with haemoglobinuria — often most obvious in the morning) · THROMBOSIS, characteristically in UNUSUAL SITES including HEPATIC VEINS (Budd-Chiari syndrome), portal, cerebral and dermal veins · and CYTOPENIAS with marrow failure.**
 > **THROMBOSIS IS THE LEADING CAUSE OF DEATH.**
 > **THINK OF IT IN: unexplained intravascular haemolysis · thrombosis at an unusual site, particularly hepatic vein thrombosis · and unexplained cytopenias or aplastic anaemia.**
-> **Diagnosed by FLOW CYTOMETRY (not by the old Ham test).** Treated with complement inhibitors such as eculizumab — **which require MENINGOCOCCAL VACCINATION and prophylaxis, because blocking terminal complement creates a specific and serious risk of meningococcal disease.** Cross-refer [[K3]] 0.5.
+> **Diagnosed by FLOW CYTOMETRY (not by the old Ham test).** Treated with complement inhibitors such as eculizumab — **which require MENINGOCOCCAL VACCINATION and prophylaxis, because blocking terminal complement creates a specific and serious risk of meningococcal disease.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5.
 
 ---
 
@@ -149,8 +154,8 @@ source: built in chat, model knowledge, NOT source-verified
 > **· STROKE — a significant risk in children.** **TRANSCRANIAL DOPPLER SCREENING identifies children at high risk, and regular transfusion programmes substantially reduce stroke incidence** — one of the clearest preventive successes in the condition.
 > **· ACUTE SPLENIC SEQUESTRATION — in young children, with rapid splenic enlargement, a precipitous fall in haemoglobin and hypovolaemic shock.** **Parents are taught to palpate the spleen.** **A life-threatening emergency requiring urgent transfusion.**
 > **· APLASTIC CRISIS — PARVOVIRUS B19, with a falling haemoglobin and LOW reticulocytes.**
-> **· PRIAPISM — an emergency requiring urgent urological management.** Cross-refer [[H4]] 0.3.
-> **· INFECTION — these patients are FUNCTIONALLY ASPLENIC from repeated splenic infarction, and are at risk of overwhelming infection with ENCAPSULATED ORGANISMS.** **They require vaccination and penicillin prophylaxis, and FEVER IN A SICKLE CELL PATIENT IS AN EMERGENCY requiring prompt assessment and antibiotics.** Cross-refer [[K3]] 0.5.
+> **· PRIAPISM — an emergency requiring urgent urological management.** Cross-refer [[H4_Scrotum__Groin_and_Loin]] 0.3.
+> **· INFECTION — these patients are FUNCTIONALLY ASPLENIC from repeated splenic infarction, and are at risk of overwhelming infection with ENCAPSULATED ORGANISMS.** **They require vaccination and penicillin prophylaxis, and FEVER IN A SICKLE CELL PATIENT IS AN EMERGENCY requiring prompt assessment and antibiotics.** Cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5.
 
 > [!tip] Chronic complications and long-term management
 > **· AVASCULAR NECROSIS — particularly the femoral head. Hip pain in a sickle cell patient warrants imaging.**
@@ -166,7 +171,7 @@ source: built in chat, model knowledge, NOT source-verified
 **The severe anaemia drives marrow expansion, which produces the skeletal changes, and drives increased gut iron absorption, which contributes to overload even without transfusion.**
 
 > [!tip] Beta thalassaemia — the spectrum
-> **· BETA THALASSAEMIA MINOR (trait) — asymptomatic microcytosis with a normal or near-normal haemoglobin, a normal ferritin, and a RAISED HbA2 on electrophoresis.** **The key clinical action is NOT giving iron and DOING genetic counselling.** Cross-refer [[J1]] 0.2.
+> **· BETA THALASSAEMIA MINOR (trait) — asymptomatic microcytosis with a normal or near-normal haemoglobin, a normal ferritin, and a RAISED HbA2 on electrophoresis.** **The key clinical action is NOT giving iron and DOING genetic counselling.** Cross-refer [[J1_Cytopenias_and_Marrow_Failure]] 0.2.
 > **· BETA THALASSAEMIA MAJOR — presents AFTER ABOUT SIX MONTHS OF AGE, as fetal haemoglobin declines and the defective beta chain production is unmasked.** **This delayed presentation is characteristic and examinable.**
 > **Features: severe transfusion-dependent anaemia · failure to thrive · HEPATOSPLENOMEGALY · and the skeletal changes of EXTRAMEDULLARY HAEMATOPOIESIS — frontal bossing, maxillary overgrowth ("chipmunk facies"), and a "HAIR-ON-END" appearance of the skull on radiograph.**
 > **· BETA THALASSAEMIA INTERMEDIA — an intermediate phenotype, not regularly transfusion-dependent but with significant complications.**
@@ -185,7 +190,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· CARDIAC — iron cardiomyopathy and ARRHYTHMIA. THIS IS THE COMMONEST CAUSE OF DEATH in transfusion-dependent thalassaemia.**
 > **· ENDOCRINE — diabetes mellitus, HYPOGONADISM (with delayed or absent puberty and infertility), hypothyroidism, hypoparathyroidism, growth failure, and osteoporosis.**
 > **· HEPATIC — fibrosis and cirrhosis.**
-> **IRON CHELATION IS THEREFORE ESSENTIAL AND LIFELONG**, and adherence to it is the main determinant of survival — which makes it a major focus of adolescent and transition care, where adherence typically falters. Cross-refer [[M7]] 0.4.
+> **IRON CHELATION IS THEREFORE ESSENTIAL AND LIFELONG**, and adherence to it is the main determinant of survival — which makes it a major focus of adolescent and transition care, where adherence typically falters. Cross-refer [[M7_Adolescent_and_Behavioural_Health]] 0.4.
 > **Monitoring: serum ferritin (imperfect), and CARDIAC AND HEPATIC MRI (T2*), which measures tissue iron directly and is far more informative than ferritin alone.**
 > **`UNVERIFIED — chelating agents, doses, monitoring intervals and ferritin targets.`**
 
@@ -200,4 +205,4 @@ source: built in chat, model knowledge, NOT source-verified
 ---
 
 > [!note] Cross-references
-> The anaemia framework, thalassaemia trait and TTP/HIT → [[J1]] 0.1–0.2, 0.6 · Bleeding, thrombosis and anticoagulation → [[J3]] · Myeloma, leukaemia and lymphoma → [[J4]] · Tumour lysis and rasburicase → [[J5]] · Transfusion, DIC and massive haemorrhage → [[A9]] 0.1–0.3 · Malaria and the returned traveller → [[K1]] 0.4 · Asplenia, vaccination and prophylaxis → [[K3]] 0.5 · Haemoglobinuria versus haematuria → [[H1]] 0.1 · Prosthetic valve dysfunction → [[B5]] 0.3 · Priapism → [[H4]] 0.3 · Neonatal jaundice and G6PD → [[M3]] 0.1 · Parvovirus B19 → [[M2]] 0.5 · Haemolytic uraemic syndrome → [[M5]] 0.2 · HELLP and pregnancy → [[O2]] · Transition and adherence in adolescence → [[M7]] 0.4 · Gallstones → [[C3]] 0.4
+> The anaemia framework, thalassaemia trait and TTP/HIT → [[J1_Cytopenias_and_Marrow_Failure]] 0.1–0.2, 0.6 · Bleeding, thrombosis and anticoagulation → [[J3_Bleeding_and_Thrombosis]] · Myeloma, leukaemia and lymphoma → [[J4_Paraproteins_and_Lymphoproliferative]] · Tumour lysis and rasburicase → [[J5_Oncological_Emergencies_and_Palliative_Care]] · Transfusion, DIC and massive haemorrhage → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1–0.3 · Malaria and the returned traveller → [[K1_Fever_Workup]] 0.4 · Asplenia, vaccination and prophylaxis → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.5 · Haemoglobinuria versus haematuria → [[H1_Haematuria_and_Proteinuria]] 0.1 · Prosthetic valve dysfunction → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.3 · Priapism → [[H4_Scrotum__Groin_and_Loin]] 0.3 · Neonatal jaundice and G6PD → [[M3_Neonatal_Problems]] 0.1 · Parvovirus B19 → [[M2_Fever_in_Children]] 0.5 · Haemolytic uraemic syndrome → [[M5_Paediatric_GI__GU_and_Limb]] 0.2 · HELLP and pregnancy → [[O2_Later_Pregnancy_and_Fetal]] · Transition and adherence in adolescence → [[M7_Adolescent_and_Behavioural_Health]] 0.4 · Gallstones → [[C3_Jaundice_and_Liver_Disease]] 0.4

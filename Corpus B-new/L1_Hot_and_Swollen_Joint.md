@@ -1,6 +1,11 @@
 ---
 block: Musculoskeletal / Orthopaedics / Rheumatology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
@@ -31,7 +36,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Crystal arthropathy** — gout, calcium pyrophosphate deposition.
 > **· Haemarthrosis** — trauma, bleeding disorder, anticoagulation.
 > **· Trauma and intra-articular fracture.**
-> **· First presentation of an inflammatory arthritis** — rheumatoid, psoriatic, spondyloarthritis, reactive. Cross-refer [[L2]].
+> **· First presentation of an inflammatory arthritis** — rheumatoid, psoriatic, spondyloarthritis, reactive. Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]].
 > **· Reactive arthritis** — post-enteric or post-urogenital.
 > **· Osteoarthritis with an effusion** — usually less inflamed and more chronic.
 > **· Periarticular** — bursitis, cellulitis, tenosynovitis.
@@ -61,7 +66,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] Disseminated gonococcal infection looks different, and is missed
 > **Rather than a single hot joint, it typically causes a MIGRATORY POLYARTHRALGIA with TENOSYNOVITIS (classically of the wrists, hands and ankles) and a sparse PUSTULAR or vesiculopustular RASH** — the "arthritis-dermatitis syndrome" — before, or instead of, settling into a frank purulent monoarthritis.
 > **Synovial fluid cultures are frequently NEGATIVE**, so **the diagnosis requires NAAT testing of genital, rectal and pharyngeal sites even in the absence of genitourinary symptoms**, plus blood cultures.
-> **Consider it in every sexually active young person with an inflammatory arthritis**, and take a sexual history. Cross-refer [[O6]] 0.2.
+> **Consider it in every sexually active young person with an inflammatory arthritis**, and take a sexual history. Cross-refer [[O6_Sexual_and_Reproductive_Health]] 0.2.
 
 > [!danger] Fever is absent in a substantial proportion — and immunosuppression masks everything
 > **The absence of fever does NOT exclude septic arthritis**, and neither does a normal white cell count or a normal CRP, particularly early.
@@ -80,7 +85,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] In children — the hip, and the score
 > **Septic arthritis of the hip in a child is a surgical emergency**: the femoral head's blood supply is intracapsular, and raised intra-articular pressure causes avascular necrosis.
 > **The differential from transient synovitis is the classic problem**, and the **Kocher criteria** (fever, non-weight-bearing, raised ESR, raised white cell count) stratify the probability. `UNVERIFIED — the criteria and their thresholds.`
-> **A child who refuses to weight bear needs the hip and the whole limb examined, and considered for aspiration** — cross-refer [[M5]].
+> **A child who refuses to weight bear needs the hip and the whole limb examined, and considered for aspiration** — cross-refer [[M5_Paediatric_GI__GU_and_Limb]].
 
 **S/Smx:** Acute onset of a hot, swollen, exquisitely painful joint with **marked restriction of both active and passive movement**, often held in the position of maximal capsular volume (hip in flexion, abduction and external rotation). Fever and systemic upset variably present.
 
@@ -113,7 +118,7 @@ Physiotherapy and rehabilitation — **joint stiffness and functional loss after
 > [!warning] The Australian and New Zealand epidemiology
 > **Gout prevalence is substantially higher, with earlier onset and more severe disease, among Aboriginal and Torres Strait Islander peoples and among Māori and Pacific Islander peoples.**
 > **It is also markedly under-treated in these groups** — with acute attacks managed repeatedly and urate-lowering therapy never started, which is the intervention that actually prevents recurrence and joint damage.
-> **This is a genuine equity gap and a concrete thing to get right.** Cross-refer [[AU1]].
+> **This is a genuine equity gap and a concrete thing to get right.** Cross-refer [[AU1_Australian_Health_Context_and_ATSI_Health]].
 
 > [!danger] The conceptual shift: gout is a chronic disease of urate deposition, not a series of attacks
 > **Treating each flare and stopping there leaves the underlying urate burden untouched, and the disease progresses to tophi, erosive damage and chronic arthropathy.**
@@ -124,7 +129,7 @@ Physiotherapy and rehabilitation — **joint stiffness and functional loss after
 
 > [!warning] Allopurinol hypersensitivity and HLA-B*5801
 > **Allopurinol can cause severe cutaneous adverse reactions including DRESS and SJS/TEN**, with significant mortality.
-> **The risk is strongly associated with the HLA-B\*5801 allele, which is markedly more prevalent in people of Han Chinese, Thai and Korean ancestry** — and **pre-treatment testing is recommended in those populations.** Cross-refer [[A5]] 0.6.
+> **The risk is strongly associated with the HLA-B\*5801 allele, which is markedly more prevalent in people of Han Chinese, Thai and Korean ancestry** — and **pre-treatment testing is recommended in those populations.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6.
 > **Starting at a low dose and titrating slowly also reduces the risk.** `UNVERIFIED — the populations in whom testing is recommended and the current Australian advice.`
 
 > [!tip] Acute treatment — choose by comorbidity
@@ -136,7 +141,7 @@ Physiotherapy and rehabilitation — **joint stiffness and functional loss after
 > [!tip] Calcium pyrophosphate deposition (pseudogout)
 > **Older patients, most often the KNEE and WRIST.** **Chondrocalcinosis on radiographs** — linear calcification of cartilage and menisci — supports it, though it is common in the elderly and does not by itself prove the joint is inflamed by crystals.
 > **Crystals: rhomboid or rod-shaped, POSITIVELY birefringent** — as opposed to gout's needle-shaped, NEGATIVELY birefringent crystals.
-> **In a YOUNGER patient with CPPD, screen for a metabolic cause: HYPERPARATHYROIDISM, HAEMOCHROMATOSIS, hypomagnesaemia, and hypophosphatasia.** **This is the point most often missed** — CPPD in someone under about 55 should prompt calcium, PTH, iron studies and magnesium. Cross-refer [[I3]].
+> **In a YOUNGER patient with CPPD, screen for a metabolic cause: HYPERPARATHYROIDISM, HAEMOCHROMATOSIS, hypomagnesaemia, and hypophosphatasia.** **This is the point most often missed** — CPPD in someone under about 55 should prompt calcium, PTH, iron studies and magnesium. Cross-refer [[I3_Calcium__Parathyroid_and_Bone]].
 > Treatment is symptomatic — there is no equivalent of urate-lowering therapy.
 
 **Ix:** **Joint aspiration with polarised light microscopy** (*why:* definitive, and simultaneously excludes infection; *what:* crystal type and birefringence, plus cell count and culture). **Serum urate — several weeks AFTER the acute attack** (*why:* acute levels mislead in both directions; *what:* steady-state urate to guide therapy). UEC and eGFR (*why:* determines drug choice and dosing for both acute and urate-lowering therapy; *what:* renal function). **Medication review** (*why:* diuretics, aspirin and immunosuppressants precipitate gout and may be changeable; *what:* culprit drugs). Radiographs (*why:* erosions with overhanging edges in chronic gout, and chondrocalcinosis in CPPD; *what:* structural change). **In CPPD under about 55: calcium, PTH, magnesium, iron studies and ferritin, and ALP** (*why:* screens for hyperparathyroidism, haemochromatosis, hypomagnesaemia and hypophosphatasia; *what:* the metabolic cause). **HLA-B\*5801 in relevant populations before allopurinol** (*why:* severe cutaneous adverse reaction risk; *what:* allele presence). Cardiovascular and metabolic risk assessment (*why:* gout clusters with hypertension, chronic kidney disease, obesity and cardiovascular disease, and is an independent risk marker; *what:* comorbidity).
@@ -165,18 +170,18 @@ Acute anti-inflammatory therapy chosen by comorbidity. **Aspirate first if sepsi
 > [!danger] Haemophilia — give factor before imaging
 > **In a person with haemophilia, a haemarthrosis is treated by giving FACTOR REPLACEMENT IMMEDIATELY, on clinical suspicion, before radiographs, before aspiration, and before waiting for a specialist opinion.**
 > **Delay causes progressive joint damage.** Recurrent bleeds into the same "target joint" produce synovial hypertrophy and **haemophilic arthropathy** with permanent destruction.
-> **Aspiration is generally avoided in haemophilia** unless there is a specific indication, and only after adequate factor cover. Cross-refer [[J3]].
+> **Aspiration is generally avoided in haemophilia** unless there is a specific indication, and only after adequate factor cover. Cross-refer [[J3_Bleeding_and_Thrombosis]].
 
 > [!tip] The other causes
 > **· Anticoagulant therapy**, particularly with supratherapeutic levels or after minor trauma.
 > **· Other bleeding disorders** — von Willebrand disease, thrombocytopenia.
 > **· Pigmented villonodular synovitis** — recurrent atraumatic haemarthrosis, often of the knee, in a young adult, with characteristic MRI appearances.
-> **· Neuropathic (Charcot) joint** — cross-refer [[I2]] 0.6.
+> **· Neuropathic (Charcot) joint** — cross-refer [[I2_Diabetes_and_Glucose_Disorders]] 0.6.
 > **· Synovial haemangioma and other vascular lesions.**
 > **· Tumour.**
 > **Recurrent atraumatic haemarthrosis in a young person without a bleeding disorder needs MRI** — it is not a normal event.
 
-**Ix:** **Aspiration** (*why:* confirms blood, relieves a painful tense effusion, and **the presence of fat globules indicates fracture**; *what:* frank blood, fat globules). **Plain radiographs including a horizontal-beam lateral where feasible** (*why:* fracture and the fat-fluid level; *what:* fracture, lipohaemarthrosis). **MRI** (*why:* the investigation of choice for ligamentous, meniscal and osteochondral injury and for synovial pathology, which radiographs miss entirely; *what:* ACL rupture, meniscal tear, bone bruising, synovial disease). **Coagulation screen, platelets, and factor assays where a bleeding disorder is suspected** (*why:* atraumatic or disproportionate haemarthrosis; *what:* the disorder — cross-refer [[A9]] 0.3). Review of anticoagulation and INR (*why:* over-anticoagulation; *what:* supratherapeutic level).
+**Ix:** **Aspiration** (*why:* confirms blood, relieves a painful tense effusion, and **the presence of fat globules indicates fracture**; *what:* frank blood, fat globules). **Plain radiographs including a horizontal-beam lateral where feasible** (*why:* fracture and the fat-fluid level; *what:* fracture, lipohaemarthrosis). **MRI** (*why:* the investigation of choice for ligamentous, meniscal and osteochondral injury and for synovial pathology, which radiographs miss entirely; *what:* ACL rupture, meniscal tear, bone bruising, synovial disease). **Coagulation screen, platelets, and factor assays where a bleeding disorder is suspected** (*why:* atraumatic or disproportionate haemarthrosis; *what:* the disorder — cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3). Review of anticoagulation and INR (*why:* over-anticoagulation; *what:* supratherapeutic level).
 
 ### 0.4.1 Mx – Immediate
 **Factor replacement first in haemophilia.** Analgesia, aspiration for a tense painful effusion, immobilisation and elevation.
@@ -185,7 +190,7 @@ Acute anti-inflammatory therapy chosen by comorbidity. **Aspirate first if sepsi
 Orthopaedic management of the underlying injury. Reversal or adjustment of anticoagulation where appropriate.
 
 ### 0.4.3 Mx – Chronic/long-term
-Physiotherapy and rehabilitation. **In haemophilia, prophylactic factor regimens prevent target joint arthropathy** and are the standard of care — cross-refer [[J3]].
+Physiotherapy and rehabilitation. **In haemophilia, prophylactic factor regimens prevent target joint arthropathy** and are the standard of care — cross-refer [[J3_Bleeding_and_Thrombosis]].
 
 ---
 
@@ -194,17 +199,17 @@ Physiotherapy and rehabilitation. **In haemophilia, prophylactic factor regimens
 > [!tip] Reactive arthritis
 > **An asymmetrical, predominantly lower limb oligoarthritis developing days to weeks AFTER an infection at a distant site** — **enteric (*Salmonella*, *Shigella*, *Campylobacter*, *Yersinia*) or urogenital (*Chlamydia trachomatis*).** The joint itself is sterile.
 > **Associated features that support it: ENTHESITIS (particularly Achilles insertion and plantar fascia), DACTYLITIS ("sausage digit"), conjunctivitis or uveitis, urethritis, and the mucocutaneous features — circinate balanitis and keratoderma blennorrhagicum.**
-> **HLA-B27 associated**, and it sits within the spondyloarthritis family. Cross-refer [[L2]].
+> **HLA-B27 associated**, and it sits within the spondyloarthritis family. Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]].
 > **Ask about diarrhoea or a genitourinary infection in the preceding month** — the patient will not volunteer it because they consider it resolved and unrelated.
 
 > [!danger] Non-mechanical pain, night pain and rest pain in a young person
 > **Pain that is worse at night, present at rest, unrelated to activity, and progressive — particularly around the knee or proximal humerus in an adolescent or young adult — is BONE MALIGNANCY until proven otherwise.**
 > **Osteosarcoma and Ewing sarcoma present this way**, and they are frequently attributed to sporting injury or growing pains for months.
-> **A plain radiograph is the first step and is usually abnormal**, and any concerning lesion should be referred to a specialist sarcoma service **before biopsy** — cross-refer [[B6]] 0.8.
+> **A plain radiograph is the first step and is usually abnormal**, and any concerning lesion should be referred to a specialist sarcoma service **before biopsy** — cross-refer [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8.
 
 > [!tip] The rest
-> **· First presentation of an inflammatory arthritis** — rheumatoid, psoriatic or axial spondyloarthritis may begin as a monoarthritis. **Look for the extra-articular clues: psoriasis (including scalp, natal cleft and nails), inflammatory back pain, family history, uveitis, inflammatory bowel symptoms.** Cross-refer [[L2]].
-> **· Viral arthritis** — **parvovirus B19** (with a symmetrical small-joint arthritis in adults, often after contact with a child with slapped cheek), hepatitis B and C, and **Ross River and Barmah Forest virus in Australia, which cause a prolonged and disabling polyarthralgia** — cross-refer [[K3]] 0.6.
+> **· First presentation of an inflammatory arthritis** — rheumatoid, psoriatic or axial spondyloarthritis may begin as a monoarthritis. **Look for the extra-articular clues: psoriasis (including scalp, natal cleft and nails), inflammatory back pain, family history, uveitis, inflammatory bowel symptoms.** Cross-refer [[L2_Polyarthralgia_and_Inflammatory_Arthritis]].
+> **· Viral arthritis** — **parvovirus B19** (with a symmetrical small-joint arthritis in adults, often after contact with a child with slapped cheek), hepatitis B and C, and **Ross River and Barmah Forest virus in Australia, which cause a prolonged and disabling polyarthralgia** — cross-refer [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.6.
 > **· Osteoarthritis with an acute effusion** — usually less inflamed, in a joint with pre-existing radiographic change, and frequently a flare after unaccustomed activity.
 > **· Avascular necrosis** — hip most commonly, with risk factors of corticosteroids, alcohol, sickle cell disease, trauma and radiotherapy. **Radiographs are normal early; MRI is the test.**
 > **· Osteomyelitis and discitis.**
@@ -261,4 +266,4 @@ Determined by the fluid and the clinical picture.
 ---
 
 > [!note] Cross-references
-> Polyarthralgia and inflammatory arthritis → [[L2]] · Muscle symptoms and widespread pain → [[L3]] · Regional limb pain → [[L5]] · Cellulitis and pseudocellulitis → [[K2]] 0.1 · Fever workup → [[K1]] · Disseminated gonococcal infection and STI testing → [[O6]] 0.2 · Ross River and vector-borne arthritis → [[K3]] 0.6 · Bleeding disorders and haemophilia → [[A9]] 0.3 and [[J3]] · Calcium, PTH and haemochromatosis in CPPD → [[I3]] · Charcot joint and the diabetic foot → [[I2]] 0.6 · Allopurinol hypersensitivity and SCARs → [[A5]] 0.6 · Sarcoma referral before biopsy → [[B6]] 0.8 · Paediatric limp and hip → [[M5]] · Aboriginal and Torres Strait Islander health and gout equity → [[AU1]]
+> Polyarthralgia and inflammatory arthritis → [[L2_Polyarthralgia_and_Inflammatory_Arthritis]] · Muscle symptoms and widespread pain → [[L3_Muscle_Symptoms_and_Widespread_Pain]] · Regional limb pain → [[L5_Regional_Limb_Pain]] · Cellulitis and pseudocellulitis → [[K2_Skin_and_Soft_Tissue_Infection]] 0.1 · Fever workup → [[K1_Fever_Workup]] · Disseminated gonococcal infection and STI testing → [[O6_Sexual_and_Reproductive_Health]] 0.2 · Ross River and vector-borne arthritis → [[K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency]] 0.6 · Bleeding disorders and haemophilia → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3 and [[J3_Bleeding_and_Thrombosis]] · Calcium, PTH and haemochromatosis in CPPD → [[I3_Calcium__Parathyroid_and_Bone]] · Charcot joint and the diabetic foot → [[I2_Diabetes_and_Glucose_Disorders]] 0.6 · Allopurinol hypersensitivity and SCARs → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.6 · Sarcoma referral before biopsy → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.8 · Paediatric limp and hip → [[M5_Paediatric_GI__GU_and_Limb]] · Aboriginal and Torres Strait Islander health and gout equity → [[AU1_Australian_Health_Context_and_ATSI_Health]]

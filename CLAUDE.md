@@ -70,6 +70,36 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
      noticed — `ASCIA` inside `fascia` on 33 lines, mis-routing verification items into
      the actionable queue, and `epinephrine` inside `norepinephrine`.
 
+   - **A HIGH HIT COUNT IS THE LEAST RELIABLE SIGNAL IN THIS CORPUS, and a collision list
+     will always be behind the corpus.** Eight new instances in a single run (2026-08-31,
+     week 2 merge), **none of them on the known-collisions list that run started from**:
+
+     | Pattern | Hits | What it actually matched | Real |
+     |---|---:|---|---:|
+     | `felon` | 62 | **`li`FELON`g`** — every hit, in prophylaxis-duration prose | **0** |
+     | `Conn` | 123 | `connective` ×39, `connects` ×22, `connected` ×18 | **0** |
+     | `Gell` | 9 | `Shi`GELL`a`, `Salmon`ELL`a`, `fla`GELL`in` | **0** |
+     | `LADA` | 6 | `ma`LADA`ptive` ×5, `ma`LADA`ptation` | **0** |
+     | `IGRA` | 125 | `m`IGRA`ine` ×57, `m`IGRA`tion` ×13, `m`IGRA`ns` ×8 | 7 |
+     | `PrEP` | 113 | PREP`aration(s)` ×68, `pre`PUCE ×3 | ~15 |
+     | `TRAb` | 32 | TRAB`ecular` ×11, `s`TRAB`ismus` ×11 | 4 |
+     | `IRIS` | 22 | the eye | 4 |
+
+     - **`IGRA` at 125 hits with 7 real is WORSE than a zero result, because nobody
+       scrutinises 125.** A zero triggers rule 2's component re-search by reflex and, in
+       `gapcheck.py`, by refusal to issue a verdict. A three-figure count reads as
+       overwhelming coverage and is waved through. **The failure is invisible in exact
+       proportion to how confident the number looks.**
+     - `felon`, `Conn`, `Gell` and `LADA` each returned a non-zero count for a term
+       **completely absent from the corpus**. Four false PRESENTs in one run — the
+       direction rule 9 already flags as the one nothing downstream catches.
+     - **So: do not maintain a list of known-bad patterns and check against it.** The list
+       was five entries long at the start of that run and eight instances were found that
+       it did not contain. **Treat any pattern under about six characters as suspect by
+       default**, and settle it the cheap way — pipe the hits through
+       `grep -oiE "[a-z]*PATTERN[a-z]*" | sort | uniq -c` and read what the matches
+       actually are, before reading any of them as a verdict.
+
 10. **A search that excludes its own destination cannot detect the duplicate it is about
    to create.** Distinct from rules 2 and 9: there the *pattern* was wrong — a spelling
    missed, a substring over-matched. Here **the pattern is correct and the scope is
@@ -206,6 +236,42 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
        refuses proximity and phrase patterns, and never reports zero as a verdict.**
      - So: **any claim that content is present or absent goes through `gapcheck.py`** —
        including, and especially, when the thing being checked is your own merge.
+
+   - **A CHECK THAT CANNOT FAIL IS WORSE THAN NO CHECK, BECAUSE IT REPORTS CLEAN.** No
+     check at all leaves a known hole. A broken one closes the hole in the report while
+     leaving it open in the work, and every run it survives adds a false assurance to the
+     record.
+     - Found 2026-08-31, mid-run, after eleven merges had each ended with this
+       duplicate-header check:
+       ```
+       grep -n "^#\+ " FILE | awk -F: '{print $3}' | sort | uniq -d     # VACUOUS
+       ```
+       `grep -n` prefixes the line number, so `$1` is the number, `$2` is the header text
+       **up to its first colon**, and `$3` is whatever follows a second one. **For a
+       colon-free header `$3` is empty**, so every such header collapses to the empty
+       string, `uniq -d` prints one blank line, and the blank reads as "no duplicates".
+     - **The two-line proof, which is what makes this stick:**
+       ```
+       $ printf '10:## Alpha\n20:## Alpha\n' | awk -F: '{print $3}' | sort | uniq -d | cat -A
+       $
+       ```
+       **Two identical headers. One empty line.** The check could not detect the error it
+       existed to detect, and had never been able to.
+     - It surfaced only by accident: `01_Cardiovascular` has `## 0.8 Bradycardia:
+       Peri-arrest` and `## 0.9 Tachycardia: Peri-arrest` — two *different* headers sharing
+       a colon-suffix — so on the twelfth file the broken check finally emitted a visible
+       false positive. **Without that coincidence it would still be running.** The correct
+       form is `grep -h "^#\+ " FILE | sort | uniq -d`; re-run, all eleven files were clean.
+     - **The generalisation: run every check once against a case whose answer you already
+       know, before trusting it on a case whose answer you do not.** A check is a claim
+       about tool behaviour, so the rest of rule 11 applies to it — construct the failure
+       it is supposed to catch, confirm it catches it, and paste what it printed.
+     - Three defects of this family surfaced in that one run: this, a `NO-BASELINE`
+       baseline test whose scope wrongly included **Corpus B, the merge source** (fixed by
+       restricting to `Corpus A` + `Corpus C`), and a merge-verification pattern that
+       returned a false MISSING because the block was written with **en-dashes** and the
+       pattern used a hyphen. **Loss rate 0%; verification false-negative rate 1 in 27.**
+       Each was found only by running the check where the answer was already known.
 
 ## 1.4 Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.

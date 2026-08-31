@@ -1,12 +1,17 @@
 ---
 block: Renal & Urology
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Clinical reasoning, mechanism and discriminators are reliable at intern level. **Every dose, score, volume threshold and criterion carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Verify against **eTG**, the **Australian Medicines Handbook**, and USANZ/Kidney Health Australia guidance.
 >
-> **Incontinence types and catheter principles are also built in [[GER2]] 0.1**, and **female prolapse and incontinence in [[O5]] 0.6** — cross-referenced rather than repeated.
+> **Incontinence types and catheter principles are also built in [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.1**, and **female prolapse and incontinence in [[O5_Pelvic_and_Vulval_Conditions]] 0.6** — cross-referenced rather than repeated.
 
 ---
 
@@ -35,7 +40,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· A BLADDER DIARY is the single most useful investigation** — recording times, volumes voided, fluid intake and incontinence episodes over several days. **It distinguishes polyuria from frequency, reveals nocturnal polyuria, quantifies functional bladder capacity, and shows the fluid intake pattern**, none of which the history reliably provides.
 > **· Symptom score — the IPSS** quantifies severity and bother and tracks response. `UNVERIFIED — the score and its bands.`
 > **· Examination: abdomen for a palpable or percussible bladder · DIGITAL RECTAL EXAMINATION for size, consistency, symmetry and nodules · external genitalia for phimosis and meatal stenosis · and a NEUROLOGICAL examination including perineal sensation, anal tone and lower limbs** where a neurogenic cause is possible.
-> **· Red flags: HAEMATURIA (cross-refer [[H1]] 0.1) · pain · recurrent urinary infection · a palpable bladder · renal impairment · neurological signs · a hard or irregular prostate · bone pain or weight loss.**
+> **· Red flags: HAEMATURIA (cross-refer [[H1_Haematuria_and_Proteinuria]] 0.1) · pain · recurrent urinary infection · a palpable bladder · renal impairment · neurological signs · a hard or irregular prostate · bone pain or weight loss.**
 
 ---
 
@@ -70,7 +75,7 @@ Chronic obstruction then causes detrusor hypertrophy and instability — which i
 
 > [!tip] The other options and the surgical complications worth knowing
 > **· Combination therapy** for larger prostates with significant symptoms.
-> **· ANTIMUSCARINICS or MIRABEGRON for persistent storage symptoms** — **safe in men with BPH provided there is no significant post-void residual, so CHECK THE RESIDUAL FIRST.** Mirabegron avoids anticholinergic burden. Cross-refer [[GER1]] 0.4.
+> **· ANTIMUSCARINICS or MIRABEGRON for persistent storage symptoms** — **safe in men with BPH provided there is no significant post-void residual, so CHECK THE RESIDUAL FIRST.** Mirabegron avoids anticholinergic burden. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] 0.4.
 > **· Tadalafil** — useful where erectile dysfunction coexists.
 > **· SURGERY — transurethral resection of the prostate (TURP) and its alternatives (laser enucleation, water vapour therapy, prostatic urethral lift).**
 > **TURP complications to be able to counsel on: bleeding · RETROGRADE EJACULATION, which is common and should be explicitly mentioned because it matters to patients and to fertility · urethral stricture · incontinence · erectile dysfunction · and TUR SYNDROME — dilutional HYPONATRAEMIA from absorption of irrigation fluid, presenting with confusion, visual disturbance, bradycardia and seizures.** **TUR syndrome is much less common with modern bipolar and saline systems**, but it remains examinable and is a cause of post-operative confusion.
@@ -87,7 +92,7 @@ Chronic obstruction then causes detrusor hypertrophy and instability — which i
 
 > [!danger] Urinary retention can be cauda equina syndrome
 > **Painless retention with overflow, saddle anaesthesia, bilateral leg symptoms, back pain or reduced anal tone is CAUDA EQUINA SYNDROME until proven otherwise — and it requires an urgent MRI, not just a catheter.**
-> **The catheter relieves the bladder and removes the most obvious sign while the cord compression progresses.** Cross-refer [[L4]] 0.2.
+> **The catheter relieves the bladder and removes the most obvious sign while the cord compression progresses.** Cross-refer [[L4_Back_and_Neck_Pain]] 0.2.
 > **In WOMEN, acute retention is uncommon and warrants more thought: consider NEUROLOGICAL causes (cauda equina, multiple sclerosis), pelvic mass, prolapse, post-partum retention, medications, herpes zoster affecting sacral roots, and Fowler syndrome in young women.**
 
 > [!warning] Management — and two practice points
@@ -120,12 +125,12 @@ Chronic obstruction then causes detrusor hypertrophy and instability — which i
 > **· BLADDER OUTLET obstruction → relieved by a urethral or suprapubic CATHETER.**
 > **· URETERIC obstruction → requires NEPHROSTOMY or a ureteric STENT.** A catheter achieves nothing.
 > **Causes of upper tract obstruction: stones · pelvic or retroperitoneal malignancy · retroperitoneal fibrosis · surgical injury · and prostate cancer with ureteric involvement.**
-> Cross-refer [[H3]].
+> Cross-refer [[H3_Acute_Kidney_Injury_and_CKD]].
 
 > [!danger] An obstructed, infected urinary system is a urological emergency
 > **Obstruction plus infection produces pyonephrosis and rapidly progressive sepsis, and ANTIBIOTICS ALONE WILL NOT TREAT IT.**
 > **It requires URGENT DECOMPRESSION — nephrostomy or stent — alongside antibiotics and resuscitation.**
-> **A septic patient with hydronephrosis needs an urgent urology or interventional radiology conversation the same hour, not a trial of antibiotics overnight.** Cross-refer [[F0.3]] 0.10 and [[H4]] 0.4.
+> **A septic patient with hydronephrosis needs an urgent urology or interventional radiology conversation the same hour, not a trial of antibiotics overnight.** Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.10 and [[H4_Scrotum__Groin_and_Loin]] 0.4.
 
 ---
 
@@ -134,11 +139,11 @@ Chronic obstruction then causes detrusor hypertrophy and instability — which i
 > [!danger] The indications are narrow, and "incontinence" is not one of them
 > **Legitimate indications: acute or chronic urinary retention · accurate output measurement in critical illness · specific perioperative and urological situations · to facilitate healing of a sacral or perineal pressure injury · and for comfort at the very end of life.**
 > **NOT indications: incontinence · staff or nursing convenience · reducing the need to assist a patient to the toilet · or immobility alone.**
-> **Every catheter should have a DOCUMENTED INDICATION and a PLANNED REMOVAL DATE**, and both should be reviewed daily. **Catheters that nobody planned to remove are a recurring source of harm.** Cross-refer [[GER2]] 0.1.
+> **Every catheter should have a DOCUMENTED INDICATION and a PLANNED REMOVAL DATE**, and both should be reviewed daily. **Catheters that nobody planned to remove are a recurring source of harm.** Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.1.
 
 > [!warning] The complications
 > **· CATHETER-ASSOCIATED URINARY TRACT INFECTION — the risk increases with EVERY DAY the catheter remains, and it is among the commonest healthcare-associated infections.**
-> **· DO NOT TREAT ASYMPTOMATIC BACTERIURIA in a catheterised patient.** **Every long-term catheter is colonised. Treating a positive culture in an asymptomatic patient selects resistance and achieves nothing** — and it is a major driver of inappropriate antibiotic use. Cross-refer [[F0.3]] 0.10.
+> **· DO NOT TREAT ASYMPTOMATIC BACTERIURIA in a catheterised patient.** **Every long-term catheter is colonised. Treating a positive culture in an asymptomatic patient selects resistance and achieves nothing** — and it is a major driver of inappropriate antibiotic use. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.10.
 > **· Urethral trauma, false passage and STRICTURE — particularly from forced or repeated attempts.**
 > **· Bladder spasm and bypassing (leakage around the catheter), which is usually caused by spasm or blockage rather than by too small a catheter.**
 > **· Blockage, encrustation and stone formation.**
@@ -150,7 +155,7 @@ Chronic obstruction then causes detrusor hypertrophy and instability — which i
 > **It can cause seizures, intracranial haemorrhage and death.**
 > **Management: SIT THE PATIENT UP · REMOVE THE TRIGGER — unblock or replace the catheter, relieve the constipation, loosen tight clothing · and treat the hypertension.** **Finding and relieving the cause is the treatment, and the catheter is the commonest culprit.**
 > **2. PARAPHIMOSIS.** **The foreskin, retracted for catheterisation, is not replaced — and swells behind the glans, becoming irreversibly trapped and causing venous congestion, oedema and ultimately ischaemia.**
-> **ALWAYS REPLACE THE FORESKIN AFTER CATHETERISING AN UNCIRCUMCISED MAN**, and check it afterwards. **This is a wholly preventable, wholly iatrogenic emergency.** Cross-refer [[H4]] 0.3.
+> **ALWAYS REPLACE THE FORESKIN AFTER CATHETERISING AN UNCIRCUMCISED MAN**, and check it afterwards. **This is a wholly preventable, wholly iatrogenic emergency.** Cross-refer [[H4_Scrotum__Groin_and_Loin]] 0.3.
 
 > [!tip] Difficult catheterisation
 > **Do not force.** Repeated forceful attempts cause false passages, bleeding and strictures that turn a simple problem into a complex one.
@@ -162,7 +167,7 @@ Chronic obstruction then causes detrusor hypertrophy and instability — which i
 ## 0.6 Incontinence
 
 > [!tip] The types and the branch point
-> The full classification is in **[[GER2]] 0.1** and the female-specific management in **[[O5]] 0.6.** The essentials:
+> The full classification is in **[[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.1** and the female-specific management in **[[O5_Pelvic_and_Vulval_Conditions]] 0.6.** The essentials:
 > **· STRESS — leakage on cough, laugh, exertion. Pelvic floor weakness in women; post-prostatectomy in men.**
 > **· URGE — sudden urgency with leakage; detrusor overactivity.**
 > **· MIXED.**
@@ -182,9 +187,9 @@ Chronic obstruction then causes detrusor hypertrophy and instability — which i
 > **"Do you ever leak urine, or have trouble getting to the toilet in time?" asked routinely finds a problem you can fix.**
 > **Then: bladder diary · post-void residual · urinalysis · medication review · and referral to a CONTINENCE NURSE ADVISOR and pelvic floor physiotherapist**, both of which are effective and under-used. **Funded continence aid schemes exist in Australia.** `UNVERIFIED — current schemes and eligibility.`
 
-**Ix:** **BLADDER DIARY over several days** (*why:* the most informative single investigation — it distinguishes polyuria from frequency, reveals nocturnal polyuria, and quantifies capacity; *what:* frequency-volume pattern). **POST-VOID RESIDUAL by bladder scan** (*why:* distinguishes retention and overflow from other causes, takes two minutes, and prevents the antimuscarinic error; *what:* residual volume). **Urinalysis and culture** (*why:* infection, and haematuria requiring separate investigation; *what:* infection, blood). **UEC and eGFR** (*why:* obstructive nephropathy, which may be silent in high-pressure chronic retention; *what:* renal impairment). **Renal tract ultrasound** where residual is high or renal function impaired (*why:* hydronephrosis and bladder wall changes; *what:* upper tract dilatation). **PSA — with informed discussion first, and DOUBLED if the patient is on a 5-alpha-reductase inhibitor** (*why:* prostate cancer, with the screening caveats; *what:* level in context — cross-refer [[GER3]]). Glucose or HbA1c and calcium (*why:* polyuria from diabetes or hypercalcaemia; *what:* the metabolic cause). Uroflowmetry and urodynamics in selected cases (*why:* characterises obstruction versus detrusor failure before surgery; *what:* flow rate, pressure-flow relationship).
+**Ix:** **BLADDER DIARY over several days** (*why:* the most informative single investigation — it distinguishes polyuria from frequency, reveals nocturnal polyuria, and quantifies capacity; *what:* frequency-volume pattern). **POST-VOID RESIDUAL by bladder scan** (*why:* distinguishes retention and overflow from other causes, takes two minutes, and prevents the antimuscarinic error; *what:* residual volume). **Urinalysis and culture** (*why:* infection, and haematuria requiring separate investigation; *what:* infection, blood). **UEC and eGFR** (*why:* obstructive nephropathy, which may be silent in high-pressure chronic retention; *what:* renal impairment). **Renal tract ultrasound** where residual is high or renal function impaired (*why:* hydronephrosis and bladder wall changes; *what:* upper tract dilatation). **PSA — with informed discussion first, and DOUBLED if the patient is on a 5-alpha-reductase inhibitor** (*why:* prostate cancer, with the screening caveats; *what:* level in context — cross-refer [[GER3_Preventive_and_Occupational_Health]]). Glucose or HbA1c and calcium (*why:* polyuria from diabetes or hypercalcaemia; *what:* the metabolic cause). Uroflowmetry and urodynamics in selected cases (*why:* characterises obstruction versus detrusor failure before surgery; *what:* flow rate, pressure-flow relationship).
 
 ---
 
 > [!note] Cross-references
-> Haematuria and its investigation → [[H1]] 0.1 · Acute kidney injury and obstructive uropathy → [[H3]] · Renal colic, scrotal problems and paraphimosis → [[H4]] · Cauda equina syndrome → [[L4]] 0.2 · Urosepsis and asymptomatic bacteriuria → [[F0.3]] 0.10 · Continence, catheters and functional incontinence → [[GER2]] 0.1 · Anticholinergic burden and deprescribing → [[GER1]] 0.4 · Female prolapse and pelvic floor → [[O5]] 0.6 · Prostate cancer screening and PSA counselling → [[GER3]] · Post-operative retention → [[AN1]] 0.5 · Heart failure and nocturia → [[CV-X]] · Obstructive sleep apnoea and nocturia → [[RESP-X]] 0.5 · Delirium and tethers → [[D2]] 0.2
+> Haematuria and its investigation → [[H1_Haematuria_and_Proteinuria]] 0.1 · Acute kidney injury and obstructive uropathy → [[H3_Acute_Kidney_Injury_and_CKD]] · Renal colic, scrotal problems and paraphimosis → [[H4_Scrotum__Groin_and_Loin]] · Cauda equina syndrome → [[L4_Back_and_Neck_Pain]] 0.2 · Urosepsis and asymptomatic bacteriuria → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.10 · Continence, catheters and functional incontinence → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] 0.1 · Anticholinergic burden and deprescribing → [[GER1_Comprehensive_Geriatric_Assessment]] 0.4 · Female prolapse and pelvic floor → [[O5_Pelvic_and_Vulval_Conditions]] 0.6 · Prostate cancer screening and PSA counselling → [[GER3_Preventive_and_Occupational_Health]] · Post-operative retention → [[AN1_Perioperative_Care]] 0.5 · Heart failure and nocturia → [[CV-X_Chronic_Heart_Failure]] · Obstructive sleep apnoea and nocturia → [[RESP-X_Occupational_and_Chronic_Lung_Disease]] 0.5 · Delirium and tethers → [[D2_Altered_Consciousness_and_Cognition]] 0.2

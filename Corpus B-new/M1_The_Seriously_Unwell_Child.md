@@ -1,13 +1,18 @@
 ---
 block: Paediatrics
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from source. Recognition, physiology and clinical reasoning are reliable at intern level. **Every age-specific vital sign range, weight formula, fluid volume, drug dose and age threshold carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.**
 > **PAEDIATRIC DOSES AND FLUID VOLUMES ARE NOT REPRODUCED HERE AT ALL.** Obtain them from the **Royal Children's Hospital Melbourne Clinical Practice Guidelines**, your local paediatric formulary, or **ANZCOR** — and calculate them for the individual child every time.
 >
-> **Paediatric resuscitation algorithms are also built in [[F0.4]]**, **febrile children in [[M2]]**, and **neonatal problems in [[M3]]** — cross-referenced rather than repeated.
+> **Paediatric resuscitation algorithms are also built in [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]]**, **febrile children in [[M2_Fever_in_Children]]**, and **neonatal problems in [[M3_Neonatal_Problems]]** — cross-referenced rather than repeated.
 
 ---
 
@@ -78,7 +83,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· FIVE RESCUE BREATHS FIRST, before chest compressions** — because the arrest is usually hypoxic in origin, so oxygenation is the priority.
 > **· Compression-to-ventilation ratio differs from adult practice for two rescuers.**
 > **· Compression technique and depth vary by age and size.**
-> `UNVERIFIED — the ratios, rates, depths and energy levels. Obtain from ANZCOR.` Cross-refer [[F0.4]].
+> `UNVERIFIED — the ratios, rates, depths and energy levels. Obtain from ANZCOR.` Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]].
 
 > [!tip] Airway positioning changes with age — because head shape does
 > **· INFANTS have a large occiput, which flexes the neck when supine. Position the airway NEUTRAL, and consider a SHOULDER ROLL to counteract the occiput.**
@@ -110,18 +115,18 @@ source: built in chat, model knowledge, NOT source-verified
 > [!danger] Young infants present non-specifically, and the differential includes things that are not infection
 > **A sick young infant may present ONLY with: poor feeding · lethargy or irritability · temperature INSTABILITY (fever OR hypothermia, and hypothermia is at least as concerning) · apnoea · vomiting · jaundice · grunting · or "just not right".**
 > **There are frequently NO localising signs.**
-> **FEVER IN A YOUNG INFANT REQUIRES A FULL SEPSIS EVALUATION AND EMPIRICAL ANTIBIOTICS** — the threshold age and the extent of investigation are protocol-defined. Cross-refer [[M2]]. `UNVERIFIED — the age thresholds and the required workup.`
+> **FEVER IN A YOUNG INFANT REQUIRES A FULL SEPSIS EVALUATION AND EMPIRICAL ANTIBIOTICS** — the threshold age and the extent of investigation are protocol-defined. Cross-refer [[M2_Fever_in_Children]]. `UNVERIFIED — the age thresholds and the required workup.`
 > **Serious bacterial infection in this group: sepsis, meningitis, URINARY TRACT INFECTION (the commonest), and pneumonia.**
 
 > [!danger] The non-infective causes of the collapsed or unwell neonate — the list that must not be missed
 > **· DUCT-DEPENDENT CONGENITAL HEART DISEASE.** **Presents with collapse, shock or cyanosis as the ductus arteriosus CLOSES — characteristically in the first one to two weeks, and often AFTER discharge from hospital.**
 > **Check: PRE- AND POST-DUCTAL saturations (right hand versus foot) · FEMORAL PULSES (absent or weak in coarctation) · and four-limb blood pressures.**
-> **A shocked neonate who does not respond to fluid and antibiotics should prompt consideration of PROSTAGLANDIN E1 to reopen the duct**, discussed urgently with a paediatric cardiologist. Cross-refer [[M3]].
+> **A shocked neonate who does not respond to fluid and antibiotics should prompt consideration of PROSTAGLANDIN E1 to reopen the duct**, discussed urgently with a paediatric cardiologist. Cross-refer [[M3_Neonatal_Problems]].
 > **· INBORN ERRORS OF METABOLISM.** **Typically a well baby who deteriorates after a period of normal feeding — with vomiting, lethargy, poor feeding, seizures, and a characteristic biochemical picture.** **CHECK: blood gas (for METABOLIC ACIDOSIS), GLUCOSE, LACTATE, AMMONIA and ketones.** **A raised AMMONIA is the finding that is missed because nobody sends it.**
-> **· CONGENITAL ADRENAL HYPERPLASIA — a SALT-WASTING CRISIS, typically in the first weeks: vomiting, poor feeding, dehydration, shock, with HYPONATRAEMIA, HYPERKALAEMIA and HYPOGLYCAEMIA.** **Virilised genitalia may be evident in a female infant; a male infant looks normal, which is why boys present in crisis.** Cross-refer [[I4]] 0.6.
-> **· MALROTATION WITH VOLVULUS — BILE-STAINED (green) VOMITING IN AN INFANT IS MALROTATION WITH VOLVULUS UNTIL PROVEN OTHERWISE.** **It is a surgical emergency, the bowel infarcts within hours, and the child may initially look deceptively well.** **Green vomit in an infant means an urgent surgical opinion and an upper gastrointestinal contrast study — not observation.** Cross-refer [[M5]].
-> **· NON-ACCIDENTAL INJURY — including abusive head trauma, which presents as a collapsed, seizing or apnoeic infant with no history.** Cross-refer [[M6]] and [[GER4]].
-> **· Intussusception, in older infants** — cross-refer [[M5]].
+> **· CONGENITAL ADRENAL HYPERPLASIA — a SALT-WASTING CRISIS, typically in the first weeks: vomiting, poor feeding, dehydration, shock, with HYPONATRAEMIA, HYPERKALAEMIA and HYPOGLYCAEMIA.** **Virilised genitalia may be evident in a female infant; a male infant looks normal, which is why boys present in crisis.** Cross-refer [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6.
+> **· MALROTATION WITH VOLVULUS — BILE-STAINED (green) VOMITING IN AN INFANT IS MALROTATION WITH VOLVULUS UNTIL PROVEN OTHERWISE.** **It is a surgical emergency, the bowel infarcts within hours, and the child may initially look deceptively well.** **Green vomit in an infant means an urgent surgical opinion and an upper gastrointestinal contrast study — not observation.** Cross-refer [[M5_Paediatric_GI__GU_and_Limb]].
+> **· NON-ACCIDENTAL INJURY — including abusive head trauma, which presents as a collapsed, seizing or apnoeic infant with no history.** Cross-refer [[M6_Paediatric_Respiratory_and_Neurology]] and [[GER4_Safeguarding_and_Forensic]].
+> **· Intussusception, in older infants** — cross-refer [[M5_Paediatric_GI__GU_and_Limb]].
 > **Never attribute an unwell neonate to "a virus" until these have been considered.**
 
 ---
@@ -136,25 +141,25 @@ source: built in chat, model knowledge, NOT source-verified
 > [!tip] The irritable, inconsolable child
 > **· PAIN — otitis media · corneal abrasion (a crying infant who will not open one eye) · HAIR TOURNIQUET · testicular torsion · a fracture (including from non-accidental injury) · dental · and — much less often than parents assume — teething.**
 > **· INFECTION — meningitis, urinary tract infection, sepsis.**
-> **· INTUSSUSCEPTION — EPISODIC inconsolable crying with the legs drawn up, lasting minutes, with PALLOR during the episode and apparent normality or lethargy in between.** **Late features are vomiting, a "redcurrant jelly" stool and a palpable sausage-shaped mass — but waiting for these means waiting too long.** **The episodic pallor is the discriminating feature.** Cross-refer [[M5]].
+> **· INTUSSUSCEPTION — EPISODIC inconsolable crying with the legs drawn up, lasting minutes, with PALLOR during the episode and apparent normality or lethargy in between.** **Late features are vomiting, a "redcurrant jelly" stool and a palpable sausage-shaped mass — but waiting for these means waiting too long.** **The episodic pallor is the discriminating feature.** Cross-refer [[M5_Paediatric_GI__GU_and_Limb]].
 > **· RAISED INTRACRANIAL PRESSURE — bulging fontanelle, high-pitched cry, vomiting, sunset eyes.**
 > **· Infantile colic — a diagnosis of exclusion, and only after the above have been considered.**
 
 > [!warning] The lethargic child
 > **· Sepsis and meningitis · HYPOGLYCAEMIA · diabetic ketoacidosis · POISONING (deliberate or accidental — ask what is in the house, including grandparents' medications, and consider it in any unexplained altered consciousness) · head injury including abusive head trauma · postictal state · intussusception (late) · myocarditis · severe dehydration · and inborn errors of metabolism.**
-> **Check the glucose. Take a medication and toxin history covering the whole household.** Cross-refer [[A5]] and [[F0.1]].
+> **Check the glucose. Take a medication and toxin history covering the whole household.** Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]].
 
 > [!danger] The pale child — and the pattern that means leukaemia
 > **· ANAEMIA — most commonly IRON DEFICIENCY, which in toddlers is frequently DIETARY (excessive cow's milk intake displacing iron-rich foods is a classic and specific cause). Also haemolysis, blood loss, and marrow failure.**
 > **· SHOCK and sepsis.**
 > **· MALIGNANCY — and the pattern to recognise for ACUTE LEUKAEMIA is: PALLOR (anaemia) + BRUISING or petechiae (thrombocytopenia) + INFECTION or fever (neutropenia) + BONE PAIN or a limp + LYMPHADENOPATHY and HEPATOSPLENOMEGALY.**
-> **A child with unexplained pallor, bruising and bone pain needs a full blood count and film TODAY.** **Persistent limb or bone pain in a child, particularly waking them at night, is a red flag.** Cross-refer [[M5]] and [[J4]].
+> **A child with unexplained pallor, bruising and bone pain needs a full blood count and film TODAY.** **Persistent limb or bone pain in a child, particularly waking them at night, is a red flag.** Cross-refer [[M5_Paediatric_GI__GU_and_Limb]] and [[J4_Paraproteins_and_Lymphoproliferative]].
 > **· Cardiac disease and intussusception.**
 
 > [!danger] Bruising in a non-mobile infant is non-accidental injury until proven otherwise
 > **"If they don't cruise, they don't bruise."** **A pre-mobile infant does not sustain bruises by accident.**
 > **Other concerning patterns: bruises in protected sites (ears, neck, torso, buttocks, inner thighs) · patterned bruises · injuries inconsistent with the history or the developmental stage · and a delay in presentation.**
-> **You do not need certainty — you need concern, and mandatory reporting obligations apply.** Cross-refer [[M6]], [[L7]] 0.5 and [[GER4]].
+> **You do not need certainty — you need concern, and mandatory reporting obligations apply.** Cross-refer [[M6_Paediatric_Respiratory_and_Neurology]], [[L7_Fractures_and_Eponyms]] 0.5 and [[GER4_Safeguarding_and_Forensic]].
 
 ---
 
@@ -170,7 +175,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!tip] Assessing dehydration
 > **The most accurate measure is the CHANGE IN WEIGHT against a recent known weight** — which is frequently available in children because they are weighed often.
 > **Clinical signs: reduced skin turgor, sunken eyes and fontanelle, dry mucous membranes, reduced tears, prolonged capillary refill, tachycardia, reduced urine output (ask about the number of wet nappies), and altered conscious state.**
-> **ORAL REHYDRATION is preferred wherever it is feasible — including via nasogastric tube — and it is as effective as intravenous fluid in mild to moderate dehydration with fewer complications.** **The reflex to cannulate is often unnecessary.** Cross-refer [[M5]].
+> **ORAL REHYDRATION is preferred wherever it is feasible — including via nasogastric tube — and it is as effective as intravenous fluid in mild to moderate dehydration with fewer complications.** **The reflex to cannulate is often unnecessary.** Cross-refer [[M5_Paediatric_GI__GU_and_Limb]].
 > `UNVERIFIED — the clinical grading of dehydration severity.`
 
 > [!warning] Talking to children, and to their parents
@@ -179,16 +184,16 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Use DISTRACTION — a parent's phone, bubbles, a toy, counting — which measurably reduces distress and improves cooperation.**
 > **· Keep the parent close, and use them: a child examined on a parent's lap tolerates far more than one on a couch.**
 > **· Be honest about whether something will hurt.** A child who is told "this won't hurt" and then hurt does not trust the next clinician, and that has consequences for years.
-> **· Involve older children and adolescents directly in the conversation rather than talking over them.** Cross-refer [[M7]].
+> **· Involve older children and adolescents directly in the conversation rather than talking over them.** Cross-refer [[M7_Adolescent_and_Behavioural_Health]].
 > **· Explain to parents what you are looking for, what the plan is, and — critically — WHAT SHOULD MAKE THEM RETURN.** **Safety-netting is part of the treatment**: give specific, concrete return criteria rather than "come back if you're worried".
 
 > [!tip] Two things to consider at every paediatric presentation
-> **1. SAFEGUARDING.** Not as an accusation, but as a routine consideration — the history, the developmental fit, the delay, the interaction, and the child's demeanour. Cross-refer [[M6]].
-> **2. CONSENT AND WHO IS PRESENT.** **Parental responsibility, the capacity of a mature minor, and — where an adolescent is present — the need for time alone with them.** Cross-refer [[A10]] 0.1 and [[M7]].
+> **1. SAFEGUARDING.** Not as an accusation, but as a routine consideration — the history, the developmental fit, the delay, the interaction, and the child's demeanour. Cross-refer [[M6_Paediatric_Respiratory_and_Neurology]].
+> **2. CONSENT AND WHO IS PRESENT.** **Parental responsibility, the capacity of a mature minor, and — where an adolescent is present — the need for time alone with them.** Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1 and [[M7_Adolescent_and_Behavioural_Health]].
 
 **Ix:** **BEDSIDE GLUCOSE in every seriously unwell child** (*why:* children deplete glycogen quickly, hypoglycaemia is rapidly reversible, and it mimics everything; *what:* hypoglycaemia). **Blood gas with LACTATE** (*why:* rapid assessment of perfusion and of metabolic derangement, and it can be obtained from a small sample; *what:* acidosis, lactate, glucose, electrolytes). **FBC and film, CRP, UEC, blood cultures** (*why:* infection, anaemia, and the leukaemia pattern; *what:* the counts and the film). **AMMONIA, lactate and ketones in an unwell neonate or an unexplained encephalopathy** (*why:* inborn errors of metabolism are missed because ammonia is not sent, and they are time-critical; *what:* hyperammonaemia, acidosis). **Urine — collected properly (clean catch, catheter or suprapubic aspirate rather than a bag specimen, which is unreliable)** (*why:* urinary tract infection is the commonest serious bacterial infection in infants, and a contaminated bag sample causes both over- and under-treatment; *what:* infection). **Pre- and post-ductal saturations and femoral pulses in a collapsed neonate** (*why:* duct-dependent congenital heart disease is treatable with prostaglandin and is missed if not specifically sought; *what:* saturation difference, absent femoral pulses). Chest radiograph, lumbar puncture and further imaging as directed (*why:* source identification; *what:* the focus). **A full examination with the child undressed** (*why:* the diagnosis is frequently visible and hidden — rash, bruise, tourniquet, hernia, testis; *what:* the finding).
 
 ---
 
 > [!note] Cross-references
-> Paediatric resuscitation algorithms → [[F0.4]] · Fever in children and the febrile infant → [[M2]] · Neonatal problems, jaundice and cyanosis → [[M3]] · Growth and development → [[M4]] · Paediatric abdominal pain, intussusception and limp → [[M5]] · Child protection and non-accidental injury → [[M6]], [[L7]] 0.5 and [[GER4]] · Adolescent health and consent → [[M7]] and [[A10]] 0.1 · Poisoning in children → [[A5]] and [[F0.1]] · Congenital adrenal hyperplasia → [[I4]] 0.6 · Leukaemia and the pale bruising child → [[J4]] · Hyponatraemia → [[I5]] 0.5 · Sepsis recognition → [[F0.3]] 0.7 · Aboriginal and Torres Strait Islander child health → [[AU1]] 0.4
+> Paediatric resuscitation algorithms → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] · Fever in children and the febrile infant → [[M2_Fever_in_Children]] · Neonatal problems, jaundice and cyanosis → [[M3_Neonatal_Problems]] · Growth and development → [[M4_Growth_and_Development]] · Paediatric abdominal pain, intussusception and limp → [[M5_Paediatric_GI__GU_and_Limb]] · Child protection and non-accidental injury → [[M6_Paediatric_Respiratory_and_Neurology]], [[L7_Fractures_and_Eponyms]] 0.5 and [[GER4_Safeguarding_and_Forensic]] · Adolescent health and consent → [[M7_Adolescent_and_Behavioural_Health]] and [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1 · Poisoning in children → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] and [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] · Congenital adrenal hyperplasia → [[I4_Pituitary__Adrenal_and_Sex_Hormone]] 0.6 · Leukaemia and the pale bruising child → [[J4_Paraproteins_and_Lymphoproliferative]] · Hyponatraemia → [[I5_Weight__Lipids_and_Fluid_Balance]] 0.5 · Sepsis recognition → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.7 · Aboriginal and Torres Strait Islander child health → [[AU1_Australian_Health_Context_and_ATSI_Health]] 0.4

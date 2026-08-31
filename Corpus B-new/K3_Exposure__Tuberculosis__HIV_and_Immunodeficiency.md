@@ -1,6 +1,11 @@
 ---
 block: Immunology, Allergy & Infectious Disease
 source: built in chat, model knowledge, NOT source-verified
+trust: unverified
+population: mixed
+conflicts_open: 0
+conflicts_r1: 0
+no_baseline: 0
 ---
 
 > [!warning] Sourcing
@@ -66,7 +71,7 @@ Complete PEP, follow-up serology, and treat any seroconversion — **with the im
 > [!info] Pre-exposure prophylaxis (PrEP) — Australian practice
 > **PrEP is antiretroviral medication taken by HIV-negative people at ongoing risk, and it is highly effective at preventing HIV acquisition. It is PBS-listed in Australia and can be prescribed in general practice.**
 > Practical requirements: **confirm HIV-negative status before starting and at intervals · check hepatitis B status (because the drugs are active against hepatitis B and stopping them can cause a flare) · monitor renal function · and screen regularly for other sexually transmitted infections**, since PrEP does not prevent them and STI rates in PrEP users are high.
-> **Knowing that PrEP exists and how to refer for it is a practical intern-level competency**, and it comes up in sexual health, emergency and general practice contexts. Cross-refer [[O6]]. `UNVERIFIED — eligibility, regimens, on-demand versus daily dosing, and monitoring intervals.`
+> **Knowing that PrEP exists and how to refer for it is a practical intern-level competency**, and it comes up in sexual health, emergency and general practice contexts. Cross-refer [[O6_Sexual_and_Reproductive_Health]]. `UNVERIFIED — eligibility, regimens, on-demand versus daily dosing, and monitoring intervals.`
 
 > [!danger] Sexual assault — a specific and multi-component pathway
 > **This is not just an infection risk assessment.** The management involves, in parallel:
@@ -77,7 +82,7 @@ Complete PEP, follow-up serology, and treat any seroconversion — **with the im
 > **· HIV PEP assessment and hepatitis B prophylaxis.**
 > **· Documentation that is careful, contemporaneous and factual.**
 > **· Consideration of mandatory reporting obligations where the person is a child**, and awareness of the reporting position for adults, which differs.
-> **Referral to a specialist sexual assault service where available is far better than ad hoc management in an emergency department.** Cross-refer [[GER4]] and [[O6]]. `UNVERIFIED — the SA forensic and reporting pathway, and the relevant services.`
+> **Referral to a specialist sexual assault service where available is far better than ad hoc management in an emergency department.** Cross-refer [[GER4_Safeguarding_and_Forensic]] and [[O6_Sexual_and_Reproductive_Health]]. `UNVERIFIED — the SA forensic and reporting pathway, and the relevant services.`
 
 **Ix:** As per 0.1, plus **STI screening — chlamydia and gonorrhoea NAAT from all relevant sites (throat, anus, genital as indicated by exposure), syphilis serology, and hepatitis serology** (*why:* site-specific testing matters because **a genital swab alone misses pharyngeal and rectal infection**; *what:* positive NAAT or serology). Pregnancy test (*why:* emergency contraception and management decisions; *what:* positive).
 
@@ -134,7 +139,7 @@ Complete prophylaxis, arrange follow-up testing, and refer to sexual health or a
 > **Higher rates occur in some Aboriginal and Torres Strait Islander communities, particularly in northern Australia**, and there is a **cross-border consideration in the Torres Strait given multidrug-resistant TB in the region.**
 > **Adherence is the determinant of cure and of resistance**, which is why supervised or supported therapy arrangements exist. **Multidrug-resistant TB requires specialist management with prolonged, more toxic regimens.**
 
-**Ix:** **Three sputum specimens for AFB smear, culture and nucleic acid amplification** (*why:* smear indicates infectiousness, culture confirms and provides sensitivities, and NAAT gives a rapid answer including rifampicin resistance; *what:* AFB, *M. tuberculosis* DNA, resistance markers). **Chest radiograph** (*why:* screening and disease assessment, though it may be atypical or normal in immunosuppression; *what:* upper zone infiltrate, cavitation, miliary pattern, effusion). **IGRA or tuberculin skin test** (*why:* detects infection but **does NOT distinguish latent from active disease** — a positive test in a symptomatic patient does not confirm active TB, and a negative test does not exclude it, particularly in the immunosuppressed and in miliary disease; *what:* evidence of infection). **HIV testing in every person diagnosed with TB** (*why:* coinfection is common, changes management, and both are treatable; *what:* positive serology). Tissue biopsy with histology and mycobacterial culture in extrapulmonary disease (*why:* caseating granulomas plus culture; *what:* histology, organism). Baseline **LFT, UEC, FBC, uric acid, and visual acuity with colour vision** (*why:* the toxicity profile of the four first-line drugs; *what:* baseline for monitoring). CT chest and site-directed imaging (*why:* extent, cavitation, and extrapulmonary sites; *what:* the disease distribution). Lumbar puncture where CNS involvement is suspected (*why:* tuberculous meningitis has a characteristic CSF profile and is rapidly fatal untreated; *what:* lymphocytosis, very high protein, low glucose, AFB and PCR — cross-refer [[D1]] 0.5).
+**Ix:** **Three sputum specimens for AFB smear, culture and nucleic acid amplification** (*why:* smear indicates infectiousness, culture confirms and provides sensitivities, and NAAT gives a rapid answer including rifampicin resistance; *what:* AFB, *M. tuberculosis* DNA, resistance markers). **Chest radiograph** (*why:* screening and disease assessment, though it may be atypical or normal in immunosuppression; *what:* upper zone infiltrate, cavitation, miliary pattern, effusion). **IGRA or tuberculin skin test** (*why:* detects infection but **does NOT distinguish latent from active disease** — a positive test in a symptomatic patient does not confirm active TB, and a negative test does not exclude it, particularly in the immunosuppressed and in miliary disease; *what:* evidence of infection). **HIV testing in every person diagnosed with TB** (*why:* coinfection is common, changes management, and both are treatable; *what:* positive serology). Tissue biopsy with histology and mycobacterial culture in extrapulmonary disease (*why:* caseating granulomas plus culture; *what:* histology, organism). Baseline **LFT, UEC, FBC, uric acid, and visual acuity with colour vision** (*why:* the toxicity profile of the four first-line drugs; *what:* baseline for monitoring). CT chest and site-directed imaging (*why:* extent, cavitation, and extrapulmonary sites; *what:* the disease distribution). Lumbar puncture where CNS involvement is suspected (*why:* tuberculous meningitis has a characteristic CSF profile and is rapidly fatal untreated; *what:* lymphocytosis, very high protein, low glucose, AFB and PCR — cross-refer [[D1_Headache_and_Meningism]] 0.5).
 
 ### 0.3.1 Mx – Immediate
 **Airborne isolation. Notify. Do not delay isolation for confirmation.** Collect specimens before treatment.
@@ -202,8 +207,8 @@ Adherence support, monitoring, vaccination, cardiovascular and metabolic risk ma
 > **· Antibody (B cell) deficiency** — encapsulated bacteria, recurrent sinopulmonary infection, enteroviruses, giardia.
 > **· T cell / combined** — opportunistic infections, fungi, viruses, mycobacteria.
 > **· Phagocyte defects** — staphylococcal and fungal infections, abscesses, poor wound healing.
-> **· Complement deficiency** — **terminal complement deficiency causes recurrent NEISSERIAL infection**, so **recurrent or unusual meningococcal disease should prompt complement testing**, and these patients need vaccination and prophylaxis. Cross-refer [[F0.3]] 0.9.
-> **· Asplenia and hyposplenism** — encapsulated organisms and overwhelming post-splenectomy infection. Cross-refer [[C1]] 0.5.
+> **· Complement deficiency** — **terminal complement deficiency causes recurrent NEISSERIAL infection**, so **recurrent or unusual meningococcal disease should prompt complement testing**, and these patients need vaccination and prophylaxis. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9.
+> **· Asplenia and hyposplenism** — encapsulated organisms and overwhelming post-splenectomy infection. Cross-refer [[C1_Acute_Abdomen]] 0.5.
 
 > [!danger] Screening before immunosuppression — the practical intern-level checklist
 > Before starting a biologic, prolonged corticosteroids, chemotherapy or transplant immunosuppression:
@@ -217,12 +222,12 @@ Adherence support, monitoring, vaccination, cardiovascular and metabolic risk ma
 
 > [!warning] Live vaccines are contraindicated in significant immunosuppression
 > MMR, varicella, zoster (live formulation), yellow fever, BCG, oral typhoid and rotavirus.
-> **Plan vaccination before immunosuppression begins**, and remember household contacts can generally be vaccinated safely, which protects the patient indirectly. Cross-refer [[GER3]].
+> **Plan vaccination before immunosuppression begins**, and remember household contacts can generally be vaccinated safely, which protects the patient indirectly. Cross-refer [[GER3_Preventive_and_Occupational_Health]].
 
 **Ix:** **Immunoglobulins (IgG, IgA, IgM) and, where indicated, IgG subclasses and specific antibody responses to vaccination** (*why:* the screening test for antibody deficiency, and the response to a test immunisation is what demonstrates functional deficiency; *what:* low immunoglobulins, poor vaccine response). FBC with differential and lymphocyte subsets (*why:* lymphopenia and specific subset deficiencies; *what:* cell counts). **Complement — CH50 and AH50** where recurrent neisserial infection (*why:* screens the classical and alternative pathways; *what:* absent haemolytic activity). **HIV testing** (*why:* the commonest secondary immunodeficiency and it must be excluded before labelling anything primary; *what:* positive). **Pre-immunosuppression screening panel as above** (*why:* prevents reactivation of TB, hepatitis B and strongyloides, each of which can be fatal; *what:* latent infection). Specialist immunology referral (*why:* primary immunodeficiency diagnosis and management, including immunoglobulin replacement, is specialist; *what:* definitive characterisation).
 
 ### 0.5.1 Mx – Immediate
-Treat infection. **Do not delay antibiotics in an asplenic or neutropenic febrile patient** — cross-refer [[K1]] 0.5.
+Treat infection. **Do not delay antibiotics in an asplenic or neutropenic febrile patient** — cross-refer [[K1_Fever_Workup]] 0.5.
 
 ### 0.5.2 Mx – Definitive
 Immunoglobulin replacement in antibody deficiency, prophylaxis, and treatment of the underlying cause of secondary immunodeficiency.
@@ -238,14 +243,14 @@ Immunoglobulin replacement in antibody deficiency, prophylaxis, and treatment of
 > **· Ross River virus and Barmah Forest virus** — the commonest arboviral infections in Australia. **Fever, rash and prominent polyarthralgia**, which can persist for months and is frequently misdiagnosed as a new inflammatory arthritis. Diagnosis is serological.
 > **· Murray Valley encephalitis** — inland riverine areas, particularly after flooding; severe encephalitis with high morbidity.
 > **· Japanese encephalitis virus** — **emerged in mainland southeastern Australia in 2022**, with a vaccine available for at-risk groups. Consider in encephalitis with relevant exposure. `UNVERIFIED — the current distribution, at-risk groups and vaccination recommendations, which are actively evolving.`
-> **· Dengue** — occurs in **outbreaks in far north Queensland** from imported cases plus local *Aedes*, as well as in returning travellers. Cross-refer [[K1]] 0.4.
+> **· Dengue** — occurs in **outbreaks in far north Queensland** from imported cases plus local *Aedes*, as well as in returning travellers. Cross-refer [[K1_Fever_Workup]] 0.4.
 > **· Malaria** — imported; Australia is malaria-free but the vector exists in the far north.
 
 > [!warning] Ticks — and three distinctly Australian problems
 > **1. Tick paralysis** — the **Australian paralysis tick (*Ixodes holocyclus*)** on the eastern seaboard injects a neurotoxin causing **ascending flaccid paralysis, particularly in small children and pets.** **The treatment is finding and removing the tick**, and the diagnosis is missed if nobody searches the scalp and behind the ears.
 > **2. Tick-induced anaphylaxis and mammalian meat allergy** — **tick bites can sensitise to alpha-gal, producing DELAYED anaphylaxis three to six hours after eating red meat.** This is genuinely Australian in its recognition, increasingly reported, and the delayed timing means the connection to food is frequently not made. **Ask about tick exposure in unexplained anaphylaxis.**
 > **3. Tick removal technique** — **do not squeeze the tick body**, which injects more saliva, toxin and allergen. Current Australian advice for *Ixodes holocyclus* is to **kill the tick in situ** with an appropriate agent and allow it to drop off, rather than grasping and pulling — **which differs from the advice given in the northern hemisphere for Lyme-vector ticks.** `UNVERIFIED — the current recommended removal technique and agents from ASCIA and state health guidance.`
-> **· Rickettsial infections do occur in Australia** — **Queensland tick typhus and Flinders Island spotted fever** — with fever, rash and an **eschar.** Cross-refer [[K1]] 0.4.
+> **· Rickettsial infections do occur in Australia** — **Queensland tick typhus and Flinders Island spotted fever** — with fever, rash and an **eschar.** Cross-refer [[K1_Fever_Workup]] 0.4.
 > **· Lyme disease** — **there is no established evidence of locally acquired Lyme borreliosis in Australia**, and this is a contested and emotive area. Imported Lyme disease in returned travellers is real and treatable. `UNVERIFIED — this remains a debated area and the official position should be checked; handle the conversation with patients carefully and without dismissiveness.`
 
 > [!tip] Zoonoses worth knowing, with their exposures
@@ -254,8 +259,8 @@ Immunoglobulin replacement in antibody deficiency, prophylaxis, and treatment of
 > **· Brucellosis** — feral pig hunters in Queensland, and unpasteurised dairy overseas.
 > **· Hendra virus** — **horses and those in contact with them, notably veterinarians**, in Queensland and northern New South Wales. Rare, severe, with an equine vaccine that reduces risk.
 > **· Psittacosis** — birds, including exposure to wild bird droppings; presents as atypical pneumonia.
-> **· Australian bat lyssavirus** — any bat contact. Cross-refer [[K2]] 0.5.
-> **· Melioidosis** — northern Australia, wet season, soil and water exposure. Cross-refer [[K1]] 0.4.
+> **· Australian bat lyssavirus** — any bat contact. Cross-refer [[K2_Skin_and_Soft_Tissue_Infection]] 0.5.
+> **· Melioidosis** — northern Australia, wet season, soil and water exposure. Cross-refer [[K1_Fever_Workup]] 0.4.
 > **· Hydatid disease** — dogs and sheep, in rural Australia.
 
 > [!danger] The exposure history is the diagnosis
@@ -271,9 +276,9 @@ Immunoglobulin replacement in antibody deficiency, prophylaxis, and treatment of
 Organism-specific therapy with infectious diseases involvement, and prolonged therapy for chronic Q fever, brucellosis and melioidosis.
 
 ### 0.6.3 Mx – Chronic/long-term
-**Occupational vaccination — Q fever vaccine for at-risk occupations, and Japanese encephalitis vaccine where recommended.** Bite and exposure avoidance advice. Notification and, where relevant, workplace assessment. Cross-refer [[GER3]].
+**Occupational vaccination — Q fever vaccine for at-risk occupations, and Japanese encephalitis vaccine where recommended.** Bite and exposure avoidance advice. Notification and, where relevant, workplace assessment. Cross-refer [[GER3_Preventive_and_Occupational_Health]].
 
 ---
 
 > [!note] Cross-references
-> Fever workup and the returning traveller → [[K1]] 0.2, 0.4 · Febrile neutropenia and the immunocompromised → [[K1]] 0.5 · Bites, bat exposure and Buruli ulcer → [[K2]] 0.5 · Meningococcal disease and complement deficiency → [[F0.3]] 0.9 · Post-splenectomy prophylaxis → [[C1]] 0.5 · Meningitis and encephalitis → [[D1]] 0.5 · Severe CAP and melioidosis → [[F0.5]] 0.4 · Immunotherapy toxicity → [[A5]] 0.7 · Allergy, anaphylaxis and alpha-gal → [[F0.1]] 0.9 and [[K4]] · STI screening, PrEP and sexual health → [[O6]] · Sexual assault and safeguarding → [[GER4]] · Immunisation and preventive health → [[GER3]] · Australian health context and ATSI health → [[AU1]]
+> Fever workup and the returning traveller → [[K1_Fever_Workup]] 0.2, 0.4 · Febrile neutropenia and the immunocompromised → [[K1_Fever_Workup]] 0.5 · Bites, bat exposure and Buruli ulcer → [[K2_Skin_and_Soft_Tissue_Infection]] 0.5 · Meningococcal disease and complement deficiency → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.9 · Post-splenectomy prophylaxis → [[C1_Acute_Abdomen]] 0.5 · Meningitis and encephalitis → [[D1_Headache_and_Meningism]] 0.5 · Severe CAP and melioidosis → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.4 · Immunotherapy toxicity → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.7 · Allergy, anaphylaxis and alpha-gal → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.9 and [[K4_Allergy_and_Clinical_Immunology]] · STI screening, PrEP and sexual health → [[O6_Sexual_and_Reproductive_Health]] · Sexual assault and safeguarding → [[GER4_Safeguarding_and_Forensic]] · Immunisation and preventive health → [[GER3_Preventive_and_Occupational_Health]] · Australian health context and ATSI health → [[AU1_Australian_Health_Context_and_ATSI_Health]]

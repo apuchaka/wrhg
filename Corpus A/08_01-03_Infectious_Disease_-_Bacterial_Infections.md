@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 2
 ---
 
 ## Anthrax
@@ -328,6 +328,26 @@ no_baseline: 0
 > - Pyrexia during labour: IAP.
 
 ---
+
+## Added from unverified layer — three Australian zoonoses the list above does not carry
+`SRC:K3_Exposure__Tuberculosis__HIV_and_Immunodeficiency §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!warning] **Queensland tick typhus and Flinders Island spotted fever — the Australian rickettsioses**
+> Q fever, leptospirosis and brucellosis are above. These are not, and **rickettsial infection is acquired in Australia**, not only imported.
+> **· Queensland tick typhus** (*Rickettsia australis*) — eastern coastal Australia, from bush and scrub exposure.
+> **· Flinders Island spotted fever** (*R. honei*) — Flinders Island, Tasmania and parts of South Australia.
+> Both present as **fever, headache, myalgia and rash with an ESCHAR at the bite site**, described in full at [[08_09_Infectious_Disease_-_Miscellaneous]] Added from unverified layer — four things the incubation framework does not carry. **Doxycycline empirically on suspicion**; serology is retrospective.
+> **Search note:** every `Flinders` in this vault outside this block is the South Australian institution in a localisation note.
+
+> [!danger] **Hendra virus** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> A bat-origin henipavirus transmitted to people **through infected horses**, in **Queensland and northern New South Wales.** Rare, and **very high mortality.**
+> **The exposed group is specific — veterinarians, veterinary nurses, horse owners and handlers** who have had contact with a sick or dead horse's body fluids. **A febrile or encephalitic illness in someone who has recently handled an unwell horse is the presentation**, and it is missed because nobody asks about the horse.
+> **An equine vaccine exists and is the principal control measure**; there is no human vaccine. Suspicion mandates isolation and immediate discussion with public health and the infectious diseases service before any specimen is taken, because laboratory handling changes.
+
+> [!tip] **Psittacosis** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> *Chlamydia psittaci*, from **birds — parrots and cockatoos above all, but also poultry, and exposure can be as slight as wild bird droppings or a nearby aviary with no direct handling.**
+> Presents as **atypical pneumonia** with prominent **fever and headache** out of proportion to the chest signs, and it responds to **doxycycline** rather than to a beta-lactam.
+> **It is found by asking about birds** — including birds the patient does not own — and that question is not part of a routine pneumonia history.
 
 ## Notifiable Diseases (Australia)
 
