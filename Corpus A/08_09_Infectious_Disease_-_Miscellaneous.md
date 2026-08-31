@@ -3,7 +3,7 @@ block: Infectious Disease
 source: quackquackmed 08.09 Miscellaneous infections
 trust: inherited
 population: mixed
-conflicts_open: 0
+conflicts_open: 1
 conflicts_r1: 0
 ---
 
@@ -169,6 +169,23 @@ conflicts_r1: 0
 > [!info] Gap-filled — "bacteraemia" and "septicaemia" are used correctly throughout this project (e.g. in Lemierre's syndrome, spinal epidural abscess) as complications of specific infections, but the terms themselves were never defined or related to "sepsis." **Bacteraemia** simply means the presence of viable bacteria in the bloodstream — it can be transient and entirely asymptomatic (e.g. briefly after tooth brushing), and does **not** by itself imply illness. **Septicaemia** is an older, less precise term for a bloodstream infection causing systemic illness — largely superseded in current clinical use by the more precisely defined **sepsis** (below), which specifically requires life-threatening organ dysfunction, not just bacteraemia or a systemic infection. The practical relationship: bacteraemia can progress to sepsis if the host response becomes dysregulated and organ dysfunction develops, but bacteraemia alone (without organ dysfunction) doesn't meet the definition of sepsis — this is precisely why blood cultures confirming bacteraemia don't automatically mean a patient has "sepsis" in the modern, clinically actionable sense of the term.
 
 - **D:** life-threatening organ dysfunction caused by a dysregulated host response to infection.
+
+> [!info] Added from unverified layer — **why the definition changed, and what SIRS was**
+> `SRC:A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest §0.2` `UNVERIFIED — model knowledge, not source-checked. The formal definition history, per the Sepsis-3 papers.`
+> The definition above is deliberately about **organ dysfunction**, not inflammation. It replaced
+> **SIRS** — temperature, heart rate, respiratory rate and white cell count — which describes a
+> **generic inflammatory response** and therefore **fires in pancreatitis, trauma, burns and the
+> ordinary post-operative state with no infection at all.** SIRS was sensitive and unspecific;
+> the current definition is anchored on the organ dysfunction that makes sepsis lethal.
+> **Worth knowing because SIRS criteria are still in circulation** on older charts and in older
+> teaching, and a patient can be SIRS-positive and not septic, or septic and SIRS-negative.
+> (Note: in Australian aged-care documents `SIRS` means the **Serious Incident Response Scheme** — an unrelated acronym, see [[Clinical-Process-EBM-Consent-Capacity]].)
+
+> [!fail]- CONFLICT CF-034 — is qSOFA a screening tool or a prognostic flag? **R2**
+> **A (`inherited`):** the box below — *"qSOFA — **quick screening tool** to identify patients at increased risk of sepsis"*, with its three components.
+> **B (`unverified`):** `SRC:A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest §0.2` — *"**qSOFA is a prognostic flag, not a screening tool.** It identifies infected patients at higher risk of poor outcome. It is **insensitive as a bedside screen**, and a **negative qSOFA does not exclude sepsis**."*
+> **Why it matters:** the components are identical either way, so nothing in the box looks wrong — **the dispute is entirely about what the result licenses you to do.** A clinician using it as a screen, and getting a negative, may not escalate a septic patient. The failure is silent: the score performs exactly as designed while being used for the wrong purpose.
+> **Resolve against:** the Australian Commission on Safety and Quality in Health Care sepsis materials, the NSW ACI / "SEPSIS KILLS" pathway documentation (already cited below), or the Sepsis-3 definition papers.
 
 > [!info] qSOFA — quick screening tool to identify patients at increased risk of sepsis
 > - RR >22

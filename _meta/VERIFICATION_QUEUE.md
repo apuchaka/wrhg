@@ -5,7 +5,7 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-31
 
-475 open items. Close one by editing its marker in the file, then rerunning `scan`.
+478 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
 # Actionable — openly accessible Australian sources (70)
 
@@ -114,14 +114,17 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/01_Cardiovascular.md** L369 · _Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)_ · `inherited` — model knowledge, not source-checked. Agents and doses per eTG Cardiovascular; the entity is already queued at PENDING_GUIDELINE_CHECKS P5-A30 against eTG and Heart Foundation.
 - **Corpus B/C1_Acute_Abdomen.md** L189 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (330)
+# Triage — source not named in the marker (333)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
-## R1 — could kill someone this rotation (53)
+## R1 — could kill someone this rotation (56)
 
 - **Corpus A/03_Gastrointestinal.md** L275 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — the maximum inflation time and the balloon pressures; gastroenterology or intensive care unit protocol.
 - **Corpus A/03_Gastrointestinal.md** L1695 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.
+- **Corpus A/03a_Anaesthetics_Primer.md** L320 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03a_Anaesthetics_Primer.md** L336 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked. The timing window, per a named surgical source.
+- **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L174 · _Sepsis_ · `inherited` — model knowledge, not source-checked. The formal definition history, per the Sepsis-3 papers.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L209 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.
 - **Corpus A/15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support.md** L147 · _Added from unverified layer — two ANZCOR points not stated above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus B/A10_Ethics__Capacity__Consent_and_Certification.md** L185 · _0.5 Professional Practice Concern_ · `unverified` — the precise wording of the notifiable conduct categories, the exemptions (which differ for practitioners providing health care to another practitioner, and which vary between states — Western Australia and Queensland have historically differed), and the reporting process must be verified against current Ahpra guidance.
