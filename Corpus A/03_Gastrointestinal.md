@@ -553,7 +553,8 @@ Azathioprine, mesalazine, bendroflumethiazide, furosemide, steroids, sodium valp
 `SRC:C7_Pancreatobiliary_Disease §0.1` `SRC:C7_Pancreatobiliary_Disease §0.2` `UNVERIFIED — model knowledge, not source-checked.`
 
 > [!danger] Severity is judged by organ failure and trajectory — not by the lipase
-> **The height of the lipase does not grade the disease.** A patient with a lipase of several thousand and no organ dysfunction has mild pancreatitis; a patient with a modest lipase and persistent hypoxia has severe pancreatitis. §0.11 above uses the lipase to make the **diagnosis**, which is what it is for.
+> **That the height of the enzyme does not indicate severity is owned by [[NEW_Investigations_Gastroenterology]]**, which states it as a persistent misconception and is not repeated here.
+> What follows below is what that entry does not give: **the classification that grades the disease instead**, and the fact that the grade cannot be assigned on admission.
 
 > [!info] The revised Atlanta classification
 > - **Mild** — no organ failure and no local complications.
@@ -1771,12 +1772,13 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 
 **A/P:** senescent red cells are broken down in the reticuloendothelial system → haem → biliverdin → **unconjugated bilirubin**, which is lipid-soluble, tightly albumin-bound and therefore **cannot be filtered by the glomerulus** → transported to the liver → taken up by hepatocytes → **conjugated with glucuronic acid by UGT1A1** → **conjugated bilirubin**, which is water-soluble → excreted in bile → converted by gut bacteria to urobilinogen and stercobilin, which colours the stool.
 
-> [!danger] The urine and stool answer the first question
-> **Unconjugated bilirubin is albumin-bound and cannot enter the urine.** So:
-> - **Jaundice with normal-coloured urine = unconjugated** (prehepatic, or a conjugation defect).
-> - **Jaundice with dark urine and pale stools = conjugated**, with impaired excretion — hepatocellular or obstructive.
+> [!danger] The urine and stool answer the first question — and here is why
+> **That dark urine with pale stools signals cholestasis is owned by [[NEW_Investigations_Renal_and_Urology]]** (bilirubinuria, conjugated hyperbilirubinaemia) and is not restated here.
+> **The mechanism is what makes it usable as a bedside test, and that is not stated there:** unconjugated bilirubin is **albumin-bound and cannot be filtered by the glomerulus**, so it never reaches the urine.
+> - **Jaundice with normal-coloured urine = unconjugated** — prehepatic, or a conjugation defect.
+> - **Dark urine and pale stools = conjugated**, with impaired excretion.
 >
-> This pair of questions, asked in the history at no cost, splits the differential before any test returns. **Pruritus** additionally points strongly toward cholestasis.
+> Two questions asked in the history, at no cost, split the differential before any test returns. **Pruritus** additionally points toward cholestasis.
 
 > [!tip] The three-way classification
 > **Prehepatic** — increased bilirubin load. Haemolysis, ineffective erythropoiesis, resorption of a large haematoma. **Unconjugated.**
