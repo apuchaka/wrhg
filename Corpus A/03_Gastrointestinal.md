@@ -1668,9 +1668,16 @@ Abdominal pain is transmitted by two distinct pathways, and the transition betwe
 > [!info] Examination sequence
 > **Inspection** — distension, scars (which tell you about adhesions), visible peristalsis, hernias, bruising (Grey Turner and Cullen signs, both late and uncommon), respiratory movement of the abdomen.
 > **Palpation** — start away from the pain. **Guarding** (voluntary or involuntary muscle contraction), **rigidity** (board-like, involuntary — peritonitis), and localised tenderness.
-> **Percussion tenderness rather than rebound.** `CF-038` Gentle percussion elicits the same information as releasing deep palpation, is far kinder, and is more reproducible. **Rebound testing is unpleasant, poorly reproducible and should largely be abandoned.**
+> **Percussion tenderness rather than rebound.** Gentle percussion elicits the same information as releasing deep palpation, is far kinder, and is more reproducible. **Rebound testing is unpleasant, poorly reproducible and should largely be abandoned.**
 > **Auscultation** — absent bowel sounds in ileus or peritonitis; high-pitched tinkling in obstruction. Bowel sounds are **less informative than commonly taught** and should not override the rest of the examination.
 > **Percussion for shifting dullness** where ascites is suspected.
+
+> [!fail]- CONFLICT CF-038 — is rebound tenderness elicited, or abandoned? **R3**
+> **A (`snippet`, base-A, [[NEW_Gastroenterology_and_Hepatology]]):** "**Palpate** gently and away from the pain first: guarding, rigidity, **rebound** and percussion tenderness; **localised versus generalised peritonism**; organomegaly; **a pulsatile expansile mass**; Murphy's sign; Rovsing's sign."
+> **B (`unverified`, `SRC:C1_Acute_Abdomen §0.2`, the callout above):** "**Percussion tenderness rather than rebound.** Gentle percussion elicits the same information as releasing deep palpation, is far kinder, and is more reproducible. **Rebound testing is unpleasant, poorly reproducible and should largely be abandoned.**"
+> **Why it matters:** A instructs the examiner to elicit a sign B says to stop eliciting. Both are instructions about what to do to a patient at the bedside, and a reader meeting only one will not know the other exists. The weight is **R3** — neither changes a disposition — but the disagreement is real.
+> **How it was buried:** B was merged as an ADDITION, because the gap check that authorised it searched Corpus A alone and A lives in Corpus C. No conflict was raised at the time.
+> **Resolve against:** RACS resources or a current clinical examination text. Both open. **Not adjudicated.**
 
 > [!danger] Three examinations that are skipped and cost diagnoses
 > **1. The hernial orifices.** Palpate both groins in every patient with abdominal pain or obstruction. An incarcerated femoral hernia in an elderly woman is a classic missed cause of obstruction, and it is found by putting your hand on it. See §0.21 Hernias.
