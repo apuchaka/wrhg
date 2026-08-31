@@ -83,6 +83,21 @@ no_baseline: 0
 
 ---
 
+## Added from unverified layer — the biopsy rule, and vulvodynia
+`SRC:O5_Pelvic_and_Vulval_Conditions §0.4` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!danger] **BIOPSY ANY PERSISTENT VULVAL LESION — the rule this file needs and does not state**
+> The entries above and below describe several conditions that **look alike and are treated alike, and one of them is a cancer.** Lichen sclerosus, lichen planus, lichen simplex, leukoplakia, VIN and vulval carcinoma overlap clinically, and **the commonest path to a late vulval cancer diagnosis is repeated empirical treatment for "thrush" or eczema without anyone looking properly or taking a sample.**
+> **So: any vulval lesion that persists, that fails to respond to appropriate treatment, that is ulcerated, indurated, pigmented irregularly, or that bleeds — is biopsied.** Not treated again, not reviewed again in three months. **The threshold falls further with age and where lichen sclerosus is already established**, since it carries a malignant potential the topical steroid does not remove.
+> **And look.** The vulva is examined less often than any other external surface. A woman on her third course of antifungal for "thrush" has usually not been examined at all.
+
+> [!warning] **Vulvodynia**
+> **Vulval pain — burning, rawness, stinging or dyspareunia — persisting without an identifiable cause on examination and investigation.** Localised to the vestibule and provoked by touch, or generalised and unprovoked.
+> **It is a diagnosis of exclusion and the exclusions come first** — the dermatoses above, infection, oestrogen deficiency, and a neurological or musculoskeletal cause including **pelvic floor muscle overactivity**, which frequently coexists and is treatable.
+> **The mechanism is neuropathic and central pain processing, not inflammation**, which is why antifungals, topical steroids and repeated swabs neither help nor exclude it — and why the parallel with fibromyalgia at [[12_02_Rheum_-_Ankylosing_Spondylitis__Gout__Pseudogout__Reactive_Arthritis__Fibromyalgia__PMR__CFS]] is worth reading across.
+> **What helps is multimodal:** vulval care measures, pelvic floor physiotherapy, topical and centrally acting neuromodulators, and psychological and sexual therapy — **and it works better when the patient is told the pain is real and has a mechanism**, which many have been waiting years to hear.
+> `UNVERIFIED — the classification currently in use, the agents and their evidence, and Australian referral pathways; RANZCOG and an Australian vulval clinic source would settle it. NO DOSE IS STATED HERE.`
+
 ## Vulval intraepithelial neoplasia (VIN)
 
 **D**: non-invasive squamous lesion; precursor to vulval squamous cell carcinoma.

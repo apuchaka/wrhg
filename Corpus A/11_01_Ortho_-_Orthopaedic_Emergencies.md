@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 1
+no_baseline: 2
 ---
 
 ## Septic arthritis

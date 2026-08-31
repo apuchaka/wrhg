@@ -37,6 +37,8 @@ DEFAULT_DIRS = ["Corpus A", "Corpus B", "Corpus C"]
 
 # Words too common in medical prose to carry a search on their own. Used to pick the rarest
 # term for the rule 2 retry, not to reject anything.
+RETRY_NOISE_CAP = 40  # above this a retry term is reported as too common, never dumped
+
 COMMON = {
     "the", "a", "an", "and", "or", "of", "in", "on", "to", "is", "are", "was", "be", "not",
     "with", "for", "by", "at", "from", "it", "its", "this", "that", "these", "those",
@@ -66,6 +68,86 @@ def rarest_term(pattern):
     if not meaningful:
         return None
     return max(meaningful, key=len)
+
+
+# Every dash character this corpus uses, folded to ASCII hyphen before matching — the
+# same mechanism as merge_tools.normalise()'s Unicode digit folding, and added for the same
+# reason: a variant nobody can see produces a confident false ABSENT.
+#
+# THREE en-dash false-ABSENTs in one run (2026-08-31) made this a class rather than an
+# incident:
+#   `warm-cold`         0 hits — the block was written "wet–dry / warm–cold"
+#   `pulmonary-renal`   0 hits — PRESENT TWICE as "pulmonary–renal", in two same-day-
+#                       referral danger callouts, and the automated retry could not find it
+#                       either because `pulmonary` and `renal` are too common to read
+#   (a third, in the week 2 merge verification, on a hyphenated block title)
+#
+# Folding TO the ASCII hyphen is safe inside a regex: en-dash, em-dash, figure dash, minus
+# and the rest are not regex metacharacters, and a hyphen that is already a hyphen — the
+# range in `[a-z]` — is left exactly as it was.
+DASHES = "\u2010\u2011\u2012\u2013\u2014\u2015\u2212\uFE58\uFE63\uFF0D"
+DASH_FOLD = str.maketrans({c: "-" for c in DASHES})
+
+
+def fold_dashes(s):
+    return s.translate(DASH_FOLD)
+
+
+def search(pattern, dirs):
+    """Every matching line, in full. The one place a search happens.
+
+    Both the pattern and each line are dash-folded before matching, so a hyphen in the
+    query finds an en-dash in the corpus and vice versa. The line is REPORTED unfolded,
+    so what you read is what the file actually says.
+    """
+    rx = re.compile(fold_dashes(pattern), re.I)
+    out = []
+    for path in md_files(dirs):
+        with open(path, encoding="utf-8") as fh:
+            for i, line in enumerate(fh, 1):
+                if rx.search(fold_dashes(line)):
+                    out.append((path, i, line.rstrip("\n")))
+    return out
+
+
+def retry_terms(pattern):
+    """The single-word retry set, derived mechanically from the pattern.
+
+    THIS IS A STANDING STEP, NOT A FALLBACK. Promoted 2026-08-31 after the rarer-word
+    retry caught a duplicate for the THIRD time — Glasgow-Imrie (C7), West Haven (C3),
+    and `lipohaemarthrosis` (L1), where a 0-hit verdict would have merged a block that
+    Corpus C already stated. A retry run only when something "looks suspicious" is a
+    retry that does not run, because a clean-looking zero is exactly what it is for.
+
+    Two shapes, because the three worked examples are two different failures:
+      * MULTI-WORD — the corpus reworded the phrase. Retry each meaningful word bare.
+        `Glasgow-Imrie` -> `Glasgow`, `Imrie`.  `West Haven` -> `Haven`.
+      * SINGLE LONG WORD — the corpus used a different compound, or markdown emphasis
+        split it. Retry internal substrings, which covers `haemarthrosis` inside
+        `lipohaemarthrosis` AND `aemolysis` inside `**H**aemolysis`.
+    """
+    words = [w for w in re.findall(r"[A-Za-z][A-Za-z'-]{3,}", pattern)
+             if w.lower() not in COMMON]
+    terms = []
+    if len(words) > 1:
+        terms = sorted(set(words), key=len, reverse=True)
+    for w in words:
+        for part in re.split(r"[-']", w):
+            if len(part) >= 4 and part not in terms and part.lower() not in COMMON:
+                terms.append(part)
+    if len(words) == 1 and len(words[0]) >= 8:
+        w = words[0]
+        for cut in (3, 4, 5, 6):
+            if len(w) - cut >= 5:
+                for cand in (w[cut:], w[:-cut]):
+                    if cand not in terms:
+                        terms.append(cand)
+    seen, out = set(), []
+    for x in terms:
+        if x.lower() not in seen:
+            seen.add(x.lower())
+            out.append(x)
+    return out[:8]
 
 
 def md_files(dirs):
@@ -109,13 +191,7 @@ def main():
                   "  Then re-run with --allow-phrase if you still need the phrase form.")
             return 2
 
-    rx = re.compile(args.pattern, re.I)
-    hits = []
-    for path in md_files(args.dirs):
-        with open(path, encoding="utf-8") as fh:
-            for i, line in enumerate(fh, 1):
-                if rx.search(line):
-                    hits.append((path, i, line.rstrip("\n")))
+    hits = search(args.pattern, args.dirs)
 
     src = args.source.strip()
     self_hits = [h for h in hits if src and h[0].startswith(src + os.sep)]
@@ -141,21 +217,63 @@ def main():
                   "this as ZERO, not as PRESENT.")
             print("    A self-match reported as PRESENT is a FALSE PRESENT — the silent "
                   "direction, which nothing downstream catches (rule 9).")
-        rare = rarest_term(args.pattern)
         print("\nZERO HITS IN THE DESTINATION CORPORA — this is NOT an ABSENT verdict yet "
               "(rule 2).")
-        print("  Rules 9 and 10 passing is exactly when rule 2 is the backstop. Before "
-              "recording ABSENT, run the component re-search:")
-        print(f"    1. the rarest word bare        : python3 scripts/gapcheck.py "
-              f"'{rare or '<rarest-word>'}'")
-        print("    2. a distinctive letter-run     : e.g. 'aemolysis' for '**H**aemolysis' "
-              "(rule 2, markdown emphasis)")
-        print("    3. spelling and naming variants : ae/e, -ise/-ize, AU vs international "
+        terms = retry_terms(args.pattern)
+        if terms:
+            print(f"\nSINGLE-WORD RETRY — RUN AUTOMATICALLY, not suggested. "
+                  f"{len(terms)} term(s), every hit printed in full.")
+            print("(A standing step since 2026-08-31: the rarer-word retry has now caught a "
+                  "duplicate three times —\n Glasgow-Imrie, West Haven, lipohaemarthrosis — "
+                  "and in each case the original search looked clean.)\n")
+            found, too_common = 0, []
+            for term in terms:
+                rhits = [h for h in search(re.escape(term), args.dirs)
+                         if not (src and h[0].startswith(src + os.sep))]
+                # A retry term returning a very large number of hits is not evidence about
+                # the original claim in either direction — it is a term too common to
+                # discriminate. Printing 700 lines is not "reading them", and rule 10's own
+                # instruction for an unreadable result set is to NARROW THE PATTERN, never
+                # to truncate it. So: say so, and do not pretend the dump was a check.
+                # Found 2026-08-31 the same day the retry was automated: `pulmonary-renal`
+                # retried as `pulmonary` (233) and `renal` (768) and emitted 1001 lines.
+                if len(rhits) > RETRY_NOISE_CAP:
+                    print(f"  retry /{term}/ -> {len(rhits)} hit(s) — TOO COMMON TO "
+                          f"DISCRIMINATE, lines not printed")
+                    too_common.append(term)
+                    continue
+                print(f"  retry /{term}/ -> {len(rhits)} hit(s)")
+                for path, i, line in rhits:
+                    print(f"    {path}:{i}: {line}")
+                found += len(rhits)
+            if too_common:
+                print(f"\n  {len(too_common)} retry term(s) were too common to be "
+                      f"informative: {', '.join(too_common)}.")
+                print("  This is NOT evidence of presence or absence. Rule 10: when a "
+                      "result set is too large to read,")
+                print("  NARROW THE PATTERN — pick a distinctive component of the "
+                      "instrument and search that instead.")
+            if found:
+                print(f"\n*** {found} HIT(S) FROM THE RETRY. READ THEM BEFORE RECORDING "
+                      f"ABSENT. ***")
+                print("    A retry hit is how Glasgow-Imrie, West Haven and "
+                      "lipohaemarthrosis were each caught.")
+            elif too_common:
+                print("\n  *** THE RETRY IS INCONCLUSIVE, NOT NEGATIVE. *** Every term "
+                      "that could have discriminated was")
+                print("      too common to read, so this zero has NOT been re-searched. "
+                      "Narrow and run it again.")
+            else:
+                print("\n  Retry found nothing either — every derived term was readable "
+                      "and returned zero.")
+        else:
+            print("\n  No retry term could be derived from this pattern.")
+        print("\nStill to consider by hand, which no tool can derive:")
+        print("    * spelling and naming variants : ae/e, -ise/-ize, AU vs international "
               "drug name, acronym vs expansion")
-        print("    4. the CONCEPT, not the phrase  : what would the corpus call this if it "
+        print("    * the CONCEPT, not the phrase  : what would the corpus call this if it "
               "used different words?")
-        print("  Record which of these you ran. A zero result you did not re-search is not "
-              "a finding.")
+        print("  A zero result you did not re-search is not a finding.")
         return 1
     return 0
 

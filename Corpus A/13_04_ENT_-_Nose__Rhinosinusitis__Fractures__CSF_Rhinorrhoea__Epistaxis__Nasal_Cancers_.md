@@ -85,6 +85,25 @@ no_baseline: 1
 
 - **Mx:** treat epistaxis; analgesia, ice; close skin injury. Reassess 5–7 days post-injury once swelling has resolved. If manipulation under anaesthesia is required, do this 10–14 days after injury (before the nasal bones are set).
 
+## Added from unverified layer — the facial fracture patterns beyond the nose
+`SRC:L8_Facial__Head_and_Torso_Trauma §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!tip] **Le Fort fractures — the three midface patterns**
+> Nasal fractures are above and CSF rhinorrhoea below; **the midface patterns between them were absent from this vault.** All three require the pterygoid plates to be involved, which is what makes the midface mobile.
+> **· Le Fort I — horizontal, above the teeth.** The **hard palate and upper dentition move as one block** against a fixed nasal bridge.
+> **· Le Fort II — pyramidal.** The fracture runs up through the maxilla to the nasal bridge, so **the nose moves with the maxilla** and the orbital rims are involved.
+> **· Le Fort III — craniofacial disjunction.** The entire midface separates from the skull base; **the whole face moves, including the zygomas**.
+> **The bedside test is the one to know: hold the forehead steady with one hand and gently rock the upper alveolus with the other — what moves tells you the level.**
+> **Two things matter more than the classification.** **The AIRWAY** — midface fractures bleed into the pharynx and swell, and a Le Fort III can lose its airway late; and **the association with a base-of-skull fracture and a CSF leak** (see below), which is why nasal packing and nasogastric tubes are hazardous here.
+> **Pure Le Fort patterns are uncommon in practice** — most real injuries are mixed and asymmetrical — so the value is the level and the airway, not the label.
+
+> [!danger] **Orbital blowout fracture — and the paediatric "white-eyed" variant that is a surgical emergency**
+> **A blow from an object larger than the orbital rim** — a fist, an elbow, a ball — raises intra-orbital pressure and **blows out the thin ORBITAL FLOOR into the maxillary sinus**, decompressing the globe. The rim itself is often intact.
+> **The signs: diplopia worst on UPWARD gaze** (inferior rectus and its fat tethered in the fracture), **enophthalmos**, **infraorbital nerve numbness** over the cheek, upper lip and gum, and surgical emphysema of the lids after nose-blowing. **Tell the patient not to blow their nose.**
+> **The paediatric trapdoor is the emergency, and it looks like nothing.** A child's bone is greenstick — **it springs back and traps the muscle, so there is little bruising and little swelling: the "WHITE-EYED" blowout.** The child has **marked restriction of upward gaze, pain on eye movement, and often nausea, bradycardia or vomiting from the oculocardiac reflex** — which is easily mistaken for a head injury.
+> **A child with a periorbital injury, a quiet-looking eye and restricted upward gaze needs urgent imaging and same-day ophthalmology or maxillofacial discussion**, because trapped muscle becomes ischaemic and the window to release it is short. Adults' blowouts are usually not urgent; **this one is.**
+> `UNVERIFIED — the timeframe within which a paediatric trapdoor fracture should be released, and Australian referral pathways; a maxillofacial or paediatric ophthalmology source would settle it.`
+
 ## CSF rhinorrhoea
 
 - **A:** ethmoid fractures disrupting the dura and arachnoid; also consider tumour.

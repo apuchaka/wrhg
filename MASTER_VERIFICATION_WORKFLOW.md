@@ -1724,6 +1724,32 @@ report examined / converted / flagged per chunk.
 > ending at **"tongue-biting (lat"**; and `micturition syncope` requiring an adjacency the
 > corpus does not use.
 
+> [!danger] **REQUIRED CHECK — THE SINGLE-WORD RETRY RUNS ON EVERY ABSENT VERDICT, and
+> `gapcheck.py` now runs it for you.**
+> Promoted from a rule 2 corollary to a standing step on 2026-08-31, after the rarer-word
+> retry caught a duplicate for the **third** time.
+>
+> | Case | Original search | Retry | What it found |
+> |---|---|---|---|
+> | **Glasgow-Imrie** (C7) | 0 hits | `Glasgow` → 14 | the **Glasgow score** with its PANCREAS mnemonic, already in `03_Gastrointestinal` §0.11 |
+> | **West Haven** (C3) | 0 hits | components | the **complete four-grade scale**, under a heading reading only `Grading` |
+> | **`lipohaemarthrosis`** (L1) | 0 hits | `haemarthrosis` → 11 | *"fat globules suggest an intra-articular fracture"* at `NEW_Investigations_Rheumatology:173` |
+>
+> **In all three the original search looked clean.** A retry run only when something looks
+> suspicious is a retry that does not run, because **a clean-looking zero is exactly the
+> case it exists for**. Each of the three would otherwise have merged a block the corpus
+> already had — the failure mode with no downstream detector.
+>
+> **`gapcheck.py` derives the retry terms and runs them automatically on any zero result**,
+> printing every hit in full. A multi-word pattern retries each meaningful word bare; a
+> single long word retries its internal substrings, which covers `haemarthrosis` inside
+> `lipohaemarthrosis` and `aemolysis` inside `**H**aemolysis` by one mechanism.
+>
+> **Two things it cannot derive, and you still do by hand:** spelling and naming variants
+> (ae/e, AU vs international drug name, acronym vs expansion), and **the concept expressed
+> in different words** — which is what West Haven actually needed, since the retry on
+> `Haven` returned 0 and only searching *grade 1*, *euphoria*, *incoherent* found the scale.
+
 > [!danger] **REQUIRED CHECK — VERIFY THE MERGE WITH `gapcheck.py` TOO, never with a
 > hand-written grep.**
 > The post-merge check that content survived is **the same search as the gap check, pointed

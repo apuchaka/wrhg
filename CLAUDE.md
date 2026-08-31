@@ -15,6 +15,54 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
 2. **Zero grep hits is not proof of absence.** Check case-sensitivity, Unicode characters (α, β, ₂ subscripts), hyphenation variants, **markdown emphasis inside a word**, and alternate medical terminology before concluding content is missing. Historically most "missing" results have been search artifacts.
    - **The markdown case specifically:** this corpus bolds acronym expansions letter by letter — `**H**aemolysis, **E**levated **L**iver enzymes, **L**ow **P**latelets`. A search for `Haemolysis` finds nothing, because the literal text is `**H**aemolysis`. **Whenever a search for an acronym expansion returns zero hits, search again for a distinctive letter-run from the middle of the word** (`aemolysis`) before concluding the expansion is absent. The construction most likely to be searched for is the one least likely to be found.
    - Also never conclude absence from **truncated** output: a hit that was returned and cut off by a `cut`/`head` limit looks identical to no hit at all. View the full line.
+   - **DASH VARIANTS ARE FOLDED BY `gapcheck.py`, the way digit folding works** — hyphen,
+     en-dash, em-dash, figure dash and minus all match each other, in both directions, in
+     the pattern and in the text. Added 2026-08-31 after **three en-dash false-ABSENTs in
+     one run** made it a class rather than an incident: `warm-cold` (0 hits, the block was
+     written `wet–dry / warm–cold`), `pulmonary-renal` (**0 hits, and the syndrome is
+     PRESENT TWICE** as `pulmonary–renal` in two same-day-referral callouts), and one in
+     the week 2 merge verification. **The trap is removed mechanically rather than
+     remembered** — an invisible character variant is exactly the failure a person cannot
+     be asked to notice.
+   - **THE SINGLE-WORD RETRY IS A STANDING STEP, NOT A FALLBACK — and `gapcheck.py` RUNS
+     IT FOR YOU.** Promoted 2026-08-31 after the rarer-word retry caught a duplicate for
+     the **third** time: **Glasgow-Imrie** (C7 — the retry on `Glasgow` found the Glasgow
+     score with its PANCREAS mnemonic), **West Haven** (C3 — the complete four-grade scale
+     sat under a heading reading only `Grading`), and **`lipohaemarthrosis`** (L1 — 0 hits,
+     and the retry on `haemarthrosis` found *"fat globules suggest an intra-articular
+     fracture"* already stated at `NEW_Investigations_Rheumatology:173`).
+     **In all three the original search looked clean.** That is why "retry when something
+     looks suspicious" is not a rule: a clean-looking zero is exactly the case it exists
+     for. **Every ABSENT verdict gets the retry before it counts.**
+     `gapcheck.py` now derives the terms and runs them itself on any zero result, printing
+     every hit in full — a multi-word pattern retries each meaningful word bare, and a
+     single long word retries its internal substrings, which covers `haemarthrosis` inside
+     `lipohaemarthrosis` and `aemolysis` inside `**H**aemolysis` by the same mechanism.
+     **What the tool cannot derive, and you still do by hand: spelling and naming variants,
+     and the concept expressed in different words.**
+   - **SEARCH THE PLAIN ENGLISH NAME OF THE TOPIC, NOT ONLY THE EPONYM, THE ACRONYM OR
+     THE MECHANISM.** The eponym clause above says: when the *name* of a named instrument
+     returns nothing, search its components. **This is the converse, and it is not implied
+     by it** — when you search an alternate name, a mechanism word or an acronym, you must
+     still search **what the corpus would plainly call the thing.**
+     - Found 2026-08-31 auditing the week-3 merge. **A pulled elbow block was merged and
+       marked `NO-BASELINE` while `Corpus A/11_02:149` already carried a section headed
+       `### Pulled elbow`.** The gap check had run `nursemaid` (0 hits) and `pronation`
+       (3 hits, all adult fracture mechanisms) — **an American eponym and a mechanism word,
+       neither of which the existing section uses.** Both searches were correctly built,
+       correctly scoped and correctly read. **Neither searched the two words in the heading.**
+     - **This is the failure mode rules 9 and 10 cannot see.** The pattern was right for
+       what it asked, the scope was right, the count was right, the reading was complete.
+       The *question* was wrong. A search for a name the corpus does not use returns an
+       honest zero about a topic the corpus covers under another heading.
+     - Three further instances in the same audit: `allopurinol hypersensitivity` was called
+       absent while **three** files carried it, one of them the destination file itself, at
+       a line saying *"not repeated here"*; the RA *treat-to-target* principle was reported
+       absent while sitting **34 lines above the merge point**; `weight stigma` likewise.
+     - **The cheap form of this check: before merging a block, grep the destination file for
+       the words in your own block's TITLE.** It costs one command and it is the only
+       search guaranteed to be phrased the way a reader would phrase it.
+
    - **Rule 9 is this rule's inverse** — it covers the search that finds the *wrong* thing
      rather than nothing, and the file silently skipped before any search ran. A zero
      result can mean the term was absent, the spelling differed (this rule), or the file
@@ -84,7 +132,22 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
      | `PrEP` | 113 | PREP`aration(s)` ×68, `pre`PUCE ×3 | ~15 |
      | `TRAb` | 32 | TRAB`ecular` ×11, `s`TRAB`ismus` ×11 | 4 |
      | `IRIS` | 22 | the eye | 4 |
+     | `orf` | 7 | Peterd`ORF`, n`ORF`loxacin, burgd`ORF`eri | **0** |
+     | `PPPD` | 3 | **pylorus-preserving pancreaticoduodenectomy**, not the dizziness syndrome | **0** |
+     | `HLH` | 3 | **hypoplastic left heart**, not haemophagocytic lymphohistiocytosis | **0** |
+     | `RED-S` | 1 | `Red-stained nappy` | **0** |
+     | **`ANA`** | **2111** | `management` ×465, `anaemia` ×316, `Anaemia` ×168, `Anaesthetics` ×162, `Management` ×128, `analgesia` ×124 | **~30** |
 
+     - **`ANA` at 2111 hits is the ceiling case, and it settles the question: if 2111 can
+       be ~99% noise, NO HIT COUNT IS EVIDENCE OF ANYTHING.** Not four figures, not three,
+       not two. The count tells you how common the letters are, not whether the concept is
+       in the corpus. Read the matches or do not use the number.
+
+     - **`PPPD` and `HLH` are the more dangerous shape than pure noise.** Each is a *real*
+       medical acronym that already means **something else** in this corpus — pylorus-preserving
+       pancreaticoduodenectomy and hypoplastic left heart. Noise like `orf` looks like noise on
+       sight; **a hit that is itself a legitimate clinical term reads as a genuine find**, and is
+       dismissed only by reading the sentence around it.
      - **`IGRA` at 125 hits with 7 real is WORSE than a zero result, because nobody
        scrutinises 125.** A zero triggers rule 2's component re-search by reflex and, in
        `gapcheck.py`, by refusal to issue a verdict. A three-figure count reads as
@@ -93,7 +156,14 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
      - `felon`, `Conn`, `Gell` and `LADA` each returned a non-zero count for a term
        **completely absent from the corpus**. Four false PRESENTs in one run — the
        direction rule 9 already flags as the one nothing downstream catches.
-     - **So: do not maintain a list of known-bad patterns and check against it.** The list
+     - **So: do not maintain a list of known-bad patterns and check against it. KNOWING A
+       TERM COLLIDES DOES NOT HELP IF THE CHECK IS NOT RE-RUN EACH TIME.** `PERC` **was
+       already on the collision list** for that run and still returned **253 hits**
+       (`hypercalcaemia` ×73, `percentage` ×23, `hypercholesterolaemia` ×17,
+       `percussion` ×16); `HIT` returned 206. **The list does not stop the count being
+       produced, and the count is what gets read.** A list tells you a pattern is bad
+       *once*; the check has to establish it *every time*, because the next reader is a
+       different session with a different working memory. The list
        was five entries long at the start of that run and eight instances were found that
        it did not contain. **Treat any pattern under about six characters as suspect by
        default**, and settle it the cheap way — pipe the hits through

@@ -1406,6 +1406,15 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 > `UNVERIFIED — the time course of onset and of recovery, and whether any test distinguishes it from disuse atrophy; specialist neurology or rheumatology guidance.`
 
 
+> [!info] Added from unverified layer — **the incidental raised CK in a patient with no symptoms**
+> `SRC:L3_Muscle_Symptoms_and_Widespread_Pain §0.4` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> The block above says a **normal** CK does not exclude a myopathy. This is the opposite problem, and it is commoner: **a raised CK found on a panel nobody meant to order, in a patient with no weakness.**
+> **Before investigating, exclude the things that raise CK in normal muscle:** recent **exercise** — especially unaccustomed or eccentric — **intramuscular injection, trauma, a seizure, a fall, needle EMG,** and **alcohol.** **Repeat the test after several days of rest and abstinence**; a large proportion normalise and the workup ends there.
+> **Then consider the person, not just the number.** CK reference intervals are derived from populations that are not universal: **CK is higher in men, in people with greater muscle mass, and in people of African ancestry**, and a result flagged high by the laboratory may be normal for that patient.
+> **Then consider the drugs** — statins above all (see [[01_Cardiovascular]] on statin-associated muscle symptoms), but also fibrates, colchicine, some antipsychotics and alcohol.
+> **What makes it worth pursuing rather than repeating: a persistently raised CK, weakness on examination, myalgia with exercise intolerance, myoglobinuria, or a family history of muscle disease.** Those go to neurology, not to another CK.
+> `UNVERIFIED — the multiple of the upper reference limit at which referral is advised, and the rest interval before repeating. No threshold is stated here; the reporting laboratory and a neurology source would settle it.`
+
 ### Diabetic Neuropathy
 
 > [!note] Gap-filled — genuinely conspicuous by its absence given diabetic retinopathy (see [[05_Ophthalmology]] Diabetic Retinopathy) and diabetic nephropathy (see [[07_Renal_Medicine_and_Urology]] Diabetic Nephropathy) both have dedicated entries as the other two classic diabetic microvascular complications, while neuropathy — the third — was previously only a passing mention here (diabetic amyotrophy specifically) and within [[06_Metabolic_Medicine_and_Endocrinology]] Diabetic Foot. Verified against the American Diabetes Association's position statement on diabetic neuropathy and current international expert consensus, Aug 2026.

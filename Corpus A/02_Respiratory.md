@@ -861,6 +861,20 @@ Encompasses BiPAP, CPAP, etc.
 
 ---
 
+## Added from unverified layer — refractory breathlessness
+`SRC:RESP-X_Occupational_and_Chronic_Lung_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!danger] **Breathlessness that persists after the disease is optimally treated is its own problem, and it is treatable**
+> This file treats breathlessness throughout as a symptom **of** something — and in advanced COPD, ILD, heart failure and cancer there is a point past which the disease is optimally managed and the patient is still breathless. **That is refractory breathlessness, and "there is nothing more to do" is wrong.**
+> **What actually helps, and the first one surprises people:**
+> **· A HANDHELD FAN directed at the face.** Cool airflow over the **V2/V3 trigeminal distribution** reduces the sensation of breathlessness. It is free, immediate, has no side effects, and is **the single most cost-effective intervention available** — and patients are almost never told about it.
+> **· LOW-DOSE ORAL OPIOIDS.** Regular low-dose morphine reduces the *sensation* of breathlessness. **The fear that it hastens death or causes respiratory depression is not supported at the doses used for this indication**, and that fear is the main reason it is withheld. `UNVERIFIED — the starting dose, titration and Australian prescribing position; Therapeutic Guidelines: Palliative Care and the Australian palliative care services are the sources. NO DOSE IS STATED HERE.`
+> **· Breathing technique, pacing, and pulmonary rehabilitation** — see 0.20 and the COPD entries above; rehabilitation helps breathlessness even where lung function does not change.
+> **· Managing the anxiety component**, which is real and reciprocal: breathlessness causes panic and panic worsens breathlessness.
+> **· Non-pharmacological aids** — a walking aid to lean on, a chair in the shower, positioning.
+> **What does NOT help: oxygen in a patient who is not hypoxaemic.** It is widely given, and in the non-hypoxaemic patient it performs no better than air. **The fan is the intervention that works in that group.** Long-term oxygen therapy has narrow criteria and is a treatment for hypoxaemia, not for the symptom.
+> **Advance care planning belongs in this conversation** and is systematically deferred in chronic lung disease, where the trajectory is a stepwise decline with recoveries that make each admission look survivable until one is not. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]] and [[10_11c_Oncology_-_Palliative_Care_Prescribing]].
+
 ## 0.22 Cross-references to avoid duplication
 
 - **Pulmonary Embolism / Pulmonary embolus** (CSV rows) — fully covered in [[01_Cardiovascular]] section 0.29, including Wells score pathway, PERC rule, and Mx. Not duplicated here — this is a genuinely cross-cutting topic (chest/vascular) already built in its canonical home per the project's cross-cutting-topic convention.

@@ -144,6 +144,21 @@ no_baseline: 0
 - **S/Smx:** pain when extending the wrist and elbow against resistance; acute pain lasting 6–12 weeks, with a chronic phase between 6 months and 2 years.
 - **Mx:** rest, ice, physiotherapy, NSAIDs.
 
+> [!danger] Added from unverified layer — **corticosteroid injection is the wrong reflex in lateral epicondylalgia**
+> `SRC:L5_Regional_Limb_Pain §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> The management above is correct and is missing the thing patients most often ask for.
+> **A corticosteroid injection gives good short-term relief and a WORSE outcome at a year than doing nothing** — higher recurrence and slower eventual recovery. **The short-term benefit is real, which is why the practice persists**, and it is the reason a patient who was injected and improved will ask for another.
+> **The naming reflects this:** the condition is now usually called **lateral epicondylALGIA** or **tendinOSIS** rather than epicondylITIS, because the histology is **degenerative rather than inflammatory** — so an anti-inflammatory injection is treating a process that is not there.
+> **What to offer instead: explanation of the natural history above, load modification rather than rest, and progressive loading exercise with physiotherapy.** The natural history is favourable and saying so is part of the treatment.
+> `UNVERIFIED — the size and duration of the short-term benefit and of the one-year harm, and current Australian guidance on injection; the RACGP HANDI resource and a sports medicine source would settle it.`
+
+> [!danger] Added from unverified layer — **posterior shoulder dislocation is missed on the AP film**
+> `SRC:L5_Regional_Limb_Pain §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **Uncommon, and missed more often than it is diagnosed** — the AP radiograph can look almost normal, and the diagnosis is made on the axillary or scapular-Y view, **which is why a single AP is not an adequate shoulder series.**
+> **The signs on the AP are subtle and named:** the **"lightbulb sign"** — the humeral head appears symmetrically rounded because the arm is fixed in internal rotation — **loss of the normal overlap between the humeral head and the glenoid**, and the **"rim sign"**, a widened glenohumeral space.
+> **The clinical sign is the one that should prompt the extra view: the arm is held internally rotated and adducted, and EXTERNAL ROTATION IS BLOCKED.** A patient who physically cannot externally rotate has a posterior dislocation until the axillary view says otherwise.
+> **Ask about the mechanism, because it is characteristic: a SEIZURE, an ELECTROCUTION, or a fall on an internally rotated arm** — violent unopposed internal rotator contraction. **A post-ictal patient with shoulder pain gets a proper series**, and bilateral dislocation, though rare, is nearly always this mechanism.
+
 ### Olecranon bursitis
 
 - **D:** swelling over the posterior aspect of the elbow. Typically in middle-aged males.
@@ -182,6 +197,16 @@ no_baseline: 0
 - Volar (palmar) angulation of the distal radius — "garden spade" deformity.
 - **Ix:** XR (AP and lateral wrist), confirming the opposite (volar) displacement direction from Colles' fracture above — the same imaging principle applies, not repeated here.
 - **Mx:** **genuinely more likely to require surgical fixation than Colles' fracture**, given Smith's fractures are inherently unstable (the volar displacement direction makes closed reduction harder to hold in a cast) — closed reduction and casting may be attempted for minimally displaced fractures, but ORIF is more often needed than for the equivalent Colles' fracture pattern, a useful distinguishing point between the two.
+
+### Added from unverified layer — Chauffeur's fracture (radial styloid)
+`SRC:L7_Fractures_and_Eponyms §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!info] **The fourth of the distal radius eponyms — the other three are above**
+> **An oblique intra-articular fracture of the RADIAL STYLOID.** The name is historical: the starting handle of an early motor car kicked back and drove the radial styloid off. **Modern mechanism is a fall onto an extended wrist with radial deviation, or a direct blow.**
+> **Two things make it matter more than its size suggests:**
+> **· It is INTRA-ARTICULAR.** Like Barton's above, it involves the radiocarpal joint, so displacement and step-off are what determine management rather than the fragment's size.
+> **· It is a marker of higher-energy carpal injury.** The radial styloid is the attachment of the radioscaphocapitate and long radiolunate ligaments, so **the force that avulsed it may also have produced a scapholunate dissociation or a perilunate injury** — the fractures that are famously missed. **Look at the scapholunate interval and the carpal arcs on the same film**, and do not stop at the styloid.
+> Scaphoid fracture and the normal early radiograph are covered above; the same principle applies here — **an apparently isolated radial styloid fracture with wrist pain out of proportion needs the carpus looked at properly.**
 
 ### Barton's fracture
 

@@ -66,6 +66,31 @@ no_baseline: 1
 
 ---
 
+## Added from unverified layer — optimising before, and the three post-operative traps
+`SRC:AN1_Perioperative_Care §0.1, §0.4, §0.5` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!warning] **PREOPERATIVE ANAEMIA — find it early, because the treatment takes weeks**
+> **Anaemia before elective surgery independently predicts transfusion, complications and length of stay**, and it is the most modifiable preoperative risk factor there is. **It is routinely found the day before, when nothing can be done.**
+> **So the assessment happens weeks out, not at the pre-admission clinic door.** Check a full blood count and **iron studies** — the commonest cause is iron deficiency, and **iron deficiency without anaemia still matters** — then **treat and investigate the cause**, since iron deficiency in an adult is a symptom, not a diagnosis, and a bowel malignancy found before an unrelated operation changes everything.
+> **Intravenous iron corrects it in weeks where oral iron would take months** and is why the timing question is worth asking early. `UNVERIFIED — the haemoglobin and ferritin thresholds triggering treatment, and how far in advance; the National Blood Authority Patient Blood Management guidelines are the open Australian source. NO THRESHOLD IS STATED HERE.`
+> **Transfusing on the morning of surgery is the failure mode this exists to prevent**, not the solution to it.
+
+> [!tip] **Prehabilitation and Enhanced Recovery After Surgery (ERAS)**
+> **The interval before elective surgery is usable time**, and ERAS pathways treat it that way: **exercise, nutrition, smoking and alcohol cessation, and anaemia and diabetes optimisation** before admission; **shortened fasting with a carbohydrate drink** rather than nil by mouth from midnight; **avoiding routine bowel preparation, drains and nasogastric tubes** where evidence does not support them; **regional and multimodal opioid-sparing analgesia**; and **early mobilisation and early oral intake** afterwards.
+> **The intern's part is mostly the last two and the fasting**, which is where the harm accrues in practice.
+> **Search note:** `ERAS` as a bare pattern is useless in this vault — it returns `cholinesterase`, `topoisomerase`, `phosphodiesterase` and `polymerase` (CLAUDE.md rule 9).
+
+> [!danger] **PERIOPERATIVE MYOCARDIAL INFARCTION IS FREQUENTLY SILENT**
+> **Most perioperative myocardial infarctions cause no chest pain at all** — opioids, residual anaesthesia, sedation and the distraction of the wound all mask it, and many occur in the first 48 hours.
+> **What you get instead is unexplained hypotension, a new arrhythmia, an unexplained tachycardia, breathlessness, confusion in an older patient, or simply not progressing.** The post-operative fever timeline above helps with fever; **this is the differential for the patient who is not febrile and not right.**
+> **So an ECG and a troponin belong in the workup of unexplained post-operative deterioration**, not only when the patient complains of chest pain — which they usually will not.
+
+> [!danger] **DISCHARGE OPIOID PRESCRIBING DRIVES PERSISTENT OPIOID USE**
+> **A proportion of opioid-naive patients given opioids at discharge after minor surgery are still taking them months later.** The quantity dispensed is the strongest modifiable predictor, and it is usually chosen by habit rather than by need.
+> **So: prescribe the smallest quantity that covers the expected trajectory, state a stop date, and say plainly that the expectation is to stop** — with regular paracetamol and an NSAID where not contraindicated doing the work, and the opioid as the top-up.
+> **Do not send leftover supply into the community**; advise return of unused tablets to a pharmacy.
+> **And the opposite error, which is commoner in the ward:** a patient on **long-term opioids, methadone or buprenorphine needs their usual dose CONTINUED plus additional analgesia on top** — their baseline is a maintenance requirement, not treatment for the operation. **Withholding it produces withdrawal and uncontrolled pain simultaneously**, and it is the group most often under-treated. `UNVERIFIED — perioperative management of opioid agonist therapy, which is protocol-driven; the addiction medicine or pain service governs it.`
+
 ## Airway Adjuncts
 
 > [!note] Most airway adjuncts help open the airway to promote air delivery, but only endotracheal intubation and tracheostomies properly protect the airway.

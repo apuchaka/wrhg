@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 2
 ---
 
 ## 0.1 Ankylosing spondylitis
@@ -51,13 +51,13 @@ no_baseline: 0
 ### Added from unverified layer — two things about gout the entry above does not carry
 `SRC:L1_Hot_and_Swollen_Joint §0.2` `UNVERIFIED — model knowledge, not source-checked.`
 
-> [!danger] **Allopurinol hypersensitivity and HLA-B*5801** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
-> **Allopurinol can cause a severe cutaneous adverse reaction** — DRESS, Stevens-Johnson syndrome and toxic epidermal necrolysis — **which is uncommon but carries substantial mortality.**
-> **The risk is strongly associated with the HLA-B*5801 allele**, whose frequency **varies markedly by ancestry and is higher in Han Chinese, Thai and Korean populations**, and the risk is further increased by **chronic kidney disease** and by **starting at too high a dose.**
-> **Two things follow practically:** consider **HLA-B*5801 testing before starting allopurinol in higher-prevalence ancestry groups**, and **start low and titrate up** rather than starting at a maintenance dose — the dose-escalation approach reduces the risk independently of genotype.
-> **Warn the patient to stop the drug and present immediately if a rash develops**, which is the part that gets omitted.
-> `UNVERIFIED — whether HLA-B*5801 testing is recommended and funded in Australia and for whom, and the starting-dose and titration schedule. Therapeutic Guidelines and the Australian Rheumatology Association would settle it. NO DOSE IS STATED HERE.`
-> The `HLA-B` hits elsewhere in this vault are **B27** (ankylosing spondylitis, 0.1 above) and **B51** (Behçet, [[12_04_Rheum_-_Vasculitis]]) — a different allele in each case.
+> [!danger] **Allopurinol hypersensitivity — what the existing entries do NOT already say**
+> **The association itself is already covered and is NOT repeated here.** The Gout entry above cross-refers it, and [[09_01_Dermatology_-_Dermatological_Emergencies]] Stevens-Johnson syndrome / Toxic epidermal necrolysis is the owner — allopurinol as a leading cause of SJS/TEN, the HLA-B\*58:01 allele, its higher frequency in Han Chinese and Thai populations, and the Australian debate about targeted rather than universal screening. `NEW_Drugs_03_Analgesics` and `NEW_Investigations_General_and_Preventive` carry it too.
+> **Three things sit in none of them, and they are the ones that change what you do:**
+> **Chronic kidney disease raises the risk independently**, which matters because renal impairment is also the reason the starting dose is reduced — the same patient carries both.
+> **Starting low and titrating upwards reduces the risk independently of genotype**, so the dose-escalation approach protects the patients who were never tested, which is most of them.
+> **Warn the patient to stop the drug and present immediately if a rash develops.** This is the part routinely omitted, and it is the only safeguard operating after the prescription is written.
+> `UNVERIFIED — whether HLA-B\*58:01 testing is recommended and funded in Australia and for whom, and the starting-dose and titration schedule. Therapeutic Guidelines and the Australian Rheumatology Association would settle it. NO DOSE IS STATED HERE.`
 
 > [!warning] **The Australian and New Zealand epidemiology of gout** `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 > **Gout is substantially more prevalent, presents earlier, and is more severe in Māori and Pacific peoples**, reflecting differences in renal urate handling rather than in diet — **which matters because the dietary framing is both inaccurate here and experienced as blame.**
@@ -109,6 +109,14 @@ no_baseline: 0
   - **Diagnostic threshold:** WPI ≥7 and SSS ≥5, **or** WPI 3–6 and SSS ≥9; plus generalised pain in ≥4 of 5 body regions, present at a similar level for ≥3 months, not better explained by another condition (though fibromyalgia can coexist with another diagnosis — it doesn't require exclusion of all other pathology).
   - Bloods (FBC, ESR/CRP, TFTs) are typically normal, and are mainly useful to exclude an alternative or coexisting cause rather than to confirm the diagnosis — over-testing beyond a reasonable baseline is generally discouraged given fibromyalgia is fundamentally a clinical diagnosis.
 - **Mx:** bio-psycho-social model — patient education, CBT; aerobic exercise (most evidence); pregabalin, duloxetine, TCAs.
+
+> [!danger] Added from unverified layer — **opioids are contraindicated in fibromyalgia and cause harm**
+> `SRC:L3_Muscle_Symptoms_and_Widespread_Pain §0.5` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> **They do not work in fibromyalgia and they make it worse.** The mechanism is central pain processing, not nociception, so an opioid has nothing to act on — and **opioid-induced hyperalgesia lowers the pain threshold further**, producing a patient on escalating doses with escalating pain.
+> **This is not a caution about dose. There is no dose.** It sits alongside dependence, sedation, constipation and the loss of the therapeutic relationship when the drug is eventually withdrawn.
+> **What has the largest effect is not a drug at all: graded exercise, sleep, and education about the mechanism** — which is also what makes the diagnosis therapeutic to give clearly rather than hedge. **Where a drug is used it is a centrally acting agent, not an analgesic in the ordinary sense.**
+> **Say the mechanism out loud to the patient.** "The pain is real and the amplifier is turned up" is a sentence that changes the consultation, and patients who have been told the pain is imaginary have usually been told it more than once.
+> The corpus holds 173 `opioid` mentions and **not one of them is this**, which is how a contraindication goes missing in a file that already covers the condition.
 
 ## 0.7 Chronic fatigue syndrome (myalgic encephalomyelitis)
 

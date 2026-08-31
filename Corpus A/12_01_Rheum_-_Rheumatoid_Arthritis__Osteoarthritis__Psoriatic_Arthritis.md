@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 1
 ---
 
 ## Rheumatoid arthritis (RA)
@@ -71,6 +71,17 @@ no_baseline: 0
 - **Abatacept:** fusion protein that modulates a key signal required for T-cell activation; ↓T cell proliferation, ↓cytokines. IV or SC administration. **PBS-listed in Australia** (corrected — the original note's "not recommended by NICE" was UK-specific guidance left uncorrected) for patients who have failed an adequate trial of at least two conventional DMARDs including methotrexate at the required minimum dose (≥20mg/week, unless contraindicated or not tolerated) — **maintaining methotrexate alongside abatacept is itself a PBS eligibility requirement**, not merely a clinical preference, reflecting genuinely superior efficacy of the combination over either agent alone.
 
 > [!warning] Poor prognostic factors: RF positive, anti-CCP positive, HLA-DR4, poor functional status at presentation, early erosions on X-ray (<2 years), extra-articular features, insidious onset, possibly female sex.
+
+> [!danger] Added from unverified layer — **the window of opportunity: how EARLY treatment starts changes the outcome**
+> `SRC:L2_Polyarthralgia_and_Inflammatory_Arthritis §0.2` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — the EARLY-TREATMENT claim only: that starting sooner changes the achievable ceiling. Scoped deliberately — the treat-to-target half of this is NOT new, see the Treat-to-target principle stated above with DAS28.`
+> **The management above says what to give. It does not say that WHEN it is given is itself a determinant of outcome, and it is.**
+> **Starting a disease-modifying drug early — within the first months of symptom onset — produces higher remission rates and less joint damage than the same drug started later**, and the difference is not recoverable afterwards: **erosive damage is permanent.** A patient treated late reaches a worse ceiling with identical drugs.
+> **The operational consequences are all about time rather than about choice of agent:**
+> **· A suspected inflammatory arthritis is an URGENT rheumatology referral, not a routine one** — do not wait for serology, and do not wait to see whether it settles. **Seronegative disease is still erosive**, and a normal rheumatoid factor and anti-CCP do not justify a delay.
+> **· Do not treat a persistent inflammatory polyarthritis with NSAIDs and review** for months while the referral sits.
+> **· Once started, treatment is titrated to a target** — that part is **already stated above** under the DAS28 thresholds as the Treat-to-target principle, with the monitoring interval and the escalation step, and is not repeated here. **What that section does not say is that the clock starts at symptom onset, not at the first appointment.**
+> **Where the vault already stood:** treat-to-target is stated above for RA and, for ankylosing spondylitis, at [[12_02_Rheum_-_Ankylosing_Spondylitis__Gout__Pseudogout__Reactive_Arthritis__Fibromyalgia__PMR__CFS]] under BASDAI. **The EARLY-treatment principle — that the window itself changes the outcome — appeared only for psoriatic arthritis**, at [[NEW_Drugs_08_Dermatological]] — *"early treatment prevents erosive damage"* — inside a dermatology drug entry, where a reader working through rheumatoid arthritis would not meet it.
+> `UNVERIFIED — the interval that defines "early", the target definition, and the reassessment frequency used in Australian practice, per Therapeutic Guidelines: Rheumatology and the Australian Rheumatology Association. NO INTERVAL IS STATED HERE.`
 
 ### Complications / extra-articular manifestations
 

@@ -114,6 +114,21 @@ no_baseline: 0
 
 ---
 
+### Added from unverified layer — functional hypothalamic amenorrhoea and RED-S
+`SRC:O4_Abnormal_and_Menstrual_Bleeding §0.3` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!danger] **"Hypothalamic dysfunction (chronic illness/stress, excessive exercise)" above is a cause on a list. This is what it actually is.**
+> **Functional hypothalamic amenorrhoea is a reversible shutdown of GnRH pulsatility in response to an energy deficit** — insufficient energy availability relative to expenditure, whether from restriction, from exercise volume, or from both. **It is a diagnosis of exclusion, and the exclusions above still apply.**
+> **The trap is the body habitus.** **The athlete or dancer with this is frequently a normal weight and looks well**, because the deficit is relative to output, not absolute. **Waiting for a low BMI before considering it misses most of them.**
+> **RED-S — relative energy deficiency in sport — is the broader syndrome**, and amenorrhoea is one visible sign of a systemic problem that also affects **bone density, immunity, mood, iron status, cardiovascular and gastrointestinal function, and athletic performance itself.** It occurs in men too, where there is no menstrual sign to notice, so it is diagnosed later and less often. *(The older term was the "female athlete triad" — energy deficiency, menstrual dysfunction, low bone density.)*
+> **The bone consequence is the one that does not reverse.** **Peak bone mass is accrued in adolescence and early adulthood, and time spent hypo-oestrogenic in those years is not recovered later** — so this is not a cosmetic or fertility issue that can wait.
+
+> [!danger] **The treatment is energy, not the pill — and prescribing the pill can do harm**
+> **Restoring energy availability is the treatment:** increased intake, reduced training load, and management of any eating disorder or disordered eating, with dietetic and often psychological input. **Return of menses is the marker that it has worked.**
+> **A combined oral contraceptive produces a withdrawal bleed that looks like recovery and is not.** It **masks the single most useful monitoring signal**, and the evidence that it protects bone in this setting is weak — so it can leave an athlete reassured, still in deficit, and still losing bone.
+> **Ask about the things nobody volunteers:** training volume and any recent increase, intake relative to it, weight and shape concern, stress fractures, and previous menstrual pattern. **A stress fracture in a young woman with amenorrhoea is this diagnosis until proven otherwise.**
+> `UNVERIFIED — the diagnostic criteria and bone-density assessment thresholds, and current Australian sports medicine guidance; ACSEP and the RACGP would settle both. NO THRESHOLD IS STATED HERE.`
+
 ## Polycystic ovarian syndrome (PCOS)
 
 **D**: condition of ovarian dysfunction involving hyperandrogenism, oligomenorrhoea, and polycystic ovaries.
