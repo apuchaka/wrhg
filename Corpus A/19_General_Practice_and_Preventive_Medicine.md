@@ -148,6 +148,34 @@ The temptation is to read this as policy. It is not — several of the levers si
 
 ---
 
+## Added from unverified layer — Aboriginal and Torres Strait Islander health: the parts an intern acts on
+`SRC:AU1_Australian_Health_Context_and_ATSI_Health §0.2, §0.5` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+> [!warning] **This block is deliberately narrow.** It covers what an intern *does*, not the history, the policy or the epidemiology. The corpus already carries cultural safety as a barrier in specific diseases (`12_01_Rheum:105`), the equity-of-screening argument (`Clinical-Process-EBM-Consent-Capacity:354`), and acute rheumatic fever and rheumatic heart disease across the cardiology and infectious disease files. **The gap was the operational layer between those.**
+
+> [!danger] **ASK THE IDENTIFICATION QUESTION — every patient, every time**
+> **"Are you of Aboriginal or Torres Strait Islander origin?"** is asked of **everyone**, not of people who look a particular way, and it is asked because **identification is what unlocks specific clinical pathways and funding** — not for demographic record-keeping.
+> **Under-identification is common and it has direct clinical consequences**: it removes access to the annual health assessment, to the co-payment programme below, and to community-controlled services, and it distorts the data that drives resourcing.
+> **Answering "no" is fine. Not being asked is not.** Assuming from appearance or from a name is the error.
+
+> [!tip] **The community-controlled sector, and the CTG PBS Co-payment Programme**
+> **Aboriginal Community Controlled Health Organisations (ACCHOs) are not "the clinic for Aboriginal patients" — they are governed by the communities they serve**, and that governance is the reason they achieve engagement mainstream services do not. **Ask whether a patient has an ACCHO, and communicate with it on discharge** as you would any usual GP, because it may be the only continuous relationship the patient has with the health system.
+> **The Closing the Gap PBS Co-payment Programme reduces or removes the medicine co-payment** for eligible patients with, or at risk of, chronic disease. **It requires registration and prescriber annotation to work** — so a script written without it costs the patient full price, and cost is a common and unspoken reason medicines are not taken. `UNVERIFIED — current eligibility, the registration process and the prescriber annotation required; Services Australia and the PBS are the open sources.`
+
+> [!danger] **Engage Aboriginal Liaison Officers and Aboriginal Health Workers EARLY — not when things go wrong**
+> They are **clinical colleagues with distinct expertise**, not an interpreting or social-work afterthought, and involving them at admission rather than at the point of conflict changes the outcome of the admission.
+> **The same principle applies to family and community**: decision-making may properly involve people beyond the individual patient, and asking who should be present is part of taking consent rather than an obstacle to it.
+
+> [!danger] **"Discharge against medical advice" is usually a signal about the service, not about the patient**
+> **Rates are markedly higher for Aboriginal and Torres Strait Islander patients, and the reasons are consistent and structural**: distance from home and family, prior experiences of racism in health services, communication failure, cultural obligations, fear, and cost.
+> **Treat it as a system event to be prevented, not a patient behaviour to be documented.** In practice that means **asking early what would make staying possible**, involving the Liaison Officer, addressing distance and family contact concretely, and — where someone does leave — **making the return pathway explicit and blame-free**, with the medicines, the follow-up and the contact arranged as though the discharge were planned.
+> **Language in the notes matters and persists**: "non-compliant", "refused", "self-discharged" attribute the failure to the patient and are read by every clinician who follows.
+
+> [!info] **Social and emotional wellbeing is a broader model than "mental health"**
+> It encompasses **connection to body, mind and emotions, family and kinship, community, culture, Country, and spirituality**, and it locates wellbeing in those connections rather than only in the individual.
+> **The practical consequence is that a mental health assessment framed solely around individual symptoms will miss both the problem and the resources available to address it** — and that grief and loss, including intergenerational loss, are a legitimate and common part of the presentation rather than a comorbidity to be filtered out.
+> Suicide prevention, and the disproportionate burden borne particularly by young people, belongs here rather than as a footnote. Cross-refer [[14_01_Psych_-_Mood_Disorders__Depression__Suicide__Bipolar_]].
+
 ## 0.4 Continuity of Care, and What Makes General Practice Different
 
 > [!note] Gap-filled from CSV ("Continuity of care," High yield, and "Unique features of General practice," Medium — built together because the second is largely an explanation of why the first matters). Genuinely absent: **zero corpus-wide hits** for "continuity of care". Placed here rather than in [[Communication]] because this is a property of the *system and the therapeutic relationship over time*, not a consultation skill performed within a single station. Verified against RACGP position and advocacy material on the role of specialist GPs and continuity, the MJA analysis of patient enrolment and continuity in Australian general practice, and RACGP-reported NSW Health linked-data findings on post-discharge follow-up, Aug 2026.
