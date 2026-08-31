@@ -1984,6 +1984,34 @@ Radiological drainage of an abscess. Surgery — resection with or without stoma
 ### 0.7.3 Mx – Chronic/long-term
 **Interval colonoscopy after an episode of diverticulitis.** Dietary fibre advice. Discussion of elective resection in recurrent disease.
 
+### 0.41.15 Suprapubic Pain — from unverified layer
+`SRC:C1_Acute_Abdomen §0.8` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** Hindgut and pelvic structures refer here. The bladder, uterus, adnexa, rectosigmoid and pelvic peritoneum are all candidates, and the differential is heavily influenced by sex and reproductive status.
+
+> [!tip] The differential
+> **Urinary retention** — a tense, dull, palpable bladder. **Confirm with a bladder scan**, which takes seconds and is diagnostic. Common, painful and immediately relievable, and it is frequently missed in confused or immobile patients where it is also a cause of delirium and agitation.
+> **Urinary tract infection and cystitis.**
+> **Gynaecological** — ectopic pregnancy, pelvic inflammatory disease, ovarian pathology, endometriosis, fibroid degeneration (particularly in pregnancy), dysmenorrhoea.
+> **Colorectal** — sigmoid diverticulitis, rectal pathology.
+> **Pelvic appendicitis** — see 0.6.
+> **Prostatitis** in men, with perineal pain and urinary symptoms.
+
+> [!danger] Pelvic inflammatory disease
+> Lower abdominal pain, deep dyspareunia, abnormal discharge or bleeding, with **cervical motion tenderness** and adnexal tenderness. **The threshold for empirical treatment should be low**, because untreated PID causes infertility, chronic pelvic pain and ectopic pregnancy, and the diagnostic tests are imperfect. Treat and investigate simultaneously rather than waiting. Cross-refer `TODO:link — O5 Pelvic & vulval (unbuilt)` and `TODO:link — O6 Sexual & reproductive health (unbuilt)`. `UNVERIFIED — regimens from eTG Antibiotic.`
+
+**Ix:** **Bladder scan** (*why:* immediate, non-invasive, and identifies retention which is instantly treatable; *what:* retained volume). Pregnancy test (*why:* as always; *what:* positive). Urinalysis and culture (*why:* infection; *what:* leucocytes, nitrites, organism). **Endocervical and vaginal swabs including chlamydia and gonorrhoea NAAT** where PID is suspected (*why:* identifies the organism and has partner notification implications; *what:* positive NAAT). Pelvic ultrasound, transvaginal where appropriate (*why:* assesses adnexa, uterus and free fluid; *what:* tubo-ovarian abscess, ectopic, cyst, fibroid). CT where a bowel cause is likely (*why:* diverticulitis and collections; *what:* inflammation, abscess).
+
+### 0.8.1 Mx – Immediate
+**Catheterise for retention.** Analgesia. Empirical antibiotics for PID or urinary infection.
+
+### 0.8.2 Mx – Definitive
+Cause-specific. Treat the cause of retention — cross-refer `TODO:link — H2 LUTS, retention & incontinence (unbuilt)`.
+
+### 0.8.3 Mx – Chronic/long-term
+Partner notification and contact tracing for PID. Follow-up for recurrent retention or infection.
+
+
 
 
 
