@@ -1890,6 +1890,31 @@ Surgical repair of perforation. Endoscopic management of bleeding ulcer. *H. pyl
 ### 0.4.3 Mx – Chronic/long-term
 **Confirm eradication of *H. pylori* and confirm ulcer healing**, particularly for gastric ulcers, where **repeat endoscopy with biopsy is required to exclude malignancy.** Review NSAID and aspirin use.
 
+### 0.41.12 Left Upper Quadrant Pain — from unverified layer
+`SRC:C1_Acute_Abdomen §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** The spleen, gastric fundus, pancreatic tail, splenic flexure and left kidney occupy this region. **Splenic pathology characteristically refers to the left shoulder tip (Kehr's sign)** via diaphragmatic irritation — a classic and genuinely useful sign in splenic rupture.
+
+> [!tip] The differential
+> **Splenic infarct or rupture** — rupture may follow trivial trauma in a **spleen enlarged by infectious mononucleosis, malaria or haematological disease.** Ask about recent glandular fever; this is why contact sport is restricted after it.
+> **Splenic abscess** — in endocarditis, immunosuppression, injecting drug use.
+> **Gastric pathology** — ulcer, gastritis, volvulus.
+> **Pancreatic tail** — pancreatitis, pseudocyst, malignancy.
+> **Splenic flexure** — diverticulitis, colitis, ischaemic colitis (the splenic flexure is a watershed area between superior and inferior mesenteric territories and is characteristically affected).
+> **Left lower lobe pneumonia** and **left renal pathology.**
+
+**Ix:** CT abdomen with contrast (*why:* the definitive test for splenic and pancreatic pathology and for colonic ischaemia; *what:* infarct, laceration, abscess, colonic wall changes). FBC and film (*why:* haematological cause of splenomegaly, and falling haemoglobin in rupture; *what:* cytopenias, atypical lymphocytes, falling haemoglobin). Monospot or EBV serology where splenomegaly in a young person (*why:* identifies infectious mononucleosis and mandates activity restriction; *what:* positive serology). Blood cultures and echocardiography where abscess or infarct (*why:* endocarditis as an embolic source; *what:* organism, vegetation). CXR (*why:* left lower lobe pneumonia; *what:* consolidation).
+
+### 0.5.1 Mx – Immediate
+Resuscitate for splenic rupture — this can bleed catastrophically. Urgent surgical involvement.
+
+### 0.5.2 Mx – Definitive
+Splenic preservation where possible; embolisation or splenectomy for significant injury. Treat the underlying cause.
+
+### 0.5.3 Mx – Chronic/long-term
+**Post-splenectomy care is a recurring exam topic and a genuine clinical duty**: immunisation against encapsulated organisms (pneumococcus, meningococcus, *Haemophilus influenzae* type b), annual influenza vaccination, antibiotic prophylaxis, a medical alert card, and clear education about seeking urgent care with any fever. `UNVERIFIED — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.`
+
+
 
 
 ## 0.42 Faecal Incontinence (Adult)
