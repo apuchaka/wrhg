@@ -5,7 +5,7 @@ description: Generated. Do not hand-edit — edit the marker in the file and res
 
 # Verification queue — generated 2026-08-31
 
-478 open items. Close one by editing its marker in the file, then rerunning `scan`.
+483 open items. Close one by editing its marker in the file, then rerunning `scan`.
 
 # Actionable — openly accessible Australian sources (70)
 
@@ -114,7 +114,7 @@ These name ANZCOR, ASCIA, RCH, the Immunisation Handbook, PBS or similar. No log
 - **Corpus A/01_Cardiovascular.md** L369 · _Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)_ · `inherited` — model knowledge, not source-checked. Agents and doses per eTG Cardiovascular; the entity is already queued at PENDING_GUIDELINE_CHECKS P5-A30 against eTG and Heart Foundation.
 - **Corpus B/C1_Acute_Abdomen.md** L189 · _0.5.3 Mx – Chronic/long-term_ · `unverified` — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.
 
-# Triage — source not named in the marker (333)
+# Triage — source not named in the marker (338)
 
 The marker does not say what to check against. Read the entry and either name an open source (moving it to the working queue) or reclassify it as login-required.
 
@@ -122,8 +122,8 @@ The marker does not say what to check against. Read the entry and either name an
 
 - **Corpus A/03_Gastrointestinal.md** L275 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — the maximum inflation time and the balloon pressures; gastroenterology or intensive care unit protocol.
 - **Corpus A/03_Gastrointestinal.md** L1695 · _0.41.4 Added from unverified layer — assessment, peritonism and the core investigation panel_ · `inherited` — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution; check local radiology guidance.
-- **Corpus A/03a_Anaesthetics_Primer.md** L320 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked.
-- **Corpus A/03a_Anaesthetics_Primer.md** L336 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked. The timing window, per a named surgical source.
+- **Corpus A/03a_Anaesthetics_Primer.md** L338 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03a_Anaesthetics_Primer.md** L354 · _Common postoperative complications by timing_ · `inherited` — model knowledge, not source-checked. The timing window, per a named surgical source.
 - **Corpus A/08_09_Infectious_Disease_-_Miscellaneous.md** L174 · _Sepsis_ · `inherited` — model knowledge, not source-checked. The formal definition history, per the Sepsis-3 papers.
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L209 · _Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed_ · `inherited` — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.
 - **Corpus A/15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support.md** L147 · _Added from unverified layer — two ANZCOR points not stated above_ · `inherited` — model knowledge, not source-checked.
@@ -310,7 +310,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus C/NEW_Drugs_06_Cardiovascular.md** L40 · _0.1.1 Vitamin K Antagonists (Warfarin)_ · `snippet` — model knowledge, not source-checked; confirm the mitral stenosis severity threshold against a named cardiology source.
 - **Corpus C/NEW_Drugs_12_Gastrointestinal.md** L97 · _0.2.5 Added from unverified layer — two points not made above_ · `snippet` — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.
 
-## R3 — everything else (147)
+## R3 — everything else (152)
 
 - **Corpus A/01_Cardiovascular.md** L48 · _Added from unverified layer — right ventricular infarction and the right-sided leads_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L80 · _0.1.3 Mx – Definitive (STEMI)_ · `inherited` — model knowledge, not source-checked.
@@ -326,6 +326,8 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/01_Cardiovascular.md** L1217 · _Added from unverified layer — peripartum cardiomyopathy_ · `inherited` — recovery and recurrence figures.
 - **Corpus A/01_Cardiovascular.md** L1285 · _0.29 Deep Vein Thrombosis (DVT)_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/01_Cardiovascular.md** L1617 · _0.36.1 Peripheral Arterial Disease (PAD)_ · `inherited` — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.
+- **Corpus A/02_Respiratory.md** L13 · _0.1 Asthma_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/02_Respiratory.md** L169 · _Added from unverified layer — the types are not fixed categories_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L271 · _0.6.7 Added from unverified layer — four points on variceal bleeding not made above_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L553 · _0.11.2 Added from unverified layer — grading severity, and managing necrosis_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L595 · _0.12.1 Added from unverified layer — two complications of chronic pancreatitis_ · `inherited` — model knowledge, not source-checked.
@@ -343,6 +345,7 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/03_Gastrointestinal.md** L1759 · _0.41.7 Added from unverified layer — bilious versus non-bilious vomiting, and the vomiting patterns_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L1779 · _0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/03_Gastrointestinal.md** L1804 · _0.41.9 Added from unverified layer — the distended abdomen_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/03a_Anaesthetics_Primer.md** L117 · _Added from unverified layer — tracheostomy and laryngectomy EMERGENCIES_ · `inherited` — model knowledge, not source-checked. Obtain and follow the current National Tracheostomy Safety Project (NTSP) emergency algorithms; the sequence below is orientation, not a substitute for them.
 - **Corpus A/04_Neurology.md** L627 · _Added from unverified layer — neck stiffness: the differential_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/04_Neurology.md** L776 · _Added from unverified layer — structural versus metabolic, and two transient amnesias_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/04_Neurology.md** L844 · _Added from unverified layer — current terminology, and two counselling points_ · `inherited` — model knowledge, not source-checked.
@@ -363,6 +366,8 @@ The marker does not say what to check against. Read the entry and either name an
 - **Corpus A/11_09b_Ortho_-_Trauma.md** L269 · _Frostbite and non-freezing cold injury_ · `inherited` — water bath temperature and duration.
 - **Corpus A/13_02_ENT_-_Hearing_Loss__Tinnitus__Vertigo__DDx_Charts_.md** L31 · _Added from unverified layer — aural foreign body_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/13_04_ENT_-_Nose__Rhinosinusitis__Fractures__CSF_Rhinorrhoea__Epistaxis__Nasal_Cancers_.md** L97 · _Added from unverified layer — nasal foreign body_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA.md** L13 · _Added from unverified layer — the timing of the noise localises the lesion_ · `inherited` — model knowledge, not source-checked.
+- **Corpus A/13_06a_ENT_-_Dysphonia_and_HNSCC.md** L19 · _Causes_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L48 · _0.3.1 Added from unverified layer — Barrett's management_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md** L58 · _0.3.2 Added from unverified layer — swallowed foreign body_ · `inherited` — model knowledge, not source-checked.
 - **Corpus A/14_05a_Psych_-_Eating_Disorders.md** L76 · _Added from unverified layer — parotid enlargement_ · `inherited` — model knowledge, not source-checked.
