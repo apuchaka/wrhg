@@ -1603,6 +1603,34 @@ Right heart failure arising from lung disease specifically — COPD, PE, interst
 
 **Mx:**
 - **Immediate/acute** (severe/limb-threatening PAD — acute limb ischaemia): ABCDE + analgesia (e.g. IV opioids), IV UFH to prevent thrombus enlargement, urgent vascular review.
+
+#### Added from unverified layer — embolic versus thrombotic, and what happens when flow is restored
+`SRC:B5_Murmurs__Endocarditis_and_Vascular_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked. The ischaemic time window and the Rutherford classes are omitted.`
+
+> [!tip] Which two of the six Ps matter most, and why the history does the work
+> Of the six Ps in the box above, **paraesthesia and paralysis are the critical two.** The
+> first four indicate ischaemia; **sensory and motor loss indicate that nerve and muscle are
+> dying and the limb is immediately threatened.**
+>
+> | | **Embolic** | **Thrombotic** (on existing disease) |
+> |---|---|---|
+> | Onset | Sudden, dramatic | More gradual, often less severe |
+> | Prior claudication | **Absent** | Usually present |
+> | Contralateral pulses | **Normal** | Also abnormal |
+> | Source | **AF**, mural thrombus post-MI, aneurysm, valve | Existing atherosclerosis |
+> | Treatment | Embolectomy | Bypass, thrombolysis, angioplasty |
+>
+> **A cold pulseless leg in a patient with atrial fibrillation and no history of claudication
+> is embolic** — and the history plus the *contralateral* pulse examination do most of the
+> diagnostic work, before any imaging.
+
+> [!danger] Reperfusion injury — restoring the flow is not the end of it
+> Revascularising an ischaemic limb releases **potassium, myoglobin and acid** into the
+> circulation and causes **compartment syndrome from muscle oedema.** This is the same
+> physiology as crush injury: **hyperkalaemia, rhabdomyolysis and acute kidney injury** — see
+> [[11_01_Ortho_-_Orthopaedic_Emergencies]] for compartment syndrome and rhabdomyolysis, and
+> [[NEW_Drugs_07_Blood_and_Electrolytes]] for the hyperkalaemia sequence.
+> **Anticipate it before the vascular team restores flow**, not after the potassium comes back.
 - **Definitive:** angioplasty ± stent; endovascular intervention for short-segment stenosis, aortoiliac disease, high-risk patients; open surgical revascularisation for long-segment lesions (>10cm), multifocal lesions, common femoral artery lesions, purely infrapopliteal disease; amputation as worst-case option for non-salvageable limb ischaemia.
 - **Chronic/long-term:** stop smoking, manage comorbidities (DM, HTN); statin (atorvastatin 80mg) + clopidogrel for all patients regardless of intervention + analgesia for claudication; supervised exercise training programme (proven to improve walking distance).
 
