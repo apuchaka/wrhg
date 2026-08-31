@@ -57,6 +57,35 @@ A capacitous adult has the right to refuse any treatment, **even where the refus
 - Parental consent is otherwise required for a child's treatment, with the same general emergency-treatment principles above applying if urgent treatment is needed and a parent/guardian isn't immediately available.
 - Disagreement between parents, or between a Gillick-competent minor and their parents, over a child's treatment can require escalation (senior clinician input, ethics consultation, or ultimately court involvement in genuinely contested or high-stakes cases) — genuinely complex territory beyond the scope of a single consultation, not detailed further here.
 
+## Added from unverified layer — deciding for someone who cannot decide
+`SRC:A10_Ethics__Capacity__Consent_and_Certification §0.3` `UNVERIFIED — model knowledge, not source-checked. The hierarchy of substitute decision-makers and their powers is set by STATE legislation and is NOT reproduced here — confirm against the Act applying in your jurisdiction and your health service's policy.`
+
+> [!tip] The standard is **substituted judgement**, not best interests as the team sees them
+> Where a valid advance care directive does not answer the question, the substitute decision-maker is asked: **what would THIS person have wanted**, judged from their **known values, beliefs and previously expressed wishes**.
+> **It is not what the substitute decision-maker would choose for themselves**, and **it is not what the treating team considers medically best.** Both are common and understandable substitutions, and both are the wrong question.
+> Framing it correctly is also kinder: it moves the family from *"do you want us to stop?"* — which asks them to authorise a death — to *"what would they have said?"*, which asks them to report something they may actually know.
+
+## Added from unverified layer — determination of death by neurological criteria
+`SRC:A10_Ethics__Capacity__Consent_and_Certification §0.5` `UNVERIFIED — model knowledge, not source-checked. The formal criteria, the observation periods and the qualifications required are set by ANZICS statement and by state legislation; obtain and follow those. NOTHING below is a substitute for them.`
+
+> [!danger] The preconditions matter more than the examination
+> A clinical determination is **invalid** unless there is a **known cause sufficient to explain irreversible brain damage**, and an adequate period has elapsed and reversible contributors have been excluded — **sedation, neuromuscular blockade, hypothermia, metabolic and endocrine derangement, and profound hypotension.** Testing before those are cleared produces a false result.
+> It is performed by **two appropriately qualified practitioners, examining independently and separately.**
+
+> [!warning] **Spinally mediated movements occur after brain death and do NOT indicate brain function**
+> Limb withdrawal, deep tendon reflexes, triple flexion, and the so-called **"Lazarus sign"** are generated at spinal cord level. **They are distressing for families and for staff who have not been warned about them**, and they are the reason families should be prepared before they are seen — not reassured afterwards.
+
+> [!tip] Death determination and organ donation are two conversations, deliberately kept apart
+> **Death is determined first, communicated clearly, and the family given time.** The donation conversation follows separately and is led by the people trained for it. Collapsing the two makes families feel the death was concluded in order to obtain the organs.
+
+## Added from unverified layer — certificates are legal documents
+`SRC:A10_Ethics__Capacity__Consent_and_Certification §0.7` `UNVERIFIED — model knowledge, not source-checked. Certificate content requirements and workers-compensation forms are jurisdiction-specific; confirm locally.`
+
+> [!warning] Certify only what you assessed, and never backdate
+> Sickness certificates, work capacity certificates and fitness assessments are **legal documents**, relied on by employers, insurers and courts. **Certify only what you have assessed and genuinely believe**, and **do not backdate** — a period you did not observe is a period you cannot certify.
+> **Australian work capacity certificates are framed around what the person CAN do, not what they cannot.** The goal is safe, appropriate and usually **early** return to work, because prolonged absence is itself a poor outcome. "Unfit for work" as a default deprives the employer of the information needed to accommodate the person.
+> See the driving standard at [[19_General_Practice_and_Preventive_Medicine]] and Austroads for the related fitness-to-drive certification, which follows the same principle: certify against a published standard, not against impression.
+
 ## Documenting in the Medical Notes
 
 > [!note] Gap-filled from CSV ("Documenting in the medical notes," Medium yield). Genuinely absent as a topic: documentation is *instructed* in a dozen entries across the project ("document the refusal", "document the discussion", "document thoroughly and objectively" in the safeguarding entries) with **no entry saying what good documentation actually consists of**. Placed here rather than [[Communication]] because the record is a legal and professional-standards obligation rather than a consultation skill. Verified against Ahpra's *Good medical practice: a code of conduct for doctors in Australia* and its health-records guidance, RACGP practice standards on the content of patient health records, and the ACSQHC Communicating for Safety Standard, Aug 2026.

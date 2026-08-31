@@ -460,6 +460,12 @@ Hepatitis E — faecal-oral route, especially contaminated water. Usually self-l
 > [!info] Child-Pugh score — bilirubin, albumin, prothrombin time, encephalopathy, ascites
 > [!info] **MELD** (Model for End-stage Liver Disease) — bilirubin, creatinine, INR
 
+> [!danger] Added from unverified layer — **a raised INR in cirrhosis is not auto-anticoagulation**
+> `SRC:A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+> MELD uses the INR as a **severity marker**, and that is the only thing it is doing here. **It does not mean the patient is protected from thrombosis.**
+> Liver disease produces **"rebalanced haemostasis"**: synthesis of **procoagulant** factors and of the **anticoagulants — protein C, protein S, antithrombin — falls together.** The INR measures only one side of that balance, so **it neither predicts bleeding nor excludes clotting.**
+> Two practical consequences: **patients with cirrhosis still get portal vein and deep vein thrombosis**, and **correcting the INR with plasma before a procedure is often ineffective and volume-loading.** Discuss with haematology rather than reflexively transfusing to a number.
+
 > [!danger] **What these two scores are for, and why there are two of them.** This section previously listed the variables of each and nothing else — which tells a reader what to add up but not what the answer means or when either score changes anything.
 >
 > **Neither score guides day-to-day management.** Both answer the question *how much liver reserve does this patient have*, and they are used at decision points: **can this patient survive an intervention**, and **where do they sit for transplant**.
