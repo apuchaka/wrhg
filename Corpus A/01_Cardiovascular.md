@@ -191,6 +191,26 @@ Risk stratify with **GRACE score** (predicts all-cause mortality at 6 months pos
 ### 0.2.3 Treatment threshold
 
 **Mx – Immediate/acute (hypertensive emergency, i.e. Stage 3/crisis BP with acute target-organ damage — encephalopathy, ACS, aortic dissection, acute pulmonary oedema, AKI, eclampsia):** IV antihypertensives (e.g. GTN infusion, labetalol, or sodium nitroprusside depending on context) in a monitored setting; controlled BP reduction (generally aiming for a gradual reduction over hours, not immediate normalisation, to avoid hypoperfusion — the specific target/rate depends on the precipitating emergency, e.g. faster reduction is appropriate in dissection than in most other hypertensive emergencies). Note: asymptomatic severe hypertension without acute target-organ damage ("hypertensive urgency") does **not** require emergency IV treatment — manage with oral therapy and outpatient follow-up.
+#### Added from unverified layer — why gradual, and the nitroprusside caveat
+`SRC:B2_Hypertension_Spectrum §0.2, §0.3` `UNVERIFIED — model knowledge, not source-checked. Percentage reduction targets and the permitted duration of a nitroprusside infusion, per eTG Cardiovascular.`
+
+> [!danger] The reason "gradual, not immediate normalisation" is a rule and not a preference
+> **Chronic hypertension shifts the cerebral autoregulation curve to the right.** The brain
+> has adapted to perfusing at a higher pressure, and **its lower autoregulatory limit has
+> risen with it.** Dropping the pressure abruptly to a population-"normal" value therefore
+> takes it **below that shifted limit**, and the result is cerebral hypoperfusion — the
+> injury the treatment was given to prevent.
+> This is why **treating the number rather than the patient** is among the most common
+> avoidable harms in this area, and why the line above prefers a **titratable** agent in a
+> monitored setting: an overshoot must be correctable within minutes.
+
+> [!warning] `→MED:sodium nitroprusside` — it is not a drug to leave running
+> **Sodium nitroprusside is metabolised to thiocyanate and cyanide, which accumulate** with
+> prolonged infusion or in **renal impairment**. That limits how long it can be used and
+> mandates monitoring — a consideration the agent list above does not carry, and one that
+> matters most in exactly the patient a hypertensive emergency produces, whose kidneys are
+> often already injured.
+
 
 **Mx – Definitive/chronic (routine hypertension, not a crisis):**
 Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-year cardiovascular risk ≥10%).
