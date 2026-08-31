@@ -308,3 +308,10 @@ The aged care pathways above are not the only ones, and the two below are missed
 - **For a younger person with disability, the NDIS rather than aged care** is the correct scheme. Age is the branch point, and routing someone into the wrong system costs months.
 
 `UNVERIFIED — current eligibility criteria and the age boundary between NDIS and aged care, and what DVA covers; both are open government sources.`
+
+## Added from unverified layer — two things done on admission
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.2` `SRC:GER2 §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+- **Pressure injury risk is scored, not eyeballed.** The **Waterlow** and **Braden** scales are the instruments in use; the staging and the repositioning regimen are covered elsewhere in this file, but neither happens unless someone scores the risk on admission and it drives a plan. `UNVERIFIED — which scale is used in your health network, and its action thresholds.`
+- **Delirium prevention is a bundle, and it is more effective than treatment.** Reorientation, sleep protection, early mobilisation, hearing and visual aids in place, hydration, and avoiding precipitant drugs — delivered together, from admission, to every at-risk patient rather than started after delirium appears. See [[04_Neurology]] §Delirium for the syndrome itself, which this does not repeat. `UNVERIFIED — whether an Australian bundle is specified by name, and its components; NSW ACI or your health network.`
+

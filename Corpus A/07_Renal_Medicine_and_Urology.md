@@ -788,3 +788,13 @@ Failure rate 1:2000 (more effective than female sterilisation). Semen analysis m
 | **Prognosis** | Bruising, wound infection, chronic pain, recurrence possible; return to light work after 2–3 weeks | Low rate of recurrence | Not stated in source | Rapid resolution with antibiotics; can cause infertility if inadequately treated | Main complication is infertility; excellent 5-year survival if caught early | Can recur if the contralateral side is not fixed prophylactically | Surgical complications — testicular atrophy, hydrocele; 50–80% chance of catch-up growth of the affected testis |
 
 > [!info] Verified — this table's epididymo-orchitis regimen has been aligned with the AU-verified detail already established in the Epididymitis section above (Australian STI Management Guidelines, sti.guidelines.org.au) — not repeated in full here.
+
+## Added from unverified layer — DIAPPERS: the reversible causes of incontinence
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+The incontinence types above are the *chronic* picture. **New or worsened incontinence in an older person is frequently transient and reversible**, and the mnemonic exists because the causes are easy to list and easy to forget:
+
+**D**elirium · **I**nfection (symptomatic UTI) · **A**trophic vaginitis or urethritis · **P**harmaceuticals · **P**sychological, particularly depression · **E**xcess urine output (hyperglycaemia, hypercalcaemia, diuretics, fluid overload) · **R**estricted mobility · **S**tool impaction.
+
+**Look for these before labelling incontinence as established and starting long-term management** — several are corrected within days, and stool impaction in particular is both common and routinely missed.
+

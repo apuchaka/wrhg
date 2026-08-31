@@ -55,3 +55,24 @@ conflicts_r1: 0
 > - **Cortical (e.g. anticipatory):** lorazepam, cyclizine.
 
 *(Note: haloperidol and chlorpromazine/chlorperazine appear both in the hiccups and nausea sections in the source material — a reflection of overlapping antiemetic/antidopaminergic mechanisms rather than an error.)*
+
+## Added from unverified layer — recognising dying, and anticipatory prescribing
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!note] Why this section exists
+> The rest of this file is **prescribing** — opioid conversion and symptom control. It assumes someone has already recognised that the patient is dying. Nothing in the vault covered that recognition, so this adds it.
+
+> [!danger] Failing to recognise dying is the commonest reason people die badly
+> — with a cannula in, a blood test pending, and the family not called.
+> **Recognising it and saying so changes everything.** It stops futile investigations and observations, it allows anticipatory prescribing, it permits family to be present, and it lets the patient die somewhere they would choose.
+> The recognition is a clinical judgement made and **documented**, not a form. Saying it out loud to the team and the family is the act that changes the plan.
+
+> [!tip] Anticipatory prescribing
+> **Charting subcutaneous "as required" medications in advance — for pain, breathlessness, nausea, secretions and agitation — before they are needed.**
+> This is standard Australian practice, and it matters because **symptoms escalate out of hours**: a dying patient should not wait while a doctor is found and a chart is written. A **syringe driver** is used where regular doses are required rather than intermittent ones.
+> `UNVERIFIED — every anticipatory prescribing dose, from eTG Palliative Care and your health network's end-of-life care pathway. eTG is login-gated, so this is a permanent instruction to look them up at the point of use rather than a queued item.`
+
+> [!warning] Voluntary assisted dying
+> **VAD is lawful in Australian states under state-based legislation, and the law differs between them.** An intern's practical obligations concern **who may raise it, what must be documented, and who to refer to** — none of which are stated here.
+> `UNVERIFIED — eligibility criteria, timeframes, practitioner requirements and whether a health practitioner may initiate the discussion, per SA Health and the applicable state legislation. This is law, not clinical guidance, and it is deliberately not written from memory.`
+
