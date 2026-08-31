@@ -9,6 +9,17 @@ conflicts_r1: 0
 
 ## Stridor — overview
 
+### Added from unverified layer — the timing of the noise localises the lesion
+`SRC:A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies §0.1, §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Inspiratory, expiratory or **biphasic** — the phase is the localising sign
+> - **Inspiratory stridor** → **supraglottic or glottic.** The extrathoracic airway collapses inward on inspiration.
+> - **Expiratory** noise → **intrathoracic**, and is more often wheeze than stridor.
+> - **BIPHASIC stridor** → **subglottic or tracheal** — a **fixed** lesion, narrowing the airway in both phases. `biphasic stridor` was **0 vault-wide** before this line, and it is the phase that points at the fixed obstruction rather than the dynamic one.
+
+> [!warning] Tracheal stenosis is under-recognised, and is treated as asthma for years
+> A patient managed repeatedly for **"asthma" that does not respond to bronchodilators**, with **biphasic stridor or a fixed monophonic wheeze**, and a history of **previous intubation or tracheostomy**, has tracheal stenosis until proven otherwise. **A monophonic wheeze localised to one area suggests a fixed obstruction** — stenosis, foreign body or tumour — not the widespread polyphonic wheeze of asthma. `tracheal stenosis` was **0 vault-wide**.
+
 > [!info] Stridor = inspiratory high-pitched noise on inspiration, secondary to partial obstruction at the larynx or a large airway.
 > Stertor = inspiratory snoring noise secondary to obstruction of the pharynx.
 

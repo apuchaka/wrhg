@@ -113,6 +113,24 @@ Bypass the upper airway, directing ventilation through the trachea into the lung
 - **Cricothyroidotomy:** done in emergencies — incision through the membrane between cricoid and thyroid cartilage, tube inserted through the incision
 - **Surgical tracheostomy:** incision made through the trachea itself, tracheostomy inserted through this incision
 
+### Added from unverified layer — tracheostomy and laryngectomy EMERGENCIES
+`SRC:A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies §0.4` `UNVERIFIED — model knowledge, not source-checked. Obtain and follow the current National Tracheostomy Safety Project (NTSP) emergency algorithms; the sequence below is orientation, not a substitute for them.`
+
+> [!danger] **The first question is not "what is wrong with the tube" — it is "is there a patent upper airway?"**
+> This single question splits the management completely, and it is answered from the notes and the bed-head sign, not from looking at the neck.
+> - **TRACHEOSTOMY** — the larynx is intact and the upper airway is **patent**. The patient **can** be oxygenated via the face and **can** usually be intubated orally. You have two routes.
+> - **LARYNGECTOMY** — the upper airway **ends blindly**. There is **no connection between mouth and trachea.** Face-mask oxygen and oral intubation are **useless**; everything must go via the stoma. **Getting this wrong wastes the only minutes available.**
+>
+> **Orientation to the emergency sequence:** call for help early including anaesthetics and ENT · **apply oxygen to BOTH the face and the stoma** until you know which is which · look, listen and feel at the stoma · **remove the inner cannula** — a blocked inner cannula is the commonest and most easily fixed cause · pass a suction catheter · if it will not pass, the tube is displaced or obstructed and comes out.
+
+> [!danger] A displaced tube in a **fresh** tracheostomy — do not push a new one blindly
+> A stoma **less than about a week old** has an **immature tract** that has not formed a stable channel. **Blind reinsertion creates a false passage into the pretracheal tissues**, which ventilates the neck rather than the lungs and is rapidly fatal. In a fresh stoma, **oxygenate from above** (the upper airway is patent in a tracheostomy) and get the airway to a person who can reinsert under vision.
+
+> [!warning] Bleeding from a tracheostomy — the one that is not minor
+> Minor bleeding is common. **Significant or sentinel bleeding may herald a tracheo-innominate artery fistula** — rare, catastrophic, and most likely in the weeks after insertion. It is a surgical emergency; the herald bleed is the warning that precedes exsanguination.
+
+> [!note] Scope. This block orients an intern who is called to a tracheostomy problem. **`tracheostomy` had exactly one occurrence in this vault before it** — the definition line above — so there was no emergency content at all. The authoritative algorithms are the NTSP ones; follow those.
+
 ---
 
 ## Regional / Local Anaesthesia
