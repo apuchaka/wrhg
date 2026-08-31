@@ -752,6 +752,25 @@ Then Week 3 (L1–L8, RESP-X, O4/O5/O7, AN1, AU1), then Week 5 ophthalmology (E1
 - **`merge_tools.py scan` re-stamps counter frontmatter on those 39 every run**, because
   they are `.md` files under the vault root. Revert them after each scan:
   `while read -r f; do git checkout -- "Corpus B-new/$f"; done < <(cd "Corpus B" && ls *.md)`
+
+> [!danger] **THE TWO-COPIES TRAP — read this before searching or editing anything in
+> `Corpus B-new/`.** Thirty-nine filenames now exist **twice in one vault**, in
+> `Corpus B/` and `Corpus B-new/`, **with different content**. `A8_Foreign_Bodies_by_Site.md`
+> is the clearest case: `Corpus B/` says *lidocaine* (Step 11's TGA-sourced correction) and
+> `Corpus B-new/` says *lignocaine* (the pre-Step-11 export). Same filename, opposite side
+> of a sourced rename.
+>
+> Consequences to keep in mind while both exist:
+> - **A vault-wide grep returns both copies**, so a hit count over `Corpus B*` double-counts,
+>   and reading only the first hit can return the reverted text.
+> - **An Obsidian wikilink resolves by filename**, so `[[A8_Foreign_Bodies_by_Site]]` is
+>   ambiguous and which copy opens is not something this vault decides.
+> - **Any tool taking `--dir` at the vault root walks both.** That is why `scan` keeps
+>   stamping them.
+>
+> **The 39 are being kept deliberately, pending a deletion decision.** Until then: scope
+> every search to `Corpus A`, `Corpus C` and the **73 new files**, never to `Corpus B-new`
+> as a whole, and never treat a `Corpus B-new` copy of a Corpus B filename as current.
 - The 73 carry `trust: unverified`; `population` is corrected per file only for the week
   being merged, and stays at the tool's `mixed` placeholder otherwise.
 - Step 31 has been run on the 73: 3064 links expanded, 0 unresolved.
