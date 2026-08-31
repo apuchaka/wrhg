@@ -44,6 +44,21 @@ conflicts_r1: 0
 
 > [!note] Posterior STEMI
 > Reciprocal V1–3 changes: ST depression, tall/broad R waves, upright T waves. Confirmed by ST elevation and Q waves in posterior leads (V7–9). Inferior MIs are associated with AV block.
+### Added from unverified layer — right ventricular infarction and the right-sided leads
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Inferior STEMI — obtain right-sided leads (V4R) before giving GTN
+> The territory table above sends an inferior pattern (II, III, aVF) to the RCA, which also
+> supplies the right ventricle. **Right ventricular infarction is preload-dependent:** the
+> failing RV cannot fill against a reduced venous return, so **a vasodilator causes profound
+> hypotension.** These patients need **fluid rather than vasodilatation**.
+> The contraindication itself is already stated at
+> [[NEW_Drugs_06_Cardiovascular]] *"Nitrates are contraindicated (or dangerous) in:
+> right ventricular / inferior myocardial infarction — a preload-dependent ventricle"*. What
+> that entry does not give is **how you know**, which is this: **right-sided chest leads,
+> V4R in particular, in any inferior STEMI.** §0.1.2 above says "GTN 1 spray (caution
+> hypotension)" — this is the specific reason for that caution.
+
 
 **DDx of ST changes:**
 - Global T wave inversion → think non-cardiac cause
@@ -222,6 +237,34 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 **S/Smx:**
 - Stable angina (all 3 features): chest pressure/constriction <20 min, provoked by exertion, relieved by rest or GTN
 - Atypical angina (women, DM, older people): 2 of 3 above + GI discomfort, dyspnoea, nausea
+- Neither pattern: **non-anginal** chest pain. `SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+- **Severity is graded by the level of exertion that provokes it** (Canadian Cardiovascular Society class) — the axis is functional limitation, not pain intensity. `SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.2` `UNVERIFIED — the CCS class descriptors themselves, per Heart Foundation or CSANZ. Not reproduced here.`
+### Added from unverified layer — response to treatment is not a diagnostic test
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!warning] The triad above uses GTN relief as a **feature**, not as a rule-out
+> Relief with GTN **does not confirm** that pain is cardiac — **GTN relieves oesophageal
+> spasm**, which is one of the differentials it is being used to exclude. Relief with an
+> **antacid does not exclude** cardiac pain either. **Do not use response to treatment as a
+> diagnostic test in chest pain.**
+> This qualifies rather than contradicts the triad: "relieved by rest or GTN" is one of
+> three features of typical angina and stays correct as written. What it cannot do is stand
+> alone, and it is used as a discriminator in three further places —
+> [[History-Taking]] (in SOCRATES), §0.1 S/Smx, and §0.32 Pericarditis
+> ("may mimic MI but not relieved by GTN").
+
+### Added from unverified layer — accelerated diagnostic protocols
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.1` `UNVERIFIED — which pathway your site uses, and its components and thresholds, per your health network's chest pain pathway.`
+
+> [!tip] Australian emergency departments risk-stratify chest pain with a **structured
+> accelerated diagnostic protocol**, not with gestalt
+> These pathways combine history, ECG, risk factors and serial troponin to identify patients
+> low-risk enough for early discharge. **Applying one is more defensible than an impression**,
+> and which one is in use is a local question.
+> **Components, point allocations and cut-offs are deliberately not stated here** — they are
+> site- and assay-specific, and a remembered threshold applied to the wrong assay is worse
+> than no threshold. Look them up on your own network's pathway at the point of use.
+
 
 **Ix:** ECG (*why:* screens for ischaemic changes/prior infarction and baseline before starting anti-anginal drugs; *what:* usually normal between episodes; may show ST depression during pain, or Q waves if prior MI). Bloods — Hb (*why:* screens for anaemia as a reversible contributor to demand ischaemia; *what:* may be low), lipids/HbA1c (*why:* completes cardiovascular risk assessment; *what:* often deranged). If stable angina cannot be excluded clinically: CT coronary angiography (*why:* first-line non-invasive anatomical test per current stepped-diagnostic pathway; *what:* visualises coronary stenosis directly) → non-invasive functional imaging e.g. stress echo/perfusion scan (*why:* used if CT is inconclusive or contraindicated, assesses functional significance of a stenosis; *what:* reversible perfusion defect/wall motion abnormality on stress) → invasive coronary angiography (*why:* 3rd line, gold-standard when non-invasive tests are inconclusive or high-risk features are present, and allows immediate PCI; *what:* directly visualises and can quantify stenosis severity).
 
@@ -239,6 +282,36 @@ Treat if <80yo AND (target organ damage OR established CVD/AKI/CKD/T2DM OR 10-ye
 
 > [!info] Verified against Austroads *Assessing Fitness to Drive* 2022, Aug 2026 — same underlying principle as the UK DVLA rule, restated in Austroads' own private-vehicle terms (see full driving standards table in section 0.34.5 below).
 > A person with angina that is usually absent on mild exertion, and who is treatment-compliant, may drive without restriction and without notifying the driver licensing authority. A person is not fit to hold an unconditional licence if angina occurs at rest or on minimal exertion despite treatment, or if unstable.
+
+### Added from unverified layer — coronary vasospasm (Prinzmetal / variant angina)
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.4` `UNVERIFIED — model knowledge, not source-checked. Agents and doses per eTG Cardiovascular; the entity is already queued at PENDING_GUIDELINE_CHECKS P5-A30 against eTG and Heart Foundation.`
+
+**D:** Transient intense spasm of an epicardial coronary artery causing myocardial ischaemia. Historically Prinzmetal or variant angina. Named once elsewhere in this file, in the ST-elevation causes list at §0.12, and not otherwise described.
+
+**A/P:** Hyperreactivity of coronary vascular smooth muscle with endothelial dysfunction and autonomic influence → abrupt focal or diffuse spasm → **transient total or subtotal occlusion in an artery that may be angiographically normal** → transient ST elevation that resolves completely as the spasm relieves. **Because the mechanism is smooth muscle constriction rather than thrombus, the treatment is vasodilatation rather than antithrombotic therapy** — which inverts the §0.1 approach.
+
+> [!tip] The recognisable pattern — it is the mirror image of §0.3
+> **Pain at rest, characteristically at night or in the early hours**, in a patient with **preserved exercise tolerance**. Fixed obstructive disease does the opposite: pain on exertion, relief at rest. **Transient ST elevation during pain that resolves entirely**, often with arrhythmia. Typically younger patients, **smoking the dominant modifiable risk factor**, and more frequent in women than fixed atherosclerotic disease.
+
+> [!warning] Triggers worth asking about
+> **Smoking** · **cocaine and amphetamines** — the critical history in any young person with chest pain, see §0.1 and [[14a-1_Psych_-_Substance_Misuse__Recreational_Drug_Profiles_]] · triptans · **fluorouracil and capecitabine**, a recognised chemotherapy-induced coronary vasospasm presenting during infusion · cold exposure · hyperventilation · alcohol withdrawal · **beta-blockers**.
+
+> [!danger] Non-selective beta-blockers worsen vasospasm — this inverts standard ACS management
+> Blocking β2-mediated coronary vasodilatation leaves **unopposed α-mediated vasoconstriction**, intensifying the spasm. **Calcium channel blockers are first-line**, with long-acting nitrates as add-on.
+> This is the **same** unopposed-alpha principle already stated for cocaine at §0.1 Mx and at [[14a-1_Psych_-_Substance_Misuse__Recreational_Drug_Profiles_]] — the corpus has the principle in the drug context and not in the disease context.
+
+**S/Smx:** Rest and nocturnal angina, sometimes severe, with preserved exertional capacity. Syncope or palpitations if arrhythmia accompanies the spasm.
+
+**Ix:** **ECG during pain** (*why:* the diagnosis rests on demonstrating transient ischaemic change that **resolves**, and an ECG taken after the pain has settled is normal — capturing one during an episode is the single most valuable investigation; *what:* transient ST elevation resolving completely). Ambulatory ECG monitoring (*why:* captures nocturnal and asymptomatic episodes that are otherwise never documented; *what:* transient ST shift). Troponin (*why:* may rise if spasm is prolonged; *what:* elevation). Coronary angiography (*why:* excludes fixed obstructive disease, which coexists in some patients; *what:* normal or non-obstructive arteries). **Urine toxicology for cocaine and amphetamines** (*why:* it changes the diagnosis, the treatment and the long-term advice, and the history is unreliable; *what:* stimulant use).
+
+**Mx:**
+- **Immediate/acute:** nitrates, which typically relieve the spasm rapidly. Calcium channel blocker. **Avoid beta-blockers.** Benzodiazepines where stimulant-related. Monitor for arrhythmia. `UNVERIFIED — agents and doses omitted, per eTG Cardiovascular.`
+- **Definitive:** long-term calcium channel blocker, long-acting nitrate added if needed, cardiology involvement.
+- **Chronic/long-term:** **smoking cessation is the single most effective intervention** and should be framed that way. Stimulant cessation with drug and alcohol support. Where chemotherapy-related, **document the agent as a contraindication** so it is not re-prescribed.
+
+> [!info] MINOCA and INOCA — a troponin rise with normal arteries is not a false alarm
+> **Myocardial infarction with non-obstructive coronary arteries** and **ischaemia with non-obstructive coronary arteries** are recognised entities. A patient with a genuine troponin rise and a normal angiogram has **not** had a false alarm — vasospasm, microvascular dysfunction, **spontaneous coronary artery dissection**, myocarditis and embolism all belong in that differential, and **the workup continues rather than stopping**.
+> **Spontaneous coronary artery dissection specifically affects younger women, including peripartum**, and is frequently misattributed to anxiety. This is a different entity from the aortic dissection at §0.36.5 and shares only the word.
 
 ---
 
@@ -1158,6 +1231,15 @@ Right heart failure arising from lung disease specifically — COPD, PE, interst
 **P:** poorer outcome if large effusion, high fever, subacute course, or failure to respond.
 
 > [!note] Pericardial rub — "fresh snow" sound, best heard at the left sternal edge, leaning forward, end-expiration. Heard even when holding breath (not respiration-related). May need repeat examination.
+
+### Added from unverified layer — myopericarditis, and why it changes the advice
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.3` `UNVERIFIED — model knowledge, not source-checked. Duration of exercise restriction, per CSANZ or Heart Foundation.`
+
+> [!danger] A raised troponin in apparent pericarditis reclassifies the illness
+> Suspect **myocarditis** where **troponin is raised, ventricular function is impaired, or arrhythmia occurs.** That turns a self-limiting nuisance into a potentially serious disease, and it changes what the patient is told.
+> **Exercise restriction matters here in a way it does not in uncomplicated pericarditis**, because **exertion during active myocarditis is associated with arrhythmic death**. The Mx – Chronic advice above ("avoid strenuous activity until symptoms resolve and inflammatory markers normalise") is the pericarditis version; myocarditis needs a defined period of restriction, and this is advice **young athletic patients most need and least often receive.** `UNVERIFIED — the duration, per CSANZ or Heart Foundation.`
+>
+> **Myocarditis has no entry of its own anywhere in this vault.** It appears twenty-seven times, every one of them as a complication of something else — diphtheria, clozapine, Chagas disease, measles, Lyme disease, dilated cardiomyopathy. This block is the closest thing to a standing entry and is not a substitute for one.
 
 **Uraemic pericarditis:** treat with intensive dialysis.
 

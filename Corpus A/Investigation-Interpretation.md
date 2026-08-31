@@ -278,6 +278,25 @@ Right hemidiaphragm normally sits slightly higher than left. Look for free air u
 2. **Correlate with the clinical picture and ECG** — troponin is interpreted alongside symptoms and ECG changes, never in isolation; a rising troponin without a compatible clinical/ECG picture should prompt a search for a non-ACS cause of myocardial injury rather than an automatic ACS diagnosis.
 3. **Consider non-ACS causes of an elevated/rising troponin** (myocardial injury without atherothrombotic ACS) — a genuinely broad differential worth knowing explicitly: PE (see [[01_Cardiovascular]] Pulmonary Embolism (PE) — RV strain causes troponin release), myocarditis/pericarditis (see [[01_Cardiovascular]] Pericarditis), sepsis, severe heart failure decompensation, tachyarrhythmia, renal impairment (reduced clearance causes a persistently mildly elevated baseline, not a true acute rise), Takotsubo cardiomyopathy (see [[01_Cardiovascular]] Takotsubo Cardiomyopathy — troponin rise classically out of proportion to the degree of LV dysfunction seen on imaging), strenuous exercise, cardiac contusion.
 4. **A "normal" troponin does not exclude ACS on a single early sample** — this is why serial testing protocols exist; a single normal troponin taken too soon after symptom onset can still miss a true MI.
+### Added from unverified layer — classifying the elevation, and what to do with the classification
+`SRC:B1_Chest_Pain_Framework_and_Cardiac_Biomarkers §0.5` `UNVERIFIED — model knowledge, not source-checked. Sex-specific 99th-percentile values are assay-specific; obtain them from your own laboratory.`
+
+> [!danger] Type 1 versus type 2 myocardial infarction — the distinction that decides whether the patient is anticoagulated
+> Point 3 above names the category **myocardial injury without atherothrombotic ACS**. Within it, the split that changes treatment is:
+> - **Type 1** — **atherosclerotic plaque rupture with thrombus.** The classical ACS. Treatment is antithrombotic therapy and revascularisation.
+> - **Type 2** — **supply–demand mismatch without plaque rupture**, from sepsis, tachyarrhythmia, severe anaemia, hypotension, hypoxia or severe hypertension. **Treatment is the underlying cause.** Antiplatelets and catheterisation do not help and the bleeding risk is real.
+>
+> A septic patient with a raised troponin usually has type 2 injury. **Treating them as ACS is a common error with real harm.** Treat the precipitant, not the number.
+
+> [!warning] Two practical points that follow from the above
+> **Do not send a troponin without a reason.** A troponin sent "for completeness" in a patient with no plausible ischaemic presentation produces a result that must then be explained, and the explaining frequently ends in admission, further testing, anticoagulation and an incorrect label. Order it when the answer will change what you do.
+>
+> **State the classification explicitly in the discharge summary.** A patient discharged with "troponin rise" and no explanation acquires a coronary artery disease label that follows them for life, affects insurance and future care, and may lead to unnecessary long-term antiplatelet therapy. Say whether this was a **type 1 infarct, a type 2 injury, or a non-ischaemic elevation**, and what the follow-up plan is.
+
+> [!info] Sex-specific thresholds
+> Assays have **separate 99th-percentile cut-offs for men and women**, because normal troponin concentrations differ between them, and **using a single threshold under-diagnoses in women.** Check which your laboratory reports against.
+> **The values are not stated here** — they are assay-specific, and troponin I and troponin T are not interchangeable, nor are values between manufacturers.
+
 
 **Lactate — what it measures:** a marker of anaerobic metabolism/tissue hypoperfusion, used across critical care as a marker of shock severity and resuscitation response.
 
