@@ -212,3 +212,54 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 > [!danger] Increased risk of vision loss due to increased intraocular pressure.
 
 - **Mx:** immediate referral to ophthalmology; admit + strict bed rest; urgent lateral canthotomy to decompress the orbit.
+
+## Added from unverified layer — environmental injury
+`SRC:A6_Thermal_and_Environmental_Injury §0.1` `SRC:A6 §0.2` `SRC:A6 §0.5` `SRC:A6 §0.6` `SRC:A6 §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!note] Why this is here
+> The corpus covered **drug-induced** hyperthermia thoroughly — serotonin syndrome and neuroleptic malignant syndrome in [[04_Neurology]], malignant hyperthermia in [[03a_Anaesthetics_Primer]] — and **environmental** heat illness nowhere. Hypothermia appeared only as an ECG pattern. This section fills the environmental side; it does not touch the drug-induced entries, which are more detailed than anything here.
+
+### Heat illness
+
+> [!danger] Heat exhaustion and heat stroke are not the same emergency
+> **Heat exhaustion** — sweating preserved, **mental state normal**, headache, nausea, cramps, faintness. Treated by removing the patient from the heat, rest, and oral or intravenous fluid.
+> **Heat stroke** — **altered mental state is the defining feature**, with a high core temperature. Confusion, agitation, seizure or coma. It is a **multi-organ emergency** and it progresses to rhabdomyolysis, acute kidney injury, coagulopathy and hepatic failure.
+> **Any patient collapsed in the heat with an abnormal mental state has heat stroke until proven otherwise, and cooling starts before the diagnosis is confirmed.**
+> `UNVERIFIED — the core temperature threshold conventionally used to define heat stroke; RACGP or an emergency medicine reference.`
+
+> [!info] Exertional versus classic
+> **Exertional** — young, fit, exercising or working; **sweating is often still present**, which misleads. Onset over hours.
+> **Classic** — older, frail, unwell, often during a heatwave and often at home without air-conditioning; sweating is typically **absent**. Onset over days.
+> The distinction matters because the classic patient is found late and has competing diagnoses, and because heatwave deaths concentrate in this group.
+
+> [!tip] Cooling is the treatment
+> **Cool actively and early; antipyretics do not work**, because the thermostat is not reset — this is not fever. **Cold water immersion is the most effective method in exertional heat stroke**; evaporative cooling with fine mist and fans is used where immersion is impractical.
+> Stop active cooling before normothermia to avoid overshoot, and treat the complications — rhabdomyolysis (above), electrolyte derangement, seizures.
+> `UNVERIFIED — the temperature at which to stop active cooling, and whether immersion or evaporative cooling is preferred in Australian practice.`
+
+### Hypothermia
+
+The **ECG changes** — bradycardia, the **J (Osborn) wave**, first-degree block, long QT and arrhythmias — are owned by [[01_Cardiovascular]] §0.12.11 and are not repeated here.
+
+> [!danger] Not dead until warm and dead
+> **Hypothermia is profoundly protective of the brain, and resuscitation is continued during rewarming** — apparent death in a hypothermic patient is not death. Fixed dilated pupils and absent pulses do not decide it.
+> **Handle the patient gently.** A cold myocardium is irritable, and rough movement or unnecessary manipulation can precipitate ventricular fibrillation.
+> `UNVERIFIED — the core temperature below which defibrillation and drugs are withheld or spaced, and the rewarming rate; ANZCOR.`
+
+> [!warning] Afterdrop
+> **Core temperature can continue to fall after rewarming begins**, as cold peripheral blood returns to the circulation. It is the reason peripheral rewarming alone is inadequate in significant hypothermia and why core rewarming methods are used.
+
+**Shivering stops as hypothermia deepens** — its absence is a sign of severity, not of improvement.
+
+### Frostbite and non-freezing cold injury
+
+**Rewarm in a water bath**, and **do not rewarm if there is any chance of refreezing** — a freeze-thaw-freeze cycle causes far worse tissue loss than delayed rewarming. Do not rub the affected part. The final extent of tissue loss is **not apparent for weeks**, so early debridement decisions are avoided. `UNVERIFIED — water bath temperature and duration.`
+
+**Non-freezing cold injury** (trench or immersion foot) occurs at temperatures above freezing with prolonged wet exposure, and causes prolonged neuropathic pain.
+
+### Drowning and submersion
+
+**Hypoxia is the injury**, and **rescue breathing is the priority intervention** — this is the one arrest where ventilation matters more than compressions, which is why the ANZCOR paediatric and drowning sequences differ from the adult cardiac sequence. See [[15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support]].
+
+**The distinction between fresh and salt water is not clinically useful** and should not shape management. **Anyone who required rescue or has any respiratory symptom needs observation**, because deterioration can be delayed. `UNVERIFIED — the observation period; ANZCOR or an emergency medicine reference.`
+
