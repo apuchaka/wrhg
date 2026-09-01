@@ -1250,6 +1250,51 @@ Pelvic floor physiotherapy for incontinence, which is effective and under-referr
 
 ---
 
+### 0.28.1 Dyspepsia, Reflux and Heartburn — from unverified layer
+`SRC:C6_Dyspepsia__Oesophageal_and_Anorectal_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Dyspepsia** is epigastric pain or discomfort, often with fullness, early satiety or bloating. **Gastro-oesophageal reflux disease** is symptoms or complications resulting from reflux of gastric contents into the oesophagus.
+
+**A/P:** The lower oesophageal sphincter, the crural diaphragm and the acute angle of His together form the antireflux barrier. Reflux occurs mainly through **transient lower oesophageal sphincter relaxations** rather than a permanently weak sphincter, and is promoted by anything that raises intra-abdominal pressure or disrupts the anatomy — **obesity, pregnancy, hiatus hernia, large or late meals.** Acid and pepsin then injure oesophageal mucosa, which has no protective mucus layer.
+
+> [!danger] Exclude cardiac causes before settling on reflux
+> **Inferior myocardial infarction presents as epigastric burning with nausea**, and "indigestion" that turns out to be infarction is a recurring and lethal misattribution — particularly in diabetics, women, older patients, and Aboriginal and Torres Strait Islander patients who develop ischaemic heart disease younger.
+> **Relief with antacid or GTN does not distinguish them** — GTN relieves oesophageal spasm and antacids relieve nothing reliably. **Get an ECG.** Cross-refer [[01_Cardiovascular]] Acute Coronary Syndrome (ACS) .4.
+
+> [!warning] Red flags mandating endoscopy rather than a PPI trial
+> **· Dysphagia or odynophagia · unintentional weight loss · iron deficiency anaemia · persistent vomiting · haematemesis or melaena · a palpable epigastric mass or lymphadenopathy · new onset above a threshold age · a family history of upper gastrointestinal cancer · previous gastric surgery or gastric ulcer.**
+> `UNVERIFIED — the age threshold for new-onset dyspepsia triggering endoscopy in current Australian guidance.`
+
+> [!tip] Drugs that cause or worsen reflux and dyspepsia
+> **Calcium channel blockers and nitrates** (lower oesophageal sphincter relaxation) · **NSAIDs and aspirin** · **bisphosphonates** (direct mucosal injury — must be taken upright with water and not lain down after) · anticholinergics · theophylline · doxycycline (pill oesophagitis) · corticosteroids · potassium chloride tablets.
+> **Reviewing the drug chart is the cheapest intervention here and is frequently skipped.**
+
+> [!info] Extra-oesophageal manifestations
+> Chronic cough, hoarseness, globus, laryngitis, dental erosion, and worsening of asthma. **Reflux is a common cause of chronic cough** — cross-refer [[02_Respiratory]] — and it may be entirely "silent", with no heartburn at all, which is why it is missed.
+
+> [!warning] Long-term PPI use is not risk-free
+> Associations include **hypomagnesaemia, vitamin B12 deficiency, *C. difficile* and other enteric infections, community-acquired pneumonia, fractures, interstitial nephritis, and micronutrient malabsorption.** Causality is debated for several, but the practical point stands: **PPIs are prescribed indefinitely without review far too often.**
+> **Rebound acid hypersecretion on cessation** makes patients believe they still need it, so **step down gradually rather than stopping abruptly**, and reassess whether continued therapy is justified. Deprescribing is an active intervention. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing.
+
+> [!tip] Functional dyspepsia
+> Dyspeptic symptoms with a normal endoscopy and no identifiable structural cause. **A positive diagnosis made on symptom criteria, not a residual label.** It overlaps substantially with irritable bowel syndrome and with anxiety, and explaining the gut-brain mechanism is therapeutic. `UNVERIFIED — Rome criteria.`
+
+**S/Smx:** Burning retrosternal discomfort, worse lying flat, bending or after meals; acid regurgitation; waterbrash; epigastric pain; bloating; nausea; and the extra-oesophageal features above.
+
+**Ix:** **ECG** (*why:* excludes the cardiac cause, per the danger above; *what:* ischaemic change). ***H. pylori* testing** in patients without red flags (*why:* the "test and treat" strategy identifies and eradicates a treatable cause and reduces the need for endoscopy in younger patients; *what:* positive urea breath test or stool antigen — see 0.2 for the crucial pre-test drug withholding). FBC and iron studies (*why:* iron deficiency anaemia converts dyspepsia into a red-flag presentation requiring endoscopy; *what:* microcytic anaemia, low ferritin). **Gastroscopy where red flags are present** (*why:* identifies ulcer, malignancy, oesophagitis, Barrett metaplasia and eosinophilic oesophagitis, and permits biopsy; *what:* mucosal disease, mass). Oesophageal pH and impedance monitoring, and manometry (*why:* reserved for refractory symptoms, atypical presentations, or before antireflux surgery — they confirm that symptoms are actually reflux-related, which is not always the case; *what:* acid exposure time, symptom correlation, motility). Coeliac serology (*why:* coeliac disease presents as dyspepsia and bloating with minimal bowel symptoms; *what:* raised tissue transglutaminase IgA). Ultrasound where biliary symptoms are plausible (*why:* gallstones cause epigastric pain and are common; *what:* stones).
+
+#### 0.28.1.1 Mx – Immediate
+Rarely required. Exclude cardiac and complicated ulcer disease.
+
+#### 0.28.1.2 Mx – Definitive
+**Lifestyle first — weight loss has the strongest evidence of any measure.** Also: elevate the head of the bed, avoid eating within a few hours of lying down, reduce alcohol and smoking, and identify individual food triggers rather than imposing blanket restriction.
+**Proton pump inhibitor** at the lowest effective dose, with a defined review. Antacids and alginates for breakthrough symptoms. *H. pylori* eradication where positive.
+**Antireflux surgery (fundoplication)** for well-selected patients with proven reflux who are intolerant of or unwilling to continue long-term medical therapy. `UNVERIFIED — PPI doses, duration and step-down regimens.`
+
+#### 0.28.1.3 Mx – Chronic/long-term
+**Review the need for ongoing PPI at every opportunity**, with a step-down plan. Weight management. Cross-refer `TODO:link — I5 Weight, lipids & fluid balance (unbuilt)`.
+
+
 ## 0.29 Gastritis
 
 **D:** histological presence of gastric mucosal inflammation.
