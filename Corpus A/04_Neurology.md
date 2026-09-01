@@ -1654,6 +1654,30 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 
 ---
 
+### The "Dizzy" Patient — Disambiguating the Complaint — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** "Dizziness" is a lay term covering at least four distinct symptoms, and the word alone is uninformative.
+
+> [!danger] The old approach — "what do you mean by dizzy?" — is unreliable on its own
+> The traditional method of classifying by **symptom quality** (vertigo versus presyncope versus disequilibrium versus lightheadedness) has poor reliability: **patients describe the same symptom differently on repeated questioning, and many endorse several categories.** Relying on it alone leads to misdiagnosis in both directions.
+> **The better approach classifies by TIMING and TRIGGERS**, which are far more reproducible, and then applies targeted examination.
+
+> [!tip] The timing-and-trigger framework
+> **Acute vestibular syndrome** — **continuous** vertigo of acute onset lasting days, with nausea, nystagmus and gait unsteadiness. → **Vestibular neuritis versus posterior circulation stroke.** Use **HINTS** (0.2).
+> **Episodic, TRIGGERED** — brief episodes provoked by a specific movement or position. → **BPPV**, orthostatic hypotension. Use **Dix-Hallpike and postural blood pressure** (0.3).
+> **Episodic, SPONTANEOUS** — recurrent episodes with no consistent trigger. → **vestibular migraine, Ménière disease, TIA, panic disorder, arrhythmia** (0.3).
+> **Chronic** — persistent unsteadiness over weeks to months. → **persistent postural-perceptual dizziness, bilateral vestibulopathy, cerebellar disease, neuropathy, medication, multifactorial** (0.4).
+> **Ask: how long does each episode last, what brings it on, and is it there right now?** Those three questions do more than any amount of asking them to describe the sensation.
+
+> [!warning] Still separate presyncope
+> **Presyncope — the sense of impending faint, with greying vision** — has an entirely different differential (cardiac, orthostatic, anaemia) and is covered in [[04_Neurology]] Syncope. **Presyncope should be worked up like syncope**, and the practical question is "did you feel like you were about to pass out, or like the room was moving?"
+
+**S/Smx:** Duration of each episode, triggers, associated hearing loss or tinnitus, headache, other neurological symptoms, vascular risk factors, medications, and whether the patient can walk unaided.
+
+**Ix:** Determined by the syndrome identified. **Bedside examination is far more valuable than early imaging in this presentation** — see 0.2.
+
+
 ## Strokes
 
 > [!danger] A genuine, severe Australian health equity issue with a striking age-of-onset gap — not a generic epidemiological footnote. **Aboriginal and Torres Strait Islander Australians experience stroke at substantially higher rates and at a much younger age than non-Indigenous Australians.** A remote-Australia healthcare network study found age-standardised stroke incidence roughly **3-fold higher** overall, with a median onset age of 54 — **17 years younger** than non-Aboriginal patients. The disparity is even starker in younger patients specifically: in Aboriginal patients aged under 55, ischaemic stroke incidence was **14-fold greater**, and intracerebral haemorrhage **19-fold greater**, than in non-Aboriginal patients of the same age — this isn't a modest shift in risk, it's a fundamentally different age-related risk profile.
