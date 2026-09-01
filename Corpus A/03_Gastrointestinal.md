@@ -583,25 +583,54 @@ Azathioprine, mesalazine, bendroflumethiazide, furosemide, steroids, sodium valp
 
 ---
 
-### 0.11.2 Added from unverified layer — grading severity, and managing necrosis
-`SRC:C7_Pancreatobiliary_Disease §0.1` `SRC:C7_Pancreatobiliary_Disease §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+### 0.11.2 Acute Pancreatitis — Management and Complications — from unverified layer
+`SRC:C7_Pancreatobiliary_Disease §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.2 fragment.*
 
-> [!danger] Severity is judged by organ failure and trajectory — not by the lipase
-> **That the height of the enzyme does not indicate severity is owned by [[NEW_Investigations_Gastroenterology]]**, which states it as a persistent misconception and is not repeated here.
-> What follows below is what that entry does not give: **the classification that grades the disease instead**, and the fact that the grade cannot be assigned on admission.
+> [!danger] Fluid resuscitation strategy has changed — do not assume "aggressive"
+> The long-taught approach of **aggressive high-volume fluid resuscitation** has been challenged by evidence that it **increases fluid overload and respiratory complications without improving outcomes**, compared with a **moderate, goal-directed** approach.
+> `UNVERIFIED — this is a genuine and recent change in practice, and the current recommended fluid type, rate and resuscitation targets must be obtained from a current source rather than from older teaching. Do not reproduce a remembered mL/kg/hr figure.`
+> What remains true: these patients sequester large volumes and need **goal-directed** resuscitation with **frequent reassessment** — urine output, heart rate, haematocrit and urea trend — rather than a fixed prescribed rate.
 
-> [!info] The revised Atlanta classification
-> - **Mild** — no organ failure and no local complications.
-> - **Moderately severe** — **transient** organ failure resolving **within 48 hours**, or local complications.
-> - **Severe** — **persistent** organ failure beyond **48 hours**.
->
-> **Persistence of organ failure is the determinant**, which is why the grade cannot be assigned on admission and must be revisited. The Glasgow score at §0.11 above is used for **early prognostication**; Atlanta describes what actually happened.
-> `UNVERIFIED — the Atlanta definitions and the organ-failure criteria they use (the modified Marshall score); RACGP or a gastroenterology reference. Ranson, BISAP and APACHE II are further prognostic scores in use — their components and thresholds are deliberately not stated here, and neither is the 48-hour CRP cut-off.`
+> [!danger] Feed early — nil by mouth is outdated
+> **Early enteral feeding, oral where tolerated, improves outcomes** compared with prolonged fasting and parenteral nutrition. It maintains gut barrier integrity and reduces infective complications.
+> **Do not keep a patient with pancreatitis nil by mouth "to rest the pancreas."** Start oral intake as pain and nausea allow, and use nasogastric or nasojejunal feeding if oral intake is not tolerated. **Parenteral nutrition is a last resort.** `UNVERIFIED — the recommended timing of initiating feeding.`
 
-> [!tip] Infected necrosis is managed by a step-up approach, not by early surgery
-> §0.11 above names infected pancreatic necrosis as a complication without saying what is done about it. The modern approach **escalates**: **percutaneous or endoscopic drainage first**, proceeding to **minimally invasive necrosectomy only if drainage fails.** Early open necrosectomy carries high mortality and has largely been abandoned.
-> **Walled-off necrosis is not a pseudocyst.** A pseudocyst contains fluid; walled-off necrosis contains solid necrotic debris, which is why it drains poorly through a narrow catheter and why the distinction changes the procedure chosen.
-> `UNVERIFIED — the timing at which intervention is preferred, and the criteria for calling necrosis infected; gastroenterology or upper GI surgical guidance.`
+> [!danger] Do not give prophylactic antibiotics
+> **Prophylactic antibiotics in acute pancreatitis, including in necrotising pancreatitis, are not indicated** and do not reduce mortality or infected necrosis, while driving resistance and fungal superinfection. **That the height of the enzyme does not indicate severity is owned by [[NEW_Investigations_Gastroenterology]]**; the Glasgow score at §0.11 is for early prognostication, and §0.1 of this source covers diagnosis and severity.
+> **Antibiotics are for proven or strongly suspected infection** — infected necrosis, cholangitis, or a documented extrapancreatic source.
+> The temptation is strong, because these patients are febrile with a raised white cell count and a raised CRP from the **sterile** inflammatory response itself. **A SIRS response in the first days is expected and is not evidence of infection.**
+
+> [!warning] Analgesia — do not withhold opioids
+> The traditional concern that morphine causes sphincter of Oddi spasm and worsens pancreatitis **has never been shown to affect clinical outcomes**, and is not a reason to leave a patient in severe pain. Use adequate multimodal analgesia including opioids.
+
+> [!tip] When ERCP is needed, and when cholecystectomy is
+> **Urgent ERCP is indicated for gallstone pancreatitis with cholangitis, or with persistent biliary obstruction** — cross-refer §0.4 Ascending Cholangitis. **It is NOT indicated routinely in gallstone pancreatitis without those features**, where it adds risk without benefit.
+> **Cholecystectomy during the index admission for mild gallstone pancreatitis** substantially reduces recurrence and further biliary events. **Discharging a patient with untreated gallstones to wait months for an outpatient cholecystectomy is a recognised cause of readmission with recurrent pancreatitis or cholangitis** — and it happens often. For severe or necrotising disease, surgery is deferred until the inflammation settles.
+
+> [!warning] Local complications and the step-up approach
+> **Infected necrosis** — suspect in a patient deteriorating after the first week, with gas in the collection on CT. **Management follows a "step-up" approach: percutaneous or endoscopic drainage first, escalating to minimally invasive necrosectomy, with open surgical necrosectomy as a last resort** — this sequence has substantially better outcomes than proceeding straight to open surgery, and is a genuine change from older practice.
+> **Intervention is delayed where possible until the collection is walled off**, typically around four weeks, because operating on unwalled necrosis is far more morbid.
+> **Splenic vein thrombosis** → left-sided (sinistral) portal hypertension → **isolated gastric varices**, which can bleed and are treated by splenectomy rather than by portal decompression.
+> **Pseudoaneurysm**, usually of the splenic artery, eroded by pancreatic enzymes — can cause catastrophic haemorrhage, sometimes with a herald bleed. Treated by embolisation.
+> **Abdominal compartment syndrome** from massive fluid sequestration and bowel oedema.
+
+> [!tip] Systemic complications
+> **ARDS** — the commonest cause of early death, and the reason to check a gas and monitor oxygenation from the outset.
+> **Acute kidney injury · hypocalcaemia · hyperglycaemia · DIC · hypovolaemic shock.**
+
+**S/Smx:** As per 0.1, with deterioration after the first week suggesting infected necrosis, and new bleeding suggesting pseudoaneurysm.
+
+**Ix:** Serial **UEC, haematocrit, calcium, glucose and CRP** (*why:* track fluid status, severity and trajectory; *what:* trends). Blood cultures where fever persists or the patient deteriorates (*why:* distinguishes sterile inflammatory fever from infection; *what:* organism). **Contrast CT after 72 hours in non-improving patients** (*why:* identifies necrosis, collections and gas indicating infected necrosis; *what:* necrosis extent, collections, gas, vascular complications). Image-guided aspiration of a collection where infection is suspected (*why:* confirms infection and directs antibiotics, though it is not always required if the clinical and radiological picture is clear; *what:* organism). Serial ABG and CXR (*why:* ARDS is the leading early cause of death; *what:* hypoxia, infiltrates).
+
+#### 0.11.2.1 Mx – Immediate
+**Goal-directed fluid resuscitation with frequent reassessment.** Analgesia including opioids. Antiemetics. Oxygen. Urinary catheter and hourly urine output in significant disease. **Early oral or enteral feeding.** **No prophylactic antibiotics.** Ultrasound for gallstones. HDU or ICU for organ failure.
+
+#### 0.11.2.2 Mx – Definitive
+ERCP for cholangitis or persistent obstruction. **Index-admission cholecystectomy for mild gallstone pancreatitis.** Step-up drainage for infected necrosis. Insulin infusion and plasmapheresis are used in severe hypertriglyceridaemia-induced disease. `UNVERIFIED — triglyceride thresholds and treatment protocols.`
+
+#### 0.11.2.3 Mx – Chronic/long-term
+**Alcohol cessation with structured support** where relevant — this is the intervention that prevents recurrence and it is frequently reduced to a single sentence at discharge. Lipid management. Diabetes screening, since a proportion develop diabetes afterwards. Nutritional assessment.
 
 ### 0.11.1 Acute Pancreatitis — Diagnosis and Severity — from unverified layer
 `SRC:C7_Pancreatobiliary_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
