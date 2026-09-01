@@ -604,7 +604,22 @@ prefix that does not resolve to exactly one.
 | | n | Rule |
 |---|---|---|
 | **Expandable** | **573** | Expand to the full filename. Verified: 87 distinct codes, **0 ambiguous**. This is not guessing — the mapping is deterministic against the filesystem. |
-| **Unbuilt targets** | **191** (50 codes) | `E1`, `H4`, `J4`, `L3`, `L4`, `M5`, `N6`, `O6`, `P1`, `P3` … B's scheme reserved codes for files **nobody ever built** — the existing prefixes are only `A1–A10`, `B1–B6`, `C1–C7`, `D1–D7`, `F0-1…F0-5`, `GER1–2`. Used identically in prose (`Acute angle-closure glaucoma → [[E1]]`, `Myeloma → [[J4]]`), so the adjacent text names the topic. **These become `` `TODO:link — topic` ``, and only these.** Never guess a target for them. |
+| **Unbuilt targets** | **191** (50 codes) *as measured against `Corpus B/` alone* | `E1`, `H4`, `J4`, `L3`, `L4`, `M5`, `N6`, `O6` … codes B's scheme reserved. Used identically in prose (`Acute angle-closure glaucoma → [[E1]]`, `Myeloma → [[J4]]`), so the adjacent text names the topic. These became `` `TODO:link — topic (unbuilt)` ``. **THE `(unbuilt)` HALF OF THAT LABEL IS NOW FALSE FOR ALL OF THEM — see below.** |
+
+> [!danger] **`Corpus B-new/` BUILT EVERY ONE OF THEM. Re-measured 2026-09-01, during the D3 merge.**
+> `Corpus B-new/` holds **112 files**, not the 39 of `Corpus B/`. Counting every `TODO:link` marker still sitting in either directory, and asking the filesystem whether a file with that prefix now exists:
+>
+> ```
+> distinct TODO:link codes still in B/B-new: 47   total markers: 188
+> codes that NOW have a file: 47   markers pointing at them: 188
+> still genuinely unbuilt: []
+> ```
+>
+> **47 of 47. 188 of 188. Zero genuinely unbuilt.** `L4` → `L4_Back_and_Neck_Pain.md` (×9), `N6` → `N6_Functional__Dissociative_and_Personality_Disorders.md` (×9), `O6` → `O6_Sexual_and_Reproductive_Health.md` (×11), `GER3` → `GER3_Preventive_and_Occupational_Health.md` (×14). Only `P1` and `P3` from the list above have no file — and **no marker references either**, so they cost nothing.
+>
+> **This is the fifth sampled-not-counted figure in this project**, after "C states no doses", "65 backticked references", "42 wikilinks in C" and "167 placeholder links". It has the same cause every time: the number was correct for the corpus it was measured against and was then quoted as a fact about the project. `Corpus B-new/` did not exist when 191/50 was counted.
+>
+> **What to do with a `(unbuilt)` marker you meet in a merged block:** the *topic* is not unbuilt, so do not repeat the claim. Point at the **Corpus A owner** if one exists — `L4` → `[[11_06_Ortho_-_Spinal_Orthopaedics]]`, `N6` → `[[14_05c_Psych_-_Unexplained_Symptoms__Somatoform__Dissociative__Factitious_Disorders_]]`. Where Corpus A owns nothing, leave the marker but **drop the word `(unbuilt)`**: the B-new file is in this run's own queue and the pointer becomes writable once it merges. Never guess a target — that part of the original rule stands.
 
 **This is the fourth sampled count, and they share one cause.** "Corpus C states no doses"
 (8 of 22 drug files do), "65 backticked references" (276), "42 wikilinks in C" (195), and
