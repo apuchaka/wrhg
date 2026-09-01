@@ -233,6 +233,48 @@ Post-splenectomy prophylaxis as per 0.5. Rehabilitation and psychological follow
 > [!note] Envenomation — antivenoms, first aid and the detection kit
 > Australian envenomation is owned by [[NEW_Drugs_04_Antidotes_and_Antivenoms]] (`trust: snippet`, AMH-derived): pressure immobilisation and **why it works here** (Australian venoms travel by lymphatics), the five monovalent antivenoms, **venom-induced consumption coagulopathy**, and that **the detection kit tells you WHICH antivenom, not WHETHER the patient is envenomed**. Not repeated here.
 
+## Heat Illness — The Spectrum — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+*Why environmental heat illness is in a trauma file, and why it was missing: the corpus covered **drug-induced** hyperthermia thoroughly — serotonin syndrome and neuroleptic malignant syndrome in [[04_Neurology]], malignant hyperthermia in [[03a_Anaesthetics_Primer]] — and environmental heat illness nowhere. This file is already the vault's injury home despite its orthopaedic filename. Nothing here touches the drug-induced entries, which are more detailed than anything in this block.*
+
+**D:** A continuum of disorders caused by heat gain exceeding heat loss, ranging from cramps through heat exhaustion to heat stroke.
+
+**A/P:** Heat is dissipated by radiation, convection, conduction and **evaporation of sweat**, the last being the dominant route in a hot environment. Rising ambient temperature abolishes the gradient for radiation and convection → evaporation becomes the only route → **high humidity then abolishes evaporation as well**, which is why humid heat is far more dangerous than dry heat at the same temperature. Compensatory cutaneous vasodilatation diverts blood from the splanchnic and renal beds and, combined with sweat losses, produces volume depletion. When compensation fails, core temperature rises → direct cellular thermal injury and a systemic inflammatory response → multi-organ failure.
+
+> [!tip] Where the line sits
+> | | Core temperature | Mental state | Sweating | Severity |
+> |---|---|---|---|---|
+> | **Heat cramps** | Normal or mildly raised | Normal | Present | Minor |
+> | **Heat exhaustion** | Raised but below the heat stroke threshold | **Normal — this is the discriminator** | Usually present | Serious, reversible |
+> | **Heat stroke** | Markedly raised | **Altered — confusion, ataxia, seizure, coma** | May be absent (classic) or present (exertional) | Life-threatening |
+> `UNVERIFIED — the specific core temperature thresholds defining each stage; no values are stated here. Settle against RACGP or an Australian emergency medicine reference.`
+
+> [!danger] Central nervous system dysfunction is the discriminator, not the thermometer
+> **Any altered mental state in a hyperthermic patient is heat stroke until proven otherwise**, regardless of the recorded temperature — which may have already fallen with initial cooling or been measured peripherally and underestimated. Do not require a threshold number before treating aggressively.
+> **Sweating does not exclude heat stroke.** The teaching that heat stroke patients are dry applies mainly to the classic non-exertional form; exertional heat stroke patients are frequently drenched.
+
+> [!warning] Australian context
+> **Heatwaves cause more deaths in Australia than any other natural hazard.** The at-risk groups are the elderly, the socially isolated, those on anticholinergics, antipsychotics, diuretics and beta-blockers, people with chronic disease, infants, and outdoor workers. South Australia has heatwave warning systems and health service escalation plans. Asking about air conditioning, fan access, fluid intake and whether anyone is checking on the person is a legitimate part of the assessment, particularly in Adelaide summers.
+
+> [!tip] Classic versus exertional heat stroke
+> **Classic (non-exertional):** elderly, chronically unwell, during a heatwave, developing over days, often anhidrotic, frequently found at home. Higher mortality.
+> **Exertional:** young, fit, athletes, military recruits, labourers, developing over hours, sweating often preserved, higher rates of rhabdomyolysis. Responds well to rapid cooling.
+
+**S/Smx:** Cramps, fatigue, headache, nausea, dizziness, syncope, tachycardia, hypotension and heavy sweating in heat exhaustion. In heat stroke: confusion, irritability, ataxia, slurred speech, seizures, coma, and signs of multi-organ dysfunction.
+
+**Ix:** Core temperature, measured centrally (*why:* oral, axillary and tympanic readings systematically underestimate core temperature and can falsely reassure — rectal or oesophageal measurement is required for an accurate value and for tracking the cooling response; *what:* core temperature and its trend). UEC with potassium (*why:* rhabdomyolysis produces hyperkalaemia and acute kidney injury, and sodium abnormalities occur in both directions depending on what was drunk; *what:* creatinine, potassium, sodium). **CK** (*why:* rhabdomyolysis is common in exertional heat stroke and drives the renal failure; *what:* marked elevation). VBG with lactate (*why:* quantifies hypoperfusion and metabolic derangement; *what:* acidosis, raised lactate). Bedside glucose (*why:* hypoglycaemia occurs and mimics the neurological picture; *what:* low glucose). Coagulation profile (*why:* DIC is a feature of severe heat stroke and predicts poor outcome; *what:* prolonged INR, low fibrinogen, thrombocytopenia). LFT (*why:* hepatic injury is characteristic and peaks 24–72 hours after the event, so normal early results do not exclude it; *what:* transaminitis, delayed). ECG (*why:* electrolyte effects and ischaemia; *what:* arrhythmia, hyperkalaemic changes). Urinalysis (*why:* myoglobinuria shows as blood on dipstick without red cells on microscopy — a useful and cheap clue; *what:* dipstick-positive blood with no RBCs). Septic screen where the picture is ambiguous (*why:* sepsis and heat stroke are hard to separate clinically and both need treating; *what:* source).
+
+### Mx – Immediate — A6 §0.1.1
+See Heat Stroke and Severe Hyperthermia below for heat stroke. For heat exhaustion: move to a cool environment, remove excess clothing, oral or intravenous rehydration, and rest. Most recover rapidly, and failure to improve should prompt reassessment for heat stroke.
+
+### Mx – Definitive — A6 §0.1.2
+Correct electrolyte and volume deficits. Identify and address the precipitating circumstances.
+
+### Mx – Chronic/long-term — A6 §0.1.3
+Prevention advice — hydration, avoiding exertion in peak heat, acclimatisation, and checking on isolated elderly relatives and neighbours during heat events. Medication review, since anticholinergics, antipsychotics and diuretics all impair thermoregulation.
+
+
 ## Added from unverified layer — environmental injury
 `SRC:A6_Thermal_and_Environmental_Injury §0.1` `SRC:A6 §0.2` `SRC:A6 §0.5` `SRC:A6 §0.6` `SRC:A6 §0.7` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE (heat illness only) — heat exhaustion and heat stroke were absent from the corpus before this merge; no inherited layer disagrees with them. The HYPOTHERMIA half of this block does have a thin baseline — 25 pre-merge hits, including the Osborne wave at [[01_Cardiovascular]] §0.12 — so that part is not no-baseline.`
 
