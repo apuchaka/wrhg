@@ -161,6 +161,55 @@ Frailty should alter clinical decisions rather than merely describe the patient:
 
 ---
 
+### Comprehensive Geriatric Assessment — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A **multidimensional, interdisciplinary** diagnostic process that identifies medical, psychological, functional and social capabilities and problems, in order to develop a coordinated plan for treatment and long-term follow-up.
+
+> [!tip] The five domains
+> **1. Medical** — comorbidities, medications, nutrition, continence, pain, sensory impairment, dentition.
+> **2. Functional** — activities of daily living, mobility, gait and balance.
+> **3. Cognitive and psychological** — cognition, mood, delirium, capacity.
+> **4. Social** — living situation, carer, supports, finances, elder abuse risk.
+> **5. Environmental** — home safety, access, equipment, transport.
+> **CGA delivered in hospital increases the likelihood that a patient is alive and living in their own home afterwards.** It is one of the better-evidenced interventions in the specialty, and it is a process rather than a test.
+
+> [!info] The physiology that makes older people different
+> **Reduced homeostatic reserve** — every organ system has less capacity to buffer a stressor, so a small insult produces a large decompensation. This is why a urinary tract infection precipitates a fall, delirium and functional decline in one patient and nothing in another.
+> **Altered pharmacokinetics and pharmacodynamics** — reduced renal clearance, reduced hepatic first-pass metabolism, **increased body fat and reduced total body water (so lipophilic drugs such as benzodiazepines accumulate and water-soluble drugs reach higher concentrations)**, reduced serum albumin, and **increased CNS sensitivity to sedatives, opioids and anticholinergics.**
+> **Blunted physiological responses** — reduced fever response, reduced tachycardic response (compounded by beta-blockers), reduced thirst.
+
+> [!danger] Illness presents atypically — and this is where diagnoses are missed
+> **· Myocardial infarction without chest pain** — presenting as dyspnoea, confusion, a fall or simply "not right".
+> **· Pneumonia without fever or cough** — presenting as delirium, tachypnoea or a fall.
+> **· Sepsis with confusion and hypothermia rather than fever.**
+> **· Hyperthyroidism as apathy, weight loss and atrial fibrillation** ("apathetic thyrotoxicosis") rather than agitation.
+> **· Depression as physical complaints and cognitive impairment.**
+> **· Abdominal catastrophe with minimal pain and a soft abdomen** — cross-refer [[03_Gastrointestinal]] §0.41.6 The Acute Abdomen in Special Groups.
+> **The corollary: a non-specific presentation in an older person — a fall, confusion, reduced mobility, "off legs" — is a symptom requiring a diagnosis, not a diagnosis in itself.**
+
+> [!tip] The "geriatric giants"
+> **Immobility · Instability (falls) · Incontinence · Impaired cognition · Iatrogenesis.**
+> These five presentations account for a large share of geriatric medicine, each is multifactorial, and each is a **final common pathway** for many underlying diseases rather than a diagnosis.
+
+> [!warning] Collateral history is not optional
+> The patient may not recall, may minimise, may have cognitive impairment, or may fear losing independence. **The family, carer, residential facility staff, GP and community pharmacist each hold part of the picture** — particularly regarding baseline function, medication adherence, and the timeline of decline.
+> **Ask specifically: what could they do six months ago that they cannot do now?** That single question establishes both the baseline and the trajectory.
+
+**S/Smx:** As above, elicited systematically across the five domains.
+
+**Ix:** **Baseline bloods — FBC, UEC, LFT, calcium, TFTs, glucose, B12 and folate, vitamin D, CRP** (*why:* covers the correctable metabolic, endocrine and nutritional contributors to almost every geriatric presentation; *what:* anaemia, renal impairment, hypercalcaemia, thyroid disease, deficiency). Urinalysis interpreted cautiously (*why:* **asymptomatic bacteriuria is extremely common in older people and a positive urine does not diagnose the cause of a fall or delirium** — treating it while missing the real cause is a recurring error; *what:* infection in clinical context). ECG (*why:* silent ischaemia and arrhythmia; *what:* the trace). **Cognitive screening with a tool appropriate to language and education** (*why:* baseline and detection — cross-refer [[04_Neurology]] Dementias; *what:* impairment). **Functional assessment** (*why:* determines care needs and prognosis more than any diagnosis; *what:* ADL and IADL dependence). **Medication reconciliation** (*why:* see 0.4; *what:* the true list, including over-the-counter and complementary products). Postural blood pressure, vision, hearing, weight and nutritional screening (*why:* all are common, contributory and correctable; *what:* deficits).
+
+#### Mx – Immediate — GER1 §0.1.1
+Treat the acute problem, and simultaneously begin the functional and social assessment — **discharge planning starts on admission, not on the day of discharge.**
+
+#### Mx – Definitive — GER1 §0.1.2
+Interdisciplinary team management — medical, nursing, physiotherapy, occupational therapy, speech pathology, dietitian, pharmacist, social work.
+
+#### Mx – Chronic/long-term — GER1 §0.1.3
+Coordinated follow-up with the GP, community supports, and a documented plan. **Advance care planning** — cross-refer [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment.
+
+
 ## Polypharmacy and Deprescribing
 
 > [!note] Gap-filled from CSV ("Polypharmacy review / deprescribing in the elderly," High yield). Genuinely absent as content: polypharmacy appeared only as checklist bullets inside [[Communication]] Management of Patients with Multiple Chronic Medical Problems and [[Communication]] Caring for the Elderly in the Community (Dementia, Mobility, Parkinson's, Recurrent Falls) — "review for sedating, anticholinergic, and hypotension-causing medications" — with no method for actually doing it, and no mention of Beers, STOPP/START, the prescribing cascade, or tapering anywhere in the corpus. Verified against the RACGP aged care clinical guide (Silver Book, 5th edition) Parts A "Polypharmacy" and "Deprescribing", and the *Deprescribing in Older People: A Clinical Practice Guideline* summary (MJA, 2026), Aug 2026.
