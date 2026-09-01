@@ -42,7 +42,8 @@ def run(cfg):
           "disagrees with it.`") if cfg.get('no_baseline') else ""
     note = f"\n*{cfg['note']}*" if cfg.get('note') else ""
     num = cfg.get('number', '')
-    block = (f"### {num}{' ' if num else ''}{title} — from unverified layer\n"
+    mk = f" {cfg['marker']}" if cfg.get('marker') else ''
+    block = (f"### {num}{' ' if num else ''}{title} — from unverified layer{mk}\n"
              f"`SRC:{cfg['bfile']} §{cfg['sec']}` "
              f"`UNVERIFIED — model knowledge, not source-checked.`{nb}{note}\n\n{body}")
 
@@ -81,8 +82,16 @@ def run(cfg):
             # not an annotation on the destination — the new block writes its own.
             was = [l for l in frag if re.search(pat, l) and 'SRC:' not in l]
             for l in was:
-                if l not in block:
-                    lost.append(f"{name}: {l.strip()[:90]}")
+                if pat.startswith('^>'):
+                    # a callout block: the whole line must survive verbatim
+                    if l not in block:
+                        lost.append(f"{name}: {l.strip()[:90]}")
+                else:
+                    # an inline marker: what must survive is the MARKER, not its host line,
+                    # because the new block rewrites the heading it was attached to
+                    for tok in re.findall(pat, l):
+                        if tok not in block:
+                            lost.append(f"{name}: {tok}")
         # The rule says a supersede INHERITS the fragment's cross-references. Every
         # supersede so far has silently dropped some, caught only by reading the digit
         # multiset by hand. Check it structurally instead.
