@@ -65,8 +65,19 @@ def run(cfg):
         # SRC: token and a NO-BASELINE marker sat between the D4 fragment and
         # `### Diabetic Neuropathy`. Stop at the next foreign SRC: token instead, backing
         # up over its own callout so the block is not cut in half.
+        # A SRC: token QUOTED INSIDE A CONFLICT BLOCK is provenance in an argument, not
+        # the header of a different merged block. CF-038 writes
+        #   > **B (`unverified`, `SRC:C1_Acute_Abdomen §0.2`, the callout above):** …
+        # and reading that as a block boundary truncated the fragment, leaving an orphan.
+        # A real block header is a line that STARTS with the SRC token (optionally after
+        # a callout marker) - never one where it appears mid-sentence.
+        def _is_block_header(l):
+            t = l.lstrip()
+            while t.startswith('>'):
+                t = t[1:].lstrip()
+            return t.startswith('`SRC:')
         for j in range(s + 2, e):
-            if 'SRC:' in lines[j]:
+            if 'SRC:' in lines[j] and _is_block_header(lines[j]):
                 k = j
                 # Walk back over the CONTIGUOUS callout only. Including blank lines lets
                 # the walk cross block boundaries and swallow backwards: on D4 §0.6 it
