@@ -2207,6 +2207,37 @@ Treat the cause of the vomiting. Surgical management of oesophageal rupture.
 #### 0.41.20.3 Mx – Chronic/long-term
 Nutritional rehabilitation with refeeding precautions. Dental review after chronic vomiting. Cross-refer `TODO:link — N8 Eating & body image (unbuilt)` where the vomiting is self-induced.
 
+### 0.41.21 Unconjugated Hyperbilirubinaemia — from unverified layer
+`SRC:C3_Jaundice_and_Liver_Disease §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Gilbert syndrome — common, benign, and over-investigated
+> Reduced UGT1A1 activity, present in a meaningful proportion of the population. **Mild isolated unconjugated hyperbilirubinaemia, with entirely normal transaminases, ALP, albumin and full blood count**, and no haemolysis.
+> Characteristically **worse with fasting, intercurrent illness, dehydration, exertion or stress** — which is exactly when patients have blood taken, so it is frequently discovered incidentally in an unwell patient and misinterpreted as liver disease.
+> **The diagnosis is made by the pattern: isolated unconjugated bilirubin with everything else normal.** No further investigation is needed once haemolysis is excluded, and the correct management is **explanation and reassurance.** It has no long-term consequences.
+> One practical point: it alters the metabolism of a few drugs, notably irinotecan.
+
+> [!warning] Haemolysis
+> Unconjugated hyperbilirubinaemia with **anaemia, raised reticulocytes, raised LDH, low haptoglobin** and often splenomegaly. The film is frequently diagnostic — spherocytes, fragments, sickle cells, bite cells. Cross-refer `TODO:link — J2 Haemoglobinopathy & haemolysis (unbuilt)`.
+> **Jaundice from haemolysis alone is usually mild** — a bilirubin high enough to cause deep jaundice suggests hepatic or obstructive disease as well, or a combination such as **gallstones from chronic haemolysis** (pigment stones), which is a genuinely common and satisfying diagnosis to make.
+
+> [!tip] The rest
+> **Ineffective erythropoiesis** — megaloblastic anaemia, thalassaemia, myelodysplasia.
+> **Resorption of a large haematoma or extensive bruising** — a common cause of unexplained jaundice in a trauma or post-operative patient.
+> **Crigler-Najjar syndrome** — rare, severe, presenting in infancy.
+> **Neonatal jaundice** — physiological versus pathological, with **jaundice in the first 24 hours of life always pathological**, and the risk of kernicterus from unconjugated bilirubin crossing the immature blood-brain barrier. Cross-refer `TODO:link — M3 Neonatal problems (unbuilt)`.
+
+**Ix:** Split bilirubin (*why:* confirms it is unconjugated; *what:* predominantly unconjugated fraction). Haemolysis screen — **reticulocytes, LDH, haptoglobin, direct antiglobulin test and blood film** (*why:* separates haemolysis from Gilbert syndrome, which is the entire question; *what:* raised reticulocytes and LDH, low haptoglobin, abnormal film). FBC (*why:* anaemia supports haemolysis; its absence with normal reticulocytes supports Gilbert; *what:* haemoglobin, MCV). Normal ALT, ALP and albumin (*why:* their normality is what confirms Gilbert syndrome; *what:* normal). Genetic testing is available but rarely necessary (*why:* the clinical and biochemical picture is sufficient; *what:* UGT1A1 polymorphism).
+
+#### 0.41.21.1 Mx – Immediate
+Rarely required.
+
+#### 0.41.21.2 Mx – Definitive
+Treat haemolysis if present. Reassure in Gilbert syndrome.
+
+#### 0.41.21.3 Mx – Chronic/long-term
+**Document Gilbert syndrome clearly in the record** so future clinicians do not repeat the workup — this happens repeatedly and is an avoidable source of investigation and anxiety.
+
+
 
 
 
