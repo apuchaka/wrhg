@@ -274,6 +274,38 @@ Correct electrolyte and volume deficits. Identify and address the precipitating 
 ### Mx – Chronic/long-term — A6 §0.1.3
 Prevention advice — hydration, avoiding exertion in peak heat, acclimatisation, and checking on isolated elderly relatives and neighbours during heat events. Medication review, since anticholinergics, antipsychotics and diuretics all impair thermoregulation.
 
+## Heat Stroke and Severe Hyperthermia — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+**D:** Core hyperthermia with central nervous system dysfunction and systemic inflammatory response, progressing to multi-organ failure.
+
+**A/P:** Sustained cellular temperature above the tolerance threshold → direct protein denaturation and membrane injury → cytokine release and endothelial activation → a systemic inflammatory response indistinguishable physiologically from sepsis → **DIC, rhabdomyolysis, acute kidney injury, hepatic necrosis, ARDS and cerebral oedema.** Injury accumulates as a function of both temperature and **time spent above the threshold**, which is the entire rationale for speed of cooling.
+
+> [!danger] Time to cooling determines outcome
+> **Cool first, investigate second.** The single most important determinant of survival and neurological outcome is how quickly core temperature is brought down. Do not delay cooling for imaging, cannulation or a full history.
+> **Cold water immersion is the most effective method** for exertional heat stroke where feasible. Evaporative cooling with tepid water spray and fans, ice packs to the groin, axillae and neck, and cold intravenous fluids are alternatives, particularly in the elderly or where immersion is impractical. `UNVERIFIED — the target core temperature at which active cooling is stopped, the recommended cooling rate, and the preferred method by patient group require verification against eTG and ANZCOR.`
+
+> [!warning] Antipyretics do not work, and dantrolene is not indicated
+> **Paracetamol and NSAIDs are useless in heat stroke** — the hypothalamic set point is normal, and this is a failure of heat dissipation, not a raised thermostat. NSAIDs additionally worsen the renal injury and the coagulopathy. **Dantrolene has no established role in heat stroke**, though it is the specific treatment for malignant hyperthermia and is used in neuroleptic malignant syndrome — see [[04_Neurology]] Serotonin Syndrome and NMS and [[03a_Anaesthetics_Primer]] for the drug-induced hyperthermias, which A6 §0.3 was discarded to.
+
+> [!warning] Shivering during cooling
+> Aggressive cooling induces shivering, which generates heat and defeats the intervention. Benzodiazepines are used to suppress it. `UNVERIFIED — agent and dosing; the agents are owned by [[NEW_Drugs_15_Neurological]] Benzodiazepines, which states no dose for this indication.`
+
+**S/Smx:** Hyperthermia with confusion, agitation, ataxia, seizures or coma. Tachycardia, hypotension, tachypnoea. Skin hot, dry or sweating depending on subtype. Later: oliguria, bleeding, jaundice.
+
+**Ix:** As per Heat Illness — The Spectrum above, with serial monitoring. The hepatic injury deserves specific mention (*why:* transaminases peak at 24–72 hours, so a normal LFT on arrival is expected and does not exclude significant injury — repeat them; *what:* delayed transaminase rise). Serial CK and renal function (*why:* rhabdomyolysis evolves over the first days and drives the renal failure; *what:* CK trajectory, creatinine).
+
+### Mx – Immediate — A6 §0.2.1
+**Start cooling immediately.** A–E, airway protection if conscious state is reduced, oxygen, IV access, fluid resuscitation with careful reassessment. Benzodiazepines for seizures and shivering. Bedside glucose. Continuous core temperature monitoring. ICU involvement.
+
+### Mx – Definitive — A6 §0.2.2
+ICU management of organ failure. Renal replacement therapy for severe rhabdomyolysis-associated acute kidney injury. Blood product support for DIC. Ventilation for ARDS. Cross-refer `TODO:link — F0-3 shock phenotypes and sepsis syndromes (not yet merged)` for the shock physiology.
+
+### Mx – Chronic/long-term — A6 §0.2.3
+Some patients have persistent neurological deficit and heat intolerance. Return-to-work and return-to-sport advice with acclimatisation. Consider malignant hyperthermia susceptibility testing where the presentation was exertional and unusual.
+
+
 
 ## Added from unverified layer — environmental injury
 `SRC:A6_Thermal_and_Environmental_Injury §0.1` `SRC:A6 §0.2` `SRC:A6 §0.5` `SRC:A6 §0.6` `SRC:A6 §0.7` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE (heat illness only) — heat exhaustion and heat stroke were absent from the corpus before this merge; no inherited layer disagrees with them. The HYPOTHERMIA half of this block does have a thin baseline — 25 pre-merge hits, including the Osborne wave at [[01_Cardiovascular]] §0.12 — so that part is not no-baseline.`
