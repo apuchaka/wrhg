@@ -307,6 +307,7 @@ Some patients have persistent neurological deficit and heat intolerance. Return-
 
 ## Hypothermia — from unverified layer
 `SRC:A6_Thermal_and_Environmental_Injury §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+*Alone of A6's five environmental-injury blocks this one does **not** declare `NO-BASELINE`, and the reason is a measurement rather than an oversight: the fragment this block replaced recorded **25 pre-merge hits** for hypothermia, including the Osborne wave at [[01_Cardiovascular]] §0.12.11. Heat illness, frostbite and drowning had none, so those three do declare it. The distinction is the fragment's, carried across because it is the only record of why the four blocks differ.*
 
 **D:** Core body temperature below the normal range, graded mild, moderate and severe. `UNVERIFIED — the temperature boundaries defining each grade require verification against ANZCOR; no values are stated here.`
 
