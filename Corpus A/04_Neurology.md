@@ -678,6 +678,34 @@ This is the single most commonly tested geriatric discriminator, and the single 
 
 ---
 
+### Delirium, Dementia and Depression — The Distinction — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] The comparison
+> | | **Delirium** | **Dementia** | **Depression** |
+> |---|---|---|---|
+> | **Onset** | **Hours to days** | Months to years | Weeks to months |
+> | **Course** | **Fluctuating, worse at night** | Slowly progressive | Persistent, diurnal variation (worse in the morning) |
+> | **Attention** | **Impaired — the core feature** | Preserved until late | Variable, effort-dependent |
+> | **Consciousness** | **Altered** | Clear until very late | Clear |
+> | **Answers to questions** | Disorganised, rambling | **Confabulation, near-miss answers, effortful attempts** | **"I don't know", gives up quickly** |
+> | **Insight into memory problem** | Fluctuating | **Often reduced — the family is more worried than the patient** | **Often heightened — the patient is more worried than the family** |
+> | **Psychomotor** | Hyper- or hypoactive | Normal until late | Retarded or agitated |
+> | **Hallucinations** | Common, visual | In DLB; otherwise late | Uncommon, mood-congruent if present |
+> | **Reversibility** | **Usually reversible** | Not reversible | **Reversible with treatment** |
+
+> [!warning] "Pseudodementia" — depression presenting as cognitive impairment
+> **The patient who complains bitterly about their memory, says "I don't know" rather than attempting answers, has prominent low mood, and whose family is less concerned than they are, is more likely depressed than demented.**
+> The converse — the patient brought in by a worried family while insisting they are fine — points toward dementia.
+> **Depression is treatable, and it also coexists with and precedes dementia**, so it should be screened for and treated in every cognitive presentation rather than treated as an either/or.
+
+> [!danger] They coexist far more often than they occur in isolation
+> **Delirium superimposed on dementia is the commonest presentation of both in hospital**, and the delirium is missed because the confusion is attributed to the known dementia.
+> **Any acute change in cognition or behaviour in a person with dementia is delirium until proven otherwise**, and warrants a search for a precipitant.
+
+**Ix:** As per the individual sections. **Screening for depression should be part of every cognitive assessment**, and cognitive reassessment should be repeated after depression is treated and after delirium resolves — **do not diagnose dementia during an acute illness or an untreated depressive episode.**
+
+
 ## Serotonin Syndrome and Neuroleptic Malignant Syndrome (NMS)
 
 > [!note] Gap-filled — genuinely absent from any file despite being one of the classic contrasting-pair topics in medicine (both cause hyperthermia + altered mental status + muscle rigidity from different drug mechanisms, and distinguishing them is a frequently-tested skill), and despite haloperidol/antipsychotic use for delirium being covered immediately above, making NMS a directly relevant differential. Built together as a comparison, in the same spirit as the Warm vs Cold AIHA and Pemphigus vs Bullous Pemphigoid comparisons elsewhere in this project.
