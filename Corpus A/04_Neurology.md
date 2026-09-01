@@ -858,6 +858,63 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 
 **Ix:** directed by the differential — **LP where meningitis is suspected and it is safe**, **CT brain where raised pressure or subarachnoid haemorrhage is possible**, and **cervical spine imaging where there is trauma or focal spinal tenderness**. The order matters more than the list: imaging precedes the LP whenever raised intracranial pressure is a possibility.
 
+### Meningism, Meningitis and Encephalitis — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Meningism** is the clinical syndrome of headache, neck stiffness and photophobia from meningeal irritation — **it is not synonymous with meningitis**, and occurs in SAH, and in systemic infection in children without meningeal infection.
+
+> [!danger] Do not delay antibiotics for imaging or lumbar puncture
+> **In suspected bacterial meningitis, antibiotics are given as soon as the diagnosis is considered.** Blood cultures first if that costs no delay, but **the CT and the LP happen afterwards.**
+> Every hour of delay worsens outcome, and the commonest cause of delay is waiting for a scan.
+> **Dexamethasone is given before or with the first dose of antibiotics** in suspected bacterial meningitis, where it reduces mortality and hearing loss, particularly in pneumococcal disease — **giving it after antibiotics have already been administered loses most of the benefit.** `UNVERIFIED — dose, indications, and the age groups in which it applies.`
+
+> [!warning] When to CT before LP
+> **· Focal neurological deficit · new-onset seizure · papilloedema · significantly reduced or fluctuating conscious state · immunocompromise · known CNS lesion.**
+> The purpose is to identify raised intracranial pressure that would make lumbar puncture dangerous (risk of coning). **CT is not a reliable measure of intracranial pressure**, so clinical judgement still applies. `UNVERIFIED — the specific criteria in current Australian guidance.`
+
+> [!info] The classic triad is unreliable
+> **Fever, neck stiffness and altered mental state are all three present in only a minority of adults with bacterial meningitis.** **Kernig and Brudzinski signs are specific but very insensitive** — their absence does not exclude meningitis, and relying on them is a known failure mode.
+> **In infants**: fever or hypothermia, poor feeding, irritability, lethargy, a bulging fontanelle, and **frequently no neck stiffness at all.** Cross-refer `TODO:link — M2 Fever in children (unbuilt)`.
+> **In the elderly**: confusion may be the only feature.
+
+> [!tip] Organisms, and who gets which
+> **Adults and older children:** *Streptococcus pneumoniae*, *Neisseria meningitidis*.
+> **Over about 50, pregnant, immunocompromised, alcohol-dependent:** add ***Listeria monocytogenes*** — **this changes the empirical regimen**, because Listeria is not covered by cephalosporins alone. **Forgetting Listeria cover in an older patient is the classic prescribing error in meningitis.**
+> **Neonates:** group B *Streptococcus*, *E. coli*, *Listeria*.
+> **Viral:** enteroviruses commonest; herpes simplex; and consider HIV seroconversion.
+> **Chronic/subacute:** tuberculosis, *Cryptococcus* (particularly in HIV — with a characteristically raised opening pressure requiring repeated therapeutic LPs), and malignant meningitis.
+
+> [!info] CSF interpretation
+> | | **Bacterial** | **Viral** | **TB / fungal** |
+> |---|---|---|---|
+> | Appearance | Turbid | Clear | Clear or fibrin web |
+> | Predominant cell | **Neutrophils** | **Lymphocytes** | **Lymphocytes** |
+> | Protein | Raised | Normal or mildly raised | **Markedly raised** |
+> | **CSF:serum glucose ratio** | **Low** | **Normal** | **Very low** |
+> `UNVERIFIED — all reference values and the glucose ratio threshold.`
+> **Always send a paired serum glucose** — the CSF glucose is meaningless without it, and this is frequently forgotten.
+> **Partially treated bacterial meningitis** can show a lymphocytic picture, which is a genuine trap.
+
+> [!danger] Encephalitis — start aciclovir empirically
+> **Encephalitis is distinguished from meningitis by the prominence of altered mental state, behavioural change, personality change, seizures and focal deficits**, rather than headache and neck stiffness.
+> **Herpes simplex encephalitis has a predilection for the temporal lobes**, producing personality change, olfactory or gustatory hallucinations, aphasia and temporal lobe seizures.
+> **Start intravenous aciclovir empirically in any suspected encephalitis — do not wait for the CSF PCR result.** Untreated HSV encephalitis has very high mortality and severe morbidity in survivors, and the treatment is safe. **This is the single most important management point in encephalitis.** `UNVERIFIED — dose, renal adjustment and duration.`
+> **Autoimmune encephalitis** — notably **anti-NMDA receptor encephalitis**, characteristically in a young woman with a **psychiatric prodrome, then seizures, movement disorder and autonomic instability**, and associated with an **ovarian teratoma.** Frequently misdiagnosed initially as a primary psychiatric illness, so it is worth knowing.
+
+**S/Smx:** Fever, headache, neck stiffness, photophobia, vomiting, altered conscious state, seizures, focal signs, and **a non-blanching rash in meningococcal disease** — cross-refer [[08_09_Infectious_Disease_-_Miscellaneous]] Sepsis, noting the rash is a **late** sign and may be absent.
+
+**Ix:** **Blood cultures before antibiotics if no delay** (*why:* frequently the only positive microbiology, particularly once antibiotics are given; *what:* organism). **Lumbar puncture with opening pressure, cell count and differential, protein, glucose with a PAIRED serum glucose, Gram stain, culture, and PCR** (*why:* establishes the diagnosis, distinguishes bacterial from viral, and PCR detects organisms after antibiotics have sterilised cultures; *what:* the CSF profile above). **Meningococcal and pneumococcal PCR on blood** (*why:* remains positive after antibiotics, which is the usual situation given antibiotics are correctly given early; *what:* organism DNA). FBC, CRP, UEC, glucose, coagulation profile (*why:* baseline, DIC, and the serum glucose for the CSF ratio; *what:* derangement). **CT brain before LP where indicated** (*why:* identifies mass effect; *what:* lesion, hydrocephalus, effacement). **MRI brain in suspected encephalitis** (*why:* **temporal lobe changes support HSV encephalitis** and MRI is far more sensitive than CT; *what:* temporal lobe signal change). **EEG** (*why:* supports encephalitis and detects non-convulsive status; *what:* focal temporal slowing, epileptiform discharges). HIV testing (*why:* alters the differential toward opportunistic infection and is a treatable diagnosis in its own right; *what:* positive serology). Autoimmune encephalitis antibodies including anti-NMDA receptor (*why:* treatable with immunotherapy and tumour removal; *what:* positive antibodies).
+
+#### Mx – Immediate
+**Antibiotics immediately — with Listeria cover in the at-risk groups. Dexamethasone with or before the first dose. Aciclovir if encephalitis is possible.** Resuscitate. Blood cultures. LP when safe. **Notify public health** for meningococcal disease and arrange contact prophylaxis — cross-refer [[08_09_Infectious_Disease_-_Miscellaneous]] Sepsis.
+
+#### Mx – Definitive
+Targeted antimicrobials on culture and sensitivity. ICU for reduced conscious state or seizures. Immunotherapy and tumour search for autoimmune encephalitis.
+
+#### Mx – Chronic/long-term
+**Formal audiology after bacterial meningitis, particularly in children — sensorineural hearing loss is a common and treatable sequela and is missed if not specifically tested.** Neurodevelopmental and neuropsychological follow-up. Contact tracing and prophylaxis. **Investigate for complement deficiency after invasive meningococcal disease.** Immunisation review.
+
+
 
 ## CNS Infections Associated with Immunosuppression
 
