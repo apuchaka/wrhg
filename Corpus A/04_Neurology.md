@@ -2301,6 +2301,42 @@ Treat sinonasal disease, correct deficiency, cease the offending drug. **Olfacto
 #### Mx – Chronic/long-term — D7 §0.5.3
 **Safety advice as above.** Nutritional support where appetite and weight are affected. Acknowledgement of the psychological impact.
 
+### Other Cranial Nerve Syndromes — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Trigeminal (V)
+> **Sensory loss** in one or more divisions, weakness of muscles of mastication (with the **jaw deviating TOWARD the weak side**), and a **reduced corneal reflex** (V1 afferent).
+> **Trigeminal neuralgia** — see [[04_Neurology]] Trigeminal Neuralgia. The key point repeated here: **MRI is required in a young patient, with bilateral symptoms, or where there is objective sensory loss, to exclude multiple sclerosis or a compressive lesion.**
+> **Numbness of the chin — "numb chin syndrome" — is a sinister sign**, associated with **malignant infiltration of the mental nerve**, particularly from breast cancer, lymphoma and myeloma. It warrants investigation rather than reassurance.
+
+> [!tip] Vestibulocochlear (VIII) and the cerebellopontine angle
+> **Unilateral sensorineural hearing loss and tinnitus, with or without imbalance, should raise vestibular schwannoma (acoustic neuroma).**
+> As it grows in the cerebellopontine angle it involves **V (reduced corneal reflex first, then facial numbness), then VII (facial weakness, which is a late feature), then cerebellar signs and raised intracranial pressure.**
+> **Any asymmetric sensorineural hearing loss warrants audiometry and MRI**, because the tumour is treatable and the alternative is progressive deficit. Cross-refer `TODO:link — F1 Ear (unbuilt)` and [[04_Neurology]] Cranial Nerve Disorders and Vertigo.
+
+> [!tip] The lower cranial nerves
+> **Glossopharyngeal (IX) and vagus (X)** — palatal weakness with the **uvula deviating AWAY from the affected side**, absent gag, dysphagia, nasal regurgitation, and hoarseness from recurrent laryngeal involvement.
+> **Accessory (XI)** — weakness of sternocleidomastoid (turning the head **away** from the affected side) and trapezius (shoulder shrug). **Vulnerable during posterior triangle neck surgery and lymph node biopsy**, and iatrogenic injury causing a painful dropped shoulder is a recognised complication.
+> **Hypoglossal (XII)** — **the tongue deviates TOWARD the side of a lower motor neurone lesion** (the intact genioglossus pushes it across), with wasting and fasciculation on that side. **In an upper motor neurone lesion the tongue deviates AWAY from the side of the lesion** — that is, toward the hemiparetic side — without wasting or fasciculation.
+> **Jugular foramen syndrome** — IX, X and XI together, from a glomus tumour, metastasis or skull base pathology.
+
+> [!danger] Cavernous sinus syndrome
+> **III, IV, V1, V2 and VI, plus a Horner syndrome, with V3 SPARED** — because the mandibular division does not traverse the sinus. Proptosis, chemosis and periorbital oedema may be present.
+> **Causes: cavernous sinus thrombosis (from facial, sinus or dental infection — a septic emergency), tumour, carotid-cavernous fistula (with a pulsatile proptosis and an audible bruit), and pituitary apoplexy.**
+> **Cavernous sinus thrombosis presents with fever, proptosis, chemosis and ophthalmoplegia, often becoming bilateral through the intercavernous sinuses**, and requires urgent imaging, antibiotics and anticoagulation.
+
+**Ix:** **MRI with contrast, including dedicated views of the skull base, internal auditory meati and cavernous sinuses** (*why:* the anatomical detail required is beyond CT; *what:* schwannoma, meningioma, thrombosis, infiltration). Audiometry (*why:* characterises and lateralises hearing loss and triggers imaging; *what:* asymmetric sensorineural loss). Lumbar puncture with cytology where malignant meningitis is suspected (*why:* leptomeningeal disease presents with multiple cranial neuropathies and requires CSF cytology, often on repeated samples; *what:* malignant cells). CT venography where cavernous sinus thrombosis is suspected (*why:* confirms thrombosis; *what:* filling defect). Systemic workup for sarcoidosis, vasculitis, tuberculosis and malignancy where multiple nerves are involved (*why:* the underlying disease drives treatment; *what:* the cause).
+
+#### Mx – Immediate — D7 §0.6.1
+Urgent antibiotics and imaging for cavernous sinus thrombosis. Urgent steroid and endocrine management for pituitary apoplexy.
+
+#### Mx – Definitive — D7 §0.6.2
+Cause-specific — surgery, radiotherapy, antimicrobials or immunosuppression.
+
+#### Mx – Chronic/long-term — D7 §0.6.3
+Hearing rehabilitation, facial reanimation, swallow management, and surveillance imaging where a tumour is managed conservatively.
+
+
 
 
 
