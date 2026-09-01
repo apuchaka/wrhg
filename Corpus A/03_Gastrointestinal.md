@@ -2237,6 +2237,41 @@ Treat haemolysis if present. Reassure in Gilbert syndrome.
 #### 0.41.21.3 Mx – Chronic/long-term
 **Document Gilbert syndrome clearly in the record** so future clinicians do not repeat the workup — this happens repeatedly and is an avoidable source of investigation and anxiety.
 
+### 0.41.22 Conjugated and Obstructive Jaundice — from unverified layer
+`SRC:C3_Jaundice_and_Liver_Disease §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** Obstruction to bile flow → conjugated bilirubin refluxes into the circulation → **dark urine** as it is renally excreted, and **pale stools** as stercobilin is no longer produced → bile salt retention in the skin causes **pruritus** → prolonged obstruction impairs absorption of fat-soluble vitamins A, D, E and K, causing **coagulopathy from vitamin K deficiency that is correctable with parenteral vitamin K** (unlike the coagulopathy of hepatocellular failure, which is not).
+
+> [!tip] The causes, by level
+> **Intraluminal** — **choledocholithiasis**, the commonest cause.
+> **Mural** — cholangiocarcinoma, benign post-operative or post-inflammatory stricture, **primary sclerosing cholangitis**, ampullary tumour, parasitic infection.
+> **Extrinsic compression** — **carcinoma of the head of pancreas**, lymphadenopathy, pancreatitis or pseudocyst.
+> **Intrahepatic cholestasis** — drug-induced, primary biliary cholangitis, sepsis, pregnancy, infiltrative disease, total parenteral nutrition.
+
+> [!danger] Painless progressive jaundice with weight loss is malignancy until proven otherwise
+> **Carcinoma of the head of the pancreas and periampullary tumours** classically present this way, and the absence of pain is not reassuring — it is the pattern.
+> **Courvoisier's law**: a **palpable, non-tender gallbladder** in a jaundiced patient makes gallstones an unlikely cause, because a gallbladder chronically inflamed by stones becomes fibrotic and cannot distend. It therefore points toward malignant obstruction. `UNVERIFIED — the law has recognised exceptions and is a probability statement, not an absolute.`
+
+> [!warning] Drug-induced cholestasis
+> A frequently overlooked cause. **Flucloxacillin and amoxicillin-clavulanate** are classic culprits, with jaundice that may appear **weeks after the course finished** — which is why the connection is missed. Also: **oestrogens and the combined oral contraceptive, anabolic steroids, azathioprine, macrolides, and many herbal and complementary preparations**, which patients do not consider "medications" unless asked specifically.
+> **Take a drug history covering the previous three months, including over-the-counter and complementary products.**
+
+> [!tip] Two autoimmune biliary diseases worth distinguishing
+> **Primary biliary cholangitis** — middle-aged women, **pruritus often preceding jaundice by years**, fatigue, raised ALP, **anti-mitochondrial antibody positive**, raised IgM. Treated with ursodeoxycholic acid.
+> **Primary sclerosing cholangitis** — younger, more often male, **strongly associated with inflammatory bowel disease, particularly ulcerative colitis**. Characteristic beading of the ducts on MRCP. Carries a significant risk of **cholangiocarcinoma and colorectal cancer**, so both need surveillance.
+
+**Ix:** **Abdominal ultrasound first** (*why:* the presence of duct dilatation confirms obstruction and its absence redirects toward hepatocellular or intrahepatic cholestatic causes — this branch point determines everything after it; *what:* dilated intra- and extrahepatic ducts, stones, mass). **MRCP** (*why:* non-invasive, detailed anatomy of the biliary tree, identifies duct stones and strictures without the risk of ERCP; *what:* stone, stricture, beading, mass). **Endoscopic ultrasound** (*why:* superior for small distal duct stones and for staging and sampling pancreatic head lesions; *what:* stone, mass, with fine needle aspiration). **ERCP — a therapeutic rather than a diagnostic procedure** (*why:* it permits sphincterotomy, stone extraction and stent placement, but carries a real risk of post-ERCP pancreatitis, so it is reserved for when intervention is intended; *what:* stone extraction, stenting). CT abdomen with pancreatic protocol (*why:* stages malignancy and assesses resectability; *what:* mass, vascular involvement, metastases). Tumour markers — **CA 19-9** (*why:* supports pancreaticobiliary malignancy and is used for monitoring, though **it is raised in benign obstruction and cholangitis and must not be interpreted in a jaundiced patient as diagnostic**; *what:* elevation, interpreted with caution). **INR before any intervention** (*why:* vitamin K deficiency from obstruction causes a correctable coagulopathy that must be treated before ERCP or biopsy; *what:* prolonged INR correcting with vitamin K). AMA and immunoglobulins (*why:* primary biliary cholangitis; *what:* positive AMA, raised IgM).
+
+#### 0.41.22.1 Mx – Immediate
+Fluids, analgesia, **parenteral vitamin K** for coagulopathy. **Antibiotics and urgent biliary drainage for cholangitis** — cross-refer §0.4 Ascending Cholangitis. Pruritus management.
+
+#### 0.41.22.2 Mx – Definitive
+ERCP with stone extraction or stenting. Cholecystectomy for gallstone disease. Oncological or surgical management of malignancy, with multidisciplinary discussion. Ursodeoxycholic acid for PBC.
+
+#### 0.41.22.3 Mx – Chronic/long-term
+Fat-soluble vitamin replacement in chronic cholestasis. Bone density monitoring, since chronic cholestasis causes osteoporosis. Surveillance for cholangiocarcinoma and colorectal cancer in PSC.
+
+
 
 
 
