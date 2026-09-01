@@ -713,6 +713,42 @@ Observation for asymptomatic collections. Endoscopic, percutaneous or surgical d
 #### 0.11.3.3 Mx – Chronic/long-term
 Surveillance imaging for cystic neoplasms managed conservatively. Management of the underlying pancreatitis.
 
+### 0.11.4 Intra-abdominal Abscess — from unverified layer
+`SRC:C7_Pancreatobiliary_Disease §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A localised collection of pus within the peritoneal cavity, retroperitoneum or a viscus.
+
+**R/Causes:** **Post-operative** — anastomotic leak, contamination, haematoma. **Perforated viscus** — appendix, diverticulum, ulcer. **Diverticulitis · appendicitis · Crohn disease · pancreatitis · cholecystitis · trauma · pelvic inflammatory disease.**
+
+> [!danger] The post-operative patient who is not progressing
+> **A patient who is not getting better around days five to seven after abdominal surgery — persistent fever, ileus that will not settle, unexplained tachycardia, rising inflammatory markers, or simply "not right" — has a collection or a leak until proven otherwise.**
+> This is one of the most useful clinical patterns in surgical medicine, and it is the presentation that gets attributed to "slow recovery", atelectasis or a urinary infection while a collection matures. **New atrial fibrillation post-operatively is a recognised early flag for an anastomotic leak.** Cross-refer [[08_09_Infectious_Disease_-_Miscellaneous]] Sepsis.
+
+> [!tip] Site-specific features
+> **Subphrenic** — **shoulder tip pain from diaphragmatic irritation, hiccups**, a raised hemidiaphragm and a sympathetic pleural effusion. **A patient with a persistent post-operative fever and a "chest problem" may have an abdominal collection.**
+> **Pelvic** — **diarrhoea, mucus per rectum, and urinary frequency** from irritation of the adjacent rectum and bladder. Palpable on rectal examination, and a genuinely useful examination in a febrile post-operative patient.
+> **Paracolic and interloop** — localised tenderness, ileus.
+> **Hepatic** — swinging fever, right upper quadrant pain, tender hepatomegaly.
+> **Splenic** — left upper quadrant pain, and consider endocarditis as an embolic source.
+
+> [!warning] Source control is the treatment
+> **Antibiotics alone will not cure an established abscess**, in exactly the way antibiotics alone will not cure cholangitis or a perianal abscess. **Drainage is the definitive treatment**, and delay while "trying antibiotics" is a recurring error.
+> **Percutaneous image-guided drainage is first-line** for most accessible collections and has largely replaced open surgery. Surgery is for collections that are not amenable to drainage, for failure of drainage, or where the underlying pathology needs operating on anyway.
+
+**S/Smx:** Swinging fever, rigors, localised or poorly localised pain, anorexia, ileus, and failure to progress. **The elderly and the immunosuppressed may have none of these** and present only with confusion or deterioration.
+
+**Ix:** **Contrast CT abdomen and pelvis** (*why:* the definitive investigation — localises the collection, defines its relationship to surrounding structures, identifies the source, and plans the drainage route; *what:* rim-enhancing collection, gas, free fluid, anastomotic leak). Ultrasound (*why:* useful for pelvic, hepatic and subphrenic collections, avoids radiation, and can guide drainage — but is limited by bowel gas and dressings post-operatively; *what:* collection). **Blood cultures before antibiotics** (*why:* organism identification; *what:* growth). FBC and CRP with trends (*why:* a failure of inflammatory markers to fall post-operatively is often the first objective clue; *what:* persistent or rising CRP and white cell count). **Culture of the drained fluid** (*why:* directs targeted therapy and identifies resistant or anaerobic organisms; *what:* organism and sensitivities). Drain output volume and character where drains are in situ (*why:* enteric or bilious output indicates a leak; *what:* character, volume, and **a drain that suddenly stops draining may be blocked rather than the patient improved**).
+
+#### 0.11.4.1 Mx – Immediate
+Resuscitate. Blood cultures then broad-spectrum antibiotics covering enteric Gram-negatives and anaerobes. **Urgent CT and early referral for drainage.** Involve the original operating team.
+
+#### 0.11.4.2 Mx – Definitive
+**Drainage — percutaneous, endoscopic or surgical.** Repair or defunctioning of an anastomotic leak. De-escalate antibiotics on culture.
+
+#### 0.11.4.3 Mx – Chronic/long-term
+Nutritional support, which is frequently poor in these patients and delays healing. Follow-up imaging to confirm resolution. Drain management and planned removal.
+
+
 
 
 
