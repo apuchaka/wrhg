@@ -79,6 +79,18 @@ def run(cfg):
                     k -= 1
                 e = k
                 break
+        # A supersede must consume the FRAGMENT, not everything up to the next heading.
+        # Destination prose can follow the fragment with no heading, no SRC: token, no
+        # marker and no digit - invisible to every other check. D5 §0.4 deleted
+        # `**P (vertigo generally):** …`, the vertigo entry's own prognosis line, and
+        # printed OK. A blank-line RUN (two or more) ends the fragment: the block format
+        # separates its own parts by exactly one.
+        for j in range(s + 2, e - 1):
+            if lines[j].strip() == '' and lines[j + 1].strip() == '':
+                e = j
+                break
+        while e > s + 1 and lines[e - 1].strip() == '':
+            e -= 1
         removed = e - s
         # NEVER delete a CONFLICT block when superseding a fragment. Lift it out and
         # re-attach it below the merged section. 1.12: no agent edits a conflict block.
