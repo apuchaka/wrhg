@@ -3262,6 +3262,51 @@ Protective measures where sensation is lost — **foot care, water temperature c
 
 **Essential tremor (benign essential tremor):** progressive, mainly symmetrical, rhythmic, involuntary oscillatory movement disorder of the hands and forearms. Autosomal dominant. Usually absent at rest, present during intentional movements (e.g. finger-to-nose test). Improves with alcohol and rest (opposite of Parkinson's). Associated with titubation (head tremor). Mx: propranolol first-line; ?primidone.
 
+### Chorea, Dystonia, Tics and Myoclonus — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Chorea
+> **Brief, irregular, unpredictable, flowing movements that appear to move randomly from one body part to another**, often incorporated into semi-purposeful movements by the patient.
+> **Causes:**
+> **· Huntington disease** — autosomal dominant CAG trinucleotide repeat expansion with **anticipation**; chorea with **prominent psychiatric and cognitive features**, which often precede the movement disorder. **Genetic counselling before testing is essential** and predictive testing has major implications for the family.
+> **· Sydenham chorea** — **post-streptococcal, a major criterion of acute rheumatic fever**, and therefore of particular relevance in Aboriginal and Torres Strait Islander populations in Australia. Often with emotional lability and obsessive features. Cross-refer [[01_Cardiovascular]] §0.22 Rheumatic Fever.
+> **· Drug-induced** — levodopa-induced dyskinesia, and **tardive dyskinesia** from dopamine blockade.
+> **· Systemic** — **SLE and antiphospholipid syndrome**, thyrotoxicosis, polycythaemia, hypoglycaemia, hyperglycaemia (hemichorea-hemiballismus in non-ketotic hyperglycaemia), and **chorea gravidarum** in pregnancy.
+> **· Vascular** — a subthalamic nucleus lesion causing **hemiballismus**, which is violent proximal flinging chorea.
+
+> [!tip] Dystonia
+> **Sustained or intermittent muscle contractions causing abnormal, often twisting postures and repetitive movements.**
+> **Focal dystonias** are the commonest: **cervical dystonia (spasmodic torticollis)**, blepharospasm, writer's cramp, and laryngeal dystonia.
+> **The "sensory trick" (geste antagoniste)** — a light touch to the chin or cheek that dramatically relieves cervical dystonia — is characteristic and diagnostically useful, and its presence supports dystonia over a functional or musculoskeletal cause.
+> **Acute dystonic reaction** — from **metoclopramide, prochlorperazine or antipsychotics**, with oculogyric crisis, torticollis and trismus, typically in young patients. **Responds within minutes to an anticholinergic (benztropine)** and is frequently misdiagnosed as a seizure, a psychiatric episode or tetanus. Cross-refer [[NEW_Drugs_12_Gastrointestinal]] §0.2.5 Antiemetic Selection by Mechanism.
+> **Botulinum toxin is the treatment of choice for focal dystonia.**
+
+> [!tip] Tics
+> **Brief, stereotyped, repetitive movements or vocalisations, preceded by a premonitory urge and TEMPORARILY SUPPRESSIBLE** — suppressibility and the premonitory urge are what distinguish tics from other hyperkinetic movements.
+> **Tourette syndrome** — multiple motor tics plus at least one vocal tic, with childhood onset. **Comorbid ADHD and OCD are the rule rather than the exception**, and frequently cause more impairment than the tics themselves — so they must be asked about and treated.
+> Management: education and reassurance first (many improve through adolescence), behavioural therapy (habit reversal, exposure and response prevention), and medication only where there is genuine impairment.
+
+> [!tip] Myoclonus and restless legs
+> **Myoclonus** — sudden brief shock-like jerks. **Metabolic causes are common and important: uraemia, hepatic failure, hypoxia, hyponatraemia, and drugs (opioids, and gabapentinoids accumulating in renal failure).** **Asterixis is "negative myoclonus"** — a brief lapse of tone. **Post-hypoxic (Lance-Adams) myoclonus** follows cardiac arrest. **Rapidly progressive myoclonus with dementia should raise Creutzfeldt-Jakob disease.**
+> **Restless legs syndrome** — **an urge to move the legs, worse at rest and in the evening, relieved by movement.** **Check ferritin: iron deficiency is a common and treatable cause, and treating it can resolve the syndrome** — this is under-done. Also associated with renal failure, pregnancy, neuropathy, and **drugs including antidepressants, antihistamines and dopamine antagonists.** `UNVERIFIED — the ferritin threshold below which iron replacement is recommended, which is higher than the usual anaemia threshold.`
+
+> [!warning] Tardive dyskinesia
+> Involuntary, often orofacial, choreiform movements after **prolonged dopamine receptor blockade** — antipsychotics, and again **metoclopramide and prochlorperazine.**
+> **It may be irreversible**, and **stopping the causative drug can transiently WORSEN it** before improvement, which discourages both patients and clinicians.
+> The best management is prevention: **use the lowest effective dose of antipsychotics, review the indication regularly, and do not leave metoclopramide or prochlorperazine on a repeat prescription indefinitely.**
+
+**Ix:** **Medication review** (*why:* drug-induced movement disorders are the commonest cause of most of these, and are reversible; *what:* dopamine antagonists, levodopa, antidepressants). **Ferritin** in restless legs (*why:* treatable; *what:* low ferritin). TFTs, glucose, UEC, LFT, calcium (*why:* metabolic causes of chorea and myoclonus; *what:* derangement). **Antistreptolysin O titre and echocardiography in suspected Sydenham chorea** (*why:* establishes acute rheumatic fever, which requires secondary prophylaxis and carditis assessment; *what:* raised ASOT, valvular involvement). **ANA, antiphospholipid antibodies** (*why:* SLE and antiphospholipid syndrome cause chorea; *what:* positive serology). **Huntington genetic testing — only after formal genetic counselling** (*why:* the result has profound implications for the patient and their at-risk relatives, and testing without counselling is unacceptable practice; *what:* CAG repeat expansion). MRI brain (*why:* structural causes including basal ganglia lesions; *what:* lesion, caudate atrophy). **Caeruloplasmin in the young** (*why:* Wilson disease; *what:* low level). EEG where myoclonus may be epileptic (*why:* distinguishes cortical myoclonus and myoclonic epilepsy; *what:* correlated discharges).
+
+#### Mx – Immediate — D6 §0.6.1
+**Anticholinergic for acute dystonic reaction.** Correct metabolic causes of myoclonus.
+
+#### Mx – Definitive — D6 §0.6.2
+Cease the causative drug. Botulinum toxin for focal dystonia. Iron for restless legs. Treat the underlying systemic disease.
+
+#### Mx – Chronic/long-term — D6 §0.6.3
+Genetic counselling and family support in Huntington disease. **Secondary antibiotic prophylaxis after Sydenham chorea, as part of acute rheumatic fever management.** Behavioural therapy in Tourette syndrome. Regular review of any long-term antipsychotic.
+
+
 ### Tremor — from unverified layer
 `SRC:D6_Seizures_and_Movement_Disorders §0.4` `UNVERIFIED — model knowledge, not source-checked.`
 
