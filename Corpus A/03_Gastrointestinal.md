@@ -1093,21 +1093,46 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 ---
 
-### 0.25.1 Added from unverified layer — anorectal pain, and what the dentate line implies
-`SRC:C6_Dyspepsia__Oesophageal_and_Anorectal_Disease §0.4` `SRC:C6 §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+### 0.25.1 Anorectal Pain — from unverified layer
+`SRC:C6_Dyspepsia__Oesophageal_and_Anorectal_Disease §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former anorectal-pain fragment.*
 
-> [!danger] Internal haemorrhoids are not painful — so anal pain means something else
-> §0.25 above states that internal haemorrhoids lie **proximal to the dentate line**. The consequence is the useful part: **above the dentate line the mucosa has visceral innervation, so internal haemorrhoids bleed and prolapse but do not hurt.**
-> **Pain points to a different diagnosis** — a **thrombosed external haemorrhoid**, an **anal fissure** (§0.23), a **perianal abscess** (§0.24), or a **strangulated prolapsed pile**. Attributing anal pain to internal haemorrhoids is how each of those gets missed.
+> [!danger] Perianal abscess needs drainage — antibiotics alone will not do
+> **Constant, throbbing, severe perianal pain, worse on sitting, with fever and a tender fluctuant swelling.** Deeper (intersphincteric, supralevator) abscesses may have **little to see externally** and present with severe pain and systemic upset — so **an absence of visible swelling does not exclude it.**
+> **Treatment is surgical drainage.** Antibiotics are an adjunct, not a substitute, and delaying drainage while a course of antibiotics is tried is a recognised error.
+> **Have a much lower threshold in diabetics and the immunosuppressed**, where necrotising perineal infection (Fournier gangrene) is a life-threatening progression that begins with pain out of proportion to visible findings. Cross-refer `TODO:link — K2 Skin & soft tissue infection (unbuilt)`.
+> A proportion of abscesses are followed by a **fistula-in-ano**, which then requires definitive management.
 
-> [!info] Why anal fissures sit in the posterior midline
-> **Usually posterior midline** — or **anterior midline in women post-partum** — because that mucosa is **relatively poorly perfused**. Sphincter spasm reduces the blood flow further and prevents healing, **which is why treatment targets the spasm** rather than the fissure itself. §0.23 gives the ischaemic mechanism; this is where it happens and why.
-> A fissure **off the midline** should prompt thought about an alternative cause — Crohn disease (§0.16.1), malignancy, or infection.
+> [!tip] Anal fissure
+> **Severe tearing or knife-like pain during defecation, persisting for minutes to hours afterwards, with bright red blood on the paper.** The pain is characteristically out of proportion to the small size of the lesion, and patients begin avoiding defecation, which worsens the constipation that caused it — a self-perpetuating cycle.
+> Usually **posterior midline** (or anterior midline in women post-partum), where the mucosa is relatively poorly perfused. Sphincter spasm reduces blood flow further and prevents healing, which is why treatment targets the spasm. §0.23 gives the ischaemic mechanism and §0.24 the fistula that may follow an abscess. §0.25 covers the haemorrhoids themselves, and §0.5 of this source the anal lump.
+> **Chronic fissure** has a sentinel skin tag, hypertrophied anal papilla, and visible internal sphincter fibres at the base.
+> **Management: soften the stool and relieve the spasm** — topical GTN or diltiazem, then botulinum toxin, then lateral internal sphincterotomy (which carries a small risk of incontinence). `UNVERIFIED — agents and concentrations.`
 
-- **Thrombosed external haemorrhoid** — sudden severe pain with a **tense, tender, blue-purple perianal lump**. **Excision in the first few days relieves it dramatically; after that, manage conservatively**, since it is already resolving. `UNVERIFIED — the time window within which excision is preferred; RACGP or a colorectal surgical reference.`
-- **Proctalgia fugax** — **brief, severe, fleeting rectal pain, often at night, lasting seconds to minutes and resolving completely.** Benign and functional; the management is examination to exclude the treatable causes above, then explanation and reassurance.
-- **Skin tags** are often the residue of a previous thrombosed pile, or associated with a chronic fissure or Crohn disease — so a tag is a clue to what has happened before, not a diagnosis on its own.
+> [!danger] A fissure in an atypical position is not a simple fissure A fissure off the midline should prompt thought about Crohn disease (§0.16.1), malignancy or infection.
+> **Lateral, multiple, painless, irregular or non-healing fissures suggest an alternative diagnosis: Crohn disease, tuberculosis, HIV, syphilis, anal carcinoma, or leukaemia.**
+> **Examine, and biopsy anything atypical.** Perianal disease can be the first presentation of Crohn disease, sometimes preceding intestinal symptoms by years.
 
+> [!tip] The rest of the anorectal pain differential
+> **Thrombosed external haemorrhoid** — sudden severe pain with a tense, tender, blue-purple perianal lump. **Excision within the first few days relieves it dramatically; after that, conservative management** as it is already resolving. `UNVERIFIED — the time window.`
+> **Proctalgia fugax** — **brief, severe, fleeting rectal pain, often at night, lasting seconds to minutes and resolving completely.** Benign and functional; the correct management is explanation and reassurance after examination.
+> **Levator ani syndrome** — chronic dull aching rectal pain, worse sitting, with tenderness on palpating the levator muscles.
+> **Anal carcinoma** — pain, bleeding, a mass or a non-healing ulcer. **Associated with HPV, HIV, immunosuppression, smoking, and receptive anal intercourse.** Incidence is rising. **Do not attribute a persistent anal ulcer or lump to a fissure or pile without examining and biopsying it.**
+> **Perianal Crohn disease** — fistulae, complex abscesses, skin tags, and fissures.
+> **Coccydynia** and **pilonidal disease** — related but distinct.
+
+**S/Smx:** Character and timing of pain relative to defecation, bleeding, discharge, swelling, fever, bowel habit, and systemic symptoms. **Examine** — inspection, gentle digital examination if tolerated, and proctoscopy where possible. **If the pain prevents examination, that is itself significant and warrants examination under anaesthesia rather than abandoning it.**
+
+**Ix:** **Examination, including under anaesthesia where pain prevents adequate assessment** (*why:* the diagnosis is almost always made by looking, and inadequate examination is the main reason abscesses and cancers are missed; *what:* fissure, abscess, fistula, mass). **MRI pelvis** for complex or recurrent fistula and perianal Crohn disease (*why:* maps the tract in relation to the sphincter complex, which determines surgical approach and the risk to continence; *what:* tract anatomy, abscess, sphincter involvement). **Biopsy of any atypical ulcer or lump** (*why:* anal carcinoma; *what:* histology). Colonoscopy where inflammatory bowel disease is suspected (*why:* perianal disease may be the first sign of Crohn disease; *what:* intestinal inflammation). FBC, glucose and HbA1c (*why:* diabetes predisposes to abscess and to necrotising infection; *what:* hyperglycaemia). **HIV and STI testing where indicated** (*why:* atypical anorectal disease, and anal cancer risk; *what:* positive serology or NAAT — cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`).
+
+#### 0.25.1.1 Mx – Immediate
+**Drain the abscess.** Analgesia. Stool softeners. Sitz baths for symptomatic relief.
+
+#### 0.25.1.2 Mx – Definitive
+Surgical management of abscess, fistula and chronic fissure. Oncological management of anal carcinoma, which is treated primarily with **chemoradiotherapy rather than surgery** — a distinction from rectal cancer worth knowing.
+
+#### 0.25.1.3 Mx – Chronic/long-term
+**Long-term stool softening in anal fissure**, because recurrence follows any return to hard stool. Management of underlying Crohn disease. HPV vaccination where relevant.
 
 ### 0.25.2 Added from unverified layer — rectal foreign body
 `SRC:A8_Foreign_Bodies_by_Site §0.7` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
