@@ -1907,6 +1907,47 @@ Adhesion prevention is limited; recurrent adhesional obstruction is common and e
 
 ---
 
+### 0.40.1 Chronic Diarrhoea and Change in Bowel Habit — from unverified layer
+`SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Diarrhoea persisting beyond about four weeks. `UNVERIFIED — the duration threshold.`
+
+> [!danger] A persistent change in bowel habit in an adult over 50 is colorectal cancer until proven otherwise
+> This is the single most important sentence in this section. **The combination of altered bowel habit with rectal bleeding, iron deficiency anaemia, weight loss or a family history mandates colonoscopy**, and a normal FIT does not substitute for it in a symptomatic patient. Cross-refer §0.34.2 Occult and Obscure Bleeding.
+
+> [!tip] Classify by mechanism — it narrows the differential fast
+> **Osmotic** — unabsorbed solutes draw water in. **Improves with fasting.** Lactose intolerance, magnesium-containing antacids and laxatives, sorbitol, malabsorption.
+> **Secretory** — active secretion. **Continues with fasting and occurs at night**, which is a useful discriminator against functional causes. Neuroendocrine tumours, bile acid diarrhoea, microscopic colitis.
+> **Inflammatory** — blood, mucus, urgency, systemic features. IBD, infection, ischaemia, radiation.
+> **Malabsorptive** — **steatorrhoea**: pale, bulky, offensive, floating stool difficult to flush. Coeliac disease, pancreatic exocrine insufficiency, small intestinal bacterial overgrowth.
+> **Motility** — irritable bowel syndrome, diabetic autonomic neuropathy, hyperthyroidism.
+
+> [!tip] The causes worth knowing well
+> **Coeliac disease** — common, under-diagnosed, and presents with anything from classic steatorrhoea to isolated iron deficiency, osteoporosis or unexplained transaminitis. **Serology must be taken while the patient is still eating gluten**, and duodenal biopsy confirms it.
+> **Inflammatory bowel disease** — bloody diarrhoea, urgency, nocturnal symptoms, weight loss, extraintestinal manifestations (erythema nodosum, pyoderma gangrenosum, uveitis, arthritis, primary sclerosing cholangitis). **Faecal calprotectin distinguishes it from IBS** and avoids unnecessary colonoscopy in a large group of young patients.
+> **Microscopic colitis** — **watery non-bloody diarrhoea in an older woman with a completely normal-looking colonoscopy** — the diagnosis is made only on biopsy, so **biopsies must be taken from a normal-appearing colon**, which is the point people miss. Associated with **PPIs, NSAIDs and SSRIs.**
+> **Bile acid diarrhoea** — after cholecystectomy, terminal ileal resection or Crohn disease of the terminal ileum. Watery, urgent, often postprandial, and **responds dramatically to a bile acid sequestrant such as cholestyramine** — a therapeutic trial is a reasonable diagnostic approach.
+> **Pancreatic exocrine insufficiency** — chronic pancreatitis, pancreatic cancer, cystic fibrosis. Steatorrhoea and weight loss, treated with enzyme replacement.
+> **Irritable bowel syndrome** — **a positive diagnosis made on symptom criteria in the absence of red flags**, not a label applied after exhaustive negative testing. Abdominal pain related to defecation, with a change in stool frequency or form.
+> **Drugs** — metformin, magnesium, PPIs, colchicine, antibiotics, SSRIs, and laxative misuse.
+> **Endocrine** — hyperthyroidism, diabetes, Addison disease, and rarely neuroendocrine tumours (carcinoid, VIPoma, gastrinoma).
+> **Overflow from impaction** — see 0.2.
+
+> [!warning] Features that argue against a functional diagnosis
+> **Nocturnal diarrhoea waking the patient · weight loss · blood · anaemia · fever · onset over 50 · a short history · and abnormal inflammatory markers.** IBS does not wake people at night.
+
+**Ix:** **FBC, iron studies, UEC, LFT, CRP, TFTs** (*why:* the baseline that identifies anaemia, inflammation, thyroid disease and malabsorption; *what:* anaemia, raised inflammatory markers, abnormal TSH). **Coeliac serology with total IgA** (*why:* common, treatable, and the IgA level is needed because selective IgA deficiency causes false negative serology; *what:* raised tissue transglutaminase IgA). **Faecal calprotectin** (*why:* distinguishes inflammatory from functional bowel disease and is the test that spares many young patients a colonoscopy; *what:* raised in IBD, normal in IBS). Stool culture, parasites and *C. difficile* (*why:* persistent infection, especially *Giardia*; *what:* pathogen). **Colonoscopy with biopsies from macroscopically normal mucosa** (*why:* diagnoses IBD, cancer, and **microscopic colitis, which is invisible without biopsy**; *what:* inflammation, tumour, microscopic changes). Faecal elastase (*why:* screens for pancreatic exocrine insufficiency non-invasively; *what:* low elastase). SeHCAT scan or a therapeutic trial of a bile acid sequestrant (*why:* diagnoses bile acid diarrhoea, which is common after cholecystectomy and highly treatable; *what:* retention, or symptomatic response). Hydrogen breath testing (*why:* lactose intolerance and small intestinal bacterial overgrowth; *what:* rise in breath hydrogen). Gut hormone profile and chromogranin only where the picture genuinely suggests a neuroendocrine tumour (*why:* rare, and untargeted testing produces false positives; *what:* elevated hormones).
+
+#### 0.40.1.1 Mx – Immediate
+Rarely required.
+
+#### 0.40.1.2 Mx – Definitive
+Cause-specific — gluten-free diet, IBD therapy, enzyme replacement, bile acid sequestrant, drug cessation.
+
+#### 0.40.1.3 Mx – Chronic/long-term
+Dietitian involvement, particularly for coeliac disease and IBS. **In IBS, a positive explanation of the diagnosis and the gut-brain mechanism is therapeutic**; a low FODMAP diet has evidence but should be dietitian-supervised and time-limited. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)` for the functional overlap.
+
+
 ## 0.41 Abdominal Pain — Regional Anatomy and DDx
 
 ### 0.41.1 Anatomical regions and their contents
