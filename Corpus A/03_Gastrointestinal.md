@@ -2038,6 +2038,41 @@ Cause-specific. Treat the cause of retention — cross-refer `TODO:link — H2 L
 ### 0.8.3 Mx – Chronic/long-term
 Partner notification and contact tracing for PID. Follow-up for recurrent retention or infection.
 
+### 0.41.16 Nausea and Vomiting — Mechanism — from unverified layer
+`SRC:C2_Nausea_and_Vomiting §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Nausea** is the unpleasant sensation of impending vomiting. **Retching** is the rhythmic respiratory and abdominal muscle activity without expulsion. **Vomiting** is the forceful expulsion of gastric contents.
+
+> [!warning] Distinguish these from what they are not
+> **Regurgitation** — effortless return of undigested food or fluid to the mouth without nausea or abdominal contraction. Suggests **oesophageal pathology** — achalasia, stricture, pharyngeal pouch, or severe reflux — not a vomiting disorder.
+> **Rumination** — repeated effortless regurgitation of recently eaten food, which is then re-chewed and re-swallowed, occurring within minutes of eating and without nausea. A behavioural disorder, frequently misdiagnosed as gastroparesis or reflux for years.
+> Getting this distinction right at the start avoids an entirely wrong workup.
+
+**A/P:** Vomiting is coordinated by a central pattern generator in the medulla, which receives four distinct afferent inputs. **Each input uses different receptors, and that is why antiemetic choice should follow the cause rather than habit.**
+
+> [!tip] The four inputs and their receptors — the key to antiemetic selection
+> **1. Chemoreceptor trigger zone** (area postrema, **outside the blood-brain barrier**, so it samples the blood directly). Receptors: **D2, 5-HT3, NK1**. Triggered by drugs, toxins, and metabolic derangement — **opioids, chemotherapy, digoxin, uraemia, hypercalcaemia, ketoacidosis.**
+> **2. Vestibular system.** Receptors: **H1, muscarinic**. Triggered by motion, labyrinthitis, vestibular neuronitis, Ménière's.
+> **3. Vagal and splanchnic afferents from the gut.** Receptors: **5-HT3**. Triggered by distension, irritation, inflammation, and by chemotherapy causing enterochromaffin cells to release serotonin.
+> **4. Higher cortical centres.** Triggered by sight, smell, memory, anxiety, and **raised intracranial pressure.**
+
+> [!info] Why this matters practically
+> An opioid-induced nausea driven through the **D2** receptors of the chemoreceptor trigger zone will not respond well to an antihistamine, and motion sickness driven through **H1 and muscarinic** vestibular pathways will not respond well to a 5-HT3 antagonist. **Matching the drug to the mechanism is the single most useful thing in this whole topic** — see 0.5.
+
+**S/Smx:** Timing relative to meals, content of the vomitus, presence of bile or blood, relief of pain by vomiting, associated abdominal pain, headache, vertigo, and systemic features.
+
+**Ix:** Directed by the differential in 0.2.
+
+### 0.1.1 Mx – Immediate
+Assess volume status and treat dehydration. Antiemetic matched to mechanism.
+
+### 0.1.2 Mx – Definitive
+Treat the cause.
+
+### 0.1.3 Mx – Chronic/long-term
+Address recurrent or chronic causes as in 0.4.
+
+
 
 
 
