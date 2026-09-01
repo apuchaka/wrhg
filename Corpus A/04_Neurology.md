@@ -1388,6 +1388,64 @@ Start in a specific area of the brain, typically the temporal lobe; further divi
 
 > [!info] Mx (focal seizures): lamotrigine or levetiracetam first-line; carbamazepine, oxcarbazepine, or zonisamide second-line — these drug class choices are internationally standard, including in Australia; no valproate-specific sex caveat applies here since valproate isn't the first-line choice for focal seizures in the first place.
 
+### Seizures — Classification and the First Seizure — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A seizure is a transient occurrence of signs or symptoms due to abnormal excessive or synchronous neuronal activity. **Epilepsy** is the disease of recurrent unprovoked seizures.
+
+> [!info] Classification — and the terminology has changed
+> **Focal onset** — arising in one hemisphere. Subclassified by **awareness** (focal aware, focal with impaired awareness) and by **motor or non-motor** onset. May evolve to a **focal to bilateral tonic-clonic** seizure.
+> **Generalised onset** — tonic-clonic, absence, myoclonic, atonic, tonic.
+> **Unknown onset.**
+> **The older terms "simple partial", "complex partial" and "secondarily generalised" are obsolete** and should not be used — the current ILAE terminology is above. `UNVERIFIED — the full classification.`
+
+> [!tip] Is it epilepsy, or is it something else?
+> **Epilepsy is diagnosed when there are:** two unprovoked seizures more than 24 hours apart; **or** one unprovoked seizure with a high recurrence risk (an epileptogenic lesion on imaging, or clear epileptiform EEG abnormality); **or** an epilepsy syndrome.
+> **A provoked (acute symptomatic) seizure is not epilepsy** and does not usually require long-term antiseizure medication — the treatment is the provoking cause.
+
+> [!warning] Provoking causes to look for in every first seizure
+> **· Hypoglycaemia · hyponatraemia · hypocalcaemia · hypomagnesaemia · uraemia · hepatic failure**
+> **· Alcohol withdrawal** — typically 6–48 hours after cessation, and a common presentation.
+> **· Benzodiazepine withdrawal.**
+> **· Drugs that lower the seizure threshold — tramadol, bupropion, tricyclics, antipsychotics (particularly clozapine), theophylline, isoniazid, some antibiotics, and stimulants including cocaine and amphetamines.**
+> **· Sleep deprivation · infection, including meningitis and encephalitis · fever in a young child · eclampsia · head injury · stroke · tumour.**
+
+> [!danger] Get an ECG in every first seizure
+> **Cardiac syncope — particularly from long QT syndrome, Brugada syndrome, or a tachyarrhythmia — causes cerebral hypoperfusion that can produce convulsive movements**, and is regularly misdiagnosed as epilepsy.
+> The consequence is serious in both directions: the patient is started on an antiseizure medication that does nothing, and the arrhythmia that will kill them goes untreated.
+> **A 12-lead ECG in every first seizure is cheap, quick, and occasionally life-saving.** Ask specifically about a family history of sudden death, drowning, or unexplained single-vehicle accidents. Cross-refer [[04_Neurology]] Syncope–0.2.
+
+> [!tip] Seizure versus syncope — the discriminators worth knowing
+> The full comparison is in [[04_Neurology]] Syncope. The two features that genuinely separate them are **a lateral tongue bite** and **prolonged postictal confusion.**
+> **Brief myoclonic jerking occurs in ordinary syncope (convulsive syncope) and does not make it a seizure**, and **incontinence occurs in both and discriminates poorly.**
+> **Todd paresis** — transient focal weakness after a seizure, resolving over minutes to hours — is a stroke mimic and a clue that a seizure occurred. Cross-refer [[04_Neurology]] Stroke Mimics and Stroke Chameleons.
+
+> [!danger] The safety and driving conversation is part of the first-seizure consultation
+> **This is examinable and it is a genuine duty.**
+> **Driving** — the patient must not drive, must notify the licensing authority, and there is a defined non-driving period which **differs for provoked and unprovoked seizures and for private versus commercial licences.** **Advise them, document that you advised them, and note that South Australia has particular medical reporting provisions.** Cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions). `UNVERIFIED — all non-driving periods, from Austroads Assessing Fitness to Drive.`
+> **Other safety advice, which is routinely omitted:**
+> **· Showers rather than baths** — drowning in a bath is a leading cause of seizure-related death.
+> **· Do not swim alone.**
+> **· Avoid heights, ladders, and operating dangerous machinery.**
+> **· Care with cooking** — use the back hotplates, avoid carrying hot liquids.
+> **· Do not lock the bathroom door.**
+> **· Advice for anyone who witnesses a seizure** — protect the head, do not restrain, do not put anything in the mouth, time it, recovery position afterwards, and call an ambulance if it exceeds five minutes or repeats.
+> **· Consider occupational implications** and discuss them.
+
+**S/Smx:** A careful account of the event from the patient **and a witness** — prodrome, aura, onset, motor features, duration, colour, tongue biting, incontinence, injury, and the nature and duration of recovery. Then a search for provoking factors and for focal features suggesting a structural lesion.
+
+**Ix:** **Bedside glucose** (*why:* hypoglycaemia both causes seizures and is instantly reversible; *what:* low glucose). **UEC with sodium, calcium and magnesium** (*why:* electrolyte-provoked seizures require correction rather than antiseizure medication; *what:* hyponatraemia, hypocalcaemia, hypomagnesaemia). **ECG** (*why:* the cardiac mimic, per the danger box; *what:* long QT, Brugada pattern, arrhythmia). FBC, LFT, CRP (*why:* infection, hepatic and alcohol-related causes; *what:* derangement). Toxicology and alcohol history (*why:* withdrawal and drug-provoked seizures; *what:* substances, timing of last drink). **CT brain acutely** (*why:* excludes haemorrhage, large mass and trauma in the emergency setting; *what:* bleed, mass, midline shift). **MRI brain — the definitive structural investigation** (*why:* far more sensitive than CT for the epileptogenic lesions that matter — **mesial temporal sclerosis, focal cortical dysplasia, cavernoma, low-grade tumour** — which CT reliably misses; *what:* structural epileptogenic lesion). **EEG** (*why:* supports the diagnosis, classifies the seizure type, and identifies a high recurrence risk that may justify treatment after a single seizure; *what:* epileptiform discharges — noting **a normal EEG does not exclude epilepsy** and an abnormal one does not by itself diagnose it, and **yield is higher if performed within the first day or two, and with sleep deprivation**). Lumbar puncture where infection is suspected (*why:* meningitis and encephalitis; *what:* CSF profile — cross-refer [[04_Neurology]] CNS Infections). Pregnancy test (*why:* eclampsia is treated with magnesium rather than a benzodiazepine, and it changes the whole pathway; *what:* positive).
+
+#### Mx – Immediate — D6 §0.1.1
+Protect from injury, recovery position, oxygen, glucose. Treat the provoking cause. Terminate a prolonged seizure per 0.2.
+
+#### Mx – Definitive — D6 §0.1.2
+Treat provoked seizures by treating the provocation. **Antiseizure medication after a single unprovoked seizure is a considered decision**, weighing recurrence risk against the burden of treatment, and is usually made with neurology input.
+
+#### Mx – Chronic/long-term — D6 §0.1.3
+The safety and driving conversation, documented. Neurology follow-up. Epilepsy nurse and support organisations.
+
+
 ### Added from unverified layer — current terminology, and two counselling points
 `SRC:D6_Seizures_and_Movement_Disorders §0.1` `SRC:D6 §0.3` `UNVERIFIED — model knowledge, not source-checked.`
 
