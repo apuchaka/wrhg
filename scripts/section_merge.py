@@ -57,7 +57,10 @@ def run(cfg):
     before = dig(src); nlines_before = len(lines)
     if cfg.get('supersede'):
         s = next(i for i, l in enumerate(lines) if l.startswith(cfg['supersede']))
-        e = next(i for i, l in enumerate(lines) if i > s and re.match(r'^#{1,3} ', l))
+        # A fragment can be the LAST block in the file, with no heading after it.
+        # next() with no default raises StopIteration and the merge dies mid-run.
+        e = next((i for i, l in enumerate(lines) if i > s and re.match(r'^#{1,3} ', l)),
+                 len(lines))
         # THE END BOUNDARY IS NOT ONLY THE NEXT HEADING. A merged block written as a
         # callout (`> [!info] Added from unverified layer — …`) carries no heading at all,
         # so a second block sitting between this fragment and the next heading falls
