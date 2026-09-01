@@ -2826,3 +2826,42 @@ Different inheritance patterns; can affect Schwann cells and myelin (CMT1) or ax
 **Mx:** supportive — physical and occupational therapy (gait aids, ankle-foot orthoses for foot drop); podiatry for foot deformities; genetic counselling for at-risk family members given the hereditary nature.
 
 > [!note] Other random notes from this source: local anaesthetic toxicity — Mx with 20% IV lipid emulsion. Brain pathology causing nausea/vomiting — Mx with cyclizine.
+
+### Mononeuropathies and Entrapment — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Carpal tunnel syndrome — median nerve at the wrist
+> **Nocturnal paraesthesia in the thumb, index, middle and radial half of the ring finger**, relieved by shaking the hand. Thenar wasting and weakness of thumb abduction in advanced cases.
+> **The discriminating anatomical point: sensation over the THENAR EMINENCE is PRESERVED**, because the palmar cutaneous branch of the median nerve arises proximal to the carpal tunnel and passes over it. **Sensory loss over the thenar eminence means a more proximal median lesion or a C6 radiculopathy, not carpal tunnel syndrome.**
+> Causes: idiopathic (most), **pregnancy, hypothyroidism, diabetes, rheumatoid arthritis, acromegaly, obesity, amyloidosis**, and repetitive use.
+> Managed with **night splints**, treatment of the underlying cause, corticosteroid injection, and surgical decompression.
+
+> [!tip] The other common entrapments
+> **Ulnar nerve at the elbow (cubital tunnel)** — paraesthesia in the little and medial ring finger, wasting of the first dorsal interosseous, **claw hand** (worse in distal lesions — the "ulnar paradox"), and **Froment sign** (thumb IP flexion when gripping paper, compensating for weak adductor pollicis).
+> **Radial nerve in the spiral groove** — **"Saturday night palsy"**, from compression while sleeping with the arm over a chair, often with alcohol. **Wrist drop with weak finger extension, and sensory loss over the dorsal first web space.** Triceps is spared (its branches leave proximally), which localises the lesion.
+> **Common peroneal nerve at the fibular head** — **foot drop.** Compression from crossed legs, plaster casts, prolonged squatting, or **recent significant weight loss** (loss of the fat pad).
+> **Lateral femoral cutaneous nerve — meralgia paraesthetica** — **purely sensory** burning and numbness over the anterolateral thigh, from compression at the inguinal ligament. Associated with obesity, tight belts and waistbands, pregnancy, and tool belts. **No weakness and no reflex change** — that combination is the diagnosis.
+
+> [!danger] Foot drop — peroneal palsy versus L5 radiculopathy
+> Both cause weak dorsiflexion. The discriminator:
+> **· Common peroneal palsy** — **ankle INVERSION is preserved** (tibialis posterior is supplied by the tibial nerve), and there is **no back pain and no hip abduction weakness.**
+> **· L5 radiculopathy** — **ankle inversion IS weak** (tibialis posterior is an L5 muscle), **hip abduction is weak**, and there is usually back pain radiating down the leg.
+> **Ankle jerk (S1) is preserved in both**, so it does not help.
+> **Test inversion.** It is a single manoeuvre that separates a peripheral compression from a spinal problem.
+
+> [!danger] Mononeuritis multiplex is a red flag
+> **Sequential, asymmetric involvement of multiple individual named nerves** — for example a wrist drop, then a foot drop weeks later.
+> **The commonest causes are vasculitis and diabetes**, and the vasculitic causes — polyarteritis nodosa, granulomatosis with polyangiitis, eosinophilic granulomatosis with polyangiitis, rheumatoid vasculitis, cryoglobulinaemia — are **progressive, cause irreversible nerve infarction, and are treatable with immunosuppression.**
+> **This pattern warrants urgent investigation, not observation.** Also consider sarcoidosis, amyloidosis, HIV, hepatitis C, leprosy and malignancy.
+
+**Ix:** **Nerve conduction studies and EMG** (*why:* confirms the site of the lesion and its severity, and distinguishes entrapment from radiculopathy; *what:* focal slowing or conduction block at the entrapment site). Ultrasound or MRI of the nerve (*why:* visualises the nerve, identifies structural causes such as ganglia and masses, and is increasingly used; *what:* nerve swelling, compressive lesion). **TFTs, glucose, and pregnancy test in carpal tunnel** (*why:* identifies the treatable underlying condition, and carpal tunnel in pregnancy usually resolves after delivery; *what:* hypothyroidism, diabetes, pregnancy). **Urgent vasculitis screen in mononeuritis multiplex — ESR, CRP, ANCA, ANA, complement, cryoglobulins, hepatitis serology** (*why:* treatable progressive disease; *what:* the causative process). **Nerve or muscle biopsy** where vasculitis is suspected (*why:* provides tissue diagnosis before committing to immunosuppression; *what:* necrotising vasculitis).
+
+#### Mx – Immediate — D4 §0.4.1
+Remove the compressive cause. **Urgent workup and specialist referral for mononeuritis multiplex.**
+
+#### Mx – Definitive — D4 §0.4.2
+Splinting, injection or surgical decompression for entrapments. Immunosuppression for vasculitic neuropathy.
+
+#### Mx – Chronic/long-term — D4 §0.4.3
+Ergonomic modification, weight management, and **an ankle-foot orthosis for persistent foot drop**, which restores gait and prevents falls.
+
