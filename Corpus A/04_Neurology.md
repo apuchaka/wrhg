@@ -2194,6 +2194,35 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 
 ---
 
+### Subacute and Chronic Focal Deficit — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] The time course narrows the differential more than the deficit does
+> **Seconds to minutes** — vascular: stroke, haemorrhage, seizure with Todd paresis.
+> **Hours to days** — inflammatory, infective or demyelinating: encephalitis, abscess, multiple sclerosis, transverse myelitis, venous sinus thrombosis.
+> **Weeks to months, progressive** — neoplastic, degenerative, or a chronic subdural haematoma.
+> **Months to years, progressive** — degenerative disease, slow-growing tumour, hereditary conditions.
+> **Relapsing and remitting, with deficits separated in time AND space** — multiple sclerosis.
+
+> [!warning] The ones not to miss in a slowly progressive deficit
+> **Chronic subdural haematoma** — an older patient, often anticoagulated, with a fluctuating or progressive deficit, headache, confusion or gait disturbance weeks after trauma that may have been trivial or forgotten. **It is treatable, and it is repeatedly attributed to dementia or "getting old".**
+> **Brain tumour** — primary or metastatic. Progressive deficit, seizures, headache with raised pressure features, or personality change. **In an adult with a first seizure or a new progressive deficit, imaging is required.**
+> **Brain abscess** — fever may be absent; consider with immunosuppression, a cardiac shunt, endocarditis, or a contiguous source (sinusitis, dental, mastoiditis).
+> **Multiple sclerosis** — a young adult with deficits separated in time and space; optic neuritis, internuclear ophthalmoplegia, transverse myelitis, sensory disturbance, and **Uhthoff phenomenon** (transient worsening with heat — cross-refer [[11_09b_Ortho_-_Trauma]] Heat illness).
+> **Normal pressure hydrocephalus** — cross-refer [[04_Neurology]] Normal Pressure Hydrocephalus.
+
+**Ix:** **MRI brain with contrast** (*why:* the investigation of choice for subacute and chronic deficits — far superior to CT for tumour, demyelination, abscess and small lesions; *what:* mass, enhancement, demyelinating plaques, subdural collection). **CT brain** where MRI is unavailable or urgent exclusion is needed (*why:* fast and detects subdural, large tumours and haemorrhage; *what:* collection, mass, midline shift). Lumbar puncture with **oligoclonal bands** (*why:* supports multiple sclerosis and identifies infection and malignant meningitis; *what:* bands, cells, cytology). Visual evoked potentials (*why:* demonstrates a subclinical second lesion in suspected MS; *what:* delayed latency). Whole-body imaging where metastatic disease is suspected (*why:* finds the primary; *what:* primary tumour). Autoimmune and infective screening as directed (*why:* treatable causes; *what:* positive results).
+
+#### Mx – Immediate — D3 §0.7.1
+Urgent imaging where there is raised intracranial pressure, rapid progression or reduced consciousness.
+
+#### Mx – Definitive — D3 §0.7.2
+Cause-specific, with neurology, neurosurgery or oncology involvement.
+
+#### Mx – Chronic/long-term — D3 §0.7.3
+Rehabilitation, disease-modifying therapy in MS, driving and occupational advice, and advance care planning in progressive disease.
+
+
 ## Neuroinflammatory Disorders
 
 ### Multiple Sclerosis (MS)
