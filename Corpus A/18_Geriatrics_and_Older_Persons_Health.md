@@ -218,7 +218,7 @@ Investigation for secondary causes, and commencement of appropriate pharmacother
 > It was traditional advice and it is wrong — **massage over a bony prominence causes further tissue damage in already compromised tissue.** Offload, do not rub.
 
 > [!tip] Prevention — what actually works
-> **· Formal risk assessment on admission and with any change in condition** (Braden, Waterlow or equivalent).
+> **· Formal risk assessment on admission and with any change in condition** (Braden, Waterlow or equivalent). `UNVERIFIED — which scale is used in your health network, and its action thresholds.`
 > **· Repositioning at appropriate intervals**, and — more importantly — **mobilisation.**
 > **· Pressure-redistributing mattresses and cushions** for at-risk patients.
 > **· Skin inspection at least daily, including heels, sacrum and under every device.**
