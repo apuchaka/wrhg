@@ -1510,15 +1510,52 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 
 ---
 
-### 0.38.1 Added from unverified layer — the pulmonary complications of cirrhosis
-`SRC:C3_Jaundice_and_Liver_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+### 0.38.1 Complications of Cirrhosis — from unverified layer
+`SRC:C3_Jaundice_and_Liver_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.38.1 fragment.*
 
-Two complications of portal hypertension that are respiratory rather than abdominal, and are missed because they are not looked for:
+> [!danger] Variceal haemorrhage
+> Portal hypertension diverts blood through portosystemic collaterals, which at the gastro-oesophageal junction become thin-walled varices that rupture.
+> **Management:** resuscitate with a **restrictive transfusion strategy** — over-transfusion raises portal pressure and worsens bleeding. **Vasoactive therapy (terlipressin or octreotide) started immediately**, before endoscopy. **Prophylactic antibiotics for every cirrhotic patient with a gastrointestinal bleed — this reduces mortality and is one of the highest-yield interventions in the whole condition, and it is frequently omitted.** Urgent endoscopy with **band ligation**. Balloon tamponade as a bridge in exsanguinating haemorrhage. **TIPS** for uncontrolled or early rebleeding.
+> **Prophylaxis:** non-selective beta-blockade or band ligation for primary and secondary prevention. `UNVERIFIED — all agents, doses, transfusion thresholds and timing targets.`
 
-- **Hepatopulmonary syndrome** — intrapulmonary vascular dilatation causing hypoxaemia. The characteristic sign is **platypnoea-orthodeoxia: breathlessness and desaturation that are *worse sitting or standing up* and improve on lying flat** — the opposite of orthopnoea, and the reason it is recognisable at the bedside. The dilated vessels are basal, so upright posture directs more blood through them.
-- **Portopulmonary hypertension** — pulmonary arterial hypertension arising in the setting of portal hypertension. It matters because it alters both prognosis and transplant candidacy.
+> [!tip] Ascites and the SAAG
+> The **serum-ascites albumin gradient** distinguishes the cause. **A high gradient indicates portal hypertension** — cirrhosis, heart failure, Budd-Chiari. **A low gradient indicates a non-portal cause** — peritoneal malignancy, tuberculous peritonitis, pancreatic ascites, nephrotic syndrome. `UNVERIFIED — the gradient value separating high from low.`
+> Management: **sodium restriction, spironolactone with furosemide**, and **large-volume paracentesis with albumin replacement** for tense ascites. Fluid restriction is only needed for significant hyponatraemia.
 
-**Ix:** pulse oximetry **erect and supine** in any cirrhotic patient with unexplained breathlessness (*why:* it is the bedside test for platypnoea-orthodeoxia and costs nothing; *what:* a fall in saturation on sitting or standing). Echocardiography (*why:* estimates pulmonary artery pressure and, with agitated saline, demonstrates intrapulmonary shunting; *what:* raised pulmonary pressures, late-appearing bubbles). `UNVERIFIED — the desaturation threshold that defines orthodeoxia, and the pulmonary pressure thresholds for portopulmonary hypertension; specialist respiratory or hepatology guidance.`
+> [!danger] Spontaneous bacterial peritonitis
+> **Every cirrhotic patient with ascites who is admitted should have a diagnostic ascitic tap**, regardless of symptoms. SBP frequently presents with **no abdominal pain and no fever** — sometimes only with worsening encephalopathy, renal impairment or unexplained deterioration.
+> Diagnosis is by **ascitic neutrophil count**, not by culture, which is frequently negative. `UNVERIFIED — the diagnostic neutrophil threshold.` Treat empirically on the count. **Albumin infusion alongside antibiotics reduces the risk of hepatorenal syndrome and improves survival.**
+> **Secondary prophylaxis is indicated after an episode.**
+> Missing SBP is a recurring and preventable cause of death in this population, and the tap is a simple bedside procedure.
+
+> [!tip] Hepatic encephalopathy
+> Graded from subtle altered sleep-wake pattern and impaired concentration through to coma. **Asterixis** is characteristic.
+> **The management is finding the precipitant**, which is usually present: **infection (including SBP), gastrointestinal bleeding, constipation, dehydration and over-diuresis, electrolyte disturbance particularly hyponatraemia and hypokalaemia, sedatives and opioids, renal impairment, and TIPS.**
+> Treatment: **lactulose**, titrated to bowel actions, and **rifaximin** for recurrent episodes. `UNVERIFIED — doses and targets.`
+> **A serum ammonia level is not required to make the diagnosis and a normal level does not exclude it** — this is a clinical diagnosis and ammonia is over-ordered.
+> **Do not restrict protein.** That advice is obsolete and worsens the sarcopenia that itself contributes to encephalopathy.
+
+> [!warning] Hepatorenal syndrome
+> Functional renal failure from intense renal vasoconstriction in advanced cirrhosis, in the absence of intrinsic renal disease. **A diagnosis of exclusion** — hypovolaemia, sepsis, nephrotoxins and obstruction must all be excluded first, and **an albumin challenge is used to exclude hypovolaemia** before the diagnosis is made.
+> Treated with **terlipressin and albumin**; definitive treatment is liver transplantation. Prognosis without transplant is poor.
+
+> [!tip] The others
+> **Hepatocellular carcinoma** — surveillance as per 0.5.
+> **Hyponatraemia** — dilutional, and a poor prognostic marker; correct slowly to avoid osmotic demyelination.
+> **Portopulmonary hypertension and hepatopulmonary syndrome** — the latter causing **platypnoea-orthodeoxia**, breathlessness worse sitting up. Cross-refer §0.38.1 the pulmonary complications of cirrhosis.
+> **Coagulopathy** — rebalanced, as above.
+
+**Ix:** **Diagnostic ascitic tap with cell count, differential, albumin, protein, and culture in blood culture bottles at the bedside** (*why:* diagnoses SBP and establishes the SAAG, and inoculating culture bottles at the bedside substantially improves yield; *what:* neutrophil count, SAAG, organism). Serum albumin taken the same day (*why:* required to calculate the SAAG; *what:* serum albumin). UEC and daily weights (*why:* monitors diuretic response and detects over-diuresis precipitating renal impairment and encephalopathy; *what:* creatinine, sodium, weight trend). Urgent endoscopy in bleeding (*why:* diagnostic and therapeutic; *what:* varices, banding). Doppler ultrasound (*why:* portal vein patency and thrombosis, which is common in cirrhosis; *what:* portal vein thrombosis, flow direction). Septic screen in any deterioration (*why:* infection is the commonest precipitant of every decompensation; *what:* source).
+
+#### 0.38.1.1 Mx – Immediate
+As per each complication above. **The universal first step in any decompensated cirrhotic is to look for infection and for a gastrointestinal bleed.**
+
+#### 0.38.1.2 Mx – Definitive
+Complication-specific, with hepatology involvement and transplant assessment.
+
+#### 0.38.1.3 Mx – Chronic/long-term
+Secondary prophylaxis for SBP and varices. Nutritional support. Advance care planning — **decompensated cirrhosis has a prognosis comparable to many cancers**, and this conversation is systematically avoided.
 
 ### 0.38.2 Acute Liver Failure — from unverified layer
 `SRC:C3_Jaundice_and_Liver_Disease §0.4` `UNVERIFIED — model knowledge, not source-checked.`
