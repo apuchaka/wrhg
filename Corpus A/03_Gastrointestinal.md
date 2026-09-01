@@ -1508,6 +1508,43 @@ Endoscopic haemostasis, embolisation, or surgery, as per the source.
 
 ---
 
+### 0.34.1 Lower Gastrointestinal Bleeding — from unverified layer
+`SRC:C4_Gastrointestinal_Bleeding §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**R/Causes:** **Diverticular bleeding** — the commonest cause of significant lower GI haemorrhage; characteristically **painless and sometimes massive, but self-limiting in the majority.** Also: **angiodysplasia**, haemorrhoids and anal fissure, colitis (**ischaemic, inflammatory bowel disease, infective**), colorectal carcinoma and polyps, **post-polypectomy bleeding**, radiation proctitis, and **Meckel's diverticulum** in children and young adults.
+
+> [!tip] The reassuring statistic, and the caveat
+> **The majority of lower GI bleeds stop spontaneously.** But the ones that do not are the older, comorbid, anticoagulated patients who tolerate it least well, so the initial reassurance should not translate into a relaxed assessment.
+
+> [!danger] Exclude an upper source first in an unstable patient
+> As in 0.1 — brisk upper bleeding presents as haematochezia. **In a haemodynamically unstable patient with rectal bleeding, do upper endoscopy first.**
+
+> [!warning] Haemorrhoids are a diagnosis of exclusion over 40
+> Bright red blood on the paper or coating the stool, with a visible internal haemorrhoid, is a satisfying explanation — and **colorectal cancer coexists frequently enough that attributing rectal bleeding to haemorrhoids without further investigation in an older adult is a well-documented route to delayed cancer diagnosis.**
+> **Rectal bleeding in an adult over about 40, or with any change in bowel habit, weight loss, iron deficiency or family history, requires colonic investigation regardless of visible haemorrhoids.** `UNVERIFIED — the age and criteria triggering colonoscopy in current Australian guidance.`
+
+> [!tip] Features that point to the cause
+> **Painless, large-volume, dark or fresh red** — diverticular or angiodysplasia.
+> **Bleeding with abdominal pain and diarrhoea** — colitis. **Ischaemic colitis** classically causes pain followed by bloody diarrhoea in an older vasculopath, often at the splenic flexure watershed.
+> **Blood mixed through the stool with mucus and tenesmus** — rectosigmoid pathology, IBD or tumour.
+> **Blood on the paper only, with pain on defecation** — anal fissure. **Painless bright bleeding at the end of defecation** — haemorrhoids.
+> **Massive painless bleeding in a child or young adult** — **Meckel's diverticulum** with ectopic gastric mucosa ulcerating adjacent ileum.
+
+> [!warning] In children
+> The differential is different: **intussusception** (redcurrant jelly stool, colicky pain, drawing up the legs), **Meckel's diverticulum**, **Henoch-Schönlein purpura** (with a purpuric rash on the buttocks and legs, arthralgia, and abdominal pain), **infective colitis**, **inflammatory bowel disease**, **juvenile polyps**, and **anal fissure from constipation**, which is the commonest cause of small-volume bright bleeding. Cross-refer `TODO:link — M5 Paediatric GI, GU & limb (unbuilt)`.
+
+**Ix:** **Upper endoscopy first in the unstable patient** (*why:* excludes the brisk upper bleed masquerading as a lower one; *what:* upper source). **CT angiography** in active significant bleeding (*why:* localises the bleeding point when the patient is bleeding fast enough, and directs interventional radiological embolisation — it requires active bleeding at the time of the scan; *what:* contrast extravasation). **Colonoscopy after bowel preparation** (*why:* the definitive investigation and often therapeutic, though it requires a prepared bowel and is difficult during torrential bleeding; *what:* diverticular stigmata, angiodysplasia, tumour, colitis). **Red cell scintigraphy** (*why:* detects slower and intermittent bleeding than CT angiography and can be repeated over hours, but localises poorly; *what:* site of tracer accumulation). **Meckel's scan (technetium pertechnetate)** in a child or young adult (*why:* identifies ectopic gastric mucosa, and no other test will; *what:* focal uptake). Stool culture and *C. difficile* toxin where diarrhoea (*why:* infective colitis; *what:* pathogen). **Rigid or flexible sigmoidoscopy and proper anorectal examination** (*why:* identifies the anorectal source that is missed if nobody looks, and it is quick; *what:* haemorrhoids, fissure, tumour, proctitis).
+
+#### 0.34.1.1 Mx – Immediate
+Resuscitate. Reverse anticoagulation where significant. Exclude an upper source in the unstable. Involve gastroenterology, interventional radiology and surgery early in massive bleeding.
+
+#### 0.34.1.2 Mx – Definitive
+Endoscopic haemostasis, angiographic embolisation, or surgical resection. **Surgery for lower GI bleeding is far better if the site has been localised beforehand** — a blind colectomy for an unlocalised bleed has poor outcomes, which is why localisation efforts are worth the time in a stable patient.
+
+#### 0.34.1.3 Mx – Chronic/long-term
+**Complete colonic investigation in anyone not already fully investigated.** Iron replacement. Review of anticoagulation and antiplatelets. Management of the underlying condition.
+
+
 ## 0.35 Irritable Bowel Syndrome (IBS)
 
 **D:** chronic condition characterised by abdominal pain associated with bowel dysfunction; no structural abnormality; multifactorial.
