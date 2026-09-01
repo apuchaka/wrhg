@@ -395,6 +395,38 @@ Cause-specific.
 - **Definitive:** **there is no approved drug treatment for MCI**, and cholinesterase inhibitors are **not** indicated at this stage — a common error, given they are used in Alzheimer's disease below. What has evidence is: **regular physical exercise** (any level better than none), **treating cardiovascular risk factors** — hypertension, diabetes, dyslipidaemia — as modifiable dementia risk factors, cognitive and social engagement, addressing hearing and vision impairment, and treating depression where present.
 - **Chronic/long-term:** **planned review over time** rather than a single assessment, since the trajectory is the diagnostic information and a one-off score cannot distinguish stable MCI from early dementia. Refer to a geriatrician, memory clinic or neurologist where the presentation is atypical, progression is rapid, or onset is young. Use the period of preserved capacity to raise **advance care planning and enduring power of attorney** while the person can genuinely participate (see [[Clinical-Process-EBM-Consent-Capacity]] Capacity assessment — the general framework) — a conversation that is far easier now than after progression, and a specific reason not to defer the discussion simply because the diagnosis is "only" MCI.
 
+### Mild Cognitive Impairment and the "Worried About My Memory" Consultation — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Mild cognitive impairment** is objective cognitive decline beyond that expected for age, **without significant impairment of independent function** — the functional criterion is what separates it from dementia. **Subjective cognitive decline** is a perceived decline with normal objective testing.
+
+> [!tip] Structuring the consultation
+> **· What exactly is the problem?** "Memory" covers word-finding, misplacing objects, disorientation, losing the thread, and getting lost — each points differently.
+> **· Onset and course** — sudden, stepwise, gradual, fluctuating.
+> **· Function** — this is the crux. Can they manage money, medications, appointments, cooking, shopping, driving? **Instrumental activities decline before basic ones.**
+> **· Collateral history** — essential, and ideally obtained separately from the patient with their consent.
+> **· Mood, sleep, alcohol, medications, hearing and vision.**
+> **· Safety** — driving, cooking, wandering, firearms, financial vulnerability and scams, medication errors.
+
+> [!warning] Do not diagnose dementia in a single consultation during an acute illness
+> Cognitive testing during or shortly after an acute admission, an untreated depression, or a period of poor sleep will overestimate impairment. **Reassess after the acute problem has resolved**, ideally at least several weeks later and in the community.
+
+> [!tip] What to tell someone with MCI
+> A proportion progress to dementia each year, a proportion remain stable, and a proportion revert to normal. **Honest uncertainty is better than false reassurance or premature labelling.**
+> **Risk reduction is genuinely worth discussing**, because several modifiable factors have reasonable evidence: **hypertension, diabetes, smoking, physical inactivity, obesity, excess alcohol, social isolation, depression, hearing loss (correcting it matters), traumatic brain injury and air pollution.** `UNVERIFIED — the modifiable risk factor list and estimated attributable fractions are from published dementia prevention work and should be verified against the current source.`
+
+**Ix:** As per 0.3, with **repeat cognitive assessment over time** being more informative than any single test (*why:* the trajectory distinguishes stable MCI from progressive disease, and a single score is a snapshot; *what:* change over 6–12 months).
+
+#### Mx – Immediate — D2 §0.6.1
+Not required.
+
+#### Mx – Definitive — D2 §0.6.2
+Treat the reversible contributors. Monitor.
+
+#### Mx – Chronic/long-term — D2 §0.6.3
+Risk factor modification, cognitive and social engagement, hearing correction, and review. **Advance care planning is appropriate to raise at the MCI stage**, while capacity is unequivocal.
+
+
 ### Vascular Dementia
 
 **D:** chronic progressive cerebrovascular disease of the brain causing cognitive impairment. 2nd most common dementia after Alzheimer's.
