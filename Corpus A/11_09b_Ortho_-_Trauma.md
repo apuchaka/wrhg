@@ -343,6 +343,38 @@ Remove from the cold, remove wet clothing, insulate, handle gently, and monitor 
 ### Mx – Chronic/long-term — A6 §0.5.3
 **Address why it happened.** For the elderly patient found on the floor, this means a falls assessment, home safety and heating review, social isolation assessment and consideration of a personal alarm — the hypothermia is a symptom of a wider problem, and treating only the temperature guarantees a repeat. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
 
+## Frostbite and Non-Freezing Cold Injury — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+**D:** Tissue injury from cold — **frostbite** involves actual tissue freezing, while **non-freezing cold injury** (trench foot, immersion foot) results from prolonged exposure to cold wet conditions above freezing.
+
+**A/P:** *Frostbite:* Extracellular ice crystal formation → osmotic cellular dehydration → direct membrane injury; simultaneous vasoconstriction and microvascular thrombosis → ischaemia. **A second wave of injury occurs on reperfusion**, mediated by inflammatory mediators, and this reperfusion component is a substantial part of the final tissue loss.
+*Non-freezing cold injury:* Prolonged vasoconstriction and endothelial injury without freezing → neurovascular damage, characteristically with prolonged pain and sensory disturbance long after the exposure.
+
+> [!warning] The rewarming rules
+> **Rewarm in warm water** — not hot water, not dry heat, not a fire, which cause burns in anaesthetic tissue. **Do not rub or massage** — ice crystals in the tissue cause mechanical damage. **Do not rewarm if there is any risk of refreezing** — a freeze-thaw-refreeze cycle causes far worse injury than remaining frozen until definitive care. `UNVERIFIED — water temperature range and duration for rewarming require verification.`
+
+> [!danger] Rewarming is severely painful
+> Anticipate and provide substantial analgesia, often opioid. Patients are frequently under-analgesed during this because the extent of pain is not expected.
+
+> [!tip] "Frostbite in January, amputate in July"
+> The final demarcation between viable and non-viable tissue takes weeks to months to declare itself, and tissue that initially looks non-viable often recovers. **Early amputation is avoided** except for infection or compartment syndrome. This is a genuinely counterintuitive point and a reliable exam item.
+
+**S/Smx:** Initially numb, white, waxy, hard tissue in frostbite. On rewarming: pain, erythema, oedema, and blistering — **clear blisters indicate more superficial injury and a better prognosis than haemorrhagic blisters.** Non-freezing cold injury shows a pale, cold, numb limb that becomes hyperaemic, painful and swollen on rewarming, with prolonged neuropathic pain.
+
+**Ix:** Clinical assessment of depth and extent after rewarming (*why:* pre-rewarming appearance consistently underestimates and overestimates in unpredictable directions, so grading is deferred; *what:* blister character, tissue colour and capillary return). Core temperature (*why:* systemic hypothermia frequently coexists and takes priority over the local injury; *what:* core temperature). Advanced imaging such as bone scan or MR angiography in specialist centres (*why:* assesses tissue perfusion and can guide thrombolysis decisions and predict demarcation earlier; *what:* perfusion defects). CK and UEC (*why:* rhabdomyolysis with extensive injury; *what:* elevation). Tetanus status and wound assessment (*why:* infection is the main early complication; *what:* immunisation history).
+
+### Mx – Immediate — A6 §0.6.1
+Treat systemic hypothermia first. Remove wet and constrictive clothing. Rewarm in warm water once refreezing risk is excluded. Substantial analgesia. Elevate, avoid pressure and friction, and do not walk on a frostbitten foot before rewarming unless required for evacuation.
+
+### Mx – Definitive — A6 §0.6.2
+Specialist involvement. Thrombolysis or iloprost within a defined early window is used in some centres for severe frostbite to salvage tissue. `UNVERIFIED — thrombolysis and iloprost indications and time windows in severe frostbite; a burns or hyperbaric referral centre protocol, since no open Australian guideline covers it.` Debridement and amputation deferred until demarcation.
+
+### Mx – Chronic/long-term — A6 §0.6.3
+Prolonged cold sensitivity, neuropathic pain and hyperhidrosis are common. Prevention advice and, where relevant, occupational assessment.
+
+
 
 
 
