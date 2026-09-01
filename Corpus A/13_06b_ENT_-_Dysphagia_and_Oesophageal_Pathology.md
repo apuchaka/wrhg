@@ -63,7 +63,7 @@ no_baseline: 1
 
 > [!info] Barrett oesophagus
 > **Intestinal metaplasia replacing normal squamous epithelium in the distal oesophagus**, in response to chronic acid exposure — a protective adaptation that carries a risk of progression through dysplasia to adenocarcinoma.
-> Managed with **PPI and endoscopic surveillance**, with intervals determined by segment length and dysplasia grade. **Dysplastic Barrett is treated endoscopically** — radiofrequency ablation and endoscopic mucosal resection — rather than being watched. `UNVERIFIED — surveillance intervals and the criteria for who requires surveillance, which differ between guidelines.`
+> Managed with **PPI and endoscopic surveillance**, with intervals determined by segment length and dysplasia grade. **Dysplastic Barrett is treated endoscopically** — radiofrequency ablation and endoscopic mucosal resection — rather than being watched. `UNVERIFIED — the surveillance intervals, and the criteria for who requires surveillance at all. These differ between guidelines, so take them from the gastroenterology service running the programme rather than from a general reference.`
 > The absolute annual risk of progression is low, which matters when counselling an anxious patient.
 
 > [!danger] Eosinophilic oesophagitis — think of it in the young
