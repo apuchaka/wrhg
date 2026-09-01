@@ -5,7 +5,7 @@ trust: inherited
 population: adult
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 1
 ---
 
 ## Pruritus vulvae (vaginal itch)

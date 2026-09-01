@@ -3,7 +3,7 @@ block: Ear Nose and Throat
 source: quackquackmed 13.06 Dysphagia - DDx, Oesophageal carcinoma, Barrett's oesophagus, Pharyngeal pouch, Globus pharyngeus
 trust: inherited
 population: adult
-conflicts_open: 0
+conflicts_open: 1
 conflicts_r1: 0
 no_baseline: 1
 ---
