@@ -1705,6 +1705,66 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 > [!info] Verified against the Stroke Foundation Australia and New Zealand Living Clinical Guidelines for Stroke Management, Aug 2026 — as with TIA above, the short-term DAPT recommendation is the main AU-specific addition; remaining content is broadly consistent.
 > **Antiplatelet:** as for TIA above — dual antiplatelet therapy (aspirin + clopidogrel) for the first 3 weeks after a minor ischaemic stroke is now a strong recommendation in current Australian guidance, then transitioning to single antiplatelet (clopidogrel first-line; aspirin + modified-release dipyridamole if clopidogrel contraindicated) for long-term prevention. Statin: as per the UK figure (started >48h after due to haemorrhagic transformation risk) — no material AU-specific change identified. Carotid artery endarterectomy: only if carotid stenosis >50–70%, performed within 7 days — see [[01_Cardiovascular]] Carotid Artery Stenosis for the fuller AU-verified detail on this threshold and timing, not repeated here. If secondary to AF: start DOAC or warfarin 14 days after ischaemic stroke — no material AU-specific change identified.
 
+### Acute Stroke — Recognition and Hyperacute Management — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** An acute focal neurological deficit of vascular origin — **ischaemic** (the large majority) or **haemorrhagic.**
+
+**A/P:** Arterial occlusion produces a **core** of irreversibly infarcted tissue surrounded by an **ischaemic penumbra** — tissue that is electrically silent but structurally viable, kept alive by collateral flow. **The penumbra is what reperfusion saves, and it dies progressively with time.** This single concept justifies the entire time-critical pathway, and increasingly it is imaged directly (perfusion imaging) rather than assumed from the clock.
+
+> [!danger] Time is brain — and "onset time" means LAST KNOWN WELL
+> **The clock starts when the patient was last seen at their neurological baseline, not when the deficit was noticed.**
+> A patient who went to bed well and woke with a deficit — a **wake-up stroke** — has an onset time of when they went to bed, not when they woke. **Perfusion imaging can now select some of these patients for treatment despite an unknown or extended onset time**, so a wake-up stroke should still be discussed urgently with the stroke service rather than dismissed.
+> **Get the exact time from a witness, and document it.** It determines eligibility for treatment more than anything else you do.
+
+> [!danger] Check the glucose before anything else
+> **Hypoglycaemia is the commonest stroke mimic and is instantly reversible.** A bedside glucose takes seconds and has prevented many patients from being thrombolysed for something that was not a stroke.
+
+> [!tip] The hyperacute sequence
+> **1. A–E, oxygen only if hypoxic, IV access, bedside glucose.**
+> **2. Determine last known well time.**
+> **3. NIHSS** to quantify the deficit — it guides treatment decisions and provides a baseline for detecting deterioration. `UNVERIFIED — scoring.`
+> **4. Urgent non-contrast CT brain** — its primary purpose is to **exclude haemorrhage**, since early ischaemic change is often subtle or absent.
+> **5. CT angiography** to identify a **large vessel occlusion** amenable to thrombectomy.
+> **6. CT perfusion** where extended-window or unknown-onset treatment is being considered — it distinguishes salvageable penumbra from established core.
+> **7. Activate the stroke team / telestroke.** In South Australia and rurally, **telestroke networks** allow remote assessment and thrombolysis decisions, and should be used rather than transferring first and assessing later.
+
+> [!warning] Reperfusion therapies
+> **Intravenous thrombolysis** — for ischaemic stroke within the treatment window, after haemorrhage is excluded. The principal risk is **symptomatic intracranial haemorrhage.** There is a long list of absolute and relative contraindications — recent surgery, recent haemorrhage, anticoagulation, uncontrolled hypertension, and others.
+> **Endovascular thrombectomy** — for large vessel occlusion, with **substantially extended time windows when guided by perfusion imaging.** It has transformed outcomes for proximal occlusions and is available in Australian comprehensive stroke centres.
+> `UNVERIFIED — the time windows, agent, dose, and the full inclusion and exclusion criteria for both therapies are omitted. These have changed repeatedly and must come from the Stroke Foundation guideline and your local pathway.`
+
+> [!danger] Blood pressure in acute stroke — the direction depends on the type and the plan
+> **Ischaemic stroke without thrombolysis: permissive hypertension.** The penumbra depends on collateral perfusion, which is pressure-dependent. **Lowering the blood pressure extends the infarct.** Treat only at very high levels or where there is another indication (dissection, acute coronary syndrome, pulmonary oedema).
+> **Ischaemic stroke WITH planned thrombolysis: a lower threshold applies**, because the haemorrhage risk rises with pressure.
+> **Intracerebral haemorrhage: more active lowering** — see 0.4.
+> `UNVERIFIED — all threshold and target values.`
+
+> [!danger] Nil by mouth until a swallow screen is done
+> **Dysphagia is present in a large proportion of acute strokes and aspiration pneumonia is a leading cause of death and prolonged admission.**
+> **No food, no fluids, and no oral medications until a validated swallow screen has been performed.** This is a task that frequently falls to the junior doctor or nurse and it genuinely prevents deaths. If the screen fails, the patient needs speech pathology review and an alternative route for essential medications.
+
+> [!tip] Stroke unit care
+> **Admission to a dedicated stroke unit reduces death and dependency more than any single drug**, through coordinated multidisciplinary care — swallow assessment, early mobilisation, complication prevention, and rehabilitation. It is the most evidence-based part of stroke management and the least dramatic.
+
+> [!warning] Early complications to anticipate
+> **Malignant middle cerebral artery syndrome** — massive hemispheric infarct with progressive oedema over 2–5 days, causing herniation. **Decompressive hemicraniectomy improves survival in selected younger patients**, and the decision is time-critical, so deterioration must be recognised early.
+> **Haemorrhagic transformation** · **seizures** · **aspiration pneumonia** · **venous thromboembolism** — use intermittent pneumatic compression rather than graduated stockings, which are ineffective and cause skin damage in stroke · **pressure injury** · **hyperglycaemia and fever, both of which worsen outcome and should be treated** · **post-stroke depression**, which is very common and under-treated.
+
+**S/Smx:** Sudden focal deficit — weakness, sensory loss, speech disturbance, visual loss, ataxia, vertigo, or reduced consciousness. **FAST** (Face, Arm, Speech, Time) captures most anterior circulation strokes but **misses posterior circulation events** — see 0.5.
+
+**Ix:** **Bedside glucose** (*why:* the commonest mimic; *what:* hypoglycaemia). **Non-contrast CT brain urgently** (*why:* excludes haemorrhage, which is the branch point for all subsequent treatment; *what:* haemorrhage, early ischaemic change, hyperdense vessel sign). **CT angiography** (*why:* identifies large vessel occlusion for thrombectomy and detects dissection; *what:* occlusion site, dissection, stenosis). **CT perfusion** where extended window or unknown onset (*why:* distinguishes salvageable penumbra from core and permits treatment beyond conventional windows; *what:* core-penumbra mismatch). **MRI with diffusion-weighted imaging** (*why:* far more sensitive than CT for acute ischaemia, particularly small and posterior fossa infarcts, and confirms infarction in TIA-like presentations; *what:* restricted diffusion). **ECG, and prolonged cardiac monitoring** (*why:* **atrial fibrillation is the commonest cardioembolic source and is frequently paroxysmal — a single ECG misses it**, so extended monitoring is needed in otherwise unexplained stroke; *what:* AF, arrhythmia). FBC, UEC, coagulation, glucose, lipids, HbA1c (*why:* baseline, thrombolysis safety, and modifiable risk factors; *what:* platelets, INR, glycaemia, lipids). **Carotid imaging** (*why:* identifies symptomatic stenosis amenable to endarterectomy, which is time-critical; *what:* degree of stenosis). **Echocardiography** (*why:* cardioembolic source — thrombus, endocarditis, patent foramen ovale; *what:* thrombus, vegetation, shunt). Thrombophilia and vasculitis screening in young patients with no conventional risk factors (*why:* an alternative aetiology changes management entirely; *what:* antiphospholipid antibodies, vasculitis serology).
+
+#### Mx – Immediate — D3 §0.1.1
+As per the hyperacute sequence. **Do not give aspirin until haemorrhage has been excluded**, and delay antiplatelet therapy after thrombolysis per protocol. Nil by mouth pending swallow screen. Treat hyperglycaemia and fever. Stroke unit admission.
+
+#### Mx – Definitive — D3 §0.1.2
+Reperfusion where eligible. Secondary prevention per 0.3. Decompressive surgery in selected malignant MCA syndrome.
+
+#### Mx – Chronic/long-term — D3 §0.1.3
+See 0.3, plus multidisciplinary rehabilitation — physiotherapy, occupational therapy, speech pathology, dietitian, social work and neuropsychology. **Post-stroke depression, fatigue, spasticity, pain, and cognitive impairment are all common and all under-managed.** Driving restriction and return-to-work advice — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions). Carer support.
+
+
 ### Haemorrhagic Stroke
 Specifically referring to intracerebral haemorrhage (ICH).
 
