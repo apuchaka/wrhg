@@ -1167,3 +1167,21 @@ separate question.
 `inherited` dose figures with no marker; **0 of them are inside a merged `SRC:` block** —
 established after fixing an attribution script of my own that first said 2, because it
 carried a block's SRC owner forward past the block's end into Corpus A's own prose.
+
+## SCHEDULED WORK — the misplacement queue (`_meta/MISPLACEMENT_QUEUE.md`)
+
+Twelve blocks sit under a heading narrower than, or unrelated to, their own topic. Found
+by the fourteen-file gate check. **8 are placements this run chose; 4 are base-A's own
+structure.**
+
+**Deliberately not moved.** Re-parenting is a move: it breaks `§n.n` pointers aimed at the
+block and renumbers its siblings, so it belongs with the other moves in the post-merge job
+rather than being done piecemeal now.
+
+The widest is `13_06b` §0.3.1 **Oesophageal Disease** — cancer, EoE, achalasia, stricture,
+spasm, pill and infective oesophagitis, varices — sitting under `## 0.3 Barrett's
+oesophagus`, which is one paragraph of it.
+
+The four `04_Neurology` cases are a **restructure**, not a move: getting `Tremor` out of
+`## Other Neurology Topics` means first moving base-A's own `### Abnormal Involuntary
+Movements`. That needs a decision, not a queue entry.
