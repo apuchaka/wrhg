@@ -959,6 +959,40 @@ Cause-specific.
 #### Mx – Chronic/long-term — D5 §0.5.3
 **Physiotherapy and gait aids**, correctly fitted — an incorrectly sized walking stick is worse than none. Home assessment, footwear, and exercise. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
 
+### Rigidity — The Differential — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Distinguish the types of increased tone
+> **Rigidity** — resistance **equal in all directions and throughout the range**, independent of the speed of movement. **"Lead-pipe"**, or **"cogwheel"** when a tremor is superimposed. → **Parkinsonism.**
+> **Spasticity** — **velocity-dependent**: resistance increases with faster movement, and there may be a **"clasp-knife"** sudden give-way. Affects antigravity muscles preferentially. → **Upper motor neurone lesion.**
+> **Paratonia (gegenhalten)** — variable resistance that increases with the examiner's effort, in a patient who cannot relax. → Frontal lobe disease, dementia, delirium.
+> **Dystonia** — sustained co-contraction producing an abnormal posture.
+
+> [!danger] Acute rigidity with fever is a medical emergency
+> **· Neuroleptic malignant syndrome** — **generalised "lead-pipe" rigidity**, hyperthermia, autonomic instability and altered mental state, developing over **days** after starting or increasing an antipsychotic, or after **abrupt withdrawal of dopaminergic therapy in Parkinson disease.** Raised CK.
+> **· Serotonin toxicity** — **rigidity greater in the LOWER limbs, with HYPERREFLEXIA and CLONUS**, developing over **hours** after a serotonergic combination.
+> **· Malignant hyperthermia** — during anaesthesia, with masseter spasm and a **rising end-tidal CO₂ as the earliest sign.**
+> **· Tetanus** — trismus, risus sardonicus, opisthotonos, with a wound and incomplete immunisation.
+> The full comparison table is in [[04_Neurology]] Serotonin Syndrome and Neuroleptic Malignant Syndrome (NMS).
+
+> [!tip] The other causes of rigidity
+> **Catatonia** — with waxy flexibility, mutism, negativism, posturing and echophenomena. **Responds to benzodiazepines**, and may be missed and mistaken for a neurological or metabolic cause. Cross-refer `TODO:link — N3 Psychosis (unbuilt)`.
+> **Stiff person syndrome** — progressive axial and limb rigidity with painful spasms, associated with anti-GAD antibodies and other autoimmune disease.
+> **Drug-induced parkinsonism** — see 0.5.
+> **Severe hypocalcaemia and tetany** — with carpopedal spasm, Chvostek and Trousseau signs.
+
+**Ix:** **CK** (*why:* markedly raised in NMS and in rhabdomyolysis from sustained rigidity; *what:* elevation). Core temperature (*why:* the hyperthermic syndromes; *what:* raised). **Full medication and anaesthetic timeline** (*why:* the interval since drug exposure discriminates between the syndromes — days for NMS, hours for serotonin toxicity, minutes for malignant hyperthermia; *what:* agent and timing). **Neurological examination for clonus and reflexes** (*why:* hyperreflexia with clonus points to serotonin toxicity rather than NMS; *what:* the pattern). UEC, calcium, magnesium (*why:* metabolic causes and the consequences of rhabdomyolysis; *what:* derangement). Tetanus immunisation history and wound examination (*why:* tetanus; *what:* portal of entry).
+
+#### Mx – Immediate — D6 §0.7.1
+Cease the causative agent. Cooling, benzodiazepines, fluid resuscitation. **Dantrolene for malignant hyperthermia. Reinstate dopaminergic therapy where NMS follows its withdrawal.** Cross-refer [[04_Neurology]] Serotonin Syndrome and Neuroleptic Malignant Syndrome (NMS).
+
+#### Mx – Definitive — D6 §0.7.2
+Syndrome-specific, with ICU support.
+
+#### Mx – Chronic/long-term — D6 §0.7.3
+**Permanent documentation of the trigger**, particularly for malignant hyperthermia (with family screening) and for NMS.
+
+
 
 ## CNS Infections
 
