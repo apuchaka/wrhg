@@ -1557,6 +1557,47 @@ Cause-specific treatment and consideration for liver transplantation.
 #### 0.38.2.3 Mx – Chronic/long-term
 Post-transplant immunosuppression and follow-up. **Mental health assessment where the cause was deliberate self-poisoning** — cross-refer `TODO:link — N1 Risk assessment & suicidality (unbuilt)` and [[14a-2_Psych_-_Overdose_and_Poisoning_Management]].
 
+### 0.38.3 Chronic Liver Disease and Cirrhosis — from unverified layer
+`SRC:C3_Jaundice_and_Liver_Disease §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Progressive hepatic fibrosis with regenerative nodule formation, distorting architecture and vasculature, producing **portal hypertension** and **hepatic synthetic failure**.
+
+**R/Causes:** **Alcohol-related liver disease · metabolic dysfunction-associated steatotic liver disease (MASLD, formerly NAFLD, with MASH the inflammatory form) — now among the commonest causes in Australia · chronic hepatitis B and C · haemochromatosis · autoimmune hepatitis · primary biliary cholangitis and primary sclerosing cholangitis · Wilson disease · alpha-1 antitrypsin deficiency · drugs · right heart failure and Budd-Chiari (congestive hepatopathy).**
+
+> [!tip] The stigmata, and what each reflects
+> **Impaired oestrogen metabolism** — spider naevi (in the SVC distribution), palmar erythema, gynaecomastia, testicular atrophy, loss of body hair.
+> **Portal hypertension** — splenomegaly, caput medusae, ascites.
+> **Synthetic failure** — leuconychia (low albumin), bruising and prolonged INR, oedema.
+> **Cholestasis** — jaundice, scratch marks.
+> **Encephalopathy** — asterixis, fetor hepaticus, altered conscious state.
+> **Other** — Dupuytren contracture, clubbing, parotid enlargement.
+
+> [!warning] Compensated versus decompensated
+> **Compensated cirrhosis may be entirely asymptomatic** with near-normal LFTs, and is frequently discovered incidentally on imaging or through abnormal platelets. **Thrombocytopenia is often the earliest laboratory clue**, reflecting splenic sequestration from portal hypertension.
+> **Decompensation** is defined by the development of **ascites, variceal bleeding, encephalopathy or jaundice**, and it marks a substantial change in prognosis.
+> Severity is graded by **Child-Pugh** (bilirubin, albumin, INR, ascites, encephalopathy) and **MELD** (bilirubin, INR, creatinine, sodium), the latter used for transplant prioritisation. `UNVERIFIED — the scores, their variables and cut-offs.`
+
+> [!danger] Two surveillance programs that are frequently not arranged
+> **1. Hepatocellular carcinoma surveillance** — six-monthly ultrasound, with or without alpha-fetoprotein, in patients with cirrhosis and in some with chronic hepatitis B without cirrhosis. **Surveillance detects tumours at a curable stage; symptomatic HCC is usually incurable.**
+> **2. Variceal screening endoscopy** at diagnosis of cirrhosis, with subsequent intervals determined by findings, so that primary prophylaxis can be started before the first bleed.
+> Both are the kind of thing that falls through the gap between hospital and general practice. **Put them explicitly in the discharge summary with who is responsible.** `UNVERIFIED — surveillance intervals and the criteria for who requires them.`
+
+> [!warning] Prescribing in cirrhosis
+> **Avoid NSAIDs** — they precipitate renal failure and gastrointestinal bleeding. **Use opioids and benzodiazepines with great caution** — reduced clearance precipitates encephalopathy. **Paracetamol is generally safe at reduced doses** and is preferable to NSAIDs, which is counterintuitive to many. **Avoid aminoglycosides.** `UNVERIFIED — the safe paracetamol dose in cirrhosis.`
+> **Do not give prophylactic FFP for a raised INR** — the coagulopathy of cirrhosis is "rebalanced" and the INR overstates bleeding risk. Cross-refer [[10_08_Haemonc_-_Blood_Products_and_Transfusion]] Warfarin — management of high INR.
+
+**Ix:** As per 0.1, plus: **transient elastography (FibroScan) or serum fibrosis scores** (*why:* non-invasively stages fibrosis, avoiding biopsy in many patients, and identifies cirrhosis in those with normal LFTs; *what:* liver stiffness). Liver biopsy where the diagnosis or stage remains unclear (*why:* definitive histology; *what:* fibrosis stage, aetiology). Upper endoscopy (*why:* variceal screening; *what:* varices and their grade). Six-monthly ultrasound with AFP (*why:* HCC surveillance; *what:* focal lesion). Full aetiological screen — viral serology, autoantibodies, iron studies, caeruloplasmin, alpha-1 antitrypsin (*why:* several causes are specifically treatable and several are heritable with implications for family; *what:* the causative diagnosis).
+
+#### 0.38.3.1 Mx – Immediate
+Manage decompensation as per 0.6.
+
+#### 0.38.3.2 Mx – Definitive
+Treat the cause — **alcohol cessation, antiviral therapy for hepatitis B and C (hepatitis C is now curable with direct-acting antivirals, which is a major change and worth knowing), weight loss and metabolic management for MASLD, venesection for haemochromatosis, immunosuppression for autoimmune hepatitis.**
+
+#### 0.38.3.3 Mx – Chronic/long-term
+**Vaccinate against hepatitis A and B, influenza and pneumococcus.** Nutritional support — **sarcopenia and malnutrition are common, under-recognised, and independently predict poor outcomes**; these patients need more protein rather than less, and the old advice to restrict protein in encephalopathy has been abandoned. Osteoporosis screening. Alcohol and drug support. Transplant assessment where appropriate.
+
+
 
 
 ## 0.39 Ileus
