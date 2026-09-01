@@ -96,6 +96,18 @@ python3 scripts/gapcheck.py '<pattern>' --dirs "Corpus A" "Corpus C"
 
 ---
 
+## 8. Death certification, and identification of deaths reportable to the coroner
+
+| | |
+|---|---|
+| **Where it should live** | `Clinical-Process-EBM-Consent-Capacity.md`, alongside the certificates-are-legal-documents section that already sits there |
+| **How it was found** | GER2 §0.5 merge. B §0.5.3 pointed at `[[A10_Ethics__Capacity__Consent_and_Certification]] 0.4`, and A10 §0.4 was **superseded** in the A9/A10 merge rather than placed — so the pointer's target does not exist as a block. The obvious move was to re-aim it at the nearest ethics/certification file. That is the AREA-LEVEL error §1.3 rule 12 names, so the destination was searched at claim level instead |
+| **Verified absent** | `gapcheck.py "coroner"` → **2 hits in the destination corpora**, both read in full: `15_24b_Paeds…:32` (*"death must be referred to the coroner"* — SIDS, one line, no criteria) and `Clinical-Process…:96` (*"where a coroner, tribunal or complaints body reviews care"* — a documentation warning, not the process). `gapcheck.py "death certificate"` → **1 hit**, `17_03_Termination_of_Pregnancy…:58`, stillbirth registration. **Neither the certification process nor the reportable-death criteria is anywhere in the vault** |
+| **Why it is not simply built** | The reportable-death criteria are set by the **Coroners Act 2003 (SA)** and differ by jurisdiction. §1.14: nothing legal is written from an unverified layer. B's own line carries `UNVERIFIED — reportable death criteria under the Coroners Act 2003 (SA).` and that marker is now in `10_11c` §0.5.3 |
+| **What the merge left in place of the pointer** | a `TODO:link` marker naming the gap, so the block says *"this is missing"* rather than pointing at a file that does not carry it. The `TODO` and this entry are the two halves of the record — the Dubin-Johnson case (entry 1) is the precedent: an in-place record was destroyed by a supersede while the index entry cited the deleted line, and the absence ended up recorded nowhere |
+
+---
+
 ## What this file is not
 
 It is **not** a list of everything missing from the vault. It is the set of absences that
