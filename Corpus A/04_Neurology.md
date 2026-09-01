@@ -1274,7 +1274,7 @@ Rehabilitation, and investigation of the underlying condition.
 
 ### Amnesia and Memory Impairment — from unverified layer
 `SRC:D2_Altered_Consciousness_and_Cognition §0.5` `UNVERIFIED — model knowledge, not source-checked.`
-*Supersedes the former structural-versus-metabolic and transient-amnesias fragment, inheriting its cross-references; the structural/metabolic half of that fragment is carried by §0.1 above.*
+*Supersedes the former structural-versus-metabolic and transient-amnesias fragment, inheriting its cross-references; the structural/metabolic half of that fragment is carried by §Reduced Consciousness above.*
 
 > [!tip] Transient global amnesia
 > **Sudden onset of dense ANTEROGRADE amnesia lasting less than 24 hours**, with **repetitive questioning** ("how did I get here?" asked over and over), **preserved personal identity, preserved consciousness, no focal neurological signs, and no other cognitive deficit.**
