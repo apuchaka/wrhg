@@ -1674,6 +1674,55 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 > [!info] Verified against the Stroke Foundation Australia and New Zealand Living Clinical Guidelines for Stroke Management, Aug 2026 — Australian guidance has a materially different first step from the UK protocol below (short-term DAPT), though the remaining drug classes are broadly similar.
 > **Antiplatelet:** the Australian Living Guidelines now give a **strong recommendation for dual antiplatelet therapy (aspirin + clopidogrel together) for the first 3 weeks after a minor stroke or TIA** — this is a specific, upgraded, time-limited recommendation not present in the UK-sourced clopidogrel-monotherapy-first approach below; after the 3-week DAPT period, transition to single antiplatelet therapy (clopidogrel, or aspirin + dipyridamole if clopidogrel contraindicated) for long-term secondary prevention. Statin: as per the UK figure — no material AU-specific dose difference identified. BP control: antihypertensives as needed. If AF present and haemorrhage excluded: anticoagulation with warfarin or a DOAC (dabigatran, apixaban, edoxaban, rivaroxaban) — consistent with the UK approach, no material change.
 
+### Transient Ischaemic Attack and Secondary Prevention — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A transient episode of neurological dysfunction caused by focal ischaemia **without acute infarction on imaging** — a tissue-based rather than time-based definition. **Many events lasting under an hour show infarction on diffusion MRI and are therefore minor strokes, not TIAs.**
+
+> [!danger] The stroke risk after TIA is highest in the first 48 hours
+> **A TIA is a warning, and the window to act on it is short.** Patients should be assessed urgently — same day where possible — with imaging, carotid assessment, cardiac rhythm monitoring, and **immediate commencement of secondary prevention**, rather than being given an outpatient appointment in a fortnight.
+> **The ABCD2 score is no longer relied on to defer assessment**, because low scores do not reliably identify low risk. `UNVERIFIED — current risk stratification and the recommended assessment timeframe.`
+
+> [!tip] Determine the mechanism, because it determines the prevention
+> **Large artery atherosclerosis** — carotid or vertebral stenosis. → **Endarterectomy or stenting plus antiplatelet.**
+> **Cardioembolic** — atrial fibrillation, mural thrombus, valve disease, endocarditis. → **Anticoagulation, NOT antiplatelet.**
+> **Small vessel disease** — lacunar. → Risk factor control plus antiplatelet.
+> **Other** — **cervical artery dissection**, vasculitis, thrombophilia, patent foramen ovale, drugs.
+> **Cryptogenic** — a substantial proportion, and many of these have **occult paroxysmal atrial fibrillation**, which is why prolonged cardiac monitoring matters.
+
+> [!danger] Atrial fibrillation requires anticoagulation, not aspirin
+> **Aspirin is inadequate stroke prevention in AF.** A patient with a stroke or TIA and atrial fibrillation needs anticoagulation, with the timing of commencement after an acute stroke determined by infarct size and haemorrhage risk. Cross-refer [[01_Cardiovascular]] §0.4 Atrial Fibrillation.
+
+> [!warning] Carotid endarterectomy — the benefit is time-dependent
+> For **symptomatic** carotid stenosis above a threshold degree, endarterectomy substantially reduces recurrent stroke — **but the benefit falls sharply the longer the delay**, being greatest when performed within the first two weeks of the event.
+> **So carotid imaging is urgent after a carotid-territory TIA, not routine.** `UNVERIFIED — the stenosis percentage thresholds, the timing target, and the difference between symptomatic and asymptomatic stenosis management.`
+
+> [!tip] Cervical artery dissection — think of it in the young
+> **Carotid or vertebral dissection is a leading cause of stroke in people under 50.**
+> **Neck or head pain preceding the deficit**, often with a history of minor trauma, neck manipulation, coughing or sudden head turning. **Carotid dissection may cause a painful Horner syndrome** (ptosis and miosis **without anhidrosis**, because the sudomotor fibres travel with the external carotid). Vertebral dissection causes posterior circulation symptoms.
+> **A young person with stroke symptoms and neck pain needs vascular imaging of the neck**, not just a brain CT.
+
+> [!info] Secondary prevention — the package
+> **· Antiplatelet therapy** — with **a short period of dual antiplatelet therapy after minor stroke or high-risk TIA, then single agent long-term.** Prolonged dual therapy increases bleeding without further benefit.
+> **· High-intensity statin**, largely independent of the baseline cholesterol.
+> **· Blood pressure lowering** — the intervention with the largest absolute benefit, commenced once the acute phase has passed.
+> **· Anticoagulation for atrial fibrillation.**
+> **· Diabetes management, smoking cessation, alcohol reduction, weight, diet and exercise.**
+> **· Carotid intervention where indicated.**
+> `UNVERIFIED — all agents, doses, the duration of dual antiplatelet therapy, and blood pressure targets.`
+
+**Ix:** **MRI with diffusion-weighted imaging** (*why:* distinguishes true TIA from minor stroke and confirms the vascular territory; *what:* restricted diffusion). **Carotid Doppler or CT/MR angiography urgently** (*why:* symptomatic stenosis needs early intervention; *what:* stenosis degree). **ECG plus prolonged monitoring — Holter or extended event recording** (*why:* paroxysmal AF is common, intermittent, and missed on a single ECG, and finding it changes the patient from aspirin to anticoagulation; *what:* AF). Echocardiography (*why:* cardiac source; *what:* thrombus, vegetation, PFO). Lipids, HbA1c, UEC, FBC (*why:* modifiable risk factors and baseline; *what:* dyslipidaemia, diabetes). Vascular imaging of the neck in the young (*why:* dissection; *what:* flap, tapering, intramural haematoma). Thrombophilia, antiphospholipid antibodies and vasculitis screen in young or unexplained stroke (*why:* alters treatment; *what:* positive results).
+
+#### Mx – Immediate — D3 §0.3.1
+Start antiplatelet therapy (after excluding haemorrhage), arrange urgent imaging, and **give explicit driving advice** — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions).
+
+#### Mx – Definitive — D3 §0.3.2
+Mechanism-specific prevention as above.
+
+#### Mx – Chronic/long-term — D3 §0.3.3
+Long-term adherence support, annual review, and continued risk factor management.
+
+
 ### Ischaemic Stroke
 
 **Ix:** non-contrast CT head to exclude haemorrhagic stroke.
