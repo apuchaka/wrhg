@@ -190,6 +190,57 @@ Cause-specific.
 #### Mx – Chronic/long-term
 Headache diary, trigger identification, and — critically — **review of analgesic frequency**, since medication overuse headache complicates many chronic headache presentations. See 0.4.
 
+### Thunderclap Headache and Subarachnoid Haemorrhage — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Headache reaching maximal intensity within seconds to a minute.
+
+> [!danger] Thunderclap headache is subarachnoid haemorrhage until proven otherwise
+> **Patients describe it as "the worst headache of my life", "like being hit on the back of the head", or "something burst".** It may be accompanied by vomiting, collapse, photophobia, seizure or focal deficit — or by nothing at all except the headache, which is the presentation that gets sent home.
+> **Neck stiffness takes several hours to develop**, because it results from chemical meningitis as blood irritates the meninges. **Its absence in the first hours means nothing.**
+> **A significant proportion of patients with aneurysmal SAH describe a preceding "sentinel" or warning headache in the preceding days to weeks** — a smaller bleed that resolved. Recognising a sentinel bleed is the opportunity to prevent the catastrophic one.
+
+**A/P:** Rupture of a **saccular ("berry") aneurysm**, usually at a branch point of the circle of Willis, releases arterial blood into the subarachnoid space → abrupt rise in intracranial pressure → sudden severe headache, often with transient loss of consciousness → chemical meningitis over hours → and then the delayed complications.
+**Risk factors:** hypertension, smoking, alcohol, family history, **autosomal dominant polycystic kidney disease, Ehlers-Danlos and Marfan syndromes, coarctation of the aorta.**
+
+> [!tip] The investigation pathway
+> **1. Non-contrast CT brain.** Sensitivity is **highest in the first hours and declines steadily** as blood is cleared and becomes isodense. Modern scanners performed very early are extremely sensitive; a CT at 48 hours is not.
+> **2. If CT is negative and suspicion persists — lumbar puncture.** The purpose is to detect **xanthochromia**, the yellow discolouration from bilirubin formed by the breakdown of red cells within the CSF.
+> **Xanthochromia requires TIME to develop** — red cells must lyse and haemoglobin be metabolised — so **an LP performed too early may be falsely negative.** This is why the timing matters and why the patient may need to wait.
+> **Three-tube (or four-tube) collection** distinguishes SAH from a traumatic tap: **in a traumatic tap the red cell count falls markedly between the first and last tube; in SAH it does not.** Xanthochromia measured by spectrophotometry is more reliable than visual inspection.
+> **3. CT angiography** to identify the aneurysm once SAH is confirmed.
+> `UNVERIFIED — the time window within which a negative CT alone is considered sufficient, and the interval after headache onset before LP can reliably detect xanthochromia. Both have changed with modern scanners and must be verified.`
+
+> [!danger] The delayed complications, and their timing
+> **Rebleeding** — highest risk in the first hours to days, and it is the reason for urgent securing of the aneurysm by **endovascular coiling or surgical clipping.**
+> **Delayed cerebral ischaemia from vasospasm** — characteristically **days 4 to 14**, presenting as a new focal deficit or reduced conscious state in a patient who had been stable. **Nimodipine reduces it and is given routinely.** `UNVERIFIED — dose and duration.`
+> **Hydrocephalus** — acute obstructive, or delayed communicating from impaired CSF resorption.
+> **Hyponatraemia** — and the distinction matters: **SIADH (euvolaemic, treated with fluid restriction) versus cerebral salt wasting (hypovolaemic, treated with salt and fluid REPLACEMENT).** **Fluid-restricting a cerebral salt wasting patient worsens cerebral perfusion and precipitates ischaemia**, so volume status must be assessed rather than assumed.
+> **Seizures** and cardiac complications including neurogenic stunned myocardium with ECG changes and raised troponin that mimic infarction.
+
+> [!tip] The other thunderclap causes
+> **Reversible cerebral vasoconstriction syndrome (RCVS)** — **recurrent** thunderclap headaches over days to weeks, often triggered by exertion, sexual activity, bathing, or vasoactive drugs (**cannabis, cocaine, SSRIs, triptans, decongestants**), and classically in the **postpartum** period. Segmental vasoconstriction on angiography that resolves. Can cause stroke and haemorrhage.
+> **Cerebral venous sinus thrombosis** — see 0.4.
+> **Cervical artery dissection** — with neck pain and Horner syndrome.
+> **Pituitary apoplexy** — thunderclap headache with **visual field loss, ophthalmoplegia and hypopituitarism**, from haemorrhage into a pituitary adenoma. **A hypotensive patient with pituitary apoplexy needs hydrocortisone urgently.**
+> **Posterior reversible encephalopathy syndrome (PRES)** — headache, seizures, visual disturbance, encephalopathy, with posterior white matter change; associated with hypertension, eclampsia and immunosuppressants.
+> **Spontaneous intracranial hypotension** — but this is characteristically **postural**, see 0.4.
+> **Colloid cyst of the third ventricle** — positional headache with sudden obstruction.
+
+**S/Smx:** Sudden maximal headache, vomiting, photophobia, collapse, seizure, focal deficit, reduced conscious state. **Subhyaloid (pre-retinal) haemorrhage on fundoscopy is characteristic of SAH** and is worth looking for.
+
+**Ix:** **Urgent non-contrast CT brain** (*why:* the first-line test, with time-dependent sensitivity; *what:* subarachnoid blood, hydrocephalus, intraparenchymal extension). **Lumbar puncture where CT is negative and suspicion persists** (*why:* detects xanthochromia, which CT misses at later time points; *what:* xanthochromia by spectrophotometry, red cell count across sequential tubes). **CT or catheter angiography** (*why:* identifies the aneurysm for treatment planning; *what:* aneurysm site and morphology). **CT or MR venography where CVST is possible** (*why:* plain CT frequently misses it and the treatment is anticoagulation; *what:* filling defect in a sinus). ECG and troponin (*why:* neurogenic cardiac injury mimics infarction and can mislead; *what:* ST changes, troponin rise, interpreted in context). UEC with **serial sodium and assessment of volume status** (*why:* distinguishes SIADH from cerebral salt wasting, which have opposite treatments; *what:* sodium, volume status, urine sodium and osmolality). FBC and coagulation profile (*why:* baseline before intervention; *what:* platelets, INR).
+
+#### Mx – Immediate
+Analgesia and antiemetic. **Urgent neurosurgical referral.** Blood pressure control to reduce rebleeding risk while maintaining cerebral perfusion. Nimodipine. Bed rest. Monitor conscious state closely.
+
+#### Mx – Definitive
+**Endovascular coiling or surgical clipping**, with the choice made by the neurosurgical and neurointerventional team. External ventricular drain for hydrocephalus. Management of vasospasm.
+
+#### Mx – Chronic/long-term
+Screening of first-degree relatives is considered where there is a strong family history. Cardiovascular risk factor management and **smoking cessation**, which is a major modifiable risk factor. Rehabilitation and neuropsychological follow-up — **cognitive and mood sequelae are common after SAH even in those with a good physical outcome**, and are under-recognised.
+
+
 
 ## Dementias
 
