@@ -145,6 +145,54 @@ Injury assessment, analgesia, treatment of the consequences of a long lie, and i
 #### Mx – Chronic/long-term — GER1 §0.5.3
 Ongoing exercise, review of the home, and **address fear of falling directly**, since it drives activity restriction, deconditioning and social isolation, and responds to graded exposure and confidence-building.
 
+### Osteoporosis and Fracture Prevention — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A skeletal disorder of reduced bone strength predisposing to fracture. Diagnosed by **bone mineral density on DXA** below a defined threshold, **or — regardless of density — by the occurrence of a minimal trauma (fragility) fracture.**
+
+> [!danger] A minimal trauma fracture IS osteoporosis, and most of these patients are never treated
+> **A fracture from a fall from standing height or less, in an adult over 50, is a fragility fracture** and identifies a person at high risk of the next one — with the highest risk in the immediately following period.
+> **The "treatment gap" is one of the clearest quality failures in Australian practice: the large majority of people who sustain a minimal trauma fracture are never investigated or treated for osteoporosis.** They have their fracture fixed and are discharged.
+> **Fracture liaison services exist to close this gap.** As an intern, **the practical action is to identify the fragility fracture, arrange bone density assessment and calcium and vitamin D, and explicitly flag osteoporosis management in the discharge summary with a named responsible clinician.**
+
+> [!tip] Risk factors and secondary causes
+> **Non-modifiable:** age, female sex, previous minimal trauma fracture, **parental hip fracture**, early menopause.
+> **Modifiable:** **glucocorticoids** (the commonest drug cause, and risk begins early and at modest doses), smoking, excess alcohol, low body weight, immobility, falls, low calcium and vitamin D.
+> **Secondary causes to exclude — and they are found in a meaningful proportion, particularly in men and in premenopausal women: hyperparathyroidism · hyperthyroidism (including over-replacement with thyroxine) · coeliac disease · myeloma · hypogonadism · chronic kidney disease · chronic liver disease · Cushing syndrome · rheumatoid arthritis · and drugs including aromatase inhibitors, androgen deprivation therapy, anticonvulsants and long-term PPIs.**
+> **Osteoporosis in a man, or in a premenopausal woman, is secondary until proven otherwise.**
+
+> [!danger] Do not stop denosumab without a plan
+> **Denosumab discontinuation causes a rapid rebound increase in bone turnover with a risk of MULTIPLE VERTEBRAL FRACTURES**, occurring within months of a missed dose.
+> **It must be given on schedule, and it must never simply be stopped** — if it is to be ceased, it requires transition to an alternative agent, usually a bisphosphonate, under specialist guidance.
+> **This is a genuine and under-recognised hazard**, and it matters in hospital: a patient admitted for an unrelated reason who misses their scheduled dose is at risk. **Check whether an admitted patient is on denosumab and when their next dose is due.** `UNVERIFIED — dosing interval and the recommended transition regimen.`
+
+> [!warning] Bisphosphonate safety — real risks, kept in proportion
+> **Osteonecrosis of the jaw** and **atypical femoral fracture** are both **rare**, and the absolute risk is far outweighed by fracture prevention in patients who meet treatment criteria — but they justify **dental assessment and completion of invasive dental work before starting**, and attention to **new thigh or groin pain in a patient on long-term therapy**, which may herald an atypical fracture.
+> **"Drug holidays"** after a period of bisphosphonate therapy are considered in lower-risk patients, and this is a specialist-informed decision. `UNVERIFIED — duration of therapy before a holiday, and who is eligible.`
+
+> [!tip] The whole package, not just a tablet
+> **· Calcium — preferably dietary — and vitamin D sufficiency.**
+> **· Weight-bearing and resistance exercise.**
+> **· Falls prevention (0.5) — because most fractures require both a weak bone AND a fall. Treating osteoporosis while ignoring falls addresses half the problem.**
+> **· Smoking and alcohol reduction.**
+> **· Antiresorptive or anabolic pharmacotherapy** — bisphosphonates (oral or intravenous), denosumab, and for very high risk teriparatide or romosozumab. Menopausal hormone therapy has a role in selected younger postmenopausal women.
+> **· Glucocorticoid-induced osteoporosis prophylaxis** should be considered at the time of prescribing prolonged steroids, not years later.
+> `UNVERIFIED — all agents, doses, and the PBS authority criteria that determine what is actually prescribable in Australia.`
+
+**S/Smx:** Usually asymptomatic until fracture. **Vertebral fractures are frequently silent** and present as height loss, kyphosis, or as an incidental finding on imaging done for another reason — **and an incidental vertebral fracture on a chest radiograph or CT is a diagnosis of osteoporosis that is routinely not acted upon.**
+
+**Ix:** **DXA bone mineral density** (*why:* diagnoses osteoporosis, quantifies risk and provides a baseline for monitoring; *what:* T-score at hip and spine). **Absolute fracture risk calculation** (*why:* combines density with clinical risk factors and guides treatment decisions — **the Garvan calculator is Australian and includes falls history**, alongside FRAX; *what:* 5- and 10-year fracture probability). **Calcium, phosphate, ALP, UEC, vitamin D, and TFTs** (*why:* excludes osteomalacia, hyperparathyroidism and thyroid disease before attributing low density to primary osteoporosis; *what:* the metabolic pattern). **Serum protein electrophoresis** (*why:* myeloma presents with fractures, bone pain, anaemia, renal impairment and hypercalcaemia and is missed if not sought; *what:* paraprotein — cross-refer `TODO:link — J4 Paraproteins & lymphoproliferative (unbuilt)`). **Coeliac serology, testosterone in men, and cortisol assessment where indicated** (*why:* secondary causes, particularly in men and younger women; *what:* the underlying condition). **Lateral spine imaging** (*why:* detects the silent vertebral fractures that change risk category and treatment decisions; *what:* vertebral height loss).
+
+#### Mx – Immediate — GER1 §0.6.1
+Fracture management. **Analgesia adequate to allow mobilisation** — under-treated pain after a fragility fracture causes immobility, delirium and further decline.
+
+#### Mx – Definitive — GER1 §0.6.2
+Investigation for secondary causes, and commencement of appropriate pharmacotherapy alongside calcium, vitamin D and exercise.
+
+#### Mx – Chronic/long-term — GER1 §0.6.3
+**Adherence support — persistence with oral bisphosphonates is poor**, and intravenous or six-monthly options may suit better. Monitoring, dental review, and combined falls and bone health management. **Explicit handover to the GP with a named plan.**
+
+
 
 ## Frailty
 
