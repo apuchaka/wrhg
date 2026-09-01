@@ -1280,10 +1280,12 @@ Rehabilitation, and investigation of the underlying condition.
 > **Sudden onset of dense ANTEROGRADE amnesia lasting less than 24 hours**, with **repetitive questioning** ("how did I get here?" asked over and over), **preserved personal identity, preserved consciousness, no focal neurological signs, and no other cognitive deficit.**
 > Often triggered by physical exertion, emotional stress, sexual intercourse, cold water immersion or a Valsalva manoeuvre. Typically middle-aged or older.
 > **It is benign and does not recur in most people**, but it is **a diagnosis of exclusion** — seizure, TIA and stroke must be considered, particularly if there are focal signs, if it lasts beyond 24 hours, if consciousness was impaired, or if it recurs.
+> `UNVERIFIED — the diagnostic criteria, the recurrence rate, and what imaging is warranted before accepting the diagnosis; RACGP or a neurology reference.`
 
 > [!warning] Transient epileptic amnesia
 > **Brief, RECURRENT episodes of amnesia, often on waking**, in an older patient, sometimes with olfactory or gustatory phenomena, and frequently with interictal memory complaints out of proportion to the episodes.
 > **Recurrence is the discriminator from TGA**, and it matters because it responds to antiepileptic treatment. It is under-diagnosed. **Recurrent amnestic episodes should prompt an EEG rather than reassurance** — see §Seizures and Epilepsy and §Focal Seizures below.
+> `UNVERIFIED — diagnostic criteria and the yield of EEG in this setting; neurology guidance.`
 
 > [!danger] Wernicke-Korsakoff
 > **Wernicke encephalopathy** — confusion, ophthalmoplegia and ataxia, though **the complete triad is present in a minority.** Treat on suspicion with parenteral thiamine.
