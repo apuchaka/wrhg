@@ -174,6 +174,21 @@ def run(cfg):
         # two B sections carries two of them. Counting those as cross-references makes the
         # refusal fire on the section number the merge is replacing. Exclude SRC lines from
         # the fragment side, exactly as the PROT loop above already does.
+        # A marker on a combined-source fragment can belong to the OTHER section's block,
+        # which is already merged. `carry_markers` declares one relocated - and, like
+        # carry_refs, the driver VERIFIES it is actually in the destination first, so a
+        # declaration can never excuse a loss.
+        for m in cfg.get('carry_markers', []):
+            # Either way the generic PROT entry for this marker is replaced, so the
+            # report says WHICH mechanism decided it. Leaving the generic entry in on
+            # the refusal path made the specific message the second line, and a reader
+            # (and the known-answer test) sees only the generic one.
+            generic = [x for x in lost if m in x]
+            lost = [x for x in lost if m not in x]
+            if m not in '\n'.join(lines[:s] + lines[e:]):
+                lost.append(f"carry_markers declared {m[:60]!r} relocated, "
+                            f"but it is NOT in {p}"
+                            + ("" if generic else " (and it is not in the fragment either)"))
         lost_refs = refs('\n'.join(l for l in frag if 'SRC:' not in l)) - refs(block)
         # A fragment assembled from TWO B sections legitimately splits its pointers
         # between the two blocks that replace it. `carry_refs` declares a pointer as
