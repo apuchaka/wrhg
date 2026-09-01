@@ -1361,24 +1361,45 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 
 ---
 
-### 0.33.4 Added from unverified layer — ulcer stigmata, risk scores, and the aspirin decision
+### 0.33.4 Upper Gastrointestinal Bleeding — Non-Variceal — from unverified layer
 `SRC:C4_Gastrointestinal_Bleeding §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.33.4 fragment, whose AIMS65 pointer to §0.33.2 is carried.*
 
-> [!info] The Forrest classification — why the endoscopy report matters to the ward team
-> Grades ulcer appearance from **active spurting → oozing → visible vessel → adherent clot → flat pigmented spot → clean base**, with **rebleeding risk falling steeply along that sequence**.
-> **High-risk stigmata are treated endoscopically. A clean-based ulcer needs no endoscopic therapy and permits early discharge and early feeding** — which is the practical reason to read the grade rather than just "ulcer seen".
-> `UNVERIFIED — the grade labels (Ia/Ib/IIa/IIb/IIc/III) and their associated rebleeding percentages; RACGP or a gastroenterology reference.`
+**R/Causes:** **Peptic ulcer disease** is the commonest. Also: erosive gastritis and oesophagitis, **Mallory-Weiss tear**, malignancy, **Dieulafoy lesion** (an abnormally large submucosal artery eroding through otherwise normal mucosa — causes sudden massive bleeding and is easily missed at endoscopy), angiodysplasia, and **aortoenteric fistula.**
 
-> [!warning] Restarting aspirin after an ulcer bleed — the decision nobody makes
-> For a patient taking aspirin for **secondary** cardiovascular prevention, **stopping it after an ulcer bleed increases cardiovascular events and overall mortality.** It should generally be **restarted early once haemostasis is achieved, under PPI cover**, rather than stopped indefinitely.
-> For **primary** prevention the balance usually favours stopping it.
-> **The common failure is not a wrong decision but no decision** — nobody documents one and the patient simply never restarts. Make it explicitly and write it down.
-> `UNVERIFIED — the recommended timing of restarting; RACGP or your health network's gastroenterology guidance.`
+**A/P:** Acid and pepsin, in combination with *Helicobacter pylori* infection or NSAID-induced prostaglandin inhibition, breach the mucosal barrier → ulceration erodes into a submucosal vessel → bleeding. **Posterior duodenal ulcers erode into the gastroduodenal artery** and bleed briskly; **lesser curve gastric ulcers erode into the left gastric artery.** These two anatomical facts explain why certain ulcers bleed catastrophically.
 
-- **AIMS65** is a further pre-endoscopy risk score alongside the Glasgow-Blatchford and Rockall scores already at §0.33.2. `UNVERIFIED — its components and thresholds, and how it compares with Glasgow-Blatchford in Australian practice.`
-- **NG aspirate** is sometimes used to support a suspected upper source, but **a clear aspirate does not exclude an upper GI bleed** — a post-pyloric duodenal bleed can produce one. It does not replace endoscopy.
-- **Endoscopic haemostasis is dual-modality** — adrenaline injection alone is inferior, and is combined with a second method (clipping or thermal therapy), which §0.33.3 lists without saying they are used together rather than as alternatives.
-- **Rebleeding is managed by repeat endoscopy first**, then angiographic embolisation, with surgery reserved for failure of both — the sequence, which §0.33.3 implies but does not order.
+> [!danger] Aortoenteric fistula
+> **A patient with a previous aortic graft or aneurysm repair who presents with GI bleeding has an aortoenteric fistula until proven otherwise.**
+> The classic pattern is a **"herald bleed"** — a self-limiting episode — followed hours to days later by **exsanguinating haemorrhage.** The herald bleed is the opportunity, and it is routinely attributed to an ulcer.
+> **Ask about previous aortic surgery in every GI bleed.** Investigation is CT angiography and endoscopy; management is urgent vascular surgery.
+
+> [!tip] Mallory-Weiss tear
+> A mucosal tear at the gastro-oesophageal junction caused by forceful vomiting or retching. The characteristic history is **several episodes of non-bloody vomiting followed by haematemesis** — the vomiting causes the bleeding, rather than the other way around. Usually self-limiting.
+> **Distinguish it from Boerhaave syndrome**, which is a full-thickness rupture with chest pain, surgical emphysema and systemic toxicity — the same mechanism, a far worse outcome. Cross-refer §0.41.20 Complications of Vomiting.
+
+> [!info] Proton pump inhibitors — what they do and don't do
+> **High-dose intravenous PPI before endoscopy reduces the proportion of ulcers found with high-risk stigmata and reduces the need for endoscopic therapy — but it does not reduce mortality, rebleeding or the need for surgery.** It is therefore reasonable but should never delay endoscopy.
+> **After endoscopic therapy for a high-risk ulcer, PPI does reduce rebleeding**, and this is where the benefit lies. `UNVERIFIED — dosing, route and duration.`
+
+> [!tip] Endoscopic stigmata predict rebleeding
+> The **Forrest classification** grades ulcer appearance from active spurting through oozing, visible vessel, adherent clot, flat pigmented spot, to clean base — with rebleeding risk falling steeply along that sequence. High-risk stigmata are treated endoscopically; a clean-based ulcer needs none and permits early discharge and early feeding. `UNVERIFIED — the classification and its associated rebleeding rates.` **AIMS65** is a further pre-endoscopy score alongside the Glasgow-Blatchford and Rockall scores already at §0.33.2.
+> Endoscopic therapy uses **two modalities in combination** — adrenaline injection plus a thermal method or clips — as adrenaline alone is inadequate. §0.33.3 lists these without saying they are used together rather than as alternatives.
+
+> [!warning] Restarting aspirin after an ulcer bleed
+> For a patient taking aspirin for **secondary cardiovascular prevention**, stopping it after an ulcer bleed increases cardiovascular events and overall mortality. **Aspirin should generally be restarted early once haemostasis is achieved, under PPI cover**, rather than stopped indefinitely.
+> For **primary** prevention, the balance usually favours stopping it. **Make the decision explicitly and document it** — the common failure is that nobody decides and the patient simply never restarts. `UNVERIFIED — the recommended timing of restarting.`
+
+**Ix:** **Upper endoscopy** (*why:* identifies the source, grades the stigmata that predict rebleeding, and treats it in the same procedure; *what:* ulcer with Forrest grade, varices, tumour, tear — `UNVERIFIED — the recommended timing from presentation, which differs for stable and unstable patients`). ***H. pylori* testing** (*why:* eradication substantially reduces ulcer recurrence and rebleeding, and it is the single most valuable long-term intervention — noting that **testing in the acute bleeding setting has a high false negative rate**, so a negative result must be repeated later; *what:* biopsy urease test, urea breath test or stool antigen). Biopsy of any gastric ulcer (*why:* **gastric ulcers may be malignant and require histology and repeat endoscopy to confirm healing**; *what:* malignancy). CT angiography where endoscopy fails to identify or control the source (*why:* localises active bleeding for embolisation; *what:* contrast extravasation). CT angiography urgently where **aortoenteric fistula** is possible (*why:* the diagnosis that kills after the herald bleed; *what:* graft-bowel relationship, gas around the graft).
+
+#### 0.33.4.1 Mx – Immediate
+Resuscitate. High-dose PPI. Endoscopy within the recommended window. Reverse anticoagulation as indicated.
+
+#### 0.33.4.2 Mx – Definitive
+Endoscopic haemostasis with dual modality. **Rebleeding is managed by repeat endoscopy first**, then **angiographic embolisation**, with surgery reserved for failure of both. *H. pylori* eradication. §0.33.3 implies this sequence but does not order it.
+
+#### 0.33.4.3 Mx – Chronic/long-term
+**Confirm *H. pylori* eradication.** **Repeat endoscopy to confirm healing of a gastric ulcer and exclude malignancy.** Review NSAID use and prescribe gastroprotection where an NSAID is unavoidable. Explicit documented decision on antiplatelet and anticoagulant therapy.
 
 ### 0.33.5 Gastrointestinal Bleeding — Framework and Resuscitation — from unverified layer
 `SRC:C4_Gastrointestinal_Bleeding §0.1` `UNVERIFIED — model knowledge, not source-checked.`
