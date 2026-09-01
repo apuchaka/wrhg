@@ -1894,16 +1894,55 @@ Cause-specific. ENT or neurology referral for atypical, bilateral, recurrent or 
 Facial physiotherapy. **Follow-up to confirm recovery** — and **image anyone whose palsy has not begun to improve by three to four months.** Manage the sequelae: synkinesis (involuntary co-movement, such as eye closure on smiling), crocodile tears, and persistent weakness, for which botulinum toxin and surgical options exist. **Psychological impact is substantial and under-acknowledged** — facial appearance and expression matter enormously to people.
 
 
-### Added from unverified layer — bulbar versus pseudobulbar palsy
+### Speech, Voice and Swallowing — from unverified layer
 `SRC:D7_Cranial_Nerves_and_Special_Senses §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former bulbar-versus-pseudobulbar fragment, inheriting its cross-references and its reasoning.*
 
-> [!danger] The tongue tells you which
-> - **Bulbar palsy — LOWER motor neurone.** **Flaccid, wasted, fasciculating tongue**; absent gag; nasal speech; nasal regurgitation of fluids. Causes: motor neurone disease (§Motor Neuron Disease above), Guillain-Barré, myasthenia, brainstem lesions, poliomyelitis.
-> - **Pseudobulbar palsy — bilateral UPPER motor neurone.** **Small, spastic, immobile tongue with NO fasciculation**; **brisk jaw jerk**; slow strained speech; and **emotional lability — pathological laughing and crying**, which is characteristic and distressing to families. Causes: bilateral strokes, multiple sclerosis, motor neurone disease.
->
-> **A fasciculating tongue with brisk reflexes elsewhere is motor neurone disease until proven otherwise** — the combination is what makes MND the answer, because it is the one diagnosis that produces upper and lower motor neurone signs together.
+> [!tip] Three different problems that all sound like "trouble talking"
+> **· Dysphasia (aphasia) — a LANGUAGE problem.** The content is wrong. Dominant hemisphere.
+> **· Dysarthria — an ARTICULATION problem.** The language is intact but the production is impaired; **writing is normal.**
+> **· Dysphonia — a VOICE problem.** Volume and quality of phonation; larynx and recurrent laryngeal nerve.
+> **Asking the patient to WRITE a sentence separates dysphasia from dysarthria immediately** — the dysarthric patient writes normally, the dysphasic patient does not. That test is in [[History-Taking]]; the **jaw jerk** is described in §Cranial Nerve Disorders and Vertigo above.
 
-The pieces of this examination already exist elsewhere and are not repeated: the **jaw jerk** is described above, and **asking the patient to write** — which separates dysphasia from dysarthria in seconds, since writing is normal in dysarthria — is in [[History-Taking]]. What was missing is the two syndromes set against each other.
+> [!info] Aphasia types
+> **Broca (expressive, non-fluent)** — effortful, telegraphic, sparse output; **comprehension relatively preserved**, so **the patient knows what they want to say and cannot say it, and is visibly frustrated.** Often with a right hemiparesis.
+> **Wernicke (receptive, fluent)** — fluent, normal rhythm, but full of paraphasias and neologisms — "word salad"; **comprehension is poor and the patient is typically UNAWARE**, which is why they can be mistaken for confused or psychotic.
+> **Conduction aphasia** — fluent, good comprehension, but **repetition is disproportionately impaired.**
+> **Global aphasia** — both expressive and receptive, with large dominant hemisphere lesions.
+
+> [!info] Dysarthria types localise the lesion
+> **· Spastic** — strained, slow, effortful. **Bilateral UMN.**
+> **· Flaccid** — breathy, **nasal**, with weak consonants. **LMN or bulbar.**
+> **· Ataxic** — irregular, **"scanning"**, with variable volume and explosive bursts. **Cerebellar.**
+> **· Hypokinetic** — quiet, monotonous, rapid and festinant, with reduced articulation. **Parkinsonism.**
+> **· Hyperkinetic** — irregular interruptions. Chorea, dystonia.
+
+> [!danger] Bulbar versus pseudobulbar palsy
+> **· Bulbar palsy — LOWER motor neurone.** **Flaccid, wasted, FASCICULATING tongue; absent gag; nasal speech; nasal regurgitation of fluids.** Causes: motor neurone disease, Guillain–Barré, myasthenia, brainstem lesions, poliomyelitis.
+> **· Pseudobulbar palsy — bilateral UPPER motor neurone.** **Small, spastic, immobile tongue with NO fasciculation; BRISK jaw jerk; slow strained speech; and EMOTIONAL LABILITY (pathological laughing and crying) which is characteristic and distressing.** Causes: bilateral strokes, motor neurone disease, multiple sclerosis, extensive small vessel disease.
+> **A fasciculating tongue with brisk reflexes elsewhere is motor neurone disease until proven otherwise.**
+> The combination is what makes MND the answer, **because it is the one diagnosis that produces upper and lower motor neurone signs together.**
+
+> [!warning] Dysphagia — the first question is oropharyngeal or oesophageal
+> **· Oropharyngeal** — **difficulty INITIATING the swallow**, coughing or choking immediately, nasal regurgitation, drooling, recurrent chest infections. **Neurological or muscular.** Cross-refer `TODO:link — F3 Throat, voice & oral (unbuilt)`.
+> **· Oesophageal** — **food "sticking" seconds AFTER swallowing**, pointed to at the sternum. **Structural or motility.** Cross-refer [[13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology]] §0.3.1 Oesophageal Disease.
+> **Aspiration risk is the acute concern in oropharyngeal dysphagia.** **Nil by mouth pending a swallow screen** in any acute neurological presentation with speech or swallow disturbance — cross-refer [[04_Neurology]] Acute Stroke — Recognition and Hyperacute Management. **Silent aspiration — aspiration without coughing — is common and is precisely why a formal screen is needed rather than watching them sip water.**
+
+> [!danger] Hoarseness lasting more than about three weeks needs laryngoscopy
+> **Persistent hoarseness is laryngeal carcinoma until proven otherwise, particularly in a smoker.** It also indicates recurrent laryngeal nerve palsy — and **the left recurrent laryngeal nerve loops under the aortic arch, so a left vocal cord palsy can be caused by lung cancer, mediastinal disease, an aortic aneurysm, or thyroid or oesophageal malignancy.**
+> **A new hoarse voice is a symptom to investigate, not to treat with reassurance and voice rest.** Cross-refer `TODO:link — F3 Throat, voice & oral (unbuilt)`. `UNVERIFIED — the duration threshold for referral in current Australian guidance.`
+
+**Ix:** **Ask the patient to write** (*why:* separates dysphasia from dysarthria in seconds; *what:* normal writing in dysarthria). Full neurological examination including tongue, palate and gag (*why:* localises bulbar versus pseudobulbar; *what:* fasciculation, wasting, jaw jerk). **Formal swallow screen, then speech pathology assessment** (*why:* prevents aspiration pneumonia, and detects silent aspiration that bedside observation misses; *what:* aspiration risk). **Videofluoroscopy or fibreoptic endoscopic evaluation of swallowing** (*why:* the definitive assessment of oropharyngeal dysphagia and of silent aspiration; *what:* penetration, aspiration, residue). **Flexible nasendoscopy for hoarseness** (*why:* visualises the cords and detects malignancy and palsy; *what:* mass, cord palsy). CT chest and neck for a left vocal cord palsy (*why:* traces the recurrent laryngeal nerve along its course; *what:* lung, mediastinal, thyroid or oesophageal lesion). MRI brain (*why:* stroke, demyelination, brainstem lesion; *what:* structural cause). EMG and nerve conduction studies (*why:* motor neurone disease, myasthenia; *what:* denervation, decrement).
+
+#### Mx – Immediate — D7 §0.4.1
+**Nil by mouth pending swallow screen.** Airway protection where bulbar function is severely impaired.
+
+#### Mx – Definitive — D7 §0.4.2
+Cause-specific, with speech pathology central to management.
+
+#### Mx – Chronic/long-term — D7 §0.4.3
+Speech pathology for both communication and swallowing. Modified diets and fluids. **Communication aids — and the recognition that being unable to communicate is profoundly isolating and is a major cause of low mood after stroke.** Consideration of enteral feeding in progressive disease, ideally discussed in advance as part of advance care planning.
+
 
 
 ### Horner's Syndrome
