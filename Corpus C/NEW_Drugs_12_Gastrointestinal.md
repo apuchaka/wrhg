@@ -128,13 +128,13 @@ no_baseline: 0
 
 **Ix:** ECG with potassium and magnesium before combining QT-prolonging antiemetics (*why:* the combination in a vomiting, hypokalaemic patient is the classic torsades setup; *what:* QT interval, low potassium and magnesium).
 
-### 0.5.1 Mx – Immediate
+#### 0.2.5.1 Mx – Immediate
 Identify the mechanism, then select. Rehydrate and correct electrolytes alongside, since neither antiemetic works well in a profoundly dry, hypokalaemic patient.
 
-### 0.5.2 Mx – Definitive
+#### 0.2.5.2 Mx – Definitive
 Treat the underlying cause; antiemetics are symptomatic.
 
-### 0.5.3 Mx – Chronic/long-term
+#### 0.2.5.3 Mx – Chronic/long-term
 Review and stop antiemetics that are no longer needed, particularly metoclopramide.
 
 ## 0.3 Drugs Affecting Gastrointestinal Motility

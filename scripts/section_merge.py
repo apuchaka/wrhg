@@ -25,6 +25,19 @@ def run(cfg):
         text = text.replace(old, new)
     title = re.sub(r'^##\s*[\d.]+\s*', '', sec_lines[0])
     body = '\n'.join(text.split('\n')[1:]).strip('\n')
+    # B's internal subheadings carry ITS numbering (### 0.1.1 Mx - Immediate). Left as-is
+    # they collide with the destination's scheme and make a section number ambiguous:
+    # base-A 03_Gastrointestinal had 0 duplicate section numbers, and merging C1-C3 with
+    # B's numbers intact produced 26. Rescope them under the block's own number instead,
+    # which keeps B's structure and stays unique.
+    num_for_sub = cfg.get('number', '')
+    def _resub(m):
+        lvl, tail = m.group(1), m.group(3)
+        lvl = '#' * min(6, len(lvl) + 1)
+        if num_for_sub:
+            return f"{lvl} {num_for_sub}.{m.group(2).split('.')[-1]} {tail}"
+        return f"{lvl} {tail}"
+    body = re.sub(r'(?m)^(#{3,6})\s+(\d+\.[\d.]+)\s+(.*)$', _resub, body)
     nb = ("\n`NO-BASELINE — absent from the corpus before this merge; no inherited layer "
           "disagrees with it.`") if cfg.get('no_baseline') else ""
     note = f"\n*{cfg['note']}*" if cfg.get('note') else ""

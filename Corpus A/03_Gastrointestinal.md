@@ -1655,13 +1655,13 @@ Two complications of portal hypertension that are respiratory rather than abdomi
 
 **Ix:** See 0.2, which sets out the core panel for every acute abdomen.
 
-### 0.1.1 Mx – Immediate
+#### 0.41.3.1 Mx – Immediate
 A–E, resuscitation, analgesia, nil by mouth, IV fluids, and early surgical involvement where a surgical cause is plausible.
 
-### 0.1.2 Mx – Definitive
+#### 0.41.3.2 Mx – Definitive
 Cause-specific.
 
-### 0.1.3 Mx – Chronic/long-term
+#### 0.41.3.3 Mx – Chronic/long-term
 Follow-up of any patient discharged with "non-specific abdominal pain" — a defined review, because a proportion have a diagnosis that declares itself over the following days.
 
 ### 0.41.4 Assessment, Peritonism and the Core Investigations — from unverified layer
@@ -1697,13 +1697,13 @@ Follow-up of any patient discharged with "non-specific abdominal pain" — a def
 
 **Ix — the core panel for every acute abdomen:** **Pregnancy test (β-hCG) in every woman of reproductive age** (*why:* ectopic pregnancy is the diagnosis that kills young women presenting with abdominal pain, and it also determines imaging choice; *what:* positive test). FBC (*why:* leucocytosis supports inflammation and a falling haemoglobin suggests bleeding, with the caveat that **a normal white cell count does not exclude a surgical abdomen**, particularly in the elderly; *what:* white cell count, haemoglobin). UEC (*why:* renal function, hydration, and electrolyte derangement from vomiting; *what:* urea, creatinine, potassium). **Lipase or amylase** (*why:* diagnoses pancreatitis, which is managed medically and would otherwise proceed to unnecessary laparotomy — lipase is more specific and remains elevated longer; *what:* marked elevation). LFT (*why:* separates hepatic from biliary from non-hepatobiliary causes, and an obstructive pattern points to stones or malignancy; *what:* raised ALP and GGT versus transaminases, bilirubin). **VBG with lactate** (*why:* a raised lactate in an abdomen with unimpressive signs is the single most important pointer to **mesenteric ischaemia** or established sepsis; *what:* metabolic acidosis, raised lactate). CRP (*why:* supports inflammation and tracks response, though it lags by hours and a normal value early does not exclude; *what:* elevation). Group and hold or crossmatch (*why:* many of these patients go to theatre or bleed; *what:* units available). **ECG** (*why:* inferior myocardial infarction presents as epigastric pain, and it costs nothing; *what:* ischaemic change). Urinalysis (*why:* infection, haematuria in renal colic — with the caveat that **haematuria also occurs in a leaking aortic aneurysm** and does not confirm a stone; *what:* blood, leucocytes, nitrites). **Erect chest radiograph** (*why:* free gas under the diaphragm indicates perforation, and it also identifies the lower lobe pneumonia that mimics an acute abdomen; *what:* free subdiaphragmatic gas, consolidation). **CT abdomen and pelvis with contrast** (*why:* the investigation that resolves most acute abdomens, identifies the cause and stages the complication; *what:* free gas, collection, obstruction, ischaemia, inflammation — `UNVERIFIED — contrast protocols and the indications for oral, IV and rectal contrast differ by suspected pathology and by institution`). Ultrasound as first-line in **suspected biliary disease, in pregnancy, in children, and in suspected gynaecological pathology** (*why:* avoids radiation, is highly sensitive for gallstones and for free fluid, and is the appropriate first test in those groups; *what:* stones, wall thickening, free fluid, adnexal mass).
 
-### 0.2.1 Mx – Immediate
+#### 0.41.4.1 Mx – Immediate
 Resuscitate, analgesia, antiemetic, nil by mouth, IV fluids. Nasogastric tube where there is obstruction with vomiting. Antibiotics where perforation or sepsis is suspected. **Involve the surgical team early rather than after all results return.**
 
-### 0.2.2 Mx – Definitive
+#### 0.41.4.2 Mx – Definitive
 Cause-specific. **Serial examination by the same clinician is a legitimate and valuable investigation** in an equivocal abdomen — the evolution over hours frequently makes the diagnosis where a single assessment cannot.
 
-### 0.2.3 Mx – Chronic/long-term
+#### 0.41.4.3 Mx – Chronic/long-term
 Clear discharge advice with return criteria for anyone sent home undiagnosed.
 
 > [!fail]- CONFLICT CF-038 — is rebound tenderness elicited, or abandoned? **R3**
@@ -1738,13 +1738,13 @@ Clear discharge advice with return criteria for anyone sent home undiagnosed.
 
 **Ix:** **Serial lactate** (*why:* the most useful single marker in a generalised abdomen with equivocal signs; *what:* elevation, and failure to clear). **CT angiography** where mesenteric ischaemia is suspected (*why:* the diagnostic test, and delay costs bowel and life; *what:* arterial occlusion, bowel wall changes, pneumatosis, portal venous gas). **Bedside aortic ultrasound** (*why:* fast, and can identify an aneurysm before the patient is moved; *what:* aortic diameter, free fluid). Erect CXR and CT (*why:* free gas; *what:* perforation). **Diagnostic ascitic tap** in any patient with ascites and abdominal pain or fever (*why:* SBP is diagnosed by neutrophil count on the ascitic fluid and is otherwise missed; *what:* ascitic neutrophil count and culture — `UNVERIFIED — the diagnostic neutrophil threshold`). ECG and troponin, glucose and ketones (*why:* the extra-abdominal causes; *what:* infarction, DKA).
 
-### 0.9.1 Mx – Immediate
+#### 0.41.5.1 Mx – Immediate
 Resuscitate aggressively. Nil by mouth, nasogastric tube for obstruction, IV fluids, broad-spectrum antibiotics where perforation or ischaemia is suspected, analgesia. **Immediate surgical and, where relevant, vascular involvement.** Do not delay theatre for imaging in an unstable patient with a suspected ruptured aneurysm.
 
-### 0.9.2 Mx – Definitive
+#### 0.41.5.2 Mx – Definitive
 Laparotomy, revascularisation, resection, or endovascular repair as indicated.
 
-### 0.9.3 Mx – Chronic/long-term
+#### 0.41.5.3 Mx – Chronic/long-term
 Anticoagulation and rhythm management where an embolic source is found. Cardiovascular secondary prevention. Nutritional support and stoma care after extensive resection.
 
 ### 0.41.6 The Acute Abdomen in Special Groups — from unverified layer
@@ -1777,13 +1777,13 @@ Anticoagulation and rhythm management where an embolic source is found. Cardiova
 
 **Ix:** Group-specific, with the general principle that in **all four groups the threshold for imaging should be lower than the clinical findings suggest**, because the findings are unreliable.
 
-### 0.11.1 Mx – Immediate
+#### 0.41.6.1 Mx – Immediate
 Standard resuscitation, with early senior and specialty involvement. In pregnancy, involve obstetrics from the outset and position the patient in left lateral tilt after the mid-second trimester to avoid aortocaval compression.
 
-### 0.11.2 Mx – Definitive
+#### 0.41.6.2 Mx – Definitive
 Cause-specific. **Surgery is not contraindicated in pregnancy** and a necessary operation should not be delayed — delay harms the fetus more than the operation does.
 
-### 0.11.3 Mx – Chronic/long-term
+#### 0.41.6.3 Mx – Chronic/long-term
 Group-appropriate follow-up, including obstetric review after any operative intervention in pregnancy.
 
 ### 0.41.7 Bilious versus Non-Bilious Vomiting — from unverified layer
@@ -1812,17 +1812,17 @@ Group-appropriate follow-up, including obstetric review after any operative inte
 
 **Ix:** **Urgent upper GI contrast study in a neonate with bilious vomiting** (*why:* it identifies malrotation by showing an abnormally positioned duodenojejunal flexure, and it is the test that must not be delayed; *what:* abnormal DJ flexure position, corkscrew duodenum). Abdominal radiograph (*why:* the "double bubble" of duodenal atresia, dilated loops, or a gasless abdomen in volvulus; *what:* gas pattern). **Ultrasound for suspected pyloric stenosis** (*why:* measures pyloric muscle thickness and channel length and is the diagnostic test; *what:* thickened pylorus — `UNVERIFIED — the measurement thresholds`). **UEC with chloride and a blood gas in any vomiting infant** (*why:* identifies the alkalosis that must be corrected before anaesthesia; *what:* hypochloraemic hypokalaemic alkalosis). CT abdomen in adults (*why:* identifies the obstruction and its transition point and cause; *what:* transition point, mass, hernia). Gastroscopy for suspected gastric outlet obstruction (*why:* distinguishes benign scarring from malignancy and permits biopsy and dilatation; *what:* stricture, tumour).
 
-### 0.3.1 Mx – Immediate
+#### 0.41.7.1 Mx – Immediate
 **Neonate with bilious vomiting: nil by mouth, nasogastric decompression, IV fluids, urgent surgical referral and urgent contrast study.**
 **Infant with suspected pyloric stenosis: nasogastric decompression, IV fluid and electrolyte correction. Do not send to theatre until the alkalosis and hypokalaemia are corrected.**
 
-### 0.3.2 Mx – Definitive
+#### 0.41.7.2 Mx – Definitive
 Ladd procedure for malrotation. Pyloromyotomy for pyloric stenosis. Adult obstruction managed per §0.19 / §0.20 Bowel Obstruction.
 
-### 0.3.3 Mx – Chronic/long-term
+#### 0.41.7.3 Mx – Chronic/long-term
 Feeding re-establishment and growth monitoring. Parental education.
 
-### 0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification
+#### 0.41.7.8 Added from unverified layer — jaundice: mechanism and the three-way classification
 `SRC:C3_Jaundice_and_Liver_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
 
 **A/P:** senescent red cells are broken down in the reticuloendothelial system → haem → biliverdin → **unconjugated bilirubin**, which is lipid-soluble, tightly albumin-bound and therefore **cannot be filtered by the glomerulus** → transported to the liver → taken up by hepatocytes → **conjugated with glucuronic acid by UGT1A1** → **conjugated bilirubin**, which is water-soluble → excreted in bile → converted by gut bacteria to urobilinogen and stercobilin, which colours the stool.
@@ -1847,7 +1847,7 @@ Feeding re-establishment and growth monitoring. Parental education.
 
 ---
 
-### 0.41.9 Added from unverified layer — the distended abdomen
+#### 0.41.7.9 Added from unverified layer — the distended abdomen
 `SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.5` `UNVERIFIED — model knowledge, not source-checked.`
 
 > [!tip] The six Fs
@@ -1886,13 +1886,13 @@ Distinguishing the rest: **ascites** — shifting dullness, fluid thrill, flank 
 
 **Ix:** LFT (*why:* separates hepatocellular from obstructive patterns, directing you to hepatitis versus stones; *what:* transaminases versus ALP/GGT and bilirubin). **Ultrasound of the biliary tree** (*why:* the first-line test — highly sensitive for gallstones, and shows wall thickening, pericholecystic fluid and duct dilatation; *what:* stones, thickened wall, sonographic Murphy sign, dilated CBD). Lipase (*why:* excludes pancreatitis, which coexists; *what:* elevation). MRCP where duct stones are suspected but not seen (*why:* non-invasive assessment of the duct before committing to ERCP; *what:* duct stone). HIDA scan where the diagnosis remains uncertain (*why:* non-filling of the gallbladder confirms cystic duct obstruction; *what:* non-visualisation). CXR (*why:* right lower lobe pneumonia and free gas; *what:* consolidation, free air).
 
-### 0.3.1 Mx – Immediate
+#### 0.41.10.1 Mx – Immediate
 Analgesia, antiemetic, nil by mouth, fluids. Antibiotics for cholecystitis or cholangitis. **Urgent biliary drainage for cholangitis.**
 
-### 0.3.2 Mx – Definitive
+#### 0.41.10.2 Mx – Definitive
 **Cholecystectomy**, with laparoscopic surgery during the index admission generally preferred for acute cholecystitis over delayed interval surgery. ERCP for duct stones. Percutaneous cholecystostomy in patients unfit for surgery.
 
-### 0.3.3 Mx – Chronic/long-term
+#### 0.41.10.3 Mx – Chronic/long-term
 Dietary advice pending surgery. Interval cholecystectomy after gallstone pancreatitis, ideally before discharge or soon after, since recurrence risk while waiting is significant.
 
 ### 0.41.11 Epigastric Pain — from unverified layer
@@ -1912,13 +1912,13 @@ Dietary advice pending surgery. Interval cholecystectomy after gallstone pancrea
 
 **Ix:** **ECG and troponin** (*why:* excludes the cardiac cause, which is the one that kills fastest and is treated entirely differently; *what:* ischaemic change, troponin rise). **Lipase** (*why:* diagnoses pancreatitis; *what:* marked elevation). **Erect CXR** (*why:* free gas from perforation, and mediastinal air in oesophageal rupture; *what:* free subdiaphragmatic gas, pneumomediastinum). *H. pylori* testing (*why:* eradication heals ulcers and prevents recurrence, and it is a treatable cause of a common problem; *what:* urea breath test, stool antigen or biopsy — `UNVERIFIED — testing method, and the requirement to withhold PPIs and antibiotics beforehand`). Gastroscopy (*why:* diagnoses ulcer and malignancy and permits biopsy and haemostasis; *what:* ulcer, malignancy, oesophagitis). CT where perforation or vascular pathology is suspected (*why:* localises perforation and identifies aneurysm; *what:* free gas, aneurysm, extravasation).
 
-### 0.4.1 Mx – Immediate
+#### 0.41.11.1 Mx – Immediate
 Resuscitate. **Perforation: nil by mouth, nasogastric tube, IV fluids, broad-spectrum antibiotics, analgesia, and urgent surgical referral.** Proton pump inhibitor. Treat pancreatitis medically.
 
-### 0.4.2 Mx – Definitive
+#### 0.41.11.2 Mx – Definitive
 Surgical repair of perforation. Endoscopic management of bleeding ulcer. *H. pylori* eradication. Pancreatitis management per §0.11 Acute Pancreatitis.
 
-### 0.4.3 Mx – Chronic/long-term
+#### 0.41.11.3 Mx – Chronic/long-term
 **Confirm eradication of *H. pylori* and confirm ulcer healing**, particularly for gastric ulcers, where **repeat endoscopy with biopsy is required to exclude malignancy.** Review NSAID and aspirin use.
 
 ### 0.41.12 Left Upper Quadrant Pain — from unverified layer
@@ -1936,13 +1936,13 @@ Surgical repair of perforation. Endoscopic management of bleeding ulcer. *H. pyl
 
 **Ix:** CT abdomen with contrast (*why:* the definitive test for splenic and pancreatic pathology and for colonic ischaemia; *what:* infarct, laceration, abscess, colonic wall changes). FBC and film (*why:* haematological cause of splenomegaly, and falling haemoglobin in rupture; *what:* cytopenias, atypical lymphocytes, falling haemoglobin). Monospot or EBV serology where splenomegaly in a young person (*why:* identifies infectious mononucleosis and mandates activity restriction; *what:* positive serology). Blood cultures and echocardiography where abscess or infarct (*why:* endocarditis as an embolic source; *what:* organism, vegetation). CXR (*why:* left lower lobe pneumonia; *what:* consolidation).
 
-### 0.5.1 Mx – Immediate
+#### 0.41.12.1 Mx – Immediate
 Resuscitate for splenic rupture — this can bleed catastrophically. Urgent surgical involvement.
 
-### 0.5.2 Mx – Definitive
+#### 0.41.12.2 Mx – Definitive
 Splenic preservation where possible; embolisation or splenectomy for significant injury. Treat the underlying cause.
 
-### 0.5.3 Mx – Chronic/long-term
+#### 0.41.12.3 Mx – Chronic/long-term
 **Post-splenectomy care is a recurring exam topic and a genuine clinical duty**: immunisation against encapsulated organisms (pneumococcus, meningococcus, *Haemophilus influenzae* type b), annual influenza vaccination, antibiotic prophylaxis, a medical alert card, and clear education about seeking urgent care with any fever. `UNVERIFIED — vaccination schedule, timing relative to splenectomy, and prophylaxis regimen and duration from the Australian Immunisation Handbook and eTG.`
 
 ### 0.41.13 Right Lower Quadrant (Right Iliac Fossa) Pain — from unverified layer
@@ -1975,13 +1975,13 @@ Splenic preservation where possible; embolisation or splenectomy for significant
 
 **Ix:** **Pregnancy test** (*why:* the first branch point in any woman of reproductive age; *what:* positive). FBC, CRP (*why:* support inflammation, though **normal values do not exclude appendicitis**, particularly early; *what:* leucocytosis, raised CRP). Urinalysis (*why:* excludes urinary tract infection and identifies the haematuria of ureteric colic — noting **pyuria occurs in appendicitis** when the inflamed appendix lies against the ureter or bladder, so an abnormal urine does not exclude it; *what:* leucocytes, blood, nitrites). **CT abdomen and pelvis** in adults (*why:* the most accurate test, reducing negative appendicectomy rates, and identifies the alternative diagnoses; *what:* dilated appendix, wall thickening, fat stranding, appendicolith, alternative pathology). **Ultrasound first in children, young women and pregnancy** (*why:* avoids radiation in radiosensitive groups and assesses the adnexa; *what:* non-compressible appendix, adnexal pathology, free fluid — noting a non-visualised appendix on ultrasound does not exclude appendicitis). MRI in pregnancy where ultrasound is non-diagnostic (*why:* avoids ionising radiation while providing adequate imaging; *what:* appendiceal inflammation).
 
-### 0.6.1 Mx – Immediate
+#### 0.41.13.1 Mx – Immediate
 Nil by mouth, IV fluids, analgesia, antiemetic. Antibiotics per local protocol. Surgical referral.
 
-### 0.6.2 Mx – Definitive
+#### 0.41.13.2 Mx – Definitive
 **Laparoscopic appendicectomy** remains standard. **Antibiotic-first management of uncomplicated appendicitis is an established alternative** in selected patients, with a meaningful recurrence rate — worth knowing as it appears in exams and increasingly in practice. `UNVERIFIED — selection criteria and recurrence rates.` Urgent surgery for ovarian torsion. Drainage of an appendiceal abscess with interval appendicectomy in some pathways.
 
-### 0.6.3 Mx – Chronic/long-term
+#### 0.41.13.3 Mx – Chronic/long-term
 Histology review — **an appendiceal neuroendocrine tumour or mucinous neoplasm is an occasional incidental finding requiring further management**, so the result must be checked and acted on rather than assumed benign.
 
 ### 0.41.14 Left Lower Quadrant (Left Iliac Fossa) Pain — from unverified layer
@@ -2002,13 +2002,13 @@ Histology review — **an appendiceal neuroendocrine tumour or mucinous neoplasm
 
 **Ix:** As per the core panel. **CT abdomen and pelvis with contrast** (*why:* confirms diverticulitis, grades complications, identifies an abscess amenable to drainage, and detects the perforation or malignancy that changes management; *what:* wall thickening, fat stranding, abscess, free gas). Pregnancy test and pelvic ultrasound in women of reproductive age (*why:* the gynaecological differential; *what:* ectopic, adnexal pathology). Stool culture and *C. difficile* toxin where diarrhoea is prominent (*why:* infective colitis; *what:* pathogen). Faecal calprotectin and inflammatory markers where inflammatory bowel disease is suspected (*why:* distinguishes inflammatory from functional bowel disease; *what:* raised calprotectin).
 
-### 0.7.1 Mx – Immediate
+#### 0.41.14.1 Mx – Immediate
 Analgesia, fluids, bowel rest where symptoms are significant, antibiotics for complicated disease. Surgical referral where there is peritonism, abscess or failure to improve.
 
-### 0.7.2 Mx – Definitive
+#### 0.41.14.2 Mx – Definitive
 Radiological drainage of an abscess. Surgery — resection with or without stoma — for perforation, failure of medical management, or recurrent disease. Cross-refer §0.19 / §0.20 Bowel Obstruction.
 
-### 0.7.3 Mx – Chronic/long-term
+#### 0.41.14.3 Mx – Chronic/long-term
 **Interval colonoscopy after an episode of diverticulitis.** Dietary fibre advice. Discussion of elective resection in recurrent disease.
 
 ### 0.41.15 Suprapubic Pain — from unverified layer
@@ -2029,13 +2029,13 @@ Radiological drainage of an abscess. Surgery — resection with or without stoma
 
 **Ix:** **Bladder scan** (*why:* immediate, non-invasive, and identifies retention which is instantly treatable; *what:* retained volume). Pregnancy test (*why:* as always; *what:* positive). Urinalysis and culture (*why:* infection; *what:* leucocytes, nitrites, organism). **Endocervical and vaginal swabs including chlamydia and gonorrhoea NAAT** where PID is suspected (*why:* identifies the organism and has partner notification implications; *what:* positive NAAT). Pelvic ultrasound, transvaginal where appropriate (*why:* assesses adnexa, uterus and free fluid; *what:* tubo-ovarian abscess, ectopic, cyst, fibroid). CT where a bowel cause is likely (*why:* diverticulitis and collections; *what:* inflammation, abscess).
 
-### 0.8.1 Mx – Immediate
+#### 0.41.15.1 Mx – Immediate
 **Catheterise for retention.** Analgesia. Empirical antibiotics for PID or urinary infection.
 
-### 0.8.2 Mx – Definitive
+#### 0.41.15.2 Mx – Definitive
 Cause-specific. Treat the cause of retention — cross-refer `TODO:link — H2 LUTS, retention & incontinence (unbuilt)`.
 
-### 0.8.3 Mx – Chronic/long-term
+#### 0.41.15.3 Mx – Chronic/long-term
 Partner notification and contact tracing for PID. Follow-up for recurrent retention or infection.
 
 ### 0.41.16 Nausea and Vomiting — Mechanism — from unverified layer
@@ -2063,13 +2063,13 @@ Partner notification and contact tracing for PID. Follow-up for recurrent retent
 
 **Ix:** Directed by the differential in 0.2.
 
-### 0.1.1 Mx – Immediate
+#### 0.41.16.1 Mx – Immediate
 Assess volume status and treat dehydration. Antiemetic matched to mechanism.
 
-### 0.1.2 Mx – Definitive
+#### 0.41.16.2 Mx – Definitive
 Treat the cause.
 
-### 0.1.3 Mx – Chronic/long-term
+#### 0.41.16.3 Mx – Chronic/long-term
 Address recurrent or chronic causes as in 0.4.
 
 ### 0.41.17 Acute Vomiting — Differential and Red Flags — from unverified layer
@@ -2106,13 +2106,13 @@ Address recurrent or chronic causes as in 0.4.
 
 **Ix:** **UEC with chloride and bicarbonate** (*why:* protracted vomiting causes hypokalaemic hypochloraemic metabolic alkalosis, and the pattern itself supports the diagnosis and guides replacement; *what:* low potassium and chloride, raised bicarbonate, raised urea). **Bedside glucose and ketones** (*why:* DKA presents with vomiting and abdominal pain and is rapidly fatal if missed; *what:* hyperglycaemia with ketosis — noting **euglycaemic DKA on SGLT2 inhibitors**, cross-refer [[06_Metabolic_Medicine_and_Endocrinology]] Diabetic Ketoacidosis (DKA)). **Pregnancy test in every woman of reproductive age** (*why:* pregnancy is a common cause and changes both the differential and the drug choices; *what:* positive). **Calcium** (*why:* hypercalcaemia causes vomiting, constipation and confusion and is a marker of malignancy; *what:* raised corrected calcium). FBC and CRP (*why:* infection and inflammation; *what:* leucocytosis). LFT and lipase (*why:* hepatobiliary and pancreatic causes; *what:* obstructive pattern, raised lipase). **ECG** (*why:* inferior infarction; *what:* ischaemic change). Urinalysis and culture (*why:* urinary infection as an occult cause, particularly in the elderly and in children; *what:* infection). Drug levels where relevant — **digoxin** in particular (*why:* toxicity presents with nausea, vomiting and visual disturbance and is treatable; *what:* level with potassium and renal function). **Erect abdominal and chest radiograph, or CT** where obstruction is suspected (*why:* identifies obstruction, perforation and the transition point; *what:* dilated loops, air-fluid levels, free gas). **CT brain** where there are neurological features or a raised-ICP pattern (*why:* excludes a space-occupying lesion or haemorrhage; *what:* mass, hydrocephalus, haemorrhage).
 
-### 0.2.1 Mx – Immediate
+#### 0.41.17.1 Mx – Immediate
 IV fluids with potassium replacement. Antiemetic matched to cause. **Nasogastric tube for obstruction** — decompression relieves symptoms and reduces aspiration risk. Nil by mouth where obstruction or a surgical cause is suspected.
 
-### 0.2.2 Mx – Definitive
+#### 0.41.17.2 Mx – Definitive
 Cause-specific.
 
-### 0.2.3 Mx – Chronic/long-term
+#### 0.41.17.3 Mx – Chronic/long-term
 Oral rehydration education. Review of any drug identified as the cause.
 
 ### 0.41.18 Chronic and Refractory Nausea and Vomiting — from unverified layer
@@ -2142,13 +2142,13 @@ Oral rehydration education. Review of any drug identified as the cause.
 
 **Ix:** **Gastroscopy** (*why:* excludes mechanical obstruction, ulceration and malignancy, which must be done before a functional or motility diagnosis; *what:* obstruction, ulcer, tumour). Gastric emptying study (*why:* confirms gastroparesis objectively, since symptoms correlate poorly with emptying; *what:* delayed emptying). **CT abdomen** (*why:* extrinsic compression, malignancy, mesenteric vascular disease; *what:* mass, obstruction). **CT or MRI brain where the pattern suggests raised intracranial pressure** (*why:* a slowly growing posterior fossa lesion can present as chronic unexplained vomiting; *what:* mass, hydrocephalus). UEC, calcium, glucose, HbA1c (*why:* metabolic causes and diabetic control as a driver of gastroparesis; *what:* derangement, glycaemic control). **Morning cortisol or short synacthen test** (*why:* adrenal insufficiency causes chronic nausea and is easily missed; *what:* low cortisol). TFTs (*why:* thyroid disease in both directions; *what:* abnormal TSH). **Direct enquiry about cannabis use and hot showers** (*why:* it makes the diagnosis of cannabinoid hyperemesis, and no test will; *what:* the history). Full medication review (*why:* drugs are among the commonest causes and are reversible; *what:* culprit agent).
 
-### 0.4.1 Mx – Immediate
+#### 0.41.18.1 Mx – Immediate
 Rehydration and electrolyte correction. Antiemetic matched to mechanism.
 
-### 0.4.2 Mx – Definitive
+#### 0.41.18.2 Mx – Definitive
 Cause-specific. Cannabis cessation. Glycaemic optimisation and dietary modification for gastroparesis. Drug withdrawal where iatrogenic.
 
-### 0.4.3 Mx – Chronic/long-term
+#### 0.41.18.3 Mx – Chronic/long-term
 Dietitian involvement for gastroparesis and for weight loss. Psychological support where symptoms are chronic and functional — this is not a dismissal but a legitimate and effective component of management. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
 
 ### 0.41.19 Appetite Change, Early Satiety and Anorexia — from unverified layer
@@ -2169,13 +2169,13 @@ Dietitian involvement for gastroparesis and for weight loss. Psychological suppo
 
 **Ix:** FBC, UEC, LFT, calcium, CRP, TFTs, HbA1c (*why:* the baseline that identifies most metabolic, inflammatory and endocrine causes; *what:* anaemia, renal or hepatic disease, hypercalcaemia, thyroid dysfunction). **CT abdomen and pelvis** where early satiety, weight loss or a mass (*why:* identifies gastric, pancreatic and ovarian malignancy and ascites; *what:* mass, ascites, organomegaly). **CA-125 with pelvic ultrasound in a woman with bloating and early satiety** (*why:* ovarian cancer presents exactly this way and is missed by attributing it to bowel symptoms; *what:* raised CA-125, adnexal mass — noting CA-125 lacks specificity and is used alongside imaging, not alone). Gastroscopy (*why:* gastric malignancy and outlet obstruction; *what:* tumour, stricture). Nutritional assessment including weight trajectory and a validated screening tool (*why:* quantifies malnutrition, which independently worsens outcomes and is treatable; *what:* degree of malnutrition). **Direct enquiry about mood** (*why:* depression is the commonest treatable cause of anorexia and will not appear on any blood test; *what:* depressive symptoms). Oral and dental examination (*why:* a mechanical, correctable cause; *what:* dentition, ulceration, candidiasis).
 
-### 0.6.1 Mx – Immediate
+#### 0.41.19.1 Mx – Immediate
 Not usually required.
 
-### 0.6.2 Mx – Definitive
+#### 0.41.19.2 Mx – Definitive
 Cause-specific.
 
-### 0.6.3 Mx – Chronic/long-term
+#### 0.41.19.3 Mx – Chronic/long-term
 Dietitian involvement, nutritional supplementation where indicated, treatment of depression, dental review, and management of the underlying condition.
 
 ### 0.41.20 Complications of Vomiting — from unverified layer
@@ -2198,13 +2198,13 @@ Dietitian involvement, nutritional supplementation where indicated, treatment of
 
 **Ix:** **UEC with chloride, magnesium and phosphate** (*why:* identifies the alkalosis, the potassium and chloride deficit, and the refeeding risk; *what:* the electrolyte pattern). VBG (*why:* quantifies the alkalosis rapidly; *what:* raised pH and bicarbonate). Thiamine is **given, not measured** (*why:* the assay is slow, the treatment is safe, and the consequence of delay is irreversible; *what:* treat empirically). CXR (*why:* aspiration, and pneumomediastinum in oesophageal rupture; *what:* infiltrates, mediastinal air). CT chest with oral contrast where Boerhaave is suspected (*why:* the diagnostic test; *what:* extraluminal contrast, mediastinal air).
 
-### 0.7.1 Mx – Immediate
+#### 0.41.20.1 Mx – Immediate
 **Thiamine before glucose.** Fluid resuscitation with sodium chloride and potassium replacement. Antiemetics. Protect the airway where conscious state is reduced.
 
-### 0.7.2 Mx – Definitive
+#### 0.41.20.2 Mx – Definitive
 Treat the cause of the vomiting. Surgical management of oesophageal rupture.
 
-### 0.7.3 Mx – Chronic/long-term
+#### 0.41.20.3 Mx – Chronic/long-term
 Nutritional rehabilitation with refeeding precautions. Dental review after chronic vomiting. Cross-refer `TODO:link — N8 Eating & body image (unbuilt)` where the vomiting is self-induced.
 
 
