@@ -2087,6 +2087,33 @@ Cause-specific.
 #### Mx – Chronic/long-term — D5 §0.6.3
 Management of oscillopsia, and low vision support where relevant.
 
+### Cranial Nerve Localisation — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** Cranial nerves can be affected at four levels — **supranuclear** (cortex and descending pathways), **nuclear** (brainstem), **fascicular/peripheral** (the nerve itself), or at the **neuromuscular junction or muscle.** The distinction matters because it changes the differential entirely.
+
+> [!tip] Anatomical clusters — which nerves travel together
+> **Cranial nerves rarely fail alone by chance. When several are involved, the combination localises the lesion.**
+> **· Midbrain** — III, IV.
+> **· Pons** — V, VI, VII, VIII.
+> **· Medulla** — IX, X, XI, XII.
+> **· Cavernous sinus** — **III, IV, V1, V2, VI, plus the sympathetic fibres (Horner syndrome).** Note **V3 is spared**, because it does not pass through the sinus.
+> **· Superior orbital fissure** — III, IV, V1, VI.
+> **· Cerebellopontine angle** — **V, VII, VIII**, with cerebellar signs.
+> **· Jugular foramen** — **IX, X, XI.**
+> **· Orbital apex** — the superior orbital fissure nerves plus **II**, so vision is affected.
+
+> [!danger] Multiple cranial neuropathies are never trivial
+> Two or more cranial nerves failing together points to: **skull base tumour · meningeal disease (carcinomatous or tuberculous meningitis) · Guillain–Barré variants including Miller Fisher · sarcoidosis · vasculitis · diabetes · basilar aneurysm · brainstem lesion.**
+> **This warrants MRI with contrast and usually a lumbar puncture**, not observation.
+
+> [!tip] The corneal reflex is more useful than it looks
+> **Afferent V1, efferent VII (bilateral).** So a lesion of either nerve abolishes or reduces it.
+> **A reduced corneal reflex is often the EARLIEST objective sign of a cerebellopontine angle lesion such as a vestibular schwannoma**, appearing before facial weakness. It is worth testing in anyone with unilateral hearing loss or tinnitus.
+
+**Ix:** **MRI with contrast** is the imaging of choice for cranial nerve pathology (*why:* CT is inadequate for the brainstem, skull base and cranial nerves; *what:* nerve enhancement, mass, demyelination). Lumbar puncture where meningeal or inflammatory disease is suspected (*why:* malignant meningitis, infection, GBS variants; *what:* cells, protein, cytology, oligoclonal bands).
+
+
 
 ## Strokes
 
