@@ -2194,6 +2194,55 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 
 ---
 
+### Peripheral Neuropathy — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Dysfunction of peripheral nerves, most commonly a **length-dependent, symmetrical sensorimotor polyneuropathy** — the longest axons fail first, producing the classic **glove-and-stocking** distribution starting in the toes.
+
+> [!tip] The patterns, and what each implies
+> **Length-dependent sensorimotor** — the commonest. Starts in the feet, ascends; hands become involved once the legs are affected to around knee level.
+> **Small fibre** — pain, burning, temperature loss, and autonomic features. **Nerve conduction studies are NORMAL**, because they test large fibres — so a normal study does not exclude a small fibre neuropathy, which is a frequent source of the patient being told "there's nothing wrong."
+> **Large fibre** — proprioceptive loss, sensory ataxia, **positive Romberg**, areflexia.
+> **Motor-predominant** — think **GBS, CIDP, lead, porphyria, hereditary neuropathy.**
+> **Mononeuritis multiplex** — see 0.4; this pattern is a red flag.
+
+> [!tip] Causes
+> **Diabetes** — by far the commonest in Australia.
+> **Alcohol** — direct toxicity plus thiamine deficiency.
+> **Nutritional** — **B12** (and note **B6 causes neuropathy in both deficiency AND excess**, the latter from supplements), thiamine, folate, vitamin E, and copper.
+> **Drugs and toxins** — **chemotherapy (vincristine, platinum agents, taxanes)**, isoniazid, metronidazole, amiodarone, nitrofurantoin, phenytoin, and lead or other heavy metals.
+> **Immune** — **Guillain–Barré syndrome** (acute) and **CIDP** (chronic and, importantly, **treatable**).
+> **Hereditary** — **Charcot-Marie-Tooth**: high arches (pes cavus), hammer toes, "inverted champagne bottle" legs from distal wasting, and a family history that may not be volunteered until you examine the parents' feet.
+> **Systemic** — chronic kidney disease, hypothyroidism, amyloidosis, sarcoidosis, connective tissue disease and vasculitis.
+> **Paraneoplastic and paraproteinaemic** — check a paraprotein in unexplained neuropathy.
+> **Infective** — HIV, hepatitis B and C, Lyme disease, **leprosy** (still the commonest infectious cause globally, with thickened palpable nerves).
+
+> [!danger] Diabetic neuropathy — painless ulceration is what costs the foot
+> The dangerous consequence is not the pain; it is the **loss of protective sensation**, so trauma, pressure and infection go unnoticed until an ulcer is established.
+> **Every diabetic needs regular foot examination**: monofilament testing for protective sensation, vibration, pulses, inspection between the toes, and footwear assessment.
+> **Charcot neuroarthropathy** — a hot, swollen, red foot in a neuropathic diabetic, frequently misdiagnosed as cellulitis or gout. **It requires immediate offloading and non-weight-bearing**, because continued walking on it destroys the architecture of the foot permanently.
+> Cross-refer `TODO:link — I2 Glucose (unbuilt)` and [[01_Cardiovascular]] §0.36.1 Peripheral Arterial Disease (PAD).
+
+> [!warning] Neuropathic pain — and what not to use
+> Treated with **tricyclics (amitriptyline, nortriptyline), duloxetine, and gabapentinoids (gabapentin, pregabalin)**, alongside non-pharmacological measures.
+> **Opioids are ineffective for most neuropathic pain and cause harm**, and reaching for them is a common error.
+> **Pregabalin misuse and diversion is a recognised problem in Australia**, and it is a monitored drug — **check ScriptCheckSA obligations** and be deliberate about prescribing it, particularly in patients with a substance use history. Cross-refer [[NEW_Drugs_03_Analgesics]] §0.4 Drugs for Pain Relief.
+> `UNVERIFIED — all agents, doses, titration and current prescribing requirements.`
+
+**S/Smx:** Numbness, tingling, burning, allodynia, unsteadiness worse in the dark or with eyes closed, distal weakness, foot drop, and painless injury. Examine for the distribution, reflexes, proprioception and vibration, foot deformity, and skin and nail changes.
+
+**Ix:** **Glucose and HbA1c, and consider an oral glucose tolerance test** (*why:* diabetes is the commonest cause, and **impaired glucose tolerance short of diabetes also causes neuropathy**, so a normal fasting glucose does not exclude it; *what:* hyperglycaemia, impaired tolerance). **B12 and folate** (*why:* treatable, and B12 deficiency causes a combined neuropathy and myelopathy; *what:* deficiency — with **methylmalonic acid or homocysteine where B12 is borderline**, since functional deficiency occurs at "low-normal" levels). UEC and eGFR (*why:* uraemic neuropathy; *what:* renal impairment). LFT and GGT (*why:* alcohol; *what:* the pattern). TFTs (*why:* hypothyroid neuropathy; *what:* raised TSH). **Serum protein electrophoresis and free light chains** (*why:* paraproteinaemic neuropathy and amyloidosis are specifically treatable and are missed unless requested; *what:* paraprotein). ESR, CRP, ANA, ANCA, rheumatoid factor (*why:* vasculitic neuropathy, particularly with a mononeuritis multiplex pattern; *what:* inflammation, autoantibodies). HIV, hepatitis and syphilis serology where risk factors (*why:* treatable infective causes; *what:* positive serology). **Nerve conduction studies and EMG** (*why:* confirms the neuropathy, and — critically — **distinguishes demyelinating from axonal**, which narrows the differential substantially: demyelinating points to GBS, CIDP, hereditary and paraproteinaemic causes, while axonal points to metabolic, toxic and most systemic causes; *what:* conduction velocity, amplitude, block). Genetic testing where hereditary neuropathy is suspected (*why:* diagnosis and family counselling; *what:* PMP22 and related). Nerve biopsy, rarely (*why:* reserved for suspected vasculitis or amyloid; *what:* histology).
+
+#### Mx – Immediate — D4 §0.2.1
+Only in acute neuropathies — **GBS requires FVC monitoring and escalation.** Cross-refer [[04_Neurology]] Guillain-Barré Syndrome (GBS).
+
+#### Mx – Definitive — D4 §0.2.2
+Treat the cause. **CIDP responds to immunotherapy and should not be missed**, so a chronic progressive or relapsing demyelinating neuropathy warrants neurology referral rather than symptomatic management. Optimise glycaemic control. Cease the offending drug. Replace deficiencies.
+
+#### Mx – Chronic/long-term — D4 §0.2.3
+**Foot care and podiatry**, which prevents amputation. Falls prevention, since sensory ataxia is a major falls risk. Neuropathic pain management. Occupational therapy for hand function. Driving assessment where proprioception or foot control is impaired.
+
+
 ### Subacute and Chronic Focal Deficit — from unverified layer
 `SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.7` `UNVERIFIED — model knowledge, not source-checked.`
 
