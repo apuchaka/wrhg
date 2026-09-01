@@ -143,6 +143,20 @@ def run(cfg):
         # refusal fire on the section number the merge is replacing. Exclude SRC lines from
         # the fragment side, exactly as the PROT loop above already does.
         lost_refs = refs('\n'.join(l for l in frag if 'SRC:' not in l)) - refs(block)
+        # A fragment assembled from TWO B sections legitimately splits its pointers
+        # between the two blocks that replace it. `carry_refs` declares a pointer as
+        # relocated - but the driver VERIFIES it is actually in the destination before
+        # accepting the claim, so a declaration cannot excuse a loss.
+        for r in cfg.get('carry_refs', []):
+            if r in lost_refs:
+                # ...against the destination WITHOUT the fragment. Checking the whole file
+                # finds the pointer in the fragment that is about to be deleted, so the
+                # guard passes on exactly the case it exists to catch. Caught by the
+                # known-answer test, not by reading this code.
+                if r in '\n'.join(lines[:s] + lines[e:]):
+                    lost_refs.discard(r)
+                else:
+                    lost.append(f"carry_refs declared {r!r} relocated, but it is NOT in {p}")
         for r in sorted(lost_refs):
             lost.append(f"cross-reference: {r}")
         if lost:
