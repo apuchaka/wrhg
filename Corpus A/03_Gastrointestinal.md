@@ -677,6 +677,43 @@ See 0.2.
 #### 0.11.1.3 Mx – Chronic/long-term
 See 0.2.
 
+### 0.11.3 Pancreatic Pseudocyst and Fluid Collections — from unverified layer
+`SRC:C7_Pancreatobiliary_Disease §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] The revised Atlanta terminology — four collections, defined by time and content
+> | | **Within ~4 weeks** | **After ~4 weeks (encapsulated)** |
+> |---|---|---|
+> | **No necrosis** | Acute peripancreatic fluid collection | **Pseudocyst** |
+> | **With necrosis** | Acute necrotic collection | **Walled-off necrosis** |
+> The distinction matters because **the presence of solid necrotic material determines whether simple drainage will work** — a percutaneous drain in walled-off necrosis blocks with debris, whereas a pseudocyst drains readily.
+> `UNVERIFIED — the exact time boundary and the full definitions.`
+
+> [!danger] Do not drain an asymptomatic pseudocyst
+> **Most acute collections and many pseudocysts resolve spontaneously.** Draining one that is not causing problems converts a sterile collection into an infected one and introduces procedural risk.
+> **Drain only for: symptoms (pain, early satiety, obstruction of the stomach or duodenum), biliary obstruction, infection, haemorrhage, or progressive enlargement.**
+> Size alone is not an indication.
+> **Endoscopic transmural drainage (cystgastrostomy) is generally preferred** over percutaneous or surgical approaches for suitable collections.
+
+> [!danger] A "pseudocyst" without pancreatitis is a cystic neoplasm until proven otherwise
+> **Pancreatic cystic neoplasms — intraductal papillary mucinous neoplasm, mucinous cystic neoplasm, serous cystadenoma — are common incidental findings, and mucinous lesions have malignant potential.**
+> **Labelling one as a pseudocyst and draining it is a serious error**, because it disseminates a mucinous neoplasm and destroys the opportunity for curative resection.
+> **A cystic pancreatic lesion in a patient with no history of pancreatitis requires characterisation** — usually with MRI/MRCP and endoscopic ultrasound with fluid analysis (CEA, amylase, cytology) — before anything is done to it. `UNVERIFIED — cyst fluid analysis thresholds and surveillance criteria.`
+
+> [!warning] Complications of a pseudocyst
+> **Infection** · **haemorrhage from an eroded pseudoaneurysm**, which may present with a herald bleed followed by catastrophic haemorrhage and is treated by embolisation, not by drainage · **rupture** into the peritoneum or into an adjacent viscus · **obstruction** of stomach, duodenum or bile duct · and **fistula formation**, including pancreatic ascites and pleural effusion (in which the fluid amylase is very high).
+
+**Ix:** **Contrast CT** (*why:* characterises the collection, its wall, and whether it contains solid necrotic debris — which determines the drainage approach; *what:* wall maturity, solid content, gas, vascular relationships). **MRI/MRCP** (*why:* better than CT at distinguishing solid debris from fluid and at defining duct communication; *what:* debris, duct anatomy). **Endoscopic ultrasound with fluid aspiration** (*why:* differentiates pseudocyst from cystic neoplasm, which is the critical distinction; *what:* CEA, amylase, cytology, mucin). CT angiography where bleeding is suspected (*why:* pseudoaneurysm; *what:* aneurysm, extravasation). Amylase on drained or aspirated fluid, including pleural or ascitic fluid (*why:* a very high fluid amylase confirms a pancreatic fistula; *what:* markedly raised amylase).
+
+#### 0.11.3.1 Mx – Immediate
+Only for infection, haemorrhage or obstruction.
+
+#### 0.11.3.2 Mx – Definitive
+Observation for asymptomatic collections. Endoscopic, percutaneous or surgical drainage where indicated. Embolisation for pseudoaneurysm. Resection for cystic neoplasms with malignant potential.
+
+#### 0.11.3.3 Mx – Chronic/long-term
+Surveillance imaging for cystic neoplasms managed conservatively. Management of the underlying pancreatitis.
+
+
 
 
 ## 0.12 Chronic Pancreatitis
