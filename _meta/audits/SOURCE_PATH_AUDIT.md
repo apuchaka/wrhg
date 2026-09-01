@@ -95,6 +95,22 @@ same prefix but DIFFERENT filename: none
 and `00_BUILD_QUEUE_v2.md` share one; `Corpus B-new/` holds 112 across **111** for the
 same reason. 111 − 38 = 73. The two errors cancel.
 
+> [!warning] **There is NO twinless `Corpus B/` file. I claimed there was, in a message,
+> before measuring it.**
+> Seeing `39 files, 38 distinct prefixes` I inferred a missing twin. The gap is the `00`
+> collision — and `Corpus B-new/` has the same two files and the same collision, which is
+> why both directories lose exactly one and `111 − 38 = 73` comes out right.
+> Measured by filename, not by prefix:
+> ```
+> By FILENAME — in Corpus B/ but not in Corpus B-new/: none
+> Every Corpus B/ file has an identically-named twin: True
+> Corpus B/ files with no twin: 0
+> ```
+> **All 39 have a twin, none renamed.** The table above was already correct
+> (`B prefixes with NO twin in B-new: []`); the error was in reading a fact off an
+> adjacent count instead of running the check — rule 11, one message after writing this
+> audit about that exact habit.
+
 **No section-merge prefix globs to more than one file** — checked for C1–C7, D1–D7,
 GER1–2, A6–A8, F0-1…F0-5. The only collision in either directory is `00`, which is a build
 queue, not a content file, and no merge references it. So `cands[0]` is unambiguous for
