@@ -603,6 +603,52 @@ Azathioprine, mesalazine, bendroflumethiazide, furosemide, steroids, sodium valp
 > **Walled-off necrosis is not a pseudocyst.** A pseudocyst contains fluid; walled-off necrosis contains solid necrotic debris, which is why it drains poorly through a narrow catheter and why the distinction changes the procedure chosen.
 > `UNVERIFIED — the timing at which intervention is preferred, and the criteria for calling necrosis infected; gastroenterology or upper GI surgical guidance.`
 
+### 0.11.1 Acute Pancreatitis — Diagnosis and Severity — from unverified layer
+`SRC:C7_Pancreatobiliary_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Acute inflammation of the pancreas. Diagnosis requires **two of three**: characteristic abdominal pain; serum lipase or amylase raised above a defined multiple of the upper limit of normal; and characteristic findings on cross-sectional imaging. `UNVERIFIED — the enzyme threshold multiple.`
+
+**A/P:** A trigger causes **premature intracellular activation of trypsinogen to trypsin**, which then activates the remaining zymogens → autodigestion of the pancreas → local inflammation with cytokine release → **capillary leak and massive third-space fluid sequestration** → in severe cases a systemic inflammatory response with organ failure. Lipase released into the peritoneum causes **fat saponification, which binds calcium and produces hypocalcaemia** — a genuinely useful mechanistic link to remember.
+
+> [!tip] Causes — I GET SMASHED
+> **I**diopathic · **G**allstones · **E**thanol · **T**rauma · **S**teroids · **M**umps and other infections · **A**utoimmune · **S**corpion sting · **H**ypertriglyceridaemia, **h**ypercalcaemia, **h**ypothermia · **E**RCP · **D**rugs
+> **Gallstones and alcohol account for the large majority**, with gallstones the commonest in Australia. **Every patient needs an ultrasound to look for stones**, because identifying gallstone aetiology changes management directly — it means a cholecystectomy is needed.
+> **Drugs worth knowing:** azathioprine and mercaptopurine, thiazides, valproate, oestrogens, tetracyclines, and **GLP-1 receptor agonists**, which are increasingly widely prescribed.
+> **Idiopathic pancreatitis deserves scrutiny** — recurrent "idiopathic" episodes warrant a search for microlithiasis, sphincter of Oddi dysfunction, pancreas divisum, autoimmune disease, genetic causes, and **occult malignancy in an older patient.**
+
+> [!danger] The enzyme level does not indicate severity
+> **A lipase ten times the upper limit does not mean worse disease than one three times it.** The magnitude of enzyme elevation correlates poorly with severity, complications and mortality. **Do not use it to triage, and do not repeat it serially to track progress** — it adds nothing and is a common habit.
+> Severity is judged by **organ failure, clinical trajectory, and validated scores**, not by the lipase.
+
+> [!warning] Lipase versus amylase, and the traps
+> **Lipase is more specific and stays elevated longer**, so it is preferred, and it is more likely to be diagnostic in a late presentation where amylase has already normalised.
+> **Amylase is raised in many other conditions** — perforated peptic ulcer, mesenteric ischaemia, ruptured ectopic pregnancy, salivary disease, renal failure, diabetic ketoacidosis, and macroamylasaemia. **A raised amylase is not a diagnosis of pancreatitis**, and the differential above includes conditions that need a laparotomy.
+> **In hypertriglyceridaemia-induced pancreatitis, the amylase may be spuriously NORMAL** because the lipaemic serum interferes with the assay. **So a normal amylase in a patient with milky serum and severe epigastric pain does not exclude pancreatitis** — measure lipase and triglycerides.
+
+> [!danger] Do not order an early CT
+> **Pancreatic necrosis takes 48 to 72 hours to become visible**, so a CT performed on day one systematically underestimates severity and gives false reassurance, while adding contrast load to a patient at risk of acute kidney injury.
+> **CT is indicated for: diagnostic uncertainty, failure to improve, or suspected complications after about 72 hours.** `UNVERIFIED — the recommended timing.`
+> **Ultrasound, by contrast, is indicated in every patient at presentation** — to look for gallstones and duct dilatation.
+
+> [!info] Severity assessment
+> The **revised Atlanta classification** grades disease as **mild** (no organ failure, no local complications), **moderately severe** (transient organ failure resolving within 48 hours, or local complications), or **severe** (**persistent organ failure beyond 48 hours**) — with persistence of organ failure being the key determinant of mortality.
+> Scoring systems — **Glasgow-Imrie, Ranson, BISAP, APACHE II** — and a **CRP measured at 48 hours** are used for early prognostication. `UNVERIFIED — all score components, thresholds and the CRP cut-off.`
+> **The most useful bedside markers are simple: persistent tachycardia, oliguria, hypoxia, altered mental state, rising urea and haematocrit, and a rising CRP.** A patient who is not improving over the first 48 hours is the one to worry about.
+
+**S/Smx:** **Severe constant epigastric pain radiating through to the back, partially relieved by sitting forward**, with nausea and vomiting. Tenderness, guarding, ileus and distension. In severe disease: tachycardia, hypotension, oliguria, hypoxia, fever, and confusion. **Grey Turner (flank) and Cullen (periumbilical) bruising indicate retroperitoneal haemorrhage — they are late, uncommon, and their absence means nothing.**
+
+**Ix:** **Serum lipase** (*why:* the diagnostic enzyme, more specific and longer-lasting than amylase; *what:* elevation above the diagnostic threshold — with the level not used for severity). **Abdominal ultrasound in every patient** (*why:* identifies gallstones and biliary dilatation, which determines whether ERCP and cholecystectomy are needed — this is the single most management-changing investigation; *what:* gallstones, dilated common bile duct). LFT (*why:* a raised ALT supports a biliary aetiology, and obstructive changes suggest a retained duct stone requiring ERCP; *what:* transaminases, ALP, bilirubin). UEC and **haematocrit** (*why:* both reflect the degree of third-space fluid sequestration and haemoconcentration, and **a rising urea and haematocrit are among the best early predictors of severe disease**; *what:* rising urea, raised haematocrit). **Calcium** (*why:* hypocalcaemia from fat saponification is a severity marker, and **hypercalcaemia may be the cause**; *what:* low or high calcium). **Triglycerides** (*why:* marked hypertriglyceridaemia is a cause requiring specific treatment, and it is easily missed if not requested; *what:* markedly raised triglycerides). Glucose (*why:* hyperglycaemia is a severity marker and reflects islet involvement; *what:* elevation). FBC, CRP, LDH, albumin (*why:* severity scoring components and inflammatory trend; *what:* leucocytosis, rising CRP at 48 hours). **ABG or VBG** (*why:* hypoxia is an early feature of severe disease and a severity criterion, and metabolic acidosis reflects hypoperfusion; *what:* hypoxia, acidosis, lactate). **CT with contrast after 72 hours if not improving** (*why:* identifies necrosis and local complications at the point they become visible; *what:* necrosis, collections, gas, vascular complications). MRCP or endoscopic ultrasound (*why:* identifies a retained duct stone or microlithiasis where ultrasound is negative but the aetiology is suspected biliary; *what:* duct stone). IgG4 (*why:* autoimmune pancreatitis is steroid-responsive and mimics malignancy; *what:* raised IgG4).
+
+#### 0.11.1.1 Mx – Immediate
+See 0.2.
+
+#### 0.11.1.2 Mx – Definitive
+See 0.2.
+
+#### 0.11.1.3 Mx – Chronic/long-term
+See 0.2.
+
+
 
 ## 0.12 Chronic Pancreatitis
 
