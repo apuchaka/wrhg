@@ -1494,6 +1494,49 @@ Peak incidence ~36h after last drink — **one point on a withdrawal timeline, n
 > [!info] Verified — the overall structure (benzodiazepine first-line → second-line agent if ongoing at 5–10min → general anaesthesia if refractory beyond ~45min) reflects standard international practice, including the drug classes used in Australia (levetiracetam, phenytoin, and sodium valproate are all standard eTG/AMH second-line choices here) — no major structural correction needed, but note: buccal midazolam and PR diazepam (no-IV-access options) and IV lorazepam (IV-access option) are all used in Australia in the same roles as below; the specific repeat-timing and second-line agent choice are standard practice rather than a UK-specific protocol.
 > Benzodiazepines: no IV access — PR diazepam or buccal midazolam; IV access — IV lorazepam; repeat once after 5–10 min. If >5–10 min, start second-line agent (e.g. IV levetiracetam, phenytoin infusion, or sodium valproate). If >45 min (refractory), general anaesthesia or phenobarbital.
 
+### Status Epilepticus — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Operationally, **a seizure lasting five minutes or more, or repeated seizures without recovery of consciousness between them.**
+
+**A/P:** Prolonged seizure activity causes **excitotoxic neuronal injury**, and — crucially — **GABA-A receptors are progressively internalised from the synaptic membrane as the seizure continues.** This means **benzodiazepines become progressively less effective the longer the seizure has been running**, which is the pharmacological justification for treating early and adequately rather than escalating slowly.
+
+> [!danger] Treat at five minutes, and give an adequate dose
+> **The commonest errors are waiting too long and giving too little.**
+> Under-dosing a benzodiazepine because of concern about respiratory depression prolongs the seizure, increases the eventual drug requirement, and worsens outcome. **Give the full dose.**
+> `UNVERIFIED — all agents, doses, routes and repeat intervals are omitted. Obtain them from your health network's status epilepticus protocol and eTG. Paediatric dosing is weight-based and differs.`
+
+> [!tip] The stepwise approach
+> **1. Immediate** — A–E, oxygen, IV access, **bedside glucose**, protect from injury, time the seizure.
+> **2. First line — a benzodiazepine.** Intravenous where access exists; **intramuscular, buccal or intranasal midazolam where it does not**, which is faster than trying to cannulate a convulsing patient.
+> **3. Second line — an intravenous antiseizure medication.** Levetiracetam, sodium valproate and phenytoin are the options, and **randomised evidence found no significant difference in efficacy between them**, so choice is driven by comorbidity, interactions and availability.
+> **4. Refractory status — rapid sequence induction, anaesthesia and ICU** with continuous EEG monitoring.
+> **Call for help early.** This is not a condition to work through alone.
+
+> [!warning] The specific antidotes and situations
+> **· Hypoglycaemia** — glucose, with **thiamine first or concurrently** in the alcohol-dependent or malnourished. Cross-refer [[03_Gastrointestinal]] §0.6 Alcohol-Related Liver Disease (ArLD).
+> **· Eclampsia — magnesium sulfate is the treatment, not a benzodiazepine.** Cross-refer `TODO:link — O2 Later pregnancy & fetal (unbuilt)`.
+> **· Isoniazid overdose — pyridoxine.**
+> **· Neonatal seizures — pyridoxine-dependent epilepsy** is a rare but important consideration.
+> **· Alcohol withdrawal — benzodiazepines**, and treat the withdrawal syndrome rather than just the seizure.
+> **· Hyponatraemia — cautious sodium correction**, since the seizure is a sign of cerebral oedema.
+
+> [!danger] Non-convulsive status epilepticus
+> **Consider it in any patient who does not return to baseline consciousness after a convulsive seizure**, and in unexplained persistent altered mental state.
+> **The diagnosis requires an EEG**, and it is missed because nobody orders one. Cross-refer [[04_Neurology]] Reduced Consciousness.
+
+**Ix:** **Bedside glucose immediately** (*why:* reversible and takes seconds; *what:* hypoglycaemia). UEC, calcium, magnesium, VBG (*why:* metabolic provocation and the lactic acidosis of prolonged seizure, which resolves rapidly and should not be over-treated; *what:* derangement). **Antiseizure medication levels in a known epileptic** (*why:* non-adherence or sub-therapeutic levels is the commonest precipitant of status in established epilepsy; *what:* subtherapeutic level). Toxicology (*why:* drug-provoked seizures; *what:* substances). CT brain (*why:* new structural cause; *what:* haemorrhage, mass). **Continuous EEG in refractory or non-convulsive status** (*why:* the only way to confirm seizure termination in a paralysed and anaesthetised patient; *what:* ongoing electrographic seizures). CK (*why:* rhabdomyolysis after prolonged convulsion; *what:* elevation). Pregnancy test (*why:* eclampsia; *what:* positive).
+
+#### Mx – Immediate — D6 §0.2.1
+As per the stepwise approach. **Time the seizure. Full-dose benzodiazepine. Call for help.**
+
+#### Mx – Definitive — D6 §0.2.2
+ICU with anaesthesia and continuous EEG for refractory status. Treat the underlying cause.
+
+#### Mx – Chronic/long-term — D6 §0.2.3
+Review adherence and the medication regimen. Address the precipitant. Provide a rescue plan — **buccal or intranasal midazolam for community use, with written instructions and training for family or carers.**
+
+
 ### Seizures vs Syncope
 
 > [!fail]- CONFLICT CF-033 — does incontinence discriminate seizure from syncope? **R2**
