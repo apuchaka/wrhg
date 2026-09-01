@@ -33,7 +33,9 @@ def run(cfg):
     num_for_sub = cfg.get('number', '')
     def _resub(m):
         lvl, tail = m.group(1), m.group(3)
-        lvl = '#' * min(6, len(lvl) + 1)
+        # B writes its subheadings at `###`; they must sit one level BELOW the block heading,
+        # whatever that is. Hard-coding +1 was correct only while every block was a `###`.
+        lvl = '#' * min(6, cfg.get('level', 3) + len(lvl) - 2)
         if num_for_sub:
             return f"{lvl} {num_for_sub}.{m.group(2).split('.')[-1]} {tail}"
         # UNNUMBERED DESTINATION. Dropping B's number leaves bare `#### Mx - Immediate`,
@@ -49,7 +51,17 @@ def run(cfg):
     note = f"\n*{cfg['note']}*" if cfg.get('note') else ""
     num = cfg.get('number', '')
     mk = f" {cfg['marker']}" if cfg.get('marker') else ''
-    block = (f"### {num}{' ' if num else ''}{title} — from unverified layer{mk}\n"
+    # BLOCK HEADING LEVEL. `###` is right where the destination nests its content under
+    # `##` topic headings. It is WRONG where the destination is FLAT — 11_09b_Ortho_-_Trauma
+    # organises its content as sibling `##` sections (Thoracic trauma, Splenic trauma, Liver
+    # trauma, Head injuries, Ocular trauma), and a `###` block there silently becomes a child
+    # of whichever `##` happens to precede it. That is how the two 18_Geriatrics blocks ended
+    # up under `## Discharge Planning` (misplacement queue entries 13 and 14): the level was
+    # chosen mechanically instead of read off the destination.
+    # Superseding a `##` fragment with a `###` block has the same effect and is worse, because
+    # it DEMOTES content that already had the right level.
+    hl = '#' * cfg.get('level', 3)
+    block = (f"{hl} {num}{' ' if num else ''}{title} — from unverified layer{mk}\n"
              f"`SRC:{cfg['bfile']} §{cfg['sec']}` "
              f"`UNVERIFIED — model knowledge, not source-checked.`{nb}{note}\n\n{body}")
 
