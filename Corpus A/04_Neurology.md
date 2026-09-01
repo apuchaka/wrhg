@@ -801,6 +801,58 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 
 **P:** after 5 years of levodopa treatment, motor complications develop; eventually symptoms such as freezing, falling, and dementia develop. Cognitive dysfunction and non-dopaminergic symptoms are the main determinants of increased disability in the first 5 years of disease.
 
+### Parkinsonism — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Bradykinesia** — slowness with decrement in amplitude or speed on repetitive movement — **plus at least one of rest tremor, rigidity, or postural instability.**
+
+> [!tip] Parkinson disease — the typical picture
+> **Asymmetric onset**, rest tremor, cogwheel rigidity, bradykinesia, and a **good, sustained response to levodopa.**
+> **The non-motor features often precede the motor features by years, sometimes decades**: **hyposmia, REM sleep behaviour disorder (acting out dreams), constipation, depression and anxiety.** Recognising this prodrome matters, and REM sleep behaviour disorder in particular is a strong predictor.
+> Examination: reduced blink rate, hypomimia, hypophonia, micrographia, reduced arm swing, shuffling festinant gait, freezing, and **turning en bloc.**
+
+> [!danger] Red flags for atypical parkinsonism ("Parkinson-plus")
+> **· Symmetric onset · early falls (within the first year) · poor or absent levodopa response · rapid progression**
+> **· Early autonomic failure — postural hypotension, urinary dysfunction, erectile dysfunction → multiple system atrophy**
+> **· Vertical gaze palsy, particularly downgaze, with early falls (often backwards) → progressive supranuclear palsy**
+> **· Early dementia, fluctuating cognition and visual hallucinations → dementia with Lewy bodies** — cross-refer [[04_Neurology]] Lewy Body Dementia (LBD)
+> **· Alien limb phenomenon, marked asymmetry, apraxia → corticobasal degeneration**
+> **· Cerebellar signs → MSA-C**
+> These carry a worse prognosis and respond poorly to levodopa, so the distinction changes both counselling and expectations.
+
+> [!danger] Drug-induced parkinsonism — common, reversible, and repeatedly missed
+> **Dopamine antagonists cause parkinsonism**: antipsychotics (typical more than atypical), and — the ones most often overlooked — **metoclopramide and prochlorperazine**, which are prescribed liberally as antiemetics, often long-term, in exactly the older population who then present with "Parkinson disease".
+> **It is characteristically symmetric and there is usually a rest tremor.** **It may take many months to resolve after the drug is stopped**, so a lack of immediate improvement does not exclude it.
+> **Always review the drug chart before diagnosing Parkinson disease.** Cross-refer [[NEW_Drugs_12_Gastrointestinal]] §0.2.5 Antiemetic Selection by Mechanism.
+
+> [!danger] Never abruptly stop dopaminergic medication, and give it ON TIME
+> **Abrupt withdrawal of levodopa or a dopamine agonist can precipitate an akinetic crisis or a neuroleptic malignant-like syndrome**, with rigidity, hyperthermia, autonomic instability and rhabdomyolysis.
+> **In hospital this is a genuine and frequent harm.** Parkinson medications are highly time-critical — **a dose given an hour late leaves the patient unable to move, swallow or communicate.** They must be prescribed at the patient's own home times, not the ward drug round times, and continued through fasting and the perioperative period by an alternative route where necessary.
+> **Ask every admitted Parkinson patient what times they take their medications, and prescribe those times.**
+
+> [!danger] Avoid dopamine antagonists in Parkinson disease
+> **Metoclopramide, prochlorperazine and haloperidol block central dopamine receptors and cause severe deterioration.**
+> **For nausea, use domperidone or ondansetron.** For psychosis, **quetiapine or clozapine** are the antipsychotics used, because they have the least extrapyramidal effect — and antipsychotics should be avoided altogether where possible, particularly given the **severe neuroleptic sensitivity in Lewy body disease.**
+
+> [!warning] Dopamine agonists cause impulse control disorders — ask about it
+> **Pathological gambling, hypersexuality, compulsive shopping, binge eating and punding** occur in a significant minority on dopamine agonists (and less often on levodopa).
+> **Patients and families almost never volunteer this** — through shame, or because they do not connect it to a Parkinson medication. **Warn them at the time of prescribing, and ask directly and specifically at every review**, including asking the partner. The financial and relationship consequences can be devastating and are largely preventable.
+
+**S/Smx:** Motor features as above, plus the non-motor burden: constipation, postural hypotension, drooling, dysphagia, sleep disturbance, depression, anxiety, apathy, pain, urinary dysfunction, and cognitive impairment.
+
+**Ix:** **The diagnosis is clinical.** **Medication review** (*why:* drug-induced parkinsonism is common and reversible; *what:* dopamine antagonists). MRI brain (*why:* excludes vascular parkinsonism, hydrocephalus and structural lesions, and may show features of atypical syndromes; *what:* small vessel disease, midbrain atrophy). **Caeruloplasmin and copper studies in young-onset disease** (*why:* Wilson disease; *what:* low caeruloplasmin). **Levodopa response** (*why:* a sustained good response supports Parkinson disease and its absence suggests an atypical syndrome — it is effectively a diagnostic test; *what:* symptomatic improvement). DaTscan where the diagnosis is uncertain (*why:* distinguishes degenerative parkinsonism from essential or drug-induced tremor, though **it does not distinguish Parkinson disease from atypical parkinsonism**; *what:* presynaptic dopaminergic deficit). Postural blood pressure (*why:* autonomic failure suggests MSA and is itself treatable; *what:* postural drop). Cognitive and mood assessment (*why:* both are common and treatable; *what:* impairment, depression).
+
+#### Mx – Immediate — D6 §0.5.1
+**Continue their usual medications at their usual times.** Treat any akinetic crisis urgently with reinstatement of dopaminergic therapy.
+
+#### Mx – Definitive — D6 §0.5.2
+**Levodopa with a decarboxylase inhibitor** is the most effective symptomatic treatment. Dopamine agonists, MAO-B inhibitors and COMT inhibitors are alternatives and adjuncts. **Motor complications — wearing off, dyskinesia and on-off fluctuations — develop with time and are managed by fractionating doses, adding adjuncts, or advanced therapies (apomorphine, intestinal levodopa gel, deep brain stimulation).** `UNVERIFIED — agents, doses and the sequencing of therapy.`
+
+#### Mx – Chronic/long-term — D6 §0.5.3
+**Multidisciplinary care** — Parkinson nurse specialist, physiotherapy (with specific evidence for cued and high-intensity exercise), occupational therapy, speech pathology for both speech and swallow, and dietitian.
+**Non-motor symptom management**, which frequently affects quality of life more than the motor features. **Falls prevention. Driving assessment. Advance care planning.** Carer support.
+
+
 ### PD drug classes
 
 **Levodopa:** precursor to dopamine. Usually combined with a decarboxylase inhibitor (e.g. carbidopa) to decrease peripheral metabolism → fewer side effects.
