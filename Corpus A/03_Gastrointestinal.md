@@ -1200,6 +1200,43 @@ Grade-appropriate haemorrhoid management. Treatment of warts. Oncological manage
 #### 0.25.4.3 Mx – Chronic/long-term
 Fibre, fluid, avoidance of straining, and **advice not to sit on the toilet for prolonged periods**, which is a genuine and increasingly common contributor with phone use. HPV vaccination.
 
+### 0.25.5 Pruritus Ani — from unverified layer
+`SRC:C6_Dyspepsia__Oesophageal_and_Anorectal_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Persistent perianal itching, often intense and worse at night, with an itch-scratch-damage cycle that perpetuates itself.
+
+**A/P:** Faecal contamination of perianal skin, moisture, and mechanical trauma from scratching or over-cleaning break the skin barrier → irritation → scratching → further barrier damage. **In most cases the itch outlasts and then replaces its original cause**, which is why treating only the original cause often fails.
+
+> [!tip] Causes, and the ones that get missed
+> **Idiopathic and hygiene-related** — the commonest. Either **inadequate** cleaning with faecal residue, or, at least as often, **excessive** cleaning with soap, wipes and vigorous wiping that strips the skin.
+> **Anorectal conditions** — haemorrhoids, skin tags, fissure, fistula, prolapse — all causing leakage and moisture.
+> **Infection** — **threadworm (*Enterobius*)**, especially in children, with **intense nocturnal perianal itch**; candida, particularly in diabetics and after antibiotics; dermatophytes; and STIs.
+> **Dermatological** — psoriasis (often with no scale in flexures — "inverse psoriasis"), eczema, **lichen sclerosus**, contact dermatitis.
+> **Contact dermatitis from the treatment itself** — **topical local anaesthetics and long-used topical steroids are frequent sensitisers**, and wipes containing fragrance or preservatives are a common culprit. **Ask what the patient has been applying**, because it is often the cause.
+> **Systemic** — diabetes, cholestasis, iron deficiency, lymphoma, chronic kidney disease.
+> **Neoplastic** — **anal intraepithelial neoplasia, Bowen disease and extramammary Paget disease** all present as persistent perianal itching with a rash, and are frequently treated as eczema for months or years. **A persistent, unilateral, well-demarcated or non-responding perianal rash requires biopsy.**
+
+> [!warning] Threadworm in a child
+> Nocturnal perianal itch, disturbed sleep, and sometimes visible worms. **Treat the whole household simultaneously**, with a repeat dose after an interval to cover the life cycle, plus hygiene measures — hot washing of bedding and clothing, nail trimming, and morning washing. `UNVERIFIED — agent, dose and repeat interval, and the age restrictions.`
+
+> [!tip] Management principles
+> **Break the cycle.** Stop all current topical preparations, particularly anaesthetics and long-term steroids. Clean gently with water and pat dry — **no soap, no wipes, no vigorous rubbing.** Keep the area dry, use cotton underwear, avoid moisture. A barrier preparation. Treat constipation or leakage. **A short course of a mild topical corticosteroid may be used to break severe itching, but not long-term**, since prolonged use causes skin atrophy and worsens the problem.
+> Dietary triggers — coffee, citrus, spicy food, chocolate — are described and worth a trial of elimination in refractory cases.
+
+**S/Smx:** Itch, worse at night, with excoriation, lichenification, erythema, fissuring, and sometimes discharge or bleeding from scratching.
+
+**Ix:** **Examination in good light, including inspection for a rash, fissure, tag, prolapse or lesion** (*why:* most causes are visible, and the alternative diagnoses that matter are all found by looking; *what:* dermatosis, anorectal lesion, mass). **Perianal adhesive tape test for threadworm** in children, taken first thing in the morning before washing (*why:* eggs are deposited overnight and are gone after washing, so timing determines the result; *what:* ova). Skin scrapings and swabs for fungi and bacteria (*why:* candida and dermatophyte infection; *what:* organism). **Glucose and HbA1c** (*why:* undiagnosed diabetes presents with candidal and perianal itching; *what:* hyperglycaemia). Iron studies, LFT, renal function (*why:* systemic causes of pruritus; *what:* deficiency, cholestasis, uraemia). **Biopsy of any persistent, atypical or treatment-resistant rash** (*why:* anal intraepithelial neoplasia, Bowen disease and Paget disease masquerade as eczema and are missed for long periods; *what:* histology). Patch testing where contact dermatitis is suspected (*why:* identifies the sensitiser, often a topical the patient is still using; *what:* allergen).
+
+#### 0.25.5.1 Mx – Immediate
+Not required.
+
+#### 0.25.5.2 Mx – Definitive
+Treat the identified cause. Break the itch-scratch cycle.
+
+#### 0.25.5.3 Mx – Chronic/long-term
+Skin care education, which is the core of management and takes an explicit conversation — most patients are cleaning too much, not too little. Follow-up to confirm resolution, and **biopsy anything that does not resolve.**
+
+
 
 
 
