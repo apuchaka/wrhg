@@ -1,55 +1,55 @@
 ---
-name: C5 destination table
-description: Where every section of Corpus B/C5_Bowel_Habit__Obstruction_and_Distension.md goes, including the sections that were discarded.
+name: C5 placement record
+description: Where each section of C5 was placed under the section-level merge rule, and why.
 bfile: Corpus B/C5_Bowel_Habit__Obstruction_and_Distension.md
+rule: section-level merge
 built: 2026-08-31
 ---
 
-# C5_Bowel_Habit__Obstruction_and_Distension — destination table
+# C5_Bowel_Habit__Obstruction_and_Distension — placement record
 
-Committed **before** any content was written. 4 352 words, 6 sections.
-**2 placements · 5 discards.** The most heavily superseded file in Block 1 so far —
-**23 of 25 concepts tested were already present.**
-
-## Searches that returned ABSENT and were wrong
-
-| Search | Reality |
-|---|---|
-| `hernia.{0,40}obstruct` | **Present three times**, and word order defeated it every time: §0.21.1 (*"Richter — herniation of only part of the bowel wall… can strangulate without causing obstruction"*), §0.41.2 (*"strangulated hernia"* under Intestinal), and §0.41.4 (*"Palpate both groins in every patient with abdominal pain or obstruction"*). Rule 2 |
-
-Six false negatives across C4 and C5 now share one cause: **a regex requiring two terms in
-a fixed order.** The corpus writes *prophylactic antibiotics* not *antibiotic prophylaxis*,
-*strangulated hernia* not *hernia… obstruction*. Where a concept is two words that can
-appear in either order, search for the **rarer word alone** and read the hits.
-
-## Step 17 check
-
-C5 was searched for UK-localisation leftovers before merging — `two-week wait`, `2ww`,
-`NICE`, `NHS`, `GMC`, `A&E`, `co-amoxiclav`. **No hits.** The `rectal bleeding urgent
-referral` gap is real in Corpus A but C5 does not state a pathway either, so nothing was
-imported and no UK referral route entered the corpus.
-
-## Confirmed genuine gaps, against Corpus A **and** Corpus C
-
-| Concept | Verdict |
-|---|---|
-| **acute colonic pseudo-obstruction (Ogilvie syndrome)** | **absent** — §0.39 covers *paralytic* ileus thoroughly but not this |
-| **the CT transition point** as the discriminator between mechanical and non-mechanical | **absent** |
-| **the six Fs** of a distended abdomen | **absent** |
-| **new "IBS" in a woman over 50 is ovarian cancer until excluded** | **absent** — `17_10` has early satiety as an ovarian symptom, but not the IBS-misattribution trap |
-| closed-loop obstruction, strangulation, adhesions, drip-and-suck, Gastrografin, hernia-as-cause, faecal impaction with overflow, opioid constipation, bowel-habit red flags, Bristol chart, *C. difficile*, traveller's diarrhoea, notifiable disease, food-handler exclusion, HUS, avoiding antibiotics in STEC, coeliac serology, faecal calprotectin, bile acid malabsorption, microscopic colitis, tenesmus, volvulus coffee-bean sign | **present** |
-
-## Destination table
-
-| C5 § | Topic | Destination | Disposition |
+| § | Section | Destination | Why |
 |---|---|---|---|
-| 0.1 | Bowel obstruction — level, cardinal features, causes, management | — | **DISCARD** — §0.19 SBO, §0.20 LBO, §0.20.1 volvulus and §0.21 hernias cover it, and §0.41.5 (merged from C1) adds the simple-vs-strangulated distinction |
-| 0.1 | Ileus vs pseudo-obstruction vs mechanical; Ogilvie; the transition point | `03_Gastrointestinal.md` **new §0.39.1** | **PARTIAL** — the ileus half is discarded to §0.39, which is more detailed |
-| 0.2 | Constipation | — | **DISCARD** — §0.42 faecal incontinence, `NEW_Drugs_12` §0.5 laxatives, and the paediatric files |
-| 0.3 | Acute diarrhoea and gastroenteritis | — | **DISCARD** — `08_10_Infectious_Disease_-_Diarrhoea_DDx_and_Gastroenteritis` is a purpose-built file, and STEC/HUS is in `08_01-03` and `07_Renal` |
-| 0.4 | Chronic diarrhoea and change in bowel habit | — | **DISCARD** — §0.35 IBS, §0.40 malabsorption, §0.17 coeliac, §0.16 IBD, §0.26 colorectal cancer |
-| 0.5 | Distension — the six Fs, and the ovarian cancer trap | `03_Gastrointestinal.md` **new §0.41.9** | **ADDITIVE** |
-| 0.5 | Ascites, functional bloating, SIBO, mass | — | **DISCARD** — §0.6.2 ascites with SAAG, §0.13 SIBO, §0.35 IBS |
-| 0.6 | Tenesmus and rectal symptoms | — | **DISCARD** — §0.23 fissures, §0.24 fistulae, §0.25 haemorrhoids, §0.26 colorectal cancer |
+| 0.1 | Bowel Obstruction | `03_Gastrointestinal` §0.39.1 | superseded the §0.1 fragment, under **§0.39 Ileus** where the pseudo-obstruction material already sat |
+| 0.2 | Constipation | `03_Gastrointestinal` §0.42.1 | under **§0.42 Faecal Incontinence**, the file's only bowel-habit entry |
+| 0.3 | Acute Diarrhoea and Gastroenteritis | **`08_10_Infectious_Disease_-_Diarrhoea_DDx_and_Gastroenteritis`** | **the one section not placed in 03_GI.** A whole file already owns diarrhoea and gastroenteritis; the reader goes there, not to the surgical GI file |
+| 0.4 | Chronic Diarrhoea and Change in Bowel Habit | `03_Gastrointestinal` §0.40.1 | under **§0.40 Malabsorption**, where the chronic-diarrhoea workup lands |
+| 0.5 | Abdominal Distension, Bloating, Flatulence | `03_Gastrointestinal` §0.41.9 | superseded the §0.5 fragment |
+| 0.6 | Tenesmus and Rectal Symptoms | `03_Gastrointestinal` §0.25.3 | under **§0.25 Haemorrhoids**, where the anorectal material is |
 
-No new file required. No `CONFLICT` raised.
+## Cross-references retargeted
+
+All B-file links resolved to their built homes: `[[F0-2…]]` → `[[06_Metabolic…]]` Acid-Base
+Balance · `[[C2…]]` → §0.41.16 · `[[C1…]]` → §0.41 · `[[C4…]]` → §0.34.2 / §0.33 ·
+`[[C3…]]` → §0.38.1 / §0.38 · `[[C6…]]` → §0.25 · `[[GER2…]]` → `[[18_Geriatrics…]]`.
+Each verified before writing.
+
+**Left as TODO:** GER8 procedure addendum · M5 paediatric GI · N6 dissociation and somatic ·
+O5 pelvic and vulval · H2 LUTS and retention · O6 sexual and reproductive health.
+
+## Connective tissue inherited
+
+- §0.1 → `[[Investigation-Interpretation]]` owns the CT transition point; §0.19 and §0.20 are
+  the mechanical entities, §0.39 the non-mechanical, and **operating on a pseudo-obstruction
+  is harmful** — the point the destination does not make.
+- §0.5 → `[[17_10_Ovarian_Cancer…]]` for the ovarian-cancer exclusion behind a new "IBS"
+  label over 50, the SAAG at §0.6.2, the tympanic differentials at §0.19/§0.20/§0.39,
+  functional bloating at §0.35, organomegaly and mass at §0.13 and §0.17.
+
+## A tool defect found here
+
+The cross-reference refusal fired on **§0.17 when the block carried it**. The regex `§[\d.]+`
+ate the sentence-ending period, so `§0.17.` and `§0.17` compared unequal. A **false positive
+in a refusal** — it wastes time rather than losing content, but it also meant the check could
+not be trusted to mean what it said. Fixed; both directions re-tested.
+
+## Report
+
+```
+sections merged      6
+destinations         03_Gastrointestinal × 5, 08_10_Infectious_Disease_-_Diarrhoea × 1
+new-file proposals   0
+conflicts raised     0
+cross-refs           7 retargeted, 6 left as TODO
+digit multiset       pass — no digits removed on any of the 6 sections
+```
