@@ -1838,6 +1838,62 @@ Review adherence and the medication regimen. Address the precipitant. Provide a 
 
 > [!info] Recognised risk factors also include intranasal influenza vaccination and pregnancy (particularly the third trimester and immediate postpartum period, ~3× risk) and diabetes (~5× risk) — an association with COVID-19 has also been noted (see [[02_Respiratory]] Viral pneumonia/pneumonitis (including COVID-19) for the general COVID-19 entry, not repeated here), though the mechanism (as with the broader HSV-reactivation theory) remains incompletely understood.
 
+### Facial Palsy — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] The forehead answers the first question
+> **The upper face receives BILATERAL cortical innervation; the lower face receives only contralateral innervation.**
+> **· Upper motor neurone lesion (stroke) — the FOREHEAD IS SPARED.** The patient can still raise their eyebrows and wrinkle their forehead on the affected side, and eye closure is relatively preserved.
+> **· Lower motor neurone lesion (Bell palsy, facial nerve pathology) — the WHOLE side is affected**, including the forehead, with incomplete eye closure.
+> **A patient with a "facial droop" who can wrinkle their forehead has had a stroke until proven otherwise, and needs a stroke pathway — not reassurance about Bell palsy.** The reverse error also occurs: a complete LMN palsy sent for thrombolysis assessment.
+> Note that emotional facial movement can be preserved in UMN lesions (the patient smiles spontaneously but cannot on command), because emotional and volitional pathways differ.
+
+> [!tip] Bell palsy — the features beyond the weakness
+> Acute unilateral LMN facial weakness, evolving over hours to a couple of days, with:
+> **· Post-auricular pain**, often preceding the weakness.
+> **· Hyperacusis** — sounds uncomfortably loud, from paralysis of stapedius.
+> **· Altered taste over the anterior two-thirds of the tongue** — chorda tympani.
+> **· Reduced lacrimation and drooling.**
+> These accompanying features localise the lesion within the facial canal and support the diagnosis.
+> **Corticosteroids started early — within the first 72 hours — improve the rate of complete recovery**, and this is the intervention that matters most. Antiviral therapy in addition is used in severe cases, with contested evidence. `UNVERIFIED — steroid agent, dose and duration, and the indications for antivirals.`
+
+> [!danger] Eye care is the part that gets forgotten, and it is what causes lasting harm
+> **The eye does not close.** The cornea is exposed, the blink reflex is lost, and **exposure keratopathy can cause corneal ulceration and permanent visual loss.**
+> **Prescribe:**
+> **· Ocular lubricants frequently during the day.**
+> **· Ointment and taping or an eye patch at night.**
+> **· Protective glasses outdoors.**
+> **· Explicit advice to return urgently if the eye becomes red or painful, or vision changes.**
+> **This is a specific, examinable, and genuinely sight-saving part of the management, and it is under-prescribed.** Ophthalmology referral if the cornea is at risk or exposure is severe.
+
+> [!danger] Look in the ear — Ramsay Hunt syndrome
+> **Varicella zoster reactivation in the geniculate ganglion**, producing facial palsy with **vesicles in the external auditory canal, on the pinna, or on the palate** — sometimes only a few, sometimes appearing after the palsy.
+> It is **more painful, more severe, more often associated with hearing loss and vertigo, and has a worse prognosis for recovery** than Bell palsy, and it **requires antiviral therapy in addition to steroids.**
+> **Every patient with a facial palsy needs their ear canal and palate examined.** Missing the vesicles means missing the treatment.
+
+> [!warning] Red flags — this is not Bell palsy
+> **· Gradual onset over weeks** — think tumour (parotid, cerebellopontine angle).
+> **· BILATERAL facial palsy — this is never Bell palsy.** Think **Lyme disease, Guillain–Barré syndrome (including Miller Fisher), sarcoidosis (Heerfordt syndrome — with parotid swelling, uveitis and fever), HIV, leukaemic infiltration, and bilateral skull base disease.**
+> **· Other cranial nerves involved** — think cerebellopontine angle or skull base.
+> **· A parotid mass** — facial nerve involvement by a parotid tumour is a malignancy until proven otherwise.
+> **· Recurrent palsy**, or **no recovery beginning by three to four months** — image.
+> **· Systemic features, rash, or a tick exposure history.**
+> **· Vesicles** — Ramsay Hunt.
+
+**S/Smx:** Unilateral facial weakness, incomplete eye closure with Bell phenomenon (the eye rolls up on attempted closure), drooling, food pocketing in the cheek, altered taste, hyperacusis, and post-auricular pain. Severity is graded, commonly with the **House-Brackmann scale.** `UNVERIFIED — the grading.`
+
+**Ix:** **Examination of the whole face including the forehead** (*why:* the UMN/LMN distinction determines whether this is a stroke pathway or an outpatient problem; *what:* forehead involvement). **Examination of the ear canal, tympanic membrane and palate** (*why:* Ramsay Hunt vesicles change the treatment, and otitis media or cholesteatoma are alternative causes; *what:* vesicles, middle ear disease). **Examination of the parotid and neck** (*why:* a parotid tumour causing facial palsy is malignant until proven otherwise; *what:* mass, lymphadenopathy). Full cranial nerve and neurological examination (*why:* additional deficits move the diagnosis to a central or skull base cause; *what:* other cranial nerve or long tract signs). Glucose and HbA1c (*why:* diabetes predisposes to mononeuropathy; *what:* hyperglycaemia). **Lyme serology where there is relevant travel or tick exposure, and particularly in bilateral palsy** (*why:* treatable, and a classic cause of bilateral facial palsy — noting **locally acquired Lyme disease in Australia remains contested, so travel history is key**; *what:* serology). **MRI with contrast** where there are red flags (*why:* identifies tumour, cerebellopontine angle lesion, or inflammatory nerve enhancement; *what:* mass, enhancement). Audiometry where hearing is affected (*why:* localises to the eighth nerve or cochlea; *what:* pattern of loss). Chest imaging and serum ACE where sarcoidosis is suspected (*why:* systemic disease; *what:* hilar lymphadenopathy). HIV testing where risk factors or bilateral palsy (*why:* facial palsy can be a presentation of seroconversion; *what:* positive serology).
+
+#### Mx – Immediate — D7 §0.2.1
+**Corticosteroids early. Antivirals if Ramsay Hunt or severe. Comprehensive eye protection.** Stroke pathway if the forehead is spared.
+
+#### Mx – Definitive — D7 §0.2.2
+Cause-specific. ENT or neurology referral for atypical, bilateral, recurrent or non-recovering palsy.
+
+#### Mx – Chronic/long-term — D7 §0.2.3
+Facial physiotherapy. **Follow-up to confirm recovery** — and **image anyone whose palsy has not begun to improve by three to four months.** Manage the sequelae: synkinesis (involuntary co-movement, such as eye closure on smiling), crocodile tears, and persistent weakness, for which botulinum toxin and surgical options exist. **Psychological impact is substantial and under-acknowledged** — facial appearance and expression matter enormously to people.
+
+
 ### Added from unverified layer — bulbar versus pseudobulbar palsy
 `SRC:D7_Cranial_Nerves_and_Special_Senses §0.4` `UNVERIFIED — model knowledge, not source-checked.`
 
