@@ -190,6 +190,26 @@ def run(cfg):
         # which is already merged. `carry_markers` declares one relocated - and, like
         # carry_refs, the driver VERIFIES it is actually in the destination first, so a
         # declaration can never excuse a loss.
+        # A fragment marker is sometimes SUPERSEDED rather than relocated: B asks the same
+        # clinical question in different words, usually better - naming ANZCOR Guideline 11
+        # where the fragment said only "ANZCOR". PROT compares literally, so it refuses; and
+        # `carry_markers` cannot help, because the fragment's exact wording is nowhere.
+        # Deleting it silently is the one thing that must not happen, so the replacement is
+        # DECLARED as a pair and the driver VERIFIES the replacement exists. It cannot excuse
+        # a loss - it can only record which marker answered which question, in a form an
+        # audit can read back.
+        for old_m, new_m in cfg.get('supersede_markers', []):
+            where = '\n'.join(lines[:s] + lines[e:]) + '\n' + block
+            # Replace the generic PROT entry either way, so the report names the mechanism
+            # that decided it rather than burying the specific message on line 2 - the same
+            # correction `carry_markers` needed in bbc67c5.
+            lost = [x for x in lost if old_m not in x]
+            if new_m in where:
+                print(f"    marker superseded: {old_m[:52]}…\n"
+                      f"                   by: {new_m[:52]}…")
+            else:
+                lost.append(f"supersede_markers: the declared replacement for {old_m[:44]!r} "
+                            f"is NOT in {p} or in the block - {new_m[:44]!r}")
         for m in cfg.get('carry_markers', []):
             # Either way the generic PROT entry for this marker is replaced, so the
             # report says WHICH mechanism decided it. Leaving the generic entry in on
