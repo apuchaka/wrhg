@@ -54,9 +54,17 @@ def bsection(bfile, sec):
         if 'Cross-references' in lines[j] and lines[j].lstrip().startswith('>'): e=j; break
     return '\n'.join(lines[s:e])
 
-def compare(bfile, sec, commit, dest):
-    """dest AS IT STOOD at commit^ - never the current tree."""
-    before = subprocess.run(['git','show',f'{commit}^:{dest}'],
+def compare(bfile, sec, commit, dest, at=None):
+    """dest AS IT STOOD at commit^ - never the current tree.
+
+    `at` is the PLACEMENT-TIME form: the section has not been committed yet, so
+    the pre-merge destination is a rev's tree directly rather than a commit's
+    parent. Passing `at="HEAD"` compares against the committed tree, which is
+    what "before this section merges" means while the merge is still pending.
+    Without it the check could only ever run retrospectively, one commit late.
+    """
+    rev = at if at else f'{commit}^'
+    before = subprocess.run(['git','show',f'{rev}:{dest}'],
                             capture_output=True, text=True).stdout
     if not before: return None
     B = figures(bsection(bfile, sec))
@@ -79,9 +87,10 @@ if __name__ == '__main__':
     plan = json.load(open(sys.argv[1]))
     tot=collections.Counter(); allhits=[]
     for row in plan:
-        r = compare(row['bfile'], row['sec'], row['commit'], row['dest'])
+        r = compare(row['bfile'], row['sec'], row.get('commit'), row['dest'], row.get('at'))
         if r is None:
-            print(f"  {row['bfile'][:22]:<22} §{row['sec']:<5} dest not in tree at {row['commit'][:7]}^"); continue
+            print(f"  {row['bfile'][:22]:<22} §{row['sec']:<5} dest not in tree at "
+                  f"{row.get('at') or row['commit'][:7]+'^'}"); continue
         tot['sections']+=1; tot['bfig']+=r['b_figures']; tot['dfig']+=r['dest_figures']
         tot['cmp']+=r['comparable']; tot['conf']+=len(r['conflicts'])
         allhits += [(row['bfile'], row['sec'], h) for h in r['conflicts']]
