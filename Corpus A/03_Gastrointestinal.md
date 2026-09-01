@@ -2683,3 +2683,57 @@ As per the underlying diagnosis. Post-splenectomy prophylaxis where splenectomy 
   - **Definitive (first-line, most patients):** conservative management — dietary and bowel habit modification (fibre/fluid adjustment tailored to the underlying pattern), scheduled toileting, and **pelvic floor muscle training/biofeedback**, which has a genuine evidence base for improving sphincter function and symptom control in appropriately selected patients.
   - **Chronic/long-term:** anti-motility agents (e.g. loperamide) where loose stool is a contributing factor, to firm stool consistency; referral to a specialist continence service or colorectal surgeon for refractory cases, where options include sacral nerve stimulation and surgical sphincter repair (sphincteroplasty) for confirmed structural defects.
 - **P:** genuinely treatable in a substantial proportion of patients with appropriate assessment and a structured conservative-first approach — the poor outcomes often reported reflect under-recognition and under-referral rather than the condition being inherently untreatable, which is precisely why active screening (rather than waiting for patients to volunteer this genuinely stigmatised symptom) matters.
+
+### 0.42.1 Constipation — from unverified layer
+`SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Infrequent, difficult or incomplete defecation, defined by symptom criteria rather than by frequency alone — **stool consistency, straining, sensation of incomplete evacuation and need for manual manoeuvres all matter as much as the number of motions.** `UNVERIFIED — the Rome criteria.`
+
+> [!danger] Red flags requiring investigation rather than laxatives
+> **· New onset in an adult over 50 · unintentional weight loss · rectal bleeding · iron deficiency anaemia · a change in stool calibre · tenesmus · nocturnal symptoms · a family history of colorectal cancer or IBD · a palpable abdominal or rectal mass.**
+> **New constipation in an older adult is colorectal cancer until proven otherwise.**
+
+> [!tip] Primary versus secondary
+> **Primary:** normal-transit (the commonest, often with a functional or dietary component), slow-transit, and **defecatory disorders** — pelvic floor dyssynergia, where the patient paradoxically contracts rather than relaxes the pelvic floor on straining. **This last group does not respond to laxatives and responds well to biofeedback**, so it is worth identifying.
+> **Secondary:**
+> **· Drugs — the first place to look.** Opioids, anticholinergics, tricyclics, antipsychotics, iron, calcium and aluminium antacids, calcium channel blockers, diuretics, ondansetron, and antiparkinsonian agents.
+> **· Metabolic** — **hypothyroidism, hypercalcaemia, hypokalaemia**, diabetes, uraemia.
+> **· Neurological** — Parkinson disease, multiple sclerosis, spinal cord lesions, cauda equina, autonomic neuropathy, Hirschsprung disease in children.
+> **· Structural** — malignancy, stricture, anal fissure (pain causing withholding), rectal prolapse.
+> **· Situational** — immobility, dehydration, low fibre, ignoring the urge, unfamiliar toilet facilities, pregnancy.
+
+> [!danger] Overflow diarrhoea — do a rectal examination
+> **An older or immobile patient presenting with "diarrhoea" and faecal incontinence frequently has faecal impaction with liquid stool passing around it.**
+> **Treating this as diarrhoea with antimotility agents makes it dramatically worse and risks stercoral perforation.**
+> **The diagnosis is made by rectal examination**, which takes a minute and is skipped constantly. If the rectum is loaded, the answer is disimpaction, not loperamide.
+
+> [!warning] Complications worth knowing
+> **Faecal impaction** with overflow · **stercoral ulceration and perforation** — pressure necrosis of the colonic wall from a hard faecal mass, which carries high mortality · **urinary retention** · **delirium in the elderly**, where constipation is a genuine and commonly overlooked precipitant · haemorrhoids and anal fissure · rectal prolapse · and **volvulus** in chronic megacolon.
+
+> [!tip] Management, in order
+> **1. Address the cause** — review the drug list, treat hypothyroidism or hypercalcaemia, mobilise, hydrate.
+> **2. Lifestyle** — fibre and fluid, but **note that fibre worsens symptoms in slow-transit constipation and in obstruction**, so it is not universal advice.
+> **3. Bulk-forming** — psyllium, ispaghula. **Contraindicated in opioid-induced constipation and in obstruction**, where adding bulk to a bowel that cannot propel it causes harm.
+> **4. Osmotic** — macrogol (polyethylene glycol), lactulose. Generally first-line pharmacological choice.
+> **5. Stimulant** — senna, bisacodyl. Effective; the old concern about long-term "dependence" and damage to the myenteric plexus is not well supported.
+> **6. Rectal** — suppositories and enemas for distal loading.
+> **7. Manual evacuation** for impaction.
+> `UNVERIFIED — all agents, doses and the disimpaction regimens for adults and children.`
+
+> [!danger] Prescribe an aperient with every opioid
+> **Tolerance develops to most opioid effects but not to constipation**, so it persists for as long as the opioid does. **Every opioid prescription should be accompanied by a laxative**, and the standard combination is a stimulant with a softener or osmotic agent — not a bulk-forming agent.
+> Peripherally acting mu-opioid receptor antagonists are available for refractory opioid-induced constipation. `UNVERIFIED — agents and indications.`
+
+**S/Smx:** Frequency, consistency (the Bristol stool chart is genuinely useful and better than asking "are you constipated"), straining, incomplete evacuation, digitation, blood, pain, and the red flags above.
+
+**Ix:** **Rectal examination** (*why:* identifies impaction, overflow, a rectal mass, fissure, prolapse, and assesses tone and the ability to relax the pelvic floor — it changes management more often than any blood test here; *what:* faecal loading, mass, tone). **TFTs, calcium, potassium, glucose** (*why:* hypothyroidism, hypercalcaemia and hypokalaemia are common, correctable and easily missed; *what:* the derangement). FBC and iron studies (*why:* iron deficiency anaemia with constipation raises the suspicion of malignancy substantially; *what:* microcytic anaemia). **Colonoscopy where red flags are present** (*why:* excludes colorectal cancer; *what:* tumour, stricture). Abdominal radiograph (*why:* of limited value for diagnosing constipation, which is a clinical diagnosis, but useful for assessing impaction and megacolon; *what:* faecal loading, dilatation). Anorectal physiology and defecating studies where a defecatory disorder is suspected (*why:* identifies dyssynergia, which is treated with biofeedback rather than laxatives; *what:* paradoxical contraction). **Drug chart review** (*why:* the commonest reversible cause; *what:* culprit agents).
+
+#### 0.42.1.1 Mx – Immediate
+Disimpaction where the rectum is loaded. Fluids and mobilisation.
+
+#### 0.42.1.2 Mx – Definitive
+Cause-specific, with the laxative ladder above.
+
+#### 0.42.1.3 Mx – Chronic/long-term
+Maintenance therapy — **in children in particular, maintenance laxatives are stopped far too early, causing relapse and re-impaction; treatment often continues for months.** Cross-refer `TODO:link — M5 Paediatric GI, GU & limb (unbuilt)`. Toileting routine, bowel training, and biofeedback for dyssynergia.
+
