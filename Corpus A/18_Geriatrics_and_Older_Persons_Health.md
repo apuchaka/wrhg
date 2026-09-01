@@ -385,6 +385,59 @@ Multicomponent intervention: exercise, nutrition, deprescribing, sensory correct
 #### Mx – Chronic/long-term — GER1 §0.2.3
 Ongoing exercise programs, community supports, and **use of the frailty assessment to inform advance care planning and to guide goals-of-care conversations** — cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
 
+### Malnutrition and Nutrition — from unverified layer
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Malnutrition is common, consequential and under-diagnosed
+> A large proportion of older hospital inpatients and residential care residents are malnourished or at risk, and **it is documented in a small fraction of them.**
+> **Consequences: impaired wound healing, infection, sarcopenia and falls, delirium, longer length of stay, readmission, and increased mortality.**
+> **Screen everyone** — a validated tool such as the Malnutrition Screening Tool takes a minute and asks essentially two things: **have you lost weight without trying, and have you been eating poorly?** `UNVERIFIED — the tools, thresholds and scoring.`
+
+> [!tip] Why older people eat less — and most of it is fixable
+> **· Poor dentition, ill-fitting dentures, and dentures left at home during admission.**
+> **· Dysphagia** — cross-refer [[04_Neurology]] Speech, Voice and Swallowing.
+> **· Reduced smell and taste** — cross-refer [[04_Neurology]] Smell and Taste.
+> **· Medications** — nausea, dry mouth, altered taste, anorexia, and polypharmacy generally.
+> **· Depression** — a leading and treatable cause of weight loss in older people.
+> **· Dementia** — apraxia of feeding, distraction, forgetting to eat, refusal.
+> **· Social** — isolation, bereavement, poverty, inability to shop or cook.
+> **· Pain, constipation, and nausea.**
+
+> [!danger] The hospital-specific barriers, which are our fault and are fixable
+> **· Repeated nil by mouth orders for tests that are then delayed or cancelled.**
+> **· Meals delivered and removed without anyone helping the patient eat.**
+> **· Packaging that an older person with arthritis or weakness cannot open.**
+> **· Poor positioning** — trying to eat lying flat or slumped.
+> **· The tray placed out of reach.**
+> **· Ward rounds and procedures during mealtimes.**
+> **Protected mealtimes, mealtime assistance, red tray systems and simply opening the packaging are effective interventions**, and noticing that a patient's tray has gone back untouched is a genuinely useful thing to do on a ward round.
+
+> [!warning] Refeeding syndrome
+> In a patient who has had prolonged inadequate intake, **reintroduction of nutrition drives insulin release and a rapid intracellular shift of phosphate, potassium and magnesium**, with potentially fatal cardiac, respiratory and neurological consequences.
+> **Identify at-risk patients before starting feeding, replace electrolytes, give thiamine, and reintroduce calories slowly with monitoring.** Cross-refer [[03_Gastrointestinal]] §0.41.20 Complications of Vomiting. `UNVERIFIED — risk criteria, electrolyte thresholds and the rate of caloric reintroduction.`
+
+> [!danger] PEG feeding in advanced dementia does not achieve what people expect
+> **The evidence indicates that gastrostomy feeding in advanced dementia does not prolong survival, does not prevent aspiration pneumonia, does not heal or prevent pressure injuries, and does not improve function or quality of life.**
+> **Careful hand feeding, with attention to positioning, texture, food preferences, unhurried assistance and mouth care, is the recommended alternative** and is what families are frequently not offered as an option.
+> This conversation is difficult because families experience "not feeding" as abandonment. **The framing that helps is that the goal is comfort and pleasure in eating rather than a nutritional target**, and that hand feeding continues rather than stopping. Cross-refer 0.5 and [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment.
+
+> [!tip] Practical nutrition management
+> **Food first** — fortified meals, high-energy high-protein options, frequent small meals, nourishing fluids. Then oral nutrition supplements. Then enteral feeding where appropriate to the goals of care.
+> **Texture-modified diets and thickened fluids** are described using the **IDDSI framework** in Australian practice. Note that **thickened fluids reduce coughing but reduce fluid intake and are unpleasant**, so they are not universally beneficial and should be a considered decision with speech pathology rather than a reflex. `UNVERIFIED — the IDDSI levels and descriptors.`
+> **Dietitian referral**, which is under-used.
+
+**Ix:** **Weight and weight trajectory** (*why:* the single most useful nutritional measure, and weighing patients is routinely omitted; *what:* percentage weight loss over time). **Validated malnutrition screening tool** (*why:* identifies risk quickly and triggers dietitian referral; *what:* screening score). Albumin, interpreted with caution (*why:* it is a **negative acute phase reactant and reflects inflammation more than nutrition**, so a low albumin in an unwell patient does not by itself indicate malnutrition; *what:* level in context). **Phosphate, potassium, magnesium and thiamine status before and during refeeding** (*why:* refeeding syndrome; *what:* falling electrolytes). FBC, iron studies, B12, folate, vitamin D, zinc (*why:* specific deficiencies; *what:* deficiency). **Dental and oral examination** (*why:* an entirely mechanical and correctable cause; *what:* dentition, candidiasis, ulceration, denture fit). Swallow assessment (*why:* dysphagia; *what:* aspiration risk).
+
+#### Mx – Immediate — GER2 §0.3.1
+Ensure the patient can actually eat what is in front of them — position, assistance, packaging, dentures, and reversal of unnecessary fasting.
+
+#### Mx – Definitive — GER2 §0.3.2
+Dietitian-led nutrition plan, treatment of contributing causes, and speech pathology for dysphagia.
+
+#### Mx – Chronic/long-term — GER2 §0.3.3
+Meals services, shopping and cooking support, social eating, and **carer education.** Ongoing weight monitoring.
+
+
 
 
 ## Polypharmacy and Deprescribing
