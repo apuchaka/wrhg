@@ -512,6 +512,58 @@ Cause-specific.
 
 ---
 
+### Dementia — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Acquired, progressive impairment in one or more cognitive domains, sufficient to interfere with independence in everyday activities, not occurring exclusively during delirium and not better explained by another psychiatric disorder.
+
+> [!tip] The major syndromes and their distinguishing features
+> **Alzheimer disease** — the commonest. Insidious onset, gradual progression. **Episodic memory impairment first** — forgetting recent conversations and events, repetitive questioning — followed by language, visuospatial and executive decline. Insight is often reduced early.
+> **Vascular dementia** — **stepwise deterioration** classically, though it is often gradual. Vascular risk factors, focal neurological signs, **early gait disturbance**, and **executive dysfunction and slowed processing more prominent than pure memory loss.** Mixed Alzheimer-vascular pathology is very common.
+> **Dementia with Lewy bodies** — see the danger box below.
+> **Frontotemporal dementia** — **younger onset**, often 50s–60s. **Behavioural variant**: disinhibition, apathy, **loss of empathy**, compulsive or ritualistic behaviours, **hyperorality and dietary change (often a craving for sweet foods)**, and poor insight. **Memory and visuospatial function are relatively preserved early**, which is why these patients are frequently misdiagnosed as having a primary psychiatric illness — depression, bipolar disorder, or a personality change — sometimes for years. **Language variants** (primary progressive aphasia) present with progressive speech and language breakdown.
+
+> [!danger] Dementia with Lewy bodies — the safety-critical diagnosis
+> **Core features: fluctuating cognition and alertness · recurrent, well-formed VISUAL hallucinations, typically of people or animals · REM sleep behaviour disorder (acting out dreams, often preceding cognitive symptoms by years) · spontaneous parkinsonism.**
+> **Severe neuroleptic sensitivity** — antipsychotics can cause profound rigidity, autonomic instability and irreversible deterioration.
+> **This is why you ask about hallucinations, dream enactment and fluctuation before prescribing an antipsychotic to any older person.** It is the single most important practical reason to know this diagnosis.
+> Distinguished from **Parkinson disease dementia** by timing — dementia arising before or within about a year of the motor features is DLB; well after established Parkinson disease, it is PDD. Management is similar. `UNVERIFIED — the "one-year rule" and diagnostic criteria.`
+
+> [!warning] Look for the treatable contributors in every case
+> **· Hypothyroidism · vitamin B12 and folate deficiency · hypercalcaemia · neurosyphilis · HIV · chronic subdural haematoma · medication (anticholinergics, benzodiazepines, opioids) · alcohol · obstructive sleep apnoea · uncorrected hearing and vision impairment · depression.**
+> **· Normal pressure hydrocephalus** — the triad of **gait disturbance (magnetic, shuffling, wide-based — "wet, wacky and wobbly", but the GAIT comes first and is the most shunt-responsive feature)**, urinary incontinence and cognitive impairment. **A patient whose gait problem preceded the cognitive problem deserves consideration of NPH**, because shunting can help.
+> Few of these reverse an established dementia, but **most of them make it worse and are correctable**, which is the point.
+
+> [!tip] Cognitive assessment tools, with an Australian note
+> **MMSE** — widely known, but heavily weighted to language and orientation, insensitive to executive and frontal deficits, and **strongly affected by education and language background.**
+> **MoCA** — more sensitive to mild impairment and executive dysfunction.
+> **RUDAS** — the **Rowland Universal Dementia Assessment Scale**, developed in Australia specifically to be **less influenced by education level and cultural and linguistic background**, and useful in Australia's multicultural population.
+> **KICA-Cog** — the Kimberley Indigenous Cognitive Assessment, developed for older Aboriginal Australians, particularly in rural and remote settings. **Applying a MMSE or MoCA to an Aboriginal patient or someone with limited English literacy will systematically overestimate impairment.**
+> `UNVERIFIED — all cut-off scores, and the availability and validation range of RUDAS and KICA-Cog.`
+> **Cognitive testing is never sufficient alone.** The diagnosis requires **a collateral history from someone who knows the person** and an assessment of **function** — instrumental activities (finances, medications, driving, shopping, cooking) decline before basic ones.
+
+> [!danger] Behavioural and psychological symptoms of dementia (BPSD)
+> Agitation, aggression, wandering, disinhibition, psychosis, and mood disturbance.
+> **Look for a cause first — pain (frequently the answer and frequently untreated because the patient cannot report it), constipation, urinary retention, infection, hunger, thirst, boredom, fear, over- or under-stimulation, and delirium.**
+> **Non-pharmacological approaches first.** Then, if needed, **the smallest dose for the shortest time, with a plan and date for review** — because **antipsychotics in dementia increase stroke and mortality**, and because they are started far more often than they are stopped.
+
+**S/Smx:** Progressive cognitive decline with functional impairment, in the domains characteristic of the underlying syndrome, with behavioural and psychological symptoms, and with the specific features above.
+
+**Ix:** **Collateral history** (*why:* the single most important part of the assessment — patients under-report and lack insight, and the pattern of onset and progression comes from the informant; *what:* onset, course, domains affected, function, behaviour). **Cognitive testing with a tool appropriate to the person's language, education and cultural background** (*why:* an inappropriate tool produces a misleading result; *what:* domain-specific deficits). **Functional assessment (ADLs and IADLs)** (*why:* the functional criterion is what distinguishes dementia from mild cognitive impairment; *what:* dependence). FBC, UEC, calcium, LFT, **TFTs, B12 and folate, glucose** (*why:* the correctable contributors; *what:* deficiency, endocrine or metabolic derangement). Syphilis serology and HIV where risk factors or an atypical presentation (*why:* treatable causes; *what:* positive serology). **CT or MRI brain** (*why:* excludes subdural haematoma, tumour, hydrocephalus and significant vascular disease, and the pattern of atrophy supports the syndrome — **MRI is preferred where available**; *what:* atrophy pattern, vascular burden, hydrocephalus, mass). Sleep study where OSA is suspected (*why:* it worsens cognition and is treatable; *what:* apnoea-hypopnoea index). **Hearing and vision assessment** (*why:* uncorrected sensory impairment both mimics and worsens cognitive decline, and **hearing loss is a recognised modifiable risk factor for dementia**; *what:* correctable deficit). Depression screening (*why:* depression causes reversible cognitive impairment and coexists frequently; *what:* depressive symptoms — see 0.4). Specialist investigations — neuropsychological testing, FDG-PET, amyloid imaging, CSF biomarkers, EEG — where the diagnosis is uncertain or onset is young (*why:* young-onset and atypical dementia warrant specialist workup; *what:* pattern-specific findings).
+
+#### Mx – Immediate — D2 §0.3.1
+Only if delirium is superimposed — which is common and must be excluded, since **delirium on a background of dementia is the commonest presentation of both.**
+
+#### Mx – Definitive — D2 §0.3.2
+No disease-modifying treatment is established in routine Australian practice. **Cholinesterase inhibitors** (donepezil, rivastigmine, galantamine) in Alzheimer disease, and with particular benefit in **Lewy body and Parkinson disease dementia**; **memantine** in moderate to severe disease. Benefits are modest and symptomatic. **Aggressive vascular risk factor management** in vascular and mixed dementia. `UNVERIFIED — agents, PBS authority criteria, and the assessment requirements for continuation.`
+
+#### Mx – Chronic/long-term — D2 §0.3.3
+**Advance care planning EARLY, while the person still has capacity to express their wishes** — this is the single most valuable long-term intervention and it is repeatedly left too late. Cross-refer [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment.
+**Driving assessment and the legal obligation to advise** — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions).
+**Carer support** — carer burden is high, carer depression is common, and practical support (respite, carer payments, Dementia Australia, My Aged Care assessment) should be arranged actively rather than mentioned. **Ask the carer how they are.**
+Falls prevention, nutrition, continence, and dental and sensory care.
+
+
 ## Delirium
 
 **D:** acute, fluctuating changes in mental status — inattention, disorganised thinking, altered level of consciousness. Divided into hyperactive, hypoactive, mixed.
