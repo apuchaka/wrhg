@@ -83,6 +83,14 @@ def run(cfg):
             for l in was:
                 if l not in block:
                     lost.append(f"{name}: {l.strip()[:90]}")
+        # The rule says a supersede INHERITS the fragment's cross-references. Every
+        # supersede so far has silently dropped some, caught only by reading the digit
+        # multiset by hand. Check it structurally instead.
+        refs = lambda t: set(x for x in re.findall(r'\[\[([^\]]+)\]\]|(§[\d.]+)', t)
+                             for x in x if x)
+        lost_refs = refs('\n'.join(frag)) - refs(block)
+        for r in sorted(lost_refs):
+            lost.append(f"cross-reference: {r}")
         if lost:
             raise SystemExit("*** SUPERSEDE REFUSED — would delete destination annotation(s):\n    "
                              + "\n    ".join(lost)
