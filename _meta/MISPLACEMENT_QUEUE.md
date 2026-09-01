@@ -79,6 +79,31 @@ purpose: making this one block `##` would make it structurally unlike its eleven
 in the same file, and the re-parenting job is the place to decide the level for all of
 them at once.
 
+## The queue's SIZE is itself the measurement
+
+**14 entries across 105 section-merged sections — one misplacement per 7.5 sections, and
+10 of the 14 are placements this run chose.** That ratio is the number a later wave is
+compared against, and it is recorded here because nothing else in the project measures
+placement quality at all.
+
+The comparison exists because the alternative was costed. A wholesale paste — one paste per
+B file into a single destination — was estimated at **roughly 602 misplacement candidates**,
+since every section lands wherever its file lands rather than beside related content. Against
+that, 14 is not a defect count. **It is the cost of placing sections deliberately, and it is
+about 40× smaller than the cost of not doing so.**
+
+**How to read a future wave's number.** If a wave produces a queue that is proportionally
+larger than 1 per 7.5 sections, that is a signal about **that wave** — its B files spanned
+more systems, or its destinations were structurally unnumbered, or the sections were
+syndromic rather than disease-shaped. It is **not** a signal that the process is degrading,
+and it is not a reason to reach for the paste. A wave that produces proportionally *fewer*
+is likewise a fact about its files, not evidence the method improved.
+
+**What would be a signal about the process:** entries whose cause is the driver rather than
+the judgement — a block landing under a wrong parent because the heading level was chosen
+mechanically rather than read. Entry 13 in the `18_Geriatrics` section is exactly that shape
+and is labelled as such.
+
 ## Count
 
 | | n |
