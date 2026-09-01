@@ -2222,6 +2222,39 @@ Cause-specific, with neurology, neurosurgery or oncology involvement.
 #### Mx – Chronic/long-term — D3 §0.7.3
 Rehabilitation, disease-modifying therapy in MS, driving and occupational advice, and advance care planning in progressive disease.
 
+### Localising the Lesion — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** The systematic determination of which level of the nervous system is affected, from cortex to muscle.
+
+> [!tip] The eight levels, and how each presents
+> **Brain (cortex, internal capsule)** — UMN pattern, contralateral, often with cortical features (aphasia, neglect, visual field loss).
+> **Spinal cord** — UMN below the lesion, LMN at the lesion, **a sensory level**, and sphincter involvement.
+> **Anterior horn cell** — **mixed UMN and LMN signs with NO sensory involvement** (motor neurone disease).
+> **Nerve root** — myotomal weakness, dermatomal sensory loss, loss of the reflex for that root, and **radicular pain shooting down the limb.**
+> **Plexus** — deficits crossing multiple root and nerve territories, confined to one limb.
+> **Peripheral nerve** — a single nerve territory (mononeuropathy), a symmetrical length-dependent pattern (polyneuropathy), or multiple discrete nerves (mononeuritis multiplex).
+> **Neuromuscular junction** — **fatigable** weakness, ptosis and diplopia, bulbar involvement, **no sensory loss, normal reflexes.**
+> **Muscle** — **proximal, symmetrical weakness, no sensory loss, reflexes preserved until late, raised CK.**
+
+> [!info] Upper versus lower motor neurone
+> | | **UMN** | **LMN** |
+> |---|---|---|
+> | Tone | **Increased** (spastic, clasp-knife) | **Reduced** or normal |
+> | Reflexes | **Brisk**, clonus | **Reduced or absent** |
+> | Plantar | **Upgoing (Babinski)** | Downgoing |
+> | Wasting | Absent (except disuse, late) | **Present** |
+> | Fasciculation | Absent | **Present** |
+> | Pattern | **Pyramidal** — upper limb extensors and lower limb flexors weakest | Territory of the affected root or nerve |
+> **Acute UMN lesions can initially cause FLACCID weakness with absent reflexes ("spinal shock"), with spasticity developing over days to weeks.** So a flaccid areflexic patient early after a cord injury is not evidence against a UMN lesion — this is a classic trap.
+
+> [!warning] Two combinations that point to specific diagnoses
+> **Mixed UMN and LMN signs with no sensory involvement** → **motor neurone disease**, until proven otherwise. Wasting and fasciculation with brisk reflexes in the same limb is a striking and specific finding.
+> **Absent ankle reflexes with upgoing plantars** → a lesion affecting both peripheral nerves and the cord: **subacute combined degeneration from B12 deficiency**, or coexisting cervical myelopathy with a peripheral neuropathy (common in diabetics), or tabes dorsalis, or Friedreich ataxia.
+
+**Ix:** **A careful examination is the investigation.** Nerve conduction studies and EMG confirm and refine, but they answer the question you pose, so **localise clinically first** — the request "?neuropathy" without a clinical question gets a less useful study.
+
+
 
 ## Neuroinflammatory Disorders
 
