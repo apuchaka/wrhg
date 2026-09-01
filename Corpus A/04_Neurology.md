@@ -148,6 +148,49 @@ no_baseline: 1
 
 ---
 
+### Headache — Framework and Red Flags — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Pain referred to the head, arising from pain-sensitive structures — **the brain parenchyma itself has no nociceptors.** Pain arises from the meninges, large intracranial vessels, venous sinuses, cranial nerves, and extracranial structures including scalp, muscles, sinuses, teeth and eyes.
+
+> [!tip] The single most useful question is about onset speed
+> **"How long did it take to go from nothing to as bad as it got?"**
+> **Seconds to a minute — thunderclap.** Subarachnoid haemorrhage and the other vascular catastrophes. See 0.2.
+> **Minutes to an hour** — migraine, cluster, glaucoma.
+> **Hours to days** — meningitis, raised intracranial pressure, giant cell arteritis, venous sinus thrombosis.
+> **Weeks to months, progressive** — space-occupying lesion, chronic subdural, idiopathic intracranial hypertension.
+> **Longstanding, episodic, stereotyped** — primary headache disorder.
+
+> [!danger] Red flags — SNOOP4
+> **S — Systemic** symptoms or disease: fever, weight loss, malignancy, **immunosuppression or HIV**, pregnancy.
+> **N — Neurological** signs or symptoms: focal deficit, seizure, altered conscious state, papilloedema, personality change.
+> **O — Onset** sudden, abrupt or thunderclap.
+> **O — Older** age at new onset (over about 50).
+> **P4 — Pattern change** (a different headache from the usual one, or escalating frequency) · **Positional** (worse lying down, or worse upright) · **Precipitated by Valsalva**, cough, sneeze or exertion · **Papilloedema**.
+> `UNVERIFIED — the age threshold, and variants of the mnemonic differ between sources.`
+
+> [!warning] The examination that must not be skipped
+> **· Blood pressure** — hypertensive emergency and pre-eclampsia.
+> **· Fundoscopy for papilloedema** — the single highest-yield sign in headache assessment, and the one most often omitted.
+> **· Neck stiffness** — with the caveat that it takes hours to develop in SAH and is frequently absent in meningitis.
+> **· Temporal arteries** — tenderness, thickening, absent pulsation, in anyone over 50.
+> **· Focal neurological examination including cranial nerves, visual fields and acuity.**
+> **· Palpation of the scalp, sinuses, temporomandibular joints and teeth**, and examination of the eyes — because these extracranial causes are common and treatable.
+
+**S/Smx:** Site, onset speed, character, severity, duration, frequency, radiation, aggravating and relieving factors, positional change, associated autonomic and neurological features, and — critically — **whether this headache is different from the patient's usual headaches.**
+
+**Ix:** Directed by the red flags. See the sections below. **In a patient with a longstanding stereotyped primary headache and a normal examination, no investigation is required**, and imaging in that situation generates incidental findings and anxiety without benefit.
+
+#### Mx – Immediate
+Analgesia, antiemetic, and a quiet dark environment while assessing. Urgent imaging where red flags are present.
+
+#### Mx – Definitive
+Cause-specific.
+
+#### Mx – Chronic/long-term
+Headache diary, trigger identification, and — critically — **review of analgesic frequency**, since medication overuse headache complicates many chronic headache presentations. See 0.4.
+
+
 ## Dementias
 
 ### Mild Cognitive Impairment (MCI)
