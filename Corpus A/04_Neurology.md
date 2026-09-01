@@ -878,6 +878,36 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 
 ---
 
+### Gait Disorders — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Watch the patient walk — the pattern usually names the lesion
+> **Hemiplegic** — **circumduction** of the stiff extended leg with a flexed adducted arm. Contralateral UMN lesion, usually stroke.
+> **Spastic paraparetic ("scissoring")** — both legs stiff and adducted, toes scraping. **Spinal cord** — cervical myelopathy, MS, cord compression, cerebral palsy.
+> **Cerebellar ataxic** — **wide-based, staggering, irregular, worse on turning and on tandem walking**, and **NOT corrected by looking at the feet.** Midline (vermis) lesions cause truncal ataxia with a relatively normal limb examination; hemispheric lesions cause ipsilateral limb ataxia.
+> **Sensory ataxic** — **high-stepping, stamping, eyes fixed on the ground, markedly worse in the dark**, with a **positive Romberg.** Dorsal columns or large fibre neuropathy.
+> **Parkinsonian** — **stooped, shuffling, reduced arm swing, difficulty initiating, festination, freezing (especially in doorways), and turning "en bloc" in multiple small steps.** Cross-refer [[04_Neurology]] Movement Disorders.
+> **Steppage (foot drop)** — the foot is lifted high to clear the toes. **Unilateral** suggests common peroneal palsy or L5 radiculopathy; **bilateral** suggests peripheral neuropathy or Charcot-Marie-Tooth. Cross-refer [[04_Neurology]] Mononeuropathies and Entrapment.
+> **Waddling (myopathic)** — pelvis drops on the swing side from proximal weakness (**Trendelenburg**), with a rolling gait and difficulty rising from a chair. Cross-refer [[04_Neurology]] Myopathy.
+> **Antalgic** — shortened stance phase on the painful side. Musculoskeletal.
+> **Apraxic / "magnetic"** — **feet appear stuck to the floor, with small shuffling steps and a wide base, but normal leg strength and coordination when tested lying down.** Frontal lobe disease, **normal pressure hydrocephalus**, or extensive small vessel disease. Cross-refer [[04_Neurology]] Normal Pressure Hydrocephalus.
+> **Functional** — inconsistent, variable with distraction, often with **excessive effort or extravagant sway without falling**, and improvement when attention is diverted. A positive diagnosis. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
+
+> [!danger] A new gait disorder in an older adult is not "just age"
+> Gait deteriorates modestly with age, but **a distinct new gait abnormality has a cause.** The ones not to miss: **normal pressure hydrocephalus** (gait first, and the most shunt-responsive feature), **cervical myelopathy** (spastic gait with hand clumsiness and brisk reflexes), **subdural haematoma**, **B12 deficiency**, **parkinsonism**, and **medication effects.**
+
+**Ix:** **Observed gait, including turning and tandem walking** (*why:* the diagnosis is usually visible in ten seconds of walking, and turning unmasks parkinsonian and cerebellar problems the straight-line walk conceals; *what:* the pattern). **Romberg, and examination of tone, power, reflexes, proprioception and coordination** (*why:* localises; *what:* the neurological pattern). MRI brain and spine as directed (*why:* hydrocephalus, myelopathy, cerebellar disease, small vessel disease; *what:* structural cause). B12, TFTs, glucose (*why:* reversible contributors; *what:* deficiency). Medication review (*why:* drug-induced parkinsonism and sedation are common and reversible; *what:* antipsychotics, metoclopramide, prochlorperazine, sedatives).
+
+#### Mx – Immediate — D5 §0.5.1
+Falls risk assessment and prevention of injury.
+
+#### Mx – Definitive — D5 §0.5.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D5 §0.5.3
+**Physiotherapy and gait aids**, correctly fitted — an incorrectly sized walking stick is worse than none. Home assessment, footwear, and exercise. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+
 ## CNS Infections
 
 ### Bacterial Meningitis
