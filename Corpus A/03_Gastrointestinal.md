@@ -1226,6 +1226,49 @@ Pelvic floor physiotherapy for incontinence, which is effective and under-referr
 
 ---
 
+### 0.27.1 Peptic Ulcer Disease and *Helicobacter pylori* — from unverified layer
+`SRC:C6_Dyspepsia__Oesophageal_and_Anorectal_Disease §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** Ulceration results from an imbalance between aggressive factors (acid, pepsin, *H. pylori*, NSAIDs) and mucosal defence (mucus-bicarbonate layer, prostaglandin-dependent blood flow, epithelial renewal). **NSAIDs act by inhibiting COX-1-derived prostaglandins**, which is why the injury is systemic rather than merely topical — **enteric coating and rectal administration do not protect the stomach.**
+
+> [!tip] The causes
+> ***H. pylori*** — the dominant cause of duodenal ulceration and a major cause of gastric ulceration. It also causes gastric adenocarcinoma and MALT lymphoma, which is why eradication matters beyond symptom relief.
+> **NSAIDs and aspirin** — increasingly the dominant cause in Australia as *H. pylori* prevalence falls.
+> **Stress ulceration** — critical illness, burns (Curling ulcer), head injury (Cushing ulcer).
+> **Zollinger-Ellison syndrome** — gastrin-secreting tumour. Suspect with **multiple ulcers, ulcers in unusual distal locations, ulcers refractory to treatment, ulcers with diarrhoea, or ulcers in the absence of *H. pylori* and NSAIDs.** Rare, but the pattern is distinctive.
+> **Malignancy** — every gastric ulcer must be biopsied.
+
+> [!danger] Withhold acid suppression and antibiotics before *H. pylori* testing
+> **Proton pump inhibitors must be stopped for a period before testing, and antibiotics and bismuth for longer**, because they suppress the organism and produce **false negative** urea breath tests, stool antigen tests and biopsy urease tests.
+> This is the single commonest technical error in *H. pylori* testing, and it results in patients being told they are negative when they are not.
+> **Serology is not useful for confirming eradication** — antibodies persist for years after successful treatment. Use a urea breath test or stool antigen for that. `UNVERIFIED — the required withholding periods.`
+
+> [!warning] Confirm eradication, and know that resistance is rising
+> **Clarithromycin resistance has increased in Australia**, and first-line regimens have been revised accordingly. **Obtain the current regimen from eTG Antibiotic rather than from memory or from an overseas source** — this is one of the clearest examples of a recommendation that differs by jurisdiction and by year.
+> **Always confirm eradication** with a repeat test after treatment, after the appropriate withholding period. Failure to confirm is common, and treatment failure is common enough that assuming success is unsafe. `UNVERIFIED — regimens, durations, and the interval before confirmatory testing.`
+
+> [!danger] Every gastric ulcer needs biopsy and repeat endoscopy
+> **Gastric ulcers may be malignant, and a benign appearance is not sufficient reassurance.** Biopsy at the index endoscopy, and **repeat endoscopy after treatment to confirm healing** — a non-healing gastric ulcer is cancer until proven otherwise.
+> **Duodenal ulcers do not require the same routine follow-up**, as duodenal malignancy is rare.
+
+> [!tip] Gastroprotection with NSAIDs
+> Indicated where an NSAID is unavoidable in a patient at increased risk: **previous ulcer or ulcer bleeding · age over about 65 · concurrent aspirin, anticoagulant, corticosteroid or SSRI · high NSAID dose · significant comorbidity.**
+> **The combination of an NSAID with an SSRI, a corticosteroid or an anticoagulant multiplies bleeding risk** and is a common and avoidable prescribing pattern. `UNVERIFIED — risk thresholds and gastroprotection regimens.`
+
+**S/Smx:** Epigastric pain, classically burning or gnawing. **Duodenal ulcer pain is traditionally relieved by food and worse at night; gastric ulcer pain is worse with eating** — but this distinction is unreliable in practice and should not be used to decide who needs endoscopy. Nausea, early satiety, bloating. **Many ulcers, particularly NSAID-related, are asymptomatic until they bleed or perforate** — which is why the first presentation is often a complication.
+
+**Ix:** ***H. pylori* testing with appropriate drug withholding** (*why:* eradication cures the disease and prevents recurrence, and the test is invalid if the withholding is not observed; *what:* urea breath test, stool antigen, or biopsy urease and histology). **Gastroscopy with biopsy** (*why:* diagnoses the ulcer, biopsies for *H. pylori* and for malignancy, and permits therapy if bleeding; *what:* ulcer site and appearance, histology). FBC and iron studies (*why:* chronic blood loss; *what:* iron deficiency anaemia). **Fasting gastrin** where Zollinger-Ellison is suspected, **off PPI** (*why:* PPIs themselves raise gastrin substantially and make the test uninterpretable; *what:* markedly raised gastrin). Erect CXR where perforation is suspected (*why:* free gas; *what:* subdiaphragmatic air — cross-refer §0.41.11 Epigastric Pain).
+
+#### 0.27.1.1 Mx – Immediate
+For complications — bleeding per §0.33 Upper GI Bleed, perforation per §0.41.11 Epigastric Pain, gastric outlet obstruction per §0.41.16 Nausea and Vomiting 0.3.
+
+#### 0.27.1.2 Mx – Definitive
+**Eradicate *H. pylori*. Stop the NSAID.** Proton pump inhibitor for healing. Endoscopic or surgical management of complications.
+
+#### 0.27.1.3 Mx – Chronic/long-term
+**Confirm eradication. Repeat endoscopy for gastric ulcers.** Review analgesic strategy so the patient is not simply left in pain — paracetamol, topical NSAIDs, and non-pharmacological measures. Gastroprotection where an NSAID must continue.
+
+
 ## 0.28 GORD
 
 **D:** symptoms/complications arising from reflux of gastric contents into the oesophagus, oral cavity, or lungs.
