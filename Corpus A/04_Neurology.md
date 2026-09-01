@@ -2169,6 +2169,64 @@ Management of oscillopsia, and low vision support where relevant.
 
 **Ix:** **MRI with contrast** is the imaging of choice for cranial nerve pathology (*why:* CT is inadequate for the brainstem, skull base and cranial nerves; *what:* nerve enhancement, mass, demyelination). Lumbar puncture where meningeal or inflammatory disease is suspected (*why:* malignant meningitis, infection, GBS variants; *what:* cells, protein, cytology, oligoclonal bands).
 
+### Diplopia and Disorders of Eye Movement — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] The first question: monocular or binocular?
+> **Cover one eye.**
+> **· Diplopia PERSISTS with one eye covered = MONOCULAR** → the problem is in that eye's optics: **cataract, refractive error, corneal irregularity, dry eye, lens dislocation, iris defect.** **This is an ophthalmic problem, not a neurological one**, and it does not need brain imaging.
+> **· Diplopia RESOLVES when either eye is covered = BINOCULAR** → misalignment of the eyes: **cranial nerve palsy, neuromuscular junction disease, restrictive orbital disease, or a central gaze disorder.**
+> This single manoeuvre saves a great deal of unnecessary investigation and is frequently not performed.
+
+> [!danger] Third nerve palsy — the pupil decides the urgency
+> **Complete third nerve palsy: ptosis, and the eye resting "down and out"** (unopposed lateral rectus and superior oblique).
+> **· PUPIL-INVOLVING (dilated, poorly reactive) → COMPRESSIVE until proven otherwise → posterior communicating artery aneurysm → urgent imaging and neurosurgical referral.**
+> **· PUPIL-SPARING → more likely microvascular (diabetes, hypertension), and usually resolves over weeks to months.**
+> **The anatomical reason: the parasympathetic pupillomotor fibres run in the PERIPHERY of the nerve and are supplied by the surrounding pial vessels, so they are damaged early by external compression but spared by microvascular infarction of the nerve core.**
+> **A painful pupil-involving third nerve palsy is an aneurysm until imaging says otherwise.** Do not attribute it to diabetes.
+
+> [!tip] Fourth and sixth nerve palsies
+> **Fourth (trochlear, superior oblique)** — **vertical or oblique diplopia, worse on looking DOWN and toward the opposite side** — so worst going down stairs or reading. Patients adopt a **compensatory head tilt AWAY from the affected side.** Trauma is the commonest cause, since the nerve has the longest intracranial course and is vulnerable.
+> **Sixth (abducens, lateral rectus)** — **horizontal diplopia worse on looking toward the affected side**, with failure of abduction.
+> **The sixth nerve is the classic "false localising sign" in raised intracranial pressure** — its long intracranial course makes it vulnerable to stretch, so a sixth nerve palsy may indicate raised pressure anywhere rather than a lesion at the nerve. **A sixth nerve palsy with headache should prompt fundoscopy for papilloedema.** Cross-refer [[04_Neurology]] Secondary Headaches Worth Knowing.
+
+> [!warning] Horner syndrome — and the one you must not miss
+> **Partial ptosis, miosis, and anhidrosis**, from interruption of the three-neurone sympathetic pathway. The **anhidrosis pattern localises it**: whole face and arm (central/first order), face only (preganglionic), or minimal/absent (postganglionic).
+> **· Painful Horner syndrome with neck pain = CAROTID DISSECTION until proven otherwise** — urgent vascular imaging, because the next event is a stroke. Cross-refer [[04_Neurology]] Transient Ischaemic Attack (TIA).
+> **· Horner syndrome with arm or shoulder pain and hand wasting = PANCOAST TUMOUR** — apical lung cancer invading the sympathetic chain and brachial plexus. **Get a chest X-ray, and if it is normal but suspicion is high, a CT.**
+> **· In a child, Horner syndrome with heterochromia = consider neuroblastoma.**
+> Also: brainstem lesion (lateral medullary syndrome — cross-refer [[04_Neurology]] Stroke Syndromes and Localisation), and cluster headache (transient, with the attack).
+
+> [!tip] Internuclear ophthalmoplegia
+> **Impaired ADduction of one eye on lateral gaze, with nystagmus of the ABducting eye**, from a lesion of the medial longitudinal fasciculus. Convergence is preserved.
+> **Bilateral INO in a young person is multiple sclerosis until proven otherwise. Unilateral INO in an older person is more likely a brainstem stroke.**
+
+> [!danger] Any pupil-sparing ophthalmoplegia with ptosis — think myasthenia
+> **Myasthenia gravis can mimic any cranial nerve palsy or combination of them**, because it affects the muscles rather than the nerves.
+> **The features that give it away: FATIGABILITY (worse at the end of the day, worse on sustained upgaze), VARIABILITY between examinations, PUPIL SPARING (always — the pupil is smooth muscle and unaffected), and a pattern that does not respect a single nerve's anatomy.**
+> **Ask about diurnal variation, fatigable chewing, and swallowing.** Cross-refer [[04_Neurology]] Neuromuscular Junction Disorders.
+
+> [!tip] Gaze palsies and the other causes
+> **Cortical (frontal eye field) lesion — the eyes look TOWARD the lesion** and away from the hemiparesis.
+> **Pontine (paramedian pontine reticular formation) lesion — the eyes look AWAY from the lesion** and toward the hemiparesis.
+> **Vertical gaze palsy, particularly downgaze — progressive supranuclear palsy**, or a dorsal midbrain (Parinaud) syndrome with pupillary light-near dissociation and convergence-retraction nystagmus, from a pineal region lesion or hydrocephalus.
+> **Restrictive causes** — **thyroid eye disease** (with proptosis, lid retraction and lid lag; restriction typically of upgaze from inferior rectus involvement), orbital myositis, orbital fracture with muscle entrapment (**blowout fracture — cross-refer [[13_04_ENT_-_Nose__Rhinosinusitis__Fractures__CSF_Rhinorrhoea__Epistaxis__Nasal_Cancers_]] and `TODO:link — L8 Facial, head & torso trauma (unbuilt)`**), and orbital cellulitis.
+> **Giant cell arteritis** can cause diplopia and must be considered in anyone over 50 — cross-refer [[04_Neurology]] Secondary Headaches Worth Knowing.
+
+**S/Smx:** Diplopia and its direction of maximal separation, ptosis, pupil size and reactivity, pain, proptosis, and associated neurological or systemic features.
+
+**Ix:** **Cover test and assessment of monocular versus binocular diplopia** (*why:* determines whether this is ophthalmic or neurological; *what:* resolution on covering either eye). **Pupil examination** (*why:* the single most important finding in a third nerve palsy; *what:* size, reactivity, anisocoria). **Urgent CT/MR angiography for a pupil-involving third nerve palsy** (*why:* posterior communicating artery aneurysm; *what:* aneurysm). MRI brain and orbits (*why:* brainstem lesion, demyelination, orbital and cavernous sinus pathology; *what:* lesion). **CT chest or apical views for Horner syndrome with arm symptoms** (*why:* Pancoast tumour; *what:* apical mass). **Carotid imaging for painful Horner syndrome** (*why:* dissection; *what:* flap, tapering). **Acetylcholine receptor antibodies and ice pack test** (*why:* myasthenia mimics everything here; *what:* positive antibodies, improvement in ptosis with cooling). TFTs and thyroid antibodies (*why:* thyroid eye disease; *what:* abnormal function, positive antibodies). **ESR and CRP in the over-50s** (*why:* giant cell arteritis; *what:* raised markers). Glucose and HbA1c (*why:* microvascular palsy; *what:* diabetes). Fundoscopy (*why:* papilloedema with a sixth nerve palsy indicates raised pressure; *what:* disc swelling).
+
+#### Mx – Immediate — D7 §0.3.1
+**Urgent imaging for a pupil-involving third nerve palsy.** Steroids for suspected giant cell arteritis. Vascular imaging for painful Horner syndrome.
+
+#### Mx – Definitive — D7 §0.3.2
+Cause-specific, with ophthalmology and neurology involvement.
+
+#### Mx – Chronic/long-term — D7 §0.3.3
+Prisms or occlusion for persistent diplopia. Strabismus surgery once stable. **Driving advice while diplopia persists** — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions).
+
+
 
 
 ## Strokes
