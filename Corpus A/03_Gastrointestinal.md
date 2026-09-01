@@ -2265,20 +2265,38 @@ Cause-specific.
 #### 0.41.8.3 Mx – Chronic/long-term
 Alcohol and hepatotoxin avoidance, vaccination against hepatitis A and B in chronic liver disease, and medication review for hepatically metabolised drugs.
 
-### 0.41.9 Added from unverified layer — the distended abdomen
+### 0.41.9 Abdominal Distension, Bloating and Flatulence — from unverified layer
 `SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.5 fragment.*
 
 > [!tip] The six Fs
-> **Fat · Fluid · Flatus · Faeces · Fetus · "Filthy great mass."**
-> Crude, but it covers the differential for a distended abdomen, and the sequence prompts the two that get forgotten — **do a pregnancy test, and do a rectal examination.**
+> **Fat · Fluid · Flatus · Faeces · Fetus · "Filthy great mass."** Crude, but it genuinely covers the differential for a distended abdomen, and the sequence prompts the two that get forgotten — **do a pregnancy test, and do a rectal examination.**
 
-> [!danger] Bloating and early satiety in a woman is ovarian cancer until excluded
-> **Persistent bloating, early satiety, abdominal or pelvic pain, and urinary urgency** are the recognised symptom cluster of ovarian cancer, and they are repeatedly attributed to irritable bowel syndrome.
-> **New "IBS" in a woman over 50 warrants exclusion of ovarian cancer before the label is accepted** — IBS is a diagnosis that usually begins in earlier adult life, so a first presentation in this age group is the red flag. See [[17_10_Ovarian_Cancer__Cysts_and_Torsion]], and §0.35 for the IBS entry itself.
+> [!danger] Bloating and early satiety in a woman is ovarian cancer until excluded Ovarian cancer is owned by [[17_10_Ovarian_Cancer__Cysts_and_Torsion]]. Distinguishing the rest: ascites with the SAAG determining the cause (§0.6.2); obstruction and ileus are tympanic (§0.19, §0.20, §0.39); functional bloating is §0.35 IBS; and the organomegaly and mass differentials at §0.13 and §0.17.
+> **Persistent bloating, early satiety, abdominal or pelvic pain, and urinary urgency** are the recognised symptom cluster of ovarian cancer, and they are repeatedly attributed to irritable bowel syndrome. **New "IBS" in a woman over 50 is a red flag**, because IBS rarely begins at that age. Cross-refer §0.41.16 Nausea and Vomiting and `TODO:link — O5 Pelvic & vulval (unbuilt)`.
 
-Distinguishing the rest: **ascites** — shifting dullness, fluid thrill, flank dullness, with the SAAG determining the cause (§0.6.2). **Obstruction and ileus** — tympanic (§0.19, §0.20, §0.39). **Functional bloating** — worse through the day, better on waking, no weight loss, normal examination; common and genuinely distressing. **Coeliac disease, lactose intolerance, small intestinal bacterial overgrowth** — bloating with flatulence, often postprandial (§0.17, §0.13). **Mass** — ovarian, uterine, hepatic, splenic, renal. **Obesity** — but do not assume it without excluding the others.
+> [!tip] Distinguishing the causes
+> **Ascites** — shifting dullness, fluid thrill, flank dullness. The **SAAG** determines the cause. Cross-refer §0.38.1 Complications of Cirrhosis.
+> **Obstruction and ileus** — tympanic, with the features in 0.1.
+> **Functional bloating** — worse through the day, better on waking, no weight loss, normal examination. Extremely common and genuinely distressing.
+> **Coeliac disease, lactose intolerance, small intestinal bacterial overgrowth** — bloating with flatulence, often postprandial.
+> **Constipation** — a common and reversible cause.
+> **Mass** — ovarian, uterine (fibroids), hepatic, splenic, renal, or a large tumour.
+> **Obesity** — but do not assume it without excluding the others.
 
----
+> [!warning] Excessive flatulence
+> Usually dietary and benign — fermentable carbohydrates, fizzy drinks, aerophagia from rapid eating, chewing gum or smoking. **But it is also a feature of malabsorption**, so combine it with steatorrhoea, weight loss or anaemia and it warrants coeliac serology and further assessment.
+
+**Ix:** **Pregnancy test** (*why:* the F that gets forgotten; *what:* positive). Abdominal ultrasound (*why:* first-line for ascites, masses, organomegaly and pelvic pathology; *what:* fluid, mass, organ size). **CA-125 with pelvic imaging in a woman with persistent bloating** (*why:* ovarian cancer, per the danger above; *what:* raised marker, adnexal mass — interpreted alongside imaging, not alone). **Diagnostic ascitic tap** where ascites is present (*why:* determines the SAAG and excludes SBP and malignancy; *what:* neutrophils, SAAG, cytology). Coeliac serology (*why:* common and treatable; *what:* positive serology). CT abdomen and pelvis where a mass or malignancy is suspected (*why:* characterises and stages; *what:* mass, ascites, peritoneal disease). Abdominal radiograph (*why:* obstruction, faecal loading; *what:* dilated loops, loading).
+
+#### 0.41.9.1 Mx – Immediate
+Only for obstruction or tense ascites.
+
+#### 0.41.9.2 Mx – Definitive
+Cause-specific.
+
+#### 0.41.9.3 Mx – Chronic/long-term
+Dietary review with dietitian input for functional bloating.
 
 ### 0.41.10 Right Upper Quadrant Pain — from unverified layer
 `SRC:C1_Acute_Abdomen §0.3` `UNVERIFIED — model knowledge, not source-checked.`

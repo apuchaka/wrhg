@@ -86,7 +86,10 @@ def run(cfg):
         # The rule says a supersede INHERITS the fragment's cross-references. Every
         # supersede so far has silently dropped some, caught only by reading the digit
         # multiset by hand. Check it structurally instead.
-        refs = lambda t: set(x for x in re.findall(r'\[\[([^\]]+)\]\]|(§[\d.]+)', t)
+        # \d.]+ greedily eats a sentence-ending period, so §0.17 and §0.17. compare
+        # unequal and the refusal fires on a reference that IS carried.
+        refs = lambda t: set(x.rstrip('.') for x in
+                             re.findall(r'\[\[([^\]]+)\]\]|(§[\d.]+)', t)
                              for x in x if x)
         lost_refs = refs('\n'.join(frag)) - refs(block)
         for r in sorted(lost_refs):
