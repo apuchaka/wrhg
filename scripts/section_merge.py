@@ -58,6 +58,21 @@ def run(cfg):
     if cfg.get('supersede'):
         s = next(i for i, l in enumerate(lines) if l.startswith(cfg['supersede']))
         e = next(i for i, l in enumerate(lines) if i > s and re.match(r'^#{1,3} ', l))
+        # THE END BOUNDARY IS NOT ONLY THE NEXT HEADING. A merged block written as a
+        # callout (`> [!info] Added from unverified layer — …`) carries no heading at all,
+        # so a second block sitting between this fragment and the next heading falls
+        # INSIDE the deletion range. Found on D4 §0.6, where an L3 block with its own
+        # SRC: token and a NO-BASELINE marker sat between the D4 fragment and
+        # `### Diabetic Neuropathy`. Stop at the next foreign SRC: token instead, backing
+        # up over its own callout so the block is not cut in half.
+        for j in range(s + 2, e):
+            if 'SRC:' in lines[j]:
+                k = j
+                while k > s + 1 and (lines[k - 1].lstrip().startswith('>')
+                                     or lines[k - 1].strip() == ''):
+                    k -= 1
+                e = k
+                break
         removed = e - s
         # NEVER delete a CONFLICT block when superseding a fragment. Lift it out and
         # re-attach it below the merged section. 1.12: no agent edits a conflict block.
