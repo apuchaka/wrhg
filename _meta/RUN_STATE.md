@@ -1057,3 +1057,42 @@ returns **0 across the whole vault**.
 - **`contrast enema`** returned 0; the corpus writes **"air enema works in 75%"** (`15_08`).
   Claim PRESENT. Rule 2, my phrasing.
 - **`Grade III`** returned 0; the corpus writes **Grade 1–4**. Now fixed mechanically.
+
+## SCHEDULED WORK — two cross-reference edits, AFTER the section merge completes
+
+Directed 2026-09-01. **Not part of any section placement**, and not to be folded into a
+merge commit. Each is its own commit, at the end of the merge run.
+
+**These are a RETRIEVAL problem, not a merge problem.** In both cases the content is
+correct, present, and in more than one place — and none of those places is findable by
+the word a reader would search. That failure is invisible to every check this project
+runs, because nothing is missing.
+
+### 1. `03_Gastrointestinal` §0.28 GORD — its `Ix:` line needs a pointer to §0.28.1
+
+`03_Gastrointestinal.md:1655`, §0.28's own `Ix:` line, reads: PPI trial, pH monitoring,
+manometry, barium swallow, OGD. **No ECG.**
+
+The cardiac exclusion is one heading below, in the merged C6 §0.1 block:
+- `:1615` — *"Relief with antacid or GTN does not distinguish them … **Get an ECG.**"*, in
+  a `[!danger]` about inferior MI presenting as epigastric burning.
+- `:1637` — §0.28.1's own `Ix:` opens with **ECG** *(why: excludes the cardiac cause)*.
+
+**A reader working reflux up from §0.28 never reaches it.** The section rule forbids
+weaving the block into §0.28's prose, and that is correct — so the fix is a pointer on
+§0.28's `Ix:` line, not a rewrite of it.
+
+### 2. `ALARM` — connect the term to the three red-flag lists that do not use it
+
+`ALARM` appears **exactly once in 240 files**: `Corpus C/NEW_Drugs_12_Gastrointestinal.md:38`.
+
+The same features are carried, under different phrasing, at:
+- `03_Gastrointestinal.md:1617` — `> [!warning] Red flags mandating endoscopy rather than a PPI trial` (C6 §0.1's wording, and B's, not a paraphrase to be rewritten)
+- `03_Gastrointestinal.md` §0.29 Gastritis — same features again
+
+**One pointer each, using `ALARM` as the searchable label.** Do not relabel B's heading —
+`ALARM` is not B's word, and rewriting it would be reformatting a merged section.
+
+This is CLAUDE.md rule 2's plain-English-name clause seen from the other side: there the
+searcher used a name the corpus does not use; here the corpus holds a concept under three
+names and the *canonical* one is reachable from only one of them.
