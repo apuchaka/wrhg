@@ -1654,6 +1654,46 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 
 ---
 
+### Episodic Vertigo — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Benign paroxysmal positional vertigo — the commonest, and it is curable at the bedside
+> **Brief episodes lasting SECONDS to under a minute, triggered by a change in head position** — rolling over in bed, lying down, sitting up, looking up to a high shelf, bending forward.
+> Caused by **otoconia (calcium carbonate crystals) displaced from the utricle into a semicircular canal**, most often the **posterior canal**, where they move with gravity and produce inappropriate endolymph flow.
+> **Diagnosis: the Dix-Hallpike manoeuvre**, which provokes **upbeating torsional nystagmus with a brief LATENCY of a few seconds, a crescendo-decrescendo course over under a minute, and FATIGABILITY on repetition.** Those three features — latency, transience and fatigability — are what distinguish it from central positional nystagmus, which is immediate, persistent and non-fatiguing.
+> **Treatment: the Epley (canalith repositioning) manoeuvre**, which is highly effective and should be performed at the point of diagnosis rather than referred onward. **The horizontal canal variant** is diagnosed with a supine roll test and treated with a different manoeuvre.
+> **Vestibular suppressants are NOT indicated in BPPV** — they do not work, they impair compensation, and they cause falls in the elderly. Prescribing prochlorperazine for BPPV is a common error.
+> BPPV recurs in a substantial proportion; patients can be taught self-treatment.
+
+> [!tip] Ménière disease
+> **Episodes lasting 20 minutes to several hours** — not seconds (that is BPPV), not days (that is acute vestibular syndrome) — **with the characteristic triad of fluctuating sensorineural hearing loss, tinnitus and aural fullness**, alongside the vertigo.
+> The hearing loss is **low-frequency initially and fluctuates**, becoming permanent over years. **Documented hearing loss on audiometry is required for the diagnosis** — Ménière is over-diagnosed clinically in patients who actually have vestibular migraine.
+> Management: salt restriction, diuretics, betahistine, and for refractory disease intratympanic corticosteroid or gentamicin, or surgery. **Falls and drop attacks (Tumarkin otolithic crises)** can occur and matter for driving and occupational safety. `UNVERIFIED — diagnostic criteria and all treatment regimens; the evidence for several is weak.`
+
+> [!danger] Vestibular migraine is the commonest cause of recurrent spontaneous vertigo — and it is under-diagnosed
+> **Episodes of vertigo of variable duration — minutes to days — in a patient with a history of migraine**, with photophobia, phonophobia, visual aura or headache **which may or may not accompany the vertigo.** Many patients have vertigo without any headache at all, which is precisely why it is missed.
+> **It is frequently misdiagnosed as Ménière disease**, and the distinguishing feature is the **absence of documented fluctuating hearing loss** and the presence of migrainous features.
+> **It responds to migraine treatment** — trigger management and migraine prophylaxis — so getting the diagnosis right changes management substantially. Cross-refer [[04_Neurology]] Migraine.
+
+> [!tip] The rest
+> **Vertebrobasilar TIA** — brief recurrent vertigo, **but rarely in isolation** — look for accompanying diplopia, dysarthria, dysphagia, ataxia, hemisensory or visual symptoms. Isolated recurrent vertigo without other symptoms is more likely vestibular migraine, but new isolated vertigo in an older vasculopath warrants assessment.
+> **Superior semicircular canal dehiscence** — vertigo and oscillopsia induced by **loud sound (Tullio phenomenon)** or by pressure change (straining, nose blowing), with **autophony** — hearing one's own voice, heartbeat or eye movements unnaturally loudly. Distinctive and diagnosable on high-resolution CT of the temporal bones.
+> **Orthostatic hypotension** — cross-refer [[04_Neurology]] Syncope.
+> **Panic disorder and anxiety** — real, common, and a diagnosis of exclusion in this context.
+> **Arrhythmia** — presenting as "dizzy spells". Cross-refer [[01_Cardiovascular]] §0.4 Atrial Fibrillation.
+
+**Ix:** **Dix-Hallpike and supine roll test** (*why:* diagnostic for BPPV and immediately therapeutic; *what:* characteristic positional nystagmus with latency and fatigability). **Audiometry** (*why:* documents the fluctuating low-frequency loss required for Ménière and distinguishes it from vestibular migraine; *what:* pattern and side of loss). Postural blood pressure (*why:* orthostatic causes; *what:* drop). ECG and ambulatory monitoring where episodes are brief and unprovoked (*why:* arrhythmia; *what:* rhythm-symptom correlation). MRI where central features, progressive symptoms, unilateral hearing loss, or atypical presentation (*why:* excludes vestibular schwannoma, demyelination and posterior fossa lesions; *what:* cerebellopontine angle lesion, demyelination). High-resolution CT temporal bones where dehiscence is suspected (*why:* the only way to demonstrate it; *what:* bony dehiscence). Vestibular function testing (*why:* quantifies unilateral or bilateral hypofunction; *what:* caloric and video head impulse results).
+
+#### Mx – Immediate — D5 §0.3.1
+**Epley manoeuvre for posterior canal BPPV — at the bedside, at the time of diagnosis.**
+
+#### Mx – Definitive — D5 §0.3.2
+Condition-specific. Migraine prophylaxis for vestibular migraine.
+
+#### Mx – Chronic/long-term — D5 §0.3.3
+Self-administered repositioning manoeuvres for recurrent BPPV. Falls prevention. **Driving and occupational advice** where episodes are unpredictable — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions).
+
+
 ### Acute Vestibular Syndrome and the HINTS Examination — from unverified layer
 `SRC:D5_Dizziness__Vertigo_and_Gait §0.2` `UNVERIFIED — model knowledge, not source-checked.`
 
