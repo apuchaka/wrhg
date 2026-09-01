@@ -2387,6 +2387,39 @@ ERCP with stone extraction or stenting. Cholecystectomy for gallstone disease. O
 #### 0.41.22.3 Mx – Chronic/long-term
 Fat-soluble vitamin replacement in chronic cholestasis. Bone density monitoring, since chronic cholestasis causes osteoporosis. Surveillance for cholangiocarcinoma and colorectal cancer in PSC.
 
+### 0.41.23 Hepatomegaly, Splenomegaly and Hepatic Pain — from unverified layer
+`SRC:C3_Jaundice_and_Liver_Disease §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Hepatomegaly — causes by mechanism
+> **Congestion** — right heart failure, constrictive pericarditis, Budd-Chiari. Characteristically **smooth, tender, and pulsatile in tricuspid regurgitation.**
+> **Infiltration** — fatty liver, amyloid, haemochromatosis, glycogen storage disease.
+> **Malignancy** — metastases (**hard, irregular, nodular**), hepatocellular carcinoma, lymphoma.
+> **Infection** — viral hepatitis (smooth, tender), abscess, hydatid, schistosomiasis.
+> **Haematological** — myeloproliferative disease, extramedullary haematopoiesis.
+> **Biliary** — early primary biliary cholangitis.
+> Note that **a cirrhotic liver is typically small and shrunken**, so hepatomegaly in cirrhosis should prompt thought of malignancy, congestion or an infiltrative process.
+
+> [!tip] Splenomegaly — and the short list for massive splenomegaly
+> Common causes: **portal hypertension · haematological malignancy · infection (EBV, malaria, endocarditis, tuberculosis) · haemolysis · infiltrative and storage disorders · connective tissue disease (Felty syndrome).**
+> **Massive splenomegaly has a genuinely short differential and is worth knowing: chronic myeloid leukaemia · myelofibrosis · chronic malaria · visceral leishmaniasis (kala-azar) · Gaucher disease · and occasionally lymphoma.**
+> **How to distinguish spleen from kidney on examination:** the spleen **enlarges toward the right iliac fossa**, has a **notch**, is **dull to percussion**, moves with respiration, and **you cannot get above it**. The kidney is ballotable, resonant anteriorly because of overlying bowel, and you can get above it.
+
+> [!warning] Hepatic pain
+> The liver parenchyma is insensate; pain arises from **stretch of Glisson's capsule.** So hepatic pain means something is distending the liver **quickly** — a rapidly growing tumour, an abscess, acute congestion from right heart failure, Budd-Chiari, acute hepatitis, or capsular inflammation in **Fitz-Hugh-Curtis syndrome.**
+> **A slowly enlarging liver is painless**, which is why hepatic metastases are typically painless until very large.
+
+**Ix:** **Ultrasound with Doppler** (*why:* characterises the liver texture, identifies focal lesions, assesses portal and hepatic venous flow, and measures the spleen; *what:* size, texture, lesions, flow direction, thrombosis). CT or MRI (*why:* characterises focal lesions and stages malignancy — **MRI with hepatocyte-specific contrast is particularly useful for characterising liver lesions**; *what:* lesion characteristics, metastases). FBC and film (*why:* haematological causes of splenomegaly are common and the film is frequently diagnostic; *what:* leucoerythroblastic film, blasts, tear-drop cells of myelofibrosis). LFT with synthetic function (*why:* distinguishes congestion from hepatocellular disease; *what:* pattern). Echocardiography (*why:* right heart failure and constrictive pericarditis as causes of hepatic congestion, which is easily overlooked; *what:* right heart function, tricuspid regurgitation, constriction). Viral serology and infection screen including malaria films where travel history (*why:* infective causes; *what:* organism). Alpha-fetoprotein (*why:* hepatocellular carcinoma; *what:* elevation). Bone marrow examination where a haematological cause is suspected (*why:* diagnoses myeloproliferative and lymphoproliferative disease; *what:* histology).
+
+#### 0.41.23.1 Mx – Immediate
+Rarely required, unless there is a liver abscess or acute Budd-Chiari.
+
+#### 0.41.23.2 Mx – Definitive
+Cause-specific.
+
+#### 0.41.23.3 Mx – Chronic/long-term
+As per the underlying diagnosis. Post-splenectomy prophylaxis where splenectomy is performed — cross-refer §0.41.12 Left Upper Quadrant Pain.
+
+
 
 
 
