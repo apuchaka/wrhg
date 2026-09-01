@@ -80,6 +80,11 @@ def run(cfg):
         PROT = [(r'^>\s*\[!fail\]', 'CONFLICT block'),
                 (r'^>\s*\[!check\]', 'VERIFIED [!check] box'),
                 (r'`VERIFIED [^`]*`', 'VERIFIED marker'),
+                # UNVERIFIED was named in the instruction and omitted from this list. Seven
+                # were destroyed by supersedes before it was noticed. A fragment's body
+                # UNVERIFIED marker names the specific source that would settle a specific
+                # question (§1.7); the replacement section's own marker asks something else.
+                (r'`UNVERIFIED[^`]*`', 'UNVERIFIED marker'),
                 (r'`CF-\d{3}`', 'inline CF marker'),
                 (r'`NO-BASELINE[^`]*`', 'NO-BASELINE marker')]
         lost = []
