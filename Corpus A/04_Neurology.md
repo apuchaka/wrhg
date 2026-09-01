@@ -1835,6 +1835,42 @@ Specifically referring to intracerebral haemorrhage (ICH).
 - Supportive care as necessary
 - Definitive Mx if undertaken: coiling or craniotomy and clipping
 
+### Intracerebral Haemorrhage — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**R/Causes:** **Hypertensive small vessel disease** — producing **deep** haemorrhages in the basal ganglia, thalamus, pons and cerebellum. **Cerebral amyloid angiopathy** — producing **lobar** haemorrhages in older patients, often recurrent, and associated with cognitive decline. Also: arteriovenous malformation and aneurysm (younger patients), **anticoagulants and antiplatelets**, coagulopathy, tumour (primary or metastatic — melanoma, renal, choriocarcinoma, thyroid bleed characteristically), **sympathomimetic drugs (cocaine, amphetamines)**, venous sinus thrombosis, and haemorrhagic transformation of an infarct.
+
+> [!tip] Deep versus lobar tells you the likely cause
+> **Deep (basal ganglia, thalamus, pons, cerebellum) → hypertensive.**
+> **Lobar in an older patient → amyloid angiopathy.**
+> **Lobar in a younger patient → vascular malformation or tumour**, and warrants angiography or delayed MRI.
+
+> [!danger] Reverse anticoagulation immediately — do not wait for the INR
+> **Haematoma expansion occurs in the first hours and is the main determinant of outcome.** Reversal should begin as soon as intracerebral haemorrhage is identified in an anticoagulated patient, not after the coagulation result returns. Cross-refer [[10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets]].
+> **Blood pressure lowering is more active than in ischaemic stroke**, since there is no penumbra to perfuse and pressure drives expansion. `UNVERIFIED — targets and the timeframe.`
+
+> [!danger] Cerebellar haemorrhage is a surgical emergency
+> **Posterior fossa haemorrhage compresses the brainstem and obstructs the fourth ventricle**, and patients deteriorate rapidly from alert to comatose.
+> **Urgent neurosurgical evacuation is indicated for significant cerebellar haemorrhage**, whereas the role of surgery in supratentorial haemorrhage is far more limited and selective.
+> **A patient with a cerebellar bleed who is currently alert can be dead within hours. Discuss every one with neurosurgery.**
+
+> [!warning] Other management points
+> **Seizures** — treat clinical seizures; prophylaxis is not routine.
+> **Raised intracranial pressure** — head up, avoid hypotonic fluids, treat fever and hyperglycaemia, consider osmotherapy and ICU involvement.
+> **Do not give antiplatelet or anticoagulant therapy**, and the decision about if and when to restart anticoagulation in a patient with a strong indication (mechanical valve, recent VTE, AF) is a specialist one requiring explicit documentation. Cross-refer [[10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets]].
+
+**Ix:** **Non-contrast CT brain** (*why:* diagnostic, and identifies location, volume, mass effect and intraventricular extension; *what:* haemorrhage and its pattern). **CT angiography** (*why:* identifies an underlying vascular malformation or aneurysm, and a **"spot sign" of contrast extravasation predicts haematoma expansion**; *what:* AVM, aneurysm, spot sign). **Coagulation profile, platelets, and a clear anticoagulant history including time of last dose** (*why:* determines reversal strategy; *what:* INR, agent, timing). Delayed MRI with susceptibility sequences (*why:* identifies underlying tumour, cavernoma, and **microbleeds suggesting amyloid angiopathy**; *what:* underlying lesion, microbleed pattern). Toxicology in younger patients (*why:* sympathomimetic-related haemorrhage; *what:* cocaine, amphetamines).
+
+#### Mx – Immediate — D3 §0.4.1
+A–E with airway protection where consciousness is reduced. **Reverse anticoagulation immediately.** Active blood pressure control. Head up. Treat seizures. **Urgent neurosurgical referral — mandatory for cerebellar haemorrhage.**
+
+#### Mx – Definitive — D3 §0.4.2
+Neurosurgical evacuation where indicated, external ventricular drain for hydrocephalus, and treatment of the underlying vascular lesion.
+
+#### Mx – Chronic/long-term — D3 §0.4.3
+Blood pressure control, which is the principal preventive measure. Rehabilitation. A documented, explicit decision about resuming antithrombotic therapy.
+
+
 ### Arterial Territory Syndromes
 
 | Artery | Territory | Presentation |
