@@ -57,18 +57,35 @@ a move, and needs a decision.
 | `Chorea, Dystonia, Tics and Myoclonus` | `## Other Neurology Topics` | **base-A** | same |
 | `Mononeuropathies and Entrapment` | `## Other Neurology Topics` | **base-A** | placed after `### Charcot-Marie-Tooth Disease`, which is in that H2 |
 
-**The four base-A cases are a different job from the seven mine.** Moving a block out of
+**The four base-A cases are a different job from the ten mine.** Moving a block out of
 `## Other Neurology Topics` means first moving `### Abnormal Involuntary Movements` and
 `### Charcot-Marie-Tooth Disease`, which are base-A content. That is a restructure of
 `04_Neurology`, and it is not this queue's to authorise.
+
+## `18_Geriatrics_and_Older_Persons_Health.md`
+
+Found at placement (GER2 §0.4), not by the gate check — the gate ran over the fourteen
+C/D files and this file was merged after it.
+
+| Block | sits under | whose | why it is wrong |
+|---|---|---|---|
+| `### Functional Assessment and the Australian Aged Care System` | `## Discharge Planning and Home Safety Assessment` | **mine** | aged-care assessment and the ACAT/My Aged Care system are broader than one inpatient discharge |
+| `### Immobility, Deconditioning and Hospital-Associated Decline` | `## Discharge Planning and Home Safety Assessment` | **mine** | hospital-associated decline is an *inpatient* problem; discharge planning is one of its consequences, not its parent |
+
+**The second one was created by the merge that found it.** The fragment it superseded was
+a top-level `##`, so it had no parent; the block that replaced it is a `###` like every
+other block this run has placed, and inherits the nearest `##`. Left as a `###` on
+purpose: making this one block `##` would make it structurally unlike its eleven siblings
+in the same file, and the re-parenting job is the place to decide the level for all of
+them at once.
 
 ## Count
 
 | | n |
 |---|--:|
-| **mine** | 8 |
+| **mine** | 10 |
 | **base-A** | 4 |
-| **total** | **12** |
+| **total** | **14** |
 
 ## What was NOT put in this queue, and why
 
