@@ -103,6 +103,49 @@ The first branch point is whether consciousness was lost, because it splits the 
 
 ---
 
+### Falls — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Falls are the leading cause of injury hospitalisation and injury death in older Australians
+> And **a previous fall is the single strongest predictor of a future fall.** Asking "have you had a fall in the last year?" is a one-question screening tool that identifies the highest-risk group.
+
+> [!tip] Risk factors — nearly all of them modifiable
+> **· Previous falls · gait and balance impairment · muscle weakness · impaired vision · cognitive impairment and delirium · MEDICATIONS · postural hypotension · foot problems and inappropriate footwear · urinary urgency and nocturia (rushing to the toilet at night) · environmental hazards · vitamin D deficiency · alcohol · fear of falling, which reduces activity and worsens deconditioning.**
+> **"Fall-risk-increasing drugs" (FRIDs)** — psychotropics in particular: **benzodiazepines, Z-drugs, antipsychotics, antidepressants, opioids, anticholinergics, antihypertensives and diuretics.** **Withdrawal of psychotropic medication is one of the few single interventions with good evidence for reducing falls.**
+
+> [!danger] Assess WHY they fell — "mechanical fall" is a diagnosis of exclusion
+> **Was it a fall or was it syncope?** If unwitnessed, or if the patient does not clearly recall hitting the ground, **assume syncope and investigate accordingly** — cross-refer [[04_Neurology]] Syncope.
+> **Ask how long they were on the floor.** A long lie causes **rhabdomyolysis, acute kidney injury, hypothermia, dehydration, pressure injury and pneumonia** — cross-refer [[11_09b_Ortho_-_Trauma]] Hypothermia and [[11_01_Ortho_-_Orthopaedic_Emergencies]] Rhabdomyolysis. It is also a marker of social vulnerability that should trigger a conversation about alarms and living arrangements.
+> **Post-fall injury assessment: low threshold for CT head in anyone anticoagulated, even after apparently trivial trauma** — cross-refer [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure. And **an impacted or undisplaced neck of femur fracture may still allow weight-bearing and may be missed on plain films**, so persistent hip or groin pain warrants further imaging.
+
+> [!tip] Interventions with evidence
+> **· Exercise — the single most effective intervention.** It must include a **balance challenge**, be of **sufficient dose and duration**, and be **ongoing** — benefit is lost when it stops. Programs such as Otago and tai chi have good evidence. A generic "keep active" instruction does not work.
+> **· Medication review with withdrawal of psychotropics.**
+> **· Home hazard assessment by an occupational therapist**, which is most effective in those at highest risk and after a fall.
+> **· Vision** — **expedited cataract surgery reduces falls. But NEW multifocal or bifocal glasses INCREASE falls**, particularly outdoors and on stairs, by distorting the lower visual field. Advise single-vision distance glasses for walking outside.
+> **· Vitamin D where deficient** — the evidence for supplementation in replete individuals is weak, and **high intermittent bolus dosing has been associated with increased falls**, so this is not a blanket recommendation. `UNVERIFIED — dosing and who should receive it.`
+> **· Podiatry and footwear** — well-fitting, low-heeled, firm-soled shoes with good grip. **Walking in socks or loose slippers indoors is a genuine and easily fixed hazard.**
+> **· Cardiac pacing** for falls due to cardioinhibitory carotid sinus hypersensitivity.
+> **· Treating urinary urgency and providing a night-time toileting plan.**
+
+> [!warning] In hospital, restraints and bed rails cause harm
+> **Bed rails and physical restraints increase the severity of injury when a patient does climb over them, cause agitation and delirium, and are associated with worse outcomes.** They are not a falls prevention strategy.
+> What helps: **delirium prevention, low-low beds, non-slip footwear, accessible call bells, adequate lighting, proximity to the nurses' station, purposeful hourly rounding including toileting, sensory aids in place, and early mobilisation.**
+
+**S/Smx:** Circumstances, prodrome, whether consciousness was lost, time on the floor, injuries, and the fear and activity restriction that follow.
+
+**Ix:** **Postural blood pressure** (*why:* orthostatic hypotension is common, frequently drug-induced, and easily missed because nobody stands the patient up; *what:* postural drop measured at intervals). **Timed Up and Go and gait observation** (*why:* objective, repeatable, and identifies the gait pattern; *what:* prolonged time, gait abnormality — cross-refer [[04_Neurology]] Gait Disorders). ECG (*why:* arrhythmia as a cause of syncope presenting as a fall; *what:* rhythm, conduction disease). FBC, UEC, calcium, glucose, vitamin D, B12, TFTs (*why:* anaemia, electrolyte disturbance, hypoglycaemia and deficiency all contribute; *what:* derangement). **CK and renal function after a long lie** (*why:* rhabdomyolysis; *what:* raised CK, rising creatinine). Cognitive assessment (*why:* cognitive impairment is a major independent risk factor; *what:* impairment). **Visual acuity and review of glasses** (*why:* correctable, and multifocals are a specific hazard; *what:* uncorrected refractive error, cataract, multifocal use). **Medication review** (*why:* the most modifiable single factor; *what:* FRIDs). **Bone density assessment** (*why:* the fall and the fracture are separate problems and both need addressing — see 0.6; *what:* osteoporosis).
+
+#### Mx – Immediate — GER1 §0.5.1
+Injury assessment, analgesia, treatment of the consequences of a long lie, and identification of the precipitant.
+
+#### Mx – Definitive — GER1 §0.5.2
+**Multifactorial intervention addressing every identified risk factor** — this is what works; single interventions in isolation generally do not.
+
+#### Mx – Chronic/long-term — GER1 §0.5.3
+Ongoing exercise, review of the home, and **address fear of falling directly**, since it drives activity restriction, deconditioning and social isolation, and responds to graded exposure and confidence-building.
+
+
 ## Frailty
 
 > [!note] Gap-filled from CSV ("Frailty phenotype / frailty assessment," High yield). Genuinely absent: the word appeared three times in the whole corpus, each time as a passing modifier on some other topic (an ECOG caveat in oncology, a relaxed HbA1c target in diabetes, a bladder-drug caution) — never as a concept with a definition, an assessment method, or management. Verified against the RACGP aged care clinical guide (Silver Book, 5th edition) Part A "Frailty", the Australian Consensus Statement on the Prevention and Management of Frailty Among Community-Dwelling Older Adults (MJA, modified Delphi), and the AJGP review of sarcopenia in general practice, Aug 2026.
