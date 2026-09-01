@@ -1398,6 +1398,7 @@ Start in a specific area of the brain, typically the temporal lobe; further divi
 > **Generalised onset** — tonic-clonic, absence, myoclonic, atonic, tonic.
 > **Unknown onset.**
 > **The older terms "simple partial", "complex partial" and "secondarily generalised" are obsolete** and should not be used — the current ILAE terminology is above. `UNVERIFIED — the full classification.`
+> The pairing, because a reader who learnt the old names needs it: **focal aware** was *simple partial*; **focal with impaired awareness** was *complex partial*; **focal to bilateral tonic-clonic** was *secondary generalised*.
 
 > [!tip] Is it epilepsy, or is it something else?
 > **Epilepsy is diagnosed when there are:** two unprovoked seizures more than 24 hours apart; **or** one unprovoked seizure with a high recurrence risk (an epileptogenic lesion on imaging, or clear epileptiform EEG abnormality); **or** an epilepsy syndrome.
