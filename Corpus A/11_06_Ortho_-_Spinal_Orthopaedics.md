@@ -112,16 +112,52 @@ no_baseline: 0
 - **Ix:** clinical diagnosis ± XR (to calculate Cobb angle, which quantifies spinal curvature/severity).
 - **Mx:** minor scoliosis — watch and wait. Cobb angle 21–45° — bracing. >45° — consider surgical spinal arthrodesis (spinal fusion).
 
-## Added from unverified layer — do not over-image, and do not over-interpret the images
+### Radiculopathy — from unverified layer
 `SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former do-not-over-image fragment, carrying its UNVERIFIED marker.*
 
-**Most radiculopathy resolves with conservative management over weeks.** Imaging is indicated for **red flags, a progressive neurological deficit, or persistent symptoms where intervention is actually being considered** — not for routine radicular pain.
+**D:** Dysfunction of a nerve root, producing **radicular pain, dermatomal sensory change, myotomal weakness and loss of the corresponding reflex.**
 
-> [!danger] A disc bulge on MRI is not a diagnosis
-> **Degenerative disc changes, bulges and even herniations are extremely common on MRI in completely asymptomatic people, and their prevalence rises steeply with age.** Finding one does not establish that it is causing the symptoms.
-> **The imaging must match the clinical level.** An L4/5 disc in a patient whose symptoms and signs are S1 is an incidental finding, not an explanation — and treating it as one leads to intervention aimed at the wrong level.
+> [!info] The cervical roots worth knowing
+> | Root | Weakness | Reflex | Sensory |
+> |---|---|---|---|
+> | **C5** | Shoulder abduction, elbow flexion | Biceps | Lateral upper arm ("badge patch") |
+> | **C6** | Elbow flexion, wrist extension | Biceps, brachioradialis | Thumb and index finger |
+> | **C7** | **Elbow extension**, wrist flexion, finger extension | **Triceps** | Middle finger |
+> | **C8** | Finger flexion, intrinsics | — | Little finger, medial forearm |
+> | **T1** | Finger abduction (intrinsics) | — | Medial arm |
+> **Spurling test** — extension, lateral flexion and axial compression reproducing radicular pain — supports cervical radiculopathy.
+
+> [!info] The lumbosacral roots worth knowing
+> | Root | Weakness | Reflex | Sensory |
+> |---|---|---|---|
+> | **L4** | Knee extension, ankle **inversion** | **Knee jerk** | Medial shin |
+> | **L5** | **Ankle dorsiflexion, great toe extension**, hip abduction | **None** | Dorsum of foot, great toe |
+> | **S1** | **Ankle plantarflexion**, eversion | **Ankle jerk** | Lateral foot, sole |
+> **L5 is the commonest lumbar radiculopathy and causes foot drop — with NO reflex change**, which is why the absence of a reflex abnormality does not exclude radiculopathy.
+> **Straight leg raise** reproduces L5/S1 radicular pain; **femoral stretch test** reproduces L2–L4.
+
+> [!danger] Red flags in back or neck pain with radicular symptoms
+> **· Bilateral symptoms · saddle anaesthesia · bladder or bowel dysfunction, especially urinary retention · progressive or severe motor deficit · a sensory level · fever · night pain · weight loss · known malignancy · immunosuppression · significant trauma · age extremes.**
+> These indicate **cauda equina syndrome, cord compression, infection or malignancy** — cross-refer [[04_Neurology]] The Paresis Patterns and `TODO:link — L4 Back & neck pain (unbuilt)`. **Urinary retention is the key objective finding in cauda equina — check a post-void residual.**
+
+> [!warning] Do not over-image, and do not over-interpret the images
+> **Most radiculopathy resolves with conservative management over weeks.** Imaging is indicated for **red flags, progressive neurological deficit, or persistent symptoms where intervention is being considered** — not for routine radicular pain.
+> **Degenerative disc changes, bulges and even herniations are extremely common on MRI in completely asymptomatic people, and their prevalence rises steeply with age.** Finding a disc bulge does not establish that it is causing the symptoms. **The imaging must match the clinical level** — an L4/5 disc in a patient with S1 symptoms is a red herring, and attributing symptoms to an incidental finding leads to unnecessary surgery and to unhelpful illness beliefs.
 > `UNVERIFIED — the prevalence of asymptomatic disc findings by age band, and the Australian imaging referral criteria for radicular pain; RACGP.`
 
+**S/Smx:** Radicular pain in a dermatomal distribution, worse with coughing, sneezing or straining (raising intraspinal pressure), with dermatomal sensory change and myotomal weakness.
+
+**Ix:** **Careful neurological examination mapping to a root level** (*why:* determines whether the pattern is radicular at all, and which root, which is what makes the imaging interpretable; *what:* myotome, dermatome, reflex). **MRI of the relevant spinal region** where indicated (*why:* identifies compression, and excludes tumour, infection and cord pathology; *what:* nerve root compression at the corresponding level). **Urgent whole-spine MRI where red flags are present** (*why:* cord compression and cauda equina are emergencies with a narrow window; *what:* compression, level, cause). Nerve conduction studies and EMG (*why:* distinguishes radiculopathy from peripheral nerve entrapment where the clinical picture overlaps — **particularly C6 radiculopathy versus carpal tunnel, and L5 radiculopathy versus common peroneal palsy**; *what:* denervation in a myotomal distribution). Inflammatory markers, and imaging for malignancy or infection where red flags (*why:* discitis, epidural abscess, metastasis; *what:* infection, tumour).
+
+#### Mx – Immediate — D4 §0.3.1
+**Urgent referral for cauda equina or cord compression.** Otherwise analgesia and reassurance.
+
+#### Mx – Definitive — D4 §0.3.2
+Conservative management with **analgesia, early mobilisation and physiotherapy** — bed rest is harmful and should not be advised. Neuropathic agents for radicular pain. Epidural corticosteroid injection in selected cases. **Surgery for progressive or severe neurological deficit, cauda equina, or intractable pain failing conservative management.**
+
+#### Mx – Chronic/long-term — D4 §0.3.3
+Exercise, posture and ergonomic advice, weight management, and **avoidance of catastrophising language** — telling a patient their spine is "crumbling" or "degenerating" measurably worsens outcomes. Cross-refer `TODO:link — L4 Back & neck pain (unbuilt)`.
 
 ## Discitis
 
