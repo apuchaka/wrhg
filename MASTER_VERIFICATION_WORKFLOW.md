@@ -527,7 +527,9 @@ That is a judgement made on Block 1's output, not a default.
 - ⬜ `D6_Seizures_and_Movement_Disorders`
 - ⬜ `D7_Cranial_Nerves_and_Special_Senses`
 
-#### BLOCK 3 — Resuscitation / acid–base · **DEFER** · 5 files · cross-cutting
+#### BLOCK 3 — Resuscitation / acid–base · **DEFER** · 6 files · cross-cutting
+<!-- heading said 5 against a 6-item list until 2026-09-01; A5_Toxicology_II is the sixth,
+     listed here since the block was written. The LIST is the queue, not the count. -->
 Cross-cutting rather than tied to one study topic, so the adjudication-while-loaded argument
 is weakest here. **Conditional.**
 

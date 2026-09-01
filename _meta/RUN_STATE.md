@@ -738,7 +738,21 @@ file. **No marker was silently voided in Block 1.**
 
 ## Resume point
 
-**WEEK 2 COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
+> [!danger] **THIS "WEEK 2" IS THE FRAGMENT PHASE'S, NOT THE MERGE QUEUE'S. THE REPO HOLDS
+> TWO DEFINITIONS OF WEEK 2 AND THE STALE ONE ASSERTS COMPLETION.**
+> The line below records the **fragment-phase** run of 2026-08-31, which merged FRAGMENTS
+> from K/I/O6/CV-X. It is not the section-merge queue.
+>
+> **`MASTER_VERIFICATION_WORKFLOW.md` §1.1.9.2 is authoritative: week 2 is `B1`–`B5`**
+> (cardiology), and **none of those five has been section-merged.** §1.1.9.2 says so
+> itself — *"`next` reads this list, not any conversation."*
+>
+> **A session reading the line below on its own would skip week 2 entirely**, because it
+> says COMPLETE against eleven files that are not week 2's. Recorded 2026-09-01, at the
+> point where the queue and this line were compared for the first time.
+
+**WEEK 2 (fragment phase) COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
+**WEEK 2 (section merge, §1.1.9.2) NOT STARTED** — B1 · B2 · B3 · B4 · B5.
 **IN PROGRESS:** Week 3 — **L1–L8, RESP-X, O4, O5, O7 done.** Next AN1, then AU1. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
 ophthalmology (E1–E3). **Week 4 is approved for AFTER week 3**, priced by the probe in
 `_meta/merges/WEEK4_PROBE.md` at ~100 additive blocks for 25 files; **run M before J** if
