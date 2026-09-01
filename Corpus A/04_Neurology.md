@@ -181,13 +181,13 @@ no_baseline: 1
 
 **Ix:** Directed by the red flags. See the sections below. **In a patient with a longstanding stereotyped primary headache and a normal examination, no investigation is required**, and imaging in that situation generates incidental findings and anxiety without benefit.
 
-#### Mx – Immediate
+#### Mx – Immediate — D1 §0.1.1
 Analgesia, antiemetic, and a quiet dark environment while assessing. Urgent imaging where red flags are present.
 
-#### Mx – Definitive
+#### Mx – Definitive — D1 §0.1.2
 Cause-specific.
 
-#### Mx – Chronic/long-term
+#### Mx – Chronic/long-term — D1 §0.1.3
 Headache diary, trigger identification, and — critically — **review of analgesic frequency**, since medication overuse headache complicates many chronic headache presentations. See 0.4.
 
 ### Thunderclap Headache and Subarachnoid Haemorrhage — from unverified layer
@@ -231,13 +231,13 @@ Headache diary, trigger identification, and — critically — **review of analg
 
 **Ix:** **Urgent non-contrast CT brain** (*why:* the first-line test, with time-dependent sensitivity; *what:* subarachnoid blood, hydrocephalus, intraparenchymal extension). **Lumbar puncture where CT is negative and suspicion persists** (*why:* detects xanthochromia, which CT misses at later time points; *what:* xanthochromia by spectrophotometry, red cell count across sequential tubes). **CT or catheter angiography** (*why:* identifies the aneurysm for treatment planning; *what:* aneurysm site and morphology). **CT or MR venography where CVST is possible** (*why:* plain CT frequently misses it and the treatment is anticoagulation; *what:* filling defect in a sinus). ECG and troponin (*why:* neurogenic cardiac injury mimics infarction and can mislead; *what:* ST changes, troponin rise, interpreted in context). UEC with **serial sodium and assessment of volume status** (*why:* distinguishes SIADH from cerebral salt wasting, which have opposite treatments; *what:* sodium, volume status, urine sodium and osmolality). FBC and coagulation profile (*why:* baseline before intervention; *what:* platelets, INR).
 
-#### Mx – Immediate
+#### Mx – Immediate — D1 §0.2.1
 Analgesia and antiemetic. **Urgent neurosurgical referral.** Blood pressure control to reduce rebleeding risk while maintaining cerebral perfusion. Nimodipine. Bed rest. Monitor conscious state closely.
 
-#### Mx – Definitive
+#### Mx – Definitive — D1 §0.2.2
 **Endovascular coiling or surgical clipping**, with the choice made by the neurosurgical and neurointerventional team. External ventricular drain for hydrocephalus. Management of vasospasm.
 
-#### Mx – Chronic/long-term
+#### Mx – Chronic/long-term — D1 §0.2.3
 Screening of first-degree relatives is considered where there is a strong family history. Cardiovascular risk factor management and **smoking cessation**, which is a major modifiable risk factor. Rehabilitation and neuropsychological follow-up — **cognitive and mood sequelae are common after SAH even in those with a good physical outcome**, and are under-recognised.
 
 ### Primary Headache Disorders — from unverified layer
@@ -294,13 +294,13 @@ Screening of first-degree relatives is considered where there is a strong family
 
 **Ix:** **In a typical primary headache with a normal examination and no red flags, no investigation is needed.** Imaging where red flags are present, where the pattern has changed, or where the presentation is atypical. **MRI brain** (*why:* preferred over CT for posterior fossa, pituitary and demyelinating pathology, and for suspected secondary trigeminal neuralgia; *what:* structural lesion, neurovascular compression, demyelination). ESR and CRP in anyone over 50 with a new headache (*why:* giant cell arteritis; *what:* raised markers). Blood pressure (*why:* hypertensive causes and pre-eclampsia; *what:* elevation). **A headache diary** (*why:* the most useful "investigation" in chronic headache — it establishes the pattern, identifies triggers and, crucially, **quantifies analgesic use**; *what:* frequency, duration, medication days per month).
 
-#### Mx – Immediate
+#### Mx – Immediate — D1 §0.3.1
 Acute treatment as above. **Oxygen and subcutaneous triptan for cluster.** Avoid opioids.
 
-#### Mx – Definitive
+#### Mx – Definitive — D1 §0.3.2
 Prophylaxis where indicated, with a defined trial period and review — prophylactics need weeks to work, and patients stop them too early if not warned.
 
-#### Mx – Chronic/long-term
+#### Mx – Chronic/long-term — D1 §0.3.3
 Headache diary, lifestyle measures, review of contraception in migraine with aura, and **explicit counselling about analgesic frequency limits.**
 
 ### Secondary Headaches Worth Knowing — from unverified layer
@@ -348,13 +348,13 @@ Headache diary, lifestyle measures, review of contraception in migraine with aur
 
 **Ix:** ESR and CRP (*why:* giant cell arteritis; *what:* markedly raised). **CT or MR venography** where CVST is possible (*why:* plain imaging misses it; *what:* sinus filling defect). **Lumbar puncture with opening pressure** where IIH is suspected (*why:* both diagnostic and initially therapeutic; *what:* raised pressure with normal constituents). **Formal visual field testing and fundus photography** in papilloedema (*why:* quantifies and monitors the threat to vision, which the patient cannot detect until it is advanced; *what:* field loss, disc appearance). MRI brain with contrast (*why:* structural lesion, pachymeningeal enhancement, demyelination; *what:* mass, meningeal changes). Temporal artery ultrasound or biopsy (*why:* confirms GCA; *what:* halo sign, arteritis with giant cells). Carboxyhaemoglobin (*why:* not detected by standard oximetry; *what:* elevated level). **A medication diary** (*why:* diagnoses medication overuse headache, and nothing else will; *what:* medication days per month).
 
-#### Mx – Immediate
+#### Mx – Immediate — D1 §0.4.1
 **Steroids for suspected GCA before any test.** Anticoagulation for CVST. Urgent ophthalmology for angle-closure glaucoma.
 
-#### Mx – Definitive
+#### Mx – Definitive — D1 §0.4.2
 Cause-specific.
 
-#### Mx – Chronic/long-term
+#### Mx – Chronic/long-term — D1 §0.4.3
 **Bone protection and glucose monitoring for anyone on prolonged corticosteroids.** Visual field surveillance in IIH. Thrombophilia and contraceptive review after CVST.
 
 
@@ -905,13 +905,13 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 
 **Ix:** **Blood cultures before antibiotics if no delay** (*why:* frequently the only positive microbiology, particularly once antibiotics are given; *what:* organism). **Lumbar puncture with opening pressure, cell count and differential, protein, glucose with a PAIRED serum glucose, Gram stain, culture, and PCR** (*why:* establishes the diagnosis, distinguishes bacterial from viral, and PCR detects organisms after antibiotics have sterilised cultures; *what:* the CSF profile above). **Meningococcal and pneumococcal PCR on blood** (*why:* remains positive after antibiotics, which is the usual situation given antibiotics are correctly given early; *what:* organism DNA). FBC, CRP, UEC, glucose, coagulation profile (*why:* baseline, DIC, and the serum glucose for the CSF ratio; *what:* derangement). **CT brain before LP where indicated** (*why:* identifies mass effect; *what:* lesion, hydrocephalus, effacement). **MRI brain in suspected encephalitis** (*why:* **temporal lobe changes support HSV encephalitis** and MRI is far more sensitive than CT; *what:* temporal lobe signal change). **EEG** (*why:* supports encephalitis and detects non-convulsive status; *what:* focal temporal slowing, epileptiform discharges). HIV testing (*why:* alters the differential toward opportunistic infection and is a treatable diagnosis in its own right; *what:* positive serology). Autoimmune encephalitis antibodies including anti-NMDA receptor (*why:* treatable with immunotherapy and tumour removal; *what:* positive antibodies).
 
-#### Mx – Immediate
+#### Mx – Immediate — D1 §0.5.1
 **Antibiotics immediately — with Listeria cover in the at-risk groups. Dexamethasone with or before the first dose. Aciclovir if encephalitis is possible.** Resuscitate. Blood cultures. LP when safe. **Notify public health** for meningococcal disease and arrange contact prophylaxis — cross-refer [[08_09_Infectious_Disease_-_Miscellaneous]] Sepsis.
 
-#### Mx – Definitive
+#### Mx – Definitive — D1 §0.5.2
 Targeted antimicrobials on culture and sensitivity. ICU for reduced conscious state or seizures. Immunotherapy and tumour search for autoimmune encephalitis.
 
-#### Mx – Chronic/long-term
+#### Mx – Chronic/long-term — D1 §0.5.3
 **Formal audiology after bacterial meningitis, particularly in children — sensorineural hearing loss is a common and treatable sequela and is missed if not specifically tested.** Neurodevelopmental and neuropsychological follow-up. Contact tracing and prophylaxis. **Investigate for complement deficiency after invasive meningococcal disease.** Immunisation review.
 
 
