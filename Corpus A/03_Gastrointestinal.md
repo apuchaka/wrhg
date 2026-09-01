@@ -700,12 +700,42 @@ See 0.2.
 
 ---
 
-### 0.12.1 Added from unverified layer — two complications of chronic pancreatitis
+### 0.12.1 Chronic Pancreatitis — from unverified layer
 `SRC:C7_Pancreatobiliary_Disease §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.3 fragment.*
 
-- **Type 3c (pancreatogenic) diabetes** — diabetes caused by loss of pancreatic islet tissue, not by insulin resistance or autoimmunity. It differs from type 1 and type 2 in a way that matters clinically: **glucagon-producing alpha cells are lost alongside the beta cells**, so the counter-regulatory response to hypoglycaemia is impaired and these patients are **unusually prone to hypoglycaemia** on treatment. It coexists with the exocrine insufficiency already described above, so a patient on pancreatic enzyme replacement who develops diabetes probably has this rather than new type 2. `UNVERIFIED — the diagnostic criteria distinguishing type 3c from type 2, and the preferred glucose-lowering agents; see [[06_Metabolic_Medicine_and_Endocrinology]] and specialist endocrine guidance.`
-- **Splenic vein thrombosis** — the splenic vein runs along the posterior pancreas, so chronic inflammation can thrombose it. The consequence is **left-sided (sinistral) portal hypertension with isolated gastric varices** and a normal liver. It is the one cause of gastric varices in a patient with no liver disease, and **splenectomy is curative** because it removes the collateral circulation's inflow. See §0.6.7 for variceal bleeding generally.
+**D:** Progressive fibro-inflammatory destruction of the pancreas leading to irreversible loss of exocrine and endocrine function, with chronic pain.
 
+**R/Causes:** **Alcohol** — the dominant cause. **Smoking is an independent and dose-dependent risk factor and accelerates progression**, and is consistently under-emphasised relative to alcohol. Also: **genetic** (PRSS1, SPINK1, CFTR — consider in young patients and in "idiopathic" disease), **autoimmune (IgG4-related)**, obstructive (stricture, tumour, pancreas divisum), hypercalcaemia, hypertriglyceridaemia, recurrent acute pancreatitis, and idiopathic.
+
+> [!tip] The triad, and why it presents late
+> **1. Pain** — chronic epigastric pain radiating to the back, often postprandial, sometimes relieved by sitting forward. **It may paradoxically diminish as the gland "burns out"** over years.
+> **2. Exocrine insufficiency** — **steatorrhoea: pale, bulky, offensive, oily stool that is difficult to flush**, with weight loss and fat-soluble vitamin (A, D, E, K) deficiency. **This requires loss of the large majority of exocrine function before it appears**, which is why it is a late feature and why the diagnosis is often delayed.
+> **3. Endocrine insufficiency — type 3c diabetes.** Distinct from type 1 and type 2 because **both insulin AND glucagon-producing cells are lost**, so these patients have **brittle diabetes with a high risk of hypoglycaemia** and reduced counter-regulation. This matters for how aggressively they are treated. Diabetes itself is owned by [[06_Metabolic_Medicine_and_Endocrinology]]; the isolated gastric varices of sinistral portal hypertension are at §0.6.7.
+
+> [!danger] Autoimmune pancreatitis mimics pancreatic cancer
+> **IgG4-related autoimmune pancreatitis produces a diffusely enlarged "sausage-shaped" pancreas or a focal mass, obstructive jaundice, and weight loss — clinically and radiologically indistinguishable from carcinoma.**
+> It is **steroid-responsive**, and patients have undergone Whipple procedures for what turned out to be a treatable inflammatory condition. **Check IgG4 and consider the diagnosis before committing to major resection**, particularly with diffuse enlargement, other organ involvement (salivary glands, kidneys, retroperitoneal fibrosis), or a raised IgG4.
+> The converse trap also exists — **do not assume autoimmune pancreatitis and give steroids to a patient who actually has cancer.** This needs specialist assessment and often tissue.
+
+> [!warning] Chronic pancreatitis increases pancreatic cancer risk
+> Particularly in hereditary pancreatitis. **A change in the pattern of pain, new jaundice, or accelerating weight loss in a patient with known chronic pancreatitis requires imaging** rather than an assumption that the underlying condition has flared.
+
+**S/Smx:** Chronic epigastric pain, steatorrhoea, weight loss, diabetes, and features of malnutrition and fat-soluble vitamin deficiency including osteoporosis and night blindness.
+
+**Ix:** **CT or MRI with MRCP** (*why:* demonstrates the structural features — **pancreatic calcification, main duct dilatation with a "chain of lakes" appearance, and gland atrophy** — and excludes malignancy; *what:* calcification, duct changes, atrophy, mass). **Endoscopic ultrasound** (*why:* the most sensitive test for early chronic pancreatitis before calcification appears, and permits tissue sampling of any mass; *what:* parenchymal and ductal criteria, mass). **Faecal elastase** (*why:* a simple, non-invasive test for exocrine insufficiency and the practical way to decide whether enzyme replacement is needed; *what:* low elastase). Fat-soluble vitamin levels (A, D, E) and **bone density** (*why:* deficiency and osteoporosis are common, under-tested, and treatable; *what:* deficiency, reduced bone density). HbA1c and glucose (*why:* type 3c diabetes; *what:* hyperglycaemia). **IgG4 and autoimmune screen** (*why:* identifies the steroid-responsive mimic of cancer; *what:* raised IgG4). Genetic testing in young or familial cases (*why:* alters counselling, surveillance and family testing; *what:* PRSS1, SPINK1, CFTR variants). CA 19-9 with imaging where malignancy is suspected (*why:* supports but does not establish the diagnosis, and **is raised in benign obstruction and inflammation**; *what:* elevation, interpreted cautiously).
+
+#### 0.12.1.1 Mx – Immediate
+Analgesia for acute-on-chronic pain. Exclude a new complication or malignancy rather than assuming a flare.
+
+#### 0.12.1.2 Mx – Definitive
+**Alcohol and smoking cessation — both, with the smoking given equal weight.**
+**Pancreatic enzyme replacement therapy**, taken with meals and snacks, and **with acid suppression, because gastric acid inactivates the enzymes** — under-dosing and taking the capsules at the wrong time are the two commonest reasons PERT appears to fail. `UNVERIFIED — dosing and administration.`
+Fat-soluble vitamin replacement. Diabetes management with attention to hypoglycaemia risk.
+Pain: multimodal, with **neuropathic agents and a deliberate effort to avoid opioid escalation**, since chronic opioid dependence is a major problem in this group. **Coeliac plexus block**, endoscopic duct decompression or stenting, and surgical drainage or resection in selected patients.
+
+#### 0.12.1.3 Mx – Chronic/long-term
+Dietitian involvement — **malnutrition is the rule rather than the exception**. Bone protection. Alcohol and drug support. Cancer vigilance. Cross-refer `TODO:link — GER3 Preventive & occupational health (unbuilt; was P1 in build queue v1)`.
 
 ## 0.13 Small Bowel Bacterial Overgrowth Syndrome
 
