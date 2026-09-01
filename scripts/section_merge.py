@@ -86,7 +86,19 @@ def run(cfg):
                 # question (§1.7); the replacement section's own marker asks something else.
                 (r'`UNVERIFIED[^`]*`', 'UNVERIFIED marker'),
                 (r'`CF-\d{3}`', 'inline CF marker'),
-                (r'`NO-BASELINE[^`]*`', 'NO-BASELINE marker')]
+                (r'`NO-BASELINE[^`]*`', 'NO-BASELINE marker'),
+                # AUDITED against §1.7's full marker inventory rather than extended one
+                # item at a time as each gets destroyed. §1.7 defines seven marker types:
+                #   UNVERIFIED  VERIFIED  CF-###  [paed]/[adult]  →MED:  TODO:link  SRC:
+                # The first three were covered; the next three were not, and are added
+                # here. SRC: is deliberately NOT protected - it is the fragment's own
+                # provenance and the new block writes its own.
+                # Callouts other than [!fail]/[!check] ([!danger], [!warning], [!tip])
+                # are CONTENT, not annotations on the destination - B's sections carry
+                # them too - so they stay out on purpose.
+                (r'`\[(?:paed|adult)\]`', 'population-scope marker'),
+                (r'`→MED:[^`]*`', 'dose-mirror marker'),
+                (r'`TODO:link[^`]*`', 'TODO:link marker')]
         lost = []
         for pat, name in PROT:
             # A line carrying the fragment's own SRC: token IS the fragment's marker line,
