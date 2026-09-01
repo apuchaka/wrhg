@@ -2428,6 +2428,50 @@ Rehabilitation, disease-modifying therapy in MS, driving and occupational advice
 
 > [!warning] Drugs that worsen MG: β-blockers, lithium, antibiotics (gentamicin, macrolides, quinolones, tetracyclines), phenytoin, quinidine, procainamide, penicillamine.
 
+### Neuromuscular Junction Disorders — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Myasthenia gravis — fatigability is the diagnosis
+> **Weakness that WORSENS with sustained or repeated activity and improves with rest**, characteristically worse at the end of the day.
+> **Ocular symptoms — ptosis and diplopia — are the presenting feature in most patients.** Then bulbar (dysarthria that deteriorates as the patient talks, dysphagia, nasal regurgitation, difficulty chewing toward the end of a meal), then limb (proximal), then respiratory.
+> **No sensory loss. Reflexes normal. Pupils spared** — pupillary involvement points elsewhere (botulism, third nerve palsy).
+> Bedside tests: sustained upgaze to elicit fatigable ptosis; the **ice pack test** (ptosis improves after cooling); and the **fatigable dysarthria** heard when counting aloud.
+> **Antibodies: acetylcholine receptor, and MuSK in seronegative patients.**
+> **Every patient with myasthenia needs a CT chest to look for a thymoma**, which is present in a minority and changes management.
+
+> [!danger] Drugs that precipitate myasthenic crisis
+> **Aminoglycosides · macrolides · fluoroquinolones · magnesium (including in obstetric use for pre-eclampsia) · beta-blockers · phenytoin · certain anaesthetic agents and neuromuscular blockers · and immune checkpoint inhibitors, which can cause de novo myasthenia.**
+> **Check the drug chart before adding anything to a myasthenic patient**, and be particularly careful about giving magnesium or an aminoglycoside to a patient whose diagnosis you do not yet know.
+
+> [!danger] Myasthenic crisis
+> **Respiratory failure from weakness of the diaphragm, intercostals and bulbar muscles.**
+> **Monitor serial forced vital capacity, NOT oxygen saturation** — the lungs are normal, so saturation and blood gases stay reassuring until abrupt decompensation. Cross-refer [[04_Neurology]] Guillain-Barré Syndrome (GBS).
+> **Bulbar involvement adds aspiration risk independent of respiratory muscle strength**, and lowers the threshold for airway protection.
+> Treated with **IVIG or plasma exchange**, plus supportive ventilation. Precipitants: infection, surgery, pregnancy, drugs, and tapering immunosuppression.
+> **Cholinergic crisis** — over-treatment with cholinesterase inhibitors — produces weakness plus **muscarinic excess: salivation, lacrimation, diarrhoea, bradycardia, miosis and fasciculations.** Distinguishing it from myasthenic crisis matters because the treatments are opposite. Cross-refer [[14a-2_Psych_-_Overdose_and_Poisoning_Management]].
+
+> [!tip] Lambert-Eaton myasthenic syndrome — the one that improves with exercise
+> **Proximal lower limb weakness that TRANSIENTLY IMPROVES with sustained exercise (post-exercise facilitation)** — the opposite of myasthenia. **Reflexes are reduced or absent but RETURN after brief exercise**, which is a distinctive and testable bedside sign.
+> **Autonomic features are common** — dry mouth, constipation, impotence, postural hypotension.
+> **Strongly associated with small cell lung carcinoma**, often preceding the cancer diagnosis. **A new Lambert-Eaton diagnosis mandates a search for underlying malignancy and ongoing surveillance if none is found initially.**
+> Antibodies to voltage-gated calcium channels.
+
+> [!warning] Botulism
+> **DESCENDING weakness**, starting with bulbar and ocular muscles (diplopia, ptosis, dysarthria, dysphagia) and progressing downward, with **prominent autonomic features and DILATED, poorly reactive pupils** — pupillary involvement distinguishes it from myasthenia.
+> Sources: contaminated food, wound botulism in injecting drug users, and **infant botulism from honey**, which is why honey is not given to infants under 12 months.
+
+**Ix:** **Acetylcholine receptor antibodies, then MuSK antibodies if negative** (*why:* diagnostic; *what:* positive antibodies). **Repetitive nerve stimulation and single-fibre EMG** (*why:* demonstrates the neuromuscular junction defect — **decrement in myasthenia, increment after exercise in Lambert-Eaton**; *what:* decremental or incremental response). **CT chest** (*why:* thymoma in myasthenia, and lung cancer in Lambert-Eaton; *what:* mediastinal mass, lung lesion). **Serial forced vital capacity** (*why:* the only reliable measure of impending respiratory failure; *what:* declining FVC). TFTs (*why:* autoimmune thyroid disease coexists with myasthenia; *what:* abnormal TSH). Voltage-gated calcium channel antibodies (*why:* Lambert-Eaton; *what:* positive). Screening for other autoimmune disease (*why:* they cluster; *what:* associated conditions).
+
+#### Mx – Immediate — D4 §0.5.1
+**FVC monitoring and escalation in crisis.** Withhold precipitating drugs. Treat the precipitant. IVIG or plasma exchange.
+
+#### Mx – Definitive — D4 §0.5.2
+Pyridostigmine for symptoms, immunosuppression (corticosteroids and steroid-sparing agents), and **thymectomy**, which benefits selected patients including some without thymoma. Newer targeted therapies exist.
+
+#### Mx – Chronic/long-term — D4 §0.5.3
+**A medical alert and a written list of drugs to avoid**, which the patient should carry. Vaccination and infection avoidance. Pre-operative and pre-pregnancy planning with neurology. Bone protection on long-term steroids.
+
+
 ### Neuromyelitis Optica (Devic Disease)
 
 **D:** chronic disorder of the brain and spinal cord dominated by optic neuritis and myelitis.
