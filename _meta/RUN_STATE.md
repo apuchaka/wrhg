@@ -738,7 +738,21 @@ file. **No marker was silently voided in Block 1.**
 
 ## Resume point
 
-**WEEK 2 COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
+> [!danger] **THIS "WEEK 2" IS THE FRAGMENT PHASE'S, NOT THE MERGE QUEUE'S. THE REPO HOLDS
+> TWO DEFINITIONS OF WEEK 2 AND THE STALE ONE ASSERTS COMPLETION.**
+> The line below records the **fragment-phase** run of 2026-08-31, which merged FRAGMENTS
+> from K/I/O6/CV-X. It is not the section-merge queue.
+>
+> **`MASTER_VERIFICATION_WORKFLOW.md` §1.1.9.2 is authoritative: week 2 is `B1`–`B5`**
+> (cardiology), and **none of those five has been section-merged.** §1.1.9.2 says so
+> itself — *"`next` reads this list, not any conversation."*
+>
+> **A session reading the line below on its own would skip week 2 entirely**, because it
+> says COMPLETE against eleven files that are not week 2's. Recorded 2026-09-01, at the
+> point where the queue and this line were compared for the first time.
+
+**WEEK 2 (fragment phase) COMPLETE** — K1 · K2 · K3 · K4 · I1 · I2 · I3 · I4 · I5 · O6 · CV-X. Eleven files.
+**WEEK 2 (section merge, §1.1.9.2) NOT STARTED** — B1 · B2 · B3 · B4 · B5.
 **IN PROGRESS:** Week 3 — **L1–L8, RESP-X, O4, O5, O7 done.** Next AN1, then AU1. Remaining: L2–L8, RESP-X, O4/O5/O7, AN1, AU1. Then Week 5
 ophthalmology (E1–E3). **Week 4 is approved for AFTER week 3**, priced by the probe in
 `_meta/merges/WEEK4_PROBE.md` at ~100 additive blocks for 25 files; **run M before J** if
@@ -976,3 +990,212 @@ not tokens.** All 30 verified present by reading.
 
 Only `scan` does. `study --dir .` left the working tree clean apart from
 `_meta/STUDY_CHECKS.md`. The revert-after-scan step still applies to `scan`.
+
+---
+
+# VAULT-WIDE CLAIM AUDIT — stopped at C4, resume point below
+
+## Resume point
+
+**Done:** C6 (calibration), C1, C2, C3, C4 — reports in `_meta/audits/`.
+**Next:** **C5, then C7**, then D1–D7, GER1–2, A6–A8, F0-1..F0-5.
+**Nothing merged.** Every report is REPORT ONLY.
+
+Method is fixed and written down: CLAUDE.md rule 12, and the Step 29 REQUIRED CHECK.
+Extraction rule to reuse **verbatim**, because granularity drift is the main variance left:
+*one claim = one assertion that could independently be true or false, and that a reader could
+act on differently.*
+
+## The multiplier, per file
+
+Old rule = `**absent**` rows in the file's `_meta/merges/` table. New rule = ABSENT + WEAKER.
+
+| File | Claims | Old | New | Multiplier | DISCARD rows | ADDITIVE rows |
+|---|---:|---:|---:|---:|---:|---:|
+| **C6** | 164 | 6 | **75** | **12.5×** | 5 | 3 |
+| C3 | 118 | 5 | 29 | 5.8× | 8 | 2 |
+| C2 | 93 | 6 | 22 | 3.7× | 6 | 3 |
+| C1 | 182 | 13 | 40 | 3.1× | 7 | 6 |
+| C4 | 81 | 8 | 20 | 2.5× | 4 | 0 |
+
+**MY PREDICTION WAS WRONG, and the direction is the opposite of what I said.**
+
+I predicted discard-heavy tables would under-report *less*. **C3 has the most DISCARD rows
+(8) and the second-highest multiplier (5.8×). C4 has the fewest (4) and the lowest (2.5×).**
+Across the five files the correlation runs the other way from my claim.
+
+**What actually predicts the multiplier is how much of the file is written as prose reasoning
+rather than as named entities.** C6 and C3 are dense in discriminators, negative claims and
+mechanism — "does not distinguish", "is unreliable", "may look entirely normal", "LFTs do not
+test liver function", "a slowly enlarging liver is painless". Those have no topic name, so a
+row-level check cannot see them and a term search does not find them. C4 is mostly named
+entities — Forrest, Blatchford, Rockall, Dieulafoy, Heyde — which a row-level check does see.
+
+**So the rule for the remaining 29 files: the multiplier tracks prose density, not
+disposition mix.** Do not use DISCARD count to triage which tables need re-running.
+
+## ADDITIVE-row findings so far
+
+| File | Finding |
+|---|---|
+| **C6** | **Barrett block duplicates base-A `13_06b:41`**, merged on the stated premise that the destination "stops before management" — it did not. Two claims near-verbatim. The one new element (interval by segment length) **disagrees** with base-A's flat 3–5 years and was never raised as a conflict |
+| **C1** | **~40 claims duplicate `NEW_Gastroenterology_and_Hepatology:19–40`**, which was in base-A: watch-the-patient-before-touching almost verbatim, the must-not-miss list, the medical mimics, the examination sequence, β-hCG, the bloods panel. **Plus a buried disagreement**: base-A `:30` says elicit **rebound**; the merged block says rebound "should largely be abandoned". Suggested **CF-038 R3** |
+| C2 | Clean. The cannabinoid block looked like a duplicate (`hot shower` = 3 base-A hits) and is not — all three are polycythaemia pruritus, rosacea and fentanyl patch absorption |
+| C3 | Clean. Both blocks 0 in base-A on every term tested |
+| **C4** | Clean, **and the model for handling an overlap**: the §0.33.4 block writes *"AIMS65 is a further pre-endoscopy risk score alongside the Glasgow-Blatchford and Rockall scores **already at §0.33.2**"* — adds one, points at the rest, reproduces nothing. This is the Barrett failure avoided |
+
+## Tooling changed this run
+
+**`gapcheck.py` now folds Roman and Arabic numerals**, narrowly — only after a qualifier
+(grade, stage, type, class, phase, degree, tier), because folding a bare `1` to `(?:1|I)`
+would match the pronoun. Tested before commit; `Grade III` now finds `Grade 3` at
+`03_Gastrointestinal:1047`, the line that produced the false ABSENT. The corpus carries both
+forms in one file (`:513` "grade III or IV encephalopathy", `:233` "Grade 3").
+
+It paid off immediately at C3: the **complete West Haven four-grade scale** sits at
+`03_Gastrointestinal:230–234` under a heading reading only `Grading`, and `West Haven`
+returns **0 across the whole vault**.
+
+## New collisions for rule 9's register
+
+| Pattern | Hits | What it matched | Real |
+|---|---:|---|---:|
+| **`Ladd`** | **210** | `bladder` ×152, `Bladder` ×16, `gallbladder` ×15, `ladder` ×10 | **0** |
+| `Cushing` | 44 | Cushing's syndrome ×31 — the **stress-ulcer eponym** is absent | 0 |
+| `extramammary` | 3 | *"extramammary pain referred to the breast"* | 0 |
+| `myotomy` | 3 | **pyloromyotomy** — a different operation | 0 |
+| `watershed` | 2 | a Jones fracture and arterial ulcer sites — **not the splenic flexure** | 0 |
+
+## Two of my own search errors, recorded
+
+- **`contrast enema`** returned 0; the corpus writes **"air enema works in 75%"** (`15_08`).
+  Claim PRESENT. Rule 2, my phrasing.
+- **`Grade III`** returned 0; the corpus writes **Grade 1–4**. Now fixed mechanically.
+
+## SCHEDULED WORK — two cross-reference edits, AFTER the section merge completes
+
+Directed 2026-09-01. **Not part of any section placement**, and not to be folded into a
+merge commit. Each is its own commit, at the end of the merge run.
+
+**These are a RETRIEVAL problem, not a merge problem.** In both cases the content is
+correct, present, and in more than one place — and none of those places is findable by
+the word a reader would search. That failure is invisible to every check this project
+runs, because nothing is missing.
+
+### 1. `03_Gastrointestinal` §0.28 GORD — its `Ix:` line needs a pointer to §0.28.1
+
+`03_Gastrointestinal.md:1655`, §0.28's own `Ix:` line, reads: PPI trial, pH monitoring,
+manometry, barium swallow, OGD. **No ECG.**
+
+The cardiac exclusion is one heading below, in the merged C6 §0.1 block:
+- `:1615` — *"Relief with antacid or GTN does not distinguish them … **Get an ECG.**"*, in
+  a `[!danger]` about inferior MI presenting as epigastric burning.
+- `:1637` — §0.28.1's own `Ix:` opens with **ECG** *(why: excludes the cardiac cause)*.
+
+**A reader working reflux up from §0.28 never reaches it.** The section rule forbids
+weaving the block into §0.28's prose, and that is correct — so the fix is a pointer on
+§0.28's `Ix:` line, not a rewrite of it.
+
+### 2. `ALARM` — connect the term to the three red-flag lists that do not use it
+
+`ALARM` appears **exactly once in 240 files**: `Corpus C/NEW_Drugs_12_Gastrointestinal.md:38`.
+
+The same features are carried, under different phrasing, at:
+- `03_Gastrointestinal.md:1617` — `> [!warning] Red flags mandating endoscopy rather than a PPI trial` (C6 §0.1's wording, and B's, not a paraphrase to be rewritten)
+- `03_Gastrointestinal.md` §0.29 Gastritis — same features again
+
+**One pointer each, using `ALARM` as the searchable label.** Do not relabel B's heading —
+`ALARM` is not B's word, and rewriting it would be reformatting a merged section.
+
+This is CLAUDE.md rule 2's plain-English-name clause seen from the other side: there the
+searcher used a name the corpus does not use; here the corpus holds a concept under three
+names and the *canonical* one is reachable from only one of them.
+
+## SCHEDULED WORK — 34 `(unbuilt)` link markers whose targets are all now built
+
+Found 2026-09-01 mid-merge, on D3 §0.5/§0.6. Recorded in CLAUDE.md §1.10 (`f974630`)
+with the measurement; this is the work item.
+
+**The claim in the marker is false.** Every reserved code any marker references now has
+a file in `Corpus B-new/`:
+
+```
+distinct TODO:link codes still in B/B-new: 47   total markers: 188
+codes that NOW have a file: 47   markers pointing at them: 188
+still genuinely unbuilt: []
+```
+
+Of those, **34 have already been merged into Corpus A/C** and are sitting in the vault
+telling the reader a topic does not exist:
+
+| File | n |
+|---|---:|
+| `Corpus A/03_Gastrointestinal.md` | 26 |
+| `Corpus A/04_Neurology.md` | 5 |
+| `Corpus C/NEW_Drugs_12_Gastrointestinal.md` | 2 |
+| `Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md` | 1 |
+
+18 distinct codes — `O6`×5, `N8`×4, `N6`×3, `M5`×3, `O1`×3, `H2`×2, `I5`×2, `O5`×2, and
+one each of `L3 E1 M2 K2 N1 O2 J2 M3 F3 J5`.
+
+**Do this AFTER the `Corpus B-new/` merges, not before**, and as its own commit — by then
+each topic will have a Corpus A home and the pointer can be aimed at it rather than
+guessed. Where Corpus A already owns the topic today the pointer can go straight there:
+`N6` → `[[14_05c_Psych_-_Unexplained_Symptoms__Somatoform__Dissociative__Factitious_Disorders_]]`,
+`L3`/`L4` → `[[11_06_Ortho_-_Spinal_Orthopaedics]]` or the rheumatology files.
+
+**Where no target can be established, delete the word `(unbuilt)` and keep the marker.**
+The marker is still true — the link is not written. Only the reason given for it is wrong.
+
+**Never guess a target.** That half of §1.10's rule is unchanged.
+
+## FINDING — aspirin secondary-prevention dose, `inherited` Corpus A, NOT touched by this merge
+
+Surfaced 2026-09-01 by the lint pass at the 14-file gate. **Recorded, not fixed** — it is
+inherited Corpus A content, it needs a named Australian source, and §1.12 forbids
+adjudicating a clinical figure from a session.
+
+```
+Corpus A/01_Cardiovascular.md:121  Aspirin 75 mg OD, … Atorvastatin 80 mg OD …   (post-ACS)
+Corpus A/01_Cardiovascular.md:358  - Aspirin 75 mg OD (unless already on an antiplatelet)  (stable angina)
+```
+
+**75 mg is the UK maintenance strength. Australian practice uses 100 mg** — that is a
+Step 17 (UK-localisation) item, and Step 17's earlier sweeps did not reach it.
+
+**And the corpus disagrees with itself on a second aspirin figure**, which is the sharper
+finding because no localisation sweep would catch it:
+
+| File | Indication | Dose |
+|---|---|---:|
+| `16_08-09_Antenatal_and_Perinatal_Problems:88` | pre-eclampsia prophylaxis, ≥1 high-risk factor | **150 mg** |
+| `16_01-05_Antenatal_Care:476` | pre-eclampsia, antenatal Mx | **75 mg** |
+| `16_01-05_Antenatal_Care:614` | from positive test until delivery | **75–150 mg** |
+| `16_01-05_Antenatal_Care:620` | high risk | **75–150 mg** |
+
+Three different answers for the same indication in two files. **Resolve against RANZCOG.**
+`10_06b:37` (aspirin 75 mg primary thromboprophylaxis in APS) is a third indication and a
+separate question.
+
+**None of this was introduced by the section merge.** The lint pass reports **178**
+`inherited` dose figures with no marker; **0 of them are inside a merged `SRC:` block** —
+established after fixing an attribution script of my own that first said 2, because it
+carried a block's SRC owner forward past the block's end into Corpus A's own prose.
+
+## SCHEDULED WORK — the misplacement queue (`_meta/MISPLACEMENT_QUEUE.md`)
+
+Twelve blocks sit under a heading narrower than, or unrelated to, their own topic. Found
+by the fourteen-file gate check. **8 are placements this run chose; 4 are base-A's own
+structure.**
+
+**Deliberately not moved.** Re-parenting is a move: it breaks `§n.n` pointers aimed at the
+block and renumbers its siblings, so it belongs with the other moves in the post-merge job
+rather than being done piecemeal now.
+
+The widest is `13_06b` §0.3.1 **Oesophageal Disease** — cancer, EoE, achalasia, stricture,
+spasm, pill and infective oesophagitis, varices — sitting under `## 0.3 Barrett's
+oesophagus`, which is one paragraph of it.
+
+The four `04_Neurology` cases are a **restructure**, not a move: getting `Tremor` out of
+`## Other Neurology Topics` means first moving base-A's own `### Abnormal Involuntary
+Movements`. That needs a decision, not a queue entry.

@@ -44,10 +44,10 @@ Not usually required. Severe asymptomatic elevation is managed as 0.2, **not** a
 ### 0.1.2 Mx – Definitive
 **Lifestyle intervention for everyone**, and it is genuinely effective: sodium reduction, weight loss, regular physical activity, alcohol reduction, smoking cessation, and dietary pattern change. Pharmacotherapy guided by absolute risk and by comorbidity — ACE inhibitors or ARBs, calcium channel blockers, and thiazide-like diuretics are the mainstays, with agent choice influenced by diabetes, heart failure, chronic kidney disease, gout, ethnicity and pregnancy potential.
 **Do not combine an ACE inhibitor with an ARB** — the combination increases renal impairment, hyperkalaemia and hypotension without cardiovascular benefit.
-**In pregnancy or planned pregnancy, ACE inhibitors and ARBs are contraindicated** and the agents used are different. Cross-refer [[O2]]. `UNVERIFIED — all agents, doses, combinations and blood pressure targets from eTG Cardiovascular and the Heart Foundation guideline.`
+**In pregnancy or planned pregnancy, ACE inhibitors and ARBs are contraindicated** and the agents used are different. Cross-refer [[O2_Later_Pregnancy_and_Fetal]]. `UNVERIFIED — all agents, doses, combinations and blood pressure targets from eTG Cardiovascular and the Heart Foundation guideline.`
 
 ### 0.1.3 Mx – Chronic/long-term
-Adherence support — **non-adherence is the leading cause of apparently resistant hypertension**, and it is more usefully explored non-judgementally than assumed absent. Single-pill combinations improve adherence. Home monitoring engages patients. Regular review of renal function and electrolytes. Cross-refer [[P1]] Preventive Health.
+Adherence support — **non-adherence is the leading cause of apparently resistant hypertension**, and it is more usefully explored non-judgementally than assumed absent. Single-pill combinations improve adherence. Home monitoring engages patients. Regular review of renal function and electrolytes. Cross-refer [[GER3_Preventive_and_Occupational_Health]] Preventive Health.
 
 ---
 
@@ -92,11 +92,11 @@ Adherence support, secondary cause screening if indicated, and cardiovascular ri
 > | **Hypertensive encephalopathy** | Headache, confusion, visual disturbance, seizures, papilloedema; posterior changes on MRI (PRES) | Controlled gradual reduction |
 > | **Acute ischaemic stroke** | Focal deficit | **Permissive hypertension** — lowering worsens penumbral perfusion, *unless* thrombolysis is planned, when a lower threshold applies |
 > | **Intracerebral haemorrhage** | Focal deficit, headache, reduced GCS | Earlier and more active lowering than in ischaemic stroke |
-> | **Acute pulmonary oedema (SCAPE)** | Severe dyspnoea, hypertensive, distressed | **Nitrates and NIV**, not primarily diuresis — cross-refer [[F0.5]] 0.3 |
+> | **Acute pulmonary oedema (SCAPE)** | Severe dyspnoea, hypertensive, distressed | **Nitrates and NIV**, not primarily diuresis — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3 |
 > | **Acute coronary syndrome** | Chest pain, ECG change | Nitrates, beta-blockade |
 > | **Aortic dissection** | Tearing pain, BP differential | **The exception — rapid, aggressive reduction. Rate control first, then vasodilator** |
 > | **Acute kidney injury / malignant hypertension** | Rising creatinine, haematuria, proteinuria, retinopathy | Controlled reduction; renal function may worsen transiently |
-> | **Pre-eclampsia / eclampsia** | Pregnancy, proteinuria, hyperreflexia, seizures | **Magnesium sulfate and delivery** — cross-refer [[O2]] |
+> | **Pre-eclampsia / eclampsia** | Pregnancy, proteinuria, hyperreflexia, seizures | **Magnesium sulfate and delivery** — cross-refer [[O2_Later_Pregnancy_and_Fetal]] |
 > | **Phaeochromocytoma crisis / sympathomimetic** | Paroxysmal, diaphoresis, palpitations | **Alpha blockade before beta blockade** — see 0.4 |
 
 > [!danger] Fundoscopy is the examination that most often makes the diagnosis
@@ -107,7 +107,7 @@ Adherence support, secondary cause screening if indicated, and cardiovascular ri
 > Agents used include labetalol, glyceryl trinitrate, hydralazine, sodium nitroprusside and clevidipine. **Sodium nitroprusside accumulates as thiocyanate and cyanide with prolonged use or renal impairment**, which limits its duration of use and mandates monitoring.
 
 > [!danger] Malignant hypertension can cause a microangiopathic haemolytic anaemia
-> Severe hypertension damages endothelium and shears red cells, producing **anaemia with schistocytes and thrombocytopenia** — a picture that mimics thrombotic thrombocytopenic purpura or haemolytic uraemic syndrome. Recognising hypertension as the cause avoids plasma exchange for a condition that responds to blood pressure control. Cross-refer [[J1]].
+> Severe hypertension damages endothelium and shears red cells, producing **anaemia with schistocytes and thrombocytopenia** — a picture that mimics thrombotic thrombocytopenic purpura or haemolytic uraemic syndrome. Recognising hypertension as the cause avoids plasma exchange for a condition that responds to blood pressure control. Cross-refer [[J1_Cytopenias_and_Marrow_Failure]].
 
 **S/Smx:** Determined by the organ involved — headache, confusion, seizures, visual loss, focal deficit, chest pain, dyspnoea, oliguria, or the features of pre-eclampsia.
 
@@ -167,4 +167,4 @@ Cause-specific and often curative — adrenalectomy after adequate alpha blockad
 ---
 
 > [!note] Cross-references
-> Aortic dissection and the six chest pain life threats → [[B1]] 0.1 · Acute pulmonary oedema and SCAPE → [[F0.5]] 0.3 · Stroke and focal deficit → [[D3]] · Pre-eclampsia and eclampsia → [[O2]] · Sympathomimetic toxicity and unopposed alpha → [[F0.1]] 0.4 · Coronary vasospasm → [[B1]] 0.4 · Microangiopathic haemolysis → [[J1]] · Obstructive sleep apnoea → [[13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA]] · Preventive health and absolute risk → [[P1]]
+> Aortic dissection and the six chest pain life threats → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.1 · Acute pulmonary oedema and SCAPE → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3 · Stroke and focal deficit → [[D3_Stroke_and_Focal_Neurological_Deficit]] · Pre-eclampsia and eclampsia → [[O2_Later_Pregnancy_and_Fetal]] · Sympathomimetic toxicity and unopposed alpha → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.4 · Coronary vasospasm → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.4 · Microangiopathic haemolysis → [[J1_Cytopenias_and_Marrow_Failure]] · Obstructive sleep apnoea → [[13_05b_ENT_-_Stridor__Croup__Epiglottitis__Laryngomalacia__OSA]] · Preventive health and absolute risk → [[GER3_Preventive_and_Occupational_Health]]

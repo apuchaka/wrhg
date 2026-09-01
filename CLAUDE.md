@@ -343,6 +343,67 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
        pattern used a hyphen. **Loss rate 0%; verification false-negative rate 1 in 27.**
        Each was found only by running the check where the answer was already known.
 
+   - **AN AUDIT SCOPED BY COMMIT-MESSAGE TEXT IS SCOPED BY WHAT A SESSION CHOSE TO
+     WRITE, NOT BY WHAT HAPPENED. Scope by what the commit DID.** Third check in this
+     project unable to find the thing it existed to find.
+     - Found 2026-09-01 at the fourteen-file gate. An audit for `UNVERIFIED` markers
+       destroyed by a supersede ran `git log -i --grep="supersede"` and reported
+       **seven**. That grep matches **66 of 93** section-merge commits — a commit
+       supersedes a fragment or it does not, and whether its *message* says so is a
+       drafting choice. Re-scoped to `--grep="^Section merge"` and then to *every
+       commit whose diff removes lines*, the real number was **ten**, and the four
+       extra included a **login-required Therapeutic Guidelines marker** (§1.14: never
+       delete one) and an **R1 tranexamic-acid dose-and-window marker** whose
+       replacement block carried no marker at all.
+     - **The seven were reported as complete.** That is the damage: not the miss itself
+       but a completeness claim built on a scope nobody had checked.
+     - **The test for any audit's scope: could a commit that did the thing fail to
+       match?** `--grep` over prose always can. Select on the diff — files touched,
+       lines removed, a token appearing or disappearing — because that is the record of
+       what happened rather than of what was said about it.
+     - Same family as the vacuous duplicate-header check and the `Stemmer`-at-1.0
+       duplicate scorer: **the check ran, reported a number, and the number was a
+       property of the check rather than of the corpus.**
+
+12. **A DISCARD VERDICT MUST BE MADE AT CLAIM LEVEL. Naming a destination file or
+   section is not evidence that the destination carries the content.** Rules 2, 9 and 10
+   all govern the search that *looks for* something. This governs the verdict that decides
+   **not to look any further**, and it is the only verdict in this project that leaves no
+   artefact behind.
+   - **THE COROLLARY IS WHY THIS RULE IS EXPENSIVE ON PURPOSE: A WRONG DISCARD IS
+     UNDETECTABLE DOWNSTREAM.** A wrong *merge* produces a duplicate, carrying a `SRC:`
+     token, which a later gap check finds — the four caught on 2026-08-31 were all found
+     that way. A wrong *discard* produces **nothing**: no marker, no block, no diff, no
+     entry in any report. It is therefore the more expensive error and warrants the more
+     expensive check. Nothing else in this method has that property.
+   - **Two failure depths, both found by hand in one file (C6) in one morning. Neither was
+     a search error — both searches were correct, and the verdicts were made at the wrong
+     granularity.**
+     - **AREA-LEVEL (the achalasia shape).** C6 §0.3 "oesophageal disease" was discarded to
+       `13_06b` and §0.30 because **those files own the area**. They do. **The topic is not
+       in them:** achalasia appears twice in `13_06b`, both times as **one word in a list** —
+       no definition, no failure of the lower oesophageal sphincter to relax, no bird's beak,
+       no manometry, no management. **A file owning an area is not evidence it carries a
+       topic.**
+     - **CLAIM-LEVEL (the dyspepsia shape).** C6 §0.1 was discarded to §0.28 GORD and §0.29
+       gastritis. **Both exist and are good.** B's section still carried at least six claims
+       absent from both — among them the **inferior-MI cardiac exclusion**, with the point
+       that relief from an antacid or from GTN **does not distinguish** the two. **A topic
+       being present is not evidence that its claims are.**
+   - **So the test is: extract every distinct clinical claim from the discarded section and
+     test each one separately.** A section on dyspepsia is not one claim — it is a mechanism
+     claim, a red-flag list, a drug-cause list, an investigation set and a management
+     approach, each separately present or absent. Test the **named destination first**, then
+     the whole vault before concluding, because content sitting elsewhere is a *reachability*
+     problem and not the same finding.
+   - **Classify, never collapse:** `CONFIRMED` · `DISPLACED` (present, but not where the
+     table said) · `AREA-LEVEL` · `CLAIM-GAPS` (list every missing claim) · `WRONG` (absent
+     from the vault entirely).
+   - **When a claim is missing, the claim merges — the section does not.** One missing claim
+     is not licence to re-merge a section that was correctly discarded in the rest.
+   - **Weight the finding.** A missed red flag, a lethal misattribution and a management step
+     are not the same as a footnote. Say which it is.
+
 ## 1.4 Reporting format
 For each queue item: what was checked · scan hits produced · genuine gaps vs dismissed artifacts (with reasons) · fixes made with commit hashes · any limitation noticed in the method itself.
 
@@ -481,6 +542,54 @@ guideline established it, not B.
 appendicectomy prophylaxis would likely reproduce A's `co-amoxiclav + metronidazole` and
 agree perfectly. Concordance never closes an item.
 
+**BEFORE MERGING A SECTION, GREP THE DESTINATION FOR ITS `SRC:` TOKEN.**
+
+```
+grep -n "SRC:<bfile> §<section>" <destination>
+```
+
+**This is the one search in this project that cannot fail.** Every other check in §1.3 exists
+because a search can miss — wrong spelling, wrong scope, wrong alphabet, a name the corpus does
+not use. The `SRC:` token is **exact, machine-written and unique**, so a zero means zero.
+Use it in preference to any content search when the question is "has part of this section
+already been merged here".
+
+**Measured 2026-08-31: 138 of the 970 sections in Corpus B and B-new already hold a merged
+fragment — 14%.** 58 B files are affected. **7 sections have fragments in more than one
+destination**, and those are the awkward ones: one section, two fragments, two places.
+
+**WHERE A FRAGMENT EXISTS, THE SECTION SUPERSEDES IT — AND INHERITS ITS CROSS-REFERENCES.**
+
+The fragment's clinical claims are reproduced by the section merge. **Its connective tissue is
+not, because the connective tissue was written by the merge and exists nowhere in Corpus B.**
+Ten blocks were sampled against their own B source sections: **zero were pure subsets, and
+five of ten were assembly** — built from two B files, or from B plus destination content, or
+narrowed deliberately with a scope note.
+
+What must be carried across, not discarded:
+
+| Merge-authored element | Worked example |
+|---|---|
+| internal `§x.y.z` cross-references | C1 §0.6's block **replaced B's Alvarado sentence** with a pointer to `§0.41.3` |
+| `[[file]]` pointers placing a claim against existing content | *"the anatomy is already tabulated in [[11_07a_Ortho_-_Dermatomes_and_Myotomes]]"* |
+| delta-framing against destination content | *"the **acute** precipitants **SMITH** does not cover"* — SMITH is Corpus A's mnemonic, absent from B3 |
+| verbatim quotation of another file | `01_Cardiovascular:48` quotes `NEW_Drugs_06` then says *"what that entry does not give is **how you know**"* |
+| ownership assignment | *"[[04_Neurology]] and the rhabdomyolysis entries own those"* |
+| a deliberate scope note | the ATSI block: *"deliberately narrow — what an intern does, not the history, the policy or the epidemiology"*, then a map of where the rest lives |
+
+**Delete the fragment's prose; keep its pointers, re-aimed at the merged section.** A section
+merged without them is content a reader cannot reach from where they are, which is the
+reachability failure §1.3 rule 12 already names.
+
+**The two worked examples of correct placement**, for the case where the destination already
+covers part of what is being merged:
+- `03_Gastrointestinal` §0.33.4 — *"**AIMS65** is a further pre-endoscopy risk score alongside
+  the Glasgow-Blatchford and Rockall scores **already at §0.33.2**."*
+- `01_Cardiovascular:48` — quotes the owning entry, then states only the delta.
+
+Both name what they add, point at what exists, and reproduce nothing. **Reach for that shape
+wherever the overlap is obvious, rather than defaulting to duplication.**
+
 **Additive merge format** — under a marked subheading, never woven into existing prose,
 which produces unreviewable diffs and blurs provenance at every sentence boundary. **Every
 block carries a `SRC:` token naming the origin file and section**, so `grep -rn "SRC:C1_" .`
@@ -517,7 +626,22 @@ prefix that does not resolve to exactly one.
 | | n | Rule |
 |---|---|---|
 | **Expandable** | **573** | Expand to the full filename. Verified: 87 distinct codes, **0 ambiguous**. This is not guessing — the mapping is deterministic against the filesystem. |
-| **Unbuilt targets** | **191** (50 codes) | `E1`, `H4`, `J4`, `L3`, `L4`, `M5`, `N6`, `O6`, `P1`, `P3` … B's scheme reserved codes for files **nobody ever built** — the existing prefixes are only `A1–A10`, `B1–B6`, `C1–C7`, `D1–D7`, `F0-1…F0-5`, `GER1–2`. Used identically in prose (`Acute angle-closure glaucoma → [[E1]]`, `Myeloma → [[J4]]`), so the adjacent text names the topic. **These become `` `TODO:link — topic` ``, and only these.** Never guess a target for them. |
+| **Unbuilt targets** | **191** (50 codes) *as measured against `Corpus B/` alone* | `E1`, `H4`, `J4`, `L3`, `L4`, `M5`, `N6`, `O6` … codes B's scheme reserved. Used identically in prose (`Acute angle-closure glaucoma → [[E1]]`, `Myeloma → [[J4]]`), so the adjacent text names the topic. These became `` `TODO:link — topic (unbuilt)` ``. **THE `(unbuilt)` HALF OF THAT LABEL IS NOW FALSE FOR ALL OF THEM — see below.** |
+
+> [!danger] **`Corpus B-new/` BUILT EVERY ONE OF THEM. Re-measured 2026-09-01, during the D3 merge.**
+> `Corpus B-new/` holds **112 files**, not the 39 of `Corpus B/`. Counting every `TODO:link` marker still sitting in either directory, and asking the filesystem whether a file with that prefix now exists:
+>
+> ```
+> distinct TODO:link codes still in B/B-new: 47   total markers: 188
+> codes that NOW have a file: 47   markers pointing at them: 188
+> still genuinely unbuilt: []
+> ```
+>
+> **47 of 47. 188 of 188. Zero genuinely unbuilt.** `L4` → `L4_Back_and_Neck_Pain.md` (×9), `N6` → `N6_Functional__Dissociative_and_Personality_Disorders.md` (×9), `O6` → `O6_Sexual_and_Reproductive_Health.md` (×11), `GER3` → `GER3_Preventive_and_Occupational_Health.md` (×14). Only `P1` and `P3` from the list above have no file — and **no marker references either**, so they cost nothing.
+>
+> **This is the fifth sampled-not-counted figure in this project**, after "C states no doses", "65 backticked references", "42 wikilinks in C" and "167 placeholder links". It has the same cause every time: the number was correct for the corpus it was measured against and was then quoted as a fact about the project. `Corpus B-new/` did not exist when 191/50 was counted.
+>
+> **What to do with a `(unbuilt)` marker you meet in a merged block:** the *topic* is not unbuilt, so do not repeat the claim. Point at the **Corpus A owner** if one exists — `L4` → `[[11_06_Ortho_-_Spinal_Orthopaedics]]`, `N6` → `[[14_05c_Psych_-_Unexplained_Symptoms__Somatoform__Dissociative__Factitious_Disorders_]]`. Where Corpus A owns nothing, leave the marker but **drop the word `(unbuilt)`**: the B-new file is in this run's own queue and the pointer becomes writable once it merges. Never guess a target — that part of the original rule stands.
 
 **This is the fourth sampled count, and they share one cause.** "Corpus C states no doses"
 (8 of 22 drug files do), "65 backticked references" (276), "42 wikilinks in C" (195), and

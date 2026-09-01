@@ -64,7 +64,7 @@ As per the hyperacute sequence. **Do not give aspirin until haemorrhage has been
 Reperfusion where eligible. Secondary prevention per 0.3. Decompressive surgery in selected malignant MCA syndrome.
 
 ### 0.1.3 Mx – Chronic/long-term
-See 0.3, plus multidisciplinary rehabilitation — physiotherapy, occupational therapy, speech pathology, dietitian, social work and neuropsychology. **Post-stroke depression, fatigue, spasticity, pain, and cognitive impairment are all common and all under-managed.** Driving restriction and return-to-work advice — cross-refer [[A10]] 0.6. Carer support.
+See 0.3, plus multidisciplinary rehabilitation — physiotherapy, occupational therapy, speech pathology, dietitian, social work and neuropsychology. **Post-stroke depression, fatigue, spasticity, pain, and cognitive impairment are all common and all under-managed.** Driving restriction and return-to-work advice — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6. Carer support.
 
 ---
 
@@ -95,7 +95,7 @@ See 0.3, plus multidisciplinary rehabilitation — physiotherapy, occupational t
 
 > [!danger] Cerebellar stroke deteriorates suddenly
 > A cerebellar infarct or haemorrhage may present with only **vertigo, vomiting, headache and ataxia**, with no limb weakness — and then **swell over 24–72 hours, compressing the brainstem and obstructing the fourth ventricle**, causing rapid deterioration to coma and death.
-> **Cerebellar stroke requires close observation and urgent neurosurgical involvement if consciousness declines** — decompression is life-saving. **Do not discharge a patient with acute vertigo and ataxia without considering this.** Cross-refer [[D5]].
+> **Cerebellar stroke requires close observation and urgent neurosurgical involvement if consciousness declines** — decompression is life-saving. **Do not discharge a patient with acute vertigo and ataxia without considering this.** Cross-refer [[D5_Dizziness__Vertigo_and_Gait]].
 
 > [!warning] Watershed (borderzone) infarction
 > Occurs at the junctions between arterial territories during **systemic hypotension or profound hypoperfusion** — after cardiac arrest, sepsis, or major surgery.
@@ -121,7 +121,7 @@ See 0.3, plus multidisciplinary rehabilitation — physiotherapy, occupational t
 > **Cryptogenic** — a substantial proportion, and many of these have **occult paroxysmal atrial fibrillation**, which is why prolonged cardiac monitoring matters.
 
 > [!danger] Atrial fibrillation requires anticoagulation, not aspirin
-> **Aspirin is inadequate stroke prevention in AF.** A patient with a stroke or TIA and atrial fibrillation needs anticoagulation, with the timing of commencement after an acute stroke determined by infarct size and haemorrhage risk. Cross-refer [[B3]] 0.4.
+> **Aspirin is inadequate stroke prevention in AF.** A patient with a stroke or TIA and atrial fibrillation needs anticoagulation, with the timing of commencement after an acute stroke determined by infarct size and haemorrhage risk. Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.4.
 
 > [!warning] Carotid endarterectomy — the benefit is time-dependent
 > For **symptomatic** carotid stenosis above a threshold degree, endarterectomy substantially reduces recurrent stroke — **but the benefit falls sharply the longer the delay**, being greatest when performed within the first two weeks of the event.
@@ -144,7 +144,7 @@ See 0.3, plus multidisciplinary rehabilitation — physiotherapy, occupational t
 **Ix:** **MRI with diffusion-weighted imaging** (*why:* distinguishes true TIA from minor stroke and confirms the vascular territory; *what:* restricted diffusion). **Carotid Doppler or CT/MR angiography urgently** (*why:* symptomatic stenosis needs early intervention; *what:* stenosis degree). **ECG plus prolonged monitoring — Holter or extended event recording** (*why:* paroxysmal AF is common, intermittent, and missed on a single ECG, and finding it changes the patient from aspirin to anticoagulation; *what:* AF). Echocardiography (*why:* cardiac source; *what:* thrombus, vegetation, PFO). Lipids, HbA1c, UEC, FBC (*why:* modifiable risk factors and baseline; *what:* dyslipidaemia, diabetes). Vascular imaging of the neck in the young (*why:* dissection; *what:* flap, tapering, intramural haematoma). Thrombophilia, antiphospholipid antibodies and vasculitis screen in young or unexplained stroke (*why:* alters treatment; *what:* positive results).
 
 ### 0.3.1 Mx – Immediate
-Start antiplatelet therapy (after excluding haemorrhage), arrange urgent imaging, and **give explicit driving advice** — cross-refer [[A10]] 0.6.
+Start antiplatelet therapy (after excluding haemorrhage), arrange urgent imaging, and **give explicit driving advice** — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6.
 
 ### 0.3.2 Mx – Definitive
 Mechanism-specific prevention as above.
@@ -164,7 +164,7 @@ Long-term adherence support, annual review, and continued risk factor management
 > **Lobar in a younger patient → vascular malformation or tumour**, and warrants angiography or delayed MRI.
 
 > [!danger] Reverse anticoagulation immediately — do not wait for the INR
-> **Haematoma expansion occurs in the first hours and is the main determinant of outcome.** Reversal should begin as soon as intracerebral haemorrhage is identified in an anticoagulated patient, not after the coagulation result returns. Cross-refer [[A9]] 0.4.
+> **Haematoma expansion occurs in the first hours and is the main determinant of outcome.** Reversal should begin as soon as intracerebral haemorrhage is identified in an anticoagulated patient, not after the coagulation result returns. Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4.
 > **Blood pressure lowering is more active than in ischaemic stroke**, since there is no penumbra to perfuse and pressure drives expansion. `UNVERIFIED — targets and the timeframe.`
 
 > [!danger] Cerebellar haemorrhage is a surgical emergency
@@ -175,7 +175,7 @@ Long-term adherence support, annual review, and continued risk factor management
 > [!warning] Other management points
 > **Seizures** — treat clinical seizures; prophylaxis is not routine.
 > **Raised intracranial pressure** — head up, avoid hypotonic fluids, treat fever and hyperglycaemia, consider osmotherapy and ICU involvement.
-> **Do not give antiplatelet or anticoagulant therapy**, and the decision about if and when to restart anticoagulation in a patient with a strong indication (mechanical valve, recent VTE, AF) is a specialist one requiring explicit documentation. Cross-refer [[A9]] 0.4.
+> **Do not give antiplatelet or anticoagulant therapy**, and the decision about if and when to restart anticoagulation in a patient with a strong indication (mechanical valve, recent VTE, AF) is a specialist one requiring explicit documentation. Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4.
 
 **Ix:** **Non-contrast CT brain** (*why:* diagnostic, and identifies location, volume, mass effect and intraventricular extension; *what:* haemorrhage and its pattern). **CT angiography** (*why:* identifies an underlying vascular malformation or aneurysm, and a **"spot sign" of contrast extravasation predicts haematoma expansion**; *what:* AVM, aneurysm, spot sign). **Coagulation profile, platelets, and a clear anticoagulant history including time of last dose** (*why:* determines reversal strategy; *what:* INR, agent, timing). Delayed MRI with susceptibility sequences (*why:* identifies underlying tumour, cavernoma, and **microbleeds suggesting amyloid angiopathy**; *what:* underlying lesion, microbleed pattern). Toxicology in younger patients (*why:* sympathomimetic-related haemorrhage; *what:* cocaine, amphetamines).
 
@@ -195,13 +195,13 @@ Blood pressure control, which is the principal preventive measure. Rehabilitatio
 > [!tip] Mimics — conditions that look like stroke but are not
 > **· Hypoglycaemia** — the most important, because it is instantly reversible. Check the glucose.
 > **· Seizure with Todd paresis** — post-ictal focal weakness, typically resolving over minutes to hours. The history of a witnessed seizure is the clue, but seizures are often unwitnessed.
-> **· Migraine with aura** — but remember **aura spreads gradually over minutes, whereas stroke is maximal at onset.** Cross-refer [[D1]] 0.3.
-> **· Functional neurological disorder** — with inconsistent examination findings, **Hoover sign** (weak hip extension that normalises when the opposite hip is flexed against resistance), and a pattern that does not fit vascular anatomy. This is a positive diagnosis, not a diagnosis of exclusion, and should be made and explained rather than implied. Cross-refer [[N6]].
+> **· Migraine with aura** — but remember **aura spreads gradually over minutes, whereas stroke is maximal at onset.** Cross-refer [[D1_Headache_and_Meningism]] 0.3.
+> **· Functional neurological disorder** — with inconsistent examination findings, **Hoover sign** (weak hip extension that normalises when the opposite hip is flexed against resistance), and a pattern that does not fit vascular anatomy. This is a positive diagnosis, not a diagnosis of exclusion, and should be made and explained rather than implied. Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]].
 > **· Recrudescence of an old deficit** — **infection, metabolic derangement or any systemic illness can unmask a previously recovered stroke deficit.** A patient with a known old stroke who develops "a new stroke" during a urinary tract infection frequently has recrudescence, and the deficit resolves as the infection is treated.
 > **· Space-occupying lesion, subdural haematoma, multiple sclerosis, Bell palsy, peripheral vestibular disease, hypertensive encephalopathy, drug or alcohol intoxication.**
 
 > [!danger] Chameleons — strokes that do not look like strokes
-> **· Isolated vertigo** — a posterior circulation stroke presenting as "dizziness" is the most consequential missed stroke, because these patients are discharged with a vestibular diagnosis. **The HINTS examination distinguishes central from peripheral vertigo and is more sensitive than early MRI** — cross-refer [[D5]].
+> **· Isolated vertigo** — a posterior circulation stroke presenting as "dizziness" is the most consequential missed stroke, because these patients are discharged with a vestibular diagnosis. **The HINTS examination distinguishes central from peripheral vertigo and is more sensitive than early MRI** — cross-refer [[D5_Dizziness__Vertigo_and_Gait]].
 > **· Acute confusion or delirium** — particularly with non-dominant hemisphere or thalamic strokes.
 > **· Isolated dysarthria or isolated monoparesis.**
 > **· Cortical blindness** (bilateral occipital) — the patient may deny blindness (Anton syndrome).
@@ -227,12 +227,12 @@ Blood pressure control, which is the principal preventive measure. Rehabilitatio
 > **Metastatic spinal cord compression** — a known malignancy, progressive back pain worse at night or on lying, then weakness and sensory change, then sphincter involvement. **Once the sphincters are involved, recovery is unlikely — so the window is before that point.**
 > **Urgent whole-spine MRI and immediate high-dose corticosteroids**, with oncology and neurosurgical involvement. **Do not wait for morning.**
 > **Cauda equina syndrome** — below the conus, so **lower motor neurone signs**, with **saddle anaesthesia, urinary retention with overflow, reduced anal tone, and bilateral radicular pain.** **Urinary retention is the key finding — check a post-void residual.** Also a surgical emergency.
-> Cross-refer [[L4]].
+> Cross-refer [[L4_Back_and_Neck_Pain]].
 
 > [!tip] The non-compressive causes of paraparesis
 > **Transverse myelitis** — subacute, with a sensory level; consider multiple sclerosis, neuromyelitis optica, infection and autoimmune causes.
 > **Anterior spinal artery infarction** — sudden, with motor and spinothalamic loss but **preserved dorsal column function (proprioception and vibration)**, which is a distinctive and diagnostic dissociation.
-> **Guillain–Barré syndrome** — **ascending, symmetrical, AREFLEXIC weakness** following an infection, with respiratory involvement. **Monitor forced vital capacity, not oxygen saturation.** Cross-refer [[F0.5]] 0.5.
+> **Guillain–Barré syndrome** — **ascending, symmetrical, AREFLEXIC weakness** following an infection, with respiratory involvement. **Monitor forced vital capacity, not oxygen saturation.** Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5.
 > **Subacute combined degeneration from B12 deficiency** — dorsal columns and corticospinal tracts, with the unusual combination of **absent ankle reflexes but upgoing plantars.**
 
 **Ix:** **Urgent MRI of the whole spine where cord compression or cauda equina is suspected** (*why:* the only test that identifies the level and cause, and delay costs function permanently; *what:* compression, level, cause). Post-void bladder scan (*why:* retention supports cauda equina and is objective; *what:* residual volume). CT brain and MRI where a cerebral cause is likely (*why:* stroke, tumour, demyelination; *what:* lesion). Serial FVC in ascending weakness (*why:* impending respiratory failure; *what:* declining FVC). B12, folate, TFTs, HIV, syphilis serology (*why:* treatable myelopathies; *what:* deficiency, infection). Lumbar puncture where inflammatory or infective myelopathy is suspected (*why:* CSF findings and oligoclonal bands; *what:* cells, protein, bands). Nerve conduction studies and EMG (*why:* distinguishes neuropathy, neuromuscular junction and myopathy; *what:* conduction block, decrement, denervation).
@@ -261,8 +261,8 @@ Rehabilitation, bladder and bowel management, pressure area care, spasticity man
 > **Chronic subdural haematoma** — an older patient, often anticoagulated, with a fluctuating or progressive deficit, headache, confusion or gait disturbance weeks after trauma that may have been trivial or forgotten. **It is treatable, and it is repeatedly attributed to dementia or "getting old".**
 > **Brain tumour** — primary or metastatic. Progressive deficit, seizures, headache with raised pressure features, or personality change. **In an adult with a first seizure or a new progressive deficit, imaging is required.**
 > **Brain abscess** — fever may be absent; consider with immunosuppression, a cardiac shunt, endocarditis, or a contiguous source (sinusitis, dental, mastoiditis).
-> **Multiple sclerosis** — a young adult with deficits separated in time and space; optic neuritis, internuclear ophthalmoplegia, transverse myelitis, sensory disturbance, and **Uhthoff phenomenon** (transient worsening with heat — cross-refer [[A6]] 0.4).
-> **Normal pressure hydrocephalus** — cross-refer [[D2]] 0.3.
+> **Multiple sclerosis** — a young adult with deficits separated in time and space; optic neuritis, internuclear ophthalmoplegia, transverse myelitis, sensory disturbance, and **Uhthoff phenomenon** (transient worsening with heat — cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.4).
+> **Normal pressure hydrocephalus** — cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.3.
 
 **Ix:** **MRI brain with contrast** (*why:* the investigation of choice for subacute and chronic deficits — far superior to CT for tumour, demyelination, abscess and small lesions; *what:* mass, enhancement, demyelinating plaques, subdural collection). **CT brain** where MRI is unavailable or urgent exclusion is needed (*why:* fast and detects subdural, large tumours and haemorrhage; *what:* collection, mass, midline shift). Lumbar puncture with **oligoclonal bands** (*why:* supports multiple sclerosis and identifies infection and malignant meningitis; *what:* bands, cells, cytology). Visual evoked potentials (*why:* demonstrates a subclinical second lesion in suspected MS; *what:* delayed latency). Whole-body imaging where metastatic disease is suspected (*why:* finds the primary; *what:* primary tumour). Autoimmune and infective screening as directed (*why:* treatable causes; *what:* positive results).
 
@@ -278,4 +278,4 @@ Rehabilitation, disease-modifying therapy in MS, driving and occupational advice
 ---
 
 > [!note] Cross-references
-> Headache, SAH and CVST → [[D1]] · Altered consciousness, delirium and dementia → [[D2]] · Weakness, neuropathy and radiculopathy → [[D4]] · Vertigo and the HINTS examination → [[D5]] · Seizures and Todd paresis → [[D6]] · Cranial nerve examination and facial palsy → [[D7]] · Atrial fibrillation and anticoagulation → [[B3]] 0.4 · Hypertension management → [[B2]] · Anticoagulant reversal → [[A9]] 0.4 · Back pain red flags and cord compression → [[L4]] · Neuromuscular respiratory failure → [[F0.5]] 0.5 · Driving after stroke or TIA → [[A10]] 0.6 · Functional neurological disorder → [[N6]]
+> Headache, SAH and CVST → [[D1_Headache_and_Meningism]] · Altered consciousness, delirium and dementia → [[D2_Altered_Consciousness_and_Cognition]] · Weakness, neuropathy and radiculopathy → [[D4_Weakness__Neuropathy_and_Radiculopathy]] · Vertigo and the HINTS examination → [[D5_Dizziness__Vertigo_and_Gait]] · Seizures and Todd paresis → [[D6_Seizures_and_Movement_Disorders]] · Cranial nerve examination and facial palsy → [[D7_Cranial_Nerves_and_Special_Senses]] · Atrial fibrillation and anticoagulation → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.4 · Hypertension management → [[B2_Hypertension_Spectrum]] · Anticoagulant reversal → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4 · Back pain red flags and cord compression → [[L4_Back_and_Neck_Pain]] · Neuromuscular respiratory failure → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5 · Driving after stroke or TIA → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 · Functional neurological disorder → [[N6_Functional__Dissociative_and_Personality_Disorders]]

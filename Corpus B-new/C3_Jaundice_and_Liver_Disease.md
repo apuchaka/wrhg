@@ -41,7 +41,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 **S/Smx:** Yellow sclerae and skin, dark urine, pale stools, pruritus, right upper quadrant pain, fever, weight loss, and the stigmata of chronic liver disease in 0.5.
 
-**Ix:** **Split (conjugated and unconjugated) bilirubin** (*why:* determines the entire branch of the differential and is not reported unless specifically requested; *what:* predominantly conjugated or unconjugated). Full LFT with **ALT, AST, ALP, GGT, albumin** (*why:* establishes the injury pattern and the synthetic function; *what:* hepatocellular versus cholestatic, low albumin). **INR** (*why:* the most sensitive early marker of impaired synthetic function, and the key prognostic variable in acute liver failure; *what:* prolongation). FBC and blood film (*why:* anaemia with reticulocytosis suggests haemolysis; thrombocytopenia suggests portal hypertension or chronic liver disease; macrocytosis suggests alcohol; *what:* the pattern). Reticulocytes, LDH, haptoglobin, direct antiglobulin test where unconjugated (*why:* confirms haemolysis; *what:* raised reticulocytes and LDH, low haptoglobin). **Abdominal ultrasound** (*why:* the pivotal early test — the presence or absence of **biliary duct dilatation** separates obstructive from hepatocellular causes and directs everything that follows; *what:* duct dilatation, stones, liver texture, focal lesion, ascites, splenomegaly, portal flow). Viral hepatitis serology (*why:* common, treatable, and has public health implications; *what:* hepatitis A, B and C serology, and E where indicated). **Paracetamol level** (*why:* the commonest cause of acute liver failure in Australia and it is treatable; *what:* level against time — cross-refer [[F0.1]] 0.6). Autoimmune screen — ANA, anti-smooth muscle, anti-LKM, immunoglobulins, **anti-mitochondrial antibody** (*why:* autoimmune hepatitis and primary biliary cholangitis are treatable and are diagnosed on serology plus biochemistry; *what:* positive antibodies, raised IgG or IgM). **Iron studies, caeruloplasmin, alpha-1 antitrypsin** (*why:* haemochromatosis, Wilson disease and alpha-1 antitrypsin deficiency are inherited, treatable and family-relevant, and **Wilson disease must be excluded in any young person with liver disease**; *what:* raised ferritin and transferrin saturation, low caeruloplasmin, low alpha-1 antitrypsin).
+**Ix:** **Split (conjugated and unconjugated) bilirubin** (*why:* determines the entire branch of the differential and is not reported unless specifically requested; *what:* predominantly conjugated or unconjugated). Full LFT with **ALT, AST, ALP, GGT, albumin** (*why:* establishes the injury pattern and the synthetic function; *what:* hepatocellular versus cholestatic, low albumin). **INR** (*why:* the most sensitive early marker of impaired synthetic function, and the key prognostic variable in acute liver failure; *what:* prolongation). FBC and blood film (*why:* anaemia with reticulocytosis suggests haemolysis; thrombocytopenia suggests portal hypertension or chronic liver disease; macrocytosis suggests alcohol; *what:* the pattern). Reticulocytes, LDH, haptoglobin, direct antiglobulin test where unconjugated (*why:* confirms haemolysis; *what:* raised reticulocytes and LDH, low haptoglobin). **Abdominal ultrasound** (*why:* the pivotal early test — the presence or absence of **biliary duct dilatation** separates obstructive from hepatocellular causes and directs everything that follows; *what:* duct dilatation, stones, liver texture, focal lesion, ascites, splenomegaly, portal flow). Viral hepatitis serology (*why:* common, treatable, and has public health implications; *what:* hepatitis A, B and C serology, and E where indicated). **Paracetamol level** (*why:* the commonest cause of acute liver failure in Australia and it is treatable; *what:* level against time — cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.6). Autoimmune screen — ANA, anti-smooth muscle, anti-LKM, immunoglobulins, **anti-mitochondrial antibody** (*why:* autoimmune hepatitis and primary biliary cholangitis are treatable and are diagnosed on serology plus biochemistry; *what:* positive antibodies, raised IgG or IgM). **Iron studies, caeruloplasmin, alpha-1 antitrypsin** (*why:* haemochromatosis, Wilson disease and alpha-1 antitrypsin deficiency are inherited, treatable and family-relevant, and **Wilson disease must be excluded in any young person with liver disease**; *what:* raised ferritin and transferrin saturation, low caeruloplasmin, low alpha-1 antitrypsin).
 
 ### 0.1.1 Mx – Immediate
 Determined by the cause. Assess for encephalopathy and coagulopathy in any jaundiced patient — see 0.4.
@@ -63,14 +63,14 @@ Alcohol and hepatotoxin avoidance, vaccination against hepatitis A and B in chro
 > One practical point: it alters the metabolism of a few drugs, notably irinotecan.
 
 > [!warning] Haemolysis
-> Unconjugated hyperbilirubinaemia with **anaemia, raised reticulocytes, raised LDH, low haptoglobin** and often splenomegaly. The film is frequently diagnostic — spherocytes, fragments, sickle cells, bite cells. Cross-refer [[J2]].
+> Unconjugated hyperbilirubinaemia with **anaemia, raised reticulocytes, raised LDH, low haptoglobin** and often splenomegaly. The film is frequently diagnostic — spherocytes, fragments, sickle cells, bite cells. Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]].
 > **Jaundice from haemolysis alone is usually mild** — a bilirubin high enough to cause deep jaundice suggests hepatic or obstructive disease as well, or a combination such as **gallstones from chronic haemolysis** (pigment stones), which is a genuinely common and satisfying diagnosis to make.
 
 > [!tip] The rest
 > **Ineffective erythropoiesis** — megaloblastic anaemia, thalassaemia, myelodysplasia.
 > **Resorption of a large haematoma or extensive bruising** — a common cause of unexplained jaundice in a trauma or post-operative patient.
 > **Crigler-Najjar syndrome** — rare, severe, presenting in infancy.
-> **Neonatal jaundice** — physiological versus pathological, with **jaundice in the first 24 hours of life always pathological**, and the risk of kernicterus from unconjugated bilirubin crossing the immature blood-brain barrier. Cross-refer [[M3]].
+> **Neonatal jaundice** — physiological versus pathological, with **jaundice in the first 24 hours of life always pathological**, and the risk of kernicterus from unconjugated bilirubin crossing the immature blood-brain barrier. Cross-refer [[M3_Neonatal_Problems]].
 
 **Ix:** Split bilirubin (*why:* confirms it is unconjugated; *what:* predominantly unconjugated fraction). Haemolysis screen — **reticulocytes, LDH, haptoglobin, direct antiglobulin test and blood film** (*why:* separates haemolysis from Gilbert syndrome, which is the entire question; *what:* raised reticulocytes and LDH, low haptoglobin, abnormal film). FBC (*why:* anaemia supports haemolysis; its absence with normal reticulocytes supports Gilbert; *what:* haemoglobin, MCV). Normal ALT, ALP and albumin (*why:* their normality is what confirms Gilbert syndrome; *what:* normal). Genetic testing is available but rarely necessary (*why:* the clinical and biochemical picture is sufficient; *what:* UGT1A1 polymorphism).
 
@@ -110,7 +110,7 @@ Treat haemolysis if present. Reassure in Gilbert syndrome.
 **Ix:** **Abdominal ultrasound first** (*why:* the presence of duct dilatation confirms obstruction and its absence redirects toward hepatocellular or intrahepatic cholestatic causes — this branch point determines everything after it; *what:* dilated intra- and extrahepatic ducts, stones, mass). **MRCP** (*why:* non-invasive, detailed anatomy of the biliary tree, identifies duct stones and strictures without the risk of ERCP; *what:* stone, stricture, beading, mass). **Endoscopic ultrasound** (*why:* superior for small distal duct stones and for staging and sampling pancreatic head lesions; *what:* stone, mass, with fine needle aspiration). **ERCP — a therapeutic rather than a diagnostic procedure** (*why:* it permits sphincterotomy, stone extraction and stent placement, but carries a real risk of post-ERCP pancreatitis, so it is reserved for when intervention is intended; *what:* stone extraction, stenting). CT abdomen with pancreatic protocol (*why:* stages malignancy and assesses resectability; *what:* mass, vascular involvement, metastases). Tumour markers — **CA 19-9** (*why:* supports pancreaticobiliary malignancy and is used for monitoring, though **it is raised in benign obstruction and cholangitis and must not be interpreted in a jaundiced patient as diagnostic**; *what:* elevation, interpreted with caution). **INR before any intervention** (*why:* vitamin K deficiency from obstruction causes a correctable coagulopathy that must be treated before ERCP or biopsy; *what:* prolonged INR correcting with vitamin K). AMA and immunoglobulins (*why:* primary biliary cholangitis; *what:* positive AMA, raised IgM).
 
 ### 0.3.1 Mx – Immediate
-Fluids, analgesia, **parenteral vitamin K** for coagulopathy. **Antibiotics and urgent biliary drainage for cholangitis** — cross-refer [[F0.3]] 0.11. Pruritus management.
+Fluids, analgesia, **parenteral vitamin K** for coagulopathy. **Antibiotics and urgent biliary drainage for cholangitis** — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.11. Pruritus management.
 
 ### 0.3.2 Mx – Definitive
 ERCP with stone extraction or stenting. Cholecystectomy for gallstone disease. Oncological or surgical management of malignancy, with multidisciplinary discussion. Ursodeoxycholic acid for PBC.
@@ -124,7 +124,7 @@ Fat-soluble vitamin replacement in chronic cholestasis. Bone density monitoring,
 
 **D:** Acute liver injury with **coagulopathy and hepatic encephalopathy** in a patient without pre-existing chronic liver disease. Classified by the interval from jaundice to encephalopathy as hyperacute, acute or subacute — with, counterintuitively, **the hyperacute presentations having the best chance of spontaneous recovery** but the highest risk of cerebral oedema.
 
-**R/Causes:** **Paracetamol overdose is the commonest cause in Australia** — cross-refer [[F0.1]] 0.6. Also: viral hepatitis (A, B, E; and hepatitis E is particularly severe in pregnancy), idiosyncratic drug reactions, **herbal and complementary preparations**, autoimmune hepatitis, Budd-Chiari syndrome, **Wilson disease**, ischaemic hepatitis ("shock liver"), *Amanita* mushroom poisoning, and the pregnancy-specific causes of acute fatty liver of pregnancy and HELLP syndrome.
+**R/Causes:** **Paracetamol overdose is the commonest cause in Australia** — cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.6. Also: viral hepatitis (A, B, E; and hepatitis E is particularly severe in pregnancy), idiosyncratic drug reactions, **herbal and complementary preparations**, autoimmune hepatitis, Budd-Chiari syndrome, **Wilson disease**, ischaemic hepatitis ("shock liver"), *Amanita* mushroom poisoning, and the pregnancy-specific causes of acute fatty liver of pregnancy and HELLP syndrome.
 
 > [!danger] Contact a liver transplant unit early — before the patient meets transplant criteria
 > **The commonest error in acute liver failure is referring too late.** These patients deteriorate rapidly and unpredictably, and transfer becomes unsafe once encephalopathy is advanced or cerebral oedema has developed.
@@ -141,7 +141,7 @@ Fat-soluble vitamin replacement in chronic cholestasis. Bone density monitoring,
 > **4. Acute kidney injury** — from hypoperfusion, paracetamol directly, or hepatorenal syndrome. **Avoid all nephrotoxins.**
 
 > [!tip] N-acetylcysteine
-> Given for paracetamol-induced failure, and there is evidence supporting its use in **non-paracetamol acute liver failure** as well. `UNVERIFIED — indications, dosing and duration.` Cross-refer [[F0.1]] 0.6.
+> Given for paracetamol-induced failure, and there is evidence supporting its use in **non-paracetamol acute liver failure** as well. `UNVERIFIED — indications, dosing and duration.` Cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.6.
 
 **S/Smx:** Jaundice, malaise, nausea, right upper quadrant pain, then confusion, altered sleep-wake cycle, **asterixis**, and progressive reduction in conscious state. Fetor hepaticus. Signs of bleeding.
 
@@ -154,7 +154,7 @@ Fat-soluble vitamin replacement in chronic cholestasis. Bone density monitoring,
 Cause-specific treatment and consideration for liver transplantation.
 
 ### 0.4.3 Mx – Chronic/long-term
-Post-transplant immunosuppression and follow-up. **Mental health assessment where the cause was deliberate self-poisoning** — cross-refer [[N1]] and [[A5]] 0.1.
+Post-transplant immunosuppression and follow-up. **Mental health assessment where the cause was deliberate self-poisoning** — cross-refer [[N1_Mental_State_Examination_and_Risk]] and [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.1.
 
 ---
 
@@ -184,7 +184,7 @@ Post-transplant immunosuppression and follow-up. **Mental health assessment wher
 
 > [!warning] Prescribing in cirrhosis
 > **Avoid NSAIDs** — they precipitate renal failure and gastrointestinal bleeding. **Use opioids and benzodiazepines with great caution** — reduced clearance precipitates encephalopathy. **Paracetamol is generally safe at reduced doses** and is preferable to NSAIDs, which is counterintuitive to many. **Avoid aminoglycosides.** `UNVERIFIED — the safe paracetamol dose in cirrhosis.`
-> **Do not give prophylactic FFP for a raised INR** — the coagulopathy of cirrhosis is "rebalanced" and the INR overstates bleeding risk. Cross-refer [[A9]] 0.3.
+> **Do not give prophylactic FFP for a raised INR** — the coagulopathy of cirrhosis is "rebalanced" and the INR overstates bleeding risk. Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3.
 
 **Ix:** As per 0.1, plus: **transient elastography (FibroScan) or serum fibrosis scores** (*why:* non-invasively stages fibrosis, avoiding biopsy in many patients, and identifies cirrhosis in those with normal LFTs; *what:* liver stiffness). Liver biopsy where the diagnosis or stage remains unclear (*why:* definitive histology; *what:* fibrosis stage, aetiology). Upper endoscopy (*why:* variceal screening; *what:* varices and their grade). Six-monthly ultrasound with AFP (*why:* HCC surveillance; *what:* focal lesion). Full aetiological screen — viral serology, autoantibodies, iron studies, caeruloplasmin, alpha-1 antitrypsin (*why:* several causes are specifically treatable and several are heritable with implications for family; *what:* the causative diagnosis).
 
@@ -208,7 +208,7 @@ Treat the cause — **alcohol cessation, antiviral therapy for hepatitis B and C
 
 > [!tip] Ascites and the SAAG
 > The **serum-ascites albumin gradient** distinguishes the cause. **A high gradient indicates portal hypertension** — cirrhosis, heart failure, Budd-Chiari. **A low gradient indicates a non-portal cause** — peritoneal malignancy, tuberculous peritonitis, pancreatic ascites, nephrotic syndrome. `UNVERIFIED — the gradient value separating high from low.`
-> Management: **sodium restriction, spironolactone with frusemide**, and **large-volume paracentesis with albumin replacement** for tense ascites. Fluid restriction is only needed for significant hyponatraemia.
+> Management: **sodium restriction, spironolactone with furosemide**, and **large-volume paracentesis with albumin replacement** for tense ascites. Fluid restriction is only needed for significant hyponatraemia. `UNVERIFIED — the NAME is corrected per the TGA Ingredient Harmonisation programme; the REGIMEN this line states is not thereby confirmed and needs a named Australian source.`
 
 > [!danger] Spontaneous bacterial peritonitis
 > **Every cirrhotic patient with ascites who is admitted should have a diagnostic ascitic tap**, regardless of symptoms. SBP frequently presents with **no abdominal pain and no fever** — sometimes only with worsening encephalopathy, renal impairment or unexplained deterioration.
@@ -230,7 +230,7 @@ Treat the cause — **alcohol cessation, antiviral therapy for hepatitis B and C
 > [!tip] The others
 > **Hepatocellular carcinoma** — surveillance as per 0.5.
 > **Hyponatraemia** — dilutional, and a poor prognostic marker; correct slowly to avoid osmotic demyelination.
-> **Portopulmonary hypertension and hepatopulmonary syndrome** — the latter causing **platypnoea-orthodeoxia**, breathlessness worse sitting up. Cross-refer [[A4]] 0.2.
+> **Portopulmonary hypertension and hepatopulmonary syndrome** — the latter causing **platypnoea-orthodeoxia**, breathlessness worse sitting up. Cross-refer [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.2.
 > **Coagulopathy** — rebalanced, as above.
 
 **Ix:** **Diagnostic ascitic tap with cell count, differential, albumin, protein, and culture in blood culture bottles at the bedside** (*why:* diagnoses SBP and establishes the SAAG, and inoculating culture bottles at the bedside substantially improves yield; *what:* neutrophil count, SAAG, organism). Serum albumin taken the same day (*why:* required to calculate the SAAG; *what:* serum albumin). UEC and daily weights (*why:* monitors diuretic response and detects over-diuresis precipitating renal impairment and encephalopathy; *what:* creatinine, sodium, weight trend). Urgent endoscopy in bleeding (*why:* diagnostic and therapeutic; *what:* varices, banding). Doppler ultrasound (*why:* portal vein patency and thrombosis, which is common in cirrhosis; *what:* portal vein thrombosis, flow direction). Septic screen in any deterioration (*why:* infection is the commonest precipitant of every decompensation; *what:* source).
@@ -275,9 +275,9 @@ Rarely required, unless there is a liver abscess or acute Budd-Chiari.
 Cause-specific.
 
 ### 0.7.3 Mx – Chronic/long-term
-As per the underlying diagnosis. Post-splenectomy prophylaxis where splenectomy is performed — cross-refer [[C1]] 0.5.
+As per the underlying diagnosis. Post-splenectomy prophylaxis where splenectomy is performed — cross-refer [[C1_Acute_Abdomen]] 0.5.
 
 ---
 
 > [!note] Cross-references
-> Right upper quadrant pain and biliary disease → [[C1]] 0.3 · Ascending cholangitis → [[F0.3]] 0.11 · Paracetamol overdose → [[F0.1]] 0.6 · GI bleeding and varices → [[C4]] · Pancreatitis → [[C7]] · Rebalanced haemostasis and FFP in cirrhosis → [[A9]] 0.3 · Haemolysis → [[J2]] · Neonatal jaundice → [[M3]] · Hepatopulmonary syndrome and platypnoea → [[A4]] 0.2 · Alcohol and drug support → [[P1]]
+> Right upper quadrant pain and biliary disease → [[C1_Acute_Abdomen]] 0.3 · Ascending cholangitis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.11 · Paracetamol overdose → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.6 · GI bleeding and varices → [[C4_Gastrointestinal_Bleeding]] · Pancreatitis → [[C7_Pancreatobiliary_Disease]] · Rebalanced haemostasis and FFP in cirrhosis → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.3 · Haemolysis → [[J2_Haemoglobinopathy_and_Haemolysis]] · Neonatal jaundice → [[M3_Neonatal_Problems]] · Hepatopulmonary syndrome and platypnoea → [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.2 · Alcohol and drug support → [[GER3_Preventive_and_Occupational_Health]]

@@ -527,7 +527,9 @@ That is a judgement made on Block 1's output, not a default.
 - ⬜ `D6_Seizures_and_Movement_Disorders`
 - ⬜ `D7_Cranial_Nerves_and_Special_Senses`
 
-#### BLOCK 3 — Resuscitation / acid–base · **DEFER** · 5 files · cross-cutting
+#### BLOCK 3 — Resuscitation / acid–base · **DEFER** · 6 files · cross-cutting
+<!-- heading said 5 against a 6-item list until 2026-09-01; A5_Toxicology_II is the sixth,
+     listed here since the block was written. The LIST is the queue, not the count. -->
 Cross-cutting rather than tied to one study topic, so the adjudication-while-loaded argument
 is weakest here. **Conditional.**
 
@@ -1790,6 +1792,72 @@ report examined / converted / flagged per chunk.
 > **Auditing a merge has the same trap one level up.** An audit run against the *current*
 > tree finds the merge's own additions and reports everything present. The first run of the
 > C-block re-audit did exactly that. **Audit against the tree the merge started from.**
+
+> [!danger] **REQUIRED CHECK — BEFORE MERGING A SECTION, GREP THE DESTINATION FOR ITS
+> `SRC:` TOKEN. This is the only search in this project that cannot fail.**
+>
+> ```
+> grep -n "SRC:<bfile> §<section>" <destination>
+> ```
+>
+> Every other check on this page exists because a content search can miss — a spelling, a
+> scope, an alphabet, a name the corpus does not use. **The `SRC:` token is exact,
+> machine-written and unique. A zero means zero.**
+>
+> **Measured 2026-08-31: 138 of 970 sections already hold a merged fragment (14%), across 58
+> B files; 7 sections have fragments in two different destinations.** So 86% of section
+> merges land on clean ground and this check costs one command to establish which.
+>
+> **WHERE A FRAGMENT EXISTS: THE SECTION SUPERSEDES IT, AND INHERITS ITS CROSS-REFERENCES.**
+>
+> Ten blocks were sampled against their own B source sections. **Zero were pure subsets.
+> Five of ten were assembly** — combining two B files, or B with destination content, or
+> narrowed deliberately. **The clinical claims come back with the section; the connective
+> tissue does not, because the merge wrote it and Corpus B never contained it.**
+>
+> Carry across, re-aimed at the merged section: internal `§` cross-references, `[[file]]`
+> pointers, delta-framings against destination content ("what SMITH does not cover"),
+> verbatim quotations of an owning entry, ownership assignments, and scope notes.
+> **Delete the fragment's prose; keep its pointers.**
+>
+> **The shape to copy where the destination already covers part of it:** *"AIMS65 is a
+> further pre-endoscopy risk score alongside the Glasgow-Blatchford and Rockall scores
+> already at §0.33.2."* Name the addition, point at what exists, reproduce nothing.
+
+> [!danger] **REQUIRED CHECK — A DISCARD VERDICT IS MADE AT CLAIM LEVEL. Naming a
+> destination file or section is not evidence that the destination carries the content.**
+> Every other check on this page governs the search that *looks for* something. This one
+> governs the verdict that decides **not to look any further** — and it is the only verdict
+> in this method that leaves no artefact behind.
+>
+> **A wrong merge produces a duplicate carrying a `SRC:` token, which a later gap check
+> finds. A WRONG DISCARD PRODUCES NOTHING** — no marker, no block, no diff, no line in any
+> report. It is the more expensive error, so it gets the more expensive check.
+>
+> **Two worked examples, both in C6, both found by hand and not by any check. Neither was a
+> search error: both searches were correct and both verdicts were made at the wrong
+> granularity.**
+>
+> **· AREA-LEVEL — achalasia.** C6 §0.3 "oesophageal disease" was discarded to `13_06b` and
+> §0.30 because **those files own the area**. They do. **The topic is not in them:**
+> achalasia appears twice in `13_06b`, both times as **one word in a list** — no definition,
+> no failure of the lower oesophageal sphincter to relax, no bird's beak, no manometry, no
+> management. **A file owning an area is not evidence it carries a topic.**
+>
+> **· CLAIM-LEVEL — dyspepsia.** C6 §0.1 was discarded to §0.28 GORD and §0.29 gastritis.
+> **Both exist and are good.** B's section still carried at least six claims absent from
+> both — among them the **inferior-MI cardiac exclusion**, with the point that relief from
+> an antacid or from GTN **does not distinguish the two**. **A topic being present is not
+> evidence that its claims are.**
+>
+> **So: extract every distinct clinical claim from the section and test each separately.**
+> A dyspepsia section is a mechanism claim, a red-flag list, a drug-cause list, an
+> investigation set and a management approach — five verdicts, not one. Test the **named
+> destination first**, then the whole vault before concluding: content sitting elsewhere is
+> a **reachability** problem, which is a different finding and gets a different label.
+>
+> **Classify:** `CONFIRMED` · `DISPLACED` · `AREA-LEVEL` · `CLAIM-GAPS` · `WRONG`.
+> **When a claim is missing, the CLAIM merges — the section does not.**
 
 > [!warning] **REQUIRED CHECK — word order. Search the rarer word alone, never the phrase.**
 > A regex requiring two terms in a fixed order fails whenever the corpus chose the other

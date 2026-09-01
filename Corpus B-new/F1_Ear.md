@@ -195,7 +195,7 @@ no_baseline: 0
 
 > [!danger] Foreign bodies — and the one that cannot wait
 > **· ONE CAREFUL ATTEMPT, with the right instrument, good light and a cooperative patient.** **REPEATED ATTEMPTS CAUSE CANAL OEDEMA, BLEEDING, TRAUMA AND PUSH THE OBJECT DEEPER — converting a simple problem into one requiring a general anaesthetic.** **Know when to stop and refer.**
-> **· INSECTS — KILL THEM FIRST with mineral oil or lignocaine before attempting removal.** A live insect moving in the canal is distressing and painful, and it will not be removed cooperatively.
+> **· INSECTS — KILL THEM FIRST with mineral oil or lidocaine before attempting removal.** A live insect moving in the canal is distressing and painful, and it will not be removed cooperatively. `UNVERIFIED — the NAME is corrected per the TGA Ingredient Harmonisation programme; the REGIMEN this line states is not thereby confirmed and needs a named Australian source.`
 > **· A BUTTON BATTERY IN THE EAR IS AN EMERGENCY.** **It causes liquefactive necrosis of the canal, drum and middle ear structures within HOURS, with permanent damage.** **It requires IMMEDIATE removal — the same urgency as a button battery in the oesophagus.** Cross-refer [[F3_Throat__Voice_and_Oral]].
 > **· Organic material (seeds, food) SWELLS with moisture — so do not irrigate it.**
 > **· Children may present late, with unilateral foul discharge as the only sign.**

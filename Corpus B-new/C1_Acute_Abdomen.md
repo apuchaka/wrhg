@@ -29,7 +29,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Perforated viscus**
 > **· Ruptured ectopic pregnancy** — in any woman of reproductive age
 > **· Bowel obstruction with strangulation**
-> **· Ascending cholangitis** — cross-refer [[F0.3]] 0.11
+> **· Ascending cholangitis** — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.11
 > **· Severe acute pancreatitis**
 > **· Testicular or ovarian torsion**
 > **· Myocardial infarction and diabetic ketoacidosis** presenting as abdominal pain
@@ -108,8 +108,8 @@ Clear discharge advice with return criteria for anyone sent home undiagnosed.
 > **Biliary colic** — stone transiently obstructing the cystic duct. Severe, constant (despite the name), postprandial especially after fatty food, lasting hours then resolving. **No fever, no systemic upset, normal inflammatory markers.**
 > **Acute cholecystitis** — sustained obstruction with inflammation. Persistent pain, fever, **positive Murphy's sign**, raised inflammatory markers.
 > **Choledocholithiasis** — stone in the common bile duct. Jaundice, obstructive LFTs, pale stool and dark urine.
-> **Ascending cholangitis** — infection above an obstruction. **Charcot's triad** of pain, fever with rigors and jaundice; **Reynolds' pentad** adds hypotension and confusion. Requires drainage, not just antibiotics — cross-refer [[F0.3]] 0.11.
-> **Gallstone pancreatitis** — stone at the ampulla. Cross-refer 0.4 and [[C7]].
+> **Ascending cholangitis** — infection above an obstruction. **Charcot's triad** of pain, fever with rigors and jaundice; **Reynolds' pentad** adds hypotension and confusion. Requires drainage, not just antibiotics — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.11.
+> **Gallstone pancreatitis** — stone at the ampulla. Cross-refer 0.4 and [[C7_Pancreatobiliary_Disease]].
 
 > [!warning] The rest of the RUQ differential
 > **Hepatitis** — viral, alcoholic, drug-induced, ischaemic. Tender hepatomegaly with markedly raised transaminases.
@@ -142,7 +142,7 @@ Dietary advice pending surgery. Interval cholecystectomy after gallstone pancrea
 > [!tip] The differential
 > **Peptic ulcer disease** — burning, related to meals; duodenal classically relieved by food, gastric worsened by it, though the distinction is unreliable.
 > **Perforated peptic ulcer** — **sudden, severe, generalised pain with board-like rigidity**, in a patient who can often name the exact moment it started. Free gas on an erect chest radiograph. A surgical emergency.
-> **Acute pancreatitis** — severe epigastric pain **boring through to the back**, relieved somewhat by sitting forward, with vomiting. Cross-refer [[C7]].
+> **Acute pancreatitis** — severe epigastric pain **boring through to the back**, relieved somewhat by sitting forward, with vomiting. Cross-refer [[C7_Pancreatobiliary_Disease]].
 > **Gastritis and gastro-oesophageal reflux.**
 > **Abdominal aortic aneurysm** — see 0.9.
 > **Oesophageal rupture (Boerhaave)** — severe pain after forceful vomiting, with surgical emphysema and systemic toxicity. Rare, lethal, and missed.
@@ -154,7 +154,7 @@ Dietary advice pending surgery. Interval cholecystectomy after gallstone pancrea
 Resuscitate. **Perforation: nil by mouth, nasogastric tube, IV fluids, broad-spectrum antibiotics, analgesia, and urgent surgical referral.** Proton pump inhibitor. Treat pancreatitis medically.
 
 ### 0.4.2 Mx – Definitive
-Surgical repair of perforation. Endoscopic management of bleeding ulcer. *H. pylori* eradication. Pancreatitis management per [[C7]].
+Surgical repair of perforation. Endoscopic management of bleeding ulcer. *H. pylori* eradication. Pancreatitis management per [[C7_Pancreatobiliary_Disease]].
 
 ### 0.4.3 Mx – Chronic/long-term
 **Confirm eradication of *H. pylori* and confirm ulcer healing**, particularly for gastric ulcers, where **repeat endoscopy with biopsy is required to exclude malignancy.** Review NSAID and aspirin use.
@@ -246,7 +246,7 @@ Histology review — **an appendiceal neuroendocrine tumour or mucinous neoplasm
 Analgesia, fluids, bowel rest where symptoms are significant, antibiotics for complicated disease. Surgical referral where there is peritonism, abscess or failure to improve.
 
 ### 0.7.2 Mx – Definitive
-Radiological drainage of an abscess. Surgery — resection with or without stoma — for perforation, failure of medical management, or recurrent disease. Cross-refer [[C5]].
+Radiological drainage of an abscess. Surgery — resection with or without stoma — for perforation, failure of medical management, or recurrent disease. Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]].
 
 ### 0.7.3 Mx – Chronic/long-term
 **Interval colonoscopy after an episode of diverticulitis.** Dietary fibre advice. Discussion of elective resection in recurrent disease.
@@ -266,7 +266,7 @@ Radiological drainage of an abscess. Surgery — resection with or without stoma
 > **Prostatitis** in men, with perineal pain and urinary symptoms.
 
 > [!danger] Pelvic inflammatory disease
-> Lower abdominal pain, deep dyspareunia, abnormal discharge or bleeding, with **cervical motion tenderness** and adnexal tenderness. **The threshold for empirical treatment should be low**, because untreated PID causes infertility, chronic pelvic pain and ectopic pregnancy, and the diagnostic tests are imperfect. Treat and investigate simultaneously rather than waiting. Cross-refer [[O5]] and [[O6]]. `UNVERIFIED — regimens from eTG Antibiotic.`
+> Lower abdominal pain, deep dyspareunia, abnormal discharge or bleeding, with **cervical motion tenderness** and adnexal tenderness. **The threshold for empirical treatment should be low**, because untreated PID causes infertility, chronic pelvic pain and ectopic pregnancy, and the diagnostic tests are imperfect. Treat and investigate simultaneously rather than waiting. Cross-refer [[O5_Pelvic_and_Vulval_Conditions]] and [[O6_Sexual_and_Reproductive_Health]]. `UNVERIFIED — regimens from eTG Antibiotic.`
 
 **Ix:** **Bladder scan** (*why:* immediate, non-invasive, and identifies retention which is instantly treatable; *what:* retained volume). Pregnancy test (*why:* as always; *what:* positive). Urinalysis and culture (*why:* infection; *what:* leucocytes, nitrites, organism). **Endocervical and vaginal swabs including chlamydia and gonorrhoea NAAT** where PID is suspected (*why:* identifies the organism and has partner notification implications; *what:* positive NAAT). Pelvic ultrasound, transvaginal where appropriate (*why:* assesses adnexa, uterus and free fluid; *what:* tubo-ovarian abscess, ectopic, cyst, fibroid). CT where a bowel cause is likely (*why:* diverticulitis and collections; *what:* inflammation, abscess).
 
@@ -274,7 +274,7 @@ Radiological drainage of an abscess. Surgery — resection with or without stoma
 **Catheterise for retention.** Analgesia. Empirical antibiotics for PID or urinary infection.
 
 ### 0.8.2 Mx – Definitive
-Cause-specific. Treat the cause of retention — cross-refer [[H2]].
+Cause-specific. Treat the cause of retention — cross-refer [[H2_LUTS__Retention_and_Incontinence]].
 
 ### 0.8.3 Mx – Chronic/long-term
 Partner notification and contact tracing for PID. Follow-up for recurrent retention or infection.
@@ -292,14 +292,14 @@ Partner notification and contact tracing for PID. Follow-up for recurrent retent
 > **Severe, poorly localised, unremitting abdominal pain with a soft, minimally tender abdomen** — the discordance between the patient's distress and the examination findings is the diagnosis. Signs of peritonism appear late, once the bowel is infarcted and the mortality is high.
 > Risk factors: **atrial fibrillation** and other embolic sources, atherosclerosis, hypovolaemia, low cardiac output, vasopressors, hypercoagulable states.
 > **A markedly raised lactate in a patient whose abdomen feels unremarkable should be taken very seriously.** The investigation is **CT mesenteric angiography**, and the treatment is urgent revascularisation and resection.
-> Cross-refer [[F0.2]] 0.5 for lactic acidosis.
+> Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.5 for lactic acidosis.
 
 > [!tip] The other generalised causes
 > **Perforated viscus** — sudden onset, rigid abdomen, free gas.
-> **Bowel obstruction** — colicky pain, distension, vomiting, absolute constipation. **The critical distinction is simple versus strangulated obstruction**: continuous rather than colicky pain, tachycardia, fever, peritonism and a raised lactate suggest strangulation and mandate urgent surgery. Cross-refer [[C5]].
+> **Bowel obstruction** — colicky pain, distension, vomiting, absolute constipation. **The critical distinction is simple versus strangulated obstruction**: continuous rather than colicky pain, tachycardia, fever, peritonism and a raised lactate suggest strangulation and mandate urgent surgery. Cross-refer [[C5_Bowel_Habit__Obstruction_and_Distension]].
 > **Peritonitis** of any cause.
-> **Spontaneous bacterial peritonitis** in a patient with ascites — may present with only fever, abdominal discomfort or encephalopathy, and **requires diagnostic ascitic tap**, which is under-performed. Cross-refer [[C3]].
-> **Diabetic ketoacidosis** — abdominal pain is common and can be severe enough to mimic a surgical abdomen. Cross-refer [[F0.2]] 0.3.
+> **Spontaneous bacterial peritonitis** in a patient with ascites — may present with only fever, abdominal discomfort or encephalopathy, and **requires diagnostic ascitic tap**, which is under-performed. Cross-refer [[C3_Jaundice_and_Liver_Disease]].
+> **Diabetic ketoacidosis** — abdominal pain is common and can be severe enough to mimic a surgical abdomen. Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3.
 > **Gastroenteritis** — common, but **a diagnosis of exclusion in the elderly**, where mesenteric ischaemia and obstruction present with vomiting and diarrhoea.
 
 **Ix:** **Serial lactate** (*why:* the most useful single marker in a generalised abdomen with equivocal signs; *what:* elevation, and failure to clear). **CT angiography** where mesenteric ischaemia is suspected (*why:* the diagnostic test, and delay costs bowel and life; *what:* arterial occlusion, bowel wall changes, pneumatosis, portal venous gas). **Bedside aortic ultrasound** (*why:* fast, and can identify an aneurysm before the patient is moved; *what:* aortic diameter, free fluid). Erect CXR and CT (*why:* free gas; *what:* perforation). **Diagnostic ascitic tap** in any patient with ascites and abdominal pain or fever (*why:* SBP is diagnosed by neutrophil count on the ascitic fluid and is otherwise missed; *what:* ascitic neutrophil count and culture — `UNVERIFIED — the diagnostic neutrophil threshold`). ECG and troponin, glucose and ketones (*why:* the extra-abdominal causes; *what:* infarction, DKA).
@@ -331,10 +331,10 @@ Anticoagulation and rhythm management where an embolic source is found. Cardiova
 > [!tip] Non-operative management of solid organ injury
 > Many splenic and hepatic injuries in haemodynamically stable patients are managed non-operatively, with observation, serial haemoglobin and sometimes angioembolisation. This requires an environment able to detect and respond to deterioration. **Splenic preservation matters** because of the lifelong infection risk after splenectomy — see 0.5.
 
-**Ix:** **FAST (Focused Assessment with Sonography in Trauma)** (*why:* detects free intraperitoneal fluid at the bedside in seconds and directs the unstable patient to theatre — noting it does **not** exclude solid organ or retroperitoneal injury and a negative FAST in a stable patient does not end the assessment; *what:* free fluid in the hepatorenal, splenorenal, pelvic and pericardial windows). **CT abdomen and pelvis with contrast in the stable patient** (*why:* the definitive assessment, grading solid organ injury and identifying contrast blush indicating active bleeding; *what:* organ laceration, active extravasation, free gas, retroperitoneal haematoma). FBC with **serial** haemoglobin (*why:* the initial value is unreliable in acute bleeding — cross-refer [[A9]] 0.1; *what:* trend). Group and crossmatch (*why:* transfusion likely; *what:* units). VBG with lactate and base deficit (*why:* markers of occult hypoperfusion and of the adequacy of resuscitation; *what:* lactate, base deficit). Amylase and lipase, with the caveat above (*why:* pancreatic injury; *what:* elevation, possibly delayed). Urinalysis (*why:* renal tract injury; *what:* haematuria). Pregnancy test (*why:* alters management and mandates fetal assessment; *what:* positive). **Serial abdominal examination** (*why:* the investigation that detects the hollow viscus injury CT missed; *what:* developing peritonism).
+**Ix:** **FAST (Focused Assessment with Sonography in Trauma)** (*why:* detects free intraperitoneal fluid at the bedside in seconds and directs the unstable patient to theatre — noting it does **not** exclude solid organ or retroperitoneal injury and a negative FAST in a stable patient does not end the assessment; *what:* free fluid in the hepatorenal, splenorenal, pelvic and pericardial windows). **CT abdomen and pelvis with contrast in the stable patient** (*why:* the definitive assessment, grading solid organ injury and identifying contrast blush indicating active bleeding; *what:* organ laceration, active extravasation, free gas, retroperitoneal haematoma). FBC with **serial** haemoglobin (*why:* the initial value is unreliable in acute bleeding — cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1; *what:* trend). Group and crossmatch (*why:* transfusion likely; *what:* units). VBG with lactate and base deficit (*why:* markers of occult hypoperfusion and of the adequacy of resuscitation; *what:* lactate, base deficit). Amylase and lipase, with the caveat above (*why:* pancreatic injury; *what:* elevation, possibly delayed). Urinalysis (*why:* renal tract injury; *what:* haematuria). Pregnancy test (*why:* alters management and mandates fetal assessment; *what:* positive). **Serial abdominal examination** (*why:* the investigation that detects the hollow viscus injury CT missed; *what:* developing peritonism).
 
 ### 0.10.1 Mx – Immediate
-Primary survey with catastrophic haemorrhage control, airway, breathing and circulation. Two large-bore cannulae, blood products rather than crystalloid in significant haemorrhage, tranexamic acid early, and keep the patient warm — cross-refer [[A9]] 0.1 for the lethal triad and damage control resuscitation. **Unstable with a positive FAST → theatre.**
+Primary survey with catastrophic haemorrhage control, airway, breathing and circulation. Two large-bore cannulae, blood products rather than crystalloid in significant haemorrhage, tranexamic acid early, and keep the patient warm — cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1 for the lethal triad and damage control resuscitation. **Unstable with a positive FAST → theatre.**
 
 ### 0.10.2 Mx – Definitive
 Laparotomy, angioembolisation, or observation with serial assessment.
@@ -354,7 +354,7 @@ Post-splenectomy prophylaxis as per 0.5. Rehabilitation and psychological follow
 > [!danger] Pregnancy
 > **Anatomy and physiology both mislead.** The appendix is displaced upward and laterally. A **physiological leucocytosis** is normal, so a raised white cell count means little. The gravid uterus lifts the abdominal wall away from inflamed viscera, so **guarding and rebound are often absent even with peritonitis.**
 > The obstetric differential must be considered alongside the surgical one: **ectopic pregnancy, miscarriage, placental abruption, uterine rupture, HELLP syndrome, pre-eclampsia with liver capsule distension, and fibroid degeneration.**
-> **Do not withhold necessary imaging out of radiation fear.** Ultrasound first, MRI second, and **CT where it is genuinely needed** — the risk of a missed perforation to both mother and fetus exceeds the radiation risk. Involve obstetrics early. Cross-refer [[O1]] and [[O2]].
+> **Do not withhold necessary imaging out of radiation fear.** Ultrasound first, MRI second, and **CT where it is genuinely needed** — the risk of a missed perforation to both mother and fetus exceeds the radiation risk. Involve obstetrics early. Cross-refer [[O1_Early_Pregnancy]] and [[O2_Later_Pregnancy_and_Fetal]].
 
 > [!warning] The immunosuppressed and neutropenic patient
 > Corticosteroids, chemotherapy and immunosuppressants **blunt the inflammatory response**, so pain, fever, guarding and leucocytosis may all be minimal or absent in the presence of established perforation.
@@ -363,7 +363,7 @@ Post-splenectomy prophylaxis as per 0.5. Rehabilitation and psychological follow
 > **Have a lower threshold for imaging and a higher index of suspicion** in this group than the clinical findings would suggest.
 
 > [!tip] Children
-> The differential is age-dependent and is covered in [[M5]]. The points that matter here:
+> The differential is age-dependent and is covered in [[M5_Paediatric_GI__GU_and_Limb]]. The points that matter here:
 > **· Bilious vomiting in a neonate or infant is malrotation with volvulus until proven otherwise** — a surgical emergency requiring urgent upper GI contrast study.
 > **· Intussusception** — colicky pain with drawing up of the legs, vomiting, a sausage-shaped mass, and late "redcurrant jelly" stool. Ultrasound diagnoses it; air or contrast enema often treats it.
 > **· Testicular torsion presenting as abdominal pain** — examine the scrotum in every boy.
@@ -384,4 +384,4 @@ Group-appropriate follow-up, including obstetric review after any operative inte
 ---
 
 > [!note] Cross-references
-> Nausea and vomiting → [[C2]] · Jaundice and liver failure → [[C3]] · GI bleeding → [[C4]] · Bowel obstruction and altered bowel habit → [[C5]] · Dyspepsia and anorectal pain → [[C6]] · Pancreatitis in detail → [[C7]] · Ascending cholangitis and biliary sepsis → [[F0.3]] 0.11 · Renal colic → [[F0.5]] 0.9 and [[H4]] · Ectopic pregnancy → [[O1]] · Testicular torsion → [[H4]] · Paediatric abdominal pain → [[M5]] · Major haemorrhage and damage control → [[A9]] 0.1 · Lactic acidosis → [[F0.2]] 0.5
+> Nausea and vomiting → [[C2_Nausea_and_Vomiting]] · Jaundice and liver failure → [[C3_Jaundice_and_Liver_Disease]] · GI bleeding → [[C4_Gastrointestinal_Bleeding]] · Bowel obstruction and altered bowel habit → [[C5_Bowel_Habit__Obstruction_and_Distension]] · Dyspepsia and anorectal pain → [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] · Pancreatitis in detail → [[C7_Pancreatobiliary_Disease]] · Ascending cholangitis and biliary sepsis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.11 · Renal colic → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.9 and [[H4_Scrotum__Groin_and_Loin]] · Ectopic pregnancy → [[O1_Early_Pregnancy]] · Testicular torsion → [[H4_Scrotum__Groin_and_Loin]] · Paediatric abdominal pain → [[M5_Paediatric_GI__GU_and_Limb]] · Major haemorrhage and damage control → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1 · Lactic acidosis → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.5

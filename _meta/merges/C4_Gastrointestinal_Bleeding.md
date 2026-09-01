@@ -1,56 +1,58 @@
 ---
-name: C4 destination table
-description: Where every section of Corpus B/C4_Gastrointestinal_Bleeding.md goes, including the sections that were discarded.
+name: C4 placement record
+description: Where each section of C4_Gastrointestinal_Bleeding was placed under the section-level merge rule, and why.
 bfile: Corpus B/C4_Gastrointestinal_Bleeding.md
+rule: section-level merge
 built: 2026-08-31
 ---
 
-# C4_Gastrointestinal_Bleeding — destination table
+# C4_Gastrointestinal_Bleeding — placement record
 
-Committed **before** any content was written. 3 665 words, 5 sections.
-**2 placements · 4 discards.**
-
-`03_Gastrointestinal` §0.33 (UGIB), §0.34 (LGIB) and §0.6.4 (varices) are among the most
-worked parts of Corpus A, and `NEW_Gastroenterology_and_Hepatology` covers the rest. C4
-is largely duplicative.
-
-## Five searches returned ABSENT and were wrong — the largest artifact count of any file so far
-
-Each of these would have produced a duplicate merge if acted on. All were caught by
-reading the destination before writing.
-
-| Search | Returned | Reality |
-|---|---|---|
-| `antibiotic prophylaxis` near `variceal\|cirrho`; `ceftriaxone.*variceal` | ABSENT | **Present twice.** §0.6.4: *"prophylactic antibiotics (quinolones — reduces mortality and rebleeding)"*; §0.33.3: *"terlipressin and prophylactic antibiotics at presentation (before endoscopy)"*. The corpus writes **prophylactic antibiotics**, not *antibiotic prophylaxis*. Word order defeated the search — **rule 2** |
-| `PPI infusion`, `proton pump inhibitor infusion` | ABSENT | The **topic** is present and better stated than C4's: §0.33.3 says *"do NOT give PPIs before endoscopy — give after… pre-treatment PPI doesn't improve outcomes and may mask endoscopic findings"*. Only the infusion **regimen** is missing, which is a dose and therefore login-gated |
-| `portal pressure`, `over-transfus` | ABSENT (first pass) | **Present in `NEW_Gastroenterology_and_Hepatology`** — Corpus C. The A-and-C rule caught it; searching A alone would have merged a duplicate |
-| `second-look endoscopy` | PRESENT | **False positive.** The only hit is *second-look **ultrasound*** for breast MRI in `NEW_Investigations_Orthopaedics_Neurology_and_Other` L356. A different investigation entirely — **rule 9** |
-| `precipitat.*encephalopath` | ABSENT in `03_GI` | §0.6.3 already lists *"GI bleed"* among encephalopathy precipitants. Only the **mechanism** (protein load of blood in the gut) and the lactulose rationale are missing |
-
-## Confirmed genuine gaps, against Corpus A **and** Corpus C
-
-| Concept | Verdict |
-|---|---|
-| balloon tamponade as a time-limited bridge, intubated, risk of oesophageal necrosis | **absent** — A prescribes the Sengstaken tube without any caveat |
-| lactulose to clear blood from the gut after a variceal bleed | **absent** |
-| portal hypertensive gastropathy, and that it is treated with beta-blockade rather than banding | **absent** |
-| that a substantial proportion of bleeds in cirrhotic patients are from **ulcers**, so the source cannot be assumed variceal | **absent** |
-| `AIMS65` | **absent** (A has Glasgow-Blatchford and Rockall at §0.33.2 L1268–1269) |
-| `Forrest` classification of ulcer stigmata | **absent** |
-| second-look endoscopy in GI bleeding | **absent** (see the false positive above) |
-| NG aspirate in suspected UGIB | **absent** |
-| terlipressin, octreotide, band ligation, TIPS, Sengstaken, restrictive transfusion, massive transfusion, melaena, haematochezia, coffee-ground, urea rise, angiodysplasia, Dieulafoy, aorto-enteric fistula, capsule endoscopy, FIT, iron deficiency, PCC/anticoagulant reversal | **present** |
-
-## Destination table
-
-| C4 § | Topic | Destination | Disposition |
+| § | Section | Destination | Why |
 |---|---|---|---|
-| 0.1 | GI bleeding framework and resuscitation | — | **DISCARD** — §0.33.3's resuscitation danger-box is more specific (platelet, FFP and PCC triggers), and `10_08_Haemonc` owns transfusion |
-| 0.2 | Non-variceal UGIB — Forrest, second-look, NG aspirate, AIMS65 | `03_Gastrointestinal.md` **new §0.33.4** | **PARTIAL** — the four absent items only; the rest duplicates §0.27, §0.29, §0.33 |
-| 0.3 | Variceal bleeding — the four absent points | `03_Gastrointestinal.md` **new §0.6.7** | **PARTIAL** |
-| 0.3 | Management sequence, antibiotics, terlipressin, banding, TIPS, prophylaxis | — | **DISCARD** — §0.6.4 and §0.33.3 both carry it, including the antibiotics C4 calls "one of the most frequently omitted interventions" |
-| 0.4 | Lower GI bleeding | — | **DISCARD** — §0.34 with its DDx-by-location and Ix, plus §0.36 diverticular and §0.25 haemorrhoids |
-| 0.5 | Occult and obscure bleeding, iron deficiency anaemia | — | **DISCARD** — §0.40 malabsorption, §0.26 colorectal cancer, `NEW_Investigations_Gastroenterology` capsule endoscopy, and the haematology files own the anaemia |
+| 0.1 | Framework and Resuscitation | `03_Gastrointestinal` §0.33.5 | placed under **§0.33 Upper GI Bleed**, the file's own bleeding entry — the reader arrives from haematemesis or melaena, and the framework governs both upper and lower |
+| 0.2 | Upper GI — Non-Variceal | `03_Gastrointestinal` §0.33.4 | superseded the §0.2 fragment, already there |
+| 0.3 | Variceal Bleeding | `03_Gastrointestinal` §0.6.7 | superseded the §0.3 fragment, under **§0.6 Alcohol-Related Liver Disease**, where the varices already live |
+| 0.4 | Lower GI Bleeding | `03_Gastrointestinal` §0.34.1 | **§0.34 Lower GI Bleed** |
+| 0.5 | Occult and Obscure Bleeding, IDA | `03_Gastrointestinal` §0.34.2 | with §0.34: the iron-deficiency workup ends in colonoscopy, and FIT and the screening programme sit with lower GI bleeding |
 
-No new file required. No `CONFLICT` raised — C4 contradicts nothing; where it overlaps
-A it agrees, and agreement is not corroboration (§1.10), so nothing was upgraded.
+## Cross-references retargeted
+
+| B link | Retargeted to | Verified |
+|---|---|---|
+| `[[A9_Transfusion…]] 0.1` | `[[10_08_Haemonc…]]` Massive Transfusion Protocol (MTP) | exists |
+| `[[C2_Nausea_and_Vomiting]] 0.7` | §0.41.20 Complications of Vomiting — **merged from C2 earlier today** | exists |
+| `[[C3_Jaundice…]] 0.6` | §0.38.1 Complications of Cirrhosis — **merged from C3 earlier today** | exists |
+
+**Left as TODO:** M5 paediatric GI. Unbuilt.
+
+## Connective tissue inherited
+
+**Both supersedes were caught by the driver, not by hand** — this is the first file where the
+cross-reference refusal did the work:
+
+- §0.2 → `§0.33.2` (AIMS65 alongside Glasgow-Blatchford and Rockall), and **two `§0.33.3`
+  pointers that say what the destination list does not**: that adrenaline injection is
+  combined with a second modality rather than being an alternative, and that repeat
+  endoscopy → embolisation → surgery is an ordered sequence.
+- §0.3 → `§0.6.3`, `§0.6.4` and `§0.33.3` on balloon tamponade, where the destination lists
+  the Sengstaken-Blakemore tube without qualifying it as a time-limited bridge.
+
+**The §0.33.4 block remains the worked example of good placement** — AIMS65 named, the
+existing scores pointed at, nothing reproduced — and the section merge preserved that shape
+rather than flattening it.
+
+## Report
+
+```
+sections merged      5
+destinations         03_Gastrointestinal × 5 (§0.33 × 2, §0.6 × 1, §0.34 × 2)
+new-file proposals   0
+conflicts raised     0
+cross-refs           3 retargeted, 1 left as TODO
+digit multiset       pass — no digits removed on any of the 5 sections
+```
+
+**No conflict raised.** C4's figures are withheld behind `UNVERIFIED` markers (transfusion
+thresholds, Forrest grades, Glasgow-Blatchford components, timing of aspirin restart), so the
+placement figure comparison found nothing numeric to disagree with.

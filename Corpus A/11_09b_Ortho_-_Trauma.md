@@ -188,8 +188,10 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 
 ## Abdominal trauma
 
-### Added from unverified layer — blunt versus penetrating, FAST, and the injuries that are missed
-`SRC:C1_Acute_Abdomen §0.10` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+### Abdominal Trauma — from unverified layer
+`SRC:C1_Acute_Abdomen §0.10` `UNVERIFIED — model knowledge, not source-checked.`
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+*Supersedes the former blunt-versus-penetrating fragment; its NO-BASELINE assertion is carried.*
 
 **A/P:** **Blunt** trauma injures solid organs by deceleration and direct compression — the **spleen and liver** are the most commonly injured — and injures hollow viscera by crush against the spine or by shearing at points of fixation. **Penetrating** trauma injures whatever lies along the tract, with the **small bowel and liver** commonest in stab wounds.
 
@@ -205,12 +207,16 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 > [!tip] Non-operative management of solid organ injury
 > Many splenic and hepatic injuries in haemodynamically stable patients are managed non-operatively, with observation, serial haemoglobin and sometimes angioembolisation. This requires an environment able to detect and respond to deterioration. **Splenic preservation matters** because of the lifelong infection risk after splenectomy — see Splenic trauma above, and [[08_09_Infectious_Disease_-_Miscellaneous]] for post-splenectomy sepsis and its prophylaxis.
 
-**Ix:** **FAST (Focused Assessment with Sonography in Trauma)** (*why:* detects free intraperitoneal fluid at the bedside in seconds and directs the unstable patient to theatre — noting it does **not** exclude solid organ or retroperitoneal injury and a negative FAST in a stable patient does not end the assessment; *what:* free fluid in the hepatorenal, splenorenal, pelvic and pericardial windows). **CT abdomen and pelvis with contrast in the stable patient** (*why:* the definitive assessment, grading solid organ injury and identifying contrast blush indicating active bleeding; *what:* organ laceration, active extravasation, free gas, retroperitoneal haematoma). FBC with **serial** haemoglobin (*why:* the initial value is unreliable in acute bleeding; *what:* trend). Group and crossmatch (*why:* transfusion likely; *what:* units). VBG with lactate and base deficit (*why:* markers of occult hypoperfusion and of the adequacy of resuscitation; *what:* lactate, base deficit). Amylase and lipase, with the caveat above (*why:* pancreatic injury; *what:* elevation, possibly delayed). Urinalysis (*why:* renal tract injury; *what:* haematuria). Pregnancy test (*why:* alters management and mandates fetal assessment; *what:* positive). **Serial abdominal examination** (*why:* the investigation that detects the hollow viscus injury CT missed; *what:* developing peritonism).
+**Ix:** **FAST (Focused Assessment with Sonography in Trauma)** (*why:* detects free intraperitoneal fluid at the bedside in seconds and directs the unstable patient to theatre — noting it does **not** exclude solid organ or retroperitoneal injury and a negative FAST in a stable patient does not end the assessment; *what:* free fluid in the hepatorenal, splenorenal, pelvic and pericardial windows). **CT abdomen and pelvis with contrast in the stable patient** (*why:* the definitive assessment, grading solid organ injury and identifying contrast blush indicating active bleeding; *what:* organ laceration, active extravasation, free gas, retroperitoneal haematoma). FBC with **serial** haemoglobin (*why:* the initial value is unreliable in acute bleeding — cross-refer [[10_08_Haemonc_-_Blood_Products_and_Transfusion]] Massive Transfusion Protocol (MTP); *what:* trend). Group and crossmatch (*why:* transfusion likely; *what:* units). VBG with lactate and base deficit (*why:* markers of occult hypoperfusion and of the adequacy of resuscitation; *what:* lactate, base deficit). Amylase and lipase, with the caveat above (*why:* pancreatic injury; *what:* elevation, possibly delayed). Urinalysis (*why:* renal tract injury; *what:* haematuria). Pregnancy test (*why:* alters management and mandates fetal assessment; *what:* positive). **Serial abdominal examination** (*why:* the investigation that detects the hollow viscus injury CT missed; *what:* developing peritonism).
 
-**Mx — immediate:** primary survey with catastrophic haemorrhage control, airway, breathing and circulation, as set out in Major Trauma — Primary Survey above. Two large-bore cannulae, blood products rather than crystalloid in significant haemorrhage, tranexamic acid early, and keep the patient warm — the lethal triad is described in the primary survey section above. **Unstable with a positive FAST → theatre.** `UNVERIFIED — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.`
+### 0.10.1 Mx – Immediate
+Primary survey with catastrophic haemorrhage control, airway, breathing and circulation. Two large-bore cannulae, blood products rather than crystalloid in significant haemorrhage, tranexamic acid early, and keep the patient warm — cross-refer [[10_08_Haemonc_-_Blood_Products_and_Transfusion]] Massive Transfusion Protocol (MTP) for the lethal triad and damage control resuscitation. **Unstable with a positive FAST → theatre.** `UNVERIFIED — tranexamic acid dose and time window in trauma, and the massive transfusion protocol ratio; National Blood Authority patient blood management guidelines.`
 
-**Mx — definitive:** laparotomy, angioembolisation, or observation with serial assessment.
+### 0.10.2 Mx – Definitive
+Laparotomy, angioembolisation, or observation with serial assessment.
 
+### 0.10.3 Mx – Chronic/long-term
+Post-splenectomy prophylaxis as per 0.5. Rehabilitation and psychological follow-up — **post-traumatic stress after significant trauma is common and under-addressed.**
 
 ## Head injuries
 
@@ -227,54 +233,186 @@ Remove clothing and jewellery (unless adherent), cover with cling film laid on l
 > [!note] Envenomation — antivenoms, first aid and the detection kit
 > Australian envenomation is owned by [[NEW_Drugs_04_Antidotes_and_Antivenoms]] (`trust: snippet`, AMH-derived): pressure immobilisation and **why it works here** (Australian venoms travel by lymphatics), the five monovalent antivenoms, **venom-induced consumption coagulopathy**, and that **the detection kit tells you WHICH antivenom, not WHETHER the patient is envenomed**. Not repeated here.
 
-## Added from unverified layer — environmental injury
-`SRC:A6_Thermal_and_Environmental_Injury §0.1` `SRC:A6 §0.2` `SRC:A6 §0.5` `SRC:A6 §0.6` `SRC:A6 §0.7` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE (heat illness only) — heat exhaustion and heat stroke were absent from the corpus before this merge; no inherited layer disagrees with them. The HYPOTHERMIA half of this block does have a thin baseline — 25 pre-merge hits, including the Osborne wave at [[01_Cardiovascular]] §0.12 — so that part is not no-baseline.`
+## Heat Illness — The Spectrum — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+*Why environmental heat illness is in a trauma file, and why it was missing: the corpus covered **drug-induced** hyperthermia thoroughly — serotonin syndrome and neuroleptic malignant syndrome in [[04_Neurology]], malignant hyperthermia in [[03a_Anaesthetics_Primer]] — and environmental heat illness nowhere. This file is already the vault's injury home despite its orthopaedic filename. Nothing here touches the drug-induced entries, which are more detailed than anything in this block.*
 
-> [!note] Why this is here
-> The corpus covered **drug-induced** hyperthermia thoroughly — serotonin syndrome and neuroleptic malignant syndrome in [[04_Neurology]], malignant hyperthermia in [[03a_Anaesthetics_Primer]] — and **environmental** heat illness nowhere. Hypothermia appeared only as an ECG pattern. This section fills the environmental side; it does not touch the drug-induced entries, which are more detailed than anything here.
+**D:** A continuum of disorders caused by heat gain exceeding heat loss, ranging from cramps through heat exhaustion to heat stroke.
 
-### Heat illness
+**A/P:** Heat is dissipated by radiation, convection, conduction and **evaporation of sweat**, the last being the dominant route in a hot environment. Rising ambient temperature abolishes the gradient for radiation and convection → evaporation becomes the only route → **high humidity then abolishes evaporation as well**, which is why humid heat is far more dangerous than dry heat at the same temperature. Compensatory cutaneous vasodilatation diverts blood from the splanchnic and renal beds and, combined with sweat losses, produces volume depletion. When compensation fails, core temperature rises → direct cellular thermal injury and a systemic inflammatory response → multi-organ failure.
 
-> [!danger] Heat exhaustion and heat stroke are not the same emergency
-> **Heat exhaustion** — sweating preserved, **mental state normal**, headache, nausea, cramps, faintness. Treated by removing the patient from the heat, rest, and oral or intravenous fluid.
-> **Heat stroke** — **altered mental state is the defining feature**, with a high core temperature. Confusion, agitation, seizure or coma. It is a **multi-organ emergency** and it progresses to rhabdomyolysis, acute kidney injury, coagulopathy and hepatic failure.
-> **Any patient collapsed in the heat with an abnormal mental state has heat stroke until proven otherwise, and cooling starts before the diagnosis is confirmed.**
-> `UNVERIFIED — the core temperature threshold conventionally used to define heat stroke; RACGP or an emergency medicine reference.`
+> [!tip] Where the line sits
+> | | Core temperature | Mental state | Sweating | Severity |
+> |---|---|---|---|---|
+> | **Heat cramps** | Normal or mildly raised | Normal | Present | Minor |
+> | **Heat exhaustion** | Raised but below the heat stroke threshold | **Normal — this is the discriminator** | Usually present | Serious, reversible |
+> | **Heat stroke** | Markedly raised | **Altered — confusion, ataxia, seizure, coma** | May be absent (classic) or present (exertional) | Life-threatening |
+> `UNVERIFIED — the specific core temperature thresholds defining each stage; no values are stated here. Settle against RACGP or an Australian emergency medicine reference.`
 
-> [!info] Exertional versus classic
-> **Exertional** — young, fit, exercising or working; **sweating is often still present**, which misleads. Onset over hours.
-> **Classic** — older, frail, unwell, often during a heatwave and often at home without air-conditioning; sweating is typically **absent**. Onset over days.
-> The distinction matters because the classic patient is found late and has competing diagnoses, and because heatwave deaths concentrate in this group.
+> [!danger] Central nervous system dysfunction is the discriminator, not the thermometer
+> **Any altered mental state in a hyperthermic patient is heat stroke until proven otherwise**, regardless of the recorded temperature — which may have already fallen with initial cooling or been measured peripherally and underestimated. Do not require a threshold number before treating aggressively.
+> **Sweating does not exclude heat stroke.** The teaching that heat stroke patients are dry applies mainly to the classic non-exertional form; exertional heat stroke patients are frequently drenched.
 
-> [!tip] Cooling is the treatment
-> **Cool actively and early; antipyretics do not work**, because the thermostat is not reset — this is not fever. **Cold water immersion is the most effective method in exertional heat stroke**; evaporative cooling with fine mist and fans is used where immersion is impractical.
-> Stop active cooling before normothermia to avoid overshoot, and treat the complications — rhabdomyolysis (above), electrolyte derangement, seizures.
-> `UNVERIFIED — the temperature at which to stop active cooling, and whether immersion or evaporative cooling is preferred in Australian practice.`
+> [!warning] Australian context
+> **Heatwaves cause more deaths in Australia than any other natural hazard.** The at-risk groups are the elderly, the socially isolated, those on anticholinergics, antipsychotics, diuretics and beta-blockers, people with chronic disease, infants, and outdoor workers. South Australia has heatwave warning systems and health service escalation plans. Asking about air conditioning, fan access, fluid intake and whether anyone is checking on the person is a legitimate part of the assessment, particularly in Adelaide summers.
 
-### Hypothermia
+> [!tip] Classic versus exertional heat stroke
+> **Classic (non-exertional):** elderly, chronically unwell, during a heatwave, developing over days, often anhidrotic, frequently found at home. Higher mortality.
+> **Exertional:** young, fit, athletes, military recruits, labourers, developing over hours, sweating often preserved, higher rates of rhabdomyolysis. Responds well to rapid cooling.
 
-The **ECG changes** — bradycardia, the **J (Osborn) wave**, first-degree block, long QT and arrhythmias — are owned by [[01_Cardiovascular]] §0.12.11 and are not repeated here.
+**S/Smx:** Cramps, fatigue, headache, nausea, dizziness, syncope, tachycardia, hypotension and heavy sweating in heat exhaustion. In heat stroke: confusion, irritability, ataxia, slurred speech, seizures, coma, and signs of multi-organ dysfunction.
 
-> [!danger] Not dead until warm and dead
-> **Hypothermia is profoundly protective of the brain, and resuscitation is continued during rewarming** — apparent death in a hypothermic patient is not death. Fixed dilated pupils and absent pulses do not decide it.
-> **Handle the patient gently.** A cold myocardium is irritable, and rough movement or unnecessary manipulation can precipitate ventricular fibrillation.
-> `UNVERIFIED — the core temperature below which defibrillation and drugs are withheld or spaced, and the rewarming rate; ANZCOR.`
+**Ix:** Core temperature, measured centrally (*why:* oral, axillary and tympanic readings systematically underestimate core temperature and can falsely reassure — rectal or oesophageal measurement is required for an accurate value and for tracking the cooling response; *what:* core temperature and its trend). UEC with potassium (*why:* rhabdomyolysis produces hyperkalaemia and acute kidney injury, and sodium abnormalities occur in both directions depending on what was drunk; *what:* creatinine, potassium, sodium). **CK** (*why:* rhabdomyolysis is common in exertional heat stroke and drives the renal failure; *what:* marked elevation). VBG with lactate (*why:* quantifies hypoperfusion and metabolic derangement; *what:* acidosis, raised lactate). Bedside glucose (*why:* hypoglycaemia occurs and mimics the neurological picture; *what:* low glucose). Coagulation profile (*why:* DIC is a feature of severe heat stroke and predicts poor outcome; *what:* prolonged INR, low fibrinogen, thrombocytopenia). LFT (*why:* hepatic injury is characteristic and peaks 24–72 hours after the event, so normal early results do not exclude it; *what:* transaminitis, delayed). ECG (*why:* electrolyte effects and ischaemia; *what:* arrhythmia, hyperkalaemic changes). Urinalysis (*why:* myoglobinuria shows as blood on dipstick without red cells on microscopy — a useful and cheap clue; *what:* dipstick-positive blood with no RBCs). Septic screen where the picture is ambiguous (*why:* sepsis and heat stroke are hard to separate clinically and both need treating; *what:* source).
 
-> [!warning] Afterdrop
-> **Core temperature can continue to fall after rewarming begins**, as cold peripheral blood returns to the circulation. It is the reason peripheral rewarming alone is inadequate in significant hypothermia and why core rewarming methods are used.
+### Mx – Immediate — A6 §0.1.1
+See Heat Stroke and Severe Hyperthermia below for heat stroke. For heat exhaustion: move to a cool environment, remove excess clothing, oral or intravenous rehydration, and rest. Most recover rapidly, and failure to improve should prompt reassessment for heat stroke.
 
-**Shivering stops as hypothermia deepens** — its absence is a sign of severity, not of improvement.
+### Mx – Definitive — A6 §0.1.2
+Correct electrolyte and volume deficits. Identify and address the precipitating circumstances.
 
-### Frostbite and non-freezing cold injury
+### Mx – Chronic/long-term — A6 §0.1.3
+Prevention advice — hydration, avoiding exertion in peak heat, acclimatisation, and checking on isolated elderly relatives and neighbours during heat events. Medication review, since anticholinergics, antipsychotics and diuretics all impair thermoregulation.
 
-**Rewarm in a water bath**, and **do not rewarm if there is any chance of refreezing** — a freeze-thaw-freeze cycle causes far worse tissue loss than delayed rewarming. Do not rub the affected part. The final extent of tissue loss is **not apparent for weeks**, so early debridement decisions are avoided. `UNVERIFIED — water bath temperature and duration.`
+## Heat Stroke and Severe Hyperthermia — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
-**Non-freezing cold injury** (trench or immersion foot) occurs at temperatures above freezing with prolonged wet exposure, and causes prolonged neuropathic pain.
+**D:** Core hyperthermia with central nervous system dysfunction and systemic inflammatory response, progressing to multi-organ failure.
 
-### Drowning and submersion
-`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.` The only two pre-merge occurrences of `drowning` were the word in unrelated contexts — a cause of hypoxic brain injury in a developmental-delay list, and *family history of drowning* as a channelopathy clue in the syncope history. Neither is drowning as an emergency.
+**A/P:** Sustained cellular temperature above the tolerance threshold → direct protein denaturation and membrane injury → cytokine release and endothelial activation → a systemic inflammatory response indistinguishable physiologically from sepsis → **DIC, rhabdomyolysis, acute kidney injury, hepatic necrosis, ARDS and cerebral oedema.** Injury accumulates as a function of both temperature and **time spent above the threshold**, which is the entire rationale for speed of cooling.
 
-**Hypoxia is the injury**, and **rescue breathing is the priority intervention** — this is the one arrest where ventilation matters more than compressions, which is why the ANZCOR paediatric and drowning sequences differ from the adult cardiac sequence. See [[15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support]].
+> [!danger] Time to cooling determines outcome
+> **Cool first, investigate second.** The single most important determinant of survival and neurological outcome is how quickly core temperature is brought down. Do not delay cooling for imaging, cannulation or a full history.
+> **Cold water immersion is the most effective method** for exertional heat stroke where feasible. Evaporative cooling with tepid water spray and fans, ice packs to the groin, axillae and neck, and cold intravenous fluids are alternatives, particularly in the elderly or where immersion is impractical. `UNVERIFIED — the target core temperature at which active cooling is stopped, the recommended cooling rate, and the preferred method by patient group require verification against eTG and ANZCOR.`
 
-**The distinction between fresh and salt water is not clinically useful** and should not shape management. **Anyone who required rescue or has any respiratory symptom needs observation**, because deterioration can be delayed. `UNVERIFIED — the observation period; ANZCOR or an emergency medicine reference.`
+> [!warning] Antipyretics do not work, and dantrolene is not indicated
+> **Paracetamol and NSAIDs are useless in heat stroke** — the hypothalamic set point is normal, and this is a failure of heat dissipation, not a raised thermostat. NSAIDs additionally worsen the renal injury and the coagulopathy. **Dantrolene has no established role in heat stroke**, though it is the specific treatment for malignant hyperthermia and is used in neuroleptic malignant syndrome — see [[04_Neurology]] Serotonin Syndrome and NMS and [[03a_Anaesthetics_Primer]] for the drug-induced hyperthermias, which A6 §0.3 was discarded to.
+
+> [!warning] Shivering during cooling
+> Aggressive cooling induces shivering, which generates heat and defeats the intervention. Benzodiazepines are used to suppress it. `UNVERIFIED — agent and dosing; the agents are owned by [[NEW_Drugs_15_Neurological]] Benzodiazepines, which states no dose for this indication.`
+
+**S/Smx:** Hyperthermia with confusion, agitation, ataxia, seizures or coma. Tachycardia, hypotension, tachypnoea. Skin hot, dry or sweating depending on subtype. Later: oliguria, bleeding, jaundice.
+
+**Ix:** As per Heat Illness — The Spectrum above, with serial monitoring. The hepatic injury deserves specific mention (*why:* transaminases peak at 24–72 hours, so a normal LFT on arrival is expected and does not exclude significant injury — repeat them; *what:* delayed transaminase rise). Serial CK and renal function (*why:* rhabdomyolysis evolves over the first days and drives the renal failure; *what:* CK trajectory, creatinine).
+
+### Mx – Immediate — A6 §0.2.1
+**Start cooling immediately.** A–E, airway protection if conscious state is reduced, oxygen, IV access, fluid resuscitation with careful reassessment. Benzodiazepines for seizures and shivering. Bedside glucose. Continuous core temperature monitoring. ICU involvement.
+
+### Mx – Definitive — A6 §0.2.2
+ICU management of organ failure. Renal replacement therapy for severe rhabdomyolysis-associated acute kidney injury. Blood product support for DIC. Ventilation for ARDS. Cross-refer `TODO:link — F0-3 shock phenotypes and sepsis syndromes (not yet merged)` for the shock physiology.
+
+### Mx – Chronic/long-term — A6 §0.2.3
+Some patients have persistent neurological deficit and heat intolerance. Return-to-work and return-to-sport advice with acclimatisation. Consider malignant hyperthermia susceptibility testing where the presentation was exertional and unusual.
+
+## Hypothermia — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+*Alone of A6's five environmental-injury blocks this one does **not** declare `NO-BASELINE`, and the reason is a measurement rather than an oversight: the fragment this block replaced recorded **25 pre-merge hits** for hypothermia, including the Osborne wave at [[01_Cardiovascular]] §0.12.11. Heat illness, frostbite and drowning had none, so those three do declare it. The distinction is the fragment's, carried across because it is the only record of why the four blocks differ.*
+
+**D:** Core body temperature below the normal range, graded mild, moderate and severe. `UNVERIFIED — the temperature boundaries defining each grade require verification against ANZCOR; no values are stated here.`
+
+**R/Causes:** Environmental exposure · **immobility after a fall, particularly an elderly person on the floor overnight — the commonest Australian presentation, and it occurs indoors** · alcohol and drug intoxication, which impairs both behaviour and vasoconstriction · hypoglycaemia · hypothyroidism and myxoedema · adrenal insufficiency · sepsis, which causes hypothermia rather than fever in the elderly and is a poor prognostic sign · burns and extensive skin disease · trauma with cold exposure and cold fluid resuscitation · homelessness.
+
+**A/P:** Heat loss exceeds production → shivering thermogenesis and vasoconstriction initially compensate → **below a threshold, shivering ceases**, removing the main endogenous heat source → progressive slowing of all enzymatic and cardiac function → bradycardia, reduced conscious state, and **myocardial irritability with a marked susceptibility to ventricular fibrillation on movement.** Cold also causes a diuresis (cold diuresis, from central volume redistribution), coagulopathy independent of clotting factor levels, and a left shift of the oxyhaemoglobin curve.
+
+> [!danger] "Not dead until warm and dead"
+> Hypothermia is profoundly neuroprotective. **Patients have survived neurologically intact after prolonged arrest in severe hypothermia, including with very long CPR times.** Resuscitation should be continued and the patient rewarmed before death is declared, and extracorporeal rewarming is the definitive approach in hypothermic arrest. This is the classic exam point and it is also true. Exceptions exist — obvious lethal injury, a frozen chest wall that cannot be compressed, or a documented avalanche burial with an obstructed airway beyond a defined duration. `UNVERIFIED — the specific exceptions and the potassium threshold used to determine futility require verification against ANZCOR.`
+
+> [!danger] Handle the severely hypothermic patient gently
+> The cold myocardium is exquisitely irritable, and **rough handling, sudden movement or careless positioning can precipitate ventricular fibrillation.** Move the patient horizontally and gently. Avoid unnecessary procedures.
+
+> [!warning] Drugs and defibrillation lose effectiveness when cold
+> Below a certain core temperature the heart responds poorly to defibrillation and to resuscitation drugs, and drug metabolism is so slowed that repeated dosing causes accumulation and toxicity on rewarming. Guidelines therefore modify both. `UNVERIFIED — the temperature thresholds, the modified drug and shock intervals, and the rewarming rate; ANZCOR Guideline 11.`
+
+> [!tip] The ECG is owned elsewhere — what this block adds
+> **The Osborn (J) wave, bradycardia, first-degree block, long QT and the atrial and ventricular arrhythmias are owned by [[01_Cardiovascular]] §0.12.11 Hypothermia** and are not repeated here.
+> Two things that entry does not say: the J wave **becomes more prominent as temperature falls**, so it tracks severity rather than merely indicating cold; and **shivering artefact frequently obscures the trace**, which is why an unreadable ECG in a cold patient is a finding rather than a technical failure.
+
+> [!warning] Afterdrop and rescue collapse
+> **Afterdrop** — core temperature continues to fall after rewarming begins, as cold peripheral blood returns centrally. **Rescue collapse** — cardiovascular collapse on or shortly after extrication, related to loss of the hydrostatic support of water in immersion and to the same peripheral-to-core shift. Both argue for gentle handling, horizontal extrication, and rewarming the core preferentially over the periphery.
+
+**S/Smx:** Shivering initially, then its absence as temperature falls further. Confusion, apathy, slurred speech, ataxia, "paradoxical undressing" in some, then coma. Bradycardia, hypotension, bradypnoea, dilated pupils, and apparent rigor mortis — none of which reliably indicate death in a hypothermic patient.
+
+**Ix:** Low-reading core thermometer, rectal or oesophageal (*why:* standard clinical thermometers do not read low enough and will simply report "low", giving no information about grade or trend; *what:* accurate core temperature). ECG with continuous monitoring (*why:* identifies Osborn waves, bradyarrhythmia and the ventricular irritability that determines handling; *what:* J waves, rhythm). Bedside glucose (*why:* hypoglycaemia both causes hypothermia and results from exhausted glycogen; *what:* low glucose). UEC with potassium (*why:* potassium is used in assessing futility in hypothermic arrest and rises with cell death; *what:* potassium). VBG (*why:* acidosis and lactate, noting that gas machines correct to 37°C and the interpretation of uncorrected values is a recognised subtlety; *what:* pH, lactate). Coagulation profile (*why:* cold-induced coagulopathy is not reflected in laboratory clotting times, which are run at 37°C — so normal results in a bleeding hypothermic patient are misleading; *what:* results interpreted with that caveat). TFTs and cortisol (*why:* myxoedema coma and adrenal crisis present as hypothermia and both are treatable; *what:* raised TSH, low cortisol). CK (*why:* rhabdomyolysis from prolonged immobility, particularly the elderly long lie; *what:* elevation). Septic screen (*why:* sepsis causes hypothermia in the elderly and is a marker of severity; *what:* source). Trauma survey (*why:* the fall that caused the long lie may have caused a fracture, and the hypothermia distracts from it; *what:* injuries).
+
+### Mx – Immediate — A6 §0.5.1
+Remove from the cold, remove wet clothing, insulate, handle gently, and monitor continuously. **Passive external rewarming** for mild cases — blankets, warm environment. **Active external rewarming** — forced warm air. **Active internal rewarming** — warmed humidified oxygen, warmed IV fluids, and in severe cases lavage or extracorporeal techniques. Treat hypoglycaemia. Empirical thyroxine and hydrocortisone where myxoedema or adrenal crisis is plausible.
+
+### Mx – Definitive — A6 §0.5.2
+**Extracorporeal rewarming (ECMO or cardiopulmonary bypass) is the treatment of choice in hypothermic cardiac arrest** where available, and warrants early discussion and transfer. ICU management.
+
+### Mx – Chronic/long-term — A6 §0.5.3
+**Address why it happened.** For the elderly patient found on the floor, this means a falls assessment, home safety and heating review, social isolation assessment and consideration of a personal alarm — the hypothermia is a symptom of a wider problem, and treating only the temperature guarantees a repeat. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+## Frostbite and Non-Freezing Cold Injury — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+**D:** Tissue injury from cold — **frostbite** involves actual tissue freezing, while **non-freezing cold injury** (trench foot, immersion foot) results from prolonged exposure to cold wet conditions above freezing.
+
+**A/P:** *Frostbite:* Extracellular ice crystal formation → osmotic cellular dehydration → direct membrane injury; simultaneous vasoconstriction and microvascular thrombosis → ischaemia. **A second wave of injury occurs on reperfusion**, mediated by inflammatory mediators, and this reperfusion component is a substantial part of the final tissue loss.
+*Non-freezing cold injury:* Prolonged vasoconstriction and endothelial injury without freezing → neurovascular damage, characteristically with prolonged pain and sensory disturbance long after the exposure.
+
+> [!warning] The rewarming rules
+> **Rewarm in warm water** — not hot water, not dry heat, not a fire, which cause burns in anaesthetic tissue. **Do not rub or massage** — ice crystals in the tissue cause mechanical damage. **Do not rewarm if there is any risk of refreezing** — a freeze-thaw-refreeze cycle causes far worse injury than remaining frozen until definitive care. `UNVERIFIED — water temperature range and duration for rewarming require verification.`
+
+> [!danger] Rewarming is severely painful
+> Anticipate and provide substantial analgesia, often opioid. Patients are frequently under-analgesed during this because the extent of pain is not expected.
+
+> [!tip] "Frostbite in January, amputate in July"
+> The final demarcation between viable and non-viable tissue takes weeks to months to declare itself, and tissue that initially looks non-viable often recovers. **Early amputation is avoided** except for infection or compartment syndrome. This is a genuinely counterintuitive point and a reliable exam item.
+
+**S/Smx:** Initially numb, white, waxy, hard tissue in frostbite. On rewarming: pain, erythema, oedema, and blistering — **clear blisters indicate more superficial injury and a better prognosis than haemorrhagic blisters.** Non-freezing cold injury shows a pale, cold, numb limb that becomes hyperaemic, painful and swollen on rewarming, with prolonged neuropathic pain.
+
+**Ix:** Clinical assessment of depth and extent after rewarming (*why:* pre-rewarming appearance consistently underestimates and overestimates in unpredictable directions, so grading is deferred; *what:* blister character, tissue colour and capillary return). Core temperature (*why:* systemic hypothermia frequently coexists and takes priority over the local injury; *what:* core temperature). Advanced imaging such as bone scan or MR angiography in specialist centres (*why:* assesses tissue perfusion and can guide thrombolysis decisions and predict demarcation earlier; *what:* perfusion defects). CK and UEC (*why:* rhabdomyolysis with extensive injury; *what:* elevation). Tetanus status and wound assessment (*why:* infection is the main early complication; *what:* immunisation history).
+
+### Mx – Immediate — A6 §0.6.1
+Treat systemic hypothermia first. Remove wet and constrictive clothing. Rewarm in warm water once refreezing risk is excluded. Substantial analgesia. Elevate, avoid pressure and friction, and do not walk on a frostbitten foot before rewarming unless required for evacuation.
+
+### Mx – Definitive — A6 §0.6.2
+Specialist involvement. Thrombolysis or iloprost within a defined early window is used in some centres for severe frostbite to salvage tissue. `UNVERIFIED — thrombolysis and iloprost indications and time windows in severe frostbite; a burns or hyperbaric referral centre protocol, since no open Australian guideline covers it.` Debridement and amputation deferred until demarcation.
+
+### Mx – Chronic/long-term — A6 §0.6.3
+Prolonged cold sensitivity, neuropathic pain and hyperhidrosis are common. Prevention advice and, where relevant, occupational assessment.
+
+
+
+
+
+## Drowning and Submersion Injury — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+
+**D:** The process of experiencing respiratory impairment from submersion or immersion in liquid, with outcomes classified as no morbidity, morbidity, or death.
+
+> [!info] Terminology
+> **"Drowning" is the process, not the outcome** — a person can drown and survive. The terms **"near-drowning", "dry drowning", "wet drowning", "secondary drowning" and "delayed drowning" are deprecated** and should not be used; they caused confusion in both research and clinical communication. Use drowning with the outcome stated.
+
+**A/P:** Submersion → breath-holding → involuntary laryngospasm → hypoxia → laryngospasm relaxes and fluid is aspirated → surfactant washout and dysfunction, alveolar collapse, and V/Q mismatch → **profound hypoxia is the central and primary problem, and every consequence follows from it** — cerebral hypoxic injury, myocardial dysfunction, arrhythmia and arrest. The distinction between salt and fresh water has essentially **no clinical relevance** in human drowning, despite the electrolyte theory taught historically — the volumes aspirated are too small.
+
+> [!danger] Drowning resuscitation differs from standard adult BLS
+> Because the arrest is **asphyxial**, ventilation takes priority. **Rescue breaths are given first, before compressions**, and in-water rescue breathing by a trained rescuer is recommended where feasible. This is why the ANZCOR paediatric and drowning sequences differ from the adult cardiac sequence — see [[15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support]]. This is a genuine departure from the compression-first adult algorithm and is a common exam discriminator. `UNVERIFIED — the exact number of initial rescue breaths and the modified sequence require verification against ANZCOR Guideline 9.3.2.`
+
+> [!warning] Do not routinely immobilise the cervical spine
+> Cervical spine injury is uncommon in drowning **unless the mechanism suggests it** — diving into shallow water, a fall from height, surfing, a watercraft collision, or signs of trauma. Routine immobilisation impedes airway management and ventilation, which are the priorities. Apply it where the mechanism warrants it, not reflexively.
+
+> [!tip] Always ask why they went under
+> Drowning is frequently secondary to another event. **Seizure · arrhythmia — long QT syndrome type 1 is characteristically triggered by swimming, and a family history of sudden death matters · hypoglycaemia · alcohol or drug intoxication, which is involved in a large proportion of adult drownings · myocardial infarction · syncope · hyperventilation before breath-hold diving · non-accidental injury in a child.** Investigating the precipitant is part of the assessment.
+
+> [!warning] Observation and delayed deterioration
+> Patients who are asymptomatic with normal observations and a normal examination after a defined observation period have a very low risk of subsequent deterioration and can generally be discharged. Those with cough, abnormal auscultation, hypoxia or any symptom require admission, since pulmonary injury can evolve over hours. `UNVERIFIED — the recommended observation period and the discharge criteria; ANZCOR or an Australian emergency medicine reference.`
+
+**S/Smx:** Cough, dyspnoea, wheeze, crackles, hypoxia, vomiting (very common and an aspiration risk), altered conscious state, and hypothermia — which frequently coexists and is neuroprotective.
+
+**Ix:** Oxygen saturation and ABG (*why:* quantifies the hypoxaemia that is the central problem and identifies developing respiratory failure; *what:* hypoxia, acidosis). CXR (*why:* aspiration and pulmonary oedema, though early films may be normal and it is the trajectory that matters; *what:* infiltrates, oedema). ECG and continuous monitoring (*why:* identifies both arrhythmia as a cause and hypothermic or hypoxic arrhythmia as a consequence, and **a long QT may reveal the precipitant**; *what:* arrhythmia, prolonged QT, Osborn waves). Core temperature (*why:* coexisting hypothermia alters the resuscitation approach and prognosis entirely; *what:* core temperature). Bedside glucose (*why:* hypoglycaemia as precipitant; *what:* low glucose). UEC and VBG with lactate (*why:* severity of hypoxic insult and electrolyte state; *what:* acidosis, lactate). Alcohol and toxicology where relevant (*why:* identifies the contributing factor and informs prevention advice; *what:* level). CT brain and cervical spine where indicated by mechanism or persisting altered conscious state (*why:* trauma and hypoxic injury; *what:* injury, oedema).
+
+### Mx – Immediate — A6 §0.7.1
+Rescue with attention to rescuer safety. **Ventilation first** — rescue breaths, then compressions if pulseless. High-flow oxygen. Anticipate vomiting and be ready to suction. Manage hypothermia concurrently, remembering it is protective and that resuscitation should be prolonged. Early consideration of intubation and PEEP for significant pulmonary injury.
+
+### Mx – Definitive — A6 §0.7.2
+Ventilatory support with PEEP for surfactant dysfunction and ARDS. ICU. Extracorporeal support in refractory cases, particularly with severe hypothermia. **Antibiotics are not routine** — reserve them for aspiration of grossly contaminated water or established infection.
+
+### Mx – Chronic/long-term — A6 §0.7.3
+Investigate the precipitant, including cardiac assessment where arrhythmia is suspected and family screening for long QT. **Prevention advice: pool fencing, which is legislated in South Australia, supervision of young children, swimming ability, life jackets, and alcohol avoidance around water.** Neurological rehabilitation for hypoxic injury. **Consider safeguarding assessment in any paediatric drowning** — cross-refer `TODO:link — GER4 Safeguarding and forensic`.
+
 

@@ -6,7 +6,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Differential reasoning, discriminators and investigation logic are reliable at intern level. **Every dose, threshold, size cut-off, duration definition and reference range carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** The Fleischner Society nodule follow-up intervals in 0.7 in particular must be read from the source — they are size-, risk- and morphology-stratified and are not reconstructable from memory.
 >
-> Management of the specific conditions named here sits in [[F0.5]] (asthma, COPD, pneumonia, pulmonary oedema) and [[A3]] (respiratory failure). This file is about the undifferentiated presentation.
+> Management of the specific conditions named here sits in [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] (asthma, COPD, pneumonia, pulmonary oedema) and [[A3_Respiratory_Failure__Bronchospasm_and_Hypoxia]] (respiratory failure). This file is about the undifferentiated presentation.
 
 ---
 
@@ -24,12 +24,12 @@ source: built in chat, model knowledge, NOT source-verified
 > Ask "what were you doing when it started, and how long did it take to reach this?" before anything else.
 
 > [!tip] Differential by system, so nothing gets missed
-> **Airway:** obstruction, foreign body, anaphylaxis — cross-refer [[A2]].
+> **Airway:** obstruction, foreign body, anaphylaxis — cross-refer [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]].
 > **Lung:** pneumonia, PE, pneumothorax, effusion, asthma, COPD, ARDS, haemorrhage.
 > **Cardiac:** acute pulmonary oedema, myocardial infarction (dyspnoea may be the anginal equivalent in diabetics, women and the elderly), tamponade, arrhythmia, valvular failure.
-> **Metabolic:** any metabolic acidosis — DKA, sepsis, renal failure, salicylate. Cross-refer [[F0.2]] 0.1.
+> **Metabolic:** any metabolic acidosis — DKA, sepsis, renal failure, salicylate. Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.1.
 > **Haematological:** acute anaemia, carbon monoxide poisoning.
-> **Neuromuscular:** Guillain–Barré, myasthenic crisis — cross-refer [[F0.5]] 0.5.
+> **Neuromuscular:** Guillain–Barré, myasthenic crisis — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5.
 > **Psychogenic:** a diagnosis of exclusion, never a first move.
 
 > [!danger] Dyspnoea with a clear chest
@@ -43,7 +43,7 @@ source: built in chat, model knowledge, NOT source-verified
 A–E, oxygen to target, sit upright, monitoring, IV access. Treat the identified cause. Decompress a tension pneumothorax on clinical grounds without waiting for imaging.
 
 ### 0.1.2 Mx – Definitive
-Cause-specific. Cross-refer [[F0.5]] and [[F0.3]].
+Cause-specific. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] and [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]].
 
 ### 0.1.3 Mx – Chronic/long-term
 Address the underlying condition and its preventer or maintenance therapy.
@@ -68,7 +68,7 @@ Address the underlying condition and its preventer or maintenance therapy.
 > The two coexist frequently in older patients, and identifying one does not exclude the other.
 
 > [!warning] Chronic *progressive* dyspnoea deserves a different threshold
-> Relentless worsening over months, particularly with a dry cough and clubbing, suggests **interstitial lung disease**. Progressive dyspnoea with a normal chest radiograph and normal spirometry suggests **pulmonary hypertension**, which is characteristically diagnosed late because early investigation is unremarkable. Progressive dyspnoea with weight loss suggests malignancy. Progressive dyspnoea with limb or bulbar weakness suggests neuromuscular disease — cross-refer [[F0.5]] 0.5.
+> Relentless worsening over months, particularly with a dry cough and clubbing, suggests **interstitial lung disease**. Progressive dyspnoea with a normal chest radiograph and normal spirometry suggests **pulmonary hypertension**, which is characteristically diagnosed late because early investigation is unremarkable. Progressive dyspnoea with weight loss suggests malignancy. Progressive dyspnoea with limb or bulbar weakness suggests neuromuscular disease — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5.
 
 > [!info] Grading it
 > The MRC or modified MRC dyspnoea scale grades functional limitation and is used in COPD assessment and pulmonary rehabilitation referral. `UNVERIFIED — the grade descriptors and the version used in Australian practice require verification.` A practical alternative in any consultation: ask what the patient can no longer do that they could a year ago, and how many stairs or metres they manage now.
@@ -117,7 +117,7 @@ Cause-specific. Respiratory or cardiology referral where the diagnosis is unclea
 **Ix:** Echocardiography (*why:* the definitive assessment of the ventricular and valvular function that produces cardiac orthopnoea, and it distinguishes systolic from diastolic failure; *what:* ejection fraction, diastolic parameters, valve lesions). BNP or NT-proBNP (*why:* a normal value substantially reduces the likelihood of heart failure in an undifferentiated patient; *what:* elevation). CXR (*why:* identifies pulmonary congestion, effusions, cardiomegaly and the raised hemidiaphragm of phrenic palsy; *what:* upper lobe diversion, effusions, elevated diaphragm). ECG (*why:* ischaemia, AF and hypertrophy; *what:* findings). Supine and erect spirometry (*why:* a marked fall in FVC on lying flat is characteristic of diaphragmatic weakness and is otherwise easily missed; *what:* postural fall in FVC). Sleep study where OSA is suspected (*why:* confirms and grades, and CPAP is highly effective; *what:* apnoea-hypopnoea index). UEC, FBC, TFTs (*why:* renal failure, anaemia and thyroid disease all contribute; *what:* derangement). Weight and fluid balance charting (*why:* documents the fluid accumulation that drives symptoms and tracks response; *what:* weight trend).
 
 ### 0.3.1 Mx – Immediate
-Sit upright, oxygen if hypoxaemic, and manage as acute pulmonary oedema if that is the presentation — cross-refer [[F0.5]] 0.3.
+Sit upright, oxygen if hypoxaemic, and manage as acute pulmonary oedema if that is the presentation — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3.
 
 ### 0.3.2 Mx – Definitive
 Cause-specific. Diuresis and guideline-directed therapy for heart failure. Drainage of large effusions. CPAP for OSA.
@@ -268,4 +268,4 @@ Smoking cessation, which changes the risk of both this nodule and the next one. 
 ---
 
 > [!note] Cross-references
-> Respiratory failure, hypoxia and abnormal respiratory rate → [[A3]] · Acute asthma, COPD, pneumonia, pulmonary oedema, ARDS → [[F0.5]] · Airway obstruction and stridor → [[A2]] · Cardiogenic shock and PE → [[F0.3]] 0.3, 0.5 · Chest pain framework → [[B1]] · Occupational lung disease → [[02_Respiratory]] Pneumoconioses
+> Respiratory failure, hypoxia and abnormal respiratory rate → [[A3_Respiratory_Failure__Bronchospasm_and_Hypoxia]] · Acute asthma, COPD, pneumonia, pulmonary oedema, ARDS → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] · Airway obstruction and stridor → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] · Cardiogenic shock and PE → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3, 0.5 · Chest pain framework → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] · Occupational lung disease → [[02_Respiratory]] Pneumoconioses

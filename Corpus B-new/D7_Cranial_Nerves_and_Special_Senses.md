@@ -109,14 +109,14 @@ Facial physiotherapy. **Follow-up to confirm recovery** — and **image anyone w
 > [!tip] Fourth and sixth nerve palsies
 > **Fourth (trochlear, superior oblique)** — **vertical or oblique diplopia, worse on looking DOWN and toward the opposite side** — so worst going down stairs or reading. Patients adopt a **compensatory head tilt AWAY from the affected side.** Trauma is the commonest cause, since the nerve has the longest intracranial course and is vulnerable.
 > **Sixth (abducens, lateral rectus)** — **horizontal diplopia worse on looking toward the affected side**, with failure of abduction.
-> **The sixth nerve is the classic "false localising sign" in raised intracranial pressure** — its long intracranial course makes it vulnerable to stretch, so a sixth nerve palsy may indicate raised pressure anywhere rather than a lesion at the nerve. **A sixth nerve palsy with headache should prompt fundoscopy for papilloedema.** Cross-refer [[D1]] 0.4.
+> **The sixth nerve is the classic "false localising sign" in raised intracranial pressure** — its long intracranial course makes it vulnerable to stretch, so a sixth nerve palsy may indicate raised pressure anywhere rather than a lesion at the nerve. **A sixth nerve palsy with headache should prompt fundoscopy for papilloedema.** Cross-refer [[D1_Headache_and_Meningism]] 0.4.
 
 > [!warning] Horner syndrome — and the one you must not miss
 > **Partial ptosis, miosis, and anhidrosis**, from interruption of the three-neurone sympathetic pathway. The **anhidrosis pattern localises it**: whole face and arm (central/first order), face only (preganglionic), or minimal/absent (postganglionic).
-> **· Painful Horner syndrome with neck pain = CAROTID DISSECTION until proven otherwise** — urgent vascular imaging, because the next event is a stroke. Cross-refer [[D3]] 0.3.
+> **· Painful Horner syndrome with neck pain = CAROTID DISSECTION until proven otherwise** — urgent vascular imaging, because the next event is a stroke. Cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.3.
 > **· Horner syndrome with arm or shoulder pain and hand wasting = PANCOAST TUMOUR** — apical lung cancer invading the sympathetic chain and brachial plexus. **Get a chest X-ray, and if it is normal but suspicion is high, a CT.**
 > **· In a child, Horner syndrome with heterochromia = consider neuroblastoma.**
-> Also: brainstem lesion (lateral medullary syndrome — cross-refer [[D3]] 0.2), and cluster headache (transient, with the attack).
+> Also: brainstem lesion (lateral medullary syndrome — cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.2), and cluster headache (transient, with the attack).
 
 > [!tip] Internuclear ophthalmoplegia
 > **Impaired ADduction of one eye on lateral gaze, with nystagmus of the ABducting eye**, from a lesion of the medial longitudinal fasciculus. Convergence is preserved.
@@ -125,14 +125,14 @@ Facial physiotherapy. **Follow-up to confirm recovery** — and **image anyone w
 > [!danger] Any pupil-sparing ophthalmoplegia with ptosis — think myasthenia
 > **Myasthenia gravis can mimic any cranial nerve palsy or combination of them**, because it affects the muscles rather than the nerves.
 > **The features that give it away: FATIGABILITY (worse at the end of the day, worse on sustained upgaze), VARIABILITY between examinations, PUPIL SPARING (always — the pupil is smooth muscle and unaffected), and a pattern that does not respect a single nerve's anatomy.**
-> **Ask about diurnal variation, fatigable chewing, and swallowing.** Cross-refer [[D4]] 0.5.
+> **Ask about diurnal variation, fatigable chewing, and swallowing.** Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.5.
 
 > [!tip] Gaze palsies and the other causes
 > **Cortical (frontal eye field) lesion — the eyes look TOWARD the lesion** and away from the hemiparesis.
 > **Pontine (paramedian pontine reticular formation) lesion — the eyes look AWAY from the lesion** and toward the hemiparesis.
 > **Vertical gaze palsy, particularly downgaze — progressive supranuclear palsy**, or a dorsal midbrain (Parinaud) syndrome with pupillary light-near dissociation and convergence-retraction nystagmus, from a pineal region lesion or hydrocephalus.
-> **Restrictive causes** — **thyroid eye disease** (with proptosis, lid retraction and lid lag; restriction typically of upgaze from inferior rectus involvement), orbital myositis, orbital fracture with muscle entrapment (**blowout fracture — cross-refer [[A7]] and [[L8]]**), and orbital cellulitis.
-> **Giant cell arteritis** can cause diplopia and must be considered in anyone over 50 — cross-refer [[D1]] 0.4.
+> **Restrictive causes** — **thyroid eye disease** (with proptosis, lid retraction and lid lag; restriction typically of upgaze from inferior rectus involvement), orbital myositis, orbital fracture with muscle entrapment (**blowout fracture — cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] and [[L8_Facial__Head_and_Torso_Trauma]]**), and orbital cellulitis.
+> **Giant cell arteritis** can cause diplopia and must be considered in anyone over 50 — cross-refer [[D1_Headache_and_Meningism]] 0.4.
 
 **S/Smx:** Diplopia and its direction of maximal separation, ptosis, pupil size and reactivity, pain, proptosis, and associated neurological or systemic features.
 
@@ -145,7 +145,7 @@ Facial physiotherapy. **Follow-up to confirm recovery** — and **image anyone w
 Cause-specific, with ophthalmology and neurology involvement.
 
 ### 0.3.3 Mx – Chronic/long-term
-Prisms or occlusion for persistent diplopia. Strabismus surgery once stable. **Driving advice while diplopia persists** — cross-refer [[A10]] 0.6.
+Prisms or occlusion for persistent diplopia. Strabismus surgery once stable. **Driving advice while diplopia persists** — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6.
 
 ---
 
@@ -176,13 +176,13 @@ Prisms or occlusion for persistent diplopia. Strabismus surgery once stable. **D
 > **A fasciculating tongue with brisk reflexes elsewhere is motor neurone disease until proven otherwise.**
 
 > [!warning] Dysphagia — the first question is oropharyngeal or oesophageal
-> **· Oropharyngeal** — **difficulty INITIATING the swallow**, coughing or choking immediately, nasal regurgitation, drooling, recurrent chest infections. **Neurological or muscular.** Cross-refer [[F3]].
-> **· Oesophageal** — **food "sticking" seconds AFTER swallowing**, pointed to at the sternum. **Structural or motility.** Cross-refer [[C6]] 0.3.
-> **Aspiration risk is the acute concern in oropharyngeal dysphagia.** **Nil by mouth pending a swallow screen** in any acute neurological presentation with speech or swallow disturbance — cross-refer [[D3]] 0.1. **Silent aspiration — aspiration without coughing — is common and is precisely why a formal screen is needed rather than watching them sip water.**
+> **· Oropharyngeal** — **difficulty INITIATING the swallow**, coughing or choking immediately, nasal regurgitation, drooling, recurrent chest infections. **Neurological or muscular.** Cross-refer [[F3_Throat__Voice_and_Oral]].
+> **· Oesophageal** — **food "sticking" seconds AFTER swallowing**, pointed to at the sternum. **Structural or motility.** Cross-refer [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] 0.3.
+> **Aspiration risk is the acute concern in oropharyngeal dysphagia.** **Nil by mouth pending a swallow screen** in any acute neurological presentation with speech or swallow disturbance — cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.1. **Silent aspiration — aspiration without coughing — is common and is precisely why a formal screen is needed rather than watching them sip water.**
 
 > [!danger] Hoarseness lasting more than about three weeks needs laryngoscopy
 > **Persistent hoarseness is laryngeal carcinoma until proven otherwise, particularly in a smoker.** It also indicates recurrent laryngeal nerve palsy — and **the left recurrent laryngeal nerve loops under the aortic arch, so a left vocal cord palsy can be caused by lung cancer, mediastinal disease, an aortic aneurysm, or thyroid or oesophageal malignancy.**
-> **A new hoarse voice is a symptom to investigate, not to treat with reassurance and voice rest.** Cross-refer [[F3]]. `UNVERIFIED — the duration threshold for referral in current Australian guidance.`
+> **A new hoarse voice is a symptom to investigate, not to treat with reassurance and voice rest.** Cross-refer [[F3_Throat__Voice_and_Oral]]. `UNVERIFIED — the duration threshold for referral in current Australian guidance.`
 
 **Ix:** **Ask the patient to write** (*why:* separates dysphasia from dysarthria in seconds; *what:* normal writing in dysarthria). Full neurological examination including tongue, palate and gag (*why:* localises bulbar versus pseudobulbar; *what:* fasciculation, wasting, jaw jerk). **Formal swallow screen, then speech pathology assessment** (*why:* prevents aspiration pneumonia, and detects silent aspiration that bedside observation misses; *what:* aspiration risk). **Videofluoroscopy or fibreoptic endoscopic evaluation of swallowing** (*why:* the definitive assessment of oropharyngeal dysphagia and of silent aspiration; *what:* penetration, aspiration, residue). **Flexible nasendoscopy for hoarseness** (*why:* visualises the cords and detects malignancy and palsy; *what:* mass, cord palsy). CT chest and neck for a left vocal cord palsy (*why:* traces the recurrent laryngeal nerve along its course; *what:* lung, mediastinal, thyroid or oesophageal lesion). MRI brain (*why:* stroke, demyelination, brainstem lesion; *what:* structural cause). EMG and nerve conduction studies (*why:* motor neurone disease, myasthenia; *what:* denervation, decrement).
 
@@ -201,7 +201,7 @@ Speech pathology for both communication and swallowing. Modified diets and fluid
 
 > [!danger] Hyposmia is an early feature of neurodegenerative disease
 > **Loss of smell precedes the motor features of Parkinson disease and the cognitive features of Alzheimer disease by years, sometimes more than a decade.**
-> Alongside **REM sleep behaviour disorder and constipation**, it forms the recognised prodrome of Parkinson disease. Cross-refer [[D6]] 0.5.
+> Alongside **REM sleep behaviour disorder and constipation**, it forms the recognised prodrome of Parkinson disease. Cross-refer [[D6_Seizures_and_Movement_Disorders]] 0.5.
 > This is not currently something to screen for, but a patient with longstanding unexplained anosmia and new subtle motor or cognitive change is a coherent picture rather than a coincidence.
 
 > [!tip] The causes of anosmia
@@ -238,13 +238,13 @@ Treat sinonasal disease, correct deficiency, cease the offending drug. **Olfacto
 
 > [!tip] Trigeminal (V)
 > **Sensory loss** in one or more divisions, weakness of muscles of mastication (with the **jaw deviating TOWARD the weak side**), and a **reduced corneal reflex** (V1 afferent).
-> **Trigeminal neuralgia** — see [[D1]] 0.3. The key point repeated here: **MRI is required in a young patient, with bilateral symptoms, or where there is objective sensory loss, to exclude multiple sclerosis or a compressive lesion.**
+> **Trigeminal neuralgia** — see [[D1_Headache_and_Meningism]] 0.3. The key point repeated here: **MRI is required in a young patient, with bilateral symptoms, or where there is objective sensory loss, to exclude multiple sclerosis or a compressive lesion.**
 > **Numbness of the chin — "numb chin syndrome" — is a sinister sign**, associated with **malignant infiltration of the mental nerve**, particularly from breast cancer, lymphoma and myeloma. It warrants investigation rather than reassurance.
 
 > [!tip] Vestibulocochlear (VIII) and the cerebellopontine angle
 > **Unilateral sensorineural hearing loss and tinnitus, with or without imbalance, should raise vestibular schwannoma (acoustic neuroma).**
 > As it grows in the cerebellopontine angle it involves **V (reduced corneal reflex first, then facial numbness), then VII (facial weakness, which is a late feature), then cerebellar signs and raised intracranial pressure.**
-> **Any asymmetric sensorineural hearing loss warrants audiometry and MRI**, because the tumour is treatable and the alternative is progressive deficit. Cross-refer [[F1]] and [[D5]].
+> **Any asymmetric sensorineural hearing loss warrants audiometry and MRI**, because the tumour is treatable and the alternative is progressive deficit. Cross-refer [[F1_Ear]] and [[D5_Dizziness__Vertigo_and_Gait]].
 
 > [!tip] The lower cranial nerves
 > **Glossopharyngeal (IX) and vagus (X)** — palatal weakness with the **uvula deviating AWAY from the affected side**, absent gag, dysphagia, nasal regurgitation, and hoarseness from recurrent laryngeal involvement.
@@ -271,4 +271,4 @@ Hearing rehabilitation, facial reanimation, swallow management, and surveillance
 ---
 
 > [!note] Cross-references
-> Stroke, gaze deviation and localisation → [[D3]] 0.2 · Headache, giant cell arteritis and raised intracranial pressure → [[D1]] 0.4 · Trigeminal neuralgia → [[D1]] 0.3 · Myasthenia gravis → [[D4]] 0.5 · Vertigo and HINTS → [[D5]] 0.2 · Parkinsonism and hyposmia → [[D6]] 0.5 · Hearing loss and tinnitus → [[F1]] · Hoarseness, dysphagia and the ENT approach → [[F3]] · Oesophageal dysphagia → [[C6]] 0.3 · Orbital cellulitis and eyelid swelling → [[B6]] 0.4 · Orbital fracture → [[L8]] · Carotid dissection → [[D3]] 0.3 · Swallow screening after stroke → [[D3]] 0.1
+> Stroke, gaze deviation and localisation → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.2 · Headache, giant cell arteritis and raised intracranial pressure → [[D1_Headache_and_Meningism]] 0.4 · Trigeminal neuralgia → [[D1_Headache_and_Meningism]] 0.3 · Myasthenia gravis → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.5 · Vertigo and HINTS → [[D5_Dizziness__Vertigo_and_Gait]] 0.2 · Parkinsonism and hyposmia → [[D6_Seizures_and_Movement_Disorders]] 0.5 · Hearing loss and tinnitus → [[F1_Ear]] · Hoarseness, dysphagia and the ENT approach → [[F3_Throat__Voice_and_Oral]] · Oesophageal dysphagia → [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] 0.3 · Orbital cellulitis and eyelid swelling → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.4 · Orbital fracture → [[L8_Facial__Head_and_Torso_Trauma]] · Carotid dissection → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.3 · Swallow screening after stroke → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.1

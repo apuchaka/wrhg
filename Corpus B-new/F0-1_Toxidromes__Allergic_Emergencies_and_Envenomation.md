@@ -39,7 +39,7 @@ Resuscitation before identification. A–E, oxygen, IV access, bedside glucose, 
 Decontamination, antidote and enhanced elimination decisions are agent-specific and time-dependent. `UNVERIFIED — activated charcoal indications, the time window in which it retains benefit, and all contraindications require verification against eTG Toxicology; no window is stated here.`
 
 ### 0.1.3 Mx – Chronic/long-term
-Every deliberate self-poisoning requires mental health assessment before discharge, regardless of how medically trivial the ingestion proved to be. Cross-refer [[N1]] Risk Assessment & Suicidality.
+Every deliberate self-poisoning requires mental health assessment before discharge, regardless of how medically trivial the ingestion proved to be. Cross-refer [[N1_Mental_State_Examination_and_Risk]] Risk Assessment & Suicidality.
 
 ---
 
@@ -57,7 +57,7 @@ Every deliberate self-poisoning requires mental health assessment before dischar
 > Blind as a bat (mydriasis, blurred vision) · Dry as a bone (anhidrosis) · Red as a beet (flushing) · Hot as a hare (hyperthermia) · Mad as a hatter (delirium) · Full as a flask (urinary retention).
 
 > [!danger] The real risk is the co-ingestant, not the anticholinergic effect
-> Tricyclic antidepressants produce this picture and also block fast sodium channels — the death is from QRS widening, seizures and arrhythmia, not from the dry skin. Any anticholinergic presentation demands an ECG looking specifically for QRS widening and a terminal R wave in aVR. Cross-refer [[A5]] TCA Overdose.
+> Tricyclic antidepressants produce this picture and also block fast sodium channels — the death is from QRS widening, seizures and arrhythmia, not from the dry skin. Any anticholinergic presentation demands an ECG looking specifically for QRS widening and a terminal R wave in aVR. Cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] TCA Overdose.
 
 **Ix:** ECG (*why:* separates a benign antihistamine ingestion from a sodium-channel-blocking TCA, which is the entire prognostic question; *what:* QRS widening, terminal R wave in aVR, QT prolongation). Bedside glucose and core temperature (*why:* hyperthermia here is a failure of heat dissipation and rises without warning; *what:* core temperature trend). Bladder scan (*why:* retention is uncomfortable, causes further agitation, and is easily missed in a delirious patient; *what:* retained volume). Paracetamol level (*why:* combination analgesic and cold-and-flu preparations pair antihistamines with paracetamol; *what:* level against time). CK where prolonged agitation or restraint (*why:* rhabdomyolysis follows sustained agitation; *what:* elevation).
 
@@ -98,7 +98,7 @@ Decontamination with PPE. Airway management with aggressive suctioning — secre
 Pralidoxime reactivates cholinesterase and addresses the nicotinic features that atropine does not touch, but only before ageing. `UNVERIFIED — pralidoxime dosing and the time window before ageing require verification.` Benzodiazepines for seizures. Intubation and ventilation for the intermediate syndrome — delayed proximal and respiratory muscle weakness developing after the acute cholinergic phase resolves, which catches teams who have relaxed.
 
 ### 0.3.3 Mx – Chronic/long-term
-Prolonged ICU stay is common. Delayed peripheral neuropathy is described. Occupational exposure requires workplace notification — cross-refer [[P1]] Occupational Exposure.
+Prolonged ICU stay is common. Delayed peripheral neuropathy is described. Occupational exposure requires workplace notification — cross-refer [[GER3_Preventive_and_Occupational_Health]] Occupational Exposure.
 
 ---
 
@@ -166,7 +166,7 @@ Medication reconciliation with explicit documentation of the interacting pair. D
 Airway positioning, oxygen and bag-mask ventilation if inadequate — **ventilate first, naloxone second.** Naloxone titrated in small increments to restore adequate respiration. `UNVERIFIED — naloxone dose, route, titration increment and infusion rate require verification against eTG and local policy; the dose appropriate for an opioid-dependent patient differs from that for an opioid-naive post-operative patient and neither is stated here.`
 
 ### 0.5.2 Mx – Definitive
-Prolonged observation, and infusion where a long-acting agent was involved. Review and reduce the prescribed regimen. Cross-refer [[F0.4]] Adult analgesia.
+Prolonged observation, and infusion where a long-acting agent was involved. Review and reduce the prescribed regimen. Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] Adult analgesia.
 
 ### 0.5.3 Mx – Chronic/long-term
 Take-home naloxone provision and training for the patient and their household where dependence is present. Drug and alcohol referral. Opioid stewardship review where iatrogenic.
@@ -198,7 +198,7 @@ Assess time and quantity of ingestion, whether staggered, and the preparation. T
 N-acetylcysteine per protocol, with the course extended if ALT is rising or the level remains detectable at the end. Anaphylactoid reactions to NAC are common, usually rate-related, and are managed by slowing the infusion rather than abandoning the antidote. Discuss with a liver transplant unit where INR, lactate, pH or encephalopathy meet escalation criteria. `UNVERIFIED — transplant referral criteria require verification.`
 
 ### 0.6.3 Mx – Chronic/long-term
-Mental health assessment before discharge in every deliberate case. Cross-refer [[N1]] Risk Assessment & Suicidality.
+Mental health assessment before discharge in every deliberate case. Cross-refer [[N1_Mental_State_Examination_and_Risk]] Risk Assessment & Suicidality.
 
 ---
 
@@ -234,7 +234,7 @@ A–E, IV access, continuous monitoring, early ICU and Poisons Information Centr
 Escalation to lipid emulsion, pacing, or extracorporeal support in refractory cases — ICU decisions. Whole bowel irrigation is considered for slow-release preparations. `UNVERIFIED — indications and technique require verification.`
 
 ### 0.7.3 Mx – Chronic/long-term
-Mental health assessment. Where paediatric and exploratory, medication storage counselling and safeguarding consideration — cross-refer [[P3]] Neglect Concern.
+Mental health assessment. Where paediatric and exploratory, medication storage counselling and safeguarding consideration — cross-refer [[GER4_Safeguarding_and_Forensic]] Neglect Concern.
 
 ---
 
@@ -379,4 +379,4 @@ Wound care and tetanus status. Warn about serum sickness after antivenom. Redbac
 ---
 
 > [!note] Cross-references
-> Sepsis and shock phenotypes → [[F0.3]] · Acid-base consequences of these poisonings → [[F0.2]] · Resuscitation algorithms and airway management → [[F0.4]] · Deliberate self-poisoning risk assessment → [[N1]] · Adverse drug reactions and TCA overdose → [[A5]]
+> Sepsis and shock phenotypes → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] · Acid-base consequences of these poisonings → [[F0-2_Acid-Base__DKA_and_Fluid_States]] · Resuscitation algorithms and airway management → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] · Deliberate self-poisoning risk assessment → [[N1_Mental_State_Examination_and_Risk]] · Adverse drug reactions and TCA overdose → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]]

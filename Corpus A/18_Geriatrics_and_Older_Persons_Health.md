@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 0
 conflicts_r1: 0
-no_baseline: 0
+no_baseline: 1
 ---
 
 > [!note] Why this file exists. The CSV category "Older Persons Health / Geriatrics (NEW)" had **no corresponding file at all** — the single largest gap found in this project (Step 21). An audit of its 11 rows before building found that three were already adequately covered elsewhere and are deliberately **not** duplicated here: capacity assessment (see [[Clinical-Process-EBM-Consent-Capacity]] Capacity assessment — the general framework), the cognitive screening tools themselves (see [[Investigation-Interpretation]] Cognitive Screening Tools (MMSE, MoCA, AMTS)), and osteoporosis management (see [[11_08b_Ortho_-_Paget_s_Disease_and_Osteoporosis]] Osteoporosis, which is verified against the 2024 RACGP/Healthy Bones Australia guideline). Two further rows were built into [[04_Neurology]] rather than here, because their structural anchors already live there.
@@ -103,6 +103,146 @@ The first branch point is whether consciousness was lost, because it splits the 
 
 ---
 
+### Falls — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Falls are the leading cause of injury hospitalisation and injury death in older Australians
+> And **a previous fall is the single strongest predictor of a future fall.** Asking "have you had a fall in the last year?" is a one-question screening tool that identifies the highest-risk group.
+
+> [!tip] Risk factors — nearly all of them modifiable
+> **· Previous falls · gait and balance impairment · muscle weakness · impaired vision · cognitive impairment and delirium · MEDICATIONS · postural hypotension · foot problems and inappropriate footwear · urinary urgency and nocturia (rushing to the toilet at night) · environmental hazards · vitamin D deficiency · alcohol · fear of falling, which reduces activity and worsens deconditioning.**
+> **"Fall-risk-increasing drugs" (FRIDs)** — psychotropics in particular: **benzodiazepines, Z-drugs, antipsychotics, antidepressants, opioids, anticholinergics, antihypertensives and diuretics.** **Withdrawal of psychotropic medication is one of the few single interventions with good evidence for reducing falls.**
+
+> [!danger] Assess WHY they fell — "mechanical fall" is a diagnosis of exclusion
+> **Was it a fall or was it syncope?** If unwitnessed, or if the patient does not clearly recall hitting the ground, **assume syncope and investigate accordingly** — cross-refer [[04_Neurology]] Syncope.
+> **Ask how long they were on the floor.** A long lie causes **rhabdomyolysis, acute kidney injury, hypothermia, dehydration, pressure injury and pneumonia** — cross-refer [[11_09b_Ortho_-_Trauma]] Hypothermia and [[11_01_Ortho_-_Orthopaedic_Emergencies]] Rhabdomyolysis. It is also a marker of social vulnerability that should trigger a conversation about alarms and living arrangements.
+> **Post-fall injury assessment: low threshold for CT head in anyone anticoagulated, even after apparently trivial trauma** — cross-refer [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure. And **an impacted or undisplaced neck of femur fracture may still allow weight-bearing and may be missed on plain films**, so persistent hip or groin pain warrants further imaging.
+
+> [!tip] Interventions with evidence
+> **· Exercise — the single most effective intervention.** It must include a **balance challenge**, be of **sufficient dose and duration**, and be **ongoing** — benefit is lost when it stops. Programs such as Otago and tai chi have good evidence. A generic "keep active" instruction does not work.
+> **· Medication review with withdrawal of psychotropics.**
+> **· Home hazard assessment by an occupational therapist**, which is most effective in those at highest risk and after a fall.
+> **· Vision** — **expedited cataract surgery reduces falls. But NEW multifocal or bifocal glasses INCREASE falls**, particularly outdoors and on stairs, by distorting the lower visual field. Advise single-vision distance glasses for walking outside.
+> **· Vitamin D where deficient** — the evidence for supplementation in replete individuals is weak, and **high intermittent bolus dosing has been associated with increased falls**, so this is not a blanket recommendation. `UNVERIFIED — dosing and who should receive it.`
+> **· Podiatry and footwear** — well-fitting, low-heeled, firm-soled shoes with good grip. **Walking in socks or loose slippers indoors is a genuine and easily fixed hazard.**
+> **· Cardiac pacing** for falls due to cardioinhibitory carotid sinus hypersensitivity.
+> **· Treating urinary urgency and providing a night-time toileting plan.**
+
+> [!warning] In hospital, restraints and bed rails cause harm
+> **Bed rails and physical restraints increase the severity of injury when a patient does climb over them, cause agitation and delirium, and are associated with worse outcomes.** They are not a falls prevention strategy.
+> What helps: **delirium prevention, low-low beds, non-slip footwear, accessible call bells, adequate lighting, proximity to the nurses' station, purposeful hourly rounding including toileting, sensory aids in place, and early mobilisation.**
+
+**S/Smx:** Circumstances, prodrome, whether consciousness was lost, time on the floor, injuries, and the fear and activity restriction that follow.
+
+**Ix:** **Postural blood pressure** (*why:* orthostatic hypotension is common, frequently drug-induced, and easily missed because nobody stands the patient up; *what:* postural drop measured at intervals). **Timed Up and Go and gait observation** (*why:* objective, repeatable, and identifies the gait pattern; *what:* prolonged time, gait abnormality — cross-refer [[04_Neurology]] Gait Disorders). ECG (*why:* arrhythmia as a cause of syncope presenting as a fall; *what:* rhythm, conduction disease). FBC, UEC, calcium, glucose, vitamin D, B12, TFTs (*why:* anaemia, electrolyte disturbance, hypoglycaemia and deficiency all contribute; *what:* derangement). **CK and renal function after a long lie** (*why:* rhabdomyolysis; *what:* raised CK, rising creatinine). Cognitive assessment (*why:* cognitive impairment is a major independent risk factor; *what:* impairment). **Visual acuity and review of glasses** (*why:* correctable, and multifocals are a specific hazard; *what:* uncorrected refractive error, cataract, multifocal use). **Medication review** (*why:* the most modifiable single factor; *what:* FRIDs). **Bone density assessment** (*why:* the fall and the fracture are separate problems and both need addressing — see 0.6; *what:* osteoporosis).
+
+#### Mx – Immediate — GER1 §0.5.1
+Injury assessment, analgesia, treatment of the consequences of a long lie, and identification of the precipitant.
+
+#### Mx – Definitive — GER1 §0.5.2
+**Multifactorial intervention addressing every identified risk factor** — this is what works; single interventions in isolation generally do not.
+
+#### Mx – Chronic/long-term — GER1 §0.5.3
+Ongoing exercise, review of the home, and **address fear of falling directly**, since it drives activity restriction, deconditioning and social isolation, and responds to graded exposure and confidence-building.
+
+### Osteoporosis and Fracture Prevention — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A skeletal disorder of reduced bone strength predisposing to fracture. Diagnosed by **bone mineral density on DXA** below a defined threshold, **or — regardless of density — by the occurrence of a minimal trauma (fragility) fracture.**
+
+> [!danger] A minimal trauma fracture IS osteoporosis, and most of these patients are never treated
+> **A fracture from a fall from standing height or less, in an adult over 50, is a fragility fracture** and identifies a person at high risk of the next one — with the highest risk in the immediately following period.
+> **The "treatment gap" is one of the clearest quality failures in Australian practice: the large majority of people who sustain a minimal trauma fracture are never investigated or treated for osteoporosis.** They have their fracture fixed and are discharged.
+> **Fracture liaison services exist to close this gap.** As an intern, **the practical action is to identify the fragility fracture, arrange bone density assessment and calcium and vitamin D, and explicitly flag osteoporosis management in the discharge summary with a named responsible clinician.**
+
+> [!tip] Risk factors and secondary causes
+> **Non-modifiable:** age, female sex, previous minimal trauma fracture, **parental hip fracture**, early menopause.
+> **Modifiable:** **glucocorticoids** (the commonest drug cause, and risk begins early and at modest doses), smoking, excess alcohol, low body weight, immobility, falls, low calcium and vitamin D.
+> **Secondary causes to exclude — and they are found in a meaningful proportion, particularly in men and in premenopausal women: hyperparathyroidism · hyperthyroidism (including over-replacement with thyroxine) · coeliac disease · myeloma · hypogonadism · chronic kidney disease · chronic liver disease · Cushing syndrome · rheumatoid arthritis · and drugs including aromatase inhibitors, androgen deprivation therapy, anticonvulsants and long-term PPIs.**
+> **Osteoporosis in a man, or in a premenopausal woman, is secondary until proven otherwise.**
+
+> [!danger] Do not stop denosumab without a plan
+> **Denosumab discontinuation causes a rapid rebound increase in bone turnover with a risk of MULTIPLE VERTEBRAL FRACTURES**, occurring within months of a missed dose.
+> **It must be given on schedule, and it must never simply be stopped** — if it is to be ceased, it requires transition to an alternative agent, usually a bisphosphonate, under specialist guidance.
+> **This is a genuine and under-recognised hazard**, and it matters in hospital: a patient admitted for an unrelated reason who misses their scheduled dose is at risk. **Check whether an admitted patient is on denosumab and when their next dose is due.** `UNVERIFIED — dosing interval and the recommended transition regimen.`
+
+> [!warning] Bisphosphonate safety — real risks, kept in proportion
+> **Osteonecrosis of the jaw** and **atypical femoral fracture** are both **rare**, and the absolute risk is far outweighed by fracture prevention in patients who meet treatment criteria — but they justify **dental assessment and completion of invasive dental work before starting**, and attention to **new thigh or groin pain in a patient on long-term therapy**, which may herald an atypical fracture.
+> **"Drug holidays"** after a period of bisphosphonate therapy are considered in lower-risk patients, and this is a specialist-informed decision. `UNVERIFIED — duration of therapy before a holiday, and who is eligible.`
+
+> [!tip] The whole package, not just a tablet
+> **· Calcium — preferably dietary — and vitamin D sufficiency.**
+> **· Weight-bearing and resistance exercise.**
+> **· Falls prevention (0.5) — because most fractures require both a weak bone AND a fall. Treating osteoporosis while ignoring falls addresses half the problem.**
+> **· Smoking and alcohol reduction.**
+> **· Antiresorptive or anabolic pharmacotherapy** — bisphosphonates (oral or intravenous), denosumab, and for very high risk teriparatide or romosozumab. Menopausal hormone therapy has a role in selected younger postmenopausal women.
+> **· Glucocorticoid-induced osteoporosis prophylaxis** should be considered at the time of prescribing prolonged steroids, not years later.
+> `UNVERIFIED — all agents, doses, and the PBS authority criteria that determine what is actually prescribable in Australia.`
+
+**S/Smx:** Usually asymptomatic until fracture. **Vertebral fractures are frequently silent** and present as height loss, kyphosis, or as an incidental finding on imaging done for another reason — **and an incidental vertebral fracture on a chest radiograph or CT is a diagnosis of osteoporosis that is routinely not acted upon.**
+
+**Ix:** **DXA bone mineral density** (*why:* diagnoses osteoporosis, quantifies risk and provides a baseline for monitoring; *what:* T-score at hip and spine). **Absolute fracture risk calculation** (*why:* combines density with clinical risk factors and guides treatment decisions — **the Garvan calculator is Australian and includes falls history**, alongside FRAX; *what:* 5- and 10-year fracture probability). **Calcium, phosphate, ALP, UEC, vitamin D, and TFTs** (*why:* excludes osteomalacia, hyperparathyroidism and thyroid disease before attributing low density to primary osteoporosis; *what:* the metabolic pattern). **Serum protein electrophoresis** (*why:* myeloma presents with fractures, bone pain, anaemia, renal impairment and hypercalcaemia and is missed if not sought; *what:* paraprotein — cross-refer `TODO:link — J4 Paraproteins & lymphoproliferative (unbuilt)`). **Coeliac serology, testosterone in men, and cortisol assessment where indicated** (*why:* secondary causes, particularly in men and younger women; *what:* the underlying condition). **Lateral spine imaging** (*why:* detects the silent vertebral fractures that change risk category and treatment decisions; *what:* vertebral height loss).
+
+#### Mx – Immediate — GER1 §0.6.1
+Fracture management. **Analgesia adequate to allow mobilisation** — under-treated pain after a fragility fracture causes immobility, delirium and further decline.
+
+#### Mx – Definitive — GER1 §0.6.2
+Investigation for secondary causes, and commencement of appropriate pharmacotherapy alongside calcium, vitamin D and exercise.
+
+#### Mx – Chronic/long-term — GER1 §0.6.3
+**Adherence support — persistence with oral bisphosphonates is poor**, and intravenous or six-monthly options may suit better. Monitoring, dental review, and combined falls and bone health management. **Explicit handover to the GP with a named plan.**
+
+### Pressure Injury — from unverified layer
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** **Sustained pressure exceeding capillary closing pressure occludes perfusion**, causing tissue ischaemia. **Shear** (sliding down the bed, dragging rather than lifting during transfers) deforms and tears tissue at deeper levels, **friction** damages the epidermis, and **moisture** from incontinence or sweat macerates skin and lowers its tolerance.
+**It is a function of pressure AND time** — high pressure for a short period, or modest pressure for a long one, both cause injury. **Deep tissue over a bony prominence dies before the skin does**, which is why a small area of discolouration can overlie extensive underlying necrosis.
+
+> [!danger] Device-related pressure injuries are the ones that get missed
+> **Oxygen tubing behind the ears, nasal prongs, CPAP and NIV mask edges, nasogastric tube tape, urinary catheters, plaster casts, splints, cervical collars, compression stockings, and pulse oximeter probes.**
+> **These account for a substantial proportion of hospital-acquired pressure injuries and are entirely preventable** by inspecting under and around every device, padding, and rotating sites.
+> **Look under the mask and behind the ears on every ward round in a patient on oxygen.**
+
+> [!tip] Sites and the one that is forgotten
+> Sacrum, ischial tuberosities, greater trochanters, **heels**, occiput, ears, elbows, and the malleoli.
+> **Heels are the second commonest site and the most neglected. Offload them — a pillow lengthwise under the calves so the heels float free of the bed.** This costs nothing and prevents a wound that can take months to heal.
+
+> [!warning] Staging, and the two categories people forget
+> Staged from **non-blanchable erythema of intact skin** through partial-thickness loss, full-thickness loss with visible fat, to full-thickness loss with exposed bone, tendon or muscle.
+> Plus two additional categories:
+> **· Unstageable** — the base is obscured by slough or eschar, so depth cannot be determined until it is debrided.
+> **· Deep tissue pressure injury** — persistent non-blanchable deep red, maroon or purple discolouration, or a blood-filled blister, over intact skin. **This can evolve rapidly to a full-thickness wound and looks deceptively minor.**
+> `UNVERIFIED — the full staging definitions and terminology.`
+
+> [!danger] Do not massage a reddened pressure area
+> It was traditional advice and it is wrong — **massage over a bony prominence causes further tissue damage in already compromised tissue.** Offload, do not rub.
+
+> [!tip] Prevention — what actually works
+> **· Formal risk assessment on admission and with any change in condition** (Braden, Waterlow or equivalent). `UNVERIFIED — which scale is used in your health network, and its action thresholds.`
+> **· Repositioning at appropriate intervals**, and — more importantly — **mobilisation.**
+> **· Pressure-redistributing mattresses and cushions** for at-risk patients.
+> **· Skin inspection at least daily, including heels, sacrum and under every device.**
+> **· Moisture management** — prompt continence care and barrier products.
+> **· Nutrition and hydration** — see 0.3.
+> **· Lift, do not drag** — using slide sheets and hoists to avoid shear.
+> **A hospital-acquired pressure injury is a reportable clinical indicator in Australian hospitals**, and it is regarded as a marker of nursing and system quality precisely because it is largely preventable.
+
+**S/Smx:** Non-blanching erythema, pain over a pressure point, blistering, skin loss, slough, eschar, exudate, odour, and surrounding cellulitis. **Pain over a bony prominence in an immobile patient warrants inspection**, and patients with sensory impairment may report nothing at all.
+
+**Ix:** **Regular full skin inspection including under devices** (*why:* the diagnosis is entirely visual, and injuries are missed by not looking; *what:* stage, site, extent). Wound swab **only where clinical infection is suspected** (*why:* all chronic wounds are colonised, so routine swabbing produces misleading results and drives unnecessary antibiotics; *what:* organism in the context of clinical infection). FBC, CRP, albumin (*why:* systemic infection and the nutritional status that determines healing; *what:* infection markers, hypoalbuminaemia). **Probe-to-bone assessment and imaging where osteomyelitis is suspected** (*why:* underlying osteomyelitis changes the treatment duration and may require surgery, and it is common in deep sacral and heel wounds; *what:* bone involvement on MRI). Nutritional assessment (*why:* healing requires protein and energy, and malnourished wounds do not close; *what:* intake, weight, albumin). Vascular assessment for heel and lower limb wounds (*why:* an ischaemic limb will not heal, and compression is contraindicated; *what:* pulses, ABI — cross-refer [[01_Cardiovascular]] §0.36.1 Peripheral Arterial Disease (PAD)).
+
+#### Mx – Immediate — GER2 §0.2.1
+**Offload the area completely.** Analgesia — pressure injuries are painful and this is under-treated.
+
+#### Mx – Definitive — GER2 §0.2.2
+Stage-appropriate wound care with specialist wound nursing input, debridement of devitalised tissue where appropriate, management of infection, and optimisation of nutrition and perfusion.
+
+#### Mx – Chronic/long-term — GER2 §0.2.3
+Ongoing pressure redistribution, equipment provision for home or residential care, and **carer education**, since most pressure injuries develop outside hospital.
+
+
+
+
 ## Frailty
 
 > [!note] Gap-filled from CSV ("Frailty phenotype / frailty assessment," High yield). Genuinely absent: the word appeared three times in the whole corpus, each time as a passing modifier on some other topic (an ECOG caveat in oncology, a relaxed HbA1c target in diabetes, a bladder-drug caution) — never as a concept with a definition, an assessment method, or management. Verified against the RACGP aged care clinical guide (Silver Book, 5th edition) Part A "Frailty", the Australian Consensus Statement on the Prevention and Management of Frailty Among Community-Dwelling Older Adults (MJA, modified Delphi), and the AJGP review of sarcopenia in general practice, Aug 2026.
@@ -161,6 +301,145 @@ Frailty should alter clinical decisions rather than merely describe the patient:
 
 ---
 
+### Comprehensive Geriatric Assessment — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A **multidimensional, interdisciplinary** diagnostic process that identifies medical, psychological, functional and social capabilities and problems, in order to develop a coordinated plan for treatment and long-term follow-up.
+
+> [!tip] The five domains
+> **1. Medical** — comorbidities, medications, nutrition, continence, pain, sensory impairment, dentition.
+> **2. Functional** — activities of daily living, mobility, gait and balance.
+> **3. Cognitive and psychological** — cognition, mood, delirium, capacity.
+> **4. Social** — living situation, carer, supports, finances, elder abuse risk.
+> **5. Environmental** — home safety, access, equipment, transport.
+> **CGA delivered in hospital increases the likelihood that a patient is alive and living in their own home afterwards.** It is one of the better-evidenced interventions in the specialty, and it is a process rather than a test.
+
+> [!info] The physiology that makes older people different
+> **Reduced homeostatic reserve** — every organ system has less capacity to buffer a stressor, so a small insult produces a large decompensation. This is why a urinary tract infection precipitates a fall, delirium and functional decline in one patient and nothing in another.
+> **Altered pharmacokinetics and pharmacodynamics** — reduced renal clearance, reduced hepatic first-pass metabolism, **increased body fat and reduced total body water (so lipophilic drugs such as benzodiazepines accumulate and water-soluble drugs reach higher concentrations)**, reduced serum albumin, and **increased CNS sensitivity to sedatives, opioids and anticholinergics.**
+> **Blunted physiological responses** — reduced fever response, reduced tachycardic response (compounded by beta-blockers), reduced thirst.
+
+> [!danger] Illness presents atypically — and this is where diagnoses are missed
+> **· Myocardial infarction without chest pain** — presenting as dyspnoea, confusion, a fall or simply "not right".
+> **· Pneumonia without fever or cough** — presenting as delirium, tachypnoea or a fall.
+> **· Sepsis with confusion and hypothermia rather than fever.**
+> **· Hyperthyroidism as apathy, weight loss and atrial fibrillation** ("apathetic thyrotoxicosis") rather than agitation.
+> **· Depression as physical complaints and cognitive impairment.**
+> **· Abdominal catastrophe with minimal pain and a soft abdomen** — cross-refer [[03_Gastrointestinal]] §0.41.6 The Acute Abdomen in Special Groups.
+> **The corollary: a non-specific presentation in an older person — a fall, confusion, reduced mobility, "off legs" — is a symptom requiring a diagnosis, not a diagnosis in itself.**
+
+> [!tip] The "geriatric giants"
+> **Immobility · Instability (falls) · Incontinence · Impaired cognition · Iatrogenesis.**
+> These five presentations account for a large share of geriatric medicine, each is multifactorial, and each is a **final common pathway** for many underlying diseases rather than a diagnosis.
+
+> [!warning] Collateral history is not optional
+> The patient may not recall, may minimise, may have cognitive impairment, or may fear losing independence. **The family, carer, residential facility staff, GP and community pharmacist each hold part of the picture** — particularly regarding baseline function, medication adherence, and the timeline of decline.
+> **Ask specifically: what could they do six months ago that they cannot do now?** That single question establishes both the baseline and the trajectory.
+
+**S/Smx:** As above, elicited systematically across the five domains.
+
+**Ix:** **Baseline bloods — FBC, UEC, LFT, calcium, TFTs, glucose, B12 and folate, vitamin D, CRP** (*why:* covers the correctable metabolic, endocrine and nutritional contributors to almost every geriatric presentation; *what:* anaemia, renal impairment, hypercalcaemia, thyroid disease, deficiency). Urinalysis interpreted cautiously (*why:* **asymptomatic bacteriuria is extremely common in older people and a positive urine does not diagnose the cause of a fall or delirium** — treating it while missing the real cause is a recurring error; *what:* infection in clinical context). ECG (*why:* silent ischaemia and arrhythmia; *what:* the trace). **Cognitive screening with a tool appropriate to language and education** (*why:* baseline and detection — cross-refer [[04_Neurology]] Dementias; *what:* impairment). **Functional assessment** (*why:* determines care needs and prognosis more than any diagnosis; *what:* ADL and IADL dependence). **Medication reconciliation** (*why:* see 0.4; *what:* the true list, including over-the-counter and complementary products). Postural blood pressure, vision, hearing, weight and nutritional screening (*why:* all are common, contributory and correctable; *what:* deficits).
+
+#### Mx – Immediate — GER1 §0.1.1
+Treat the acute problem, and simultaneously begin the functional and social assessment — **discharge planning starts on admission, not on the day of discharge.**
+
+#### Mx – Definitive — GER1 §0.1.2
+Interdisciplinary team management — medical, nursing, physiotherapy, occupational therapy, speech pathology, dietitian, pharmacist, social work.
+
+#### Mx – Chronic/long-term — GER1 §0.1.3
+Coordinated follow-up with the GP, community supports, and a documented plan. **Advance care planning** — cross-refer [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment.
+
+### Frailty — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A state of **increased vulnerability to stressors**, resulting from cumulative decline across multiple physiological systems, such that a minor insult produces a disproportionate and often lasting deterioration.
+
+> [!tip] Frailty is not the same as age, comorbidity or disability
+> They overlap but are distinct. **A 90-year-old may be robust; a 65-year-old with multiple conditions may be severely frail.**
+> **Frailty predicts outcomes better than age or diagnosis**, which is why it has become central to decision-making about surgery, chemotherapy, intensive care, dialysis, anticoagulation and screening.
+
+> [!info] The two models
+> **Phenotype model (Fried)** — frailty as a syndrome defined by **unintentional weight loss, self-reported exhaustion, weakness (grip strength), slow gait speed, and low physical activity.** Meeting a threshold number of criteria defines frailty, with an intermediate "pre-frail" state.
+> **Deficit accumulation model** — frailty as the proportion of accumulated deficits across many domains. Operationalised most usefully as the **Clinical Frailty Scale**, a nine-point judgement-based scale developed at **Dalhousie University**, running from very fit through to terminally ill.
+> **The Clinical Frailty Scale is widely used in Australian hospitals**, including for intensive care triage and perioperative decision-making, and **it is scored on the patient's baseline two weeks before the acute illness, not on how they look in the bed today.** Scoring an acutely delirious pneumonia patient as severely frail because they cannot currently mobilise is a common and consequential error. `UNVERIFIED — the scale descriptors and scoring rules.`
+
+> [!warning] Sarcopenia
+> **Loss of skeletal muscle mass, strength and function** — the physical substrate of much of frailty.
+> Driven by ageing, inactivity, inadequate protein intake, inflammation and illness. **Hospitalisation accelerates it dramatically — bed rest causes measurable muscle loss within days**, which is the argument for early mobilisation.
+> **The intervention with the best evidence is resistance exercise combined with adequate protein intake.** Both are under-prescribed, and older people are frequently advised to rest when they should be moving.
+
+> [!danger] Frailty is partly reversible — treat it as modifiable, not as a verdict
+> **Interventions with evidence: resistance and balance exercise · adequate protein and energy intake · deprescribing · correction of vision and hearing · treatment of depression · social engagement · management of pain.**
+> **Using a frailty score purely to withhold treatment is a misuse of the concept.** It is intended to individualise decisions and to identify people who need *more* support, not to ration by proxy. Where it does justify a different approach — avoiding a burdensome intervention unlikely to benefit — that should be an explicit shared decision, not an unspoken one.
+
+**S/Smx:** Fatigue, weight loss, slow gait, weakness, reduced activity, falls, delirium with minor illness, and prolonged recovery from stressors.
+
+**Ix:** **Clinical Frailty Scale or an equivalent, scored at baseline** (*why:* it predicts outcome and guides decisions across specialties; *what:* frailty grade). **Gait speed and grip strength** (*why:* simple, objective, and among the best single predictors of adverse outcomes; *what:* slow gait, weak grip). **Timed Up and Go** (*why:* combines strength, balance and gait in one repeatable measure; *what:* prolonged time). Nutritional screening and weight trajectory (*why:* malnutrition and sarcopenia are common and treatable; *what:* weight loss, poor intake). FBC, albumin, vitamin D, B12, TFTs (*why:* correctable contributors; *what:* anaemia, deficiency). Assessment for depression (*why:* it mimics and worsens frailty and is treatable; *what:* depressive symptoms).
+
+#### Mx – Immediate — GER1 §0.2.1
+Recognise it, and adjust the acute plan — lower thresholds for delirium prevention, earlier mobilisation, more cautious prescribing.
+
+#### Mx – Definitive — GER1 §0.2.2
+Multicomponent intervention: exercise, nutrition, deprescribing, sensory correction, treatment of contributing conditions.
+
+#### Mx – Chronic/long-term — GER1 §0.2.3
+Ongoing exercise programs, community supports, and **use of the frailty assessment to inform advance care planning and to guide goals-of-care conversations** — cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+### Malnutrition and Nutrition — from unverified layer
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Malnutrition is common, consequential and under-diagnosed
+> A large proportion of older hospital inpatients and residential care residents are malnourished or at risk, and **it is documented in a small fraction of them.**
+> **Consequences: impaired wound healing, infection, sarcopenia and falls, delirium, longer length of stay, readmission, and increased mortality.**
+> **Screen everyone** — a validated tool such as the Malnutrition Screening Tool takes a minute and asks essentially two things: **have you lost weight without trying, and have you been eating poorly?** `UNVERIFIED — the tools, thresholds and scoring.`
+
+> [!tip] Why older people eat less — and most of it is fixable
+> **· Poor dentition, ill-fitting dentures, and dentures left at home during admission.**
+> **· Dysphagia** — cross-refer [[04_Neurology]] Speech, Voice and Swallowing.
+> **· Reduced smell and taste** — cross-refer [[04_Neurology]] Smell and Taste.
+> **· Medications** — nausea, dry mouth, altered taste, anorexia, and polypharmacy generally.
+> **· Depression** — a leading and treatable cause of weight loss in older people.
+> **· Dementia** — apraxia of feeding, distraction, forgetting to eat, refusal.
+> **· Social** — isolation, bereavement, poverty, inability to shop or cook.
+> **· Pain, constipation, and nausea.**
+
+> [!danger] The hospital-specific barriers, which are our fault and are fixable
+> **· Repeated nil by mouth orders for tests that are then delayed or cancelled.**
+> **· Meals delivered and removed without anyone helping the patient eat.**
+> **· Packaging that an older person with arthritis or weakness cannot open.**
+> **· Poor positioning** — trying to eat lying flat or slumped.
+> **· The tray placed out of reach.**
+> **· Ward rounds and procedures during mealtimes.**
+> **Protected mealtimes, mealtime assistance, red tray systems and simply opening the packaging are effective interventions**, and noticing that a patient's tray has gone back untouched is a genuinely useful thing to do on a ward round.
+
+> [!warning] Refeeding syndrome
+> In a patient who has had prolonged inadequate intake, **reintroduction of nutrition drives insulin release and a rapid intracellular shift of phosphate, potassium and magnesium**, with potentially fatal cardiac, respiratory and neurological consequences.
+> **Identify at-risk patients before starting feeding, replace electrolytes, give thiamine, and reintroduce calories slowly with monitoring.** Cross-refer [[03_Gastrointestinal]] §0.41.20 Complications of Vomiting. `UNVERIFIED — risk criteria, electrolyte thresholds and the rate of caloric reintroduction.`
+
+> [!danger] PEG feeding in advanced dementia does not achieve what people expect
+> **The evidence indicates that gastrostomy feeding in advanced dementia does not prolong survival, does not prevent aspiration pneumonia, does not heal or prevent pressure injuries, and does not improve function or quality of life.**
+> **Careful hand feeding, with attention to positioning, texture, food preferences, unhurried assistance and mouth care, is the recommended alternative** and is what families are frequently not offered as an option.
+> This conversation is difficult because families experience "not feeding" as abandonment. **The framing that helps is that the goal is comfort and pleasure in eating rather than a nutritional target**, and that hand feeding continues rather than stopping. Cross-refer 0.5 and [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment.
+
+> [!tip] Practical nutrition management
+> **Food first** — fortified meals, high-energy high-protein options, frequent small meals, nourishing fluids. Then oral nutrition supplements. Then enteral feeding where appropriate to the goals of care.
+> **Texture-modified diets and thickened fluids** are described using the **IDDSI framework** in Australian practice. Note that **thickened fluids reduce coughing but reduce fluid intake and are unpleasant**, so they are not universally beneficial and should be a considered decision with speech pathology rather than a reflex. `UNVERIFIED — the IDDSI levels and descriptors.`
+> **Dietitian referral**, which is under-used.
+
+**Ix:** **Weight and weight trajectory** (*why:* the single most useful nutritional measure, and weighing patients is routinely omitted; *what:* percentage weight loss over time). **Validated malnutrition screening tool** (*why:* identifies risk quickly and triggers dietitian referral; *what:* screening score). Albumin, interpreted with caution (*why:* it is a **negative acute phase reactant and reflects inflammation more than nutrition**, so a low albumin in an unwell patient does not by itself indicate malnutrition; *what:* level in context). **Phosphate, potassium, magnesium and thiamine status before and during refeeding** (*why:* refeeding syndrome; *what:* falling electrolytes). FBC, iron studies, B12, folate, vitamin D, zinc (*why:* specific deficiencies; *what:* deficiency). **Dental and oral examination** (*why:* an entirely mechanical and correctable cause; *what:* dentition, candidiasis, ulceration, denture fit). Swallow assessment (*why:* dysphagia; *what:* aspiration risk).
+
+#### Mx – Immediate — GER2 §0.3.1
+Ensure the patient can actually eat what is in front of them — position, assistance, packaging, dentures, and reversal of unnecessary fasting.
+
+#### Mx – Definitive — GER2 §0.3.2
+Dietitian-led nutrition plan, treatment of contributing causes, and speech pathology for dysphagia.
+
+#### Mx – Chronic/long-term — GER2 §0.3.3
+Meals services, shopping and cooking support, social eating, and **carer education.** Ongoing weight monitoring.
+
+
+
+
 ## Polypharmacy and Deprescribing
 
 > [!note] Gap-filled from CSV ("Polypharmacy review / deprescribing in the elderly," High yield). Genuinely absent as content: polypharmacy appeared only as checklist bullets inside [[Communication]] Management of Patients with Multiple Chronic Medical Problems and [[Communication]] Caring for the Elderly in the Community (Dementia, Mobility, Parkinson's, Recurrent Falls) — "review for sedating, anticholinergic, and hypotension-causing medications" — with no method for actually doing it, and no mention of Beers, STOPP/START, the prescribing cascade, or tapering anywhere in the corpus. Verified against the RACGP aged care clinical guide (Silver Book, 5th edition) Parts A "Polypharmacy" and "Deprescribing", and the *Deprescribing in Older People: A Clinical Practice Guideline* summary (MJA, 2026), Aug 2026.
@@ -209,6 +488,73 @@ This is not a marginal issue in Australian practice — **roughly 20–34% of ol
 > [!tip] Deprescribing is a shared decision, and forced or abrupt withdrawal is both unsafe and counterproductive. The evidence on what makes it succeed is unglamorous: the patient's trust in the prescriber, a gradual taper, and an explicit agreement that a medicine can be restarted if stopping it turns out to be the wrong call. Framing matters — "let's see whether you still need this" is heard very differently from "I'm taking you off this."
 
 ---
+
+### Polypharmacy and Deprescribing — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Polypharmacy** is commonly defined as the concurrent use of five or more regular medicines — but **the number matters less than the appropriateness.** A patient on eight medicines all clearly indicated is in a better position than one on four that are not.
+
+> [!danger] The prescribing cascade
+> **A drug side effect is mistaken for a new medical condition, and a second drug is prescribed to treat it.**
+> **Recognisable examples:**
+> **· Calcium channel blocker → ankle oedema → furosemide** (and then hyponatraemia and falls). Cross-refer [[01_Cardiovascular]] §0.36 Vascular Disease.
+> **· Metoclopramide or prochlorperazine → drug-induced parkinsonism → levodopa.** Cross-refer [[04_Neurology]] Parkinsonism.
+> **· Anticholinergic → dry mouth, constipation, urinary retention → laxatives and further drugs.**
+> **· NSAID → hypertension → antihypertensive.**
+> **· Cholinesterase inhibitor → urinary urgency → oxybutynin** (which then opposes the cholinesterase inhibitor and worsens cognition).
+> **The question that breaks the cascade: "could this new symptom be caused by a medicine they are already taking?"** Ask it before every new prescription in an older person.
+
+> [!warning] The high-risk classes in older people
+> **· Benzodiazepines and Z-drugs** — falls, fractures, delirium, cognitive impairment, dependence. **Among the highest-yield deprescribing targets.**
+> **· Anticholinergics** — see the box below.
+> **· Antipsychotics** — increased stroke and mortality in dementia. Cross-refer [[04_Neurology]] Delirium–0.3.
+> **· Opioids** — falls, constipation, delirium, respiratory depression.
+> **· NSAIDs** — acute kidney injury, GI bleeding, heart failure, hypertension. **Rarely appropriate long-term in an older person.**
+> **· Sulfonylureas** — hypoglycaemia, which in an older person causes falls, confusion and death.
+> **· Digoxin** — narrow therapeutic index with reduced renal clearance.
+> **· Proton pump inhibitors** — frequently continued indefinitely without indication. Cross-refer [[03_Gastrointestinal]] §0.28.1 Dyspepsia, Reflux and Heartburn.
+> **· Tricyclics and first-generation antihistamines** — anticholinergic and sedating.
+
+> [!danger] Anticholinergic burden is cumulative and is measured across the whole list
+> **Many drugs have modest anticholinergic activity, and the effect is additive.** A patient on an antihistamine, an antidepressant, a bladder antimuscarinic and a tricyclic for pain may have a substantial total burden without any single "anticholinergic" drug.
+> **Consequences: delirium, cognitive decline, falls, dry mouth and dental disease, constipation, urinary retention, blurred vision, and impaired heat regulation.**
+> **Calculate or at least consider the total anticholinergic burden** rather than assessing drugs one at a time — cross-refer the existing corpus entry [[18_Geriatrics_and_Older_Persons_Health]] on anticholinergic burden.
+
+> [!tip] Tools that structure the review
+> **· STOPP/START criteria** — explicit lists of potentially inappropriate prescriptions (STOPP) and of indicated treatments that are being omitted (START). **The START half matters: under-prescribing is as real a problem as over-prescribing**, and older people are frequently denied anticoagulation, statins, osteoporosis treatment and analgesia on the basis of age alone.
+> **· Beers criteria** — American, widely cited, useful with the caveat that some agents differ from Australian practice.
+> **· Drug Burden Index** — quantifies cumulative anticholinergic and sedative exposure.
+> `UNVERIFIED — the criteria themselves.`
+
+> [!info] The Australian medication review services
+> **· Home Medicines Review (HMR)** — a GP-initiated, Medicare-funded review conducted by an accredited pharmacist **in the patient's home**, which is where the actual medication practices are visible: the expired boxes, the duplicated brands, the doses not being taken.
+> **· Residential Medication Management Review (RMMR)** — the equivalent for residential aged care.
+> **These are under-utilised, and referring for one is a concrete, fundable action** you can recommend. `UNVERIFIED — current eligibility and referral requirements.`
+
+> [!warning] How to deprescribe
+> **1. Get an accurate list** — including over-the-counter, complementary and "as needed" medicines, and what they are **actually taking** rather than what is on the chart.
+> **2. For each: what is the indication, is it still valid, is it working, and do the benefits still outweigh the harms given the patient's remaining life expectancy and goals?** A statin started for primary prevention at 60 may not serve an 88-year-old with limited life expectancy; the same statin after a myocardial infarction may.
+> **3. Prioritise** — start with the highest-risk, lowest-benefit agents.
+> **4. Taper where necessary** — **benzodiazepines, opioids, antidepressants, corticosteroids, beta-blockers, gabapentinoids and PPIs all have withdrawal or rebound effects**, and abrupt cessation causes harm and convinces the patient they need the drug.
+> **5. Change one thing at a time, and monitor.**
+> **6. Involve the patient and carer** — deprescribing without explanation feels like the withdrawal of care, and it fails.
+
+> [!danger] Renal function is overestimated in older people
+> **Creatinine is produced by muscle. An older person with low muscle mass can have a "normal" creatinine and substantially impaired renal function.**
+> **eGFR equations are less reliable at the extremes of body habitus and age**, and many drug dose adjustments are based on creatinine clearance rather than eGFR.
+> **The practical consequence: renally cleared drugs — including DOACs, metformin, gabapentinoids and many antibiotics — are routinely overdosed in frail older people with a normal-looking creatinine.**
+
+**Ix:** **A complete medication reconciliation from multiple sources** (*why:* the hospital list, the GP list, the pharmacy dispensing record and what is actually in the patient's bag routinely disagree, and the discrepancies are where the harm sits; *what:* the true regimen). **UEC with eGFR, interpreted with the caveat above** (*why:* dose adjustment; *what:* renal function). Drug levels where relevant — digoxin, phenytoin, lithium (*why:* narrow therapeutic index with reduced clearance; *what:* toxicity). Postural blood pressure (*why:* identifies drug-induced orthostatic hypotension causing falls; *what:* postural drop). Cognitive and functional assessment (*why:* both are affected by drug burden and both improve with deprescribing; *what:* impairment). **Anticholinergic burden calculation** (*why:* the cumulative effect is invisible if drugs are assessed individually; *what:* total burden).
+
+#### Mx – Immediate — GER1 §0.4.1
+Withhold contributing drugs in an acute presentation — falls, delirium, hypotension, acute kidney injury.
+
+#### Mx – Definitive — GER1 §0.4.2
+Structured deprescribing as above, with a Home Medicines Review where appropriate.
+
+#### Mx – Chronic/long-term — GER1 §0.4.3
+**Document the deprescribing rationale clearly**, so the next clinician does not simply restart it — this is the commonest reason deprescribing fails. Communicate with the GP and community pharmacist. Use dose administration aids where adherence is the issue, and address cost, which is a genuine and under-asked barrier.
+
 
 ## Abuse of Older People (Elder Abuse) and Carer Stress
 
@@ -309,19 +655,85 @@ The scale of the problem is Australian and specific: **more than half of medicat
 
 > [!tip] The commonest avoidable discharge failures, in the order they occur: planning started too late for the services to be arranged; discharge to a function level below baseline with no new support; a medication list that does not say what changed or why; and a follow-up plan that depends on an appointment nobody actually booked.
 
-## Added from unverified layer — two funding pathways outside aged care
+### Functional Assessment and the Australian Aged Care System — from unverified layer
 `SRC:GER1_Comprehensive_Geriatric_Assessment §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former two-funding-pathways fragment; its eligibility marker is carried onto the NDIS line it belongs to.*
 
-The aged care pathways above are not the only ones, and the two below are missed because nobody asks:
+> [!tip] ADLs and IADLs — and why the distinction matters
+> **Basic activities of daily living (ADLs)** — **D**ressing, **E**ating, **A**mbulating, **T**oileting, **H**ygiene.
+> **Instrumental activities of daily living (IADLs)** — **S**hopping, **H**ousekeeping, **A**ccounting (managing money), **F**ood preparation, **T**ransport (and telephone, and medication management).
+> **IADLs require more complex cognition and decline FIRST.** So **the earliest functional sign of cognitive decline is usually difficulty with finances, medications, transport or shopping — not with dressing or eating.**
+> Ask about these specifically. "Are you managing at home?" gets a yes from almost everyone.
 
-- **Veterans may access DVA-funded services**, which are **separate from aged care, and often quicker**. **Always ask about veteran status** — it opens a different and frequently better-resourced pathway that families routinely do not know exists.
-- **For a younger person with disability, the NDIS rather than aged care** is the correct scheme. Age is the branch point, and routing someone into the wrong system costs months.
+> [!warning] The Australian aged care pathway — and a caveat
+> **`My Aged Care` is the single national entry point** — by phone or online — for assessment and services.
+> Assessment has historically been through two streams: a **lower-intensity assessment** for basic entry-level supports, and a **comprehensive assessment (traditionally by an Aged Care Assessment Team, ACAT)** for higher-level home care packages, residential aged care and respite.
+> **The system is currently mid-reform**, with the **Support at Home** program replacing previous home care arrangements, and assessment structures and program names changing accordingly.
+> `UNVERIFIED — program names, assessment pathways, eligibility, funding levels and waiting times have all changed and continue to change. Verify against My Aged Care and the Department of Health and Aged Care before advising a patient or family. Do not quote package levels or waiting times from memory.`
 
-`UNVERIFIED — current eligibility criteria and the age boundary between NDIS and aged care, and what DVA covers; both are open government sources.`
+> [!tip] Practical supports worth knowing exist
+> **· Home support services** — domestic assistance, personal care, meals, transport, social support, allied health, home modifications, nursing.
+> **· Home care packages** at graded levels of funding for more complex needs.
+> **· Residential aged care** — permanent and respite.
+> **· Transition care** after hospital, providing time-limited therapy and support to maximise recovery before a permanent decision is made — **valuable, and under-used, because it prevents premature placement decisions made from a hospital bed.**
+> **· Carer supports** — Carer Payment and Carer Allowance through Centrelink, carer respite, and Carer Gateway.
+> **· Continence support schemes** and equipment funding.
+> **· For younger people with disability, the NDIS rather than aged care.**
+> `UNVERIFIED — current eligibility criteria and the age boundary between NDIS and aged care, and what DVA covers; both are open government sources.`
+> **· Veterans may access DVA-funded services**, which are separate and often quicker — **always ask about veteran status**, because it opens a different and frequently better-resourced pathway that families do not know about.
 
-## Added from unverified layer — two things done on admission
-`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.2` `SRC:GER2 §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+> [!danger] Do not make permanent placement decisions from an acute hospital bed
+> **A patient assessed during or immediately after an acute illness will function far below their baseline**, and decisions made at that point systematically over-estimate the level of care needed.
+> **Rehabilitation, transition care, and a period at home with supports should generally precede any permanent residential decision.** Families under pressure in a hospital corridor make decisions they later regret, and the hospital's need for the bed should not drive it.
 
-- **Pressure injury risk is scored, not eyeballed.** The **Waterlow** and **Braden** scales are the instruments in use; the staging and the repositioning regimen are covered elsewhere in this file, but neither happens unless someone scores the risk on admission and it drives a plan. `UNVERIFIED — which scale is used in your health network, and its action thresholds.`
-- **Delirium prevention is a bundle, and it is more effective than treatment.** Reorientation, sleep protection, early mobilisation, hearing and visual aids in place, hydration, and avoiding precipitant drugs — delivered together, from admission, to every at-risk patient rather than started after delirium appears. See [[04_Neurology]] §Delirium for the syndrome itself, which this does not repeat. `UNVERIFIED — whether an Australian bundle is specified by name, and its components; NSW ACI or your health network.`
+> [!warning] Elder abuse — ask about it
+> Physical, psychological, financial, sexual, and neglect. **Financial abuse is the commonest and the least recognised** — misuse of a power of attorney, pressure to transfer assets or sign documents, "inheritance impatience".
+> **Warning signs: unexplained injuries, a carer who answers all questions and will not leave the room, unexplained financial difficulty, missed appointments, poor adherence, malnutrition, poor hygiene, fear or deference toward a family member.**
+> **Speak to the person alone.** Cross-refer `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)`. `UNVERIFIED — reporting obligations for elder abuse in South Australia, and the relevant services and hotlines.`
+
+**Ix:** **Structured ADL and IADL assessment** (*why:* determines care needs and is the basis of any aged care referral; *what:* dependence in each domain). **Occupational therapy home assessment** (*why:* function in a clinic bears limited relationship to function at home, and the home visit identifies hazards and equipment needs that no other assessment will; *what:* hazards, equipment, actual performance). Physiotherapy mobility assessment (*why:* determines aids, transfers and falls risk; *what:* gait, transfers, aid requirement). Cognitive assessment (*why:* determines capacity for self-care and for decision-making; *what:* impairment). **Social work assessment** (*why:* identifies carer strain, financial issues, housing and abuse; *what:* social supports and risks). Nutritional assessment (*why:* malnutrition is common and predicts poor outcome; *what:* weight loss, intake).
+
+#### Mx – Immediate — GER1 §0.3.1
+Ensure safety at discharge — supports in place before, not after, the patient goes home.
+
+#### Mx – Definitive — GER1 §0.3.2
+Referral to My Aged Care for assessment, with allied health input and equipment provision.
+
+#### Mx – Chronic/long-term — GER1 §0.3.3
+Review as needs change. **Support the carer explicitly — ask how they are, and offer respite before they are in crisis**, because carer breakdown is a leading reason for unplanned residential placement.
+
+
+### Immobility, Deconditioning and Hospital-Associated Decline — from unverified layer
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Deconditioning in hospital is iatrogenic and it is fast
+> **Measurable muscle loss occurs within days of bed rest**, and it is disproportionately severe in older people who have little reserve. A patient admitted walking independently can be discharged unable to transfer, having received entirely correct treatment for the condition they came in with.
+> **A substantial proportion of older people never regain their pre-admission functional level.**
+
+> [!warning] The consequences of immobility
+> **Falls · pressure injury · venous thromboembolism · pneumonia and atelectasis · constipation · urinary retention and infection · delirium · insulin resistance · bone loss · and functional decline leading to residential placement.**
+
+> [!tip] The "tethers" — remove them
+> **Intravenous lines, urinary catheters, oxygen tubing, telemetry leads, drains, and infusion pumps all physically prevent a patient from getting out of bed.**
+> **On every ward round, ask of each attachment: is this still needed today?** Removing an unnecessary catheter or converting IV to oral medication is a mobility intervention, not just a tidying exercise.
+
+> [!tip] What helps
+> **· Mobilise from day one**, with physiotherapy involvement early rather than at discharge planning.
+> **· Get the patient dressed in their own clothes and sitting out of bed for meals.**
+> **· Sensory aids in place** — glasses and hearing aids, without which orientation, engagement and safety all deteriorate.
+> **· Avoid unnecessary bed rest orders**, which are often written reflexively and never rescinded.
+> **· Delirium prevention, which is a BUNDLE and is more effective than treatment.** Reorientation, sleep protection, early mobilisation, hearing and visual aids in place, hydration, and avoiding precipitant drugs — delivered together, from admission, to every at-risk patient rather than started after delirium appears. Inseparable from mobility. See [[04_Neurology]] Delirium for the syndrome itself, which this does not repeat. `UNVERIFIED — whether an Australian bundle is specified by name, and its components; NSW ACI or your health network.`
+> **· Early involvement of allied health and early discharge planning.**
+
+**Ix:** **Baseline functional status from collateral history** (*why:* you cannot detect decline without knowing the starting point, and "independent at home" needs unpacking; *what:* pre-admission mobility and ADL function). Physiotherapy and occupational therapy assessment (*why:* objective measurement and a rehabilitation plan; *what:* mobility, transfers, equipment needs). Daily review of attachments and mobility status (*why:* mobility deteriorates silently unless it is actively tracked; *what:* what the patient did today).
+
+#### Mx – Immediate — GER2 §0.4.1
+Mobilise. Remove unnecessary tethers.
+
+#### Mx – Definitive — GER2 §0.4.2
+Rehabilitation — inpatient, transition care, or community — matched to need.
+
+#### Mx – Chronic/long-term — GER2 §0.4.3
+Ongoing exercise, equipment, home supports, and **realistic goal-setting with the patient and family.**
+
 

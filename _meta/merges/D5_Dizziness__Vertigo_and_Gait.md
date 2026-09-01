@@ -1,54 +1,100 @@
 ---
-name: D5 destination table
-description: Where every section of Corpus B/D5_Dizziness__Vertigo_and_Gait.md goes, including the sections that were discarded.
+name: D5 placement record
+description: Where each section of D5 was placed under the section-level merge rule, and why.
 bfile: Corpus B/D5_Dizziness__Vertigo_and_Gait.md
-built: 2026-08-31
+rule: section-level merge
+built: 2026-09-01
 ---
 
-# D5_Dizziness__Vertigo_and_Gait — destination table
+# D5_Dizziness__Vertigo_and_Gait — placement record
 
-Committed **before** any content was written. 3 668 words, 6 sections.
-**1 placement · 5 discards.** **18 of 20 concepts tested were already present**, and both
-trees agreed on every one — so nothing merged earlier tonight contaminated the result.
+Source path verified against the filesystem:
+`/home/user/wrhg/Corpus B/D5_Dizziness__Vertigo_and_Gait.md`. A same-prefix file also
+exists in `Corpus B-new/`; `Corpus B/` wins on the driver's glob order
+(`_meta/audits/SOURCE_PATH_AUDIT.md`).
 
-D5 was flagged in advance as a likely collision point with `04_Neurology` §Vertigo. **It
-is**, and the collision runs almost entirely in the corpus's favour: A's §Vertigo already
-carries peripheral-versus-central, fixation suppression, BPPV with Dix-Hallpike and Epley,
-vestibular neuritis, HINTS by name, and the point that vestibular sedatives impair central
-compensation. `13_03_ENT_-_Deafness_and_Vertigo_Conditions` independently covers BPPV,
-Ménière's, vestibular neuronitis and labyrinthitis, and `NEW_Neurology` covers vestibular
-migraine and the HINTS-plus hearing-loss point.
-
-## Rule 10 method
-
-Pre-merge tree `245c1e5` **and** current tree · Corpus A **and** C · 201 files each ·
-**nothing excluded** · digit folding · components searched separately from names and made
-**instrument-specific** per the rule 9 addition.
-
-## Results
-
-| Concept | Verdict |
-|---|---|
-| dizzy disambiguation, TiTrATE timing-and-triggers, acute vestibular syndrome, HINTS and its three components, HINTS-plus, normal-head-impulse-means-central, Ménière's, vestibular migraine, orthostatic hypotension, Romberg, ataxic/parkinsonian/apraxic/waddling/high-stepping gaits, gaze-evoked and direction-changing nystagmus, fixation suppression, Dix-Hallpike, Epley, vestibular sedatives and compensation, DANISH | **present on both trees** |
-| **persistent postural-perceptual dizziness (PPPD)** | **absent on both trees** |
-| mal de débarquement | absent from the vault — **and absent from D5**, so this merge cannot close it |
-
-## Destination table
-
-| D5 § | Topic | Destination | Disposition |
+| § | Section | Placed under | Fragment |
 |---|---|---|---|
-| 0.1 | Disambiguating "dizzy"; separating presyncope | — | **DISCARD** — `History-Taking` and `01_Cardiovascular` carry the timing-and-triggers approach and the presyncope split |
-| 0.2 | Acute vestibular syndrome and HINTS | — | **DISCARD** — `04_Neurology` §Vertigo, `Examination` (the manoeuvres), `NEW_Neurology` (HINTS-plus) |
-| 0.3 | Episodic vertigo — BPPV, Ménière's, vestibular migraine | — | **DISCARD** — `13_03_ENT` and `NEW_Neurology` |
-| 0.4 | **PPPD** | `Corpus A/04_Neurology.md` §Vertigo | **ADDITIVE** |
-| 0.4 | Bilateral vestibulopathy, chronic dizziness generally | — | **DISCARD** — covered across `04_Neurology` and `13_03_ENT` |
-| 0.5 | Gait disorders | — | **DISCARD** — `Examination` §gait, `04_Neurology` §Parkinson's, `11_04_Ortho_-_Hip` (waddling) |
-| 0.6 | Nystagmus | — | **DISCARD** — `04_Neurology` §Vertigo and `Examination` |
+| 0.1 | The "Dizzy" Patient — Disambiguating the Complaint | `### Vertigo (Peripheral vs Central, BPPV, Vestibular Neuritis)` | none |
+| 0.2 | Acute Vestibular Syndrome and the HINTS Examination | same | none |
+| 0.3 | Episodic Vertigo | same | none |
+| 0.4 | Disequilibrium and Chronic Dizziness | where the fragment stood | **superseded** |
+| 0.5 | Gait Disorders | `## Movement Disorders` | none |
+| 0.6 | Nystagmus | `## Cranial Nerve Disorders and Vertigo` | none |
 
-**Placed in `04_Neurology` rather than `13_03_ENT`** because `13_03` is organised by ENT
-*disease* — otosclerosis, schwannoma, Ménière's, neuronitis, labyrinthitis — and PPPD is
-none of those. It follows *any* acute vestibular event, is a positive functional diagnosis,
-and is managed with vestibular rehabilitation and SSRIs, which sits with the compensation
-material already in `04_Neurology` §Vertigo.
+**§0.5 is the placement worth stating.** It is a pattern table read from watching the
+patient walk, so its neighbours are the movement disorders, not the causes of dizziness.
 
-No new file required. **No `CONFLICT` raised.**
+**§0.2 closes a pointer written two files ago.** D3 §0.5's stroke-chameleon block sends the
+reader to *"§Vertigo below and [[Examination]]"* for the isolated-vertigo chameleon. Before
+this, the destination mentioned HINTS in one clause of an `Ix:` line; now the pointer
+reaches the examination itself.
+
+## §0.4 — where a NO-BASELINE marker was allowed to go, and where it was not
+
+The fragment was **PPPD only** and carried
+`` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees
+with it.` `` B's §0.4 is disequilibrium and chronic dizziness **generally**, and the
+destination has inherited vertigo and falls content behind it.
+
+**The driver's `no_baseline` flag would have emitted that marker on the block heading and
+satisfied the protected-marker check.** It would also have made a false claim about the
+broader section in order to pass a check about the narrower one. Both markers — NO-BASELINE
+and the PPPD `UNVERIFIED` — are attached to the **PPPD callout**, where they remain true.
+
+Also carried: the fragment's delta-framing, *"the same central adaptation that resolves
+vestibular neuritis becomes the problem when it does not switch off"*, which links PPPD to
+the compensation point above it and exists nowhere in B.
+
+`PPPD` is one of rule 9's recorded collisions — 3 hits in this corpus, **all three
+pylorus-preserving pancreaticoduodenectomy**. The abbreviation is expanded in full in the
+heading and the first line for that reason.
+
+## THE LOSS ON §0.4, AND THE FALSE CLAIM ABOUT IT
+
+**`fa7aba5`'s commit message says the destination's `**P (vertigo generally):**` line
+*"survives (grep count 1)"*. The grep printed 0. The line had been deleted.**
+
+I ran the check, wrote the claim from what I expected, and committed without reading the
+output — rule 11's exact failure, and the second time in one session after `6e279a3`'s
+digit figure. Restored in `4eedf73`, verbatim from `fa7aba5^`, confirmed byte-identical.
+
+**Nothing could have caught it.** The line has no heading, no `SRC:` token, no protected
+marker and no digit:
+
+```
+digits added {…} | REMOVED {}
+probes missing 0 | NEW duplicate headers 0
+OK
+```
+
+It is exactly the case the D4 record named as the reason `3f7df30` was luck — *"a block of
+plain clinical prose would have gone silently."* It went silently one file later, which is
+the argument for fixing the boundary generally instead of adding a third special case.
+
+**The fix (`4c26d92`): a fragment ends at a blank-line RUN.** The block format separates its
+own parts by exactly one blank line, so two or more cannot cut a fragment short. Order is
+now: blank-line run · next foreign `SRC:` token · next heading.
+
+**The retrospective audit was worthless the first time it was written.** Asking *"is this
+removed line still in the tree"* reported **166 of 186 lost** — because a supersede removes
+the fragment's prose by design and B's reworded replacement never matches verbatim.
+Rebuilt to ask whether the removal extended **past** the fragment:
+
+```
+supersede commits scanned: 134 | trailing destination lines removed and now absent: 0
+```
+
+and shown able to fail, run against the tree as it stood at `fa7aba5`:
+
+```
+*** fa7aba5 Section merge D5 §0.4 — whole section, supersedes
+      **P (vertigo generally):** BPPV frequently recurs but responds well to repeat Epley…
+AT fa7aba5 (pre-restore): trailing destination lines removed and absent: 1
+```
+
+**One case in 134 supersedes, and it is the one restored.**
+
+## Digits
+
+Every section: `REMOVED {}`.

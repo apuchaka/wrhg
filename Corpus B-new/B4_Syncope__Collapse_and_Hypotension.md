@@ -42,7 +42,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 **S/Smx:** As above, plus circumstances — posture at onset, activity, relation to exertion, meals, medication changes, and preceding palpitations or chest pain.
 
-**Ix:** **12-lead ECG in every patient with TLoC** (*why:* it is cheap, immediate, and the only routine test that identifies the conditions that kill — long QT, Brugada, pre-excitation, conduction disease, prior infarction and hypertrophy; *what:* see the ECG hunt list in 0.2). Bedside glucose (*why:* hypoglycaemia causes both loss of consciousness and seizure and is instantly reversible; *what:* low glucose). **Lying and standing blood pressure**, measured properly (*why:* orthostatic hypotension is common, easily demonstrated and routinely not measured because it takes a few minutes; *what:* postural fall). FBC (*why:* anaemia and occult GI bleeding present as syncope; *what:* haemoglobin). UEC and electrolytes (*why:* volume depletion and electrolyte disturbance; *what:* derangement). Pregnancy test in a woman of reproductive age (*why:* **ruptured ectopic pregnancy presents as collapse** and is rapidly fatal; *what:* positive test). Troponin only where ischaemia is clinically suspected (*why:* routine troponin in syncope generates more confusion than diagnosis — cross-refer [[B1]] 0.5; *what:* elevation in context). Further testing directed by the category identified — see 0.2.
+**Ix:** **12-lead ECG in every patient with TLoC** (*why:* it is cheap, immediate, and the only routine test that identifies the conditions that kill — long QT, Brugada, pre-excitation, conduction disease, prior infarction and hypertrophy; *what:* see the ECG hunt list in 0.2). Bedside glucose (*why:* hypoglycaemia causes both loss of consciousness and seizure and is instantly reversible; *what:* low glucose). **Lying and standing blood pressure**, measured properly (*why:* orthostatic hypotension is common, easily demonstrated and routinely not measured because it takes a few minutes; *what:* postural fall). FBC (*why:* anaemia and occult GI bleeding present as syncope; *what:* haemoglobin). UEC and electrolytes (*why:* volume depletion and electrolyte disturbance; *what:* derangement). Pregnancy test in a woman of reproductive age (*why:* **ruptured ectopic pregnancy presents as collapse** and is rapidly fatal; *what:* positive test). Troponin only where ischaemia is clinically suspected (*why:* routine troponin in syncope generates more confusion than diagnosis — cross-refer [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.5; *what:* elevation in context). Further testing directed by the category identified — see 0.2.
 
 ### 0.1.1 Mx – Immediate
 A–E, glucose, ECG, lying and standing blood pressure, collateral history. Look for and treat injury sustained in the collapse.
@@ -51,7 +51,7 @@ A–E, glucose, ECG, lying and standing blood pressure, collateral history. Look
 Category-specific, per 0.2.
 
 ### 0.1.3 Mx – Chronic/long-term
-**Driving advice, given and documented at the first presentation** — cross-refer [[A10]] 0.6. Non-driving periods differ for syncope and seizure, for treated and untreated causes, and for private and commercial licences.
+**Driving advice, given and documented at the first presentation** — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6. Non-driving periods differ for syncope and seizure, for treated and untreated causes, and for private and commercial licences.
 
 ---
 
@@ -115,7 +115,7 @@ Driving advice. Occupational advice for those working at height, with machinery,
 > [!warning] Distinguish presyncope from vertigo and from disequilibrium
 > Patients use "dizzy" for at least four different things, and the word alone is uninformative. Ask them to describe it without using the word:
 > **· Presyncope** — "about to faint", greying vision, going down.
-> **· Vertigo** — an illusion of movement, spinning of self or surroundings. Points to vestibular pathology — cross-refer [[D5]].
+> **· Vertigo** — an illusion of movement, spinning of self or surroundings. Points to vestibular pathology — cross-refer [[D5_Dizziness__Vertigo_and_Gait]].
 > **· Disequilibrium** — unsteadiness on the feet with a clear head. Points to gait, proprioceptive or cerebellar problems.
 > **· Non-specific lightheadedness** — often anxiety, hyperventilation, or medication.
 > Getting this distinction right redirects the entire workup, and it costs one well-phrased question.
@@ -144,7 +144,7 @@ As per 0.2, including driving advice where the episodes are unpredictable.
 > **If the fall was unwitnessed and the patient does not clearly recall hitting the ground, assume syncope and investigate accordingly.** Patients frequently have no memory of losing consciousness and will honestly report that they simply tripped.
 
 > [!warning] The long lie
-> An older person on the floor for hours accumulates **rhabdomyolysis, acute kidney injury, hypothermia, dehydration, pressure injury and aspiration** — cross-refer [[A6]] 0.5 and [[A7]] 0.6. **Ask how long they were down**, and check a CK, potassium, renal function and temperature in anyone who was there for a prolonged period.
+> An older person on the floor for hours accumulates **rhabdomyolysis, acute kidney injury, hypothermia, dehydration, pressure injury and aspiration** — cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.5 and [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6. **Ask how long they were down**, and check a CK, potassium, renal function and temperature in anyone who was there for a prolonged period.
 > The long lie is also a strong marker of social vulnerability, and it should trigger a conversation about living arrangements, alarms and support.
 
 > [!tip] The multifactorial falls assessment
@@ -153,7 +153,7 @@ As per 0.2, including driving advice where the episodes are unpredictable.
 
 **S/Smx:** Circumstances of the fall, whether consciousness was lost, prodrome, time on the floor, injuries, and the presence of any preceding illness or medication change.
 
-**Ix:** **CK, UEC and potassium** where the patient was down for a prolonged period (*why:* rhabdomyolysis and hyperkalaemia are common after a long lie and will be missed unless specifically sought; *what:* raised CK, rising creatinine, hyperkalaemia). Core temperature (*why:* hypothermia after a long lie occurs indoors and is easily missed; *what:* low temperature). ECG and postural blood pressure (*why:* the fall may be syncope; *what:* arrhythmia, conduction disease, postural drop). Bedside glucose (*why:* hypoglycaemia; *what:* low glucose). FBC, CRP, urinalysis and cultures (*why:* infection presents in the elderly as a fall with no other symptom; *what:* infective source). **CT head with a low threshold, particularly if anticoagulated** (*why:* subdural and intracranial haemorrhage after apparently minor head trauma in an anticoagulated older person, and delayed presentation is common; *what:* haemorrhage — cross-refer [[F0.5]] 0.8). Radiography of any painful area, with specific attention to the hip (*why:* **an impacted or undisplaced neck of femur fracture may allow weight-bearing and be missed on plain films**, so persistent pain warrants further imaging; *what:* fracture). Medication review (*why:* the commonest modifiable contributor; *what:* culprit drugs). Bone health assessment (*why:* the fall that caused a fragility fracture predicts the next one, and osteoporosis is under-treated after fractures; *what:* fracture risk, vitamin D).
+**Ix:** **CK, UEC and potassium** where the patient was down for a prolonged period (*why:* rhabdomyolysis and hyperkalaemia are common after a long lie and will be missed unless specifically sought; *what:* raised CK, rising creatinine, hyperkalaemia). Core temperature (*why:* hypothermia after a long lie occurs indoors and is easily missed; *what:* low temperature). ECG and postural blood pressure (*why:* the fall may be syncope; *what:* arrhythmia, conduction disease, postural drop). Bedside glucose (*why:* hypoglycaemia; *what:* low glucose). FBC, CRP, urinalysis and cultures (*why:* infection presents in the elderly as a fall with no other symptom; *what:* infective source). **CT head with a low threshold, particularly if anticoagulated** (*why:* subdural and intracranial haemorrhage after apparently minor head trauma in an anticoagulated older person, and delayed presentation is common; *what:* haemorrhage — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.8). Radiography of any painful area, with specific attention to the hip (*why:* **an impacted or undisplaced neck of femur fracture may allow weight-bearing and be missed on plain films**, so persistent pain warrants further imaging; *what:* fracture). Medication review (*why:* the commonest modifiable contributor; *what:* culprit drugs). Bone health assessment (*why:* the fall that caused a fragility fracture predicts the next one, and osteoporosis is under-treated after fractures; *what:* fracture risk, vitamin D).
 
 ### 0.4.1 Mx – Immediate
 Assess and treat injuries. Investigate for the cause. Rehydrate and correct electrolytes. Analgesia.
@@ -174,7 +174,7 @@ Treat the identified cause. Orthopaedic management of fractures.
 > **A blood pressure that is normal on paper may be profoundly hypotensive for a patient whose usual pressure is much higher.** A chronically hypertensive patient perfusing at 180 systolic may be shocked at 110. Conversely, a small young woman may live comfortably at 90.
 > **Compare against the patient's own baseline**, which is usually available in the record or from the GP, rather than against a population range. Failure to do this delays recognition of shock in exactly the patients who tolerate it worst.
 
-**A/P:** Blood pressure is the product of cardiac output and systemic vascular resistance. Hypotension therefore reflects a fall in preload, pump function, or vascular tone — which maps onto the shock phenotypes and their bedside signatures. Cross-refer [[F0.3]] 0.1 for the full phenotype framework, which is not repeated here.
+**A/P:** Blood pressure is the product of cardiac output and systemic vascular resistance. Hypotension therefore reflects a fall in preload, pump function, or vascular tone — which maps onto the shock phenotypes and their bedside signatures. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.1 for the full phenotype framework, which is not repeated here.
 
 > [!tip] Causes worth separating
 > **Hypovolaemic** — haemorrhage, dehydration, third-spacing, burns.
@@ -184,7 +184,7 @@ Treat the identified cause. Orthopaedic management of fractures.
 > **Iatrogenic** — this deserves separate emphasis on the ward, since it is the commonest cause of an inpatient hypotension call: antihypertensives given to a patient who is now dry or septic, opioids and sedatives, spinal and epidural anaesthesia, diuretics continued through an acute illness, and rapid infusion of certain drugs.
 
 > [!warning] Hypotension refractory to fluid and vasopressors — think of these
-> **Adrenal insufficiency** — cortisol is required for vascular responsiveness to catecholamines, and its absence produces vasoplegia that does not respond to noradrenaline. Look for hyponatraemia with hyperkalaemia and hypoglycaemia, and ask about steroid use or recent cessation. Cross-refer [[F0.3]] 0.6.
+> **Adrenal insufficiency** — cortisol is required for vascular responsiveness to catecholamines, and its absence produces vasoplegia that does not respond to noradrenaline. Look for hyponatraemia with hyperkalaemia and hypoglycaemia, and ask about steroid use or recent cessation. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.6.
 > **Tension pneumothorax and tamponade** — obstruction that no volume of fluid will overcome.
 > **Severe acidosis** — impairs catecholamine responsiveness.
 > **Anaphylaxis** — including biphasic and delayed presentations.
@@ -198,7 +198,7 @@ Treat the identified cause. Orthopaedic management of fractures.
 A–E, lie flat with legs elevated, oxygen, large-bore access, fluid challenge with **reassessment after each bolus** rather than a prescribed volume. Identify the phenotype. **Withhold the contributing drugs** — this is the fastest intervention available on a ward and is frequently overlooked while fluid is being run.
 
 ### 0.5.2 Mx – Definitive
-Phenotype-specific — cross-refer [[F0.3]]. Vasopressors and ICU where fluid-unresponsive. Hydrocortisone where adrenal insufficiency is plausible, given empirically rather than after confirmation.
+Phenotype-specific — cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]]. Vasopressors and ICU where fluid-unresponsive. Hydrocortisone where adrenal insufficiency is plausible, given empirically rather than after confirmation.
 
 ### 0.5.3 Mx – Chronic/long-term
 **Review the antihypertensive regimen** — an episode of hypotension in an older patient is a signal that the regimen may be too aggressive for their current state, and deprescribing is an active intervention rather than a failure. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing.
@@ -206,4 +206,4 @@ Phenotype-specific — cross-refer [[F0.3]]. Vasopressors and ICU where fluid-un
 ---
 
 > [!note] Cross-references
-> Shock phenotypes in full → [[F0.3]] 0.1–0.6 · Arrhythmia and bradycardia → [[B3]] · Aortic stenosis and murmurs → [[B5]] · Seizure and its differential → [[D6]] · Vertigo and disequilibrium → [[D5]] · Head injury on anticoagulants → [[F0.5]] 0.7–0.8 · Long lie, hypothermia and rhabdomyolysis → [[A6]] 0.5 and [[A7]] 0.6 · Adrenal crisis → [[F0.3]] 0.6 · Driving after syncope → [[A10]] 0.6 · Falls in the elderly → [[18_Geriatrics_and_Older_Persons_Health]]
+> Shock phenotypes in full → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.1–0.6 · Arrhythmia and bradycardia → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] · Aortic stenosis and murmurs → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] · Seizure and its differential → [[D6_Seizures_and_Movement_Disorders]] · Vertigo and disequilibrium → [[D5_Dizziness__Vertigo_and_Gait]] · Head injury on anticoagulants → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7–0.8 · Long lie, hypothermia and rhabdomyolysis → [[A6_Thermal_and_Environmental_Injury]] 0.5 and [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Adrenal crisis → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.6 · Driving after syncope → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 · Falls in the elderly → [[18_Geriatrics_and_Older_Persons_Health]]

@@ -67,12 +67,12 @@ source: built in chat, model knowledge, NOT source-verified
 > The dangerous consequence is not the pain; it is the **loss of protective sensation**, so trauma, pressure and infection go unnoticed until an ulcer is established.
 > **Every diabetic needs regular foot examination**: monofilament testing for protective sensation, vibration, pulses, inspection between the toes, and footwear assessment.
 > **Charcot neuroarthropathy** — a hot, swollen, red foot in a neuropathic diabetic, frequently misdiagnosed as cellulitis or gout. **It requires immediate offloading and non-weight-bearing**, because continued walking on it destroys the architecture of the foot permanently.
-> Cross-refer [[I2]] and [[B5]] 0.5.
+> Cross-refer [[I2_Diabetes_and_Glucose_Disorders]] and [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.5.
 
 > [!warning] Neuropathic pain — and what not to use
 > Treated with **tricyclics (amitriptyline, nortriptyline), duloxetine, and gabapentinoids (gabapentin, pregabalin)**, alongside non-pharmacological measures.
 > **Opioids are ineffective for most neuropathic pain and cause harm**, and reaching for them is a common error.
-> **Pregabalin misuse and diversion is a recognised problem in Australia**, and it is a monitored drug — **check ScriptCheckSA obligations** and be deliberate about prescribing it, particularly in patients with a substance use history. Cross-refer [[F0.4]] 0.9.
+> **Pregabalin misuse and diversion is a recognised problem in Australia**, and it is a monitored drug — **check ScriptCheckSA obligations** and be deliberate about prescribing it, particularly in patients with a substance use history. Cross-refer [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9.
 > `UNVERIFIED — all agents, doses, titration and current prescribing requirements.`
 
 **S/Smx:** Numbness, tingling, burning, allodynia, unsteadiness worse in the dark or with eyes closed, distal weakness, foot drop, and painless injury. Examine for the distribution, reflexes, proprioception and vibration, foot deformity, and skin and nail changes.
@@ -80,7 +80,7 @@ source: built in chat, model knowledge, NOT source-verified
 **Ix:** **Glucose and HbA1c, and consider an oral glucose tolerance test** (*why:* diabetes is the commonest cause, and **impaired glucose tolerance short of diabetes also causes neuropathy**, so a normal fasting glucose does not exclude it; *what:* hyperglycaemia, impaired tolerance). **B12 and folate** (*why:* treatable, and B12 deficiency causes a combined neuropathy and myelopathy; *what:* deficiency — with **methylmalonic acid or homocysteine where B12 is borderline**, since functional deficiency occurs at "low-normal" levels). UEC and eGFR (*why:* uraemic neuropathy; *what:* renal impairment). LFT and GGT (*why:* alcohol; *what:* the pattern). TFTs (*why:* hypothyroid neuropathy; *what:* raised TSH). **Serum protein electrophoresis and free light chains** (*why:* paraproteinaemic neuropathy and amyloidosis are specifically treatable and are missed unless requested; *what:* paraprotein). ESR, CRP, ANA, ANCA, rheumatoid factor (*why:* vasculitic neuropathy, particularly with a mononeuritis multiplex pattern; *what:* inflammation, autoantibodies). HIV, hepatitis and syphilis serology where risk factors (*why:* treatable infective causes; *what:* positive serology). **Nerve conduction studies and EMG** (*why:* confirms the neuropathy, and — critically — **distinguishes demyelinating from axonal**, which narrows the differential substantially: demyelinating points to GBS, CIDP, hereditary and paraproteinaemic causes, while axonal points to metabolic, toxic and most systemic causes; *what:* conduction velocity, amplitude, block). Genetic testing where hereditary neuropathy is suspected (*why:* diagnosis and family counselling; *what:* PMP22 and related). Nerve biopsy, rarely (*why:* reserved for suspected vasculitis or amyloid; *what:* histology).
 
 ### 0.2.1 Mx – Immediate
-Only in acute neuropathies — **GBS requires FVC monitoring and escalation.** Cross-refer [[F0.5]] 0.5.
+Only in acute neuropathies — **GBS requires FVC monitoring and escalation.** Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5.
 
 ### 0.2.2 Mx – Definitive
 Treat the cause. **CIDP responds to immunotherapy and should not be missed**, so a chronic progressive or relapsing demyelinating neuropathy warrants neurology referral rather than symptomatic management. Optimise glycaemic control. Cease the offending drug. Replace deficiencies.
@@ -115,7 +115,7 @@ Treat the cause. **CIDP responds to immunotherapy and should not be missed**, so
 
 > [!danger] Red flags in back or neck pain with radicular symptoms
 > **· Bilateral symptoms · saddle anaesthesia · bladder or bowel dysfunction, especially urinary retention · progressive or severe motor deficit · a sensory level · fever · night pain · weight loss · known malignancy · immunosuppression · significant trauma · age extremes.**
-> These indicate **cauda equina syndrome, cord compression, infection or malignancy** — cross-refer [[D3]] 0.6 and [[L4]]. **Urinary retention is the key objective finding in cauda equina — check a post-void residual.**
+> These indicate **cauda equina syndrome, cord compression, infection or malignancy** — cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.6 and [[L4_Back_and_Neck_Pain]]. **Urinary retention is the key objective finding in cauda equina — check a post-void residual.**
 
 > [!warning] Do not over-image, and do not over-interpret the images
 > **Most radiculopathy resolves with conservative management over weeks.** Imaging is indicated for **red flags, progressive neurological deficit, or persistent symptoms where intervention is being considered** — not for routine radicular pain.
@@ -132,7 +132,7 @@ Treat the cause. **CIDP responds to immunotherapy and should not be missed**, so
 Conservative management with **analgesia, early mobilisation and physiotherapy** — bed rest is harmful and should not be advised. Neuropathic agents for radicular pain. Epidural corticosteroid injection in selected cases. **Surgery for progressive or severe neurological deficit, cauda equina, or intractable pain failing conservative management.**
 
 ### 0.3.3 Mx – Chronic/long-term
-Exercise, posture and ergonomic advice, weight management, and **avoidance of catastrophising language** — telling a patient their spine is "crumbling" or "degenerating" measurably worsens outcomes. Cross-refer [[L4]].
+Exercise, posture and ergonomic advice, weight management, and **avoidance of catastrophising language** — telling a patient their spine is "crumbling" or "degenerating" measurably worsens outcomes. Cross-refer [[L4_Back_and_Neck_Pain]].
 
 ---
 
@@ -191,10 +191,10 @@ Ergonomic modification, weight management, and **an ankle-foot orthosis for pers
 
 > [!danger] Myasthenic crisis
 > **Respiratory failure from weakness of the diaphragm, intercostals and bulbar muscles.**
-> **Monitor serial forced vital capacity, NOT oxygen saturation** — the lungs are normal, so saturation and blood gases stay reassuring until abrupt decompensation. Cross-refer [[F0.5]] 0.5.
+> **Monitor serial forced vital capacity, NOT oxygen saturation** — the lungs are normal, so saturation and blood gases stay reassuring until abrupt decompensation. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5.
 > **Bulbar involvement adds aspiration risk independent of respiratory muscle strength**, and lowers the threshold for airway protection.
 > Treated with **IVIG or plasma exchange**, plus supportive ventilation. Precipitants: infection, surgery, pregnancy, drugs, and tapering immunosuppression.
-> **Cholinergic crisis** — over-treatment with cholinesterase inhibitors — produces weakness plus **muscarinic excess: salivation, lacrimation, diarrhoea, bradycardia, miosis and fasciculations.** Distinguishing it from myasthenic crisis matters because the treatments are opposite. Cross-refer [[F0.1]] 0.3.
+> **Cholinergic crisis** — over-treatment with cholinesterase inhibitors — produces weakness plus **muscarinic excess: salivation, lacrimation, diarrhoea, bradycardia, miosis and fasciculations.** Distinguishing it from myasthenic crisis matters because the treatments are opposite. Cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.3.
 
 > [!tip] Lambert-Eaton myasthenic syndrome — the one that improves with exercise
 > **Proximal lower limb weakness that TRANSIENTLY IMPROVES with sustained exercise (post-exercise facilitation)** — the opposite of myasthenia. **Reflexes are reduced or absent but RETURN after brief exercise**, which is a distinctive and testable bedside sign.
@@ -233,7 +233,7 @@ Pyridostigmine for symptoms, immunosuppression (corticosteroids and steroid-spar
 > **Endocrine** — **hypothyroidism and hyperthyroidism (both), Cushing syndrome, and osteomalacia from vitamin D deficiency**, which causes proximal weakness with bone pain and is fully treatable.
 > **Metabolic and mitochondrial** — exercise intolerance, cramps, myoglobinuria.
 > **Muscular dystrophies** — Duchenne, Becker, myotonic dystrophy (with **grip myotonia, frontal balding, cataracts, cardiac conduction disease** — the cardiac involvement matters and warrants surveillance).
-> **Rhabdomyolysis** — cross-refer [[A7]] 0.6.
+> **Rhabdomyolysis** — cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.
 
 > [!danger] Steroid myopathy has a NORMAL CK
 > **Corticosteroid-induced myopathy causes proximal weakness with a normal creatine kinase**, because it is a metabolic atrophy rather than a necrotising process.
@@ -289,4 +289,4 @@ Protective measures where sensation is lost — **foot care, water temperature c
 ---
 
 > [!note] Cross-references
-> Stroke, paresis patterns and cord compression → [[D3]] 0.6 · Guillain–Barré and neuromuscular respiratory failure → [[F0.5]] 0.5 · Generalised weakness and its systemic causes → [[B6]] 0.6 · Back and neck pain red flags → [[L4]] · Diabetes and foot care → [[I2]] · Peripheral arterial disease and the diabetic foot → [[B5]] 0.5–0.6 · Cholinergic toxidrome → [[F0.1]] 0.3 · Rhabdomyolysis → [[A7]] 0.6 · Inflammatory myopathy, PMR and widespread pain → [[L3]] · Facial palsy and cranial nerves → [[D7]] · Opioid and pregabalin prescribing → [[F0.4]] 0.9
+> Stroke, paresis patterns and cord compression → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.6 · Guillain–Barré and neuromuscular respiratory failure → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5 · Generalised weakness and its systemic causes → [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.6 · Back and neck pain red flags → [[L4_Back_and_Neck_Pain]] · Diabetes and foot care → [[I2_Diabetes_and_Glucose_Disorders]] · Peripheral arterial disease and the diabetic foot → [[B5_Murmurs__Endocarditis_and_Vascular_Disease]] 0.5–0.6 · Cholinergic toxidrome → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.3 · Rhabdomyolysis → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Inflammatory myopathy, PMR and widespread pain → [[L3_Muscle_Symptoms_and_Widespread_Pain]] · Facial palsy and cranial nerves → [[D7_Cranial_Nerves_and_Special_Senses]] · Opioid and pregabalin prescribing → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] 0.9

@@ -94,7 +94,7 @@ no_baseline: 0
 > **THE TRIGGERS ARE THE POINT, BECAUSE THEY ARE TREATABLE: HEPATITIS C (a strong association — test for it) · ALCOHOL · IRON OVERLOAD and HAEMOCHROMATOSIS (HFE mutations) · OESTROGENS · HIV · and smoking.**
 > **Diagnosis: URINARY PORPHYRINS — and the urine may show PINK-RED FLUORESCENCE under a Wood lamp, which is a memorable bedside finding.**
 > **Treatment: remove the triggers (alcohol, oestrogen), treat hepatitis C, VENESECTION to reduce iron, and low-dose hydroxychloroquine.** Cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.3.
-> **PSEUDOPORPHYRIA looks identical but has normal porphyrins — caused by NSAIDs (particularly naproxen), frusemide, tetracyclines, and dialysis.**
+> **PSEUDOPORPHYRIA looks identical but has normal porphyrins — caused by NSAIDs (particularly naproxen), furosemide, tetracyclines, and dialysis.** `UNVERIFIED — the NAME is corrected per the TGA Ingredient Harmonisation programme; the REGIMEN this line states is not thereby confirmed and needs a named Australian source.`
 
 > [!tip] Two more worth recognising
 > **· PHYTOPHOTODERMATITIS — a phototoxic reaction to furocoumarins in plant sap (LIME juice is the classic, also celery, parsnip, figs and rue) followed by sun exposure.**

@@ -63,7 +63,7 @@ Surveillance echocardiography at intervals determined by lesion severity. **Endo
 
 > [!danger] A new murmur in a febrile patient is infective endocarditis until proven otherwise
 > **Take three sets of blood cultures from separate sites before antibiotics, and arrange echocardiography.** The combination of fever and a new murmur is one of the highest-yield clinical pairings in medicine.
-> Risk groups: **prosthetic valves · previous endocarditis · congenital heart disease · injecting drug use** (characteristically right-sided, tricuspid, with septic pulmonary emboli and a relatively normal cardiac examination) · **rheumatic heart disease**, which in Australia disproportionately affects **Aboriginal and Torres Strait Islander people**, among whom rates are among the highest in the world — cross-refer [[F0.5]] 0.10 · intravascular devices and recent instrumentation.
+> Risk groups: **prosthetic valves · previous endocarditis · congenital heart disease · injecting drug use** (characteristically right-sided, tricuspid, with septic pulmonary emboli and a relatively normal cardiac examination) · **rheumatic heart disease**, which in Australia disproportionately affects **Aboriginal and Torres Strait Islander people**, among whom rates are among the highest in the world — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 · intravascular devices and recent instrumentation.
 > Diagnosis uses the **modified Duke criteria**, combining microbiological, echocardiographic and clinical elements. `UNVERIFIED — the criteria, their weighting, and all antibiotic regimens and durations from eTG Antibiotic.`
 > **Peripheral stigmata** — splinter haemorrhages, Osler nodes, Janeway lesions, Roth spots — are classically taught, genuinely uncommon in modern practice, and their absence means nothing.
 > **A new AV block in endocarditis suggests an aortic root abscess** extending into the conduction system, and it is a surgical emergency. Watch the ECG.
@@ -73,10 +73,10 @@ Surveillance echocardiography at intervals determined by lesion severity. **Endo
 > **Papillary muscle rupture** → acute severe mitral regurgitation with flash pulmonary oedema and cardiogenic shock. **The murmur may be soft or absent**, because the regurgitant pressure gradient equalises rapidly across a low-compliance left atrium — so a quiet murmur is not reassurance.
 > **Ventricular septal rupture** → harsh pansystolic murmur with a thrill, and shock.
 > **Free wall rupture** → tamponade and pulseless electrical activity.
-> All three require urgent echocardiography and immediate cardiothoracic involvement. Cross-refer [[F0.3]] 0.3–0.4.
+> All three require urgent echocardiography and immediate cardiothoracic involvement. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3–0.4.
 
 > [!warning] Other causes of a genuinely new murmur
-> **Aortic dissection involving the root** → acute aortic regurgitation with chest pain — cross-refer [[B1]] 0.1. **Prosthetic valve thrombosis or dehiscence** → a new or altered murmur with muffled prosthetic sounds. **A high-output state** — anaemia, fever, thyrotoxicosis, pregnancy — producing a flow murmur that resolves with the cause. **Papillary muscle dysfunction** from ischaemia without frank rupture.
+> **Aortic dissection involving the root** → acute aortic regurgitation with chest pain — cross-refer [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.1. **Prosthetic valve thrombosis or dehiscence** → a new or altered murmur with muffled prosthetic sounds. **A high-output state** — anaemia, fever, thyrotoxicosis, pregnancy — producing a flow murmur that resolves with the cause. **Papillary muscle dysfunction** from ischaemia without frank rupture.
 
 **S/Smx:** Fever, night sweats, weight loss, malaise and embolic phenomena in endocarditis; acute dyspnoea and shock in mechanical complications; chest pain in dissection.
 
@@ -89,7 +89,7 @@ Cultures before antibiotics. Empirical therapy once cultures are taken in a sept
 Prolonged targeted intravenous antibiotics for endocarditis, with surgery for heart failure, abscess, large vegetations with embolic risk, prosthetic valve involvement or uncontrolled infection. Urgent surgical repair for post-infarct rupture.
 
 ### 0.2.3 Mx – Chronic/long-term
-Dental review and oral health optimisation after endocarditis, which is under-arranged. Patient education about future prophylaxis and about seeking assessment for unexplained fever. **Secondary prophylaxis and follow-up in rheumatic heart disease**, with register-based recall — cross-refer [[F0.5]] 0.10. Drug and alcohol support where injecting drug use is the risk factor.
+Dental review and oral health optimisation after endocarditis, which is under-arranged. Patient education about future prophylaxis and about seeking assessment for unexplained fever. **Secondary prophylaxis and follow-up in rheumatic heart disease**, with register-based recall — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10. Drug and alcohol support where injecting drug use is the risk factor.
 
 ---
 
@@ -116,14 +116,14 @@ Dental review and oral health optimisation after endocarditis, which is under-ar
 **Ix:** **Echocardiography** (*why:* the diagnostic test — it demonstrates the reduced ejection fraction and excludes valvular and other structural causes, and there is no substitute; *what:* reduced LVEF, chamber dilatation, functional regurgitation, thrombus). **BNP or NT-proBNP** (*why:* a normal level makes heart failure unlikely, which is useful given how non-specific the symptoms are, though levels rise modestly in normal pregnancy; *what:* elevation). ECG (*why:* arrhythmia, ischaemia, and non-specific changes; *what:* tachycardia, arrhythmia, ST changes). CXR with abdominal shielding (*why:* pulmonary oedema and cardiomegaly, and the radiation dose is small and should not be withheld where indicated; *what:* oedema, cardiomegaly). FBC, UEC, LFT, TFTs (*why:* anaemia, renal impairment, thyroid disease, and the haemolysis and transaminitis of HELLP; *what:* derangement). Blood pressure and urine protein (*why:* pre-eclampsia coexists frequently and changes management; *what:* hypertension, proteinuria). Troponin (*why:* excludes ischaemic cause including spontaneous coronary artery dissection, which occurs peripartum; *what:* elevation). Investigation for PE where suspected (*why:* the principal differential; *what:* filling defect).
 
 ### 0.3.1 Mx – Immediate
-Oxygen, sit upright, and manage acute pulmonary oedema — cross-refer [[F0.5]] 0.3. **Involve obstetrics, cardiology, anaesthetics and neonatology together**; this is a multidisciplinary condition and delivery timing is a joint decision.
+Oxygen, sit upright, and manage acute pulmonary oedema — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3. **Involve obstetrics, cardiology, anaesthetics and neonatology together**; this is a multidisciplinary condition and delivery timing is a joint decision.
 
 ### 0.3.2 Mx – Definitive
 Standard heart failure therapy **adjusted for pregnancy and lactation** — **ACE inhibitors and ARBs are contraindicated antenatally** and alternatives are used, with the regimen changing after delivery and again depending on breastfeeding. **Anticoagulation is considered where the ejection fraction is very low**, given the elevated thromboembolic risk in an already prothrombotic state. Bromocriptine has been used investigationally on the prolactin hypothesis. `UNVERIFIED — every agent, its safety in pregnancy and lactation, the ejection fraction threshold for anticoagulation, and the status of bromocriptine require verification against SOMANZ and current cardio-obstetric guidance.`
 
 ### 0.3.3 Mx – Chronic/long-term
 **Serial echocardiography** — a substantial proportion recover ventricular function, and the degree of recovery determines both prognosis and advice about future pregnancy.
-**Counselling about subsequent pregnancy is essential and is frequently not given.** Recurrence risk is significant, and it is higher in women whose ejection fraction has not normalised. This conversation should happen before the woman is pregnant again, with contraception discussed in the interim. Cross-refer [[O6]] Contraception.
+**Counselling about subsequent pregnancy is essential and is frequently not given.** Recurrence risk is significant, and it is higher in women whose ejection fraction has not normalised. This conversation should happen before the woman is pregnant again, with contraception discussed in the interim. Cross-refer [[O6_Sexual_and_Reproductive_Health]] Contraception.
 
 ---
 
@@ -136,7 +136,7 @@ Standard heart failure therapy **adjusted for pregnancy and lactation** — **AC
 > [!danger] Retroperitoneal haematoma — the one with no visible signs
 > **A high femoral puncture bleeds into the retroperitoneum, and there may be NO groin swelling, NO bruise and NO local tenderness.**
 > The presentation is **back, flank or abdominal pain, hypotension, tachycardia and a falling haemoglobin** in a patient hours after a procedure. It is frequently attributed to sedation, vasovagal reaction or analgesia effect while the patient exsanguinates.
-> **Any hypotension after arterial access is retroperitoneal haemorrhage until excluded**, and the investigation is a CT abdomen. Cross-refer [[A9]] 0.1.
+> **Any hypotension after arterial access is retroperitoneal haemorrhage until excluded**, and the investigation is a CT abdomen. Cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.1.
 
 > [!tip] Pseudoaneurysm
 > **A pulsatile groin mass with a systolic bruit or palpable thrill, and pain**, developing over hours to days after the procedure. Confirmed by **duplex ultrasound**, which shows the characteristic to-and-fro flow in the neck and swirling "yin-yang" flow in the sac.
@@ -151,7 +151,7 @@ Standard heart failure therapy **adjusted for pregnancy and lactation** — **AC
 **Ix:** **Duplex ultrasound of the groin** (*why:* the diagnostic test for pseudoaneurysm and AV fistula, distinguishing them from simple haematoma, and it guides thrombin injection; *what:* to-and-fro neck flow, yin-yang sac, fistulous connection). **CT abdomen and pelvis with contrast where hypotension or unexplained haemoglobin fall** (*why:* retroperitoneal haematoma is invisible clinically and this is the only way to find it; *what:* retroperitoneal collection, active extravasation). **Serial FBC** (*why:* a falling haemoglobin is often the only objective sign; *what:* declining haemoglobin). Coagulation profile and review of antiplatelet and anticoagulant therapy (*why:* these patients are almost always on dual antiplatelet therapy plus a periprocedural anticoagulant, which both causes and complicates the bleeding; *what:* INR, agents given). Distal neurovascular examination (*why:* limb ischaemia and femoral nerve compression are limb- and function-threatening; *what:* pulses, capillary refill, sensation, quadriceps power). Group and hold or crossmatch (*why:* transfusion may be required; *what:* units available).
 
 ### 0.4.1 Mx – Immediate
-Direct pressure. Resuscitate. **Stop or reverse anticoagulation where bleeding is significant** — cross-refer [[A9]] 0.4. **Contact the interventional team that performed the procedure**, who know the access site, the sheath size and the closure device used.
+Direct pressure. Resuscitate. **Stop or reverse anticoagulation where bleeding is significant** — cross-refer [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] 0.4. **Contact the interventional team that performed the procedure**, who know the access site, the sheath size and the closure device used.
 
 ### 0.4.2 Mx – Definitive
 Thrombin injection or surgical repair for pseudoaneurysm. Interventional radiology or surgery for ongoing retroperitoneal bleeding. Vascular surgery for occlusion.
@@ -183,7 +183,7 @@ Document the complication and the access site. Consider radial access for future
 > | Cycling | Worse | Often tolerated well (spine flexed) |
 > | Pulses | Reduced or absent | Normal |
 > | Sensory symptoms | Uncommon | Common — numbness, tingling |
-> The "shopping trolley sign" — relief when leaning forward on a trolley — points strongly to spinal stenosis. Cross-refer [[L4]] Back Pain.
+> The "shopping trolley sign" — relief when leaning forward on a trolley — points strongly to spinal stenosis. Cross-refer [[L4_Back_and_Neck_Pain]] Back Pain.
 
 > [!danger] PAD is a marker of systemic atherosclerosis, and the leg is not the main threat
 > **A patient with claudication has a substantially elevated risk of myocardial infarction and stroke**, and their cardiovascular mortality far exceeds their risk of limb loss. **The most important interventions are therefore systemic**: smoking cessation, antiplatelet therapy, high-intensity statin, blood pressure and diabetes control.
@@ -231,7 +231,7 @@ Ongoing cardiovascular risk management, foot care education, and annual assessme
 > **A cold pulseless leg in a patient with atrial fibrillation and no history of claudication is embolic** — and this is where the history and the contralateral pulse examination do most of the diagnostic work.
 
 > [!warning] Reperfusion injury
-> Restoring flow to an ischaemic limb releases potassium, myoglobin and acid into the circulation, and causes compartment syndrome from muscle oedema — **exactly the crush syndrome physiology in [[A7]] 0.6.** Anticipate hyperkalaemia, arrhythmia, acute kidney injury and the need for fasciotomy. This is why revascularisation of a long-ischaemic limb is a decision made with the whole patient in view.
+> Restoring flow to an ischaemic limb releases potassium, myoglobin and acid into the circulation, and causes compartment syndrome from muscle oedema — **exactly the crush syndrome physiology in [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.** Anticipate hyperkalaemia, arrhythmia, acute kidney injury and the need for fasciotomy. This is why revascularisation of a long-ischaemic limb is a decision made with the whole patient in view.
 
 > [!danger] The diabetic foot is different
 > **Neuropathy means the ulcer and the ischaemia may be painless**, so the classic history of rest pain is absent and the patient presents late with established tissue loss and infection. The triad is **neuropathy, ischaemia and infection**, and any diabetic foot ulcer warrants assessment of all three plus imaging for osteomyelitis. Palpable pulses do not exclude significant disease because of the calcification problem in 0.5.
@@ -253,4 +253,4 @@ Long-term anticoagulation where a cardiac embolic source is found. Full cardiova
 ---
 
 > [!note] Cross-references
-> Chest pain and aortic dissection → [[B1]] 0.1 · Cardiogenic shock and mechanical complications of MI → [[F0.3]] 0.3 · Acute pulmonary oedema → [[F0.5]] 0.3 · AF and anticoagulation → [[B3]] 0.4 · Rhabdomyolysis, compartment syndrome and reperfusion → [[A7]] 0.6 · Anticoagulant reversal and major haemorrhage → [[A9]] · Rheumatic heart disease and ARF → [[F0.5]] 0.10 · Spinal stenosis and neurogenic claudication → [[L4]] · Pre-eclampsia → [[O2]] · Diabetes and foot care → [[I2]]
+> Chest pain and aortic dissection → [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.1 · Cardiogenic shock and mechanical complications of MI → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3 · Acute pulmonary oedema → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3 · AF and anticoagulation → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.4 · Rhabdomyolysis, compartment syndrome and reperfusion → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Anticoagulant reversal and major haemorrhage → [[A9_Transfusion__Coagulopathy_and_Anticoagulant_Emergencies]] · Rheumatic heart disease and ARF → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 · Spinal stenosis and neurogenic claudication → [[L4_Back_and_Neck_Pain]] · Pre-eclampsia → [[O2_Later_Pregnancy_and_Fetal]] · Diabetes and foot care → [[I2_Diabetes_and_Glucose_Disorders]]

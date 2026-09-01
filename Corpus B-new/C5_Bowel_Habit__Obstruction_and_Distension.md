@@ -12,7 +12,7 @@ source: built in chat, model knowledge, NOT source-verified
 
 **D:** Mechanical interruption to the passage of intestinal contents, classified by level (small or large bowel), by degree (partial or complete), and — critically — by whether the blood supply is compromised (simple or **strangulated**).
 
-**A/P:** Obstruction → proximal distension with swallowed air and accumulated secretions → increased intraluminal pressure → **venous congestion of the bowel wall, then arterial compromise** → mucosal ischaemia → bacterial translocation → transmural necrosis and perforation. Meanwhile, large volumes of fluid are sequestered into the bowel lumen and wall — **third-spacing that is invisible on the fluid balance chart** — producing profound hypovolaemia. Cross-refer [[F0.2]] 0.10.
+**A/P:** Obstruction → proximal distension with swallowed air and accumulated secretions → increased intraluminal pressure → **venous congestion of the bowel wall, then arterial compromise** → mucosal ischaemia → bacterial translocation → transmural necrosis and perforation. Meanwhile, large volumes of fluid are sequestered into the bowel lumen and wall — **third-spacing that is invisible on the fluid balance chart** — producing profound hypovolaemia. Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.10.
 
 > [!tip] Causes by level
 > **Small bowel obstruction**
@@ -49,10 +49,10 @@ source: built in chat, model knowledge, NOT source-verified
 
 **S/Smx:** Colicky central abdominal pain, vomiting, distension, absolute constipation. Examine for scars, hernias (**both groins, every time**), tenderness, peritonism, bowel sounds, and a rectal examination for faecal impaction, a rectal mass or an empty ballooned rectum.
 
-**Ix:** **CT abdomen and pelvis with contrast** (*why:* the investigation of choice — it confirms obstruction, identifies the **transition point** and the cause, distinguishes mechanical from ileus, and detects the ischaemia that changes the plan; *what:* dilated proximal and collapsed distal bowel with a transition point, cause, and signs of ischaemia — **bowel wall thickening, lack of mucosal enhancement, pneumatosis intestinalis, portal venous gas, free fluid**). Erect and supine abdominal radiograph (*why:* quick and available, showing dilated loops and air-fluid levels, and it distinguishes small from large bowel — **valvulae conniventes cross the full lumen width, haustra do not** — and shows the "coffee bean" of sigmoid volvulus; *what:* dilated loops, level of obstruction, caecal diameter). **Erect CXR** (*why:* free gas indicating perforation; *what:* subdiaphragmatic gas). **VBG with lactate** (*why:* a raised lactate in obstruction suggests strangulation and is a reason to operate; *what:* metabolic acidosis, raised lactate). UEC (*why:* the fluid and electrolyte losses are large and often underestimated, and hypokalaemia both causes and results from ileus; *what:* dehydration, hypokalaemia, hypochloraemia). FBC and CRP (*why:* leucocytosis supports strangulation; *what:* rising white cell count). Group and hold (*why:* many go to theatre; *what:* units available). **Water-soluble contrast study** in adhesional small bowel obstruction (*why:* **both diagnostic and therapeutic** — contrast reaching the colon within a defined interval predicts successful non-operative resolution, and the hyperosmolar contrast itself may relieve the obstruction; *what:* contrast progression — cross-refer [[P6]]).
+**Ix:** **CT abdomen and pelvis with contrast** (*why:* the investigation of choice — it confirms obstruction, identifies the **transition point** and the cause, distinguishes mechanical from ileus, and detects the ischaemia that changes the plan; *what:* dilated proximal and collapsed distal bowel with a transition point, cause, and signs of ischaemia — **bowel wall thickening, lack of mucosal enhancement, pneumatosis intestinalis, portal venous gas, free fluid**). Erect and supine abdominal radiograph (*why:* quick and available, showing dilated loops and air-fluid levels, and it distinguishes small from large bowel — **valvulae conniventes cross the full lumen width, haustra do not** — and shows the "coffee bean" of sigmoid volvulus; *what:* dilated loops, level of obstruction, caecal diameter). **Erect CXR** (*why:* free gas indicating perforation; *what:* subdiaphragmatic gas). **VBG with lactate** (*why:* a raised lactate in obstruction suggests strangulation and is a reason to operate; *what:* metabolic acidosis, raised lactate). UEC (*why:* the fluid and electrolyte losses are large and often underestimated, and hypokalaemia both causes and results from ileus; *what:* dehydration, hypokalaemia, hypochloraemia). FBC and CRP (*why:* leucocytosis supports strangulation; *what:* rising white cell count). Group and hold (*why:* many go to theatre; *what:* units available). **Water-soluble contrast study** in adhesional small bowel obstruction (*why:* **both diagnostic and therapeutic** — contrast reaching the colon within a defined interval predicts successful non-operative resolution, and the hyperosmolar contrast itself may relieve the obstruction; *what:* contrast progression — cross-refer [[GER8_Procedure_Addendum]]).
 
 ### 0.1.1 Mx – Immediate
-**"Drip and suck"** — nasogastric tube on free drainage for decompression, intravenous fluids with potassium replacement, urinary catheter for output monitoring, nil by mouth. Analgesia and an antiemetic — **a non-prokinetic antiemetic; metoclopramide is contraindicated in mechanical obstruction.** Cross-refer [[C2]] 0.5. Correct electrolytes. **Surgical referral for every patient.**
+**"Drip and suck"** — nasogastric tube on free drainage for decompression, intravenous fluids with potassium replacement, urinary catheter for output monitoring, nil by mouth. Analgesia and an antiemetic — **a non-prokinetic antiemetic; metoclopramide is contraindicated in mechanical obstruction.** Cross-refer [[C2_Nausea_and_Vomiting]] 0.5. Correct electrolytes. **Surgical referral for every patient.**
 
 ### 0.1.2 Mx – Definitive
 **Adhesional small bowel obstruction frequently settles with conservative management** over a day or two, with a water-soluble contrast study guiding the decision. **Strangulation, closed-loop obstruction, obstructed hernia, perforation, failure to resolve, or obstruction with no previous surgery all require surgery.**
@@ -114,7 +114,7 @@ Disimpaction where the rectum is loaded. Fluids and mobilisation.
 Cause-specific, with the laxative ladder above.
 
 ### 0.2.3 Mx – Chronic/long-term
-Maintenance therapy — **in children in particular, maintenance laxatives are stopped far too early, causing relapse and re-impaction; treatment often continues for months.** Cross-refer [[M5]]. Toileting routine, bowel training, and biofeedback for dyssynergia.
+Maintenance therapy — **in children in particular, maintenance laxatives are stopped far too early, causing relapse and re-impaction; treatment often continues for months.** Cross-refer [[M5_Paediatric_GI__GU_and_Limb]]. Toileting routine, bowel training, and biofeedback for dyssynergia.
 
 ---
 
@@ -140,10 +140,10 @@ Maintenance therapy — **in children in particular, maintenance laxatives are s
 
 > [!warning] Red flags in acute diarrhoea
 > **· Blood in the stool · high fever · severe abdominal pain or peritonism · significant dehydration or shock · immunocompromise · recent antibiotics · recent travel · duration beyond a week · age extremes · and recent hospitalisation.**
-> **In the elderly, do not diagnose gastroenteritis without considering ischaemic colitis, obstruction with overflow, *C. difficile*, and sepsis from a non-GI source.** Cross-refer [[C1]] 0.11.
+> **In the elderly, do not diagnose gastroenteritis without considering ischaemic colitis, obstruction with overflow, *C. difficile*, and sepsis from a non-GI source.** Cross-refer [[C1_Acute_Abdomen]] 0.11.
 
 > [!tip] Management principles
-> **Oral rehydration is the cornerstone and is under-used** — oral rehydration solution is at least as effective as intravenous fluids in mild to moderate dehydration, including in children, with fewer complications. Cross-refer [[F0.2]] 0.9.
+> **Oral rehydration is the cornerstone and is under-used** — oral rehydration solution is at least as effective as intravenous fluids in mild to moderate dehydration, including in children, with fewer complications. Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.9.
 > **Antimotility agents (loperamide) are contraindicated in bloody diarrhoea, suspected invasive infection and suspected *C. difficile***, where they promote toxin retention and toxic megacolon.
 > **Antibiotics are not indicated for most acute infectious diarrhoea** and may prolong *Salmonella* carriage. Reserve them for specific organisms, severe disease, or the immunocompromised.
 > **Several causes are notifiable** — cholera, typhoid, shigellosis, STEC, listeriosis and others. Know that the obligation exists and check the SA Health notifiable disease list.
@@ -166,7 +166,7 @@ Food handling and hygiene advice, exclusion from work or school where required f
 **D:** Diarrhoea persisting beyond about four weeks. `UNVERIFIED — the duration threshold.`
 
 > [!danger] A persistent change in bowel habit in an adult over 50 is colorectal cancer until proven otherwise
-> This is the single most important sentence in this section. **The combination of altered bowel habit with rectal bleeding, iron deficiency anaemia, weight loss or a family history mandates colonoscopy**, and a normal FIT does not substitute for it in a symptomatic patient. Cross-refer [[C4]] 0.5.
+> This is the single most important sentence in this section. **The combination of altered bowel habit with rectal bleeding, iron deficiency anaemia, weight loss or a family history mandates colonoscopy**, and a normal FIT does not substitute for it in a symptomatic patient. Cross-refer [[C4_Gastrointestinal_Bleeding]] 0.5.
 
 > [!tip] Classify by mechanism — it narrows the differential fast
 > **Osmotic** — unabsorbed solutes draw water in. **Improves with fasting.** Lactose intolerance, magnesium-containing antacids and laxatives, sorbitol, malabsorption.
@@ -198,7 +198,7 @@ Rarely required.
 Cause-specific — gluten-free diet, IBD therapy, enzyme replacement, bile acid sequestrant, drug cessation.
 
 ### 0.4.3 Mx – Chronic/long-term
-Dietitian involvement, particularly for coeliac disease and IBS. **In IBS, a positive explanation of the diagnosis and the gut-brain mechanism is therapeutic**; a low FODMAP diet has evidence but should be dietitian-supervised and time-limited. Cross-refer [[N6]] for the functional overlap.
+Dietitian involvement, particularly for coeliac disease and IBS. **In IBS, a positive explanation of the diagnosis and the gut-brain mechanism is therapeutic**; a low FODMAP diet has evidence but should be dietitian-supervised and time-limited. Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]] for the functional overlap.
 
 ---
 
@@ -208,10 +208,10 @@ Dietitian involvement, particularly for coeliac disease and IBS. **In IBS, a pos
 > **Fat · Fluid · Flatus · Faeces · Fetus · "Filthy great mass."** Crude, but it genuinely covers the differential for a distended abdomen, and the sequence prompts the two that get forgotten — **do a pregnancy test, and do a rectal examination.**
 
 > [!danger] Bloating and early satiety in a woman is ovarian cancer until excluded
-> **Persistent bloating, early satiety, abdominal or pelvic pain, and urinary urgency** are the recognised symptom cluster of ovarian cancer, and they are repeatedly attributed to irritable bowel syndrome. **New "IBS" in a woman over 50 is a red flag**, because IBS rarely begins at that age. Cross-refer [[C2]] 0.6 and [[O5]].
+> **Persistent bloating, early satiety, abdominal or pelvic pain, and urinary urgency** are the recognised symptom cluster of ovarian cancer, and they are repeatedly attributed to irritable bowel syndrome. **New "IBS" in a woman over 50 is a red flag**, because IBS rarely begins at that age. Cross-refer [[C2_Nausea_and_Vomiting]] 0.6 and [[O5_Pelvic_and_Vulval_Conditions]].
 
 > [!tip] Distinguishing the causes
-> **Ascites** — shifting dullness, fluid thrill, flank dullness. The **SAAG** determines the cause. Cross-refer [[C3]] 0.6.
+> **Ascites** — shifting dullness, fluid thrill, flank dullness. The **SAAG** determines the cause. Cross-refer [[C3_Jaundice_and_Liver_Disease]] 0.6.
 > **Obstruction and ileus** — tympanic, with the features in 0.1.
 > **Functional bloating** — worse through the day, better on waking, no weight loss, normal examination. Extremely common and genuinely distressing.
 > **Coeliac disease, lactose intolerance, small intestinal bacterial overgrowth** — bloating with flatulence, often postprandial.
@@ -246,11 +246,11 @@ Dietary review with dietitian input for functional bloating.
 
 > [!tip] Related rectal symptoms and what they suggest
 > **Mucus per rectum** — proctitis, villous adenoma (which can cause large-volume mucus with hypokalaemia), tumour.
-> **Faecal incontinence** — obstetric sphincter injury, neurological disease, **overflow from impaction**, rectal prolapse, and post-surgical. Cross-refer [[H2]] and [[GER2]]. It is profoundly under-reported because of embarrassment — **ask about it directly** in older patients rather than waiting for it to be volunteered.
+> **Faecal incontinence** — obstetric sphincter injury, neurological disease, **overflow from impaction**, rectal prolapse, and post-surgical. Cross-refer [[H2_LUTS__Retention_and_Incontinence]] and [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]]. It is profoundly under-reported because of embarrassment — **ask about it directly** in older patients rather than waiting for it to be volunteered.
 > **Rectal prolapse** — full-thickness protrusion, associated with chronic straining, and in children with cystic fibrosis and constipation.
-> **Pruritus ani and anorectal pain** — cross-refer [[C6]].
+> **Pruritus ani and anorectal pain** — cross-refer [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]].
 
-**Ix:** **Digital rectal examination** (*why:* palpates a low rectal tumour, identifies impaction, prolapse and sphincter tone, and is the examination most often omitted in exactly the patients who need it; *what:* mass, loading, tone, blood). **Proctoscopy and flexible sigmoidoscopy or colonoscopy** (*why:* directly visualises the rectum, which is where the pathology causing tenesmus lies; *what:* tumour, proctitis, ulceration). Biopsy of any abnormality (*why:* histology; *what:* malignancy, inflammation). Stool culture and *C. difficile* where infective proctitis is possible (*why:* pathogen). **Sexually transmitted infection testing including rectal swabs where proctitis is present** (*why:* gonorrhoea, chlamydia including lymphogranuloma venereum, herpes and syphilis cause proctitis, particularly in men who have sex with men, and are missed unless specifically sought; *what:* NAAT positive — cross-refer [[O6]]). MRI pelvis for rectal tumours (*why:* local staging determines whether neoadjuvant therapy is needed; *what:* T stage, nodal involvement, margins). Anorectal physiology where incontinence (*why:* sphincter function and defect; *what:* sphincter integrity).
+**Ix:** **Digital rectal examination** (*why:* palpates a low rectal tumour, identifies impaction, prolapse and sphincter tone, and is the examination most often omitted in exactly the patients who need it; *what:* mass, loading, tone, blood). **Proctoscopy and flexible sigmoidoscopy or colonoscopy** (*why:* directly visualises the rectum, which is where the pathology causing tenesmus lies; *what:* tumour, proctitis, ulceration). Biopsy of any abnormality (*why:* histology; *what:* malignancy, inflammation). Stool culture and *C. difficile* where infective proctitis is possible (*why:* pathogen). **Sexually transmitted infection testing including rectal swabs where proctitis is present** (*why:* gonorrhoea, chlamydia including lymphogranuloma venereum, herpes and syphilis cause proctitis, particularly in men who have sex with men, and are missed unless specifically sought; *what:* NAAT positive — cross-refer [[O6_Sexual_and_Reproductive_Health]]). MRI pelvis for rectal tumours (*why:* local staging determines whether neoadjuvant therapy is needed; *what:* T stage, nodal involvement, margins). Anorectal physiology where incontinence (*why:* sphincter function and defect; *what:* sphincter integrity).
 
 ### 0.6.1 Mx – Immediate
 Rarely required.
@@ -264,4 +264,4 @@ Pelvic floor physiotherapy for incontinence, which is effective and under-referr
 ---
 
 > [!note] Cross-references
-> Acute abdomen and the surgical emergencies → [[C1]] · Nausea, vomiting and antiemetic choice → [[C2]] · Cirrhosis, ascites and SAAG → [[C3]] 0.6 · GI bleeding and iron deficiency → [[C4]] · Dyspepsia and anorectal pain → [[C6]] · Isotonic dehydration and rehydration → [[F0.2]] 0.9 · Third-spacing → [[F0.2]] 0.10 · Paediatric constipation, diarrhoea and intussusception → [[M5]] · Faecal incontinence in the elderly → [[GER2]] · Sexually transmitted proctitis → [[O6]] · Ovarian cancer presentation → [[O5]]
+> Acute abdomen and the surgical emergencies → [[C1_Acute_Abdomen]] · Nausea, vomiting and antiemetic choice → [[C2_Nausea_and_Vomiting]] · Cirrhosis, ascites and SAAG → [[C3_Jaundice_and_Liver_Disease]] 0.6 · GI bleeding and iron deficiency → [[C4_Gastrointestinal_Bleeding]] · Dyspepsia and anorectal pain → [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] · Isotonic dehydration and rehydration → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.9 · Third-spacing → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.10 · Paediatric constipation, diarrhoea and intussusception → [[M5_Paediatric_GI__GU_and_Limb]] · Faecal incontinence in the elderly → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] · Sexually transmitted proctitis → [[O6_Sexual_and_Reproductive_Health]] · Ovarian cancer presentation → [[O5_Pelvic_and_Vulval_Conditions]]

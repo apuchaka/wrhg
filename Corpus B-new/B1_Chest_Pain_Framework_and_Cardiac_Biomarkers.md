@@ -54,7 +54,7 @@ source: built in chat, model knowledge, NOT source-verified
 Monitored bed, oxygen **only if hypoxaemic** — routine oxygen in normoxic ACS is not beneficial and may be harmful. Aspirin. Analgesia. GTN, **excluding right ventricular infarction, severe aortic stenosis, and recent phosphodiesterase inhibitor use.** IV access, bloods, serial ECGs. **STEMI → immediate reperfusion**, primary PCI where achievable within the time target, otherwise fibrinolysis with transfer — a live consideration for rural South Australian presentations. `UNVERIFIED — all antiplatelet and anticoagulant agents and doses, and the PCI and fibrinolysis time targets, are omitted; obtain from your health network's ACS pathway.`
 
 ### 0.1.2 Mx – Definitive
-Reperfusion and antithrombotic therapy for ACS. Anticoagulation for PE. Urgent surgery for type A dissection. Decompression for tension pneumothorax. Cross-refer [[F0.3]] 0.4–0.5.
+Reperfusion and antithrombotic therapy for ACS. Anticoagulation for PE. Urgent surgery for type A dissection. Decompression for tension pneumothorax. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.4–0.5.
 
 ### 0.1.3 Mx – Chronic/long-term
 Secondary prevention after ACS — antiplatelet therapy, statin, ACE inhibitor or ARB, beta-blocker, cardiac rehabilitation, smoking cessation, and management of diabetes, blood pressure and lipids. **Cardiac rehabilitation referral is under-done and improves both mortality and quality of life.**
@@ -148,7 +148,7 @@ Follow-up echocardiography for pericarditis with effusion. **Exercise restrictio
 
 > [!danger] Non-selective beta-blockers worsen vasospasm — this inverts standard ACS management
 > Blocking β2-mediated coronary vasodilatation leaves **unopposed α-mediated vasoconstriction**, intensifying the spasm. **Calcium channel blockers are first-line**, with long-acting nitrates as add-on therapy.
-> **The same principle applies to cocaine-associated chest pain**, where benzodiazepines and nitrates are the treatment and beta-blockers are traditionally avoided for the same unopposed-alpha reason. Cross-refer [[F0.1]] 0.4.
+> **The same principle applies to cocaine-associated chest pain**, where benzodiazepines and nitrates are the treatment and beta-blockers are traditionally avoided for the same unopposed-alpha reason. Cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.4.
 
 > [!info] MINOCA and INOCA
 > **Myocardial infarction with non-obstructive coronary arteries** and **ischaemia with non-obstructive coronary arteries** are recognised entities. A patient with a genuine troponin rise and a normal angiogram has **not** had a false alarm — vasospasm, microvascular dysfunction, spontaneous coronary artery dissection, myocarditis and embolism all belong in that differential, and the workup continues rather than stopping. **Spontaneous coronary artery dissection specifically affects younger women, including peripartum**, and is frequently misattributed to anxiety.
@@ -212,4 +212,4 @@ As per the classification. Cardiology involvement for type 1 events and for unex
 ---
 
 > [!note] Cross-references
-> Cardiogenic shock and acute pulmonary oedema → [[F0.3]] 0.3 and [[F0.5]] 0.3 · Massive PE and tamponade → [[F0.3]] 0.4–0.5 · Acute dyspnoea framework → [[A4]] 0.1 · Pneumothorax and pleuritic causes → [[A3]], [[F0.5]] · Cocaine and stimulant toxicity → [[F0.1]] 0.4 · Hypertensive emergency → [[B2]] · Arrhythmia → [[B3]] · Syncope → [[B4]] · Dyspepsia and reflux as a differential → [[C6]]
+> Cardiogenic shock and acute pulmonary oedema → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3 and [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3 · Massive PE and tamponade → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.4–0.5 · Acute dyspnoea framework → [[A4_Dyspnoea__Cough_and_the_Solitary_Pulmonary_Nodule]] 0.1 · Pneumothorax and pleuritic causes → [[A3_Respiratory_Failure__Bronchospasm_and_Hypoxia]], [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] · Cocaine and stimulant toxicity → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.4 · Hypertensive emergency → [[B2_Hypertension_Spectrum]] · Arrhythmia → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] · Syncope → [[B4_Syncope__Collapse_and_Hypotension]] · Dyspepsia and reflux as a differential → [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]]

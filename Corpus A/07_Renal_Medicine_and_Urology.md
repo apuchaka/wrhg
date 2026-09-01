@@ -790,12 +790,49 @@ Failure rate 1:2000 (more effective than female sterilisation). Semen analysis m
 
 > [!info] Verified — this table's epididymo-orchitis regimen has been aligned with the AU-verified detail already established in the Epididymitis section above (Australian STI Management Guidelines, sti.guidelines.org.au) — not repeated in full here.
 
-## Added from unverified layer — DIAPPERS: the reversible causes of incontinence
+### Continence — from unverified layer
 `SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former DIAPPERS fragment; B's section carries the mnemonic and the reversible-causes framing.*
 
-The incontinence types above are the *chronic* picture. **New or worsened incontinence in an older person is frequently transient and reversible**, and the mnemonic exists because the causes are easy to list and easy to forget:
+> [!danger] Ask directly — this is massively under-reported
+> **Most people with incontinence never mention it**, through embarrassment, through believing it is a normal part of ageing, or because nobody asked. It is a leading contributor to social withdrawal, falls (rushing to the toilet), skin breakdown, carer burden and residential placement.
+> **"Do you ever leak urine, or have trouble getting to the toilet in time?"** — asked directly and matter-of-factly — finds a problem that is frequently very treatable.
 
-**D**elirium · **I**nfection (symptomatic UTI) · **A**trophic vaginitis or urethritis · **P**harmaceuticals · **P**sychological, particularly depression · **E**xcess urine output (hyperglycaemia, hypercalcaemia, diuretics, fluid overload) · **R**estricted mobility · **S**tool impaction.
+> [!tip] The types, and why the type determines the treatment
+> **· Stress incontinence** — leakage with cough, laugh, sneeze or exertion. Pelvic floor weakness; in men, most often after prostatectomy. **First-line treatment is supervised pelvic floor muscle training, which is genuinely effective and consistently under-referred.**
+> **· Urge incontinence / overactive bladder** — sudden urgency with leakage, frequency and nocturia, from detrusor overactivity. **Bladder training and fluid and caffeine modification first**, then pharmacotherapy.
+> **· Mixed** — both, and common.
+> **· Overflow incontinence** — continuous dribbling from chronic retention. **Causes: benign prostatic enlargement, neurogenic bladder, constipation, and drugs (anticholinergics, opioids).** **Diagnosed with a bladder scan, which takes seconds** — and it is the type that is most often mislabelled as urge incontinence and made dramatically worse with an antimuscarinic.
+> **· Functional incontinence** — the bladder works, but the person cannot get to the toilet in time because of **mobility, cognition, environment, clothing, or simply nobody answering the call bell.** **This is extremely common in hospital and residential care, and it is not a bladder problem** — the intervention is a toileting schedule, a commode, better lighting, easier clothing and staff availability.
 
-**Look for these before labelling incontinence as established and starting long-term management** — several are corrected within days, and stool impaction in particular is both common and routinely missed.
+> [!warning] Antimuscarinics for overactive bladder add to anticholinergic burden
+> **Oxybutynin in particular crosses the blood-brain barrier readily and causes cognitive impairment, delirium and falls in older people** — it is a poor choice in this population.
+> **Mirabegron, a beta-3 agonist, avoids the anticholinergic burden** and is often preferable, with blood pressure the main consideration.
+> **Weigh the benefit of slightly better continence against the cost of worsened cognition and increased falls** — that trade-off is frequently not made explicitly. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing. `UNVERIFIED — agents, doses and PBS criteria.`
+
+> [!tip] Transient and reversible causes — DIAPPERS
+> **D**elirium · **I**nfection (symptomatic UTI) · **A**trophic vaginitis · **P**harmaceuticals · **P**sychological (depression) · **E**xcess urine output (diuretics, hyperglycaemia, hypercalcaemia, heart failure) · **R**estricted mobility · **S**tool impaction
+> **Constipation and faecal impaction cause urinary incontinence and retention** by direct pressure, and relieving it resolves the problem — which is why a rectal examination belongs in a continence assessment.
+
+> [!danger] Do not reach for a catheter
+> **An indwelling catheter is not a treatment for incontinence.** It causes **catheter-associated urinary tract infection, delirium, loss of dignity, and it is a physical tether that prevents mobilisation and worsens deconditioning.**
+> **Indications are narrow** — acute retention, accurate output measurement in critical illness, specific perioperative and urological situations, and comfort at the very end of life or where a sacral pressure injury requires it.
+> **If a catheter is inserted, document the indication and a planned removal date.** Catheters that nobody planned to remove are a recurring source of avoidable harm.
+
+> [!tip] Faecal incontinence
+> **Overflow from impaction is the commonest cause in frail and immobile patients — do a rectal examination** before diagnosing anything else. Cross-refer [[03_Gastrointestinal]] §0.42.1 Constipation.
+> Other causes: **obstetric sphincter injury** (which may present decades later), neurological disease, rectal prolapse, diarrhoea, and reduced rectal sensation.
+> **Pelvic floor physiotherapy is effective and under-used.** Cross-refer [[03_Gastrointestinal]] §0.25.3 Tenesmus and Rectal Symptoms.
+
+**Ix:** **Bladder scan for post-void residual** (*why:* distinguishes overflow from urge incontinence, which have opposite treatments, and takes seconds; *what:* retained volume). **Rectal examination** (*why:* identifies impaction, prostate enlargement and sphincter tone; *what:* loading, mass, tone). Urinalysis and culture, **interpreted cautiously** (*why:* excludes symptomatic infection, while recognising that **asymptomatic bacteriuria is very common and treating it does not improve continence**; *what:* infection in context). **Bladder diary over several days** (*why:* the single most informative investigation — it establishes the pattern, volumes, frequency, nocturia and the relationship to fluid intake, and it directs treatment; *what:* frequency-volume pattern). UEC, calcium and glucose (*why:* polyuria from hypercalcaemia, hyperglycaemia and renal disease; *what:* derangement). **Medication review** (*why:* diuretics, anticholinergics, opioids, sedatives and alpha-blockers all contribute and are modifiable; *what:* culprit agents). Pelvic and vaginal examination in women (*why:* prolapse and atrophic changes are common and treatable; *what:* prolapse, atrophy). Urodynamics and specialist referral where the picture is unclear or conservative management fails (*why:* characterises bladder function before invasive treatment; *what:* detrusor and sphincter function).
+
+#### Mx – Immediate — GER2 §0.1.1
+Relieve retention and impaction. Treat symptomatic infection.
+
+#### Mx – Definitive — GER2 §0.1.2
+Type-specific — **pelvic floor training, bladder training, treatment of prostatic obstruction, or pharmacotherapy chosen with anticholinergic burden in mind.**
+
+#### Mx – Chronic/long-term — GER2 §0.1.3
+**Continence nurse advisor and physiotherapy referral.** Continence aids and, in Australia, the funded continence aids scheme. Skin care to prevent moisture-associated damage. `UNVERIFIED — the current name, eligibility and application process for continence funding schemes.`
+
 

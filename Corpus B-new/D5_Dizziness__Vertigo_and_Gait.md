@@ -24,7 +24,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **Ask: how long does each episode last, what brings it on, and is it there right now?** Those three questions do more than any amount of asking them to describe the sensation.
 
 > [!warning] Still separate presyncope
-> **Presyncope — the sense of impending faint, with greying vision** — has an entirely different differential (cardiac, orthostatic, anaemia) and is covered in [[B4]] 0.3. **Presyncope should be worked up like syncope**, and the practical question is "did you feel like you were about to pass out, or like the room was moving?"
+> **Presyncope — the sense of impending faint, with greying vision** — has an entirely different differential (cardiac, orthostatic, anaemia) and is covered in [[B4_Syncope__Collapse_and_Hypotension]] 0.3. **Presyncope should be worked up like syncope**, and the practical question is "did you feel like you were about to pass out, or like the room was moving?"
 
 **S/Smx:** Duration of each episode, triggers, associated hearing loss or tinnitus, headache, other neurological symptoms, vascular risk factors, medications, and whether the patient can walk unaided.
 
@@ -68,7 +68,7 @@ source: built in chat, model knowledge, NOT source-verified
 > **· Severe headache or neck pain** — consider **vertebral artery dissection**, especially in a younger patient.
 > **· Any other brainstem or cerebellar sign** — diplopia, dysarthria, dysphagia, facial numbness, limb ataxia, Horner syndrome, hemisensory loss.
 > **· Sudden onset**, vascular risk factors, or age.
-> **· Deterioration over hours** — cerebellar stroke swells and compresses the brainstem. Cross-refer [[D3]] 0.2.
+> **· Deterioration over hours** — cerebellar stroke swells and compresses the brainstem. Cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.2.
 
 > [!tip] Vestibular neuritis — treat, but do not over-treat
 > Vestibular suppressants (prochlorperazine, promethazine, benzodiazepines) relieve acute symptoms.
@@ -83,7 +83,7 @@ source: built in chat, model knowledge, NOT source-verified
 **HINTS and gait assessment.** Antiemetics and vestibular suppressants short-term. **Urgent imaging and stroke pathway if any central feature.** Admit and observe if the patient cannot mobilise safely.
 
 ### 0.2.2 Mx – Definitive
-Stroke management per [[D3]], or supportive care with early vestibular rehabilitation for neuritis.
+Stroke management per [[D3_Stroke_and_Focal_Neurological_Deficit]], or supportive care with early vestibular rehabilitation for neuritis.
 
 ### 0.2.3 Mx – Chronic/long-term
 **Vestibular rehabilitation** for persistent symptoms, which is effective and under-referred. Secondary prevention after stroke. Driving advice.
@@ -108,14 +108,14 @@ Stroke management per [[D3]], or supportive care with early vestibular rehabilit
 > [!danger] Vestibular migraine is the commonest cause of recurrent spontaneous vertigo — and it is under-diagnosed
 > **Episodes of vertigo of variable duration — minutes to days — in a patient with a history of migraine**, with photophobia, phonophobia, visual aura or headache **which may or may not accompany the vertigo.** Many patients have vertigo without any headache at all, which is precisely why it is missed.
 > **It is frequently misdiagnosed as Ménière disease**, and the distinguishing feature is the **absence of documented fluctuating hearing loss** and the presence of migrainous features.
-> **It responds to migraine treatment** — trigger management and migraine prophylaxis — so getting the diagnosis right changes management substantially. Cross-refer [[D1]] 0.3.
+> **It responds to migraine treatment** — trigger management and migraine prophylaxis — so getting the diagnosis right changes management substantially. Cross-refer [[D1_Headache_and_Meningism]] 0.3.
 
 > [!tip] The rest
 > **Vertebrobasilar TIA** — brief recurrent vertigo, **but rarely in isolation** — look for accompanying diplopia, dysarthria, dysphagia, ataxia, hemisensory or visual symptoms. Isolated recurrent vertigo without other symptoms is more likely vestibular migraine, but new isolated vertigo in an older vasculopath warrants assessment.
 > **Superior semicircular canal dehiscence** — vertigo and oscillopsia induced by **loud sound (Tullio phenomenon)** or by pressure change (straining, nose blowing), with **autophony** — hearing one's own voice, heartbeat or eye movements unnaturally loudly. Distinctive and diagnosable on high-resolution CT of the temporal bones.
-> **Orthostatic hypotension** — cross-refer [[B4]] 0.2.
+> **Orthostatic hypotension** — cross-refer [[B4_Syncope__Collapse_and_Hypotension]] 0.2.
 > **Panic disorder and anxiety** — real, common, and a diagnosis of exclusion in this context.
-> **Arrhythmia** — presenting as "dizzy spells". Cross-refer [[B3]].
+> **Arrhythmia** — presenting as "dizzy spells". Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]].
 
 **Ix:** **Dix-Hallpike and supine roll test** (*why:* diagnostic for BPPV and immediately therapeutic; *what:* characteristic positional nystagmus with latency and fatigability). **Audiometry** (*why:* documents the fluctuating low-frequency loss required for Ménière and distinguishes it from vestibular migraine; *what:* pattern and side of loss). Postural blood pressure (*why:* orthostatic causes; *what:* drop). ECG and ambulatory monitoring where episodes are brief and unprovoked (*why:* arrhythmia; *what:* rhythm-symptom correlation). MRI where central features, progressive symptoms, unilateral hearing loss, or atypical presentation (*why:* excludes vestibular schwannoma, demyelination and posterior fossa lesions; *what:* cerebellopontine angle lesion, demyelination). High-resolution CT temporal bones where dehiscence is suspected (*why:* the only way to demonstrate it; *what:* bony dehiscence). Vestibular function testing (*why:* quantifies unilateral or bilateral hypofunction; *what:* caloric and video head impulse results).
 
@@ -126,7 +126,7 @@ Stroke management per [[D3]], or supportive care with early vestibular rehabilit
 Condition-specific. Migraine prophylaxis for vestibular migraine.
 
 ### 0.3.3 Mx – Chronic/long-term
-Self-administered repositioning manoeuvres for recurrent BPPV. Falls prevention. **Driving and occupational advice** where episodes are unpredictable — cross-refer [[A10]] 0.6.
+Self-administered repositioning manoeuvres for recurrent BPPV. Falls prevention. **Driving and occupational advice** where episodes are unpredictable — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6.
 
 ---
 
@@ -139,12 +139,12 @@ Self-administered repositioning manoeuvres for recurrent BPPV. Falls prevention.
 > **Losing one is usually compensated; losing two produces symptoms.** This is why the elderly patient with cataracts, a peripheral neuropathy and age-related vestibular loss is unsteady while a younger person with any one of those is not — and why **correcting any single one can restore function.**
 
 > [!tip] Contributors to look for, all of which are at least partly modifiable
-> **· Peripheral neuropathy** — proprioceptive loss, worse in the dark. Cross-refer [[D4]] 0.2.
+> **· Peripheral neuropathy** — proprioceptive loss, worse in the dark. Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.2.
 > **· Visual impairment** — cataracts, macular degeneration, and **new multifocal or bifocal glasses**, which distort the lower visual field and are a genuine cause of falls.
 > **· Vestibular hypofunction** — including **bilateral vestibulopathy**, classically from **gentamicin ototoxicity**, producing **oscillopsia (the visual world bouncing with head movement) and marked worsening in the dark or on uneven ground.**
 > **· Cerebellar disease** — alcohol, degeneration, stroke, paraneoplastic, drugs (phenytoin, lithium).
-> **· Parkinsonism** — postural instability. Cross-refer [[D6]].
-> **· Cervical myelopathy** — spastic gait with sensory disturbance. Cross-refer [[D3]] 0.6.
+> **· Parkinsonism** — postural instability. Cross-refer [[D6_Seizures_and_Movement_Disorders]].
+> **· Cervical myelopathy** — spastic gait with sensory disturbance. Cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.6.
 > **· Medications** — sedatives, antihypertensives, anticholinergics, antiepileptics, and polypharmacy generally.
 > **· Musculoskeletal** — weakness, arthritis, deconditioning.
 > **· Fear of falling**, which reduces activity, causes deconditioning, and worsens balance further.
@@ -167,7 +167,7 @@ Not usually required, unless there has been an injurious fall.
 Address each contributor. **Deprescribe.** Correct vision. Treat neuropathy causes.
 
 ### 0.4.3 Mx – Chronic/long-term
-**Vestibular rehabilitation and a balance-focused exercise program**, which has good evidence for reducing falls. Home hazard assessment via occupational therapy. Footwear. Cross-refer [[GER1]].
+**Vestibular rehabilitation and a balance-focused exercise program**, which has good evidence for reducing falls. Home hazard assessment via occupational therapy. Footwear. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]].
 
 ---
 
@@ -178,12 +178,12 @@ Address each contributor. **Deprescribe.** Correct vision. Treat neuropathy caus
 > **Spastic paraparetic ("scissoring")** — both legs stiff and adducted, toes scraping. **Spinal cord** — cervical myelopathy, MS, cord compression, cerebral palsy.
 > **Cerebellar ataxic** — **wide-based, staggering, irregular, worse on turning and on tandem walking**, and **NOT corrected by looking at the feet.** Midline (vermis) lesions cause truncal ataxia with a relatively normal limb examination; hemispheric lesions cause ipsilateral limb ataxia.
 > **Sensory ataxic** — **high-stepping, stamping, eyes fixed on the ground, markedly worse in the dark**, with a **positive Romberg.** Dorsal columns or large fibre neuropathy.
-> **Parkinsonian** — **stooped, shuffling, reduced arm swing, difficulty initiating, festination, freezing (especially in doorways), and turning "en bloc" in multiple small steps.** Cross-refer [[D6]].
-> **Steppage (foot drop)** — the foot is lifted high to clear the toes. **Unilateral** suggests common peroneal palsy or L5 radiculopathy; **bilateral** suggests peripheral neuropathy or Charcot-Marie-Tooth. Cross-refer [[D4]] 0.4.
-> **Waddling (myopathic)** — pelvis drops on the swing side from proximal weakness (**Trendelenburg**), with a rolling gait and difficulty rising from a chair. Cross-refer [[D4]] 0.6.
+> **Parkinsonian** — **stooped, shuffling, reduced arm swing, difficulty initiating, festination, freezing (especially in doorways), and turning "en bloc" in multiple small steps.** Cross-refer [[D6_Seizures_and_Movement_Disorders]].
+> **Steppage (foot drop)** — the foot is lifted high to clear the toes. **Unilateral** suggests common peroneal palsy or L5 radiculopathy; **bilateral** suggests peripheral neuropathy or Charcot-Marie-Tooth. Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.4.
+> **Waddling (myopathic)** — pelvis drops on the swing side from proximal weakness (**Trendelenburg**), with a rolling gait and difficulty rising from a chair. Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.6.
 > **Antalgic** — shortened stance phase on the painful side. Musculoskeletal.
-> **Apraxic / "magnetic"** — **feet appear stuck to the floor, with small shuffling steps and a wide base, but normal leg strength and coordination when tested lying down.** Frontal lobe disease, **normal pressure hydrocephalus**, or extensive small vessel disease. Cross-refer [[D2]] 0.3.
-> **Functional** — inconsistent, variable with distraction, often with **excessive effort or extravagant sway without falling**, and improvement when attention is diverted. A positive diagnosis. Cross-refer [[N6]].
+> **Apraxic / "magnetic"** — **feet appear stuck to the floor, with small shuffling steps and a wide base, but normal leg strength and coordination when tested lying down.** Frontal lobe disease, **normal pressure hydrocephalus**, or extensive small vessel disease. Cross-refer [[D2_Altered_Consciousness_and_Cognition]] 0.3.
+> **Functional** — inconsistent, variable with distraction, often with **excessive effort or extravagant sway without falling**, and improvement when attention is diverted. A positive diagnosis. Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]].
 
 > [!danger] A new gait disorder in an older adult is not "just age"
 > Gait deteriorates modestly with age, but **a distinct new gait abnormality has a cause.** The ones not to miss: **normal pressure hydrocephalus** (gait first, and the most shunt-responsive feature), **cervical myelopathy** (spastic gait with hand clumsiness and brisk reflexes), **subdural haematoma**, **B12 deficiency**, **parkinsonism**, and **medication effects.**
@@ -197,7 +197,7 @@ Falls risk assessment and prevention of injury.
 Cause-specific.
 
 ### 0.5.3 Mx – Chronic/long-term
-**Physiotherapy and gait aids**, correctly fitted — an incorrectly sized walking stick is worse than none. Home assessment, footwear, and exercise. Cross-refer [[GER1]].
+**Physiotherapy and gait aids**, correctly fitted — an incorrectly sized walking stick is worse than none. Home assessment, footwear, and exercise. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]].
 
 ---
 
@@ -237,4 +237,4 @@ Management of oscillopsia, and low vision support where relevant.
 ---
 
 > [!note] Cross-references
-> Posterior circulation stroke and cerebellar infarction → [[D3]] 0.2 and 0.5 · Syncope and presyncope → [[B4]] 0.3 · Migraine and vestibular migraine → [[D1]] 0.3 · Parkinsonism and movement disorders → [[D6]] · Peripheral neuropathy and proprioceptive loss → [[D4]] 0.2 · Cervical myelopathy and cord compression → [[D3]] 0.6 and [[L4]] · Hearing loss, tinnitus and Ménière in the ENT context → [[F1]] · Falls and the multifactorial assessment → [[GER1]] · Functional neurological disorder → [[N6]] · Driving after vertigo or syncope → [[A10]] 0.6
+> Posterior circulation stroke and cerebellar infarction → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.2 and 0.5 · Syncope and presyncope → [[B4_Syncope__Collapse_and_Hypotension]] 0.3 · Migraine and vestibular migraine → [[D1_Headache_and_Meningism]] 0.3 · Parkinsonism and movement disorders → [[D6_Seizures_and_Movement_Disorders]] · Peripheral neuropathy and proprioceptive loss → [[D4_Weakness__Neuropathy_and_Radiculopathy]] 0.2 · Cervical myelopathy and cord compression → [[D3_Stroke_and_Focal_Neurological_Deficit]] 0.6 and [[L4_Back_and_Neck_Pain]] · Hearing loss, tinnitus and Ménière in the ENT context → [[F1_Ear]] · Falls and the multifactorial assessment → [[GER1_Comprehensive_Geriatric_Assessment]] · Functional neurological disorder → [[N6_Functional__Dissociative_and_Personality_Disorders]] · Driving after vertigo or syncope → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6

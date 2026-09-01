@@ -19,7 +19,7 @@ source: built in chat, model knowledge, NOT source-verified
 **A unilateral hemispheric lesion does not cause coma unless it is large enough to compress the brainstem** — so a comatose patient with a single small cortical lesion has something else going on.
 
 > [!danger] The first four things, before anything else
-> **1. Airway** — a patient who cannot protect their airway needs it protected. **2. Bedside glucose** — hypoglycaemia is instantly reversible and mimics everything. **3. Consider naloxone** where opioid toxicity is plausible (pinpoint pupils, low respiratory rate). **4. Consider thiamine** in the malnourished, alcohol-dependent or persistently vomiting — **and give it before or with any glucose.** Cross-refer [[C2]] 0.7.
+> **1. Airway** — a patient who cannot protect their airway needs it protected. **2. Bedside glucose** — hypoglycaemia is instantly reversible and mimics everything. **3. Consider naloxone** where opioid toxicity is plausible (pinpoint pupils, low respiratory rate). **4. Consider thiamine** in the malnourished, alcohol-dependent or persistently vomiting — **and give it before or with any glucose.** Cross-refer [[C2_Nausea_and_Vomiting]] 0.7.
 > Only then move to a structured assessment.
 
 > [!tip] Structural versus metabolic — the pattern that separates them
@@ -39,18 +39,18 @@ source: built in chat, model knowledge, NOT source-verified
 
 > [!danger] Non-convulsive status epilepticus
 > **Consider it in any patient with unexplained persistently reduced consciousness**, particularly after a witnessed seizure where they have not returned to baseline, in known epilepsy, or after a critical illness. There may be only subtle signs — eyelid fluttering, nystagmoid eye movements, automatisms, or nothing at all.
-> **The diagnosis requires an EEG**, and it is missed because nobody asks for one. Cross-refer [[D6]].
+> **The diagnosis requires an EEG**, and it is missed because nobody asks for one. Cross-refer [[D6_Seizures_and_Movement_Disorders]].
 
 > [!warning] Document the GCS components, not just the total
 > **A total of 9 can mean E2V2M5 or E4V1M4 — very different patients.** Record eye, verbal and motor separately. **The motor score carries the most prognostic weight.** Note also that GCS is unreliable in intubated, sedated, aphasic or intoxicated patients, and in young children a paediatric version is required.
 
 > [!danger] Herniation syndromes
 > **Uncal herniation** — the medial temporal lobe compresses the third nerve and midbrain: **ipsilateral fixed dilated pupil, then contralateral hemiparesis, then decerebrate posturing and coma.**
-> **The Cushing response — hypertension, bradycardia and irregular respiration — is a LATE sign of critically raised intracranial pressure.** Do not wait for it. A falling GCS or a new pupillary asymmetry demands action first. Cross-refer [[F0.5]] 0.7.
+> **The Cushing response — hypertension, bradycardia and irregular respiration — is a LATE sign of critically raised intracranial pressure.** Do not wait for it. A falling GCS or a new pupillary asymmetry demands action first. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7.
 
 **S/Smx:** Level of consciousness, pupils, eye movements and brainstem reflexes, motor response and asymmetry, tone and reflexes, respiratory pattern, temperature, skin (needle marks, rash, jaundice, cyanosis), breath odour (ketones, fetor hepaticus, alcohol), and evidence of trauma including the occiput and behind the ears.
 
-**Ix:** **Bedside glucose** (*why:* instantly reversible and mimics every cause; *what:* hypoglycaemia). **ABG or VBG with electrolytes and lactate** (*why:* identifies hypercapnia — which oximetry cannot detect — acidosis, hyponatraemia and lactate in minutes; *what:* pCO₂, pH, sodium, lactate). UEC, calcium, magnesium, phosphate, LFT, ammonia (*why:* metabolic encephalopathies, with **ammonia supporting hepatic encephalopathy though not required to diagnose it**; *what:* derangement). FBC, CRP, cultures (*why:* sepsis, which causes encephalopathy without CNS infection; *what:* infection). TFTs and cortisol (*why:* myxoedema coma and adrenal crisis both present as reduced consciousness and both are treatable; *what:* markedly raised TSH, low cortisol). **Paracetamol and salicylate levels, and a toxicology screen where indicated** (*why:* poisoning; *what:* levels — cross-refer [[A5]] 0.1). **CT brain** (*why:* haemorrhage, infarct, mass, hydrocephalus, herniation; *what:* structural lesion). **Lumbar puncture** where infection is suspected and it is safe (*why:* meningitis and encephalitis; *what:* CSF profile — cross-refer [[D1]] 0.5). **EEG** where the cause remains unexplained (*why:* non-convulsive status epilepticus; *what:* ongoing seizure activity). Core temperature (*why:* hypothermia and hyperthermia; *what:* extremes). ECG (*why:* arrhythmia, ischaemia, toxicological clues in QRS and QT; *what:* the trace).
+**Ix:** **Bedside glucose** (*why:* instantly reversible and mimics every cause; *what:* hypoglycaemia). **ABG or VBG with electrolytes and lactate** (*why:* identifies hypercapnia — which oximetry cannot detect — acidosis, hyponatraemia and lactate in minutes; *what:* pCO₂, pH, sodium, lactate). UEC, calcium, magnesium, phosphate, LFT, ammonia (*why:* metabolic encephalopathies, with **ammonia supporting hepatic encephalopathy though not required to diagnose it**; *what:* derangement). FBC, CRP, cultures (*why:* sepsis, which causes encephalopathy without CNS infection; *what:* infection). TFTs and cortisol (*why:* myxoedema coma and adrenal crisis both present as reduced consciousness and both are treatable; *what:* markedly raised TSH, low cortisol). **Paracetamol and salicylate levels, and a toxicology screen where indicated** (*why:* poisoning; *what:* levels — cross-refer [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.1). **CT brain** (*why:* haemorrhage, infarct, mass, hydrocephalus, herniation; *what:* structural lesion). **Lumbar puncture** where infection is suspected and it is safe (*why:* meningitis and encephalitis; *what:* CSF profile — cross-refer [[D1_Headache_and_Meningism]] 0.5). **EEG** where the cause remains unexplained (*why:* non-convulsive status epilepticus; *what:* ongoing seizure activity). Core temperature (*why:* hypothermia and hyperthermia; *what:* extremes). ECG (*why:* arrhythmia, ischaemia, toxicological clues in QRS and QT; *what:* the trace).
 
 ### 0.1.1 Mx – Immediate
 A–E with airway protection. Glucose. Thiamine before glucose in at-risk patients. Naloxone where indicated. Oxygen. Treat seizures. **Urgent CT where there is any asymmetry or focal sign.** Nurse head up where raised pressure is suspected.
@@ -82,7 +82,7 @@ Rehabilitation, and investigation of the underlying condition.
 
 > [!warning] The drugs that cause it
 > **Anticholinergics** (including many antihistamines, oxybutynin, tricyclics, and the cumulative anticholinergic burden of polypharmacy), **benzodiazepines**, **opioids**, **corticosteroids**, dopaminergic agents, and **withdrawal** from alcohol, benzodiazepines or nicotine.
-> **Reviewing and rationalising the drug chart is one of the most effective interventions available**, and it is free. Cross-refer [[GER1]] and [[18_Geriatrics_and_Older_Persons_Health]].
+> **Reviewing and rationalising the drug chart is one of the most effective interventions available**, and it is free. Cross-refer [[GER1_Comprehensive_Geriatric_Assessment]] and [[18_Geriatrics_and_Older_Persons_Health]].
 
 > [!tip] Management is overwhelmingly non-pharmacological
 > **Treat the precipitants.** Then:
@@ -114,7 +114,7 @@ Ongoing treatment of the underlying cause, with daily reassessment.
 
 ### 0.2.3 Mx – Chronic/long-term
 **Delirium is not benign** — it independently predicts prolonged admission, functional decline, institutionalisation, death, and subsequent dementia.
-**Explain it to the patient and family, and document it in the discharge summary**, because recovery takes weeks to months and families are frequently told nothing. **Arrange cognitive follow-up**, since an episode of delirium may unmask previously unrecognised dementia. Cross-refer [[GER2]].
+**Explain it to the patient and family, and document it in the discharge summary**, because recovery takes weeks to months and families are frequently told nothing. **Arrange cognitive follow-up**, since an episode of delirium may unmask previously unrecognised dementia. Cross-refer [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]].
 
 ---
 
@@ -163,8 +163,8 @@ Only if delirium is superimposed — which is common and must be excluded, since
 No disease-modifying treatment is established in routine Australian practice. **Cholinesterase inhibitors** (donepezil, rivastigmine, galantamine) in Alzheimer disease, and with particular benefit in **Lewy body and Parkinson disease dementia**; **memantine** in moderate to severe disease. Benefits are modest and symptomatic. **Aggressive vascular risk factor management** in vascular and mixed dementia. `UNVERIFIED — agents, PBS authority criteria, and the assessment requirements for continuation.`
 
 ### 0.3.3 Mx – Chronic/long-term
-**Advance care planning EARLY, while the person still has capacity to express their wishes** — this is the single most valuable long-term intervention and it is repeatedly left too late. Cross-refer [[A10]] 0.3.
-**Driving assessment and the legal obligation to advise** — cross-refer [[A10]] 0.6.
+**Advance care planning EARLY, while the person still has capacity to express their wishes** — this is the single most valuable long-term intervention and it is repeatedly left too late. Cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.3.
+**Driving assessment and the legal obligation to advise** — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6.
 **Carer support** — carer burden is high, carer depression is common, and practical support (respite, carer payments, Dementia Australia, My Aged Care assessment) should be arranged actively rather than mentioned. **Ask the carer how they are.**
 Falls prevention, nutrition, continence, and dental and sensory care.
 
@@ -212,13 +212,13 @@ Falls prevention, nutrition, continence, and dental and sensory care.
 > [!danger] Wernicke-Korsakoff
 > **Wernicke encephalopathy** — confusion, ophthalmoplegia and ataxia, though **the complete triad is present in a minority.** Treat on suspicion with parenteral thiamine.
 > **Korsakoff syndrome** — the chronic consequence: **profound anterograde and variable retrograde amnesia with confabulation and preserved other cognitive function.** Largely irreversible.
-> **Give thiamine before glucose** in anyone at risk — alcohol dependence, malnutrition, hyperemesis, bariatric surgery, prolonged vomiting. Cross-refer [[C2]] 0.7.
+> **Give thiamine before glucose** in anyone at risk — alcohol dependence, malnutrition, hyperemesis, bariatric surgery, prolonged vomiting. Cross-refer [[C2_Nausea_and_Vomiting]] 0.7.
 
 > [!tip] The rest of the differential
-> **Head injury** — **the duration of post-traumatic amnesia is one of the better predictors of outcome**, so document it. Cross-refer [[F0.5]] 0.7–0.8.
+> **Head injury** — **the duration of post-traumatic amnesia is one of the better predictors of outcome**, so document it. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7–0.8.
 > **Hippocampal pathology** — **HSV encephalitis** (temporal lobes), **autoimmune limbic encephalitis** (LGI1, NMDA receptor), hypoxic-ischaemic injury, and posterior cerebral artery infarction.
 > **Drugs** — **benzodiazepines cause dense anterograde amnesia**, anticholinergics, and **alcohol "blackouts", which are episodes of anterograde amnesia during intoxication with preserved behaviour at the time.**
-> **Dissociative (psychogenic) amnesia** — **the discriminating feature is loss of personal identity.** Organic amnesia essentially always preserves the sense of who you are; a patient who cannot remember their own name and identity, particularly after psychological trauma, is far more likely dissociative. **This distinction is high-yield and clinically useful.** Cross-refer [[N6]].
+> **Dissociative (psychogenic) amnesia** — **the discriminating feature is loss of personal identity.** Organic amnesia essentially always preserves the sense of who you are; a patient who cannot remember their own name and identity, particularly after psychological trauma, is far more likely dissociative. **This distinction is high-yield and clinically useful.** Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]].
 
 **Ix:** **CT or MRI brain** (*why:* excludes stroke, haemorrhage, tumour and encephalitis — **MRI with diffusion imaging shows small hippocampal lesions in TGA and is superior for temporal lobe pathology**; *what:* structural or signal abnormality). **EEG** (*why:* diagnoses transient epileptic amnesia and non-convulsive seizures; *what:* epileptiform activity). Bedside glucose (*why:* hypoglycaemia causes transient amnesia; *what:* low glucose). B12, thiamine status, TFTs (*why:* nutritional and endocrine causes; *what:* deficiency). Toxicology and medication review (*why:* benzodiazepines and alcohol; *what:* culprit). CSF and autoimmune encephalitis antibodies where subacute and progressive (*why:* treatable autoimmune limbic encephalitis; *what:* antibodies). **Neuropsychological testing** (*why:* characterises the pattern of memory impairment and distinguishes organic from functional; *what:* domain profile).
 
@@ -229,7 +229,7 @@ Glucose, thiamine, and exclusion of stroke, seizure and encephalitis.
 Cause-specific.
 
 ### 0.5.3 Mx – Chronic/long-term
-**Driving advice** after TGA and after any amnestic episode — cross-refer [[A10]] 0.6. Alcohol support. Cognitive rehabilitation.
+**Driving advice** after TGA and after any amnestic episode — cross-refer [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6. Alcohol support. Cognitive rehabilitation.
 
 ---
 
@@ -266,4 +266,4 @@ Risk factor modification, cognitive and social engagement, hearing correction, a
 ---
 
 > [!note] Cross-references
-> Headache, meningitis and encephalitis → [[D1]] · Stroke and focal deficit → [[D3]] · Seizures and non-convulsive status → [[D6]] · Parkinsonism → [[D6]] · Head injury and post-traumatic amnesia → [[F0.5]] 0.7–0.8 · Wernicke and thiamine → [[C2]] 0.7 · Hepatic encephalopathy → [[C3]] 0.6 · Capacity assessment → [[A10]] 0.1 · Driving and fitness certification → [[A10]] 0.6 · Comprehensive geriatric assessment, polypharmacy and falls → [[GER1]] · Geriatric syndromes and end-of-life care → [[GER2]] · Depression → [[N4]] · Dissociative disorders → [[N6]] · Delirium in the poisoned patient → [[A5]] 0.1
+> Headache, meningitis and encephalitis → [[D1_Headache_and_Meningism]] · Stroke and focal deficit → [[D3_Stroke_and_Focal_Neurological_Deficit]] · Seizures and non-convulsive status → [[D6_Seizures_and_Movement_Disorders]] · Parkinsonism → [[D6_Seizures_and_Movement_Disorders]] · Head injury and post-traumatic amnesia → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7–0.8 · Wernicke and thiamine → [[C2_Nausea_and_Vomiting]] 0.7 · Hepatic encephalopathy → [[C3_Jaundice_and_Liver_Disease]] 0.6 · Capacity assessment → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.1 · Driving and fitness certification → [[A10_Ethics__Capacity__Consent_and_Certification]] 0.6 · Comprehensive geriatric assessment, polypharmacy and falls → [[GER1_Comprehensive_Geriatric_Assessment]] · Geriatric syndromes and end-of-life care → [[GER2_Geriatric_Syndromes_and_End_of_Life_Care]] · Depression → [[N4_Mood_Disorders]] · Dissociative disorders → [[N6_Functional__Dissociative_and_Personality_Disorders]] · Delirium in the poisoned patient → [[A5_Toxicology_II_-_Poisoned_Patient__ADRs_and_Immunotherapy]] 0.1

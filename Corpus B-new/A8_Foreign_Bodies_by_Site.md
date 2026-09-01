@@ -6,7 +6,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Technique principles, discriminators and red flags are reliable at intern level. **Every time window, size threshold, dose and observation period carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** Button battery management in particular is time-critical and protocol-driven — obtain the current guidance from the Poisons Information Centre (13 11 26), RCH and the ACCC/Product Safety Australia button battery resources.
 >
-> **Inhaled (airway) foreign body is built in [[A2]] 0.4** and is cross-referenced rather than repeated.
+> **Inhaled (airway) foreign body is built in [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.4** and is cross-referenced rather than repeated.
 
 ---
 
@@ -28,7 +28,7 @@ source: built in chat, model knowledge, NOT source-verified
 > Button battery or multiple magnets at any site · a child who will not cooperate and cannot be safely immobilised · an object impacted medially in the ear canal beyond the isthmus · suspected penetrating ocular injury · signs of perforation at any site · an object you cannot see clearly · previous failed attempts elsewhere.
 
 > [!danger] Safeguarding
-> **A rectal or vaginal foreign body in a prepubertal child raises the possibility of sexual abuse and must be escalated**, not simply removed and discharged. Recurrent foreign body insertion in children also warrants consideration of neglect, developmental concerns or abuse. In adults, consider intellectual disability, psychiatric illness, deliberate self-harm and body packing. Cross-refer [[P3]] Safeguarding & Forensic.
+> **A rectal or vaginal foreign body in a prepubertal child raises the possibility of sexual abuse and must be escalated**, not simply removed and discharged. Recurrent foreign body insertion in children also warrants consideration of neglect, developmental concerns or abuse. In adults, consider intellectual disability, psychiatric illness, deliberate self-harm and body packing. Cross-refer [[GER4_Safeguarding_and_Forensic]] Safeguarding & Forensic.
 
 > [!info] Foreign body sensation with nothing found
 > Persisting sensation after a foreign body has passed or been removed is common and usually reflects **mucosal abrasion**, which takes days to settle — particularly in the throat after a fish bone and on the cornea after an abrasion. However, sensation is not a reliable guide to absence: **a persistent, well-localised sensation in the throat, or persisting ocular symptoms, warrants specialist visualisation** rather than reassurance alone, because a retained object and an abrasion feel the same to the patient.
@@ -59,7 +59,7 @@ Prevention advice, safeguarding consideration, and follow-up for complications.
 > **Suction** for light objects.
 
 > [!tip] Insects
-> An insect in the ear canal is intensely distressing because of the noise and movement against the tympanic membrane. **Kill it first** — instilling lignocaine, mineral oil or olive oil immobilises it — then remove. Attempting removal of a moving insect is unpleasant for everyone and usually unsuccessful. `UNVERIFIED — agent choice and whether to instil anything if perforation is suspected requires verification.`
+> An insect in the ear canal is intensely distressing because of the noise and movement against the tympanic membrane. **Kill it first** — instilling lidocaine, mineral oil or olive oil immobilises it — then remove. Attempting removal of a moving insect is unpleasant for everyone and usually unsuccessful. `UNVERIFIED — agent choice and whether to instil anything if perforation is suspected requires verification.` `UNVERIFIED — the NAME is corrected per the TGA Ingredient Harmonisation programme; the REGIMEN this line states is not thereby confirmed and needs a named Australian source.`
 
 > [!danger] Button battery in the ear
 > Causes canal and tympanic membrane necrosis. **Urgent ENT removal, and do not irrigate.**
@@ -132,7 +132,7 @@ Follow-up for septal perforation after battery or magnet injury. Prevention advi
 
 **S/Smx:** Pain, foreign body sensation, watering, photophobia, blurred vision, blepharospasm, injection. Reduced acuity, hyphaema or an irregular pupil suggest a more serious injury.
 
-**Ix:** **Visual acuity in both eyes before anything else** (*why:* baseline, medicolegally essential, and a reduction redirects the assessment toward a serious injury; *what:* acuity — noting the single exception is chemical injury, where irrigation precedes acuity, cross-refer [[A7]] 0.4). Slit lamp examination with fluorescein (*why:* localises the object, demonstrates abrasion, reveals a rust ring, and shows a Seidel test if the globe is breached; *what:* object, epithelial defect, Seidel positivity). **Upper lid eversion** (*why:* subtarsal foreign bodies are otherwise missed and are a common cause of persistent symptoms; *what:* object on tarsal plate). CT orbits where a penetrating injury is possible (*why:* detects intraocular and intraorbital foreign bodies; *what:* radio-opaque fragment — **MRI is contraindicated with possible ferromagnetic material**). Intraocular pressure, **avoided if globe perforation is suspected** (*why:* pressure on a perforated globe extrudes contents; *what:* deferred until perforation excluded). Tetanus status (*why:* penetrating ocular injury is tetanus-prone; *what:* immunisation history).
+**Ix:** **Visual acuity in both eyes before anything else** (*why:* baseline, medicolegally essential, and a reduction redirects the assessment toward a serious injury; *what:* acuity — noting the single exception is chemical injury, where irrigation precedes acuity, cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.4). Slit lamp examination with fluorescein (*why:* localises the object, demonstrates abrasion, reveals a rust ring, and shows a Seidel test if the globe is breached; *what:* object, epithelial defect, Seidel positivity). **Upper lid eversion** (*why:* subtarsal foreign bodies are otherwise missed and are a common cause of persistent symptoms; *what:* object on tarsal plate). CT orbits where a penetrating injury is possible (*why:* detects intraocular and intraorbital foreign bodies; *what:* radio-opaque fragment — **MRI is contraindicated with possible ferromagnetic material**). Intraocular pressure, **avoided if globe perforation is suspected** (*why:* pressure on a perforated globe extrudes contents; *what:* deferred until perforation excluded). Tetanus status (*why:* penetrating ocular injury is tetanus-prone; *what:* immunisation history).
 
 ### 0.4.1 Mx – Immediate
 Acuity, then topical anaesthetic, then examination with fluorescein and lid eversion. Removal of a superficial object with a moistened cotton bud or, for embedded objects, a needle or burr **by someone trained to do it under slit lamp magnification.** For suspected penetrating injury: shield, nil by mouth, antiemetic, urgent ophthalmology.
@@ -141,7 +141,7 @@ Acuity, then topical anaesthetic, then examination with fluorescein and lid ever
 Rust ring removal, topical antibiotic prophylaxis, and ophthalmology review. Surgical removal of intraocular foreign bodies.
 
 ### 0.4.3 Mx – Chronic/long-term
-**Review within 24–48 hours** for any corneal foreign body removal. Eye protection advice and, where the injury was occupational, workplace review and SafeWork SA notification. Cross-refer [[E1]] and [[P1]].
+**Review within 24–48 hours** for any corneal foreign body removal. Eye protection advice and, where the injury was occupational, workplace review and SafeWork SA notification. Cross-refer [[E1_Red_and_Painful_Eye]] and [[GER3_Preventive_and_Occupational_Health]].
 
 ---
 
@@ -159,7 +159,7 @@ Rust ring removal, topical antibiotic prophylaxis, and ophthalmology review. Sur
 
 **S/Smx:** Sharp pain on swallowing, localised foreign body sensation, odynophagia, drooling, and occasionally a visible object.
 
-**Ix:** Direct inspection of the oropharynx with good light and a tongue depressor, including the tonsils and base of tongue (*why:* a substantial proportion of fish bones are visible and removable at the bedside with forceps; *what:* visible bone or object). **Flexible nasendoscopy** (*why:* the definitive examination of the base of tongue, valleculae and piriform fossae, which cannot be seen on direct inspection, and it is an outpatient procedure; *what:* object at a site not otherwise visible). Lateral soft tissue neck radiograph (*why:* may show a radio-opaque object, prevertebral soft tissue swelling from perforation, or surgical emphysema — though **fish bone radio-opacity varies enormously by species**, so a negative film is close to uninformative; *what:* object, prevertebral swelling, air). CT neck where perforation, abscess or a persistent unlocated object is suspected (*why:* far more sensitive and identifies the deep space complications; *what:* object, collection, extraluminal gas). Cross-refer [[F0.5]] 0.10 for the deep neck space infection differential.
+**Ix:** Direct inspection of the oropharynx with good light and a tongue depressor, including the tonsils and base of tongue (*why:* a substantial proportion of fish bones are visible and removable at the bedside with forceps; *what:* visible bone or object). **Flexible nasendoscopy** (*why:* the definitive examination of the base of tongue, valleculae and piriform fossae, which cannot be seen on direct inspection, and it is an outpatient procedure; *what:* object at a site not otherwise visible). Lateral soft tissue neck radiograph (*why:* may show a radio-opaque object, prevertebral soft tissue swelling from perforation, or surgical emphysema — though **fish bone radio-opacity varies enormously by species**, so a negative film is close to uninformative; *what:* object, prevertebral swelling, air). CT neck where perforation, abscess or a persistent unlocated object is suspected (*why:* far more sensitive and identifies the deep space complications; *what:* object, collection, extraluminal gas). Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 for the deep neck space infection differential.
 
 ### 0.5.1 Mx – Immediate
 Inspect and remove if visible and accessible. Analgesia. Nil by mouth if perforation is suspected. ENT referral where not visible and symptoms persist, or where red flags are present.
@@ -189,7 +189,7 @@ Advice that abrasion sensation may persist for days, with explicit return criter
 > **A button battery shows a "double ring" or halo sign on the frontal view and a step-off on the lateral view; a coin shows a single uniform disc.** Distinguishing these two on a child's chest radiograph is the observation that separates urgent endoscopy from observation. Actively look for it — the two are otherwise superficially identical.
 
 > [!warning] Food bolus obstruction in an adult
-> Almost always indicates an **underlying oesophageal abnormality** — stricture, ring, achalasia, or **eosinophilic oesophagitis**, which is increasingly recognised in younger adults and often presents exactly this way. Relieving the obstruction is not the end of the management; the oesophagus needs assessment afterwards. Cross-refer [[C6]] Dyspepsia.
+> Almost always indicates an **underlying oesophageal abnormality** — stricture, ring, achalasia, or **eosinophilic oesophagitis**, which is increasingly recognised in younger adults and often presents exactly this way. Relieving the obstruction is not the end of the management; the oesophagus needs assessment afterwards. Cross-refer [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] Dyspepsia.
 
 **S/Smx:** Often asymptomatic. Otherwise: drooling, dysphagia, odynophagia, retrosternal pain, vomiting, refusal to feed in an infant, respiratory symptoms from tracheal compression, and — with perforation — fever, chest or abdominal pain and surgical emphysema.
 
@@ -234,7 +234,7 @@ Assess for perforation. Analgesia. Imaging. Non-judgemental history. Surgical in
 Transanal removal with sedation or anaesthesia and sphincter relaxation, or operative management. Post-removal sigmoidoscopy.
 
 ### 0.7.3 Mx – Chronic/long-term
-Sensitive discussion of safer practice where relevant, and assessment for underlying psychiatric illness, intellectual disability or self-harm where the circumstances suggest it. **In a child, this is a safeguarding presentation and requires child protection escalation.** Cross-refer [[P3]].
+Sensitive discussion of safer practice where relevant, and assessment for underlying psychiatric illness, intellectual disability or self-harm where the circumstances suggest it. **In a child, this is a safeguarding presentation and requires child protection escalation.** Cross-refer [[GER4_Safeguarding_and_Forensic]].
 
 ---
 
@@ -251,7 +251,7 @@ Sensitive discussion of safer practice where relevant, and assessment for underl
 **A/P:** A retained object causes local inflammation, bacterial overgrowth and mucosal ulceration → characteristically **foul-smelling discharge**, often blood-stained. Prolonged retention with a pessary can cause erosion into the bladder or rectum with fistula formation.
 
 > [!warning] Toxic shock syndrome
-> A retained tampon is a recognised though uncommon cause. **Fever, hypotension, a diffuse erythematous macular rash, vomiting, diarrhoea and multi-organ dysfunction** in a menstruating woman should prompt a search for a retained tampon and immediate removal, alongside resuscitation and antibiotics. Later desquamation of the palms and soles is characteristic. Cross-refer [[F0.3]] 0.7.
+> A retained tampon is a recognised though uncommon cause. **Fever, hypotension, a diffuse erythematous macular rash, vomiting, diarrhoea and multi-organ dysfunction** in a menstruating woman should prompt a search for a retained tampon and immediate removal, alongside resuscitation and antibiotics. Later desquamation of the palms and soles is characteristic. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.7.
 
 **S/Smx:** Offensive vaginal discharge, often described as the worst thing about it · intermenstrual or postcoital bleeding · pelvic discomfort · dyspareunia · urinary symptoms from pressure. Frequently no history of insertion is given, either because it is forgotten (tampon, pessary) or not volunteered.
 
@@ -264,9 +264,9 @@ Removal in an adult, usually straightforward with a speculum and sponge forceps.
 Removal, treatment of associated infection, and repair of erosion or fistula where present.
 
 ### 0.8.3 Mx – Chronic/long-term
-Pessary care education and **a scheduled review interval for anyone with a pessary in situ**, since forgotten pessaries are a recurring source of this presentation. Tampon safety advice. **In a child, ongoing child protection involvement.** Cross-refer [[O5]] Vulvovaginal Symptom and [[P3]].
+Pessary care education and **a scheduled review interval for anyone with a pessary in situ**, since forgotten pessaries are a recurring source of this presentation. Tampon safety advice. **In a child, ongoing child protection involvement.** Cross-refer [[O5_Pelvic_and_Vulval_Conditions]] Vulvovaginal Symptom and [[GER4_Safeguarding_and_Forensic]].
 
 ---
 
 > [!note] Cross-references
-> Inhaled foreign body and unilateral wheeze → [[A2]] 0.4 · Chemical eye injury → [[A7]] 0.4 · Wound foreign bodies and imaging choice → [[A7]] 0.5 · Deep neck space infection → [[F0.5]] 0.10 · Ocular presentations → [[E1]] · Safeguarding → [[P3]] · Poisons Information Centre 13 11 26 for battery ingestion advice
+> Inhaled foreign body and unilateral wheeze → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.4 · Chemical eye injury → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.4 · Wound foreign bodies and imaging choice → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.5 · Deep neck space infection → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.10 · Ocular presentations → [[E1_Red_and_Painful_Eye]] · Safeguarding → [[GER4_Safeguarding_and_Forensic]] · Poisons Information Centre 13 11 26 for battery ingestion advice

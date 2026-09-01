@@ -1293,6 +1293,11 @@ def cmd_scan(args):
 def cmd_lint(args):
     problems = []
     fact_locations = {}
+    # A check that silently skips a file reports clean on a file it never examined.
+    # The dose check below is gated on trust in (inherited, unverified); a file with no
+    # `trust:` key was falling through it with no trace, so "0 dose problems" covered
+    # both "examined and clean" and "never examined". Count the skips explicitly.
+    dose_checked, dose_skipped = [], []
 
     for path in md_files(args.dir):
         text = read(path)
@@ -1350,7 +1355,11 @@ def cmd_lint(args):
 
         # unmarked doses in non-verified files
         trust = fm_get(fm, "trust") if fm else None
+        if trust not in ("inherited", "unverified"):
+            # `verified` and `snippet` are out of scope by design; a MISSING key is not.
+            (dose_skipped if not trust else dose_checked).append(r)
         if trust in ("inherited", "unverified"):
+            dose_checked.append(r)
             for i, line in enumerate(lines):
                 if matches(RE_DOSE, line) and not (
                     RE_MED_MIRROR.search(line)
@@ -1421,6 +1430,12 @@ def cmd_lint(args):
             )
 
     print(f"lint: {len(problems)} problems")
+    print(f"  unmarked-dose check: {len(dose_checked)} files examined · "
+          f"{len(dose_skipped)} SKIPPED-NO-TRUST (not examined, not clean)")
+    for r in sorted(dose_skipped)[: args.limit]:
+        print(f"    SKIPPED-NO-TRUST {r}")
+    if len(dose_skipped) > args.limit:
+        print(f"    ... and {len(dose_skipped) - args.limit} more (raise --limit)")
     for p in problems[: args.limit]:
         print(f"  {p}")
     if len(problems) > args.limit:

@@ -5,7 +5,7 @@ trust: inherited
 population: mixed
 conflicts_open: 1
 conflicts_r1: 0
-no_baseline: 1
+no_baseline: 2
 ---
 
 ## Migraine
@@ -148,6 +148,219 @@ no_baseline: 1
 
 ---
 
+### Headache — Framework and Red Flags — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Pain referred to the head, arising from pain-sensitive structures — **the brain parenchyma itself has no nociceptors.** Pain arises from the meninges, large intracranial vessels, venous sinuses, cranial nerves, and extracranial structures including scalp, muscles, sinuses, teeth and eyes.
+
+> [!tip] The single most useful question is about onset speed
+> **"How long did it take to go from nothing to as bad as it got?"**
+> **Seconds to a minute — thunderclap.** Subarachnoid haemorrhage and the other vascular catastrophes. See 0.2.
+> **Minutes to an hour** — migraine, cluster, glaucoma.
+> **Hours to days** — meningitis, raised intracranial pressure, giant cell arteritis, venous sinus thrombosis.
+> **Weeks to months, progressive** — space-occupying lesion, chronic subdural, idiopathic intracranial hypertension.
+> **Longstanding, episodic, stereotyped** — primary headache disorder.
+
+> [!danger] Red flags — SNOOP4
+> **S — Systemic** symptoms or disease: fever, weight loss, malignancy, **immunosuppression or HIV**, pregnancy.
+> **N — Neurological** signs or symptoms: focal deficit, seizure, altered conscious state, papilloedema, personality change.
+> **O — Onset** sudden, abrupt or thunderclap.
+> **O — Older** age at new onset (over about 50).
+> **P4 — Pattern change** (a different headache from the usual one, or escalating frequency) · **Positional** (worse lying down, or worse upright) · **Precipitated by Valsalva**, cough, sneeze or exertion · **Papilloedema**.
+> `UNVERIFIED — the age threshold, and variants of the mnemonic differ between sources.`
+
+> [!warning] The examination that must not be skipped
+> **· Blood pressure** — hypertensive emergency and pre-eclampsia.
+> **· Fundoscopy for papilloedema** — the single highest-yield sign in headache assessment, and the one most often omitted.
+> **· Neck stiffness** — with the caveat that it takes hours to develop in SAH and is frequently absent in meningitis.
+> **· Temporal arteries** — tenderness, thickening, absent pulsation, in anyone over 50.
+> **· Focal neurological examination including cranial nerves, visual fields and acuity.**
+> **· Palpation of the scalp, sinuses, temporomandibular joints and teeth**, and examination of the eyes — because these extracranial causes are common and treatable.
+
+**S/Smx:** Site, onset speed, character, severity, duration, frequency, radiation, aggravating and relieving factors, positional change, associated autonomic and neurological features, and — critically — **whether this headache is different from the patient's usual headaches.**
+
+**Ix:** Directed by the red flags. See the sections below. **In a patient with a longstanding stereotyped primary headache and a normal examination, no investigation is required**, and imaging in that situation generates incidental findings and anxiety without benefit.
+
+#### Mx – Immediate — D1 §0.1.1
+Analgesia, antiemetic, and a quiet dark environment while assessing. Urgent imaging where red flags are present.
+
+#### Mx – Definitive — D1 §0.1.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D1 §0.1.3
+Headache diary, trigger identification, and — critically — **review of analgesic frequency**, since medication overuse headache complicates many chronic headache presentations. See 0.4.
+
+### Thunderclap Headache and Subarachnoid Haemorrhage — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Headache reaching maximal intensity within seconds to a minute.
+
+> [!danger] Thunderclap headache is subarachnoid haemorrhage until proven otherwise
+> **Patients describe it as "the worst headache of my life", "like being hit on the back of the head", or "something burst".** It may be accompanied by vomiting, collapse, photophobia, seizure or focal deficit — or by nothing at all except the headache, which is the presentation that gets sent home.
+> **Neck stiffness takes several hours to develop**, because it results from chemical meningitis as blood irritates the meninges. **Its absence in the first hours means nothing.**
+> **A significant proportion of patients with aneurysmal SAH describe a preceding "sentinel" or warning headache in the preceding days to weeks** — a smaller bleed that resolved. Recognising a sentinel bleed is the opportunity to prevent the catastrophic one.
+
+**A/P:** Rupture of a **saccular ("berry") aneurysm**, usually at a branch point of the circle of Willis, releases arterial blood into the subarachnoid space → abrupt rise in intracranial pressure → sudden severe headache, often with transient loss of consciousness → chemical meningitis over hours → and then the delayed complications.
+**Risk factors:** hypertension, smoking, alcohol, family history, **autosomal dominant polycystic kidney disease, Ehlers-Danlos and Marfan syndromes, coarctation of the aorta.**
+
+> [!tip] The investigation pathway
+> **1. Non-contrast CT brain.** Sensitivity is **highest in the first hours and declines steadily** as blood is cleared and becomes isodense. Modern scanners performed very early are extremely sensitive; a CT at 48 hours is not.
+> **2. If CT is negative and suspicion persists — lumbar puncture.** The purpose is to detect **xanthochromia**, the yellow discolouration from bilirubin formed by the breakdown of red cells within the CSF.
+> **Xanthochromia requires TIME to develop** — red cells must lyse and haemoglobin be metabolised — so **an LP performed too early may be falsely negative.** This is why the timing matters and why the patient may need to wait.
+> **Three-tube (or four-tube) collection** distinguishes SAH from a traumatic tap: **in a traumatic tap the red cell count falls markedly between the first and last tube; in SAH it does not.** Xanthochromia measured by spectrophotometry is more reliable than visual inspection.
+> **3. CT angiography** to identify the aneurysm once SAH is confirmed.
+> `UNVERIFIED — the time window within which a negative CT alone is considered sufficient, and the interval after headache onset before LP can reliably detect xanthochromia. Both have changed with modern scanners and must be verified.`
+
+> [!danger] The delayed complications, and their timing
+> **Rebleeding** — highest risk in the first hours to days, and it is the reason for urgent securing of the aneurysm by **endovascular coiling or surgical clipping.**
+> **Delayed cerebral ischaemia from vasospasm** — characteristically **days 4 to 14**, presenting as a new focal deficit or reduced conscious state in a patient who had been stable. **Nimodipine reduces it and is given routinely.** `UNVERIFIED — dose and duration.`
+> **Hydrocephalus** — acute obstructive, or delayed communicating from impaired CSF resorption.
+> **Hyponatraemia** — and the distinction matters: **SIADH (euvolaemic, treated with fluid restriction) versus cerebral salt wasting (hypovolaemic, treated with salt and fluid REPLACEMENT).** **Fluid-restricting a cerebral salt wasting patient worsens cerebral perfusion and precipitates ischaemia**, so volume status must be assessed rather than assumed.
+> **Seizures** and cardiac complications including neurogenic stunned myocardium with ECG changes and raised troponin that mimic infarction.
+
+> [!tip] The other thunderclap causes
+> **Reversible cerebral vasoconstriction syndrome (RCVS)** — **recurrent** thunderclap headaches over days to weeks, often triggered by exertion, sexual activity, bathing, or vasoactive drugs (**cannabis, cocaine, SSRIs, triptans, decongestants**), and classically in the **postpartum** period. Segmental vasoconstriction on angiography that resolves. Can cause stroke and haemorrhage.
+> **Cerebral venous sinus thrombosis** — see 0.4.
+> **Cervical artery dissection** — with neck pain and Horner syndrome.
+> **Pituitary apoplexy** — thunderclap headache with **visual field loss, ophthalmoplegia and hypopituitarism**, from haemorrhage into a pituitary adenoma. **A hypotensive patient with pituitary apoplexy needs hydrocortisone urgently.**
+> **Posterior reversible encephalopathy syndrome (PRES)** — headache, seizures, visual disturbance, encephalopathy, with posterior white matter change; associated with hypertension, eclampsia and immunosuppressants.
+> **Spontaneous intracranial hypotension** — but this is characteristically **postural**, see 0.4.
+> **Colloid cyst of the third ventricle** — positional headache with sudden obstruction.
+
+**S/Smx:** Sudden maximal headache, vomiting, photophobia, collapse, seizure, focal deficit, reduced conscious state. **Subhyaloid (pre-retinal) haemorrhage on fundoscopy is characteristic of SAH** and is worth looking for.
+
+**Ix:** **Urgent non-contrast CT brain** (*why:* the first-line test, with time-dependent sensitivity; *what:* subarachnoid blood, hydrocephalus, intraparenchymal extension). **Lumbar puncture where CT is negative and suspicion persists** (*why:* detects xanthochromia, which CT misses at later time points; *what:* xanthochromia by spectrophotometry, red cell count across sequential tubes). **CT or catheter angiography** (*why:* identifies the aneurysm for treatment planning; *what:* aneurysm site and morphology). **CT or MR venography where CVST is possible** (*why:* plain CT frequently misses it and the treatment is anticoagulation; *what:* filling defect in a sinus). ECG and troponin (*why:* neurogenic cardiac injury mimics infarction and can mislead; *what:* ST changes, troponin rise, interpreted in context). UEC with **serial sodium and assessment of volume status** (*why:* distinguishes SIADH from cerebral salt wasting, which have opposite treatments; *what:* sodium, volume status, urine sodium and osmolality). FBC and coagulation profile (*why:* baseline before intervention; *what:* platelets, INR).
+
+#### Mx – Immediate — D1 §0.2.1
+Analgesia and antiemetic. **Urgent neurosurgical referral.** Blood pressure control to reduce rebleeding risk while maintaining cerebral perfusion. Nimodipine. Bed rest. Monitor conscious state closely.
+
+#### Mx – Definitive — D1 §0.2.2
+**Endovascular coiling or surgical clipping**, with the choice made by the neurosurgical and neurointerventional team. External ventricular drain for hydrocephalus. Management of vasospasm.
+
+#### Mx – Chronic/long-term — D1 §0.2.3
+Screening of first-degree relatives is considered where there is a strong family history. Cardiovascular risk factor management and **smoking cessation**, which is a major modifiable risk factor. Rehabilitation and neuropsychological follow-up — **cognitive and mood sequelae are common after SAH even in those with a good physical outcome**, and are under-recognised.
+
+### Primary Headache Disorders — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] Migraine
+> **Recurrent attacks lasting hours to days**, characteristically **unilateral, pulsating, moderate to severe, aggravated by routine physical activity**, with **nausea, photophobia and phonophobia.** The patient wants to lie still in a dark quiet room — which is a useful contrast with cluster headache.
+> `UNVERIFIED — the formal ICHD diagnostic criteria including attack duration and the number of attacks required.`
+
+> [!tip] Aura — and how it differs from TIA and seizure
+> Aura occurs in a minority of migraineurs. Typically **visual** — a scintillating scotoma or fortification spectra expanding across the visual field — and sometimes sensory or speech disturbance.
+> **The discriminating feature is that aura SPREADS GRADUALLY over several minutes and is fully reversible, typically resolving within an hour.**
+> **· TIA is maximal at onset** — sudden, not spreading.
+> **· Seizure spreads over seconds**, not minutes, and is usually positive motor phenomena.
+> **· Migraine aura spreads over minutes**, reflecting the slow propagation of cortical spreading depression across the cortex.
+> **New aura in an older patient, aura without headache, or aura that is always on the same side, warrants imaging** rather than assumption.
+
+> [!danger] Migraine with aura and the combined oral contraceptive
+> **Migraine with aura is associated with an increased risk of ischaemic stroke, and combined hormonal contraception increases that risk further. Combined oral contraceptives are contraindicated in women with migraine with aura.**
+> Progestogen-only methods, the implant, the hormonal IUD and non-hormonal methods are options. **This is a common exam question and a real prescribing error.** Cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`. `UNVERIFIED — confirm the current contraindication wording and the position for migraine without aura.`
+
+> [!warning] Triptan contraindications
+> Triptans are 5-HT1B/1D agonists and cause vasoconstriction. **Contraindicated in ischaemic heart disease, previous myocardial infarction, uncontrolled hypertension, peripheral vascular disease, previous stroke or TIA, and in hemiplegic and brainstem-aura migraine.**
+> Take them **early in the attack** — efficacy falls substantially once the headache is established, and patients frequently wait "to see if it goes away", which is why they report the drug doesn't work.
+> **Avoid opioids for migraine.** They are less effective, they cause medication overuse headache, and they worsen the natural history. This is a frequent and avoidable emergency department practice.
+
+> [!tip] Migraine management
+> **Acute:** simple analgesia (aspirin, NSAID, paracetamol) **plus an antiemetic** — gastric stasis during an attack impairs absorption, so a prokinetic antiemetic both treats nausea and improves analgesic absorption. Then triptans. Newer agents (gepants, ditans) are emerging.
+> **Prophylaxis** — considered when attacks are frequent, disabling or poorly responsive: **propranolol, amitriptyline, candesartan, topiramate**, and **CGRP monoclonal antibodies.**
+> **Two safety points on prophylaxis:** **topiramate is teratogenic and interacts with hormonal contraception**, and **sodium valproate must be avoided in women of childbearing potential** because of its substantial teratogenic and neurodevelopmental risk — there are strict prescribing requirements around it. `UNVERIFIED — all agents, doses, and the current regulatory requirements for valproate and topiramate prescribing in Australia.`
+> **Non-pharmacological measures matter**: regular sleep, meals and hydration, exercise, and identifying but not obsessively avoiding triggers.
+
+> [!info] Tension-type headache
+> **Bilateral, pressing or tightening (non-pulsating), mild to moderate, NOT aggravated by routine activity, without nausea.** Often described as a band around the head. The commonest primary headache. Managed with simple analgesia used sparingly, stress management, posture and exercise — and **explicit advice about analgesic frequency**, because it commonly evolves into medication overuse headache.
+
+> [!danger] Cluster headache — the patient who cannot keep still
+> **Severe, strictly unilateral, orbital or temporal pain lasting roughly 15 to 180 minutes**, occurring once to several times daily, **in bouts lasting weeks to months separated by remission**, with a striking **circadian pattern — often waking the patient at the same time each night.**
+> **Ipsilateral cranial autonomic features: lacrimation, conjunctival injection, ptosis, miosis, rhinorrhoea, nasal congestion, eyelid oedema, facial sweating.**
+> **The behavioural discriminator is genuinely diagnostic: the cluster patient is restless, agitated, pacing, sometimes rocking or hitting their head — whereas the migraine patient lies still in the dark.** Ask what they do during an attack.
+> **Acute treatment: high-flow oxygen via a non-rebreather mask, and subcutaneous or intranasal sumatriptan** — oral triptans are too slow. **High-flow oxygen is highly effective, cheap, and consistently underused**, partly because clinicians do not think of it.
+> **Prophylaxis: verapamil**, at doses higher than cardiac practice, **requiring ECG monitoring for heart block.** `UNVERIFIED — oxygen flow rate and delivery, and verapamil dosing and monitoring schedule.`
+> Cluster headache is frequently misdiagnosed as migraine, sinusitis or dental pain for years, with a well-documented long delay to diagnosis.
+
+> [!tip] The other trigeminal autonomic cephalalgias
+> **Paroxysmal hemicrania** — shorter, more frequent attacks than cluster, with **an absolute response to indomethacin, which is itself diagnostic.**
+> **Hemicrania continua** — continuous unilateral headache with autonomic features and exacerbations, **also absolutely indomethacin-responsive.**
+> **SUNCT / SUNA** — very brief, very frequent stabbing attacks with autonomic features.
+> **A trial of indomethacin is worth considering in any strictly unilateral headache with autonomic features**, because a complete response identifies a highly treatable condition that is otherwise refractory.
+
+> [!tip] Trigeminal neuralgia
+> **Brief, paroxysmal, electric shock-like or lancinating facial pain in the distribution of one or more trigeminal divisions**, usually V2 or V3, **triggered by light touch, chewing, talking, shaving, cold wind or brushing teeth.** Patients may avoid eating and washing that side of the face.
+> Usually caused by neurovascular compression of the trigeminal root. **First-line treatment is carbamazepine.**
+> **MRI is indicated to exclude a secondary cause — particularly in a younger patient, with bilateral symptoms, or where there is objective sensory loss or other cranial nerve involvement, where multiple sclerosis or a tumour must be excluded.** `UNVERIFIED — carbamazepine dosing, monitoring, and the interactions and hyponatraemia risk.`
+
+**Ix:** **In a typical primary headache with a normal examination and no red flags, no investigation is needed.** Imaging where red flags are present, where the pattern has changed, or where the presentation is atypical. **MRI brain** (*why:* preferred over CT for posterior fossa, pituitary and demyelinating pathology, and for suspected secondary trigeminal neuralgia; *what:* structural lesion, neurovascular compression, demyelination). ESR and CRP in anyone over 50 with a new headache (*why:* giant cell arteritis; *what:* raised markers). Blood pressure (*why:* hypertensive causes and pre-eclampsia; *what:* elevation). **A headache diary** (*why:* the most useful "investigation" in chronic headache — it establishes the pattern, identifies triggers and, crucially, **quantifies analgesic use**; *what:* frequency, duration, medication days per month).
+
+#### Mx – Immediate — D1 §0.3.1
+Acute treatment as above. **Oxygen and subcutaneous triptan for cluster.** Avoid opioids.
+
+#### Mx – Definitive — D1 §0.3.2
+Prophylaxis where indicated, with a defined trial period and review — prophylactics need weeks to work, and patients stop them too early if not warned.
+
+#### Mx – Chronic/long-term — D1 §0.3.3
+Headache diary, lifestyle measures, review of contraception in migraine with aura, and **explicit counselling about analgesic frequency limits.**
+
+### Secondary Headaches Worth Knowing — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Giant cell arteritis — treat before you biopsy
+> **Age over 50, new headache, scalp tenderness (a comb or pillow hurts), jaw claudication (pain on chewing that eases with rest), visual symptoms, and constitutional features.** Overlaps substantially with **polymyalgia rheumatica** — cross-refer [[12_04_Rheum_-_Vasculitis]] and `TODO:link — L3 Muscle symptoms & widespread pain (unbuilt)`.
+> **Jaw claudication and visual symptoms are the most specific features.**
+> **Vision loss is sudden, painless and irreversible, and may be the first manifestation. Start high-dose corticosteroids immediately on clinical suspicion — do not wait for ESR, and do not wait for temporal artery biopsy.**
+> **Biopsy should be performed within a couple of weeks of starting steroids** — the arteritis has **skip lesions**, so an adequate length of artery is needed and a negative biopsy does not exclude the diagnosis. Temporal artery ultrasound (the "halo sign") is increasingly used.
+> `UNVERIFIED — steroid dose, the different regimens for visual versus non-visual presentations, biopsy timing, and tocilizumab as a steroid-sparing agent.`
+
+> [!warning] Idiopathic intracranial hypertension
+> **Typically a young woman with obesity.** Headache worse on lying flat and on waking, **pulsatile tinnitus** (a distinctive and useful symptom), **transient visual obscurations** lasting seconds, diplopia from a **sixth nerve palsy** (a false localising sign from raised pressure), and **papilloedema.**
+> **The threat is permanent visual loss from chronic papilloedema, and this is often painless and unnoticed by the patient — so formal visual field monitoring is essential, not optional.**
+> Diagnosis requires **imaging (including venography to exclude venous sinus thrombosis) and a lumbar puncture demonstrating a raised opening pressure with normal CSF constituents.**
+> **Ask about drugs:** tetracyclines, retinoids including isotretinoin, vitamin A excess, and hormonal contraception are associated.
+> Management: **weight loss, which is genuinely disease-modifying**, acetazolamide, and surgical options (optic nerve sheath fenestration, shunting, venous stenting) for threatened vision. `UNVERIFIED — the opening pressure threshold and acetazolamide dosing.`
+
+> [!danger] Cerebral venous sinus thrombosis — the CT is often normal
+> **Headache is the commonest symptom, and it may be thunderclap, gradual or progressive.** Also: seizures, focal deficits that do not fit an arterial territory, papilloedema, and reduced conscious state.
+> **Risk factors: pregnancy and the postpartum period, combined oral contraception, thrombophilia, dehydration, malignancy, and local infection — mastoiditis, sinusitis, otitis media.**
+> **A plain CT is frequently normal or shows only subtle signs, so if you suspect it, you must request CT or MR VENOGRAPHY.** Requesting a plain CT and being reassured is the standard way this diagnosis is missed.
+> **Anticoagulation is the treatment — even in the presence of venous haemorrhagic infarction**, which is counterintuitive and is the point most often got wrong.
+
+> [!danger] Medication overuse headache
+> **Headache present on 15 or more days per month in a patient using acute headache medication regularly — roughly 10 or more days per month for triptans, opioids and combination analgesics, or 15 or more for simple analgesics.**
+> It is **very common, under-recognised, and the single most important reversible cause of chronic daily headache.** The patient takes more analgesia because the headache is worse, and the headache is worse because of the analgesia.
+> **The treatment is withdrawal of the overused medication**, with warning that symptoms worsen for a period before improving, plus introduction of prophylaxis. **Opioids and codeine-containing combinations are the worst offenders**, which is another reason not to use them for headache.
+> `UNVERIFIED — the exact medication-day thresholds for each drug class.`
+
+> [!tip] Spontaneous intracranial hypotension
+> **Postural headache that is worse when upright and relieved by lying flat** — the opposite of raised intracranial pressure. Follows lumbar puncture, or occurs spontaneously from a dural CSF leak. May have neck pain, tinnitus and hearing change.
+> MRI shows diffuse pachymeningeal enhancement and brain sagging. Treated with conservative measures and **an epidural blood patch**, which is often dramatically effective.
+
+> [!tip] Raised intracranial pressure and space-occupying lesions
+> **Headache worse on waking or on lying flat, worse with coughing, sneezing or straining, with vomiting (often without preceding nausea), papilloedema, focal deficits, seizures, or personality and cognitive change.**
+> Causes: tumour, abscess, **chronic subdural haematoma** (particularly in older patients on anticoagulants after apparently trivial trauma — cross-refer [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure), hydrocephalus.
+
+> [!tip] The extracranial and systemic causes that are easily missed
+> **Acute angle-closure glaucoma** — headache with a red painful eye, halos, blurred vision, a fixed mid-dilated pupil, nausea and vomiting. **Sight-threatening.** Cross-refer `TODO:link — E1 Red & painful eye (unbuilt)`.
+> **Carbon monoxide poisoning** — headache with nausea, particularly with **multiple household members affected and symptoms improving away from home.** Cross-refer [[14a-2_Psych_-_Overdose_and_Poisoning_Management]].
+> **Hypertensive emergency and pre-eclampsia** — check the blood pressure and, in pregnancy, the urine.
+> **Sinusitis, dental disease, temporomandibular joint dysfunction, cervicogenic headache**, and **post-traumatic headache.**
+
+**Ix:** ESR and CRP (*why:* giant cell arteritis; *what:* markedly raised). **CT or MR venography** where CVST is possible (*why:* plain imaging misses it; *what:* sinus filling defect). **Lumbar puncture with opening pressure** where IIH is suspected (*why:* both diagnostic and initially therapeutic; *what:* raised pressure with normal constituents). **Formal visual field testing and fundus photography** in papilloedema (*why:* quantifies and monitors the threat to vision, which the patient cannot detect until it is advanced; *what:* field loss, disc appearance). MRI brain with contrast (*why:* structural lesion, pachymeningeal enhancement, demyelination; *what:* mass, meningeal changes). Temporal artery ultrasound or biopsy (*why:* confirms GCA; *what:* halo sign, arteritis with giant cells). Carboxyhaemoglobin (*why:* not detected by standard oximetry; *what:* elevated level). **A medication diary** (*why:* diagnoses medication overuse headache, and nothing else will; *what:* medication days per month).
+
+#### Mx – Immediate — D1 §0.4.1
+**Steroids for suspected GCA before any test.** Anticoagulation for CVST. Urgent ophthalmology for angle-closure glaucoma.
+
+#### Mx – Definitive — D1 §0.4.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D1 §0.4.3
+**Bone protection and glucose monitoring for anyone on prolonged corticosteroids.** Visual field surveillance in IIH. Thrombophilia and contraceptive review after CVST.
+
+
+
+
+
 ## Dementias
 
 ### Mild Cognitive Impairment (MCI)
@@ -181,6 +394,38 @@ no_baseline: 1
 - **Immediate/acute:** identify and treat every reversible contributor found above — this is the highest-value intervention and the reason the work-up matters.
 - **Definitive:** **there is no approved drug treatment for MCI**, and cholinesterase inhibitors are **not** indicated at this stage — a common error, given they are used in Alzheimer's disease below. What has evidence is: **regular physical exercise** (any level better than none), **treating cardiovascular risk factors** — hypertension, diabetes, dyslipidaemia — as modifiable dementia risk factors, cognitive and social engagement, addressing hearing and vision impairment, and treating depression where present.
 - **Chronic/long-term:** **planned review over time** rather than a single assessment, since the trajectory is the diagnostic information and a one-off score cannot distinguish stable MCI from early dementia. Refer to a geriatrician, memory clinic or neurologist where the presentation is atypical, progression is rapid, or onset is young. Use the period of preserved capacity to raise **advance care planning and enduring power of attorney** while the person can genuinely participate (see [[Clinical-Process-EBM-Consent-Capacity]] Capacity assessment — the general framework) — a conversation that is far easier now than after progression, and a specific reason not to defer the discussion simply because the diagnosis is "only" MCI.
+
+### Mild Cognitive Impairment and the "Worried About My Memory" Consultation — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Mild cognitive impairment** is objective cognitive decline beyond that expected for age, **without significant impairment of independent function** — the functional criterion is what separates it from dementia. **Subjective cognitive decline** is a perceived decline with normal objective testing.
+
+> [!tip] Structuring the consultation
+> **· What exactly is the problem?** "Memory" covers word-finding, misplacing objects, disorientation, losing the thread, and getting lost — each points differently.
+> **· Onset and course** — sudden, stepwise, gradual, fluctuating.
+> **· Function** — this is the crux. Can they manage money, medications, appointments, cooking, shopping, driving? **Instrumental activities decline before basic ones.**
+> **· Collateral history** — essential, and ideally obtained separately from the patient with their consent.
+> **· Mood, sleep, alcohol, medications, hearing and vision.**
+> **· Safety** — driving, cooking, wandering, firearms, financial vulnerability and scams, medication errors.
+
+> [!warning] Do not diagnose dementia in a single consultation during an acute illness
+> Cognitive testing during or shortly after an acute admission, an untreated depression, or a period of poor sleep will overestimate impairment. **Reassess after the acute problem has resolved**, ideally at least several weeks later and in the community.
+
+> [!tip] What to tell someone with MCI
+> A proportion progress to dementia each year, a proportion remain stable, and a proportion revert to normal. **Honest uncertainty is better than false reassurance or premature labelling.**
+> **Risk reduction is genuinely worth discussing**, because several modifiable factors have reasonable evidence: **hypertension, diabetes, smoking, physical inactivity, obesity, excess alcohol, social isolation, depression, hearing loss (correcting it matters), traumatic brain injury and air pollution.** `UNVERIFIED — the modifiable risk factor list and estimated attributable fractions are from published dementia prevention work and should be verified against the current source.`
+
+**Ix:** As per 0.3, with **repeat cognitive assessment over time** being more informative than any single test (*why:* the trajectory distinguishes stable MCI from progressive disease, and a single score is a snapshot; *what:* change over 6–12 months).
+
+#### Mx – Immediate — D2 §0.6.1
+Not required.
+
+#### Mx – Definitive — D2 §0.6.2
+Treat the reversible contributors. Monitor.
+
+#### Mx – Chronic/long-term — D2 §0.6.3
+Risk factor modification, cognitive and social engagement, hearing correction, and review. **Advance care planning is appropriate to raise at the MCI stage**, while capacity is unequivocal.
+
 
 ### Vascular Dementia
 
@@ -299,6 +544,58 @@ no_baseline: 1
 
 ---
 
+### Dementia — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Acquired, progressive impairment in one or more cognitive domains, sufficient to interfere with independence in everyday activities, not occurring exclusively during delirium and not better explained by another psychiatric disorder.
+
+> [!tip] The major syndromes and their distinguishing features
+> **Alzheimer disease** — the commonest. Insidious onset, gradual progression. **Episodic memory impairment first** — forgetting recent conversations and events, repetitive questioning — followed by language, visuospatial and executive decline. Insight is often reduced early.
+> **Vascular dementia** — **stepwise deterioration** classically, though it is often gradual. Vascular risk factors, focal neurological signs, **early gait disturbance**, and **executive dysfunction and slowed processing more prominent than pure memory loss.** Mixed Alzheimer-vascular pathology is very common.
+> **Dementia with Lewy bodies** — see the danger box below.
+> **Frontotemporal dementia** — **younger onset**, often 50s–60s. **Behavioural variant**: disinhibition, apathy, **loss of empathy**, compulsive or ritualistic behaviours, **hyperorality and dietary change (often a craving for sweet foods)**, and poor insight. **Memory and visuospatial function are relatively preserved early**, which is why these patients are frequently misdiagnosed as having a primary psychiatric illness — depression, bipolar disorder, or a personality change — sometimes for years. **Language variants** (primary progressive aphasia) present with progressive speech and language breakdown.
+
+> [!danger] Dementia with Lewy bodies — the safety-critical diagnosis
+> **Core features: fluctuating cognition and alertness · recurrent, well-formed VISUAL hallucinations, typically of people or animals · REM sleep behaviour disorder (acting out dreams, often preceding cognitive symptoms by years) · spontaneous parkinsonism.**
+> **Severe neuroleptic sensitivity** — antipsychotics can cause profound rigidity, autonomic instability and irreversible deterioration.
+> **This is why you ask about hallucinations, dream enactment and fluctuation before prescribing an antipsychotic to any older person.** It is the single most important practical reason to know this diagnosis.
+> Distinguished from **Parkinson disease dementia** by timing — dementia arising before or within about a year of the motor features is DLB; well after established Parkinson disease, it is PDD. Management is similar. `UNVERIFIED — the "one-year rule" and diagnostic criteria.`
+
+> [!warning] Look for the treatable contributors in every case
+> **· Hypothyroidism · vitamin B12 and folate deficiency · hypercalcaemia · neurosyphilis · HIV · chronic subdural haematoma · medication (anticholinergics, benzodiazepines, opioids) · alcohol · obstructive sleep apnoea · uncorrected hearing and vision impairment · depression.**
+> **· Normal pressure hydrocephalus** — the triad of **gait disturbance (magnetic, shuffling, wide-based — "wet, wacky and wobbly", but the GAIT comes first and is the most shunt-responsive feature)**, urinary incontinence and cognitive impairment. **A patient whose gait problem preceded the cognitive problem deserves consideration of NPH**, because shunting can help.
+> Few of these reverse an established dementia, but **most of them make it worse and are correctable**, which is the point.
+
+> [!tip] Cognitive assessment tools, with an Australian note
+> **MMSE** — widely known, but heavily weighted to language and orientation, insensitive to executive and frontal deficits, and **strongly affected by education and language background.**
+> **MoCA** — more sensitive to mild impairment and executive dysfunction.
+> **RUDAS** — the **Rowland Universal Dementia Assessment Scale**, developed in Australia specifically to be **less influenced by education level and cultural and linguistic background**, and useful in Australia's multicultural population.
+> **KICA-Cog** — the Kimberley Indigenous Cognitive Assessment, developed for older Aboriginal Australians, particularly in rural and remote settings. **Applying a MMSE or MoCA to an Aboriginal patient or someone with limited English literacy will systematically overestimate impairment.**
+> `UNVERIFIED — all cut-off scores, and the availability and validation range of RUDAS and KICA-Cog.`
+> **Cognitive testing is never sufficient alone.** The diagnosis requires **a collateral history from someone who knows the person** and an assessment of **function** — instrumental activities (finances, medications, driving, shopping, cooking) decline before basic ones.
+
+> [!danger] Behavioural and psychological symptoms of dementia (BPSD)
+> Agitation, aggression, wandering, disinhibition, psychosis, and mood disturbance.
+> **Look for a cause first — pain (frequently the answer and frequently untreated because the patient cannot report it), constipation, urinary retention, infection, hunger, thirst, boredom, fear, over- or under-stimulation, and delirium.**
+> **Non-pharmacological approaches first.** Then, if needed, **the smallest dose for the shortest time, with a plan and date for review** — because **antipsychotics in dementia increase stroke and mortality**, and because they are started far more often than they are stopped.
+
+**S/Smx:** Progressive cognitive decline with functional impairment, in the domains characteristic of the underlying syndrome, with behavioural and psychological symptoms, and with the specific features above.
+
+**Ix:** **Collateral history** (*why:* the single most important part of the assessment — patients under-report and lack insight, and the pattern of onset and progression comes from the informant; *what:* onset, course, domains affected, function, behaviour). **Cognitive testing with a tool appropriate to the person's language, education and cultural background** (*why:* an inappropriate tool produces a misleading result; *what:* domain-specific deficits). **Functional assessment (ADLs and IADLs)** (*why:* the functional criterion is what distinguishes dementia from mild cognitive impairment; *what:* dependence). FBC, UEC, calcium, LFT, **TFTs, B12 and folate, glucose** (*why:* the correctable contributors; *what:* deficiency, endocrine or metabolic derangement). Syphilis serology and HIV where risk factors or an atypical presentation (*why:* treatable causes; *what:* positive serology). **CT or MRI brain** (*why:* excludes subdural haematoma, tumour, hydrocephalus and significant vascular disease, and the pattern of atrophy supports the syndrome — **MRI is preferred where available**; *what:* atrophy pattern, vascular burden, hydrocephalus, mass). Sleep study where OSA is suspected (*why:* it worsens cognition and is treatable; *what:* apnoea-hypopnoea index). **Hearing and vision assessment** (*why:* uncorrected sensory impairment both mimics and worsens cognitive decline, and **hearing loss is a recognised modifiable risk factor for dementia**; *what:* correctable deficit). Depression screening (*why:* depression causes reversible cognitive impairment and coexists frequently; *what:* depressive symptoms — see 0.4). Specialist investigations — neuropsychological testing, FDG-PET, amyloid imaging, CSF biomarkers, EEG — where the diagnosis is uncertain or onset is young (*why:* young-onset and atypical dementia warrant specialist workup; *what:* pattern-specific findings).
+
+#### Mx – Immediate — D2 §0.3.1
+Only if delirium is superimposed — which is common and must be excluded, since **delirium on a background of dementia is the commonest presentation of both.**
+
+#### Mx – Definitive — D2 §0.3.2
+No disease-modifying treatment is established in routine Australian practice. **Cholinesterase inhibitors** (donepezil, rivastigmine, galantamine) in Alzheimer disease, and with particular benefit in **Lewy body and Parkinson disease dementia**; **memantine** in moderate to severe disease. Benefits are modest and symptomatic. **Aggressive vascular risk factor management** in vascular and mixed dementia. `UNVERIFIED — agents, PBS authority criteria, and the assessment requirements for continuation.`
+
+#### Mx – Chronic/long-term — D2 §0.3.3
+**Advance care planning EARLY, while the person still has capacity to express their wishes** — this is the single most valuable long-term intervention and it is repeatedly left too late. Cross-refer [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment.
+**Driving assessment and the legal obligation to advise** — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions).
+**Carer support** — carer burden is high, carer depression is common, and practical support (respite, carer payments, Dementia Australia, My Aged Care assessment) should be arranged actively rather than mentioned. **Ask the carer how they are.**
+Falls prevention, nutrition, continence, and dental and sensory care.
+
+
 ## Delirium
 
 **D:** acute, fluctuating changes in mental status — inattention, disorganised thinking, altered level of consciousness. Divided into hyperactive, hypoactive, mixed.
@@ -321,6 +618,61 @@ no_baseline: 1
 > If patient becomes aggressive: haloperidol 0.5 mg PO bd → increase to 2.5 mg PO if no effect; IM haloperidol if no other choice; if secondary to alcohol withdrawal — diazepam is the Australian first-line choice, not chlordiazepoxide (which isn't registered in Australia — see [[03_Gastrointestinal]] Alcohol-Related Liver Disease (ArLD) → Alcohol withdrawal for the fuller AU-verified regimen).
 
 ---
+
+### Delirium — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** An acute, fluctuating disturbance of attention and awareness with additional cognitive disturbance, developing over hours to days, caused by a physiological insult.
+
+> [!tip] Inattention is the core feature — and it is testable in under a minute
+> **Delirium is fundamentally a disorder of attention.** Ask the patient to recite **the months of the year backwards from December**, or the days of the week backwards. Failure to sustain and shift attention is the diagnostic finding.
+> Screening tools: **the 4AT** is quick, needs no training and is widely used in Australian hospitals; the **CAM** and **CAM-ICU** are alternatives. `UNVERIFIED — scoring and cut-offs.`
+
+> [!danger] Hypoactive delirium is commoner than hyperactive, and it is missed
+> **The agitated, pulling-at-lines patient gets recognised. The quiet, withdrawn, drowsy, "settled" patient does not** — and is labelled as depressed, tired, or "just their dementia".
+> **Hypoactive delirium is more common, has a worse prognosis, and is the form that goes undiagnosed.** If a patient has become quieter, more withdrawn or less engaged over days, screen them for delirium rather than assuming low mood.
+
+> [!tip] Precipitants — PINCH ME
+> **P**ain · **I**nfection · **N**utrition · **C**onstipation · **H**ydration · **M**edication · **E**nvironment
+> Add to this list explicitly: **urinary retention** (do a bladder scan), **hypoxia**, **electrolyte disturbance**, **alcohol or benzodiazepine withdrawal**, **stroke**, **myocardial infarction**, **the post-operative state**, and **sleep deprivation.**
+> **Delirium is usually multifactorial**, so finding one cause does not mean you should stop looking. In a frail patient it may take only a small insult; in a robust one it takes a large one — so **delirium in a previously well younger person implies a serious underlying illness.**
+
+> [!warning] The drugs that cause it
+> **Anticholinergics** (including many antihistamines, oxybutynin, tricyclics, and the cumulative anticholinergic burden of polypharmacy), **benzodiazepines**, **opioids**, **corticosteroids**, dopaminergic agents, and **withdrawal** from alcohol, benzodiazepines or nicotine.
+> **Reviewing and rationalising the drug chart is one of the most effective interventions available**, and it is free. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+> [!tip] Management is overwhelmingly non-pharmacological
+> **Treat the precipitants.** Then:
+> **· Orientation** — clock, calendar, familiar objects, repeated reorientation by staff.
+> **· Sensory aids** — **glasses and hearing aids.** A patient who cannot see or hear cannot orient, and this is astonishingly often overlooked.
+> **· Day-night structure** — light during the day, dark and quiet at night, minimise nocturnal observations and procedures where safe.
+> **· Mobilise early** and avoid immobilising devices.
+> **· Remove catheters, lines and restraints wherever possible** — each is a tether that increases agitation and infection risk.
+> **· Family presence**, which is genuinely therapeutic and should be facilitated with flexible visiting.
+> **· Consistency of staff** where possible.
+> **Multicomponent prevention programs reduce incident delirium substantially** — this is one of the better-evidenced interventions in geriatric medicine.
+
+> [!danger] Medication for delirium — narrow indications and real hazards
+> **Antipsychotics do not treat delirium.** They are used only where the patient is a danger to themselves or others, or is so distressed that non-pharmacological measures have failed — at **the lowest dose, for the shortest time**, with regular review.
+> **Antipsychotics in older people with dementia increase the risk of stroke and death.**
+> **In Lewy body dementia and Parkinson disease, antipsychotics can cause severe, sometimes irreversible neuroleptic sensitivity reactions** — rigidity, autonomic instability, and a marked deterioration. **Ask about hallucinations, fluctuation, REM sleep behaviour disorder and parkinsonism BEFORE prescribing any antipsychotic in an older patient.**
+> **Benzodiazepines worsen delirium** and should be avoided — **except where the delirium is due to alcohol or benzodiazepine withdrawal**, where they are the treatment.
+> `UNVERIFIED — agents, doses and review intervals.`
+
+**S/Smx:** Acute onset, fluctuating course (worse at night — "sundowning"), inattention, disorganised thinking, altered conscious level, perceptual disturbance (often visual hallucinations and misperceptions), disturbed sleep-wake cycle, emotional lability, and either agitation or withdrawal.
+
+**Ix:** **A structured search for precipitants** rather than a reflex panel — **history and collateral, medication review, examination including a bladder scan and a rectal examination for constipation, and observations including oxygen saturation** (*why:* the commonest causes are found clinically, not on the blood results; *what:* infection, retention, constipation, pain, hypoxia, drugs). FBC, CRP, UEC, calcium, glucose, LFT, TFTs (*why:* metabolic and infective precipitants; *what:* derangement). Urinalysis and culture — **interpreted carefully** (*why:* asymptomatic bacteriuria is very common in older people and **a positive urine culture does not prove that a UTI is the cause of the delirium**; treating it while missing the real cause is a recognised error; *what:* infection in context). CXR (*why:* pneumonia, often without cough or fever in the elderly; *what:* consolidation). ECG (*why:* silent myocardial infarction; *what:* ischaemia). Blood cultures where febrile (*why:* sepsis; *what:* organism). **CT brain only where there are focal signs, head injury, anticoagulation, or no other explanation** (*why:* routine CT in delirium has low yield and delays treatment of the actual cause; *what:* haemorrhage, infarct, subdural). Consider **thiamine, B12 and folate** in the malnourished or alcohol-dependent (*why:* Wernicke encephalopathy; *what:* treat empirically rather than wait).
+
+#### Mx – Immediate — D2 §0.2.1
+Treat the precipitants. Non-pharmacological measures. Ensure safety without restraints where possible.
+
+#### Mx – Definitive — D2 §0.2.2
+Ongoing treatment of the underlying cause, with daily reassessment.
+
+#### Mx – Chronic/long-term — D2 §0.2.3
+**Delirium is not benign** — it independently predicts prolonged admission, functional decline, institutionalisation, death, and subsequent dementia.
+**Explain it to the patient and family, and document it in the discharge summary**, because recovery takes weeks to months and families are frequently told nothing. **Arrange cognitive follow-up**, since an episode of delirium may unmask previously unrecognised dementia. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
 
 ## Delirium vs Dementia vs Depression — the "3 Ds" in Older People
 
@@ -357,6 +709,34 @@ This is the single most commonly tested geriatric discriminator, and the single 
 **Why this matters beyond the diagnosis:** delirium is a marker of acute illness and demands a search for the precipitant (see Delirium above); it also predicts falls, longer admission, functional decline and institutionalisation (see [[18_Geriatrics_and_Older_Persons_Health]] Falls in Older People). Getting the label wrong sends the patient down the wrong pathway entirely — a missed delirium means a missed sepsis, a missed drug effect, or a missed urinary retention.
 
 ---
+
+### Delirium, Dementia and Depression — The Distinction — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] The comparison
+> | | **Delirium** | **Dementia** | **Depression** |
+> |---|---|---|---|
+> | **Onset** | **Hours to days** | Months to years | Weeks to months |
+> | **Course** | **Fluctuating, worse at night** | Slowly progressive | Persistent, diurnal variation (worse in the morning) |
+> | **Attention** | **Impaired — the core feature** | Preserved until late | Variable, effort-dependent |
+> | **Consciousness** | **Altered** | Clear until very late | Clear |
+> | **Answers to questions** | Disorganised, rambling | **Confabulation, near-miss answers, effortful attempts** | **"I don't know", gives up quickly** |
+> | **Insight into memory problem** | Fluctuating | **Often reduced — the family is more worried than the patient** | **Often heightened — the patient is more worried than the family** |
+> | **Psychomotor** | Hyper- or hypoactive | Normal until late | Retarded or agitated |
+> | **Hallucinations** | Common, visual | In DLB; otherwise late | Uncommon, mood-congruent if present |
+> | **Reversibility** | **Usually reversible** | Not reversible | **Reversible with treatment** |
+
+> [!warning] "Pseudodementia" — depression presenting as cognitive impairment
+> **The patient who complains bitterly about their memory, says "I don't know" rather than attempting answers, has prominent low mood, and whose family is less concerned than they are, is more likely depressed than demented.**
+> The converse — the patient brought in by a worried family while insisting they are fine — points toward dementia.
+> **Depression is treatable, and it also coexists with and precedes dementia**, so it should be screened for and treated in every cognitive presentation rather than treated as an either/or.
+
+> [!danger] They coexist far more often than they occur in isolation
+> **Delirium superimposed on dementia is the commonest presentation of both in hospital**, and the delirium is missed because the confusion is attributed to the known dementia.
+> **Any acute change in cognition or behaviour in a person with dementia is delirium until proven otherwise**, and warrants a search for a precipitant.
+
+**Ix:** As per the individual sections. **Screening for depression should be part of every cognitive assessment**, and cognitive reassessment should be repeated after depression is treated and after delirium resolves — **do not diagnose dementia during an acute illness or an untreated depressive episode.**
+
 
 ## Serotonin Syndrome and Neuroleptic Malignant Syndrome (NMS)
 
@@ -420,6 +800,58 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 > [!warning] Risk factors for faster progression: older age at symptom onset, rigidity/bradykinesia as presenting symptoms, associated comorbidities, decreased response to dopaminergic medications.
 
 **P:** after 5 years of levodopa treatment, motor complications develop; eventually symptoms such as freezing, falling, and dementia develop. Cognitive dysfunction and non-dopaminergic symptoms are the main determinants of increased disability in the first 5 years of disease.
+
+### Parkinsonism — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Bradykinesia** — slowness with decrement in amplitude or speed on repetitive movement — **plus at least one of rest tremor, rigidity, or postural instability.**
+
+> [!tip] Parkinson disease — the typical picture
+> **Asymmetric onset**, rest tremor, cogwheel rigidity, bradykinesia, and a **good, sustained response to levodopa.**
+> **The non-motor features often precede the motor features by years, sometimes decades**: **hyposmia, REM sleep behaviour disorder (acting out dreams), constipation, depression and anxiety.** Recognising this prodrome matters, and REM sleep behaviour disorder in particular is a strong predictor.
+> Examination: reduced blink rate, hypomimia, hypophonia, micrographia, reduced arm swing, shuffling festinant gait, freezing, and **turning en bloc.**
+
+> [!danger] Red flags for atypical parkinsonism ("Parkinson-plus")
+> **· Symmetric onset · early falls (within the first year) · poor or absent levodopa response · rapid progression**
+> **· Early autonomic failure — postural hypotension, urinary dysfunction, erectile dysfunction → multiple system atrophy**
+> **· Vertical gaze palsy, particularly downgaze, with early falls (often backwards) → progressive supranuclear palsy**
+> **· Early dementia, fluctuating cognition and visual hallucinations → dementia with Lewy bodies** — cross-refer [[04_Neurology]] Lewy Body Dementia (LBD)
+> **· Alien limb phenomenon, marked asymmetry, apraxia → corticobasal degeneration**
+> **· Cerebellar signs → MSA-C**
+> These carry a worse prognosis and respond poorly to levodopa, so the distinction changes both counselling and expectations.
+
+> [!danger] Drug-induced parkinsonism — common, reversible, and repeatedly missed
+> **Dopamine antagonists cause parkinsonism**: antipsychotics (typical more than atypical), and — the ones most often overlooked — **metoclopramide and prochlorperazine**, which are prescribed liberally as antiemetics, often long-term, in exactly the older population who then present with "Parkinson disease".
+> **It is characteristically symmetric and there is usually a rest tremor.** **It may take many months to resolve after the drug is stopped**, so a lack of immediate improvement does not exclude it.
+> **Always review the drug chart before diagnosing Parkinson disease.** Cross-refer [[NEW_Drugs_12_Gastrointestinal]] §0.2.5 Antiemetic Selection by Mechanism.
+
+> [!danger] Never abruptly stop dopaminergic medication, and give it ON TIME
+> **Abrupt withdrawal of levodopa or a dopamine agonist can precipitate an akinetic crisis or a neuroleptic malignant-like syndrome**, with rigidity, hyperthermia, autonomic instability and rhabdomyolysis.
+> **In hospital this is a genuine and frequent harm.** Parkinson medications are highly time-critical — **a dose given an hour late leaves the patient unable to move, swallow or communicate.** They must be prescribed at the patient's own home times, not the ward drug round times, and continued through fasting and the perioperative period by an alternative route where necessary.
+> **Ask every admitted Parkinson patient what times they take their medications, and prescribe those times.**
+
+> [!danger] Avoid dopamine antagonists in Parkinson disease
+> **Metoclopramide, prochlorperazine and haloperidol block central dopamine receptors and cause severe deterioration.**
+> **For nausea, use domperidone or ondansetron.** For psychosis, **quetiapine or clozapine** are the antipsychotics used, because they have the least extrapyramidal effect — and antipsychotics should be avoided altogether where possible, particularly given the **severe neuroleptic sensitivity in Lewy body disease.**
+
+> [!warning] Dopamine agonists cause impulse control disorders — ask about it
+> **Pathological gambling, hypersexuality, compulsive shopping, binge eating and punding** occur in a significant minority on dopamine agonists (and less often on levodopa).
+> **Patients and families almost never volunteer this** — through shame, or because they do not connect it to a Parkinson medication. **Warn them at the time of prescribing, and ask directly and specifically at every review**, including asking the partner. The financial and relationship consequences can be devastating and are largely preventable.
+
+**S/Smx:** Motor features as above, plus the non-motor burden: constipation, postural hypotension, drooling, dysphagia, sleep disturbance, depression, anxiety, apathy, pain, urinary dysfunction, and cognitive impairment.
+
+**Ix:** **The diagnosis is clinical.** **Medication review** (*why:* drug-induced parkinsonism is common and reversible; *what:* dopamine antagonists). MRI brain (*why:* excludes vascular parkinsonism, hydrocephalus and structural lesions, and may show features of atypical syndromes; *what:* small vessel disease, midbrain atrophy). **Caeruloplasmin and copper studies in young-onset disease** (*why:* Wilson disease; *what:* low caeruloplasmin). **Levodopa response** (*why:* a sustained good response supports Parkinson disease and its absence suggests an atypical syndrome — it is effectively a diagnostic test; *what:* symptomatic improvement). DaTscan where the diagnosis is uncertain (*why:* distinguishes degenerative parkinsonism from essential or drug-induced tremor, though **it does not distinguish Parkinson disease from atypical parkinsonism**; *what:* presynaptic dopaminergic deficit). Postural blood pressure (*why:* autonomic failure suggests MSA and is itself treatable; *what:* postural drop). Cognitive and mood assessment (*why:* both are common and treatable; *what:* impairment, depression).
+
+#### Mx – Immediate — D6 §0.5.1
+**Continue their usual medications at their usual times.** Treat any akinetic crisis urgently with reinstatement of dopaminergic therapy.
+
+#### Mx – Definitive — D6 §0.5.2
+**Levodopa with a decarboxylase inhibitor** is the most effective symptomatic treatment. Dopamine agonists, MAO-B inhibitors and COMT inhibitors are alternatives and adjuncts. **Motor complications — wearing off, dyskinesia and on-off fluctuations — develop with time and are managed by fractionating doses, adding adjuncts, or advanced therapies (apomorphine, intestinal levodopa gel, deep brain stimulation).** `UNVERIFIED — agents, doses and the sequencing of therapy.`
+
+#### Mx – Chronic/long-term — D6 §0.5.3
+**Multidisciplinary care** — Parkinson nurse specialist, physiotherapy (with specific evidence for cued and high-intensity exercise), occupational therapy, speech pathology for both speech and swallow, and dietitian.
+**Non-motor symptom management**, which frequently affects quality of life more than the motor features. **Falls prevention. Driving assessment. Advance care planning.** Carer support.
+
 
 ### PD drug classes
 
@@ -497,6 +929,70 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 **P:** ~20 years from diagnosis to death. Stage I: disability. Stage II: managing behaviour. Stage III: dependence. Stage IV: placement, end of life.
 
 ---
+
+### Gait Disorders — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Watch the patient walk — the pattern usually names the lesion
+> **Hemiplegic** — **circumduction** of the stiff extended leg with a flexed adducted arm. Contralateral UMN lesion, usually stroke.
+> **Spastic paraparetic ("scissoring")** — both legs stiff and adducted, toes scraping. **Spinal cord** — cervical myelopathy, MS, cord compression, cerebral palsy.
+> **Cerebellar ataxic** — **wide-based, staggering, irregular, worse on turning and on tandem walking**, and **NOT corrected by looking at the feet.** Midline (vermis) lesions cause truncal ataxia with a relatively normal limb examination; hemispheric lesions cause ipsilateral limb ataxia.
+> **Sensory ataxic** — **high-stepping, stamping, eyes fixed on the ground, markedly worse in the dark**, with a **positive Romberg.** Dorsal columns or large fibre neuropathy.
+> **Parkinsonian** — **stooped, shuffling, reduced arm swing, difficulty initiating, festination, freezing (especially in doorways), and turning "en bloc" in multiple small steps.** Cross-refer [[04_Neurology]] Movement Disorders.
+> **Steppage (foot drop)** — the foot is lifted high to clear the toes. **Unilateral** suggests common peroneal palsy or L5 radiculopathy; **bilateral** suggests peripheral neuropathy or Charcot-Marie-Tooth. Cross-refer [[04_Neurology]] Mononeuropathies and Entrapment.
+> **Waddling (myopathic)** — pelvis drops on the swing side from proximal weakness (**Trendelenburg**), with a rolling gait and difficulty rising from a chair. Cross-refer [[04_Neurology]] Myopathy.
+> **Antalgic** — shortened stance phase on the painful side. Musculoskeletal.
+> **Apraxic / "magnetic"** — **feet appear stuck to the floor, with small shuffling steps and a wide base, but normal leg strength and coordination when tested lying down.** Frontal lobe disease, **normal pressure hydrocephalus**, or extensive small vessel disease. Cross-refer [[04_Neurology]] Normal Pressure Hydrocephalus.
+> **Functional** — inconsistent, variable with distraction, often with **excessive effort or extravagant sway without falling**, and improvement when attention is diverted. A positive diagnosis. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
+
+> [!danger] A new gait disorder in an older adult is not "just age"
+> Gait deteriorates modestly with age, but **a distinct new gait abnormality has a cause.** The ones not to miss: **normal pressure hydrocephalus** (gait first, and the most shunt-responsive feature), **cervical myelopathy** (spastic gait with hand clumsiness and brisk reflexes), **subdural haematoma**, **B12 deficiency**, **parkinsonism**, and **medication effects.**
+
+**Ix:** **Observed gait, including turning and tandem walking** (*why:* the diagnosis is usually visible in ten seconds of walking, and turning unmasks parkinsonian and cerebellar problems the straight-line walk conceals; *what:* the pattern). **Romberg, and examination of tone, power, reflexes, proprioception and coordination** (*why:* localises; *what:* the neurological pattern). MRI brain and spine as directed (*why:* hydrocephalus, myelopathy, cerebellar disease, small vessel disease; *what:* structural cause). B12, TFTs, glucose (*why:* reversible contributors; *what:* deficiency). Medication review (*why:* drug-induced parkinsonism and sedation are common and reversible; *what:* antipsychotics, metoclopramide, prochlorperazine, sedatives).
+
+#### Mx – Immediate — D5 §0.5.1
+Falls risk assessment and prevention of injury.
+
+#### Mx – Definitive — D5 §0.5.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D5 §0.5.3
+**Physiotherapy and gait aids**, correctly fitted — an incorrectly sized walking stick is worse than none. Home assessment, footwear, and exercise. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+### Rigidity — The Differential — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Distinguish the types of increased tone
+> **Rigidity** — resistance **equal in all directions and throughout the range**, independent of the speed of movement. **"Lead-pipe"**, or **"cogwheel"** when a tremor is superimposed. → **Parkinsonism.**
+> **Spasticity** — **velocity-dependent**: resistance increases with faster movement, and there may be a **"clasp-knife"** sudden give-way. Affects antigravity muscles preferentially. → **Upper motor neurone lesion.**
+> **Paratonia (gegenhalten)** — variable resistance that increases with the examiner's effort, in a patient who cannot relax. → Frontal lobe disease, dementia, delirium.
+> **Dystonia** — sustained co-contraction producing an abnormal posture.
+
+> [!danger] Acute rigidity with fever is a medical emergency
+> **· Neuroleptic malignant syndrome** — **generalised "lead-pipe" rigidity**, hyperthermia, autonomic instability and altered mental state, developing over **days** after starting or increasing an antipsychotic, or after **abrupt withdrawal of dopaminergic therapy in Parkinson disease.** Raised CK.
+> **· Serotonin toxicity** — **rigidity greater in the LOWER limbs, with HYPERREFLEXIA and CLONUS**, developing over **hours** after a serotonergic combination.
+> **· Malignant hyperthermia** — during anaesthesia, with masseter spasm and a **rising end-tidal CO₂ as the earliest sign.**
+> **· Tetanus** — trismus, risus sardonicus, opisthotonos, with a wound and incomplete immunisation.
+> The full comparison table is in [[04_Neurology]] Serotonin Syndrome and Neuroleptic Malignant Syndrome (NMS).
+
+> [!tip] The other causes of rigidity
+> **Catatonia** — with waxy flexibility, mutism, negativism, posturing and echophenomena. **Responds to benzodiazepines**, and may be missed and mistaken for a neurological or metabolic cause. Cross-refer `TODO:link — N3 Psychosis (unbuilt)`.
+> **Stiff person syndrome** — progressive axial and limb rigidity with painful spasms, associated with anti-GAD antibodies and other autoimmune disease.
+> **Drug-induced parkinsonism** — see 0.5.
+> **Severe hypocalcaemia and tetany** — with carpopedal spasm, Chvostek and Trousseau signs.
+
+**Ix:** **CK** (*why:* markedly raised in NMS and in rhabdomyolysis from sustained rigidity; *what:* elevation). Core temperature (*why:* the hyperthermic syndromes; *what:* raised). **Full medication and anaesthetic timeline** (*why:* the interval since drug exposure discriminates between the syndromes — days for NMS, hours for serotonin toxicity, minutes for malignant hyperthermia; *what:* agent and timing). **Neurological examination for clonus and reflexes** (*why:* hyperreflexia with clonus points to serotonin toxicity rather than NMS; *what:* the pattern). UEC, calcium, magnesium (*why:* metabolic causes and the consequences of rhabdomyolysis; *what:* derangement). Tetanus immunisation history and wound examination (*why:* tetanus; *what:* portal of entry).
+
+#### Mx – Immediate — D6 §0.7.1
+Cease the causative agent. Cooling, benzodiazepines, fluid resuscitation. **Dantrolene for malignant hyperthermia. Reinstate dopaminergic therapy where NMS follows its withdrawal.** Cross-refer [[04_Neurology]] Serotonin Syndrome and Neuroleptic Malignant Syndrome (NMS).
+
+#### Mx – Definitive — D6 §0.7.2
+Syndrome-specific, with ICU support.
+
+#### Mx – Chronic/long-term — D6 §0.7.3
+**Permanent documentation of the trigger**, particularly for malignant hyperthermia (with family screening) and for NMS.
+
+
 
 ## CNS Infections
 
@@ -624,26 +1120,90 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 
 ---
 
-### Added from unverified layer — neck stiffness: the differential
+### Neck Stiffness — The Differential — from unverified layer
 `SRC:D1_Headache_and_Meningism §0.6` `UNVERIFIED — model knowledge, not source-checked.`
-
-> [!note] This section assembles material that already exists elsewhere in the vault
-> Every entity below is covered in its own file. What was missing is the **presentation**: a patient arrives with a stiff neck, not with a diagnosis, and nothing answered that in one place. Each line points at the owner rather than restating it.
+*Supersedes the former neck-stiffness fragment, inheriting its cross-references. The fragment pointed at owners rather than restating them; this carries B's section whole and keeps the pointers.*
 
 > [!tip] Not all neck stiffness is meningitis
 > **Meningeal** — meningitis (§CNS Infections above), **subarachnoid haemorrhage** developing over hours (§Strokes below), meningeal malignancy.
 > **Raised intracranial pressure with tonsillar herniation** — neck stiffness with reduced conscious state and abnormal posturing. **Lumbar puncture here is dangerous**, per the CT-before-LP rule in §CNS Infections.
-> **Cervical spine** — trauma with fracture or ligamentous injury; **atlantoaxial instability**, which matters in **rheumatoid arthritis and Down syndrome** (see [[15_20a_Paeds_-_Trisomies_and_Sex_Chromosome_Disorders]]); discitis or vertebral osteomyelitis; spondylosis; malignancy.
-> **Deep neck space infection** — **retropharyngeal abscess** (a child who will not move the neck, drooling, unwell) and **Lemierre syndrome** (see [[13_05a_ENT_-_Sore_Throat_and_Tonsillitis]] and [[08_09_Infectious_Disease_-_Miscellaneous]]).
+> **Cervical spine** — trauma with fracture or ligamentous injury, **atlantoaxial instability (rheumatoid arthritis, Down syndrome)**, discitis or osteomyelitis, spondylosis, malignancy — see [[15_20a_Paeds_-_Trisomies_and_Sex_Chromosome_Disorders]].
+> **Deep neck space infection** — **retropharyngeal abscess** (a child who will not move their neck, drooling, unwell — cross-refer [[13_05a_ENT_-_Sore_Throat_and_Tonsillitis]]), Lemierre syndrome.
 > **Muscular** — torticollis, myositis, cervical muscle spasm.
-> **Acute dystonic reaction** — from **metoclopramide, prochlorperazine or antipsychotics**, with torticollis, oculogyric crisis and trismus. **Responds within minutes to an anticholinergic**, and is frequently misread as a psychiatric or neurological event. See [[NEW_Drugs_12_Gastrointestinal]] §0.2.2.
+> **Acute dystonic reaction** — from metoclopramide, prochlorperazine or antipsychotics, with torticollis, oculogyric crisis and trismus. **Responds within minutes to an anticholinergic** and is frequently misdiagnosed. The agents and the anticholinergic reversal are owned by [[NEW_Drugs_12_Gastrointestinal]] §0.2.2. Cross-refer [[03_Gastrointestinal]] §0.41.16 Nausea and Vomiting.
 > **Tetanus** — trismus, risus sardonicus, opisthotonos, with a wound and incomplete immunisation.
-> **Systemic** — tonsillitis and cervical lymphadenitis in children, and severe pneumonia (particularly upper lobe) causing **meningism without meningitis**.
+> **Systemic** — tonsillitis and cervical lymphadenitis in children, and severe pneumonia (particularly upper lobe) causing meningism without meningitis.
 
-> [!danger] In a child with neck stiffness, two must be excluded urgently
-> **Meningitis** and **retropharyngeal abscess.** A child who holds the neck rigidly, refuses to move it, drools, or has a muffled voice needs urgent assessment of the **airway and deep neck spaces**, not simply a lumbar puncture. See [[15_02_Paeds_-_Ill_and_Feverish_Child__Meningitis__Encephalitis]].
+> [!danger] In a child with neck stiffness, the two to exclude urgently
+> **Meningitis** and **retropharyngeal abscess.** A child who holds the neck rigidly, refuses to move it, drools, or has a muffled voice needs urgent assessment of the airway and deep neck spaces, not just an LP. See [[13_05a_ENT_-_Sore_Throat_and_Tonsillitis]], [[08_09_Infectious_Disease_-_Miscellaneous]] and [[15_02_Paeds_-_Ill_and_Feverish_Child__Meningitis__Encephalitis]].
 
-**Ix:** directed by the differential — **LP where meningitis is suspected and it is safe**, **CT brain where raised pressure or subarachnoid haemorrhage is possible**, and **cervical spine imaging where there is trauma or focal spinal tenderness**. The order matters more than the list: imaging precedes the LP whenever raised intracranial pressure is a possibility.
+**Ix:** Directed by the differential — **LP where meningitis is suspected and safe, CT brain where raised pressure or SAH is possible, cervical spine imaging where there is trauma or focal spinal tenderness, and CT neck with contrast where deep neck space infection is suspected.** Medication review for dystonic reaction, and tetanus immunisation history.
+
+#### Mx – Immediate — D1 §0.6.1
+Treat as meningitis where there is any doubt. Anticholinergic for dystonic reaction. Airway assessment in suspected deep neck infection.
+
+#### Mx – Definitive — D1 §0.6.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D1 §0.6.3
+Documentation of the causative drug in dystonic reaction. Immunisation catch-up.
+
+### Meningism, Meningitis and Encephalitis — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Meningism** is the clinical syndrome of headache, neck stiffness and photophobia from meningeal irritation — **it is not synonymous with meningitis**, and occurs in SAH, and in systemic infection in children without meningeal infection.
+
+> [!danger] Do not delay antibiotics for imaging or lumbar puncture
+> **In suspected bacterial meningitis, antibiotics are given as soon as the diagnosis is considered.** Blood cultures first if that costs no delay, but **the CT and the LP happen afterwards.**
+> Every hour of delay worsens outcome, and the commonest cause of delay is waiting for a scan.
+> **Dexamethasone is given before or with the first dose of antibiotics** in suspected bacterial meningitis, where it reduces mortality and hearing loss, particularly in pneumococcal disease — **giving it after antibiotics have already been administered loses most of the benefit.** `UNVERIFIED — dose, indications, and the age groups in which it applies.`
+
+> [!warning] When to CT before LP
+> **· Focal neurological deficit · new-onset seizure · papilloedema · significantly reduced or fluctuating conscious state · immunocompromise · known CNS lesion.**
+> The purpose is to identify raised intracranial pressure that would make lumbar puncture dangerous (risk of coning). **CT is not a reliable measure of intracranial pressure**, so clinical judgement still applies. `UNVERIFIED — the specific criteria in current Australian guidance.`
+
+> [!info] The classic triad is unreliable
+> **Fever, neck stiffness and altered mental state are all three present in only a minority of adults with bacterial meningitis.** **Kernig and Brudzinski signs are specific but very insensitive** — their absence does not exclude meningitis, and relying on them is a known failure mode.
+> **In infants**: fever or hypothermia, poor feeding, irritability, lethargy, a bulging fontanelle, and **frequently no neck stiffness at all.** Cross-refer `TODO:link — M2 Fever in children (unbuilt)`.
+> **In the elderly**: confusion may be the only feature.
+
+> [!tip] Organisms, and who gets which
+> **Adults and older children:** *Streptococcus pneumoniae*, *Neisseria meningitidis*.
+> **Over about 50, pregnant, immunocompromised, alcohol-dependent:** add ***Listeria monocytogenes*** — **this changes the empirical regimen**, because Listeria is not covered by cephalosporins alone. **Forgetting Listeria cover in an older patient is the classic prescribing error in meningitis.**
+> **Neonates:** group B *Streptococcus*, *E. coli*, *Listeria*.
+> **Viral:** enteroviruses commonest; herpes simplex; and consider HIV seroconversion.
+> **Chronic/subacute:** tuberculosis, *Cryptococcus* (particularly in HIV — with a characteristically raised opening pressure requiring repeated therapeutic LPs), and malignant meningitis.
+
+> [!info] CSF interpretation
+> | | **Bacterial** | **Viral** | **TB / fungal** |
+> |---|---|---|---|
+> | Appearance | Turbid | Clear | Clear or fibrin web |
+> | Predominant cell | **Neutrophils** | **Lymphocytes** | **Lymphocytes** |
+> | Protein | Raised | Normal or mildly raised | **Markedly raised** |
+> | **CSF:serum glucose ratio** | **Low** | **Normal** | **Very low** |
+> `UNVERIFIED — all reference values and the glucose ratio threshold.`
+> **Always send a paired serum glucose** — the CSF glucose is meaningless without it, and this is frequently forgotten.
+> **Partially treated bacterial meningitis** can show a lymphocytic picture, which is a genuine trap.
+
+> [!danger] Encephalitis — start aciclovir empirically
+> **Encephalitis is distinguished from meningitis by the prominence of altered mental state, behavioural change, personality change, seizures and focal deficits**, rather than headache and neck stiffness.
+> **Herpes simplex encephalitis has a predilection for the temporal lobes**, producing personality change, olfactory or gustatory hallucinations, aphasia and temporal lobe seizures.
+> **Start intravenous aciclovir empirically in any suspected encephalitis — do not wait for the CSF PCR result.** Untreated HSV encephalitis has very high mortality and severe morbidity in survivors, and the treatment is safe. **This is the single most important management point in encephalitis.** `UNVERIFIED — dose, renal adjustment and duration.`
+> **Autoimmune encephalitis** — notably **anti-NMDA receptor encephalitis**, characteristically in a young woman with a **psychiatric prodrome, then seizures, movement disorder and autonomic instability**, and associated with an **ovarian teratoma.** Frequently misdiagnosed initially as a primary psychiatric illness, so it is worth knowing.
+
+**S/Smx:** Fever, headache, neck stiffness, photophobia, vomiting, altered conscious state, seizures, focal signs, and **a non-blanching rash in meningococcal disease** — cross-refer [[08_09_Infectious_Disease_-_Miscellaneous]] Sepsis, noting the rash is a **late** sign and may be absent.
+
+**Ix:** **Blood cultures before antibiotics if no delay** (*why:* frequently the only positive microbiology, particularly once antibiotics are given; *what:* organism). **Lumbar puncture with opening pressure, cell count and differential, protein, glucose with a PAIRED serum glucose, Gram stain, culture, and PCR** (*why:* establishes the diagnosis, distinguishes bacterial from viral, and PCR detects organisms after antibiotics have sterilised cultures; *what:* the CSF profile above). **Meningococcal and pneumococcal PCR on blood** (*why:* remains positive after antibiotics, which is the usual situation given antibiotics are correctly given early; *what:* organism DNA). FBC, CRP, UEC, glucose, coagulation profile (*why:* baseline, DIC, and the serum glucose for the CSF ratio; *what:* derangement). **CT brain before LP where indicated** (*why:* identifies mass effect; *what:* lesion, hydrocephalus, effacement). **MRI brain in suspected encephalitis** (*why:* **temporal lobe changes support HSV encephalitis** and MRI is far more sensitive than CT; *what:* temporal lobe signal change). **EEG** (*why:* supports encephalitis and detects non-convulsive status; *what:* focal temporal slowing, epileptiform discharges). HIV testing (*why:* alters the differential toward opportunistic infection and is a treatable diagnosis in its own right; *what:* positive serology). Autoimmune encephalitis antibodies including anti-NMDA receptor (*why:* treatable with immunotherapy and tumour removal; *what:* positive antibodies).
+
+#### Mx – Immediate — D1 §0.5.1
+**Antibiotics immediately — with Listeria cover in the at-risk groups. Dexamethasone with or before the first dose. Aciclovir if encephalitis is possible.** Resuscitate. Blood cultures. LP when safe. **Notify public health** for meningococcal disease and arrange contact prophylaxis — cross-refer [[08_09_Infectious_Disease_-_Miscellaneous]] Sepsis.
+
+#### Mx – Definitive — D1 §0.5.2
+Targeted antimicrobials on culture and sensitivity. ICU for reduced conscious state or seizures. Immunotherapy and tumour search for autoimmune encephalitis.
+
+#### Mx – Chronic/long-term — D1 §0.5.3
+**Formal audiology after bacterial meningitis, particularly in children — sensorineural hearing loss is a common and treatable sequela and is missed if not specifically tested.** Neurodevelopmental and neuropsychological follow-up. Contact tracing and prophylaxis. **Investigate for complement deficiency after invasive meningococcal disease.** Immunisation review.
+
 
 
 ## CNS Infections Associated with Immunosuppression
@@ -773,28 +1333,101 @@ Both are toxidromes causing the triad of **hyperthermia, altered mental status, 
 
 ---
 
-### Added from unverified layer — structural versus metabolic, and two transient amnesias
-`SRC:D2_Altered_Consciousness_and_Cognition §0.1` `SRC:D2_Altered_Consciousness_and_Cognition §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+### Reduced Consciousness — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Impaired arousal or awareness, ranging from drowsiness through stupor to coma.
+
+**A/P:** Consciousness requires **an intact ascending reticular activating system in the brainstem AND at least one functioning cerebral hemisphere.** Coma therefore results from one of three things:
+**1. A brainstem lesion** damaging the ARAS directly.
+**2. Bilateral hemispheric dysfunction** — diffuse structural damage, or mass effect causing herniation and brainstem compression.
+**3. Diffuse metabolic or toxic depression** of the whole cortex.
+**A unilateral hemispheric lesion does not cause coma unless it is large enough to compress the brainstem** — so a comatose patient with a single small cortical lesion has something else going on.
+
+> [!danger] The first four things, before anything else
+> **1. Airway** — a patient who cannot protect their airway needs it protected. **2. Bedside glucose** — hypoglycaemia is instantly reversible and mimics everything. **3. Consider naloxone** where opioid toxicity is plausible (pinpoint pupils, low respiratory rate). **4. Consider thiamine** in the malnourished, alcohol-dependent or persistently vomiting — **and give it before or with any glucose.** Cross-refer [[03_Gastrointestinal]] §0.6 Alcohol-Related Liver Disease (ArLD).
+> Only then move to a structured assessment.
 
 > [!tip] Structural versus metabolic — the pattern that separates them
-> The GCS above records **how impaired** consciousness is. This is the question of **why**, and it splits before any investigation returns.
-> **Structural** — **focal** and **asymmetrical**. A lateralising motor deficit, asymmetric pupils, gaze deviation, or a progressive deterioration following an anatomical sequence. Imaging is urgent.
-> **Metabolic and toxic** — **symmetrical**, with **pupils preserved and reactive** (the striking exception being opioids, which constrict them), often with tremor, myoclonus or asterixis, and a level of consciousness that **fluctuates** rather than marching downward.
-> **Preserved, symmetrical, reactive pupils in a deeply unconscious patient point away from a structural cause** — which is the single most useful bedside observation in this assessment.
+> **Structural** — **asymmetry.** Lateralising motor signs, asymmetric pupils, gaze deviation, asymmetric reflexes or tone, abnormal posturing on one side.
+> **Metabolic or toxic** — **symmetry, with preserved pupillary light reflexes.** The pupils are the key: **metabolic causes generally spare the pupillary light reflex even in deep coma** (the notable exceptions being opioids, anticholinergics and profound hypothermia). A comatose patient with symmetrical reactive pupils and no focal signs is far more likely metabolic.
+> **Any asymmetry demands urgent imaging.**
 
-> [!warning] Transient global amnesia
-> **Abrupt, isolated anterograde amnesia lasting hours and resolving completely**, in a patient who is otherwise alert, oriented to self, and neurologically normal. The characteristic feature is **repetitive questioning** — asking the same question every few minutes, with no recollection of the answer.
-> There is **no focal deficit and no alteration of consciousness**; if either is present this is not the diagnosis. Recovery is complete, and recurrence is uncommon.
+> [!info] What the pupils tell you
+> **Pinpoint and reactive** — opioids, or a pontine lesion (in which case they are usually unreactive and accompanied by other brainstem signs).
+> **Unilateral fixed and dilated** — **third nerve compression from uncal herniation.** A neurosurgical emergency.
+> **Fixed mid-position** — midbrain lesion.
+> **Bilaterally dilated and unreactive** — anticholinergic toxicity, severe hypoxic-ischaemic injury, or brainstem death.
+> **Small and reactive** — metabolic encephalopathy.
+
+> [!tip] Causes — AEIOU TIPS
+> **A** — Alcohol and other intoxicants · **E** — Epilepsy (including non-convulsive status), Electrolytes, Encephalopathy (hepatic, uraemic, hypertensive), Endocrine · **I** — Insulin: hypoglycaemia and hyperglycaemic states · **O** — Opiates, Oxygen (hypoxia and hypercapnia) · **U** — Uraemia · **T** — Trauma, Temperature (hypo- and hyperthermia) · **I** — Infection: sepsis, meningitis, encephalitis · **P** — Poisoning, Psychiatric · **S** — Stroke, SAH, Shock, Space-occupying lesion.
+
+> [!danger] Non-convulsive status epilepticus
+> **Consider it in any patient with unexplained persistently reduced consciousness**, particularly after a witnessed seizure where they have not returned to baseline, in known epilepsy, or after a critical illness. There may be only subtle signs — eyelid fluttering, nystagmoid eye movements, automatisms, or nothing at all.
+> **The diagnosis requires an EEG**, and it is missed because nobody asks for one. Cross-refer [[04_Neurology]] Seizures and Epilepsy.
+
+> [!warning] Document the GCS components, not just the total
+> **A total of 9 can mean E2V2M5 or E4V1M4 — very different patients.** Record eye, verbal and motor separately. **The motor score carries the most prognostic weight.** Note also that GCS is unreliable in intubated, sedated, aphasic or intoxicated patients, and in young children a paediatric version is required.
+
+> [!danger] Herniation syndromes
+> **Uncal herniation** — the medial temporal lobe compresses the third nerve and midbrain: **ipsilateral fixed dilated pupil, then contralateral hemiparesis, then decerebrate posturing and coma.**
+> **The Cushing response — hypertension, bradycardia and irregular respiration — is a LATE sign of critically raised intracranial pressure.** Do not wait for it. A falling GCS or a new pupillary asymmetry demands action first. Cross-refer [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure.
+
+**S/Smx:** Level of consciousness, pupils, eye movements and brainstem reflexes, motor response and asymmetry, tone and reflexes, respiratory pattern, temperature, skin (needle marks, rash, jaundice, cyanosis), breath odour (ketones, fetor hepaticus, alcohol), and evidence of trauma including the occiput and behind the ears.
+
+**Ix:** **Bedside glucose** (*why:* instantly reversible and mimics every cause; *what:* hypoglycaemia). **ABG or VBG with electrolytes and lactate** (*why:* identifies hypercapnia — which oximetry cannot detect — acidosis, hyponatraemia and lactate in minutes; *what:* pCO₂, pH, sodium, lactate). UEC, calcium, magnesium, phosphate, LFT, ammonia (*why:* metabolic encephalopathies, with **ammonia supporting hepatic encephalopathy though not required to diagnose it**; *what:* derangement). FBC, CRP, cultures (*why:* sepsis, which causes encephalopathy without CNS infection; *what:* infection). TFTs and cortisol (*why:* myxoedema coma and adrenal crisis both present as reduced consciousness and both are treatable; *what:* markedly raised TSH, low cortisol). **Paracetamol and salicylate levels, and a toxicology screen where indicated** (*why:* poisoning; *what:* levels — cross-refer [[14a-2_Psych_-_Overdose_and_Poisoning_Management]]). **CT brain** (*why:* haemorrhage, infarct, mass, hydrocephalus, herniation; *what:* structural lesion). **Lumbar puncture** where infection is suspected and it is safe (*why:* meningitis and encephalitis; *what:* CSF profile — cross-refer [[04_Neurology]] CNS Infections). **EEG** where the cause remains unexplained (*why:* non-convulsive status epilepticus; *what:* ongoing seizure activity). Core temperature (*why:* hypothermia and hyperthermia; *what:* extremes). ECG (*why:* arrhythmia, ischaemia, toxicological clues in QRS and QT; *what:* the trace).
+
+#### Mx – Immediate — D2 §0.1.1
+A–E with airway protection. Glucose. Thiamine before glucose in at-risk patients. Naloxone where indicated. Oxygen. Treat seizures. **Urgent CT where there is any asymmetry or focal sign.** Nurse head up where raised pressure is suspected.
+
+#### Mx – Definitive — D2 §0.1.2
+Cause-specific. ICU where the airway cannot be protected or the cause requires it.
+
+#### Mx – Chronic/long-term — D2 §0.1.3
+Rehabilitation, and investigation of the underlying condition.
+
+
+### Amnesia and Memory Impairment — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former structural-versus-metabolic and transient-amnesias fragment, inheriting its cross-references; the structural/metabolic half of that fragment is carried by §Reduced Consciousness above.*
+
+> [!tip] Transient global amnesia
+> **Sudden onset of dense ANTEROGRADE amnesia lasting less than 24 hours**, with **repetitive questioning** ("how did I get here?" asked over and over), **preserved personal identity, preserved consciousness, no focal neurological signs, and no other cognitive deficit.**
+> Often triggered by physical exertion, emotional stress, sexual intercourse, cold water immersion or a Valsalva manoeuvre. Typically middle-aged or older.
+> **It is benign and does not recur in most people**, but it is **a diagnosis of exclusion** — seizure, TIA and stroke must be considered, particularly if there are focal signs, if it lasts beyond 24 hours, if consciousness was impaired, or if it recurs.
 > `UNVERIFIED — the diagnostic criteria, the recurrence rate, and what imaging is warranted before accepting the diagnosis; RACGP or a neurology reference.`
 
 > [!warning] Transient epileptic amnesia
-> **Brief, recurrent amnestic episodes**, often on waking, in an older patient — and, unlike transient global amnesia, **they repeat**. It is a temporal lobe epilepsy presenting as memory loss rather than as a recognisable seizure, and it is **treatable**, which is why the distinction matters.
-> **Recurrent amnestic episodes should prompt an EEG rather than reassurance.** See §Seizures and Epilepsy below and §Focal Seizures.
+> **Brief, RECURRENT episodes of amnesia, often on waking**, in an older patient, sometimes with olfactory or gustatory phenomena, and frequently with interictal memory complaints out of proportion to the episodes.
+> **Recurrence is the discriminator from TGA**, and it matters because it responds to antiepileptic treatment. It is under-diagnosed. **Recurrent amnestic episodes should prompt an EEG rather than reassurance** — see §Seizures and Epilepsy and §Focal Seizures below.
 > `UNVERIFIED — diagnostic criteria and the yield of EEG in this setting; neurology guidance.`
 
-> [!note] Not repeated here
-> **Wernicke-Korsakoff** is the other major cause of an amnestic presentation and is covered in §Serotonin Syndrome and NMS above, in `03_Gastrointestinal` §0.6.1, and in `14a-1_Psych_-_Substance_Misuse`. **`TGA` in this vault usually means transposition of the great arteries, and sometimes the Therapeutic Goods Administration** — the abbreviation is deliberately not used above.
+> [!danger] Wernicke-Korsakoff
+> **Wernicke encephalopathy** — confusion, ophthalmoplegia and ataxia, though **the complete triad is present in a minority.** Treat on suspicion with parenteral thiamine.
+> **Korsakoff syndrome** — the chronic consequence: **profound anterograde and variable retrograde amnesia with confabulation and preserved other cognitive function.** Largely irreversible.
+> **Give thiamine before glucose** in anyone at risk — alcohol dependence, malnutrition, hyperemesis, bariatric surgery, prolonged vomiting. Cross-refer [[03_Gastrointestinal]] §0.6 Alcohol-Related Liver Disease (ArLD).
 
+> [!tip] The rest of the differential
+> **Head injury** — **the duration of post-traumatic amnesia is one of the better predictors of outcome**, so document it. Cross-refer [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure.
+> **Hippocampal pathology** — **HSV encephalitis** (temporal lobes), **autoimmune limbic encephalitis** (LGI1, NMDA receptor), hypoxic-ischaemic injury, and posterior cerebral artery infarction.
+> **Drugs** — **benzodiazepines cause dense anterograde amnesia**, anticholinergics, and **alcohol "blackouts", which are episodes of anterograde amnesia during intoxication with preserved behaviour at the time.**
+> **Dissociative (psychogenic) amnesia** — **the discriminating feature is loss of personal identity.** Organic amnesia essentially always preserves the sense of who you are; a patient who cannot remember their own name and identity, particularly after psychological trauma, is far more likely dissociative. **This distinction is high-yield and clinically useful.** Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
+
+**Ix:** **CT or MRI brain** (*why:* excludes stroke, haemorrhage, tumour and encephalitis — **MRI with diffusion imaging shows small hippocampal lesions in TGA and is superior for temporal lobe pathology**; *what:* structural or signal abnormality). **EEG** (*why:* diagnoses transient epileptic amnesia and non-convulsive seizures; *what:* epileptiform activity). Bedside glucose (*why:* hypoglycaemia causes transient amnesia; *what:* low glucose). B12, thiamine status, TFTs (*why:* nutritional and endocrine causes; *what:* deficiency). Toxicology and medication review (*why:* benzodiazepines and alcohol; *what:* culprit). CSF and autoimmune encephalitis antibodies where subacute and progressive (*why:* treatable autoimmune limbic encephalitis; *what:* antibodies). **Neuropsychological testing** (*why:* characterises the pattern of memory impairment and distinguishes organic from functional; *what:* domain profile).
+
+#### Mx – Immediate — D2 §0.5.1
+Glucose, thiamine, and exclusion of stroke, seizure and encephalitis.
+
+#### Mx – Definitive — D2 §0.5.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D2 §0.5.3
+**Driving advice** after TGA and after any amnestic episode — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions). Alcohol support. Cognitive rehabilitation.
+
+> [!note] Not repeated here, and one abbreviation warning
+> **Wernicke-Korsakoff** is also covered in §Serotonin Syndrome and Neuroleptic Malignant Syndrome (NMS) above, in [[03_Gastrointestinal]] §0.6.1 Alcohol withdrawal, and in [[14a-1_Psych_-_Substance_Misuse__Recreational_Drug_Profiles_]]. The AU-verified thiamine dosing is owned by [[03_Gastrointestinal]] §0.6 Alcohol-Related Liver Disease (ArLD) and is deliberately not restated here.
+> **`TGA` in this vault usually means transposition of the great arteries, and sometimes the Therapeutic Goods Administration.** The section above uses it for transient global amnesia — read the abbreviation from its context, and do not search on it.
 
 ## Seizures and Epilepsy
 
@@ -841,23 +1474,111 @@ Start in a specific area of the brain, typically the temporal lobe; further divi
 
 > [!info] Mx (focal seizures): lamotrigine or levetiracetam first-line; carbamazepine, oxcarbazepine, or zonisamide second-line — these drug class choices are internationally standard, including in Australia; no valproate-specific sex caveat applies here since valproate isn't the first-line choice for focal seizures in the first place.
 
-### Added from unverified layer — current terminology, and two counselling points
-`SRC:D6_Seizures_and_Movement_Disorders §0.1` `SRC:D6 §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+### Seizures — Classification and the First Seizure — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.1` `UNVERIFIED — model knowledge, not source-checked.`
 
-> [!info] The current ILAE terms — the concept above, named
-> §Focal Seizures already says focal seizures are divided **by awareness and by motor versus non-motor features**. The current names for that division:
-> - **Focal aware** — awareness retained throughout. (Formerly *simple partial*.)
-> - **Focal with impaired awareness** — awareness lost or reduced at any point. (Formerly *complex partial*.)
-> - **Focal to bilateral tonic-clonic** — a focal onset that spreads. (Formerly *secondary generalised*.)
->
-> **The corpus uses neither the current terms nor the superseded ones**, so this adds names rather than content — but the names are what an exam and a discharge summary will use.
+**D:** A seizure is a transient occurrence of signs or symptoms due to abnormal excessive or synchronous neuronal activity. **Epilepsy** is the disease of recurrent unprovoked seizures.
 
-> [!danger] SUDEP — sudden unexpected death in epilepsy
-> **Patients and families have a right to know it exists.** The main modifiable factors are **seizure control and medication adherence**, and the risk concentrates in **nocturnal generalised tonic-clonic seizures**.
-> Avoiding the conversation does not protect anyone: it removes the strongest reason a patient has to take medication reliably.
+> [!info] Classification — and the terminology has changed
+> **Focal onset** — arising in one hemisphere. Subclassified by **awareness** (focal aware, focal with impaired awareness) and by **motor or non-motor** onset. May evolve to a **focal to bilateral tonic-clonic** seizure.
+> **Generalised onset** — tonic-clonic, absence, myoclonic, atonic, tonic.
+> **Unknown onset.**
+> **The older terms "simple partial", "complex partial" and "secondarily generalised" are obsolete** and should not be used — the current ILAE terminology is above. `UNVERIFIED — the full classification.`
+> The pairing, because a reader who learnt the old names needs it: **focal aware** was *simple partial*; **focal with impaired awareness** was *complex partial*; **focal to bilateral tonic-clonic** was *secondary generalised*.
+
+> [!tip] Is it epilepsy, or is it something else?
+> **Epilepsy is diagnosed when there are:** two unprovoked seizures more than 24 hours apart; **or** one unprovoked seizure with a high recurrence risk (an epileptogenic lesion on imaging, or clear epileptiform EEG abnormality); **or** an epilepsy syndrome.
+> **A provoked (acute symptomatic) seizure is not epilepsy** and does not usually require long-term antiseizure medication — the treatment is the provoking cause.
+
+> [!warning] Provoking causes to look for in every first seizure
+> **· Hypoglycaemia · hyponatraemia · hypocalcaemia · hypomagnesaemia · uraemia · hepatic failure**
+> **· Alcohol withdrawal** — typically 6–48 hours after cessation, and a common presentation.
+> **· Benzodiazepine withdrawal.**
+> **· Drugs that lower the seizure threshold — tramadol, bupropion, tricyclics, antipsychotics (particularly clozapine), theophylline, isoniazid, some antibiotics, and stimulants including cocaine and amphetamines.**
+> **· Sleep deprivation · infection, including meningitis and encephalitis · fever in a young child · eclampsia · head injury · stroke · tumour.**
+
+> [!danger] Get an ECG in every first seizure
+> **Cardiac syncope — particularly from long QT syndrome, Brugada syndrome, or a tachyarrhythmia — causes cerebral hypoperfusion that can produce convulsive movements**, and is regularly misdiagnosed as epilepsy.
+> The consequence is serious in both directions: the patient is started on an antiseizure medication that does nothing, and the arrhythmia that will kill them goes untreated.
+> **A 12-lead ECG in every first seizure is cheap, quick, and occasionally life-saving.** Ask specifically about a family history of sudden death, drowning, or unexplained single-vehicle accidents. Cross-refer [[04_Neurology]] Syncope–0.2.
+
+> [!tip] Seizure versus syncope — the discriminators worth knowing
+> The full comparison is in [[04_Neurology]] Syncope. The two features that genuinely separate them are **a lateral tongue bite** and **prolonged postictal confusion.**
+> **Brief myoclonic jerking occurs in ordinary syncope (convulsive syncope) and does not make it a seizure**, and **incontinence occurs in both and discriminates poorly.**
+> **Todd paresis** — transient focal weakness after a seizure, resolving over minutes to hours — is a stroke mimic and a clue that a seizure occurred. Cross-refer [[04_Neurology]] Stroke Mimics and Stroke Chameleons.
+
+> [!danger] The safety and driving conversation is part of the first-seizure consultation
+> **This is examinable and it is a genuine duty.**
+> **Driving** — the patient must not drive, must notify the licensing authority, and there is a defined non-driving period which **differs for provoked and unprovoked seizures and for private versus commercial licences.** **Advise them, document that you advised them, and note that South Australia has particular medical reporting provisions.** Cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions). `UNVERIFIED — all non-driving periods, from Austroads Assessing Fitness to Drive.`
+> **Other safety advice, which is routinely omitted:**
+> **· Showers rather than baths** — drowning in a bath is a leading cause of seizure-related death.
+> **· Do not swim alone.**
+> **· Avoid heights, ladders, and operating dangerous machinery.**
+> **· Care with cooking** — use the back hotplates, avoid carrying hot liquids.
+> **· Do not lock the bathroom door.**
+> **· Advice for anyone who witnesses a seizure** — protect the head, do not restrain, do not put anything in the mouth, time it, recovery position afterwards, and call an ambulance if it exceeds five minutes or repeats.
+> **· Consider occupational implications** and discuss them.
+
+**S/Smx:** A careful account of the event from the patient **and a witness** — prodrome, aura, onset, motor features, duration, colour, tongue biting, incontinence, injury, and the nature and duration of recovery. Then a search for provoking factors and for focal features suggesting a structural lesion.
+
+**Ix:** **Bedside glucose** (*why:* hypoglycaemia both causes seizures and is instantly reversible; *what:* low glucose). **UEC with sodium, calcium and magnesium** (*why:* electrolyte-provoked seizures require correction rather than antiseizure medication; *what:* hyponatraemia, hypocalcaemia, hypomagnesaemia). **ECG** (*why:* the cardiac mimic, per the danger box; *what:* long QT, Brugada pattern, arrhythmia). FBC, LFT, CRP (*why:* infection, hepatic and alcohol-related causes; *what:* derangement). Toxicology and alcohol history (*why:* withdrawal and drug-provoked seizures; *what:* substances, timing of last drink). **CT brain acutely** (*why:* excludes haemorrhage, large mass and trauma in the emergency setting; *what:* bleed, mass, midline shift). **MRI brain — the definitive structural investigation** (*why:* far more sensitive than CT for the epileptogenic lesions that matter — **mesial temporal sclerosis, focal cortical dysplasia, cavernoma, low-grade tumour** — which CT reliably misses; *what:* structural epileptogenic lesion). **EEG** (*why:* supports the diagnosis, classifies the seizure type, and identifies a high recurrence risk that may justify treatment after a single seizure; *what:* epileptiform discharges — noting **a normal EEG does not exclude epilepsy** and an abnormal one does not by itself diagnose it, and **yield is higher if performed within the first day or two, and with sleep deprivation**). Lumbar puncture where infection is suspected (*why:* meningitis and encephalitis; *what:* CSF profile — cross-refer [[04_Neurology]] CNS Infections). Pregnancy test (*why:* eclampsia is treated with magnesium rather than a benzodiazepine, and it changes the whole pathway; *what:* positive).
+
+#### Mx – Immediate — D6 §0.1.1
+Protect from injury, recovery position, oxygen, glucose. Treat the provoking cause. Terminate a prolonged seizure per 0.2.
+
+#### Mx – Definitive — D6 §0.1.2
+Treat provoked seizures by treating the provocation. **Antiseizure medication after a single unprovoked seizure is a considered decision**, weighing recurrence risk against the burden of treatment, and is usually made with neurology input.
+
+#### Mx – Chronic/long-term — D6 §0.1.3
+The safety and driving conversation, documented. Neurology follow-up. Epilepsy nurse and support organisations.
+
+
+### Epilepsy Management — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former ILAE-terminology and counselling fragment. Its ILAE terms are carried by §Seizures — Classification and the First Seizure above, which states them in full; its SUDEP marker and epilepsy-surgery pointer are carried here.*
+
+> [!danger] Sodium valproate and women of childbearing potential
+> **Valproate is highly teratogenic and causes neurodevelopmental impairment in a substantial proportion of exposed children.** It **must not be used in women and girls of childbearing potential** unless there is no effective alternative and strict conditions are met — and there are formal regulatory requirements around counselling, pregnancy prevention and documentation in Australia.
+> **This is the single most important prescribing point in epilepsy**, it is examined, and it has been the subject of regulatory action. `UNVERIFIED — the current TGA requirements and the specific conditions under which valproate may be used.`
+
+> [!warning] Match the drug to the seizure type — and know which drugs make things worse
+> **Carbamazepine, phenytoin, gabapentin, pregabalin and vigabatrin can WORSEN absence and myoclonic seizures**, and may aggravate generalised epilepsies.
+> **So misclassifying a generalised epilepsy as focal, and prescribing carbamazepine, can make the patient dramatically worse** — this is a recognised and avoidable harm.
+> **Broad-spectrum agents** (valproate, levetiracetam, lamotrigine, topiramate) cover both. `UNVERIFIED — agent selection by syndrome.`
+
+> [!tip] The adverse effects and interactions that matter clinically
+> **Levetiracetam** — **behavioural and mood effects: irritability, aggression, depression.** Ask about it specifically at follow-up, because patients and families often do not connect it to the drug.
+> **Lamotrigine** — **serious rash including Stevens-Johnson syndrome, which is why titration must be slow.** Cross-refer [[09_01_Dermatology_-_Dermatological_Emergencies]]. **Oestrogen-containing contraception lowers lamotrigine levels substantially**, so starting or stopping the pill can cause breakthrough seizures or toxicity.
+> **Carbamazepine** — enzyme inducer, **hyponatraemia**, and the **HLA-B\*1502 association with severe cutaneous reactions in some Asian populations**, where pre-emptive testing is recommended.
+> **Phenytoin** — **zero-order kinetics**, so small dose increases produce large level increases; gum hypertrophy, ataxia, nystagmus, and it is an enzyme inducer.
+> **Topiramate** — cognitive slowing, weight loss, renal stones, and **teratogenicity.**
+> **Enzyme-inducing antiseizure medications (carbamazepine, phenytoin, phenobarbitone, topiramate at higher doses) reduce the efficacy of hormonal contraception** — **this counselling point is repeatedly missed and results in unplanned pregnancies on teratogenic drugs.** Cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`.
+
+> [!warning] Pregnancy and preconception
+> **Plan ahead.** Preconception counselling, **high-dose folate**, review of the regimen toward the least teratogenic effective option, and **monotherapy at the lowest effective dose.**
+> **Do not stop antiseizure medication abruptly when a woman discovers she is pregnant** — a tonic-clonic seizure carries risk to both mother and fetus that generally exceeds the medication risk. Refer urgently rather than advising cessation.
+> Lamotrigine and levetiracetam levels **fall during pregnancy** and may need dose adjustment. `UNVERIFIED — folate dose and monitoring requirements.`
+
+> [!tip] Things to discuss that frequently are not
+> **SUDEP (sudden unexpected death in epilepsy)** — patients and families have a right to know it exists, and the main modifiable factors are **seizure control and medication adherence**, particularly for nocturnal generalised tonic-clonic seizures. Avoiding the conversation is no longer considered acceptable practice.
+> Avoiding it also removes the strongest reason a patient has to take medication reliably.
 > `UNVERIFIED — the incidence, and how Australian guidance recommends the conversation be framed and timed; Epilepsy Action Australia, or RACGP.`
+> **Adherence**, which is the commonest cause of breakthrough seizures.
+> **Sleep, alcohol and drug use** as triggers.
+> **Medication withdrawal** after a prolonged seizure-free period is possible in selected patients, but carries a recurrence risk and **the driving implications must be discussed before withdrawal begins.**
+> **Referral for epilepsy surgery assessment in drug-resistant epilepsy** — defined as failure of two appropriately chosen and tolerated medications — because **surgery can be curative in selected patients and referral is frequently delayed by many years.** The referral itself is covered by [[NEW_Drugs_15_Neurological]].
 
-- **Drug-resistant epilepsy is defined as failure of two appropriately chosen and tolerated antiseizure medications.** It matters because it is the trigger for **epilepsy surgery assessment**, referral for which is frequently delayed by years — see [[NEW_Drugs_15_Neurological]], which covers the referral itself.
+**Ix:** **MRI brain** (*why:* identifies a surgically remediable lesion; *what:* mesial temporal sclerosis, dysplasia, tumour). EEG, including prolonged or video-EEG monitoring (*why:* classifies the syndrome and, in video-EEG, distinguishes epileptic from functional seizures; *what:* discharge pattern, event capture). Antiseizure medication levels (*why:* useful mainly for adherence and toxicity, and for phenytoin because of its kinetics — **routine level monitoring is not required for most modern agents**; *what:* level). FBC, LFT, sodium (*why:* drug-specific monitoring — hyponatraemia with carbamazepine, cytopenias and hepatotoxicity with valproate; *what:* derangement). Bone density on long-term enzyme-inducing agents (*why:* they accelerate vitamin D metabolism and cause osteoporosis; *what:* reduced density).
+
+#### Mx – Immediate — D6 §0.3.1
+Not applicable outside acute seizures.
+
+#### Mx – Definitive — D6 §0.3.2
+Antiseizure medication matched to syndrome, at the lowest effective dose, ideally as monotherapy. Referral for surgical assessment in drug-resistant epilepsy. Vagus nerve stimulation and ketogenic diet in selected patients.
+
+#### Mx – Chronic/long-term — D6 §0.3.3
+Annual review including adherence, side effects, contraception, preconception planning, driving, bone health, mood, and the safety advice in §Seizures — Classification and the First Seizure above.
+
 
 
 ### Febrile Convulsions
@@ -888,6 +1609,49 @@ Peak incidence ~36h after last drink — **one point on a withdrawal timeline, n
 
 > [!info] Verified — the overall structure (benzodiazepine first-line → second-line agent if ongoing at 5–10min → general anaesthesia if refractory beyond ~45min) reflects standard international practice, including the drug classes used in Australia (levetiracetam, phenytoin, and sodium valproate are all standard eTG/AMH second-line choices here) — no major structural correction needed, but note: buccal midazolam and PR diazepam (no-IV-access options) and IV lorazepam (IV-access option) are all used in Australia in the same roles as below; the specific repeat-timing and second-line agent choice are standard practice rather than a UK-specific protocol.
 > Benzodiazepines: no IV access — PR diazepam or buccal midazolam; IV access — IV lorazepam; repeat once after 5–10 min. If >5–10 min, start second-line agent (e.g. IV levetiracetam, phenytoin infusion, or sodium valproate). If >45 min (refractory), general anaesthesia or phenobarbital.
+
+### Status Epilepticus — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Operationally, **a seizure lasting five minutes or more, or repeated seizures without recovery of consciousness between them.**
+
+**A/P:** Prolonged seizure activity causes **excitotoxic neuronal injury**, and — crucially — **GABA-A receptors are progressively internalised from the synaptic membrane as the seizure continues.** This means **benzodiazepines become progressively less effective the longer the seizure has been running**, which is the pharmacological justification for treating early and adequately rather than escalating slowly.
+
+> [!danger] Treat at five minutes, and give an adequate dose
+> **The commonest errors are waiting too long and giving too little.**
+> Under-dosing a benzodiazepine because of concern about respiratory depression prolongs the seizure, increases the eventual drug requirement, and worsens outcome. **Give the full dose.**
+> `UNVERIFIED — all agents, doses, routes and repeat intervals are omitted. Obtain them from your health network's status epilepticus protocol and eTG. Paediatric dosing is weight-based and differs.`
+
+> [!tip] The stepwise approach
+> **1. Immediate** — A–E, oxygen, IV access, **bedside glucose**, protect from injury, time the seizure.
+> **2. First line — a benzodiazepine.** Intravenous where access exists; **intramuscular, buccal or intranasal midazolam where it does not**, which is faster than trying to cannulate a convulsing patient.
+> **3. Second line — an intravenous antiseizure medication.** Levetiracetam, sodium valproate and phenytoin are the options, and **randomised evidence found no significant difference in efficacy between them**, so choice is driven by comorbidity, interactions and availability.
+> **4. Refractory status — rapid sequence induction, anaesthesia and ICU** with continuous EEG monitoring.
+> **Call for help early.** This is not a condition to work through alone.
+
+> [!warning] The specific antidotes and situations
+> **· Hypoglycaemia** — glucose, with **thiamine first or concurrently** in the alcohol-dependent or malnourished. Cross-refer [[03_Gastrointestinal]] §0.6 Alcohol-Related Liver Disease (ArLD).
+> **· Eclampsia — magnesium sulfate is the treatment, not a benzodiazepine.** Cross-refer `TODO:link — O2 Later pregnancy & fetal (unbuilt)`.
+> **· Isoniazid overdose — pyridoxine.**
+> **· Neonatal seizures — pyridoxine-dependent epilepsy** is a rare but important consideration.
+> **· Alcohol withdrawal — benzodiazepines**, and treat the withdrawal syndrome rather than just the seizure.
+> **· Hyponatraemia — cautious sodium correction**, since the seizure is a sign of cerebral oedema.
+
+> [!danger] Non-convulsive status epilepticus
+> **Consider it in any patient who does not return to baseline consciousness after a convulsive seizure**, and in unexplained persistent altered mental state.
+> **The diagnosis requires an EEG**, and it is missed because nobody orders one. Cross-refer [[04_Neurology]] Reduced Consciousness.
+
+**Ix:** **Bedside glucose immediately** (*why:* reversible and takes seconds; *what:* hypoglycaemia). UEC, calcium, magnesium, VBG (*why:* metabolic provocation and the lactic acidosis of prolonged seizure, which resolves rapidly and should not be over-treated; *what:* derangement). **Antiseizure medication levels in a known epileptic** (*why:* non-adherence or sub-therapeutic levels is the commonest precipitant of status in established epilepsy; *what:* subtherapeutic level). Toxicology (*why:* drug-provoked seizures; *what:* substances). CT brain (*why:* new structural cause; *what:* haemorrhage, mass). **Continuous EEG in refractory or non-convulsive status** (*why:* the only way to confirm seizure termination in a paralysed and anaesthetised patient; *what:* ongoing electrographic seizures). CK (*why:* rhabdomyolysis after prolonged convulsion; *what:* elevation). Pregnancy test (*why:* eclampsia; *what:* positive).
+
+#### Mx – Immediate — D6 §0.2.1
+As per the stepwise approach. **Time the seizure. Full-dose benzodiazepine. Call for help.**
+
+#### Mx – Definitive — D6 §0.2.2
+ICU with anaesthesia and continuous EEG for refractory status. Treat the underlying cause.
+
+#### Mx – Chronic/long-term — D6 §0.2.3
+Review adherence and the medication regimen. Address the precipitant. Provide a rescue plan — **buccal or intranasal midazolam for community use, with written instructions and training for family or carers.**
+
 
 ### Seizures vs Syncope
 
@@ -1074,16 +1838,111 @@ Peak incidence ~36h after last drink — **one point on a withdrawal timeline, n
 
 > [!info] Recognised risk factors also include intranasal influenza vaccination and pregnancy (particularly the third trimester and immediate postpartum period, ~3× risk) and diabetes (~5× risk) — an association with COVID-19 has also been noted (see [[02_Respiratory]] Viral pneumonia/pneumonitis (including COVID-19) for the general COVID-19 entry, not repeated here), though the mechanism (as with the broader HSV-reactivation theory) remains incompletely understood.
 
-### Added from unverified layer — bulbar versus pseudobulbar palsy
+### Facial Palsy — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] The forehead answers the first question
+> **The upper face receives BILATERAL cortical innervation; the lower face receives only contralateral innervation.**
+> **· Upper motor neurone lesion (stroke) — the FOREHEAD IS SPARED.** The patient can still raise their eyebrows and wrinkle their forehead on the affected side, and eye closure is relatively preserved.
+> **· Lower motor neurone lesion (Bell palsy, facial nerve pathology) — the WHOLE side is affected**, including the forehead, with incomplete eye closure.
+> **A patient with a "facial droop" who can wrinkle their forehead has had a stroke until proven otherwise, and needs a stroke pathway — not reassurance about Bell palsy.** The reverse error also occurs: a complete LMN palsy sent for thrombolysis assessment.
+> Note that emotional facial movement can be preserved in UMN lesions (the patient smiles spontaneously but cannot on command), because emotional and volitional pathways differ.
+
+> [!tip] Bell palsy — the features beyond the weakness
+> Acute unilateral LMN facial weakness, evolving over hours to a couple of days, with:
+> **· Post-auricular pain**, often preceding the weakness.
+> **· Hyperacusis** — sounds uncomfortably loud, from paralysis of stapedius.
+> **· Altered taste over the anterior two-thirds of the tongue** — chorda tympani.
+> **· Reduced lacrimation and drooling.**
+> These accompanying features localise the lesion within the facial canal and support the diagnosis.
+> **Corticosteroids started early — within the first 72 hours — improve the rate of complete recovery**, and this is the intervention that matters most. Antiviral therapy in addition is used in severe cases, with contested evidence. `UNVERIFIED — steroid agent, dose and duration, and the indications for antivirals.`
+
+> [!danger] Eye care is the part that gets forgotten, and it is what causes lasting harm
+> **The eye does not close.** The cornea is exposed, the blink reflex is lost, and **exposure keratopathy can cause corneal ulceration and permanent visual loss.**
+> **Prescribe:**
+> **· Ocular lubricants frequently during the day.**
+> **· Ointment and taping or an eye patch at night.**
+> **· Protective glasses outdoors.**
+> **· Explicit advice to return urgently if the eye becomes red or painful, or vision changes.**
+> **This is a specific, examinable, and genuinely sight-saving part of the management, and it is under-prescribed.** Ophthalmology referral if the cornea is at risk or exposure is severe.
+
+> [!danger] Look in the ear — Ramsay Hunt syndrome
+> **Varicella zoster reactivation in the geniculate ganglion**, producing facial palsy with **vesicles in the external auditory canal, on the pinna, or on the palate** — sometimes only a few, sometimes appearing after the palsy.
+> It is **more painful, more severe, more often associated with hearing loss and vertigo, and has a worse prognosis for recovery** than Bell palsy, and it **requires antiviral therapy in addition to steroids.**
+> **Every patient with a facial palsy needs their ear canal and palate examined.** Missing the vesicles means missing the treatment.
+
+> [!warning] Red flags — this is not Bell palsy
+> **· Gradual onset over weeks** — think tumour (parotid, cerebellopontine angle).
+> **· BILATERAL facial palsy — this is never Bell palsy.** Think **Lyme disease, Guillain–Barré syndrome (including Miller Fisher), sarcoidosis (Heerfordt syndrome — with parotid swelling, uveitis and fever), HIV, leukaemic infiltration, and bilateral skull base disease.**
+> **· Other cranial nerves involved** — think cerebellopontine angle or skull base.
+> **· A parotid mass** — facial nerve involvement by a parotid tumour is a malignancy until proven otherwise.
+> **· Recurrent palsy**, or **no recovery beginning by three to four months** — image.
+> **· Systemic features, rash, or a tick exposure history.**
+> **· Vesicles** — Ramsay Hunt.
+
+**S/Smx:** Unilateral facial weakness, incomplete eye closure with Bell phenomenon (the eye rolls up on attempted closure), drooling, food pocketing in the cheek, altered taste, hyperacusis, and post-auricular pain. Severity is graded, commonly with the **House-Brackmann scale.** `UNVERIFIED — the grading.`
+
+**Ix:** **Examination of the whole face including the forehead** (*why:* the UMN/LMN distinction determines whether this is a stroke pathway or an outpatient problem; *what:* forehead involvement). **Examination of the ear canal, tympanic membrane and palate** (*why:* Ramsay Hunt vesicles change the treatment, and otitis media or cholesteatoma are alternative causes; *what:* vesicles, middle ear disease). **Examination of the parotid and neck** (*why:* a parotid tumour causing facial palsy is malignant until proven otherwise; *what:* mass, lymphadenopathy). Full cranial nerve and neurological examination (*why:* additional deficits move the diagnosis to a central or skull base cause; *what:* other cranial nerve or long tract signs). Glucose and HbA1c (*why:* diabetes predisposes to mononeuropathy; *what:* hyperglycaemia). **Lyme serology where there is relevant travel or tick exposure, and particularly in bilateral palsy** (*why:* treatable, and a classic cause of bilateral facial palsy — noting **locally acquired Lyme disease in Australia remains contested, so travel history is key**; *what:* serology). **MRI with contrast** where there are red flags (*why:* identifies tumour, cerebellopontine angle lesion, or inflammatory nerve enhancement; *what:* mass, enhancement). Audiometry where hearing is affected (*why:* localises to the eighth nerve or cochlea; *what:* pattern of loss). Chest imaging and serum ACE where sarcoidosis is suspected (*why:* systemic disease; *what:* hilar lymphadenopathy). HIV testing where risk factors or bilateral palsy (*why:* facial palsy can be a presentation of seroconversion; *what:* positive serology).
+
+#### Mx – Immediate — D7 §0.2.1
+**Corticosteroids early. Antivirals if Ramsay Hunt or severe. Comprehensive eye protection.** Stroke pathway if the forehead is spared.
+
+#### Mx – Definitive — D7 §0.2.2
+Cause-specific. ENT or neurology referral for atypical, bilateral, recurrent or non-recovering palsy.
+
+#### Mx – Chronic/long-term — D7 §0.2.3
+Facial physiotherapy. **Follow-up to confirm recovery** — and **image anyone whose palsy has not begun to improve by three to four months.** Manage the sequelae: synkinesis (involuntary co-movement, such as eye closure on smiling), crocodile tears, and persistent weakness, for which botulinum toxin and surgical options exist. **Psychological impact is substantial and under-acknowledged** — facial appearance and expression matter enormously to people.
+
+
+### Speech, Voice and Swallowing — from unverified layer
 `SRC:D7_Cranial_Nerves_and_Special_Senses §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former bulbar-versus-pseudobulbar fragment, inheriting its cross-references and its reasoning.*
 
-> [!danger] The tongue tells you which
-> - **Bulbar palsy — LOWER motor neurone.** **Flaccid, wasted, fasciculating tongue**; absent gag; nasal speech; nasal regurgitation of fluids. Causes: motor neurone disease (§Motor Neuron Disease above), Guillain-Barré, myasthenia, brainstem lesions, poliomyelitis.
-> - **Pseudobulbar palsy — bilateral UPPER motor neurone.** **Small, spastic, immobile tongue with NO fasciculation**; **brisk jaw jerk**; slow strained speech; and **emotional lability — pathological laughing and crying**, which is characteristic and distressing to families. Causes: bilateral strokes, multiple sclerosis, motor neurone disease.
->
-> **A fasciculating tongue with brisk reflexes elsewhere is motor neurone disease until proven otherwise** — the combination is what makes MND the answer, because it is the one diagnosis that produces upper and lower motor neurone signs together.
+> [!tip] Three different problems that all sound like "trouble talking"
+> **· Dysphasia (aphasia) — a LANGUAGE problem.** The content is wrong. Dominant hemisphere.
+> **· Dysarthria — an ARTICULATION problem.** The language is intact but the production is impaired; **writing is normal.**
+> **· Dysphonia — a VOICE problem.** Volume and quality of phonation; larynx and recurrent laryngeal nerve.
+> **Asking the patient to WRITE a sentence separates dysphasia from dysarthria immediately** — the dysarthric patient writes normally, the dysphasic patient does not. That test is in [[History-Taking]]; the **jaw jerk** is described in §Cranial Nerve Disorders and Vertigo above.
 
-The pieces of this examination already exist elsewhere and are not repeated: the **jaw jerk** is described above, and **asking the patient to write** — which separates dysphasia from dysarthria in seconds, since writing is normal in dysarthria — is in [[History-Taking]]. What was missing is the two syndromes set against each other.
+> [!info] Aphasia types
+> **Broca (expressive, non-fluent)** — effortful, telegraphic, sparse output; **comprehension relatively preserved**, so **the patient knows what they want to say and cannot say it, and is visibly frustrated.** Often with a right hemiparesis.
+> **Wernicke (receptive, fluent)** — fluent, normal rhythm, but full of paraphasias and neologisms — "word salad"; **comprehension is poor and the patient is typically UNAWARE**, which is why they can be mistaken for confused or psychotic.
+> **Conduction aphasia** — fluent, good comprehension, but **repetition is disproportionately impaired.**
+> **Global aphasia** — both expressive and receptive, with large dominant hemisphere lesions.
+
+> [!info] Dysarthria types localise the lesion
+> **· Spastic** — strained, slow, effortful. **Bilateral UMN.**
+> **· Flaccid** — breathy, **nasal**, with weak consonants. **LMN or bulbar.**
+> **· Ataxic** — irregular, **"scanning"**, with variable volume and explosive bursts. **Cerebellar.**
+> **· Hypokinetic** — quiet, monotonous, rapid and festinant, with reduced articulation. **Parkinsonism.**
+> **· Hyperkinetic** — irregular interruptions. Chorea, dystonia.
+
+> [!danger] Bulbar versus pseudobulbar palsy
+> **· Bulbar palsy — LOWER motor neurone.** **Flaccid, wasted, FASCICULATING tongue; absent gag; nasal speech; nasal regurgitation of fluids.** Causes: motor neurone disease, Guillain–Barré, myasthenia, brainstem lesions, poliomyelitis.
+> **· Pseudobulbar palsy — bilateral UPPER motor neurone.** **Small, spastic, immobile tongue with NO fasciculation; BRISK jaw jerk; slow strained speech; and EMOTIONAL LABILITY (pathological laughing and crying) which is characteristic and distressing.** Causes: bilateral strokes, motor neurone disease, multiple sclerosis, extensive small vessel disease.
+> **A fasciculating tongue with brisk reflexes elsewhere is motor neurone disease until proven otherwise.**
+> The combination is what makes MND the answer, **because it is the one diagnosis that produces upper and lower motor neurone signs together.**
+
+> [!warning] Dysphagia — the first question is oropharyngeal or oesophageal
+> **· Oropharyngeal** — **difficulty INITIATING the swallow**, coughing or choking immediately, nasal regurgitation, drooling, recurrent chest infections. **Neurological or muscular.** Cross-refer `TODO:link — F3 Throat, voice & oral (unbuilt)`.
+> **· Oesophageal** — **food "sticking" seconds AFTER swallowing**, pointed to at the sternum. **Structural or motility.** Cross-refer [[13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology]] §0.3.1 Oesophageal Disease.
+> **Aspiration risk is the acute concern in oropharyngeal dysphagia.** **Nil by mouth pending a swallow screen** in any acute neurological presentation with speech or swallow disturbance — cross-refer [[04_Neurology]] Acute Stroke — Recognition and Hyperacute Management. **Silent aspiration — aspiration without coughing — is common and is precisely why a formal screen is needed rather than watching them sip water.**
+
+> [!danger] Hoarseness lasting more than about three weeks needs laryngoscopy
+> **Persistent hoarseness is laryngeal carcinoma until proven otherwise, particularly in a smoker.** It also indicates recurrent laryngeal nerve palsy — and **the left recurrent laryngeal nerve loops under the aortic arch, so a left vocal cord palsy can be caused by lung cancer, mediastinal disease, an aortic aneurysm, or thyroid or oesophageal malignancy.**
+> **A new hoarse voice is a symptom to investigate, not to treat with reassurance and voice rest.** Cross-refer `TODO:link — F3 Throat, voice & oral (unbuilt)`. `UNVERIFIED — the duration threshold for referral in current Australian guidance.`
+
+**Ix:** **Ask the patient to write** (*why:* separates dysphasia from dysarthria in seconds; *what:* normal writing in dysarthria). Full neurological examination including tongue, palate and gag (*why:* localises bulbar versus pseudobulbar; *what:* fasciculation, wasting, jaw jerk). **Formal swallow screen, then speech pathology assessment** (*why:* prevents aspiration pneumonia, and detects silent aspiration that bedside observation misses; *what:* aspiration risk). **Videofluoroscopy or fibreoptic endoscopic evaluation of swallowing** (*why:* the definitive assessment of oropharyngeal dysphagia and of silent aspiration; *what:* penetration, aspiration, residue). **Flexible nasendoscopy for hoarseness** (*why:* visualises the cords and detects malignancy and palsy; *what:* mass, cord palsy). CT chest and neck for a left vocal cord palsy (*why:* traces the recurrent laryngeal nerve along its course; *what:* lung, mediastinal, thyroid or oesophageal lesion). MRI brain (*why:* stroke, demyelination, brainstem lesion; *what:* structural cause). EMG and nerve conduction studies (*why:* motor neurone disease, myasthenia; *what:* denervation, decrement).
+
+#### Mx – Immediate — D7 §0.4.1
+**Nil by mouth pending swallow screen.** Airway protection where bulbar function is severely impaired.
+
+#### Mx – Definitive — D7 §0.4.2
+Cause-specific, with speech pathology central to management.
+
+#### Mx – Chronic/long-term — D7 §0.4.3
+Speech pathology for both communication and swallowing. Modified diets and fluids. **Communication aids — and the recognition that being unable to communicate is profoundly isolating and is a major cause of low mood after stroke.** Consideration of enteral feeding in progressive disease, ideally discussed in advance as part of advance care planning.
+
 
 
 ### Horner's Syndrome
@@ -1121,21 +1980,366 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 - **Ix:** clinical diagnosis; HINTS exam (Head Impulse, Nystagmus, Test of Skew) used by specialists to help distinguish from a central (posterior circulation stroke) cause in acute vestibular syndrome, given the two can otherwise look similar and the consequences of missing a stroke are severe.
 - **Mx:** vestibular sedatives (e.g. prochlorperazine, betahistine) for short-term symptomatic relief in the acute phase only (prolonged use can impair central vestibular compensation and delay recovery); vestibular rehabilitation exercises to promote compensation once the acute phase settles; corticosteroids sometimes used though evidence is mixed.
 
-#### Added from unverified layer — persistent postural-perceptual dizziness (PPPD)
-`SRC:D5_Dizziness__Vertigo_and_Gait §0.4` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+### Disequilibrium and Chronic Dizziness — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former PPPD fragment. Its NO-BASELINE and UNVERIFIED markers are carried onto the PPPD callout specifically, where they remain true — NOT onto this block, which is broader than PPPD and does have inherited-layer content behind it.*
 
-**Chronic non-vertiginous dizziness and unsteadiness lasting months**, characteristically **worse when upright, worse with movement, and worse in visually complex environments** — supermarket aisles, crowds, scrolling on a phone, patterned carpets.
+**D:** A sense of unsteadiness or imbalance **without** the illusion of movement, felt in the body rather than the head, and typically present only when standing or walking.
 
-**It commonly follows an acute vestibular event** — vestibular neuritis, BPPV, a vestibular migraine attack, or even a panic attack — and represents a **maladaptive persistence of the acute compensatory strategy**. That is the link to the compensation point above: the same central adaptation that resolves vestibular neuritis becomes the problem when it does not switch off.
+> [!tip] Balance requires three inputs — and disequilibrium usually means more than one has failed
+> **Vision · vestibular input · proprioception**, integrated by the cerebellum and executed by an intact motor system.
+> **Losing one is usually compensated; losing two produces symptoms.** This is why the elderly patient with cataracts, a peripheral neuropathy and age-related vestibular loss is unsteady while a younger person with any one of those is not — and why **correcting any single one can restore function.**
 
-**It is a positive diagnosis, not "nothing wrong".** It responds to **vestibular rehabilitation, an SSRI or SNRI, and cognitive behavioural therapy**. Naming it is itself therapeutic — these patients have usually had extensive negative investigation and been told there is no cause.
+> [!tip] Contributors to look for, all of which are at least partly modifiable
+> **· Peripheral neuropathy** — proprioceptive loss, worse in the dark. Cross-refer [[04_Neurology]] Peripheral Neuropathy.
+> **· Visual impairment** — cataracts, macular degeneration, and **new multifocal or bifocal glasses**, which distort the lower visual field and are a genuine cause of falls.
+> **· Vestibular hypofunction** — including **bilateral vestibulopathy**, classically from **gentamicin ototoxicity**, producing **oscillopsia (the visual world bouncing with head movement) and marked worsening in the dark or on uneven ground.**
+> **· Cerebellar disease** — alcohol, degeneration, stroke, paraneoplastic, drugs (phenytoin, lithium).
+> **· Parkinsonism** — postural instability. Cross-refer [[04_Neurology]] Movement Disorders.
+> **· Cervical myelopathy** — spastic gait with sensory disturbance. Cross-refer [[04_Neurology]] The Paresis Patterns.
+> **· Medications** — sedatives, antihypertensives, anticholinergics, antiepileptics, and polypharmacy generally.
+> **· Musculoskeletal** — weakness, arthritis, deconditioning.
+> **· Fear of falling**, which reduces activity, causes deconditioning, and worsens balance further.
 
-`UNVERIFIED — the diagnostic criteria (duration threshold and required features), and which antidepressant class is first-line in Australian practice; RACGP, or a neurology or vestibular medicine reference.`
+> [!warning] Romberg tests proprioception, not the cerebellum
+> **A positive Romberg — steady with eyes open, unsteady with eyes closed — indicates a PROPRIOCEPTIVE (dorsal column or large fibre neuropathy) deficit**, because vision was compensating.
+> **A cerebellar patient is unsteady with the eyes OPEN**, and closing them makes little additional difference. Calling that a "positive Romberg" is a common error and points the workup in the wrong direction.
+
+> [!tip] Persistent postural-perceptual dizziness (PPPD)
+> **Chronic non-vertiginous dizziness and unsteadiness lasting months, worse when upright, worse with movement, and worse in visually complex environments** — supermarket aisles, crowds, scrolling on a phone, patterned carpets.
+> **It commonly follows an acute vestibular event** (neuritis, BPPV, a vestibular migraine attack, or even a panic attack), and represents a maladaptive persistence of the acute compensatory strategy.
+> **It is a positive diagnosis, not "nothing wrong"**, and it responds to **vestibular rehabilitation, SSRIs or SNRIs, and cognitive behavioural therapy.** Recognising and naming it is therapeutic, because these patients have often had extensive negative investigation and been told there is no cause.
+> The link to the compensation point above: **the same central adaptation that resolves vestibular neuritis becomes the problem when it does not switch off.**
+> `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> `UNVERIFIED — the diagnostic criteria (duration threshold and required features), and which antidepressant class is first-line in Australian practice; RACGP, or a neurology or vestibular medicine reference.`
+
+**Ix:** **Medication review** (*why:* the commonest modifiable contributor; *what:* sedatives, antihypertensives, anticholinergics). **Postural blood pressure** (*why:* orthostatic hypotension, frequently drug-induced; *what:* postural drop). **Neurological examination including proprioception, vibration, reflexes and gait** (*why:* identifies neuropathy, myelopathy and cerebellar disease; *what:* the pattern). **Visual acuity and assessment of glasses** (*why:* correctable, and multifocals contribute to falls; *what:* uncorrected refractive error, cataract). FBC, B12, UEC, TFTs, glucose (*why:* anaemia, B12 deficiency and metabolic contributors; *what:* deficiency). MRI brain where cerebellar or central signs (*why:* structural cerebellar disease; *what:* atrophy, lesion). Vestibular function testing where bilateral vestibulopathy is suspected (*why:* it is otherwise easily missed and has specific rehabilitation implications; *what:* bilaterally reduced responses). **Timed Up and Go and gait speed** (*why:* objective, repeatable functional measures that predict falls and track intervention; *what:* prolonged time, slow gait).
+
+#### Mx – Immediate — D5 §0.4.1
+Not usually required, unless there has been an injurious fall.
+
+#### Mx – Definitive — D5 §0.4.2
+Address each contributor. **Deprescribe.** Correct vision. Treat neuropathy causes.
+
+#### Mx – Chronic/long-term — D5 §0.4.3
+**Vestibular rehabilitation and a balance-focused exercise program**, which has good evidence for reducing falls. Home hazard assessment via occupational therapy. Footwear. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+### Episodic Vertigo — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Benign paroxysmal positional vertigo — the commonest, and it is curable at the bedside
+> **Brief episodes lasting SECONDS to under a minute, triggered by a change in head position** — rolling over in bed, lying down, sitting up, looking up to a high shelf, bending forward.
+> Caused by **otoconia (calcium carbonate crystals) displaced from the utricle into a semicircular canal**, most often the **posterior canal**, where they move with gravity and produce inappropriate endolymph flow.
+> **Diagnosis: the Dix-Hallpike manoeuvre**, which provokes **upbeating torsional nystagmus with a brief LATENCY of a few seconds, a crescendo-decrescendo course over under a minute, and FATIGABILITY on repetition.** Those three features — latency, transience and fatigability — are what distinguish it from central positional nystagmus, which is immediate, persistent and non-fatiguing.
+> **Treatment: the Epley (canalith repositioning) manoeuvre**, which is highly effective and should be performed at the point of diagnosis rather than referred onward. **The horizontal canal variant** is diagnosed with a supine roll test and treated with a different manoeuvre.
+> **Vestibular suppressants are NOT indicated in BPPV** — they do not work, they impair compensation, and they cause falls in the elderly. Prescribing prochlorperazine for BPPV is a common error.
+> BPPV recurs in a substantial proportion; patients can be taught self-treatment.
+
+> [!tip] Ménière disease
+> **Episodes lasting 20 minutes to several hours** — not seconds (that is BPPV), not days (that is acute vestibular syndrome) — **with the characteristic triad of fluctuating sensorineural hearing loss, tinnitus and aural fullness**, alongside the vertigo.
+> The hearing loss is **low-frequency initially and fluctuates**, becoming permanent over years. **Documented hearing loss on audiometry is required for the diagnosis** — Ménière is over-diagnosed clinically in patients who actually have vestibular migraine.
+> Management: salt restriction, diuretics, betahistine, and for refractory disease intratympanic corticosteroid or gentamicin, or surgery. **Falls and drop attacks (Tumarkin otolithic crises)** can occur and matter for driving and occupational safety. `UNVERIFIED — diagnostic criteria and all treatment regimens; the evidence for several is weak.`
+
+> [!danger] Vestibular migraine is the commonest cause of recurrent spontaneous vertigo — and it is under-diagnosed
+> **Episodes of vertigo of variable duration — minutes to days — in a patient with a history of migraine**, with photophobia, phonophobia, visual aura or headache **which may or may not accompany the vertigo.** Many patients have vertigo without any headache at all, which is precisely why it is missed.
+> **It is frequently misdiagnosed as Ménière disease**, and the distinguishing feature is the **absence of documented fluctuating hearing loss** and the presence of migrainous features.
+> **It responds to migraine treatment** — trigger management and migraine prophylaxis — so getting the diagnosis right changes management substantially. Cross-refer [[04_Neurology]] Migraine.
+
+> [!tip] The rest
+> **Vertebrobasilar TIA** — brief recurrent vertigo, **but rarely in isolation** — look for accompanying diplopia, dysarthria, dysphagia, ataxia, hemisensory or visual symptoms. Isolated recurrent vertigo without other symptoms is more likely vestibular migraine, but new isolated vertigo in an older vasculopath warrants assessment.
+> **Superior semicircular canal dehiscence** — vertigo and oscillopsia induced by **loud sound (Tullio phenomenon)** or by pressure change (straining, nose blowing), with **autophony** — hearing one's own voice, heartbeat or eye movements unnaturally loudly. Distinctive and diagnosable on high-resolution CT of the temporal bones.
+> **Orthostatic hypotension** — cross-refer [[04_Neurology]] Syncope.
+> **Panic disorder and anxiety** — real, common, and a diagnosis of exclusion in this context.
+> **Arrhythmia** — presenting as "dizzy spells". Cross-refer [[01_Cardiovascular]] §0.4 Atrial Fibrillation.
+
+**Ix:** **Dix-Hallpike and supine roll test** (*why:* diagnostic for BPPV and immediately therapeutic; *what:* characteristic positional nystagmus with latency and fatigability). **Audiometry** (*why:* documents the fluctuating low-frequency loss required for Ménière and distinguishes it from vestibular migraine; *what:* pattern and side of loss). Postural blood pressure (*why:* orthostatic causes; *what:* drop). ECG and ambulatory monitoring where episodes are brief and unprovoked (*why:* arrhythmia; *what:* rhythm-symptom correlation). MRI where central features, progressive symptoms, unilateral hearing loss, or atypical presentation (*why:* excludes vestibular schwannoma, demyelination and posterior fossa lesions; *what:* cerebellopontine angle lesion, demyelination). High-resolution CT temporal bones where dehiscence is suspected (*why:* the only way to demonstrate it; *what:* bony dehiscence). Vestibular function testing (*why:* quantifies unilateral or bilateral hypofunction; *what:* caloric and video head impulse results).
+
+#### Mx – Immediate — D5 §0.3.1
+**Epley manoeuvre for posterior canal BPPV — at the bedside, at the time of diagnosis.**
+
+#### Mx – Definitive — D5 §0.3.2
+Condition-specific. Migraine prophylaxis for vestibular migraine.
+
+#### Mx – Chronic/long-term — D5 §0.3.3
+Self-administered repositioning manoeuvres for recurrent BPPV. Falls prevention. **Driving and occupational advice** where episodes are unpredictable — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions).
+
+
+### Acute Vestibular Syndrome and the HINTS Examination — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Acute-onset **continuous** vertigo lasting more than 24 hours, with nausea and vomiting, nystagmus, head-motion intolerance and gait unsteadiness.
+
+**A/P:** The differential is essentially two conditions with opposite implications: **vestibular neuritis** (benign, self-limiting, from inflammation of the vestibular nerve, often post-viral) and **posterior circulation stroke** — cerebellar or brainstem infarction. **A meaningful proportion of patients presenting with isolated acute vertigo have a stroke**, and they are the group most likely to be discharged home.
+
+> [!danger] HINTS is more sensitive than early MRI for posterior circulation stroke
+> **Early diffusion-weighted MRI has a false negative rate in the first 24–48 hours for small posterior fossa infarcts.** A properly performed HINTS examination by a trained examiner outperforms it.
+> **This is the single most important fact in this file**, because it inverts the instinct to reassure on the basis of a negative scan.
+
+> [!info] HINTS — the three components
+> **Only valid in a patient with CONTINUOUS, ONGOING vertigo and nystagmus at the time of examination.** It is **not** applicable to episodic vertigo, and it is **not** applicable to a currently asymptomatic patient — using it there produces dangerously misleading results.
+>
+> **1. Head Impulse test** — rapid small-amplitude head turn while the patient fixates on your nose.
+> **· ABNORMAL (a corrective catch-up saccade) = PERIPHERAL** — the vestibulo-ocular reflex is broken on that side.
+> **· NORMAL (eyes stay locked on target) = CENTRAL.** This is counterintuitive: **a normal test is the worrying one.**
+>
+> **2. Nystagmus** —
+> **· Unidirectional, horizontal (with a torsional component), fast phase always in the same direction = PERIPHERAL.**
+> **· Direction-changing on gaze to either side, or PURELY VERTICAL, or purely torsional = CENTRAL.**
+>
+> **3. Test of Skew** — alternate cover test.
+> **· Any vertical corrective movement (skew deviation) = CENTRAL.**
+>
+> **The mnemonic for the central pattern is "INFARCT": Impulse Normal, Fast-phase Alternating, Refixation on Cover Test.**
+> **Any ONE central finding makes it central.** All three must be peripheral to call it peripheral.
+
+> [!warning] HINTS-plus, and why hearing loss does not mean peripheral
+> Adding **new unilateral hearing loss** to the examination improves sensitivity.
+> **New hearing loss with acute vertigo is NOT reassuring** — an **anterior inferior cerebellar artery (AICA) infarct supplies the labyrinth as well as the brainstem and cerebellum, so it can cause hearing loss with vertigo.** The historical teaching that hearing loss localises to the ear is not safe in this setting.
+
+> [!danger] Other features that make it central
+> **· Inability to stand or walk unaided.** **A patient with acute vertigo who cannot walk without falling has a central lesion until proven otherwise** — patients with vestibular neuritis veer toward the affected side but can generally walk.
+> **· Severe headache or neck pain** — consider **vertebral artery dissection**, especially in a younger patient.
+> **· Any other brainstem or cerebellar sign** — diplopia, dysarthria, dysphagia, facial numbness, limb ataxia, Horner syndrome, hemisensory loss.
+> **· Sudden onset**, vascular risk factors, or age.
+> **· Deterioration over hours** — cerebellar stroke swells and compresses the brainstem. Cross-refer [[04_Neurology]] Stroke Syndromes and Localisation.
+
+> [!tip] Vestibular neuritis — treat, but do not over-treat
+> Vestibular suppressants (prochlorperazine, promethazine, benzodiazepines) relieve acute symptoms.
+> **Limit them to the first few days.** **Prolonged use PREVENTS central vestibular compensation and produces a patient who remains dizzy for months.** This is a common and avoidable iatrogenic problem.
+> **Early vestibular rehabilitation — movement rather than rest — accelerates compensation**, and telling the patient to lie still in a dark room is the wrong advice beyond the first day or two. `UNVERIFIED — the recommended duration limit for suppressants, and the evidence for corticosteroids, which is contested.`
+
+**S/Smx:** Continuous vertigo, nausea and vomiting, nystagmus, unsteadiness, and — where central — additional neurological signs.
+
+**Ix:** **HINTS examination in the patient with ongoing nystagmus** (*why:* more sensitive than early MRI, immediate, and free; *what:* the INFARCT pattern versus a peripheral pattern). **Gait assessment — can the patient stand and walk unaided?** (*why:* inability to walk is a strong central indicator and takes seconds to test; *what:* truncal ataxia, falling). **MRI brain with diffusion, including posterior fossa** where central features are present or suspicion persists (*why:* CT is very poor for the posterior fossa; *what:* infarct — noting the false negative rate in the first 48 hours, so **a negative early MRI in a patient with a central HINTS pattern does not exclude stroke and should be repeated**). CT angiography of the vertebral and basilar arteries where dissection or vertebrobasilar disease is suspected (*why:* dissection is a leading cause of posterior circulation stroke in the young; *what:* dissection, stenosis). Audiometry where hearing loss (*why:* characterises the loss and distinguishes labyrinthine from retrocochlear; *what:* pattern and side). ECG and cardiac assessment (*why:* embolic source, and arrhythmia as an alternative cause of "dizziness"; *what:* AF, arrhythmia). Postural blood pressure (*why:* excludes orthostatic hypotension; *what:* postural drop).
+
+#### Mx – Immediate — D5 §0.2.1
+**HINTS and gait assessment.** Antiemetics and vestibular suppressants short-term. **Urgent imaging and stroke pathway if any central feature.** Admit and observe if the patient cannot mobilise safely.
+
+#### Mx – Definitive — D5 §0.2.2
+Stroke management per [[04_Neurology]] Strokes, or supportive care with early vestibular rehabilitation for neuritis.
+
+#### Mx – Chronic/long-term — D5 §0.2.3
+**Vestibular rehabilitation** for persistent symptoms, which is effective and under-referred. Secondary prevention after stroke. Driving advice.
+
+
+### The "Dizzy" Patient — Disambiguating the Complaint — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** "Dizziness" is a lay term covering at least four distinct symptoms, and the word alone is uninformative.
+
+> [!danger] The old approach — "what do you mean by dizzy?" — is unreliable on its own
+> The traditional method of classifying by **symptom quality** (vertigo versus presyncope versus disequilibrium versus lightheadedness) has poor reliability: **patients describe the same symptom differently on repeated questioning, and many endorse several categories.** Relying on it alone leads to misdiagnosis in both directions.
+> **The better approach classifies by TIMING and TRIGGERS**, which are far more reproducible, and then applies targeted examination.
+
+> [!tip] The timing-and-trigger framework
+> **Acute vestibular syndrome** — **continuous** vertigo of acute onset lasting days, with nausea, nystagmus and gait unsteadiness. → **Vestibular neuritis versus posterior circulation stroke.** Use **HINTS** (0.2).
+> **Episodic, TRIGGERED** — brief episodes provoked by a specific movement or position. → **BPPV**, orthostatic hypotension. Use **Dix-Hallpike and postural blood pressure** (0.3).
+> **Episodic, SPONTANEOUS** — recurrent episodes with no consistent trigger. → **vestibular migraine, Ménière disease, TIA, panic disorder, arrhythmia** (0.3).
+> **Chronic** — persistent unsteadiness over weeks to months. → **persistent postural-perceptual dizziness, bilateral vestibulopathy, cerebellar disease, neuropathy, medication, multifactorial** (0.4).
+> **Ask: how long does each episode last, what brings it on, and is it there right now?** Those three questions do more than any amount of asking them to describe the sensation.
+
+> [!warning] Still separate presyncope
+> **Presyncope — the sense of impending faint, with greying vision** — has an entirely different differential (cardiac, orthostatic, anaemia) and is covered in [[04_Neurology]] Syncope. **Presyncope should be worked up like syncope**, and the practical question is "did you feel like you were about to pass out, or like the room was moving?"
+
+**S/Smx:** Duration of each episode, triggers, associated hearing loss or tinnitus, headache, other neurological symptoms, vascular risk factors, medications, and whether the patient can walk unaided.
+
+**Ix:** Determined by the syndrome identified. **Bedside examination is far more valuable than early imaging in this presentation** — see 0.2.
 
 
 **P (vertigo generally):** BPPV frequently recurs but responds well to repeat Epley manoeuvres; vestibular neuritis typically resolves over days to weeks as central compensation develops, though some patients have prolonged symptoms.
 
----
+### Nystagmus — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Involuntary rhythmic oscillation of the eyes.
+
+> [!info] Peripheral versus central nystagmus
+> | | **Peripheral** | **Central** |
+> |---|---|---|
+> | Direction | **Unidirectional** — fast phase always the same way | **Direction-changing** with gaze |
+> | Plane | Horizontal with torsional component | **Purely vertical or purely torsional** |
+> | Effect of visual fixation | **Suppressed** by fixation | **Not suppressed** |
+> | Fatigability | Fatigues on repeated testing | Does not fatigue |
+> | Associated features | Hearing loss, tinnitus | Other brainstem or cerebellar signs |
+> **A purely vertical or purely torsional nystagmus is central until proven otherwise**, and is never peripheral.
+
+> [!tip] Specific patterns worth recognising
+> **Downbeat nystagmus** — **craniocervical junction pathology, classically Arnold-Chiari malformation**, cerebellar degeneration, **drugs (lithium, anticonvulsants)**, and **Wernicke encephalopathy.** Worth knowing because the Chiari association is a structural, treatable finding.
+> **Upbeat nystagmus** — brainstem lesions.
+> **Gaze-evoked nystagmus** — commonly **drug-induced: anticonvulsants (particularly phenytoin), alcohol, sedatives, lithium.** Very often the answer is on the medication chart.
+> **Internuclear ophthalmoplegia** — impaired adduction of one eye with **nystagmus of the abducting eye**, from a medial longitudinal fasciculus lesion. **Bilateral INO in a young person is multiple sclerosis until proven otherwise; unilateral INO in an older person is more likely a brainstem stroke.**
+> **Opsoclonus** — chaotic multidirectional saccades. **Paraneoplastic — neuroblastoma in children, and lung or breast cancer in adults** — and a reason to search for a tumour.
+> **Congenital nystagmus** — present from infancy, usually horizontal, with a null point, and **no oscillopsia** (the patient does not perceive the world moving), which distinguishes it from acquired nystagmus.
+
+**Ix:** **Careful characterisation of the nystagmus itself** (*why:* direction, plane and the effect of fixation classify it as central or peripheral before any imaging; *what:* the pattern above). **MRI brain with attention to the posterior fossa and craniocervical junction** (*why:* CT is inadequate here, and downbeat nystagmus specifically requires imaging of the craniocervical junction; *what:* Chiari malformation, cerebellar or brainstem lesion, demyelination). **Medication review and drug levels** (*why:* anticonvulsant toxicity is a common and completely reversible cause; *what:* supratherapeutic phenytoin, lithium). Thiamine status and empirical thiamine (*why:* Wernicke encephalopathy — treat rather than test; *what:* clinical response). Audiometry and vestibular testing (*why:* characterises an associated peripheral lesion; *what:* hearing and vestibular function). Paraneoplastic antibodies and tumour search in opsoclonus (*why:* the underlying malignancy is the priority; *what:* neuroblastoma in children, lung or breast cancer in adults).
+
+#### Mx – Immediate — D5 §0.6.1
+Thiamine where Wernicke is possible. Withhold or reduce the causative drug.
+
+#### Mx – Definitive — D5 §0.6.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D5 §0.6.3
+Management of oscillopsia, and low vision support where relevant.
+
+### Cranial Nerve Localisation — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** Cranial nerves can be affected at four levels — **supranuclear** (cortex and descending pathways), **nuclear** (brainstem), **fascicular/peripheral** (the nerve itself), or at the **neuromuscular junction or muscle.** The distinction matters because it changes the differential entirely.
+
+> [!tip] Anatomical clusters — which nerves travel together
+> **Cranial nerves rarely fail alone by chance. When several are involved, the combination localises the lesion.**
+> **· Midbrain** — III, IV.
+> **· Pons** — V, VI, VII, VIII.
+> **· Medulla** — IX, X, XI, XII.
+> **· Cavernous sinus** — **III, IV, V1, V2, VI, plus the sympathetic fibres (Horner syndrome).** Note **V3 is spared**, because it does not pass through the sinus.
+> **· Superior orbital fissure** — III, IV, V1, VI.
+> **· Cerebellopontine angle** — **V, VII, VIII**, with cerebellar signs.
+> **· Jugular foramen** — **IX, X, XI.**
+> **· Orbital apex** — the superior orbital fissure nerves plus **II**, so vision is affected.
+
+> [!danger] Multiple cranial neuropathies are never trivial
+> Two or more cranial nerves failing together points to: **skull base tumour · meningeal disease (carcinomatous or tuberculous meningitis) · Guillain–Barré variants including Miller Fisher · sarcoidosis · vasculitis · diabetes · basilar aneurysm · brainstem lesion.**
+> **This warrants MRI with contrast and usually a lumbar puncture**, not observation.
+
+> [!tip] The corneal reflex is more useful than it looks
+> **Afferent V1, efferent VII (bilateral).** So a lesion of either nerve abolishes or reduces it.
+> **A reduced corneal reflex is often the EARLIEST objective sign of a cerebellopontine angle lesion such as a vestibular schwannoma**, appearing before facial weakness. It is worth testing in anyone with unilateral hearing loss or tinnitus.
+
+**Ix:** **MRI with contrast** is the imaging of choice for cranial nerve pathology (*why:* CT is inadequate for the brainstem, skull base and cranial nerves; *what:* nerve enhancement, mass, demyelination). Lumbar puncture where meningeal or inflammatory disease is suspected (*why:* malignant meningitis, infection, GBS variants; *what:* cells, protein, cytology, oligoclonal bands).
+
+### Diplopia and Disorders of Eye Movement — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] The first question: monocular or binocular?
+> **Cover one eye.**
+> **· Diplopia PERSISTS with one eye covered = MONOCULAR** → the problem is in that eye's optics: **cataract, refractive error, corneal irregularity, dry eye, lens dislocation, iris defect.** **This is an ophthalmic problem, not a neurological one**, and it does not need brain imaging.
+> **· Diplopia RESOLVES when either eye is covered = BINOCULAR** → misalignment of the eyes: **cranial nerve palsy, neuromuscular junction disease, restrictive orbital disease, or a central gaze disorder.**
+> This single manoeuvre saves a great deal of unnecessary investigation and is frequently not performed.
+
+> [!danger] Third nerve palsy — the pupil decides the urgency
+> **Complete third nerve palsy: ptosis, and the eye resting "down and out"** (unopposed lateral rectus and superior oblique).
+> **· PUPIL-INVOLVING (dilated, poorly reactive) → COMPRESSIVE until proven otherwise → posterior communicating artery aneurysm → urgent imaging and neurosurgical referral.**
+> **· PUPIL-SPARING → more likely microvascular (diabetes, hypertension), and usually resolves over weeks to months.**
+> **The anatomical reason: the parasympathetic pupillomotor fibres run in the PERIPHERY of the nerve and are supplied by the surrounding pial vessels, so they are damaged early by external compression but spared by microvascular infarction of the nerve core.**
+> **A painful pupil-involving third nerve palsy is an aneurysm until imaging says otherwise.** Do not attribute it to diabetes.
+
+> [!tip] Fourth and sixth nerve palsies
+> **Fourth (trochlear, superior oblique)** — **vertical or oblique diplopia, worse on looking DOWN and toward the opposite side** — so worst going down stairs or reading. Patients adopt a **compensatory head tilt AWAY from the affected side.** Trauma is the commonest cause, since the nerve has the longest intracranial course and is vulnerable.
+> **Sixth (abducens, lateral rectus)** — **horizontal diplopia worse on looking toward the affected side**, with failure of abduction.
+> **The sixth nerve is the classic "false localising sign" in raised intracranial pressure** — its long intracranial course makes it vulnerable to stretch, so a sixth nerve palsy may indicate raised pressure anywhere rather than a lesion at the nerve. **A sixth nerve palsy with headache should prompt fundoscopy for papilloedema.** Cross-refer [[04_Neurology]] Secondary Headaches Worth Knowing.
+
+> [!warning] Horner syndrome — and the one you must not miss
+> **Partial ptosis, miosis, and anhidrosis**, from interruption of the three-neurone sympathetic pathway. The **anhidrosis pattern localises it**: whole face and arm (central/first order), face only (preganglionic), or minimal/absent (postganglionic).
+> **· Painful Horner syndrome with neck pain = CAROTID DISSECTION until proven otherwise** — urgent vascular imaging, because the next event is a stroke. Cross-refer [[04_Neurology]] Transient Ischaemic Attack (TIA).
+> **· Horner syndrome with arm or shoulder pain and hand wasting = PANCOAST TUMOUR** — apical lung cancer invading the sympathetic chain and brachial plexus. **Get a chest X-ray, and if it is normal but suspicion is high, a CT.**
+> **· In a child, Horner syndrome with heterochromia = consider neuroblastoma.**
+> Also: brainstem lesion (lateral medullary syndrome — cross-refer [[04_Neurology]] Stroke Syndromes and Localisation), and cluster headache (transient, with the attack).
+
+> [!tip] Internuclear ophthalmoplegia
+> **Impaired ADduction of one eye on lateral gaze, with nystagmus of the ABducting eye**, from a lesion of the medial longitudinal fasciculus. Convergence is preserved.
+> **Bilateral INO in a young person is multiple sclerosis until proven otherwise. Unilateral INO in an older person is more likely a brainstem stroke.**
+
+> [!danger] Any pupil-sparing ophthalmoplegia with ptosis — think myasthenia
+> **Myasthenia gravis can mimic any cranial nerve palsy or combination of them**, because it affects the muscles rather than the nerves.
+> **The features that give it away: FATIGABILITY (worse at the end of the day, worse on sustained upgaze), VARIABILITY between examinations, PUPIL SPARING (always — the pupil is smooth muscle and unaffected), and a pattern that does not respect a single nerve's anatomy.**
+> **Ask about diurnal variation, fatigable chewing, and swallowing.** Cross-refer [[04_Neurology]] Neuromuscular Junction Disorders.
+
+> [!tip] Gaze palsies and the other causes
+> **Cortical (frontal eye field) lesion — the eyes look TOWARD the lesion** and away from the hemiparesis.
+> **Pontine (paramedian pontine reticular formation) lesion — the eyes look AWAY from the lesion** and toward the hemiparesis.
+> **Vertical gaze palsy, particularly downgaze — progressive supranuclear palsy**, or a dorsal midbrain (Parinaud) syndrome with pupillary light-near dissociation and convergence-retraction nystagmus, from a pineal region lesion or hydrocephalus.
+> **Restrictive causes** — **thyroid eye disease** (with proptosis, lid retraction and lid lag; restriction typically of upgaze from inferior rectus involvement), orbital myositis, orbital fracture with muscle entrapment (**blowout fracture — cross-refer [[13_04_ENT_-_Nose__Rhinosinusitis__Fractures__CSF_Rhinorrhoea__Epistaxis__Nasal_Cancers_]] and `TODO:link — L8 Facial, head & torso trauma (unbuilt)`**), and orbital cellulitis.
+> **Giant cell arteritis** can cause diplopia and must be considered in anyone over 50 — cross-refer [[04_Neurology]] Secondary Headaches Worth Knowing.
+
+**S/Smx:** Diplopia and its direction of maximal separation, ptosis, pupil size and reactivity, pain, proptosis, and associated neurological or systemic features.
+
+**Ix:** **Cover test and assessment of monocular versus binocular diplopia** (*why:* determines whether this is ophthalmic or neurological; *what:* resolution on covering either eye). **Pupil examination** (*why:* the single most important finding in a third nerve palsy; *what:* size, reactivity, anisocoria). **Urgent CT/MR angiography for a pupil-involving third nerve palsy** (*why:* posterior communicating artery aneurysm; *what:* aneurysm). MRI brain and orbits (*why:* brainstem lesion, demyelination, orbital and cavernous sinus pathology; *what:* lesion). **CT chest or apical views for Horner syndrome with arm symptoms** (*why:* Pancoast tumour; *what:* apical mass). **Carotid imaging for painful Horner syndrome** (*why:* dissection; *what:* flap, tapering). **Acetylcholine receptor antibodies and ice pack test** (*why:* myasthenia mimics everything here; *what:* positive antibodies, improvement in ptosis with cooling). TFTs and thyroid antibodies (*why:* thyroid eye disease; *what:* abnormal function, positive antibodies). **ESR and CRP in the over-50s** (*why:* giant cell arteritis; *what:* raised markers). Glucose and HbA1c (*why:* microvascular palsy; *what:* diabetes). Fundoscopy (*why:* papilloedema with a sixth nerve palsy indicates raised pressure; *what:* disc swelling).
+
+#### Mx – Immediate — D7 §0.3.1
+**Urgent imaging for a pupil-involving third nerve palsy.** Steroids for suspected giant cell arteritis. Vascular imaging for painful Horner syndrome.
+
+#### Mx – Definitive — D7 §0.3.2
+Cause-specific, with ophthalmology and neurology involvement.
+
+#### Mx – Chronic/long-term — D7 §0.3.3
+Prisms or occlusion for persistent diplopia. Strabismus surgery once stable. **Driving advice while diplopia persists** — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions).
+
+### Smell and Taste — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Hyposmia is an early feature of neurodegenerative disease
+> **Loss of smell precedes the motor features of Parkinson disease and the cognitive features of Alzheimer disease by years, sometimes more than a decade.**
+> Alongside **REM sleep behaviour disorder and constipation**, it forms the recognised prodrome of Parkinson disease. Cross-refer [[04_Neurology]] Parkinsonism.
+> This is not currently something to screen for, but a patient with longstanding unexplained anosmia and new subtle motor or cognitive change is a coherent picture rather than a coincidence.
+
+> [!tip] The causes of anosmia
+> **· Sinonasal disease — the commonest**: chronic rhinosinusitis, nasal polyps, allergic rhinitis. Often reversible.
+> **· Post-viral** — including **COVID-19**, which brought this presentation to prominence; often recovers slowly.
+> **· Head trauma** — **shearing of the olfactory fila as they pass through the cribriform plate**, classically after an occipital impact. Frequently permanent, and it is a recognised medicolegal issue.
+> **· Neurodegenerative** — as above.
+> **· Tumour** — **olfactory groove meningioma**, which may produce **Foster Kennedy syndrome**: ipsilateral optic atrophy from direct compression with contralateral papilloedema from raised intracranial pressure.
+> **· Drugs, toxins, radiotherapy, zinc deficiency, and normal ageing.**
+
+> [!warning] Anosmia has real safety implications
+> **Patients cannot smell smoke, gas leaks, or spoiled food.** Advise **smoke alarms, electric rather than gas appliances where feasible, and attention to food expiry dates.** Loss of smell also removes most of flavour, causing reduced appetite, weight loss and low mood — this is genuinely distressing and deserves acknowledgement rather than being treated as trivial.
+
+> [!tip] Taste
+> **Anterior two-thirds of the tongue — chorda tympani, a branch of the FACIAL nerve (VII).** Hence altered taste in Bell palsy.
+> **Posterior third — glossopharyngeal (IX).**
+> Causes of altered taste: **dry mouth (very common — drugs, Sjögren syndrome, radiotherapy), zinc deficiency, smoking, oral candidiasis and poor dental hygiene, drugs (metronidazole, ACE inhibitors, metformin, chemotherapy), and facial nerve pathology.**
+> **Most "loss of taste" is actually loss of smell** — the retronasal olfaction that provides flavour. Test them separately.
+
+**Ix:** **Nasal examination and consideration of nasendoscopy** (*why:* sinonasal disease is the commonest and most treatable cause; *what:* polyps, inflammation, obstruction). Formal olfactory testing (*why:* quantifies and confirms; *what:* threshold and identification scores). **MRI with attention to the olfactory grooves and anterior cranial fossa where anosmia is unilateral, progressive or unexplained** (*why:* olfactory groove meningioma and other anterior fossa lesions; *what:* mass). Zinc, B12 (*why:* correctable deficiencies; *what:* deficiency). Medication and dental review (*why:* common reversible causes of taste disturbance; *what:* culprit drug, oral disease).
+
+#### Mx – Immediate — D7 §0.5.1
+Not required.
+
+#### Mx – Definitive — D7 §0.5.2
+Treat sinonasal disease, correct deficiency, cease the offending drug. **Olfactory training** has some evidence in post-viral anosmia.
+
+#### Mx – Chronic/long-term — D7 §0.5.3
+**Safety advice as above.** Nutritional support where appetite and weight are affected. Acknowledgement of the psychological impact.
+
+### Other Cranial Nerve Syndromes — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Trigeminal (V)
+> **Sensory loss** in one or more divisions, weakness of muscles of mastication (with the **jaw deviating TOWARD the weak side**), and a **reduced corneal reflex** (V1 afferent).
+> **Trigeminal neuralgia** — see [[04_Neurology]] Trigeminal Neuralgia. The key point repeated here: **MRI is required in a young patient, with bilateral symptoms, or where there is objective sensory loss, to exclude multiple sclerosis or a compressive lesion.**
+> **Numbness of the chin — "numb chin syndrome" — is a sinister sign**, associated with **malignant infiltration of the mental nerve**, particularly from breast cancer, lymphoma and myeloma. It warrants investigation rather than reassurance.
+
+> [!tip] Vestibulocochlear (VIII) and the cerebellopontine angle
+> **Unilateral sensorineural hearing loss and tinnitus, with or without imbalance, should raise vestibular schwannoma (acoustic neuroma).**
+> As it grows in the cerebellopontine angle it involves **V (reduced corneal reflex first, then facial numbness), then VII (facial weakness, which is a late feature), then cerebellar signs and raised intracranial pressure.**
+> **Any asymmetric sensorineural hearing loss warrants audiometry and MRI**, because the tumour is treatable and the alternative is progressive deficit. Cross-refer `TODO:link — F1 Ear (unbuilt)` and [[04_Neurology]] Cranial Nerve Disorders and Vertigo.
+
+> [!tip] The lower cranial nerves
+> **Glossopharyngeal (IX) and vagus (X)** — palatal weakness with the **uvula deviating AWAY from the affected side**, absent gag, dysphagia, nasal regurgitation, and hoarseness from recurrent laryngeal involvement.
+> **Accessory (XI)** — weakness of sternocleidomastoid (turning the head **away** from the affected side) and trapezius (shoulder shrug). **Vulnerable during posterior triangle neck surgery and lymph node biopsy**, and iatrogenic injury causing a painful dropped shoulder is a recognised complication.
+> **Hypoglossal (XII)** — **the tongue deviates TOWARD the side of a lower motor neurone lesion** (the intact genioglossus pushes it across), with wasting and fasciculation on that side. **In an upper motor neurone lesion the tongue deviates AWAY from the side of the lesion** — that is, toward the hemiparetic side — without wasting or fasciculation.
+> **Jugular foramen syndrome** — IX, X and XI together, from a glomus tumour, metastasis or skull base pathology.
+
+> [!danger] Cavernous sinus syndrome
+> **III, IV, V1, V2 and VI, plus a Horner syndrome, with V3 SPARED** — because the mandibular division does not traverse the sinus. Proptosis, chemosis and periorbital oedema may be present.
+> **Causes: cavernous sinus thrombosis (from facial, sinus or dental infection — a septic emergency), tumour, carotid-cavernous fistula (with a pulsatile proptosis and an audible bruit), and pituitary apoplexy.**
+> **Cavernous sinus thrombosis presents with fever, proptosis, chemosis and ophthalmoplegia, often becoming bilateral through the intercavernous sinuses**, and requires urgent imaging, antibiotics and anticoagulation.
+
+**Ix:** **MRI with contrast, including dedicated views of the skull base, internal auditory meati and cavernous sinuses** (*why:* the anatomical detail required is beyond CT; *what:* schwannoma, meningioma, thrombosis, infiltration). Audiometry (*why:* characterises and lateralises hearing loss and triggers imaging; *what:* asymmetric sensorineural loss). Lumbar puncture with cytology where malignant meningitis is suspected (*why:* leptomeningeal disease presents with multiple cranial neuropathies and requires CSF cytology, often on repeated samples; *what:* malignant cells). CT venography where cavernous sinus thrombosis is suspected (*why:* confirms thrombosis; *what:* filling defect). Systemic workup for sarcoidosis, vasculitis, tuberculosis and malignancy where multiple nerves are involved (*why:* the underlying disease drives treatment; *what:* the cause).
+
+#### Mx – Immediate — D7 §0.6.1
+Urgent antibiotics and imaging for cavernous sinus thrombosis. Urgent steroid and endocrine management for pituitary apoplexy.
+
+#### Mx – Definitive — D7 §0.6.2
+Cause-specific — surgery, radiotherapy, antimicrobials or immunosuppression.
+
+#### Mx – Chronic/long-term — D7 §0.6.3
+Hearing rehabilitation, facial reanimation, swallow management, and surveillance imaging where a tumour is managed conservatively.
+
+
+
+
+
 
 ## Strokes
 
@@ -1158,6 +2362,55 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 
 > [!info] Verified against the Stroke Foundation Australia and New Zealand Living Clinical Guidelines for Stroke Management, Aug 2026 — Australian guidance has a materially different first step from the UK protocol below (short-term DAPT), though the remaining drug classes are broadly similar.
 > **Antiplatelet:** the Australian Living Guidelines now give a **strong recommendation for dual antiplatelet therapy (aspirin + clopidogrel together) for the first 3 weeks after a minor stroke or TIA** — this is a specific, upgraded, time-limited recommendation not present in the UK-sourced clopidogrel-monotherapy-first approach below; after the 3-week DAPT period, transition to single antiplatelet therapy (clopidogrel, or aspirin + dipyridamole if clopidogrel contraindicated) for long-term secondary prevention. Statin: as per the UK figure — no material AU-specific dose difference identified. BP control: antihypertensives as needed. If AF present and haemorrhage excluded: anticoagulation with warfarin or a DOAC (dabigatran, apixaban, edoxaban, rivaroxaban) — consistent with the UK approach, no material change.
+
+### Transient Ischaemic Attack and Secondary Prevention — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A transient episode of neurological dysfunction caused by focal ischaemia **without acute infarction on imaging** — a tissue-based rather than time-based definition. **Many events lasting under an hour show infarction on diffusion MRI and are therefore minor strokes, not TIAs.**
+
+> [!danger] The stroke risk after TIA is highest in the first 48 hours
+> **A TIA is a warning, and the window to act on it is short.** Patients should be assessed urgently — same day where possible — with imaging, carotid assessment, cardiac rhythm monitoring, and **immediate commencement of secondary prevention**, rather than being given an outpatient appointment in a fortnight.
+> **The ABCD2 score is no longer relied on to defer assessment**, because low scores do not reliably identify low risk. `UNVERIFIED — current risk stratification and the recommended assessment timeframe.`
+
+> [!tip] Determine the mechanism, because it determines the prevention
+> **Large artery atherosclerosis** — carotid or vertebral stenosis. → **Endarterectomy or stenting plus antiplatelet.**
+> **Cardioembolic** — atrial fibrillation, mural thrombus, valve disease, endocarditis. → **Anticoagulation, NOT antiplatelet.**
+> **Small vessel disease** — lacunar. → Risk factor control plus antiplatelet.
+> **Other** — **cervical artery dissection**, vasculitis, thrombophilia, patent foramen ovale, drugs.
+> **Cryptogenic** — a substantial proportion, and many of these have **occult paroxysmal atrial fibrillation**, which is why prolonged cardiac monitoring matters.
+
+> [!danger] Atrial fibrillation requires anticoagulation, not aspirin
+> **Aspirin is inadequate stroke prevention in AF.** A patient with a stroke or TIA and atrial fibrillation needs anticoagulation, with the timing of commencement after an acute stroke determined by infarct size and haemorrhage risk. Cross-refer [[01_Cardiovascular]] §0.4 Atrial Fibrillation.
+
+> [!warning] Carotid endarterectomy — the benefit is time-dependent
+> For **symptomatic** carotid stenosis above a threshold degree, endarterectomy substantially reduces recurrent stroke — **but the benefit falls sharply the longer the delay**, being greatest when performed within the first two weeks of the event.
+> **So carotid imaging is urgent after a carotid-territory TIA, not routine.** `UNVERIFIED — the stenosis percentage thresholds, the timing target, and the difference between symptomatic and asymptomatic stenosis management.`
+
+> [!tip] Cervical artery dissection — think of it in the young
+> **Carotid or vertebral dissection is a leading cause of stroke in people under 50.**
+> **Neck or head pain preceding the deficit**, often with a history of minor trauma, neck manipulation, coughing or sudden head turning. **Carotid dissection may cause a painful Horner syndrome** (ptosis and miosis **without anhidrosis**, because the sudomotor fibres travel with the external carotid). Vertebral dissection causes posterior circulation symptoms.
+> **A young person with stroke symptoms and neck pain needs vascular imaging of the neck**, not just a brain CT.
+
+> [!info] Secondary prevention — the package
+> **· Antiplatelet therapy** — with **a short period of dual antiplatelet therapy after minor stroke or high-risk TIA, then single agent long-term.** Prolonged dual therapy increases bleeding without further benefit.
+> **· High-intensity statin**, largely independent of the baseline cholesterol.
+> **· Blood pressure lowering** — the intervention with the largest absolute benefit, commenced once the acute phase has passed.
+> **· Anticoagulation for atrial fibrillation.**
+> **· Diabetes management, smoking cessation, alcohol reduction, weight, diet and exercise.**
+> **· Carotid intervention where indicated.**
+> `UNVERIFIED — all agents, doses, the duration of dual antiplatelet therapy, and blood pressure targets.`
+
+**Ix:** **MRI with diffusion-weighted imaging** (*why:* distinguishes true TIA from minor stroke and confirms the vascular territory; *what:* restricted diffusion). **Carotid Doppler or CT/MR angiography urgently** (*why:* symptomatic stenosis needs early intervention; *what:* stenosis degree). **ECG plus prolonged monitoring — Holter or extended event recording** (*why:* paroxysmal AF is common, intermittent, and missed on a single ECG, and finding it changes the patient from aspirin to anticoagulation; *what:* AF). Echocardiography (*why:* cardiac source; *what:* thrombus, vegetation, PFO). Lipids, HbA1c, UEC, FBC (*why:* modifiable risk factors and baseline; *what:* dyslipidaemia, diabetes). Vascular imaging of the neck in the young (*why:* dissection; *what:* flap, tapering, intramural haematoma). Thrombophilia, antiphospholipid antibodies and vasculitis screen in young or unexplained stroke (*why:* alters treatment; *what:* positive results).
+
+#### Mx – Immediate — D3 §0.3.1
+Start antiplatelet therapy (after excluding haemorrhage), arrange urgent imaging, and **give explicit driving advice** — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions).
+
+#### Mx – Definitive — D3 §0.3.2
+Mechanism-specific prevention as above.
+
+#### Mx – Chronic/long-term — D3 §0.3.3
+Long-term adherence support, annual review, and continued risk factor management.
+
 
 ### Ischaemic Stroke
 
@@ -1190,6 +2443,66 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 > [!info] Verified against the Stroke Foundation Australia and New Zealand Living Clinical Guidelines for Stroke Management, Aug 2026 — as with TIA above, the short-term DAPT recommendation is the main AU-specific addition; remaining content is broadly consistent.
 > **Antiplatelet:** as for TIA above — dual antiplatelet therapy (aspirin + clopidogrel) for the first 3 weeks after a minor ischaemic stroke is now a strong recommendation in current Australian guidance, then transitioning to single antiplatelet (clopidogrel first-line; aspirin + modified-release dipyridamole if clopidogrel contraindicated) for long-term prevention. Statin: as per the UK figure (started >48h after due to haemorrhagic transformation risk) — no material AU-specific change identified. Carotid artery endarterectomy: only if carotid stenosis >50–70%, performed within 7 days — see [[01_Cardiovascular]] Carotid Artery Stenosis for the fuller AU-verified detail on this threshold and timing, not repeated here. If secondary to AF: start DOAC or warfarin 14 days after ischaemic stroke — no material AU-specific change identified.
 
+### Acute Stroke — Recognition and Hyperacute Management — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** An acute focal neurological deficit of vascular origin — **ischaemic** (the large majority) or **haemorrhagic.**
+
+**A/P:** Arterial occlusion produces a **core** of irreversibly infarcted tissue surrounded by an **ischaemic penumbra** — tissue that is electrically silent but structurally viable, kept alive by collateral flow. **The penumbra is what reperfusion saves, and it dies progressively with time.** This single concept justifies the entire time-critical pathway, and increasingly it is imaged directly (perfusion imaging) rather than assumed from the clock.
+
+> [!danger] Time is brain — and "onset time" means LAST KNOWN WELL
+> **The clock starts when the patient was last seen at their neurological baseline, not when the deficit was noticed.**
+> A patient who went to bed well and woke with a deficit — a **wake-up stroke** — has an onset time of when they went to bed, not when they woke. **Perfusion imaging can now select some of these patients for treatment despite an unknown or extended onset time**, so a wake-up stroke should still be discussed urgently with the stroke service rather than dismissed.
+> **Get the exact time from a witness, and document it.** It determines eligibility for treatment more than anything else you do.
+
+> [!danger] Check the glucose before anything else
+> **Hypoglycaemia is the commonest stroke mimic and is instantly reversible.** A bedside glucose takes seconds and has prevented many patients from being thrombolysed for something that was not a stroke.
+
+> [!tip] The hyperacute sequence
+> **1. A–E, oxygen only if hypoxic, IV access, bedside glucose.**
+> **2. Determine last known well time.**
+> **3. NIHSS** to quantify the deficit — it guides treatment decisions and provides a baseline for detecting deterioration. `UNVERIFIED — scoring.`
+> **4. Urgent non-contrast CT brain** — its primary purpose is to **exclude haemorrhage**, since early ischaemic change is often subtle or absent.
+> **5. CT angiography** to identify a **large vessel occlusion** amenable to thrombectomy.
+> **6. CT perfusion** where extended-window or unknown-onset treatment is being considered — it distinguishes salvageable penumbra from established core.
+> **7. Activate the stroke team / telestroke.** In South Australia and rurally, **telestroke networks** allow remote assessment and thrombolysis decisions, and should be used rather than transferring first and assessing later.
+
+> [!warning] Reperfusion therapies
+> **Intravenous thrombolysis** — for ischaemic stroke within the treatment window, after haemorrhage is excluded. The principal risk is **symptomatic intracranial haemorrhage.** There is a long list of absolute and relative contraindications — recent surgery, recent haemorrhage, anticoagulation, uncontrolled hypertension, and others.
+> **Endovascular thrombectomy** — for large vessel occlusion, with **substantially extended time windows when guided by perfusion imaging.** It has transformed outcomes for proximal occlusions and is available in Australian comprehensive stroke centres.
+> `UNVERIFIED — the time windows, agent, dose, and the full inclusion and exclusion criteria for both therapies are omitted. These have changed repeatedly and must come from the Stroke Foundation guideline and your local pathway.`
+
+> [!danger] Blood pressure in acute stroke — the direction depends on the type and the plan
+> **Ischaemic stroke without thrombolysis: permissive hypertension.** The penumbra depends on collateral perfusion, which is pressure-dependent. **Lowering the blood pressure extends the infarct.** Treat only at very high levels or where there is another indication (dissection, acute coronary syndrome, pulmonary oedema).
+> **Ischaemic stroke WITH planned thrombolysis: a lower threshold applies**, because the haemorrhage risk rises with pressure.
+> **Intracerebral haemorrhage: more active lowering** — see 0.4.
+> `UNVERIFIED — all threshold and target values.`
+
+> [!danger] Nil by mouth until a swallow screen is done
+> **Dysphagia is present in a large proportion of acute strokes and aspiration pneumonia is a leading cause of death and prolonged admission.**
+> **No food, no fluids, and no oral medications until a validated swallow screen has been performed.** This is a task that frequently falls to the junior doctor or nurse and it genuinely prevents deaths. If the screen fails, the patient needs speech pathology review and an alternative route for essential medications.
+
+> [!tip] Stroke unit care
+> **Admission to a dedicated stroke unit reduces death and dependency more than any single drug**, through coordinated multidisciplinary care — swallow assessment, early mobilisation, complication prevention, and rehabilitation. It is the most evidence-based part of stroke management and the least dramatic.
+
+> [!warning] Early complications to anticipate
+> **Malignant middle cerebral artery syndrome** — massive hemispheric infarct with progressive oedema over 2–5 days, causing herniation. **Decompressive hemicraniectomy improves survival in selected younger patients**, and the decision is time-critical, so deterioration must be recognised early.
+> **Haemorrhagic transformation** · **seizures** · **aspiration pneumonia** · **venous thromboembolism** — use intermittent pneumatic compression rather than graduated stockings, which are ineffective and cause skin damage in stroke · **pressure injury** · **hyperglycaemia and fever, both of which worsen outcome and should be treated** · **post-stroke depression**, which is very common and under-treated.
+
+**S/Smx:** Sudden focal deficit — weakness, sensory loss, speech disturbance, visual loss, ataxia, vertigo, or reduced consciousness. **FAST** (Face, Arm, Speech, Time) captures most anterior circulation strokes but **misses posterior circulation events** — see 0.5.
+
+**Ix:** **Bedside glucose** (*why:* the commonest mimic; *what:* hypoglycaemia). **Non-contrast CT brain urgently** (*why:* excludes haemorrhage, which is the branch point for all subsequent treatment; *what:* haemorrhage, early ischaemic change, hyperdense vessel sign). **CT angiography** (*why:* identifies large vessel occlusion for thrombectomy and detects dissection; *what:* occlusion site, dissection, stenosis). **CT perfusion** where extended window or unknown onset (*why:* distinguishes salvageable penumbra from core and permits treatment beyond conventional windows; *what:* core-penumbra mismatch). **MRI with diffusion-weighted imaging** (*why:* far more sensitive than CT for acute ischaemia, particularly small and posterior fossa infarcts, and confirms infarction in TIA-like presentations; *what:* restricted diffusion). **ECG, and prolonged cardiac monitoring** (*why:* **atrial fibrillation is the commonest cardioembolic source and is frequently paroxysmal — a single ECG misses it**, so extended monitoring is needed in otherwise unexplained stroke; *what:* AF, arrhythmia). FBC, UEC, coagulation, glucose, lipids, HbA1c (*why:* baseline, thrombolysis safety, and modifiable risk factors; *what:* platelets, INR, glycaemia, lipids). **Carotid imaging** (*why:* identifies symptomatic stenosis amenable to endarterectomy, which is time-critical; *what:* degree of stenosis). **Echocardiography** (*why:* cardioembolic source — thrombus, endocarditis, patent foramen ovale; *what:* thrombus, vegetation, shunt). Thrombophilia and vasculitis screening in young patients with no conventional risk factors (*why:* an alternative aetiology changes management entirely; *what:* antiphospholipid antibodies, vasculitis serology).
+
+#### Mx – Immediate — D3 §0.1.1
+As per the hyperacute sequence. **Do not give aspirin until haemorrhage has been excluded**, and delay antiplatelet therapy after thrombolysis per protocol. Nil by mouth pending swallow screen. Treat hyperglycaemia and fever. Stroke unit admission.
+
+#### Mx – Definitive — D3 §0.1.2
+Reperfusion where eligible. Secondary prevention per 0.3. Decompressive surgery in selected malignant MCA syndrome.
+
+#### Mx – Chronic/long-term — D3 §0.1.3
+See 0.3, plus multidisciplinary rehabilitation — physiotherapy, occupational therapy, speech pathology, dietitian, social work and neuropsychology. **Post-stroke depression, fatigue, spasticity, pain, and cognitive impairment are all common and all under-managed.** Driving restriction and return-to-work advice — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions). Carer support.
+
+
 ### Haemorrhagic Stroke
 Specifically referring to intracerebral haemorrhage (ICH).
 
@@ -1210,6 +2523,42 @@ Specifically referring to intracerebral haemorrhage (ICH).
 - Urgent reversal of anticoagulation
 - Supportive care as necessary
 - Definitive Mx if undertaken: coiling or craniotomy and clipping
+
+### Intracerebral Haemorrhage — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**R/Causes:** **Hypertensive small vessel disease** — producing **deep** haemorrhages in the basal ganglia, thalamus, pons and cerebellum. **Cerebral amyloid angiopathy** — producing **lobar** haemorrhages in older patients, often recurrent, and associated with cognitive decline. Also: arteriovenous malformation and aneurysm (younger patients), **anticoagulants and antiplatelets**, coagulopathy, tumour (primary or metastatic — melanoma, renal, choriocarcinoma, thyroid bleed characteristically), **sympathomimetic drugs (cocaine, amphetamines)**, venous sinus thrombosis, and haemorrhagic transformation of an infarct.
+
+> [!tip] Deep versus lobar tells you the likely cause
+> **Deep (basal ganglia, thalamus, pons, cerebellum) → hypertensive.**
+> **Lobar in an older patient → amyloid angiopathy.**
+> **Lobar in a younger patient → vascular malformation or tumour**, and warrants angiography or delayed MRI.
+
+> [!danger] Reverse anticoagulation immediately — do not wait for the INR
+> **Haematoma expansion occurs in the first hours and is the main determinant of outcome.** Reversal should begin as soon as intracerebral haemorrhage is identified in an anticoagulated patient, not after the coagulation result returns. Cross-refer [[10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets]].
+> **Blood pressure lowering is more active than in ischaemic stroke**, since there is no penumbra to perfuse and pressure drives expansion. `UNVERIFIED — targets and the timeframe.`
+
+> [!danger] Cerebellar haemorrhage is a surgical emergency
+> **Posterior fossa haemorrhage compresses the brainstem and obstructs the fourth ventricle**, and patients deteriorate rapidly from alert to comatose.
+> **Urgent neurosurgical evacuation is indicated for significant cerebellar haemorrhage**, whereas the role of surgery in supratentorial haemorrhage is far more limited and selective.
+> **A patient with a cerebellar bleed who is currently alert can be dead within hours. Discuss every one with neurosurgery.**
+
+> [!warning] Other management points
+> **Seizures** — treat clinical seizures; prophylaxis is not routine.
+> **Raised intracranial pressure** — head up, avoid hypotonic fluids, treat fever and hyperglycaemia, consider osmotherapy and ICU involvement.
+> **Do not give antiplatelet or anticoagulant therapy**, and the decision about if and when to restart anticoagulation in a patient with a strong indication (mechanical valve, recent VTE, AF) is a specialist one requiring explicit documentation. Cross-refer [[10_09a_Haemonc_-_Anticoagulants_and_Antiplatelets]].
+
+**Ix:** **Non-contrast CT brain** (*why:* diagnostic, and identifies location, volume, mass effect and intraventricular extension; *what:* haemorrhage and its pattern). **CT angiography** (*why:* identifies an underlying vascular malformation or aneurysm, and a **"spot sign" of contrast extravasation predicts haematoma expansion**; *what:* AVM, aneurysm, spot sign). **Coagulation profile, platelets, and a clear anticoagulant history including time of last dose** (*why:* determines reversal strategy; *what:* INR, agent, timing). Delayed MRI with susceptibility sequences (*why:* identifies underlying tumour, cavernoma, and **microbleeds suggesting amyloid angiopathy**; *what:* underlying lesion, microbleed pattern). Toxicology in younger patients (*why:* sympathomimetic-related haemorrhage; *what:* cocaine, amphetamines).
+
+#### Mx – Immediate — D3 §0.4.1
+A–E with airway protection where consciousness is reduced. **Reverse anticoagulation immediately.** Active blood pressure control. Head up. Treat seizures. **Urgent neurosurgical referral — mandatory for cerebellar haemorrhage.**
+
+#### Mx – Definitive — D3 §0.4.2
+Neurosurgical evacuation where indicated, external ventricular drain for hydrocephalus, and treatment of the underlying vascular lesion.
+
+#### Mx – Chronic/long-term — D3 §0.4.3
+Blood pressure control, which is the principal preventive measure. Rehabilitation. A documented, explicit decision about resuming antithrombotic therapy.
+
 
 ### Arterial Territory Syndromes
 
@@ -1237,21 +2586,107 @@ Specifically referring to intracerebral haemorrhage (ICH).
 
 ---
 
-### Added from unverified layer — stroke chameleons, and two things to examine for
-`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.5` `SRC:D3 §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+### Stroke Mimics and Stroke Chameleons — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Mimics — conditions that look like stroke but are not
+> **· Hypoglycaemia** — the most important, because it is instantly reversible. Check the glucose.
+> **· Seizure with Todd paresis** — post-ictal focal weakness, typically resolving over minutes to hours. The history of a witnessed seizure is the clue, but seizures are often unwitnessed.
+> **· Migraine with aura** — but remember **aura spreads gradually over minutes, whereas stroke is maximal at onset.** Cross-refer [[04_Neurology]] Migraine.
+> **· Functional neurological disorder** — with inconsistent examination findings, **Hoover sign** (weak hip extension that normalises when the opposite hip is flexed against resistance), and a pattern that does not fit vascular anatomy. This is a positive diagnosis, not a diagnosis of exclusion, and should be made and explained rather than implied. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
+> **· Recrudescence of an old deficit** — **infection, metabolic derangement or any systemic illness can unmask a previously recovered stroke deficit.** A patient with a known old stroke who develops "a new stroke" during a urinary tract infection frequently has recrudescence, and the deficit resolves as the infection is treated.
+> **· Space-occupying lesion, subdural haematoma, multiple sclerosis, Bell palsy, peripheral vestibular disease, hypertensive encephalopathy, drug or alcohol intoxication.**
 
 > [!danger] Chameleons — strokes that do not look like strokes
-> Stroke **mimics** are covered above and in §Weakness — Differential Diagnosis. The opposite error is less discussed and more costly, because the patient goes home.
-> - **Isolated vertigo.** A posterior circulation stroke presenting as "dizziness" is the most consequential missed stroke, because these patients are discharged with a vestibular label. The **HINTS examination** (§Vertigo below, and [[Examination]]) distinguishes central from peripheral and is **more sensitive than early MRI** — early diffusion-weighted imaging misses a meaningful proportion of posterior circulation infarcts.
-> - **Acute confusion or delirium**, particularly with **non-dominant hemisphere or thalamic** strokes. §Delirium above lists stroke among the precipitants; the point here is that the stroke may produce *no other sign at all*.
-> - **Isolated dysarthria, or isolated monoparesis** — a single deficit is still a deficit.
+> **· Isolated vertigo** — a posterior circulation stroke presenting as "dizziness" is the most consequential missed stroke, because these patients are discharged with a vestibular diagnosis. **The HINTS examination distinguishes central from peripheral vertigo and is more sensitive than early MRI** — cross-refer [[04_Neurology]] Cranial Nerve Disorders and Vertigo.
+> **· Acute confusion or delirium** — particularly with non-dominant hemisphere or thalamic strokes.
+> **· Isolated dysarthria or isolated monoparesis.**
+> **· Cortical blindness** (bilateral occipital) — the patient may deny blindness (Anton syndrome).
+> **· Sudden-onset movement disorder** — hemiballismus from a subthalamic lesion.
+> **· A "funny turn" or collapse** with subtle focal signs.
+> **· Acute severe behavioural change.**
+> **FAST does not detect posterior circulation stroke**, which is why "dizzy and nauseated with a normal FAST" is a dangerous reassurance.
 
-> [!warning] Locked-in syndrome
-> **Ventral pontine infarction.** The patient is **fully conscious and aware**, with **only vertical eye movement and blinking preserved**, and is **repeatedly assumed to be unconscious**.
-> This is the reason to test **vertical gaze and blinking to command** in any apparently unresponsive patient before concluding that consciousness is absent — the GCS at §Glasgow Coma Scale scores what the patient can *demonstrate*, which in this syndrome is almost nothing.
+**Ix:** **Bedside glucose in every case.** **MRI with diffusion** (*why:* far more sensitive than CT, particularly posterior fossa, and it distinguishes stroke from mimic; *what:* restricted diffusion or its absence). EEG where seizure is suspected (*why:* Todd paresis and non-convulsive status; *what:* epileptiform activity). Septic screen where recrudescence is possible (*why:* treating the infection resolves the deficit; *what:* infective source).
 
-- **Pronator drift** — with the arms outstretched, palms up, eyes closed, a subtly weak arm **pronates and drifts downward**. It detects a pyramidal weakness too mild to show on formal power testing, and costs seconds. See [[Examination]] for the neurological examination sequence it belongs to.
 
+### Stroke Syndromes and Localisation — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Anterior circulation territories
+> **Anterior cerebral artery** — supplies the medial hemisphere. **Contralateral weakness and sensory loss affecting the LEG more than the arm**, with abulia, apathy, and urinary incontinence.
+> **Middle cerebral artery** — supplies the lateral hemisphere. **Contralateral weakness and sensory loss affecting the FACE and ARM more than the leg**, contralateral homonymous hemianopia, and **gaze deviation TOWARDS the side of the lesion** (the patient "looks at the lesion" and away from the weak side).
+> **· Dominant (usually left) hemisphere → aphasia.** Broca (expressive — non-fluent, effortful, comprehension preserved, patient frustrated) versus Wernicke (receptive — fluent but meaningless, poor comprehension, patient unaware).
+> **· Non-dominant hemisphere → neglect, anosognosia, dressing and constructional apraxia.** These patients may be unaware of their deficit entirely, which affects safety and rehabilitation.
+> **Posterior cerebral artery** — **contralateral homonymous hemianopia with macular sparing**, visual agnosia, and — with dominant occipital and splenium involvement — **alexia without agraphia** (can write but cannot read what they wrote).
+
+> [!danger] Crossed signs mean brainstem
+> **Ipsilateral cranial nerve findings with contralateral limb findings is essentially pathognomonic for a brainstem lesion**, because the cranial nerve nuclei are affected at the level of the lesion while the long tracts have not yet decussated.
+> **Lateral medullary (Wallenberg) syndrome**, from posterior inferior cerebellar artery occlusion, is the classic: **ipsilateral facial pain and temperature loss, ipsilateral Horner syndrome, ipsilateral ataxia, palatal and vocal cord weakness with dysphagia and hoarseness — and CONTRALATERAL pain and temperature loss in the body.** Notably **without limb weakness**, which is why it is missed.
+
+> [!warning] The five lacunar syndromes
+> Small vessel occlusion in deep structures — internal capsule, corona radiata, pons, thalamus, basal ganglia.
+> **1. Pure motor hemiparesis** (commonest) · **2. Pure sensory stroke** · **3. Sensorimotor stroke** · **4. Ataxic hemiparesis** · **5. Dysarthria–clumsy hand.**
+> **The defining feature is the ABSENCE of cortical signs — no aphasia, no neglect, no visual field defect, no reduced consciousness.** Strongly associated with hypertension and diabetes.
+
+> [!tip] The Oxford (Bamford) classification
+> **TACS** (total anterior circulation syndrome) — all three of: higher cortical dysfunction, homonymous hemianopia, and motor/sensory deficit of face, arm and leg. Worst prognosis.
+> **PACS** — two of the three, or isolated higher cortical dysfunction.
+> **LACS** — a lacunar syndrome as above.
+> **POCS** — posterior circulation: cranial nerve palsy with crossed deficit, bilateral deficits, disordered conjugate eye movement, cerebellar dysfunction, or isolated homonymous hemianopia.
+> Useful because it predicts prognosis and likely territory from the bedside, before imaging.
+
+> [!danger] Cerebellar stroke deteriorates suddenly
+> A cerebellar infarct or haemorrhage may present with only **vertigo, vomiting, headache and ataxia**, with no limb weakness — and then **swell over 24–72 hours, compressing the brainstem and obstructing the fourth ventricle**, causing rapid deterioration to coma and death.
+> **Cerebellar stroke requires close observation and urgent neurosurgical involvement if consciousness declines** — decompression is life-saving. **Do not discharge a patient with acute vertigo and ataxia without considering this.** Cross-refer [[04_Neurology]] Cranial Nerve Disorders and Vertigo.
+
+> [!warning] Watershed (borderzone) infarction
+> Occurs at the junctions between arterial territories during **systemic hypotension or profound hypoperfusion** — after cardiac arrest, sepsis, or major surgery.
+> Produces **bilateral proximal upper limb weakness with preserved distal function — the "man in a barrel" pattern** — or bilateral visual field and cortical deficits. **Think of it in a patient with a neurological deficit after a hypotensive episode**, rather than looking for an embolic source.
+
+**Ix:** As per 0.1. **MRI is superior for posterior fossa and small infarcts**, and a normal CT does not exclude a posterior circulation stroke.
+
+
+### The Paresis Patterns — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former stroke-chameleons and two-things-to-examine-for fragment, inheriting its cross-references; the chameleons half of that fragment is carried by §Stroke Mimics and Stroke Chameleons above.*
+
+> [!tip] The pattern of weakness localises the lesion
+> **Hemiparesis** — contralateral cerebral hemisphere or internal capsule; or brainstem, **in which case look for crossed signs**; or, rarely, spinal cord (Brown-Séquard, with ipsilateral weakness and proprioceptive loss below the lesion and contralateral pain and temperature loss).
+> **Monoparesis** — a small cortical lesion (particularly a parasagittal one affecting the leg), or a **root, plexus or peripheral nerve** lesion. **The distinction is upper motor neurone versus lower motor neurone signs**: increased tone and brisk reflexes with an upgoing plantar (UMN) versus wasting, fasciculation, reduced tone and absent reflexes (LMN).
+> **Paraparesis** — **spinal cord until proven otherwise. See the danger box.**
+> **Quadriparesis** — high cervical cord, brainstem (including **locked-in syndrome** from ventral pontine infarction, where the patient is fully conscious with only vertical eye movement preserved — and is repeatedly assumed to be unconscious), Guillain–Barré syndrome, myasthenic crisis, periodic paralysis, or critical illness neuromyopathy.
+
+> [!danger] Paraparesis is spinal cord compression until proven otherwise
+> **Bilateral leg weakness with a sensory level, back pain, or bladder or bowel disturbance is a neurosurgical and oncological emergency.**
+> **Metastatic spinal cord compression** — a known malignancy, progressive back pain worse at night or on lying, then weakness and sensory change, then sphincter involvement. **Once the sphincters are involved, recovery is unlikely — so the window is before that point.**
+> **Urgent whole-spine MRI and immediate high-dose corticosteroids**, with oncology and neurosurgical involvement. **Do not wait for morning.**
+> **Cauda equina syndrome** — below the conus, so **lower motor neurone signs**, with **saddle anaesthesia, urinary retention with overflow, reduced anal tone, and bilateral radicular pain.** **Urinary retention is the key finding — check a post-void residual.** Also a surgical emergency.
+> Cross-refer `TODO:link — L4 Back & neck pain (unbuilt)`.
+
+> [!tip] The non-compressive causes of paraparesis
+> **Transverse myelitis** — subacute, with a sensory level; consider multiple sclerosis, neuromyelitis optica, infection and autoimmune causes.
+> **Anterior spinal artery infarction** — sudden, with motor and spinothalamic loss but **preserved dorsal column function (proprioception and vibration)**, which is a distinctive and diagnostic dissociation.
+> **Guillain–Barré syndrome** — **ascending, symmetrical, AREFLEXIC weakness** following an infection, with respiratory involvement. **Monitor forced vital capacity, not oxygen saturation.** Cross-refer [[04_Neurology]] Guillain-Barré Syndrome (GBS).
+> **Subacute combined degeneration from B12 deficiency** — dorsal columns and corticospinal tracts, with the unusual combination of **absent ankle reflexes but upgoing plantars.**
+
+**Ix:** **Urgent MRI of the whole spine where cord compression or cauda equina is suspected** (*why:* the only test that identifies the level and cause, and delay costs function permanently; *what:* compression, level, cause). Post-void bladder scan (*why:* retention supports cauda equina and is objective; *what:* residual volume). CT brain and MRI where a cerebral cause is likely (*why:* stroke, tumour, demyelination; *what:* lesion). Serial FVC in ascending weakness (*why:* impending respiratory failure; *what:* declining FVC). B12, folate, TFTs, HIV, syphilis serology (*why:* treatable myelopathies; *what:* deficiency, infection). Lumbar puncture where inflammatory or infective myelopathy is suspected (*why:* CSF findings and oligoclonal bands; *what:* cells, protein, bands). Nerve conduction studies and EMG (*why:* distinguishes neuropathy, neuromuscular junction and myopathy; *what:* conduction block, decrement, denervation).
+
+#### Mx – Immediate — D3 §0.6.1
+**Corticosteroids and urgent imaging for suspected metastatic cord compression.** Urgent surgical referral for cauda equina. Respiratory monitoring in ascending weakness.
+
+#### Mx – Definitive — D3 §0.6.2
+Decompression, radiotherapy, immunotherapy or plasma exchange as indicated.
+
+#### Mx – Chronic/long-term — D3 §0.6.3
+Rehabilitation, bladder and bowel management, pressure area care, spasticity management, and psychological support.
+
+> [!tip] Two bedside things the fragment this block supersedes was written to add
+> **Pronator drift** — with the arms outstretched, palms up and eyes closed, a subtly weak arm **pronates and drifts downward.** It detects a pyramidal weakness too mild to show on formal power testing, and costs seconds. See [[Examination]] for the neurological examination sequence it belongs to.
+> **Vertical gaze and blinking to command**, in any apparently unresponsive patient, before concluding consciousness is absent — because of **locked-in syndrome** above. The GCS at §Glasgow Coma Scale scores what the patient can *demonstrate*, which in this syndrome is almost nothing.
+
+> [!note] Where the neighbouring material lives
+> Stroke **mimics** — §Stroke Mimics and Stroke Chameleons above and §Weakness — Differential Diagnosis below. **HINTS** for the isolated-vertigo chameleon — §Vertigo below and [[Examination]]. **Delirium as a stroke chameleon** — §Delirium above already lists stroke among the precipitants; the point the chameleon block adds is that the stroke may produce no other sign at all.
 
 ## Brain Bleeds
 
@@ -1389,21 +2824,41 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 - Toxins (e.g. chemotherapy, isoniazid) — generally length-dependent
 - Paraproteinaemic (e.g. secondary to haematologic malignancy)
 
-### Added from unverified layer — two discriminators in a weak patient
-`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.4` `SRC:D4 §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+### Myopathy — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former two-discriminators fragment; the foot-drop half is carried by §Mononeuropathies and Entrapment above, which holds the inversion discriminator and the dermatome/myotome pointer.*
 
-> [!danger] Foot drop — test ankle inversion
-> Common peroneal palsy and L5 radiculopathy both cause weak dorsiflexion. **One manoeuvre separates them**, and it works because tibialis posterior is supplied by the **tibial** nerve but is an **L5** muscle — the anatomy is already tabulated in [[11_07a_Ortho_-_Dermatomes_and_Myotomes_Reference]] and is not repeated here.
-> - **Common peroneal palsy** — **inversion is PRESERVED**, no back pain, no hip abduction weakness.
-> - **L5 radiculopathy** — **inversion is WEAK**, hip abduction is weak, usually with back pain radiating down the leg.
-> - **The ankle jerk (S1) is preserved in both**, so it does not discriminate.
->
-> **Test inversion.** It separates a peripheral compression from a spinal problem at the bedside, and it decides whether the patient needs a spine referral or a nerve-conduction study.
+**D:** Primary muscle disease, characteristically producing **symmetrical proximal weakness without sensory involvement.**
 
-> [!warning] Steroid myopathy has a normal CK
+> [!tip] The clinical signature
+> **Difficulty rising from a chair or a low toilet, climbing stairs, and raising the arms above the head to wash or comb hair.** **Gower sign** in children — climbing up their own legs to stand.
+> **No sensory symptoms. Reflexes preserved until weakness is severe. CK usually raised** — with important exceptions below.
+
+> [!tip] Causes
+> **Inflammatory** — **polymyositis** and **dermatomyositis** (with the **heliotrope periorbital rash and Gottron papules over the knuckles**; a **paraneoplastic association strong enough to warrant age-appropriate malignancy screening**), and **inclusion body myositis** — which is different and worth knowing: **older patients, ASYMMETRIC, with characteristic involvement of the FINGER FLEXORS and QUADRICEPS, slowly progressive, and poorly responsive to steroids.** Misdiagnosing IBM as polymyositis leads to years of futile immunosuppression.
+> **Drugs** — **statins** (myalgia through to rhabdomyolysis; and **immune-mediated necrotising myopathy with anti-HMGCR antibodies, which CONTINUES to progress after the statin is stopped and needs immunosuppression** — an important and under-recognised entity), **corticosteroids**, colchicine, alcohol, antiretrovirals, hydroxychloroquine.
+> **Endocrine** — **hypothyroidism and hyperthyroidism (both), Cushing syndrome, and osteomalacia from vitamin D deficiency**, which causes proximal weakness with bone pain and is fully treatable.
+> **Metabolic and mitochondrial** — exercise intolerance, cramps, myoglobinuria.
+> **Muscular dystrophies** — Duchenne, Becker, myotonic dystrophy (with **grip myotonia, frontal balding, cataracts, cardiac conduction disease** — the cardiac involvement matters and warrants surveillance).
+> **Rhabdomyolysis** — cross-refer [[11_01_Ortho_-_Orthopaedic_Emergencies]] Rhabdomyolysis.
+
+> [!danger] Steroid myopathy has a NORMAL CK
 > **Corticosteroid-induced myopathy causes proximal weakness with a normal creatine kinase**, because it is a metabolic atrophy rather than a necrotising process.
-> **So a normal CK does not exclude a myopathy.** In a patient on long-term steroids with proximal weakness and entirely normal tests, the steroid is the likely cause. It improves with dose reduction and exercise.
+> **So a normal CK does not exclude myopathy**, and in a patient on long-term steroids with proximal weakness, the steroid is the likely cause even though every test is normal. It improves with dose reduction and exercise.
+> **The ankle jerk (S1) is preserved in both peroneal palsy and L5 radiculopathy**, so it does not discriminate — see §Mononeuropathies and Entrapment above, where the inversion test decides between a spine referral and a nerve-conduction study.
 > `UNVERIFIED — the time course of onset and of recovery, and whether any test distinguishes it from disuse atrophy; specialist neurology or rheumatology guidance.`
+
+**Ix:** **CK** (*why:* raised in most inflammatory, dystrophic and toxic myopathies, and its magnitude helps — **but normal in steroid myopathy and in some others**; *what:* elevation). TFTs, calcium, phosphate, vitamin D, potassium, magnesium (*why:* endocrine and electrolyte myopathies are common and reversible; *what:* derangement). ESR, CRP, and **myositis-specific antibodies** (*why:* classifies inflammatory myopathy and identifies subgroups with particular associations — interstitial lung disease, malignancy; *what:* antibody profile). **EMG** (*why:* demonstrates a myopathic pattern and distinguishes it from neuropathy; *what:* short-duration low-amplitude motor units, spontaneous activity). **MRI of muscle** (*why:* identifies oedema and guides the biopsy site, improving yield; *what:* muscle oedema, atrophy, fatty replacement). **Muscle biopsy** (*why:* the definitive test, distinguishing inflammatory subtypes, dystrophy and inclusion body myositis — the last of which has characteristic rimmed vacuoles; *what:* histology). **Malignancy screening in dermatomyositis** (*why:* the association is strong enough to warrant an age-appropriate search; *what:* underlying cancer). **ECG and echocardiography in dystrophies** (*why:* cardiac involvement causes conduction disease and cardiomyopathy and is a cause of death; *what:* conduction abnormality, cardiomyopathy). Respiratory function testing (*why:* diaphragmatic involvement; *what:* reduced FVC, particularly supine).
+
+#### Mx – Immediate — D4 §0.6.1
+Treat rhabdomyolysis and hyperkalaemia. Respiratory support where diaphragmatic weakness.
+
+#### Mx – Definitive — D4 §0.6.2
+Immunosuppression for inflammatory myopathy. Cease the causative drug. Replace vitamin D or treat thyroid disease.
+
+#### Mx – Chronic/long-term — D4 §0.6.3
+Physiotherapy and resistance exercise, which are beneficial rather than harmful in most myopathies. Cardiac and respiratory surveillance in dystrophies. Genetic counselling. Bone protection on steroids.
+
 
 
 > [!info] Added from unverified layer — **the incidental raised CK in a patient with no symptoms**
@@ -1447,6 +2902,117 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 **Poly-radiculopathy:** spondylolysis (vertebral fracture), chronic inflammatory demyelinating polyneuropathy, space-occupying lesion, infection
 
 ---
+
+### Peripheral Neuropathy — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Dysfunction of peripheral nerves, most commonly a **length-dependent, symmetrical sensorimotor polyneuropathy** — the longest axons fail first, producing the classic **glove-and-stocking** distribution starting in the toes.
+
+> [!tip] The patterns, and what each implies
+> **Length-dependent sensorimotor** — the commonest. Starts in the feet, ascends; hands become involved once the legs are affected to around knee level.
+> **Small fibre** — pain, burning, temperature loss, and autonomic features. **Nerve conduction studies are NORMAL**, because they test large fibres — so a normal study does not exclude a small fibre neuropathy, which is a frequent source of the patient being told "there's nothing wrong."
+> **Large fibre** — proprioceptive loss, sensory ataxia, **positive Romberg**, areflexia.
+> **Motor-predominant** — think **GBS, CIDP, lead, porphyria, hereditary neuropathy.**
+> **Mononeuritis multiplex** — see 0.4; this pattern is a red flag.
+
+> [!tip] Causes
+> **Diabetes** — by far the commonest in Australia.
+> **Alcohol** — direct toxicity plus thiamine deficiency.
+> **Nutritional** — **B12** (and note **B6 causes neuropathy in both deficiency AND excess**, the latter from supplements), thiamine, folate, vitamin E, and copper.
+> **Drugs and toxins** — **chemotherapy (vincristine, platinum agents, taxanes)**, isoniazid, metronidazole, amiodarone, nitrofurantoin, phenytoin, and lead or other heavy metals.
+> **Immune** — **Guillain–Barré syndrome** (acute) and **CIDP** (chronic and, importantly, **treatable**).
+> **Hereditary** — **Charcot-Marie-Tooth**: high arches (pes cavus), hammer toes, "inverted champagne bottle" legs from distal wasting, and a family history that may not be volunteered until you examine the parents' feet.
+> **Systemic** — chronic kidney disease, hypothyroidism, amyloidosis, sarcoidosis, connective tissue disease and vasculitis.
+> **Paraneoplastic and paraproteinaemic** — check a paraprotein in unexplained neuropathy.
+> **Infective** — HIV, hepatitis B and C, Lyme disease, **leprosy** (still the commonest infectious cause globally, with thickened palpable nerves).
+
+> [!danger] Diabetic neuropathy — painless ulceration is what costs the foot
+> The dangerous consequence is not the pain; it is the **loss of protective sensation**, so trauma, pressure and infection go unnoticed until an ulcer is established.
+> **Every diabetic needs regular foot examination**: monofilament testing for protective sensation, vibration, pulses, inspection between the toes, and footwear assessment.
+> **Charcot neuroarthropathy** — a hot, swollen, red foot in a neuropathic diabetic, frequently misdiagnosed as cellulitis or gout. **It requires immediate offloading and non-weight-bearing**, because continued walking on it destroys the architecture of the foot permanently.
+> Cross-refer `TODO:link — I2 Glucose (unbuilt)` and [[01_Cardiovascular]] §0.36.1 Peripheral Arterial Disease (PAD).
+
+> [!warning] Neuropathic pain — and what not to use
+> Treated with **tricyclics (amitriptyline, nortriptyline), duloxetine, and gabapentinoids (gabapentin, pregabalin)**, alongside non-pharmacological measures.
+> **Opioids are ineffective for most neuropathic pain and cause harm**, and reaching for them is a common error.
+> **Pregabalin misuse and diversion is a recognised problem in Australia**, and it is a monitored drug — **check ScriptCheckSA obligations** and be deliberate about prescribing it, particularly in patients with a substance use history. Cross-refer [[NEW_Drugs_03_Analgesics]] §0.4 Drugs for Pain Relief.
+> `UNVERIFIED — all agents, doses, titration and current prescribing requirements.`
+
+**S/Smx:** Numbness, tingling, burning, allodynia, unsteadiness worse in the dark or with eyes closed, distal weakness, foot drop, and painless injury. Examine for the distribution, reflexes, proprioception and vibration, foot deformity, and skin and nail changes.
+
+**Ix:** **Glucose and HbA1c, and consider an oral glucose tolerance test** (*why:* diabetes is the commonest cause, and **impaired glucose tolerance short of diabetes also causes neuropathy**, so a normal fasting glucose does not exclude it; *what:* hyperglycaemia, impaired tolerance). **B12 and folate** (*why:* treatable, and B12 deficiency causes a combined neuropathy and myelopathy; *what:* deficiency — with **methylmalonic acid or homocysteine where B12 is borderline**, since functional deficiency occurs at "low-normal" levels). UEC and eGFR (*why:* uraemic neuropathy; *what:* renal impairment). LFT and GGT (*why:* alcohol; *what:* the pattern). TFTs (*why:* hypothyroid neuropathy; *what:* raised TSH). **Serum protein electrophoresis and free light chains** (*why:* paraproteinaemic neuropathy and amyloidosis are specifically treatable and are missed unless requested; *what:* paraprotein). ESR, CRP, ANA, ANCA, rheumatoid factor (*why:* vasculitic neuropathy, particularly with a mononeuritis multiplex pattern; *what:* inflammation, autoantibodies). HIV, hepatitis and syphilis serology where risk factors (*why:* treatable infective causes; *what:* positive serology). **Nerve conduction studies and EMG** (*why:* confirms the neuropathy, and — critically — **distinguishes demyelinating from axonal**, which narrows the differential substantially: demyelinating points to GBS, CIDP, hereditary and paraproteinaemic causes, while axonal points to metabolic, toxic and most systemic causes; *what:* conduction velocity, amplitude, block). Genetic testing where hereditary neuropathy is suspected (*why:* diagnosis and family counselling; *what:* PMP22 and related). Nerve biopsy, rarely (*why:* reserved for suspected vasculitis or amyloid; *what:* histology).
+
+#### Mx – Immediate — D4 §0.2.1
+Only in acute neuropathies — **GBS requires FVC monitoring and escalation.** Cross-refer [[04_Neurology]] Guillain-Barré Syndrome (GBS).
+
+#### Mx – Definitive — D4 §0.2.2
+Treat the cause. **CIDP responds to immunotherapy and should not be missed**, so a chronic progressive or relapsing demyelinating neuropathy warrants neurology referral rather than symptomatic management. Optimise glycaemic control. Cease the offending drug. Replace deficiencies.
+
+#### Mx – Chronic/long-term — D4 §0.2.3
+**Foot care and podiatry**, which prevents amputation. Falls prevention, since sensory ataxia is a major falls risk. Neuropathic pain management. Occupational therapy for hand function. Driving assessment where proprioception or foot control is impaired.
+
+
+### Subacute and Chronic Focal Deficit — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] The time course narrows the differential more than the deficit does
+> **Seconds to minutes** — vascular: stroke, haemorrhage, seizure with Todd paresis.
+> **Hours to days** — inflammatory, infective or demyelinating: encephalitis, abscess, multiple sclerosis, transverse myelitis, venous sinus thrombosis.
+> **Weeks to months, progressive** — neoplastic, degenerative, or a chronic subdural haematoma.
+> **Months to years, progressive** — degenerative disease, slow-growing tumour, hereditary conditions.
+> **Relapsing and remitting, with deficits separated in time AND space** — multiple sclerosis.
+
+> [!warning] The ones not to miss in a slowly progressive deficit
+> **Chronic subdural haematoma** — an older patient, often anticoagulated, with a fluctuating or progressive deficit, headache, confusion or gait disturbance weeks after trauma that may have been trivial or forgotten. **It is treatable, and it is repeatedly attributed to dementia or "getting old".**
+> **Brain tumour** — primary or metastatic. Progressive deficit, seizures, headache with raised pressure features, or personality change. **In an adult with a first seizure or a new progressive deficit, imaging is required.**
+> **Brain abscess** — fever may be absent; consider with immunosuppression, a cardiac shunt, endocarditis, or a contiguous source (sinusitis, dental, mastoiditis).
+> **Multiple sclerosis** — a young adult with deficits separated in time and space; optic neuritis, internuclear ophthalmoplegia, transverse myelitis, sensory disturbance, and **Uhthoff phenomenon** (transient worsening with heat — cross-refer [[11_09b_Ortho_-_Trauma]] Heat illness).
+> **Normal pressure hydrocephalus** — cross-refer [[04_Neurology]] Normal Pressure Hydrocephalus.
+
+**Ix:** **MRI brain with contrast** (*why:* the investigation of choice for subacute and chronic deficits — far superior to CT for tumour, demyelination, abscess and small lesions; *what:* mass, enhancement, demyelinating plaques, subdural collection). **CT brain** where MRI is unavailable or urgent exclusion is needed (*why:* fast and detects subdural, large tumours and haemorrhage; *what:* collection, mass, midline shift). Lumbar puncture with **oligoclonal bands** (*why:* supports multiple sclerosis and identifies infection and malignant meningitis; *what:* bands, cells, cytology). Visual evoked potentials (*why:* demonstrates a subclinical second lesion in suspected MS; *what:* delayed latency). Whole-body imaging where metastatic disease is suspected (*why:* finds the primary; *what:* primary tumour). Autoimmune and infective screening as directed (*why:* treatable causes; *what:* positive results).
+
+#### Mx – Immediate — D3 §0.7.1
+Urgent imaging where there is raised intracranial pressure, rapid progression or reduced consciousness.
+
+#### Mx – Definitive — D3 §0.7.2
+Cause-specific, with neurology, neurosurgery or oncology involvement.
+
+#### Mx – Chronic/long-term — D3 §0.7.3
+Rehabilitation, disease-modifying therapy in MS, driving and occupational advice, and advance care planning in progressive disease.
+
+### Localising the Lesion — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** The systematic determination of which level of the nervous system is affected, from cortex to muscle.
+
+> [!tip] The eight levels, and how each presents
+> **Brain (cortex, internal capsule)** — UMN pattern, contralateral, often with cortical features (aphasia, neglect, visual field loss).
+> **Spinal cord** — UMN below the lesion, LMN at the lesion, **a sensory level**, and sphincter involvement.
+> **Anterior horn cell** — **mixed UMN and LMN signs with NO sensory involvement** (motor neurone disease).
+> **Nerve root** — myotomal weakness, dermatomal sensory loss, loss of the reflex for that root, and **radicular pain shooting down the limb.**
+> **Plexus** — deficits crossing multiple root and nerve territories, confined to one limb.
+> **Peripheral nerve** — a single nerve territory (mononeuropathy), a symmetrical length-dependent pattern (polyneuropathy), or multiple discrete nerves (mononeuritis multiplex).
+> **Neuromuscular junction** — **fatigable** weakness, ptosis and diplopia, bulbar involvement, **no sensory loss, normal reflexes.**
+> **Muscle** — **proximal, symmetrical weakness, no sensory loss, reflexes preserved until late, raised CK.**
+
+> [!info] Upper versus lower motor neurone
+> | | **UMN** | **LMN** |
+> |---|---|---|
+> | Tone | **Increased** (spastic, clasp-knife) | **Reduced** or normal |
+> | Reflexes | **Brisk**, clonus | **Reduced or absent** |
+> | Plantar | **Upgoing (Babinski)** | Downgoing |
+> | Wasting | Absent (except disuse, late) | **Present** |
+> | Fasciculation | Absent | **Present** |
+> | Pattern | **Pyramidal** — upper limb extensors and lower limb flexors weakest | Territory of the affected root or nerve |
+> **Acute UMN lesions can initially cause FLACCID weakness with absent reflexes ("spinal shock"), with spasticity developing over days to weeks.** So a flaccid areflexic patient early after a cord injury is not evidence against a UMN lesion — this is a classic trap.
+
+> [!warning] Two combinations that point to specific diagnoses
+> **Mixed UMN and LMN signs with no sensory involvement** → **motor neurone disease**, until proven otherwise. Wasting and fasciculation with brisk reflexes in the same limb is a striking and specific finding.
+> **Absent ankle reflexes with upgoing plantars** → a lesion affecting both peripheral nerves and the cord: **subacute combined degeneration from B12 deficiency**, or coexisting cervical myelopathy with a peripheral neuropathy (common in diabetics), or tabes dorsalis, or Friedreich ataxia.
+
+**Ix:** **A careful examination is the investigation.** Nerve conduction studies and EMG confirm and refine, but they answer the question you pose, so **localise clinically first** — the request "?neuropathy" without a clinical question gets a less useful study.
+
+
 
 ## Neuroinflammatory Disorders
 
@@ -1568,6 +3134,50 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 **Mx of MG in pregnancy:** PO pyridostigmine (not IV), prednisolone, azathioprine, tacrolimus, ciclosporin, IVIG, plasmapheresis.
 
 > [!warning] Drugs that worsen MG: β-blockers, lithium, antibiotics (gentamicin, macrolides, quinolones, tetracyclines), phenytoin, quinidine, procainamide, penicillamine.
+
+### Neuromuscular Junction Disorders — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Myasthenia gravis — fatigability is the diagnosis
+> **Weakness that WORSENS with sustained or repeated activity and improves with rest**, characteristically worse at the end of the day.
+> **Ocular symptoms — ptosis and diplopia — are the presenting feature in most patients.** Then bulbar (dysarthria that deteriorates as the patient talks, dysphagia, nasal regurgitation, difficulty chewing toward the end of a meal), then limb (proximal), then respiratory.
+> **No sensory loss. Reflexes normal. Pupils spared** — pupillary involvement points elsewhere (botulism, third nerve palsy).
+> Bedside tests: sustained upgaze to elicit fatigable ptosis; the **ice pack test** (ptosis improves after cooling); and the **fatigable dysarthria** heard when counting aloud.
+> **Antibodies: acetylcholine receptor, and MuSK in seronegative patients.**
+> **Every patient with myasthenia needs a CT chest to look for a thymoma**, which is present in a minority and changes management.
+
+> [!danger] Drugs that precipitate myasthenic crisis
+> **Aminoglycosides · macrolides · fluoroquinolones · magnesium (including in obstetric use for pre-eclampsia) · beta-blockers · phenytoin · certain anaesthetic agents and neuromuscular blockers · and immune checkpoint inhibitors, which can cause de novo myasthenia.**
+> **Check the drug chart before adding anything to a myasthenic patient**, and be particularly careful about giving magnesium or an aminoglycoside to a patient whose diagnosis you do not yet know.
+
+> [!danger] Myasthenic crisis
+> **Respiratory failure from weakness of the diaphragm, intercostals and bulbar muscles.**
+> **Monitor serial forced vital capacity, NOT oxygen saturation** — the lungs are normal, so saturation and blood gases stay reassuring until abrupt decompensation. Cross-refer [[04_Neurology]] Guillain-Barré Syndrome (GBS).
+> **Bulbar involvement adds aspiration risk independent of respiratory muscle strength**, and lowers the threshold for airway protection.
+> Treated with **IVIG or plasma exchange**, plus supportive ventilation. Precipitants: infection, surgery, pregnancy, drugs, and tapering immunosuppression.
+> **Cholinergic crisis** — over-treatment with cholinesterase inhibitors — produces weakness plus **muscarinic excess: salivation, lacrimation, diarrhoea, bradycardia, miosis and fasciculations.** Distinguishing it from myasthenic crisis matters because the treatments are opposite. Cross-refer [[14a-2_Psych_-_Overdose_and_Poisoning_Management]].
+
+> [!tip] Lambert-Eaton myasthenic syndrome — the one that improves with exercise
+> **Proximal lower limb weakness that TRANSIENTLY IMPROVES with sustained exercise (post-exercise facilitation)** — the opposite of myasthenia. **Reflexes are reduced or absent but RETURN after brief exercise**, which is a distinctive and testable bedside sign.
+> **Autonomic features are common** — dry mouth, constipation, impotence, postural hypotension.
+> **Strongly associated with small cell lung carcinoma**, often preceding the cancer diagnosis. **A new Lambert-Eaton diagnosis mandates a search for underlying malignancy and ongoing surveillance if none is found initially.**
+> Antibodies to voltage-gated calcium channels.
+
+> [!warning] Botulism
+> **DESCENDING weakness**, starting with bulbar and ocular muscles (diplopia, ptosis, dysarthria, dysphagia) and progressing downward, with **prominent autonomic features and DILATED, poorly reactive pupils** — pupillary involvement distinguishes it from myasthenia.
+> Sources: contaminated food, wound botulism in injecting drug users, and **infant botulism from honey**, which is why honey is not given to infants under 12 months.
+
+**Ix:** **Acetylcholine receptor antibodies, then MuSK antibodies if negative** (*why:* diagnostic; *what:* positive antibodies). **Repetitive nerve stimulation and single-fibre EMG** (*why:* demonstrates the neuromuscular junction defect — **decrement in myasthenia, increment after exercise in Lambert-Eaton**; *what:* decremental or incremental response). **CT chest** (*why:* thymoma in myasthenia, and lung cancer in Lambert-Eaton; *what:* mediastinal mass, lung lesion). **Serial forced vital capacity** (*why:* the only reliable measure of impending respiratory failure; *what:* declining FVC). TFTs (*why:* autoimmune thyroid disease coexists with myasthenia; *what:* abnormal TSH). Voltage-gated calcium channel antibodies (*why:* Lambert-Eaton; *what:* positive). Screening for other autoimmune disease (*why:* they cluster; *what:* associated conditions).
+
+#### Mx – Immediate — D4 §0.5.1
+**FVC monitoring and escalation in crisis.** Withhold precipitating drugs. Treat the precipitant. IVIG or plasma exchange.
+
+#### Mx – Definitive — D4 §0.5.2
+Pyridostigmine for symptoms, immunosuppression (corticosteroids and steroid-sparing agents), and **thymectomy**, which benefits selected patients including some without thymoma. Newer targeted therapies exist.
+
+#### Mx – Chronic/long-term — D4 §0.5.3
+**A medical alert and a written list of drugs to avoid**, which the patient should carry. Vaccination and infection avoidance. Pre-operative and pre-pregnancy planning with neurology. Bone protection on long-term steroids.
+
 
 ### Neuromyelitis Optica (Devic Disease)
 
@@ -1774,6 +3384,42 @@ Primary injuries divided into focal or diffuse.
 
 **Mx:** stop trigger, B12 replacement.
 
+### Sensory Disturbance — Numbness and Paraesthesia — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] The distribution localises the lesion
+> **Dermatomal** — nerve root.
+> **A named nerve territory** — mononeuropathy.
+> **Glove and stocking, symmetrical, distal** — length-dependent polyneuropathy.
+> **Multiple discrete nerve territories, asymmetric** — mononeuritis multiplex.
+> **One limb, crossing root and nerve boundaries** — plexus.
+> **Hemisensory** — contralateral brain, or **ipsilateral cord below the lesion**.
+> **A SENSORY LEVEL on the trunk** — **spinal cord. This is the emergency finding.**
+> **Perioral and bilateral hand tingling** — think **hyperventilation, hypocalcaemia, or hypomagnesaemia**, not a focal lesion.
+> **Saddle distribution** — **cauda equina. Emergency.**
+
+> [!warning] Dissociated sensory loss points to specific cord syndromes
+> **Loss of pain and temperature with PRESERVED light touch, vibration and proprioception** — a spinothalamic lesion. **Syringomyelia** classically produces a **"cape" distribution** across the shoulders and arms, and **anterior spinal artery infarction** produces it below the lesion with preserved dorsal columns.
+> **Loss of vibration and proprioception with preserved pain and temperature** — dorsal columns: **B12 deficiency, tabes dorsalis, and some hereditary ataxias.**
+> **Brown-Séquard** (cord hemisection) — **ipsilateral motor and dorsal column loss with CONTRALATERAL pain and temperature loss**, because the spinothalamic tract has already decussated.
+
+> [!tip] Positive versus negative phenomena
+> **Positive** — tingling, burning, shooting pain, allodynia. Suggests irritation or ectopic firing: neuropathy, radiculopathy, entrapment.
+> **Negative** — numbness, loss of sensation. Suggests conduction failure or destruction.
+> Both may coexist. **A patient with dense numbness who nonetheless has severe pain has a neuropathic process, not a musculoskeletal one.**
+
+**Ix:** Determined by the distribution — **root or cord patterns get spinal MRI, peripheral patterns get nerve conduction studies and metabolic screening, and central patterns get brain imaging.** Calcium and magnesium where perioral and acral tingling (*why:* hypocalcaemia and hypomagnesaemia are common, correctable, and produce exactly this pattern; *what:* low calcium or magnesium). B12 (*why:* dorsal column involvement; *what:* deficiency).
+
+#### Mx – Immediate — D4 §0.7.1
+**Urgent imaging for a sensory level or saddle anaesthesia.**
+
+#### Mx – Definitive — D4 §0.7.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D4 §0.7.3
+Protective measures where sensation is lost — **foot care, water temperature checks, and inspection of insensate areas** — which prevent the injuries that patients cannot feel.
+
+
 ### Friedreich's Ataxia
 
 **D:** autosomal recessive trinucleotide repeat disorder.
@@ -1903,6 +3549,94 @@ Primary injuries divided into focal or diffuse.
 
 **Essential tremor (benign essential tremor):** progressive, mainly symmetrical, rhythmic, involuntary oscillatory movement disorder of the hands and forearms. Autosomal dominant. Usually absent at rest, present during intentional movements (e.g. finger-to-nose test). Improves with alcohol and rest (opposite of Parkinson's). Associated with titubation (head tremor). Mx: propranolol first-line; ?primidone.
 
+### Chorea, Dystonia, Tics and Myoclonus — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Chorea
+> **Brief, irregular, unpredictable, flowing movements that appear to move randomly from one body part to another**, often incorporated into semi-purposeful movements by the patient.
+> **Causes:**
+> **· Huntington disease** — autosomal dominant CAG trinucleotide repeat expansion with **anticipation**; chorea with **prominent psychiatric and cognitive features**, which often precede the movement disorder. **Genetic counselling before testing is essential** and predictive testing has major implications for the family.
+> **· Sydenham chorea** — **post-streptococcal, a major criterion of acute rheumatic fever**, and therefore of particular relevance in Aboriginal and Torres Strait Islander populations in Australia. Often with emotional lability and obsessive features. Cross-refer [[01_Cardiovascular]] §0.22 Rheumatic Fever.
+> **· Drug-induced** — levodopa-induced dyskinesia, and **tardive dyskinesia** from dopamine blockade.
+> **· Systemic** — **SLE and antiphospholipid syndrome**, thyrotoxicosis, polycythaemia, hypoglycaemia, hyperglycaemia (hemichorea-hemiballismus in non-ketotic hyperglycaemia), and **chorea gravidarum** in pregnancy.
+> **· Vascular** — a subthalamic nucleus lesion causing **hemiballismus**, which is violent proximal flinging chorea.
+
+> [!tip] Dystonia
+> **Sustained or intermittent muscle contractions causing abnormal, often twisting postures and repetitive movements.**
+> **Focal dystonias** are the commonest: **cervical dystonia (spasmodic torticollis)**, blepharospasm, writer's cramp, and laryngeal dystonia.
+> **The "sensory trick" (geste antagoniste)** — a light touch to the chin or cheek that dramatically relieves cervical dystonia — is characteristic and diagnostically useful, and its presence supports dystonia over a functional or musculoskeletal cause.
+> **Acute dystonic reaction** — from **metoclopramide, prochlorperazine or antipsychotics**, with oculogyric crisis, torticollis and trismus, typically in young patients. **Responds within minutes to an anticholinergic (benztropine)** and is frequently misdiagnosed as a seizure, a psychiatric episode or tetanus. Cross-refer [[NEW_Drugs_12_Gastrointestinal]] §0.2.5 Antiemetic Selection by Mechanism.
+> **Botulinum toxin is the treatment of choice for focal dystonia.**
+
+> [!tip] Tics
+> **Brief, stereotyped, repetitive movements or vocalisations, preceded by a premonitory urge and TEMPORARILY SUPPRESSIBLE** — suppressibility and the premonitory urge are what distinguish tics from other hyperkinetic movements.
+> **Tourette syndrome** — multiple motor tics plus at least one vocal tic, with childhood onset. **Comorbid ADHD and OCD are the rule rather than the exception**, and frequently cause more impairment than the tics themselves — so they must be asked about and treated.
+> Management: education and reassurance first (many improve through adolescence), behavioural therapy (habit reversal, exposure and response prevention), and medication only where there is genuine impairment.
+
+> [!tip] Myoclonus and restless legs
+> **Myoclonus** — sudden brief shock-like jerks. **Metabolic causes are common and important: uraemia, hepatic failure, hypoxia, hyponatraemia, and drugs (opioids, and gabapentinoids accumulating in renal failure).** **Asterixis is "negative myoclonus"** — a brief lapse of tone. **Post-hypoxic (Lance-Adams) myoclonus** follows cardiac arrest. **Rapidly progressive myoclonus with dementia should raise Creutzfeldt-Jakob disease.**
+> **Restless legs syndrome** — **an urge to move the legs, worse at rest and in the evening, relieved by movement.** **Check ferritin: iron deficiency is a common and treatable cause, and treating it can resolve the syndrome** — this is under-done. Also associated with renal failure, pregnancy, neuropathy, and **drugs including antidepressants, antihistamines and dopamine antagonists.** `UNVERIFIED — the ferritin threshold below which iron replacement is recommended, which is higher than the usual anaemia threshold.`
+
+> [!warning] Tardive dyskinesia
+> Involuntary, often orofacial, choreiform movements after **prolonged dopamine receptor blockade** — antipsychotics, and again **metoclopramide and prochlorperazine.**
+> **It may be irreversible**, and **stopping the causative drug can transiently WORSEN it** before improvement, which discourages both patients and clinicians.
+> The best management is prevention: **use the lowest effective dose of antipsychotics, review the indication regularly, and do not leave metoclopramide or prochlorperazine on a repeat prescription indefinitely.**
+
+**Ix:** **Medication review** (*why:* drug-induced movement disorders are the commonest cause of most of these, and are reversible; *what:* dopamine antagonists, levodopa, antidepressants). **Ferritin** in restless legs (*why:* treatable; *what:* low ferritin). TFTs, glucose, UEC, LFT, calcium (*why:* metabolic causes of chorea and myoclonus; *what:* derangement). **Antistreptolysin O titre and echocardiography in suspected Sydenham chorea** (*why:* establishes acute rheumatic fever, which requires secondary prophylaxis and carditis assessment; *what:* raised ASOT, valvular involvement). **ANA, antiphospholipid antibodies** (*why:* SLE and antiphospholipid syndrome cause chorea; *what:* positive serology). **Huntington genetic testing — only after formal genetic counselling** (*why:* the result has profound implications for the patient and their at-risk relatives, and testing without counselling is unacceptable practice; *what:* CAG repeat expansion). MRI brain (*why:* structural causes including basal ganglia lesions; *what:* lesion, caudate atrophy). **Caeruloplasmin in the young** (*why:* Wilson disease; *what:* low level). EEG where myoclonus may be epileptic (*why:* distinguishes cortical myoclonus and myoclonic epilepsy; *what:* correlated discharges).
+
+#### Mx – Immediate — D6 §0.6.1
+**Anticholinergic for acute dystonic reaction.** Correct metabolic causes of myoclonus.
+
+#### Mx – Definitive — D6 §0.6.2
+Cease the causative drug. Botulinum toxin for focal dystonia. Iron for restless legs. Treat the underlying systemic disease.
+
+#### Mx – Chronic/long-term — D6 §0.6.3
+Genetic counselling and family support in Huntington disease. **Secondary antibiotic prophylaxis after Sydenham chorea, as part of acute rheumatic fever management.** Behavioural therapy in Tourette syndrome. Regular review of any long-term antipsychotic.
+
+
+### Tremor — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A rhythmic oscillatory movement of a body part.
+
+> [!tip] Classify by when it occurs — this is the whole diagnosis
+> **Rest tremor** — present when the limb is fully supported and relaxed, **decreases with voluntary movement.** → **Parkinsonism.** Classically "pill-rolling", asymmetric, and it may be **re-emergent** (reappearing after a delay when the arms are held outstretched, which can confuse it with a postural tremor).
+> **Postural tremor** — present when holding a posture against gravity. → **Essential tremor, enhanced physiological tremor.**
+> **Kinetic / intention tremor** — during movement, **worsening as the target is approached.** → **Cerebellar disease.**
+> **Task-specific** — only during a particular activity, such as writing. → Primary writing tremor, dystonic tremor.
+
+> [!info] Essential tremor
+> **Bilateral, largely symmetric postural and action tremor of the hands**, often also affecting the **head (titubation) and voice**, slowly progressive over years.
+> **A family history in about half**, and **characteristic improvement with a small amount of alcohol** — a genuinely useful diagnostic question, though not one to encourage as treatment.
+> **The commonest movement disorder, and it is frequently misdiagnosed as Parkinson disease.** The distinction: essential tremor is **action-predominant, bilateral, affects head and voice, and has no bradykinesia or rigidity.**
+> Treated with propranolol or primidone.
+
+> [!warning] Enhanced physiological tremor — check the drug chart and the thyroid
+> A fine, fast postural tremor caused by: **anxiety, caffeine, fatigue, thyrotoxicosis, hypoglycaemia, alcohol withdrawal**, and **drugs — salbutamol and other beta-agonists, lithium, valproate, SSRIs, tricyclics, corticosteroids, amiodarone, stimulants.**
+> **This is the commonest cause of new tremor and is entirely reversible**, so the drug list and TFTs come before any imaging.
+
+> [!danger] Wilson disease in anyone under about 40 with a movement disorder
+> **Autosomal recessive copper accumulation, treatable, and devastating if missed.**
+> Presents with tremor (classically a proximal **"wing-beating"** tremor), dystonia, parkinsonism, ataxia, **psychiatric or behavioural change**, and **liver disease.**
+> **Kayser-Fleischer rings** on slit lamp examination, **low serum caeruloplasmin**, raised urinary copper.
+> **Screen for it in any young person with an unexplained movement disorder, unexplained liver disease, or new psychiatric illness with neurological signs.** Cross-refer [[03_Gastrointestinal]] §0.38.2 Acute Liver Failure.
+
+> [!tip] Functional tremor
+> **Variable frequency and amplitude, distractibility (it diminishes or stops when attention is diverted to a complex task in another limb), and entrainment (the tremor frequency shifts to match a rhythm the patient is asked to tap with the other hand).**
+> These are **positive signs**, and functional tremor is a positive diagnosis, not a diagnosis of exclusion. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
+
+**Ix:** **Medication review and TFTs** (*why:* enhanced physiological tremor is the commonest and most reversible cause; *what:* culprit drug, thyrotoxicosis). Glucose, UEC, LFT (*why:* metabolic causes; *what:* derangement). **Caeruloplasmin, urinary copper and slit lamp examination in anyone under 40** (*why:* Wilson disease is treatable and missing it is catastrophic; *what:* low caeruloplasmin, KF rings). MRI brain where there are cerebellar signs, asymmetry, or an atypical presentation (*why:* structural cerebellar or basal ganglia pathology; *what:* lesion). **DaTscan (dopamine transporter imaging)** where the distinction between essential tremor and parkinsonism is genuinely unclear (*why:* it distinguishes a presynaptic dopaminergic deficit from essential and drug-induced tremor; *what:* reduced striatal uptake — `UNVERIFIED — availability and funding in Australia`).
+
+#### Mx – Immediate — D6 §0.4.1
+Not required.
+
+#### Mx – Definitive — D6 §0.4.2
+Cease the causative drug. Treat thyrotoxicosis. Propranolol or primidone for essential tremor. Chelation for Wilson disease.
+
+#### Mx – Chronic/long-term — D6 §0.4.3
+Occupational therapy and adaptive equipment — weighted cutlery, adapted utensils — which are practical and under-offered. Deep brain stimulation or focused ultrasound for severe refractory essential tremor.
+
+
 ### Austroads Driving Standards (Neurological Conditions)
 
 > [!info] Verified against Austroads *Assessing Fitness to Drive* 2022 edition (current at Aug 2026), private-vehicle standards, Aug 2026 — Australian standards are structured quite differently from the UK DVLA rules, generally built around a single "default standard" seizure-free/event-free period rather than the UK's variable tiered system. Commercial-vehicle standards are considerably stricter (e.g. 10-year seizure-free default for some categories) — check the source document directly if advising a commercial driver.
@@ -1967,3 +3701,43 @@ Different inheritance patterns; can affect Schwann cells and myelin (CMT1) or ax
 **Mx:** supportive — physical and occupational therapy (gait aids, ankle-foot orthoses for foot drop); podiatry for foot deformities; genetic counselling for at-risk family members given the hereditary nature.
 
 > [!note] Other random notes from this source: local anaesthetic toxicity — Mx with 20% IV lipid emulsion. Brain pathology causing nausea/vomiting — Mx with cyclizine.
+
+### Mononeuropathies and Entrapment — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Carpal tunnel syndrome — median nerve at the wrist
+> **Nocturnal paraesthesia in the thumb, index, middle and radial half of the ring finger**, relieved by shaking the hand. Thenar wasting and weakness of thumb abduction in advanced cases.
+> **The discriminating anatomical point: sensation over the THENAR EMINENCE is PRESERVED**, because the palmar cutaneous branch of the median nerve arises proximal to the carpal tunnel and passes over it. **Sensory loss over the thenar eminence means a more proximal median lesion or a C6 radiculopathy, not carpal tunnel syndrome.**
+> Causes: idiopathic (most), **pregnancy, hypothyroidism, diabetes, rheumatoid arthritis, acromegaly, obesity, amyloidosis**, and repetitive use.
+> Managed with **night splints**, treatment of the underlying cause, corticosteroid injection, and surgical decompression.
+
+> [!tip] The other common entrapments
+> **Ulnar nerve at the elbow (cubital tunnel)** — paraesthesia in the little and medial ring finger, wasting of the first dorsal interosseous, **claw hand** (worse in distal lesions — the "ulnar paradox"), and **Froment sign** (thumb IP flexion when gripping paper, compensating for weak adductor pollicis).
+> **Radial nerve in the spiral groove** — **"Saturday night palsy"**, from compression while sleeping with the arm over a chair, often with alcohol. **Wrist drop with weak finger extension, and sensory loss over the dorsal first web space.** Triceps is spared (its branches leave proximally), which localises the lesion.
+> **Common peroneal nerve at the fibular head** — **foot drop.** Compression from crossed legs, plaster casts, prolonged squatting, or **recent significant weight loss** (loss of the fat pad).
+> **Lateral femoral cutaneous nerve — meralgia paraesthetica** — **purely sensory** burning and numbness over the anterolateral thigh, from compression at the inguinal ligament. Associated with obesity, tight belts and waistbands, pregnancy, and tool belts. **No weakness and no reflex change** — that combination is the diagnosis.
+
+> [!danger] Foot drop — peroneal palsy versus L5 radiculopathy
+> Both cause weak dorsiflexion. The discriminator:
+> **· Common peroneal palsy** — **ankle INVERSION is preserved** (tibialis posterior is supplied by the tibial nerve), and there is **no back pain and no hip abduction weakness.**
+> **· L5 radiculopathy** — **ankle inversion IS weak** (tibialis posterior is an L5 muscle), **hip abduction is weak**, and there is usually back pain radiating down the leg.
+> The anatomy behind the manoeuvre — tibialis posterior supplied by the **tibial** nerve but an **L5** muscle — is already tabulated in [[11_07a_Ortho_-_Dermatomes_and_Myotomes_Reference]] and is not repeated here.
+> **Ankle jerk (S1) is preserved in both**, so it does not help.
+> **Test inversion.** It is a single manoeuvre that separates a peripheral compression from a spinal problem.
+
+> [!danger] Mononeuritis multiplex is a red flag
+> **Sequential, asymmetric involvement of multiple individual named nerves** — for example a wrist drop, then a foot drop weeks later.
+> **The commonest causes are vasculitis and diabetes**, and the vasculitic causes — polyarteritis nodosa, granulomatosis with polyangiitis, eosinophilic granulomatosis with polyangiitis, rheumatoid vasculitis, cryoglobulinaemia — are **progressive, cause irreversible nerve infarction, and are treatable with immunosuppression.**
+> **This pattern warrants urgent investigation, not observation.** Also consider sarcoidosis, amyloidosis, HIV, hepatitis C, leprosy and malignancy.
+
+**Ix:** **Nerve conduction studies and EMG** (*why:* confirms the site of the lesion and its severity, and distinguishes entrapment from radiculopathy; *what:* focal slowing or conduction block at the entrapment site). Ultrasound or MRI of the nerve (*why:* visualises the nerve, identifies structural causes such as ganglia and masses, and is increasingly used; *what:* nerve swelling, compressive lesion). **TFTs, glucose, and pregnancy test in carpal tunnel** (*why:* identifies the treatable underlying condition, and carpal tunnel in pregnancy usually resolves after delivery; *what:* hypothyroidism, diabetes, pregnancy). **Urgent vasculitis screen in mononeuritis multiplex — ESR, CRP, ANCA, ANA, complement, cryoglobulins, hepatitis serology** (*why:* treatable progressive disease; *what:* the causative process). **Nerve or muscle biopsy** where vasculitis is suspected (*why:* provides tissue diagnosis before committing to immunosuppression; *what:* necrotising vasculitis).
+
+#### Mx – Immediate — D4 §0.4.1
+Remove the compressive cause. **Urgent workup and specialist referral for mononeuritis multiplex.**
+
+#### Mx – Definitive — D4 §0.4.2
+Splinting, injection or surgical decompression for entrapments. Immunosuppression for vasculitic neuropathy.
+
+#### Mx – Chronic/long-term — D4 §0.4.3
+Ergonomic modification, weight management, and **an ankle-foot orthosis for persistent foot drop**, which restores gait and prevents falls.
+
