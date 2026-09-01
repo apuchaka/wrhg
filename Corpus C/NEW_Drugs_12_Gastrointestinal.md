@@ -118,7 +118,7 @@ no_baseline: 0
 
 > [!warning] QT prolongation
 > **Ondansetron, droperidol, haloperidol and domperidone all prolong the QT interval.** In a patient already on other QT-prolonging drugs, or with electrolyte disturbance from vomiting — which is most of them — **the combination is a genuine torsades risk.**
-> **Check potassium and magnesium, and check the ECG before stacking agents.** Cross-refer [[01_Cardiovascular]] Long QT Syndrome.
+> **Check potassium and magnesium, and check the ECG before stacking agents.** Cross-refer [[01_Cardiovascular]] Long QT Syndrome. `UNVERIFIED — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.`
 
 > [!tip] Practical points
 > **Ondansetron causes constipation**, which matters in patients on opioids and in palliative care.
