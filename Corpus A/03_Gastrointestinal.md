@@ -2178,6 +2178,36 @@ Cause-specific.
 ### 0.6.3 Mx – Chronic/long-term
 Dietitian involvement, nutritional supplementation where indicated, treatment of depression, dental review, and management of the underlying condition.
 
+### 0.41.20 Complications of Vomiting — from unverified layer
+`SRC:C2_Nausea_and_Vomiting §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+*The dental-erosion fragment in 14_05a is left in place; that duplication is marked and accepted.*
+
+> [!danger] Wernicke's encephalopathy — give thiamine before glucose
+> Protracted vomiting depletes thiamine, and **administering glucose to a thiamine-deplete patient consumes the remaining thiamine in glycolysis and can precipitate Wernicke's encephalopathy.**
+> **Give parenteral thiamine before or with any glucose-containing fluid** in patients with prolonged vomiting, alcohol dependence, malnutrition, or **hyperemesis gravidarum** — which is a recognised and tragic cause of Wernicke's in young women, often after weeks of vomiting and IV dextrose.
+> The classical triad of **confusion, ophthalmoplegia and ataxia** is incomplete in most cases, so treat on suspicion rather than waiting for all three. Untreated it progresses to irreversible Korsakoff syndrome. `UNVERIFIED — thiamine dose, route and duration from eTG.`
+
+> [!tip] The other complications
+> **Dehydration and acute kidney injury.**
+> **Hypochloraemic hypokalaemic metabolic alkalosis with paradoxical aciduria** — the mechanism is set out in [[06_Metabolic_Medicine_and_Endocrinology]] Acid-Base Balance. Replacement requires **chloride** (as sodium chloride) as well as potassium; the alkalosis will not correct on potassium alone.
+> **Mallory-Weiss tear** — a mucosal tear at the gastro-oesophageal junction after forceful vomiting, presenting as haematemesis **after** several episodes of non-bloody vomiting. Usually self-limiting. Cross-refer §0.33 Upper GI Bleed.
+> **Boerhaave syndrome** — full-thickness oesophageal rupture after forceful vomiting. Severe chest and epigastric pain, surgical emphysema, systemic toxicity. Rare, lethal, and frequently missed. Cross-refer [[01_Cardiovascular]] Acute Coronary Syndrome (ACS).
+> **Aspiration pneumonitis and pneumonia** — particularly with reduced conscious state, and a reason to decompress an obstructed stomach.
+> **Dental erosion and parotid enlargement** — signs of chronic self-induced vomiting, and worth looking for. Cross-refer `TODO:link — N8 Eating & body image (unbuilt)`.
+> **Refeeding syndrome** — after prolonged poor intake, reintroduction of nutrition causes intracellular shifts of phosphate, potassium and magnesium with potentially fatal consequences. **Identify at-risk patients before feeding, replace electrolytes, and reintroduce nutrition slowly with monitoring.** `UNVERIFIED — risk criteria, replacement thresholds and the rate of caloric reintroduction.`
+
+**Ix:** **UEC with chloride, magnesium and phosphate** (*why:* identifies the alkalosis, the potassium and chloride deficit, and the refeeding risk; *what:* the electrolyte pattern). VBG (*why:* quantifies the alkalosis rapidly; *what:* raised pH and bicarbonate). Thiamine is **given, not measured** (*why:* the assay is slow, the treatment is safe, and the consequence of delay is irreversible; *what:* treat empirically). CXR (*why:* aspiration, and pneumomediastinum in oesophageal rupture; *what:* infiltrates, mediastinal air). CT chest with oral contrast where Boerhaave is suspected (*why:* the diagnostic test; *what:* extraluminal contrast, mediastinal air).
+
+### 0.7.1 Mx – Immediate
+**Thiamine before glucose.** Fluid resuscitation with sodium chloride and potassium replacement. Antiemetics. Protect the airway where conscious state is reduced.
+
+### 0.7.2 Mx – Definitive
+Treat the cause of the vomiting. Surgical management of oesophageal rupture.
+
+### 0.7.3 Mx – Chronic/long-term
+Nutritional rehabilitation with refeeding precautions. Dental review after chronic vomiting. Cross-refer `TODO:link — N8 Eating & body image (unbuilt)` where the vomiting is self-induced.
+
+
 
 
 
