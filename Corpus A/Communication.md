@@ -158,6 +158,32 @@ The relationship: the Advance Care Directive **informs** the goals-of-care docum
 
 > [!warning] Common errors: writing "not for escalation" without saying what the ceiling actually is; setting a ceiling on the basis of age alone; treating the decision as permanent when the patient's trajectory has changed; and — the most consequential — allowing a DNACPR order to silently become a ceiling on active treatment that nobody ever actually decided. Where the frail patient's overall picture is the reason for the discussion, see [[18_Geriatrics_and_Older_Persons_Health]] Frailty for the reserve assessment that should inform it.
 
+### 1.4.1 Advance care planning — the five parts §1.4 does not cover — from unverified layer
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+*Deliberately a delta, not a section. §1.4 above is **verified** against ACSQHC goals-of-care guidance and Advance Care Planning Australia, and §1.10's rule is that verified content wins and the unverified section is discarded. Tested claim by claim rather than at section level (rule 12), five claims proved absent from §1.4, from §1.3 and from [[Clinical-Process-EBM-Consent-Capacity]]. Only those five are here. The documents and how they differ, the escalation ladder, the not-for-CPR-is-not-not-for-treatment correction, the conversation checklist, the dispute mechanisms and substituted judgement are all above or in that file, and are not repeated.*
+
+> [!warning] An Enduring Power of Attorney does NOT cover medical decisions
+> **In South Australia it covers financial and property decisions only** — a person who has "done their paperwork" may have appointed nobody who can make a treatment decision for them. It is a common misunderstanding among patients and families, and the intern is often the one who has to correct it.
+> `UNVERIFIED — the SA instruments, their names and their legal effect, per the Advance Care Directives Act 2013 (SA). This is law, not clinical guidance, and it is deliberately not written from memory.`
+
+> [!danger] A directive nobody can find is useless
+> **The commonest practical failure is that the advance care directive exists and is in a drawer at home.** §1.4's last checkbox covers communicating the *goals-of-care plan*, which is written for this admission; this is about the *directive*, which outlives it.
+> **Ensure it is uploaded to My Health Record · given to the GP · given to the residential aged care facility · held by the substitute decision-maker · and its existence documented in the hospital record.**
+> **Review it periodically** — preferences change with circumstances, and a directive written a decade ago may not reflect current views.
+
+> [!tip] When to have the conversation — the five named triggers
+> **· At diagnosis of a progressive or life-limiting illness · at the mild cognitive impairment or early dementia stage, while capacity is unequivocal · after any significant hospitalisation · when the surprise question is answered "no" · at routine review in advanced age.**
+> **In dementia particularly the window closes**, and a conversation deferred is frequently a conversation never had.
+> Several of these already exist in the vault attached to their own disease — see [[04_Neurology]] Mild Cognitive Impairment (MCI) and [[10_11c_Oncology_-_Palliative_Care_Prescribing]] End-of-Life Care and Recognising Dying for the surprise question. **What does not exist is the list**: a reader who has not already met all five has no way to assemble them.
+
+> [!tip] The opening question to avoid
+> **Not: "Do you want us to do everything?"** — which is meaningless and frightening, and to which the only possible answer is yes.
+> §1.4 gives the positive form (explore the outcomes the person would find unacceptable rather than the treatments they want). What it does not name is the anti-pattern, or why it fails: **most people cannot meaningfully consent to or refuse "intubation" in the abstract, but they can say clearly whether they would accept a treatment that left them permanently unable to recognise their family or live at home.**
+
+> [!warning] A valid, applicable advance care directive is binding, and the family cannot override it
+> [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment establishes that such a refusal must be followed after capacity is lost. What it does not say is that **the family cannot set it aside** — which is the situation an intern actually meets.
+> **Conflict here usually reflects grief, guilt, unrealistic expectations or poor communication rather than genuine dispute**, so escalate to senior clinicians, involve palliative care, offer a second opinion and hold a formal family meeting before treating it as a legal one. The dispute mechanisms themselves are in that file and not repeated.
+
 ---
 
 ## 1.5 Motivational Interviewing and the Stages of Change
