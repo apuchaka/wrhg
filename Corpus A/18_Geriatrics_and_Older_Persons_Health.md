@@ -703,9 +703,37 @@ Referral to My Aged Care for assessment, with allied health input and equipment 
 Review as needs change. **Support the carer explicitly — ask how they are, and offer respite before they are in crisis**, because carer breakdown is a leading reason for unplanned residential placement.
 
 
-## Added from unverified layer — two things done on admission
-`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.2` `SRC:GER2 §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+### Immobility, Deconditioning and Hospital-Associated Decline — from unverified layer
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.4` `UNVERIFIED — model knowledge, not source-checked.`
 
-- **Pressure injury risk is scored, not eyeballed.** The **Waterlow** and **Braden** scales are the instruments in use; the staging and the repositioning regimen are covered elsewhere in this file, but neither happens unless someone scores the risk on admission and it drives a plan. `UNVERIFIED — which scale is used in your health network, and its action thresholds.`
-- **Delirium prevention is a bundle, and it is more effective than treatment.** Reorientation, sleep protection, early mobilisation, hearing and visual aids in place, hydration, and avoiding precipitant drugs — delivered together, from admission, to every at-risk patient rather than started after delirium appears. See [[04_Neurology]] §Delirium for the syndrome itself, which this does not repeat. `UNVERIFIED — whether an Australian bundle is specified by name, and its components; NSW ACI or your health network.`
+> [!danger] Deconditioning in hospital is iatrogenic and it is fast
+> **Measurable muscle loss occurs within days of bed rest**, and it is disproportionately severe in older people who have little reserve. A patient admitted walking independently can be discharged unable to transfer, having received entirely correct treatment for the condition they came in with.
+> **A substantial proportion of older people never regain their pre-admission functional level.**
+
+> [!warning] The consequences of immobility
+> **Falls · pressure injury · venous thromboembolism · pneumonia and atelectasis · constipation · urinary retention and infection · delirium · insulin resistance · bone loss · and functional decline leading to residential placement.**
+
+> [!tip] The "tethers" — remove them
+> **Intravenous lines, urinary catheters, oxygen tubing, telemetry leads, drains, and infusion pumps all physically prevent a patient from getting out of bed.**
+> **On every ward round, ask of each attachment: is this still needed today?** Removing an unnecessary catheter or converting IV to oral medication is a mobility intervention, not just a tidying exercise.
+
+> [!tip] What helps
+> **· Mobilise from day one**, with physiotherapy involvement early rather than at discharge planning.
+> **· Get the patient dressed in their own clothes and sitting out of bed for meals.**
+> **· Sensory aids in place** — glasses and hearing aids, without which orientation, engagement and safety all deteriorate.
+> **· Avoid unnecessary bed rest orders**, which are often written reflexively and never rescinded.
+> **· Delirium prevention, which is a BUNDLE and is more effective than treatment.** Reorientation, sleep protection, early mobilisation, hearing and visual aids in place, hydration, and avoiding precipitant drugs — delivered together, from admission, to every at-risk patient rather than started after delirium appears. Inseparable from mobility. See [[04_Neurology]] Delirium for the syndrome itself, which this does not repeat. `UNVERIFIED — whether an Australian bundle is specified by name, and its components; NSW ACI or your health network.`
+> **· Early involvement of allied health and early discharge planning.**
+
+**Ix:** **Baseline functional status from collateral history** (*why:* you cannot detect decline without knowing the starting point, and "independent at home" needs unpacking; *what:* pre-admission mobility and ADL function). Physiotherapy and occupational therapy assessment (*why:* objective measurement and a rehabilitation plan; *what:* mobility, transfers, equipment needs). Daily review of attachments and mobility status (*why:* mobility deteriorates silently unless it is actively tracked; *what:* what the patient did today).
+
+#### Mx – Immediate — GER2 §0.4.1
+Mobilise. Remove unnecessary tethers.
+
+#### Mx – Definitive — GER2 §0.4.2
+Rehabilitation — inpatient, transition care, or community — matched to need.
+
+#### Mx – Chronic/long-term — GER2 §0.4.3
+Ongoing exercise, equipment, home supports, and **realistic goal-setting with the patient and family.**
+
 
