@@ -1380,6 +1380,50 @@ Endoscopy (*why:* the definitive diagnostic and therapeutic test — identifies 
 - **Endoscopic haemostasis is dual-modality** — adrenaline injection alone is inferior, and is combined with a second method (clipping or thermal therapy), which §0.33.3 lists without saying they are used together rather than as alternatives.
 - **Rebleeding is managed by repeat endoscopy first**, then angiographic embolisation, with surgery reserved for failure of both — the sequence, which §0.33.3 implies but does not order.
 
+### 0.33.5 Gastrointestinal Bleeding — Framework and Resuscitation — from unverified layer
+`SRC:C4_Gastrointestinal_Bleeding §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Bleeding into the gastrointestinal lumen, classified as **upper** (proximal to the ligament of Treitz), **small bowel (mid-gut)**, or **lower** (colonic and anorectal).
+
+> [!tip] What the blood looks like, and what it tells you
+> **Haematemesis** — vomiting fresh red blood. Upper GI, and usually brisk.
+> **"Coffee grounds"** — blood altered by gastric acid. Upper GI, usually slower or stopped. **A frequently over-called finding**; a single small coffee-ground vomit in a well patient is often not significant bleeding at all.
+> **Melaena** — black, tarry, offensive, sticky stool. Requires haemoglobin to be degraded by gut bacteria over time, so it implies **a proximal source and a period of transit.** Usually upper GI, occasionally small bowel or right colon.
+> **Haematochezia** — fresh or dark red blood per rectum. Usually a lower source — **but see the danger below.**
+
+> [!danger] Fresh red blood per rectum in a shocked patient is an upper GI bleed until proven otherwise
+> **A massive upper gastrointestinal haemorrhage transits so rapidly that the blood has no time to be degraded, and presents as haematochezia.** These are the sickest bleeders, and treating them as a colonic bleed loses time.
+> **If a patient with rectal bleeding is haemodynamically unstable, look upward first.** Upper endoscopy precedes colonoscopy in that situation.
+
+> [!tip] Melaena and the urea
+> **A raised urea with a normal or near-normal creatinine supports an upper GI source** — the blood protein load is digested and absorbed in the small bowel, raising the urea, while renal function is unaffected. Hypovolaemia contributes as well. It is a useful supportive finding, not diagnostic.
+> **Black stool is not always melaena** — **iron supplements and bismuth** produce black stool that is not tarry, not offensive, and not associated with anaemia. Ask about them before mobilising a team.
+
+> [!danger] The first haemoglobin is not a measure of blood loss
+> Acute haemorrhage removes whole blood, so the concentration is unchanged until dilution occurs over hours or with fluid resuscitation. **A normal haemoglobin in an actively bleeding patient is expected, not reassuring.** Cross-refer [[10_08_Haemonc_-_Blood_Products_and_Transfusion]] Massive Transfusion Protocol (MTP).
+> Use **heart rate, blood pressure including postural change, mental state, capillary refill, urine output and lactate**, and **serial** haemoglobin.
+
+> [!warning] Restrictive transfusion, not liberal
+> **A restrictive transfusion strategy improves outcomes in acute upper GI bleeding compared with liberal transfusion**, and this is particularly true in variceal bleeding, where over-transfusion **raises portal pressure and precipitates rebleeding.**
+> The exceptions are massive exsanguinating haemorrhage and significant cardiovascular comorbidity. `UNVERIFIED — haemoglobin transfusion thresholds for variceal and non-variceal bleeding require verification against the National Blood Authority Patient Blood Management guidelines.`
+
+> [!info] Risk stratification
+> The **Glasgow-Blatchford score** is calculated before endoscopy and identifies **very low-risk patients who may safely avoid admission** — its main value is in safely discharging people rather than in predicting death. The **Rockall score** predicts mortality and rebleeding, with pre- and post-endoscopy versions. `UNVERIFIED — components and thresholds.`
+
+**S/Smx:** Haematemesis, melaena, haematochezia, dizziness, syncope, dyspnoea, angina. Ask about NSAIDs, aspirin, anticoagulants, alcohol, previous ulcer or bleeding, known liver disease, previous aortic surgery, weight loss and change in bowel habit.
+
+**Ix:** **FBC with serial haemoglobin** (*why:* trend rather than a single value; *what:* falling haemoglobin, platelet count). **Group and crossmatch** early (*why:* the delay in transfusion is the crossmatch, not the decision; *what:* units available). **UEC** (*why:* the raised urea:creatinine pattern supports an upper source, and renal function guides drug dosing; *what:* disproportionately raised urea). LFT and INR (*why:* identifies underlying liver disease, which changes the likely source and the entire management; *what:* synthetic function, coagulopathy). VBG with lactate (*why:* quantifies hypoperfusion when the blood pressure is still compensated; *what:* raised lactate). ECG and troponin in an older patient (*why:* **demand ischaemia from anaemia and hypotension is common, and a GI bleed can precipitate a myocardial infarction**; *what:* ischaemic change). **Anticoagulant and antiplatelet history with time of last dose** (*why:* determines reversal decisions — cross-refer [[10_08_Haemonc_-_Blood_Products_and_Transfusion]] 0.4; *what:* agent, timing, renal function). **Upper endoscopy** (*why:* diagnostic and therapeutic in one procedure, identifying the source and permitting haemostasis; *what:* ulcer with stigmata, varices, tumour, Mallory-Weiss tear).
+
+#### 0.33.5.1 Mx – Immediate
+A–E. **Two large-bore cannulae.** Bloods including crossmatch. Restrictive transfusion. **Protect the airway in massive haematemesis or in a patient with encephalopathy** — aspiration is a major cause of death in this group. Reverse anticoagulation where the bleeding is significant. Nil by mouth. Involve gastroenterology and, where relevant, surgery and interventional radiology early.
+
+#### 0.33.5.2 Mx – Definitive
+Endoscopic haemostasis, embolisation, or surgery, as per the source.
+
+#### 0.33.5.3 Mx – Chronic/long-term
+**Review the drug that caused it** — NSAIDs, aspirin, anticoagulants — and make an explicit, documented decision about restarting, with a named responsible clinician.
+
+
 
 ## 0.34 Lower GI Bleed (LGIB)
 
