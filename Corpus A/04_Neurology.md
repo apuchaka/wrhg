@@ -1240,28 +1240,44 @@ Cause-specific. ICU where the airway cannot be protected or the cause requires i
 Rehabilitation, and investigation of the underlying condition.
 
 
-### Added from unverified layer — structural versus metabolic, and two transient amnesias
-`SRC:D2_Altered_Consciousness_and_Cognition §0.1` `SRC:D2_Altered_Consciousness_and_Cognition §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+### Amnesia and Memory Impairment — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former structural-versus-metabolic and transient-amnesias fragment, inheriting its cross-references; the structural/metabolic half of that fragment is carried by §0.1 above.*
 
-> [!tip] Structural versus metabolic — the pattern that separates them
-> The GCS above records **how impaired** consciousness is. This is the question of **why**, and it splits before any investigation returns.
-> **Structural** — **focal** and **asymmetrical**. A lateralising motor deficit, asymmetric pupils, gaze deviation, or a progressive deterioration following an anatomical sequence. Imaging is urgent.
-> **Metabolic and toxic** — **symmetrical**, with **pupils preserved and reactive** (the striking exception being opioids, which constrict them), often with tremor, myoclonus or asterixis, and a level of consciousness that **fluctuates** rather than marching downward.
-> **Preserved, symmetrical, reactive pupils in a deeply unconscious patient point away from a structural cause** — which is the single most useful bedside observation in this assessment.
-
-> [!warning] Transient global amnesia
-> **Abrupt, isolated anterograde amnesia lasting hours and resolving completely**, in a patient who is otherwise alert, oriented to self, and neurologically normal. The characteristic feature is **repetitive questioning** — asking the same question every few minutes, with no recollection of the answer.
-> There is **no focal deficit and no alteration of consciousness**; if either is present this is not the diagnosis. Recovery is complete, and recurrence is uncommon.
-> `UNVERIFIED — the diagnostic criteria, the recurrence rate, and what imaging is warranted before accepting the diagnosis; RACGP or a neurology reference.`
+> [!tip] Transient global amnesia
+> **Sudden onset of dense ANTEROGRADE amnesia lasting less than 24 hours**, with **repetitive questioning** ("how did I get here?" asked over and over), **preserved personal identity, preserved consciousness, no focal neurological signs, and no other cognitive deficit.**
+> Often triggered by physical exertion, emotional stress, sexual intercourse, cold water immersion or a Valsalva manoeuvre. Typically middle-aged or older.
+> **It is benign and does not recur in most people**, but it is **a diagnosis of exclusion** — seizure, TIA and stroke must be considered, particularly if there are focal signs, if it lasts beyond 24 hours, if consciousness was impaired, or if it recurs.
 
 > [!warning] Transient epileptic amnesia
-> **Brief, recurrent amnestic episodes**, often on waking, in an older patient — and, unlike transient global amnesia, **they repeat**. It is a temporal lobe epilepsy presenting as memory loss rather than as a recognisable seizure, and it is **treatable**, which is why the distinction matters.
-> **Recurrent amnestic episodes should prompt an EEG rather than reassurance.** See §Seizures and Epilepsy below and §Focal Seizures.
-> `UNVERIFIED — diagnostic criteria and the yield of EEG in this setting; neurology guidance.`
+> **Brief, RECURRENT episodes of amnesia, often on waking**, in an older patient, sometimes with olfactory or gustatory phenomena, and frequently with interictal memory complaints out of proportion to the episodes.
+> **Recurrence is the discriminator from TGA**, and it matters because it responds to antiepileptic treatment. It is under-diagnosed. **Recurrent amnestic episodes should prompt an EEG rather than reassurance** — see §Seizures and Epilepsy and §Focal Seizures below.
 
-> [!note] Not repeated here
-> **Wernicke-Korsakoff** is the other major cause of an amnestic presentation and is covered in §Serotonin Syndrome and NMS above, in `03_Gastrointestinal` §0.6.1, and in `14a-1_Psych_-_Substance_Misuse`. **`TGA` in this vault usually means transposition of the great arteries, and sometimes the Therapeutic Goods Administration** — the abbreviation is deliberately not used above.
+> [!danger] Wernicke-Korsakoff
+> **Wernicke encephalopathy** — confusion, ophthalmoplegia and ataxia, though **the complete triad is present in a minority.** Treat on suspicion with parenteral thiamine.
+> **Korsakoff syndrome** — the chronic consequence: **profound anterograde and variable retrograde amnesia with confabulation and preserved other cognitive function.** Largely irreversible.
+> **Give thiamine before glucose** in anyone at risk — alcohol dependence, malnutrition, hyperemesis, bariatric surgery, prolonged vomiting. Cross-refer [[03_Gastrointestinal]] §0.6 Alcohol-Related Liver Disease (ArLD).
 
+> [!tip] The rest of the differential
+> **Head injury** — **the duration of post-traumatic amnesia is one of the better predictors of outcome**, so document it. Cross-refer [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure.
+> **Hippocampal pathology** — **HSV encephalitis** (temporal lobes), **autoimmune limbic encephalitis** (LGI1, NMDA receptor), hypoxic-ischaemic injury, and posterior cerebral artery infarction.
+> **Drugs** — **benzodiazepines cause dense anterograde amnesia**, anticholinergics, and **alcohol "blackouts", which are episodes of anterograde amnesia during intoxication with preserved behaviour at the time.**
+> **Dissociative (psychogenic) amnesia** — **the discriminating feature is loss of personal identity.** Organic amnesia essentially always preserves the sense of who you are; a patient who cannot remember their own name and identity, particularly after psychological trauma, is far more likely dissociative. **This distinction is high-yield and clinically useful.** Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
+
+**Ix:** **CT or MRI brain** (*why:* excludes stroke, haemorrhage, tumour and encephalitis — **MRI with diffusion imaging shows small hippocampal lesions in TGA and is superior for temporal lobe pathology**; *what:* structural or signal abnormality). **EEG** (*why:* diagnoses transient epileptic amnesia and non-convulsive seizures; *what:* epileptiform activity). Bedside glucose (*why:* hypoglycaemia causes transient amnesia; *what:* low glucose). B12, thiamine status, TFTs (*why:* nutritional and endocrine causes; *what:* deficiency). Toxicology and medication review (*why:* benzodiazepines and alcohol; *what:* culprit). CSF and autoimmune encephalitis antibodies where subacute and progressive (*why:* treatable autoimmune limbic encephalitis; *what:* antibodies). **Neuropsychological testing** (*why:* characterises the pattern of memory impairment and distinguishes organic from functional; *what:* domain profile).
+
+#### Mx – Immediate — D2 §0.5.1
+Glucose, thiamine, and exclusion of stroke, seizure and encephalitis.
+
+#### Mx – Definitive — D2 §0.5.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D2 §0.5.3
+**Driving advice** after TGA and after any amnestic episode — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions). Alcohol support. Cognitive rehabilitation.
+
+> [!note] Not repeated here, and one abbreviation warning
+> **Wernicke-Korsakoff** is also covered in §Serotonin Syndrome and Neuroleptic Malignant Syndrome (NMS) above, in [[03_Gastrointestinal]] §0.6.1 Alcohol withdrawal, and in [[14a-1_Psych_-_Substance_Misuse__Recreational_Drug_Profiles_]]. The AU-verified thiamine dosing is owned by [[03_Gastrointestinal]] §0.6 Alcohol-Related Liver Disease (ArLD) and is deliberately not restated here.
+> **`TGA` in this vault usually means transposition of the great arteries, and sometimes the Therapeutic Goods Administration.** The section above uses it for transient global amnesia — read the abbreviation from its context, and do not search on it.
 
 ## Seizures and Epilepsy
 
