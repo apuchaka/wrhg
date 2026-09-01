@@ -1958,21 +1958,46 @@ Blood pressure control, which is the principal preventive measure. Rehabilitatio
 **Ix:** As per 0.1. **MRI is superior for posterior fossa and small infarcts**, and a normal CT does not exclude a posterior circulation stroke.
 
 
-### Added from unverified layer — stroke chameleons, and two things to examine for
-`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.5` `SRC:D3 §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+### The Paresis Patterns — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former stroke-chameleons and two-things-to-examine-for fragment, inheriting its cross-references; the chameleons half of that fragment is carried by §Stroke Mimics and Stroke Chameleons above.*
 
-> [!danger] Chameleons — strokes that do not look like strokes
-> Stroke **mimics** are covered above and in §Weakness — Differential Diagnosis. The opposite error is less discussed and more costly, because the patient goes home.
-> - **Isolated vertigo.** A posterior circulation stroke presenting as "dizziness" is the most consequential missed stroke, because these patients are discharged with a vestibular label. The **HINTS examination** (§Vertigo below, and [[Examination]]) distinguishes central from peripheral and is **more sensitive than early MRI** — early diffusion-weighted imaging misses a meaningful proportion of posterior circulation infarcts.
-> - **Acute confusion or delirium**, particularly with **non-dominant hemisphere or thalamic** strokes. §Delirium above lists stroke among the precipitants; the point here is that the stroke may produce *no other sign at all*.
-> - **Isolated dysarthria, or isolated monoparesis** — a single deficit is still a deficit.
+> [!tip] The pattern of weakness localises the lesion
+> **Hemiparesis** — contralateral cerebral hemisphere or internal capsule; or brainstem, **in which case look for crossed signs**; or, rarely, spinal cord (Brown-Séquard, with ipsilateral weakness and proprioceptive loss below the lesion and contralateral pain and temperature loss).
+> **Monoparesis** — a small cortical lesion (particularly a parasagittal one affecting the leg), or a **root, plexus or peripheral nerve** lesion. **The distinction is upper motor neurone versus lower motor neurone signs**: increased tone and brisk reflexes with an upgoing plantar (UMN) versus wasting, fasciculation, reduced tone and absent reflexes (LMN).
+> **Paraparesis** — **spinal cord until proven otherwise. See the danger box.**
+> **Quadriparesis** — high cervical cord, brainstem (including **locked-in syndrome** from ventral pontine infarction, where the patient is fully conscious with only vertical eye movement preserved — and is repeatedly assumed to be unconscious), Guillain–Barré syndrome, myasthenic crisis, periodic paralysis, or critical illness neuromyopathy.
 
-> [!warning] Locked-in syndrome
-> **Ventral pontine infarction.** The patient is **fully conscious and aware**, with **only vertical eye movement and blinking preserved**, and is **repeatedly assumed to be unconscious**.
-> This is the reason to test **vertical gaze and blinking to command** in any apparently unresponsive patient before concluding that consciousness is absent — the GCS at §Glasgow Coma Scale scores what the patient can *demonstrate*, which in this syndrome is almost nothing.
+> [!danger] Paraparesis is spinal cord compression until proven otherwise
+> **Bilateral leg weakness with a sensory level, back pain, or bladder or bowel disturbance is a neurosurgical and oncological emergency.**
+> **Metastatic spinal cord compression** — a known malignancy, progressive back pain worse at night or on lying, then weakness and sensory change, then sphincter involvement. **Once the sphincters are involved, recovery is unlikely — so the window is before that point.**
+> **Urgent whole-spine MRI and immediate high-dose corticosteroids**, with oncology and neurosurgical involvement. **Do not wait for morning.**
+> **Cauda equina syndrome** — below the conus, so **lower motor neurone signs**, with **saddle anaesthesia, urinary retention with overflow, reduced anal tone, and bilateral radicular pain.** **Urinary retention is the key finding — check a post-void residual.** Also a surgical emergency.
+> Cross-refer `TODO:link — L4 Back & neck pain (unbuilt)`.
 
-- **Pronator drift** — with the arms outstretched, palms up, eyes closed, a subtly weak arm **pronates and drifts downward**. It detects a pyramidal weakness too mild to show on formal power testing, and costs seconds. See [[Examination]] for the neurological examination sequence it belongs to.
+> [!tip] The non-compressive causes of paraparesis
+> **Transverse myelitis** — subacute, with a sensory level; consider multiple sclerosis, neuromyelitis optica, infection and autoimmune causes.
+> **Anterior spinal artery infarction** — sudden, with motor and spinothalamic loss but **preserved dorsal column function (proprioception and vibration)**, which is a distinctive and diagnostic dissociation.
+> **Guillain–Barré syndrome** — **ascending, symmetrical, AREFLEXIC weakness** following an infection, with respiratory involvement. **Monitor forced vital capacity, not oxygen saturation.** Cross-refer [[04_Neurology]] Guillain-Barré Syndrome (GBS).
+> **Subacute combined degeneration from B12 deficiency** — dorsal columns and corticospinal tracts, with the unusual combination of **absent ankle reflexes but upgoing plantars.**
 
+**Ix:** **Urgent MRI of the whole spine where cord compression or cauda equina is suspected** (*why:* the only test that identifies the level and cause, and delay costs function permanently; *what:* compression, level, cause). Post-void bladder scan (*why:* retention supports cauda equina and is objective; *what:* residual volume). CT brain and MRI where a cerebral cause is likely (*why:* stroke, tumour, demyelination; *what:* lesion). Serial FVC in ascending weakness (*why:* impending respiratory failure; *what:* declining FVC). B12, folate, TFTs, HIV, syphilis serology (*why:* treatable myelopathies; *what:* deficiency, infection). Lumbar puncture where inflammatory or infective myelopathy is suspected (*why:* CSF findings and oligoclonal bands; *what:* cells, protein, bands). Nerve conduction studies and EMG (*why:* distinguishes neuropathy, neuromuscular junction and myopathy; *what:* conduction block, decrement, denervation).
+
+#### Mx – Immediate — D3 §0.6.1
+**Corticosteroids and urgent imaging for suspected metastatic cord compression.** Urgent surgical referral for cauda equina. Respiratory monitoring in ascending weakness.
+
+#### Mx – Definitive — D3 §0.6.2
+Decompression, radiotherapy, immunotherapy or plasma exchange as indicated.
+
+#### Mx – Chronic/long-term — D3 §0.6.3
+Rehabilitation, bladder and bowel management, pressure area care, spasticity management, and psychological support.
+
+> [!tip] Two bedside things the fragment this block supersedes was written to add
+> **Pronator drift** — with the arms outstretched, palms up and eyes closed, a subtly weak arm **pronates and drifts downward.** It detects a pyramidal weakness too mild to show on formal power testing, and costs seconds. See [[Examination]] for the neurological examination sequence it belongs to.
+> **Vertical gaze and blinking to command**, in any apparently unresponsive patient, before concluding consciousness is absent — because of **locked-in syndrome** above. The GCS at §Glasgow Coma Scale scores what the patient can *demonstrate*, which in this syndrome is almost nothing.
+
+> [!note] Where the neighbouring material lives
+> Stroke **mimics** — §Stroke Mimics and Stroke Chameleons above and §Weakness — Differential Diagnosis below. **HINTS** for the isolated-vertigo chameleon — §Vertigo below and [[Examination]]. **Delirium as a stroke chameleon** — §Delirium above already lists stroke among the precipitants; the point the chameleon block adds is that the stroke may produce no other sign at all.
 
 ## Brain Bleeds
 
