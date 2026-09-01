@@ -209,6 +209,43 @@ Interdisciplinary team management — medical, nursing, physiotherapy, occupatio
 #### Mx – Chronic/long-term — GER1 §0.1.3
 Coordinated follow-up with the GP, community supports, and a documented plan. **Advance care planning** — cross-refer [[Clinical-Process-EBM-Consent-Capacity]] Right to refuse treatment.
 
+### Frailty — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A state of **increased vulnerability to stressors**, resulting from cumulative decline across multiple physiological systems, such that a minor insult produces a disproportionate and often lasting deterioration.
+
+> [!tip] Frailty is not the same as age, comorbidity or disability
+> They overlap but are distinct. **A 90-year-old may be robust; a 65-year-old with multiple conditions may be severely frail.**
+> **Frailty predicts outcomes better than age or diagnosis**, which is why it has become central to decision-making about surgery, chemotherapy, intensive care, dialysis, anticoagulation and screening.
+
+> [!info] The two models
+> **Phenotype model (Fried)** — frailty as a syndrome defined by **unintentional weight loss, self-reported exhaustion, weakness (grip strength), slow gait speed, and low physical activity.** Meeting a threshold number of criteria defines frailty, with an intermediate "pre-frail" state.
+> **Deficit accumulation model** — frailty as the proportion of accumulated deficits across many domains. Operationalised most usefully as the **Clinical Frailty Scale**, a nine-point judgement-based scale developed at **Dalhousie University**, running from very fit through to terminally ill.
+> **The Clinical Frailty Scale is widely used in Australian hospitals**, including for intensive care triage and perioperative decision-making, and **it is scored on the patient's baseline two weeks before the acute illness, not on how they look in the bed today.** Scoring an acutely delirious pneumonia patient as severely frail because they cannot currently mobilise is a common and consequential error. `UNVERIFIED — the scale descriptors and scoring rules.`
+
+> [!warning] Sarcopenia
+> **Loss of skeletal muscle mass, strength and function** — the physical substrate of much of frailty.
+> Driven by ageing, inactivity, inadequate protein intake, inflammation and illness. **Hospitalisation accelerates it dramatically — bed rest causes measurable muscle loss within days**, which is the argument for early mobilisation.
+> **The intervention with the best evidence is resistance exercise combined with adequate protein intake.** Both are under-prescribed, and older people are frequently advised to rest when they should be moving.
+
+> [!danger] Frailty is partly reversible — treat it as modifiable, not as a verdict
+> **Interventions with evidence: resistance and balance exercise · adequate protein and energy intake · deprescribing · correction of vision and hearing · treatment of depression · social engagement · management of pain.**
+> **Using a frailty score purely to withhold treatment is a misuse of the concept.** It is intended to individualise decisions and to identify people who need *more* support, not to ration by proxy. Where it does justify a different approach — avoiding a burdensome intervention unlikely to benefit — that should be an explicit shared decision, not an unspoken one.
+
+**S/Smx:** Fatigue, weight loss, slow gait, weakness, reduced activity, falls, delirium with minor illness, and prolonged recovery from stressors.
+
+**Ix:** **Clinical Frailty Scale or an equivalent, scored at baseline** (*why:* it predicts outcome and guides decisions across specialties; *what:* frailty grade). **Gait speed and grip strength** (*why:* simple, objective, and among the best single predictors of adverse outcomes; *what:* slow gait, weak grip). **Timed Up and Go** (*why:* combines strength, balance and gait in one repeatable measure; *what:* prolonged time). Nutritional screening and weight trajectory (*why:* malnutrition and sarcopenia are common and treatable; *what:* weight loss, poor intake). FBC, albumin, vitamin D, B12, TFTs (*why:* correctable contributors; *what:* anaemia, deficiency). Assessment for depression (*why:* it mimics and worsens frailty and is treatable; *what:* depressive symptoms).
+
+#### Mx – Immediate — GER1 §0.2.1
+Recognise it, and adjust the acute plan — lower thresholds for delirium prevention, earlier mobilisation, more cautious prescribing.
+
+#### Mx – Definitive — GER1 §0.2.2
+Multicomponent intervention: exercise, nutrition, deprescribing, sensory correction, treatment of contributing conditions.
+
+#### Mx – Chronic/long-term — GER1 §0.2.3
+Ongoing exercise programs, community supports, and **use of the frailty assessment to inform advance care planning and to guide goals-of-care conversations** — cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+
 
 ## Polypharmacy and Deprescribing
 
