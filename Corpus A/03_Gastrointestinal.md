@@ -2115,6 +2115,43 @@ Cause-specific.
 ### 0.2.3 Mx – Chronic/long-term
 Oral rehydration education. Review of any drug identified as the cause.
 
+### 0.41.18 Chronic and Refractory Nausea and Vomiting — from unverified layer
+`SRC:C2_Nausea_and_Vomiting §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Gastroparesis
+> Delayed gastric emptying without mechanical obstruction. **Early satiety, postprandial fullness, bloating, nausea and vomiting of food eaten hours earlier.**
+> Causes: **diabetes** (long-standing, with other autonomic and microvascular complications), post-surgical (particularly vagal injury), medications (**opioids, anticholinergics, GLP-1 receptor agonists**), connective tissue disease, and idiopathic — often post-viral.
+> **Mechanical obstruction must be excluded before the diagnosis is made**, which means endoscopy or imaging first. Confirmed by a gastric emptying study.
+> Management: small frequent low-fat, low-fibre meals; **optimise glycaemic control**, since hyperglycaemia itself slows emptying, creating a vicious cycle; prokinetics; and review of contributing drugs. `UNVERIFIED — prokinetic agents, their duration limits and their adverse effect profiles.`
+
+> [!danger] Cannabinoid hyperemesis syndrome
+> **Cyclical severe vomiting in a chronic heavy cannabis user, with the pathognomonic feature of compulsive hot bathing or showering** — patients will describe spending hours in a hot shower because it is the only thing that relieves the nausea, and they frequently do not volunteer this unless asked directly.
+> **Ask every patient with unexplained cyclical vomiting about cannabis use and about hot showers.** It is a common cause of repeated emergency presentations, extensive negative investigation and repeated admissions.
+> **The only definitive treatment is cannabis cessation**, and symptoms recur if use resumes. Conventional antiemetics work poorly; topical capsaicin and benzodiazepines are used acutely. `UNVERIFIED — acute management options.`
+
+> [!tip] The rest of the chronic differential
+> **Cyclical vomiting syndrome** — stereotyped episodes with well periods between, often with a personal or family history of migraine, and frequently beginning in childhood.
+> **Functional dyspepsia and functional nausea** — diagnosed positively by criteria, with normal investigation.
+> **Malignancy** — gastric, pancreatic, ovarian, and any cause of gastric outlet obstruction or peritoneal disease.
+> **Raised intracranial pressure** from a slowly growing lesion.
+> **Chronic mesenteric ischaemia** — postprandial pain, food fear and weight loss in a vasculopath.
+> **Medication** — the drug list is the first thing to review, particularly opioids, GLP-1 agonists, SSRIs and chemotherapy.
+> **Adrenal insufficiency** — chronic nausea, weight loss, fatigue and hyponatraemia, and it is frequently missed for months.
+> **Eating disorders** — self-induced vomiting, which the patient may not disclose. Cross-refer `TODO:link — N8 Eating & body image (unbuilt)`.
+> **Rumination syndrome** — see 0.1.
+
+**Ix:** **Gastroscopy** (*why:* excludes mechanical obstruction, ulceration and malignancy, which must be done before a functional or motility diagnosis; *what:* obstruction, ulcer, tumour). Gastric emptying study (*why:* confirms gastroparesis objectively, since symptoms correlate poorly with emptying; *what:* delayed emptying). **CT abdomen** (*why:* extrinsic compression, malignancy, mesenteric vascular disease; *what:* mass, obstruction). **CT or MRI brain where the pattern suggests raised intracranial pressure** (*why:* a slowly growing posterior fossa lesion can present as chronic unexplained vomiting; *what:* mass, hydrocephalus). UEC, calcium, glucose, HbA1c (*why:* metabolic causes and diabetic control as a driver of gastroparesis; *what:* derangement, glycaemic control). **Morning cortisol or short synacthen test** (*why:* adrenal insufficiency causes chronic nausea and is easily missed; *what:* low cortisol). TFTs (*why:* thyroid disease in both directions; *what:* abnormal TSH). **Direct enquiry about cannabis use and hot showers** (*why:* it makes the diagnosis of cannabinoid hyperemesis, and no test will; *what:* the history). Full medication review (*why:* drugs are among the commonest causes and are reversible; *what:* culprit agent).
+
+### 0.4.1 Mx – Immediate
+Rehydration and electrolyte correction. Antiemetic matched to mechanism.
+
+### 0.4.2 Mx – Definitive
+Cause-specific. Cannabis cessation. Glycaemic optimisation and dietary modification for gastroparesis. Drug withdrawal where iatrogenic.
+
+### 0.4.3 Mx – Chronic/long-term
+Dietitian involvement for gastroparesis and for weight loss. Psychological support where symptoms are chronic and functional — this is not a dismissal but a legitimate and effective component of management. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
+
+
 
 
 
