@@ -1638,21 +1638,49 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 - **Ix:** clinical diagnosis; HINTS exam (Head Impulse, Nystagmus, Test of Skew) used by specialists to help distinguish from a central (posterior circulation stroke) cause in acute vestibular syndrome, given the two can otherwise look similar and the consequences of missing a stroke are severe.
 - **Mx:** vestibular sedatives (e.g. prochlorperazine, betahistine) for short-term symptomatic relief in the acute phase only (prolonged use can impair central vestibular compensation and delay recovery); vestibular rehabilitation exercises to promote compensation once the acute phase settles; corticosteroids sometimes used though evidence is mixed.
 
-#### Added from unverified layer — persistent postural-perceptual dizziness (PPPD)
-`SRC:D5_Dizziness__Vertigo_and_Gait §0.4` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+### Disequilibrium and Chronic Dizziness — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former PPPD fragment. Its NO-BASELINE and UNVERIFIED markers are carried onto the PPPD callout specifically, where they remain true — NOT onto this block, which is broader than PPPD and does have inherited-layer content behind it.*
 
-**Chronic non-vertiginous dizziness and unsteadiness lasting months**, characteristically **worse when upright, worse with movement, and worse in visually complex environments** — supermarket aisles, crowds, scrolling on a phone, patterned carpets.
+**D:** A sense of unsteadiness or imbalance **without** the illusion of movement, felt in the body rather than the head, and typically present only when standing or walking.
 
-**It commonly follows an acute vestibular event** — vestibular neuritis, BPPV, a vestibular migraine attack, or even a panic attack — and represents a **maladaptive persistence of the acute compensatory strategy**. That is the link to the compensation point above: the same central adaptation that resolves vestibular neuritis becomes the problem when it does not switch off.
+> [!tip] Balance requires three inputs — and disequilibrium usually means more than one has failed
+> **Vision · vestibular input · proprioception**, integrated by the cerebellum and executed by an intact motor system.
+> **Losing one is usually compensated; losing two produces symptoms.** This is why the elderly patient with cataracts, a peripheral neuropathy and age-related vestibular loss is unsteady while a younger person with any one of those is not — and why **correcting any single one can restore function.**
 
-**It is a positive diagnosis, not "nothing wrong".** It responds to **vestibular rehabilitation, an SSRI or SNRI, and cognitive behavioural therapy**. Naming it is itself therapeutic — these patients have usually had extensive negative investigation and been told there is no cause.
+> [!tip] Contributors to look for, all of which are at least partly modifiable
+> **· Peripheral neuropathy** — proprioceptive loss, worse in the dark. Cross-refer [[04_Neurology]] Peripheral Neuropathy.
+> **· Visual impairment** — cataracts, macular degeneration, and **new multifocal or bifocal glasses**, which distort the lower visual field and are a genuine cause of falls.
+> **· Vestibular hypofunction** — including **bilateral vestibulopathy**, classically from **gentamicin ototoxicity**, producing **oscillopsia (the visual world bouncing with head movement) and marked worsening in the dark or on uneven ground.**
+> **· Cerebellar disease** — alcohol, degeneration, stroke, paraneoplastic, drugs (phenytoin, lithium).
+> **· Parkinsonism** — postural instability. Cross-refer [[04_Neurology]] Movement Disorders.
+> **· Cervical myelopathy** — spastic gait with sensory disturbance. Cross-refer [[04_Neurology]] The Paresis Patterns.
+> **· Medications** — sedatives, antihypertensives, anticholinergics, antiepileptics, and polypharmacy generally.
+> **· Musculoskeletal** — weakness, arthritis, deconditioning.
+> **· Fear of falling**, which reduces activity, causes deconditioning, and worsens balance further.
 
-`UNVERIFIED — the diagnostic criteria (duration threshold and required features), and which antidepressant class is first-line in Australian practice; RACGP, or a neurology or vestibular medicine reference.`
+> [!warning] Romberg tests proprioception, not the cerebellum
+> **A positive Romberg — steady with eyes open, unsteady with eyes closed — indicates a PROPRIOCEPTIVE (dorsal column or large fibre neuropathy) deficit**, because vision was compensating.
+> **A cerebellar patient is unsteady with the eyes OPEN**, and closing them makes little additional difference. Calling that a "positive Romberg" is a common error and points the workup in the wrong direction.
 
+> [!tip] Persistent postural-perceptual dizziness (PPPD)
+> **Chronic non-vertiginous dizziness and unsteadiness lasting months, worse when upright, worse with movement, and worse in visually complex environments** — supermarket aisles, crowds, scrolling on a phone, patterned carpets.
+> **It commonly follows an acute vestibular event** (neuritis, BPPV, a vestibular migraine attack, or even a panic attack), and represents a maladaptive persistence of the acute compensatory strategy.
+> **It is a positive diagnosis, not "nothing wrong"**, and it responds to **vestibular rehabilitation, SSRIs or SNRIs, and cognitive behavioural therapy.** Recognising and naming it is therapeutic, because these patients have often had extensive negative investigation and been told there is no cause.
+> The link to the compensation point above: **the same central adaptation that resolves vestibular neuritis becomes the problem when it does not switch off.**
+> `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+> `UNVERIFIED — the diagnostic criteria (duration threshold and required features), and which antidepressant class is first-line in Australian practice; RACGP, or a neurology or vestibular medicine reference.`
 
-**P (vertigo generally):** BPPV frequently recurs but responds well to repeat Epley manoeuvres; vestibular neuritis typically resolves over days to weeks as central compensation develops, though some patients have prolonged symptoms.
+**Ix:** **Medication review** (*why:* the commonest modifiable contributor; *what:* sedatives, antihypertensives, anticholinergics). **Postural blood pressure** (*why:* orthostatic hypotension, frequently drug-induced; *what:* postural drop). **Neurological examination including proprioception, vibration, reflexes and gait** (*why:* identifies neuropathy, myelopathy and cerebellar disease; *what:* the pattern). **Visual acuity and assessment of glasses** (*why:* correctable, and multifocals contribute to falls; *what:* uncorrected refractive error, cataract). FBC, B12, UEC, TFTs, glucose (*why:* anaemia, B12 deficiency and metabolic contributors; *what:* deficiency). MRI brain where cerebellar or central signs (*why:* structural cerebellar disease; *what:* atrophy, lesion). Vestibular function testing where bilateral vestibulopathy is suspected (*why:* it is otherwise easily missed and has specific rehabilitation implications; *what:* bilaterally reduced responses). **Timed Up and Go and gait speed** (*why:* objective, repeatable functional measures that predict falls and track intervention; *what:* prolonged time, slow gait).
 
----
+#### Mx – Immediate — D5 §0.4.1
+Not usually required, unless there has been an injurious fall.
+
+#### Mx – Definitive — D5 §0.4.2
+Address each contributor. **Deprescribe.** Correct vision. Treat neuropathy causes.
+
+#### Mx – Chronic/long-term — D5 §0.4.3
+**Vestibular rehabilitation and a balance-focused exercise program**, which has good evidence for reducing falls. Home hazard assessment via occupational therapy. Footwear. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
 
 ### Episodic Vertigo — from unverified layer
 `SRC:D5_Dizziness__Vertigo_and_Gait §0.3` `UNVERIFIED — model knowledge, not source-checked.`
