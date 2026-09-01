@@ -2151,6 +2151,34 @@ Cause-specific. Cannabis cessation. Glycaemic optimisation and dietary modificat
 ### 0.4.3 Mx – Chronic/long-term
 Dietitian involvement for gastroparesis and for weight loss. Psychological support where symptoms are chronic and functional — this is not a dismissal but a legitimate and effective component of management. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
 
+### 0.41.19 Appetite Change, Early Satiety and Anorexia — from unverified layer
+`SRC:C2_Nausea_and_Vomiting §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Early satiety is not a minor symptom
+> **Feeling full after a few mouthfuls suggests either a stomach that cannot distend or something pressing on it.** The causes include **gastric or pancreatic malignancy, gastric outlet obstruction, gastroparesis, ascites, hepatomegaly, splenomegaly and an ovarian mass.**
+> **Early satiety with weight loss in an adult warrants investigation, not dietary advice.** In particular, **ovarian cancer classically presents with bloating, early satiety and vague abdominal discomfort** and is repeatedly attributed to irritable bowel syndrome — this is one of the well-documented patterns of delayed cancer diagnosis in women.
+
+> [!tip] Reduced appetite — the differential
+> **Malignancy** of any site, with cachexia. **Chronic disease** — heart failure, COPD, renal failure, cirrhosis. **Depression**, which is extremely common and treatable. **Drugs** — opioids, SSRIs, metformin, digoxin, chemotherapy, and polypharmacy generally. **Endocrine** — hypothyroidism, adrenal insufficiency, hypercalcaemia. **Infection** — chronic, including tuberculosis and HIV. **Dementia**, where reduced intake is a late feature. **Dental and oral problems, dysphagia, and ill-fitting dentures** — mechanical causes that are easily corrected and frequently overlooked in older people.
+
+> [!tip] Increased appetite
+> **Thyrotoxicosis** and **poorly controlled diabetes** — both with weight loss despite eating more, which is a useful pairing. **Corticosteroids.** **Hypothalamic lesions.** **Certain psychotropics.** **Binge eating disorder** — cross-refer `TODO:link — N8 Eating & body image (unbuilt)`.
+
+> [!warning] The combination that demands investigation
+> **Unintentional weight loss with anorexia or early satiety in an adult over 50** requires a structured search for malignancy and for chronic disease, not reassurance. Cross-refer `TODO:link — I5 Weight, lipids & fluid balance (unbuilt)` and `TODO:link — B6 §0.5 unintentional weight loss (unmerged)`.
+
+**Ix:** FBC, UEC, LFT, calcium, CRP, TFTs, HbA1c (*why:* the baseline that identifies most metabolic, inflammatory and endocrine causes; *what:* anaemia, renal or hepatic disease, hypercalcaemia, thyroid dysfunction). **CT abdomen and pelvis** where early satiety, weight loss or a mass (*why:* identifies gastric, pancreatic and ovarian malignancy and ascites; *what:* mass, ascites, organomegaly). **CA-125 with pelvic ultrasound in a woman with bloating and early satiety** (*why:* ovarian cancer presents exactly this way and is missed by attributing it to bowel symptoms; *what:* raised CA-125, adnexal mass — noting CA-125 lacks specificity and is used alongside imaging, not alone). Gastroscopy (*why:* gastric malignancy and outlet obstruction; *what:* tumour, stricture). Nutritional assessment including weight trajectory and a validated screening tool (*why:* quantifies malnutrition, which independently worsens outcomes and is treatable; *what:* degree of malnutrition). **Direct enquiry about mood** (*why:* depression is the commonest treatable cause of anorexia and will not appear on any blood test; *what:* depressive symptoms). Oral and dental examination (*why:* a mechanical, correctable cause; *what:* dentition, ulceration, candidiasis).
+
+### 0.6.1 Mx – Immediate
+Not usually required.
+
+### 0.6.2 Mx – Definitive
+Cause-specific.
+
+### 0.6.3 Mx – Chronic/long-term
+Dietitian involvement, nutritional supplementation where indicated, treatment of depression, dental review, and management of the underlying condition.
+
+
 
 
 
