@@ -2137,21 +2137,41 @@ Most often presents as a global pattern, ?generalised fatigue. Causes: cardio-pu
 - Toxins (e.g. chemotherapy, isoniazid) — generally length-dependent
 - Paraproteinaemic (e.g. secondary to haematologic malignancy)
 
-### Added from unverified layer — two discriminators in a weak patient
-`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.4` `SRC:D4 §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+### Myopathy — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former two-discriminators fragment; the foot-drop half is carried by §Mononeuropathies and Entrapment above, which holds the inversion discriminator and the dermatome/myotome pointer.*
 
-> [!danger] Foot drop — test ankle inversion
-> Common peroneal palsy and L5 radiculopathy both cause weak dorsiflexion. **One manoeuvre separates them**, and it works because tibialis posterior is supplied by the **tibial** nerve but is an **L5** muscle — the anatomy is already tabulated in [[11_07a_Ortho_-_Dermatomes_and_Myotomes_Reference]] and is not repeated here.
-> - **Common peroneal palsy** — **inversion is PRESERVED**, no back pain, no hip abduction weakness.
-> - **L5 radiculopathy** — **inversion is WEAK**, hip abduction is weak, usually with back pain radiating down the leg.
-> - **The ankle jerk (S1) is preserved in both**, so it does not discriminate.
->
-> **Test inversion.** It separates a peripheral compression from a spinal problem at the bedside, and it decides whether the patient needs a spine referral or a nerve-conduction study.
+**D:** Primary muscle disease, characteristically producing **symmetrical proximal weakness without sensory involvement.**
 
-> [!warning] Steroid myopathy has a normal CK
+> [!tip] The clinical signature
+> **Difficulty rising from a chair or a low toilet, climbing stairs, and raising the arms above the head to wash or comb hair.** **Gower sign** in children — climbing up their own legs to stand.
+> **No sensory symptoms. Reflexes preserved until weakness is severe. CK usually raised** — with important exceptions below.
+
+> [!tip] Causes
+> **Inflammatory** — **polymyositis** and **dermatomyositis** (with the **heliotrope periorbital rash and Gottron papules over the knuckles**; a **paraneoplastic association strong enough to warrant age-appropriate malignancy screening**), and **inclusion body myositis** — which is different and worth knowing: **older patients, ASYMMETRIC, with characteristic involvement of the FINGER FLEXORS and QUADRICEPS, slowly progressive, and poorly responsive to steroids.** Misdiagnosing IBM as polymyositis leads to years of futile immunosuppression.
+> **Drugs** — **statins** (myalgia through to rhabdomyolysis; and **immune-mediated necrotising myopathy with anti-HMGCR antibodies, which CONTINUES to progress after the statin is stopped and needs immunosuppression** — an important and under-recognised entity), **corticosteroids**, colchicine, alcohol, antiretrovirals, hydroxychloroquine.
+> **Endocrine** — **hypothyroidism and hyperthyroidism (both), Cushing syndrome, and osteomalacia from vitamin D deficiency**, which causes proximal weakness with bone pain and is fully treatable.
+> **Metabolic and mitochondrial** — exercise intolerance, cramps, myoglobinuria.
+> **Muscular dystrophies** — Duchenne, Becker, myotonic dystrophy (with **grip myotonia, frontal balding, cataracts, cardiac conduction disease** — the cardiac involvement matters and warrants surveillance).
+> **Rhabdomyolysis** — cross-refer [[11_01_Ortho_-_Orthopaedic_Emergencies]] Rhabdomyolysis.
+
+> [!danger] Steroid myopathy has a NORMAL CK
 > **Corticosteroid-induced myopathy causes proximal weakness with a normal creatine kinase**, because it is a metabolic atrophy rather than a necrotising process.
-> **So a normal CK does not exclude a myopathy.** In a patient on long-term steroids with proximal weakness and entirely normal tests, the steroid is the likely cause. It improves with dose reduction and exercise.
+> **So a normal CK does not exclude myopathy**, and in a patient on long-term steroids with proximal weakness, the steroid is the likely cause even though every test is normal. It improves with dose reduction and exercise.
+> **The ankle jerk (S1) is preserved in both peroneal palsy and L5 radiculopathy**, so it does not discriminate — see §Mononeuropathies and Entrapment above, where the inversion test decides between a spine referral and a nerve-conduction study.
 > `UNVERIFIED — the time course of onset and of recovery, and whether any test distinguishes it from disuse atrophy; specialist neurology or rheumatology guidance.`
+
+**Ix:** **CK** (*why:* raised in most inflammatory, dystrophic and toxic myopathies, and its magnitude helps — **but normal in steroid myopathy and in some others**; *what:* elevation). TFTs, calcium, phosphate, vitamin D, potassium, magnesium (*why:* endocrine and electrolyte myopathies are common and reversible; *what:* derangement). ESR, CRP, and **myositis-specific antibodies** (*why:* classifies inflammatory myopathy and identifies subgroups with particular associations — interstitial lung disease, malignancy; *what:* antibody profile). **EMG** (*why:* demonstrates a myopathic pattern and distinguishes it from neuropathy; *what:* short-duration low-amplitude motor units, spontaneous activity). **MRI of muscle** (*why:* identifies oedema and guides the biopsy site, improving yield; *what:* muscle oedema, atrophy, fatty replacement). **Muscle biopsy** (*why:* the definitive test, distinguishing inflammatory subtypes, dystrophy and inclusion body myositis — the last of which has characteristic rimmed vacuoles; *what:* histology). **Malignancy screening in dermatomyositis** (*why:* the association is strong enough to warrant an age-appropriate search; *what:* underlying cancer). **ECG and echocardiography in dystrophies** (*why:* cardiac involvement causes conduction disease and cardiomyopathy and is a cause of death; *what:* conduction abnormality, cardiomyopathy). Respiratory function testing (*why:* diaphragmatic involvement; *what:* reduced FVC, particularly supine).
+
+#### Mx – Immediate — D4 §0.6.1
+Treat rhabdomyolysis and hyperkalaemia. Respiratory support where diaphragmatic weakness.
+
+#### Mx – Definitive — D4 §0.6.2
+Immunosuppression for inflammatory myopathy. Cease the causative drug. Replace vitamin D or treat thyroid disease.
+
+#### Mx – Chronic/long-term — D4 §0.6.3
+Physiotherapy and resistance exercise, which are beneficial rather than harmful in most myopathies. Cardiac and respiratory surveillance in dystrophies. Genetic counselling. Bone protection on steroids.
+
 
 
 > [!info] Added from unverified layer — **the incidental raised CK in a patient with no symptoms**
