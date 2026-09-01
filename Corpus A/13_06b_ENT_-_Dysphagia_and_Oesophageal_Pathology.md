@@ -45,7 +45,7 @@ no_baseline: 1
 
 - **Mx:** high-dose PPI (evidence uncertain). If metaplasia confirmed — endoscopic surveillance with biopsies every 3–5 years. If dysplasia — offer endoscopic interventions, including radiofrequency ablation and endoscopic mucosal resection.
 
-> [!fail]- CONFLICT CF-039 — Barrett surveillance interval **R2**
+> [!fail]- CONFLICT CF-039 — Barrett surveillance interval **R3**
 > **A (`inherited`):** endoscopic surveillance with biopsies **every 3–5 years** where metaplasia is confirmed — a fixed interval, stated in the Mx line directly above.
 > **B (`unverified`):** the surveillance interval is **determined by segment length and dysplasia grade** — not fixed.
 > **Why it matters:** these give different recall dates for the same patient. A fixed 3–5 year interval under-surveilles a long segment and over-surveilles a short one, and the interval is what actually gets written into the recall system and the discharge summary.
