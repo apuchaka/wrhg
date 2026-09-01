@@ -1168,6 +1168,39 @@ Cause-specific, with oncological management for malignancy.
 #### 0.25.3.3 Mx – Chronic/long-term
 Pelvic floor physiotherapy for incontinence, which is effective and under-referred. Surgical repair where indicated.
 
+### 0.25.4 Anal Lump — from unverified layer
+`SRC:C6_Dyspepsia__Oesophageal_and_Anorectal_Disease §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Internal haemorrhoids are graded, and the grade determines treatment
+> **Grade I** — bleed, do not prolapse. **Grade II** — prolapse on straining, reduce spontaneously. **Grade III** — prolapse, require manual reduction. **Grade IV** — permanently prolapsed, irreducible.
+> **Internal haemorrhoids are above the dentate line and are therefore NOT painful** — they bleed and prolapse. **Pain means something else** — a thrombosed external haemorrhoid, a fissure, an abscess, or a strangulated prolapsed pile.
+> This anatomical distinction (visceral innervation above the dentate line, somatic below) explains the entire clinical difference and is worth holding onto.
+> Management: fibre and fluid, avoid straining and prolonged sitting on the toilet; rubber band ligation for grades I–III; surgery for grade IV or failed conservative management.
+
+> [!danger] Do not diagnose haemorrhoids without excluding cancer
+> **Rectal bleeding attributed to haemorrhoids in an adult over 40, or with any change in bowel habit, weight loss, iron deficiency or family history, requires colonic investigation.** Haemorrhoids are so common that they coexist with cancer frequently. Cross-refer §0.34.1 Lower Gastrointestinal Bleeding.
+
+> [!tip] The differential for a lump
+> **Skin tags** — often the residue of a previous thrombosed pile or associated with a chronic fissure or Crohn disease.
+> **Thrombosed external haemorrhoid** — acute, painful, blue.
+> **Anal warts (condylomata acuminata)** — HPV. **Screen for other STIs and consider HIV**, and address partner notification. Cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`.
+> **Perianal abscess.**
+> **Rectal prolapse** — full-thickness, with concentric mucosal rings, as opposed to the radial folds of prolapsed haemorrhoids. Associated with chronic straining, and in children with constipation and cystic fibrosis.
+> **Anal carcinoma** — see 0.4. **Any indurated, ulcerated, irregular or non-healing lump requires biopsy.**
+> **Molluscum contagiosum, condylomata lata of secondary syphilis, and hidradenitis suppurativa.**
+
+**Ix:** **Inspection and digital rectal examination with proctoscopy** (*why:* distinguishes the causes directly, and proctoscopy is required to see internal haemorrhoids; *what:* haemorrhoid grade, tag, wart, mass). **Colonoscopy** where bleeding with any red flag (*why:* excludes colorectal cancer; *what:* tumour, polyp). **Biopsy of any atypical lesion** (*why:* anal carcinoma is rising and is curable when caught early; *what:* histology). **STI screen including HIV** where warts or atypical lesions (*why:* coexisting infection and immunosuppression change management and have partner implications; *what:* positive results).
+
+#### 0.25.4.1 Mx – Immediate
+Excision of an acutely thrombosed external haemorrhoid within the early window. Reduction of a strangulated prolapse.
+
+#### 0.25.4.2 Mx – Definitive
+Grade-appropriate haemorrhoid management. Treatment of warts. Oncological management of carcinoma.
+
+#### 0.25.4.3 Mx – Chronic/long-term
+Fibre, fluid, avoidance of straining, and **advice not to sit on the toilet for prolonged periods**, which is a genuine and increasingly common contributor with phone use. HPV vaccination.
+
+
 
 
 ## 0.26 Colorectal Cancer
