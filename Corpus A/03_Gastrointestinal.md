@@ -268,18 +268,45 @@ Acute episodes of inflammation.
 
 ---
 
-### 0.6.7 Added from unverified layer — four points on variceal bleeding not made above
+### 0.6.7 Variceal Bleeding — from unverified layer
 `SRC:C4_Gastrointestinal_Bleeding §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.6.7 fragment.*
 
-> [!danger] Balloon tamponade is a time-limited bridge, not a treatment
-> §0.6.4 and §0.33.3 both list the Sengstaken-Blakemore tube for uncontrolled bleeding without qualifying it. It is a **temporary bridge to definitive therapy only**, placed in an **intubated** patient, with a **defined time limit** — it carries a real risk of **oesophageal necrosis and rupture** the longer it stays inflated.
-> `UNVERIFIED — the maximum inflation time and the balloon pressures; gastroenterology or intensive care unit protocol.`
+**A/P:** Portal hypertension diverts blood through portosystemic collaterals. At the gastro-oesophageal junction these become **thin-walled submucosal varices under high pressure**, which rupture. Bleeding is often torrential, and the patient's underlying liver disease impairs their ability to tolerate and to compensate for it — which is why mortality is high even with modern management.
 
-> [!warning] Do not assume the bleed is variceal just because the patient is cirrhotic
-> **A substantial proportion of upper GI bleeds in cirrhotic patients are from ulcers**, not varices. Urgent endoscopy is diagnostic as well as therapeutic for exactly this reason, and the pre-endoscopy management (terlipressin plus prophylactic antibiotics, §0.33.3) is given because it is correct *if* the bleed is variceal — not because the diagnosis has been made.
+> [!danger] Give prophylactic antibiotics to every cirrhotic patient with a GI bleed
+> **This reduces mortality**, by preventing the bacterial translocation and infection that both precipitate and follow variceal bleeding — and it is one of the most frequently omitted interventions in the whole of gastroenterology. It applies whether or not the bleed turns out to be variceal, and whether or not there are signs of infection.
+> `UNVERIFIED — agent and duration from eTG Antibiotic.`
 
-- **A variceal bleed commonly precipitates hepatic encephalopathy**, and the mechanism is worth knowing because it changes the management: the **protein load of blood sitting in the gut** is digested and absorbed as nitrogen, on top of hypoperfusion and infection. §0.6.3 already lists GI bleed among the precipitants; **lactulose is given to clear the blood from the gut**, not only for the encephalopathy itself.
-- **Portal hypertensive gastropathy** — a diffuse mosaic mucosal pattern causing **chronic slow blood loss rather than acute haemorrhage**. It is treated with **beta-blockade, not banding**, because there is no discrete lesion to band. **Carvedilol** is an alternative to propranolol as the non-selective beta-blocker (§0.6.4 names propranolol only).
+> [!tip] The management sequence
+> **1. Resuscitate — restrictive transfusion.** Over-transfusion raises portal pressure and worsens bleeding.
+> **2. Vasoactive therapy immediately — terlipressin or octreotide — started before endoscopy**, not after. It reduces portal pressure and improves haemostasis.
+> **3. Prophylactic antibiotics.**
+> **4. Airway protection** where there is massive haematemesis or encephalopathy.
+> **5. Urgent endoscopy with band ligation** for oesophageal varices; **tissue glue** for gastric varices, which do not band well.
+> **6. Balloon tamponade** (Sengstaken-Blakemore or similar) **as a temporary bridge only**, in an intubated patient, with a defined time limit — it carries a real risk of oesophageal necrosis and rupture. §0.6.4 and §0.33.3 both list the Sengstaken-Blakemore tube without qualifying it; §0.6.3 covers the varices themselves.
+> **7. TIPS** for uncontrolled bleeding or early rebleeding, and increasingly considered **early** in selected high-risk patients rather than as a rescue.
+> `UNVERIFIED — all agents, doses, durations, transfusion thresholds and TIPS selection criteria.`
+
+> [!warning] Look for the precipitant and the consequences
+> A variceal bleed in a cirrhotic patient commonly **precipitates hepatic encephalopathy** — the protein load of blood in the gut, plus hypoperfusion and infection. **Lactulose is given to clear the blood from the gut** as well as for the encephalopathy itself.
+> Also anticipate **acute kidney injury and hepatorenal syndrome**, and **spontaneous bacterial peritonitis.** Cross-refer §0.38.1 Complications of Cirrhosis.
+
+> [!tip] Prophylaxis
+> **Primary prophylaxis** after variceal screening endoscopy: non-selective beta-blockade (propranolol or carvedilol) or band ligation.
+> **Secondary prophylaxis** after a bleed: combination of non-selective beta-blockade and repeated band ligation until varices are eradicated, with surveillance thereafter.
+> **Portal hypertensive gastropathy** — a diffuse mosaic mucosal pattern causing chronic slow blood loss rather than acute haemorrhage — is treated with beta-blockade, not banding.
+
+**Ix:** As per 0.1, plus **urgent upper endoscopy** (*why:* diagnostic and therapeutic, and the source cannot be assumed to be variceal even in a known cirrhotic — a substantial proportion of bleeds in cirrhotic patients are from ulcers; *what:* varices with stigmata, alternative source). Ascitic tap where ascites is present (*why:* SBP frequently coexists and is missed; *what:* neutrophil count). Assessment of Child-Pugh and MELD (*why:* prognostic and informs TIPS and transplant decisions; *what:* the score components).
+
+#### 0.6.7.1 Mx – Immediate
+As per the sequence above. **Antibiotics and vasoactive therapy before endoscopy.**
+
+#### 0.6.7.2 Mx – Definitive
+Band ligation, glue for gastric varices, TIPS for failure. Transplant assessment.
+
+#### 0.6.7.3 Mx – Chronic/long-term
+Secondary prophylaxis with beta-blockade and banding to eradication. Alcohol cessation and treatment of the underlying liver disease. **Advance care planning**, given the prognosis after a variceal bleed.
 
 ## 0.7 Wilson's Disease
 
