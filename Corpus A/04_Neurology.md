@@ -1804,6 +1804,8 @@ Stroke management per [[04_Neurology]] Strokes, or supportive care with early ve
 **Ix:** Determined by the syndrome identified. **Bedside examination is far more valuable than early imaging in this presentation** — see 0.2.
 
 
+**P (vertigo generally):** BPPV frequently recurs but responds well to repeat Epley manoeuvres; vestibular neuritis typically resolves over days to weeks as central compensation develops, though some patients have prolonged symptoms.
+
 ## Strokes
 
 > [!danger] A genuine, severe Australian health equity issue with a striking age-of-onset gap — not a generic epidemiological footnote. **Aboriginal and Torres Strait Islander Australians experience stroke at substantially higher rates and at a much younger age than non-Indigenous Australians.** A remote-Australia healthcare network study found age-standardised stroke incidence roughly **3-fold higher** overall, with a median onset age of 54 — **17 years younger** than non-Aboriginal patients. The disparity is even starker in younger patients specifically: in Aboriginal patients aged under 55, ischaemic stroke incidence was **14-fold greater**, and intracerebral haemorrhage **19-fold greater**, than in non-Aboriginal patients of the same age — this isn't a modest shift in risk, it's a fundamentally different age-related risk profile.
