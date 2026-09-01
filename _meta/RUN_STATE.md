@@ -1134,3 +1134,36 @@ guessed. Where Corpus A already owns the topic today the pointer can go straight
 The marker is still true — the link is not written. Only the reason given for it is wrong.
 
 **Never guess a target.** That half of §1.10's rule is unchanged.
+
+## FINDING — aspirin secondary-prevention dose, `inherited` Corpus A, NOT touched by this merge
+
+Surfaced 2026-09-01 by the lint pass at the 14-file gate. **Recorded, not fixed** — it is
+inherited Corpus A content, it needs a named Australian source, and §1.12 forbids
+adjudicating a clinical figure from a session.
+
+```
+Corpus A/01_Cardiovascular.md:121  Aspirin 75 mg OD, … Atorvastatin 80 mg OD …   (post-ACS)
+Corpus A/01_Cardiovascular.md:358  - Aspirin 75 mg OD (unless already on an antiplatelet)  (stable angina)
+```
+
+**75 mg is the UK maintenance strength. Australian practice uses 100 mg** — that is a
+Step 17 (UK-localisation) item, and Step 17's earlier sweeps did not reach it.
+
+**And the corpus disagrees with itself on a second aspirin figure**, which is the sharper
+finding because no localisation sweep would catch it:
+
+| File | Indication | Dose |
+|---|---|---:|
+| `16_08-09_Antenatal_and_Perinatal_Problems:88` | pre-eclampsia prophylaxis, ≥1 high-risk factor | **150 mg** |
+| `16_01-05_Antenatal_Care:476` | pre-eclampsia, antenatal Mx | **75 mg** |
+| `16_01-05_Antenatal_Care:614` | from positive test until delivery | **75–150 mg** |
+| `16_01-05_Antenatal_Care:620` | high risk | **75–150 mg** |
+
+Three different answers for the same indication in two files. **Resolve against RANZCOG.**
+`10_06b:37` (aspirin 75 mg primary thromboprophylaxis in APS) is a third indication and a
+separate question.
+
+**None of this was introduced by the section merge.** The lint pass reports **178**
+`inherited` dose figures with no marker; **0 of them are inside a merged `SRC:` block** —
+established after fixing an attribution script of my own that first said 2, because it
+carried a block's SRC owner forward past the block's end into Corpus A's own prose.
