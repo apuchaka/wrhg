@@ -1520,6 +1520,44 @@ Two complications of portal hypertension that are respiratory rather than abdomi
 
 **Ix:** pulse oximetry **erect and supine** in any cirrhotic patient with unexplained breathlessness (*why:* it is the bedside test for platypnoea-orthodeoxia and costs nothing; *what:* a fall in saturation on sitting or standing). Echocardiography (*why:* estimates pulmonary artery pressure and, with agitated saline, demonstrates intrapulmonary shunting; *what:* raised pulmonary pressures, late-appearing bubbles). `UNVERIFIED — the desaturation threshold that defines orthodeoxia, and the pulmonary pressure thresholds for portopulmonary hypertension; specialist respiratory or hepatology guidance.`
 
+### 0.38.2 Acute Liver Failure — from unverified layer
+`SRC:C3_Jaundice_and_Liver_Disease §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Acute liver injury with **coagulopathy and hepatic encephalopathy** in a patient without pre-existing chronic liver disease. Classified by the interval from jaundice to encephalopathy as hyperacute, acute or subacute — with, counterintuitively, **the hyperacute presentations having the best chance of spontaneous recovery** but the highest risk of cerebral oedema.
+
+**R/Causes:** **Paracetamol overdose is the commonest cause in Australia** — cross-refer [[14a-2_Psych_-_Overdose_and_Poisoning_Management]] §0.1 Overdose / poisoning — management by agent. Also: viral hepatitis (A, B, E; and hepatitis E is particularly severe in pregnancy), idiosyncratic drug reactions, **herbal and complementary preparations**, autoimmune hepatitis, Budd-Chiari syndrome, **Wilson disease**, ischaemic hepatitis ("shock liver"), *Amanita* mushroom poisoning, and the pregnancy-specific causes of acute fatty liver of pregnancy and HELLP syndrome.
+
+> [!danger] Contact a liver transplant unit early — before the patient meets transplant criteria
+> **The commonest error in acute liver failure is referring too late.** These patients deteriorate rapidly and unpredictably, and transfer becomes unsafe once encephalopathy is advanced or cerebral oedema has developed.
+> **Discuss any patient with acute liver injury and a rising INR or any degree of encephalopathy with a transplant centre**, regardless of whether they currently meet listing criteria. The **King's College criteria** are used to identify patients unlikely to survive without transplantation, and are stratified separately for paracetamol and non-paracetamol causes. `UNVERIFIED — the criteria and their component thresholds require verification.`
+
+> [!danger] Do not routinely correct the INR
+> **The INR is the principal prognostic marker and a key component of transplant listing criteria.** Giving fresh frozen plasma to "correct" it obscures the trajectory, does not reduce clinically significant bleeding, and causes volume overload.
+> **Correct only for active bleeding or before an invasive procedure**, and discuss with the transplant unit first. This is counterintuitive and is examined.
+
+> [!warning] Four things that kill these patients
+> **1. Cerebral oedema and raised intracranial pressure** — the leading cause of death in hyperacute failure. Nurse head up, avoid sedation where possible, control agitation carefully, and involve intensive care. Hyperammonaemia is a driver.
+> **2. Hypoglycaemia** — the failing liver cannot perform gluconeogenesis. **Check glucose hourly and run a dextrose infusion**; hypoglycaemia is easily mistaken for worsening encephalopathy.
+> **3. Sepsis** — these patients are functionally immunosuppressed and frequently have no fever or leucocytosis. Have a low threshold for cultures and empirical antibiotics.
+> **4. Acute kidney injury** — from hypoperfusion, paracetamol directly, or hepatorenal syndrome. **Avoid all nephrotoxins.**
+
+> [!tip] N-acetylcysteine
+> Given for paracetamol-induced failure, and there is evidence supporting its use in **non-paracetamol acute liver failure** as well. `UNVERIFIED — indications, dosing and duration.` Cross-refer [[14a-2_Psych_-_Overdose_and_Poisoning_Management]] §0.1 Overdose / poisoning — management by agent.
+
+**S/Smx:** Jaundice, malaise, nausea, right upper quadrant pain, then confusion, altered sleep-wake cycle, **asterixis**, and progressive reduction in conscious state. Fetor hepaticus. Signs of bleeding.
+
+**Ix:** **Serial INR** (*why:* the prognostic marker and the driver of transplant referral, and it must be trended rather than measured once; *what:* rising INR). **Hourly bedside glucose** (*why:* hypoglycaemia is common, dangerous and easily attributed to encephalopathy; *what:* low glucose). **Paracetamol level** (*why:* the commonest and most treatable cause; *what:* level against time). Viral hepatitis serology including hepatitis E (*why:* identifies a treatable and notifiable cause; *what:* serology). Autoimmune screen and immunoglobulins (*why:* autoimmune hepatitis responds to steroids; *what:* positive antibodies, raised IgG). **Caeruloplasmin, serum and urinary copper, and slit lamp for Kayser-Fleischer rings** in anyone under about 40 (*why:* **Wilson disease is treatable, familial and easily missed**, and it must be actively excluded in a young person with liver failure; *what:* low caeruloplasmin, raised urinary copper, KF rings). Ammonia (*why:* very high levels correlate with cerebral oedema risk and inform ICU management, though it is **not required to diagnose encephalopathy**, which is clinical; *what:* markedly raised ammonia). UEC, phosphate, magnesium, lactate, VBG (*why:* renal failure, metabolic derangement and acidosis are all prognostic; *what:* derangement). FBC and blood cultures (*why:* sepsis with a blunted response; *what:* organism). **Doppler ultrasound of the hepatic veins** (*why:* Budd-Chiari syndrome is a treatable cause identified only if specifically looked for; *what:* hepatic vein thrombosis). Pregnancy test (*why:* acute fatty liver of pregnancy and HELLP are obstetric emergencies with different management; *what:* positive).
+
+#### 0.38.2.1 Mx – Immediate
+**Contact the transplant unit.** N-acetylcysteine. Dextrose infusion with hourly glucose. Avoid nephrotoxins and sedatives. Nurse head up. Cultures and low-threshold antibiotics. ICU involvement. **Do not correct the INR without discussion.**
+
+#### 0.38.2.2 Mx – Definitive
+Cause-specific treatment and consideration for liver transplantation.
+
+#### 0.38.2.3 Mx – Chronic/long-term
+Post-transplant immunosuppression and follow-up. **Mental health assessment where the cause was deliberate self-poisoning** — cross-refer `TODO:link — N1 Risk assessment & suicidality (unbuilt)` and [[14a-2_Psych_-_Overdose_and_Poisoning_Management]].
+
+
 
 ## 0.39 Ileus
 
