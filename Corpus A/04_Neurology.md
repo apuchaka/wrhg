@@ -303,6 +303,61 @@ Prophylaxis where indicated, with a defined trial period and review — prophyla
 #### Mx – Chronic/long-term
 Headache diary, lifestyle measures, review of contraception in migraine with aura, and **explicit counselling about analgesic frequency limits.**
 
+### Secondary Headaches Worth Knowing — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Giant cell arteritis — treat before you biopsy
+> **Age over 50, new headache, scalp tenderness (a comb or pillow hurts), jaw claudication (pain on chewing that eases with rest), visual symptoms, and constitutional features.** Overlaps substantially with **polymyalgia rheumatica** — cross-refer [[12_04_Rheum_-_Vasculitis]] and `TODO:link — L3 Muscle symptoms & widespread pain (unbuilt)`.
+> **Jaw claudication and visual symptoms are the most specific features.**
+> **Vision loss is sudden, painless and irreversible, and may be the first manifestation. Start high-dose corticosteroids immediately on clinical suspicion — do not wait for ESR, and do not wait for temporal artery biopsy.**
+> **Biopsy should be performed within a couple of weeks of starting steroids** — the arteritis has **skip lesions**, so an adequate length of artery is needed and a negative biopsy does not exclude the diagnosis. Temporal artery ultrasound (the "halo sign") is increasingly used.
+> `UNVERIFIED — steroid dose, the different regimens for visual versus non-visual presentations, biopsy timing, and tocilizumab as a steroid-sparing agent.`
+
+> [!warning] Idiopathic intracranial hypertension
+> **Typically a young woman with obesity.** Headache worse on lying flat and on waking, **pulsatile tinnitus** (a distinctive and useful symptom), **transient visual obscurations** lasting seconds, diplopia from a **sixth nerve palsy** (a false localising sign from raised pressure), and **papilloedema.**
+> **The threat is permanent visual loss from chronic papilloedema, and this is often painless and unnoticed by the patient — so formal visual field monitoring is essential, not optional.**
+> Diagnosis requires **imaging (including venography to exclude venous sinus thrombosis) and a lumbar puncture demonstrating a raised opening pressure with normal CSF constituents.**
+> **Ask about drugs:** tetracyclines, retinoids including isotretinoin, vitamin A excess, and hormonal contraception are associated.
+> Management: **weight loss, which is genuinely disease-modifying**, acetazolamide, and surgical options (optic nerve sheath fenestration, shunting, venous stenting) for threatened vision. `UNVERIFIED — the opening pressure threshold and acetazolamide dosing.`
+
+> [!danger] Cerebral venous sinus thrombosis — the CT is often normal
+> **Headache is the commonest symptom, and it may be thunderclap, gradual or progressive.** Also: seizures, focal deficits that do not fit an arterial territory, papilloedema, and reduced conscious state.
+> **Risk factors: pregnancy and the postpartum period, combined oral contraception, thrombophilia, dehydration, malignancy, and local infection — mastoiditis, sinusitis, otitis media.**
+> **A plain CT is frequently normal or shows only subtle signs, so if you suspect it, you must request CT or MR VENOGRAPHY.** Requesting a plain CT and being reassured is the standard way this diagnosis is missed.
+> **Anticoagulation is the treatment — even in the presence of venous haemorrhagic infarction**, which is counterintuitive and is the point most often got wrong.
+
+> [!danger] Medication overuse headache
+> **Headache present on 15 or more days per month in a patient using acute headache medication regularly — roughly 10 or more days per month for triptans, opioids and combination analgesics, or 15 or more for simple analgesics.**
+> It is **very common, under-recognised, and the single most important reversible cause of chronic daily headache.** The patient takes more analgesia because the headache is worse, and the headache is worse because of the analgesia.
+> **The treatment is withdrawal of the overused medication**, with warning that symptoms worsen for a period before improving, plus introduction of prophylaxis. **Opioids and codeine-containing combinations are the worst offenders**, which is another reason not to use them for headache.
+> `UNVERIFIED — the exact medication-day thresholds for each drug class.`
+
+> [!tip] Spontaneous intracranial hypotension
+> **Postural headache that is worse when upright and relieved by lying flat** — the opposite of raised intracranial pressure. Follows lumbar puncture, or occurs spontaneously from a dural CSF leak. May have neck pain, tinnitus and hearing change.
+> MRI shows diffuse pachymeningeal enhancement and brain sagging. Treated with conservative measures and **an epidural blood patch**, which is often dramatically effective.
+
+> [!tip] Raised intracranial pressure and space-occupying lesions
+> **Headache worse on waking or on lying flat, worse with coughing, sneezing or straining, with vomiting (often without preceding nausea), papilloedema, focal deficits, seizures, or personality and cognitive change.**
+> Causes: tumour, abscess, **chronic subdural haematoma** (particularly in older patients on anticoagulants after apparently trivial trauma — cross-refer [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure), hydrocephalus.
+
+> [!tip] The extracranial and systemic causes that are easily missed
+> **Acute angle-closure glaucoma** — headache with a red painful eye, halos, blurred vision, a fixed mid-dilated pupil, nausea and vomiting. **Sight-threatening.** Cross-refer `TODO:link — E1 Red & painful eye (unbuilt)`.
+> **Carbon monoxide poisoning** — headache with nausea, particularly with **multiple household members affected and symptoms improving away from home.** Cross-refer [[14a-2_Psych_-_Overdose_and_Poisoning_Management]].
+> **Hypertensive emergency and pre-eclampsia** — check the blood pressure and, in pregnancy, the urine.
+> **Sinusitis, dental disease, temporomandibular joint dysfunction, cervicogenic headache**, and **post-traumatic headache.**
+
+**Ix:** ESR and CRP (*why:* giant cell arteritis; *what:* markedly raised). **CT or MR venography** where CVST is possible (*why:* plain imaging misses it; *what:* sinus filling defect). **Lumbar puncture with opening pressure** where IIH is suspected (*why:* both diagnostic and initially therapeutic; *what:* raised pressure with normal constituents). **Formal visual field testing and fundus photography** in papilloedema (*why:* quantifies and monitors the threat to vision, which the patient cannot detect until it is advanced; *what:* field loss, disc appearance). MRI brain with contrast (*why:* structural lesion, pachymeningeal enhancement, demyelination; *what:* mass, meningeal changes). Temporal artery ultrasound or biopsy (*why:* confirms GCA; *what:* halo sign, arteritis with giant cells). Carboxyhaemoglobin (*why:* not detected by standard oximetry; *what:* elevated level). **A medication diary** (*why:* diagnoses medication overuse headache, and nothing else will; *what:* medication days per month).
+
+#### Mx – Immediate
+**Steroids for suspected GCA before any test.** Anticoagulation for CVST. Urgent ophthalmology for angle-closure glaucoma.
+
+#### Mx – Definitive
+Cause-specific.
+
+#### Mx – Chronic/long-term
+**Bone protection and glucose monitoring for anyone on prolonged corticosteroids.** Visual field surveillance in IIH. Thrombophilia and contraceptive review after CVST.
+
+
 
 
 
