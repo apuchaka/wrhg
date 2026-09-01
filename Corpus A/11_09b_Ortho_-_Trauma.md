@@ -305,6 +305,45 @@ ICU management of organ failure. Renal replacement therapy for severe rhabdomyol
 ### Mx – Chronic/long-term — A6 §0.2.3
 Some patients have persistent neurological deficit and heat intolerance. Return-to-work and return-to-sport advice with acclimatisation. Consider malignant hyperthermia susceptibility testing where the presentation was exertional and unusual.
 
+## Hypothermia — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Core body temperature below the normal range, graded mild, moderate and severe. `UNVERIFIED — the temperature boundaries defining each grade require verification against ANZCOR; no values are stated here.`
+
+**R/Causes:** Environmental exposure · **immobility after a fall, particularly an elderly person on the floor overnight — the commonest Australian presentation, and it occurs indoors** · alcohol and drug intoxication, which impairs both behaviour and vasoconstriction · hypoglycaemia · hypothyroidism and myxoedema · adrenal insufficiency · sepsis, which causes hypothermia rather than fever in the elderly and is a poor prognostic sign · burns and extensive skin disease · trauma with cold exposure and cold fluid resuscitation · homelessness.
+
+**A/P:** Heat loss exceeds production → shivering thermogenesis and vasoconstriction initially compensate → **below a threshold, shivering ceases**, removing the main endogenous heat source → progressive slowing of all enzymatic and cardiac function → bradycardia, reduced conscious state, and **myocardial irritability with a marked susceptibility to ventricular fibrillation on movement.** Cold also causes a diuresis (cold diuresis, from central volume redistribution), coagulopathy independent of clotting factor levels, and a left shift of the oxyhaemoglobin curve.
+
+> [!danger] "Not dead until warm and dead"
+> Hypothermia is profoundly neuroprotective. **Patients have survived neurologically intact after prolonged arrest in severe hypothermia, including with very long CPR times.** Resuscitation should be continued and the patient rewarmed before death is declared, and extracorporeal rewarming is the definitive approach in hypothermic arrest. This is the classic exam point and it is also true. Exceptions exist — obvious lethal injury, a frozen chest wall that cannot be compressed, or a documented avalanche burial with an obstructed airway beyond a defined duration. `UNVERIFIED — the specific exceptions and the potassium threshold used to determine futility require verification against ANZCOR.`
+
+> [!danger] Handle the severely hypothermic patient gently
+> The cold myocardium is exquisitely irritable, and **rough handling, sudden movement or careless positioning can precipitate ventricular fibrillation.** Move the patient horizontally and gently. Avoid unnecessary procedures.
+
+> [!warning] Drugs and defibrillation lose effectiveness when cold
+> Below a certain core temperature the heart responds poorly to defibrillation and to resuscitation drugs, and drug metabolism is so slowed that repeated dosing causes accumulation and toxicity on rewarming. Guidelines therefore modify both. `UNVERIFIED — the temperature thresholds, the modified drug and shock intervals, and the rewarming rate; ANZCOR Guideline 11.`
+
+> [!tip] The ECG is owned elsewhere — what this block adds
+> **The Osborn (J) wave, bradycardia, first-degree block, long QT and the atrial and ventricular arrhythmias are owned by [[01_Cardiovascular]] §0.12.11 Hypothermia** and are not repeated here.
+> Two things that entry does not say: the J wave **becomes more prominent as temperature falls**, so it tracks severity rather than merely indicating cold; and **shivering artefact frequently obscures the trace**, which is why an unreadable ECG in a cold patient is a finding rather than a technical failure.
+
+> [!warning] Afterdrop and rescue collapse
+> **Afterdrop** — core temperature continues to fall after rewarming begins, as cold peripheral blood returns centrally. **Rescue collapse** — cardiovascular collapse on or shortly after extrication, related to loss of the hydrostatic support of water in immersion and to the same peripheral-to-core shift. Both argue for gentle handling, horizontal extrication, and rewarming the core preferentially over the periphery.
+
+**S/Smx:** Shivering initially, then its absence as temperature falls further. Confusion, apathy, slurred speech, ataxia, "paradoxical undressing" in some, then coma. Bradycardia, hypotension, bradypnoea, dilated pupils, and apparent rigor mortis — none of which reliably indicate death in a hypothermic patient.
+
+**Ix:** Low-reading core thermometer, rectal or oesophageal (*why:* standard clinical thermometers do not read low enough and will simply report "low", giving no information about grade or trend; *what:* accurate core temperature). ECG with continuous monitoring (*why:* identifies Osborn waves, bradyarrhythmia and the ventricular irritability that determines handling; *what:* J waves, rhythm). Bedside glucose (*why:* hypoglycaemia both causes hypothermia and results from exhausted glycogen; *what:* low glucose). UEC with potassium (*why:* potassium is used in assessing futility in hypothermic arrest and rises with cell death; *what:* potassium). VBG (*why:* acidosis and lactate, noting that gas machines correct to 37°C and the interpretation of uncorrected values is a recognised subtlety; *what:* pH, lactate). Coagulation profile (*why:* cold-induced coagulopathy is not reflected in laboratory clotting times, which are run at 37°C — so normal results in a bleeding hypothermic patient are misleading; *what:* results interpreted with that caveat). TFTs and cortisol (*why:* myxoedema coma and adrenal crisis present as hypothermia and both are treatable; *what:* raised TSH, low cortisol). CK (*why:* rhabdomyolysis from prolonged immobility, particularly the elderly long lie; *what:* elevation). Septic screen (*why:* sepsis causes hypothermia in the elderly and is a marker of severity; *what:* source). Trauma survey (*why:* the fall that caused the long lie may have caused a fracture, and the hypothermia distracts from it; *what:* injuries).
+
+### Mx – Immediate — A6 §0.5.1
+Remove from the cold, remove wet clothing, insulate, handle gently, and monitor continuously. **Passive external rewarming** for mild cases — blankets, warm environment. **Active external rewarming** — forced warm air. **Active internal rewarming** — warmed humidified oxygen, warmed IV fluids, and in severe cases lavage or extracorporeal techniques. Treat hypoglycaemia. Empirical thyroxine and hydrocortisone where myxoedema or adrenal crisis is plausible.
+
+### Mx – Definitive — A6 §0.5.2
+**Extracorporeal rewarming (ECMO or cardiopulmonary bypass) is the treatment of choice in hypothermic cardiac arrest** where available, and warrants early discussion and transfer. ICU management.
+
+### Mx – Chronic/long-term — A6 §0.5.3
+**Address why it happened.** For the elderly patient found on the floor, this means a falls assessment, home safety and heating review, social isolation assessment and consideration of a personal alarm — the hypothermia is a symptom of a wider problem, and treating only the temperature guarantees a repeat. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+
 
 
 ## Added from unverified layer — environmental injury
