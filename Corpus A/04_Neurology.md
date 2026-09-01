@@ -2697,6 +2697,42 @@ Primary injuries divided into focal or diffuse.
 
 **Mx:** stop trigger, B12 replacement.
 
+### Sensory Disturbance — Numbness and Paraesthesia — from unverified layer
+`SRC:D4_Weakness__Neuropathy_and_Radiculopathy §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] The distribution localises the lesion
+> **Dermatomal** — nerve root.
+> **A named nerve territory** — mononeuropathy.
+> **Glove and stocking, symmetrical, distal** — length-dependent polyneuropathy.
+> **Multiple discrete nerve territories, asymmetric** — mononeuritis multiplex.
+> **One limb, crossing root and nerve boundaries** — plexus.
+> **Hemisensory** — contralateral brain, or **ipsilateral cord below the lesion**.
+> **A SENSORY LEVEL on the trunk** — **spinal cord. This is the emergency finding.**
+> **Perioral and bilateral hand tingling** — think **hyperventilation, hypocalcaemia, or hypomagnesaemia**, not a focal lesion.
+> **Saddle distribution** — **cauda equina. Emergency.**
+
+> [!warning] Dissociated sensory loss points to specific cord syndromes
+> **Loss of pain and temperature with PRESERVED light touch, vibration and proprioception** — a spinothalamic lesion. **Syringomyelia** classically produces a **"cape" distribution** across the shoulders and arms, and **anterior spinal artery infarction** produces it below the lesion with preserved dorsal columns.
+> **Loss of vibration and proprioception with preserved pain and temperature** — dorsal columns: **B12 deficiency, tabes dorsalis, and some hereditary ataxias.**
+> **Brown-Séquard** (cord hemisection) — **ipsilateral motor and dorsal column loss with CONTRALATERAL pain and temperature loss**, because the spinothalamic tract has already decussated.
+
+> [!tip] Positive versus negative phenomena
+> **Positive** — tingling, burning, shooting pain, allodynia. Suggests irritation or ectopic firing: neuropathy, radiculopathy, entrapment.
+> **Negative** — numbness, loss of sensation. Suggests conduction failure or destruction.
+> Both may coexist. **A patient with dense numbness who nonetheless has severe pain has a neuropathic process, not a musculoskeletal one.**
+
+**Ix:** Determined by the distribution — **root or cord patterns get spinal MRI, peripheral patterns get nerve conduction studies and metabolic screening, and central patterns get brain imaging.** Calcium and magnesium where perioral and acral tingling (*why:* hypocalcaemia and hypomagnesaemia are common, correctable, and produce exactly this pattern; *what:* low calcium or magnesium). B12 (*why:* dorsal column involvement; *what:* deficiency).
+
+#### Mx – Immediate — D4 §0.7.1
+**Urgent imaging for a sensory level or saddle anaesthesia.**
+
+#### Mx – Definitive — D4 §0.7.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D4 §0.7.3
+Protective measures where sensation is lost — **foot care, water temperature checks, and inspection of insensate areas** — which prevent the injuries that patients cannot feel.
+
+
 ### Friedreich's Ataxia
 
 **D:** autosomal recessive trinucleotide repeat disorder.
