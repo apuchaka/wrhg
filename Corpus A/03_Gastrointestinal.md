@@ -1786,25 +1786,41 @@ Cause-specific. **Surgery is not contraindicated in pregnancy** and a necessary 
 ### 0.11.3 Mx – Chronic/long-term
 Group-appropriate follow-up, including obstetric review after any operative intervention in pregnancy.
 
-### 0.41.7 Added from unverified layer — bilious versus non-bilious vomiting, and the vomiting patterns
-`SRC:C2_Nausea_and_Vomiting §0.3` `SRC:C2_Nausea_and_Vomiting §0.4 (cannabinoid hyperemesis only)` `UNVERIFIED — model knowledge, not source-checked.`
+### 0.41.7 Bilious versus Non-Bilious Vomiting — from unverified layer
+`SRC:C2_Nausea_and_Vomiting §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.41.7 fragment; its §0.20, §0.27 and 13_06b pointers are carried. The fragment also held C2 §0.4's cannabinoid hyperemesis, which merges whole at §0.41.18. The pyloric-stenosis fragment in 15_08 is left in place.*
 
-**A/P:** bile enters the duodenum at the **ampulla of Vater**, in the second part of the duodenum. **Bilious (green) vomiting therefore indicates obstruction distal to the ampulla**, whereas non-bilious vomiting indicates obstruction proximal to it, or a non-obstructive cause. This single landmark is what makes the bilious/non-bilious distinction diagnostically useful rather than merely descriptive.
+**A/P:** Bile enters the duodenum at the **ampulla of Vater**, in the second part of the duodenum. **Bilious (green) vomiting therefore indicates obstruction distal to the ampulla**, whereas non-bilious vomiting indicates obstruction proximal to it, or a non-obstructive cause.
 
-> [!tip] The adult vomiting patterns
-> **Bilious vomiting** — small bowel obstruction distal to the ampulla, or post-gastrectomy bile reflux. See §0.19.
-> **Faeculent vomiting** — established distal small bowel or colonic obstruction, and a late and ominous finding. See §0.20.
+> [!danger] Bilious vomiting in a neonate is malrotation with midgut volvulus until proven otherwise
+> **This is a surgical emergency measured in hours.** Malrotation leaves the midgut suspended on a narrow mesenteric pedicle, which can twist and infarct the entire midgut, causing death or lifelong short bowel syndrome.
+> The infant may initially look well, which is exactly the trap — **abdominal signs and shock are late.**
+> **Any bilious vomiting in a neonate requires urgent surgical review and an urgent upper gastrointestinal contrast study** to assess the position of the duodenojejunal flexure. Do not observe, do not attribute it to reflux, and do not wait until morning.
+> Other neonatal causes of bilious vomiting: duodenal, jejunal or ileal atresia, meconium ileus, Hirschsprung disease, necrotising enterocolitis.
+
+> [!info] Non-bilious projectile vomiting in an infant — pyloric stenosis
+> Typically presents in the **first weeks of life**, more commonly in firstborn males, with **projectile non-bilious vomiting immediately after feeds** and a baby who is **hungry again straight afterwards** — the persistent hunger is a useful discriminating feature.
+> Examination: visible gastric peristalsis, and a palpable "olive" in the right upper quadrant during a test feed. Ultrasound confirms it.
+> **The classic biochemistry is a hypochloraemic, hypokalaemic metabolic alkalosis with paradoxical aciduria** — losing hydrogen and chloride in gastric fluid, then losing further hydrogen and potassium renally under the influence of secondary hyperaldosteronism. Cross-refer [[06_Metabolic_Medicine_and_Endocrinology]] Acid-Base Balance.
+> **This is a medical emergency and a surgical semi-elective procedure.** The metabolic derangement must be corrected **before** theatre, because alkalosis causes post-operative apnoea. Correcting the biochemistry first is the point most often examined.
+
+> [!tip] In adults
+> **Bilious vomiting** — small bowel obstruction distal to the ampulla, or post-gastrectomy bile reflux.
+> **Faeculent vomiting** — established distal small bowel or colonic obstruction, and a late and ominous finding See §0.20 Large Bowel Obstruction.
 > **Large volume non-bilious vomiting of undigested food hours after eating** — gastric outlet obstruction, from peptic ulcer scarring (§0.27) or gastric malignancy.
-> **Undigested food with no nausea, immediately after eating** — think oesophageal (achalasia, pharyngeal pouch) rather than gastric. See [[13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology]].
+> **Undigested food with no nausea, immediately after eating** — think oesophageal (achalasia, pouch) rather than gastric. See [[13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology]].
 
-> [!info] Cannabinoid hyperemesis syndrome
-> **Recurrent severe vomiting in a long-term, frequent cannabis user, characteristically relieved by hot bathing or showering** — patients often describe compulsive hot showers, and that history is the diagnostic clue because nothing else produces it.
-> It is easily missed, because cannabis is usually thought of as an antiemetic, and because the presentation looks like cyclical vomiting.
-> **The treatment is cessation**, which is definitive but slow; symptomatic management in the acute episode is supportive. Ask about cannabis use in any patient with unexplained recurrent vomiting.
+**Ix:** **Urgent upper GI contrast study in a neonate with bilious vomiting** (*why:* it identifies malrotation by showing an abnormally positioned duodenojejunal flexure, and it is the test that must not be delayed; *what:* abnormal DJ flexure position, corkscrew duodenum). Abdominal radiograph (*why:* the "double bubble" of duodenal atresia, dilated loops, or a gasless abdomen in volvulus; *what:* gas pattern). **Ultrasound for suspected pyloric stenosis** (*why:* measures pyloric muscle thickness and channel length and is the diagnostic test; *what:* thickened pylorus — `UNVERIFIED — the measurement thresholds`). **UEC with chloride and a blood gas in any vomiting infant** (*why:* identifies the alkalosis that must be corrected before anaesthesia; *what:* hypochloraemic hypokalaemic alkalosis). CT abdomen in adults (*why:* identifies the obstruction and its transition point and cause; *what:* transition point, mass, hernia). Gastroscopy for suspected gastric outlet obstruction (*why:* distinguishes benign scarring from malignancy and permits biopsy and dilatation; *what:* stricture, tumour).
 
-**Ix:** CT abdomen in adults where obstruction is suspected (*why:* identifies the obstruction, its transition point and its cause; *what:* transition point, mass, hernia). Gastroscopy for suspected gastric outlet obstruction (*why:* distinguishes benign scarring from malignancy and permits biopsy and dilatation; *what:* stricture, tumour).
+### 0.3.1 Mx – Immediate
+**Neonate with bilious vomiting: nil by mouth, nasogastric decompression, IV fluids, urgent surgical referral and urgent contrast study.**
+**Infant with suspected pyloric stenosis: nasogastric decompression, IV fluid and electrolyte correction. Do not send to theatre until the alkalosis and hypokalaemia are corrected.**
 
----
+### 0.3.2 Mx – Definitive
+Ladd procedure for malrotation. Pyloromyotomy for pyloric stenosis. Adult obstruction managed per §0.19 / §0.20 Bowel Obstruction.
+
+### 0.3.3 Mx – Chronic/long-term
+Feeding re-establishment and growth monitoring. Parental education.
 
 ### 0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification
 `SRC:C3_Jaundice_and_Liver_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
