@@ -240,6 +240,70 @@ Analgesia and antiemetic. **Urgent neurosurgical referral.** Blood pressure cont
 #### Mx – Chronic/long-term
 Screening of first-degree relatives is considered where there is a strong family history. Cardiovascular risk factor management and **smoking cessation**, which is a major modifiable risk factor. Rehabilitation and neuropsychological follow-up — **cognitive and mood sequelae are common after SAH even in those with a good physical outcome**, and are under-recognised.
 
+### Primary Headache Disorders — from unverified layer
+`SRC:D1_Headache_and_Meningism §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!info] Migraine
+> **Recurrent attacks lasting hours to days**, characteristically **unilateral, pulsating, moderate to severe, aggravated by routine physical activity**, with **nausea, photophobia and phonophobia.** The patient wants to lie still in a dark quiet room — which is a useful contrast with cluster headache.
+> `UNVERIFIED — the formal ICHD diagnostic criteria including attack duration and the number of attacks required.`
+
+> [!tip] Aura — and how it differs from TIA and seizure
+> Aura occurs in a minority of migraineurs. Typically **visual** — a scintillating scotoma or fortification spectra expanding across the visual field — and sometimes sensory or speech disturbance.
+> **The discriminating feature is that aura SPREADS GRADUALLY over several minutes and is fully reversible, typically resolving within an hour.**
+> **· TIA is maximal at onset** — sudden, not spreading.
+> **· Seizure spreads over seconds**, not minutes, and is usually positive motor phenomena.
+> **· Migraine aura spreads over minutes**, reflecting the slow propagation of cortical spreading depression across the cortex.
+> **New aura in an older patient, aura without headache, or aura that is always on the same side, warrants imaging** rather than assumption.
+
+> [!danger] Migraine with aura and the combined oral contraceptive
+> **Migraine with aura is associated with an increased risk of ischaemic stroke, and combined hormonal contraception increases that risk further. Combined oral contraceptives are contraindicated in women with migraine with aura.**
+> Progestogen-only methods, the implant, the hormonal IUD and non-hormonal methods are options. **This is a common exam question and a real prescribing error.** Cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`. `UNVERIFIED — confirm the current contraindication wording and the position for migraine without aura.`
+
+> [!warning] Triptan contraindications
+> Triptans are 5-HT1B/1D agonists and cause vasoconstriction. **Contraindicated in ischaemic heart disease, previous myocardial infarction, uncontrolled hypertension, peripheral vascular disease, previous stroke or TIA, and in hemiplegic and brainstem-aura migraine.**
+> Take them **early in the attack** — efficacy falls substantially once the headache is established, and patients frequently wait "to see if it goes away", which is why they report the drug doesn't work.
+> **Avoid opioids for migraine.** They are less effective, they cause medication overuse headache, and they worsen the natural history. This is a frequent and avoidable emergency department practice.
+
+> [!tip] Migraine management
+> **Acute:** simple analgesia (aspirin, NSAID, paracetamol) **plus an antiemetic** — gastric stasis during an attack impairs absorption, so a prokinetic antiemetic both treats nausea and improves analgesic absorption. Then triptans. Newer agents (gepants, ditans) are emerging.
+> **Prophylaxis** — considered when attacks are frequent, disabling or poorly responsive: **propranolol, amitriptyline, candesartan, topiramate**, and **CGRP monoclonal antibodies.**
+> **Two safety points on prophylaxis:** **topiramate is teratogenic and interacts with hormonal contraception**, and **sodium valproate must be avoided in women of childbearing potential** because of its substantial teratogenic and neurodevelopmental risk — there are strict prescribing requirements around it. `UNVERIFIED — all agents, doses, and the current regulatory requirements for valproate and topiramate prescribing in Australia.`
+> **Non-pharmacological measures matter**: regular sleep, meals and hydration, exercise, and identifying but not obsessively avoiding triggers.
+
+> [!info] Tension-type headache
+> **Bilateral, pressing or tightening (non-pulsating), mild to moderate, NOT aggravated by routine activity, without nausea.** Often described as a band around the head. The commonest primary headache. Managed with simple analgesia used sparingly, stress management, posture and exercise — and **explicit advice about analgesic frequency**, because it commonly evolves into medication overuse headache.
+
+> [!danger] Cluster headache — the patient who cannot keep still
+> **Severe, strictly unilateral, orbital or temporal pain lasting roughly 15 to 180 minutes**, occurring once to several times daily, **in bouts lasting weeks to months separated by remission**, with a striking **circadian pattern — often waking the patient at the same time each night.**
+> **Ipsilateral cranial autonomic features: lacrimation, conjunctival injection, ptosis, miosis, rhinorrhoea, nasal congestion, eyelid oedema, facial sweating.**
+> **The behavioural discriminator is genuinely diagnostic: the cluster patient is restless, agitated, pacing, sometimes rocking or hitting their head — whereas the migraine patient lies still in the dark.** Ask what they do during an attack.
+> **Acute treatment: high-flow oxygen via a non-rebreather mask, and subcutaneous or intranasal sumatriptan** — oral triptans are too slow. **High-flow oxygen is highly effective, cheap, and consistently underused**, partly because clinicians do not think of it.
+> **Prophylaxis: verapamil**, at doses higher than cardiac practice, **requiring ECG monitoring for heart block.** `UNVERIFIED — oxygen flow rate and delivery, and verapamil dosing and monitoring schedule.`
+> Cluster headache is frequently misdiagnosed as migraine, sinusitis or dental pain for years, with a well-documented long delay to diagnosis.
+
+> [!tip] The other trigeminal autonomic cephalalgias
+> **Paroxysmal hemicrania** — shorter, more frequent attacks than cluster, with **an absolute response to indomethacin, which is itself diagnostic.**
+> **Hemicrania continua** — continuous unilateral headache with autonomic features and exacerbations, **also absolutely indomethacin-responsive.**
+> **SUNCT / SUNA** — very brief, very frequent stabbing attacks with autonomic features.
+> **A trial of indomethacin is worth considering in any strictly unilateral headache with autonomic features**, because a complete response identifies a highly treatable condition that is otherwise refractory.
+
+> [!tip] Trigeminal neuralgia
+> **Brief, paroxysmal, electric shock-like or lancinating facial pain in the distribution of one or more trigeminal divisions**, usually V2 or V3, **triggered by light touch, chewing, talking, shaving, cold wind or brushing teeth.** Patients may avoid eating and washing that side of the face.
+> Usually caused by neurovascular compression of the trigeminal root. **First-line treatment is carbamazepine.**
+> **MRI is indicated to exclude a secondary cause — particularly in a younger patient, with bilateral symptoms, or where there is objective sensory loss or other cranial nerve involvement, where multiple sclerosis or a tumour must be excluded.** `UNVERIFIED — carbamazepine dosing, monitoring, and the interactions and hyponatraemia risk.`
+
+**Ix:** **In a typical primary headache with a normal examination and no red flags, no investigation is needed.** Imaging where red flags are present, where the pattern has changed, or where the presentation is atypical. **MRI brain** (*why:* preferred over CT for posterior fossa, pituitary and demyelinating pathology, and for suspected secondary trigeminal neuralgia; *what:* structural lesion, neurovascular compression, demyelination). ESR and CRP in anyone over 50 with a new headache (*why:* giant cell arteritis; *what:* raised markers). Blood pressure (*why:* hypertensive causes and pre-eclampsia; *what:* elevation). **A headache diary** (*why:* the most useful "investigation" in chronic headache — it establishes the pattern, identifies triggers and, crucially, **quantifies analgesic use**; *what:* frequency, duration, medication days per month).
+
+#### Mx – Immediate
+Acute treatment as above. **Oxygen and subcutaneous triptan for cluster.** Avoid opioids.
+
+#### Mx – Definitive
+Prophylaxis where indicated, with a defined trial period and review — prophylactics need weeks to work, and patients stop them too early if not warned.
+
+#### Mx – Chronic/long-term
+Headache diary, lifestyle measures, review of contraception in migraine with aura, and **explicit counselling about analgesic frequency limits.**
+
+
 
 
 ## Dementias
