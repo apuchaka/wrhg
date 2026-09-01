@@ -1050,6 +1050,61 @@ Targeted antimicrobials on culture and sensitivity. ICU for reduced conscious st
 
 ---
 
+### Reduced Consciousness — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Impaired arousal or awareness, ranging from drowsiness through stupor to coma.
+
+**A/P:** Consciousness requires **an intact ascending reticular activating system in the brainstem AND at least one functioning cerebral hemisphere.** Coma therefore results from one of three things:
+**1. A brainstem lesion** damaging the ARAS directly.
+**2. Bilateral hemispheric dysfunction** — diffuse structural damage, or mass effect causing herniation and brainstem compression.
+**3. Diffuse metabolic or toxic depression** of the whole cortex.
+**A unilateral hemispheric lesion does not cause coma unless it is large enough to compress the brainstem** — so a comatose patient with a single small cortical lesion has something else going on.
+
+> [!danger] The first four things, before anything else
+> **1. Airway** — a patient who cannot protect their airway needs it protected. **2. Bedside glucose** — hypoglycaemia is instantly reversible and mimics everything. **3. Consider naloxone** where opioid toxicity is plausible (pinpoint pupils, low respiratory rate). **4. Consider thiamine** in the malnourished, alcohol-dependent or persistently vomiting — **and give it before or with any glucose.** Cross-refer [[03_Gastrointestinal]] §0.6 Alcohol-Related Liver Disease (ArLD).
+> Only then move to a structured assessment.
+
+> [!tip] Structural versus metabolic — the pattern that separates them
+> **Structural** — **asymmetry.** Lateralising motor signs, asymmetric pupils, gaze deviation, asymmetric reflexes or tone, abnormal posturing on one side.
+> **Metabolic or toxic** — **symmetry, with preserved pupillary light reflexes.** The pupils are the key: **metabolic causes generally spare the pupillary light reflex even in deep coma** (the notable exceptions being opioids, anticholinergics and profound hypothermia). A comatose patient with symmetrical reactive pupils and no focal signs is far more likely metabolic.
+> **Any asymmetry demands urgent imaging.**
+
+> [!info] What the pupils tell you
+> **Pinpoint and reactive** — opioids, or a pontine lesion (in which case they are usually unreactive and accompanied by other brainstem signs).
+> **Unilateral fixed and dilated** — **third nerve compression from uncal herniation.** A neurosurgical emergency.
+> **Fixed mid-position** — midbrain lesion.
+> **Bilaterally dilated and unreactive** — anticholinergic toxicity, severe hypoxic-ischaemic injury, or brainstem death.
+> **Small and reactive** — metabolic encephalopathy.
+
+> [!tip] Causes — AEIOU TIPS
+> **A** — Alcohol and other intoxicants · **E** — Epilepsy (including non-convulsive status), Electrolytes, Encephalopathy (hepatic, uraemic, hypertensive), Endocrine · **I** — Insulin: hypoglycaemia and hyperglycaemic states · **O** — Opiates, Oxygen (hypoxia and hypercapnia) · **U** — Uraemia · **T** — Trauma, Temperature (hypo- and hyperthermia) · **I** — Infection: sepsis, meningitis, encephalitis · **P** — Poisoning, Psychiatric · **S** — Stroke, SAH, Shock, Space-occupying lesion.
+
+> [!danger] Non-convulsive status epilepticus
+> **Consider it in any patient with unexplained persistently reduced consciousness**, particularly after a witnessed seizure where they have not returned to baseline, in known epilepsy, or after a critical illness. There may be only subtle signs — eyelid fluttering, nystagmoid eye movements, automatisms, or nothing at all.
+> **The diagnosis requires an EEG**, and it is missed because nobody asks for one. Cross-refer [[04_Neurology]] Seizures and Epilepsy.
+
+> [!warning] Document the GCS components, not just the total
+> **A total of 9 can mean E2V2M5 or E4V1M4 — very different patients.** Record eye, verbal and motor separately. **The motor score carries the most prognostic weight.** Note also that GCS is unreliable in intubated, sedated, aphasic or intoxicated patients, and in young children a paediatric version is required.
+
+> [!danger] Herniation syndromes
+> **Uncal herniation** — the medial temporal lobe compresses the third nerve and midbrain: **ipsilateral fixed dilated pupil, then contralateral hemiparesis, then decerebrate posturing and coma.**
+> **The Cushing response — hypertension, bradycardia and irregular respiration — is a LATE sign of critically raised intracranial pressure.** Do not wait for it. A falling GCS or a new pupillary asymmetry demands action first. Cross-refer [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure.
+
+**S/Smx:** Level of consciousness, pupils, eye movements and brainstem reflexes, motor response and asymmetry, tone and reflexes, respiratory pattern, temperature, skin (needle marks, rash, jaundice, cyanosis), breath odour (ketones, fetor hepaticus, alcohol), and evidence of trauma including the occiput and behind the ears.
+
+**Ix:** **Bedside glucose** (*why:* instantly reversible and mimics every cause; *what:* hypoglycaemia). **ABG or VBG with electrolytes and lactate** (*why:* identifies hypercapnia — which oximetry cannot detect — acidosis, hyponatraemia and lactate in minutes; *what:* pCO₂, pH, sodium, lactate). UEC, calcium, magnesium, phosphate, LFT, ammonia (*why:* metabolic encephalopathies, with **ammonia supporting hepatic encephalopathy though not required to diagnose it**; *what:* derangement). FBC, CRP, cultures (*why:* sepsis, which causes encephalopathy without CNS infection; *what:* infection). TFTs and cortisol (*why:* myxoedema coma and adrenal crisis both present as reduced consciousness and both are treatable; *what:* markedly raised TSH, low cortisol). **Paracetamol and salicylate levels, and a toxicology screen where indicated** (*why:* poisoning; *what:* levels — cross-refer [[14a-2_Psych_-_Overdose_and_Poisoning_Management]]). **CT brain** (*why:* haemorrhage, infarct, mass, hydrocephalus, herniation; *what:* structural lesion). **Lumbar puncture** where infection is suspected and it is safe (*why:* meningitis and encephalitis; *what:* CSF profile — cross-refer [[04_Neurology]] CNS Infections). **EEG** where the cause remains unexplained (*why:* non-convulsive status epilepticus; *what:* ongoing seizure activity). Core temperature (*why:* hypothermia and hyperthermia; *what:* extremes). ECG (*why:* arrhythmia, ischaemia, toxicological clues in QRS and QT; *what:* the trace).
+
+#### Mx – Immediate — D2 §0.1.1
+A–E with airway protection. Glucose. Thiamine before glucose in at-risk patients. Naloxone where indicated. Oxygen. Treat seizures. **Urgent CT where there is any asymmetry or focal sign.** Nurse head up where raised pressure is suspected.
+
+#### Mx – Definitive — D2 §0.1.2
+Cause-specific. ICU where the airway cannot be protected or the cause requires it.
+
+#### Mx – Chronic/long-term — D2 §0.1.3
+Rehabilitation, and investigation of the underlying condition.
+
+
 ### Added from unverified layer — structural versus metabolic, and two transient amnesias
 `SRC:D2_Altered_Consciousness_and_Cognition §0.1` `SRC:D2_Altered_Consciousness_and_Cognition §0.5` `UNVERIFIED — model knowledge, not source-checked.`
 
