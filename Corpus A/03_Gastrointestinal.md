@@ -1116,6 +1116,34 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 
 **The consultation matters as much as the procedure.** Adults are frequently embarrassed and delay presenting, which is why perforation is more common than the mechanism suggests — a matter-of-fact, non-judgemental approach gets an accurate history. **In a child, a rectal foreign body is a safeguarding presentation** and requires child protection escalation, as §0.41.6 notes for the acute abdomen generally.
 
+### 0.25.3 Tenesmus and Rectal Symptoms — from unverified layer
+`SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Tenesmus** is the persistent sensation of needing to defecate despite an empty rectum, with straining and a feeling of incomplete evacuation.
+
+> [!danger] Tenesmus is a red flag
+> It indicates a **space-occupying or inflammatory process in the rectum** irritating the stretch receptors that signal rectal filling.
+> **Causes: rectal carcinoma · proctitis (inflammatory, infective, radiation) · rectal abscess · rectal prolapse or intussusception · pelvic mass compressing the rectum · and severe haemorrhoidal disease.**
+> **New tenesmus warrants rectal examination and lower endoscopy** rather than symptomatic treatment. It is not a symptom of irritable bowel syndrome and should not be attributed to it.
+
+> [!tip] Related rectal symptoms and what they suggest
+> **Mucus per rectum** — proctitis, villous adenoma (which can cause large-volume mucus with hypokalaemia), tumour.
+> **Faecal incontinence** — obstetric sphincter injury, neurological disease, **overflow from impaction**, rectal prolapse, and post-surgical. Cross-refer `TODO:link — H2 LUTS, retention & incontinence (unbuilt)` and [[18_Geriatrics_and_Older_Persons_Health]]. It is profoundly under-reported because of embarrassment — **ask about it directly** in older patients rather than waiting for it to be volunteered.
+> **Rectal prolapse** — full-thickness protrusion, associated with chronic straining, and in children with cystic fibrosis and constipation.
+> **Pruritus ani and anorectal pain** — cross-refer §0.25 Haemorrhoids.
+
+**Ix:** **Digital rectal examination** (*why:* palpates a low rectal tumour, identifies impaction, prolapse and sphincter tone, and is the examination most often omitted in exactly the patients who need it; *what:* mass, loading, tone, blood). **Proctoscopy and flexible sigmoidoscopy or colonoscopy** (*why:* directly visualises the rectum, which is where the pathology causing tenesmus lies; *what:* tumour, proctitis, ulceration). Biopsy of any abnormality (*why:* histology; *what:* malignancy, inflammation). Stool culture and *C. difficile* where infective proctitis is possible (*why:* pathogen). **Sexually transmitted infection testing including rectal swabs where proctitis is present** (*why:* gonorrhoea, chlamydia including lymphogranuloma venereum, herpes and syphilis cause proctitis, particularly in men who have sex with men, and are missed unless specifically sought; *what:* NAAT positive — cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`). MRI pelvis for rectal tumours (*why:* local staging determines whether neoadjuvant therapy is needed; *what:* T stage, nodal involvement, margins). Anorectal physiology where incontinence (*why:* sphincter function and defect; *what:* sphincter integrity).
+
+#### 0.25.3.1 Mx – Immediate
+Rarely required.
+
+#### 0.25.3.2 Mx – Definitive
+Cause-specific, with oncological management for malignancy.
+
+#### 0.25.3.3 Mx – Chronic/long-term
+Pelvic floor physiotherapy for incontinence, which is effective and under-referred. Surgical repair where indicated.
+
+
 
 ## 0.26 Colorectal Cancer
 
