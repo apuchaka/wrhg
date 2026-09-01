@@ -3210,6 +3210,49 @@ Protective measures where sensation is lost — **foot care, water temperature c
 
 **Essential tremor (benign essential tremor):** progressive, mainly symmetrical, rhythmic, involuntary oscillatory movement disorder of the hands and forearms. Autosomal dominant. Usually absent at rest, present during intentional movements (e.g. finger-to-nose test). Improves with alcohol and rest (opposite of Parkinson's). Associated with titubation (head tremor). Mx: propranolol first-line; ?primidone.
 
+### Tremor — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** A rhythmic oscillatory movement of a body part.
+
+> [!tip] Classify by when it occurs — this is the whole diagnosis
+> **Rest tremor** — present when the limb is fully supported and relaxed, **decreases with voluntary movement.** → **Parkinsonism.** Classically "pill-rolling", asymmetric, and it may be **re-emergent** (reappearing after a delay when the arms are held outstretched, which can confuse it with a postural tremor).
+> **Postural tremor** — present when holding a posture against gravity. → **Essential tremor, enhanced physiological tremor.**
+> **Kinetic / intention tremor** — during movement, **worsening as the target is approached.** → **Cerebellar disease.**
+> **Task-specific** — only during a particular activity, such as writing. → Primary writing tremor, dystonic tremor.
+
+> [!info] Essential tremor
+> **Bilateral, largely symmetric postural and action tremor of the hands**, often also affecting the **head (titubation) and voice**, slowly progressive over years.
+> **A family history in about half**, and **characteristic improvement with a small amount of alcohol** — a genuinely useful diagnostic question, though not one to encourage as treatment.
+> **The commonest movement disorder, and it is frequently misdiagnosed as Parkinson disease.** The distinction: essential tremor is **action-predominant, bilateral, affects head and voice, and has no bradykinesia or rigidity.**
+> Treated with propranolol or primidone.
+
+> [!warning] Enhanced physiological tremor — check the drug chart and the thyroid
+> A fine, fast postural tremor caused by: **anxiety, caffeine, fatigue, thyrotoxicosis, hypoglycaemia, alcohol withdrawal**, and **drugs — salbutamol and other beta-agonists, lithium, valproate, SSRIs, tricyclics, corticosteroids, amiodarone, stimulants.**
+> **This is the commonest cause of new tremor and is entirely reversible**, so the drug list and TFTs come before any imaging.
+
+> [!danger] Wilson disease in anyone under about 40 with a movement disorder
+> **Autosomal recessive copper accumulation, treatable, and devastating if missed.**
+> Presents with tremor (classically a proximal **"wing-beating"** tremor), dystonia, parkinsonism, ataxia, **psychiatric or behavioural change**, and **liver disease.**
+> **Kayser-Fleischer rings** on slit lamp examination, **low serum caeruloplasmin**, raised urinary copper.
+> **Screen for it in any young person with an unexplained movement disorder, unexplained liver disease, or new psychiatric illness with neurological signs.** Cross-refer [[03_Gastrointestinal]] §0.38.2 Acute Liver Failure.
+
+> [!tip] Functional tremor
+> **Variable frequency and amplitude, distractibility (it diminishes or stops when attention is diverted to a complex task in another limb), and entrainment (the tremor frequency shifts to match a rhythm the patient is asked to tap with the other hand).**
+> These are **positive signs**, and functional tremor is a positive diagnosis, not a diagnosis of exclusion. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
+
+**Ix:** **Medication review and TFTs** (*why:* enhanced physiological tremor is the commonest and most reversible cause; *what:* culprit drug, thyrotoxicosis). Glucose, UEC, LFT (*why:* metabolic causes; *what:* derangement). **Caeruloplasmin, urinary copper and slit lamp examination in anyone under 40** (*why:* Wilson disease is treatable and missing it is catastrophic; *what:* low caeruloplasmin, KF rings). MRI brain where there are cerebellar signs, asymmetry, or an atypical presentation (*why:* structural cerebellar or basal ganglia pathology; *what:* lesion). **DaTscan (dopamine transporter imaging)** where the distinction between essential tremor and parkinsonism is genuinely unclear (*why:* it distinguishes a presynaptic dopaminergic deficit from essential and drug-induced tremor; *what:* reduced striatal uptake — `UNVERIFIED — availability and funding in Australia`).
+
+#### Mx – Immediate — D6 §0.4.1
+Not required.
+
+#### Mx – Definitive — D6 §0.4.2
+Cease the causative drug. Treat thyrotoxicosis. Propranolol or primidone for essential tremor. Chelation for Wilson disease.
+
+#### Mx – Chronic/long-term — D6 §0.4.3
+Occupational therapy and adaptive equipment — weighted cutlery, adapted utensils — which are practical and under-offered. Deep brain stimulation or focused ultrasound for severe refractory essential tremor.
+
+
 ### Austroads Driving Standards (Neurological Conditions)
 
 > [!info] Verified against Austroads *Assessing Fitness to Drive* 2022 edition (current at Aug 2026), private-vehicle standards, Aug 2026 — Australian standards are structured quite differently from the UK DVLA rules, generally built around a single "default standard" seizure-free/event-free period rather than the UK's variable tiered system. Commercial-vehicle standards are considerably stricter (e.g. 10-year seizure-free default for some categories) — check the source document directly if advising a commercial driver.
