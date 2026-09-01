@@ -1827,18 +1827,61 @@ Treat the cause — **alcohol cessation, antiviral therapy for hepatitis B and C
 
 ---
 
-### 0.39.1 Added from unverified layer — acute colonic pseudo-obstruction, and the CT transition point
-`SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.1` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
+### 0.39.1 Bowel Obstruction — from unverified layer
+`SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.1 fragment.*
 
-> [!danger] Acute colonic pseudo-obstruction (Ogilvie syndrome)
-> **Massive colonic dilatation without any mechanical obstruction**, typically in an unwell, elderly, immobile or post-operative patient. It is distinct from the paralytic ileus described above, which is predominantly small bowel and post-operative.
-> **It carries a genuine risk of caecal perforation.** Management is supportive and medical — correct electrolytes, stop contributing drugs (opioids, anticholinergics), decompress — not operative.
-> `UNVERIFIED — the caecal diameter at which perforation risk becomes the deciding factor, and the indications for neostigmine or colonoscopic decompression; gastroenterology or surgical guidance.`
+**D:** Mechanical interruption to the passage of intestinal contents, classified by level (small or large bowel), by degree (partial or complete), and — critically — by whether the blood supply is compromised (simple or **strangulated**).
 
-> [!info] The transition point is the radiological question that decides the operation
-> **Mechanical obstruction has a transition point on CT; ileus and pseudo-obstruction do not.** The finding itself, and what it looks like, are owned by [[Investigation-Interpretation]] — *"identify the transition point if possible (dilated bowel proximal, collapsed distal)"* — and are not restated here.
-> **What that section does not say is why it matters this much: operating on a pseudo-obstruction is harmful.** §0.19 and §0.20 describe the mechanical entities; §0.39 and the block above describe the non-mechanical ones; the transition point is how they are told apart, and the consequence of getting it wrong is asymmetric.
+**A/P:** Obstruction → proximal distension with swallowed air and accumulated secretions → increased intraluminal pressure → **venous congestion of the bowel wall, then arterial compromise** → mucosal ischaemia → bacterial translocation → transmural necrosis and perforation. Meanwhile, large volumes of fluid are sequestered into the bowel lumen and wall — **third-spacing that is invisible on the fluid balance chart** — producing profound hypovolaemia. Cross-refer [[06_Metabolic_Medicine_and_Endocrinology]] Acid-Base Balance.
 
+> [!tip] Causes by level
+> **Small bowel obstruction**
+> · **Adhesions** — the commonest cause in anyone who has had abdominal surgery. Ask about previous operations, and look for scars.
+> · **Hernia** — the commonest cause in a patient with **no** previous surgery. **Examine both groins.** An incarcerated femoral hernia in an elderly woman is the classic missed cause.
+> · Malignancy, Crohn stricture, intussusception, gallstone ileus, bezoar, radiation stricture.
+> **Large bowel obstruction**
+> · **Colorectal carcinoma** — the commonest.
+> · **Volvulus** — sigmoid more often than caecal.
+> · Diverticular stricture, faecal impaction, and **pseudo-obstruction** (see below). **The CT transition point is owned by [[Investigation-Interpretation]]**; §0.19 and §0.20 describe the mechanical entities, §0.39 the non-mechanical ones, and operating on a pseudo-obstruction is harmful.
+
+> [!info] The four cardinal features, and how the level changes them
+> | | Proximal small bowel | Distal small bowel | Large bowel |
+> |---|---|---|---|
+> | **Vomiting** | **Early, profuse** | Later, becomes faeculent | **Late or absent** |
+> | **Distension** | Minimal | Moderate | **Marked** |
+> | **Colicky pain** | Frequent, short cycles | Longer cycles | Longer still |
+> | **Absolute constipation** | Late | Late | **Early** |
+> "Absolute constipation" means **no flatus and no faeces** — passing flatus argues against complete obstruction, and asking about it specifically is more useful than asking about bowel motions.
+
+> [!danger] Simple versus strangulated — the distinction that decides theatre
+> **Strangulation is suggested by: pain becoming CONTINUOUS rather than colicky · tachycardia · fever · localised tenderness, guarding or peritonism · a raised lactate · a rising white cell count · and a tender irreducible hernia.**
+> **The change from colicky to constant pain is the single most useful clinical signal**, and it is the point at which the patient stops being a candidate for conservative management.
+> **A closed-loop obstruction** — where a segment is obstructed at both ends, as in a volvulus, an obstructed hernia, or large bowel obstruction with a competent ileocaecal valve — **progresses to ischaemia far faster** and cannot be managed conservatively.
+
+> [!danger] The competent ileocaecal valve and the caecum
+> In large bowel obstruction with a **competent ileocaecal valve**, the colon becomes a closed loop. By Laplace's law, wall tension is proportional to radius, so **the caecum — the widest part of the colon — distends most and perforates first.**
+> **A markedly dilated caecum on plain film is a warning of impending perforation and mandates urgent decompression**, regardless of how well the patient appears. `UNVERIFIED — the caecal diameter threshold at which perforation risk becomes critical.`
+
+> [!warning] Ileus and pseudo-obstruction are not mechanical obstruction
+> **Paralytic ileus** — post-operative, or secondary to electrolyte disturbance (hypokalaemia), opioids, anticholinergics, sepsis, retroperitoneal pathology or inflammation. Distension with **absent bowel sounds** and **no transition point on CT.** Treated by correcting the cause, not by operating.
+> **Acute colonic pseudo-obstruction (Ogilvie syndrome)** — massive colonic dilatation without mechanical obstruction, typically in an unwell, elderly, immobile or post-operative patient. It carries a genuine risk of **caecal perforation**, and management involves correcting electrolytes, stopping causative drugs, decompression, and **neostigmine** under cardiac monitoring (bradycardia risk). `UNVERIFIED — neostigmine dosing, contraindications and monitoring requirements.`
+> **Distinguishing these from mechanical obstruction on CT — the presence or absence of a transition point — is the key radiological question**, because operating on a pseudo-obstruction is harmful.
+
+**S/Smx:** Colicky central abdominal pain, vomiting, distension, absolute constipation. Examine for scars, hernias (**both groins, every time**), tenderness, peritonism, bowel sounds, and a rectal examination for faecal impaction, a rectal mass or an empty ballooned rectum.
+
+**Ix:** **CT abdomen and pelvis with contrast** (*why:* the investigation of choice — it confirms obstruction, identifies the **transition point** and the cause, distinguishes mechanical from ileus, and detects the ischaemia that changes the plan; *what:* dilated proximal and collapsed distal bowel with a transition point, cause, and signs of ischaemia — **bowel wall thickening, lack of mucosal enhancement, pneumatosis intestinalis, portal venous gas, free fluid**). Erect and supine abdominal radiograph (*why:* quick and available, showing dilated loops and air-fluid levels, and it distinguishes small from large bowel — **valvulae conniventes cross the full lumen width, haustra do not** — and shows the "coffee bean" of sigmoid volvulus; *what:* dilated loops, level of obstruction, caecal diameter). **Erect CXR** (*why:* free gas indicating perforation; *what:* subdiaphragmatic gas). **VBG with lactate** (*why:* a raised lactate in obstruction suggests strangulation and is a reason to operate; *what:* metabolic acidosis, raised lactate). UEC (*why:* the fluid and electrolyte losses are large and often underestimated, and hypokalaemia both causes and results from ileus; *what:* dehydration, hypokalaemia, hypochloraemia). FBC and CRP (*why:* leucocytosis supports strangulation; *what:* rising white cell count). Group and hold (*why:* many go to theatre; *what:* units available). **Water-soluble contrast study** in adhesional small bowel obstruction (*why:* **both diagnostic and therapeutic** — contrast reaching the colon within a defined interval predicts successful non-operative resolution, and the hyperosmolar contrast itself may relieve the obstruction; *what:* contrast progression — cross-refer `TODO:link — GER8 Procedure addendum (unbuilt; was P6 in build queue v1)`).
+
+#### 0.39.1.1 Mx – Immediate
+**"Drip and suck"** — nasogastric tube on free drainage for decompression, intravenous fluids with potassium replacement, urinary catheter for output monitoring, nil by mouth. Analgesia and an antiemetic — **a non-prokinetic antiemetic; metoclopramide is contraindicated in mechanical obstruction.** Cross-refer §0.41.16 Nausea and Vomiting. Correct electrolytes. **Surgical referral for every patient.**
+
+#### 0.39.1.2 Mx – Definitive
+**Adhesional small bowel obstruction frequently settles with conservative management** over a day or two, with a water-soluble contrast study guiding the decision. **Strangulation, closed-loop obstruction, obstructed hernia, perforation, failure to resolve, or obstruction with no previous surgery all require surgery.**
+**Sigmoid volvulus** — endoscopic decompression with flatus tube insertion is first line and usually successful, but **recurrence is high, so elective sigmoidectomy is considered.** **Caecal volvulus requires surgery** — it does not decompress endoscopically.
+Large bowel obstruction from malignancy — resection, defunctioning stoma, or a colonic stent as a bridge to surgery or as palliation.
+
+#### 0.39.1.3 Mx – Chronic/long-term
+Adhesion prevention is limited; recurrent adhesional obstruction is common and each episode is managed on its merits. Colonoscopic surveillance and oncological management after malignant obstruction. Stoma care and reversal planning.
 
 ## 0.40 Malabsorption
 
