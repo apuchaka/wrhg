@@ -2890,6 +2890,7 @@ Different inheritance patterns; can affect Schwann cells and myelin (CMT1) or ax
 > Both cause weak dorsiflexion. The discriminator:
 > **· Common peroneal palsy** — **ankle INVERSION is preserved** (tibialis posterior is supplied by the tibial nerve), and there is **no back pain and no hip abduction weakness.**
 > **· L5 radiculopathy** — **ankle inversion IS weak** (tibialis posterior is an L5 muscle), **hip abduction is weak**, and there is usually back pain radiating down the leg.
+> The anatomy behind the manoeuvre — tibialis posterior supplied by the **tibial** nerve but an **L5** muscle — is already tabulated in [[11_07a_Ortho_-_Dermatomes_and_Myotomes_Reference]] and is not repeated here.
 > **Ankle jerk (S1) is preserved in both**, so it does not help.
 > **Test inversion.** It is a single manoeuvre that separates a peripheral compression from a spinal problem.
 
