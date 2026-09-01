@@ -535,6 +535,61 @@ Cause-specific.
 
 ---
 
+### Delirium — from unverified layer
+`SRC:D2_Altered_Consciousness_and_Cognition §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** An acute, fluctuating disturbance of attention and awareness with additional cognitive disturbance, developing over hours to days, caused by a physiological insult.
+
+> [!tip] Inattention is the core feature — and it is testable in under a minute
+> **Delirium is fundamentally a disorder of attention.** Ask the patient to recite **the months of the year backwards from December**, or the days of the week backwards. Failure to sustain and shift attention is the diagnostic finding.
+> Screening tools: **the 4AT** is quick, needs no training and is widely used in Australian hospitals; the **CAM** and **CAM-ICU** are alternatives. `UNVERIFIED — scoring and cut-offs.`
+
+> [!danger] Hypoactive delirium is commoner than hyperactive, and it is missed
+> **The agitated, pulling-at-lines patient gets recognised. The quiet, withdrawn, drowsy, "settled" patient does not** — and is labelled as depressed, tired, or "just their dementia".
+> **Hypoactive delirium is more common, has a worse prognosis, and is the form that goes undiagnosed.** If a patient has become quieter, more withdrawn or less engaged over days, screen them for delirium rather than assuming low mood.
+
+> [!tip] Precipitants — PINCH ME
+> **P**ain · **I**nfection · **N**utrition · **C**onstipation · **H**ydration · **M**edication · **E**nvironment
+> Add to this list explicitly: **urinary retention** (do a bladder scan), **hypoxia**, **electrolyte disturbance**, **alcohol or benzodiazepine withdrawal**, **stroke**, **myocardial infarction**, **the post-operative state**, and **sleep deprivation.**
+> **Delirium is usually multifactorial**, so finding one cause does not mean you should stop looking. In a frail patient it may take only a small insult; in a robust one it takes a large one — so **delirium in a previously well younger person implies a serious underlying illness.**
+
+> [!warning] The drugs that cause it
+> **Anticholinergics** (including many antihistamines, oxybutynin, tricyclics, and the cumulative anticholinergic burden of polypharmacy), **benzodiazepines**, **opioids**, **corticosteroids**, dopaminergic agents, and **withdrawal** from alcohol, benzodiazepines or nicotine.
+> **Reviewing and rationalising the drug chart is one of the most effective interventions available**, and it is free. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+> [!tip] Management is overwhelmingly non-pharmacological
+> **Treat the precipitants.** Then:
+> **· Orientation** — clock, calendar, familiar objects, repeated reorientation by staff.
+> **· Sensory aids** — **glasses and hearing aids.** A patient who cannot see or hear cannot orient, and this is astonishingly often overlooked.
+> **· Day-night structure** — light during the day, dark and quiet at night, minimise nocturnal observations and procedures where safe.
+> **· Mobilise early** and avoid immobilising devices.
+> **· Remove catheters, lines and restraints wherever possible** — each is a tether that increases agitation and infection risk.
+> **· Family presence**, which is genuinely therapeutic and should be facilitated with flexible visiting.
+> **· Consistency of staff** where possible.
+> **Multicomponent prevention programs reduce incident delirium substantially** — this is one of the better-evidenced interventions in geriatric medicine.
+
+> [!danger] Medication for delirium — narrow indications and real hazards
+> **Antipsychotics do not treat delirium.** They are used only where the patient is a danger to themselves or others, or is so distressed that non-pharmacological measures have failed — at **the lowest dose, for the shortest time**, with regular review.
+> **Antipsychotics in older people with dementia increase the risk of stroke and death.**
+> **In Lewy body dementia and Parkinson disease, antipsychotics can cause severe, sometimes irreversible neuroleptic sensitivity reactions** — rigidity, autonomic instability, and a marked deterioration. **Ask about hallucinations, fluctuation, REM sleep behaviour disorder and parkinsonism BEFORE prescribing any antipsychotic in an older patient.**
+> **Benzodiazepines worsen delirium** and should be avoided — **except where the delirium is due to alcohol or benzodiazepine withdrawal**, where they are the treatment.
+> `UNVERIFIED — agents, doses and review intervals.`
+
+**S/Smx:** Acute onset, fluctuating course (worse at night — "sundowning"), inattention, disorganised thinking, altered conscious level, perceptual disturbance (often visual hallucinations and misperceptions), disturbed sleep-wake cycle, emotional lability, and either agitation or withdrawal.
+
+**Ix:** **A structured search for precipitants** rather than a reflex panel — **history and collateral, medication review, examination including a bladder scan and a rectal examination for constipation, and observations including oxygen saturation** (*why:* the commonest causes are found clinically, not on the blood results; *what:* infection, retention, constipation, pain, hypoxia, drugs). FBC, CRP, UEC, calcium, glucose, LFT, TFTs (*why:* metabolic and infective precipitants; *what:* derangement). Urinalysis and culture — **interpreted carefully** (*why:* asymptomatic bacteriuria is very common in older people and **a positive urine culture does not prove that a UTI is the cause of the delirium**; treating it while missing the real cause is a recognised error; *what:* infection in context). CXR (*why:* pneumonia, often without cough or fever in the elderly; *what:* consolidation). ECG (*why:* silent myocardial infarction; *what:* ischaemia). Blood cultures where febrile (*why:* sepsis; *what:* organism). **CT brain only where there are focal signs, head injury, anticoagulation, or no other explanation** (*why:* routine CT in delirium has low yield and delays treatment of the actual cause; *what:* haemorrhage, infarct, subdural). Consider **thiamine, B12 and folate** in the malnourished or alcohol-dependent (*why:* Wernicke encephalopathy; *what:* treat empirically rather than wait).
+
+#### Mx – Immediate — D2 §0.2.1
+Treat the precipitants. Non-pharmacological measures. Ensure safety without restraints where possible.
+
+#### Mx – Definitive — D2 §0.2.2
+Ongoing treatment of the underlying cause, with daily reassessment.
+
+#### Mx – Chronic/long-term — D2 §0.2.3
+**Delirium is not benign** — it independently predicts prolonged admission, functional decline, institutionalisation, death, and subsequent dementia.
+**Explain it to the patient and family, and document it in the discharge summary**, because recovery takes weeks to months and families are frequently told nothing. **Arrange cognitive follow-up**, since an episode of delirium may unmask previously unrecognised dementia. Cross-refer [[18_Geriatrics_and_Older_Persons_Health]].
+
+
 ## Delirium vs Dementia vs Depression — the "3 Ds" in Older People
 
 > [!note] Gap-filled from CSV ("Delirium vs dementia vs depression (differentiating in the elderly)," High yield, Older Persons Health / Geriatrics category). Each of the three conditions was already built — Delirium immediately above, Dementias earlier in this file, and [[14_01_Psych_-_Mood_Disorders__Depression__Suicide__Bipolar_]] Depression (Major depressive disorder) — but the *differential between them* existed only as a one-line tip about serial 7s. Built here rather than in the new Geriatrics file because both structural anchors (Dementias, Delirium) already live in this file, and separating the comparison from the things being compared would make it harder to find, not easier. Verified against the RACGP aged care clinical guide (Silver Book, 5th edition), which carries the same comparison, Aug 2026.
