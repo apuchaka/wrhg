@@ -2265,6 +2265,43 @@ Cause-specific, with ophthalmology and neurology involvement.
 #### Mx – Chronic/long-term — D7 §0.3.3
 Prisms or occlusion for persistent diplopia. Strabismus surgery once stable. **Driving advice while diplopia persists** — cross-refer [[04_Neurology]] Austroads Driving Standards (Neurological Conditions).
 
+### Smell and Taste — from unverified layer
+`SRC:D7_Cranial_Nerves_and_Special_Senses §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Hyposmia is an early feature of neurodegenerative disease
+> **Loss of smell precedes the motor features of Parkinson disease and the cognitive features of Alzheimer disease by years, sometimes more than a decade.**
+> Alongside **REM sleep behaviour disorder and constipation**, it forms the recognised prodrome of Parkinson disease. Cross-refer [[04_Neurology]] Parkinsonism.
+> This is not currently something to screen for, but a patient with longstanding unexplained anosmia and new subtle motor or cognitive change is a coherent picture rather than a coincidence.
+
+> [!tip] The causes of anosmia
+> **· Sinonasal disease — the commonest**: chronic rhinosinusitis, nasal polyps, allergic rhinitis. Often reversible.
+> **· Post-viral** — including **COVID-19**, which brought this presentation to prominence; often recovers slowly.
+> **· Head trauma** — **shearing of the olfactory fila as they pass through the cribriform plate**, classically after an occipital impact. Frequently permanent, and it is a recognised medicolegal issue.
+> **· Neurodegenerative** — as above.
+> **· Tumour** — **olfactory groove meningioma**, which may produce **Foster Kennedy syndrome**: ipsilateral optic atrophy from direct compression with contralateral papilloedema from raised intracranial pressure.
+> **· Drugs, toxins, radiotherapy, zinc deficiency, and normal ageing.**
+
+> [!warning] Anosmia has real safety implications
+> **Patients cannot smell smoke, gas leaks, or spoiled food.** Advise **smoke alarms, electric rather than gas appliances where feasible, and attention to food expiry dates.** Loss of smell also removes most of flavour, causing reduced appetite, weight loss and low mood — this is genuinely distressing and deserves acknowledgement rather than being treated as trivial.
+
+> [!tip] Taste
+> **Anterior two-thirds of the tongue — chorda tympani, a branch of the FACIAL nerve (VII).** Hence altered taste in Bell palsy.
+> **Posterior third — glossopharyngeal (IX).**
+> Causes of altered taste: **dry mouth (very common — drugs, Sjögren syndrome, radiotherapy), zinc deficiency, smoking, oral candidiasis and poor dental hygiene, drugs (metronidazole, ACE inhibitors, metformin, chemotherapy), and facial nerve pathology.**
+> **Most "loss of taste" is actually loss of smell** — the retronasal olfaction that provides flavour. Test them separately.
+
+**Ix:** **Nasal examination and consideration of nasendoscopy** (*why:* sinonasal disease is the commonest and most treatable cause; *what:* polyps, inflammation, obstruction). Formal olfactory testing (*why:* quantifies and confirms; *what:* threshold and identification scores). **MRI with attention to the olfactory grooves and anterior cranial fossa where anosmia is unilateral, progressive or unexplained** (*why:* olfactory groove meningioma and other anterior fossa lesions; *what:* mass). Zinc, B12 (*why:* correctable deficiencies; *what:* deficiency). Medication and dental review (*why:* common reversible causes of taste disturbance; *what:* culprit drug, oral disease).
+
+#### Mx – Immediate — D7 §0.5.1
+Not required.
+
+#### Mx – Definitive — D7 §0.5.2
+Treat sinonasal disease, correct deficiency, cease the offending drug. **Olfactory training** has some evidence in post-viral anosmia.
+
+#### Mx – Chronic/long-term — D7 §0.5.3
+**Safety advice as above.** Nutritional support where appetite and weight are affected. Acknowledgement of the psychological impact.
+
+
 
 
 
