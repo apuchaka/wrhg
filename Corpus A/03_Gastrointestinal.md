@@ -1938,30 +1938,51 @@ Ladd procedure for malrotation. Pyloromyotomy for pyloric stenosis. Adult obstru
 #### 0.41.7.3 Mx – Chronic/long-term
 Feeding re-establishment and growth monitoring. Parental education.
 
-### 0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification
+### 0.41.8 Jaundice — Mechanism and Classification — from unverified layer
 `SRC:C3_Jaundice_and_Liver_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.41.8 fragment; its ownership and section pointers are carried. Hepatic encephalopathy grading is already at §0.6.3 above.*
 
-**A/P:** senescent red cells are broken down in the reticuloendothelial system → haem → biliverdin → **unconjugated bilirubin**, which is lipid-soluble, tightly albumin-bound and therefore **cannot be filtered by the glomerulus** → transported to the liver → taken up by hepatocytes → **conjugated with glucuronic acid by UGT1A1** → **conjugated bilirubin**, which is water-soluble → excreted in bile → converted by gut bacteria to urobilinogen and stercobilin, which colours the stool.
+**D:** Yellow discolouration of skin, sclerae and mucous membranes from bilirubin deposition, clinically detectable once serum bilirubin exceeds roughly twice the upper limit of normal. `UNVERIFIED — the threshold at which jaundice becomes visible.`
 
-> [!danger] The urine and stool answer the first question — and here is why
-> **That dark urine with pale stools signals cholestasis is owned by [[NEW_Investigations_Renal_and_Urology]]** (bilirubinuria, conjugated hyperbilirubinaemia) and is not restated here.
-> **The mechanism is what makes it usable as a bedside test, and that is not stated there:** unconjugated bilirubin is **albumin-bound and cannot be filtered by the glomerulus**, so it never reaches the urine.
-> - **Jaundice with normal-coloured urine = unconjugated** — prehepatic, or a conjugation defect.
-> - **Dark urine and pale stools = conjugated**, with impaired excretion.
->
-> Two questions asked in the history, at no cost, split the differential before any test returns. **Pruritus** additionally points toward cholestasis.
+**A/P:** Senescent red cells are broken down in the reticuloendothelial system → haem → biliverdin → **unconjugated bilirubin**, which is lipid-soluble, tightly albumin-bound and therefore **cannot be filtered by the glomerulus** → transported to the liver → taken up by hepatocytes → **conjugated with glucuronic acid by UGT1A1** → **conjugated bilirubin**, which is water-soluble → excreted in bile → converted by gut bacteria to urobilinogen and stercobilin, which colours the stool.
+
+> [!danger] The urine and stool answer the first question *(bilirubinuria and conjugated hyperbilirubinaemia are owned by [[NEW_Investigations_Renal_and_Urology]].)*
+> **Unconjugated bilirubin is albumin-bound and cannot enter the urine.** So:
+> **· Jaundice with normal-coloured urine = unconjugated (prehepatic or a conjugation defect).**
+> **· Jaundice with dark urine and pale stools = conjugated, with impaired excretion — hepatocellular or obstructive.**
+> This single pair of questions, asked in the history at no cost, splits the differential before any test returns. **Pruritus** additionally points strongly toward cholestasis.
 
 > [!tip] The three-way classification
 > **Prehepatic** — increased bilirubin load. Haemolysis, ineffective erythropoiesis, resorption of a large haematoma. **Unconjugated.**
-> **Hepatic** — impaired uptake, conjugation or excretion by the hepatocyte. Hepatitis (§0.9), cirrhosis (§0.38), drugs, Gilbert syndrome. **Mixed, or unconjugated where the defect is in conjugation.**
+> **Hepatic** — impaired uptake, conjugation or excretion by the hepatocyte. Hepatitis (§0.9), cirrhosis (§0.38), drugs, Gilbert syndrome. **Mixed, or unconjugated in conjugation defects.**
 > **Posthepatic** — obstruction to biliary flow. Stones, strictures, tumours (§0.3, §0.4, §0.5, §0.14). **Conjugated.**
 
-> [!note] What this section deliberately does not do
-> The **LFT pattern** (hepatocellular vs cholestatic, the AST:ALT ratio, and why the panel measures injury rather than function) is owned by [[NEW_Investigations_Gastroenterology]] §0.1 and is not restated here.
-> **Hepatic encephalopathy grading** is already at §0.6.3 above.
-> **`Dubin-Johnson` and `Rotor` syndromes are absent from this vault and were not supplied by the merged material either** — a real gap, recorded rather than filled from memory.
+> [!info] Reading the LFT pattern *(the LFT panel itself is owned by [[NEW_Investigations_Gastroenterology]] §0.1.)*
+> **Hepatocellular pattern** — **ALT and AST** disproportionately raised. Hepatitis of any cause.
+> **Cholestatic pattern** — **ALP and GGT** disproportionately raised. Obstruction, or intrahepatic cholestasis.
+> **A raised ALP with a NORMAL GGT points away from the liver** — think **bone** (Paget disease, metastases, osteomalacia, healing fracture, growth in children) or placenta in pregnancy. The GGT is what confirms a hepatobiliary source.
+> **An AST:ALT ratio above 2** suggests alcohol-related liver disease, particularly with a raised GGT and macrocytosis.
+> `UNVERIFIED — the R ratio formula used to formally classify hepatocellular versus cholestatic injury, and all reference ranges.`
 
----
+> [!danger] Transaminases and bilirubin measure injury. Albumin and INR measure function.
+> **The "liver function tests" mostly do not test liver function.** ALT, AST, ALP, GGT and bilirubin are markers of **damage or obstruction**. The true synthetic function markers are:
+> **· Albumin** — long half-life, so it reflects chronic function.
+> **· INR / prothrombin time** — short half-life clotting factors, so it reflects **acute** function and is the more sensitive early marker.
+> **· Glucose** — hypoglycaemia in severe hepatic failure.
+> A patient with dramatically raised transaminases and a normal INR has significant injury but preserved function. A patient with modest transaminases and a rising INR is in trouble. **Watch the INR.**
+
+**S/Smx:** Yellow sclerae and skin, dark urine, pale stools, pruritus, right upper quadrant pain, fever, weight loss, and the stigmata of chronic liver disease in 0.5.
+
+**Ix:** **Split (conjugated and unconjugated) bilirubin** (*why:* determines the entire branch of the differential and is not reported unless specifically requested; *what:* predominantly conjugated or unconjugated). Full LFT with **ALT, AST, ALP, GGT, albumin** (*why:* establishes the injury pattern and the synthetic function; *what:* hepatocellular versus cholestatic, low albumin). **INR** (*why:* the most sensitive early marker of impaired synthetic function, and the key prognostic variable in acute liver failure; *what:* prolongation). FBC and blood film (*why:* anaemia with reticulocytosis suggests haemolysis; thrombocytopenia suggests portal hypertension or chronic liver disease; macrocytosis suggests alcohol; *what:* the pattern). Reticulocytes, LDH, haptoglobin, direct antiglobulin test where unconjugated (*why:* confirms haemolysis; *what:* raised reticulocytes and LDH, low haptoglobin). **Abdominal ultrasound** (*why:* the pivotal early test — the presence or absence of **biliary duct dilatation** separates obstructive from hepatocellular causes and directs everything that follows; *what:* duct dilatation, stones, liver texture, focal lesion, ascites, splenomegaly, portal flow). Viral hepatitis serology (*why:* common, treatable, and has public health implications; *what:* hepatitis A, B and C serology, and E where indicated). **Paracetamol level** (*why:* the commonest cause of acute liver failure in Australia and it is treatable; *what:* level against time — cross-refer [[14a-2_Psych_-_Overdose_and_Poisoning_Management]] §0.1 Overdose / poisoning — management by agent). Autoimmune screen — ANA, anti-smooth muscle, anti-LKM, immunoglobulins, **anti-mitochondrial antibody** (*why:* autoimmune hepatitis and primary biliary cholangitis are treatable and are diagnosed on serology plus biochemistry; *what:* positive antibodies, raised IgG or IgM). **Iron studies, caeruloplasmin, alpha-1 antitrypsin** (*why:* haemochromatosis, Wilson disease and alpha-1 antitrypsin deficiency are inherited, treatable and family-relevant, and **Wilson disease must be excluded in any young person with liver disease**; *what:* raised ferritin and transferrin saturation, low caeruloplasmin, low alpha-1 antitrypsin).
+
+#### 0.41.8.1 Mx – Immediate
+Determined by the cause. Assess for encephalopathy and coagulopathy in any jaundiced patient — see 0.4.
+
+#### 0.41.8.2 Mx – Definitive
+Cause-specific.
+
+#### 0.41.8.3 Mx – Chronic/long-term
+Alcohol and hepatotoxin avoidance, vaccination against hepatitis A and B in chronic liver disease, and medication review for hepatically metabolised drugs.
 
 ### 0.41.9 Added from unverified layer — the distended abdomen
 `SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.5` `UNVERIFIED — model knowledge, not source-checked.`
