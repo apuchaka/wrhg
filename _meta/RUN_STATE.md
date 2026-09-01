@@ -1096,3 +1096,41 @@ The same features are carried, under different phrasing, at:
 This is CLAUDE.md rule 2's plain-English-name clause seen from the other side: there the
 searcher used a name the corpus does not use; here the corpus holds a concept under three
 names and the *canonical* one is reachable from only one of them.
+
+## SCHEDULED WORK — 34 `(unbuilt)` link markers whose targets are all now built
+
+Found 2026-09-01 mid-merge, on D3 §0.5/§0.6. Recorded in CLAUDE.md §1.10 (`f974630`)
+with the measurement; this is the work item.
+
+**The claim in the marker is false.** Every reserved code any marker references now has
+a file in `Corpus B-new/`:
+
+```
+distinct TODO:link codes still in B/B-new: 47   total markers: 188
+codes that NOW have a file: 47   markers pointing at them: 188
+still genuinely unbuilt: []
+```
+
+Of those, **34 have already been merged into Corpus A/C** and are sitting in the vault
+telling the reader a topic does not exist:
+
+| File | n |
+|---|---:|
+| `Corpus A/03_Gastrointestinal.md` | 26 |
+| `Corpus A/04_Neurology.md` | 5 |
+| `Corpus C/NEW_Drugs_12_Gastrointestinal.md` | 2 |
+| `Corpus A/13_06b_ENT_-_Dysphagia_and_Oesophageal_Pathology.md` | 1 |
+
+18 distinct codes — `O6`×5, `N8`×4, `N6`×3, `M5`×3, `O1`×3, `H2`×2, `I5`×2, `O5`×2, and
+one each of `L3 E1 M2 K2 N1 O2 J2 M3 F3 J5`.
+
+**Do this AFTER the `Corpus B-new/` merges, not before**, and as its own commit — by then
+each topic will have a Corpus A home and the pointer can be aimed at it rather than
+guessed. Where Corpus A already owns the topic today the pointer can go straight there:
+`N6` → `[[14_05c_Psych_-_Unexplained_Symptoms__Somatoform__Dissociative__Factitious_Disorders_]]`,
+`L3`/`L4` → `[[11_06_Ortho_-_Spinal_Orthopaedics]]` or the rheumatology files.
+
+**Where no target can be established, delete the word `(unbuilt)` and keep the marker.**
+The marker is still true — the link is not written. Only the reason given for it is wrong.
+
+**Never guess a target.** That half of §1.10's rule is unchanged.
