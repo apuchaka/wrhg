@@ -2636,6 +2636,7 @@ Feeding re-establishment and growth monitoring. Parental education.
 > [!tip] The three-way classification
 > **Prehepatic** — increased bilirubin load. Haemolysis, ineffective erythropoiesis, resorption of a large haematoma. **Unconjugated.**
 > **Hepatic** — impaired uptake, conjugation or excretion by the hepatocyte. Hepatitis (§0.9), cirrhosis (§0.38), drugs, Gilbert syndrome. **Mixed, or unconjugated in conjugation defects.**
+> **`Dubin-Johnson` and `Rotor` syndromes are absent from this vault and were not supplied by the merged material either** — a real gap, recorded rather than filled from memory.
 > **Posthepatic** — obstruction to biliary flow. Stones, strictures, tumours (§0.3, §0.4, §0.5, §0.14). **Conjugated.**
 
 > [!info] Reading the LFT pattern *(the LFT panel itself is owned by [[NEW_Investigations_Gastroenterology]] §0.1.)*

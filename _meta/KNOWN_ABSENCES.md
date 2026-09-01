@@ -30,7 +30,7 @@ python3 scripts/gapcheck.py '<pattern>' --dirs "Corpus A" "Corpus C"
 |---|---|
 | **Where it should live** | `03_Gastrointestinal.md` §0.44 Jaundice, in the conjugated-hyperbilirubinaemia differential alongside Gilbert's and Crigler-Najjar |
 | **How it was found** | C3 merge (jaundice). The three-way jaundice classification was merged; the two benign conjugated hyperbilirubinaemias were **not supplied by C3 either**, so the merge could not close it |
-| **Verified absent** | `Dubin.Johnson` → 1 hit, which is **the in-place note recording the gap itself** at `03_Gastrointestinal.md:1805`. `Rotor syndrome` → 0 |
+| **Verified absent** | `Dubin.Johnson` → 1 hit, which is **the in-place note recording the gap itself** at `03_Gastrointestinal.md:2639`. `Rotor syndrome` → 0. **That note was deleted by the C3 §0.1 section merge on 2026-09-01 and restored verbatim the same day** — for a period this entry pointed at a line that no longer existed, and the absence had no record anywhere in the corpus. |
 | **Status** | **Already recorded in place.** This file cross-references that note rather than duplicating it |
 | **Why it matters** | Gilbert's is covered and is the common one. A reader meeting a *conjugated* hyperbilirubinaemia with no haemolysis and normal LFTs has nowhere to go |
 
