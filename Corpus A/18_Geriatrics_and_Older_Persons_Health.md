@@ -395,15 +395,53 @@ The scale of the problem is Australian and specific: **more than half of medicat
 
 > [!tip] The commonest avoidable discharge failures, in the order they occur: planning started too late for the services to be arranged; discharge to a function level below baseline with no new support; a medication list that does not say what changed or why; and a follow-up plan that depends on an appointment nobody actually booked.
 
-## Added from unverified layer — two funding pathways outside aged care
+### Functional Assessment and the Australian Aged Care System — from unverified layer
 `SRC:GER1_Comprehensive_Geriatric_Assessment §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former two-funding-pathways fragment; its eligibility marker is carried onto the NDIS line it belongs to.*
 
-The aged care pathways above are not the only ones, and the two below are missed because nobody asks:
+> [!tip] ADLs and IADLs — and why the distinction matters
+> **Basic activities of daily living (ADLs)** — **D**ressing, **E**ating, **A**mbulating, **T**oileting, **H**ygiene.
+> **Instrumental activities of daily living (IADLs)** — **S**hopping, **H**ousekeeping, **A**ccounting (managing money), **F**ood preparation, **T**ransport (and telephone, and medication management).
+> **IADLs require more complex cognition and decline FIRST.** So **the earliest functional sign of cognitive decline is usually difficulty with finances, medications, transport or shopping — not with dressing or eating.**
+> Ask about these specifically. "Are you managing at home?" gets a yes from almost everyone.
 
-- **Veterans may access DVA-funded services**, which are **separate from aged care, and often quicker**. **Always ask about veteran status** — it opens a different and frequently better-resourced pathway that families routinely do not know exists.
-- **For a younger person with disability, the NDIS rather than aged care** is the correct scheme. Age is the branch point, and routing someone into the wrong system costs months.
+> [!warning] The Australian aged care pathway — and a caveat
+> **`My Aged Care` is the single national entry point** — by phone or online — for assessment and services.
+> Assessment has historically been through two streams: a **lower-intensity assessment** for basic entry-level supports, and a **comprehensive assessment (traditionally by an Aged Care Assessment Team, ACAT)** for higher-level home care packages, residential aged care and respite.
+> **The system is currently mid-reform**, with the **Support at Home** program replacing previous home care arrangements, and assessment structures and program names changing accordingly.
+> `UNVERIFIED — program names, assessment pathways, eligibility, funding levels and waiting times have all changed and continue to change. Verify against My Aged Care and the Department of Health and Aged Care before advising a patient or family. Do not quote package levels or waiting times from memory.`
 
-`UNVERIFIED — current eligibility criteria and the age boundary between NDIS and aged care, and what DVA covers; both are open government sources.`
+> [!tip] Practical supports worth knowing exist
+> **· Home support services** — domestic assistance, personal care, meals, transport, social support, allied health, home modifications, nursing.
+> **· Home care packages** at graded levels of funding for more complex needs.
+> **· Residential aged care** — permanent and respite.
+> **· Transition care** after hospital, providing time-limited therapy and support to maximise recovery before a permanent decision is made — **valuable, and under-used, because it prevents premature placement decisions made from a hospital bed.**
+> **· Carer supports** — Carer Payment and Carer Allowance through Centrelink, carer respite, and Carer Gateway.
+> **· Continence support schemes** and equipment funding.
+> **· For younger people with disability, the NDIS rather than aged care.**
+> `UNVERIFIED — current eligibility criteria and the age boundary between NDIS and aged care, and what DVA covers; both are open government sources.`
+> **· Veterans may access DVA-funded services**, which are separate and often quicker — **always ask about veteran status**, because it opens a different and frequently better-resourced pathway that families do not know about.
+
+> [!danger] Do not make permanent placement decisions from an acute hospital bed
+> **A patient assessed during or immediately after an acute illness will function far below their baseline**, and decisions made at that point systematically over-estimate the level of care needed.
+> **Rehabilitation, transition care, and a period at home with supports should generally precede any permanent residential decision.** Families under pressure in a hospital corridor make decisions they later regret, and the hospital's need for the bed should not drive it.
+
+> [!warning] Elder abuse — ask about it
+> Physical, psychological, financial, sexual, and neglect. **Financial abuse is the commonest and the least recognised** — misuse of a power of attorney, pressure to transfer assets or sign documents, "inheritance impatience".
+> **Warning signs: unexplained injuries, a carer who answers all questions and will not leave the room, unexplained financial difficulty, missed appointments, poor adherence, malnutrition, poor hygiene, fear or deference toward a family member.**
+> **Speak to the person alone.** Cross-refer `TODO:link — GER4 Safeguarding & forensic (unbuilt; was P3 in build queue v1)`. `UNVERIFIED — reporting obligations for elder abuse in South Australia, and the relevant services and hotlines.`
+
+**Ix:** **Structured ADL and IADL assessment** (*why:* determines care needs and is the basis of any aged care referral; *what:* dependence in each domain). **Occupational therapy home assessment** (*why:* function in a clinic bears limited relationship to function at home, and the home visit identifies hazards and equipment needs that no other assessment will; *what:* hazards, equipment, actual performance). Physiotherapy mobility assessment (*why:* determines aids, transfers and falls risk; *what:* gait, transfers, aid requirement). Cognitive assessment (*why:* determines capacity for self-care and for decision-making; *what:* impairment). **Social work assessment** (*why:* identifies carer strain, financial issues, housing and abuse; *what:* social supports and risks). Nutritional assessment (*why:* malnutrition is common and predicts poor outcome; *what:* weight loss, intake).
+
+#### Mx – Immediate — GER1 §0.3.1
+Ensure safety at discharge — supports in place before, not after, the patient goes home.
+
+#### Mx – Definitive — GER1 §0.3.2
+Referral to My Aged Care for assessment, with allied health input and equipment provision.
+
+#### Mx – Chronic/long-term — GER1 §0.3.3
+Review as needs change. **Support the carer explicitly — ask how they are, and offer respite before they are in crisis**, because carer breakdown is a leading reason for unplanned residential placement.
+
 
 ## Added from unverified layer — two things done on admission
 `SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.2` `SRC:GER2 §0.4` `UNVERIFIED — model knowledge, not source-checked.`
