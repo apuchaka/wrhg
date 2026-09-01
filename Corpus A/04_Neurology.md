@@ -1897,6 +1897,30 @@ Blood pressure control, which is the principal preventive measure. Rehabilitatio
 
 ---
 
+### Stroke Mimics and Stroke Chameleons — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Mimics — conditions that look like stroke but are not
+> **· Hypoglycaemia** — the most important, because it is instantly reversible. Check the glucose.
+> **· Seizure with Todd paresis** — post-ictal focal weakness, typically resolving over minutes to hours. The history of a witnessed seizure is the clue, but seizures are often unwitnessed.
+> **· Migraine with aura** — but remember **aura spreads gradually over minutes, whereas stroke is maximal at onset.** Cross-refer [[04_Neurology]] Migraine.
+> **· Functional neurological disorder** — with inconsistent examination findings, **Hoover sign** (weak hip extension that normalises when the opposite hip is flexed against resistance), and a pattern that does not fit vascular anatomy. This is a positive diagnosis, not a diagnosis of exclusion, and should be made and explained rather than implied. Cross-refer `TODO:link — N6 Dissociation & somatic (unbuilt)`.
+> **· Recrudescence of an old deficit** — **infection, metabolic derangement or any systemic illness can unmask a previously recovered stroke deficit.** A patient with a known old stroke who develops "a new stroke" during a urinary tract infection frequently has recrudescence, and the deficit resolves as the infection is treated.
+> **· Space-occupying lesion, subdural haematoma, multiple sclerosis, Bell palsy, peripheral vestibular disease, hypertensive encephalopathy, drug or alcohol intoxication.**
+
+> [!danger] Chameleons — strokes that do not look like strokes
+> **· Isolated vertigo** — a posterior circulation stroke presenting as "dizziness" is the most consequential missed stroke, because these patients are discharged with a vestibular diagnosis. **The HINTS examination distinguishes central from peripheral vertigo and is more sensitive than early MRI** — cross-refer [[04_Neurology]] Cranial Nerve Disorders and Vertigo.
+> **· Acute confusion or delirium** — particularly with non-dominant hemisphere or thalamic strokes.
+> **· Isolated dysarthria or isolated monoparesis.**
+> **· Cortical blindness** (bilateral occipital) — the patient may deny blindness (Anton syndrome).
+> **· Sudden-onset movement disorder** — hemiballismus from a subthalamic lesion.
+> **· A "funny turn" or collapse** with subtle focal signs.
+> **· Acute severe behavioural change.**
+> **FAST does not detect posterior circulation stroke**, which is why "dizzy and nauseated with a normal FAST" is a dangerous reassurance.
+
+**Ix:** **Bedside glucose in every case.** **MRI with diffusion** (*why:* far more sensitive than CT, particularly posterior fossa, and it distinguishes stroke from mimic; *what:* restricted diffusion or its absence). EEG where seizure is suspected (*why:* Todd paresis and non-convulsive status; *what:* epileptiform activity). Septic screen where recrudescence is possible (*why:* treating the infection resolves the deficit; *what:* infective source).
+
+
 ### Stroke Syndromes and Localisation — from unverified layer
 `SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.2` `UNVERIFIED — model knowledge, not source-checked.`
 
