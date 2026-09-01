@@ -1544,6 +1544,46 @@ Endoscopic haemostasis, angiographic embolisation, or surgical resection. **Surg
 #### 0.34.1.3 Mx – Chronic/long-term
 **Complete colonic investigation in anyone not already fully investigated.** Iron replacement. Review of anticoagulation and antiplatelets. Management of the underlying condition.
 
+### 0.34.2 Occult and Obscure Bleeding, and Iron Deficiency Anaemia — from unverified layer
+`SRC:C4_Gastrointestinal_Bleeding §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Occult** bleeding is blood loss not visible to the patient, presenting as iron deficiency anaemia or a positive faecal occult blood test. **Obscure** bleeding is bleeding that persists or recurs after negative upper endoscopy and colonoscopy.
+
+> [!danger] Iron deficiency anaemia in an adult male or a postmenopausal woman is gastrointestinal malignancy until proven otherwise
+> **This requires BOTH upper endoscopy AND colonoscopy**, not one or the other, because synchronous or alternative lesions are common and a positive finding at one end does not exclude a lesion at the other.
+> **Do not attribute iron deficiency to diet, aspirin or "a bit of bleeding from piles" in this group without investigating.** It is among the most reliable single indicators of an occult gastrointestinal cancer, and delayed investigation of it is a recurring theme in cancer diagnosis audits.
+> In premenopausal women, menstrual loss is the commonest cause — but investigate if the loss is not clearly sufficient, if there are GI symptoms, if there is a family history, or if iron does not correct with replacement.
+
+> [!tip] Also check for coeliac disease
+> **Coeliac disease causes iron deficiency through malabsorption rather than blood loss**, and is a common and easily missed cause, sometimes with minimal gastrointestinal symptoms. **Serology should be sent as part of the iron deficiency workup**, and it must be taken while the patient is still eating gluten.
+
+> [!info] Obscure bleeding — where to look next
+> After negative gastroscopy and colonoscopy, the **small bowel** is the usual site.
+> **Capsule endoscopy** — non-invasive, images the whole small bowel, but does not permit biopsy or therapy, and is contraindicated where stricturing is suspected because of retention risk.
+> **Device-assisted enteroscopy** — permits biopsy and treatment.
+> **CT enterography** — identifies tumours and structural lesions.
+> **Repeat upper endoscopy and colonoscopy** — a meaningful proportion of "obscure" bleeds are lesions missed at the first examination, so repeating them is often more productive than moving straight to small bowel imaging.
+> Small bowel causes: **angiodysplasia** (the commonest, particularly in the elderly), small bowel tumours, Crohn disease, **NSAID enteropathy**, and Meckel's diverticulum.
+
+> [!tip] Heyde syndrome
+> **Aortic stenosis + gastrointestinal angiodysplasia + acquired von Willebrand deficiency.** High shear stress across the stenotic valve cleaves large von Willebrand multimers, impairing haemostasis at the angiodysplastic lesions. **The bleeding resolves after aortic valve replacement**, which is the memorable and clinically useful part — a patient with recurrent obscure GI bleeding and a murmur deserves an echocardiogram.
+
+> [!warning] Faecal occult blood and the Australian screening program
+> **Immunochemical faecal occult blood testing (FIT/iFOBT) is a screening tool for asymptomatic people**, delivered through the **National Bowel Cancer Screening Program.**
+> **It is not a diagnostic test in a symptomatic patient.** A negative FIT in someone with rectal bleeding, iron deficiency or altered bowel habit does not exclude cancer and must not be used to defer colonoscopy. `UNVERIFIED — the current eligible age range and screening interval for the National Bowel Cancer Screening Program, which has been revised.`
+
+**Ix:** **FBC with iron studies** (*why:* establishes iron deficiency, which is the finding that mandates investigation; *what:* microcytic anaemia, low ferritin — noting **ferritin is an acute phase reactant and may be normal or raised in inflammation despite iron deficiency**, so transferrin saturation and CRP help interpret it). **Gastroscopy with duodenal biopsies** (*why:* identifies upper lesions and simultaneously biopsies for coeliac disease; *what:* ulcer, tumour, villous atrophy). **Colonoscopy** (*why:* the other half of the mandatory pair; *what:* tumour, polyp, angiodysplasia, colitis). **Coeliac serology** (*why:* a common non-bleeding cause of iron deficiency; *what:* tissue transglutaminase IgA with total IgA). Capsule endoscopy or CT enterography where both are negative (*why:* small bowel source; *what:* angiodysplasia, tumour, ulceration). Echocardiography where recurrent angiodysplastic bleeding (*why:* Heyde syndrome; *what:* aortic stenosis). Urinalysis and consideration of non-GI sources (*why:* not all iron deficiency is gastrointestinal — haematuria, epistaxis, and menorrhagia all contribute; *what:* alternative source).
+
+#### 0.34.2.1 Mx – Immediate
+Rarely required unless symptomatically anaemic.
+
+#### 0.34.2.2 Mx – Definitive
+Treat the identified lesion. **Iron replacement — oral where tolerated, intravenous where oral is ineffective, not tolerated, or where rapid correction is needed.** Note that **oral iron is poorly absorbed and better tolerated when given on alternate days rather than daily**, which is a change from older practice. `UNVERIFIED — dosing regimens and the alternate-day evidence.`
+
+#### 0.34.2.3 Mx – Chronic/long-term
+**Recheck the full blood count and iron studies after replacement to confirm correction** — failure to correct suggests ongoing loss or malabsorption and mandates further investigation. Ongoing surveillance where a neoplastic lesion was found. Participation in the National Bowel Cancer Screening Program.
+
+
 
 ## 0.35 Irritable Bowel Syndrome (IBS)
 
