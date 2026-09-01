@@ -71,8 +71,20 @@ def run(cfg):
         s = next(i for i, l in enumerate(lines) if l.startswith(cfg['supersede']))
         # A fragment can be the LAST block in the file, with no heading after it.
         # next() with no default raises StopIteration and the merge dies mid-run.
-        e = next((i for i, l in enumerate(lines) if i > s and re.match(r'^#{1,3} ', l)),
-                 len(lines))
+        # THE END BOUNDARY IS A HEADING AT THE FRAGMENT'S OWN LEVEL OR ABOVE - never a
+        # deeper one. `^#{1,3} ` was written when every fragment was a `##` with no
+        # headings inside it, so its own children could not match. A6's fragment has four
+        # `###` children (Heat illness, Hypothermia, Frostbite, Drowning) and the range
+        # collapsed to SIX LINES: the heading, the SRC line and the opening callout.
+        # The remaining 45 lines - four `UNVERIFIED` markers, a `NO-BASELINE`, and the
+        # [[01_Cardiovascular]] §0.12.11 ECG-ownership line - would have been left behind
+        # as an orphan with the new block written into the middle of it, and every check
+        # would have passed: PROT only sees the truncated range, so it detects no marker
+        # at risk. Caught only because the cross-reference guard refused on TWO refs when
+        # the fragment plainly contained FIVE.
+        _flvl = len(re.match(r'^(#+)', lines[s]).group(1))
+        e = next((i for i, l in enumerate(lines)
+                  if i > s and re.match(r'^#{1,%d} ' % _flvl, l)), len(lines))
         # THE END BOUNDARY IS NOT ONLY THE NEXT HEADING. A merged block written as a
         # callout (`> [!info] Added from unverified layer — …`) carries no heading at all,
         # so a second block sitting between this fragment and the next heading falls
