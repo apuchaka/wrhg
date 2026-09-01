@@ -378,54 +378,40 @@ Prolonged cold sensitivity, neuropathic pain and hyperhidrosis are common. Preve
 
 
 
-## Added from unverified layer — environmental injury
-`SRC:A6_Thermal_and_Environmental_Injury §0.1` `SRC:A6 §0.2` `SRC:A6 §0.5` `SRC:A6 §0.6` `SRC:A6 §0.7` `UNVERIFIED — model knowledge, not source-checked.` `NO-BASELINE (heat illness only) — heat exhaustion and heat stroke were absent from the corpus before this merge; no inherited layer disagrees with them. The HYPOTHERMIA half of this block does have a thin baseline — 25 pre-merge hits, including the Osborne wave at [[01_Cardiovascular]] §0.12 — so that part is not no-baseline.`
+## Drowning and Submersion Injury — from unverified layer
+`SRC:A6_Thermal_and_Environmental_Injury §0.7` `UNVERIFIED — model knowledge, not source-checked.`
+`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.`
 
-> [!note] Why this is here
-> The corpus covered **drug-induced** hyperthermia thoroughly — serotonin syndrome and neuroleptic malignant syndrome in [[04_Neurology]], malignant hyperthermia in [[03a_Anaesthetics_Primer]] — and **environmental** heat illness nowhere. Hypothermia appeared only as an ECG pattern. This section fills the environmental side; it does not touch the drug-induced entries, which are more detailed than anything here.
+**D:** The process of experiencing respiratory impairment from submersion or immersion in liquid, with outcomes classified as no morbidity, morbidity, or death.
 
-### Heat illness
+> [!info] Terminology
+> **"Drowning" is the process, not the outcome** — a person can drown and survive. The terms **"near-drowning", "dry drowning", "wet drowning", "secondary drowning" and "delayed drowning" are deprecated** and should not be used; they caused confusion in both research and clinical communication. Use drowning with the outcome stated.
 
-> [!danger] Heat exhaustion and heat stroke are not the same emergency
-> **Heat exhaustion** — sweating preserved, **mental state normal**, headache, nausea, cramps, faintness. Treated by removing the patient from the heat, rest, and oral or intravenous fluid.
-> **Heat stroke** — **altered mental state is the defining feature**, with a high core temperature. Confusion, agitation, seizure or coma. It is a **multi-organ emergency** and it progresses to rhabdomyolysis, acute kidney injury, coagulopathy and hepatic failure.
-> **Any patient collapsed in the heat with an abnormal mental state has heat stroke until proven otherwise, and cooling starts before the diagnosis is confirmed.**
-> `UNVERIFIED — the core temperature threshold conventionally used to define heat stroke; RACGP or an emergency medicine reference.`
+**A/P:** Submersion → breath-holding → involuntary laryngospasm → hypoxia → laryngospasm relaxes and fluid is aspirated → surfactant washout and dysfunction, alveolar collapse, and V/Q mismatch → **profound hypoxia is the central and primary problem, and every consequence follows from it** — cerebral hypoxic injury, myocardial dysfunction, arrhythmia and arrest. The distinction between salt and fresh water has essentially **no clinical relevance** in human drowning, despite the electrolyte theory taught historically — the volumes aspirated are too small.
 
-> [!info] Exertional versus classic
-> **Exertional** — young, fit, exercising or working; **sweating is often still present**, which misleads. Onset over hours.
-> **Classic** — older, frail, unwell, often during a heatwave and often at home without air-conditioning; sweating is typically **absent**. Onset over days.
-> The distinction matters because the classic patient is found late and has competing diagnoses, and because heatwave deaths concentrate in this group.
+> [!danger] Drowning resuscitation differs from standard adult BLS
+> Because the arrest is **asphyxial**, ventilation takes priority. **Rescue breaths are given first, before compressions**, and in-water rescue breathing by a trained rescuer is recommended where feasible. This is why the ANZCOR paediatric and drowning sequences differ from the adult cardiac sequence — see [[15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support]]. This is a genuine departure from the compression-first adult algorithm and is a common exam discriminator. `UNVERIFIED — the exact number of initial rescue breaths and the modified sequence require verification against ANZCOR Guideline 9.3.2.`
 
-> [!tip] Cooling is the treatment
-> **Cool actively and early; antipyretics do not work**, because the thermostat is not reset — this is not fever. **Cold water immersion is the most effective method in exertional heat stroke**; evaporative cooling with fine mist and fans is used where immersion is impractical.
-> Stop active cooling before normothermia to avoid overshoot, and treat the complications — rhabdomyolysis (above), electrolyte derangement, seizures.
-> `UNVERIFIED — the temperature at which to stop active cooling, and whether immersion or evaporative cooling is preferred in Australian practice.`
+> [!warning] Do not routinely immobilise the cervical spine
+> Cervical spine injury is uncommon in drowning **unless the mechanism suggests it** — diving into shallow water, a fall from height, surfing, a watercraft collision, or signs of trauma. Routine immobilisation impedes airway management and ventilation, which are the priorities. Apply it where the mechanism warrants it, not reflexively.
 
-### Hypothermia
+> [!tip] Always ask why they went under
+> Drowning is frequently secondary to another event. **Seizure · arrhythmia — long QT syndrome type 1 is characteristically triggered by swimming, and a family history of sudden death matters · hypoglycaemia · alcohol or drug intoxication, which is involved in a large proportion of adult drownings · myocardial infarction · syncope · hyperventilation before breath-hold diving · non-accidental injury in a child.** Investigating the precipitant is part of the assessment.
 
-The **ECG changes** — bradycardia, the **J (Osborn) wave**, first-degree block, long QT and arrhythmias — are owned by [[01_Cardiovascular]] §0.12.11 and are not repeated here.
+> [!warning] Observation and delayed deterioration
+> Patients who are asymptomatic with normal observations and a normal examination after a defined observation period have a very low risk of subsequent deterioration and can generally be discharged. Those with cough, abnormal auscultation, hypoxia or any symptom require admission, since pulmonary injury can evolve over hours. `UNVERIFIED — the recommended observation period and the discharge criteria; ANZCOR or an Australian emergency medicine reference.`
 
-> [!danger] Not dead until warm and dead
-> **Hypothermia is profoundly protective of the brain, and resuscitation is continued during rewarming** — apparent death in a hypothermic patient is not death. Fixed dilated pupils and absent pulses do not decide it.
-> **Handle the patient gently.** A cold myocardium is irritable, and rough movement or unnecessary manipulation can precipitate ventricular fibrillation.
-> `UNVERIFIED — the core temperature below which defibrillation and drugs are withheld or spaced, and the rewarming rate; ANZCOR.`
+**S/Smx:** Cough, dyspnoea, wheeze, crackles, hypoxia, vomiting (very common and an aspiration risk), altered conscious state, and hypothermia — which frequently coexists and is neuroprotective.
 
-> [!warning] Afterdrop
-> **Core temperature can continue to fall after rewarming begins**, as cold peripheral blood returns to the circulation. It is the reason peripheral rewarming alone is inadequate in significant hypothermia and why core rewarming methods are used.
+**Ix:** Oxygen saturation and ABG (*why:* quantifies the hypoxaemia that is the central problem and identifies developing respiratory failure; *what:* hypoxia, acidosis). CXR (*why:* aspiration and pulmonary oedema, though early films may be normal and it is the trajectory that matters; *what:* infiltrates, oedema). ECG and continuous monitoring (*why:* identifies both arrhythmia as a cause and hypothermic or hypoxic arrhythmia as a consequence, and **a long QT may reveal the precipitant**; *what:* arrhythmia, prolonged QT, Osborn waves). Core temperature (*why:* coexisting hypothermia alters the resuscitation approach and prognosis entirely; *what:* core temperature). Bedside glucose (*why:* hypoglycaemia as precipitant; *what:* low glucose). UEC and VBG with lactate (*why:* severity of hypoxic insult and electrolyte state; *what:* acidosis, lactate). Alcohol and toxicology where relevant (*why:* identifies the contributing factor and informs prevention advice; *what:* level). CT brain and cervical spine where indicated by mechanism or persisting altered conscious state (*why:* trauma and hypoxic injury; *what:* injury, oedema).
 
-**Shivering stops as hypothermia deepens** — its absence is a sign of severity, not of improvement.
+### Mx – Immediate — A6 §0.7.1
+Rescue with attention to rescuer safety. **Ventilation first** — rescue breaths, then compressions if pulseless. High-flow oxygen. Anticipate vomiting and be ready to suction. Manage hypothermia concurrently, remembering it is protective and that resuscitation should be prolonged. Early consideration of intubation and PEEP for significant pulmonary injury.
 
-### Frostbite and non-freezing cold injury
+### Mx – Definitive — A6 §0.7.2
+Ventilatory support with PEEP for surfactant dysfunction and ARDS. ICU. Extracorporeal support in refractory cases, particularly with severe hypothermia. **Antibiotics are not routine** — reserve them for aspiration of grossly contaminated water or established infection.
 
-**Rewarm in a water bath**, and **do not rewarm if there is any chance of refreezing** — a freeze-thaw-freeze cycle causes far worse tissue loss than delayed rewarming. Do not rub the affected part. The final extent of tissue loss is **not apparent for weeks**, so early debridement decisions are avoided. `UNVERIFIED — water bath temperature and duration.`
+### Mx – Chronic/long-term — A6 §0.7.3
+Investigate the precipitant, including cardiac assessment where arrhythmia is suspected and family screening for long QT. **Prevention advice: pool fencing, which is legislated in South Australia, supervision of young children, swimming ability, life jackets, and alcohol avoidance around water.** Neurological rehabilitation for hypoxic injury. **Consider safeguarding assessment in any paediatric drowning** — cross-refer `TODO:link — GER4 Safeguarding and forensic`.
 
-**Non-freezing cold injury** (trench or immersion foot) occurs at temperatures above freezing with prolonged wet exposure, and causes prolonged neuropathic pain.
-
-### Drowning and submersion
-`NO-BASELINE — absent from the corpus before this merge; no inherited layer disagrees with it.` The only two pre-merge occurrences of `drowning` were the word in unrelated contexts — a cause of hypoxic brain injury in a developmental-delay list, and *family history of drowning* as a channelopathy clue in the syncope history. Neither is drowning as an emergency.
-
-**Hypoxia is the injury**, and **rescue breathing is the priority intervention** — this is the one arrest where ventilation matters more than compressions, which is why the ANZCOR paediatric and drowning sequences differ from the adult cardiac sequence. See [[15_01a_Paeds_-_Paediatric_and_Newborn_Life_Support]].
-
-**The distinction between fresh and salt water is not clinically useful** and should not shape management. **Anyone who required rescue or has any respiratory symptom needs observation**, because deterioration can be delayed. `UNVERIFIED — the observation period; ANZCOR or an emergency medicine reference.`
 
