@@ -92,12 +92,50 @@ no_baseline: 0
 - **Pyridoxine and doxylamine** — the evidence-based first-line for **nausea and vomiting of pregnancy** in many guidelines, with ginger and non-drug measures. **Hyperemesis gravidarum requires assessment for dehydration, ketosis, electrolyte disturbance and thiamine deficiency** — and **thiamine must be given before glucose-containing fluids** (see [[NEW_Drugs_07_Blood_and_Electrolytes]] 0.4.2).
 - **Non-drug:** hydration, small frequent meals, treating pain and constipation, and removing the offending drug.
 
-### 0.2.5 Added from unverified layer — two points not made above
+### 0.2.5 Antiemetic Selection by Mechanism — from unverified layer
 `SRC:C2_Nausea_and_Vomiting §0.5` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former §0.2.5 fragment.*
 
-- **Check potassium and magnesium, and check the ECG, before stacking QT-prolonging antiemetics.** The individual QT risks are stated per agent above; the point here is the combination. A patient who has been vomiting is frequently hypokalaemic and hypomagnesaemic already, so adding a second QT-prolonging agent to the first in exactly that patient is the classic torsades setup. `UNVERIFIED — whether a specific QT threshold should gate the second agent, and which combinations are contraindicated outright.`
-- **Antiemetics for opioid-induced nausea are frequently unnecessary beyond the first few days.** Tolerance to the nausea develops while tolerance to analgesia does not, so a regular antiemetic started with an opioid is often continued indefinitely without review, adding anticholinergic or dopaminergic burden for no benefit. Review the indication rather than repeating the prescription.
+> [!info] Match the drug to the receptor
+> | Cause | Dominant receptor | Agent class | Examples |
+> |---|---|---|---|
+> | **Drugs, toxins, metabolic (opioids, uraemia, hypercalcaemia)** | **D2** at the chemoreceptor trigger zone | Dopamine antagonist | Haloperidol, prochlorperazine, metoclopramide |
+> | **Chemotherapy, post-operative, gastroenteritis** | **5-HT3** | 5-HT3 antagonist | Ondansetron |
+> | **Chemotherapy (delayed phase)** | **NK1** | NK1 antagonist | Aprepitant |
+> | **Motion, vestibular disease** | **H1, muscarinic** | Antihistamine, anticholinergic | Cyclizine, promethazine, hyoscine |
+> | **Gastric stasis, gastroparesis** | — | **Prokinetic** | Metoclopramide, domperidone |
+> | **Raised ICP, malignant obstruction** | — | Corticosteroid | Dexamethasone |
+> | **Anticipatory, anxiety-related** | — | Benzodiazepine | Lorazepam |
+> `UNVERIFIED — all doses, routes, maximum durations and age restrictions from eTG and the Australian Medicines Handbook.`
 
+> [!danger] Metoclopramide and prochlorperazine cause extrapyramidal reactions
+> **Acute dystonic reactions — oculogyric crisis, torticollis, trismus, opisthotonus — are most common in young people, particularly young women, and are frightening and frequently misdiagnosed as a psychiatric or seizure event.**
+> Treatment is an **anticholinergic (benztropine or benzhexol)**, which works within minutes and is dramatic. `UNVERIFIED — agent and dose.`
+> Because of this, **metoclopramide has restrictions on duration and on use in younger patients**, and prochlorperazine is a poor choice in the young. Also consider tardive dyskinesia with prolonged use.
+
+> [!danger] Do not give a prokinetic in mechanical bowel obstruction
+> **Metoclopramide and domperidone increase gastric and intestinal motility**, which in the presence of a mechanical obstruction causes colicky pain and risks perforation. **In obstruction, use a non-prokinetic agent** — an antihistamine or a 5-HT3 antagonist — alongside nasogastric decompression.
+
+> [!warning] QT prolongation
+> **Ondansetron, droperidol, haloperidol and domperidone all prolong the QT interval.** In a patient already on other QT-prolonging drugs, or with electrolyte disturbance from vomiting — which is most of them — **the combination is a genuine torsades risk.**
+> **Check potassium and magnesium, and check the ECG before stacking agents.** Cross-refer [[01_Cardiovascular]] Long QT Syndrome.
+
+> [!tip] Practical points
+> **Ondansetron causes constipation**, which matters in patients on opioids and in palliative care.
+> **Antiemetics for opioid-induced nausea are frequently unnecessary beyond the first few days** — tolerance develops, and continuing them indefinitely adds burden.
+> **In pregnancy, the agent choice differs and safety data must be checked** — cross-refer `TODO:link — O1 Early pregnancy (unbuilt)`. Do not extrapolate from adult non-pregnant practice.
+> **In palliative care, the mechanism-matched approach matters most**, because the causes are frequently multiple and a single agent chosen by habit fails. Cross-refer `TODO:link — J5 Oncology & palliative (unbuilt)`.
+
+**Ix:** ECG with potassium and magnesium before combining QT-prolonging antiemetics (*why:* the combination in a vomiting, hypokalaemic patient is the classic torsades setup; *what:* QT interval, low potassium and magnesium).
+
+### 0.5.1 Mx – Immediate
+Identify the mechanism, then select. Rehydrate and correct electrolytes alongside, since neither antiemetic works well in a profoundly dry, hypokalaemic patient.
+
+### 0.5.2 Mx – Definitive
+Treat the underlying cause; antiemetics are symptomatic.
+
+### 0.5.3 Mx – Chronic/long-term
+Review and stop antiemetics that are no longer needed, particularly metoclopramide.
 
 ## 0.3 Drugs Affecting Gastrointestinal Motility
 
