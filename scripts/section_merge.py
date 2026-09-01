@@ -68,8 +68,14 @@ def run(cfg):
         for j in range(s + 2, e):
             if 'SRC:' in lines[j]:
                 k = j
-                while k > s + 1 and (lines[k - 1].lstrip().startswith('>')
-                                     or lines[k - 1].strip() == ''):
+                # Walk back over the CONTIGUOUS callout only. Including blank lines lets
+                # the walk cross block boundaries and swallow backwards: on D4 §0.6 it
+                # ran from the L3 callout all the way to the fragment's own SRC line,
+                # superseding 2 lines instead of 16 and leaving the fragment's callouts
+                # behind. Caught by the superseded-line count, not by the write failing.
+                while k > s + 1 and lines[k - 1].lstrip().startswith('>'):
+                    k -= 1
+                while k > s + 1 and lines[k - 1].strip() == '':
                     k -= 1
                 e = k
                 break
