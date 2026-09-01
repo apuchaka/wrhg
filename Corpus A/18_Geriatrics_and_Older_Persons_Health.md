@@ -192,6 +192,55 @@ Investigation for secondary causes, and commencement of appropriate pharmacother
 #### Mx – Chronic/long-term — GER1 §0.6.3
 **Adherence support — persistence with oral bisphosphonates is poor**, and intravenous or six-monthly options may suit better. Monitoring, dental review, and combined falls and bone health management. **Explicit handover to the GP with a named plan.**
 
+### Pressure Injury — from unverified layer
+`SRC:GER2_Geriatric_Syndromes_and_End_of_Life_Care §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**A/P:** **Sustained pressure exceeding capillary closing pressure occludes perfusion**, causing tissue ischaemia. **Shear** (sliding down the bed, dragging rather than lifting during transfers) deforms and tears tissue at deeper levels, **friction** damages the epidermis, and **moisture** from incontinence or sweat macerates skin and lowers its tolerance.
+**It is a function of pressure AND time** — high pressure for a short period, or modest pressure for a long one, both cause injury. **Deep tissue over a bony prominence dies before the skin does**, which is why a small area of discolouration can overlie extensive underlying necrosis.
+
+> [!danger] Device-related pressure injuries are the ones that get missed
+> **Oxygen tubing behind the ears, nasal prongs, CPAP and NIV mask edges, nasogastric tube tape, urinary catheters, plaster casts, splints, cervical collars, compression stockings, and pulse oximeter probes.**
+> **These account for a substantial proportion of hospital-acquired pressure injuries and are entirely preventable** by inspecting under and around every device, padding, and rotating sites.
+> **Look under the mask and behind the ears on every ward round in a patient on oxygen.**
+
+> [!tip] Sites and the one that is forgotten
+> Sacrum, ischial tuberosities, greater trochanters, **heels**, occiput, ears, elbows, and the malleoli.
+> **Heels are the second commonest site and the most neglected. Offload them — a pillow lengthwise under the calves so the heels float free of the bed.** This costs nothing and prevents a wound that can take months to heal.
+
+> [!warning] Staging, and the two categories people forget
+> Staged from **non-blanchable erythema of intact skin** through partial-thickness loss, full-thickness loss with visible fat, to full-thickness loss with exposed bone, tendon or muscle.
+> Plus two additional categories:
+> **· Unstageable** — the base is obscured by slough or eschar, so depth cannot be determined until it is debrided.
+> **· Deep tissue pressure injury** — persistent non-blanchable deep red, maroon or purple discolouration, or a blood-filled blister, over intact skin. **This can evolve rapidly to a full-thickness wound and looks deceptively minor.**
+> `UNVERIFIED — the full staging definitions and terminology.`
+
+> [!danger] Do not massage a reddened pressure area
+> It was traditional advice and it is wrong — **massage over a bony prominence causes further tissue damage in already compromised tissue.** Offload, do not rub.
+
+> [!tip] Prevention — what actually works
+> **· Formal risk assessment on admission and with any change in condition** (Braden, Waterlow or equivalent).
+> **· Repositioning at appropriate intervals**, and — more importantly — **mobilisation.**
+> **· Pressure-redistributing mattresses and cushions** for at-risk patients.
+> **· Skin inspection at least daily, including heels, sacrum and under every device.**
+> **· Moisture management** — prompt continence care and barrier products.
+> **· Nutrition and hydration** — see 0.3.
+> **· Lift, do not drag** — using slide sheets and hoists to avoid shear.
+> **A hospital-acquired pressure injury is a reportable clinical indicator in Australian hospitals**, and it is regarded as a marker of nursing and system quality precisely because it is largely preventable.
+
+**S/Smx:** Non-blanching erythema, pain over a pressure point, blistering, skin loss, slough, eschar, exudate, odour, and surrounding cellulitis. **Pain over a bony prominence in an immobile patient warrants inspection**, and patients with sensory impairment may report nothing at all.
+
+**Ix:** **Regular full skin inspection including under devices** (*why:* the diagnosis is entirely visual, and injuries are missed by not looking; *what:* stage, site, extent). Wound swab **only where clinical infection is suspected** (*why:* all chronic wounds are colonised, so routine swabbing produces misleading results and drives unnecessary antibiotics; *what:* organism in the context of clinical infection). FBC, CRP, albumin (*why:* systemic infection and the nutritional status that determines healing; *what:* infection markers, hypoalbuminaemia). **Probe-to-bone assessment and imaging where osteomyelitis is suspected** (*why:* underlying osteomyelitis changes the treatment duration and may require surgery, and it is common in deep sacral and heel wounds; *what:* bone involvement on MRI). Nutritional assessment (*why:* healing requires protein and energy, and malnourished wounds do not close; *what:* intake, weight, albumin). Vascular assessment for heel and lower limb wounds (*why:* an ischaemic limb will not heal, and compression is contraindicated; *what:* pulses, ABI — cross-refer [[01_Cardiovascular]] §0.36.1 Peripheral Arterial Disease (PAD)).
+
+#### Mx – Immediate — GER2 §0.2.1
+**Offload the area completely.** Analgesia — pressure injuries are painful and this is under-treated.
+
+#### Mx – Definitive — GER2 §0.2.2
+Stage-appropriate wound care with specialist wound nursing input, debridement of devitalised tissue where appropriate, management of infection, and optimisation of nutrition and perfusion.
+
+#### Mx – Chronic/long-term — GER2 §0.2.3
+Ongoing pressure redistribution, equipment provision for home or residential care, and **carer education**, since most pressure injuries develop outside hospital.
+
+
 
 
 ## Frailty
