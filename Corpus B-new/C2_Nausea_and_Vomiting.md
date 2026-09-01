@@ -48,7 +48,7 @@ Address recurrent or chronic causes as in 0.4.
 > [!danger] Red flags
 > **· Bilious vomiting** — obstruction distal to the ampulla; in a neonate, a surgical emergency (see 0.3)
 > **· Faeculent vomiting** — established distal obstruction
-> **· Haematemesis or coffee grounds** — cross-refer [[C4]]
+> **· Haematemesis or coffee grounds** — cross-refer [[C4_Gastrointestinal_Bleeding]]
 > **· Vomiting with headache, neurological signs, or worse in the morning** — raised intracranial pressure
 > **· Projectile vomiting** in an infant — pyloric stenosis
 > **· Severe abdominal pain, distension, absolute constipation** — obstruction
@@ -63,18 +63,18 @@ Address recurrent or chronic causes as in 0.4.
 > **Drugs and toxins** — opioids, chemotherapy, antibiotics (particularly macrolides), NSAIDs, **digoxin toxicity**, alcohol, **cannabinoid hyperemesis**, and withdrawal states.
 > **Infective** — any systemic sepsis; in children and the elderly, urinary tract infection and pneumonia commonly present with vomiting and no localising symptom.
 > **Cardiac** — **inferior myocardial infarction**, which presents with epigastric pain and vomiting and is misattributed to gastroenteritis.
-> **Obstetric** — pregnancy, hyperemesis gravidarum. Cross-refer [[O1]].
+> **Obstetric** — pregnancy, hyperemesis gravidarum. Cross-refer [[O1_Early_Pregnancy]].
 > **Psychiatric** — eating disorders, and psychogenic vomiting.
 
 > [!warning] Raised intracranial pressure has a characteristic pattern
-> **Vomiting that is worse in the morning or on waking, may be projectile, and is often NOT preceded by nausea** — because it arises centrally rather than through gut afferents. Combined with headache worse on lying or on Valsalva, papilloedema, or any focal neurological sign, this needs imaging. Cross-refer [[D1]] and [[F0.5]] 0.6.
+> **Vomiting that is worse in the morning or on waking, may be projectile, and is often NOT preceded by nausea** — because it arises centrally rather than through gut afferents. Combined with headache worse on lying or on Valsalva, papilloedema, or any focal neurological sign, this needs imaging. Cross-refer [[D1_Headache_and_Meningism]] and [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.6.
 
 > [!danger] Vomiting in an unwell elderly patient is not gastroenteritis until you have excluded the alternatives
-> **Bowel obstruction, mesenteric ischaemia, myocardial infarction, urinary sepsis, hypercalcaemia and drug toxicity** all present this way, and gastroenteritis is over-diagnosed in this group with real consequences. Cross-refer [[C1]] 0.11.
+> **Bowel obstruction, mesenteric ischaemia, myocardial infarction, urinary sepsis, hypercalcaemia and drug toxicity** all present this way, and gastroenteritis is over-diagnosed in this group with real consequences. Cross-refer [[C1_Acute_Abdomen]] 0.11.
 
 **S/Smx:** As above, with careful attention to hydration — dry mucous membranes, reduced skin turgor, tachycardia, postural drop, oliguria, and in children reduced wet nappies and sunken fontanelle.
 
-**Ix:** **UEC with chloride and bicarbonate** (*why:* protracted vomiting causes hypokalaemic hypochloraemic metabolic alkalosis, and the pattern itself supports the diagnosis and guides replacement; *what:* low potassium and chloride, raised bicarbonate, raised urea). **Bedside glucose and ketones** (*why:* DKA presents with vomiting and abdominal pain and is rapidly fatal if missed; *what:* hyperglycaemia with ketosis — noting **euglycaemic DKA on SGLT2 inhibitors**, cross-refer [[F0.2]] 0.3). **Pregnancy test in every woman of reproductive age** (*why:* pregnancy is a common cause and changes both the differential and the drug choices; *what:* positive). **Calcium** (*why:* hypercalcaemia causes vomiting, constipation and confusion and is a marker of malignancy; *what:* raised corrected calcium). FBC and CRP (*why:* infection and inflammation; *what:* leucocytosis). LFT and lipase (*why:* hepatobiliary and pancreatic causes; *what:* obstructive pattern, raised lipase). **ECG** (*why:* inferior infarction; *what:* ischaemic change). Urinalysis and culture (*why:* urinary infection as an occult cause, particularly in the elderly and in children; *what:* infection). Drug levels where relevant — **digoxin** in particular (*why:* toxicity presents with nausea, vomiting and visual disturbance and is treatable; *what:* level with potassium and renal function). **Erect abdominal and chest radiograph, or CT** where obstruction is suspected (*why:* identifies obstruction, perforation and the transition point; *what:* dilated loops, air-fluid levels, free gas). **CT brain** where there are neurological features or a raised-ICP pattern (*why:* excludes a space-occupying lesion or haemorrhage; *what:* mass, hydrocephalus, haemorrhage).
+**Ix:** **UEC with chloride and bicarbonate** (*why:* protracted vomiting causes hypokalaemic hypochloraemic metabolic alkalosis, and the pattern itself supports the diagnosis and guides replacement; *what:* low potassium and chloride, raised bicarbonate, raised urea). **Bedside glucose and ketones** (*why:* DKA presents with vomiting and abdominal pain and is rapidly fatal if missed; *what:* hyperglycaemia with ketosis — noting **euglycaemic DKA on SGLT2 inhibitors**, cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3). **Pregnancy test in every woman of reproductive age** (*why:* pregnancy is a common cause and changes both the differential and the drug choices; *what:* positive). **Calcium** (*why:* hypercalcaemia causes vomiting, constipation and confusion and is a marker of malignancy; *what:* raised corrected calcium). FBC and CRP (*why:* infection and inflammation; *what:* leucocytosis). LFT and lipase (*why:* hepatobiliary and pancreatic causes; *what:* obstructive pattern, raised lipase). **ECG** (*why:* inferior infarction; *what:* ischaemic change). Urinalysis and culture (*why:* urinary infection as an occult cause, particularly in the elderly and in children; *what:* infection). Drug levels where relevant — **digoxin** in particular (*why:* toxicity presents with nausea, vomiting and visual disturbance and is treatable; *what:* level with potassium and renal function). **Erect abdominal and chest radiograph, or CT** where obstruction is suspected (*why:* identifies obstruction, perforation and the transition point; *what:* dilated loops, air-fluid levels, free gas). **CT brain** where there are neurological features or a raised-ICP pattern (*why:* excludes a space-occupying lesion or haemorrhage; *what:* mass, hydrocephalus, haemorrhage).
 
 ### 0.2.1 Mx – Immediate
 IV fluids with potassium replacement. Antiemetic matched to cause. **Nasogastric tube for obstruction** — decompression relieves symptoms and reduces aspiration risk. Nil by mouth where obstruction or a surgical cause is suspected.
@@ -100,7 +100,7 @@ Oral rehydration education. Review of any drug identified as the cause.
 > [!info] Non-bilious projectile vomiting in an infant — pyloric stenosis
 > Typically presents in the **first weeks of life**, more commonly in firstborn males, with **projectile non-bilious vomiting immediately after feeds** and a baby who is **hungry again straight afterwards** — the persistent hunger is a useful discriminating feature.
 > Examination: visible gastric peristalsis, and a palpable "olive" in the right upper quadrant during a test feed. Ultrasound confirms it.
-> **The classic biochemistry is a hypochloraemic, hypokalaemic metabolic alkalosis with paradoxical aciduria** — losing hydrogen and chloride in gastric fluid, then losing further hydrogen and potassium renally under the influence of secondary hyperaldosteronism. Cross-refer [[F0.2]] 0.7.
+> **The classic biochemistry is a hypochloraemic, hypokalaemic metabolic alkalosis with paradoxical aciduria** — losing hydrogen and chloride in gastric fluid, then losing further hydrogen and potassium renally under the influence of secondary hyperaldosteronism. Cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.7.
 > **This is a medical emergency and a surgical semi-elective procedure.** The metabolic derangement must be corrected **before** theatre, because alkalosis causes post-operative apnoea. Correcting the biochemistry first is the point most often examined.
 
 > [!tip] In adults
@@ -116,7 +116,7 @@ Oral rehydration education. Review of any drug identified as the cause.
 **Infant with suspected pyloric stenosis: nasogastric decompression, IV fluid and electrolyte correction. Do not send to theatre until the alkalosis and hypokalaemia are corrected.**
 
 ### 0.3.2 Mx – Definitive
-Ladd procedure for malrotation. Pyloromyotomy for pyloric stenosis. Adult obstruction managed per [[C5]].
+Ladd procedure for malrotation. Pyloromyotomy for pyloric stenosis. Adult obstruction managed per [[C5_Bowel_Habit__Obstruction_and_Distension]].
 
 ### 0.3.3 Mx – Chronic/long-term
 Feeding re-establishment and growth monitoring. Parental education.
@@ -144,7 +144,7 @@ Feeding re-establishment and growth monitoring. Parental education.
 > **Chronic mesenteric ischaemia** — postprandial pain, food fear and weight loss in a vasculopath.
 > **Medication** — the drug list is the first thing to review, particularly opioids, GLP-1 agonists, SSRIs and chemotherapy.
 > **Adrenal insufficiency** — chronic nausea, weight loss, fatigue and hyponatraemia, and it is frequently missed for months.
-> **Eating disorders** — self-induced vomiting, which the patient may not disclose. Cross-refer [[N8]].
+> **Eating disorders** — self-induced vomiting, which the patient may not disclose. Cross-refer [[N8_Eating_Disorders]].
 > **Rumination syndrome** — see 0.1.
 
 **Ix:** **Gastroscopy** (*why:* excludes mechanical obstruction, ulceration and malignancy, which must be done before a functional or motility diagnosis; *what:* obstruction, ulcer, tumour). Gastric emptying study (*why:* confirms gastroparesis objectively, since symptoms correlate poorly with emptying; *what:* delayed emptying). **CT abdomen** (*why:* extrinsic compression, malignancy, mesenteric vascular disease; *what:* mass, obstruction). **CT or MRI brain where the pattern suggests raised intracranial pressure** (*why:* a slowly growing posterior fossa lesion can present as chronic unexplained vomiting; *what:* mass, hydrocephalus). UEC, calcium, glucose, HbA1c (*why:* metabolic causes and diabetic control as a driver of gastroparesis; *what:* derangement, glycaemic control). **Morning cortisol or short synacthen test** (*why:* adrenal insufficiency causes chronic nausea and is easily missed; *what:* low cortisol). TFTs (*why:* thyroid disease in both directions; *what:* abnormal TSH). **Direct enquiry about cannabis use and hot showers** (*why:* it makes the diagnosis of cannabinoid hyperemesis, and no test will; *what:* the history). Full medication review (*why:* drugs are among the commonest causes and are reversible; *what:* culprit agent).
@@ -156,7 +156,7 @@ Rehydration and electrolyte correction. Antiemetic matched to mechanism.
 Cause-specific. Cannabis cessation. Glycaemic optimisation and dietary modification for gastroparesis. Drug withdrawal where iatrogenic.
 
 ### 0.4.3 Mx – Chronic/long-term
-Dietitian involvement for gastroparesis and for weight loss. Psychological support where symptoms are chronic and functional — this is not a dismissal but a legitimate and effective component of management. Cross-refer [[N6]].
+Dietitian involvement for gastroparesis and for weight loss. Psychological support where symptoms are chronic and functional — this is not a dismissal but a legitimate and effective component of management. Cross-refer [[N6_Functional__Dissociative_and_Personality_Disorders]].
 
 ---
 
@@ -184,13 +184,13 @@ Dietitian involvement for gastroparesis and for weight loss. Psychological suppo
 
 > [!warning] QT prolongation
 > **Ondansetron, droperidol, haloperidol and domperidone all prolong the QT interval.** In a patient already on other QT-prolonging drugs, or with electrolyte disturbance from vomiting — which is most of them — **the combination is a genuine torsades risk.**
-> **Check potassium and magnesium, and check the ECG before stacking agents.** Cross-refer [[B3]] 0.3.
+> **Check potassium and magnesium, and check the ECG before stacking agents.** Cross-refer [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3.
 
 > [!tip] Practical points
 > **Ondansetron causes constipation**, which matters in patients on opioids and in palliative care.
 > **Antiemetics for opioid-induced nausea are frequently unnecessary beyond the first few days** — tolerance develops, and continuing them indefinitely adds burden.
-> **In pregnancy, the agent choice differs and safety data must be checked** — cross-refer [[O1]]. Do not extrapolate from adult non-pregnant practice.
-> **In palliative care, the mechanism-matched approach matters most**, because the causes are frequently multiple and a single agent chosen by habit fails. Cross-refer [[J5]].
+> **In pregnancy, the agent choice differs and safety data must be checked** — cross-refer [[O1_Early_Pregnancy]]. Do not extrapolate from adult non-pregnant practice.
+> **In palliative care, the mechanism-matched approach matters most**, because the causes are frequently multiple and a single agent chosen by habit fails. Cross-refer [[J5_Oncological_Emergencies_and_Palliative_Care]].
 
 **Ix:** ECG with potassium and magnesium before combining QT-prolonging antiemetics (*why:* the combination in a vomiting, hypokalaemic patient is the classic torsades setup; *what:* QT interval, low potassium and magnesium).
 
@@ -215,10 +215,10 @@ Review and stop antiemetics that are no longer needed, particularly metocloprami
 > **Malignancy** of any site, with cachexia. **Chronic disease** — heart failure, COPD, renal failure, cirrhosis. **Depression**, which is extremely common and treatable. **Drugs** — opioids, SSRIs, metformin, digoxin, chemotherapy, and polypharmacy generally. **Endocrine** — hypothyroidism, adrenal insufficiency, hypercalcaemia. **Infection** — chronic, including tuberculosis and HIV. **Dementia**, where reduced intake is a late feature. **Dental and oral problems, dysphagia, and ill-fitting dentures** — mechanical causes that are easily corrected and frequently overlooked in older people.
 
 > [!tip] Increased appetite
-> **Thyrotoxicosis** and **poorly controlled diabetes** — both with weight loss despite eating more, which is a useful pairing. **Corticosteroids.** **Hypothalamic lesions.** **Certain psychotropics.** **Binge eating disorder** — cross-refer [[N8]].
+> **Thyrotoxicosis** and **poorly controlled diabetes** — both with weight loss despite eating more, which is a useful pairing. **Corticosteroids.** **Hypothalamic lesions.** **Certain psychotropics.** **Binge eating disorder** — cross-refer [[N8_Eating_Disorders]].
 
 > [!warning] The combination that demands investigation
-> **Unintentional weight loss with anorexia or early satiety in an adult over 50** requires a structured search for malignancy and for chronic disease, not reassurance. Cross-refer [[I5]] and [[B6]] 0.5.
+> **Unintentional weight loss with anorexia or early satiety in an adult over 50** requires a structured search for malignancy and for chronic disease, not reassurance. Cross-refer [[I5_Weight__Lipids_and_Fluid_Balance]] and [[B6_Oedema__Fatigue__Weakness_and_Undifferentiated_Presentations]] 0.5.
 
 **Ix:** FBC, UEC, LFT, calcium, CRP, TFTs, HbA1c (*why:* the baseline that identifies most metabolic, inflammatory and endocrine causes; *what:* anaemia, renal or hepatic disease, hypercalcaemia, thyroid dysfunction). **CT abdomen and pelvis** where early satiety, weight loss or a mass (*why:* identifies gastric, pancreatic and ovarian malignancy and ascites; *what:* mass, ascites, organomegaly). **CA-125 with pelvic ultrasound in a woman with bloating and early satiety** (*why:* ovarian cancer presents exactly this way and is missed by attributing it to bowel symptoms; *what:* raised CA-125, adnexal mass — noting CA-125 lacks specificity and is used alongside imaging, not alone). Gastroscopy (*why:* gastric malignancy and outlet obstruction; *what:* tumour, stricture). Nutritional assessment including weight trajectory and a validated screening tool (*why:* quantifies malnutrition, which independently worsens outcomes and is treatable; *what:* degree of malnutrition). **Direct enquiry about mood** (*why:* depression is the commonest treatable cause of anorexia and will not appear on any blood test; *what:* depressive symptoms). Oral and dental examination (*why:* a mechanical, correctable cause; *what:* dentition, ulceration, candidiasis).
 
@@ -242,11 +242,11 @@ Dietitian involvement, nutritional supplementation where indicated, treatment of
 
 > [!tip] The other complications
 > **Dehydration and acute kidney injury.**
-> **Hypochloraemic hypokalaemic metabolic alkalosis with paradoxical aciduria** — the mechanism is set out in [[F0.2]] 0.7. Replacement requires **chloride** (as sodium chloride) as well as potassium; the alkalosis will not correct on potassium alone.
-> **Mallory-Weiss tear** — a mucosal tear at the gastro-oesophageal junction after forceful vomiting, presenting as haematemesis **after** several episodes of non-bloody vomiting. Usually self-limiting. Cross-refer [[C4]].
-> **Boerhaave syndrome** — full-thickness oesophageal rupture after forceful vomiting. Severe chest and epigastric pain, surgical emphysema, systemic toxicity. Rare, lethal, and frequently missed. Cross-refer [[B1]] 0.1.
+> **Hypochloraemic hypokalaemic metabolic alkalosis with paradoxical aciduria** — the mechanism is set out in [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.7. Replacement requires **chloride** (as sodium chloride) as well as potassium; the alkalosis will not correct on potassium alone.
+> **Mallory-Weiss tear** — a mucosal tear at the gastro-oesophageal junction after forceful vomiting, presenting as haematemesis **after** several episodes of non-bloody vomiting. Usually self-limiting. Cross-refer [[C4_Gastrointestinal_Bleeding]].
+> **Boerhaave syndrome** — full-thickness oesophageal rupture after forceful vomiting. Severe chest and epigastric pain, surgical emphysema, systemic toxicity. Rare, lethal, and frequently missed. Cross-refer [[B1_Chest_Pain_Framework_and_Cardiac_Biomarkers]] 0.1.
 > **Aspiration pneumonitis and pneumonia** — particularly with reduced conscious state, and a reason to decompress an obstructed stomach.
-> **Dental erosion and parotid enlargement** — signs of chronic self-induced vomiting, and worth looking for. Cross-refer [[N8]].
+> **Dental erosion and parotid enlargement** — signs of chronic self-induced vomiting, and worth looking for. Cross-refer [[N8_Eating_Disorders]].
 > **Refeeding syndrome** — after prolonged poor intake, reintroduction of nutrition causes intracellular shifts of phosphate, potassium and magnesium with potentially fatal consequences. **Identify at-risk patients before feeding, replace electrolytes, and reintroduce nutrition slowly with monitoring.** `UNVERIFIED — risk criteria, replacement thresholds and the rate of caloric reintroduction.`
 
 **Ix:** **UEC with chloride, magnesium and phosphate** (*why:* identifies the alkalosis, the potassium and chloride deficit, and the refeeding risk; *what:* the electrolyte pattern). VBG (*why:* quantifies the alkalosis rapidly; *what:* raised pH and bicarbonate). Thiamine is **given, not measured** (*why:* the assay is slow, the treatment is safe, and the consequence of delay is irreversible; *what:* treat empirically). CXR (*why:* aspiration, and pneumomediastinum in oesophageal rupture; *what:* infiltrates, mediastinal air). CT chest with oral contrast where Boerhaave is suspected (*why:* the diagnostic test; *what:* extraluminal contrast, mediastinal air).
@@ -258,9 +258,9 @@ Dietitian involvement, nutritional supplementation where indicated, treatment of
 Treat the cause of the vomiting. Surgical management of oesophageal rupture.
 
 ### 0.7.3 Mx – Chronic/long-term
-Nutritional rehabilitation with refeeding precautions. Dental review after chronic vomiting. Cross-refer [[N8]] where the vomiting is self-induced.
+Nutritional rehabilitation with refeeding precautions. Dental review after chronic vomiting. Cross-refer [[N8_Eating_Disorders]] where the vomiting is self-induced.
 
 ---
 
 > [!note] Cross-references
-> Acute abdomen and the surgical causes → [[C1]] · Bowel obstruction → [[C5]] · Haematemesis and GI bleeding → [[C4]] · Dyspepsia and reflux → [[C6]] · Pancreatitis → [[C7]] · DKA and euglycaemic DKA → [[F0.2]] 0.3 · Metabolic alkalosis of vomiting → [[F0.2]] 0.7 · Raised intracranial pressure and headache → [[D1]] · Vertigo and vestibular causes → [[D5]] · Hyperemesis gravidarum → [[O1]] · Eating disorders → [[N8]] · Palliative symptom control → [[J5]] · QT prolongation and torsades → [[B3]] 0.3
+> Acute abdomen and the surgical causes → [[C1_Acute_Abdomen]] · Bowel obstruction → [[C5_Bowel_Habit__Obstruction_and_Distension]] · Haematemesis and GI bleeding → [[C4_Gastrointestinal_Bleeding]] · Dyspepsia and reflux → [[C6_Dyspepsia__Oesophageal_and_Anorectal_Disease]] · Pancreatitis → [[C7_Pancreatobiliary_Disease]] · DKA and euglycaemic DKA → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3 · Metabolic alkalosis of vomiting → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.7 · Raised intracranial pressure and headache → [[D1_Headache_and_Meningism]] · Vertigo and vestibular causes → [[D5_Dizziness__Vertigo_and_Gait]] · Hyperemesis gravidarum → [[O1_Early_Pregnancy]] · Eating disorders → [[N8_Eating_Disorders]] · Palliative symptom control → [[J5_Oncological_Emergencies_and_Palliative_Care]] · QT prolongation and torsades → [[B3_Arrhythmia__Bradycardia_and_Cardiac_Devices]] 0.3

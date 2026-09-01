@@ -6,7 +6,7 @@ source: built in chat, model knowledge, NOT source-verified
 > [!warning] Sourcing
 > Written from model knowledge, not retrieved from guidelines. Mechanism, haemodynamic reasoning and discriminators are reliable at intern level. **Every dose, threshold, reference range and timing figure carries an `UNVERIFIED` marker naming what to check, or has been omitted with the omission stated in place.** All fluid bolus volumes — adult and paediatric — all vasopressor and inotrope doses, all antibiotic regimens, and all steroid doses are omitted. Obtain them from your health network's protocols, eTG Antibiotic, the Australian Sepsis Clinical Care Standard, and for children the RCH guidelines.
 >
-> Sepsis definitions, SIRS, qSOFA and the source-based sepsis table are in [[A1]] 0.2–0.3 and are not restated here.
+> Sepsis definitions, SIRS, qSOFA and the source-based sepsis table are in [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2–0.3 and are not restated here.
 
 ---
 
@@ -52,7 +52,7 @@ Post-shock organ recovery, rehabilitation, and documentation of the precipitant 
 
 **D:** Shock from loss of intravascular volume without blood loss — fluid lost externally, or sequestered where the circulation cannot reach it.
 
-**R/Causes:** Gastroenteritis with high-volume vomiting and diarrhoea, high-output stoma, burns exudate, DKA and hyperosmolar states with osmotic diuresis, heat illness, pancreatitis, bowel obstruction, and third-spacing of any cause — cross-refer [[F0.2]] 0.10.
+**R/Causes:** Gastroenteritis with high-volume vomiting and diarrhoea, high-output stoma, burns exudate, DKA and hyperosmolar states with osmotic diuresis, heat illness, pancreatitis, bowel obstruction, and third-spacing of any cause — cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.10.
 
 **A/P:** Volume loss → falling preload → falling stroke volume → compensatory tachycardia and systemic vasoconstriction maintain blood pressure while diverting flow from skin, gut and kidney → **normal blood pressure with cold peripheries and oliguria is compensated shock** → compensation exhausts → hypotension, then anaerobic metabolism, lactic acidosis and organ failure.
 
@@ -64,7 +64,7 @@ Post-shock organ recovery, rehabilitation, and documentation of the precipitant 
 > [!tip] Discriminating from cardiogenic shock
 > Both present cold and clammy. **The JVP separates them** — flat here, raised in cardiogenic. If the JVP is unhelpful, a small fluid bolus that improves perfusion confirms hypovolaemia; one that worsens oxygenation points the other way. This is why boluses are given small and reassessed rather than prescribed as litres.
 
-**Ix:** UEC (*why:* identifies the pattern and severity of losses and the renal consequence; *what:* urea raised disproportionately to creatinine, sodium reflecting the tonicity of what was lost). Serial lactate (*why:* quantifies whether compensation is failing when blood pressure is still normal; *what:* elevation and clearance). VBG (*why:* rapid pH, potassium and lactate; *what:* metabolic acidosis). FBC (*why:* haemoconcentration supports non-haemorrhagic loss, whereas a falling haemoglobin redirects you to bleeding; *what:* raised haematocrit versus falling haemoglobin). Bedside echocardiography or IVC assessment (*why:* a small hyperdynamic ventricle with a collapsing IVC confirms the phenotype and predicts fluid responsiveness; *what:* underfilled chambers). Hourly urine output (*why:* the most practical continuous marker of resuscitation adequacy; *what:* output per hour). Weight against a recent recorded weight in children (*why:* the most accurate deficit estimate available; *what:* percentage loss). Bedside glucose and ketones (*why:* DKA and hyperosmolar states present exactly this way; *what:* hyperglycaemia with ketosis — cross-refer [[F0.2]] 0.3).
+**Ix:** UEC (*why:* identifies the pattern and severity of losses and the renal consequence; *what:* urea raised disproportionately to creatinine, sodium reflecting the tonicity of what was lost). Serial lactate (*why:* quantifies whether compensation is failing when blood pressure is still normal; *what:* elevation and clearance). VBG (*why:* rapid pH, potassium and lactate; *what:* metabolic acidosis). FBC (*why:* haemoconcentration supports non-haemorrhagic loss, whereas a falling haemoglobin redirects you to bleeding; *what:* raised haematocrit versus falling haemoglobin). Bedside echocardiography or IVC assessment (*why:* a small hyperdynamic ventricle with a collapsing IVC confirms the phenotype and predicts fluid responsiveness; *what:* underfilled chambers). Hourly urine output (*why:* the most practical continuous marker of resuscitation adequacy; *what:* output per hour). Weight against a recent recorded weight in children (*why:* the most accurate deficit estimate available; *what:* percentage loss). Bedside glucose and ketones (*why:* DKA and hyperosmolar states present exactly this way; *what:* hyperglycaemia with ketosis — cross-refer [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.3).
 
 ### 0.2.1 Mx – Immediate
 Isotonic crystalloid in boluses with reassessment after each. Balanced crystalloid is generally preferred to large-volume 0.9% sodium chloride, which produces a hyperchloraemic acidosis. `UNVERIFIED — bolus volumes for adults and children, and the number of boluses before escalating to vasopressor support, are omitted; use local and RCH guidance.` Replace ongoing losses in addition to the deficit.
@@ -93,7 +93,7 @@ Oral rehydration education and a documented plan for recurrent high-output losse
 > Most acute pulmonary oedema is hypertensive and responds to preload and afterload reduction. **Cardiogenic shock is the subset that is hypotensive and hypoperfused**, and it has high mortality. The management diverges: nitrates and non-invasive ventilation for the hypertensive patient, inotropes and urgent revascularisation or mechanical support for the hypotensive one. Giving nitrates to a hypotensive cardiogenic shock patient is harmful.
 
 > [!warning] Diuretics are not the primary intervention in acute pulmonary oedema
-> The immediate benefit comes from **sitting the patient up, oxygen, non-invasive ventilation and nitrate-mediated preload and afterload reduction.** Many patients in acute cardiogenic pulmonary oedema are not volume-overloaded at all — the fluid has redistributed into the lungs rather than accumulated. Diuretics have a role, but reaching for frusemide first and nitrates late is a recognised error. `UNVERIFIED — all GTN, frusemide and inotrope doses and titration are omitted; obtain from eTG Cardiovascular and local protocol.`
+> The immediate benefit comes from **sitting the patient up, oxygen, non-invasive ventilation and nitrate-mediated preload and afterload reduction.** Many patients in acute cardiogenic pulmonary oedema are not volume-overloaded at all — the fluid has redistributed into the lungs rather than accumulated. Diuretics have a role, but reaching for furosemide first and nitrates late is a recognised error. `UNVERIFIED — all GTN, furosemide and inotrope doses and titration are omitted; obtain from eTG Cardiovascular and local protocol.` `UNVERIFIED — the NAME is corrected per the TGA Ingredient Harmonisation programme; the REGIMEN this line states is not thereby confirmed and needs a named Australian source.`
 
 **Ix:** ECG immediately (*why:* identifies the STEMI or arrhythmia that converts this into a reperfusion or cardioversion emergency, which changes everything about the next twenty minutes; *what:* ST elevation, new left bundle branch block, arrhythmia). Troponin (*why:* distinguishes ischaemic precipitant from decompensation, though it rises in any myocardial strain; *what:* elevation with a rising trend). Erect CXR (*why:* confirms pulmonary oedema and excludes the pneumonia and pneumothorax that mimic it; *what:* upper lobe diversion, Kerley B lines, bat-wing perihilar shadowing, effusions, cardiomegaly). Bedside echocardiography (*why:* quantifies ventricular function, identifies acute valvular catastrophe such as papillary muscle rupture, and separates cardiogenic from other phenotypes; *what:* poor contractility, regional wall motion abnormality, severe regurgitation). VBG with lactate (*why:* distinguishes congested-but-perfused from genuinely shocked, which is the treatment-defining question; *what:* raised lactate, acidosis). BNP or NT-proBNP where the diagnosis is uncertain (*why:* a normal value makes heart failure unlikely, which is useful in the undifferentiated breathless patient; *what:* elevation — `UNVERIFIED — cut-offs require verification and are altered by renal impairment, obesity and atrial fibrillation`). UEC (*why:* renal function determines diuretic and ACE inhibitor decisions and cardiorenal syndrome is common; *what:* creatinine, potassium). FBC and TSH (*why:* anaemia and thyrotoxicosis are reversible precipitants; *what:* anaemia, suppressed TSH).
 
@@ -170,7 +170,7 @@ High-flow oxygen, cautious small fluid boluses, early vasopressor support for hy
 **Systemic thrombolysis** for massive PE with haemodynamic instability, weighed against bleeding risk. Catheter-directed therapy or surgical embolectomy where thrombolysis is contraindicated or fails. ICU management. `UNVERIFIED — thrombolysis agent, dose, and absolute and relative contraindications require verification.`
 
 ### 0.5.3 Mx – Chronic/long-term
-Anticoagulation duration determined by whether the event was provoked or unprovoked. Thrombophilia and malignancy screening in selected patients. Follow-up for chronic thromboembolic pulmonary hypertension in persistently breathless patients. Cross-refer [[J3]] Recurrent Thrombosis.
+Anticoagulation duration determined by whether the event was provoked or unprovoked. Thrombophilia and malignancy screening in selected patients. Follow-up for chronic thromboembolic pulmonary hypertension in persistently breathless patients. Cross-refer [[J3_Bleeding_and_Thrombosis]] Recurrent Thrombosis.
 
 ---
 
@@ -209,11 +209,11 @@ Continued steroid replacement, tapering to maintenance as the crisis resolves. E
 
 ## 0.7 Adult Sepsis
 
-**D:** Life-threatening organ dysfunction from a dysregulated host response to infection. Definitions and the SIRS/qSOFA discussion are in [[A1]] 0.2 and are not repeated.
+**D:** Life-threatening organ dysfunction from a dysregulated host response to infection. Definitions and the SIRS/qSOFA discussion are in [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2 and are not repeated.
 
 **A/P:** Sepsis is fundamentally distributive shock with a cardiogenic component. Vasoplegia and capillary leak reduce effective circulating volume, while cytokine-mediated myocardial depression reduces contractility in a substantial proportion of patients — which is why some septic patients need an inotrope rather than more noradrenaline, and why bedside echocardiography earns its place.
 
-**S/Smx:** As per [[A1]] 0.2. **Warm peripheries with a wide pulse pressure early, cold and shut down late.** Hypothermia, a normal white cell count, and absence of fever do not exclude it and are markers of worse outcome.
+**S/Smx:** As per [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2. **Warm peripheries with a wide pulse pressure early, cold and shut down late.** Hypothermia, a normal white cell count, and absence of fever do not exclude it and are markers of worse outcome.
 
 > [!warning] The elderly septic patient often has none of the classic features
 > New confusion, a fall, reduced oral intake, or simply "not himself" may be the entire presentation, with no fever and no localising symptom. Urinary and respiratory sources dominate. A low threshold for a septic screen in this group is the practical lesson.
@@ -221,7 +221,7 @@ Continued steroid replacement, tapering to maintenance as the crisis resolves. E
 > [!info] The Australian standard
 > Management is structured around the **Sepsis Clinical Care Standard**, with recognition, escalation, time-bound antibiotic administration, fluid resuscitation, source identification and senior review. Most Australian health services have a sepsis pathway form. `UNVERIFIED — the antibiotic administration time target, empirical regimens by source, and initial fluid volumes require verification against the current Clinical Care Standard, eTG Antibiotic and your local pathway.`
 
-**Ix:** As per [[A1]] 0.2. The additions worth naming: serial lactate (*why:* clearance predicts outcome and guides ongoing resuscitation better than a single value; *what:* trajectory). Bedside echocardiography (*why:* identifies the sepsis-related myocardial depression that changes the vasopressor-versus-inotrope decision; *what:* reduced contractility despite vasoplegia).
+**Ix:** As per [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2. The additions worth naming: serial lactate (*why:* clearance predicts outcome and guides ongoing resuscitation better than a single value; *what:* trajectory). Bedside echocardiography (*why:* identifies the sepsis-related myocardial depression that changes the vasopressor-versus-inotrope decision; *what:* reduced contractility despite vasoplegia).
 
 ### 0.7.1 Mx – Immediate
 Oxygen, blood cultures, IV broad-spectrum antibiotics, IV fluid resuscitation, lactate, and urine output monitoring — delivered in parallel. Escalate early. `UNVERIFIED — all regimens, doses and volumes from eTG and local protocol; none stated here.`
@@ -292,7 +292,7 @@ Immunisation status review, investigation for immunodeficiency after severe or r
 ICU management with vasopressor support, blood product support for DIC, and management of limb ischaemia from purpura fulminans, which may require surgical input.
 
 ### 0.9.3 Mx – Chronic/long-term
-Contact tracing and prophylaxis. Hearing assessment after meningitis. Limb and skin sequelae including amputation and grafting. **Investigate complement deficiency after invasive meningococcal disease**, particularly if recurrent or a non-vaccine serogroup. Immunisation review — cross-refer [[15_Paeds]] and the current Australian Immunisation Handbook schedule.
+Contact tracing and prophylaxis. Hearing assessment after meningitis. Limb and skin sequelae including amputation and grafting. **Investigate complement deficiency after invasive meningococcal disease**, particularly if recurrent or a non-vaccine serogroup. Immunisation review — cross-refer `TODO:link — 15_Paeds, the 15_* Paeds series (40 files); the specific file is not determinable from the reference` and the current Australian Immunisation Handbook schedule.
 
 ---
 
@@ -323,7 +323,7 @@ Sepsis pathway as per 0.7 — cultures, antibiotics, fluids, lactate. Relieve re
 Decompression of an obstructed infected system. Antibiotic de-escalation on sensitivities with duration determined by whether the infection is complicated. Definitive stone management once sepsis has resolved, not during it.
 
 ### 0.10.3 Mx – Chronic/long-term
-Catheter review and removal wherever possible, with a documented plan for those that must stay. Investigation of recurrent UTI. Diabetes optimisation. Cross-refer [[H4]] Renal Colic and [[H2]] LUTS.
+Catheter review and removal wherever possible, with a documented plan for those that must stay. Investigation of recurrent UTI. Diabetes optimisation. Cross-refer [[H4_Scrotum__Groin_and_Loin]] Renal Colic and [[H2_LUTS__Retention_and_Incontinence]] LUTS.
 
 ---
 
@@ -346,18 +346,18 @@ Rigors are a useful discriminating symptom — they suggest bacteraemia and poin
 > [!danger] Antibiotics alone will fail
 > Cholangitis in an obstructed duct is a closed-space infection under pressure. **Biliary drainage is the definitive treatment and its timing determines outcome.** A patient who is not improving on appropriate antibiotics needs drainage, not a change of antibiotic. `UNVERIFIED — the recommended timing of ERCP by severity grade requires verification against current guidance.`
 
-**Ix:** LFT (*why:* the obstructive pattern distinguishes cholangitis from cholecystitis and from hepatitis, and the bilirubin trend tracks the obstruction; *what:* raised ALP and GGT out of proportion to transaminases, raised conjugated bilirubin). Blood cultures (*why:* bacteraemia is present in a high proportion and often provides the only isolate; *what:* enteric Gram-negative growth). FBC, UEC, CRP, lactate (*why:* severity grading and organ dysfunction assessment determine urgency of drainage; *what:* leucocytosis, renal impairment, raised lactate). Coagulation profile (*why:* obstructive jaundice impairs vitamin K absorption and causes coagulopathy, which must be corrected before ERCP or percutaneous drainage; *what:* prolonged INR). Abdominal ultrasound as first-line imaging (*why:* readily available, identifies duct dilatation and gallstones, and is sensitive for the obstruction though less so for the stone itself; *what:* dilated common bile duct, gallstones, thickened gallbladder wall). MRCP or CT where ultrasound is non-diagnostic (*why:* defines the level and cause of obstruction before intervention; *what:* stone, stricture, mass). Amylase or lipase (*why:* gallstone pancreatitis coexists and changes management; *what:* elevation — cross-refer [[C7]]).
+**Ix:** LFT (*why:* the obstructive pattern distinguishes cholangitis from cholecystitis and from hepatitis, and the bilirubin trend tracks the obstruction; *what:* raised ALP and GGT out of proportion to transaminases, raised conjugated bilirubin). Blood cultures (*why:* bacteraemia is present in a high proportion and often provides the only isolate; *what:* enteric Gram-negative growth). FBC, UEC, CRP, lactate (*why:* severity grading and organ dysfunction assessment determine urgency of drainage; *what:* leucocytosis, renal impairment, raised lactate). Coagulation profile (*why:* obstructive jaundice impairs vitamin K absorption and causes coagulopathy, which must be corrected before ERCP or percutaneous drainage; *what:* prolonged INR). Abdominal ultrasound as first-line imaging (*why:* readily available, identifies duct dilatation and gallstones, and is sensitive for the obstruction though less so for the stone itself; *what:* dilated common bile duct, gallstones, thickened gallbladder wall). MRCP or CT where ultrasound is non-diagnostic (*why:* defines the level and cause of obstruction before intervention; *what:* stone, stricture, mass). Amylase or lipase (*why:* gallstone pancreatitis coexists and changes management; *what:* elevation — cross-refer [[C7_Pancreatobiliary_Disease]]).
 
 ### 0.11.1 Mx – Immediate
 Sepsis pathway — cultures, IV antibiotics with Gram-negative and anaerobic cover, fluid resuscitation, lactate. Nil by mouth. Analgesia. Correct coagulopathy with vitamin K. **Urgent gastroenterology and surgical referral for biliary drainage.** `UNVERIFIED — antibiotic regimens from eTG Antibiotic.`
 
 ### 0.11.2 Mx – Definitive
-**ERCP with sphincterotomy and stone extraction or stent insertion** is the usual drainage route, with percutaneous transhepatic cholangiography as the alternative where ERCP is not possible — cross-refer [[P6]] Procedure addendum. Cholecystectomy is deferred to after resolution in most cases.
+**ERCP with sphincterotomy and stone extraction or stent insertion** is the usual drainage route, with percutaneous transhepatic cholangiography as the alternative where ERCP is not possible — cross-refer [[GER8_Procedure_Addendum]] Procedure addendum. Cholecystectomy is deferred to after resolution in most cases.
 
 ### 0.11.3 Mx – Chronic/long-term
-Definitive management of the underlying obstruction. Interval cholecystectomy for gallstone disease. Surveillance and stent exchange for malignant strictures. Cross-refer [[C3]] Obstructive Jaundice.
+Definitive management of the underlying obstruction. Interval cholecystectomy for gallstone disease. Surveillance and stent exchange for malignant strictures. Cross-refer [[C3_Jaundice_and_Liver_Disease]] Obstructive Jaundice.
 
 ---
 
 > [!note] Cross-references
-> Sepsis definitions, SIRS, qSOFA and the source-based table → [[A1]] 0.2–0.3 · Deteriorating patient recognition → [[A1]] 0.1 · Lactic acidosis and third-spacing → [[F0.2]] 0.5, 0.10 · Anaphylaxis as distributive shock → [[F0.1]] 0.9 · Resuscitation algorithms → [[F0.4]] · Acute pulmonary oedema management detail → [[F0.5]]
+> Sepsis definitions, SIRS, qSOFA and the source-based table → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.2–0.3 · Deteriorating patient recognition → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.1 · Lactic acidosis and third-spacing → [[F0-2_Acid-Base__DKA_and_Fluid_States]] 0.5, 0.10 · Anaphylaxis as distributive shock → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.9 · Resuscitation algorithms → [[F0-4_Resuscitation_Algorithms_and_Emergency_Procedures]] · Acute pulmonary oedema management detail → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]]

@@ -77,7 +77,7 @@ no_baseline: 0
 > **5. CORTICOSTEROIDS** — specifically for **granulomatous disease, lymphoma and vitamin D toxicity**, where the mechanism is excess calcitriol. **They do not work in hyperparathyroidism or in most solid tumour hypercalcaemia.**
 > **6. Dialysis** in extremis or severe renal failure.
 > **7. Treat the underlying cause**, and **stop the contributing drugs — thiazides, lithium, calcium and vitamin D supplements.**
-> **Loop diuretics are NO LONGER routinely recommended** — the old "saline and frusemide" teaching has been abandoned, because it worsens volume depletion. **Use them only if the patient becomes fluid overloaded during rehydration.**
+> **Loop diuretics are NO LONGER routinely recommended** — the old "saline and furosemide" teaching has been abandoned, because it worsens volume depletion. **Use them only if the patient becomes fluid overloaded during rehydration.** `UNVERIFIED — the NAME is corrected per the TGA Ingredient Harmonisation programme; the REGIMEN this line states is not thereby confirmed and needs a named Australian source.`
 > `UNVERIFIED — all agents, doses, fluid rates and the severity thresholds triggering each step.`
 
 > [!warning] Hypercalcaemia of malignancy carries a poor prognosis

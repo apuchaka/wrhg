@@ -95,7 +95,7 @@ Treat the cause. **Stop or reduce the offending drug.** Diuretics where there is
 > [!tip] The rest of the differential
 > **Cellulitis** — fever, spreading erythema with a definable edge, portal of entry. **It can coexist with DVT**, and each is a risk factor for the other.
 > **Ruptured Baker's cyst** — "pseudothrombophlebitis", with sudden calf pain and swelling in a patient with knee arthritis, sometimes with a crescent bruise below the malleolus.
-> **Compartment syndrome** — pain out of proportion, pain on passive stretch. Cross-refer [[A7]] 0.6.
+> **Compartment syndrome** — pain out of proportion, pain on passive stretch. Cross-refer [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6.
 > **Lymphoedema** — non-pitting, chronic, with skin thickening and **a positive Stemmer sign** (inability to pinch a fold of skin at the base of the second toe). Post-surgical, post-radiotherapy, post-infective, or malignant.
 > **Post-thrombotic syndrome** — chronic swelling, pain and skin change after a previous DVT.
 > **Pelvic or abdominal malignancy** obstructing venous or lymphatic return — consider particularly in unilateral swelling without another explanation.
@@ -113,7 +113,7 @@ Anticoagulation for confirmed or strongly suspected DVT while awaiting imaging w
 Anticoagulation for a duration determined by whether the event was provoked or unprovoked. Compression for post-thrombotic syndrome. Complex decongestive therapy for lymphoedema.
 
 ### 0.3.3 Mx – Chronic/long-term
-Cross-refer [[J3]] Bleeding & Thrombosis. **Lymphoedema requires lifelong skin care, compression and prompt treatment of cellulitis**, and referral to a lymphoedema service — it is a chronic condition that is frequently left unmanaged after the initial cause is addressed.
+Cross-refer [[J3_Bleeding_and_Thrombosis]] Bleeding & Thrombosis. **Lymphoedema requires lifelong skin care, compression and prompt treatment of cellulitis**, and referral to a lymphoedema service — it is a chronic condition that is frequently left unmanaged after the initial cause is addressed.
 
 ---
 
@@ -128,7 +128,7 @@ Cross-refer [[J3]] Bleeding & Thrombosis. **Lymphoedema requires lifelong skin c
 > **Test eye movements and visual acuity in every swollen eyelid.** That examination is the entire distinction, and it takes a minute.
 
 > [!warning] Angioedema
-> Non-pitting, asymmetric swelling of lips, tongue, face or larynx. **Histamine-mediated** forms accompany urticaria and respond to adrenaline and antihistamines. **Bradykinin-mediated** forms — ACE inhibitor-induced and hereditary angioedema — have **no urticaria** and do not respond well to the anaphylaxis drugs. Cross-refer [[F0.1]] 0.9 and [[A2]] 0.2. **Assess the airway first in any facial or tongue swelling.**
+> Non-pitting, asymmetric swelling of lips, tongue, face or larynx. **Histamine-mediated** forms accompany urticaria and respond to adrenaline and antihistamines. **Bradykinin-mediated** forms — ACE inhibitor-induced and hereditary angioedema — have **no urticaria** and do not respond well to the anaphylaxis drugs. Cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.9 and [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.2. **Assess the airway first in any facial or tongue swelling.**
 
 > [!tip] Superior vena cava obstruction
 > **Facial, neck and bilateral upper limb swelling with plethora, distended non-pulsatile neck and chest wall veins, worse on lying flat or bending forward.** **Pemberton's sign** — facial plethora and distress on raising both arms above the head — supports it.
@@ -177,7 +177,7 @@ Cessation and permanent documentation of an ACE inhibitor causing angioedema. Ne
 > **Cardiorespiratory** — heart failure, chronic lung disease.
 > **Sleep** — **obstructive sleep apnoea is very commonly the answer and very commonly not asked about.** Ask about snoring, witnessed apnoeas, and daytime sleepiness as distinct from fatigue.
 > **Drugs** — beta-blockers, antihistamines, opioids, antidepressants, statins, and alcohol.
-> **Psychiatric** — **depression is the single commonest treatable cause**, and it must be asked about directly rather than inferred from a normal blood panel. Cross-refer [[N4]].
+> **Psychiatric** — **depression is the single commonest treatable cause**, and it must be asked about directly rather than inferred from a normal blood panel. Cross-refer [[N4_Mood_Disorders]].
 > **Coeliac disease** — frequently presents as fatigue with minimal gastrointestinal symptoms.
 
 > [!info] Chronic fatigue and post-viral states
@@ -216,10 +216,10 @@ Sleep hygiene, graded and paced activity where appropriate, treatment of mood di
 > **Lower motor neurone** — wasting, fasciculation, reduced tone and reflexes.
 > **Neuromuscular junction** — **fatigable** weakness, ptosis, diplopia, bulbar symptoms; worse through the day.
 > **Muscle** — **symmetrical proximal** weakness, normal sensation, preserved reflexes until late. Difficulty rising from a chair, climbing stairs, or raising the arms to comb hair.
-> Cross-refer [[D4]] for the full neurological approach.
+> Cross-refer [[D4_Weakness__Neuropathy_and_Radiculopathy]] for the full neurological approach.
 
 > [!warning] Acute or rapidly progressive weakness is an emergency
-> **Guillain–Barré syndrome and myasthenic crisis** both present as ascending or fatigable weakness that can progress to respiratory failure over hours to days. **Monitor forced vital capacity, not oxygen saturation** — cross-refer [[F0.5]] 0.5. Do not send a patient with new progressive weakness home to be seen in clinic.
+> **Guillain–Barré syndrome and myasthenic crisis** both present as ascending or fatigable weakness that can progress to respiratory failure over hours to days. **Monitor forced vital capacity, not oxygen saturation** — cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5. Do not send a patient with new progressive weakness home to be seen in clinic.
 
 > [!tip] The treatable systemic causes of proximal weakness
 > **Electrolytes** — hypokalaemia, hyperkalaemia, hypercalcaemia, hypomagnesaemia, hypophosphataemia.
@@ -233,7 +233,7 @@ Sleep hygiene, graded and paced activity where appropriate, treatment of mood di
 **Ix:** UEC with **potassium, calcium, magnesium and phosphate** (*why:* electrolyte disturbance is a common, rapidly reversible cause of profound weakness; *what:* derangement). **CK** (*why:* separates myopathic from neuropathic causes and identifies statin myopathy and inflammatory myositis; *what:* elevation). TFTs (*why:* both hypo- and hyperthyroidism cause proximal myopathy; *what:* abnormal TSH). Vitamin D, calcium, phosphate and ALP (*why:* osteomalacia causes proximal weakness with bone pain and is fully treatable; *what:* low vitamin D, raised ALP). Morning cortisol or short synacthen where adrenal insufficiency is possible (*why:* treatable and easily missed; *what:* low cortisol). FBC, ESR and CRP (*why:* inflammatory and malignant causes; *what:* raised markers). **Serial forced vital capacity where weakness is acute or progressive** (*why:* the parameter that detects impending respiratory failure in neuromuscular disease, which gases and oximetry will not; *what:* declining FVC). Acetylcholine receptor antibodies, nerve conduction studies and EMG where indicated (*why:* confirm myasthenia and localise the lesion; *what:* antibodies, decrement, denervation). Malignancy screening in confirmed dermatomyositis (*why:* the paraneoplastic association is strong enough to warrant an age-appropriate search; *what:* underlying cancer).
 
 ### 0.6.1 Mx – Immediate
-Correct electrolytes. **Assess respiratory function in acute or progressive weakness and escalate.** Exclude cord compression where there is a sensory level, bladder or bowel disturbance, or back pain — cross-refer [[D3]] and [[L4]].
+Correct electrolytes. **Assess respiratory function in acute or progressive weakness and escalate.** Exclude cord compression where there is a sensory level, bladder or bowel disturbance, or back pain — cross-refer [[D3_Stroke_and_Focal_Neurological_Deficit]] and [[L4_Back_and_Neck_Pain]].
 
 ### 0.6.2 Mx – Definitive
 Cause-specific. Neurology involvement for suspected neuromuscular disease.
@@ -249,7 +249,7 @@ Physiotherapy and rehabilitation, which is the definitive treatment for decondit
 
 > [!info] Polymyalgia rheumatica — the one not to miss
 > **Age over 50 — essentially never younger** · **bilateral shoulder and pelvic girdle pain and stiffness** · **prolonged morning stiffness** · raised ESR and CRP · systemic features of fatigue, weight loss and low-grade fever · and a **dramatic response to low-dose corticosteroids**, often within days, which is itself close to diagnostic.
-> **Ask specifically about giant cell arteritis symptoms in every PMR patient** — new headache, scalp tenderness, jaw claudication, and visual disturbance. **GCA causes irreversible blindness and requires immediate high-dose steroids on suspicion, before biopsy.** The two conditions overlap substantially and the patient must be told what symptoms to report urgently. Cross-refer [[F0.5]] 0.6.
+> **Ask specifically about giant cell arteritis symptoms in every PMR patient** — new headache, scalp tenderness, jaw claudication, and visual disturbance. **GCA causes irreversible blindness and requires immediate high-dose steroids on suspicion, before biopsy.** The two conditions overlap substantially and the patient must be told what symptoms to report urgently. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.6.
 
 > [!tip] Fibromyalgia is a positive diagnosis, not a residual label
 > Widespread pain for months, with **fatigue, unrefreshing sleep, and cognitive difficulty ("fibro fog")**, often with a history of a triggering physical or psychological stressor. Examination shows widespread tenderness without synovitis, and inflammatory markers are normal.
@@ -258,7 +258,7 @@ Physiotherapy and rehabilitation, which is the definitive treatment for decondit
 
 > [!danger] Red flags in widespread pain
 > **Focal bone pain, particularly at night · unexplained weight loss · age over 50 with new onset · raised inflammatory markers · anaemia · hypercalcaemia · renal impairment · a history of malignancy · fever.**
-> **The combination of bone pain, anaemia, renal impairment and hypercalcaemia is myeloma until proven otherwise** — the CRAB features — and it is a diagnosis routinely delayed by attributing back and rib pain to degenerative disease. Cross-refer [[J4]].
+> **The combination of bone pain, anaemia, renal impairment and hypercalcaemia is myeloma until proven otherwise** — the CRAB features — and it is a diagnosis routinely delayed by attributing back and rib pain to degenerative disease. Cross-refer [[J4_Paraproteins_and_Lymphoproliferative]].
 > **Metastatic bone disease** likewise presents as generalised or focal bone pain, and progressive pain unrelieved by rest with a known primary requires imaging.
 
 > [!tip] The rest of the differential
@@ -303,7 +303,7 @@ Cause-specific. Corticosteroids with a slow taper for PMR, with steroid-sparing 
 
 **S/Smx:** As above, with systemic symptoms — weight loss, fever, night sweats — and a full examination of regional nodes and the likely primary sites.
 
-**Ix:** **Ultrasound as first-line for most superficial lumps** (*why:* distinguishes solid from cystic, assesses vascularity and depth relative to fascia, and is quick, cheap and radiation-free; *what:* cystic versus solid, depth, vascularity, nodal architecture). **MRI for any lesion suspected of being a sarcoma, arranged through the sarcoma service** (*why:* defines extent and relationship to neurovascular structures for surgical planning, and must precede biopsy; *what:* size, depth, compartment involvement). CT chest, abdomen and pelvis where malignancy is suspected (*why:* identifies a primary and stages disease; *what:* primary lesion, metastases). **Core biopsy or excision biopsy of a lymph node rather than fine needle aspiration where lymphoma is suspected** (*why:* lymphoma diagnosis requires assessment of nodal architecture, which cytology from an FNA cannot provide, so an FNA frequently produces a non-diagnostic result and delays diagnosis; *what:* histological subtype). FBC, LDH, film and ESR (*why:* haematological malignancy screening; *what:* cytopenias, blasts, raised LDH). Site-specific investigation — cross-refer [[F4]] Neck Lumps, [[H4]] Groin Lump, [[O7]] Breast Lump, [[G5]] Skin Lumps.
+**Ix:** **Ultrasound as first-line for most superficial lumps** (*why:* distinguishes solid from cystic, assesses vascularity and depth relative to fascia, and is quick, cheap and radiation-free; *what:* cystic versus solid, depth, vascularity, nodal architecture). **MRI for any lesion suspected of being a sarcoma, arranged through the sarcoma service** (*why:* defines extent and relationship to neurovascular structures for surgical planning, and must precede biopsy; *what:* size, depth, compartment involvement). CT chest, abdomen and pelvis where malignancy is suspected (*why:* identifies a primary and stages disease; *what:* primary lesion, metastases). **Core biopsy or excision biopsy of a lymph node rather than fine needle aspiration where lymphoma is suspected** (*why:* lymphoma diagnosis requires assessment of nodal architecture, which cytology from an FNA cannot provide, so an FNA frequently produces a non-diagnostic result and delays diagnosis; *what:* histological subtype). FBC, LDH, film and ESR (*why:* haematological malignancy screening; *what:* cytopenias, blasts, raised LDH). Site-specific investigation — cross-refer [[F4_Neck_Lumps_and_Facial_Pain]] Neck Lumps, [[H4_Scrotum__Groin_and_Loin]] Groin Lump, [[O7_Breast_Disease]] Breast Lump, [[G5_Lumps__Ulcers_and_Nails]] Skin Lumps.
 
 ### 0.8.1 Mx – Immediate
 Only for abscess (drainage) or a rapidly expanding pulsatile mass (vascular emergency).
@@ -317,4 +317,4 @@ Follow-up of any lesion managed conservatively, with a defined review interval a
 ---
 
 > [!note] Cross-references
-> Heart failure and pulmonary oedema → [[F0.5]] 0.3 and [[F0.3]] 0.3 · Nephrotic syndrome and proteinuria → [[H1]] · VTE and anticoagulation → [[J3]] · Angioedema and anaphylaxis → [[F0.1]] 0.9 · Airway involvement in facial swelling → [[A2]] 0.2 · Neuromuscular weakness and FVC monitoring → [[F0.5]] 0.5 and [[D4]] · Giant cell arteritis → [[F0.5]] 0.6 · Myeloma and paraproteins → [[J4]] · Depression → [[N4]] · Site-specific lumps → [[F4]], [[H4]], [[O7]], [[G5]]
+> Heart failure and pulmonary oedema → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.3 and [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.3 · Nephrotic syndrome and proteinuria → [[H1_Haematuria_and_Proteinuria]] · VTE and anticoagulation → [[J3_Bleeding_and_Thrombosis]] · Angioedema and anaphylaxis → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.9 · Airway involvement in facial swelling → [[A2_Airway_Compromise__Stridor_and_Tracheostomy_Emergencies]] 0.2 · Neuromuscular weakness and FVC monitoring → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.5 and [[D4_Weakness__Neuropathy_and_Radiculopathy]] · Giant cell arteritis → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.6 · Myeloma and paraproteins → [[J4_Paraproteins_and_Lymphoproliferative]] · Depression → [[N4_Mood_Disorders]] · Site-specific lumps → [[F4_Neck_Lumps_and_Facial_Pain]], [[H4_Scrotum__Groin_and_Loin]], [[O7_Breast_Disease]], [[G5_Lumps__Ulcers_and_Nails]]

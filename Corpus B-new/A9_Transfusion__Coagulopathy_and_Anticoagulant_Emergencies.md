@@ -20,7 +20,7 @@ source: built in chat, model knowledge, NOT source-verified
 > This is the single most important trap in this section. **The haemoglobin in acute bleeding reflects how much dilution has occurred, not how much blood has been lost.** A patient can be exsanguinating with a normal first haemoglobin. Rely instead on **mechanism, clinical assessment, serial measurement and lactate**, and treat what you see rather than what the number says.
 
 > [!tip] Compensation masks blood loss until it doesn't
-> Tachycardia and vasoconstriction maintain blood pressure across a substantial volume of loss, so **narrowed pulse pressure, cool peripheries, delayed capillary refill, agitation and reduced urine output all precede hypotension.** Young patients, athletes and pregnant patients compensate longest and crash hardest. Patients on beta-blockers may not mount a tachycardia at all. Cross-refer [[F0.3]] 0.1–0.2.
+> Tachycardia and vasoconstriction maintain blood pressure across a substantial volume of loss, so **narrowed pulse pressure, cool peripheries, delayed capillary refill, agitation and reduced urine output all precede hypotension.** Young patients, athletes and pregnant patients compensate longest and crash hardest. Patients on beta-blockers may not mount a tachycardia at all. Cross-refer [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.1–0.2.
 
 > [!danger] The lethal triad
 > **Hypothermia, acidosis and coagulopathy** reinforce one another in major haemorrhage. Cold impairs enzymatic clotting; acidosis impairs clotting factor function; both worsen bleeding, which worsens hypoperfusion and hypothermia. **Damage control resuscitation** addresses all three: keep the patient warm, use warmed products, limit crystalloid, give blood products early in balanced ratios, and achieve haemostasis quickly rather than resuscitating to normal physiology first.
@@ -48,7 +48,7 @@ A–E, oxygen, **two large-bore cannulae**, bloods including crossmatch. Direct 
 Surgical, endoscopic or radiological control of the bleeding source. Reversal of anticoagulation where present — see 0.4. Correction of coagulopathy guided by tests rather than empirically once the acute phase is over.
 
 ### 0.1.3 Mx – Chronic/long-term
-Iron replacement, since transfusion replaces red cells but not iron stores. Investigation of the cause of occult bleeding, particularly iron deficiency anaemia in an adult, which requires GI investigation until proven otherwise. Cross-refer [[J2]] Chronic Anaemia.
+Iron replacement, since transfusion replaces red cells but not iron stores. Investigation of the cause of occult bleeding, particularly iron deficiency anaemia in an adult, which requires GI investigation until proven otherwise. Cross-refer [[J2_Haemoglobinopathy_and_Haemolysis]] Chronic Anaemia.
 
 ---
 
@@ -122,7 +122,7 @@ Supportive care, ventilation for TRALI, diuresis for TACO, antibiotics for bacte
 > **DIC** — widespread activation with consumption. **Low fibrinogen, low platelets, prolonged PT and APTT, very high D-dimer, schistocytes on film.** Always secondary — sepsis, malignancy, obstetric catastrophe, trauma, severe haemolysis. **Treat the cause; product replacement is supportive.**
 > **Vitamin K deficiency** — malnutrition, malabsorption, prolonged antibiotics, biliary obstruction, warfarin. PT prolongs first; corrects with vitamin K.
 > **Dilutional** — massive transfusion and crystalloid.
-> **Hypothermia and acidosis** — enzymatic impairment. **Standard coagulation tests are run at 37°C and will therefore look normal in a cold, bleeding patient** — cross-refer [[A6]] 0.5.
+> **Hypothermia and acidosis** — enzymatic impairment. **Standard coagulation tests are run at 37°C and will therefore look normal in a cold, bleeding patient** — cross-refer [[A6_Thermal_and_Environmental_Injury]] 0.5.
 > **Uraemic platelet dysfunction** — normal platelet count with impaired function; desmopressin and dialysis help.
 > **Inherited** — haemophilia A and B, von Willebrand disease.
 
@@ -170,7 +170,7 @@ Haemophilia and von Willebrand patients need specialist centre care, treatment p
 > [!danger] Restarting anticoagulation is a decision, not an oversight
 > After the bleeding is controlled, someone must actively decide when — or whether — to restart. **Leaving a patient with a mechanical valve or recent pulmonary embolism off anticoagulation indefinitely because nobody made the decision is a recognised cause of preventable thrombosis.** Document the plan explicitly in the discharge summary with a named responsible clinician and a review date.
 
-**S/Smx:** Site-dependent. Look actively for occult sites — retroperitoneal bleeding presenting as flank or thigh pain with an unexplained haemoglobin fall, and intracranial bleeding presenting as headache, confusion or a fall in an elderly patient on anticoagulation after apparently trivial head trauma. Cross-refer [[F0.5]] 0.8.
+**S/Smx:** Site-dependent. Look actively for occult sites — retroperitoneal bleeding presenting as flank or thigh pain with an unexplained haemoglobin fall, and intracranial bleeding presenting as headache, confusion or a fall in an elderly patient on anticoagulation after apparently trivial head trauma. Cross-refer [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.8.
 
 **Ix:** FBC with serial haemoglobin (*why:* quantifies loss and its trajectory; *what:* falling haemoglobin). Coagulation profile including INR (*why:* guides warfarin reversal dosing, though **it must not delay reversal in intracranial haemorrhage**, and it is largely **uninformative for DOACs**; *what:* INR, APTT). **Time of last DOAC dose and renal function** (*why:* these are the practical substitute for a drug level and determine both residual effect and clearance; *what:* interval since last dose, eGFR). Specific DOAC assays — anti-Xa activity, dilute thrombin time — where available (*why:* quantifies residual effect in complex cases; *what:* drug level — noting availability is limited and turnaround often too slow to be useful acutely). UEC and LFT (*why:* clearance and reversal agent choice; *what:* renal and hepatic function). Group and hold or crossmatch (*why:* transfusion may be needed; *what:* units available). **Urgent non-contrast CT brain for any head injury or neurological symptom in an anticoagulated patient** (*why:* the threshold is far lower than in a non-anticoagulated patient, and delayed haemorrhage occurs; *what:* haemorrhage, mass effect). Imaging of the suspected site (*why:* localises for interventional or surgical control; *what:* CT angiography, endoscopy).
 
@@ -181,9 +181,9 @@ A–E, resuscitation, local haemostasis. **Stop the anticoagulant.** Reverse urg
 Definitive haemostasis — surgical, endoscopic or radiological. Neurosurgical referral for intracranial bleeding. Completion of reversal and confirmation of its adequacy.
 
 ### 0.4.3 Mx – Chronic/long-term
-**Explicit documented plan for restarting anticoagulation, with a date and a named clinician.** Reassess the original indication and the bleeding risk — the event may indicate the indication has changed, the dose is wrong for the patient's renal function, or an interacting drug has been added. Review interacting medications, particularly NSAIDs and antiplatelets. Falls assessment in an elderly patient. Cross-refer [[J3]] Bleeding & Thrombosis and [[18_Geriatrics_and_Older_Persons_Health]].
+**Explicit documented plan for restarting anticoagulation, with a date and a named clinician.** Reassess the original indication and the bleeding risk — the event may indicate the indication has changed, the dose is wrong for the patient's renal function, or an interacting drug has been added. Review interacting medications, particularly NSAIDs and antiplatelets. Falls assessment in an elderly patient. Cross-refer [[J3_Bleeding_and_Thrombosis]] Bleeding & Thrombosis and [[18_Geriatrics_and_Older_Persons_Health]].
 
 ---
 
 > [!note] Cross-references
-> Shock phenotypes and resuscitation → [[F0.3]] 0.1–0.2 · Hypothermia and cold coagulopathy → [[A6]] 0.5 · Crush injury and hyperkalaemia → [[A7]] 0.6 · Head injury on anticoagulants → [[F0.5]] 0.7–0.8 · Chronic anaemia and haemolysis → [[J2]] · Bleeding tendency as an outpatient presentation → [[J3]] · Sickle cell crisis → [[J2]]
+> Shock phenotypes and resuscitation → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.1–0.2 · Hypothermia and cold coagulopathy → [[A6_Thermal_and_Environmental_Injury]] 0.5 · Crush injury and hyperkalaemia → [[A7_Burns__Chemical_Injury__Wounds_and_Crush_Injury]] 0.6 · Head injury on anticoagulants → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]] 0.7–0.8 · Chronic anaemia and haemolysis → [[J2_Haemoglobinopathy_and_Haemolysis]] · Bleeding tendency as an outpatient presentation → [[J3_Bleeding_and_Thrombosis]] · Sickle cell crisis → [[J2_Haemoglobinopathy_and_Haemolysis]]

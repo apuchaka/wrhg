@@ -37,7 +37,7 @@ source: built in chat, model knowledge, NOT source-verified
 Treat each abnormality as it is found, before moving on. Escalate while assessing.
 
 ### 0.1.2 Mx – Definitive
-Directed at the cause identified. Cross-refer [[A1]] 0.1 The Deteriorating Patient.
+Directed at the cause identified. Cross-refer [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.1 The Deteriorating Patient.
 
 ### 0.1.3 Mx – Chronic/long-term
 Documentation, structured handover with ISBAR, and review of whether the deterioration was preventable.
@@ -93,15 +93,15 @@ Team debrief. Bystander CPR follow-up and support where relevant.
 > **Shockable (VF / pulseless VT):** defibrillate, resume compressions immediately without waiting to assess the rhythm, continue in cycles, with adrenaline and an antiarrhythmic introduced at defined points.
 > **Non-shockable (asystole / PEA):** compressions and adrenaline, with the whole effort directed at the reversible causes. Confirm asystole is genuine — check leads, gain and connections, because fine VF and a disconnected lead look similar.
 
-Reversible causes — the **4 Hs and 4 Ts** — are set out in [[A1]] 0.4 and are not repeated here.
+Reversible causes — the **4 Hs and 4 Ts** — are set out in [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.4 and are not repeated here.
 
 > [!danger] Omitted figures
-> `Defibrillation energy levels, adrenaline dose and interval, amiodarone or lignocaine dosing, the duration of each CPR cycle, and the rhythm-check interval are all omitted. Obtain from ANZCOR Guideline 11.2, 11.4, 11.5 and 11.6.`
+> `Defibrillation energy levels, adrenaline dose and interval, amiodarone or lidocaine dosing, the duration of each CPR cycle, and the rhythm-check interval are all omitted. Obtain from ANZCOR Guideline 11.2, 11.4, 11.5 and 11.6.` `UNVERIFIED — the NAME is corrected per the TGA Ingredient Harmonisation programme; the REGIMEN this line states is not thereby confirmed and needs a named Australian source.`
 
 > [!warning] PEA is the commonest in-hospital rhythm
 > It is also the one where defibrillation has nothing to offer and where the search for a cause is the treatment. Bedside echocardiography during the rhythm-check pause distinguishes true PEA from pseudo-PEA — a heart that is contracting without a palpable pulse, which carries a very different prognosis and points toward profound hypovolaemia or obstruction.
 
-**Ix:** Rhythm at the defibrillator (*why:* determines the entire algorithm branch; *what:* shockable versus non-shockable). Bedside glucose, VBG with potassium, and bedside echo — as set out in [[A1]] 0.4. Waveform capnography once an advanced airway is placed (*why:* confirms tube position, provides real-time feedback on compression quality, and a sudden sustained rise is often the first sign of return of spontaneous circulation; *what:* trace present, values rising).
+**Ix:** Rhythm at the defibrillator (*why:* determines the entire algorithm branch; *what:* shockable versus non-shockable). Bedside glucose, VBG with potassium, and bedside echo — as set out in [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.4. Waveform capnography once an advanced airway is placed (*why:* confirms tube position, provides real-time feedback on compression quality, and a sudden sustained rise is often the first sign of return of spontaneous circulation; *what:* trace present, values rising).
 
 ### 0.3.1 Mx – Immediate
 Follow the ANZCOR algorithm for the identified rhythm. Assign roles explicitly — compressor, airway, drugs, defibrillator, timekeeper, scribe, team leader — because unassigned tasks in an arrest are tasks that do not happen. Rotate the compressor. Treat reversible causes in parallel.
@@ -121,7 +121,7 @@ Neurological prognostication is deferred and is not an intern decision. Family c
 **A/P:** The critical difference from adults: **paediatric arrest is usually asphyxial rather than arrhythmic.** It is the end point of respiratory failure or shock, not a sudden primary rhythm event. The consequences: airway and ventilation carry more weight than in the adult algorithm, the commonest rhythms are asystole and PEA rather than VF, and outcomes are better when the preceding deterioration is caught — which is where the real clinical opportunity sits.
 
 > [!danger] The child who arrests was deteriorating for hours
-> Recognition of the seriously unwell child, not the arrest algorithm, is where paediatric lives are saved. Cross-refer [[M1]] The Seriously Unwell Child and [[F0.3]] 0.8 Paediatric Sepsis.
+> Recognition of the seriously unwell child, not the arrest algorithm, is where paediatric lives are saved. Cross-refer [[M1_The_Seriously_Unwell_Child]] The Seriously Unwell Child and [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] 0.8 Paediatric Sepsis.
 
 > [!warning] Weight-based everything
 > Every drug dose, fluid volume and defibrillation energy is weight-based. Use a **length-based resuscitation tape** or the child's measured weight — age-based formulae are estimates and differ between sources. `UNVERIFIED — compression-to-ventilation ratios (which differ for one versus two rescuers), compression depth as a proportion of chest diameter, defibrillation energy in J/kg, and adrenaline dosing are all omitted. Obtain from ANZCOR Guideline 12 series and the RCH resuscitation guideline.`
@@ -138,7 +138,7 @@ Effective ventilation and oxygenation are the priority. Compressions per the age
 Reversible causes, then transfer to a paediatric intensive care service. Australian paediatric retrieval services should be contacted early rather than after stabilisation fails.
 
 ### 0.4.3 Mx – Chronic/long-term
-Family support and debrief. Investigation of the underlying cause. Mandatory reporting and safeguarding consideration where the presentation is unexplained — cross-refer [[P3]] Safeguarding.
+Family support and debrief. Investigation of the underlying cause. Mandatory reporting and safeguarding consideration where the presentation is unexplained — cross-refer [[GER4_Safeguarding_and_Forensic]] Safeguarding.
 
 ---
 
@@ -283,7 +283,7 @@ Written discharge advice: no driving, no operating machinery, no significant dec
 > Renal impairment, heart failure, active or previous peptic ulcer disease, anticoagulation, asthma with known NSAID sensitivity, third-trimester pregnancy, and the elderly generally. NSAIDs are a common cause of avoidable acute kidney injury in hospital.
 
 > [!danger] Opioid prescribing safety
-> Monitor **sedation score and respiratory rate**, not saturation — cross-refer [[F0.1]] 0.5. Be cautious with combined opioid and benzodiazepine prescribing. Consider the risk of ongoing use: an opioid started in hospital and continued on discharge without a stop date is a recognised route into long-term use. Australian real-time prescription monitoring systems — **ScriptCheckSA** in South Australia — should be checked when prescribing monitored drugs. `UNVERIFIED — confirm current ScriptCheckSA obligations and which drugs are monitored, as the requirements have changed since introduction.`
+> Monitor **sedation score and respiratory rate**, not saturation — cross-refer [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.5. Be cautious with combined opioid and benzodiazepine prescribing. Consider the risk of ongoing use: an opioid started in hospital and continued on discharge without a stop date is a recognised route into long-term use. Australian real-time prescription monitoring systems — **ScriptCheckSA** in South Australia — should be checked when prescribing monitored drugs. `UNVERIFIED — confirm current ScriptCheckSA obligations and which drugs are monitored, as the requirements have changed since introduction.`
 
 **Ix:** Pain assessment with a validated scale (*why:* untreated pain is under-recognised, particularly in the cognitively impaired, and a documented score forces reassessment; *what:* score before and after intervention). UEC (*why:* renal function determines NSAID safety and opioid dose adjustment; *what:* eGFR). Directed investigation of the cause of pain (*why:* analgesia is not a substitute for diagnosis; *what:* cause-specific). Medication history including community dispensing (*why:* identifies existing opioid tolerance, which changes effective dosing entirely, and interacting agents; *what:* current opioid load).
 
@@ -294,7 +294,7 @@ Titrated IV analgesia for severe acute pain with reassessment. Multimodal base. 
 Treat the underlying cause. Regional block where indicated. Acute pain service involvement for complex cases.
 
 ### 0.9.3 Mx – Chronic/long-term
-Explicit deprescribing plan and stop date for any opioid on discharge, communicated to the GP. Cross-refer [[P1]] and [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing.
+Explicit deprescribing plan and stop date for any opioid on discharge, communicated to the GP. Cross-refer [[GER3_Preventive_and_Occupational_Health]] and [[18_Geriatrics_and_Older_Persons_Health]] Polypharmacy and Deprescribing.
 
 ---
 
@@ -314,7 +314,7 @@ Explicit deprescribing plan and stop date for any opioid on discharge, communica
 > [!warning] Weight-based dosing
 > Every paediatric analgesic dose is weight-based with a maximum. Aspirin is avoided in children because of Reye syndrome, with defined exceptions such as Kawasaki disease. `UNVERIFIED — all doses, maxima and dosing intervals are omitted; obtain from the RCH clinical practice guidelines and the Australian Medicines Handbook Children's Dosing Companion.`
 
-**Ix:** Age-appropriate pain assessment (*why:* the tool must match developmental stage or it measures nothing; *what:* FLACC, faces or numerical score before and after). Measured weight (*why:* every dose depends on it and estimates propagate error; *what:* weight in kilograms). Directed investigation of the cause (*why:* pain in a child, particularly limb pain or refusal to weight-bear, has a differential that includes serious pathology; *what:* cause-specific — cross-refer [[M5]] Limp in Child).
+**Ix:** Age-appropriate pain assessment (*why:* the tool must match developmental stage or it measures nothing; *what:* FLACC, faces or numerical score before and after). Measured weight (*why:* every dose depends on it and estimates propagate error; *what:* weight in kilograms). Directed investigation of the cause (*why:* pain in a child, particularly limb pain or refusal to weight-bear, has a differential that includes serious pathology; *what:* cause-specific — cross-refer [[M5_Paediatric_GI__GU_and_Limb]] Limp in Child).
 
 ### 0.10.1 Mx – Immediate
 Assess with the right tool. Non-pharmacological measures immediately. Intranasal or oral analgesia for rapid effect, escalating as needed. Involve the parent.
@@ -351,9 +351,9 @@ Consent, position, sterile technique, ultrasound guidance where available, aspir
 Multimodal analgesia continues alongside the block. Repeat or catheter techniques for prolonged analgesia are anaesthetic decisions.
 
 ### 0.11.3 Mx – Chronic/long-term
-Document the block, agent, volume and time in the notes and on the anaesthetic record, since duration affects the peri-operative plan. Cross-refer [[L5]] Hip Pain and [[11_08a_Ortho_-_Joint_Replacements]].
+Document the block, agent, volume and time in the notes and on the anaesthetic record, since duration affects the peri-operative plan. Cross-refer [[L5_Regional_Limb_Pain]] Hip Pain and [[11_08a_Ortho_-_Joint_Replacements]].
 
 ---
 
 > [!note] Cross-references
-> Cardiac arrest and the 4 Hs and 4 Ts → [[A1]] 0.4 · Deteriorating patient recognition → [[A1]] 0.1 · Shock phenotypes and fluid decisions → [[F0.3]] · Opioid-induced respiratory depression → [[F0.1]] 0.5 · Acute asthma and COPD ventilation detail → [[F0.5]]
+> Cardiac arrest and the 4 Hs and 4 Ts → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.4 · Deteriorating patient recognition → [[A1_Emergency_-_Deteriorating_Patient__Sepsis__Cardiac_Arrest]] 0.1 · Shock phenotypes and fluid decisions → [[F0-3_Shock_Phenotypes_and_Sepsis_Syndromes]] · Opioid-induced respiratory depression → [[F0-1_Toxidromes__Allergic_Emergencies_and_Envenomation]] 0.5 · Acute asthma and COPD ventilation detail → [[F0-5_Acute_Respiratory__Headache_and_Head_Injury]]
