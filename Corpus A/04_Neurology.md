@@ -1654,6 +1654,64 @@ The pieces of this examination already exist elsewhere and are not repeated: the
 
 ---
 
+### Acute Vestibular Syndrome and the HINTS Examination — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Acute-onset **continuous** vertigo lasting more than 24 hours, with nausea and vomiting, nystagmus, head-motion intolerance and gait unsteadiness.
+
+**A/P:** The differential is essentially two conditions with opposite implications: **vestibular neuritis** (benign, self-limiting, from inflammation of the vestibular nerve, often post-viral) and **posterior circulation stroke** — cerebellar or brainstem infarction. **A meaningful proportion of patients presenting with isolated acute vertigo have a stroke**, and they are the group most likely to be discharged home.
+
+> [!danger] HINTS is more sensitive than early MRI for posterior circulation stroke
+> **Early diffusion-weighted MRI has a false negative rate in the first 24–48 hours for small posterior fossa infarcts.** A properly performed HINTS examination by a trained examiner outperforms it.
+> **This is the single most important fact in this file**, because it inverts the instinct to reassure on the basis of a negative scan.
+
+> [!info] HINTS — the three components
+> **Only valid in a patient with CONTINUOUS, ONGOING vertigo and nystagmus at the time of examination.** It is **not** applicable to episodic vertigo, and it is **not** applicable to a currently asymptomatic patient — using it there produces dangerously misleading results.
+>
+> **1. Head Impulse test** — rapid small-amplitude head turn while the patient fixates on your nose.
+> **· ABNORMAL (a corrective catch-up saccade) = PERIPHERAL** — the vestibulo-ocular reflex is broken on that side.
+> **· NORMAL (eyes stay locked on target) = CENTRAL.** This is counterintuitive: **a normal test is the worrying one.**
+>
+> **2. Nystagmus** —
+> **· Unidirectional, horizontal (with a torsional component), fast phase always in the same direction = PERIPHERAL.**
+> **· Direction-changing on gaze to either side, or PURELY VERTICAL, or purely torsional = CENTRAL.**
+>
+> **3. Test of Skew** — alternate cover test.
+> **· Any vertical corrective movement (skew deviation) = CENTRAL.**
+>
+> **The mnemonic for the central pattern is "INFARCT": Impulse Normal, Fast-phase Alternating, Refixation on Cover Test.**
+> **Any ONE central finding makes it central.** All three must be peripheral to call it peripheral.
+
+> [!warning] HINTS-plus, and why hearing loss does not mean peripheral
+> Adding **new unilateral hearing loss** to the examination improves sensitivity.
+> **New hearing loss with acute vertigo is NOT reassuring** — an **anterior inferior cerebellar artery (AICA) infarct supplies the labyrinth as well as the brainstem and cerebellum, so it can cause hearing loss with vertigo.** The historical teaching that hearing loss localises to the ear is not safe in this setting.
+
+> [!danger] Other features that make it central
+> **· Inability to stand or walk unaided.** **A patient with acute vertigo who cannot walk without falling has a central lesion until proven otherwise** — patients with vestibular neuritis veer toward the affected side but can generally walk.
+> **· Severe headache or neck pain** — consider **vertebral artery dissection**, especially in a younger patient.
+> **· Any other brainstem or cerebellar sign** — diplopia, dysarthria, dysphagia, facial numbness, limb ataxia, Horner syndrome, hemisensory loss.
+> **· Sudden onset**, vascular risk factors, or age.
+> **· Deterioration over hours** — cerebellar stroke swells and compresses the brainstem. Cross-refer [[04_Neurology]] Stroke Syndromes and Localisation.
+
+> [!tip] Vestibular neuritis — treat, but do not over-treat
+> Vestibular suppressants (prochlorperazine, promethazine, benzodiazepines) relieve acute symptoms.
+> **Limit them to the first few days.** **Prolonged use PREVENTS central vestibular compensation and produces a patient who remains dizzy for months.** This is a common and avoidable iatrogenic problem.
+> **Early vestibular rehabilitation — movement rather than rest — accelerates compensation**, and telling the patient to lie still in a dark room is the wrong advice beyond the first day or two. `UNVERIFIED — the recommended duration limit for suppressants, and the evidence for corticosteroids, which is contested.`
+
+**S/Smx:** Continuous vertigo, nausea and vomiting, nystagmus, unsteadiness, and — where central — additional neurological signs.
+
+**Ix:** **HINTS examination in the patient with ongoing nystagmus** (*why:* more sensitive than early MRI, immediate, and free; *what:* the INFARCT pattern versus a peripheral pattern). **Gait assessment — can the patient stand and walk unaided?** (*why:* inability to walk is a strong central indicator and takes seconds to test; *what:* truncal ataxia, falling). **MRI brain with diffusion, including posterior fossa** where central features are present or suspicion persists (*why:* CT is very poor for the posterior fossa; *what:* infarct — noting the false negative rate in the first 48 hours, so **a negative early MRI in a patient with a central HINTS pattern does not exclude stroke and should be repeated**). CT angiography of the vertebral and basilar arteries where dissection or vertebrobasilar disease is suspected (*why:* dissection is a leading cause of posterior circulation stroke in the young; *what:* dissection, stenosis). Audiometry where hearing loss (*why:* characterises the loss and distinguishes labyrinthine from retrocochlear; *what:* pattern and side). ECG and cardiac assessment (*why:* embolic source, and arrhythmia as an alternative cause of "dizziness"; *what:* AF, arrhythmia). Postural blood pressure (*why:* excludes orthostatic hypotension; *what:* postural drop).
+
+#### Mx – Immediate — D5 §0.2.1
+**HINTS and gait assessment.** Antiemetics and vestibular suppressants short-term. **Urgent imaging and stroke pathway if any central feature.** Admit and observe if the patient cannot mobilise safely.
+
+#### Mx – Definitive — D5 §0.2.2
+Stroke management per [[04_Neurology]] Strokes, or supportive care with early vestibular rehabilitation for neuritis.
+
+#### Mx – Chronic/long-term — D5 §0.2.3
+**Vestibular rehabilitation** for persistent symptoms, which is effective and under-referred. Secondary prevention after stroke. Driving advice.
+
+
 ### The "Dizzy" Patient — Disambiguating the Complaint — from unverified layer
 `SRC:D5_Dizziness__Vertigo_and_Gait §0.1` `UNVERIFIED — model knowledge, not source-checked.`
 
