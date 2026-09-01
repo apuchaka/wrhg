@@ -36,7 +36,13 @@ def run(cfg):
         lvl = '#' * min(6, len(lvl) + 1)
         if num_for_sub:
             return f"{lvl} {num_for_sub}.{m.group(2).split('.')[-1]} {tail}"
-        return f"{lvl} {tail}"
+        # UNNUMBERED DESTINATION. Dropping B's number leaves bare `#### Mx - Immediate`,
+        # which every B section emits, so n sections merged into one unnumbered file give
+        # an n-way duplicate heading. base-A 04_Neurology had 0 duplicate headings and the
+        # first six D1 blocks produced 18 headings collapsing to 3 names. There is no
+        # destination number to scope under, so scope under the block's own provenance
+        # coordinates instead - unique by construction, since bfile+section is.
+        return f"{lvl} {tail} \u2014 {cfg['bfile'].split('_')[0]} \u00a7{cfg['sec']}.{m.group(2).split('.')[-1]}"
     body = re.sub(r'(?m)^(#{3,6})\s+(\d+\.[\d.]+)\s+(.*)$', _resub, body)
     nb = ("\n`NO-BASELINE — absent from the corpus before this merge; no inherited layer "
           "disagrees with it.`") if cfg.get('no_baseline') else ""
@@ -121,12 +127,14 @@ def run(cfg):
     after = dig(new)
     probes = [l for l in block.split('\n') if len(l.strip()) > 60][:3]
     miss = [x for x in probes if x not in new]
-    hdrs = [l for l in out if re.match(r'^#{2,6} ', l)]
-    dup = [h for h, c in collections.Counter(hdrs).items() if c > 1]
+    dupset = lambda ls: {h for h, c in collections.Counter(
+        [l for l in ls if re.match(r'^#{2,6} ', l)]).items() if c > 1}
+    dup = sorted(dupset(out) - dupset(lines))
     print(f"  {cfg['bfile']} §{cfg['sec']} -> {p}")
     print(f"    block {len(block.split(chr(10)))} lines | superseded {removed} lines")
     print(f"    digits added {dict(after-before) or '{}'} | REMOVED {dict(before-after) or '{}'}")
-    print(f"    probes missing {len(miss)} | duplicate headers {len(dup)}")
+    print(f"    probes missing {len(miss)} | NEW duplicate headers {len(dup)}"
+          + (" " + repr(dup) if dup else ""))
     ok = not miss and not dup and (cfg.get('supersede') or not (before-after))
     print(f"    {'OK' if ok else '*** CHECK ***'}")
     return ok
