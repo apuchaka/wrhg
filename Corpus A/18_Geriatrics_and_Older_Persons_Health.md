@@ -296,6 +296,73 @@ This is not a marginal issue in Australian practice — **roughly 20–34% of ol
 
 ---
 
+### Polypharmacy and Deprescribing — from unverified layer
+`SRC:GER1_Comprehensive_Geriatric_Assessment §0.4` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** **Polypharmacy** is commonly defined as the concurrent use of five or more regular medicines — but **the number matters less than the appropriateness.** A patient on eight medicines all clearly indicated is in a better position than one on four that are not.
+
+> [!danger] The prescribing cascade
+> **A drug side effect is mistaken for a new medical condition, and a second drug is prescribed to treat it.**
+> **Recognisable examples:**
+> **· Calcium channel blocker → ankle oedema → furosemide** (and then hyponatraemia and falls). Cross-refer [[01_Cardiovascular]] §0.36 Vascular Disease.
+> **· Metoclopramide or prochlorperazine → drug-induced parkinsonism → levodopa.** Cross-refer [[04_Neurology]] Parkinsonism.
+> **· Anticholinergic → dry mouth, constipation, urinary retention → laxatives and further drugs.**
+> **· NSAID → hypertension → antihypertensive.**
+> **· Cholinesterase inhibitor → urinary urgency → oxybutynin** (which then opposes the cholinesterase inhibitor and worsens cognition).
+> **The question that breaks the cascade: "could this new symptom be caused by a medicine they are already taking?"** Ask it before every new prescription in an older person.
+
+> [!warning] The high-risk classes in older people
+> **· Benzodiazepines and Z-drugs** — falls, fractures, delirium, cognitive impairment, dependence. **Among the highest-yield deprescribing targets.**
+> **· Anticholinergics** — see the box below.
+> **· Antipsychotics** — increased stroke and mortality in dementia. Cross-refer [[04_Neurology]] Delirium–0.3.
+> **· Opioids** — falls, constipation, delirium, respiratory depression.
+> **· NSAIDs** — acute kidney injury, GI bleeding, heart failure, hypertension. **Rarely appropriate long-term in an older person.**
+> **· Sulfonylureas** — hypoglycaemia, which in an older person causes falls, confusion and death.
+> **· Digoxin** — narrow therapeutic index with reduced renal clearance.
+> **· Proton pump inhibitors** — frequently continued indefinitely without indication. Cross-refer [[03_Gastrointestinal]] §0.28.1 Dyspepsia, Reflux and Heartburn.
+> **· Tricyclics and first-generation antihistamines** — anticholinergic and sedating.
+
+> [!danger] Anticholinergic burden is cumulative and is measured across the whole list
+> **Many drugs have modest anticholinergic activity, and the effect is additive.** A patient on an antihistamine, an antidepressant, a bladder antimuscarinic and a tricyclic for pain may have a substantial total burden without any single "anticholinergic" drug.
+> **Consequences: delirium, cognitive decline, falls, dry mouth and dental disease, constipation, urinary retention, blurred vision, and impaired heat regulation.**
+> **Calculate or at least consider the total anticholinergic burden** rather than assessing drugs one at a time — cross-refer the existing corpus entry [[18_Geriatrics_and_Older_Persons_Health]] on anticholinergic burden.
+
+> [!tip] Tools that structure the review
+> **· STOPP/START criteria** — explicit lists of potentially inappropriate prescriptions (STOPP) and of indicated treatments that are being omitted (START). **The START half matters: under-prescribing is as real a problem as over-prescribing**, and older people are frequently denied anticoagulation, statins, osteoporosis treatment and analgesia on the basis of age alone.
+> **· Beers criteria** — American, widely cited, useful with the caveat that some agents differ from Australian practice.
+> **· Drug Burden Index** — quantifies cumulative anticholinergic and sedative exposure.
+> `UNVERIFIED — the criteria themselves.`
+
+> [!info] The Australian medication review services
+> **· Home Medicines Review (HMR)** — a GP-initiated, Medicare-funded review conducted by an accredited pharmacist **in the patient's home**, which is where the actual medication practices are visible: the expired boxes, the duplicated brands, the doses not being taken.
+> **· Residential Medication Management Review (RMMR)** — the equivalent for residential aged care.
+> **These are under-utilised, and referring for one is a concrete, fundable action** you can recommend. `UNVERIFIED — current eligibility and referral requirements.`
+
+> [!warning] How to deprescribe
+> **1. Get an accurate list** — including over-the-counter, complementary and "as needed" medicines, and what they are **actually taking** rather than what is on the chart.
+> **2. For each: what is the indication, is it still valid, is it working, and do the benefits still outweigh the harms given the patient's remaining life expectancy and goals?** A statin started for primary prevention at 60 may not serve an 88-year-old with limited life expectancy; the same statin after a myocardial infarction may.
+> **3. Prioritise** — start with the highest-risk, lowest-benefit agents.
+> **4. Taper where necessary** — **benzodiazepines, opioids, antidepressants, corticosteroids, beta-blockers, gabapentinoids and PPIs all have withdrawal or rebound effects**, and abrupt cessation causes harm and convinces the patient they need the drug.
+> **5. Change one thing at a time, and monitor.**
+> **6. Involve the patient and carer** — deprescribing without explanation feels like the withdrawal of care, and it fails.
+
+> [!danger] Renal function is overestimated in older people
+> **Creatinine is produced by muscle. An older person with low muscle mass can have a "normal" creatinine and substantially impaired renal function.**
+> **eGFR equations are less reliable at the extremes of body habitus and age**, and many drug dose adjustments are based on creatinine clearance rather than eGFR.
+> **The practical consequence: renally cleared drugs — including DOACs, metformin, gabapentinoids and many antibiotics — are routinely overdosed in frail older people with a normal-looking creatinine.**
+
+**Ix:** **A complete medication reconciliation from multiple sources** (*why:* the hospital list, the GP list, the pharmacy dispensing record and what is actually in the patient's bag routinely disagree, and the discrepancies are where the harm sits; *what:* the true regimen). **UEC with eGFR, interpreted with the caveat above** (*why:* dose adjustment; *what:* renal function). Drug levels where relevant — digoxin, phenytoin, lithium (*why:* narrow therapeutic index with reduced clearance; *what:* toxicity). Postural blood pressure (*why:* identifies drug-induced orthostatic hypotension causing falls; *what:* postural drop). Cognitive and functional assessment (*why:* both are affected by drug burden and both improve with deprescribing; *what:* impairment). **Anticholinergic burden calculation** (*why:* the cumulative effect is invisible if drugs are assessed individually; *what:* total burden).
+
+#### Mx – Immediate — GER1 §0.4.1
+Withhold contributing drugs in an acute presentation — falls, delirium, hypotension, acute kidney injury.
+
+#### Mx – Definitive — GER1 §0.4.2
+Structured deprescribing as above, with a Home Medicines Review where appropriate.
+
+#### Mx – Chronic/long-term — GER1 §0.4.3
+**Document the deprescribing rationale clearly**, so the next clinician does not simply restart it — this is the commonest reason deprescribing fails. Communicate with the GP and community pharmacist. Use dose administration aids where adherence is the issue, and address cost, which is a genuine and under-asked barrier.
+
+
 ## Abuse of Older People (Elder Abuse) and Carer Stress
 
 > [!note] Gap-filled from CSV ("Elder abuse / carer stress recognition," High yield). The only genuinely absent row in the whole Geriatrics category on a corpus-wide search — the sole related content was one carer-wellbeing bullet in [[Communication]] Caring for the Elderly in the Community (Dementia, Mobility, Parkinson's, Recurrent Falls). Deliberately structured to mirror [[15_24a_Paeds_-_Non-Accidental_Injury_and_Sexual_Abuse]] Non-accidental injury (NAI) — risk factors, features suggestive of abuse, differential, then response — so the two safeguarding entries read the same way despite living in different files. Verified against the RACGP aged care clinical guide (Silver Book) Part B "Abuse of older people", the AIFS National Elder Abuse Prevalence Study, and the Aged Care Quality and Safety Commission's Serious Incident Response Scheme guidance, Aug 2026.
