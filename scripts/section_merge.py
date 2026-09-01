@@ -106,7 +106,11 @@ def run(cfg):
         refs = lambda t: set(x.rstrip('.') for x in
                              re.findall(r'\[\[([^\]]+)\]\]|(§[\d.]+)', t)
                              for x in x if x)
-        lost_refs = refs('\n'.join(frag)) - refs(block)
+        # A `SRC:<file> §n.n` token is PROVENANCE, not a pointer, and a fragment built from
+        # two B sections carries two of them. Counting those as cross-references makes the
+        # refusal fire on the section number the merge is replacing. Exclude SRC lines from
+        # the fragment side, exactly as the PROT loop above already does.
+        lost_refs = refs('\n'.join(l for l in frag if 'SRC:' not in l)) - refs(block)
         for r in sorted(lost_refs):
             lost.append(f"cross-reference: {r}")
         if lost:
