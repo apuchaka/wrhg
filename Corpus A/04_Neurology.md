@@ -1446,23 +1446,52 @@ Treat provoked seizures by treating the provocation. **Antiseizure medication af
 The safety and driving conversation, documented. Neurology follow-up. Epilepsy nurse and support organisations.
 
 
-### Added from unverified layer — current terminology, and two counselling points
-`SRC:D6_Seizures_and_Movement_Disorders §0.1` `SRC:D6 §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+### Epilepsy Management — from unverified layer
+`SRC:D6_Seizures_and_Movement_Disorders §0.3` `UNVERIFIED — model knowledge, not source-checked.`
+*Supersedes the former ILAE-terminology and counselling fragment. Its ILAE terms are carried by §Seizures — Classification and the First Seizure above, which states them in full; its SUDEP marker and epilepsy-surgery pointer are carried here.*
 
-> [!info] The current ILAE terms — the concept above, named
-> §Focal Seizures already says focal seizures are divided **by awareness and by motor versus non-motor features**. The current names for that division:
-> - **Focal aware** — awareness retained throughout. (Formerly *simple partial*.)
-> - **Focal with impaired awareness** — awareness lost or reduced at any point. (Formerly *complex partial*.)
-> - **Focal to bilateral tonic-clonic** — a focal onset that spreads. (Formerly *secondary generalised*.)
->
-> **The corpus uses neither the current terms nor the superseded ones**, so this adds names rather than content — but the names are what an exam and a discharge summary will use.
+> [!danger] Sodium valproate and women of childbearing potential
+> **Valproate is highly teratogenic and causes neurodevelopmental impairment in a substantial proportion of exposed children.** It **must not be used in women and girls of childbearing potential** unless there is no effective alternative and strict conditions are met — and there are formal regulatory requirements around counselling, pregnancy prevention and documentation in Australia.
+> **This is the single most important prescribing point in epilepsy**, it is examined, and it has been the subject of regulatory action. `UNVERIFIED — the current TGA requirements and the specific conditions under which valproate may be used.`
 
-> [!danger] SUDEP — sudden unexpected death in epilepsy
-> **Patients and families have a right to know it exists.** The main modifiable factors are **seizure control and medication adherence**, and the risk concentrates in **nocturnal generalised tonic-clonic seizures**.
-> Avoiding the conversation does not protect anyone: it removes the strongest reason a patient has to take medication reliably.
+> [!warning] Match the drug to the seizure type — and know which drugs make things worse
+> **Carbamazepine, phenytoin, gabapentin, pregabalin and vigabatrin can WORSEN absence and myoclonic seizures**, and may aggravate generalised epilepsies.
+> **So misclassifying a generalised epilepsy as focal, and prescribing carbamazepine, can make the patient dramatically worse** — this is a recognised and avoidable harm.
+> **Broad-spectrum agents** (valproate, levetiracetam, lamotrigine, topiramate) cover both. `UNVERIFIED — agent selection by syndrome.`
+
+> [!tip] The adverse effects and interactions that matter clinically
+> **Levetiracetam** — **behavioural and mood effects: irritability, aggression, depression.** Ask about it specifically at follow-up, because patients and families often do not connect it to the drug.
+> **Lamotrigine** — **serious rash including Stevens-Johnson syndrome, which is why titration must be slow.** Cross-refer [[09_01_Dermatology_-_Dermatological_Emergencies]]. **Oestrogen-containing contraception lowers lamotrigine levels substantially**, so starting or stopping the pill can cause breakthrough seizures or toxicity.
+> **Carbamazepine** — enzyme inducer, **hyponatraemia**, and the **HLA-B\*1502 association with severe cutaneous reactions in some Asian populations**, where pre-emptive testing is recommended.
+> **Phenytoin** — **zero-order kinetics**, so small dose increases produce large level increases; gum hypertrophy, ataxia, nystagmus, and it is an enzyme inducer.
+> **Topiramate** — cognitive slowing, weight loss, renal stones, and **teratogenicity.**
+> **Enzyme-inducing antiseizure medications (carbamazepine, phenytoin, phenobarbitone, topiramate at higher doses) reduce the efficacy of hormonal contraception** — **this counselling point is repeatedly missed and results in unplanned pregnancies on teratogenic drugs.** Cross-refer `TODO:link — O6 Sexual & reproductive health (unbuilt)`.
+
+> [!warning] Pregnancy and preconception
+> **Plan ahead.** Preconception counselling, **high-dose folate**, review of the regimen toward the least teratogenic effective option, and **monotherapy at the lowest effective dose.**
+> **Do not stop antiseizure medication abruptly when a woman discovers she is pregnant** — a tonic-clonic seizure carries risk to both mother and fetus that generally exceeds the medication risk. Refer urgently rather than advising cessation.
+> Lamotrigine and levetiracetam levels **fall during pregnancy** and may need dose adjustment. `UNVERIFIED — folate dose and monitoring requirements.`
+
+> [!tip] Things to discuss that frequently are not
+> **SUDEP (sudden unexpected death in epilepsy)** — patients and families have a right to know it exists, and the main modifiable factors are **seizure control and medication adherence**, particularly for nocturnal generalised tonic-clonic seizures. Avoiding the conversation is no longer considered acceptable practice.
+> Avoiding it also removes the strongest reason a patient has to take medication reliably.
 > `UNVERIFIED — the incidence, and how Australian guidance recommends the conversation be framed and timed; Epilepsy Action Australia, or RACGP.`
+> **Adherence**, which is the commonest cause of breakthrough seizures.
+> **Sleep, alcohol and drug use** as triggers.
+> **Medication withdrawal** after a prolonged seizure-free period is possible in selected patients, but carries a recurrence risk and **the driving implications must be discussed before withdrawal begins.**
+> **Referral for epilepsy surgery assessment in drug-resistant epilepsy** — defined as failure of two appropriately chosen and tolerated medications — because **surgery can be curative in selected patients and referral is frequently delayed by many years.** The referral itself is covered by [[NEW_Drugs_15_Neurological]].
 
-- **Drug-resistant epilepsy is defined as failure of two appropriately chosen and tolerated antiseizure medications.** It matters because it is the trigger for **epilepsy surgery assessment**, referral for which is frequently delayed by years — see [[NEW_Drugs_15_Neurological]], which covers the referral itself.
+**Ix:** **MRI brain** (*why:* identifies a surgically remediable lesion; *what:* mesial temporal sclerosis, dysplasia, tumour). EEG, including prolonged or video-EEG monitoring (*why:* classifies the syndrome and, in video-EEG, distinguishes epileptic from functional seizures; *what:* discharge pattern, event capture). Antiseizure medication levels (*why:* useful mainly for adherence and toxicity, and for phenytoin because of its kinetics — **routine level monitoring is not required for most modern agents**; *what:* level). FBC, LFT, sodium (*why:* drug-specific monitoring — hyponatraemia with carbamazepine, cytopenias and hepatotoxicity with valproate; *what:* derangement). Bone density on long-term enzyme-inducing agents (*why:* they accelerate vitamin D metabolism and cause osteoporosis; *what:* reduced density).
+
+#### Mx – Immediate — D6 §0.3.1
+Not applicable outside acute seizures.
+
+#### Mx – Definitive — D6 §0.3.2
+Antiseizure medication matched to syndrome, at the lowest effective dose, ideally as monotherapy. Referral for surgical assessment in drug-resistant epilepsy. Vagus nerve stimulation and ketogenic diet in selected patients.
+
+#### Mx – Chronic/long-term — D6 §0.3.3
+Annual review including adherence, side effects, contraception, preconception planning, driving, bone health, mood, and the safety advice in §Seizures — Classification and the First Seizure above.
+
 
 
 ### Febrile Convulsions
