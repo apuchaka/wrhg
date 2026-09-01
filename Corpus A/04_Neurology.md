@@ -1812,6 +1812,43 @@ Specifically referring to intracerebral haemorrhage (ICH).
 
 ---
 
+### Stroke Syndromes and Localisation — from unverified layer
+`SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!tip] Anterior circulation territories
+> **Anterior cerebral artery** — supplies the medial hemisphere. **Contralateral weakness and sensory loss affecting the LEG more than the arm**, with abulia, apathy, and urinary incontinence.
+> **Middle cerebral artery** — supplies the lateral hemisphere. **Contralateral weakness and sensory loss affecting the FACE and ARM more than the leg**, contralateral homonymous hemianopia, and **gaze deviation TOWARDS the side of the lesion** (the patient "looks at the lesion" and away from the weak side).
+> **· Dominant (usually left) hemisphere → aphasia.** Broca (expressive — non-fluent, effortful, comprehension preserved, patient frustrated) versus Wernicke (receptive — fluent but meaningless, poor comprehension, patient unaware).
+> **· Non-dominant hemisphere → neglect, anosognosia, dressing and constructional apraxia.** These patients may be unaware of their deficit entirely, which affects safety and rehabilitation.
+> **Posterior cerebral artery** — **contralateral homonymous hemianopia with macular sparing**, visual agnosia, and — with dominant occipital and splenium involvement — **alexia without agraphia** (can write but cannot read what they wrote).
+
+> [!danger] Crossed signs mean brainstem
+> **Ipsilateral cranial nerve findings with contralateral limb findings is essentially pathognomonic for a brainstem lesion**, because the cranial nerve nuclei are affected at the level of the lesion while the long tracts have not yet decussated.
+> **Lateral medullary (Wallenberg) syndrome**, from posterior inferior cerebellar artery occlusion, is the classic: **ipsilateral facial pain and temperature loss, ipsilateral Horner syndrome, ipsilateral ataxia, palatal and vocal cord weakness with dysphagia and hoarseness — and CONTRALATERAL pain and temperature loss in the body.** Notably **without limb weakness**, which is why it is missed.
+
+> [!warning] The five lacunar syndromes
+> Small vessel occlusion in deep structures — internal capsule, corona radiata, pons, thalamus, basal ganglia.
+> **1. Pure motor hemiparesis** (commonest) · **2. Pure sensory stroke** · **3. Sensorimotor stroke** · **4. Ataxic hemiparesis** · **5. Dysarthria–clumsy hand.**
+> **The defining feature is the ABSENCE of cortical signs — no aphasia, no neglect, no visual field defect, no reduced consciousness.** Strongly associated with hypertension and diabetes.
+
+> [!tip] The Oxford (Bamford) classification
+> **TACS** (total anterior circulation syndrome) — all three of: higher cortical dysfunction, homonymous hemianopia, and motor/sensory deficit of face, arm and leg. Worst prognosis.
+> **PACS** — two of the three, or isolated higher cortical dysfunction.
+> **LACS** — a lacunar syndrome as above.
+> **POCS** — posterior circulation: cranial nerve palsy with crossed deficit, bilateral deficits, disordered conjugate eye movement, cerebellar dysfunction, or isolated homonymous hemianopia.
+> Useful because it predicts prognosis and likely territory from the bedside, before imaging.
+
+> [!danger] Cerebellar stroke deteriorates suddenly
+> A cerebellar infarct or haemorrhage may present with only **vertigo, vomiting, headache and ataxia**, with no limb weakness — and then **swell over 24–72 hours, compressing the brainstem and obstructing the fourth ventricle**, causing rapid deterioration to coma and death.
+> **Cerebellar stroke requires close observation and urgent neurosurgical involvement if consciousness declines** — decompression is life-saving. **Do not discharge a patient with acute vertigo and ataxia without considering this.** Cross-refer [[04_Neurology]] Cranial Nerve Disorders and Vertigo.
+
+> [!warning] Watershed (borderzone) infarction
+> Occurs at the junctions between arterial territories during **systemic hypotension or profound hypoperfusion** — after cardiac arrest, sepsis, or major surgery.
+> Produces **bilateral proximal upper limb weakness with preserved distal function — the "man in a barrel" pattern** — or bilateral visual field and cortical deficits. **Think of it in a patient with a neurological deficit after a hypotensive episode**, rather than looking for an embolic source.
+
+**Ix:** As per 0.1. **MRI is superior for posterior fossa and small infarcts**, and a normal CT does not exclude a posterior circulation stroke.
+
+
 ### Added from unverified layer — stroke chameleons, and two things to examine for
 `SRC:D3_Stroke_and_Focal_Neurological_Deficit §0.5` `SRC:D3 §0.6` `UNVERIFIED — model knowledge, not source-checked.`
 
