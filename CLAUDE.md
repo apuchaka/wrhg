@@ -343,6 +343,28 @@ Intern/RMO level. The test for any content: would a newly-graduated intern need 
        pattern used a hyphen. **Loss rate 0%; verification false-negative rate 1 in 27.**
        Each was found only by running the check where the answer was already known.
 
+   - **AN AUDIT SCOPED BY COMMIT-MESSAGE TEXT IS SCOPED BY WHAT A SESSION CHOSE TO
+     WRITE, NOT BY WHAT HAPPENED. Scope by what the commit DID.** Third check in this
+     project unable to find the thing it existed to find.
+     - Found 2026-09-01 at the fourteen-file gate. An audit for `UNVERIFIED` markers
+       destroyed by a supersede ran `git log -i --grep="supersede"` and reported
+       **seven**. That grep matches **66 of 93** section-merge commits — a commit
+       supersedes a fragment or it does not, and whether its *message* says so is a
+       drafting choice. Re-scoped to `--grep="^Section merge"` and then to *every
+       commit whose diff removes lines*, the real number was **ten**, and the four
+       extra included a **login-required Therapeutic Guidelines marker** (§1.14: never
+       delete one) and an **R1 tranexamic-acid dose-and-window marker** whose
+       replacement block carried no marker at all.
+     - **The seven were reported as complete.** That is the damage: not the miss itself
+       but a completeness claim built on a scope nobody had checked.
+     - **The test for any audit's scope: could a commit that did the thing fail to
+       match?** `--grep` over prose always can. Select on the diff — files touched,
+       lines removed, a token appearing or disappearing — because that is the record of
+       what happened rather than of what was said about it.
+     - Same family as the vacuous duplicate-header check and the `Stemmer`-at-1.0
+       duplicate scorer: **the check ran, reported a number, and the number was a
+       property of the check rather than of the corpus.**
+
 12. **A DISCARD VERDICT MUST BE MADE AT CLAIM LEVEL. Naming a destination file or
    section is not evidence that the destination carries the content.** Rules 2, 9 and 10
    all govern the search that *looks for* something. This governs the verdict that decides
