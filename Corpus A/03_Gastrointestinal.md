@@ -610,7 +610,7 @@ Azathioprine, mesalazine, bendroflumethiazide, furosemide, steroids, sodium valp
 
 > [!warning] Local complications and the step-up approach
 > **Infected necrosis** — suspect in a patient deteriorating after the first week, with gas in the collection on CT. **Management follows a "step-up" approach: percutaneous or endoscopic drainage first, escalating to minimally invasive necrosectomy, with open surgical necrosectomy as a last resort** — this sequence has substantially better outcomes than proceeding straight to open surgery, and is a genuine change from older practice.
-> **Intervention is delayed where possible until the collection is walled off**, typically around four weeks, because operating on unwalled necrosis is far more morbid.
+> **Intervention is delayed where possible until the collection is walled off**, typically around four weeks, because operating on unwalled necrosis is far more morbid. `UNVERIFIED — the timing at which intervention is preferred, and the criteria for calling necrosis infected; gastroenterology or upper GI surgical guidance.`
 > **Splenic vein thrombosis** → left-sided (sinistral) portal hypertension → **isolated gastric varices**, which can bleed and are treated by splenectomy rather than by portal decompression.
 > **Pseudoaneurysm**, usually of the splenic artery, eroded by pancreatic enzymes — can cause catastrophic haemorrhage, sometimes with a herald bleed. Treated by embolisation.
 > **Abdominal compartment syndrome** from massive fluid sequestration and bowel oedema.
@@ -661,7 +661,7 @@ ERCP for cholangitis or persistent obstruction. **Index-admission cholecystectom
 
 > [!info] Severity assessment
 > The **revised Atlanta classification** grades disease as **mild** (no organ failure, no local complications), **moderately severe** (transient organ failure resolving within 48 hours, or local complications), or **severe** (**persistent organ failure beyond 48 hours**) — with persistence of organ failure being the key determinant of mortality.
-> Scoring systems — **Glasgow-Imrie, Ranson, BISAP, APACHE II** — and a **CRP measured at 48 hours** are used for early prognostication. `UNVERIFIED — all score components, thresholds and the CRP cut-off.`
+> Scoring systems — **Glasgow-Imrie, Ranson, BISAP, APACHE II** — and a **CRP measured at 48 hours** are used for early prognostication. `UNVERIFIED — all score components and thresholds, the CRP cut-off, and the Atlanta definitions with the organ-failure criteria they use (the modified Marshall score); RACGP or a gastroenterology reference.`
 > **The most useful bedside markers are simple: persistent tachycardia, oliguria, hypoxia, altered mental state, rising urea and haematocrit, and a rising CRP.** A patient who is not improving over the first 48 hours is the one to worry about.
 
 **S/Smx:** **Severe constant epigastric pain radiating through to the back, partially relieved by sitting forward**, with nausea and vomiting. Tenderness, guarding, ileus and distension. In severe disease: tachycardia, hypotension, oliguria, hypoxia, fever, and confusion. **Grey Turner (flank) and Cullen (periumbilical) bruising indicate retroperitoneal haemorrhage — they are late, uncommon, and their absence means nothing.**
@@ -784,7 +784,7 @@ Nutritional support, which is frequently poor in these patients and delays heali
 > [!tip] The triad, and why it presents late
 > **1. Pain** — chronic epigastric pain radiating to the back, often postprandial, sometimes relieved by sitting forward. **It may paradoxically diminish as the gland "burns out"** over years.
 > **2. Exocrine insufficiency** — **steatorrhoea: pale, bulky, offensive, oily stool that is difficult to flush**, with weight loss and fat-soluble vitamin (A, D, E, K) deficiency. **This requires loss of the large majority of exocrine function before it appears**, which is why it is a late feature and why the diagnosis is often delayed.
-> **3. Endocrine insufficiency — type 3c diabetes.** Distinct from type 1 and type 2 because **both insulin AND glucagon-producing cells are lost**, so these patients have **brittle diabetes with a high risk of hypoglycaemia** and reduced counter-regulation. This matters for how aggressively they are treated. Diabetes itself is owned by [[06_Metabolic_Medicine_and_Endocrinology]]; the isolated gastric varices of sinistral portal hypertension are at §0.6.7.
+> **3. Endocrine insufficiency — type 3c diabetes.** Distinct from type 1 and type 2 because **both insulin AND glucagon-producing cells are lost**, so these patients have **brittle diabetes with a high risk of hypoglycaemia** and reduced counter-regulation. This matters for how aggressively they are treated. Diabetes itself is owned by [[06_Metabolic_Medicine_and_Endocrinology]]; the isolated gastric varices of sinistral portal hypertension are at §0.6.7. `UNVERIFIED — the diagnostic criteria distinguishing type 3c from type 2, and the preferred glucose-lowering agents; see [[06_Metabolic_Medicine_and_Endocrinology]] and specialist endocrine guidance.`
 
 > [!danger] Autoimmune pancreatitis mimics pancreatic cancer
 > **IgG4-related autoimmune pancreatitis produces a diffusely enlarged "sausage-shaped" pancreas or a focal mass, obstructive jaundice, and weight loss — clinically and radiologically indistinguishable from carcinoma.**
@@ -1329,7 +1329,7 @@ Total or segmental non-obstructive colonic distension associated with systemic t
 > **Examine, and biopsy anything atypical.** Perianal disease can be the first presentation of Crohn disease, sometimes preceding intestinal symptoms by years.
 
 > [!tip] The rest of the anorectal pain differential
-> **Thrombosed external haemorrhoid** — sudden severe pain with a tense, tender, blue-purple perianal lump. **Excision within the first few days relieves it dramatically; after that, conservative management** as it is already resolving. `UNVERIFIED — the time window.`
+> **Thrombosed external haemorrhoid** — sudden severe pain with a tense, tender, blue-purple perianal lump. **Excision within the first few days relieves it dramatically; after that, conservative management** as it is already resolving. `UNVERIFIED — the time window within which excision is preferred; RACGP or a colorectal surgical reference.`
 > **Proctalgia fugax** — **brief, severe, fleeting rectal pain, often at night, lasting seconds to minutes and resolving completely.** Benign and functional; the correct management is explanation and reassurance after examination.
 > **Levator ani syndrome** — chronic dull aching rectal pain, worse sitting, with tenderness on palpating the levator muscles.
 > **Anal carcinoma** — pain, bleeding, a mass or a non-healing ulcer. **Associated with HPV, HIV, immunosuppression, smoking, and receptive anal intercourse.** Incidence is rising. **Do not attribute a persistent anal ulcer or lump to a fissure or pile without examining and biopsying it.**
