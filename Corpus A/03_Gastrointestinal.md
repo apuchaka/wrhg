@@ -2072,6 +2072,50 @@ Treat the cause.
 ### 0.1.3 Mx – Chronic/long-term
 Address recurrent or chronic causes as in 0.4.
 
+### 0.41.17 Acute Vomiting — Differential and Red Flags — from unverified layer
+`SRC:C2_Nausea_and_Vomiting §0.2` `UNVERIFIED — model knowledge, not source-checked.`
+
+> [!danger] Red flags
+> **· Bilious vomiting** — obstruction distal to the ampulla; in a neonate, a surgical emergency (see 0.3)
+> **· Faeculent vomiting** — established distal obstruction
+> **· Haematemesis or coffee grounds** — cross-refer §0.33 Upper GI Bleed
+> **· Vomiting with headache, neurological signs, or worse in the morning** — raised intracranial pressure
+> **· Projectile vomiting** in an infant — pyloric stenosis
+> **· Severe abdominal pain, distension, absolute constipation** — obstruction
+> **· Vomiting preceding rather than following the pain** — points away from appendicitis and toward obstruction or a non-surgical cause
+> **· New persistent vomiting in an older adult** — malignancy or obstruction until excluded
+> **· Weight loss, dehydration, or inability to keep fluids down**
+
+> [!tip] The differential, grouped by mechanism
+> **Gastrointestinal** — gastroenteritis, bowel obstruction, appendicitis, pancreatitis, cholecystitis, peptic ulcer, gastric outlet obstruction, gastroparesis, food poisoning.
+> **Neurological** — raised intracranial pressure, migraine, vestibular disease, meningitis, intracranial haemorrhage.
+> **Metabolic and endocrine** — **diabetic ketoacidosis**, uraemia, hypercalcaemia, hyponatraemia, **adrenal crisis**, thyrotoxicosis, and thyroid storm.
+> **Drugs and toxins** — opioids, chemotherapy, antibiotics (particularly macrolides), NSAIDs, **digoxin toxicity**, alcohol, **cannabinoid hyperemesis**, and withdrawal states.
+> **Infective** — any systemic sepsis; in children and the elderly, urinary tract infection and pneumonia commonly present with vomiting and no localising symptom.
+> **Cardiac** — **inferior myocardial infarction**, which presents with epigastric pain and vomiting and is misattributed to gastroenteritis.
+> **Obstetric** — pregnancy, hyperemesis gravidarum. Cross-refer `TODO:link — O1 Early pregnancy (unbuilt)`.
+> **Psychiatric** — eating disorders, and psychogenic vomiting.
+
+> [!warning] Raised intracranial pressure has a characteristic pattern
+> **Vomiting that is worse in the morning or on waking, may be projectile, and is often NOT preceded by nausea** — because it arises centrally rather than through gut afferents. Combined with headache worse on lying or on Valsalva, papilloedema, or any focal neurological sign, this needs imaging. Cross-refer [[04_Neurology]] Other Headache Causes and [[04_Neurology]] CT Head, Head Injury, and Intracranial Pressure.
+
+> [!danger] Vomiting in an unwell elderly patient is not gastroenteritis until you have excluded the alternatives
+> **Bowel obstruction, mesenteric ischaemia, myocardial infarction, urinary sepsis, hypercalcaemia and drug toxicity** all present this way, and gastroenteritis is over-diagnosed in this group with real consequences. Cross-refer §0.41.6 The Acute Abdomen in Special Groups.
+
+**S/Smx:** As above, with careful attention to hydration — dry mucous membranes, reduced skin turgor, tachycardia, postural drop, oliguria, and in children reduced wet nappies and sunken fontanelle.
+
+**Ix:** **UEC with chloride and bicarbonate** (*why:* protracted vomiting causes hypokalaemic hypochloraemic metabolic alkalosis, and the pattern itself supports the diagnosis and guides replacement; *what:* low potassium and chloride, raised bicarbonate, raised urea). **Bedside glucose and ketones** (*why:* DKA presents with vomiting and abdominal pain and is rapidly fatal if missed; *what:* hyperglycaemia with ketosis — noting **euglycaemic DKA on SGLT2 inhibitors**, cross-refer [[06_Metabolic_Medicine_and_Endocrinology]] Diabetic Ketoacidosis (DKA)). **Pregnancy test in every woman of reproductive age** (*why:* pregnancy is a common cause and changes both the differential and the drug choices; *what:* positive). **Calcium** (*why:* hypercalcaemia causes vomiting, constipation and confusion and is a marker of malignancy; *what:* raised corrected calcium). FBC and CRP (*why:* infection and inflammation; *what:* leucocytosis). LFT and lipase (*why:* hepatobiliary and pancreatic causes; *what:* obstructive pattern, raised lipase). **ECG** (*why:* inferior infarction; *what:* ischaemic change). Urinalysis and culture (*why:* urinary infection as an occult cause, particularly in the elderly and in children; *what:* infection). Drug levels where relevant — **digoxin** in particular (*why:* toxicity presents with nausea, vomiting and visual disturbance and is treatable; *what:* level with potassium and renal function). **Erect abdominal and chest radiograph, or CT** where obstruction is suspected (*why:* identifies obstruction, perforation and the transition point; *what:* dilated loops, air-fluid levels, free gas). **CT brain** where there are neurological features or a raised-ICP pattern (*why:* excludes a space-occupying lesion or haemorrhage; *what:* mass, hydrocephalus, haemorrhage).
+
+### 0.2.1 Mx – Immediate
+IV fluids with potassium replacement. Antiemetic matched to cause. **Nasogastric tube for obstruction** — decompression relieves symptoms and reduces aspiration risk. Nil by mouth where obstruction or a surgical cause is suspected.
+
+### 0.2.2 Mx – Definitive
+Cause-specific.
+
+### 0.2.3 Mx – Chronic/long-term
+Oral rehydration education. Review of any drug identified as the cause.
+
+
 
 
 
