@@ -854,6 +854,43 @@ Dietitian involvement — **malnutrition is the rule rather than the exception**
 
 ---
 
+### 0.14.1 Pancreatic Malignancy — from unverified layer
+`SRC:C7_Pancreatobiliary_Disease §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Most commonly ductal adenocarcinoma, arising in the head in the majority.
+
+> [!danger] Painless progressive obstructive jaundice with weight loss
+> **The classic presentation of a carcinoma of the head of the pancreas**, and the absence of pain is characteristic rather than reassuring. **Courvoisier's law** — a palpable non-tender gallbladder with jaundice suggests malignant rather than calculous obstruction. Cross-refer §0.41.22 Conjugated and Obstructive Jaundice.
+> **Body and tail tumours present far later**, with vague epigastric and back pain, weight loss and anorexia, because there is no duct to obstruct early — which is why they are usually unresectable at diagnosis.
+
+> [!tip] Presentations that are easy to miss
+> **New-onset diabetes in an older adult with weight loss** — pancreatic cancer causes diabetes, and **new diabetes in a person over about 50 without the usual risk factors, particularly with weight loss rather than weight gain, can be the first sign.**
+> **Trousseau sign of malignancy** — migratory superficial thrombophlebitis, and more broadly **unprovoked venous thromboembolism** as a presentation of occult pancreatic cancer.
+> **Depression preceding the diagnosis** is a described and repeatedly noted association.
+> **Steatorrhoea** from pancreatic duct obstruction.
+
+> [!warning] CA 19-9 is not a diagnostic or screening test
+> It is **raised in benign biliary obstruction, cholangitis and pancreatitis**, and it is **undetectable in Lewis antigen-negative individuals** (a meaningful minority of the population) even with advanced disease. **Its role is in monitoring treatment response and detecting recurrence in a patient with a known diagnosis**, not in making the diagnosis. `UNVERIFIED — its performance characteristics.`
+
+> [!tip] Resectability is the key question
+> Only a minority of pancreatic cancers are resectable at diagnosis. **Resectability is determined by the relationship of the tumour to the major vessels** — superior mesenteric artery and vein, coeliac axis, hepatic artery, portal vein — and by the absence of distant metastases. This is assessed on a **pancreatic protocol CT**, and the case is discussed at a multidisciplinary meeting.
+> Resection of a head tumour is a **pancreaticoduodenectomy (Whipple procedure)**, a major operation with substantial morbidity, so patient selection matters.
+
+**S/Smx:** Jaundice, pruritus, dark urine and pale stools, weight loss, anorexia, epigastric and back pain, new diabetes, steatorrhoea, and a palpable gallbladder or mass.
+
+**Ix:** **Pancreatic protocol contrast CT** (*why:* the staging investigation — it characterises the mass, defines vascular involvement and therefore resectability, and detects metastases; *what:* mass, vessel encasement, liver and peritoneal metastases). **Endoscopic ultrasound with fine needle aspiration** (*why:* the most sensitive modality for small pancreatic lesions and provides tissue diagnosis before chemotherapy; *what:* mass, cytology). MRCP (*why:* defines biliary and pancreatic duct anatomy; *what:* duct obstruction, double duct sign). **IgG4** (*why:* autoimmune pancreatitis mimics carcinoma and is treatable with steroids — see 0.3; *what:* raised IgG4). LFT and INR (*why:* obstructive pattern and the vitamin K-dependent coagulopathy that must be corrected before intervention; *what:* obstructive LFTs, prolonged INR). CA 19-9 (*why:* baseline for monitoring, with the caveats above; *what:* level). Staging laparoscopy in selected patients (*why:* detects small peritoneal and hepatic surface metastases that imaging misses, avoiding a futile laparotomy; *what:* peritoneal disease).
+
+#### 0.14.1.1 Mx – Immediate
+Correct coagulopathy with vitamin K. Treat cholangitis if present. Manage pruritus.
+
+#### 0.14.1.2 Mx – Definitive
+**Multidisciplinary discussion.** Resection for the resectable minority, with neoadjuvant or adjuvant chemotherapy. **Biliary stenting** for obstruction in unresectable disease.
+
+#### 0.14.1.3 Mx – Chronic/long-term
+**Palliative care involvement early**, which improves quality of life and is not a late-stage referral.
+Symptom-specific measures worth knowing: **coeliac plexus block or neurolysis for pain**, which is effective and under-used; **pancreatic enzyme replacement**, because exocrine insufficiency is common, causes weight loss and is easily treated; **duodenal stenting for gastric outlet obstruction**; and **VTE prophylaxis**, given the high thrombotic risk. Nutritional support and dietitian involvement.
+
+
 ## 0.15 Neuroendocrine Tumours (NETs / Carcinoid Tumours)
 
 Secretory NETs that release serotonin, kinins, and other vasoactive peptides. Carcinoid syndrome develops in only 40% of patients with NETs. If NETs metastasise to the liver, 95% of patients will develop symptoms.
