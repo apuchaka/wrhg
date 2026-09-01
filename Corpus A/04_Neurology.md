@@ -1836,6 +1836,41 @@ Stroke management per [[04_Neurology]] Strokes, or supportive care with early ve
 
 **P (vertigo generally):** BPPV frequently recurs but responds well to repeat Epley manoeuvres; vestibular neuritis typically resolves over days to weeks as central compensation develops, though some patients have prolonged symptoms.
 
+### Nystagmus — from unverified layer
+`SRC:D5_Dizziness__Vertigo_and_Gait §0.6` `UNVERIFIED — model knowledge, not source-checked.`
+
+**D:** Involuntary rhythmic oscillation of the eyes.
+
+> [!info] Peripheral versus central nystagmus
+> | | **Peripheral** | **Central** |
+> |---|---|---|
+> | Direction | **Unidirectional** — fast phase always the same way | **Direction-changing** with gaze |
+> | Plane | Horizontal with torsional component | **Purely vertical or purely torsional** |
+> | Effect of visual fixation | **Suppressed** by fixation | **Not suppressed** |
+> | Fatigability | Fatigues on repeated testing | Does not fatigue |
+> | Associated features | Hearing loss, tinnitus | Other brainstem or cerebellar signs |
+> **A purely vertical or purely torsional nystagmus is central until proven otherwise**, and is never peripheral.
+
+> [!tip] Specific patterns worth recognising
+> **Downbeat nystagmus** — **craniocervical junction pathology, classically Arnold-Chiari malformation**, cerebellar degeneration, **drugs (lithium, anticonvulsants)**, and **Wernicke encephalopathy.** Worth knowing because the Chiari association is a structural, treatable finding.
+> **Upbeat nystagmus** — brainstem lesions.
+> **Gaze-evoked nystagmus** — commonly **drug-induced: anticonvulsants (particularly phenytoin), alcohol, sedatives, lithium.** Very often the answer is on the medication chart.
+> **Internuclear ophthalmoplegia** — impaired adduction of one eye with **nystagmus of the abducting eye**, from a medial longitudinal fasciculus lesion. **Bilateral INO in a young person is multiple sclerosis until proven otherwise; unilateral INO in an older person is more likely a brainstem stroke.**
+> **Opsoclonus** — chaotic multidirectional saccades. **Paraneoplastic — neuroblastoma in children, and lung or breast cancer in adults** — and a reason to search for a tumour.
+> **Congenital nystagmus** — present from infancy, usually horizontal, with a null point, and **no oscillopsia** (the patient does not perceive the world moving), which distinguishes it from acquired nystagmus.
+
+**Ix:** **Careful characterisation of the nystagmus itself** (*why:* direction, plane and the effect of fixation classify it as central or peripheral before any imaging; *what:* the pattern above). **MRI brain with attention to the posterior fossa and craniocervical junction** (*why:* CT is inadequate here, and downbeat nystagmus specifically requires imaging of the craniocervical junction; *what:* Chiari malformation, cerebellar or brainstem lesion, demyelination). **Medication review and drug levels** (*why:* anticonvulsant toxicity is a common and completely reversible cause; *what:* supratherapeutic phenytoin, lithium). Thiamine status and empirical thiamine (*why:* Wernicke encephalopathy — treat rather than test; *what:* clinical response). Audiometry and vestibular testing (*why:* characterises an associated peripheral lesion; *what:* hearing and vestibular function). Paraneoplastic antibodies and tumour search in opsoclonus (*why:* the underlying malignancy is the priority; *what:* neuroblastoma in children, lung or breast cancer in adults).
+
+#### Mx – Immediate — D5 §0.6.1
+Thiamine where Wernicke is possible. Withhold or reduce the causative drug.
+
+#### Mx – Definitive — D5 §0.6.2
+Cause-specific.
+
+#### Mx – Chronic/long-term — D5 §0.6.3
+Management of oscillopsia, and low vision support where relevant.
+
+
 ## Strokes
 
 > [!danger] A genuine, severe Australian health equity issue with a striking age-of-onset gap — not a generic epidemiological footnote. **Aboriginal and Torres Strait Islander Australians experience stroke at substantially higher rates and at a much younger age than non-Indigenous Australians.** A remote-Australia healthcare network study found age-standardised stroke incidence roughly **3-fold higher** overall, with a median onset age of 54 — **17 years younger** than non-Aboriginal patients. The disparity is even starker in younger patients specifically: in Aboriginal patients aged under 55, ischaemic stroke incidence was **14-fold greater**, and intracerebral haemorrhage **19-fold greater**, than in non-Aboriginal patients of the same age — this isn't a modest shift in risk, it's a fundamentally different age-related risk profile.
