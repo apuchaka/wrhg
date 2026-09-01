@@ -1938,7 +1938,7 @@ Ladd procedure for malrotation. Pyloromyotomy for pyloric stenosis. Adult obstru
 #### 0.41.7.3 Mx – Chronic/long-term
 Feeding re-establishment and growth monitoring. Parental education.
 
-#### 0.41.7.8 Added from unverified layer — jaundice: mechanism and the three-way classification
+### 0.41.8 Added from unverified layer — jaundice: mechanism and the three-way classification
 `SRC:C3_Jaundice_and_Liver_Disease §0.1` `UNVERIFIED — model knowledge, not source-checked.`
 
 **A/P:** senescent red cells are broken down in the reticuloendothelial system → haem → biliverdin → **unconjugated bilirubin**, which is lipid-soluble, tightly albumin-bound and therefore **cannot be filtered by the glomerulus** → transported to the liver → taken up by hepatocytes → **conjugated with glucuronic acid by UGT1A1** → **conjugated bilirubin**, which is water-soluble → excreted in bile → converted by gut bacteria to urobilinogen and stercobilin, which colours the stool.
@@ -1963,7 +1963,7 @@ Feeding re-establishment and growth monitoring. Parental education.
 
 ---
 
-#### 0.41.7.9 Added from unverified layer — the distended abdomen
+### 0.41.9 Added from unverified layer — the distended abdomen
 `SRC:C5_Bowel_Habit__Obstruction_and_Distension §0.5` `UNVERIFIED — model knowledge, not source-checked.`
 
 > [!tip] The six Fs
